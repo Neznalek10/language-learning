@@ -1,0 +1,206 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "School",
+  "unit": "3.1",
+  "level": null,
+  "words": [
+    {
+      "q": "dějepis",
+      "a": "histoire"
+    },
+    {
+      "q": "zeměpis",
+      "a": "géographie"
+    },
+    {
+      "q": "matematika",
+      "a": [
+        "mathématiques",
+        "maths"
+      ]
+    },
+    {
+      "q": "tělocvik",
+      "a": [
+        "éducation physique et sportive",
+        "EPS"
+      ]
+    },
+    {
+      "q": "chemie",
+      "a": "chimie"
+    },
+    {
+      "q": "fyzika",
+      "a": "physique"
+    },
+    {
+      "q": "hudebka",
+      "a": "musique"
+    },
+    {
+      "q": "informatika",
+      "a": "informatique"
+    },
+    {
+      "q": "škola",
+      "a": "école"
+    },
+    {
+      "q": "střední škola",
+      "a": "lycée"
+    },
+    {
+      "q": "ošetřovna",
+      "a": "infirmerie"
+    },
+    {
+      "q": "laboratoř",
+      "a": "laboratoire"
+    },
+    {
+      "q": "knihovna",
+      "a": "bibliothèque"
+    },
+    {
+      "q": "bazén",
+      "a": "piscine"
+    },
+    {
+      "q": "tělocvična",
+      "a": "gymnase"
+    },
+    {
+      "q": "uniforma",
+      "a": "uniforme"
+    },
+    {
+      "q": "jídelna",
+      "a": "cantine"
+    },
+    {
+      "q": "cizí jazyk",
+      "a": "langue étrangère"
+    },
+    {
+      "q": "prázdniny",
+      "a": "vacances",
+      "unit": "7.1"
+    },
+    {
+      "q": "třída (ve škole)",
+      "a": "classe"
+    },
+    {
+      "q": "dvojjazyčný",
+      "a": "bilingue"
+    },
+    {
+      "q": "školní dvůr",
+      "a": "cour de récréation"
+    },
+    {
+      "q": "vyučování",
+      "a": "cours"
+    },
+    {
+      "q": "školní předmět",
+      "a": "matière scolaire"
+    },
+    {
+      "q": "francouzština",
+      "a": "français"
+    },
+    {
+      "q": "angličtina",
+      "a": "anglais"
+    },
+    {
+      "q": "biologie",
+      "a": "biologie"
+    },
+    {
+      "q": "výtvarka",
+      "a": "arts plastiques"
+    },
+    {
+      "q": "občanka",
+      "a": "éducation civique"
+    },
+    {
+      "q": "rozvrh",
+      "a": "emploi du temps"
+    },
+    {
+      "q": "domácí úkol",
+      "a": "devoir"
+    },
+    {
+      "q": "výlet",
+      "a": "sortie"
+    },
+    {
+      "q": "učitel",
+      "a": [
+        "professeur",
+        "prof"
+      ]
+    },
+    {
+      "q": "žák",
+      "a": "élève"
+    },
+    {
+      "q": "přestávka",
+      "a": [
+        "récréation",
+        "récré"
+      ]
+    },
+    {
+      "q": "zajímavý",
+      "a": "intéressant"
+    },
+    {
+      "q": "těžký (obtížný)",
+      "a": "difficile"
+    },
+    {
+      "q": "snadný",
+      "a": "facile"
+    },
+    {
+      "q": "skvělý",
+      "a": "génial"
+    },
+    {
+      "q": "hrozný (na nic)",
+      "a": "nul"
+    },
+    {
+      "q": "oblíbený",
+      "a": [
+        "préféré",
+        "préférée"
+      ]
+    },
+    {
+      "q": "sešit",
+      "a": "cahier"
+    },
+    {
+      "q": "kniha",
+      "a": "livre"
+    },
+    {
+      "q": "pero",
+      "a": "stylo"
+    },
+    {
+      "q": "tužka",
+      "a": "crayon"
+    }
+  ]
+}

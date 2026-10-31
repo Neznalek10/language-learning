@@ -1,0 +1,289 @@
+{
+  "schema": 1,
+  "goals": [
+    "Používat členy un, une, des a le, la, les",
+    "Říct, čí co je: mon, ton, son, notre, votre, leur",
+    "Představit svou rodinu a zvířata",
+    "Tvořit množné číslo, i to nepravidelné",
+    "Počítat do 100"
+  ],
+  "lessons": [
+    {
+      "id": "fr-2.1-1",
+      "title": "Un frère, une sœur",
+      "subtitle": "Rod a členy",
+      "topics": ["articles", "family"],
+      "words": ["family#rodina", "family#bratr", "family#sestra", "family#matka", "family#otec", "family#rodiče", "family#syn", "family#dcera", "family#dítě", "family#chlapec", "family#holka"],
+      "learn": [
+        {"title": "Mužský, nebo ženský rod", "blocks": [
+          {"type": "text", "cs": "Každé francouzské podstatné jméno je buď **mužského**, nebo **ženského** rodu. Střední rod neexistuje. Rod se nejlépe naučíš rovnou se členem."},
+          {"type": "text", "cs": "**Neurčitý člen** (nějaký, jeden) je *un* pro mužský rod, *une* pro ženský a *des* pro množné číslo."},
+          {"type": "table", "head": ["", "jednotné číslo", "množné číslo"], "firstCs": true, "rows": [
+            ["mužský rod", "un frère", "des frères"],
+            ["ženský rod", "une sœur", "des sœurs"]
+          ]},
+          {"type": "tip", "title": "Jiný rod než v češtině", "cs": "Rod se často neshoduje s češtinou: *le livre* (kniha) je mužského rodu, *la voiture* (auto) ženského. Proto se slovíčka uč vždy se členem."},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'ai ___ sœur.", "a": ["une"], "hint": "neurčitý člen"}}
+        ]},
+        {"title": "Určitý člen", "blocks": [
+          {"type": "text", "cs": "**Určitý člen** (ten, ta) použiješ, když je jasné, o kom nebo o čem mluvíš: *le* pro mužský rod, *la* pro ženský, *les* pro množné číslo. Před samohláskou a němým *h* se *le* i *la* zkracují na *l'*."},
+          {"type": "table", "head": ["", "jednotné číslo", "množné číslo"], "firstCs": true, "rows": [
+            ["mužský rod", "le père", "les pères"],
+            ["ženský rod", "la mère", "les mères"],
+            ["před samohláskou", "l'enfant, l'oncle", "les enfants, les oncles"]
+          ]},
+          {"type": "text", "cs": "Množné číslo se většinou tvoří přidáním *-s*, které se nevyslovuje: *un frère → des frères*. Slyšíš ho jen ve členu: *le* [lə] → *les* [le]."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ enfants sont à Prague.", "a": ["Les"], "hint": "určitý člen"}}
+        ]},
+        {"title": "un, nebo le?", "blocks": [
+          {"type": "text", "cs": "*Un, une* použiješ, když o něčem mluvíš poprvé: *J'ai un frère.* (Mám bratra.) *Le, la* použiješ pro konkrétní, už známou věc: *Le frère de Léa a dix ans.* (Bratrovi Léy je deset.)"},
+          {"type": "examples", "items": [
+            {"fr": "J'ai un frère et deux sœurs.", "cs": "Mám bratra a dvě sestry."},
+            {"fr": "Les parents de Tom sont à Paris.", "cs": "Tomovi rodiče jsou v Paříži."},
+            {"fr": "C'est la famille Martin.", "cs": "To je rodina Martinových."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.1-1-01", "type": "cloze", "fr": "J'ai ___ frère.", "a": ["un"], "hint": "neurčitý člen"},
+        {"id": "fr-2.1-1-02", "type": "cloze", "fr": "C'est ___ fille de Marc.", "a": ["la"], "hint": "určitý člen"},
+        {"id": "fr-2.1-1-03", "type": "cloze", "fr": "Paul a ___ enfants.", "a": ["des"], "hint": "neurčitý člen"},
+        {"id": "fr-2.1-1-04", "type": "cloze", "fr": "___ père de Léa s'appelle Luc.", "a": ["Le"], "hint": "určitý člen"},
+        {"id": "fr-2.1-1-05", "type": "cloze", "fr": "C'est ___enfant de Marie.", "a": ["l'"], "hint": "určitý člen"},
+        {"id": "fr-2.1-1-06", "type": "cloze", "fr": "___ parents de Tom sont à Paris.", "a": ["Les"], "hint": "určitý člen"},
+        {"id": "fr-2.1-1-07", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "un frère", "a": ["des frères"]},
+        {"id": "fr-2.1-1-08", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "la fille", "a": ["les filles"]},
+        {"id": "fr-2.1-1-09", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "l'enfant", "a": ["les enfants"]},
+        {"id": "fr-2.1-1-10", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "une sœur", "a": ["des sœurs"]},
+        {"id": "fr-2.1-1-11", "type": "build", "cs": "Mám bratra a dvě sestry.", "a": ["J'ai un frère et deux sœurs."]},
+        {"id": "fr-2.1-1-12", "type": "build", "cs": "Mají dítě.", "a": ["{Ils|Elles} ont un enfant."]},
+        {"id": "fr-2.1-1-13", "type": "build", "cs": "To je rodina Martinových.", "a": ["C'est la famille Martin."]},
+        {"id": "fr-2.1-1-14", "type": "order", "cs": "Otec a matka jsou v Praze.", "a": ["Le père et la mère sont à Prague"], "extra": ["un", "une"]}
+      ]
+    },
+    {
+      "id": "fr-2.1-2",
+      "title": "Mon père, ma mère",
+      "subtitle": "Můj, tvůj, jeho, její",
+      "topics": ["possessives", "family"],
+      "words": ["family#táta", "family#máma", "family#dědeček", "family#babička", "family#prarodiče", "family#strýc", "family#teta", "family#bratranec", "family#sestřenice"],
+      "learn": [
+        {"title": "Můj, tvůj, jeho", "blocks": [
+          {"type": "text", "cs": "Přivlastňovací zájmeno se ve francouzštině řídí **rodem a číslem toho, co vlastníš**, ne tím, kdo to vlastní."},
+          {"type": "table", "head": ["", "mužský rod", "ženský rod", "množné číslo"], "firstCs": true, "rows": [
+            ["můj", "mon père", "ma mère", "mes parents"],
+            ["tvůj", "ton frère", "ta sœur", "tes cousins"],
+            ["jeho / její", "son oncle", "sa tante", "ses grands-parents"]
+          ]},
+          {"type": "tip", "title": "son = jeho i její", "cs": "*Son père* znamená „jeho otec“ i „její otec“. Rozhoduje rod slova *père*, ne to, jestli vlastník je kluk, nebo holka. Proto *Marie et son frère* (Marie a její bratr) i *Tom et sa sœur* (Tom a jeho sestra)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ mère s'appelle Jana.", "a": ["Ma"], "hint": "moje"}}
+        ]},
+        {"title": "mon amie", "blocks": [
+          {"type": "text", "cs": "Před samohláskou a němým *h* se v ženském rodě místo *ma, ta, sa* používá *mon, ton, son*, aby se to dalo plynule vyslovit: *mon amie, ton école, son histoire*."},
+          {"type": "examples", "items": [
+            {"fr": "Mon père s'appelle Pavel.", "cs": "Můj otec se jmenuje Pavel."},
+            {"fr": "Ta sœur a quel âge ?", "cs": "Kolik je tvé sestře?"},
+            {"fr": "Mes grands-parents habitent à Prague.", "cs": "Moji prarodiče bydlí v Praze."},
+            {"fr": "C'est mon amie Julie.", "cs": "To je moje kamarádka Julie."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Léa et ___ frère sont à Paris.", "a": ["son"], "hint": "její"}}
+        ]},
+        {"title": "Rodokmen", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Le père de mon père, c'est mon grand-père.", "cs": "Otec mého otce je můj dědeček."},
+            {"fr": "La sœur de ma mère, c'est ma tante.", "cs": "Sestra mé matky je moje teta."},
+            {"fr": "Le fils de mon oncle, c'est mon cousin.", "cs": "Syn mého strýce je můj bratranec."},
+            {"fr": "La fille de ma tante, c'est ma cousine.", "cs": "Dcera mé tety je moje sestřenice."}
+          ]},
+          {"type": "tip", "title": "papa, maman", "cs": "*Papa* a *maman* jsou jako české táta a máma. *Père* a *mère* zní oficiálněji."}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.1-2-01", "type": "cloze", "fr": "___ père a quarante ans.", "a": ["Mon"], "hint": "můj"},
+        {"id": "fr-2.1-2-02", "type": "cloze", "fr": "___ sœur s'appelle Eva.", "a": ["Ma"], "hint": "moje"},
+        {"id": "fr-2.1-2-03", "type": "cloze", "fr": "___ parents habitent à Prague.", "a": ["Mes"], "hint": "moji"},
+        {"id": "fr-2.1-2-04", "type": "cloze", "fr": "C'est ___ frère ?", "a": ["ton"], "hint": "tvůj"},
+        {"id": "fr-2.1-2-05", "type": "cloze", "fr": "Comment s'appelle ___ mère ?", "a": ["ta"], "hint": "tvoje"},
+        {"id": "fr-2.1-2-06", "type": "cloze", "fr": "Tom et ___ sœur ont douze ans.", "a": ["sa"], "hint": "jeho"},
+        {"id": "fr-2.1-2-07", "type": "cloze", "fr": "C'est ___ amie Julie.", "a": ["mon"], "hint": "moje", "why": "Před samohláskou se místo ma píše mon."},
+        {"id": "fr-2.1-2-08", "type": "cloze", "fr": "La sœur de ma mère, c'est ma ___.", "a": ["tante"], "hint": "teta"},
+        {"id": "fr-2.1-2-09", "type": "cloze", "fr": "Le fils de mon oncle, c'est mon ___.", "a": ["cousin"], "hint": "bratranec"},
+        {"id": "fr-2.1-2-10", "type": "build", "cs": "Můj dědeček bydlí v Praze.", "a": ["Mon grand-père habite à Prague."]},
+        {"id": "fr-2.1-2-11", "type": "build", "cs": "Moje babička je Francouzka.", "a": ["Ma grand-mère est française."]},
+        {"id": "fr-2.1-2-12", "type": "build", "cs": "Kolik je let tvé sestře?", "a": ["{Quel âge a ta sœur|Ta sœur a quel âge} ?"]},
+        {"id": "fr-2.1-2-13", "type": "build", "cs": "Marie a její bratr jsou Češi.", "a": ["Marie et son frère sont tchèques."], "why": "Frère je mužského rodu, proto son, i když jde o Mariina bratra."},
+        {"id": "fr-2.1-2-14", "type": "transform", "task_cs": "Změň „můj“ na „tvůj“", "fr": "Mon oncle s'appelle Petr.", "a": ["Ton oncle s'appelle Petr."]},
+        {"id": "fr-2.1-2-15", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "Ma cousine est française.", "a": ["Mes cousines sont françaises."]}
+      ]
+    },
+    {
+      "id": "fr-2.1-3",
+      "title": "Notre famille",
+      "subtitle": "Náš, váš, jejich a rodinný stav",
+      "topics": ["possessives", "family"],
+      "words": ["family#manžel", "family#žena", "family#nevlastní bratr", "family#nevlastní sestra", "family#jedináček", "family#ženatý, vdaná", "family#rozvedený", "family#dvojčata", "family#přítel", "family#kamarád", "family#kamarádka"],
+      "learn": [
+        {"title": "Náš, váš, jejich", "blocks": [
+          {"type": "table", "head": ["", "jednotné číslo", "množné číslo"], "firstCs": true, "rows": [
+            ["náš / naše", "notre père, notre mère", "nos parents"],
+            ["váš / vaše", "votre frère, votre sœur", "vos cousins"],
+            ["jejich", "leur oncle, leur tante", "leurs enfants"]
+          ]},
+          {"type": "text", "cs": "Tady se mužský a ženský rod neliší, mění se jen číslo: *notre/nos, votre/vos, leur/leurs*."},
+          {"type": "tip", "title": "leur, nebo leurs?", "cs": "*Leur* má *-s* jen v množném čísle: *leur fils* (jejich syn), *leurs enfants* (jejich děti)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ parents sont à Paris.", "a": ["Nos"], "hint": "naši"}}
+        ]},
+        {"title": "Petrův, Mariin", "blocks": [
+          {"type": "text", "cs": "Tvary jako „Petrův“ nebo „Mariin“ francouzština nemá. Vlastnictví vyjádříš pomocí *de*: *le frère de Petr* (Petrův bratr), *la mère de Marie* (Mariina matka). Před samohláskou *d'*: *le chien d'Anna*."},
+          {"type": "examples", "items": [
+            {"fr": "C'est la sœur de Tom.", "cs": "To je Tomova sestra."},
+            {"fr": "Le père d'Anna est italien.", "cs": "Annin otec je Ital."}
+          ]},
+          {"type": "check", "item": {"type": "build", "cs": "To je Petrův bratr.", "a": ["C'est le frère de Petr."]}}
+        ]},
+        {"title": "Rodinný stav", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["ženatý / vdaná", "marié / mariée"],
+            ["rozvedený / rozvedená", "divorcé / divorcée"],
+            ["jedináček", "fils unique / fille unique"],
+            ["nevlastní bratr / sestra", "demi-frère / demi-sœur"],
+            ["dvojčata", "des jumeaux"]
+          ]},
+          {"type": "examples", "items": [
+            {"fr": "Ma tante est mariée.", "cs": "Moje teta je vdaná."},
+            {"fr": "Mes parents sont divorcés.", "cs": "Moji rodiče jsou rozvedení."},
+            {"fr": "Je suis fils unique.", "cs": "Jsem jedináček. (kluk)"},
+            {"fr": "J'ai une demi-sœur.", "cs": "Mám nevlastní sestru."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.1-3-01", "type": "cloze", "fr": "___ fils a dix ans.", "a": ["Notre"], "hint": "náš"},
+        {"id": "fr-2.1-3-02", "type": "cloze", "fr": "C'est ___ voiture, madame ?", "a": ["votre"], "hint": "vaše"},
+        {"id": "fr-2.1-3-03", "type": "cloze", "fr": "Comment s'appellent ___ enfants ?", "a": ["vos"], "hint": "vaše"},
+        {"id": "fr-2.1-3-04", "type": "cloze", "fr": "Paul et Marie habitent avec ___ grands-parents.", "a": ["leurs"], "hint": "jejich"},
+        {"id": "fr-2.1-3-05", "type": "cloze", "fr": "Ils ont un chien. ___ chien s'appelle Rex.", "a": ["Leur"], "hint": "jejich"},
+        {"id": "fr-2.1-3-06", "type": "build", "cs": "To je Annina matka.", "a": ["C'est la mère d'Anna."]},
+        {"id": "fr-2.1-3-07", "type": "build", "cs": "Naši rodiče jsou rozvedení.", "a": ["Nos parents sont divorcés."]},
+        {"id": "fr-2.1-3-08", "type": "build", "cs": "Jsem jedináček.", "a": ["Je suis {fils unique|fille unique}."]},
+        {"id": "fr-2.1-3-09", "type": "build", "cs": "Moje teta je vdaná.", "a": ["Ma tante est mariée."]},
+        {"id": "fr-2.1-3-10", "type": "build", "cs": "Jejich syn se jmenuje Tom.", "a": ["Leur fils s'appelle Tom."]},
+        {"id": "fr-2.1-3-11", "type": "build", "cs": "Mám nevlastního bratra.", "a": ["J'ai un demi-frère."]},
+        {"id": "fr-2.1-3-12", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "Notre cousin est allemand.", "a": ["Nos cousins sont allemands."]},
+        {"id": "fr-2.1-3-13", "type": "transform", "task_cs": "Nahraď zájmenem leur nebo leurs", "fr": "C'est le chien de Paul et Marie.", "a": ["C'est leur chien."]},
+        {"id": "fr-2.1-3-14", "type": "transform", "task_cs": "Nahraď zájmenem leur nebo leurs", "fr": "Ce sont les enfants de Luc et Anne.", "a": ["Ce sont leurs enfants."]},
+        {"id": "fr-2.1-3-15", "type": "order", "cs": "Můj kamarád je Lucin bratr.", "a": ["Mon copain est le frère de Lucie", "Mon ami est le frère de Lucie"], "extra": ["la", "ma"]}
+      ]
+    },
+    {
+      "id": "fr-2.1-4",
+      "title": "Mes animaux",
+      "subtitle": "Zvířata a zvláštní množné číslo",
+      "topics": ["family", "articles"],
+      "words": ["animals#zvíře", "animals#zvířata", "animals#pes", "animals#kočka", "animals#pták", "animals#papoušek", "animals#křeček", "animals#morče", "animals#rybička", "animals#želva", "animals#králík", "animals#kůň", "animals#koně", "animals#myš", "animals#had"],
+      "learn": [
+        {"title": "Máš nějaké zvíře?", "blocks": [
+          {"type": "text", "cs": "Na otázku *Tu as un animal ?* (Máš nějaké zvíře?) odpovíš třeba *J'ai un chien.* Zvíře je pak *il*, nebo *elle* podle rodu slova: *le chat → il*, *la tortue → elle*."},
+          {"type": "examples", "items": [
+            {"fr": "J'ai un chat. Il s'appelle Félix.", "cs": "Mám kočku. Jmenuje se Félix."},
+            {"fr": "Ma sœur a une tortue. Elle a cinq ans.", "cs": "Moje sestra má želvu. Je jí pět let."},
+            {"fr": "Nous avons deux lapins.", "cs": "Máme dva králíky."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'ai une tortue. ___ s'appelle Lili.", "a": ["Elle"]}}
+        ]},
+        {"title": "Zvláštní množné číslo", "blocks": [
+          {"type": "text", "cs": "Slova na *-al* mají v množném čísle *-aux*: *un animal → des animaux, un cheval → des chevaux*. Slova na *-eau* dostávají *-x*: *un oiseau → des oiseaux*. Slova, která už končí na *-s* nebo *-x*, se nemění: *une souris → des souris*."},
+          {"type": "table", "head": ["jednotné číslo", "množné číslo"], "rows": [
+            ["un animal", "des animaux"], ["un cheval", "des chevaux"], ["un oiseau", "des oiseaux"], ["une souris", "des souris"]
+          ]},
+          {"type": "check", "item": {"type": "transform", "task_cs": "Převeď do množného čísla", "fr": "un cheval", "a": ["des chevaux"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.1-4-01", "type": "cloze", "fr": "Tu as un ___ ?", "a": ["animal"], "hint": "zvíře"},
+        {"id": "fr-2.1-4-02", "type": "cloze", "fr": "Mon oncle a trois ___.", "a": ["chevaux"], "hint": "koně"},
+        {"id": "fr-2.1-4-03", "type": "cloze", "fr": "Ma cousine a deux ___.", "a": ["oiseaux"], "hint": "ptáci"},
+        {"id": "fr-2.1-4-04", "type": "cloze", "fr": "J'ai un chien. ___ a quatre ans.", "a": ["Il"]},
+        {"id": "fr-2.1-4-05", "type": "cloze", "fr": "Léa a une souris. ___ s'appelle Mimi.", "a": ["Elle"]},
+        {"id": "fr-2.1-4-06", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "un animal", "a": ["des animaux"]},
+        {"id": "fr-2.1-4-07", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "une souris", "a": ["des souris"]},
+        {"id": "fr-2.1-4-08", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "un oiseau", "a": ["des oiseaux"]},
+        {"id": "fr-2.1-4-09", "type": "build", "cs": "Máš nějaké zvíře?", "a": ["{Tu as un animal|As-tu un animal|Est-ce que tu as un animal} ?"]},
+        {"id": "fr-2.1-4-10", "type": "build", "cs": "Mám psa, jmenuje se Max.", "a": ["J'ai un chien, il s'appelle Max."]},
+        {"id": "fr-2.1-4-11", "type": "build", "cs": "Můj bratr má králíka.", "a": ["Mon frère a un lapin."]},
+        {"id": "fr-2.1-4-12", "type": "build", "cs": "Moje babička má dvě kočky.", "a": ["Ma grand-mère a deux {chats|chattes}."]},
+        {"id": "fr-2.1-4-13", "type": "order", "cs": "Jejich pes se jmenuje Rex.", "a": ["Leur chien s'appelle Rex"], "extra": ["leurs", "sa"]}
+      ]
+    },
+    {
+      "id": "fr-2.1-5",
+      "title": "Les nombres jusqu'à 100",
+      "subtitle": "Čísla 70 až 100",
+      "topics": ["numbers"],
+      "words": ["numbers#sedmdesát", "numbers#sedmdesát jedna", "numbers#osmdesát", "numbers#devadesát", "numbers#devadesát jedna", "numbers#sto"],
+      "learn": [
+        {"title": "70 až 79", "blocks": [
+          {"type": "text", "cs": "Francouzština nemá zvláštní slovo pro 70. Říká „šedesát deset“: *soixante-dix*. Pak pokračuje *soixante et onze* (71), *soixante-douze* (72) až *soixante-dix-neuf* (79)."},
+          {"type": "table", "firstCs": true, "rows": [["70", "soixante-dix"], ["71", "soixante et onze"], ["72", "soixante-douze"], ["75", "soixante-quinze"], ["79", "soixante-dix-neuf"]]},
+          {"type": "check", "item": {"type": "cloze", "fr": "soixante-dix, soixante et onze, ___", "a": ["soixante-douze"]}}
+        ]},
+        {"title": "80 až 100", "blocks": [
+          {"type": "text", "cs": "80 je „čtyřikrát dvacet“: *quatre-vingts*. Koncové *-s* má jen samotné číslo 80. Dál už ne a nepíše se ani *et*: *quatre-vingt-un* (81), *quatre-vingt-deux* (82). 90 je *quatre-vingt-dix*, 99 *quatre-vingt-dix-neuf* a 100 je *cent*."},
+          {"type": "table", "firstCs": true, "rows": [["80", "quatre-vingts"], ["81", "quatre-vingt-un"], ["85", "quatre-vingt-cinq"], ["90", "quatre-vingt-dix"], ["91", "quatre-vingt-onze"], ["99", "quatre-vingt-dix-neuf"], ["100", "cent"]]},
+          {"type": "tip", "title": "Belgie a Švýcarsko", "cs": "V Belgii a ve Švýcarsku se říká *septante* (70) a *nonante* (90). Ve Francii ne."},
+          {"type": "check", "item": {"type": "cloze", "fr": "quatre-vingt-neuf, ___", "a": ["quatre-vingt-dix"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.1-5-01", "type": "cloze", "fr": "Mon grand-père a ___ ans.", "a": ["soixante-douze"], "hint": "72"},
+        {"id": "fr-2.1-5-02", "type": "cloze", "fr": "Ma grand-mère a ___ ans.", "a": ["quatre-vingts"], "hint": "80"},
+        {"id": "fr-2.1-5-03", "type": "cloze", "fr": "Monsieur Dupont a ___ ans.", "a": ["quatre-vingt-cinq"], "hint": "85"},
+        {"id": "fr-2.1-5-04", "type": "cloze", "fr": "Madame Leroy a ___ ans.", "a": ["quatre-vingt-onze"], "hint": "91"},
+        {"id": "fr-2.1-5-05", "type": "cloze", "fr": "C'est le numéro ___.", "a": ["soixante-dix-sept"], "hint": "77"},
+        {"id": "fr-2.1-5-06", "type": "cloze", "fr": "Cinquante et cinquante font ___.", "a": ["cent"]},
+        {"id": "fr-2.1-5-07", "type": "cloze", "fr": "Quarante et quarante font ___.", "a": ["quatre-vingts"]},
+        {"id": "fr-2.1-5-08", "type": "cloze", "fr": "soixante-dix-huit, soixante-dix-neuf, ___", "a": ["quatre-vingts"]},
+        {"id": "fr-2.1-5-09", "type": "cloze", "fr": "Soixante et dix font ___.", "a": ["soixante-dix"]},
+        {"id": "fr-2.1-5-10", "type": "build", "cs": "Mému dědečkovi je osmdesát let.", "a": ["Mon grand-père a quatre-vingts ans."]},
+        {"id": "fr-2.1-5-11", "type": "build", "cs": "Mé babičce je devadesát let.", "a": ["Ma grand-mère a quatre-vingt-dix ans."]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-2.1-t-01", "lesson": "fr-2.1-1", "type": "cloze", "fr": "C'est ___ sœur de Paul.", "a": ["la"], "hint": "určitý člen"},
+      {"id": "fr-2.1-t-02", "lesson": "fr-2.1-1", "type": "cloze", "fr": "J'ai ___ cousins.", "a": ["des"], "hint": "neurčitý člen"},
+      {"id": "fr-2.1-t-03", "lesson": "fr-2.1-1", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "le père", "a": ["les pères"]},
+      {"id": "fr-2.1-t-04", "lesson": "fr-2.1-1", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "l'oncle", "a": ["les oncles"]},
+      {"id": "fr-2.1-t-05", "lesson": "fr-2.1-1", "type": "build", "cs": "Mám dva bratry.", "a": ["J'ai deux frères."]},
+      {"id": "fr-2.1-t-06", "lesson": "fr-2.1-2", "type": "cloze", "fr": "___ frère s'appelle Jakub.", "a": ["Mon"], "hint": "můj"},
+      {"id": "fr-2.1-t-07", "lesson": "fr-2.1-2", "type": "cloze", "fr": "C'est ___ amie Sophie.", "a": ["mon"], "hint": "moje"},
+      {"id": "fr-2.1-t-08", "lesson": "fr-2.1-2", "type": "cloze", "fr": "Marc habite avec ___ mère.", "a": ["sa"], "hint": "jeho"},
+      {"id": "fr-2.1-t-09", "lesson": "fr-2.1-2", "type": "cloze", "fr": "Anna et ___ père sont à Paris.", "a": ["son"], "hint": "její"},
+      {"id": "fr-2.1-t-10", "lesson": "fr-2.1-2", "type": "build", "cs": "Tvoje sestřenice je Francouzka?", "a": ["{Ta cousine est française|Est-ce que ta cousine est française} ?"]},
+      {"id": "fr-2.1-t-11", "lesson": "fr-2.1-2", "type": "build", "cs": "Moji prarodiče bydlí v Praze.", "a": ["Mes grands-parents habitent à Prague."]},
+      {"id": "fr-2.1-t-12", "lesson": "fr-2.1-3", "type": "cloze", "fr": "___ enfants ont dix ans.", "a": ["Nos"], "hint": "naše"},
+      {"id": "fr-2.1-t-13", "lesson": "fr-2.1-3", "type": "cloze", "fr": "Ils ont un chat. ___ chat s'appelle Bob.", "a": ["Leur"], "hint": "jejich"},
+      {"id": "fr-2.1-t-14", "lesson": "fr-2.1-3", "type": "cloze", "fr": "Vous avez ___ passeports ?", "a": ["vos"], "hint": "vaše"},
+      {"id": "fr-2.1-t-15", "lesson": "fr-2.1-3", "type": "build", "cs": "To je Tomova matka.", "a": ["C'est la mère de Tom."]},
+      {"id": "fr-2.1-t-16", "lesson": "fr-2.1-3", "type": "build", "cs": "Jejich rodiče jsou rozvedení.", "a": ["Leurs parents sont divorcés."]},
+      {"id": "fr-2.1-t-17", "lesson": "fr-2.1-3", "type": "build", "cs": "Můj bratranec je jedináček.", "a": ["Mon cousin est fils unique."]},
+      {"id": "fr-2.1-t-18", "lesson": "fr-2.1-4", "type": "cloze", "fr": "Mon oncle a deux ___.", "a": ["chevaux"], "hint": "koně"},
+      {"id": "fr-2.1-t-19", "lesson": "fr-2.1-4", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "le cheval", "a": ["les chevaux"]},
+      {"id": "fr-2.1-t-20", "lesson": "fr-2.1-4", "type": "build", "cs": "Máme psa a dvě kočky.", "a": ["{Nous avons|On a} un chien et deux {chats|chattes}."]},
+      {"id": "fr-2.1-t-21", "lesson": "fr-2.1-4", "type": "cloze", "fr": "J'ai un lapin. ___ a deux ans.", "a": ["Il"]},
+      {"id": "fr-2.1-t-22", "lesson": "fr-2.1-5", "type": "cloze", "fr": "Ma grand-mère a ___ ans.", "a": ["soixante-seize"], "hint": "76"},
+      {"id": "fr-2.1-t-23", "lesson": "fr-2.1-5", "type": "cloze", "fr": "Il a ___ ans.", "a": ["quatre-vingt-trois"], "hint": "83"},
+      {"id": "fr-2.1-t-24", "lesson": "fr-2.1-5", "type": "cloze", "fr": "C'est le numéro ___.", "a": ["quatre-vingt-dix-neuf"], "hint": "99"},
+      {"id": "fr-2.1-t-25", "lesson": "fr-2.1-5", "type": "build", "cs": "Mému dědečkovi je sedmdesát jedna let.", "a": ["Mon grand-père a {soixante et onze|soixante-et-onze} ans."]}
+    ]
+  }
+}

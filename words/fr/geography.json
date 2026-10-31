@@ -1,0 +1,246 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Geography",
+  "unit": "7.1",
+  "level": null,
+  "words": [
+    {
+      "q": "město",
+      "a": "ville",
+      "unit": "5.1"
+    },
+    {
+      "q": "vesnice",
+      "a": "village",
+      "unit": "5.1"
+    },
+    {
+      "q": "hlavní město",
+      "a": "capitale",
+      "unit": "5.1"
+    },
+    {
+      "q": "ostrov",
+      "a": "île"
+    },
+    {
+      "q": "moře",
+      "a": "mer"
+    },
+    {
+      "q": "oceán",
+      "a": "océan"
+    },
+    {
+      "q": "pohoří",
+      "a": "chaîne de montagnes"
+    },
+    {
+      "q": "velká řeka",
+      "a": "fleuve"
+    },
+    {
+      "q": "malá řeka",
+      "a": "rivière"
+    },
+    {
+      "q": "jih",
+      "a": "sud"
+    },
+    {
+      "q": "sever",
+      "a": "nord"
+    },
+    {
+      "q": "východ",
+      "a": "est"
+    },
+    {
+      "q": "západ",
+      "a": "ouest"
+    },
+    {
+      "q": "rozloha",
+      "a": "superficie"
+    },
+    {
+      "q": "povrch",
+      "a": "surface"
+    },
+    {
+      "q": "zemědělství",
+      "a": "agriculture"
+    },
+    {
+      "q": "měna",
+      "a": "monnaie"
+    },
+    {
+      "q": "původ",
+      "a": "origine"
+    },
+    {
+      "q": "ráj",
+      "a": "paradis"
+    },
+    {
+      "q": "les",
+      "a": "forêt"
+    },
+    {
+      "q": "strom",
+      "a": "arbre"
+    },
+    {
+      "q": "Praha",
+      "a": "Prague",
+      "unit": "1.2"
+    },
+    {
+      "q": "Paříž",
+      "a": "Paris",
+      "unit": "1.2"
+    },
+    {
+      "q": "pohlednice",
+      "a": "carte postale"
+    },
+    {
+      "q": "hrad",
+      "a": "château",
+      "unit": "5.1"
+    },
+    {
+      "q": "kostel",
+      "a": "église",
+      "unit": "5.1"
+    },
+    {
+      "q": "socha",
+      "a": "statue",
+      "unit": "5.1"
+    },
+    {
+      "q": "adresa",
+      "a": "adresse",
+      "unit": "5.1"
+    },
+    {
+      "q": "ulice",
+      "a": "rue",
+      "unit": "5.1"
+    },
+    {
+      "q": "bulvár",
+      "a": "boulevard",
+      "unit": "5.1"
+    },
+    {
+      "q": "třída",
+      "a": "avenue",
+      "unit": "5.1"
+    },
+    {
+      "q": "náměstí",
+      "a": "place",
+      "unit": "5.1"
+    },
+    {
+      "q": "pas",
+      "a": "passeport"
+    },
+    {
+      "q": "pobyt",
+      "a": "séjour"
+    },
+    {
+      "q": "nádraží",
+      "a": "gare",
+      "unit": "5.1"
+    },
+    {
+      "q": "pošta",
+      "a": "poste",
+      "unit": "5.1"
+    },
+    {
+      "q": "muzeum",
+      "a": "musée",
+      "unit": "5.1"
+    },
+    {
+      "q": "kino",
+      "a": "cinéma",
+      "unit": "5.1"
+    },
+    {
+      "q": "banka",
+      "a": "banque",
+      "unit": "5.1"
+    },
+    {
+      "q": "nemocnice",
+      "a": "hôpital",
+      "unit": "5.1"
+    },
+    {
+      "q": "park",
+      "a": "parc",
+      "unit": "5.1"
+    },
+    {
+      "q": "stadion",
+      "a": "stade",
+      "unit": "5.1"
+    },
+    {
+      "q": "radnice",
+      "a": "mairie",
+      "unit": "5.1"
+    },
+    {
+      "q": "zastávka",
+      "a": "arrêt",
+      "unit": "5.1"
+    },
+    {
+      "q": "most",
+      "a": "pont",
+      "unit": "5.1"
+    },
+    {
+      "q": "pláž",
+      "a": "plage"
+    },
+    {
+      "q": "hory",
+      "a": "montagne"
+    },
+    {
+      "q": "kemp",
+      "a": "camping"
+    },
+    {
+      "q": "hotel",
+      "a": "hôtel"
+    },
+    {
+      "q": "kufr",
+      "a": "valise"
+    },
+    {
+      "q": "v zahraničí",
+      "a": "à l'étranger"
+    },
+    {
+      "q": "túra",
+      "a": "randonnée"
+    },
+    {
+      "q": "suvenýr",
+      "a": "souvenir"
+    }
+  ]
+}

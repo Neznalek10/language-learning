@@ -1,0 +1,1491 @@
+{
+  "schema": 1,
+  "goals": [
+    "Pojmenovat části těla",
+    "Říct, co tě bolí: j'ai mal à la tête, au ventre",
+    "Popsat nemoc a příznaky",
+    "Domluvit se u lékaře a v lékárně (depuis)",
+    "Dávat rady: il faut, devoir, tu devrais"
+  ],
+  "lessons": [
+    {
+      "id": "fr-sante-1",
+      "title": "Le corps",
+      "subtitle": "Tělo",
+      "topics": [
+        "body"
+      ],
+      "words": [
+        "body#hlava",
+        "body#ucho",
+        "body#nos",
+        "body#pusa",
+        "body#zub",
+        "body#obočí",
+        "body#řasy",
+        "body#záda",
+        "body#paže",
+        "body#ruka",
+        "body#břicho",
+        "body#noha",
+        "body#chodidlo",
+        "body#líce",
+        "body#krk",
+        "body#prsa",
+        "body#zadek",
+        "body#hrudník",
+        "body#krk zevnitř",
+        "body#kotník"
+      ],
+      "learn": [
+        {
+          "title": "Části těla",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "hlava",
+                  "la tête"
+                ],
+                [
+                  "oko, oči",
+                  "l'œil, les yeux"
+                ],
+                [
+                  "ucho",
+                  "l'oreille"
+                ],
+                [
+                  "nos",
+                  "le nez"
+                ],
+                [
+                  "pusa",
+                  "la bouche"
+                ],
+                [
+                  "zub",
+                  "la dent"
+                ],
+                [
+                  "krk",
+                  "le cou"
+                ],
+                [
+                  "krk (uvnitř)",
+                  "la gorge"
+                ],
+                [
+                  "záda",
+                  "le dos"
+                ],
+                [
+                  "paže",
+                  "le bras"
+                ],
+                [
+                  "ruka",
+                  "la main"
+                ],
+                [
+                  "břicho",
+                  "le ventre"
+                ],
+                [
+                  "noha",
+                  "la jambe"
+                ],
+                [
+                  "chodidlo",
+                  "le pied"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "un œil, des yeux",
+              "cs": "Nepravidelné množné číslo: *un œil → des yeux*. *Le dos, le bras, le nez* mají v množném čísle stejný tvar."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai deux ___ et deux pieds.",
+                "a": [
+                  "mains"
+                ],
+                "hint": "ruce"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Myju si ruce",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "U částí těla používá francouzština člen, ne přivlastňovací zájmeno: *Je me lave les mains.* (Myju si ruce.) *Il lève la main.* (Zvedá ruku.) *J'ai les yeux bleus.* (Mám modré oči.)"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je me brosse les dents.",
+                  "cs": "Čistím si zuby."
+                },
+                {
+                  "fr": "Lève la main !",
+                  "cs": "Zvedni ruku!"
+                },
+                {
+                  "fr": "Elle a les cheveux longs.",
+                  "cs": "Má dlouhé vlasy."
+                },
+                {
+                  "fr": "Il a un grand nez.",
+                  "cs": "Má velký nos."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Myju si ruce.",
+                "a": [
+                  "Je me lave les mains."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-sante-1-01",
+          "type": "cloze",
+          "fr": "Je vois avec les ___.",
+          "a": [
+            "yeux"
+          ],
+          "hint": "oči"
+        },
+        {
+          "id": "fr-sante-1-02",
+          "type": "cloze",
+          "fr": "J'entends avec les ___.",
+          "a": [
+            "oreilles"
+          ],
+          "hint": "uši"
+        },
+        {
+          "id": "fr-sante-1-03",
+          "type": "cloze",
+          "fr": "On mange avec la ___.",
+          "a": [
+            "bouche"
+          ],
+          "hint": "pusa"
+        },
+        {
+          "id": "fr-sante-1-04",
+          "type": "cloze",
+          "fr": "Je me brosse les ___.",
+          "a": [
+            "dents"
+          ],
+          "hint": "zuby"
+        },
+        {
+          "id": "fr-sante-1-05",
+          "type": "cloze",
+          "fr": "Le pied est au bout de la ___.",
+          "a": [
+            "jambe"
+          ],
+          "hint": "noha"
+        },
+        {
+          "id": "fr-sante-1-06",
+          "type": "cloze",
+          "fr": "Elle a les cheveux longs et un petit ___.",
+          "a": [
+            "nez"
+          ],
+          "hint": "nos"
+        },
+        {
+          "id": "fr-sante-1-07",
+          "type": "build",
+          "cs": "Mám velké ruce.",
+          "a": [
+            "J'ai de grandes mains.",
+            "J'ai des grandes mains."
+          ]
+        },
+        {
+          "id": "fr-sante-1-08",
+          "type": "build",
+          "cs": "Myju si obličej.",
+          "a": [
+            "Je me lave le visage."
+          ]
+        },
+        {
+          "id": "fr-sante-1-09",
+          "type": "build",
+          "cs": "Zvedni ruku!",
+          "a": [
+            "Lève la main !"
+          ]
+        },
+        {
+          "id": "fr-sante-1-10",
+          "type": "build",
+          "cs": "Čistím si zuby.",
+          "a": [
+            "Je me brosse les dents."
+          ]
+        },
+        {
+          "id": "fr-sante-1-11",
+          "type": "transform",
+          "task_cs": "Dej do množného čísla",
+          "fr": "un œil",
+          "a": [
+            "des yeux"
+          ]
+        },
+        {
+          "id": "fr-sante-1-12",
+          "type": "transform",
+          "task_cs": "Dej do množného čísla",
+          "fr": "le bras",
+          "a": [
+            "les bras"
+          ]
+        },
+        {
+          "id": "fr-sante-1-13",
+          "type": "order",
+          "cs": "Myju si ruce a obličej.",
+          "a": [
+            "Je me lave les mains et le visage"
+          ],
+          "extra": [
+            "mes",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-sante-2",
+      "title": "J'ai mal à la tête",
+      "subtitle": "Co tě bolí",
+      "topics": [
+        "health",
+        "body"
+      ],
+      "words": [
+        "health#bolí mě hlava",
+        "health#zlo",
+        "health#zdraví"
+      ],
+      "learn": [
+        {
+          "title": "avoir mal à",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Co tě bolí, řekneš *avoir mal à* + člen. Pozor na stažení: *à + le = au*, *à + les = aux*."
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Bolí mě hlava.",
+                  "J'ai mal à la tête."
+                ],
+                [
+                  "Bolí mě břicho.",
+                  "J'ai mal au ventre."
+                ],
+                [
+                  "Bolí mě záda.",
+                  "J'ai mal au dos."
+                ],
+                [
+                  "Bolí mě v krku.",
+                  "J'ai mal à la gorge."
+                ],
+                [
+                  "Bolí mě ucho.",
+                  "J'ai mal à l'oreille."
+                ],
+                [
+                  "Bolí mě zuby.",
+                  "J'ai mal aux dents."
+                ],
+                [
+                  "Bolí mě nohy.",
+                  "J'ai mal aux jambes."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai mal ___ ventre.",
+                "a": [
+                  "au"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Kde tě to bolí?",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "bolí mě = j'ai mal",
+              "cs": "Česky je podmětem to, co bolí, francouzsky ty: *J'ai mal* (doslova mám bolest). *Ma tête a mal* je chyba."
+            },
+            {
+              "type": "text",
+              "cs": "Otázka: *Où est-ce que tu as mal ?* / *Où avez-vous mal ?* (Kde vás to bolí?) *Ça fait mal !* (To bolí!)"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu as mal où ?",
+                  "cs": "Kde tě to bolí?"
+                },
+                {
+                  "fr": "Il a mal aux pieds après le match.",
+                  "cs": "Po zápase ho bolí nohy."
+                },
+                {
+                  "fr": "J'ai très mal à la gorge.",
+                  "cs": "Strašně mě bolí v krku."
+                },
+                {
+                  "fr": "Aïe, ça fait mal !",
+                  "cs": "Au, to bolí!"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Bolí mě záda.",
+                "a": [
+                  "J'ai mal au dos."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-sante-2-01",
+          "type": "cloze",
+          "fr": "J'ai mal ___ tête.",
+          "a": [
+            "à la"
+          ]
+        },
+        {
+          "id": "fr-sante-2-02",
+          "type": "cloze",
+          "fr": "Elle a mal ___ dents.",
+          "a": [
+            "aux"
+          ]
+        },
+        {
+          "id": "fr-sante-2-03",
+          "type": "cloze",
+          "fr": "Tu as mal ___ oreille ?",
+          "a": [
+            "à l'"
+          ]
+        },
+        {
+          "id": "fr-sante-2-04",
+          "type": "cloze",
+          "fr": "Il a mal ___ dos.",
+          "a": [
+            "au"
+          ]
+        },
+        {
+          "id": "fr-sante-2-05",
+          "type": "cloze",
+          "fr": "Nous avons mal ___ jambes.",
+          "a": [
+            "aux"
+          ]
+        },
+        {
+          "id": "fr-sante-2-06",
+          "type": "cloze",
+          "fr": "Où est-ce que vous avez ___ ?",
+          "a": [
+            "mal"
+          ],
+          "hint": "bolest"
+        },
+        {
+          "id": "fr-sante-2-07",
+          "type": "build",
+          "cs": "Bolí mě v krku.",
+          "a": [
+            "J'ai mal à la gorge."
+          ]
+        },
+        {
+          "id": "fr-sante-2-08",
+          "type": "build",
+          "cs": "Bolí tě hlava?",
+          "a": [
+            "Tu as mal à la tête ?",
+            "Est-ce que tu as mal à la tête ?",
+            "As-tu mal à la tête ?"
+          ]
+        },
+        {
+          "id": "fr-sante-2-09",
+          "type": "build",
+          "cs": "Po tréninku mě bolí nohy.",
+          "a": [
+            "Après l'entraînement, j'ai mal aux jambes.",
+            "J'ai mal aux jambes après l'entraînement."
+          ]
+        },
+        {
+          "id": "fr-sante-2-10",
+          "type": "build",
+          "cs": "Mého bratra bolí břicho.",
+          "a": [
+            "Mon frère a mal au ventre."
+          ]
+        },
+        {
+          "id": "fr-sante-2-11",
+          "type": "build",
+          "cs": "Kde vás to bolí?",
+          "a": [
+            "Où avez-vous mal ?",
+            "Où est-ce que vous avez mal ?",
+            "Vous avez mal où ?"
+          ]
+        },
+        {
+          "id": "fr-sante-2-12",
+          "type": "transform",
+          "task_cs": "Dej do množného čísla",
+          "fr": "J'ai mal au pied.",
+          "a": [
+            "J'ai mal aux pieds."
+          ]
+        },
+        {
+          "id": "fr-sante-2-13",
+          "type": "order",
+          "cs": "Bolí mě ruka.",
+          "a": [
+            "J'ai mal à la main"
+          ],
+          "extra": [
+            "au",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-sante-3",
+      "title": "Je suis malade",
+      "subtitle": "Nemoc a příznaky",
+      "topics": [
+        "health"
+      ],
+      "words": [
+        "health#nemocný",
+        "health#horečka",
+        "health#rýma",
+        "health#chřipka",
+        "health#kašel",
+        "health#unavený",
+        "health#únava",
+        "health#být ospalý",
+        "health#je mi horko",
+        "health#je mi zima",
+        "verbs#kašlat",
+        "verbs-reflexive#cítit se",
+        "verbs-reflexive#zlomit si",
+        "verbs-irregular#uzdravit se"
+      ],
+      "learn": [
+        {
+          "title": "Co ti je?",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Jsem nemocný.",
+                  "Je suis malade."
+                ],
+                [
+                  "Mám horečku.",
+                  "J'ai de la fièvre."
+                ],
+                [
+                  "Mám rýmu.",
+                  "J'ai un rhume."
+                ],
+                [
+                  "Mám chřipku.",
+                  "J'ai la grippe."
+                ],
+                [
+                  "Kašlu.",
+                  "Je tousse."
+                ],
+                [
+                  "Jsem unavený.",
+                  "Je suis fatigué."
+                ],
+                [
+                  "Necítím se dobře.",
+                  "Je ne me sens pas bien."
+                ],
+                [
+                  "Zlomil jsem si nohu.",
+                  "Je me suis cassé la jambe."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai de la ___ : 39 degrés !",
+                "a": [
+                  "fièvre"
+                ],
+                "hint": "horečka"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Jak se cítíš?",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "se sentir",
+              "tense": "present"
+            },
+            {
+              "type": "text",
+              "cs": "*Je me sens bien / mal / fatigué.* = Cítím se dobře / špatně / unavený. *Qu'est-ce qui ne va pas ?* = Co se děje? Co ti je?"
+            },
+            {
+              "type": "tip",
+              "title": "j'ai chaud",
+              "cs": "Je mi horko = *j'ai chaud*, je mi zima = *j'ai froid*. Ne *je suis chaud*, to znamená něco úplně jiného."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Necítím se dobře.",
+                "a": [
+                  "Je ne me sens pas bien."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-sante-3-01",
+          "type": "cloze",
+          "fr": "Je ___ malade, je reste à la maison.",
+          "a": [
+            "suis"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-sante-3-02",
+          "type": "cloze",
+          "fr": "Il a un ___, il a le nez qui coule.",
+          "a": [
+            "rhume"
+          ],
+          "hint": "rýma"
+        },
+        {
+          "id": "fr-sante-3-03",
+          "type": "cloze",
+          "fr": "Tu ___ beaucoup, tu es malade ?",
+          "a": [
+            "tousses"
+          ],
+          "hint": "tousser"
+        },
+        {
+          "id": "fr-sante-3-04",
+          "type": "cloze",
+          "fr": "Je me ___ fatigué.",
+          "a": [
+            "sens"
+          ],
+          "hint": "cítit se"
+        },
+        {
+          "id": "fr-sante-3-05",
+          "type": "cloze",
+          "fr": "Elle s'est ___ le bras.",
+          "a": [
+            "cassé"
+          ],
+          "hint": "zlomit si",
+          "why": "Příčestí se tu neshoduje, protože předmět le bras stojí až za ním."
+        },
+        {
+          "id": "fr-sante-3-06",
+          "type": "cloze",
+          "fr": "J'ai ___, je mets un pull.",
+          "a": [
+            "froid"
+          ],
+          "hint": "je mi zima"
+        },
+        {
+          "id": "fr-sante-3-07",
+          "type": "build",
+          "cs": "Mám chřipku.",
+          "a": [
+            "J'ai la grippe."
+          ]
+        },
+        {
+          "id": "fr-sante-3-08",
+          "type": "build",
+          "cs": "Mám horečku a bolí mě hlava.",
+          "a": [
+            "J'ai de la fièvre et j'ai mal à la tête."
+          ]
+        },
+        {
+          "id": "fr-sante-3-09",
+          "type": "build",
+          "cs": "Je mi horko.",
+          "a": [
+            "J'ai chaud."
+          ]
+        },
+        {
+          "id": "fr-sante-3-10",
+          "type": "build",
+          "cs": "Co ti je?",
+          "a": [
+            "Qu'est-ce qui ne va pas ?",
+            "Qu'est-ce que tu as ?"
+          ]
+        },
+        {
+          "id": "fr-sante-3-11",
+          "type": "build",
+          "cs": "Zlomil jsem si nohu.",
+          "a": [
+            "Je me suis cassé la jambe."
+          ],
+          "why": "La jambe stojí za příčestím, takže se cassé neshoduje, ani když mluví holka."
+        },
+        {
+          "id": "fr-sante-3-12",
+          "type": "build",
+          "cs": "Brzy se uzdravíš.",
+          "a": [
+            "Tu vas vite guérir.",
+            "Tu vas guérir vite.",
+            "Tu guériras vite.",
+            "Tu vas bientôt guérir."
+          ]
+        },
+        {
+          "id": "fr-sante-3-13",
+          "type": "order",
+          "cs": "Jsem unavený a je mi zima.",
+          "a": [
+            "Je suis fatigué et j'ai froid"
+          ],
+          "extra": [
+            "suis",
+            "froide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-sante-4",
+      "title": "Chez le médecin",
+      "subtitle": "U lékaře a v lékárně",
+      "topics": [
+        "health"
+      ],
+      "words": [
+        "health#lékař",
+        "health#zubař",
+        "health#recept (od lékaře)",
+        "shopping#lékárna",
+        "shopping#léky"
+      ],
+      "learn": [
+        {
+          "title": "U lékaře",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Co vás trápí?",
+                  "Qu'est-ce qui ne va pas ?"
+                ],
+                [
+                  "Odkdy?",
+                  "Depuis quand ?"
+                ],
+                [
+                  "Od včerejška.",
+                  "Depuis hier."
+                ],
+                [
+                  "Mám horečku už tři dny.",
+                  "J'ai de la fièvre depuis trois jours."
+                ],
+                [
+                  "Otevřete pusu.",
+                  "Ouvrez la bouche."
+                ],
+                [
+                  "Berte tento lék.",
+                  "Prenez ce médicament."
+                ],
+                [
+                  "třikrát denně",
+                  "trois fois par jour"
+                ],
+                [
+                  "Tady je recept.",
+                  "Voici l'ordonnance."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "cs": "K lékaři jdeš *chez le médecin*, k zubaři *chez le dentiste*: k lidem se chodí s *chez*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai mal à la gorge ___ hier.",
+                "a": [
+                  "depuis"
+                ],
+                "hint": "od"
+              }
+            }
+          ]
+        },
+        {
+          "title": "depuis + přítomný čas",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "depuis",
+              "cs": "Co začalo v minulosti a trvá dodnes, řekneš v **přítomném čase** s *depuis*: *Je tousse depuis une semaine.* (Kašlu už týden.) Ne *j'ai toussé*."
+            },
+            {
+              "type": "text",
+              "cs": "V lékárně (*à la pharmacie*): *Je voudrais quelque chose contre la toux / contre le mal de tête.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Bonjour docteur, j'ai mal au ventre.",
+                  "cs": "Dobrý den, pane doktore, bolí mě břicho."
+                },
+                {
+                  "fr": "Depuis quand ?",
+                  "cs": "Odkdy?"
+                },
+                {
+                  "fr": "Depuis ce matin.",
+                  "cs": "Od rána."
+                },
+                {
+                  "fr": "Prenez ces comprimés deux fois par jour.",
+                  "cs": "Berte tyhle prášky dvakrát denně."
+                },
+                {
+                  "fr": "Je dois aller chez le dentiste.",
+                  "cs": "Musím jít k zubaři."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Kašlu už týden.",
+                "a": [
+                  "Je tousse depuis une semaine."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-sante-4-01",
+          "type": "cloze",
+          "fr": "Je vais ___ le médecin.",
+          "a": [
+            "chez"
+          ]
+        },
+        {
+          "id": "fr-sante-4-02",
+          "type": "cloze",
+          "fr": "Il a mal aux dents, il va chez le ___.",
+          "a": [
+            "dentiste"
+          ],
+          "hint": "zubař"
+        },
+        {
+          "id": "fr-sante-4-03",
+          "type": "cloze",
+          "fr": "Prenez ce médicament trois ___ par jour.",
+          "a": [
+            "fois"
+          ],
+          "hint": "krát"
+        },
+        {
+          "id": "fr-sante-4-04",
+          "type": "cloze",
+          "fr": "J'ai de la fièvre ___ deux jours.",
+          "a": [
+            "depuis"
+          ],
+          "hint": "už"
+        },
+        {
+          "id": "fr-sante-4-05",
+          "type": "cloze",
+          "fr": "Le médecin me donne une ___.",
+          "a": [
+            "ordonnance"
+          ],
+          "hint": "recept"
+        },
+        {
+          "id": "fr-sante-4-06",
+          "type": "cloze",
+          "fr": "___ la bouche, s'il vous plaît.",
+          "a": [
+            "Ouvrez"
+          ],
+          "hint": "otevřete"
+        },
+        {
+          "id": "fr-sante-4-07",
+          "type": "build",
+          "cs": "Musím jít k lékaři.",
+          "a": [
+            "Je dois aller chez le médecin.",
+            "Il faut que j'aille chez le médecin."
+          ]
+        },
+        {
+          "id": "fr-sante-4-08",
+          "type": "build",
+          "cs": "Odkdy vás bolí hlava?",
+          "a": [
+            "Depuis quand avez-vous mal à la tête ?",
+            "Vous avez mal à la tête depuis quand ?",
+            "Depuis quand est-ce que vous avez mal à la tête ?"
+          ]
+        },
+        {
+          "id": "fr-sante-4-09",
+          "type": "build",
+          "cs": "Bolí mě to od včerejška.",
+          "a": [
+            "J'ai mal depuis hier.",
+            "Ça fait mal depuis hier."
+          ]
+        },
+        {
+          "id": "fr-sante-4-10",
+          "type": "build",
+          "cs": "Chtěl bych něco proti kašli.",
+          "a": [
+            "Je voudrais quelque chose contre la toux."
+          ]
+        },
+        {
+          "id": "fr-sante-4-11",
+          "type": "build",
+          "cs": "Kde je lékárna?",
+          "a": [
+            "Où est la pharmacie ?"
+          ]
+        },
+        {
+          "id": "fr-sante-4-12",
+          "type": "transform",
+          "task_cs": "Řekni to s depuis (tři dny)",
+          "fr": "Je suis malade.",
+          "a": [
+            "Je suis malade depuis trois jours."
+          ]
+        },
+        {
+          "id": "fr-sante-4-13",
+          "type": "order",
+          "cs": "Berte to dvakrát denně.",
+          "a": [
+            "Prenez-le deux fois par jour"
+          ],
+          "extra": [
+            "prends",
+            "jours"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-sante-5",
+      "title": "Il faut dormir",
+      "subtitle": "Rady: il faut, devoir",
+      "topics": [
+        "health",
+        "obligation"
+      ],
+      "words": [
+        "health#rady",
+        "health#je třeba",
+        "verbs-irregular#muset",
+        "health#výživa",
+        "health#únavný",
+        "health#příčina"
+      ],
+      "learn": [
+        {
+          "title": "il faut",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "*Il faut* + infinitiv = je třeba, musí se (obecně, pro všechny): *Il faut dormir huit heures.* *Il ne faut pas* = nesmí se: *Il ne faut pas fumer.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Pour être en forme, il ___ faire du sport.",
+                "a": [
+                  "faut"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "devoir",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "devoir",
+              "tense": "present"
+            },
+            {
+              "type": "text",
+              "cs": "*Devoir* + infinitiv = muset (konkrétní člověk): *Tu dois rester au lit.* Radu dáš zdvořileji s *tu devrais* (měl bys): *Tu devrais boire plus d'eau.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il faut manger des fruits et des légumes.",
+                  "cs": "Je třeba jíst ovoce a zeleninu."
+                },
+                {
+                  "fr": "Tu dois prendre tes médicaments.",
+                  "cs": "Musíš si brát léky."
+                },
+                {
+                  "fr": "Il ne faut pas jouer avec de la fièvre.",
+                  "cs": "S horečkou se nesmí hrát."
+                },
+                {
+                  "fr": "Vous devriez vous reposer.",
+                  "cs": "Měl byste si odpočinout."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Musíš víc spát.",
+                "a": [
+                  "Tu dois dormir plus.",
+                  "Tu dois plus dormir.",
+                  "Il faut dormir plus.",
+                  "Tu devrais dormir plus."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-sante-5-01",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "present",
+          "person": 0
+        },
+        {
+          "id": "fr-sante-5-02",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "present",
+          "person": 1
+        },
+        {
+          "id": "fr-sante-5-03",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "present",
+          "person": 3
+        },
+        {
+          "id": "fr-sante-5-04",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "present",
+          "person": 5
+        },
+        {
+          "id": "fr-sante-5-05",
+          "type": "cloze",
+          "fr": "Il ___ boire de l'eau.",
+          "a": [
+            "faut"
+          ],
+          "hint": "je třeba"
+        },
+        {
+          "id": "fr-sante-5-06",
+          "type": "cloze",
+          "fr": "Tu ___ rester au lit.",
+          "a": [
+            "dois"
+          ],
+          "hint": "devoir"
+        },
+        {
+          "id": "fr-sante-5-07",
+          "type": "cloze",
+          "fr": "Nous ___ partir maintenant.",
+          "a": [
+            "devons"
+          ],
+          "hint": "devoir"
+        },
+        {
+          "id": "fr-sante-5-08",
+          "type": "cloze",
+          "fr": "Il ne faut ___ manger trop de sucre.",
+          "a": [
+            "pas"
+          ]
+        },
+        {
+          "id": "fr-sante-5-09",
+          "type": "cloze",
+          "fr": "Tu ___ voir un médecin.",
+          "a": [
+            "devrais"
+          ],
+          "hint": "měl bys"
+        },
+        {
+          "id": "fr-sante-5-10",
+          "type": "build",
+          "cs": "Je třeba jíst zeleninu.",
+          "a": [
+            "Il faut manger des légumes."
+          ]
+        },
+        {
+          "id": "fr-sante-5-11",
+          "type": "build",
+          "cs": "Nesmí se kouřit.",
+          "a": [
+            "Il ne faut pas fumer."
+          ]
+        },
+        {
+          "id": "fr-sante-5-12",
+          "type": "build",
+          "cs": "Musím si vzít lék.",
+          "a": [
+            "Je dois prendre un médicament.",
+            "Je dois prendre mon médicament.",
+            "Je dois prendre mes médicaments."
+          ]
+        },
+        {
+          "id": "fr-sante-5-13",
+          "type": "build",
+          "cs": "Měl bys víc odpočívat.",
+          "a": [
+            "Tu devrais te reposer plus.",
+            "Tu devrais plus te reposer."
+          ]
+        },
+        {
+          "id": "fr-sante-5-14",
+          "type": "transform",
+          "task_cs": "Řekni to s il faut",
+          "fr": "Tu dois boire beaucoup d'eau.",
+          "a": [
+            "Il faut boire beaucoup d'eau."
+          ]
+        },
+        {
+          "id": "fr-sante-5-15",
+          "type": "order",
+          "cs": "Musíme jíst zdravě.",
+          "a": [
+            "Nous devons manger sainement"
+          ],
+          "extra": [
+            "faut",
+            "doit"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-sante-t-01",
+        "lesson": "fr-sante-1",
+        "type": "cloze",
+        "fr": "Il a les ___ bleus.",
+        "a": [
+          "yeux"
+        ],
+        "hint": "oči"
+      },
+      {
+        "id": "fr-sante-t-02",
+        "lesson": "fr-sante-1",
+        "type": "build",
+        "cs": "Mám dlouhé vlasy a malý nos.",
+        "a": [
+          "J'ai les cheveux longs et un petit nez."
+        ]
+      },
+      {
+        "id": "fr-sante-t-03",
+        "lesson": "fr-sante-1",
+        "type": "cloze",
+        "fr": "On marche avec les ___.",
+        "a": [
+          "jambes",
+          "pieds"
+        ],
+        "hint": "nohy"
+      },
+      {
+        "id": "fr-sante-t-04",
+        "lesson": "fr-sante-1",
+        "type": "build",
+        "cs": "Umyj si ruce!",
+        "a": [
+          "Lave-toi les mains !"
+        ]
+      },
+      {
+        "id": "fr-sante-t-05",
+        "lesson": "fr-sante-2",
+        "type": "cloze",
+        "fr": "J'ai mal ___ pieds.",
+        "a": [
+          "aux"
+        ]
+      },
+      {
+        "id": "fr-sante-t-06",
+        "lesson": "fr-sante-2",
+        "type": "build",
+        "cs": "Bolí mě ucho.",
+        "a": [
+          "J'ai mal à l'oreille."
+        ]
+      },
+      {
+        "id": "fr-sante-t-07",
+        "lesson": "fr-sante-2",
+        "type": "build",
+        "cs": "Bolí ji hlava.",
+        "a": [
+          "Elle a mal à la tête."
+        ]
+      },
+      {
+        "id": "fr-sante-t-08",
+        "lesson": "fr-sante-2",
+        "type": "cloze",
+        "fr": "Tu as mal ___ gorge ?",
+        "a": [
+          "à la"
+        ]
+      },
+      {
+        "id": "fr-sante-t-09",
+        "lesson": "fr-sante-2",
+        "type": "build",
+        "cs": "Bolí tě něco?",
+        "a": [
+          "Tu as mal quelque part ?",
+          "Est-ce que tu as mal quelque part ?"
+        ]
+      },
+      {
+        "id": "fr-sante-t-10",
+        "lesson": "fr-sante-3",
+        "type": "build",
+        "cs": "Jsem nemocný, mám rýmu.",
+        "a": [
+          "Je suis malade, j'ai un rhume."
+        ]
+      },
+      {
+        "id": "fr-sante-t-11",
+        "lesson": "fr-sante-3",
+        "type": "cloze",
+        "fr": "Il ___ toute la nuit.",
+        "a": [
+          "a toussé"
+        ],
+        "hint": "tousser"
+      },
+      {
+        "id": "fr-sante-t-12",
+        "lesson": "fr-sante-3",
+        "type": "build",
+        "cs": "Je mi zima.",
+        "a": [
+          "J'ai froid."
+        ]
+      },
+      {
+        "id": "fr-sante-t-13",
+        "lesson": "fr-sante-3",
+        "type": "build",
+        "cs": "Cítím se líp.",
+        "a": [
+          "Je me sens mieux."
+        ]
+      },
+      {
+        "id": "fr-sante-t-14",
+        "lesson": "fr-sante-3",
+        "type": "build",
+        "cs": "Zlomila si ruku.",
+        "a": [
+          "Elle s'est cassé le bras.",
+          "Elle s'est cassé la main."
+        ]
+      },
+      {
+        "id": "fr-sante-t-15",
+        "lesson": "fr-sante-4",
+        "type": "cloze",
+        "fr": "Je dois aller chez le ___, j'ai mal aux dents.",
+        "a": [
+          "dentiste"
+        ],
+        "hint": "zubař"
+      },
+      {
+        "id": "fr-sante-t-16",
+        "lesson": "fr-sante-4",
+        "type": "build",
+        "cs": "Mám horečku od včerejška.",
+        "a": [
+          "J'ai de la fièvre depuis hier."
+        ]
+      },
+      {
+        "id": "fr-sante-t-17",
+        "lesson": "fr-sante-4",
+        "type": "build",
+        "cs": "Berte lék třikrát denně.",
+        "a": [
+          "Prenez le médicament trois fois par jour.",
+          "Prenez ce médicament trois fois par jour."
+        ]
+      },
+      {
+        "id": "fr-sante-t-18",
+        "lesson": "fr-sante-4",
+        "type": "cloze",
+        "fr": "Voici votre ___.",
+        "a": [
+          "ordonnance"
+        ],
+        "hint": "recept"
+      },
+      {
+        "id": "fr-sante-t-19",
+        "lesson": "fr-sante-4",
+        "type": "build",
+        "cs": "Odkdy kašleš?",
+        "a": [
+          "Depuis quand est-ce que tu tousses ?",
+          "Depuis quand tu tousses ?",
+          "Tu tousses depuis quand ?"
+        ]
+      },
+      {
+        "id": "fr-sante-t-20",
+        "lesson": "fr-sante-5",
+        "type": "cloze",
+        "fr": "Il ___ dormir huit heures par nuit.",
+        "a": [
+          "faut"
+        ]
+      },
+      {
+        "id": "fr-sante-t-21",
+        "lesson": "fr-sante-5",
+        "type": "cloze",
+        "fr": "Vous ___ prendre ce médicament.",
+        "a": [
+          "devez"
+        ],
+        "hint": "devoir"
+      },
+      {
+        "id": "fr-sante-t-22",
+        "lesson": "fr-sante-5",
+        "type": "build",
+        "cs": "Musíš zůstat v posteli.",
+        "a": [
+          "Tu dois rester au lit."
+        ]
+      },
+      {
+        "id": "fr-sante-t-23",
+        "lesson": "fr-sante-5",
+        "type": "build",
+        "cs": "Nesmí se jíst moc cukru.",
+        "a": [
+          "Il ne faut pas manger trop de sucre."
+        ]
+      },
+      {
+        "id": "fr-sante-t-24",
+        "lesson": "fr-sante-5",
+        "type": "build",
+        "cs": "Měl bys jít k lékaři.",
+        "a": [
+          "Tu devrais aller chez le médecin."
+        ]
+      },
+      {
+        "id": "fr-sante-t-25",
+        "lesson": "fr-sante-5",
+        "type": "form",
+        "verb": "devoir",
+        "tense": "present",
+        "person": 4
+      }
+    ]
+  }
+}

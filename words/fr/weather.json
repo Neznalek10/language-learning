@@ -1,0 +1,133 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Weather",
+  "unit": "5.2",
+  "level": null,
+  "words": [
+    {
+      "q": "počasí",
+      "a": [
+        "météo",
+        "temps"
+      ]
+    },
+    {
+      "q": "teplota",
+      "a": "température"
+    },
+    {
+      "q": "déšť",
+      "a": "pluie"
+    },
+    {
+      "q": "suchý",
+      "a": "sec"
+    },
+    {
+      "q": "teplo",
+      "a": "chaud"
+    },
+    {
+      "q": "zima",
+      "a": "froid"
+    },
+    {
+      "q": "hnusný",
+      "a": "mauvais"
+    },
+    {
+      "q": "sníh",
+      "a": "neige"
+    },
+    {
+      "q": "slunce",
+      "a": "soleil"
+    },
+    {
+      "q": "vítr",
+      "a": "vent"
+    },
+    {
+      "q": "náledí",
+      "a": "verglas"
+    },
+    {
+      "q": "mrak",
+      "a": "nuage"
+    },
+    {
+      "q": "zjasnění",
+      "a": "éclaircie"
+    },
+    {
+      "q": "zataženo",
+      "a": "couvert"
+    },
+    {
+      "q": "zatažený",
+      "a": "couvert"
+    },
+    {
+      "q": "mlha",
+      "a": "brouillard"
+    },
+    {
+      "q": "bouřka",
+      "a": "orage"
+    },
+    {
+      "q": "jaro",
+      "a": "printemps"
+    },
+    {
+      "q": "léto",
+      "a": "été"
+    },
+    {
+      "q": "podzim",
+      "a": "automne"
+    },
+    {
+      "q": "zima (roční období)",
+      "a": "hiver"
+    },
+    {
+      "q": "je hezky",
+      "a": "il fait beau"
+    },
+    {
+      "q": "je ošklivo",
+      "a": "il fait mauvais"
+    },
+    {
+      "q": "je chladno",
+      "a": "il fait frais"
+    },
+    {
+      "q": "prší",
+      "a": "il pleut"
+    },
+    {
+      "q": "sněží",
+      "a": "il neige"
+    },
+    {
+      "q": "fouká vítr",
+      "a": "il y a du vent"
+    },
+    {
+      "q": "svítí slunce",
+      "a": "il y a du soleil"
+    },
+    {
+      "q": "stupeň",
+      "a": "degré"
+    },
+    {
+      "q": "mírný (teplý)",
+      "a": "doux"
+    }
+  ]
+}

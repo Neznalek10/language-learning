@@ -1,0 +1,444 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Food",
+  "unit": "4.1",
+  "level": null,
+  "words": [
+    {
+      "q": "pomeranč",
+      "a": "orange"
+    },
+    {
+      "q": "šťáva",
+      "a": "jus"
+    },
+    {
+      "q": "čerstvý",
+      "a": "frais"
+    },
+    {
+      "q": "led",
+      "a": "glace"
+    },
+    {
+      "q": "kostky ledu",
+      "a": "glaçons"
+    },
+    {
+      "q": "sklenice",
+      "a": "verre"
+    },
+    {
+      "q": "šunka",
+      "a": "jambon"
+    },
+    {
+      "q": "sýr",
+      "a": "fromage"
+    },
+    {
+      "q": "rajče",
+      "a": "tomate"
+    },
+    {
+      "q": "máslo",
+      "a": "beurre"
+    },
+    {
+      "q": "vejce",
+      "a": "œuf"
+    },
+    {
+      "q": "salát",
+      "a": "salade"
+    },
+    {
+      "q": "šunka se sýrem",
+      "a": "croque-monsieur"
+    },
+    {
+      "q": "šunka se sýrem a vejcem",
+      "a": "croque-madame"
+    },
+    {
+      "q": "surovina",
+      "a": "ingrédient"
+    },
+    {
+      "q": "hotové jídlo",
+      "a": "plat"
+    },
+    {
+      "q": "kuře",
+      "a": "poulet"
+    },
+    {
+      "q": "hranolky",
+      "a": "frites"
+    },
+    {
+      "q": "na výběr",
+      "a": "au choix"
+    },
+    {
+      "q": "pití",
+      "a": "boisson"
+    },
+    {
+      "q": "nakrájená zelenina",
+      "a": "crudités"
+    },
+    {
+      "q": "zmrzlina",
+      "a": "glace"
+    },
+    {
+      "q": "vanilka",
+      "a": "vanille"
+    },
+    {
+      "q": "čokoláda",
+      "a": "chocolat"
+    },
+    {
+      "q": "jahoda",
+      "a": "fraise"
+    },
+    {
+      "q": "citron",
+      "a": "citron"
+    },
+    {
+      "q": "malina",
+      "a": "framboise"
+    },
+    {
+      "q": "pistácie",
+      "a": "pistache"
+    },
+    {
+      "q": "černý rybíz",
+      "a": "cassis"
+    },
+    {
+      "q": "příchuť",
+      "a": "parfum"
+    },
+    {
+      "q": "kulička",
+      "a": "boule"
+    },
+    {
+      "q": "bylinný čaj",
+      "a": "tisane"
+    },
+    {
+      "q": "jablko",
+      "a": "pomme"
+    },
+    {
+      "q": "voda",
+      "a": "eau"
+    },
+    {
+      "q": "horká čokoláda",
+      "a": "chocolat chaud"
+    },
+    {
+      "q": "čaj",
+      "a": "thé"
+    },
+    {
+      "q": "zelenina",
+      "a": "légumes"
+    },
+    {
+      "q": "koláč",
+      "a": "gâteau"
+    },
+    {
+      "q": "placatý koláč",
+      "a": "tarte"
+    },
+    {
+      "q": "fazole",
+      "a": "haricots"
+    },
+    {
+      "q": "hrášek",
+      "a": "petits pois"
+    },
+    {
+      "q": "hovězí",
+      "a": "bœuf"
+    },
+    {
+      "q": "chléb",
+      "a": "pain"
+    },
+    {
+      "q": "jehněčí",
+      "a": "agneau"
+    },
+    {
+      "q": "telecí",
+      "a": "veau"
+    },
+    {
+      "q": "maso",
+      "a": "viande"
+    },
+    {
+      "q": "vepřové",
+      "a": "porc"
+    },
+    {
+      "q": "víno",
+      "a": "vin"
+    },
+    {
+      "q": "mléko",
+      "a": "lait"
+    },
+    {
+      "q": "marmeláda",
+      "a": "confiture"
+    },
+    {
+      "q": "na hniličko",
+      "a": "à la coque"
+    },
+    {
+      "q": "smažené",
+      "a": "frit"
+    },
+    {
+      "q": "hranolky se slaninou",
+      "a": "frites au bacon"
+    },
+    {
+      "q": "míchaná",
+      "a": "brouillés"
+    },
+    {
+      "q": "slanina",
+      "a": "bacon"
+    },
+    {
+      "q": "salám",
+      "a": "saucisson"
+    },
+    {
+      "q": "párek",
+      "a": "saucisse"
+    },
+    {
+      "q": "paštika",
+      "a": "pâté"
+    },
+    {
+      "q": "houby",
+      "a": "champignons"
+    },
+    {
+      "q": "rýže",
+      "a": "riz"
+    },
+    {
+      "q": "hroznové víno",
+      "a": "raisin"
+    },
+    {
+      "q": "cibule",
+      "a": "oignon"
+    },
+    {
+      "q": "květák",
+      "a": "chou-fleur"
+    },
+    {
+      "q": "ředkvička",
+      "a": "radis"
+    },
+    {
+      "q": "mouka",
+      "a": "farine"
+    },
+    {
+      "q": "jogurt",
+      "a": "yaourt"
+    },
+    {
+      "q": "polévka",
+      "a": "soupe"
+    },
+    {
+      "q": "lilek",
+      "a": "aubergine"
+    },
+    {
+      "q": "paprika",
+      "a": "poivron"
+    },
+    {
+      "q": "palivá paprička",
+      "a": "piment"
+    },
+    {
+      "q": "cuketa",
+      "a": "courgette"
+    },
+    {
+      "q": "okurka",
+      "a": "concombre"
+    },
+    {
+      "q": "česnek",
+      "a": "ail"
+    },
+    {
+      "q": "cukr",
+      "a": "sucre"
+    },
+    {
+      "q": "sůl",
+      "a": "sel"
+    },
+    {
+      "q": "olej",
+      "a": "huile"
+    },
+    {
+      "q": "těstoviny",
+      "a": "pâtes"
+    },
+    {
+      "q": "těsto",
+      "a": "pâte"
+    },
+    {
+      "q": "jitrnice",
+      "a": "andouille"
+    },
+    {
+      "q": "knedlíček",
+      "a": "quenelle"
+    },
+    {
+      "q": "tapenáda",
+      "a": "tapenade"
+    },
+    {
+      "q": "paštika z ančoviček",
+      "a": "anchoïade"
+    },
+    {
+      "q": "polévka s rybou",
+      "a": "bouillabaisse"
+    },
+    {
+      "q": "sušenky",
+      "a": "navettes"
+    },
+    {
+      "q": "kachna",
+      "a": "canard"
+    },
+    {
+      "q": "mořské plody",
+      "a": "fruits de mer"
+    },
+    {
+      "q": "bábovičky",
+      "a": "canelés"
+    },
+    {
+      "q": "ovoce",
+      "a": [
+        "fruits",
+        "fruit"
+      ]
+    },
+    {
+      "q": "uzeniny",
+      "a": "charcuterie"
+    },
+    {
+      "q": "vajíčko",
+      "a": "œuf"
+    },
+    {
+      "q": "pohár",
+      "a": "coupe"
+    },
+    {
+      "q": "na dně",
+      "a": "au fond"
+    },
+    {
+      "q": "brambora",
+      "a": "pomme de terre"
+    },
+    {
+      "q": "mrkev",
+      "a": "carotte"
+    },
+    {
+      "q": "banán",
+      "a": "banane"
+    },
+    {
+      "q": "hruška",
+      "a": "poire"
+    },
+    {
+      "q": "ryba (jídlo)",
+      "a": "poisson"
+    },
+    {
+      "q": "káva",
+      "a": "café"
+    },
+    {
+      "q": "minerálka",
+      "a": "eau minérale"
+    },
+    {
+      "q": "sendvič",
+      "a": "sandwich"
+    },
+    {
+      "q": "jídelní lístek",
+      "a": "carte"
+    },
+    {
+      "q": "účet",
+      "a": "addition"
+    },
+    {
+      "q": "číšník",
+      "a": "serveur"
+    },
+    {
+      "q": "předkrm",
+      "a": "entrée"
+    },
+    {
+      "q": "hlavní chod",
+      "a": "plat principal"
+    },
+    {
+      "q": "dezert",
+      "a": "dessert"
+    },
+    {
+      "q": "chtěl bych",
+      "a": [
+        "je voudrais",
+        "j'aimerais"
+      ]
+    }
+  ]
+}

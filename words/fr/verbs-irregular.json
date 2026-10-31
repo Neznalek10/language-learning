@@ -1,0 +1,173 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "verbs",
+  "title": "-ir, -re & irregular verbs",
+  "unit": "2.3",
+  "level": null,
+  "words": [
+    {
+      "q": "být",
+      "a": "être",
+      "unit": "1.1"
+    },
+    {
+      "q": "jít, jet",
+      "a": "aller",
+      "unit": "3.1"
+    },
+    {
+      "q": "číst",
+      "a": "lire"
+    },
+    {
+      "q": "psát",
+      "a": "écrire",
+      "unit": "3.1"
+    },
+    {
+      "q": "znát",
+      "a": "connaître",
+      "unit": "2.1"
+    },
+    {
+      "q": "líbit se",
+      "a": "plaire",
+      "unit": "6.1"
+    },
+    {
+      "q": "ztratit",
+      "a": "perdre",
+      "unit": "6.2"
+    },
+    {
+      "q": "vybrat",
+      "a": "choisir",
+      "unit": "3.1"
+    },
+    {
+      "q": "prodat",
+      "a": "vendre",
+      "unit": "4.2"
+    },
+    {
+      "q": "naučit se",
+      "a": "apprendre",
+      "unit": "3.1"
+    },
+    {
+      "q": "pít",
+      "a": "boire",
+      "unit": "4.1"
+    },
+    {
+      "q": "pršet",
+      "a": "pleuvoir",
+      "unit": "5.2"
+    },
+    {
+      "q": "muset",
+      "a": "devoir",
+      "unit": "7.2"
+    },
+    {
+      "q": "mít",
+      "a": "avoir",
+      "unit": "1.2"
+    },
+    {
+      "q": "přijít, pocházet",
+      "a": "venir",
+      "unit": "1.2"
+    },
+    {
+      "q": "dělat",
+      "a": "faire"
+    },
+    {
+      "q": "končit",
+      "a": "finir",
+      "unit": "3.1"
+    },
+    {
+      "q": "vzít",
+      "a": "prendre",
+      "unit": "3.2"
+    },
+    {
+      "q": "odejít, odjet",
+      "a": "partir",
+      "unit": "3.2"
+    },
+    {
+      "q": "chtít",
+      "a": "vouloir",
+      "unit": "4.2"
+    },
+    {
+      "q": "moci",
+      "a": "pouvoir",
+      "unit": "4.2"
+    },
+    {
+      "q": "položit, dát",
+      "a": "mettre",
+      "unit": "4.3"
+    },
+    {
+      "q": "vědět, umět",
+      "a": "savoir",
+      "unit": "8.1"
+    },
+    {
+      "q": "vidět",
+      "a": "voir",
+      "unit": "6.2"
+    },
+    {
+      "q": "říct, říkat",
+      "a": "dire",
+      "unit": "8.1"
+    },
+    {
+      "q": "jít ven, vyjít",
+      "a": "sortir",
+      "unit": "6.2"
+    },
+    {
+      "q": "spát",
+      "a": "dormir",
+      "unit": "6.2"
+    },
+    {
+      "q": "čekat",
+      "a": "attendre",
+      "unit": "6.2"
+    },
+    {
+      "q": "sejít dolů",
+      "a": "descendre",
+      "unit": "7.1"
+    },
+    {
+      "q": "narodit se",
+      "a": "naître",
+      "unit": "7.1"
+    },
+    {
+      "q": "zemřít",
+      "a": "mourir",
+      "unit": "7.1"
+    },
+    {
+      "q": "uzdravit se",
+      "a": "guérir",
+      "unit": "7.2"
+    },
+    {
+      "q": "stát se",
+      "a": "devenir",
+      "unit": "9"
+    }
+  ]
+}

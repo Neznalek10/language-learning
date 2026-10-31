@@ -1,0 +1,25 @@
+{
+  "lang": "de",
+  "from": "cs",
+  "type": "phrases",
+  "title": "Greetings & basics",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {"q": "ahoj", "a": "hallo"},
+    {"q": "dobrý den", "a": "guten Tag"},
+    {"q": "dobré ráno", "a": "guten Morgen"},
+    {"q": "dobrý večer", "a": "guten Abend"},
+    {"q": "dobrou noc", "a": "gute Nacht"},
+    {"q": "na shledanou", "a": "auf Wiedersehen"},
+    {"q": "čau (při loučení)", "a": "tschüss"},
+    {"q": "prosím", "a": "bitte"},
+    {"q": "děkuji", "a": "danke"},
+    {"q": "děkuji mnohokrát", "a": ["vielen Dank", "danke schön"]},
+    {"q": "promiňte", "a": ["Entschuldigung", "entschuldigen Sie"]},
+    {"q": "ano", "a": "ja"},
+    {"q": "ne", "a": "nein"},
+    {"q": "jak se máš?", "a": ["wie geht's?", "wie geht es dir?"]},
+    {"q": "jmenuji se", "a": "ich heiße"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "lang": "de",
+  "from": "cs",
+  "type": "adjectives",
+  "title": "Adjectives",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {"q": "velký", "a": "groß"},
+    {"q": "malý", "a": "klein"},
+    {"q": "dobrý", "a": "gut"},
+    {"q": "špatný", "a": "schlecht"},
+    {"q": "nový", "a": "neu"},
+    {"q": "starý", "a": "alt"},
+    {"q": "mladý", "a": "jung"},
+    {"q": "krásný", "a": "schön"},
+    {"q": "teplý", "a": "warm"},
+    {"q": "studený", "a": "kalt"}
+  ]
+}

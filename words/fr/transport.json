@@ -1,0 +1,91 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Transport",
+  "unit": "5.1",
+  "level": null,
+  "words": [
+    {
+      "q": "metro",
+      "a": "métro"
+    },
+    {
+      "q": "autobus",
+      "a": [
+        "bus",
+        "autobus"
+      ]
+    },
+    {
+      "q": "karoserie",
+      "a": "carrosserie"
+    },
+    {
+      "q": "tramvaj",
+      "a": "tram"
+    },
+    {
+      "q": "vlak",
+      "a": "train"
+    },
+    {
+      "q": "auto",
+      "a": "voiture"
+    },
+    {
+      "q": "automobil",
+      "a": "automobile"
+    },
+    {
+      "q": "letadlo",
+      "a": "avion"
+    },
+    {
+      "q": "loď",
+      "a": "bateau"
+    },
+    {
+      "q": "motorka",
+      "a": "moto"
+    },
+    {
+      "q": "rovně",
+      "a": "tout droit"
+    },
+    {
+      "q": "doleva",
+      "a": "à gauche"
+    },
+    {
+      "q": "doprava",
+      "a": "à droite"
+    },
+    {
+      "q": "pěšky",
+      "a": "à pied"
+    },
+    {
+      "q": "na kole",
+      "a": "à vélo"
+    },
+    {
+      "q": "autem",
+      "a": "en voiture"
+    },
+    {
+      "q": "autobusem",
+      "a": "en bus"
+    },
+    {
+      "q": "letiště",
+      "a": "aéroport",
+      "unit": "7.1"
+    },
+    {
+      "q": "jízdenka, letenka",
+      "a": "billet",
+      "unit": "7.1"
+    }
+  ]
+}

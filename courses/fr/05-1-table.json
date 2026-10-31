@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "goals": [
+    "Používat dělivý člen du, de la, de l', des",
+    "Rozlišit j'aime le fromage a je mange du fromage",
+    "Vyjádřit zápor a množství: pas de, beaucoup de",
+    "Časovat boire a manger",
+    "Objednat si v restauraci"
+  ],
+  "lessons": [
+    {
+      "id": "fr-5.1-1",
+      "title": "Du pain, de la confiture",
+      "subtitle": "Dělivý člen",
+      "topics": ["partitive", "food"],
+      "words": ["food#chléb", "food#máslo", "food#marmeláda", "food#sýr", "food#šunka", "food#mléko", "food#voda", "food#čaj", "food#káva", "food#jogurt", "food#šťáva", "food#cukr", "food#maso", "food#rýže", "food#těstoviny"],
+      "learn": [
+        {"title": "Dělivý člen", "blocks": [
+          {"type": "text", "cs": "Když jíš nebo piješ **nějaké množství** něčeho, co nepočítáš na kusy, použiješ dělivý člen: *du* (mužský rod), *de la* (ženský rod), *de l'* (před samohláskou) a *des* (množné číslo). Česky se nepřekládá: *Je mange du pain.* (Jím chleba.)"},
+          {"type": "table", "head": ["", "člen", "příklad"], "firstCs": true, "rows": [
+            ["mužský rod", "du", "du pain, du fromage"],
+            ["ženský rod", "de la", "de la confiture, de la viande"],
+            ["před samohláskou", "de l'", "de l'eau, de l'huile"],
+            ["množné číslo", "des", "des pâtes, des légumes"]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je bois ___ lait.", "a": ["du"]}}
+        ]},
+        {"title": "le, nebo du?", "blocks": [
+          {"type": "text", "cs": "*J'aime le fromage.* = Mám rád sýr (obecně). *Je mange du fromage.* = Jím (nějaký) sýr. Po *aimer, adorer, préférer, détester* je vždy **určitý člen**, po *manger, boire, prendre, acheter, vouloir* většinou **dělivý**."},
+          {"type": "examples", "items": [
+            {"fr": "J'adore le chocolat, alors je mange du chocolat tous les jours.", "cs": "Zbožňuju čokoládu, tak ji jím každý den."},
+            {"fr": "Au petit-déjeuner, je prends du pain avec du beurre et de la confiture.", "cs": "K snídani si dávám chleba s máslem a marmeládou."},
+            {"fr": "Tu veux de l'eau ?", "cs": "Chceš vodu?"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'aime ___ fromage.", "a": ["le"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.1-1-01", "type": "cloze", "fr": "Je mange ___ pain.", "a": ["du"]},
+        {"id": "fr-5.1-1-02", "type": "cloze", "fr": "Tu veux ___ confiture ?", "a": ["de la"]},
+        {"id": "fr-5.1-1-03", "type": "cloze", "fr": "Il boit ___eau.", "a": ["de l'"]},
+        {"id": "fr-5.1-1-04", "type": "cloze", "fr": "Nous mangeons ___ pâtes.", "a": ["des"]},
+        {"id": "fr-5.1-1-05", "type": "cloze", "fr": "Elle prend ___ thé.", "a": ["du"]},
+        {"id": "fr-5.1-1-06", "type": "cloze", "fr": "J'achète ___ viande.", "a": ["de la"]},
+        {"id": "fr-5.1-1-07", "type": "cloze", "fr": "Je déteste ___ lait.", "a": ["le"], "why": "Po détester je vždy určitý člen."},
+        {"id": "fr-5.1-1-08", "type": "cloze", "fr": "Tu aimes ___ riz ?", "a": ["le"]},
+        {"id": "fr-5.1-1-09", "type": "build", "cs": "Jím chleba s máslem.", "a": ["Je mange du pain avec du beurre."]},
+        {"id": "fr-5.1-1-10", "type": "build", "cs": "K snídani piju čaj.", "a": ["Au petit-déjeuner, je bois du thé."]},
+        {"id": "fr-5.1-1-11", "type": "build", "cs": "Mám rád sýr.", "a": ["J'aime le fromage."]},
+        {"id": "fr-5.1-1-12", "type": "build", "cs": "Chceš vodu?", "a": ["{Tu veux|Est-ce que tu veux|Veux-tu} de l'eau ?"]},
+        {"id": "fr-5.1-1-13", "type": "build", "cs": "Jíme rýži a maso.", "a": ["{Nous mangeons|On mange} du riz et de la viande."]},
+        {"id": "fr-5.1-1-14", "type": "order", "cs": "Piju pomerančový džus.", "a": ["Je bois du jus d'orange"], "extra": ["de la", "le"]}
+      ]
+    },
+    {
+      "id": "fr-5.1-2",
+      "title": "Je ne mange pas de viande",
+      "subtitle": "Zápor a množství",
+      "topics": ["partitive", "quantities"],
+      "words": ["food#zelenina", "food#ovoce", "food#sůl", "food#olej", "basics#hodně", "basics#trochu", "basics#málo", "basics#dost", "basics#až moc"],
+      "learn": [
+        {"title": "pas de", "blocks": [
+          {"type": "text", "cs": "Po záporu se *du, de la, de l', des* mění na *de* (před samohláskou *d'*): *Je mange de la viande. → Je ne mange pas de viande. Il boit de l'eau. → Il ne boit pas d'eau.*"},
+          {"type": "text", "cs": "Určitý člen po *aimer* zůstává: *Je n'aime pas le poisson.*"},
+          {"type": "check", "item": {"type": "transform", "task_cs": "Převeď do záporu", "fr": "Je bois du café.", "a": ["Je ne bois pas de café."]}}
+        ]},
+        {"title": "Kolik?", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["hodně", "beaucoup de"], ["trochu", "un peu de"], ["málo", "peu de"], ["dost", "assez de"], ["moc, příliš", "trop de"]
+          ]},
+          {"type": "text", "cs": "Po výrazech množství stojí jen *de* bez členu: *beaucoup de sucre, un peu de lait, trop de sel*. Před samohláskou *d'*: *beaucoup d'eau*."},
+          {"type": "examples", "items": [
+            {"fr": "Je mange beaucoup de fruits.", "cs": "Jím hodně ovoce."},
+            {"fr": "Tu bois assez d'eau ?", "cs": "Piješ dost vody?"},
+            {"fr": "Je prends un peu de lait dans mon café.", "cs": "Do kávy si dávám trochu mléka."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je mange beaucoup ___ légumes.", "a": ["de"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.1-2-01", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Je mange de la viande.", "a": ["Je ne mange pas de viande."]},
+        {"id": "fr-5.1-2-02", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il boit du lait.", "a": ["Il ne boit pas de lait."]},
+        {"id": "fr-5.1-2-03", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Nous mangeons des fruits.", "a": ["{Nous ne mangeons pas|On ne mange pas} de fruits."]},
+        {"id": "fr-5.1-2-04", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Elle boit de l'eau.", "a": ["Elle ne boit pas d'eau."]},
+        {"id": "fr-5.1-2-05", "type": "transform", "task_cs": "Převeď do záporu", "fr": "J'aime le poisson.", "a": ["Je n'aime pas le poisson."], "why": "Po aimer zůstává určitý člen i v záporu."},
+        {"id": "fr-5.1-2-06", "type": "cloze", "fr": "Je bois beaucoup ___eau.", "a": ["d'"]},
+        {"id": "fr-5.1-2-07", "type": "cloze", "fr": "Tu veux un peu ___ sucre ?", "a": ["de"]},
+        {"id": "fr-5.1-2-08", "type": "cloze", "fr": "Il mange trop ___ chocolat.", "a": ["de"]},
+        {"id": "fr-5.1-2-09", "type": "cloze", "fr": "Nous n'avons pas assez ___ pain.", "a": ["de"]},
+        {"id": "fr-5.1-2-10", "type": "build", "cs": "Nejím maso.", "a": ["Je ne mange pas de viande."]},
+        {"id": "fr-5.1-2-11", "type": "build", "cs": "Jím hodně zeleniny.", "a": ["Je mange beaucoup de légumes."]},
+        {"id": "fr-5.1-2-12", "type": "build", "cs": "Piješ dost vody?", "a": ["{Tu bois|Est-ce que tu bois|Bois-tu} assez d'eau ?"]},
+        {"id": "fr-5.1-2-13", "type": "build", "cs": "Nemám rád ryby.", "a": ["Je n'aime pas le poisson."]},
+        {"id": "fr-5.1-2-14", "type": "order", "cs": "Chci trochu mléka.", "a": ["Je veux un peu de lait"], "extra": ["du", "beaucoup"]}
+      ]
+    },
+    {
+      "id": "fr-5.1-3",
+      "title": "Je bois de l'eau",
+      "subtitle": "Boire, manger, ovoce a zelenina",
+      "topics": ["food"],
+      "words": ["verbs-irregular#pít", "verbs#jíst", "food#jablko", "food#pomeranč", "food#banán", "food#hruška", "food#jahoda", "food#rajče", "food#mrkev", "food#brambora", "food#okurka", "food#salát", "food#polévka", "food#kuře", "food#ryba (jídlo)", "food#zmrzlina", "food#čokoláda", "food#koláč"],
+      "learn": [
+        {"title": "Boire a manger", "blocks": [
+          {"type": "table", "verb": "boire", "tense": "present"},
+          {"type": "text", "cs": "*Manger* je pravidelné, jen u *nous* zůstává *e*: *nous mangeons*."},
+          {"type": "tip", "title": "Výslovnost", "cs": "*Ils boivent* se čte [il bwav]. Koncové *-ent* se nevyslovuje."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ du jus.", "a": ["buvons"], "hint": "boire"}}
+        ]},
+        {"title": "Ovoce a zelenina", "blocks": [
+          {"type": "text", "cs": "Ovoce je *les fruits*, zelenina *les légumes*. *La pomme de terre* (brambora) je doslova „zemské jablko“."},
+          {"type": "text", "cs": "Když počítáš kusy, použiješ *un, une*: *une pomme, deux bananes*. Když nepočítáš, dělivý člen: *de la salade, du poulet*."},
+          {"type": "examples", "items": [
+            {"fr": "Je mange une pomme.", "cs": "Jím jablko."},
+            {"fr": "On mange du poulet avec des pommes de terre.", "cs": "Jíme kuře s bramborami."},
+            {"fr": "Tu veux de la soupe ?", "cs": "Chceš polévku?"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je mange ___ banane.", "a": ["une"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.1-3-f", "type": "form", "verb": "boire", "tense": "present"},
+        {"id": "fr-5.1-3-01", "type": "cloze", "fr": "Je ___ beaucoup d'eau.", "a": ["bois"], "hint": "boire"},
+        {"id": "fr-5.1-3-02", "type": "cloze", "fr": "Ils ___ du café.", "a": ["boivent"], "hint": "boire"},
+        {"id": "fr-5.1-3-03", "type": "cloze", "fr": "Nous ___ à midi.", "a": ["mangeons"], "hint": "manger"},
+        {"id": "fr-5.1-3-04", "type": "cloze", "fr": "Vous ___ quoi ?", "a": ["buvez"], "hint": "boire"},
+        {"id": "fr-5.1-3-05", "type": "cloze", "fr": "Je prends ___ pomme.", "a": ["une"]},
+        {"id": "fr-5.1-3-06", "type": "cloze", "fr": "Tu veux ___ poulet ?", "a": ["du"]},
+        {"id": "fr-5.1-3-07", "type": "cloze", "fr": "Elle mange ___ soupe.", "a": ["de la"]},
+        {"id": "fr-5.1-3-08", "type": "cloze", "fr": "J'achète des carottes et ___ pommes de terre.", "a": ["des"]},
+        {"id": "fr-5.1-3-09", "type": "build", "cs": "Piju vodu a jím jablko.", "a": ["Je bois de l'eau et je mange une pomme."]},
+        {"id": "fr-5.1-3-10", "type": "build", "cs": "Máš rád jahody?", "a": ["{Tu aimes|Est-ce que tu aimes|Aimes-tu} les fraises ?"]},
+        {"id": "fr-5.1-3-11", "type": "build", "cs": "Jíme kuře s bramborami.", "a": ["{Nous mangeons|On mange} du poulet avec des pommes de terre."]},
+        {"id": "fr-5.1-3-12", "type": "build", "cs": "Moje sestra nepije kávu.", "a": ["Ma sœur ne boit pas de café."]},
+        {"id": "fr-5.1-3-13", "type": "build", "cs": "Ke svačině mám koláč.", "a": ["Au goûter, je {mange|prends} {du gâteau|un gâteau}."]},
+        {"id": "fr-5.1-3-14", "type": "order", "cs": "Děti pijí mléko.", "a": ["Les enfants boivent du lait"], "extra": ["boit", "le"]}
+      ]
+    },
+    {
+      "id": "fr-5.1-4",
+      "title": "Au restaurant",
+      "subtitle": "Objednávka a hlad",
+      "topics": ["restaurant"],
+      "words": ["health#mám hlad", "health#mám žízeň", "food#chtěl bych", "food#jídelní lístek", "food#předkrm", "food#hlavní chod", "food#dezert", "food#pití", "food#účet", "food#číšník", "food#na výběr"],
+      "learn": [
+        {"title": "Mám hlad", "blocks": [
+          {"type": "text", "cs": "Hlad a žízeň vyjádříš slovesem *avoir*: *J'ai faim.* (Mám hlad.) *J'ai soif.* (Mám žízeň.) Stejně tak *j'ai chaud* (je mi horko) a *j'ai froid* (je mi zima)."},
+          {"type": "check", "item": {"type": "build", "cs": "Mám hlad.", "a": ["J'ai faim."]}}
+        ]},
+        {"title": "Objednávka", "blocks": [
+          {"type": "text", "cs": "Zdvořile si objednáš *Je voudrais...* (Chtěl/a bych...). Je to zdvořilejší než *je veux* (chci)."},
+          {"type": "table", "firstCs": true, "rows": [
+            ["Co si dáte?", "Qu'est-ce que vous prenez ? / Vous avez choisi ?"],
+            ["Dám si...", "Je prends... / Je voudrais..."],
+            ["jako předkrm", "comme entrée"],
+            ["jako hlavní chod", "comme plat"],
+            ["jako dezert", "comme dessert"],
+            ["k pití", "comme boisson"],
+            ["Účet, prosím.", "L'addition, s'il vous plaît."]
+          ]},
+          {"type": "examples", "items": [
+            {"fr": "Bonjour, vous avez choisi ?", "cs": "Dobrý den, máte vybráno?"},
+            {"fr": "Oui, je voudrais un croque-monsieur, s'il vous plaît.", "cs": "Ano, chtěl bych croque-monsieur, prosím."},
+            {"fr": "Et comme boisson ?", "cs": "A k pití?"},
+            {"fr": "Un jus d'orange, s'il vous plaît.", "cs": "Pomerančový džus, prosím."}
+          ]},
+          {"type": "tip", "title": "La carte", "cs": "Jídelní lístek je *la carte*. *Le menu* je ve Francii hlavně menu za pevnou cenu (předkrm, hlavní chod, dezert)."},
+          {"type": "check", "item": {"type": "build", "cs": "Chtěl bych polévku, prosím.", "a": ["Je voudrais {une soupe|de la soupe}, s'il vous plaît."]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.1-4-01", "type": "cloze", "fr": "Je ___ un café, s'il vous plaît.", "a": ["voudrais"], "hint": "chtěl bych"},
+        {"id": "fr-5.1-4-02", "type": "cloze", "fr": "L'___, s'il vous plaît !", "a": ["addition"], "hint": "účet"},
+        {"id": "fr-5.1-4-03", "type": "cloze", "fr": "Comme ___, je prends une glace.", "a": ["dessert"], "hint": "dezert"},
+        {"id": "fr-5.1-4-04", "type": "cloze", "fr": "J'ai ___, je voudrais de l'eau.", "a": ["soif"], "hint": "žízeň"},
+        {"id": "fr-5.1-4-05", "type": "cloze", "fr": "Qu'est-ce que vous ___ ?", "a": ["prenez"], "hint": "prendre"},
+        {"id": "fr-5.1-4-06", "type": "build", "cs": "Mám hlad a žízeň.", "a": ["J'ai faim et {j'ai |}soif."]},
+        {"id": "fr-5.1-4-07", "type": "build", "cs": "Chtěl bych croque-monsieur, prosím.", "a": ["Je voudrais un croque-monsieur, s'il vous plaît."]},
+        {"id": "fr-5.1-4-08", "type": "build", "cs": "Jako předkrm si dám salát.", "a": ["Comme entrée, {je prends|je voudrais} une salade."]},
+        {"id": "fr-5.1-4-09", "type": "build", "cs": "Co si dáte k pití?", "a": ["{Qu'est-ce que vous prenez|Que prenez-vous|Vous prenez quoi} comme boisson ?"]},
+        {"id": "fr-5.1-4-10", "type": "build", "cs": "Účet, prosím.", "a": ["L'addition, s'il vous plaît."]},
+        {"id": "fr-5.1-4-11", "type": "build", "cs": "Dám si pomerančový džus, prosím.", "a": ["{Je prends|Je voudrais} un jus d'orange, s'il vous plaît."]},
+        {"id": "fr-5.1-4-12", "type": "transform", "task_cs": "Řekni to zdvořileji", "fr": "Je veux un café.", "a": ["Je voudrais un café."]},
+        {"id": "fr-5.1-4-13", "type": "order", "cs": "Jako hlavní chod si dám kuře s hranolky.", "a": ["Comme plat je prends du poulet avec des frites"], "extra": ["une", "prend"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-5.1-t-01", "lesson": "fr-5.1-1", "type": "cloze", "fr": "Je mange ___ fromage.", "a": ["du"]},
+      {"id": "fr-5.1-t-02", "lesson": "fr-5.1-1", "type": "cloze", "fr": "Tu bois ___eau ?", "a": ["de l'"]},
+      {"id": "fr-5.1-t-03", "lesson": "fr-5.1-1", "type": "cloze", "fr": "Elle achète ___ salade.", "a": ["de la"]},
+      {"id": "fr-5.1-t-04", "lesson": "fr-5.1-1", "type": "cloze", "fr": "Il adore ___ chocolat.", "a": ["le"]},
+      {"id": "fr-5.1-t-05", "lesson": "fr-5.1-1", "type": "build", "cs": "K snídani jím chleba s marmeládou.", "a": ["Au petit-déjeuner, je mange du pain avec de la confiture."]},
+      {"id": "fr-5.1-t-06", "lesson": "fr-5.1-1", "type": "build", "cs": "Jíme polévku.", "a": ["{Nous mangeons|On mange} {de la soupe|une soupe}."]},
+      {"id": "fr-5.1-t-07", "lesson": "fr-5.1-2", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il mange du pain.", "a": ["Il ne mange pas de pain."]},
+      {"id": "fr-5.1-t-08", "lesson": "fr-5.1-2", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Je bois de l'eau.", "a": ["Je ne bois pas d'eau."]},
+      {"id": "fr-5.1-t-09", "lesson": "fr-5.1-2", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Elle prend des pâtes.", "a": ["Elle ne prend pas de pâtes."]},
+      {"id": "fr-5.1-t-10", "lesson": "fr-5.1-2", "type": "cloze", "fr": "Je mange beaucoup ___ fruits.", "a": ["de"]},
+      {"id": "fr-5.1-t-11", "lesson": "fr-5.1-2", "type": "cloze", "fr": "Tu veux un peu ___eau ?", "a": ["d'"]},
+      {"id": "fr-5.1-t-12", "lesson": "fr-5.1-2", "type": "build", "cs": "Piju moc kávy.", "a": ["Je bois trop de café."]},
+      {"id": "fr-5.1-t-13", "lesson": "fr-5.1-2", "type": "build", "cs": "Moje babička nejí maso.", "a": ["Ma grand-mère ne mange pas de viande."]},
+      {"id": "fr-5.1-t-14", "lesson": "fr-5.1-3", "type": "form", "verb": "boire", "tense": "present", "person": 3},
+      {"id": "fr-5.1-t-15", "lesson": "fr-5.1-3", "type": "form", "verb": "boire", "tense": "present", "person": 5},
+      {"id": "fr-5.1-t-16", "lesson": "fr-5.1-3", "type": "form", "verb": "manger", "tense": "present", "person": 3},
+      {"id": "fr-5.1-t-17", "lesson": "fr-5.1-3", "type": "build", "cs": "Nepiju mléko.", "a": ["Je ne bois pas de lait."]},
+      {"id": "fr-5.1-t-18", "lesson": "fr-5.1-3", "type": "build", "cs": "Mám rád jablka, ale nemám rád banány.", "a": ["J'aime les pommes, mais je n'aime pas les bananes."]},
+      {"id": "fr-5.1-t-19", "lesson": "fr-5.1-3", "type": "build", "cs": "Mám rád ovoce.", "a": ["J'aime les fruits."]},
+      {"id": "fr-5.1-t-20", "lesson": "fr-5.1-4", "type": "build", "cs": "Chtěl bych čaj, prosím.", "a": ["Je voudrais {un thé|du thé}, s'il vous plaît."]},
+      {"id": "fr-5.1-t-21", "lesson": "fr-5.1-4", "type": "build", "cs": "Mám žízeň.", "a": ["J'ai soif."]},
+      {"id": "fr-5.1-t-22", "lesson": "fr-5.1-4", "type": "build", "cs": "Jako dezert si dám zmrzlinu.", "a": ["Comme dessert, {je prends|je voudrais} une glace."]},
+      {"id": "fr-5.1-t-23", "lesson": "fr-5.1-4", "type": "build", "cs": "Co si dáte jako hlavní chod?", "a": ["{Qu'est-ce que vous prenez|Que prenez-vous|Vous prenez quoi} comme plat ?"]},
+      {"id": "fr-5.1-t-24", "lesson": "fr-5.1-4", "type": "cloze", "fr": "J'ai ___, je voudrais un sandwich.", "a": ["faim"], "hint": "hlad"},
+      {"id": "fr-5.1-t-25", "lesson": "fr-5.1-4", "type": "transform", "task_cs": "Řekni to zdvořileji", "fr": "Je veux de l'eau.", "a": ["Je voudrais de l'eau."]}
+    ]
+  }
+}

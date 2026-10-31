@@ -1,0 +1,74 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "adjectives",
+  "title": "Colors",
+  "unit": "2.2",
+  "level": null,
+  "words": [
+    {
+      "q": "barva",
+      "a": "couleur"
+    },
+    {
+      "q": "šedivá",
+      "a": "gris"
+    },
+    {
+      "q": "modrá",
+      "a": "bleu"
+    },
+    {
+      "q": "žlutá",
+      "a": "jaune"
+    },
+    {
+      "q": "červená",
+      "a": "rouge"
+    },
+    {
+      "q": "růžová",
+      "a": "rose"
+    },
+    {
+      "q": "béžová",
+      "a": "beige"
+    },
+    {
+      "q": "černá",
+      "a": "noir"
+    },
+    {
+      "q": "bílá",
+      "a": "blanc"
+    },
+    {
+      "q": "hnědá",
+      "a": "marron"
+    },
+    {
+      "q": "fialová",
+      "a": "violet"
+    },
+    {
+      "q": "světlý",
+      "a": "clair"
+    },
+    {
+      "q": "tmavý",
+      "a": "foncé"
+    },
+    {
+      "q": "světle fialová",
+      "a": "mauve"
+    },
+    {
+      "q": "zelená",
+      "a": "vert"
+    },
+    {
+      "q": "oranžová",
+      "a": "orange"
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Family",
+  "unit": "2.1",
+  "level": null,
+  "words": [
+    {
+      "q": "rodina",
+      "a": "famille"
+    },
+    {
+      "q": "bratr",
+      "a": "frère"
+    },
+    {
+      "q": "matka",
+      "a": "mère"
+    },
+    {
+      "q": "otec",
+      "a": "père"
+    },
+    {
+      "q": "rodiče",
+      "a": "parents"
+    },
+    {
+      "q": "žena",
+      "a": "femme"
+    },
+    {
+      "q": "manžel",
+      "a": "mari"
+    },
+    {
+      "q": "přítel",
+      "a": "ami"
+    },
+    {
+      "q": "kamarád",
+      "a": "copain"
+    },
+    {
+      "q": "kamarádka",
+      "a": "copine"
+    },
+    {
+      "q": "dítě",
+      "a": "enfant"
+    },
+    {
+      "q": "holka",
+      "a": "fille"
+    },
+    {
+      "q": "lidé",
+      "a": "gens"
+    },
+    {
+      "q": "obyvatel",
+      "a": "habitant",
+      "unit": "5.1"
+    },
+    {
+      "q": "herec",
+      "a": "acteur",
+      "unit": "9"
+    },
+    {
+      "q": "herečka",
+      "a": "actrice",
+      "unit": "9"
+    },
+    {
+      "q": "překladatel",
+      "a": "traducteur",
+      "unit": "9"
+    },
+    {
+      "q": "král",
+      "a": "roi",
+      "unit": "9"
+    },
+    {
+      "q": "umřel",
+      "a": "mort"
+    },
+    {
+      "q": "zesnulý",
+      "a": "décédé"
+    },
+    {
+      "q": "rodokmen",
+      "a": "arbre généalogique"
+    },
+    {
+      "q": "sestra",
+      "a": "sœur"
+    },
+    {
+      "q": "chlapec",
+      "a": "garçon"
+    },
+    {
+      "q": "kámoš",
+      "a": "pote"
+    },
+    {
+      "q": "dědeček",
+      "a": "grand-père"
+    },
+    {
+      "q": "babička",
+      "a": "grand-mère"
+    },
+    {
+      "q": "prarodiče",
+      "a": "grands-parents"
+    },
+    {
+      "q": "strýc",
+      "a": "oncle"
+    },
+    {
+      "q": "teta",
+      "a": "tante"
+    },
+    {
+      "q": "bratranec",
+      "a": "cousin"
+    },
+    {
+      "q": "sestřenice",
+      "a": "cousine"
+    },
+    {
+      "q": "syn",
+      "a": "fils"
+    },
+    {
+      "q": "dcera",
+      "a": "fille"
+    },
+    {
+      "q": "táta",
+      "a": "papa"
+    },
+    {
+      "q": "máma",
+      "a": "maman"
+    },
+    {
+      "q": "nevlastní bratr",
+      "a": "demi-frère"
+    },
+    {
+      "q": "nevlastní sestra",
+      "a": "demi-sœur"
+    },
+    {
+      "q": "jedináček",
+      "a": [
+        "fils unique",
+        "fille unique"
+      ]
+    },
+    {
+      "q": "ženatý, vdaná",
+      "a": [
+        "marié",
+        "mariée"
+      ]
+    },
+    {
+      "q": "rozvedený",
+      "a": "divorcé"
+    },
+    {
+      "q": "dvojčata",
+      "a": "jumeaux"
+    }
+  ]
+}

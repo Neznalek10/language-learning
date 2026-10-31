@@ -1,0 +1,124 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Health",
+  "unit": "7.2",
+  "level": null,
+  "words": [
+    {
+      "q": "zdraví",
+      "a": "santé"
+    },
+    {
+      "q": "být ospalý",
+      "a": "avoir sommeil"
+    },
+    {
+      "q": "unavený",
+      "a": "fatigué"
+    },
+    {
+      "q": "únava",
+      "a": "fatigue"
+    },
+    {
+      "q": "pocit",
+      "a": "sensation"
+    },
+    {
+      "q": "mám žízeň",
+      "a": [
+        "j'ai soif",
+        "avoir soif"
+      ],
+      "unit": "4.1"
+    },
+    {
+      "q": "je mi horko",
+      "a": [
+        "j'ai chaud",
+        "avoir chaud"
+      ]
+    },
+    {
+      "q": "je mi zima",
+      "a": [
+        "j'ai froid",
+        "avoir froid"
+      ]
+    },
+    {
+      "q": "mám hlad",
+      "a": [
+        "j'ai faim",
+        "avoir faim"
+      ],
+      "unit": "4.1"
+    },
+    {
+      "q": "zlo",
+      "a": "mal"
+    },
+    {
+      "q": "únavný",
+      "a": "fatigant"
+    },
+    {
+      "q": "výživa",
+      "a": "alimentation"
+    },
+    {
+      "q": "rady",
+      "a": "conseils"
+    },
+    {
+      "q": "plný",
+      "a": "plein"
+    },
+    {
+      "q": "je třeba",
+      "a": "il faut"
+    },
+    {
+      "q": "příčina",
+      "a": "cause"
+    },
+    {
+      "q": "nemocný",
+      "a": "malade"
+    },
+    {
+      "q": "horečka",
+      "a": "fièvre"
+    },
+    {
+      "q": "rýma",
+      "a": "rhume"
+    },
+    {
+      "q": "chřipka",
+      "a": "grippe"
+    },
+    {
+      "q": "kašel",
+      "a": "toux"
+    },
+    {
+      "q": "lékař",
+      "a": "médecin"
+    },
+    {
+      "q": "zubař",
+      "a": "dentiste"
+    },
+    {
+      "q": "recept (od lékaře)",
+      "a": "ordonnance"
+    },
+    {
+      "q": "bolí mě hlava",
+      "a": "j'ai mal à la tête"
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Body",
+  "unit": "7.2",
+  "level": null,
+  "words": [
+    {
+      "q": "hlava",
+      "a": "tête"
+    },
+    {
+      "q": "vlasy",
+      "a": "cheveux",
+      "unit": "2.2"
+    },
+    {
+      "q": "ucho",
+      "a": "oreille"
+    },
+    {
+      "q": "nos",
+      "a": "nez"
+    },
+    {
+      "q": "oko",
+      "a": "œil",
+      "unit": "2.2"
+    },
+    {
+      "q": "oči",
+      "a": "yeux",
+      "unit": "2.2"
+    },
+    {
+      "q": "pusa",
+      "a": "bouche"
+    },
+    {
+      "q": "zub",
+      "a": "dent"
+    },
+    {
+      "q": "obočí",
+      "a": "sourcil"
+    },
+    {
+      "q": "řasy",
+      "a": "cils"
+    },
+    {
+      "q": "tvář",
+      "a": [
+        "figure",
+        "visage"
+      ],
+      "unit": "2.2"
+    },
+    {
+      "q": "obličej",
+      "a": "visage",
+      "unit": "2.2"
+    },
+    {
+      "q": "záda",
+      "a": "dos"
+    },
+    {
+      "q": "paže",
+      "a": "bras"
+    },
+    {
+      "q": "ruka",
+      "a": "main"
+    },
+    {
+      "q": "břicho",
+      "a": "ventre"
+    },
+    {
+      "q": "noha",
+      "a": "jambe"
+    },
+    {
+      "q": "chodidlo",
+      "a": "pied"
+    },
+    {
+      "q": "líce",
+      "a": "joue"
+    },
+    {
+      "q": "postava",
+      "a": "silhouette",
+      "unit": "2.2"
+    },
+    {
+      "q": "krk",
+      "a": "cou"
+    },
+    {
+      "q": "prsa",
+      "a": "poitrine"
+    },
+    {
+      "q": "zadek",
+      "a": "fesses"
+    },
+    {
+      "q": "hrudník",
+      "a": "torse"
+    },
+    {
+      "q": "krk zevnitř",
+      "a": "gorge"
+    },
+    {
+      "q": "kotník",
+      "a": "cheville"
+    },
+    {
+      "q": "vzrůst",
+      "a": "taille",
+      "unit": "2.2"
+    }
+  ]
+}

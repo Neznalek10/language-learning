@@ -1,0 +1,78 @@
+{
+  "languages": {
+    "cs": {
+      "name": "Czech",
+      "flag": "🇨🇿"
+    },
+    "fr": {
+      "name": "French",
+      "flag": "🇫🇷"
+    },
+    "de": {
+      "name": "German",
+      "flag": "🇩🇪"
+    }
+  },
+  "decks": [
+    "words/fr/greetings.json",
+    "words/fr/basics.json",
+    "words/fr/numbers.json",
+    "words/fr/countries.json",
+    "words/fr/time.json",
+    "words/fr/colors.json",
+    "words/fr/family.json",
+    "words/fr/appearance.json",
+    "words/fr/personality.json",
+    "words/fr/body.json",
+    "words/fr/health.json",
+    "words/fr/home.json",
+    "words/fr/food.json",
+    "words/fr/shopping.json",
+    "words/fr/clothing.json",
+    "words/fr/school.json",
+    "words/fr/sports.json",
+    "words/fr/media.json",
+    "words/fr/professions.json",
+    "words/fr/transport.json",
+    "words/fr/geography.json",
+    "words/fr/weather.json",
+    "words/fr/animals.json",
+    "words/fr/celebrations.json",
+    "words/fr/verbs.json",
+    "words/fr/verbs-irregular.json",
+    "words/fr/verbs-reflexive.json",
+    "words/de/basics.json",
+    "words/de/numbers.json",
+    "words/de/family.json",
+    "words/de/food.json",
+    "words/de/home.json",
+    "words/de/colors.json",
+    "words/de/adjectives.json",
+    "words/de/verbs.json"
+  ],
+  "conjugations": {
+    "fr": "conjugations/fr.json"
+  },
+  "courses": {
+    "fr": "courses/fr/course.json"
+  },
+  "grammar": {
+    "fr": "courses/fr/grammar.json"
+  },
+  "writing": {
+    "fr": "courses/fr/writing.json"
+  },
+  "speaking": {
+    "fr": "courses/fr/speaking.json"
+  },
+  "drills": {
+    "fr": "courses/fr/drills.json"
+  },
+  "translate": {
+    "fr": "courses/fr/translate.json"
+  },
+  "units": {
+    "fr": {},
+    "de": {}
+  }
+}

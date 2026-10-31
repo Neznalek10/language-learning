@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "goals": [
+    "Pojmenovat obchody a říct, kam jdeš nakoupit (à la, au, chez)",
+    "Říct množství: une bouteille de, un kilo de",
+    "Zeptat se na cenu a počítat do 1000",
+    "Časovat vouloir a pouvoir",
+    "Zvládnout rozhovor v obchodě"
+  ],
+  "lessons": [
+    {
+      "id": "fr-5.2-1",
+      "title": "À la boulangerie",
+      "subtitle": "Obchody a chez",
+      "topics": ["shopping"],
+      "words": ["shopping#pekařství", "shopping#řeznictví", "shopping#cukrárna", "shopping#potraviny", "shopping#lékárna", "shopping#knihkupectví", "shopping#papírnictví", "shopping#trh", "shopping#květinářství", "shopping#supermarket", "shopping#obchod", "shopping#pekař", "shopping#řezník"],
+      "learn": [
+        {"title": "Obchody", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["pekařství", "la boulangerie"], ["řeznictví", "la boucherie"], ["cukrárna", "la pâtisserie"], ["potraviny", "l'épicerie"],
+            ["lékárna", "la pharmacie"], ["knihkupectví", "la librairie"], ["papírnictví", "la papeterie"], ["trh", "le marché"],
+            ["supermarket", "le supermarché"], ["obchod", "le magasin"]
+          ]},
+          {"type": "tip", "title": "Falešný přítel", "cs": "*La librairie* je knihkupectví, ne knihovna! Knihovna je *la bibliothèque*."}
+        ]},
+        {"title": "à la, nebo chez?", "blocks": [
+          {"type": "text", "cs": "Do obchodu jdeš *à la / au / à l'*: *Je vais à la boulangerie. Je vais au marché.* K člověku (prodavači) jdeš *chez*: *Je vais chez le boulanger.* (Jdu k pekaři.) *Chez* se používá i pro domov: *chez moi* (u mě doma), *chez Paul* (u Paula)."},
+          {"type": "examples", "items": [
+            {"fr": "J'achète du pain à la boulangerie.", "cs": "Kupuju chleba v pekařství."},
+            {"fr": "Ma mère va chez le boucher.", "cs": "Moje máma jde k řezníkovi."},
+            {"fr": "On mange chez moi ?", "cs": "Najíme se u mě?"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je vais ___ boulanger.", "a": ["chez le"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.2-1-01", "type": "cloze", "fr": "Je vais ___ boulangerie.", "a": ["à la"]},
+        {"id": "fr-5.2-1-02", "type": "cloze", "fr": "Tu vas ___ marché ?", "a": ["au"]},
+        {"id": "fr-5.2-1-03", "type": "cloze", "fr": "Nous allons ___ boucher.", "a": ["chez le"]},
+        {"id": "fr-5.2-1-04", "type": "cloze", "fr": "Elle va ___ pharmacie.", "a": ["à la"]},
+        {"id": "fr-5.2-1-05", "type": "cloze", "fr": "On va ___ supermarché.", "a": ["au"]},
+        {"id": "fr-5.2-1-06", "type": "cloze", "fr": "Je vais ___ Paul.", "a": ["chez"]},
+        {"id": "fr-5.2-1-07", "type": "cloze", "fr": "Ils vont ___épicerie.", "a": ["à l'"]},
+        {"id": "fr-5.2-1-08", "type": "build", "cs": "Jdu do pekařství.", "a": ["Je vais à la boulangerie."]},
+        {"id": "fr-5.2-1-09", "type": "build", "cs": "Kupuju knihu v knihkupectví.", "a": ["J'achète un livre à la librairie."]},
+        {"id": "fr-5.2-1-10", "type": "build", "cs": "Jdeme na trh.", "a": ["{Nous allons|On va} au marché."]},
+        {"id": "fr-5.2-1-11", "type": "build", "cs": "Jdu k Tomovi.", "a": ["Je vais chez Tom."]},
+        {"id": "fr-5.2-1-12", "type": "build", "cs": "Kde je lékárna?", "a": ["Où est la pharmacie ?"]},
+        {"id": "fr-5.2-1-13", "type": "order", "cs": "Moje máma jde do řeznictví.", "a": ["Ma mère va à la boucherie", "Ma maman va à la boucherie"], "extra": ["au", "chez"]}
+      ]
+    },
+    {
+      "id": "fr-5.2-2",
+      "title": "Une bouteille d'eau",
+      "subtitle": "Množství a obaly",
+      "topics": ["quantities", "shopping"],
+      "words": ["shopping#láhev", "shopping#kilo", "shopping#gram", "shopping#balíček", "shopping#plátek", "shopping#konzerva", "shopping#litr", "shopping#krabice mléka", "shopping#sklenice marmelády", "shopping#tabulka čokolády", "shopping#sáček", "shopping#kousek", "shopping#plechovka"],
+      "learn": [
+        {"title": "Kolik toho chceš?", "blocks": [
+          {"type": "text", "cs": "Po výrazu pro množství nebo obal následuje jen *de* (*d'*), bez členu: *une bouteille d'eau, un kilo de pommes, un paquet de pâtes*."},
+          {"type": "table", "firstCs": true, "rows": [
+            ["láhev vody", "une bouteille d'eau"],
+            ["kilo jablek", "un kilo de pommes"],
+            ["500 gramů sýra", "cinq cents grammes de fromage"],
+            ["balíček těstovin", "un paquet de pâtes"],
+            ["plátek šunky", "une tranche de jambon"],
+            ["sklenice marmelády", "un pot de confiture"],
+            ["tabulka čokolády", "une tablette de chocolat"],
+            ["konzerva tuňáka", "une boîte de thon"],
+            ["litr mléka", "un litre de lait"],
+            ["krabice mléka", "une brique de lait"]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "un kilo ___ tomates", "a": ["de"]}}
+        ]},
+        {"title": "Na nákupním seznamu", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Je voudrais deux baguettes et un pot de confiture.", "cs": "Chtěl bych dvě bagety a sklenici marmelády."},
+            {"fr": "J'achète un litre de lait et six œufs.", "cs": "Kupuju litr mléka a šest vajec."},
+            {"fr": "Trois tranches de jambon, s'il vous plaît.", "cs": "Tři plátky šunky, prosím."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.2-2-01", "type": "cloze", "fr": "une bouteille ___eau", "a": ["d'"]},
+        {"id": "fr-5.2-2-02", "type": "cloze", "fr": "un paquet ___ pâtes", "a": ["de"]},
+        {"id": "fr-5.2-2-03", "type": "cloze", "fr": "trois tranches ___ jambon", "a": ["de"]},
+        {"id": "fr-5.2-2-04", "type": "cloze", "fr": "un ___ de confiture", "a": ["pot"], "hint": "sklenice"},
+        {"id": "fr-5.2-2-05", "type": "cloze", "fr": "une ___ de chocolat", "a": ["tablette"], "hint": "tabulka"},
+        {"id": "fr-5.2-2-06", "type": "cloze", "fr": "deux ___ de lait", "a": ["litres"], "hint": "litry"},
+        {"id": "fr-5.2-2-07", "type": "cloze", "fr": "cinq cents ___ de fromage", "a": ["grammes"], "hint": "gramů"},
+        {"id": "fr-5.2-2-08", "type": "build", "cs": "Chtěl bych láhev vody.", "a": ["Je voudrais une bouteille d'eau."]},
+        {"id": "fr-5.2-2-09", "type": "build", "cs": "Kupuju kilo jablek.", "a": ["J'achète un kilo de pommes."]},
+        {"id": "fr-5.2-2-10", "type": "build", "cs": "Dva plátky šunky, prosím.", "a": ["Deux tranches de jambon, s'il vous plaît."]},
+        {"id": "fr-5.2-2-11", "type": "build", "cs": "Kupujeme balíček těstovin.", "a": ["{Nous achetons|On achète} un paquet de pâtes."]},
+        {"id": "fr-5.2-2-12", "type": "transform", "task_cs": "Přidej množství: un kilo", "fr": "J'achète des tomates.", "a": ["J'achète un kilo de tomates."]},
+        {"id": "fr-5.2-2-13", "type": "order", "cs": "Láhev džusu a tabulku čokolády.", "a": ["Une bouteille de jus et une tablette de chocolat"], "extra": ["du", "la"]}
+      ]
+    },
+    {
+      "id": "fr-5.2-3",
+      "title": "Ça coûte combien ?",
+      "subtitle": "Ceny a čísla do 1000",
+      "topics": ["numbers", "shopping"],
+      "words": ["shopping#kolik to stojí?", "shopping#euro", "shopping#koruna", "shopping#peníze", "shopping#levný", "basics#drahý", "basics#kolik", "numbers#sto", "numbers#dvě stě", "numbers#pět set", "numbers#tisíc", "numbers#dva tisíce"],
+      "learn": [
+        {"title": "Čísla do 1000", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["100", "cent"], ["101", "cent un"], ["200", "deux cents"], ["250", "deux cent cinquante"],
+            ["500", "cinq cents"], ["1000", "mille"], ["2000", "deux mille"]
+          ]},
+          {"type": "text", "cs": "*Cents* má *-s* jen tehdy, když za ním nic nenásleduje: *deux cents*, ale *deux cent cinquante*. *Mille* se nemění nikdy: *deux mille*. Před *cent* a *mille* se nepíše *un*: 100 je *cent*, 1000 je *mille*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Ça coûte ___ euros.", "a": ["trois cents"], "hint": "300"}}
+        ]},
+        {"title": "Kolik to stojí?", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["Kolik to stojí?", "Ça coûte combien ? / C'est combien ?"],
+            ["Kolik to dělá dohromady?", "Ça fait combien ?"],
+            ["Stojí to 2,50 €.", "Ça coûte deux euros cinquante."],
+            ["To je drahé.", "C'est cher."],
+            ["To je levné.", "Ce n'est pas cher."]
+          ]},
+          {"type": "tip", "title": "Levné", "cs": "Francouzi spíš říkají *pas cher* (nedrahý) než *bon marché*."},
+          {"type": "tip", "title": "Ceny", "cs": "Desetinná čárka se při čtení cen vynechává: 3,20 € = *trois euros vingt*."},
+          {"type": "check", "item": {"type": "build", "cs": "Kolik to stojí?", "a": ["{Ça coûte combien|C'est combien|Combien ça coûte} ?"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.2-3-01", "type": "cloze", "fr": "Ça coûte ___ euros.", "a": ["deux cents"], "hint": "200"},
+        {"id": "fr-5.2-3-02", "type": "cloze", "fr": "Le vélo coûte ___ euros.", "a": ["trois cent cinquante"], "hint": "350"},
+        {"id": "fr-5.2-3-03", "type": "cloze", "fr": "La télé coûte ___ euros.", "a": ["mille"], "hint": "1000"},
+        {"id": "fr-5.2-3-04", "type": "cloze", "fr": "L'ordinateur coûte ___ euros.", "a": ["deux mille"], "hint": "2000"},
+        {"id": "fr-5.2-3-05", "type": "cloze", "fr": "La baguette coûte un euro ___.", "a": ["vingt"], "hint": "1,20 €"},
+        {"id": "fr-5.2-3-06", "type": "build", "cs": "Kolik stojí ten chleba?", "a": ["{Le pain coûte combien|Combien coûte le pain|C'est combien, le pain} ?"]},
+        {"id": "fr-5.2-3-07", "type": "build", "cs": "Stojí to pět eur.", "a": ["{Ça coûte|C'est} cinq euros."]},
+        {"id": "fr-5.2-3-08", "type": "build", "cs": "To je moc drahé!", "a": ["C'est trop cher !"]},
+        {"id": "fr-5.2-3-09", "type": "build", "cs": "To není drahé.", "a": ["Ce n'est pas cher."]},
+        {"id": "fr-5.2-3-10", "type": "build", "cs": "Kolik to dělá?", "a": ["Ça fait combien ?"]},
+        {"id": "fr-5.2-3-11", "type": "order", "cs": "Kolo stojí tři sta eur.", "a": ["Le vélo coûte trois cents euros"], "extra": ["cent", "coûtent"]}
+      ]
+    },
+    {
+      "id": "fr-5.2-4",
+      "title": "Vous désirez ?",
+      "subtitle": "Vouloir, pouvoir a rozhovor v obchodě",
+      "topics": ["vouloir-pouvoir", "shopping"],
+      "words": ["verbs-irregular#chtít", "verbs-irregular#moci", "verbs#platit", "verbs#koupit", "verbs-irregular#prodat", "verbs#přát si", "shopping#co si přejete?", "shopping#to je všechno"],
+      "learn": [
+        {"title": "Vouloir a pouvoir", "blocks": [
+          {"type": "table", "verb": "vouloir", "tense": "present"},
+          {"type": "table", "verb": "pouvoir", "tense": "present"},
+          {"type": "text", "cs": "Po obou slovesech může následovat infinitiv: *Je veux acheter du pain. Tu peux payer ?*"},
+          {"type": "tip", "title": "je voudrais", "cs": "V obchodě je zdvořilejší *je voudrais* (chtěl bych) než *je veux* (chci)."},
+          {"type": "tip", "title": "je puis", "cs": "Tvar *je puis* uvidíš v tabulce, ale používá se jen v knižní otázce *Puis-je... ?* Běžně říkej *je peux*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Tu ___ venir ?", "a": ["peux"], "hint": "pouvoir"}}
+        ]},
+        {"title": "V obchodě", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Bonjour, vous désirez ?", "cs": "Dobrý den, co si přejete?"},
+            {"fr": "Je voudrais une baguette et deux croissants, s'il vous plaît.", "cs": "Chtěl bych bagetu a dva croissanty, prosím."},
+            {"fr": "Et avec ça ?", "cs": "Ještě něco?"},
+            {"fr": "C'est tout, merci. Ça fait combien ?", "cs": "To je všechno, děkuji. Kolik to dělá?"},
+            {"fr": "Trois euros quarante.", "cs": "Tři eura čtyřicet."},
+            {"fr": "Je peux payer par carte ?", "cs": "Můžu platit kartou?"}
+          ]},
+          {"type": "text", "cs": "*Payer* (platit) se smí časovat dvojím způsobem: *je paie* i *je paye*. Obojí je správně."}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.2-4-f", "type": "form", "verb": "vouloir", "tense": "present"},
+        {"id": "fr-5.2-4-01", "type": "cloze", "fr": "Je ___ un croissant.", "a": ["veux"], "hint": "vouloir"},
+        {"id": "fr-5.2-4-02", "type": "cloze", "fr": "Vous ___ payer par carte.", "a": ["pouvez"], "hint": "pouvoir"},
+        {"id": "fr-5.2-4-03", "type": "cloze", "fr": "Ils ___ acheter des fruits.", "a": ["veulent"], "hint": "vouloir"},
+        {"id": "fr-5.2-4-04", "type": "cloze", "fr": "Nous ___ venir demain.", "a": ["pouvons"], "hint": "pouvoir"},
+        {"id": "fr-5.2-4-05", "type": "cloze", "fr": "On ___ aller au marché ?", "a": ["peut"], "hint": "pouvoir"},
+        {"id": "fr-5.2-4-06", "type": "cloze", "fr": "Tu ___ un café ?", "a": ["veux"], "hint": "vouloir"},
+        {"id": "fr-5.2-4-07", "type": "build", "cs": "Co si přejete?", "a": ["{Vous désirez|Qu'est-ce que vous désirez} ?"]},
+        {"id": "fr-5.2-4-08", "type": "build", "cs": "Chtěl bych dva croissanty, prosím.", "a": ["Je voudrais deux croissants, s'il vous plaît."]},
+        {"id": "fr-5.2-4-09", "type": "build", "cs": "Můžu platit kartou?", "a": ["{Je peux|Est-ce que je peux|Puis-je} payer par carte ?"], "hint": "kartou = par carte"},
+        {"id": "fr-5.2-4-10", "type": "build", "cs": "To je všechno, děkuji.", "a": ["C'est tout, merci."]},
+        {"id": "fr-5.2-4-11", "type": "build", "cs": "Chceš jít na trh?", "a": ["{Tu veux|Est-ce que tu veux|Veux-tu} aller au marché ?"]},
+        {"id": "fr-5.2-4-12", "type": "build", "cs": "Nemůžu, nemám peníze.", "a": ["Je ne peux pas, je n'ai pas d'argent."]},
+        {"id": "fr-5.2-4-13", "type": "transform", "task_cs": "Změň osobu na nous", "fr": "Je veux payer.", "a": ["{Nous voulons|On veut} payer."]},
+        {"id": "fr-5.2-4-14", "type": "order", "cs": "Můžeš koupit chleba?", "a": ["Tu peux acheter du pain"], "extra": ["veux", "le"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-5.2-t-01", "lesson": "fr-5.2-1", "type": "cloze", "fr": "Je vais ___ boucherie.", "a": ["à la"]},
+      {"id": "fr-5.2-t-02", "lesson": "fr-5.2-1", "type": "cloze", "fr": "Elle va ___ boulanger.", "a": ["chez le"]},
+      {"id": "fr-5.2-t-03", "lesson": "fr-5.2-1", "type": "cloze", "fr": "On mange ___ moi ?", "a": ["chez"], "hint": "u mě"},
+      {"id": "fr-5.2-t-04", "lesson": "fr-5.2-1", "type": "build", "cs": "Jdu do lékárny.", "a": ["Je vais à la pharmacie."]},
+      {"id": "fr-5.2-t-05", "lesson": "fr-5.2-1", "type": "build", "cs": "Kupuju sešit v papírnictví.", "a": ["J'achète un cahier à la papeterie."]},
+      {"id": "fr-5.2-t-06", "lesson": "fr-5.2-2", "type": "cloze", "fr": "un litre ___ lait", "a": ["de"]},
+      {"id": "fr-5.2-t-07", "lesson": "fr-5.2-2", "type": "cloze", "fr": "une bouteille ___ vin", "a": ["de"]},
+      {"id": "fr-5.2-t-08", "lesson": "fr-5.2-2", "type": "cloze", "fr": "deux kilos ___oranges", "a": ["d'"]},
+      {"id": "fr-5.2-t-09", "lesson": "fr-5.2-2", "type": "build", "cs": "Chtěl bych kilo rajčat.", "a": ["Je voudrais un kilo de tomates."]},
+      {"id": "fr-5.2-t-10", "lesson": "fr-5.2-2", "type": "build", "cs": "Kupuju láhev mléka a balíček cukru.", "a": ["J'achète une bouteille de lait et un paquet de sucre."]},
+      {"id": "fr-5.2-t-11", "lesson": "fr-5.2-3", "type": "cloze", "fr": "Ça coûte ___ euros.", "a": ["cinq cents"], "hint": "500"},
+      {"id": "fr-5.2-t-12", "lesson": "fr-5.2-3", "type": "cloze", "fr": "Ça coûte ___ euros.", "a": ["cent vingt"], "hint": "120"},
+      {"id": "fr-5.2-t-13", "lesson": "fr-5.2-3", "type": "cloze", "fr": "Le voyage coûte ___ euros.", "a": ["trois mille"], "hint": "3000"},
+      {"id": "fr-5.2-t-14", "lesson": "fr-5.2-3", "type": "build", "cs": "Kolik stojí sýr?", "a": ["{Le fromage coûte combien|Combien coûte le fromage|C'est combien, le fromage} ?"]},
+      {"id": "fr-5.2-t-15", "lesson": "fr-5.2-3", "type": "build", "cs": "Stojí to dvě eura.", "a": ["{Ça coûte|C'est} deux euros."]},
+      {"id": "fr-5.2-t-16", "lesson": "fr-5.2-3", "type": "build", "cs": "Je to levné.", "a": ["Ce n'est pas cher."]},
+      {"id": "fr-5.2-t-17", "lesson": "fr-5.2-4", "type": "form", "verb": "vouloir", "tense": "present", "person": 2},
+      {"id": "fr-5.2-t-18", "lesson": "fr-5.2-4", "type": "form", "verb": "pouvoir", "tense": "present", "person": 5},
+      {"id": "fr-5.2-t-19", "lesson": "fr-5.2-4", "type": "form", "verb": "vouloir", "tense": "present", "person": 4},
+      {"id": "fr-5.2-t-20", "lesson": "fr-5.2-4", "type": "form", "verb": "pouvoir", "tense": "present", "person": 1},
+      {"id": "fr-5.2-t-21", "lesson": "fr-5.2-4", "type": "build", "cs": "Chceš čokoládu?", "a": ["{Tu veux|Est-ce que tu veux|Veux-tu} {du chocolat|un chocolat} ?"]},
+      {"id": "fr-5.2-t-22", "lesson": "fr-5.2-4", "type": "build", "cs": "Můžeme jít do supermarketu?", "a": ["{Nous pouvons|On peut|Est-ce qu'on peut|Est-ce que nous pouvons} aller au supermarché ?"]},
+      {"id": "fr-5.2-t-23", "lesson": "fr-5.2-4", "type": "build", "cs": "Dobrý den, co si přejete?", "a": ["Bonjour, vous désirez ?"]},
+      {"id": "fr-5.2-t-24", "lesson": "fr-5.2-4", "type": "build", "cs": "Ještě něco? To je všechno.", "a": ["Et avec ça ? C'est tout."]},
+      {"id": "fr-5.2-t-25", "lesson": "fr-5.2-4", "type": "transform", "task_cs": "Řekni to zdvořileji", "fr": "Je veux deux baguettes.", "a": ["Je voudrais deux baguettes."]}
+    ]
+  }
+}

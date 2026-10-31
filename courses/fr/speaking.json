@@ -1,0 +1,1223 @@
+{
+  "schema": 1,
+  "lang": "fr",
+  "kinds": {
+    "roleplay": "Role play",
+    "interview": "Interview",
+    "opinion": "Opinion",
+    "story": "Story",
+    "describe": "Describe",
+    "game": "Game"
+  },
+  "topics": [
+    {
+      "id": "meet-classmate",
+      "title": "Meet a new classmate",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You meet a new student your age on the first day of school.",
+      "must": [
+        "Greet and say your name",
+        "Ask their name",
+        "Ask how they are",
+        "Say goodbye"
+      ],
+      "phrases": [
+        "Salut !",
+        "Je m'appelle ...",
+        "Et toi ?",
+        "À bientôt !"
+      ],
+      "grammar": [
+        "tu-vous",
+        "subject-pronouns"
+      ],
+      "partner": "a friendly French classmate called Léa, who is meeting you for the first time",
+      "starter": "Salut ! Moi, c'est Léa. Et toi, comment tu t'appelles ?",
+      "unit": "1.1"
+    },
+    {
+      "id": "teacher-corridor",
+      "title": "Greet your teacher",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You meet your French teacher in the corridor and must be polite.",
+      "must": [
+        "Use vous",
+        "Greet and ask how they are",
+        "Answer their question",
+        "Say thank you and goodbye"
+      ],
+      "phrases": [
+        "Bonjour, madame",
+        "Comment allez-vous ?",
+        "Très bien, merci",
+        "Au revoir !"
+      ],
+      "grammar": [
+        "tu-vous"
+      ],
+      "partner": "your French teacher, Madame Martin, who always uses vous with students she does not know well",
+      "starter": "Bonjour ! Comment allez-vous aujourd'hui ?",
+      "unit": "1.1"
+    },
+    {
+      "id": "introduce-yourself",
+      "title": "Introduce yourself",
+      "level": "A1",
+      "kind": "interview",
+      "task": "A coordinator of an international school camp asks you to introduce yourself.",
+      "must": [
+        "Say your name and age",
+        "Say where you live",
+        "Say where you are from",
+        "Say one thing you like"
+      ],
+      "phrases": [
+        "Je m'appelle ...",
+        "J'ai ... ans",
+        "J'habite à ...",
+        "Je suis tchèque"
+      ],
+      "grammar": [
+        "cities-countries",
+        "numbers-0-69"
+      ],
+      "partner": "a friendly camp coordinator who interviews each new participant",
+      "starter": "Bonjour et bienvenue au camp ! Peux-tu te présenter ?",
+      "unit": "1.2"
+    },
+    {
+      "id": "where-from",
+      "title": "Where are you from?",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You chat with a student from Québec at a language camp and compare your countries.",
+      "must": [
+        "Say your country and nationality",
+        "Ask about theirs",
+        "Say what city you live in"
+      ],
+      "phrases": [
+        "Tu viens d'où ?",
+        "Je viens de ...",
+        "Je suis ..."
+      ],
+      "grammar": [
+        "cities-countries",
+        "adj-agreement"
+      ],
+      "partner": "a student from Montréal called Samuel, curious about Czechia",
+      "starter": "Salut ! Moi, je viens du Canada. Et toi, tu viens d'où ?",
+      "unit": "1.2"
+    },
+    {
+      "id": "numbers-game",
+      "title": "Numbers game",
+      "level": "A1",
+      "kind": "game",
+      "task": "The partner says numbers, ages and phone numbers and you repeat or answer them.",
+      "must": [
+        "Understand numbers up to 100",
+        "Say numbers out loud",
+        "Give your age and a phone number"
+      ],
+      "phrases": [
+        "Quel âge as-tu ?",
+        "Mon numéro est ...",
+        "Répétez, s'il vous plaît"
+      ],
+      "grammar": [
+        "numbers-0-69",
+        "numbers-70-100"
+      ],
+      "partner": "a playful quiz host who asks short questions with numbers (ages, prices, phone numbers, dates)",
+      "starter": "C'est parti pour le jeu des chiffres ! Première question : quel âge as-tu ?",
+      "unit": "1.2"
+    },
+    {
+      "id": "my-family-talk",
+      "title": "Tell me about your family",
+      "level": "A1",
+      "kind": "interview",
+      "task": "Your host family wants to know who is in your family.",
+      "must": [
+        "Say who is in your family",
+        "Give names and ages",
+        "Say if you have brothers or sisters"
+      ],
+      "phrases": [
+        "Dans ma famille, il y a ...",
+        "Mon père s'appelle ...",
+        "J'ai un frère"
+      ],
+      "grammar": [
+        "possessive-determiners",
+        "article-indefinite"
+      ],
+      "partner": "a curious host mother called Mme Dubois who asks about your family",
+      "starter": "Alors, parle-moi de ta famille ! Tu as des frères et sœurs ?",
+      "unit": "2.1"
+    },
+    {
+      "id": "pets-talk",
+      "title": "Pets",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You talk to a classmate who loves animals.",
+      "must": [
+        "Say if you have a pet",
+        "Describe it (name, colour, size)",
+        "Say what it does"
+      ],
+      "phrases": [
+        "J'ai un chien",
+        "Il s'appelle ...",
+        "Il est ..."
+      ],
+      "grammar": [
+        "adj-agreement",
+        "article-indefinite"
+      ],
+      "partner": "a classmate called Chloé who loves animals",
+      "starter": "Tu as un animal à la maison ? Moi, j'ai deux chats !",
+      "unit": "2.1"
+    },
+    {
+      "id": "describe-a-friend",
+      "title": "Describe a friend",
+      "level": "A1",
+      "kind": "describe",
+      "task": "You describe your best friend to someone who has never met them.",
+      "must": [
+        "Describe their looks",
+        "Describe their character",
+        "Say what you do together"
+      ],
+      "phrases": [
+        "Il a les cheveux ...",
+        "Il est sympa",
+        "Nous jouons ..."
+      ],
+      "grammar": [
+        "adj-agreement",
+        "adj-forms",
+        "adj-position"
+      ],
+      "partner": "a French friend who wants to imagine your best friend and asks questions",
+      "starter": "Alors, c'est qui, ton meilleur ami ? Il est comment ?",
+      "unit": "2.2"
+    },
+    {
+      "id": "guess-who",
+      "title": "Guess who",
+      "level": "A1",
+      "kind": "game",
+      "task": "You describe a famous person without naming them and the partner guesses. Then you swap.",
+      "must": [
+        "Describe appearance",
+        "Describe character or job",
+        "Understand the partner's clues"
+      ],
+      "phrases": [
+        "Il / Elle est ...",
+        "Il a ...",
+        "C'est un chanteur ?"
+      ],
+      "grammar": [
+        "adj-agreement",
+        "c-est-il-est"
+      ],
+      "partner": "a cheerful game partner who plays Guess Who with famous people",
+      "starter": "On joue à Qui est-ce ? Tu commences : décris une personne célèbre !",
+      "unit": "2.2"
+    },
+    {
+      "id": "hobbies-talk",
+      "title": "Your hobbies",
+      "level": "A1",
+      "kind": "interview",
+      "task": "A new pen pal asks about your free time.",
+      "must": [
+        "Name at least three hobbies",
+        "Say what you like and dislike",
+        "Ask the partner a question back"
+      ],
+      "phrases": [
+        "J'aime ...",
+        "Je déteste ...",
+        "Et toi, tu aimes ... ?"
+      ],
+      "grammar": [
+        "er-verbs",
+        "avoir-faire-expressions"
+      ],
+      "partner": "a pen pal called Maxime who loves hobbies and asks many questions",
+      "starter": "Salut ! Qu'est-ce que tu aimes faire pendant ton temps libre ?",
+      "unit": "2.3"
+    },
+    {
+      "id": "my-sport-interview",
+      "title": "Your sport",
+      "level": "A1",
+      "kind": "interview",
+      "task": "A French school magazine journalist interviews you about your sport.",
+      "must": [
+        "Say which sport and club",
+        "Say how often you train",
+        "Say what you like about it"
+      ],
+      "phrases": [
+        "Je joue au basket",
+        "Je m'entraîne ... fois par semaine",
+        "J'adore ..."
+      ],
+      "grammar": [
+        "avoir-faire-expressions",
+        "frequency"
+      ],
+      "partner": "a young journalist for a school magazine",
+      "starter": "Bonjour ! Je prépare un article sur les sportifs. Quel sport est-ce que tu pratiques ?",
+      "unit": "2.3"
+    },
+    {
+      "id": "music-talk",
+      "title": "Music",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You talk about music with a French student who plays an instrument.",
+      "must": [
+        "Say what music you listen to",
+        "Say which instrument you play",
+        "Ask what they play"
+      ],
+      "phrases": [
+        "J'écoute ...",
+        "Je joue de la guitare",
+        "Tu joues de quel instrument ?"
+      ],
+      "grammar": [
+        "avoir-faire-expressions",
+        "article-definite"
+      ],
+      "partner": "a student called Hugo who plays the guitar in a band",
+      "starter": "Salut ! Tu aimes la musique ? Moi, je joue de la guitare.",
+      "unit": "2.3"
+    },
+    {
+      "id": "twenty-questions",
+      "title": "Twenty questions",
+      "level": "A1",
+      "kind": "game",
+      "task": "You ask yes or no questions to find out which animal or object the partner thinks of.",
+      "must": [
+        "Ask at least six questions",
+        "Use different question forms",
+        "Make a final guess"
+      ],
+      "phrases": [
+        "Est-ce que c'est ... ?",
+        "Il est grand ?",
+        "Je pense que c'est ..."
+      ],
+      "grammar": [
+        "question-types",
+        "question-words"
+      ],
+      "partner": "a game host who thinks of an animal and answers only oui or non",
+      "starter": "Je pense à un animal. Pose-moi des questions pour le deviner !",
+      "unit": "2.3"
+    },
+    {
+      "id": "school-exchange",
+      "title": "Your school",
+      "level": "A1",
+      "kind": "interview",
+      "task": "A French exchange student asks about your school.",
+      "must": [
+        "Describe your school",
+        "Talk about your subjects",
+        "Give an opinion about a subject"
+      ],
+      "phrases": [
+        "Au collège, il y a ...",
+        "J'aime les maths",
+        "C'est facile"
+      ],
+      "grammar": [
+        "il-y-a",
+        "article-definite"
+      ],
+      "partner": "an exchange student called Inès who will visit your school next month",
+      "starter": "Salut ! Je vais venir dans ton collège. C'est comment, ton collège ?",
+      "unit": "3.1"
+    },
+    {
+      "id": "timetable-compare",
+      "title": "Compare timetables",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You and a French friend compare your school days.",
+      "must": [
+        "Say what time school starts and ends",
+        "Name subjects on one day",
+        "Say your favourite day"
+      ],
+      "phrases": [
+        "À huit heures, j'ai ...",
+        "Le lundi ...",
+        "Mon jour préféré ..."
+      ],
+      "grammar": [
+        "clock",
+        "time-prepositions"
+      ],
+      "partner": "a French friend called Théo who compares school timetables with you",
+      "starter": "Moi, je commence à huit heures. Et toi, tu commences à quelle heure ?",
+      "unit": "3.1"
+    },
+    {
+      "id": "daily-routine-talk",
+      "title": "Your daily routine",
+      "level": "A1",
+      "kind": "interview",
+      "task": "A French friend is doing a project on the days of teenagers.",
+      "must": [
+        "Say when you get up and go to bed",
+        "Use reflexive verbs",
+        "Use d'abord, ensuite, enfin"
+      ],
+      "phrases": [
+        "Je me lève à ...",
+        "D'abord, ...",
+        "Ensuite, ..."
+      ],
+      "grammar": [
+        "reflexive-verbs",
+        "clock"
+      ],
+      "partner": "a French friend called Camille who is doing a school project about daily routines",
+      "starter": "Pour mon projet, je pose la même question à tout le monde : tu fais quoi pendant une journée normale ?",
+      "unit": "3.2"
+    },
+    {
+      "id": "order-restaurant",
+      "title": "At the restaurant",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You order a meal in a French restaurant.",
+      "must": [
+        "Order a drink and a main course",
+        "Ask a question about the menu",
+        "Ask for the bill"
+      ],
+      "phrases": [
+        "Je voudrais ...",
+        "Vous avez ... ?",
+        "L'addition, s'il vous plaît"
+      ],
+      "grammar": [
+        "modals",
+        "partitive",
+        "tu-vous"
+      ],
+      "partner": "a polite waiter in a small restaurant",
+      "starter": "Bonjour ! Bienvenue. Vous avez choisi ?",
+      "unit": "4.1"
+    },
+    {
+      "id": "food-host",
+      "title": "Food with your host family",
+      "level": "A1",
+      "kind": "interview",
+      "task": "Your host parent plans meals for your stay and asks about your tastes.",
+      "must": [
+        "Say what you like and cannot eat",
+        "Say what you eat for breakfast",
+        "Say your favourite meal"
+      ],
+      "phrases": [
+        "Je mange du pain",
+        "Je ne mange pas de ...",
+        "Mon plat préféré est ..."
+      ],
+      "grammar": [
+        "partitive",
+        "article-negation"
+      ],
+      "partner": "a host parent called M. Roux who wants you to feel at home",
+      "starter": "Pendant ton séjour, je voudrais cuisiner des choses que tu aimes. Qu'est-ce que tu manges au petit-déjeuner ?",
+      "unit": "4.1"
+    },
+    {
+      "id": "bakery-talk",
+      "title": "At the bakery",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You buy bread and pastries.",
+      "must": [
+        "Ask for at least three items",
+        "Ask the price",
+        "Say thank you"
+      ],
+      "phrases": [
+        "Je voudrais ...",
+        "C'est combien ?",
+        "Ça fait ... euros"
+      ],
+      "grammar": [
+        "modals",
+        "numbers-70-100",
+        "quantities"
+      ],
+      "partner": "a baker at a French boulangerie",
+      "starter": "Bonjour ! Qu'est-ce que je vous sers ?",
+      "unit": "4.2"
+    },
+    {
+      "id": "market-talk",
+      "title": "At the market",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You buy fruit and vegetables for a family dinner.",
+      "must": [
+        "Ask for quantities (un kilo de ...)",
+        "Ask the price",
+        "Pay and say goodbye"
+      ],
+      "phrases": [
+        "Un kilo de ...",
+        "Une bouteille de ...",
+        "Combien je vous dois ?"
+      ],
+      "grammar": [
+        "quantities",
+        "partitive"
+      ],
+      "partner": "a friendly market vendor",
+      "starter": "Bonjour, jeune homme ! Ce sont des fraises superbes aujourd'hui. Qu'est-ce qu'il vous faut ?",
+      "unit": "4.2"
+    },
+    {
+      "id": "home-talk",
+      "title": "Your home",
+      "level": "A1",
+      "kind": "interview",
+      "task": "A French friend will visit you and wants to know about your home.",
+      "must": [
+        "Say where you live",
+        "Name rooms",
+        "Say where things are"
+      ],
+      "phrases": [
+        "J'habite dans ...",
+        "Il y a ...",
+        "À côté de ..."
+      ],
+      "grammar": [
+        "il-y-a",
+        "place"
+      ],
+      "partner": "a French friend called Louise who is coming to visit",
+      "starter": "Je viens chez toi bientôt ! Tu habites dans une maison ou dans un appartement ?",
+      "unit": "4.3"
+    },
+    {
+      "id": "room-tour",
+      "title": "Show your room",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You show your room to a friend on a video call.",
+      "must": [
+        "Name at least five things",
+        "Say where each one is",
+        "Say what you do in your room"
+      ],
+      "phrases": [
+        "Voici mon lit",
+        "Le bureau est à côté de ...",
+        "Sur le mur, il y a ..."
+      ],
+      "grammar": [
+        "il-y-a",
+        "place",
+        "colors"
+      ],
+      "partner": "a friend on a video call who asks to see everything",
+      "starter": "Montre-moi ta chambre ! Qu'est-ce qu'il y a ?",
+      "unit": "4.3"
+    },
+    {
+      "id": "give-directions",
+      "title": "Give directions",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "A tourist is lost in your town and asks the way.",
+      "must": [
+        "Understand the question",
+        "Give directions with the imperative",
+        "Name landmarks"
+      ],
+      "phrases": [
+        "Tournez à gauche",
+        "Continuez tout droit",
+        "C'est à côté de ..."
+      ],
+      "grammar": [
+        "imperative",
+        "place",
+        "a-de"
+      ],
+      "partner": "a tourist looking for the train station",
+      "starter": "Excusez-moi, pouvez-vous m'aider ? Je cherche la gare.",
+      "unit": "5.1"
+    },
+    {
+      "id": "plan-saturday",
+      "title": "Plan Saturday",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "A friend invites you out and you plan the day together.",
+      "must": [
+        "Use aller + infinitive",
+        "Suggest a time and place",
+        "Agree on a plan"
+      ],
+      "phrases": [
+        "On va ... ?",
+        "À quelle heure ?",
+        "Bonne idée !"
+      ],
+      "grammar": [
+        "futur-proche",
+        "modals"
+      ],
+      "partner": "a friend called Lucas who wants to do something on Saturday",
+      "starter": "Salut ! Samedi, on fait quelque chose ensemble ? Qu'est-ce que tu veux faire ?",
+      "unit": "5.1"
+    },
+    {
+      "id": "weather-plan",
+      "title": "Weather and plans",
+      "level": "A1",
+      "kind": "roleplay",
+      "task": "You decide with a friend what to do depending on the weather.",
+      "must": [
+        "Talk about the weather",
+        "Make a plan A and a plan B",
+        "Agree on one"
+      ],
+      "phrases": [
+        "Il fait beau",
+        "S'il pleut, ...",
+        "On peut ..."
+      ],
+      "grammar": [
+        "futur-proche",
+        "il-y-a"
+      ],
+      "partner": "a French friend called Manon who checks the weather forecast",
+      "starter": "Regarde la météo ! Demain, il va faire quoi, à ton avis ?",
+      "unit": "5.2"
+    },
+    {
+      "id": "birthday-plan",
+      "title": "Your birthday",
+      "level": "A1",
+      "kind": "interview",
+      "task": "A friend helps plan your birthday.",
+      "must": [
+        "Say the date",
+        "Say who you want to invite",
+        "Say what you want to do"
+      ],
+      "phrases": [
+        "Mon anniversaire est le ...",
+        "J'invite ...",
+        "Nous allons ..."
+      ],
+      "grammar": [
+        "dates",
+        "futur-proche"
+      ],
+      "partner": "a friend called Jade who is helping you plan your party",
+      "starter": "Ton anniversaire, c'est quand ? Qu'est-ce qu'on organise ?",
+      "unit": "5.2"
+    },
+    {
+      "id": "clothes-shop-talk",
+      "title": "In the clothes shop",
+      "level": "A2",
+      "kind": "roleplay",
+      "task": "You look for clothes in a shop.",
+      "must": [
+        "Say what you are looking for",
+        "Say size and colour",
+        "Decide to buy or not"
+      ],
+      "phrases": [
+        "Je cherche ...",
+        "Quelle taille ?",
+        "Je le prends"
+      ],
+      "grammar": [
+        "direct-object",
+        "quel",
+        "colors"
+      ],
+      "partner": "a shop assistant in a clothes shop",
+      "starter": "Bonjour ! Je peux vous aider ?",
+      "unit": "6.1"
+    },
+    {
+      "id": "fashion-talk",
+      "title": "Fashion opinions",
+      "level": "A2",
+      "kind": "opinion",
+      "task": "A friend who loves fashion asks your opinion about clothes and brands.",
+      "must": [
+        "Say what you wear",
+        "Compare two things",
+        "Give reasons"
+      ],
+      "phrases": [
+        "Je préfère ...",
+        "C'est plus ... que ...",
+        "parce que ..."
+      ],
+      "grammar": [
+        "comparative",
+        "conjunctions"
+      ],
+      "partner": "a friend called Sarah who is passionate about fashion",
+      "starter": "Moi, j'adore la mode. Et toi, tu fais attention à tes vêtements ?",
+      "unit": "6.1"
+    },
+    {
+      "id": "last-weekend-talk",
+      "title": "Last weekend",
+      "level": "A2",
+      "kind": "interview",
+      "task": "A friend asks what you did last weekend.",
+      "must": [
+        "Use the passé composé",
+        "Tell at least four things in order",
+        "Say how you felt"
+      ],
+      "phrases": [
+        "Samedi, j'ai ...",
+        "Je suis allé(e) ...",
+        "C'était ..."
+      ],
+      "grammar": [
+        "passe-compose-avoir",
+        "passe-compose-etre"
+      ],
+      "partner": "a friend called Antoine who asks a lot of follow-up questions",
+      "starter": "Salut ! Tu as passé un bon week-end ? Raconte !",
+      "unit": "6.2"
+    },
+    {
+      "id": "match-story-talk",
+      "title": "A match you played",
+      "level": "A2",
+      "kind": "story",
+      "task": "You tell a friend about a match you played.",
+      "must": [
+        "Say who you played and where",
+        "Tell what happened",
+        "Say the result and how you felt"
+      ],
+      "phrases": [
+        "Nous avons gagné",
+        "J'ai marqué ...",
+        "Le score était ..."
+      ],
+      "grammar": [
+        "passe-compose-avoir",
+        "participles"
+      ],
+      "partner": "a friend who was not at the match and wants all the details",
+      "starter": "Alors, ton dernier match, c'était comment ?",
+      "unit": "6.2"
+    },
+    {
+      "id": "childhood-grandparent",
+      "title": "When you were little",
+      "level": "A2",
+      "kind": "interview",
+      "task": "A French grandparent asks what your childhood was like.",
+      "must": [
+        "Use the imparfait",
+        "Describe where you lived",
+        "Tell about a habit"
+      ],
+      "phrases": [
+        "Quand j'étais petit(e), ...",
+        "Tous les jours, ...",
+        "Nous allions ..."
+      ],
+      "grammar": [
+        "imparfait",
+        "pc-vs-imparfait"
+      ],
+      "partner": "a kind French grandfather who loves hearing stories",
+      "starter": "Dis-moi, quand tu étais petit, comment c'était ta vie ?",
+      "unit": "6.2"
+    },
+    {
+      "id": "holiday-story-talk",
+      "title": "Your best holiday",
+      "level": "A2",
+      "kind": "story",
+      "task": "You tell about the best holiday you have had.",
+      "must": [
+        "Say where and when",
+        "Describe it with the imparfait",
+        "Tell what happened with the passé composé"
+      ],
+      "phrases": [
+        "C'était en ...",
+        "Il faisait beau",
+        "Un jour, nous avons ..."
+      ],
+      "grammar": [
+        "pc-vs-imparfait",
+        "imparfait"
+      ],
+      "partner": "a friend who is looking for ideas for a holiday",
+      "starter": "Je cherche des idées pour les vacances. C'était où, tes meilleures vacances ?",
+      "unit": "7.1"
+    },
+    {
+      "id": "hotel-checkin",
+      "title": "At the hotel",
+      "level": "A2",
+      "kind": "roleplay",
+      "task": "You check in at a hotel.",
+      "must": [
+        "Say you have a booking",
+        "Ask about breakfast and wifi",
+        "Ask for the room key"
+      ],
+      "phrases": [
+        "J'ai réservé ...",
+        "Le petit-déjeuner est à quelle heure ?",
+        "Pourriez-vous ... ?"
+      ],
+      "grammar": [
+        "modals",
+        "clock",
+        "tu-vous"
+      ],
+      "partner": "a hotel receptionist who speaks politely",
+      "starter": "Bonsoir et bienvenue à l'hôtel. Vous avez une réservation ?",
+      "unit": "7.1"
+    },
+    {
+      "id": "trip-planning",
+      "title": "Plan a trip",
+      "level": "A2",
+      "kind": "roleplay",
+      "task": "You plan a trip with a travel agent.",
+      "must": [
+        "Say where you want to go",
+        "Say when and for how long",
+        "Ask about transport"
+      ],
+      "phrases": [
+        "Je voudrais aller en ...",
+        "Nous prendrons le train",
+        "Combien ça coûte ?"
+      ],
+      "grammar": [
+        "cities-countries",
+        "futur-simple",
+        "transport"
+      ],
+      "partner": "a travel agent with many questions",
+      "starter": "Bonjour ! Vous avez un projet de voyage ?",
+      "unit": "7.1"
+    },
+    {
+      "id": "at-the-doctor-talk",
+      "title": "At the doctor",
+      "level": "A2",
+      "kind": "roleplay",
+      "task": "You are ill and talk to a doctor.",
+      "must": [
+        "Describe two symptoms",
+        "Say how long you have felt ill",
+        "Understand the advice"
+      ],
+      "phrases": [
+        "J'ai mal à ...",
+        "Depuis deux jours",
+        "Je dois ... ?"
+      ],
+      "grammar": [
+        "avoir-faire-expressions",
+        "modals"
+      ],
+      "partner": "a doctor who asks short questions",
+      "starter": "Bonjour. Qu'est-ce qui ne va pas ?",
+      "unit": "7.2"
+    },
+    {
+      "id": "pharmacy-talk",
+      "title": "At the pharmacy",
+      "level": "A2",
+      "kind": "roleplay",
+      "task": "You buy medicine at the pharmacy.",
+      "must": [
+        "Say what is wrong",
+        "Ask what you should take",
+        "Ask how often"
+      ],
+      "phrases": [
+        "Je cherche quelque chose pour ...",
+        "Combien de fois par jour ?"
+      ],
+      "grammar": [
+        "avoir-faire-expressions",
+        "modals"
+      ],
+      "partner": "a pharmacist",
+      "starter": "Bonjour, vous désirez ?",
+      "unit": "7.2"
+    },
+    {
+      "id": "healthy-habits-talk",
+      "title": "Healthy habits",
+      "level": "A2",
+      "kind": "opinion",
+      "task": "The school nurse asks about your habits.",
+      "must": [
+        "Say what you eat and drink",
+        "Say how much you sleep and move",
+        "Say one thing to change"
+      ],
+      "phrases": [
+        "Il faut ...",
+        "Je dors ... heures",
+        "Je devrais ..."
+      ],
+      "grammar": [
+        "modals",
+        "impersonal"
+      ],
+      "partner": "a friendly school nurse",
+      "starter": "Bonjour ! On parle un peu de tes habitudes. Tu dors combien d'heures par nuit ?",
+      "unit": "7.2"
+    },
+    {
+      "id": "games-talk",
+      "title": "Your favourite game",
+      "level": "A2",
+      "kind": "interview",
+      "task": "A French friend asks about the game you love (for example Minecraft).",
+      "must": [
+        "Name the game and explain it",
+        "Say who you play with",
+        "Say what you like and dislike"
+      ],
+      "phrases": [
+        "Dans ce jeu, il faut ...",
+        "Je joue avec mes amis",
+        "Ce que j'aime, c'est ..."
+      ],
+      "grammar": [
+        "relative-qui-que",
+        "verb-infinitive"
+      ],
+      "partner": "a friend who does not play video games but is curious",
+      "starter": "Tu joues beaucoup aux jeux vidéo, non ? Explique-moi ton jeu préféré !",
+      "unit": "8.1"
+    },
+    {
+      "id": "screens-debate",
+      "title": "Screens: good or bad?",
+      "level": "A2",
+      "kind": "opinion",
+      "task": "A friend thinks screens are bad. You discuss.",
+      "must": [
+        "Give your opinion",
+        "Give two arguments",
+        "React to the partner's argument"
+      ],
+      "phrases": [
+        "Je pense que ...",
+        "Par contre, ...",
+        "Je ne suis pas d'accord"
+      ],
+      "grammar": [
+        "conjunctions",
+        "complex-sentences"
+      ],
+      "partner": "a friend who thinks young people spend far too much time on screens",
+      "starter": "Moi, je trouve qu'on passe trop de temps sur les écrans. Tu es d'accord ?",
+      "unit": "8.1"
+    },
+    {
+      "id": "celebrations-talk",
+      "title": "Celebrations",
+      "level": "A2",
+      "kind": "interview",
+      "task": "A French friend wants to know how people celebrate in Czechia.",
+      "must": [
+        "Name a celebration",
+        "Say what people do and eat",
+        "Say what you like about it"
+      ],
+      "phrases": [
+        "En République tchèque, on ...",
+        "Nous mangeons ...",
+        "Ce que j'aime, ..."
+      ],
+      "grammar": [
+        "on",
+        "partitive"
+      ],
+      "partner": "a French friend called Alice who is curious about other traditions",
+      "starter": "Dis-moi, comment est-ce que vous fêtez Noël chez toi ?",
+      "unit": "8.2"
+    },
+    {
+      "id": "party-plan-talk",
+      "title": "Plan a party",
+      "level": "A2",
+      "kind": "roleplay",
+      "task": "You and a friend plan a party together.",
+      "must": [
+        "Say date, time and place",
+        "Share the tasks",
+        "Decide food and music"
+      ],
+      "phrases": [
+        "On pourrait ...",
+        "Tu peux apporter ... ?",
+        "Moi, je m'occupe de ..."
+      ],
+      "grammar": [
+        "imperative",
+        "modals",
+        "futur-proche"
+      ],
+      "partner": "a friend called Nina who is good at organizing",
+      "starter": "Alors, cette fête, on l'organise où et quand ?",
+      "unit": "8.2"
+    },
+    {
+      "id": "future-job-talk",
+      "title": "Your future job",
+      "level": "A2",
+      "kind": "interview",
+      "task": "A careers adviser asks what you want to do later.",
+      "must": [
+        "Name a job",
+        "Say why you like it",
+        "Say what you need to study"
+      ],
+      "phrases": [
+        "Plus tard, je voudrais être ...",
+        "Il faut étudier ...",
+        "Je travaillerai ..."
+      ],
+      "grammar": [
+        "conditionnel",
+        "futur-simple"
+      ],
+      "partner": "a careers adviser at a school",
+      "starter": "Bonjour ! Alors, qu'est-ce que tu aimerais faire plus tard ?",
+      "unit": "9"
+    },
+    {
+      "id": "dreams-talk",
+      "title": "If you could",
+      "level": "A2",
+      "kind": "interview",
+      "task": "A friend asks what you would like to do in life.",
+      "must": [
+        "Use the conditionnel",
+        "Name three wishes",
+        "Say one place you would visit"
+      ],
+      "phrases": [
+        "Je voudrais ...",
+        "J'aimerais ...",
+        "Ce serait génial de ..."
+      ],
+      "grammar": [
+        "conditionnel",
+        "verb-infinitive"
+      ],
+      "partner": "a friend who likes big dreams",
+      "starter": "Si tu pouvais faire n'importe quoi, qu'est-ce que tu voudrais faire dans la vie ?",
+      "unit": "9"
+    },
+    {
+      "id": "school-start-debate",
+      "title": "Should school start later?",
+      "level": "B1",
+      "kind": "opinion",
+      "task": "You debate whether school should start at 9 o'clock.",
+      "must": [
+        "Take a clear position",
+        "Give two arguments with examples",
+        "Answer a counter-argument"
+      ],
+      "phrases": [
+        "À mon avis, ...",
+        "Il est vrai que ..., mais ...",
+        "En conclusion"
+      ],
+      "grammar": [
+        "subjonctif-basics",
+        "complex-sentences",
+        "conjunctions"
+      ],
+      "partner": "a debate partner who takes the opposite side and argues politely",
+      "starter": "Moi, je pense que l'école doit commencer à huit heures. Pourquoi serait-ce un problème ?"
+    },
+    {
+      "id": "sport-compulsory-debate",
+      "title": "Compulsory competitive sport",
+      "level": "B1",
+      "kind": "opinion",
+      "task": "You debate whether competitive sport should be compulsory at school.",
+      "must": [
+        "Take a position",
+        "Use the subjonctif at least once",
+        "React to a counter-argument"
+      ],
+      "phrases": [
+        "Il faut que ...",
+        "Bien que ...",
+        "Pourtant ..."
+      ],
+      "grammar": [
+        "subjonctif-basics",
+        "complex-sentences"
+      ],
+      "partner": "a debate partner who disagrees with you in a friendly way",
+      "starter": "Selon moi, le sport de compétition à l'école, c'est une mauvaise idée. Qu'est-ce que tu en penses ?"
+    },
+    {
+      "id": "summer-job-interview",
+      "title": "Summer job interview",
+      "level": "B1",
+      "kind": "roleplay",
+      "task": "You are interviewed for a summer job and must use vous.",
+      "must": [
+        "Introduce yourself",
+        "Explain why you want the job",
+        "Talk about your skills and availability"
+      ],
+      "phrases": [
+        "Je me permets de ...",
+        "Je suis disponible ...",
+        "Je sais ..."
+      ],
+      "grammar": [
+        "tu-vous",
+        "conditionnel",
+        "relative-qui-que"
+      ],
+      "partner": "an interviewer at a holiday camp who asks formal questions",
+      "starter": "Bonjour, merci d'être venu. Présentez-vous, s'il vous plaît."
+    },
+    {
+      "id": "childhood-memory-talk",
+      "title": "A childhood memory",
+      "level": "B1",
+      "kind": "story",
+      "task": "You tell a detailed memory from your childhood.",
+      "must": [
+        "Set the scene with the imparfait",
+        "Tell events with the passé composé",
+        "Use the plus-que-parfait at least once"
+      ],
+      "phrases": [
+        "Ce jour-là, ...",
+        "Avant, ...",
+        "J'avais déjà ... quand ..."
+      ],
+      "grammar": [
+        "pc-vs-imparfait",
+        "plus-que-parfait"
+      ],
+      "partner": "a friend who asks about the details and your feelings",
+      "starter": "Raconte-moi un souvenir d'enfance que tu n'oublieras jamais."
+    },
+    {
+      "id": "if-i-were-rich-talk",
+      "title": "If you were rich",
+      "level": "B1",
+      "kind": "interview",
+      "task": "A friend asks what you would do with a lot of money.",
+      "must": [
+        "Use si + imparfait + conditionnel",
+        "Give at least three ideas",
+        "Say one idea for helping others"
+      ],
+      "phrases": [
+        "Si j'avais ..., je ...",
+        "Je pourrais ...",
+        "Je donnerais ..."
+      ],
+      "grammar": [
+        "si-clauses",
+        "conditionnel"
+      ],
+      "partner": "a friend who loves hypothetical questions",
+      "starter": "Imagine : tu gagnes un million d'euros demain. Qu'est-ce que tu fais ?"
+    },
+    {
+      "id": "film-recommendation",
+      "title": "Recommend a film or series",
+      "level": "B1",
+      "kind": "opinion",
+      "task": "You recommend a film or series to a friend and explain why.",
+      "must": [
+        "Say the title and genre",
+        "Tell the story without spoilers",
+        "Give your opinion"
+      ],
+      "phrases": [
+        "Ça raconte l'histoire de ...",
+        "Ce que j'ai aimé, c'est ...",
+        "Je te le recommande"
+      ],
+      "grammar": [
+        "relative-qui-que",
+        "relative-ou-dont"
+      ],
+      "partner": "a friend who is looking for something to watch",
+      "starter": "Je cherche un bon film ou une bonne série. Qu'est-ce que tu me conseilles ?"
+    },
+    {
+      "id": "product-complaint",
+      "title": "Complain about a product",
+      "level": "B1",
+      "kind": "roleplay",
+      "task": "You return a faulty product to a shop and explain the problem.",
+      "must": [
+        "Explain what is wrong",
+        "Say when you bought it",
+        "Ask for a refund or exchange"
+      ],
+      "phrases": [
+        "J'ai acheté ... hier",
+        "Il ne marche pas",
+        "Je voudrais être remboursé(e)"
+      ],
+      "grammar": [
+        "passe-compose-avoir",
+        "modals",
+        "tu-vous"
+      ],
+      "partner": "a shop employee who is polite but careful with refunds",
+      "starter": "Bonjour, que puis-je faire pour vous ?"
+    }
+  ]
+}

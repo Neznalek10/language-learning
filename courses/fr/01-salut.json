@@ -1,0 +1,333 @@
+{
+  "schema": 1,
+  "goals": [
+    "Pozdravit a rozloučit se, formálně i neformálně",
+    "Zeptat se, jak se kdo má, a odpovědět",
+    "Používat osobní zájmena a sloveso être",
+    "Představit se a zeptat se na jméno",
+    "Počítat od 0 do 20"
+  ],
+  "lessons": [
+    {
+      "id": "fr-01-1",
+      "title": "Bonjour !",
+      "subtitle": "Pozdravy a rozloučení",
+      "topics": ["greetings", "tu-vous"],
+      "words": ["greetings#dobrý den", "greetings#ahoj", "greetings#dobrý večer", "greetings#dobrou noc", "greetings#na shledanou", "greetings#uvidíme se brzy", "greetings#uvidíme se zítra", "greetings#uvidíme se později", "greetings#vítej", "greetings#pan", "greetings#paní"],
+      "learn": [
+        {"title": "Jak pozdravit", "blocks": [
+          {"type": "text", "cs": "Francouzi se zdraví podle toho, **komu** a **kdy**. *Bonjour* (dobrý den) můžeš říct komukoli od rána do večera. Večer se říká *bonsoir* (dobrý večer)."},
+          {"type": "text", "cs": "*Salut* je neformální „ahoj“: jen pro kamarády, spolužáky a rodinu. Funguje na pozdrav i na rozloučenou."},
+          {"type": "table", "title": "Pozdravy", "head": ["Situace", "Formálně", "Neformálně"], "firstCs": true, "rows": [
+            ["příchod přes den", "bonjour", "salut"],
+            ["příchod večer", "bonsoir", "salut"],
+            ["odchod", "au revoir", "salut, à plus"]
+          ]}
+        ]},
+        {"title": "Na shledanou", "blocks": [
+          {"type": "text", "cs": "Při loučení můžeš říct, kdy se zase uvidíte: *à bientôt* (brzy), *à demain* (zítra), *à plus tard* nebo hovorově *à plus* (později). Před spaním se říká *bonne nuit* (dobrou noc)."},
+          {"type": "examples", "items": [
+            {"fr": "Au revoir, madame !", "cs": "Na shledanou, paní!"},
+            {"fr": "Salut, Léa ! À demain !", "cs": "Ahoj, Léo! Uvidíme se zítra!"},
+            {"fr": "Bonne nuit, papa.", "cs": "Dobrou noc, tati."},
+            {"fr": "Bienvenue à Paris !", "cs": "Vítej v Paříži!"}
+          ]}
+        ]},
+        {"title": "Tu, nebo vous?", "blocks": [
+          {"type": "text", "cs": "Stejně jako v češtině se ve francouzštině tyká a vyká. *Tu* (ty) říkáš kamarádům, rodině a dětem. *Vous* (vy) říkáš dospělým, které neznáš, učitelům a také **více lidem najednou**."},
+          {"type": "text", "cs": "K pozdravu se přidává oslovení: *Bonjour, monsieur.* (Dobrý den, pane.), *Bonjour, madame.* (Dobrý den, paní.). Často stačí samotné *monsieur* nebo *madame*, bez příjmení."},
+          {"type": "tip", "cs": "Učiteli neříkej *salut*. Ve škole se zdraví *Bonjour, monsieur* nebo *Bonjour, madame*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___, madame !", "a": ["Bonjour"], "hint": "dobrý den"}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-01-1-01", "type": "cloze", "fr": "___, monsieur !", "a": ["Bonjour"], "hint": "dobrý den"},
+        {"id": "fr-01-1-02", "type": "cloze", "fr": "Bonne ___ !", "a": ["nuit"], "hint": "dobrou noc"},
+        {"id": "fr-01-1-03", "type": "cloze", "fr": "Au ___ !", "a": ["revoir"], "hint": "na shledanou"},
+        {"id": "fr-01-1-04", "type": "cloze", "fr": "Salut, Marc ! À ___ !", "a": ["demain"], "hint": "zítra"},
+        {"id": "fr-01-1-05", "type": "cloze", "fr": "Salut, Léa ! À ___ !", "a": ["bientôt"], "hint": "brzy"},
+        {"id": "fr-01-1-06", "type": "build", "cs": "Dobrý den, paní!", "a": ["Bonjour, madame !"]},
+        {"id": "fr-01-1-07", "type": "build", "cs": "Dobrý večer, pane.", "a": ["Bonsoir, monsieur."]},
+        {"id": "fr-01-1-08", "type": "build", "cs": "Ahoj, Paule!", "a": ["{Salut|Coucou}, Paul !"]},
+        {"id": "fr-01-1-09", "type": "order", "cs": "Na shledanou, uvidíme se zítra!", "a": ["Au revoir à demain"], "extra": ["bientôt", "bonsoir"]},
+        {"id": "fr-01-1-10", "type": "build", "cs": "Ahoj, uvidíme se brzy!", "a": ["{Salut|Coucou}, à bientôt !"]},
+        {"id": "fr-01-1-11", "type": "build", "cs": "Dobrou noc, mami.", "a": ["Bonne nuit, maman."], "hint": "mami = maman"},
+        {"id": "fr-01-1-12", "type": "order", "cs": "Ahoj, uvidíme se později!", "a": ["Salut à plus tard", "Salut à plus"], "extra": ["demain"]},
+        {"id": "fr-01-1-13", "type": "build", "cs": "Vítej v Paříži!", "a": ["Bienvenue à Paris !"], "hint": "v Paříži = à Paris"}
+      ]
+    },
+    {
+      "id": "fr-01-2",
+      "title": "Ça va ?",
+      "subtitle": "Jak se máš a zdvořilé fráze",
+      "topics": ["greetings", "tu-vous"],
+      "words": ["greetings#jak se máš?", "greetings#jak se máte?", "greetings#mám se dobře", "greetings#dobře", "greetings#špatně", "greetings#ujde to", "greetings#a ty?", "greetings#a vy?", "greetings#děkuji", "greetings#děkuji mockrát", "greetings#prosím (tykání)", "greetings#prosím (vykání)", "greetings#není zač", "greetings#promiňte", "basics#souhlas", "basics#je mi líto"],
+      "learn": [
+        {"title": "Jak se máš?", "blocks": [
+          {"type": "text", "cs": "Nejběžnější otázka je *Ça va ?* (doslova „Jde to?“). Stejnými slovy se i odpovídá: *Ça va !* (Mám se dobře.)"},
+          {"type": "table", "title": "Otázka", "firstCs": true, "rows": [
+            ["tykání", "Ça va ? / Comment ça va ? / Comment vas-tu ?"],
+            ["vykání", "Comment allez-vous ?"]
+          ]},
+          {"type": "table", "title": "Odpověď", "firstCs": true, "rows": [
+            ["Mám se dobře.", "Ça va bien. / Je vais bien."],
+            ["Velmi dobře.", "Très bien."],
+            ["Ujde to.", "Comme ci, comme ça."],
+            ["Nemám se dobře.", "Ça ne va pas."]
+          ]},
+          {"type": "text", "cs": "Pak se zeptáš zpátky: *Et toi ?* (A ty?), nebo formálně *Et vous ?* (A vy?)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Comment ___-vous ?", "a": ["allez"], "hint": "jak se máte"}}
+        ]},
+        {"title": "Rozhovor", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Salut, Tom ! Ça va ?", "cs": "Ahoj, Tome! Jak se máš?"},
+            {"fr": "Ça va bien, merci. Et toi ?", "cs": "Mám se dobře, díky. A ty?"},
+            {"fr": "Bonjour, madame. Comment allez-vous ?", "cs": "Dobrý den, paní. Jak se máte?"},
+            {"fr": "Je vais bien, merci. Et vous ?", "cs": "Mám se dobře, děkuji. A vy?"}
+          ]}
+        ]},
+        {"title": "Zdvořilost", "blocks": [
+          {"type": "table", "head": ["česky", "francouzsky"], "firstCs": true, "rows": [
+            ["děkuji", "merci"],
+            ["děkuji mockrát", "merci beaucoup"],
+            ["prosím (tykání)", "s'il te plaît"],
+            ["prosím (vykání)", "s'il vous plaît"],
+            ["není zač", "de rien"],
+            ["promiňte", "pardon / excusez-moi"],
+            ["je mi líto", "désolé / désolée"],
+            ["dobře, souhlasím", "d'accord"]
+          ]},
+          {"type": "tip", "cs": "„Prosím“ má v češtině víc významů. Když o něco žádáš, řekneš *s'il te plaît* nebo *s'il vous plaît*. Když odpovídáš na poděkování, řekneš *de rien*."},
+          {"type": "tip", "title": "Chlapec, nebo dívka?", "cs": "*Désolé* píše chlapec, *désolée* dívka. Vyslovuje se to stejně."},
+          {"type": "check", "item": {"type": "build", "cs": "Děkuji mockrát!", "a": ["Merci beaucoup !"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-01-2-01", "type": "cloze", "fr": "Ça ___ ?", "a": ["va"], "hint": "jak se máš"},
+        {"id": "fr-01-2-02", "type": "cloze", "fr": "Merci ___ !", "a": ["beaucoup"], "hint": "mockrát"},
+        {"id": "fr-01-2-03", "type": "cloze", "fr": "De ___ !", "a": ["rien"], "hint": "není zač"},
+        {"id": "fr-01-2-04", "type": "build", "cs": "Ahoj, jak se máš?", "a": ["{Salut|Coucou}, {ça va|comment ça va|comment vas-tu} ?"]},
+        {"id": "fr-01-2-05", "type": "build", "cs": "Mám se dobře, děkuji. A ty?", "a": ["{Ça va|Ça va bien|Je vais bien|Bien}, merci. Et toi ?"]},
+        {"id": "fr-01-2-06", "type": "build", "cs": "Dobrý den, pane. Jak se máte?", "a": ["Bonjour, monsieur. Comment allez-vous ?"]},
+        {"id": "fr-01-2-07", "type": "build", "cs": "Ujde to. A vy?", "a": ["Comme ci, comme ça. Et vous ?"]},
+        {"id": "fr-01-2-08", "type": "transform", "task_cs": "Převeď do vykání", "fr": "Ça va ?", "a": ["Comment allez-vous ?"]},
+        {"id": "fr-01-2-09", "type": "transform", "task_cs": "Převeď do vykání", "fr": "S'il te plaît.", "a": ["S'il vous plaît."]},
+        {"id": "fr-01-2-10", "type": "transform", "task_cs": "Převeď do vykání", "fr": "Merci, et toi ?", "a": ["Merci, et vous ?"]},
+        {"id": "fr-01-2-11", "type": "transform", "task_cs": "Převeď do tykání", "fr": "Comment allez-vous ?", "a": ["{Comment vas-tu|Ça va|Comment ça va} ?"]},
+        {"id": "fr-01-2-12", "type": "order", "cs": "Mám se dobře, děkuji, a ty?", "a": ["Je vais bien merci et toi"], "extra": ["vous", "va"]},
+        {"id": "fr-01-2-13", "type": "build", "cs": "Promiňte, paní.", "a": ["{Pardon|Excusez-moi}, madame."]},
+        {"id": "fr-01-2-14", "type": "build", "cs": "Je mi líto, pane.", "a": ["{Désolé|Désolée}, monsieur."]}
+      ]
+    },
+    {
+      "id": "fr-01-3",
+      "title": "Je suis...",
+      "subtitle": "Osobní zájmena a sloveso être",
+      "topics": ["pronouns", "etre"],
+      "words": ["greetings#Čech, Češka", "greetings#Francouz", "greetings#Francouzka", "basics#ano", "basics#ne", "basics#a", "basics#ale", "basics#nebo", "basics#také"],
+      "learn": [
+        {"title": "Osobní zájmena", "blocks": [
+          {"type": "text", "cs": "Ve francouzštině musí před slovesem **vždy** stát podmět. Česky řekneš jen „jsem“, francouzsky musíš říct *je suis* (já jsem)."},
+          {"type": "table", "head": ["česky", "francouzsky"], "firstCs": true, "rows": [
+            ["já", "je"], ["ty", "tu"], ["on", "il"], ["ona", "elle"],
+            ["my", "nous (hovorově on)"], ["vy", "vous"], ["oni", "ils"], ["ony", "elles"]
+          ]},
+          {"type": "tip", "title": "ils, nebo elles?", "cs": "*Elles* použiješ, jen když jsou ve skupině samé ženy nebo dívky. Stačí jeden chlapec a je to *ils*."},
+          {"type": "tip", "title": "on = my", "cs": "Hovorově se místo *nous* často říká *on*. Sloveso má pak stejný tvar jako u *il*: *on est* (jsme)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ sommes amis.", "a": ["Nous"], "hint": "my"}}
+        ]},
+        {"title": "Sloveso être (být)", "blocks": [
+          {"type": "text", "cs": "*Être* je nejdůležitější francouzské sloveso. Je nepravidelné, takže se ho nauč nazpaměť."},
+          {"type": "table", "verb": "être", "tense": "present"},
+          {"type": "examples", "items": [
+            {"fr": "Je suis tchèque.", "cs": "Jsem Čech. / Jsem Češka."},
+            {"fr": "Tu es français ?", "cs": "Jsi Francouz?"},
+            {"fr": "Il est à Prague.", "cs": "Je v Praze."},
+            {"fr": "Nous sommes amis.", "cs": "Jsme kamarádi."},
+            {"fr": "Vous êtes madame Dubois ?", "cs": "Vy jste paní Dubois?"},
+            {"fr": "Ils sont en classe.", "cs": "Jsou ve třídě."}
+          ]},
+          {"type": "tip", "title": "Vázání", "cs": "Ve spojení *vous êtes* se koncové *s* vysloví jako [z] a spojí se s dalším slovem: [vu zɛt]. Tomu se říká vázání (liaison)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Tu ___ tchèque ?", "a": ["es"], "hint": "être"}}
+        ]},
+        {"title": "Národnost", "blocks": [
+          {"type": "text", "cs": "Národnost se ve francouzštině píše **malým písmenem**: *Je suis tchèque.* U většiny národností se v ženském rodě přidává *-e*: *français* → *française*. *Tchèque* už na *-e* končí, takže je stejné pro Čecha i Češku."},
+          {"type": "text", "cs": "V množném čísle se přidává *-s*: *Nous sommes tchèques.* Slovo, které už na *-s* končí, se nemění: *Ils sont français.*"},
+          {"type": "examples", "items": [
+            {"fr": "Paul est français.", "cs": "Paul je Francouz."},
+            {"fr": "Marie est française.", "cs": "Marie je Francouzka."},
+            {"fr": "Je suis tchèque et Paul est français.", "cs": "Jsem Čech a Paul je Francouz."}
+          ]},
+          {"type": "tip", "title": "et, mais, ou", "cs": "Spojky *et* (a), *mais* (ale) a *ou* (nebo) fungují stejně jako v češtině."}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-01-3-f", "type": "form", "verb": "être", "tense": "present"},
+        {"id": "fr-01-3-01", "type": "cloze", "fr": "Je ___ Hugo.", "a": ["suis"], "hint": "être"},
+        {"id": "fr-01-3-02", "type": "cloze", "fr": "Paul ___ français.", "a": ["est"], "hint": "être"},
+        {"id": "fr-01-3-03", "type": "cloze", "fr": "Vous ___ madame Dubois ?", "a": ["êtes"], "hint": "être"},
+        {"id": "fr-01-3-04", "type": "cloze", "fr": "Marie et Léa ___ françaises.", "a": ["sont"], "hint": "être"},
+        {"id": "fr-01-3-05", "type": "cloze", "fr": "___ suis tchèque.", "a": ["Je"], "hint": "já"},
+        {"id": "fr-01-3-06", "type": "cloze", "fr": "___ êtes à Paris ?", "a": ["Vous"], "hint": "vy"},
+        {"id": "fr-01-3-07", "type": "build", "cs": "Jsem Čech.", "a": ["Je suis tchèque."], "why": "Národnost se píše malým písmenem a tchèque je stejné pro Čecha i Češku."},
+        {"id": "fr-01-3-08", "type": "build", "cs": "Jsi Francouz?", "a": ["{Tu es français|Es-tu français|Est-ce que tu es français} ?"]},
+        {"id": "fr-01-3-09", "type": "build", "cs": "Ona je Francouzka.", "a": ["Elle est française."]},
+        {"id": "fr-01-3-10", "type": "build", "cs": "Jsme v Praze.", "a": ["{Nous sommes|On est} à Prague."], "hint": "v Praze = à Prague"},
+        {"id": "fr-01-3-11", "type": "build", "cs": "Jsem Čech a ty jsi Francouz.", "a": ["Je suis tchèque et tu es français."]},
+        {"id": "fr-01-3-12", "type": "transform", "task_cs": "Nahraď jméno zájmenem", "fr": "Marie est française.", "a": ["Elle est française."]},
+        {"id": "fr-01-3-13", "type": "transform", "task_cs": "Nahraď jména zájmenem", "fr": "Paul et Marie sont à Prague.", "a": ["Ils sont à Prague."], "why": "Ve skupině je muž, proto ils."},
+        {"id": "fr-01-3-14", "type": "transform", "task_cs": "Nahraď jména zájmenem", "fr": "Léa et Julie sont amies.", "a": ["Elles sont amies."], "why": "Ve skupině jsou samé dívky, proto elles."},
+        {"id": "fr-01-3-15", "type": "transform", "task_cs": "Převeď do množného čísla (nous)", "fr": "Je suis tchèque.", "a": ["{Nous sommes|On est} tchèques."], "why": "Národnost v množném čísle dostane -s."},
+        {"id": "fr-01-3-16", "type": "order", "cs": "Oni jsou ve třídě.", "a": ["Ils sont en classe"], "extra": ["elles", "est"]},
+        {"id": "fr-01-3-17", "type": "transform", "task_cs": "Převeď do vykání", "fr": "Tu es à Paris ?", "a": ["{Vous êtes|Êtes-vous} à Paris ?"]}
+      ]
+    },
+    {
+      "id": "fr-01-4",
+      "title": "Je m'appelle...",
+      "subtitle": "Představení se",
+      "topics": ["s-appeler", "introductions"],
+      "words": ["greetings#jmenuji se", "greetings#jak se jmenuješ?", "greetings#jak se jmenujete?", "greetings#těší mě", "greetings#kdo je to?", "greetings#to je", "basics#kdo (který)", "basics#tady je", "basics#tady jsou"],
+      "learn": [
+        {"title": "Sloveso s'appeler", "blocks": [
+          {"type": "text", "cs": "Jméno se ve francouzštině říká slovesem *s'appeler* (jmenovat se). Je zvratné jako české „se“, jen to zájmeno mění tvar podle osoby: *je m'appelle, tu t'appelles...*"},
+          {"type": "table", "verb": "s'appeler", "tense": "present"},
+          {"type": "tip", "title": "Jedno, nebo dvě l?", "cs": "*Je m'appelle, tu t'appelles, il s'appelle, ils s'appellent* mají **dvě l**. *Nous nous appelons* a *vous vous appelez* mají **jedno l**."},
+          {"type": "tip", "title": "Zkracování", "cs": "Před samohláskou se *me, te, se* zkracují na *m', t', s'*. Proto *je m'appelle*, ne *je me appelle*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je m'___ Hugo.", "a": ["appelle"], "hint": "s'appeler"}}
+        ]},
+        {"title": "Jak se jmenuješ?", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["Jak se jmenuješ?", "Comment tu t'appelles ? / Tu t'appelles comment ?"],
+            ["Jak se jmenujete?", "Comment vous appelez-vous ?"],
+            ["Jmenuji se Hugo.", "Je m'appelle Hugo."],
+            ["Těší mě.", "Enchanté. / Enchantée."]
+          ]},
+          {"type": "tip", "title": "Chlapec, nebo dívka?", "cs": "*Enchanté* říká chlapec, *enchantée* dívka."},
+          {"type": "examples", "items": [
+            {"fr": "Salut ! Tu t'appelles comment ?", "cs": "Ahoj! Jak se jmenuješ?"},
+            {"fr": "Je m'appelle Léa. Et toi ?", "cs": "Jmenuji se Léa. A ty?"},
+            {"fr": "Je m'appelle Hugo. Enchanté !", "cs": "Jmenuji se Hugo. Těší mě!"}
+          ]},
+          {"type": "check", "item": {"type": "build", "cs": "Jmenuji se Tom.", "a": ["Je m'appelle Tom."]}}
+        ]},
+        {"title": "Kdo je to?", "blocks": [
+          {"type": "text", "cs": "Na osobu se zeptáš *Qui est-ce ?* (Kdo je to?) a odpovíš *C'est...* (To je...). Ukázat na někoho můžeš i slovem *voilà*: *Voilà Paul !* (Tady je Paul!)"},
+          {"type": "examples", "items": [
+            {"fr": "Qui est-ce ? C'est Marc.", "cs": "Kdo je to? To je Marc."},
+            {"fr": "Voilà Léa et Tom !", "cs": "Tady jsou Léa a Tom!"}
+          ]},
+          {"type": "tip", "cs": "*C'est* vzniklo z *ce est*. Před samohláskou se *ce* zkracuje, proto *c'est*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Qui est-___ ?", "a": ["ce"], "hint": "kdo je to"}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-01-4-f", "type": "form", "verb": "s'appeler", "tense": "present"},
+        {"id": "fr-01-4-01", "type": "cloze", "fr": "Tu t'___ comment ?", "a": ["appelles"], "hint": "s'appeler"},
+        {"id": "fr-01-4-02", "type": "cloze", "fr": "Il s'___ Paul.", "a": ["appelle"], "hint": "s'appeler"},
+        {"id": "fr-01-4-03", "type": "cloze", "fr": "Nous nous ___ Dupont.", "a": ["appelons"], "hint": "s'appeler"},
+        {"id": "fr-01-4-04", "type": "cloze", "fr": "Vous vous ___ comment ?", "a": ["appelez"], "hint": "s'appeler"},
+        {"id": "fr-01-4-05", "type": "cloze", "fr": "Elles s'___ Léa et Julie.", "a": ["appellent"], "hint": "s'appeler"},
+        {"id": "fr-01-4-06", "type": "build", "cs": "Jmenuji se Hugo.", "a": ["Je m'appelle Hugo."]},
+        {"id": "fr-01-4-07", "type": "build", "cs": "Jak se jmenuješ?", "a": ["{Comment tu t'appelles|Tu t'appelles comment|Comment t'appelles-tu} ?"]},
+        {"id": "fr-01-4-08", "type": "build", "cs": "Jak se jmenujete?", "a": ["{Comment vous appelez-vous|Vous vous appelez comment} ?"]},
+        {"id": "fr-01-4-09", "type": "build", "cs": "Ona se jmenuje Marie.", "a": ["Elle s'appelle Marie."]},
+        {"id": "fr-01-4-10", "type": "build", "cs": "Kdo je to? To je Paul.", "a": ["{Qui est-ce|C'est qui} ? C'est Paul."]},
+        {"id": "fr-01-4-11", "type": "build", "cs": "Těší mě, jmenuji se Léa.", "a": ["Enchantée, je m'appelle Léa."], "why": "Léa je dívka, proto enchantée s -e."},
+        {"id": "fr-01-4-12", "type": "order", "cs": "Dobrý den, jmenuji se Hugo a jsem Čech.", "a": ["Bonjour je m'appelle Hugo et je suis tchèque"], "extra": ["es", "t'appelles"]},
+        {"id": "fr-01-4-13", "type": "transform", "task_cs": "Převeď do vykání", "fr": "Comment tu t'appelles ?", "a": ["{Comment vous appelez-vous|Vous vous appelez comment} ?"]},
+        {"id": "fr-01-4-14", "type": "transform", "task_cs": "Změň osobu na il", "fr": "Je m'appelle Paul.", "a": ["Il s'appelle Paul."]},
+        {"id": "fr-01-4-15", "type": "transform", "task_cs": "Změň osobu na nous", "fr": "Je m'appelle Dupont.", "a": ["Nous nous appelons Dupont."]}
+      ]
+    },
+    {
+      "id": "fr-01-5",
+      "title": "Les nombres",
+      "subtitle": "Čísla 0 až 20",
+      "topics": ["numbers"],
+      "words": ["numbers#nula", "numbers#jedna", "numbers#dva", "numbers#tři", "numbers#čtyři", "numbers#pět", "numbers#šest", "numbers#sedm", "numbers#osm", "numbers#devět", "numbers#deset", "numbers#jedenáct", "numbers#dvanáct", "numbers#třináct", "numbers#čtrnáct", "numbers#patnáct", "numbers#šestnáct", "numbers#sedmnáct", "numbers#osmnáct", "numbers#devatenáct", "numbers#dvacet"],
+      "learn": [
+        {"title": "0 až 10", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["0", "zéro"], ["1", "un / une"], ["2", "deux"], ["3", "trois"], ["4", "quatre"], ["5", "cinq"],
+            ["6", "six"], ["7", "sept"], ["8", "huit"], ["9", "neuf"], ["10", "dix"]
+          ]},
+          {"type": "tip", "title": "un, nebo une?", "cs": "*Un* je pro mužský rod (*un ami*), *une* pro ženský (*une amie*)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "un, deux, ___, quatre", "a": ["trois"]}}
+        ]},
+        {"title": "11 až 20", "blocks": [
+          {"type": "text", "cs": "Čísla 11 až 16 mají vlastní tvar. Od 17 se skládají: *dix-sept* je doslova „deset-sedm“."},
+          {"type": "table", "firstCs": true, "rows": [
+            ["11", "onze"], ["12", "douze"], ["13", "treize"], ["14", "quatorze"], ["15", "quinze"],
+            ["16", "seize"], ["17", "dix-sept"], ["18", "dix-huit"], ["19", "dix-neuf"], ["20", "vingt"]
+          ]},
+          {"type": "tip", "cs": "V *dix-sept, dix-huit* a *dix-neuf* nezapomeň na **spojovník**."},
+          {"type": "check", "item": {"type": "cloze", "fr": "seize, ___, dix-huit", "a": ["dix-sept"]}}
+        ]},
+        {"title": "Počítáme", "blocks": [
+          {"type": "text", "cs": "Při sčítání se říká *et* (a) a *font* (je, dělá): *Deux et trois font cinq.* (Dva a tři je pět.)"},
+          {"type": "examples", "items": [
+            {"fr": "Un et un font deux.", "cs": "Jedna a jedna je dvě."},
+            {"fr": "Cinq et cinq font dix.", "cs": "Pět a pět je deset."},
+            {"fr": "Dix et sept font dix-sept.", "cs": "Deset a sedm je sedmnáct."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Deux et deux font ___.", "a": ["quatre"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-01-5-01", "type": "cloze", "fr": "huit, ___, dix", "a": ["neuf"]},
+        {"id": "fr-01-5-02", "type": "cloze", "fr": "onze, ___, treize", "a": ["douze"]},
+        {"id": "fr-01-5-03", "type": "cloze", "fr": "dix-huit, ___, vingt", "a": ["dix-neuf"]},
+        {"id": "fr-01-5-04", "type": "cloze", "fr": "Trois et quatre font ___.", "a": ["sept"]},
+        {"id": "fr-01-5-05", "type": "cloze", "fr": "Dix et cinq font ___.", "a": ["quinze"]},
+        {"id": "fr-01-5-06", "type": "build", "cs": "Deset a tři je třináct.", "a": ["Dix et trois font treize."]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-01-t-01", "lesson": "fr-01-1", "type": "build", "cs": "Dobrý den, pane!", "a": ["Bonjour, monsieur !"]},
+      {"id": "fr-01-t-02", "lesson": "fr-01-1", "type": "build", "cs": "Na shledanou, paní!", "a": ["Au revoir, madame !"]},
+      {"id": "fr-01-t-03", "lesson": "fr-01-1", "type": "build", "cs": "Ahoj, Léo! Uvidíme se zítra.", "a": ["{Salut|Coucou}, Léa ! À demain !"]},
+      {"id": "fr-01-t-04", "lesson": "fr-01-1", "type": "cloze", "fr": "Bonne ___, papa !", "a": ["nuit"], "hint": "dobrou noc"},
+      {"id": "fr-01-t-05", "lesson": "fr-01-1", "type": "build", "cs": "Dobrý večer a vítej!", "a": ["Bonsoir et bienvenue !"]},
+      {"id": "fr-01-t-06", "lesson": "fr-01-2", "type": "build", "cs": "Jak se máte, paní?", "a": ["Comment allez-vous, madame ?"]},
+      {"id": "fr-01-t-07", "lesson": "fr-01-2", "type": "build", "cs": "Mám se dobře. A ty?", "a": ["{Ça va|Ça va bien|Je vais bien}. Et toi ?"]},
+      {"id": "fr-01-t-08", "lesson": "fr-01-2", "type": "transform", "task_cs": "Převeď do vykání", "fr": "Et toi ?", "a": ["Et vous ?"]},
+      {"id": "fr-01-t-09", "lesson": "fr-01-2", "type": "cloze", "fr": "S'il ___ plaît, madame.", "a": ["vous"], "hint": "vykání"},
+      {"id": "fr-01-t-10", "lesson": "fr-01-2", "type": "build", "cs": "Děkuji! Není zač.", "a": ["Merci ! De rien."]},
+      {"id": "fr-01-t-11", "lesson": "fr-01-2", "type": "build", "cs": "Promiňte, pane!", "a": ["{Pardon|Excusez-moi}, monsieur !"]},
+      {"id": "fr-01-t-12", "lesson": "fr-01-3", "type": "cloze", "fr": "Nous ___ à Paris.", "a": ["sommes"], "hint": "être"},
+      {"id": "fr-01-t-13", "lesson": "fr-01-3", "type": "cloze", "fr": "Ils ___ tchèques.", "a": ["sont"], "hint": "être"},
+      {"id": "fr-01-t-14", "lesson": "fr-01-3", "type": "cloze", "fr": "Tu ___ en classe ?", "a": ["es"], "hint": "être"},
+      {"id": "fr-01-t-15", "lesson": "fr-01-3", "type": "form", "verb": "être", "tense": "present", "person": 4},
+      {"id": "fr-01-t-16", "lesson": "fr-01-3", "type": "form", "verb": "être", "tense": "present", "person": 2},
+      {"id": "fr-01-t-17", "lesson": "fr-01-3", "type": "build", "cs": "Jsme Češi.", "a": ["{Nous sommes|On est} tchèques."]},
+      {"id": "fr-01-t-18", "lesson": "fr-01-3", "type": "build", "cs": "Jsi v Paříži?", "a": ["{Tu es|Es-tu|Est-ce que tu es} à Paris ?"]},
+      {"id": "fr-01-t-19", "lesson": "fr-01-3", "type": "build", "cs": "Paul je Francouz a Marie je Češka.", "a": ["Paul est français et Marie est tchèque."]},
+      {"id": "fr-01-t-20", "lesson": "fr-01-3", "type": "transform", "task_cs": "Nahraď jména zájmenem", "fr": "Tom et Léa sont amis.", "a": ["Ils sont amis."]},
+      {"id": "fr-01-t-21", "lesson": "fr-01-3", "type": "transform", "task_cs": "Převeď do množného čísla (nous)", "fr": "Je suis en classe.", "a": ["{Nous sommes|On est} en classe."]},
+      {"id": "fr-01-t-22", "lesson": "fr-01-4", "type": "cloze", "fr": "Ils s'___ Tom et Marc.", "a": ["appellent"], "hint": "s'appeler"},
+      {"id": "fr-01-t-23", "lesson": "fr-01-4", "type": "cloze", "fr": "Je m'___ Léa.", "a": ["appelle"], "hint": "s'appeler"},
+      {"id": "fr-01-t-24", "lesson": "fr-01-4", "type": "form", "verb": "s'appeler", "tense": "present", "person": 3},
+      {"id": "fr-01-t-25", "lesson": "fr-01-4", "type": "build", "cs": "Jmenuje se Julie.", "a": ["Elle s'appelle Julie."]},
+      {"id": "fr-01-t-26", "lesson": "fr-01-4", "type": "build", "cs": "Jak se jmenuješ? Jmenuji se Tom.", "a": ["{Comment tu t'appelles|Tu t'appelles comment|Comment t'appelles-tu} ? Je m'appelle Tom."]},
+      {"id": "fr-01-t-27", "lesson": "fr-01-4", "type": "build", "cs": "Kdo je to? To je Marie.", "a": ["{Qui est-ce|C'est qui} ? C'est Marie."]},
+      {"id": "fr-01-t-28", "lesson": "fr-01-4", "type": "build", "cs": "Těší mě, pane.", "a": ["{Enchanté|Enchantée}, monsieur."]},
+      {"id": "fr-01-t-29", "lesson": "fr-01-4", "type": "transform", "task_cs": "Převeď do vykání", "fr": "Tu t'appelles Hugo ?", "a": ["{Vous vous appelez Hugo|Vous appelez-vous Hugo} ?"]},
+      {"id": "fr-01-t-30", "lesson": "fr-01-5", "type": "cloze", "fr": "sept, ___, neuf", "a": ["huit"]},
+      {"id": "fr-01-t-31", "lesson": "fr-01-5", "type": "cloze", "fr": "Huit et trois font ___.", "a": ["onze"]},
+      {"id": "fr-01-t-32", "lesson": "fr-01-5", "type": "cloze", "fr": "Dix et six font ___.", "a": ["seize"]},
+      {"id": "fr-01-t-33", "lesson": "fr-01-5", "type": "cloze", "fr": "Dix et neuf font ___.", "a": ["dix-neuf"]},
+      {"id": "fr-01-t-34", "lesson": "fr-01-5", "type": "build", "cs": "Dva a dva je čtyři.", "a": ["Deux et deux font quatre."]}
+    ]
+  }
+}

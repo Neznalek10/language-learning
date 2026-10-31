@@ -1,0 +1,22 @@
+{
+  "lang": "de",
+  "from": "cs",
+  "type": "topics",
+  "title": "Home & things",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {"q": "dům", "a": "das Haus"},
+    {"q": "byt", "a": "die Wohnung"},
+    {"q": "pokoj", "a": "das Zimmer"},
+    {"q": "stůl", "a": "der Tisch"},
+    {"q": "židle", "a": "der Stuhl"},
+    {"q": "dveře", "a": "die Tür"},
+    {"q": "okno", "a": "das Fenster"},
+    {"q": "postel", "a": "das Bett"},
+    {"q": "auto", "a": "das Auto"},
+    {"q": "kniha", "a": "das Buch"},
+    {"q": "mobil", "a": "das Handy"},
+    {"q": "škola", "a": "die Schule"}
+  ]
+}

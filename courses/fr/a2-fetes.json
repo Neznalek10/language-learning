@@ -1,0 +1,1426 @@
+{
+  "schema": 1,
+  "goals": [
+    "Pojmenovat svátky a popřát (Joyeux Noël, Bonne année)",
+    "Popsat francouzské svátky a zvyky",
+    "Tvořit imparfait (nous → -ais)",
+    "Vyprávět vzpomínky: quand j'étais petit, chaque année...",
+    "Rozlišit kulisu (imparfait) a děj (passé composé)"
+  ],
+  "lessons": [
+    {
+      "id": "fr-fetes-1",
+      "title": "Joyeux Noël !",
+      "subtitle": "Svátky a přání",
+      "topics": [
+        "celebrations"
+      ],
+      "words": [
+        "celebrations#Vánoce",
+        "celebrations#Silvestr",
+        "celebrations#Nový rok",
+        "celebrations#dárek",
+        "celebrations#svíčka",
+        "celebrations#vánoční stromek",
+        "celebrations#Veselé Vánoce!",
+        "celebrations#Šťastný nový rok!",
+        "celebrations#Všechno nejlepší k narozeninám!",
+        "celebrations#svátek",
+        "celebrations#Velikonoce",
+        "verbs#popřát",
+        "verbs#slavit",
+        "verbs#pozvat",
+        "verbs#vzít s sebou"
+      ],
+      "learn": [
+        {
+          "title": "Svátky",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Vánoce",
+                  "Noël"
+                ],
+                [
+                  "štědrovečerní večeře",
+                  "le réveillon de Noël"
+                ],
+                [
+                  "Silvestr",
+                  "la Saint-Sylvestre"
+                ],
+                [
+                  "Nový rok",
+                  "le Nouvel An"
+                ],
+                [
+                  "Velikonoce",
+                  "Pâques"
+                ],
+                [
+                  "narozeniny",
+                  "l'anniversaire"
+                ],
+                [
+                  "oslava, svátek",
+                  "la fête"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "cs": "*À Noël* (o Vánocích), *à Pâques* (o Velikonocích), *pour mon anniversaire* (k narozeninám)."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "___ Noël, on mange en famille.",
+                "a": [
+                  "À"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Přání",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Veselé Vánoce!",
+                  "Joyeux Noël !"
+                ],
+                [
+                  "Šťastný nový rok!",
+                  "Bonne année !"
+                ],
+                [
+                  "Všechno nejlepší k narozeninám!",
+                  "Joyeux anniversaire !"
+                ],
+                [
+                  "Veselé Velikonoce!",
+                  "Joyeuses Pâques !"
+                ],
+                [
+                  "Hodně štěstí!",
+                  "Bonne chance !"
+                ],
+                [
+                  "Gratuluju!",
+                  "Félicitations !"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "souhaiter a fêter",
+              "cs": "*Souhaiter* = popřát: *Je te souhaite un bon anniversaire.* *Fêter* = slavit: *On fête Noël en famille.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Veselé Vánoce a šťastný nový rok!",
+                "a": [
+                  "Joyeux Noël et bonne année !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-fetes-1-01",
+          "type": "cloze",
+          "fr": "Le 31 décembre, c'est la ___.",
+          "a": [
+            "Saint-Sylvestre"
+          ],
+          "hint": "Silvestr"
+        },
+        {
+          "id": "fr-fetes-1-02",
+          "type": "cloze",
+          "fr": "Pour mon anniversaire, j'ai eu beaucoup de ___.",
+          "a": [
+            "cadeaux"
+          ],
+          "hint": "dárky"
+        },
+        {
+          "id": "fr-fetes-1-03",
+          "type": "cloze",
+          "fr": "On met des boules sur le ___ de Noël.",
+          "a": [
+            "sapin"
+          ],
+          "hint": "stromek"
+        },
+        {
+          "id": "fr-fetes-1-04",
+          "type": "cloze",
+          "fr": "Je te ___ un bon anniversaire !",
+          "a": [
+            "souhaite"
+          ],
+          "hint": "souhaiter"
+        },
+        {
+          "id": "fr-fetes-1-05",
+          "type": "cloze",
+          "fr": "Nous ___ Noël chez mes grands-parents.",
+          "a": [
+            "fêtons"
+          ],
+          "hint": "fêter"
+        },
+        {
+          "id": "fr-fetes-1-06",
+          "type": "cloze",
+          "fr": "Il y a dix ___ sur le gâteau.",
+          "a": [
+            "bougies"
+          ],
+          "hint": "svíčky"
+        },
+        {
+          "id": "fr-fetes-1-07",
+          "type": "build",
+          "cs": "Všechno nejlepší k narozeninám!",
+          "a": [
+            "Joyeux anniversaire !",
+            "Bon anniversaire !"
+          ]
+        },
+        {
+          "id": "fr-fetes-1-08",
+          "type": "build",
+          "cs": "Šťastný nový rok!",
+          "a": [
+            "Bonne année !"
+          ]
+        },
+        {
+          "id": "fr-fetes-1-09",
+          "type": "build",
+          "cs": "O Vánocích dostávám dárky.",
+          "a": [
+            "À Noël, je reçois des cadeaux.",
+            "À Noël, j'ai des cadeaux.",
+            "À Noël, on me donne des cadeaux."
+          ]
+        },
+        {
+          "id": "fr-fetes-1-10",
+          "type": "build",
+          "cs": "Pozvu kamarády na oslavu.",
+          "a": [
+            "Je vais inviter mes amis à la fête.",
+            "J'invite mes amis à la fête.",
+            "J'invite mes copains à ma fête.",
+            "Je vais inviter mes copains à ma fête.",
+            "Je vais inviter mes amis à ma fête.",
+            "J'invite mes amis à ma fête."
+          ]
+        },
+        {
+          "id": "fr-fetes-1-11",
+          "type": "build",
+          "cs": "Co přineseš?",
+          "a": [
+            "Qu'est-ce que tu apportes ?",
+            "Tu apportes quoi ?"
+          ]
+        },
+        {
+          "id": "fr-fetes-1-12",
+          "type": "order",
+          "cs": "O Velikonocích jíme čokoládu.",
+          "a": [
+            "À Pâques nous mangeons du chocolat"
+          ],
+          "extra": [
+            "Au",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-fetes-2",
+      "title": "Les fêtes en France",
+      "subtitle": "Francouzské svátky",
+      "topics": [
+        "celebrations"
+      ],
+      "words": [
+        "celebrations#národní svátek",
+        "celebrations#ohňostroj",
+        "celebrations#bál",
+        "celebrations#figurka z porcelánu",
+        "celebrations#Tři králové",
+        "celebrations#tradice",
+        "celebrations#festival"
+      ],
+      "learn": [
+        {
+          "title": "Během roku",
+          "blocks": [
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "6. ledna",
+                  "l'Épiphanie",
+                  "Jí se *galette des rois*. Kdo najde figurku (*la fève*), je král."
+                ],
+                [
+                  "2. února",
+                  "la Chandeleur",
+                  "Pečou se palačinky (*crêpes*)."
+                ],
+                [
+                  "březen nebo duben",
+                  "Pâques",
+                  "Děti hledají čokoládová vajíčka."
+                ],
+                [
+                  "21. června",
+                  "la Fête de la musique",
+                  "Všude venku se hraje hudba."
+                ],
+                [
+                  "14. července",
+                  "la fête nationale",
+                  "Přehlídka, bál a ohňostroj."
+                ],
+                [
+                  "25. prosince",
+                  "Noël",
+                  "Dárky pod stromkem, večer předtím *le réveillon*."
+                ]
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "head": [
+                "kdy",
+                "svátek",
+                "co se dělá"
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Le 14 juillet, on regarde le feu d'___.",
+                "a": [
+                  "artifice"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Jak se slaví",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Zvyky popisuješ v přítomném čase, často s *on*: *On mange une galette. On danse au bal.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le 14 juillet, il y a un feu d'artifice à Paris.",
+                  "cs": "Čtrnáctého července je v Paříži ohňostroj."
+                },
+                {
+                  "fr": "À la Fête de la musique, on joue de la guitare dans la rue.",
+                  "cs": "Na Svátek hudby se hraje na kytaru na ulici."
+                },
+                {
+                  "fr": "Celui qui trouve la fève est le roi.",
+                  "cs": "Kdo najde figurku, je král."
+                },
+                {
+                  "fr": "À la Chandeleur, on fait des crêpes.",
+                  "cs": "Na Hromnice se dělají palačinky."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Fête de la musique",
+              "cs": "Jednadvacátého června můžeš ve Francii hrát venku na kytaru a nikdo se nezlobí."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Na národní svátek je ohňostroj.",
+                "a": [
+                  "Pour la fête nationale, il y a un feu d'artifice.",
+                  "À la fête nationale, il y a un feu d'artifice.",
+                  "Le jour de la fête nationale, il y a un feu d'artifice."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-fetes-2-01",
+          "type": "cloze",
+          "fr": "Le 14 juillet, c'est la fête ___.",
+          "a": [
+            "nationale"
+          ],
+          "hint": "národní"
+        },
+        {
+          "id": "fr-fetes-2-02",
+          "type": "cloze",
+          "fr": "À l'Épiphanie, on mange la galette des ___.",
+          "a": [
+            "rois"
+          ],
+          "hint": "králové"
+        },
+        {
+          "id": "fr-fetes-2-03",
+          "type": "cloze",
+          "fr": "Dans la galette, il y a une ___.",
+          "a": [
+            "fève"
+          ],
+          "hint": "figurka"
+        },
+        {
+          "id": "fr-fetes-2-04",
+          "type": "cloze",
+          "fr": "À la Chandeleur, on mange des ___.",
+          "a": [
+            "crêpes"
+          ],
+          "hint": "palačinky"
+        },
+        {
+          "id": "fr-fetes-2-05",
+          "type": "cloze",
+          "fr": "Le soir du 14 juillet, on danse au ___.",
+          "a": [
+            "bal"
+          ],
+          "hint": "bál"
+        },
+        {
+          "id": "fr-fetes-2-06",
+          "type": "build",
+          "cs": "Ve Francii se slaví Svátek hudby.",
+          "a": [
+            "En France, on fête la Fête de la musique.",
+            "En France, on célèbre la Fête de la musique."
+          ]
+        },
+        {
+          "id": "fr-fetes-2-07",
+          "type": "build",
+          "cs": "Kdo najde figurku, je král.",
+          "a": [
+            "Celui qui trouve la fève est le roi.",
+            "Qui trouve la fève est le roi."
+          ]
+        },
+        {
+          "id": "fr-fetes-2-08",
+          "type": "build",
+          "cs": "O Velikonocích hledají děti vajíčka.",
+          "a": [
+            "À Pâques, les enfants cherchent des œufs.",
+            "À Pâques, les enfants cherchent les œufs."
+          ]
+        },
+        {
+          "id": "fr-fetes-2-09",
+          "type": "build",
+          "cs": "To je stará tradice.",
+          "a": [
+            "C'est une vieille tradition."
+          ]
+        },
+        {
+          "id": "fr-fetes-2-10",
+          "type": "build",
+          "cs": "Jaký je tvůj oblíbený svátek?",
+          "a": [
+            "Quelle est ta fête préférée ?",
+            "C'est quoi ta fête préférée ?"
+          ]
+        },
+        {
+          "id": "fr-fetes-2-11",
+          "type": "order",
+          "cs": "V červnu je hudební festival.",
+          "a": [
+            "En juin il y a un festival de musique"
+          ],
+          "extra": [
+            "au",
+            "du"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-fetes-3",
+      "title": "Quand j'étais petit",
+      "subtitle": "Imperfektum: tvary",
+      "topics": [
+        "imparfait"
+      ],
+      "words": [],
+      "learn": [
+        {
+          "title": "Jak se tvoří",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "*Imparfait* popisuje, jaké něco bylo a co se dělalo opakovaně (česky často nedokonavé: *hrál jsem, bydlel jsem*). Vezmi tvar pro *nous* v přítomném čase, uber *-ons* a přidej koncovky *-ais, -ais, -ait, -ions, -iez, -aient*: *nous jouons → je jouais*."
+            },
+            {
+              "type": "table",
+              "verb": "jouer",
+              "tense": "imparfait"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "habiter",
+                "tense": "imparfait",
+                "person": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "être",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Jediná výjimka je *être*, které má kmen *ét-*: *j'étais, tu étais, il était, nous étions, vous étiez, ils étaient*."
+            },
+            {
+              "type": "table",
+              "verb": "être",
+              "tense": "imparfait"
+            },
+            {
+              "type": "tip",
+              "title": "výslovnost",
+              "cs": "*-ais, -ait, -aient* zní všechny stejně: *je jouais, il jouait, ils jouaient*. Rozdíl je jen v psaní."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quand j'étais petit, j'habitais à Prague.",
+                  "cs": "Když jsem byl malý, bydlel jsem v Praze."
+                },
+                {
+                  "fr": "Nous avions un grand jardin.",
+                  "cs": "Měli jsme velkou zahradu."
+                },
+                {
+                  "fr": "Mon père travaillait à Prague.",
+                  "cs": "Táta pracoval v Praze."
+                },
+                {
+                  "fr": "Les enfants étaient contents.",
+                  "cs": "Děti byly spokojené."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Quand j'___ petit, j'habitais à Prague.",
+                "a": [
+                  "étais"
+                ],
+                "hint": "être"
+              }
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-fetes-3-01",
+          "type": "form",
+          "verb": "être",
+          "tense": "imparfait",
+          "person": 0
+        },
+        {
+          "id": "fr-fetes-3-02",
+          "type": "form",
+          "verb": "être",
+          "tense": "imparfait",
+          "person": 2
+        },
+        {
+          "id": "fr-fetes-3-03",
+          "type": "form",
+          "verb": "être",
+          "tense": "imparfait",
+          "person": 3
+        },
+        {
+          "id": "fr-fetes-3-04",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "imparfait",
+          "person": 1
+        },
+        {
+          "id": "fr-fetes-3-05",
+          "type": "form",
+          "verb": "faire",
+          "tense": "imparfait",
+          "person": 0
+        },
+        {
+          "id": "fr-fetes-3-06",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "imparfait",
+          "person": 5
+        },
+        {
+          "id": "fr-fetes-3-07",
+          "type": "form",
+          "verb": "habiter",
+          "tense": "imparfait",
+          "person": 3
+        },
+        {
+          "id": "fr-fetes-3-08",
+          "type": "form",
+          "verb": "finir",
+          "tense": "imparfait",
+          "person": 2
+        },
+        {
+          "id": "fr-fetes-3-09",
+          "type": "form",
+          "verb": "prendre",
+          "tense": "imparfait",
+          "person": 4
+        },
+        {
+          "id": "fr-fetes-3-10",
+          "type": "cloze",
+          "fr": "Quand j'étais petit, je ___ au foot.",
+          "a": [
+            "jouais"
+          ],
+          "hint": "jouer"
+        },
+        {
+          "id": "fr-fetes-3-11",
+          "type": "cloze",
+          "fr": "Nous ___ à Prague.",
+          "a": [
+            "habitions"
+          ],
+          "hint": "habiter"
+        },
+        {
+          "id": "fr-fetes-3-12",
+          "type": "cloze",
+          "fr": "Il ___ beaucoup de jouets.",
+          "a": [
+            "avait"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-fetes-3-13",
+          "type": "cloze",
+          "fr": "Mes parents ___ jeunes.",
+          "a": [
+            "étaient"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-fetes-3-14",
+          "type": "build",
+          "cs": "Když jsem byl malý, bydlel jsem v Praze.",
+          "a": [
+            "Quand j'étais {petit|petite}, j'habitais à Prague."
+          ]
+        },
+        {
+          "id": "fr-fetes-3-15",
+          "type": "build",
+          "cs": "Měli jsme psa.",
+          "a": [
+            "Nous avions un chien.",
+            "On avait un chien."
+          ]
+        },
+        {
+          "id": "fr-fetes-3-16",
+          "type": "transform",
+          "task_cs": "Dej do imperfekta",
+          "fr": "Je joue au parc.",
+          "a": [
+            "Je jouais au parc."
+          ]
+        },
+        {
+          "id": "fr-fetes-3-17",
+          "type": "transform",
+          "task_cs": "Dej do imperfekta",
+          "fr": "Nous sommes contents.",
+          "a": [
+            "Nous étions contents."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-fetes-4",
+      "title": "Chaque année, on fêtait...",
+      "subtitle": "Zvyky a popis v minulosti",
+      "topics": [
+        "imparfait",
+        "celebrations"
+      ],
+      "words": [
+        "celebrations#schovaný",
+        "celebrations#konec"
+      ],
+      "learn": [
+        {
+          "title": "Kdy imparfait?",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Imparfait použiješ pro **zvyky** v minulosti (*každý rok, často, vždycky*) a pro **popis**, jaké něco bylo (počasí, nálada, jak kdo vypadal)."
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "každý rok",
+                  "chaque année / tous les ans"
+                ],
+                [
+                  "o každých Vánocích",
+                  "chaque Noël"
+                ],
+                [
+                  "obvykle",
+                  "d'habitude"
+                ],
+                [
+                  "často",
+                  "souvent"
+                ],
+                [
+                  "vždycky",
+                  "toujours"
+                ],
+                [
+                  "Bylo krásně.",
+                  "Il faisait beau."
+                ],
+                [
+                  "Bylo tam hodně lidí.",
+                  "Il y avait beaucoup de monde."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Chaque année, nous ___ Noël chez ma grand-mère.",
+                "a": [
+                  "fêtions"
+                ],
+                "hint": "fêter"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Vzpomínka",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quand j'étais petit, on fêtait Noël à la montagne.",
+                  "cs": "Když jsem byl malý, slavili jsme Vánoce na horách."
+                },
+                {
+                  "fr": "Il neigeait toujours et il faisait très froid.",
+                  "cs": "Vždycky sněžilo a byla velká zima."
+                },
+                {
+                  "fr": "Ma grand-mère faisait des gâteaux.",
+                  "cs": "Babička pekla koláče."
+                },
+                {
+                  "fr": "Les cadeaux étaient cachés sous le sapin.",
+                  "cs": "Dárky byly schované pod stromkem."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "počasí",
+              "cs": "Počasí v minulosti je skoro vždy v imparfait: *il faisait beau, il pleuvait, il neigeait*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Každý rok jsme jezdili k moři.",
+                "a": [
+                  "Chaque année, nous allions à la mer.",
+                  "Tous les ans, nous allions à la mer.",
+                  "Chaque année, on allait à la mer.",
+                  "Tous les ans, on allait à la mer."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-fetes-4-01",
+          "type": "cloze",
+          "fr": "Il ___ beau et chaud.",
+          "a": [
+            "faisait"
+          ],
+          "hint": "faire"
+        },
+        {
+          "id": "fr-fetes-4-02",
+          "type": "cloze",
+          "fr": "Il y ___ beaucoup de monde à la fête.",
+          "a": [
+            "avait"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-fetes-4-03",
+          "type": "cloze",
+          "fr": "Mon grand-père ___ toujours des histoires.",
+          "a": [
+            "racontait"
+          ],
+          "hint": "vyprávět"
+        },
+        {
+          "id": "fr-fetes-4-04",
+          "type": "cloze",
+          "fr": "En hiver, il ___ souvent.",
+          "a": [
+            "neigeait"
+          ],
+          "hint": "neiger"
+        },
+        {
+          "id": "fr-fetes-4-05",
+          "type": "cloze",
+          "fr": "Les enfants ___ dans le jardin.",
+          "a": [
+            "jouaient"
+          ],
+          "hint": "jouer"
+        },
+        {
+          "id": "fr-fetes-4-06",
+          "type": "cloze",
+          "fr": "D'habitude, nous ___ ensemble.",
+          "a": [
+            "dînions"
+          ],
+          "hint": "večeřet"
+        },
+        {
+          "id": "fr-fetes-4-07",
+          "type": "build",
+          "cs": "O Vánocích vždycky sněžilo.",
+          "a": [
+            "À Noël, il neigeait toujours.",
+            "Il neigeait toujours à Noël."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-08",
+          "type": "build",
+          "cs": "Babička pekla koláče.",
+          "a": [
+            "Ma grand-mère faisait des gâteaux."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-09",
+          "type": "build",
+          "cs": "Obvykle jsme jedli rybu.",
+          "a": [
+            "D'habitude, nous mangions du poisson.",
+            "D'habitude, on mangeait du poisson."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-10",
+          "type": "build",
+          "cs": "Bylo nám deset let.",
+          "a": [
+            "Nous avions dix ans.",
+            "On avait dix ans."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-11",
+          "type": "transform",
+          "task_cs": "Dej do imperfekta",
+          "fr": "Chaque été, on va à la mer.",
+          "a": [
+            "Chaque été, on allait à la mer."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-12",
+          "type": "transform",
+          "task_cs": "Dej do imperfekta",
+          "fr": "Il fait froid et il neige.",
+          "a": [
+            "Il faisait froid et il neigeait."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-13",
+          "type": "order",
+          "cs": "Dárky byly pod stromkem.",
+          "a": [
+            "Les cadeaux étaient sous le sapin"
+          ],
+          "extra": [
+            "été",
+            "sont"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-fetes-5",
+      "title": "Il neigeait quand...",
+      "subtitle": "Imparfait, nebo passé composé?",
+      "topics": [
+        "imparfait",
+        "passe-compose"
+      ],
+      "words": [],
+      "learn": [
+        {
+          "title": "Kulisa a děj",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "V příběhu je *imparfait* kulisa (jaké to bylo, co právě probíhalo) a *passé composé* děj (co se jednou stalo). *Il neigeait quand le Père Noël est arrivé.* (Sněžilo, když přišel Santa.)"
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Sněžilo. (kulisa)",
+                  "Il neigeait."
+                ],
+                [
+                  "Přišel Santa. (děj)",
+                  "Le Père Noël est arrivé."
+                ],
+                [
+                  "Spal jsem, když zazvonil telefon.",
+                  "Je dormais quand le téléphone a sonné."
+                ],
+                [
+                  "Bylo hezky, tak jsme šli ven.",
+                  "Il faisait beau, alors nous sommes sortis."
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "le Père Noël",
+              "cs": "Ve Francii nosí dárky *le Père Noël*, ne Ježíšek."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je ___ la télé quand tu as téléphoné.",
+                "a": [
+                  "regardais"
+                ],
+                "hint": "regarder"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Pomůcka",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Ptej se: *Jak to bylo? Co právě probíhalo?* → imparfait. *Co se stalo? Co bylo potom?* → passé composé."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "C'était le 24 décembre.",
+                  "cs": "Byl 24. prosinec."
+                },
+                {
+                  "fr": "Toute la famille était là.",
+                  "cs": "Byla tam celá rodina."
+                },
+                {
+                  "fr": "Soudain, mon frère a crié.",
+                  "cs": "Najednou můj bratr vykřikl."
+                },
+                {
+                  "fr": "Il a vu un chat dans le sapin !",
+                  "cs": "Uviděl ve stromku kočku!"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_cs": "Dej sloveso v závorce do imparfait",
+                "fr": "Il (pleuvoir) quand je suis sorti.",
+                "a": [
+                  "Il pleuvait quand je suis sorti."
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-fetes-5-01",
+          "type": "cloze",
+          "fr": "Il ___ quand nous sommes arrivés.",
+          "a": [
+            "pleuvait"
+          ],
+          "hint": "pleuvoir"
+        },
+        {
+          "id": "fr-fetes-5-02",
+          "type": "cloze",
+          "fr": "Je dormais quand mon portable a ___.",
+          "a": [
+            "sonné"
+          ],
+          "hint": "zazvonit"
+        },
+        {
+          "id": "fr-fetes-5-03",
+          "type": "cloze",
+          "fr": "Nous mangions quand le téléphone ___ sonné.",
+          "a": [
+            "a"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-fetes-5-04",
+          "type": "cloze",
+          "fr": "C'___ une belle fête.",
+          "a": [
+            "était"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-fetes-5-05",
+          "type": "cloze",
+          "fr": "Hier, j'___ un beau cadeau.",
+          "a": [
+            "ai eu"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-fetes-5-06",
+          "type": "cloze",
+          "fr": "Quand j'étais petit, je ___ au Père Noël.",
+          "a": [
+            "croyais"
+          ],
+          "hint": "věřit"
+        },
+        {
+          "id": "fr-fetes-5-07",
+          "type": "build",
+          "cs": "Bylo krásně, tak jsme šli ven.",
+          "a": [
+            "Il faisait beau, alors nous sommes {sortis|sorties}.",
+            "Il faisait beau, alors on est {sortis|sorties}.",
+            "Il faisait beau, donc nous sommes {sortis|sorties}."
+          ]
+        },
+        {
+          "id": "fr-fetes-5-08",
+          "type": "build",
+          "cs": "Spal jsem, když zazvonil telefon.",
+          "a": [
+            "Je dormais quand le téléphone a sonné."
+          ]
+        },
+        {
+          "id": "fr-fetes-5-09",
+          "type": "build",
+          "cs": "Byla tam celá rodina.",
+          "a": [
+            "Toute la famille était là."
+          ]
+        },
+        {
+          "id": "fr-fetes-5-10",
+          "type": "build",
+          "cs": "Když jsem přišel, všichni tancovali.",
+          "a": [
+            "Quand je suis {arrivé|arrivée}, tout le monde dansait."
+          ]
+        },
+        {
+          "id": "fr-fetes-5-11",
+          "type": "transform",
+          "task_cs": "Kulisa do imparfait, děj do passé composé",
+          "fr": "Il fait nuit. Le Père Noël arrive.",
+          "a": [
+            "Il faisait nuit. Le Père Noël est arrivé."
+          ]
+        },
+        {
+          "id": "fr-fetes-5-12",
+          "type": "order",
+          "cs": "Sněžilo, když jsme odjeli.",
+          "a": [
+            "Il neigeait quand nous sommes partis"
+          ],
+          "extra": [
+            "a",
+            "neigé"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-fetes-t-01",
+        "lesson": "fr-fetes-1",
+        "type": "build",
+        "cs": "Veselé Vánoce!",
+        "a": [
+          "Joyeux Noël !"
+        ]
+      },
+      {
+        "id": "fr-fetes-t-02",
+        "lesson": "fr-fetes-1",
+        "type": "cloze",
+        "fr": "Pour la Saint-Sylvestre, on ___ la nouvelle année.",
+        "a": [
+          "fête"
+        ],
+        "hint": "fêter"
+      },
+      {
+        "id": "fr-fetes-t-03",
+        "lesson": "fr-fetes-1",
+        "type": "build",
+        "cs": "Na Silvestra je ohňostroj.",
+        "a": [
+          "À la Saint-Sylvestre, il y a un feu d'artifice.",
+          "Pour la Saint-Sylvestre, il y a un feu d'artifice."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-04",
+        "lesson": "fr-fetes-1",
+        "type": "cloze",
+        "fr": "J'ai acheté un ___ pour ma mère.",
+        "a": [
+          "cadeau"
+        ],
+        "hint": "dárek"
+      },
+      {
+        "id": "fr-fetes-t-05",
+        "lesson": "fr-fetes-1",
+        "type": "build",
+        "cs": "Přeju ti hodně štěstí.",
+        "a": [
+          "Je te souhaite bonne chance.",
+          "Je te souhaite beaucoup de chance."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-06",
+        "lesson": "fr-fetes-2",
+        "type": "cloze",
+        "fr": "Le 14 juillet, il y a un ___ d'artifice.",
+        "a": [
+          "feu"
+        ]
+      },
+      {
+        "id": "fr-fetes-t-07",
+        "lesson": "fr-fetes-2",
+        "type": "build",
+        "cs": "Na Hromnice se dělají palačinky.",
+        "a": [
+          "À la Chandeleur, on fait des crêpes."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-08",
+        "lesson": "fr-fetes-2",
+        "type": "build",
+        "cs": "Mám rád francouzské tradice.",
+        "a": [
+          "J'aime les traditions françaises."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-09",
+        "lesson": "fr-fetes-2",
+        "type": "cloze",
+        "fr": "Le 21 juin, c'est la Fête de la ___.",
+        "a": [
+          "musique"
+        ],
+        "hint": "hudba"
+      },
+      {
+        "id": "fr-fetes-t-10",
+        "lesson": "fr-fetes-2",
+        "type": "build",
+        "cs": "Na národní svátek se tančí.",
+        "a": [
+          "Pour la fête nationale, on danse.",
+          "À la fête nationale, on danse.",
+          "Le jour de la fête nationale, on danse."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-11",
+        "lesson": "fr-fetes-3",
+        "type": "form",
+        "verb": "être",
+        "tense": "imparfait",
+        "person": 1
+      },
+      {
+        "id": "fr-fetes-t-12",
+        "lesson": "fr-fetes-3",
+        "type": "form",
+        "verb": "avoir",
+        "tense": "imparfait",
+        "person": 3
+      },
+      {
+        "id": "fr-fetes-t-13",
+        "lesson": "fr-fetes-3",
+        "type": "cloze",
+        "fr": "Quand il était petit, il ___ un chat.",
+        "a": [
+          "avait"
+        ],
+        "hint": "avoir"
+      },
+      {
+        "id": "fr-fetes-t-14",
+        "lesson": "fr-fetes-3",
+        "type": "build",
+        "cs": "Když jsem byla malá, měla jsem kočku.",
+        "a": [
+          "Quand j'étais petite, j'avais un chat.",
+          "Quand j'étais petite, j'avais une chatte."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-15",
+        "lesson": "fr-fetes-3",
+        "type": "transform",
+        "task_cs": "Dej do imperfekta",
+        "fr": "Ils habitent à Lyon.",
+        "a": [
+          "Ils habitaient à Lyon."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-16",
+        "lesson": "fr-fetes-4",
+        "type": "cloze",
+        "fr": "Chaque année, on ___ des crêpes.",
+        "a": [
+          "faisait"
+        ],
+        "hint": "faire"
+      },
+      {
+        "id": "fr-fetes-t-17",
+        "lesson": "fr-fetes-4",
+        "type": "build",
+        "cs": "Každé Vánoce jsme jezdili k babičce.",
+        "a": [
+          "Chaque Noël, nous allions chez ma grand-mère.",
+          "Chaque Noël, on allait chez ma grand-mère."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-18",
+        "lesson": "fr-fetes-4",
+        "type": "build",
+        "cs": "Bylo chladno.",
+        "a": [
+          "Il faisait froid.",
+          "Il faisait frais."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-19",
+        "lesson": "fr-fetes-4",
+        "type": "cloze",
+        "fr": "D'habitude, nous ___ à huit heures.",
+        "a": [
+          "mangions"
+        ],
+        "hint": "manger"
+      },
+      {
+        "id": "fr-fetes-t-20",
+        "lesson": "fr-fetes-4",
+        "type": "transform",
+        "task_cs": "Dej do imperfekta",
+        "fr": "Le dimanche, je joue au foot.",
+        "a": [
+          "Le dimanche, je jouais au foot."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-21",
+        "lesson": "fr-fetes-5",
+        "type": "cloze",
+        "fr": "Je ___ quand tu m'as appelé.",
+        "a": [
+          "dormais"
+        ],
+        "hint": "dormir"
+      },
+      {
+        "id": "fr-fetes-t-22",
+        "lesson": "fr-fetes-5",
+        "type": "build",
+        "cs": "Pršelo, když jsem vyšel ven.",
+        "a": [
+          "Il pleuvait quand je suis {sorti|sortie}."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-23",
+        "lesson": "fr-fetes-5",
+        "type": "build",
+        "cs": "Byl to krásný den.",
+        "a": [
+          "C'était une belle journée.",
+          "C'était un beau jour."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-24",
+        "lesson": "fr-fetes-5",
+        "type": "cloze",
+        "fr": "Nous regardions un film quand mon père ___ arrivé.",
+        "a": [
+          "est"
+        ],
+        "hint": "être"
+      },
+      {
+        "id": "fr-fetes-t-25",
+        "lesson": "fr-fetes-5",
+        "type": "transform",
+        "task_cs": "Kulisa do imparfait, děj do passé composé",
+        "fr": "Il fait beau. Nous partons.",
+        "a": [
+          "Il faisait beau. Nous sommes {partis|parties}."
+        ]
+      }
+    ]
+  }
+}

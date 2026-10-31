@@ -1,0 +1,151 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Home",
+  "unit": "4.3",
+  "level": null,
+  "words": [
+    {
+      "q": "dům",
+      "a": "maison"
+    },
+    {
+      "q": "zahrada",
+      "a": "jardin"
+    },
+    {
+      "q": "pokoj",
+      "a": "chambre"
+    },
+    {
+      "q": "skříň",
+      "a": "armoire"
+    },
+    {
+      "q": "spacák",
+      "a": "sac de couchage",
+      "unit": "7.1"
+    },
+    {
+      "q": "stan",
+      "a": "tente",
+      "unit": "7.1"
+    },
+    {
+      "q": "fotoaparát",
+      "a": [
+        "appareil photo",
+        "appareil-photo"
+      ],
+      "unit": "7.1"
+    },
+    {
+      "q": "kuchyně",
+      "a": "cuisine"
+    },
+    {
+      "q": "obývák",
+      "a": "salon"
+    },
+    {
+      "q": "koupelna",
+      "a": [
+        "salle de bains",
+        "salle de bain"
+      ]
+    },
+    {
+      "q": "záchod",
+      "a": "toilettes"
+    },
+    {
+      "q": "jídelna (doma)",
+      "a": "salle à manger"
+    },
+    {
+      "q": "patro",
+      "a": "étage"
+    },
+    {
+      "q": "přízemí",
+      "a": "rez-de-chaussée"
+    },
+    {
+      "q": "byt",
+      "a": "appartement"
+    },
+    {
+      "q": "schody",
+      "a": "escalier"
+    },
+    {
+      "q": "postel",
+      "a": "lit"
+    },
+    {
+      "q": "stůl",
+      "a": "table"
+    },
+    {
+      "q": "židle",
+      "a": "chaise"
+    },
+    {
+      "q": "psací stůl",
+      "a": "bureau"
+    },
+    {
+      "q": "gauč",
+      "a": "canapé"
+    },
+    {
+      "q": "okno",
+      "a": "fenêtre"
+    },
+    {
+      "q": "dveře",
+      "a": "porte"
+    },
+    {
+      "q": "police",
+      "a": "étagère"
+    },
+    {
+      "q": "lampa",
+      "a": "lampe"
+    },
+    {
+      "q": "koberec",
+      "a": "tapis"
+    },
+    {
+      "q": "zrcadlo",
+      "a": "miroir"
+    },
+    {
+      "q": "balkon",
+      "a": "balcon"
+    },
+    {
+      "q": "garáž",
+      "a": "garage"
+    },
+    {
+      "q": "mýt nádobí",
+      "a": "faire la vaisselle"
+    },
+    {
+      "q": "prostřít stůl",
+      "a": "mettre la table"
+    },
+    {
+      "q": "ustlat postel",
+      "a": "faire son lit"
+    },
+    {
+      "q": "vysávat",
+      "a": "passer l'aspirateur"
+    }
+  ]
+}

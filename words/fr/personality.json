@@ -1,0 +1,164 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "adjectives",
+  "title": "Personality",
+  "unit": "2.2",
+  "level": null,
+  "words": [
+    {
+      "q": "povaha",
+      "a": "caractère"
+    },
+    {
+      "q": "kladné vlastnosti",
+      "a": "qualités"
+    },
+    {
+      "q": "špatné vlastnosti",
+      "a": "défauts"
+    },
+    {
+      "q": "nepořádný",
+      "a": "désordonné"
+    },
+    {
+      "q": "zábavný",
+      "a": "amusant"
+    },
+    {
+      "q": "sympatický",
+      "a": "sympathique"
+    },
+    {
+      "q": "stydlivý",
+      "a": "timide"
+    },
+    {
+      "q": "optimista",
+      "a": "optimiste"
+    },
+    {
+      "q": "líný",
+      "a": "paresseux"
+    },
+    {
+      "q": "štědrý",
+      "a": "généreux"
+    },
+    {
+      "q": "sportovní",
+      "a": "sportif"
+    },
+    {
+      "q": "aktivní",
+      "a": "actif"
+    },
+    {
+      "q": "pokrytec",
+      "a": "hypocrite"
+    },
+    {
+      "q": "příjemný",
+      "a": "agréable"
+    },
+    {
+      "q": "pesimista",
+      "a": "pessimiste"
+    },
+    {
+      "q": "pasivní",
+      "a": "passif"
+    },
+    {
+      "q": "nesympatický",
+      "a": "antipathique"
+    },
+    {
+      "q": "nudný",
+      "a": "ennuyeux"
+    },
+    {
+      "q": "ukecaný",
+      "a": "bavard"
+    },
+    {
+      "q": "pracovitý",
+      "a": "travailleur"
+    },
+    {
+      "q": "lakomý",
+      "a": "avare"
+    },
+    {
+      "q": "upřímný",
+      "a": "sincère"
+    },
+    {
+      "q": "pravdomluvný",
+      "a": "franc"
+    },
+    {
+      "q": "nervózní",
+      "a": "nerveux"
+    },
+    {
+      "q": "spokojený",
+      "a": "content"
+    },
+    {
+      "q": "blázen",
+      "a": [
+        "fou",
+        "folle"
+      ]
+    },
+    {
+      "q": "pořádek",
+      "a": "ordre"
+    },
+    {
+      "q": "lhář",
+      "a": [
+        "menteur",
+        "menteuse"
+      ]
+    },
+    {
+      "q": "hodný",
+      "a": "gentil"
+    },
+    {
+      "q": "zlý",
+      "a": "méchant"
+    },
+    {
+      "q": "chytrý",
+      "a": "intelligent"
+    },
+    {
+      "q": "vtipný",
+      "a": "drôle"
+    },
+    {
+      "q": "vážný",
+      "a": "sérieux"
+    },
+    {
+      "q": "klidný",
+      "a": "calme"
+    },
+    {
+      "q": "zvědavý",
+      "a": "curieux"
+    },
+    {
+      "q": "šťastný",
+      "a": "heureux"
+    },
+    {
+      "q": "smutný",
+      "a": "triste"
+    }
+  ]
+}

@@ -1,0 +1,278 @@
+{
+  "schema": 1,
+  "goals": [
+    "Používat dny v týdnu (lundi × le lundi)",
+    "Říct, kolik je hodin a v kolik se co děje",
+    "Časovat aller a stahovat à + le = au",
+    "Mluvit o předmětech a říct na ně svůj názor",
+    "Časovat slovesa na -ir (finir, choisir)"
+  ],
+  "lessons": [
+    {
+      "id": "fr-4.1-1",
+      "title": "Les jours de la semaine",
+      "subtitle": "Dny v týdnu",
+      "topics": ["time"],
+      "words": ["time#pondělí", "time#úterý", "time#středa", "time#čtvrtek", "time#pátek", "time#sobota", "time#neděle", "time#dnes", "time#zítra", "time#den", "time#týden"],
+      "learn": [
+        {"title": "Dny v týdnu", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["pondělí", "lundi"], ["úterý", "mardi"], ["středa", "mercredi"], ["čtvrtek", "jeudi"],
+            ["pátek", "vendredi"], ["sobota", "samedi"], ["neděle", "dimanche"]
+          ]},
+          {"type": "text", "cs": "Dny se píšou **malým písmenem** a všechny jsou mužského rodu: *le lundi, le dimanche*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Aujourd'hui, c'est mardi. Demain, c'est ___.", "a": ["mercredi"]}}
+        ]},
+        {"title": "lundi, nebo le lundi?", "blocks": [
+          {"type": "text", "cs": "*Lundi* bez členu znamená tohle (nejbližší) pondělí: *Lundi, j'ai un test.* *Le lundi* se členem znamená každé pondělí: *Le lundi, j'ai français.* Předložka „v“ se před dnem nepíše."},
+          {"type": "text", "cs": "Na den se zeptáš *Quel jour sommes-nous ?* nebo hovorově *On est quel jour ?* Odpovíš *On est mardi.* nebo *Aujourd'hui, c'est mardi.*"},
+          {"type": "examples", "items": [
+            {"fr": "Le samedi, je joue au basket.", "cs": "V sobotu (každou) hraju basketbal."},
+            {"fr": "Samedi, on va à Prague.", "cs": "(Tuto) sobotu jedeme do Prahy."},
+            {"fr": "Une semaine a sept jours.", "cs": "Týden má sedm dní."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.1-1-01", "type": "cloze", "fr": "lundi, mardi, ___", "a": ["mercredi"]},
+        {"id": "fr-4.1-1-02", "type": "cloze", "fr": "jeudi, ___, samedi", "a": ["vendredi"]},
+        {"id": "fr-4.1-1-03", "type": "cloze", "fr": "samedi, ___", "a": ["dimanche"]},
+        {"id": "fr-4.1-1-04", "type": "cloze", "fr": "Aujourd'hui, c'est jeudi. Demain, c'est ___.", "a": ["vendredi"]},
+        {"id": "fr-4.1-1-05", "type": "cloze", "fr": "Une semaine a sept ___.", "a": ["jours"]},
+        {"id": "fr-4.1-1-06", "type": "build", "cs": "Dnes je pondělí.", "a": ["{Aujourd'hui, c'est|Aujourd'hui, on est|Aujourd'hui, nous sommes|On est|Nous sommes|C'est} lundi."]},
+        {"id": "fr-4.1-1-07", "type": "build", "cs": "Každé pondělí mám francouzštinu.", "a": ["Le lundi, j'ai {français|cours de français}.", "J'ai {français|cours de français} le lundi."]},
+        {"id": "fr-4.1-1-08", "type": "build", "cs": "V sobotu hraju basketbal.", "a": ["{Samedi|Le samedi}, je {joue au basket|fais du basket}.", "Je {joue au basket|fais du basket} {samedi|le samedi}."]},
+        {"id": "fr-4.1-1-09", "type": "build", "cs": "Co je dnes za den?", "a": ["{Quel jour sommes-nous|On est quel jour|Quel jour on est|C'est quel jour aujourd'hui} ?"]},
+        {"id": "fr-4.1-1-10", "type": "transform", "task_cs": "Řekni, že to platí každý týden", "fr": "Mercredi, je fais du sport.", "a": ["Le mercredi, je fais du sport."]},
+        {"id": "fr-4.1-1-11", "type": "order", "cs": "Zítra je sobota.", "a": ["Demain c'est samedi"], "extra": ["le", "dimanche"]}
+      ]
+    },
+    {
+      "id": "fr-4.1-2",
+      "title": "Quelle heure est-il ?",
+      "subtitle": "Hodiny",
+      "topics": ["time"],
+      "words": ["time#kolik je hodin?", "time#hodina", "time#minuta", "time#půl (u času)", "time#čtvrt (u času)", "time#poledne", "time#půlnoc", "time#ráno", "time#odpoledne", "time#večer"],
+      "learn": [
+        {"title": "Celé hodiny", "blocks": [
+          {"type": "text", "cs": "*Quelle heure est-il ?* nebo hovorově *Il est quelle heure ?* (Kolik je hodin?) Odpověď začíná vždy *Il est...*, a slovo *heure(s)* se nesmí vynechat."},
+          {"type": "table", "firstCs": true, "rows": [
+            ["1:00", "Il est une heure."], ["2:00", "Il est deux heures."], ["12:00", "Il est midi."], ["0:00", "Il est minuit."]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Il est trois ___.", "a": ["heures"]}}
+        ]},
+        {"title": "Čtvrt, půl, tři čtvrtě", "blocks": [
+          {"type": "text", "cs": "Minuty se přidávají za hodiny: *huit heures dix* (8:10). Čtvrt je *et quart*, půl *et demie*. Do celé hodiny se odčítá slovem *moins* (bez): *neuf heures moins le quart* (8:45), *neuf heures moins dix* (8:50)."},
+          {"type": "table", "firstCs": true, "rows": [
+            ["8:10", "huit heures dix"], ["8:15", "huit heures et quart"], ["8:30", "huit heures et demie"],
+            ["8:45", "neuf heures moins le quart"], ["8:50", "neuf heures moins dix"]
+          ]},
+          {"type": "tip", "title": "Úřední čas", "cs": "V jízdních řádech, ve škole a v televizi se používá 24hodinový čas: *Il est quinze heures trente* (15:30). Tam se *et quart, et demie* a *moins* nepoužívají."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Il est sept heures et ___.", "a": ["demie"], "hint": "7:30"}}
+        ]},
+        {"title": "V kolik?", "blocks": [
+          {"type": "text", "cs": "*À quelle heure ?* (V kolik hodin?) *À huit heures.* (V osm.) U dvanácti se říká *à midi* (v poledne) a *à minuit* (o půlnoci). Den rozlišíš slovy *du matin* (ráno), *de l'après-midi* (odpoledne), *du soir* (večer)."},
+          {"type": "examples", "items": [
+            {"fr": "Les cours commencent à huit heures.", "cs": "Vyučování začíná v osm."},
+            {"fr": "Je mange à midi.", "cs": "Jím v poledne."},
+            {"fr": "Le film est à neuf heures du soir.", "cs": "Film je v devět večer."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.1-2-01", "type": "cloze", "fr": "Il est huit heures et ___.", "a": ["quart"], "hint": "8:15"},
+        {"id": "fr-4.1-2-02", "type": "cloze", "fr": "Il est dix heures ___ le quart.", "a": ["moins"], "hint": "9:45"},
+        {"id": "fr-4.1-2-03", "type": "cloze", "fr": "Il est ___.", "a": ["midi"], "hint": "12:00 v poledne"},
+        {"id": "fr-4.1-2-04", "type": "cloze", "fr": "Il est six heures ___.", "a": ["vingt"], "hint": "6:20"},
+        {"id": "fr-4.1-2-05", "type": "cloze", "fr": "Il est onze heures moins ___.", "a": ["dix"], "hint": "10:50"},
+        {"id": "fr-4.1-2-06", "type": "cloze", "fr": "Il est une ___.", "a": ["heure"]},
+        {"id": "fr-4.1-2-07", "type": "cloze", "fr": "Le film commence à neuf heures du ___.", "a": ["soir"], "hint": "večer"},
+        {"id": "fr-4.1-2-08", "type": "build", "cs": "Kolik je hodin?", "a": ["{Quelle heure est-il|Il est quelle heure} ?"]},
+        {"id": "fr-4.1-2-09", "type": "build", "cs": "Je půl osmé.", "a": ["Il est sept heures et demie."], "hint": "7:30"},
+        {"id": "fr-4.1-2-10", "type": "build", "cs": "Je čtvrt na deset.", "a": ["Il est neuf heures et quart."], "hint": "9:15"},
+        {"id": "fr-4.1-2-11", "type": "build", "cs": "Je tři čtvrtě na pět.", "a": ["Il est cinq heures moins le quart."], "hint": "4:45"},
+        {"id": "fr-4.1-2-12", "type": "build", "cs": "V kolik hodin? V osm.", "a": ["À quelle heure ? À huit heures."]},
+        {"id": "fr-4.1-2-13", "type": "build", "cs": "Jím v poledne.", "a": ["Je mange à midi."]},
+        {"id": "fr-4.1-2-14", "type": "order", "cs": "Vyučování začíná v osm hodin.", "a": ["Les cours commencent à huit heures"], "extra": ["heure", "commence"]}
+      ]
+    },
+    {
+      "id": "fr-4.1-3",
+      "title": "Je vais au collège",
+      "subtitle": "Sloveso aller a à + le = au",
+      "topics": ["aller", "school"],
+      "words": ["verbs-irregular#jít, jet", "school#škola", "school#střední škola", "school#jídelna", "school#knihovna", "school#tělocvična", "school#bazén", "school#ošetřovna", "school#školní dvůr", "school#třída (ve škole)", "school#učitel", "school#žák", "school#přestávka"],
+      "learn": [
+        {"title": "Sloveso aller", "blocks": [
+          {"type": "text", "cs": "*Aller* (jít, jet) končí na *-er*, ale je úplně nepravidelné."},
+          {"type": "table", "verb": "aller", "tense": "present"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ au collège.", "a": ["allons"], "hint": "aller"}}
+        ]},
+        {"title": "à + le = au", "blocks": [
+          {"type": "text", "cs": "U místa stojí po *aller* i *être* předložka *à*. S členem *le* a *les* se stahuje: *à + le = au, à + les = aux*. *À la* a *à l'* zůstávají."},
+          {"type": "table", "head": ["", "", "příklad"], "firstCs": false, "rows": [
+            ["à + le", "au", "au collège, au gymnase"],
+            ["à + la", "à la", "à la cantine, à la piscine"],
+            ["à + l'", "à l'", "à l'école, à l'infirmerie"],
+            ["à + les", "aux", "aux toilettes"]
+          ]},
+          {"type": "tip", "title": "collège a lycée", "cs": "Ve Francii se chodí na *collège* od 11 do 15 let a potom na *lycée* (od 15 do 18). *Le collège* tedy není vysoká škola!"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je mange ___ cantine.", "a": ["à la"]}}
+        ]},
+        {"title": "Ve škole", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "La récré est à dix heures.", "cs": "Přestávka je v deset."},
+            {"fr": "On mange à la cantine à midi.", "cs": "V poledne jíme ve školní jídelně."},
+            {"fr": "Le prof de maths est sympa.", "cs": "Učitel matiky je fajn."},
+            {"fr": "Je vais à la bibliothèque.", "cs": "Jdu do knihovny."}
+          ]},
+          {"type": "tip", "title": "le prof", "cs": "*Le professeur* se ve škole skoro vždy zkracuje na *le prof* nebo *la prof*."}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.1-3-f", "type": "form", "verb": "aller", "tense": "present"},
+        {"id": "fr-4.1-3-01", "type": "cloze", "fr": "Je vais ___ collège.", "a": ["au"]},
+        {"id": "fr-4.1-3-02", "type": "cloze", "fr": "Tu vas ___ piscine ?", "a": ["à la"]},
+        {"id": "fr-4.1-3-03", "type": "cloze", "fr": "Il va ___infirmerie.", "a": ["à l'"]},
+        {"id": "fr-4.1-3-04", "type": "cloze", "fr": "Nous allons ___ gymnase.", "a": ["au"]},
+        {"id": "fr-4.1-3-05", "type": "cloze", "fr": "Les élèves vont ___ toilettes.", "a": ["aux"]},
+        {"id": "fr-4.1-3-06", "type": "cloze", "fr": "Elle est ___ bibliothèque.", "a": ["à la"]},
+        {"id": "fr-4.1-3-07", "type": "cloze", "fr": "Vous allez ___école ?", "a": ["à l'"]},
+        {"id": "fr-4.1-3-08", "type": "build", "cs": "Jdu do školy.", "a": ["Je vais {à l'école|au collège}."]},
+        {"id": "fr-4.1-3-09", "type": "build", "cs": "V poledne jíme ve školní jídelně.", "a": ["À midi, {nous mangeons|on mange} à la cantine."]},
+        {"id": "fr-4.1-3-10", "type": "build", "cs": "Kam jdeš? Do knihovny.", "a": ["{Où vas-tu|Tu vas où|Où est-ce que tu vas} ? À la bibliothèque."]},
+        {"id": "fr-4.1-3-11", "type": "build", "cs": "Přestávka je v deset.", "a": ["La {récré|récréation} est à dix heures."]},
+        {"id": "fr-4.1-3-12", "type": "transform", "task_cs": "Změň osobu na ils", "fr": "Il va au gymnase.", "a": ["Ils vont au gymnase."]},
+        {"id": "fr-4.1-3-13", "type": "order", "cs": "Jdeme do tělocvičny.", "a": ["Nous allons au gymnase", "On va au gymnase"], "extra": ["à", "allez"]}
+      ]
+    },
+    {
+      "id": "fr-4.1-4",
+      "title": "Ma matière préférée",
+      "subtitle": "Předměty a názory",
+      "topics": ["school"],
+      "words": ["school#matematika", "school#dějepis", "school#zeměpis", "school#fyzika", "school#chemie", "school#biologie", "school#tělocvik", "school#hudebka", "school#výtvarka", "school#informatika", "school#školní předmět", "school#zajímavý", "school#těžký (obtížný)", "school#snadný", "school#skvělý", "school#hrozný (na nic)", "school#oblíbený"],
+      "learn": [
+        {"title": "Předměty", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["matematika", "les mathématiques (les maths)"],
+            ["dějepis", "l'histoire"],
+            ["zeměpis", "la géographie"],
+            ["fyzika", "la physique"],
+            ["chemie", "la chimie"],
+            ["biologie", "la biologie (ve Francii la SVT)"],
+            ["tělocvik", "l'éducation physique et sportive (l'EPS)"],
+            ["hudební výchova", "la musique"],
+            ["výtvarná výchova", "les arts plastiques"],
+            ["informatika", "l'informatique"]
+          ]},
+          {"type": "text", "cs": "Názvy předmětů se často zkracují: *les maths*, *l'EPS* [ə pe ɛs]. Předmět je *la matière*."}
+        ]},
+        {"title": "Můj názor", "blocks": [
+          {"type": "text", "cs": "Názor řekneš pomocí *c'est* + přídavné jméno v **mužském** rodě, ať je předmět jakéhokoli rodu: *Les maths, c'est difficile. L'histoire, c'est intéressant.*"},
+          {"type": "table", "firstCs": true, "rows": [
+            ["je to zajímavé", "c'est intéressant"],
+            ["je to těžké", "c'est difficile"],
+            ["je to snadné", "c'est facile"],
+            ["je to skvělé", "c'est génial"],
+            ["je to hrozné, na nic", "c'est nul"],
+            ["je to nudné", "c'est ennuyeux"]
+          ]},
+          {"type": "tip", "title": "préférée", "cs": "*Ma matière préférée, c'est l'histoire.* (Můj oblíbený předmět je dějepis.) *Matière* je ženského rodu, proto *préférée*."},
+          {"type": "check", "item": {"type": "build", "cs": "Matematika je těžká.", "a": ["{Les maths|Les mathématiques}, c'est difficile.", "{Les maths|Les mathématiques} sont difficiles."]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.1-4-01", "type": "cloze", "fr": "L'histoire, c'est ___.", "a": ["intéressant"], "hint": "zajímavé"},
+        {"id": "fr-4.1-4-02", "type": "cloze", "fr": "Le sport, c'est ___ !", "a": ["génial"], "hint": "skvělé"},
+        {"id": "fr-4.1-4-03", "type": "cloze", "fr": "La chimie, c'est ___.", "a": ["nul"], "hint": "hrozné"},
+        {"id": "fr-4.1-4-04", "type": "cloze", "fr": "Ma matière ___, c'est la musique.", "a": ["préférée"], "hint": "oblíbený"},
+        {"id": "fr-4.1-4-05", "type": "build", "cs": "Můj oblíbený předmět je zeměpis.", "a": ["Ma matière préférée, c'est la géographie."]},
+        {"id": "fr-4.1-4-06", "type": "build", "cs": "Dějepis je zajímavý.", "a": ["L'histoire, c'est intéressant.", "L'histoire est intéressante."]},
+        {"id": "fr-4.1-4-07", "type": "build", "cs": "Fyzika je snadná.", "a": ["La physique, c'est facile.", "La physique est facile."]},
+        {"id": "fr-4.1-4-08", "type": "build", "cs": "Mám rád angličtinu, protože je to snadné.", "a": ["J'aime l'anglais parce que c'est facile."]},
+        {"id": "fr-4.1-4-09", "type": "build", "cs": "Nesnáším chemii, je to nudné.", "a": ["Je déteste la chimie, c'est ennuyeux."]},
+        {"id": "fr-4.1-4-10", "type": "transform", "task_cs": "Převeď do záporu", "fr": "C'est facile.", "a": ["Ce n'est pas facile."]},
+        {"id": "fr-4.1-4-11", "type": "order", "cs": "Tělocvik je skvělý!", "a": ["L'EPS c'est génial", "Le sport c'est génial"], "extra": ["est", "géniale"]}
+      ]
+    },
+    {
+      "id": "fr-4.1-5",
+      "title": "Je finis à trois heures",
+      "subtitle": "Slovesa na -ir a školní věci",
+      "topics": ["ir-verbs", "school"],
+      "words": ["verbs-irregular#končit", "verbs-irregular#vybrat", "verbs#začít", "school#rozvrh", "school#domácí úkol", "school#vyučování", "school#sešit", "school#kniha", "school#pero", "school#tužka"],
+      "learn": [
+        {"title": "Slovesa na -ir", "blocks": [
+          {"type": "text", "cs": "Druhou skupinu pravidelných sloves tvoří slovesa na *-ir* jako *finir* (končit) nebo *choisir* (vybrat si). V množném čísle k nim přibývá *-iss-*."},
+          {"type": "table", "verb": "finir", "tense": "present"},
+          {"type": "tip", "title": "Ne všechna", "cs": "Ne všechna slovesa na *-ir* se časují takhle. *Venir, partir, sortir* a *dormir* jsou nepravidelná."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ à quatre heures.", "a": ["finissons"], "hint": "finir"}}
+        ]},
+        {"title": "Začátek a konec", "blocks": [
+          {"type": "text", "cs": "*Commencer* (začít) je pravidelné sloveso na *-er*, jen u *nous* se píše *ç*, aby se *c* četlo [s]: *nous commençons*."},
+          {"type": "examples", "items": [
+            {"fr": "Les cours commencent à huit heures et finissent à trois heures.", "cs": "Vyučování začíná v osm a končí ve tři."},
+            {"fr": "Je finis mes devoirs.", "cs": "Dodělávám úkoly."},
+            {"fr": "Tu choisis quel livre ?", "cs": "Kterou knihu si vybereš?"}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.1-5-f", "type": "form", "verb": "finir", "tense": "present"},
+        {"id": "fr-4.1-5-01", "type": "cloze", "fr": "Je ___ mes devoirs.", "a": ["finis"], "hint": "finir"},
+        {"id": "fr-4.1-5-02", "type": "cloze", "fr": "Tu ___ quel livre ?", "a": ["choisis"], "hint": "choisir"},
+        {"id": "fr-4.1-5-03", "type": "cloze", "fr": "Les cours ___ à huit heures.", "a": ["commencent"], "hint": "commencer"},
+        {"id": "fr-4.1-5-04", "type": "cloze", "fr": "Nous ___ à neuf heures.", "a": ["commençons"], "hint": "commencer"},
+        {"id": "fr-4.1-5-05", "type": "cloze", "fr": "Elles ___ à midi.", "a": ["finissent"], "hint": "finir"},
+        {"id": "fr-4.1-5-06", "type": "cloze", "fr": "Vous ___ quand ?", "a": ["finissez"], "hint": "finir"},
+        {"id": "fr-4.1-5-07", "type": "build", "cs": "Vyučování končí ve tři.", "a": ["Les cours {finissent|se terminent} à trois heures."]},
+        {"id": "fr-4.1-5-08", "type": "build", "cs": "Mám tužku a sešit.", "a": ["J'ai un crayon et un cahier."]},
+        {"id": "fr-4.1-5-09", "type": "build", "cs": "Máš pero?", "a": ["{Tu as|As-tu|Est-ce que tu as} un stylo ?"]},
+        {"id": "fr-4.1-5-10", "type": "build", "cs": "Dělám domácí úkoly.", "a": ["Je fais mes devoirs."]},
+        {"id": "fr-4.1-5-11", "type": "build", "cs": "Kdy začíná vyučování?", "a": ["{Quand est-ce que les cours commencent|Les cours commencent quand|Quand commencent les cours} ?"]},
+        {"id": "fr-4.1-5-12", "type": "transform", "task_cs": "Změň osobu na nous", "fr": "Je finis à midi.", "a": ["{Nous finissons|On finit} à midi."]},
+        {"id": "fr-4.1-5-13", "type": "order", "cs": "Vybírám si knihu.", "a": ["Je choisis un livre"], "extra": ["choisit", "le"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-4.1-t-01", "lesson": "fr-4.1-1", "type": "cloze", "fr": "vendredi, samedi, ___", "a": ["dimanche"]},
+      {"id": "fr-4.1-t-02", "lesson": "fr-4.1-1", "type": "cloze", "fr": "Aujourd'hui, c'est lundi. Demain, c'est ___.", "a": ["mardi"]},
+      {"id": "fr-4.1-t-03", "lesson": "fr-4.1-1", "type": "build", "cs": "Zítra je středa.", "a": ["Demain, {c'est|on est|nous sommes} mercredi."]},
+      {"id": "fr-4.1-t-04", "lesson": "fr-4.1-1", "type": "build", "cs": "Každý čtvrtek mám angličtinu.", "a": ["Le jeudi, j'ai {anglais|cours d'anglais}.", "J'ai {anglais|cours d'anglais} le jeudi."]},
+      {"id": "fr-4.1-t-05", "lesson": "fr-4.1-2", "type": "cloze", "fr": "Il est dix heures et ___.", "a": ["demie"], "hint": "10:30"},
+      {"id": "fr-4.1-t-06", "lesson": "fr-4.1-2", "type": "cloze", "fr": "Il est deux heures ___ le quart.", "a": ["moins"], "hint": "1:45"},
+      {"id": "fr-4.1-t-07", "lesson": "fr-4.1-2", "type": "cloze", "fr": "Il est ___.", "a": ["minuit"], "hint": "0:00"},
+      {"id": "fr-4.1-t-08", "lesson": "fr-4.1-2", "type": "build", "cs": "Je čtvrt na tři.", "a": ["Il est deux heures et quart."], "hint": "2:15"},
+      {"id": "fr-4.1-t-09", "lesson": "fr-4.1-2", "type": "build", "cs": "Je deset minut po osmé.", "a": ["Il est huit heures dix."], "hint": "8:10"},
+      {"id": "fr-4.1-t-10", "lesson": "fr-4.1-2", "type": "build", "cs": "Je za deset minut šest.", "a": ["Il est six heures moins dix."], "hint": "5:50"},
+      {"id": "fr-4.1-t-11", "lesson": "fr-4.1-2", "type": "build", "cs": "V kolik hodin začíná film?", "a": ["{À quelle heure commence le film|Le film commence à quelle heure|À quelle heure est-ce que le film commence} ?"]},
+      {"id": "fr-4.1-t-12", "lesson": "fr-4.1-3", "type": "form", "verb": "aller", "tense": "present", "person": 1},
+      {"id": "fr-4.1-t-13", "lesson": "fr-4.1-3", "type": "form", "verb": "aller", "tense": "present", "person": 5},
+      {"id": "fr-4.1-t-14", "lesson": "fr-4.1-3", "type": "cloze", "fr": "Je vais ___ piscine.", "a": ["à la"]},
+      {"id": "fr-4.1-t-15", "lesson": "fr-4.1-3", "type": "cloze", "fr": "Ils vont ___ collège.", "a": ["au"]},
+      {"id": "fr-4.1-t-16", "lesson": "fr-4.1-3", "type": "cloze", "fr": "Tu vas ___ toilettes ?", "a": ["aux"]},
+      {"id": "fr-4.1-t-17", "lesson": "fr-4.1-3", "type": "build", "cs": "Jdeme do jídelny.", "a": ["{Nous allons|On va} à la cantine."]},
+      {"id": "fr-4.1-t-18", "lesson": "fr-4.1-3", "type": "build", "cs": "Kam jdeš?", "a": ["{Où vas-tu|Tu vas où|Où est-ce que tu vas} ?"]},
+      {"id": "fr-4.1-t-19", "lesson": "fr-4.1-4", "type": "build", "cs": "Můj oblíbený předmět je dějepis.", "a": ["Ma matière préférée, c'est l'histoire."]},
+      {"id": "fr-4.1-t-20", "lesson": "fr-4.1-4", "type": "build", "cs": "Matematika je na nic.", "a": ["{Les maths|Les mathématiques}, c'est nul."]},
+      {"id": "fr-4.1-t-21", "lesson": "fr-4.1-4", "type": "cloze", "fr": "La musique, c'est ___.", "a": ["génial"], "hint": "skvělé"},
+      {"id": "fr-4.1-t-22", "lesson": "fr-4.1-4", "type": "transform", "task_cs": "Převeď do záporu", "fr": "C'est intéressant.", "a": ["Ce n'est pas intéressant."]},
+      {"id": "fr-4.1-t-23", "lesson": "fr-4.1-5", "type": "form", "verb": "finir", "tense": "present", "person": 3},
+      {"id": "fr-4.1-t-24", "lesson": "fr-4.1-5", "type": "form", "verb": "finir", "tense": "present", "person": 2},
+      {"id": "fr-4.1-t-25", "lesson": "fr-4.1-5", "type": "cloze", "fr": "Nous ___ à huit heures.", "a": ["commençons"], "hint": "commencer"},
+      {"id": "fr-4.1-t-26", "lesson": "fr-4.1-5", "type": "build", "cs": "Vyučování končí v poledne.", "a": ["Les cours {finissent|se terminent} à midi."]},
+      {"id": "fr-4.1-t-27", "lesson": "fr-4.1-5", "type": "build", "cs": "Mám knihu a pero.", "a": ["J'ai un livre et un stylo."]}
+    ]
+  }
+}

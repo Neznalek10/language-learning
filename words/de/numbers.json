@@ -1,0 +1,22 @@
+{
+  "lang": "de",
+  "from": "cs",
+  "type": "topics",
+  "title": "Numbers",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {"q": "jedna", "a": "eins"},
+    {"q": "dva", "a": "zwei"},
+    {"q": "tři", "a": "drei"},
+    {"q": "čtyři", "a": "vier"},
+    {"q": "pět", "a": "fünf"},
+    {"q": "šest", "a": "sechs"},
+    {"q": "sedm", "a": "sieben"},
+    {"q": "osm", "a": "acht"},
+    {"q": "devět", "a": "neun"},
+    {"q": "deset", "a": "zehn"},
+    {"q": "dvacet", "a": "zwanzig"},
+    {"q": "sto", "a": ["hundert", "einhundert"]}
+  ]
+}

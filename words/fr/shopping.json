@@ -1,0 +1,224 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Shopping",
+  "unit": "4.2",
+  "level": null,
+  "words": [
+    {
+      "q": "lékárna",
+      "a": "pharmacie"
+    },
+    {
+      "q": "knihkupectví",
+      "a": "librairie"
+    },
+    {
+      "q": "papírnictví",
+      "a": "papeterie"
+    },
+    {
+      "q": "tisk",
+      "a": "presse"
+    },
+    {
+      "q": "trh",
+      "a": "marché"
+    },
+    {
+      "q": "tržiště",
+      "a": "marché"
+    },
+    {
+      "q": "květina",
+      "a": "fleur"
+    },
+    {
+      "q": "květinářství",
+      "a": "fleuriste"
+    },
+    {
+      "q": "elektro obchod",
+      "a": "électroménager"
+    },
+    {
+      "q": "pekařství",
+      "a": "boulangerie"
+    },
+    {
+      "q": "řeznictví",
+      "a": "boucherie"
+    },
+    {
+      "q": "cukrárna",
+      "a": "pâtisserie"
+    },
+    {
+      "q": "potraviny",
+      "a": "épicerie"
+    },
+    {
+      "q": "obchod s lahůdkami",
+      "a": "épicerie"
+    },
+    {
+      "q": "klenotnictví",
+      "a": "bijouterie"
+    },
+    {
+      "q": "léky",
+      "a": "médicaments"
+    },
+    {
+      "q": "peníze",
+      "a": "argent"
+    },
+    {
+      "q": "litr",
+      "a": "litre"
+    },
+    {
+      "q": "kytice",
+      "a": "bouquet"
+    },
+    {
+      "q": "plátek",
+      "a": "tranche"
+    },
+    {
+      "q": "konzerva",
+      "a": "boîte"
+    },
+    {
+      "q": "láhev",
+      "a": "bouteille"
+    },
+    {
+      "q": "cihla",
+      "a": "brique"
+    },
+    {
+      "q": "krabice mléka",
+      "a": "brique de lait"
+    },
+    {
+      "q": "sklenice marmelády",
+      "a": "pot de confiture"
+    },
+    {
+      "q": "tuba",
+      "a": "tube"
+    },
+    {
+      "q": "sáček",
+      "a": "sachet"
+    },
+    {
+      "q": "tabulka čokolády",
+      "a": "tablette de chocolat"
+    },
+    {
+      "q": "kousek",
+      "a": "morceau"
+    },
+    {
+      "q": "kousek sýra",
+      "a": "part de fromage"
+    },
+    {
+      "q": "kolečko salámu",
+      "a": "rondelle de saucisson"
+    },
+    {
+      "q": "sklenka vody",
+      "a": "verre d'eau"
+    },
+    {
+      "q": "šálek kávy",
+      "a": "tasse de café"
+    },
+    {
+      "q": "stroužek česneku",
+      "a": "gousse d'ail"
+    },
+    {
+      "q": "džbán",
+      "a": "carafe"
+    },
+    {
+      "q": "plechovka",
+      "a": "canette"
+    },
+    {
+      "q": "polštář",
+      "a": [
+        "coussin",
+        "oreiller"
+      ]
+    },
+    {
+      "q": "ovoce a zelenina",
+      "a": "fruits et légumes"
+    },
+    {
+      "q": "kolik to stojí?",
+      "a": [
+        "ça coûte combien ?",
+        "c'est combien ?",
+        "combien ça coûte ?"
+      ]
+    },
+    {
+      "q": "euro",
+      "a": "euro"
+    },
+    {
+      "q": "koruna",
+      "a": "couronne"
+    },
+    {
+      "q": "kilo",
+      "a": "kilo"
+    },
+    {
+      "q": "gram",
+      "a": "gramme"
+    },
+    {
+      "q": "balíček",
+      "a": "paquet"
+    },
+    {
+      "q": "supermarket",
+      "a": "supermarché"
+    },
+    {
+      "q": "obchod",
+      "a": "magasin"
+    },
+    {
+      "q": "pekař",
+      "a": "boulanger"
+    },
+    {
+      "q": "řezník",
+      "a": "boucher"
+    },
+    {
+      "q": "to je všechno",
+      "a": "c'est tout"
+    },
+    {
+      "q": "co si přejete?",
+      "a": "vous désirez ?"
+    },
+    {
+      "q": "levný",
+      "a": [
+        "pas cher",
+        "bon marché"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "adjectives",
+  "title": "Appearance",
+  "unit": "2.2",
+  "level": null,
+  "words": [
+    {
+      "q": "světlé vlasy",
+      "a": "blond"
+    },
+    {
+      "q": "tmavé vlasy",
+      "a": "brun"
+    },
+    {
+      "q": "zrzavé vlasy",
+      "a": "roux"
+    },
+    {
+      "q": "kaštanové vlasy",
+      "a": "châtain"
+    },
+    {
+      "q": "krátké",
+      "a": "court"
+    },
+    {
+      "q": "dlouhé",
+      "a": "long"
+    },
+    {
+      "q": "rovné",
+      "a": "raide"
+    },
+    {
+      "q": "vlnité",
+      "a": "ondulé"
+    },
+    {
+      "q": "kudrnaté",
+      "a": "frisé"
+    },
+    {
+      "q": "štíhlý",
+      "a": "mince"
+    },
+    {
+      "q": "tlustý",
+      "a": "gros"
+    },
+    {
+      "q": "velký",
+      "a": "grand"
+    },
+    {
+      "q": "malý",
+      "a": "petit"
+    },
+    {
+      "q": "mladý",
+      "a": "jeune"
+    },
+    {
+      "q": "starý",
+      "a": "vieux"
+    },
+    {
+      "q": "hezký",
+      "a": "joli"
+    },
+    {
+      "q": "krásný",
+      "a": "beau"
+    },
+    {
+      "q": "nový",
+      "a": "nouveau"
+    },
+    {
+      "q": "průměrný",
+      "a": "moyen"
+    },
+    {
+      "q": "ošklivý",
+      "a": [
+        "moche",
+        "laid"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1999 @@
+{
+  "schema": 1,
+  "lang": "fr",
+  "kinds": {
+    "message": "Message",
+    "description": "Description",
+    "opinion": "Opinion",
+    "story": "Story",
+    "letter": "Letter",
+    "dialogue": "Dialogue"
+  },
+  "topics": [
+    {
+      "id": "greet-friend",
+      "title": "Say hello to a new classmate",
+      "level": "A1",
+      "kind": "message",
+      "task": "A new student joined your class. Write a short message to say hello and get to know them.",
+      "must": [
+        "Greet them informally",
+        "Say your name",
+        "Ask their name",
+        "Say goodbye"
+      ],
+      "phrases": [
+        "Salut !",
+        "Je m'appelle ...",
+        "Comment tu t'appelles ?",
+        "À bientôt !"
+      ],
+      "grammar": [
+        "tu-vous",
+        "subject-pronouns"
+      ],
+      "unit": "1.1"
+    },
+    {
+      "id": "formal-hello",
+      "title": "Greet your teacher politely",
+      "level": "A1",
+      "kind": "dialogue",
+      "task": "Write a short exchange between you and a teacher you meet in the corridor. Be polite.",
+      "must": [
+        "Use vous with the teacher",
+        "Greet and ask how they are",
+        "Answer the question",
+        "Say thank you and goodbye"
+      ],
+      "phrases": [
+        "Bonjour, madame",
+        "Comment allez-vous ?",
+        "Très bien, merci",
+        "Au revoir !"
+      ],
+      "grammar": [
+        "tu-vous"
+      ],
+      "unit": "1.1"
+    },
+    {
+      "id": "who-is-who",
+      "title": "Who is who?",
+      "level": "A1",
+      "kind": "description",
+      "task": "Introduce three people from a photo (a friend, a teacher, a neighbour). Say who they are.",
+      "must": [
+        "Use c'est or ce sont at least twice",
+        "Give each person's name",
+        "Say how you know each of them"
+      ],
+      "phrases": [
+        "C'est mon ami ...",
+        "Voici ...",
+        "Elle s'appelle ..."
+      ],
+      "grammar": [
+        "c-est-il-est",
+        "subject-pronouns"
+      ],
+      "unit": "1.1"
+    },
+    {
+      "id": "intro-self",
+      "title": "Introduce yourself",
+      "level": "A1",
+      "kind": "description",
+      "task": "Introduce yourself to people you meet at an international school camp.",
+      "must": [
+        "Name and age",
+        "Where you live",
+        "Where you are from (country, nationality)",
+        "One thing you like"
+      ],
+      "phrases": [
+        "Je m'appelle ...",
+        "J'ai ... ans",
+        "J'habite à ...",
+        "Je suis tchèque"
+      ],
+      "grammar": [
+        "cities-countries",
+        "numbers-0-69",
+        "subject-pronouns"
+      ],
+      "unit": "1.2"
+    },
+    {
+      "id": "pen-pal",
+      "title": "First message to a pen pal",
+      "level": "A1",
+      "kind": "letter",
+      "task": "Write a first short email to a French pen pal. Tell them about yourself and ask two questions.",
+      "must": [
+        "Greeting at the start",
+        "Say your name, age and where you live",
+        "Ask two questions",
+        "Sign off"
+      ],
+      "phrases": [
+        "Cher / Chère ...",
+        "Je voudrais ...",
+        "Et toi ?",
+        "À bientôt"
+      ],
+      "grammar": [
+        "cities-countries",
+        "question-types"
+      ],
+      "unit": "1.2"
+    },
+    {
+      "id": "nationalities",
+      "title": "Where are they from?",
+      "level": "A1",
+      "kind": "description",
+      "task": "Write about four friends at a language camp. Say where each one is from and where they live.",
+      "must": [
+        "Four people",
+        "Nationality for each (with the correct feminine form)",
+        "Country or city where they live"
+      ],
+      "phrases": [
+        "Il est italien",
+        "Elle est allemande",
+        "Il habite à / en / au ..."
+      ],
+      "grammar": [
+        "cities-countries",
+        "adj-agreement"
+      ],
+      "unit": "1.2"
+    },
+    {
+      "id": "numbers-ages",
+      "title": "Ages and numbers",
+      "level": "A1",
+      "kind": "description",
+      "task": "Write about five people you know. Give their ages and one phone number or street number.",
+      "must": [
+        "Five people",
+        "Ages written in the sentence",
+        "One longer number written out in words"
+      ],
+      "phrases": [
+        "Il a ... ans",
+        "Mon numéro est ..."
+      ],
+      "grammar": [
+        "numbers-0-69",
+        "numbers-70-100"
+      ],
+      "unit": "1.2"
+    },
+    {
+      "id": "my-family",
+      "title": "My family",
+      "level": "A1",
+      "kind": "description",
+      "task": "Present your family to a new friend.",
+      "must": [
+        "Who is in your family",
+        "Names and ages of at least three people",
+        "Use mon, ma or mes correctly",
+        "Say if you have brothers or sisters"
+      ],
+      "phrases": [
+        "Dans ma famille, il y a ...",
+        "Mon père s'appelle ...",
+        "J'ai un frère / une sœur"
+      ],
+      "grammar": [
+        "possessive-determiners",
+        "article-indefinite"
+      ],
+      "unit": "2.1"
+    },
+    {
+      "id": "family-member",
+      "title": "One family member in detail",
+      "level": "A1",
+      "kind": "description",
+      "task": "Choose one family member and describe them in detail.",
+      "must": [
+        "Name, age and relation to you",
+        "Their job or school",
+        "Where they live",
+        "Something they like"
+      ],
+      "phrases": [
+        "Ma grand-mère habite à ...",
+        "Elle travaille comme ...",
+        "Elle aime ..."
+      ],
+      "grammar": [
+        "possessive-determiners",
+        "er-verbs"
+      ],
+      "unit": "2.1"
+    },
+    {
+      "id": "my-pet",
+      "title": "My pet (or the pet I want)",
+      "level": "A1",
+      "kind": "description",
+      "task": "Write about your pet, or the pet you would like to have.",
+      "must": [
+        "Kind of animal and its name",
+        "Its colour and size",
+        "One thing it does every day"
+      ],
+      "phrases": [
+        "Mon chien s'appelle ...",
+        "Il est ...",
+        "Il aime ..."
+      ],
+      "grammar": [
+        "adj-agreement",
+        "article-indefinite"
+      ],
+      "unit": "2.1"
+    },
+    {
+      "id": "family-photo",
+      "title": "A family photo",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe what you see in a family photo: who is there and what they are doing.",
+      "must": [
+        "At least four people",
+        "Who they are (relation to you)",
+        "What each one is doing"
+      ],
+      "phrases": [
+        "Sur la photo, il y a ...",
+        "À gauche ...",
+        "Il joue ... / Elle mange ..."
+      ],
+      "grammar": [
+        "il-y-a",
+        "possessive-determiners"
+      ],
+      "unit": "2.1"
+    },
+    {
+      "id": "describe-friend",
+      "title": "Describe a friend",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe your best friend to someone who has never met them.",
+      "must": [
+        "Appearance: hair and eyes",
+        "Character: three adjectives",
+        "Correct agreement of adjectives",
+        "One thing you do together"
+      ],
+      "phrases": [
+        "Il a les cheveux ...",
+        "Il est sympa",
+        "Elle est ...",
+        "Nous jouons ..."
+      ],
+      "grammar": [
+        "adj-agreement",
+        "adj-forms",
+        "adj-position"
+      ],
+      "unit": "2.2"
+    },
+    {
+      "id": "describe-self",
+      "title": "Describe yourself",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe yourself: how you look and what you are like.",
+      "must": [
+        "Appearance",
+        "Character",
+        "At least one negative sentence (je ne suis pas ...)",
+        "One thing you like to do"
+      ],
+      "phrases": [
+        "Je suis grand(e)",
+        "J'ai les yeux ...",
+        "Je ne suis pas ..."
+      ],
+      "grammar": [
+        "adj-agreement",
+        "ne-pas"
+      ],
+      "unit": "2.2"
+    },
+    {
+      "id": "famous-person",
+      "title": "A famous person",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe a famous person (an athlete, musician or actor) without saying the name, so a friend can guess.",
+      "must": [
+        "Appearance",
+        "Character or job",
+        "At least five sentences",
+        "No name in the text"
+      ],
+      "phrases": [
+        "Il / Elle est ...",
+        "Il a ...",
+        "Il joue ..."
+      ],
+      "grammar": [
+        "adj-agreement",
+        "c-est-il-est"
+      ],
+      "unit": "2.2"
+    },
+    {
+      "id": "im-not",
+      "title": "What I am not",
+      "level": "A1",
+      "kind": "message",
+      "task": "Write a funny text about what you are not and what you do not have.",
+      "must": [
+        "At least three sentences with ne ... pas",
+        "One sentence with pas de",
+        "One sentence with jamais"
+      ],
+      "phrases": [
+        "Je ne suis pas ...",
+        "Je n'ai pas de ...",
+        "Je ne ... jamais"
+      ],
+      "grammar": [
+        "ne-pas",
+        "article-negation",
+        "negation-words"
+      ],
+      "unit": "2.2"
+    },
+    {
+      "id": "my-hobbies",
+      "title": "My hobbies",
+      "level": "A1",
+      "kind": "description",
+      "task": "Tell a new friend about your free time.",
+      "must": [
+        "At least three hobbies",
+        "Say what you like and what you do not like",
+        "Use correct -er verb forms"
+      ],
+      "phrases": [
+        "J'aime ...",
+        "J'adore ...",
+        "Je déteste ...",
+        "Je joue au ..."
+      ],
+      "grammar": [
+        "er-verbs",
+        "avoir-faire-expressions"
+      ],
+      "unit": "2.3"
+    },
+    {
+      "id": "my-sport",
+      "title": "My sport",
+      "level": "A1",
+      "kind": "description",
+      "task": "Write about the sport you play: basketball, football or another.",
+      "must": [
+        "Which sport and which team or club",
+        "How often you train (days)",
+        "One thing you like about it",
+        "Use jouer à or faire de correctly"
+      ],
+      "phrases": [
+        "Je joue au basket",
+        "Je m'entraîne ... fois par semaine",
+        "le lundi et le jeudi"
+      ],
+      "grammar": [
+        "avoir-faire-expressions",
+        "frequency",
+        "er-verbs"
+      ],
+      "unit": "2.3"
+    },
+    {
+      "id": "my-music",
+      "title": "Music in my life",
+      "level": "A1",
+      "kind": "description",
+      "task": "Write about the music you listen to and the instruments you play.",
+      "must": [
+        "Favourite music or artist",
+        "Instrument (jouer de + instrument) or why you do not play one",
+        "When you listen to music"
+      ],
+      "phrases": [
+        "J'écoute ...",
+        "Je joue de la guitare",
+        "Ma chanson préférée est ..."
+      ],
+      "grammar": [
+        "avoir-faire-expressions",
+        "article-definite"
+      ],
+      "unit": "2.3"
+    },
+    {
+      "id": "questions-new-friend",
+      "title": "Questions for a new friend",
+      "level": "A1",
+      "kind": "message",
+      "task": "You are meeting a French exchange student tomorrow. Write the questions you want to ask.",
+      "must": [
+        "At least six questions",
+        "Use at least three different question forms (est-ce que, intonation, question word)",
+        "Questions about hobbies, family and school"
+      ],
+      "phrases": [
+        "Est-ce que tu ... ?",
+        "Où ... ?",
+        "Quand ... ?",
+        "Pourquoi ... ?"
+      ],
+      "grammar": [
+        "question-types",
+        "question-words"
+      ],
+      "unit": "2.3"
+    },
+    {
+      "id": "love-hate",
+      "title": "What I love and hate",
+      "level": "A1",
+      "kind": "opinion",
+      "task": "Write a text about what you love and what you hate.",
+      "must": [
+        "Three things you like with a reason",
+        "Three things you do not like with a reason",
+        "Use aimer, adorer, détester or préférer"
+      ],
+      "phrases": [
+        "J'adore ... parce que ...",
+        "Je déteste ...",
+        "Je préfère ..."
+      ],
+      "grammar": [
+        "er-verbs",
+        "article-definite"
+      ],
+      "unit": "2.3"
+    },
+    {
+      "id": "my-school",
+      "title": "My school",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe your school to a pen pal.",
+      "must": [
+        "Name or kind of school",
+        "Number of classes or students if you know",
+        "Two places in the school you like",
+        "Use il y a"
+      ],
+      "phrases": [
+        "Mon collège s'appelle ...",
+        "Il y a une cantine",
+        "J'aime la bibliothèque"
+      ],
+      "grammar": [
+        "il-y-a",
+        "article-definite"
+      ],
+      "unit": "3.1"
+    },
+    {
+      "id": "favourite-day",
+      "title": "My favourite school day",
+      "level": "A1",
+      "kind": "description",
+      "task": "Write about your favourite day of the school week.",
+      "must": [
+        "Which day (le lundi, le vendredi ...)",
+        "Subjects with times",
+        "Why you like it"
+      ],
+      "phrases": [
+        "Le mardi, j'ai ...",
+        "À huit heures ...",
+        "Mon jour préféré est ..."
+      ],
+      "grammar": [
+        "clock",
+        "time-prepositions"
+      ],
+      "unit": "3.1"
+    },
+    {
+      "id": "school-subjects",
+      "title": "My opinion about subjects",
+      "level": "A1",
+      "kind": "opinion",
+      "task": "Say what you think about your school subjects.",
+      "must": [
+        "At least four subjects",
+        "Opinion and reason for each",
+        "One subject you do not like"
+      ],
+      "phrases": [
+        "J'aime les maths parce que ...",
+        "C'est facile / difficile",
+        "Le prof est ..."
+      ],
+      "grammar": [
+        "article-definite",
+        "conjunctions"
+      ],
+      "unit": "3.1"
+    },
+    {
+      "id": "school-break",
+      "title": "At break time",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe what you and your friends do during the break.",
+      "must": [
+        "Where you go",
+        "What you eat or drink",
+        "What you do together (nous ...)"
+      ],
+      "phrases": [
+        "Pendant la récréation, nous ...",
+        "Je choisis ...",
+        "Nous allons à ..."
+      ],
+      "grammar": [
+        "ir-verbs",
+        "irregular-core"
+      ],
+      "unit": "3.1"
+    },
+    {
+      "id": "school-day",
+      "title": "My school day",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe a normal school day from morning to evening.",
+      "must": [
+        "At least five times (à 7 heures ...)",
+        "Reflexive verbs (se lever ...)",
+        "Linking words: d'abord, ensuite, enfin"
+      ],
+      "phrases": [
+        "D'abord, je me lève",
+        "Ensuite, ...",
+        "Enfin, je me couche"
+      ],
+      "grammar": [
+        "reflexive-verbs",
+        "clock"
+      ],
+      "unit": "3.2"
+    },
+    {
+      "id": "morning-routine",
+      "title": "My morning routine",
+      "level": "A1",
+      "kind": "description",
+      "task": "Write about what you do every morning before school.",
+      "must": [
+        "Times for at least three actions",
+        "Two reflexive verbs",
+        "One thing you take with you to school"
+      ],
+      "phrases": [
+        "Je me lève à ...",
+        "Je me lave",
+        "Je prends le bus"
+      ],
+      "grammar": [
+        "reflexive-verbs",
+        "irregular-core"
+      ],
+      "unit": "3.2"
+    },
+    {
+      "id": "my-weekend-routine",
+      "title": "My weekend routine",
+      "level": "A1",
+      "kind": "description",
+      "task": "How is your Saturday different from a school day?",
+      "must": [
+        "Say what time you get up",
+        "What you do in the morning and afternoon",
+        "One thing you never do on Saturdays (negation)"
+      ],
+      "phrases": [
+        "Le samedi, je ...",
+        "Je ne ... pas avant ...",
+        "L'après-midi, ..."
+      ],
+      "grammar": [
+        "reflexive-verbs",
+        "ne-pas"
+      ],
+      "unit": "3.2"
+    },
+    {
+      "id": "my-breakfast",
+      "title": "What I eat and drink",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe your breakfast and your favourite meal of the day.",
+      "must": [
+        "Food and drink at breakfast with partitive articles (du, de la, des)",
+        "Something you never eat",
+        "Your favourite meal"
+      ],
+      "phrases": [
+        "Je mange du pain",
+        "Je bois de l'eau",
+        "Je ne mange pas de ..."
+      ],
+      "grammar": [
+        "partitive",
+        "article-negation"
+      ],
+      "unit": "4.1"
+    },
+    {
+      "id": "food-likes",
+      "title": "Foods I like and do not like",
+      "level": "A1",
+      "kind": "opinion",
+      "task": "Write about food: what you like and what you cannot eat.",
+      "must": [
+        "Three foods you like (le, la, les)",
+        "Three foods you eat often (du, de la, des)",
+        "At least one sentence with pas de"
+      ],
+      "phrases": [
+        "J'adore le chocolat",
+        "Je mange souvent des pâtes",
+        "Je ne mange pas de poisson"
+      ],
+      "grammar": [
+        "partitive",
+        "article-definite",
+        "article-negation"
+      ],
+      "unit": "4.1"
+    },
+    {
+      "id": "restaurant-order",
+      "title": "At the restaurant",
+      "level": "A1",
+      "kind": "dialogue",
+      "task": "Write a dialogue between you and a waiter. You order a meal.",
+      "must": [
+        "Greeting and table",
+        "Order a drink and a main course (je voudrais ...)",
+        "Ask for the bill (l'addition)"
+      ],
+      "phrases": [
+        "Je voudrais ...",
+        "Vous avez ... ?",
+        "L'addition, s'il vous plaît"
+      ],
+      "grammar": [
+        "modals",
+        "partitive",
+        "tu-vous"
+      ],
+      "unit": "4.1"
+    },
+    {
+      "id": "favourite-meal",
+      "title": "My perfect dinner",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe the perfect dinner: what you eat and who cooks.",
+      "must": [
+        "Starter, main course and dessert",
+        "Who is there",
+        "Why it is your favourite"
+      ],
+      "phrases": [
+        "Comme entrée ...",
+        "Comme plat principal ...",
+        "Pour le dessert ..."
+      ],
+      "grammar": [
+        "partitive",
+        "quantities"
+      ],
+      "unit": "4.1"
+    },
+    {
+      "id": "party-shopping",
+      "title": "Shopping list for a party",
+      "level": "A1",
+      "kind": "message",
+      "task": "Write a message to a friend with what you need to buy for a party.",
+      "must": [
+        "At least six items with quantities (un kilo de, une bouteille de ...)",
+        "Where to buy each thing (à la boulangerie ...)",
+        "A polite request"
+      ],
+      "phrases": [
+        "Il faut ...",
+        "un paquet de ...",
+        "Peux-tu acheter ... ?"
+      ],
+      "grammar": [
+        "quantities",
+        "partitive",
+        "modals"
+      ],
+      "unit": "4.2"
+    },
+    {
+      "id": "at-the-bakery",
+      "title": "At the shop",
+      "level": "A1",
+      "kind": "dialogue",
+      "task": "Write a conversation in a bakery or a small shop.",
+      "must": [
+        "Greeting",
+        "Ask for at least three items",
+        "Ask the price and give the total",
+        "Say thank you"
+      ],
+      "phrases": [
+        "Bonjour, je voudrais ...",
+        "C'est combien ?",
+        "Ça fait ... euros"
+      ],
+      "grammar": [
+        "modals",
+        "numbers-70-100",
+        "quantities"
+      ],
+      "unit": "4.2"
+    },
+    {
+      "id": "choose-present",
+      "title": "A present for a friend",
+      "level": "A1",
+      "kind": "message",
+      "task": "Write a message to a friend about a present you want to buy for a family member.",
+      "must": [
+        "Who the present is for",
+        "What you want to buy and why",
+        "What you can spend (a price)",
+        "Ask for advice"
+      ],
+      "phrases": [
+        "Je voudrais acheter ...",
+        "Il / Elle aime ...",
+        "Qu'est-ce que tu penses ?"
+      ],
+      "grammar": [
+        "modals",
+        "possessive-determiners"
+      ],
+      "unit": "4.2"
+    },
+    {
+      "id": "market-prices",
+      "title": "At the market",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe a visit to a market: what you see and what things cost.",
+      "must": [
+        "Three products with prices",
+        "One thing you buy",
+        "Numbers written in words at least twice"
+      ],
+      "phrases": [
+        "Sur le marché, il y a ...",
+        "Les pommes coûtent ...",
+        "Je prends ..."
+      ],
+      "grammar": [
+        "numbers-70-100",
+        "il-y-a"
+      ],
+      "unit": "4.2"
+    },
+    {
+      "id": "my-room",
+      "title": "My room",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe your room to a friend who is visiting.",
+      "must": [
+        "Furniture and objects (il y a ...)",
+        "Where things are (sur, sous, à côté de)",
+        "Colours",
+        "What you do in your room"
+      ],
+      "phrases": [
+        "Dans ma chambre, il y a ...",
+        "Le lit est à côté de ...",
+        "Mon bureau est devant ..."
+      ],
+      "grammar": [
+        "il-y-a",
+        "place",
+        "colors"
+      ],
+      "unit": "4.3"
+    },
+    {
+      "id": "my-home",
+      "title": "My home",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe the place where you live.",
+      "must": [
+        "House or flat, floor",
+        "Rooms",
+        "Your favourite room and why"
+      ],
+      "phrases": [
+        "J'habite dans un appartement",
+        "Il y a trois chambres",
+        "Ma pièce préférée est ..."
+      ],
+      "grammar": [
+        "il-y-a",
+        "article-indefinite"
+      ],
+      "unit": "4.3"
+    },
+    {
+      "id": "chores",
+      "title": "Housework",
+      "level": "A1",
+      "kind": "message",
+      "task": "Write to a host family and say what you can do to help at home.",
+      "must": [
+        "At least four chores",
+        "How often you do them",
+        "One chore you do not like"
+      ],
+      "phrases": [
+        "Je range ma chambre",
+        "Je mets la table",
+        "Je ne ... jamais"
+      ],
+      "grammar": [
+        "irregular-more",
+        "frequency",
+        "ne-pas"
+      ],
+      "unit": "4.3"
+    },
+    {
+      "id": "describe-picture",
+      "title": "Where is everything?",
+      "level": "A1",
+      "kind": "description",
+      "task": "Describe a picture of a living room. Say where each object is.",
+      "must": [
+        "At least six objects",
+        "Prepositions of place",
+        "Il y a and il n'y a pas de"
+      ],
+      "phrases": [
+        "Il y a ... sur la table",
+        "Le chat est sous ...",
+        "Il n'y a pas de ..."
+      ],
+      "grammar": [
+        "place",
+        "il-y-a"
+      ],
+      "unit": "4.3"
+    },
+    {
+      "id": "my-town",
+      "title": "My town",
+      "level": "A1",
+      "kind": "description",
+      "task": "Present your town or village to a French visitor.",
+      "must": [
+        "Where it is and how big it is",
+        "At least four places in town",
+        "What visitors can do there"
+      ],
+      "phrases": [
+        "Ma ville est ...",
+        "Il y a un cinéma",
+        "On peut ..."
+      ],
+      "grammar": [
+        "il-y-a",
+        "on",
+        "place"
+      ],
+      "unit": "5.1"
+    },
+    {
+      "id": "directions",
+      "title": "Giving directions",
+      "level": "A1",
+      "kind": "dialogue",
+      "task": "A tourist asks you the way to the station. Write the dialogue.",
+      "must": [
+        "Polite question from the tourist",
+        "Directions with the imperative (tournez, continuez ...)",
+        "At least three landmarks"
+      ],
+      "phrases": [
+        "Excusez-moi, où est ... ?",
+        "Tournez à gauche",
+        "Continuez tout droit",
+        "C'est à côté de ..."
+      ],
+      "grammar": [
+        "imperative",
+        "place",
+        "a-de"
+      ],
+      "unit": "5.1"
+    },
+    {
+      "id": "how-i-travel",
+      "title": "How I get around",
+      "level": "A1",
+      "kind": "description",
+      "task": "Write how you go to school and to your friends, and how you get to other towns.",
+      "must": [
+        "Transport for at least three trips",
+        "Use en, à or par correctly",
+        "How long it takes"
+      ],
+      "phrases": [
+        "Je vais à l'école à pied",
+        "Je prends le bus",
+        "Ça prend dix minutes"
+      ],
+      "grammar": [
+        "transport",
+        "irregular-core"
+      ],
+      "unit": "5.1"
+    },
+    {
+      "id": "saturday-plans",
+      "title": "Plans for Saturday",
+      "level": "A1",
+      "kind": "message",
+      "task": "Write to a friend about what you are going to do on Saturday.",
+      "must": [
+        "At least four plans with aller + infinitive",
+        "Times",
+        "Invite your friend"
+      ],
+      "phrases": [
+        "Je vais ...",
+        "On va ...",
+        "Tu veux venir ?"
+      ],
+      "grammar": [
+        "futur-proche",
+        "modals"
+      ],
+      "unit": "5.1"
+    },
+    {
+      "id": "invite-city",
+      "title": "A day in the city",
+      "level": "A1",
+      "kind": "message",
+      "task": "Invite a friend to spend a day in town. Plan the day.",
+      "must": [
+        "Where to meet and at what time",
+        "At least three activities",
+        "An imperative sentence (viens, prends ...)"
+      ],
+      "phrases": [
+        "On se retrouve à ...",
+        "Viens à ...",
+        "Nous allons visiter ..."
+      ],
+      "grammar": [
+        "imperative",
+        "futur-proche"
+      ],
+      "unit": "5.1"
+    },
+    {
+      "id": "weather-report",
+      "title": "Weather today and tomorrow",
+      "level": "A1",
+      "kind": "description",
+      "task": "Write a short weather report for today, tomorrow and the weekend.",
+      "must": [
+        "Today's weather",
+        "Tomorrow's weather",
+        "Weekend (futur proche)",
+        "Temperature or season"
+      ],
+      "phrases": [
+        "Aujourd'hui, il fait ...",
+        "Demain, il va pleuvoir",
+        "Il y a du soleil"
+      ],
+      "grammar": [
+        "futur-proche",
+        "il-y-a"
+      ],
+      "unit": "5.2"
+    },
+    {
+      "id": "favourite-season",
+      "title": "My favourite season",
+      "level": "A1",
+      "kind": "opinion",
+      "task": "Write about your favourite season and why.",
+      "must": [
+        "Which season (en été, au printemps ...)",
+        "Weather in that season",
+        "What you do",
+        "Reasons"
+      ],
+      "phrases": [
+        "Ma saison préférée est ...",
+        "En hiver, il fait ...",
+        "parce que ..."
+      ],
+      "grammar": [
+        "conjunctions",
+        "present"
+      ],
+      "unit": "5.2"
+    },
+    {
+      "id": "my-birthday",
+      "title": "My birthday",
+      "level": "A1",
+      "kind": "description",
+      "task": "Write about your birthday: when it is and how you celebrate.",
+      "must": [
+        "Date written with the month",
+        "Age you will be",
+        "Who you invite",
+        "What you do"
+      ],
+      "phrases": [
+        "Mon anniversaire est le ...",
+        "J'invite ...",
+        "Nous allons ..."
+      ],
+      "grammar": [
+        "dates",
+        "futur-proche"
+      ],
+      "unit": "5.2"
+    },
+    {
+      "id": "weather-plans",
+      "title": "A plan for the weekend",
+      "level": "A1",
+      "kind": "message",
+      "task": "Plan the weekend for you and a friend depending on the weather.",
+      "must": [
+        "Plan A for good weather",
+        "Plan B for bad weather",
+        "Use s'il fait ... or s'il pleut ..."
+      ],
+      "phrases": [
+        "S'il fait beau, nous irons ...",
+        "S'il pleut, on reste ...",
+        "Qu'est-ce que tu préfères ?"
+      ],
+      "grammar": [
+        "futur-proche",
+        "conjunctions"
+      ],
+      "unit": "5.2"
+    },
+    {
+      "id": "new-clothes",
+      "title": "What I wear",
+      "level": "A2",
+      "kind": "description",
+      "task": "Describe the clothes you wear for school, for sport and for a party.",
+      "must": [
+        "Three situations",
+        "Clothes with colours and the correct adjective agreement",
+        "Your favourite item"
+      ],
+      "phrases": [
+        "Je porte ...",
+        "Un pantalon noir",
+        "Ma veste préférée est ..."
+      ],
+      "grammar": [
+        "colors",
+        "adj-position",
+        "adj-agreement"
+      ],
+      "unit": "6.1"
+    },
+    {
+      "id": "clothes-shop",
+      "title": "In the clothes shop",
+      "level": "A2",
+      "kind": "dialogue",
+      "task": "Write a conversation between a customer and a shop assistant.",
+      "must": [
+        "Size and colour",
+        "Try on and give an opinion",
+        "Price",
+        "Decision to buy or not (use le, la, les)"
+      ],
+      "phrases": [
+        "Je cherche ...",
+        "Quelle taille ?",
+        "Je le prends",
+        "C'est trop cher"
+      ],
+      "grammar": [
+        "direct-object",
+        "modals",
+        "quel"
+      ],
+      "unit": "6.1"
+    },
+    {
+      "id": "fashion-opinion",
+      "title": "Fashion: my opinion",
+      "level": "A2",
+      "kind": "opinion",
+      "task": "Write what you think about fashion and brands.",
+      "must": [
+        "Do you care about fashion?",
+        "At least one comparison (plus ... que, moins ... que)",
+        "Reasons with parce que"
+      ],
+      "phrases": [
+        "Pour moi, ...",
+        "À mon avis ...",
+        "C'est plus ... que ..."
+      ],
+      "grammar": [
+        "comparative",
+        "conjunctions"
+      ],
+      "unit": "6.1"
+    },
+    {
+      "id": "school-uniform",
+      "title": "Should students wear a uniform?",
+      "level": "A2",
+      "kind": "opinion",
+      "task": "Give your opinion about school uniform.",
+      "must": [
+        "Say yes or no clearly",
+        "Two arguments",
+        "One argument from the other side",
+        "A conclusion"
+      ],
+      "phrases": [
+        "Je pense que ...",
+        "D'un côté ..., de l'autre ...",
+        "Donc ..."
+      ],
+      "grammar": [
+        "conjunctions",
+        "complex-sentences"
+      ],
+      "unit": "6.1"
+    },
+    {
+      "id": "last-weekend",
+      "title": "What I did last weekend",
+      "level": "A2",
+      "kind": "story",
+      "task": "Tell a friend what you did last weekend.",
+      "must": [
+        "Passé composé with avoir and être correctly",
+        "At least five actions in order",
+        "Time words (samedi matin, ensuite ...)",
+        "How you felt"
+      ],
+      "phrases": [
+        "Samedi, j'ai ...",
+        "Je suis allé(e) ...",
+        "Ensuite, ...",
+        "C'était ..."
+      ],
+      "grammar": [
+        "passe-compose-avoir",
+        "passe-compose-etre",
+        "pc-agreement"
+      ],
+      "unit": "6.2"
+    },
+    {
+      "id": "match-report",
+      "title": "A match I played",
+      "level": "A2",
+      "kind": "story",
+      "task": "Write a report about a basketball or football match you played.",
+      "must": [
+        "Who you played against and where",
+        "What happened (at least five past actions)",
+        "The result",
+        "How you felt"
+      ],
+      "phrases": [
+        "Nous avons gagné / perdu",
+        "J'ai marqué un but",
+        "Le score était ..."
+      ],
+      "grammar": [
+        "passe-compose-avoir",
+        "participles"
+      ],
+      "unit": "6.2"
+    },
+    {
+      "id": "yesterday-message",
+      "title": "What happened yesterday",
+      "level": "A2",
+      "kind": "message",
+      "task": "Write to a friend who was ill yesterday and missed school. Tell them what happened.",
+      "must": [
+        "At least five things that happened",
+        "Past tense with correct auxiliaries",
+        "Homework news"
+      ],
+      "phrases": [
+        "Hier, ...",
+        "Le professeur a dit ...",
+        "Nous avons fait ..."
+      ],
+      "grammar": [
+        "passe-compose-avoir",
+        "passe-compose-etre"
+      ],
+      "unit": "6.2"
+    },
+    {
+      "id": "when-i-was-little",
+      "title": "When I was little",
+      "level": "A2",
+      "kind": "story",
+      "task": "Tell how your life was when you were little.",
+      "must": [
+        "Where you lived and what you looked like",
+        "At least four habits with the imparfait",
+        "One thing you did every weekend"
+      ],
+      "phrases": [
+        "Quand j'étais petit(e), ...",
+        "Tous les jours, je ...",
+        "Nous allions ..."
+      ],
+      "grammar": [
+        "imparfait",
+        "pc-vs-imparfait"
+      ],
+      "unit": "6.2"
+    },
+    {
+      "id": "holiday-postcard",
+      "title": "A postcard from my holidays",
+      "level": "A2",
+      "kind": "letter",
+      "task": "Write a postcard to your grandparents from your holiday.",
+      "must": [
+        "Where you are and with whom",
+        "The weather",
+        "Two things you did",
+        "One thing you will do tomorrow"
+      ],
+      "phrases": [
+        "Je suis à ...",
+        "Il fait beau",
+        "Hier, nous avons ...",
+        "Demain, nous allons ..."
+      ],
+      "grammar": [
+        "passe-compose-avoir",
+        "futur-proche"
+      ],
+      "unit": "7.1"
+    },
+    {
+      "id": "best-holiday",
+      "title": "My best holiday",
+      "level": "A2",
+      "kind": "story",
+      "task": "Tell about the best holiday you have ever had.",
+      "must": [
+        "Where and when",
+        "What it was like (imparfait)",
+        "What happened (passé composé)",
+        "Why it was the best"
+      ],
+      "phrases": [
+        "C'était en ...",
+        "Il faisait beau",
+        "Un jour, nous avons ..."
+      ],
+      "grammar": [
+        "pc-vs-imparfait",
+        "imparfait"
+      ],
+      "unit": "7.1"
+    },
+    {
+      "id": "dream-trip",
+      "title": "My dream trip",
+      "level": "A2",
+      "kind": "description",
+      "task": "Describe the trip you would like to take.",
+      "must": [
+        "Which country and city (correct preposition)",
+        "Who goes with you",
+        "What you will visit",
+        "How you will travel"
+      ],
+      "phrases": [
+        "Je voudrais aller en / au / aux ...",
+        "Nous visiterons ...",
+        "Nous prendrons l'avion"
+      ],
+      "grammar": [
+        "cities-countries",
+        "futur-simple",
+        "transport"
+      ],
+      "unit": "7.1"
+    },
+    {
+      "id": "book-hotel",
+      "title": "Booking a hotel",
+      "level": "A2",
+      "kind": "letter",
+      "task": "Write an email to a hotel to book a room.",
+      "must": [
+        "Formal greeting (vous)",
+        "Dates and number of people",
+        "Questions about breakfast or price",
+        "Formal ending"
+      ],
+      "phrases": [
+        "Je voudrais réserver ...",
+        "du ... au ...",
+        "Pourriez-vous me dire ... ?",
+        "Cordialement"
+      ],
+      "grammar": [
+        "tu-vous",
+        "dates",
+        "modals"
+      ],
+      "unit": "7.1"
+    },
+    {
+      "id": "at-the-doctor",
+      "title": "At the doctor",
+      "level": "A2",
+      "kind": "dialogue",
+      "task": "Write a dialogue at the doctor.",
+      "must": [
+        "Describe at least two symptoms (avoir mal à ...)",
+        "How long you have been ill",
+        "The doctor's advice"
+      ],
+      "phrases": [
+        "J'ai mal à la tête",
+        "Depuis deux jours",
+        "Vous devez ...",
+        "Il faut ..."
+      ],
+      "grammar": [
+        "avoir-faire-expressions",
+        "modals",
+        "a-de"
+      ],
+      "unit": "7.2"
+    },
+    {
+      "id": "healthy-life",
+      "title": "A healthy life",
+      "level": "A2",
+      "kind": "opinion",
+      "task": "Give advice on how to live healthily.",
+      "must": [
+        "At least four pieces of advice (il faut, tu dois, il ne faut pas)",
+        "Food, sport and sleep",
+        "Your own habits"
+      ],
+      "phrases": [
+        "Il faut manger ...",
+        "Tu dois dormir ...",
+        "Je fais du sport ..."
+      ],
+      "grammar": [
+        "modals",
+        "verb-infinitive",
+        "impersonal"
+      ],
+      "unit": "7.2"
+    },
+    {
+      "id": "absence-email",
+      "title": "An email to the teacher",
+      "level": "A2",
+      "kind": "letter",
+      "task": "You were ill and could not come to school. Write an email to your teacher.",
+      "must": [
+        "Formal greeting",
+        "Explain why you were absent (passé composé)",
+        "Ask about homework",
+        "Formal ending"
+      ],
+      "phrases": [
+        "Je n'ai pas pu venir parce que ...",
+        "Pourriez-vous me dire ... ?",
+        "Cordialement"
+      ],
+      "grammar": [
+        "passe-compose-avoir",
+        "tu-vous"
+      ],
+      "unit": "7.2"
+    },
+    {
+      "id": "sport-health",
+      "title": "Sport and me",
+      "level": "A2",
+      "kind": "description",
+      "task": "Explain why sport matters to you and how it changes your week.",
+      "must": [
+        "How often you train",
+        "What sport gives you",
+        "One injury or tired day",
+        "A goal for the season"
+      ],
+      "phrases": [
+        "Je m'entraîne ...",
+        "Ça me fait du bien",
+        "Cette saison, je veux ..."
+      ],
+      "grammar": [
+        "frequency",
+        "verb-infinitive",
+        "futur-proche"
+      ],
+      "unit": "7.2"
+    },
+    {
+      "id": "screen-time",
+      "title": "Screen time",
+      "level": "A2",
+      "kind": "opinion",
+      "task": "Write about how much time you spend on your phone and computer.",
+      "must": [
+        "How many hours a day",
+        "What you do on screens",
+        "Is it too much?",
+        "One rule you would like"
+      ],
+      "phrases": [
+        "Je passe ... heures",
+        "Je regarde ...",
+        "Je devrais ..."
+      ],
+      "grammar": [
+        "modals",
+        "quantities",
+        "verb-infinitive"
+      ],
+      "unit": "8.1"
+    },
+    {
+      "id": "favourite-game",
+      "title": "My favourite video game",
+      "level": "A2",
+      "kind": "description",
+      "task": "Describe a game you love (for example Minecraft) to someone who does not play.",
+      "must": [
+        "Name and kind of game",
+        "How it works",
+        "Who you play with",
+        "What you like and dislike"
+      ],
+      "phrases": [
+        "Dans ce jeu, il faut ...",
+        "Je joue avec mes amis",
+        "Ce que j'aime, c'est ..."
+      ],
+      "grammar": [
+        "relative-qui-que",
+        "verb-infinitive"
+      ],
+      "unit": "8.1"
+    },
+    {
+      "id": "social-media",
+      "title": "Social media: pros and cons",
+      "level": "A2",
+      "kind": "opinion",
+      "task": "Write about the good and bad sides of social media.",
+      "must": [
+        "Two advantages",
+        "Two disadvantages",
+        "Your opinion at the end",
+        "Connectors (mais, par contre, donc)"
+      ],
+      "phrases": [
+        "D'un côté ...",
+        "Par contre ...",
+        "Je pense que ..."
+      ],
+      "grammar": [
+        "conjunctions",
+        "complex-sentences"
+      ],
+      "unit": "8.1"
+    },
+    {
+      "id": "phone-rules",
+      "title": "Phone rules",
+      "level": "A2",
+      "kind": "message",
+      "task": "Write the rules for phones at school or at home.",
+      "must": [
+        "At least five rules",
+        "Use il est interdit de, il faut or on doit",
+        "Say why one rule is useful"
+      ],
+      "phrases": [
+        "Il est interdit de ...",
+        "On doit ...",
+        "Il ne faut pas ..."
+      ],
+      "grammar": [
+        "impersonal",
+        "modals",
+        "negation-words"
+      ],
+      "unit": "8.1"
+    },
+    {
+      "id": "online-friend",
+      "title": "A friend online",
+      "level": "A2",
+      "kind": "message",
+      "task": "Write a message to a friend you only know from a game or chat. Suggest meeting in a call.",
+      "must": [
+        "Say who you are and what you play",
+        "Suggest a time (futur proche or présent)",
+        "Ask a question",
+        "Be polite and friendly"
+      ],
+      "phrases": [
+        "On peut parler ...",
+        "Tu es libre ... ?",
+        "J'ai hâte de ..."
+      ],
+      "grammar": [
+        "question-types",
+        "futur-proche"
+      ],
+      "unit": "8.1"
+    },
+    {
+      "id": "celebration-in-my-country",
+      "title": "A celebration in my country",
+      "level": "A2",
+      "kind": "description",
+      "task": "Explain a holiday you celebrate (for example Christmas or Easter) to a French friend.",
+      "must": [
+        "When it happens",
+        "What people do and eat",
+        "What you like most about it"
+      ],
+      "phrases": [
+        "En République tchèque, on ...",
+        "Le 24 décembre, nous ...",
+        "On mange ..."
+      ],
+      "grammar": [
+        "on",
+        "partitive"
+      ],
+      "unit": "8.2"
+    },
+    {
+      "id": "party-invitation",
+      "title": "A party invitation",
+      "level": "A2",
+      "kind": "letter",
+      "task": "Write an invitation to your birthday party.",
+      "must": [
+        "Date, time and place",
+        "What you will do",
+        "What to bring",
+        "Ask for an answer"
+      ],
+      "phrases": [
+        "Je t'invite à ...",
+        "Peux-tu apporter ... ?",
+        "Réponds-moi avant ..."
+      ],
+      "grammar": [
+        "imperative",
+        "dates",
+        "clock"
+      ],
+      "unit": "8.2"
+    },
+    {
+      "id": "thank-you-note",
+      "title": "A thank you note",
+      "level": "A2",
+      "kind": "letter",
+      "task": "Write a thank you note for a present you received.",
+      "must": [
+        "Thank them",
+        "Say what the present is and what you like about it",
+        "Say what you will do with it"
+      ],
+      "phrases": [
+        "Merci beaucoup pour ...",
+        "Je l'adore",
+        "Je vais l'utiliser ..."
+      ],
+      "grammar": [
+        "direct-object",
+        "futur-proche"
+      ],
+      "unit": "8.2"
+    },
+    {
+      "id": "best-party",
+      "title": "The best party",
+      "level": "A2",
+      "kind": "story",
+      "task": "Tell about the best party you have ever been to.",
+      "must": [
+        "When and where",
+        "Who was there",
+        "What happened",
+        "What it was like"
+      ],
+      "phrases": [
+        "C'était ...",
+        "Il y avait ...",
+        "Nous avons dansé"
+      ],
+      "grammar": [
+        "pc-vs-imparfait",
+        "passe-compose-avoir"
+      ],
+      "unit": "8.2"
+    },
+    {
+      "id": "future-job",
+      "title": "My future job",
+      "level": "A2",
+      "kind": "description",
+      "task": "Write about the job you would like to do.",
+      "must": [
+        "Which job",
+        "Why you like it",
+        "What you need to study",
+        "Where you want to work"
+      ],
+      "phrases": [
+        "Plus tard, je voudrais être ...",
+        "Il faut étudier ...",
+        "Je travaillerai ..."
+      ],
+      "grammar": [
+        "conditionnel",
+        "futur-simple",
+        "modals"
+      ],
+      "unit": "9"
+    },
+    {
+      "id": "next-year",
+      "title": "Next year",
+      "level": "A2",
+      "kind": "story",
+      "task": "Write what will happen in your life next year.",
+      "must": [
+        "At least five predictions with the futur simple",
+        "School and sport",
+        "One thing you want to change"
+      ],
+      "phrases": [
+        "L'année prochaine, je serai ...",
+        "Je ferai ...",
+        "J'irai ..."
+      ],
+      "grammar": [
+        "futur-simple",
+        "irregular-more"
+      ],
+      "unit": "9"
+    },
+    {
+      "id": "what-i-would-like",
+      "title": "What I would like to do",
+      "level": "A2",
+      "kind": "description",
+      "task": "Write what you would like to do in your life.",
+      "must": [
+        "At least four wishes with the conditionnel",
+        "One place to visit",
+        "One skill to learn"
+      ],
+      "phrases": [
+        "Je voudrais ...",
+        "J'aimerais ...",
+        "Ce serait génial de ..."
+      ],
+      "grammar": [
+        "conditionnel",
+        "verb-infinitive"
+      ],
+      "unit": "9"
+    },
+    {
+      "id": "school-path",
+      "title": "Why I chose my school",
+      "level": "A2",
+      "kind": "description",
+      "task": "Explain why you chose your school and what you would like to learn there.",
+      "must": [
+        "Why you chose it",
+        "What you like there",
+        "Your plans for the next years",
+        "A connector (parce que, donc, mais)"
+      ],
+      "phrases": [
+        "J'ai choisi ce lycée parce que ...",
+        "Mon rêve est ..."
+      ],
+      "grammar": [
+        "passe-compose-avoir",
+        "conjunctions"
+      ],
+      "unit": "9"
+    },
+    {
+      "id": "later-school-start",
+      "title": "Should school start later?",
+      "level": "B1",
+      "kind": "opinion",
+      "task": "Argue for or against starting school at 9 o'clock.",
+      "must": [
+        "Clear position in the introduction",
+        "Three arguments with examples",
+        "One counter-argument and a reply",
+        "A conclusion"
+      ],
+      "phrases": [
+        "À mon avis, ...",
+        "Il est vrai que ... mais ...",
+        "En conclusion ..."
+      ],
+      "grammar": [
+        "subjonctif-basics",
+        "complex-sentences",
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "childhood-memory",
+      "title": "A childhood memory",
+      "level": "B1",
+      "kind": "story",
+      "task": "Tell a detailed memory from your childhood.",
+      "must": [
+        "Context in the imparfait",
+        "Events in the passé composé",
+        "At least one plus-que-parfait",
+        "Feelings"
+      ],
+      "phrases": [
+        "Ce jour-là, ...",
+        "Avant, ...",
+        "J'avais déjà ... quand ..."
+      ],
+      "grammar": [
+        "pc-vs-imparfait",
+        "plus-que-parfait"
+      ]
+    },
+    {
+      "id": "if-i-were-rich",
+      "title": "If I were rich",
+      "level": "B1",
+      "kind": "description",
+      "task": "Write what you would do if you won a lot of money.",
+      "must": [
+        "At least four si + imparfait + conditionnel sentences",
+        "A wish for yourself",
+        "A wish for others"
+      ],
+      "phrases": [
+        "Si j'avais ..., je ...",
+        "Je pourrais ...",
+        "Je donnerais ..."
+      ],
+      "grammar": [
+        "si-clauses",
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "job-application",
+      "title": "Applying for a summer job",
+      "level": "B1",
+      "kind": "letter",
+      "task": "Write a formal letter to apply for a summer job.",
+      "must": [
+        "Formal opening",
+        "Why you want the job",
+        "Your skills and experience",
+        "Availability",
+        "Formal closing"
+      ],
+      "phrases": [
+        "Je me permets de vous écrire ...",
+        "Je suis disponible ...",
+        "Veuillez agréer ..."
+      ],
+      "grammar": [
+        "tu-vous",
+        "conditionnel",
+        "relative-qui-que"
+      ]
+    },
+    {
+      "id": "film-review",
+      "title": "A film or series review",
+      "level": "B1",
+      "kind": "opinion",
+      "task": "Write a review of a film, series or book.",
+      "must": [
+        "Title and kind",
+        "Summary without spoiling",
+        "Your opinion with reasons",
+        "A recommendation"
+      ],
+      "phrases": [
+        "Ça raconte l'histoire de ...",
+        "Ce que j'ai aimé ...",
+        "Je le recommande"
+      ],
+      "grammar": [
+        "relative-qui-que",
+        "relative-ou-dont",
+        "complex-sentences"
+      ]
+    },
+    {
+      "id": "tech-future",
+      "title": "Technology in twenty years",
+      "level": "B1",
+      "kind": "opinion",
+      "task": "How will technology change life in twenty years?",
+      "must": [
+        "Three predictions (futur simple)",
+        "One risk",
+        "One chance",
+        "Your opinion"
+      ],
+      "phrases": [
+        "Dans vingt ans, ...",
+        "On pourra ...",
+        "Il est possible que ..."
+      ],
+      "grammar": [
+        "futur-simple",
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "mystery-story",
+      "title": "A mystery story",
+      "level": "B1",
+      "kind": "story",
+      "task": "Write the beginning of a short story with a mystery.",
+      "must": [
+        "Setting in the imparfait",
+        "Events in the passé composé",
+        "At least one plus-que-parfait",
+        "A cliffhanger"
+      ],
+      "phrases": [
+        "Il faisait nuit quand ...",
+        "Soudain, ...",
+        "Personne ne savait que ..."
+      ],
+      "grammar": [
+        "pc-vs-imparfait",
+        "plus-que-parfait"
+      ]
+    },
+    {
+      "id": "sport-compulsory",
+      "title": "Should competitive sport be compulsory?",
+      "level": "B1",
+      "kind": "opinion",
+      "task": "Argue whether competitive sport should be compulsory at school.",
+      "must": [
+        "Position",
+        "Three arguments",
+        "A counter-argument",
+        "Use of the subjonctif at least once (il faut que ...)",
+        "Conclusion"
+      ],
+      "phrases": [
+        "Il faut que ...",
+        "Bien que ...",
+        "Pourtant ..."
+      ],
+      "grammar": [
+        "subjonctif-basics",
+        "complex-sentences"
+      ]
+    },
+    {
+      "id": "person-who-changed-me",
+      "title": "A person who changed me",
+      "level": "B1",
+      "kind": "description",
+      "task": "Describe a person who influenced you.",
+      "must": [
+        "Who and how you met",
+        "What they are like",
+        "How they changed you",
+        "Use qui, que or dont at least twice"
+      ],
+      "phrases": [
+        "La personne qui m'a ...",
+        "Celle dont je parle ..."
+      ],
+      "grammar": [
+        "relative-qui-que",
+        "relative-ou-dont"
+      ]
+    },
+    {
+      "id": "reported-conversation",
+      "title": "Reporting a conversation",
+      "level": "B1",
+      "kind": "story",
+      "task": "Report a conversation you had with a teacher or a friend.",
+      "must": [
+        "Use reported speech (il m'a dit que ...)",
+        "At least four reported sentences",
+        "Tense changes where needed"
+      ],
+      "phrases": [
+        "Il m'a dit que ...",
+        "Elle m'a demandé si ...",
+        "Je lui ai répondu que ..."
+      ],
+      "grammar": [
+        "reported-speech",
+        "indirect-questions"
+      ]
+    }
+  ]
+}

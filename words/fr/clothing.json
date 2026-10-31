@@ -1,0 +1,245 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Clothing",
+  "unit": "6.1",
+  "level": null,
+  "words": [
+    {
+      "q": "tričko",
+      "a": "T-shirt"
+    },
+    {
+      "q": "mikina",
+      "a": "sweat-shirt"
+    },
+    {
+      "q": "džíny",
+      "a": "jean"
+    },
+    {
+      "q": "kraťasy",
+      "a": "short"
+    },
+    {
+      "q": "šaty",
+      "a": "robe"
+    },
+    {
+      "q": "svetr",
+      "a": "pull"
+    },
+    {
+      "q": "sukně",
+      "a": "jupe"
+    },
+    {
+      "q": "holínky",
+      "a": "bottes"
+    },
+    {
+      "q": "bunda",
+      "a": "blouson"
+    },
+    {
+      "q": "sako",
+      "a": "veste"
+    },
+    {
+      "q": "zimní bunda",
+      "a": "doudoune"
+    },
+    {
+      "q": "kabát",
+      "a": "manteau"
+    },
+    {
+      "q": "kalhoty",
+      "a": "pantalon"
+    },
+    {
+      "q": "košile",
+      "a": "chemise"
+    },
+    {
+      "q": "dámská košile",
+      "a": "chemisier"
+    },
+    {
+      "q": "tílko",
+      "a": "débardeur"
+    },
+    {
+      "q": "ponožky",
+      "a": "chaussettes"
+    },
+    {
+      "q": "boty",
+      "a": "chaussures"
+    },
+    {
+      "q": "kšiltovka",
+      "a": "casquette"
+    },
+    {
+      "q": "čepice",
+      "a": "bonnet"
+    },
+    {
+      "q": "klobouk",
+      "a": "chapeau"
+    },
+    {
+      "q": "oblek",
+      "a": "costume"
+    },
+    {
+      "q": "dámský kostým",
+      "a": "tailleur"
+    },
+    {
+      "q": "kravata",
+      "a": "cravate"
+    },
+    {
+      "q": "punčocháče",
+      "a": "collant"
+    },
+    {
+      "q": "tenisky",
+      "a": [
+        "baskets",
+        "tennis"
+      ]
+    },
+    {
+      "q": "kabelka",
+      "a": "sac à main"
+    },
+    {
+      "q": "oblečení",
+      "a": "vêtements"
+    },
+    {
+      "q": "spodní prádlo",
+      "a": "sous-vêtements"
+    },
+    {
+      "q": "podprsenka",
+      "a": "soutien-gorge"
+    },
+    {
+      "q": "podpatek",
+      "a": "talon"
+    },
+    {
+      "q": "brýle",
+      "a": "lunettes"
+    },
+    {
+      "q": "žabky",
+      "a": "tongs"
+    },
+    {
+      "q": "hodinky",
+      "a": "montre"
+    },
+    {
+      "q": "rukavice",
+      "a": "gants"
+    },
+    {
+      "q": "pásek",
+      "a": "ceinture"
+    },
+    {
+      "q": "šála",
+      "a": "écharpe"
+    },
+    {
+      "q": "náušnice",
+      "a": "boucle d'oreille"
+    },
+    {
+      "q": "kalhotky",
+      "a": "culotte"
+    },
+    {
+      "q": "plavky",
+      "a": "maillot de bain"
+    },
+    {
+      "q": "náhrdelník",
+      "a": "collier"
+    },
+    {
+      "q": "prsten",
+      "a": "bague"
+    },
+    {
+      "q": "náramek",
+      "a": "bracelet"
+    },
+    {
+      "q": "šperk",
+      "a": "bijou"
+    },
+    {
+      "q": "pánské plavky",
+      "a": "slip de bain"
+    },
+    {
+      "q": "legíny",
+      "a": "legging"
+    },
+    {
+      "q": "tepláky",
+      "a": "jogging"
+    },
+    {
+      "q": "potištěný",
+      "a": "imprimé"
+    },
+    {
+      "q": "velikost",
+      "a": "taille"
+    },
+    {
+      "q": "velikost bot",
+      "a": "pointure"
+    },
+    {
+      "q": "zkušební kabinka",
+      "a": "cabine d'essayage"
+    },
+    {
+      "q": "výprodej",
+      "a": "soldes"
+    },
+    {
+      "q": "móda",
+      "a": "mode"
+    },
+    {
+      "q": "módní",
+      "a": "à la mode"
+    },
+    {
+      "q": "pohodlný",
+      "a": "confortable"
+    },
+    {
+      "q": "elegantní",
+      "a": "élégant"
+    },
+    {
+      "q": "příliš velký",
+      "a": "trop grand"
+    },
+    {
+      "q": "to mi sluší",
+      "a": "ça me va bien"
+    }
+  ]
+}

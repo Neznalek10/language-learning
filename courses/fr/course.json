@@ -1,0 +1,537 @@
+{
+  "schema": 2,
+  "lang": "fr",
+  "title": "Francouzština A1 a A2",
+  "levels": {
+    "A1": {
+      "title": "A1 final test",
+      "subtitle": "Covers all 5 A1 units. Pass it (70%) to skip A1: every A1 lesson opens and A2 starts.",
+      "file": "a1-test.json"
+    }
+  },
+  "topics": {
+    "greetings": {
+      "title": "Pozdravy a zdvořilost",
+      "kind": "communication",
+      "cs": "Bonjour, salut, au revoir, ça va, merci, s'il te plaît."
+    },
+    "tu-vous": {
+      "title": "Tykání a vykání (tu / vous)",
+      "kind": "grammar",
+      "cs": "Komu říct tu a komu vous."
+    },
+    "pronouns": {
+      "title": "Osobní zájmena",
+      "kind": "grammar",
+      "cs": "je, tu, il, elle, on, nous, vous, ils, elles"
+    },
+    "etre": {
+      "title": "Être v přítomném čase",
+      "kind": "grammar",
+      "cs": "je suis, tu es, il est, nous sommes, vous êtes, ils sont"
+    },
+    "s-appeler": {
+      "title": "S'appeler (jmenovat se)",
+      "kind": "grammar",
+      "cs": "je m'appelle, tu t'appelles, nous nous appelons"
+    },
+    "introductions": {
+      "title": "Představení se",
+      "kind": "communication",
+      "cs": "Jméno, národnost, qui est-ce, c'est."
+    },
+    "numbers": {
+      "title": "Čísla",
+      "kind": "vocabulary",
+      "cs": "Od nuly do tisíce, ceny a věk."
+    },
+    "avoir": {
+      "title": "Avoir v přítomném čase",
+      "kind": "grammar",
+      "cs": "j'ai, tu as, il a, nous avons, vous avez, ils ont"
+    },
+    "age": {
+      "title": "Věk",
+      "kind": "communication",
+      "cs": "Quel âge as-tu ? J'ai quatorze ans."
+    },
+    "nationalities": {
+      "title": "Země a národnosti",
+      "kind": "vocabulary",
+      "cs": "la France, la République tchèque, allemand / allemande."
+    },
+    "places-prep": {
+      "title": "Předložky u měst a zemí",
+      "kind": "grammar",
+      "cs": "à Prague, en France, au Canada, aux États-Unis"
+    },
+    "venir": {
+      "title": "Venir a odkud jsi",
+      "kind": "grammar",
+      "cs": "je viens de Prague, d'Italie, du Canada"
+    },
+    "articles": {
+      "title": "Členy (un, une, le, la)",
+      "kind": "grammar",
+      "cs": "Rod podstatných jmen, určitý a neurčitý člen, množné číslo."
+    },
+    "possessives": {
+      "title": "Přivlastňovací zájmena",
+      "kind": "grammar",
+      "cs": "mon, ma, mes, ton, son, notre, votre, leur"
+    },
+    "family": {
+      "title": "Rodina a zvířata",
+      "kind": "vocabulary",
+      "cs": "Členové rodiny, rodinný stav, domácí zvířata."
+    },
+    "adjectives": {
+      "title": "Přídavná jména a barvy",
+      "kind": "grammar",
+      "cs": "Shoda v rodě a čísle, nepravidelné tvary, pořadí slov."
+    },
+    "describe": {
+      "title": "Popis osoby",
+      "kind": "communication",
+      "cs": "Vzhled a povaha, vlasy a oči."
+    },
+    "negation": {
+      "title": "Zápor",
+      "kind": "grammar",
+      "cs": "ne... pas, pas de, ne... jamais"
+    },
+    "er-verbs": {
+      "title": "Slovesa na -er",
+      "kind": "grammar",
+      "cs": "je joue, nous jouons, ils jouent"
+    },
+    "likes": {
+      "title": "Co mám rád",
+      "kind": "communication",
+      "cs": "aimer, adorer, préférer, détester + le, la, les"
+    },
+    "faire": {
+      "title": "Faire, jouer à, jouer de",
+      "kind": "grammar",
+      "cs": "faire du sport, jouer au foot, jouer de la batterie"
+    },
+    "questions": {
+      "title": "Otázky",
+      "kind": "grammar",
+      "cs": "est-ce que, inverze, où, quand, pourquoi, comment"
+    },
+    "hobbies": {
+      "title": "Sport a koníčky",
+      "kind": "vocabulary",
+      "cs": "Sporty, hudební nástroje, jak často."
+    },
+    "time": {
+      "title": "Dny a hodiny",
+      "kind": "communication",
+      "cs": "lundi, le lundi, quelle heure est-il ?"
+    },
+    "aller": {
+      "title": "Aller a à + le = au",
+      "kind": "grammar",
+      "cs": "je vais au collège, à la piscine, aux toilettes"
+    },
+    "ir-verbs": {
+      "title": "Slovesa na -ir",
+      "kind": "grammar",
+      "cs": "finir, choisir: nous finissons"
+    },
+    "school": {
+      "title": "Škola",
+      "kind": "vocabulary",
+      "cs": "Předměty, místa ve škole, školní věci, názory."
+    },
+    "reflexive": {
+      "title": "Zvratná slovesa",
+      "kind": "grammar",
+      "cs": "je me lève, tu te douches, ne... pas"
+    },
+    "prendre": {
+      "title": "Prendre a partir",
+      "kind": "grammar",
+      "cs": "je prends, ils prennent, je pars"
+    },
+    "daily": {
+      "title": "Můj den",
+      "kind": "communication",
+      "cs": "Denní režim, jídla, d'abord, ensuite, enfin."
+    },
+    "partitive": {
+      "title": "Dělivý člen",
+      "kind": "grammar",
+      "cs": "du pain, de la confiture, de l'eau, des pâtes"
+    },
+    "quantities": {
+      "title": "Množství",
+      "kind": "grammar",
+      "cs": "beaucoup de, un peu de, un kilo de, une bouteille de"
+    },
+    "food": {
+      "title": "Jídlo a pití",
+      "kind": "vocabulary",
+      "cs": "Snídaně, ovoce, zelenina, boire a manger."
+    },
+    "restaurant": {
+      "title": "V restauraci",
+      "kind": "communication",
+      "cs": "Je voudrais..., l'addition, j'ai faim."
+    },
+    "shopping": {
+      "title": "Nakupování",
+      "kind": "communication",
+      "cs": "Obchody, ceny, rozhovor v obchodě."
+    },
+    "vouloir-pouvoir": {
+      "title": "Vouloir a pouvoir",
+      "kind": "grammar",
+      "cs": "je veux, je peux, je voudrais"
+    },
+    "home": {
+      "title": "Bydlení",
+      "kind": "vocabulary",
+      "cs": "Místnosti, nábytek, patra, domácí práce."
+    },
+    "il-y-a": {
+      "title": "Il y a",
+      "kind": "grammar",
+      "cs": "il y a, il n'y a pas de, qu'est-ce qu'il y a ?"
+    },
+    "prepositions": {
+      "title": "Předložky místa",
+      "kind": "grammar",
+      "cs": "sur, sous, devant, derrière, à côté du"
+    },
+    "mettre": {
+      "title": "Mettre a domácí práce",
+      "kind": "grammar",
+      "cs": "je mets la table, je range ma chambre"
+    },
+    "city": {
+      "title": "Město a doprava",
+      "kind": "vocabulary",
+      "cs": "Místa ve městě, en bus, à pied."
+    },
+    "imperative": {
+      "title": "Rozkazovací způsob",
+      "kind": "grammar",
+      "cs": "tourne, tournons, tournez"
+    },
+    "futur-proche": {
+      "title": "Blízká budoucnost",
+      "kind": "grammar",
+      "cs": "je vais visiter, il va pleuvoir"
+    },
+    "weather": {
+      "title": "Počasí a roční období",
+      "kind": "communication",
+      "cs": "il fait beau, il pleut, en été, au printemps"
+    },
+    "dates": {
+      "title": "Měsíce a data",
+      "kind": "vocabulary",
+      "cs": "janvier, le premier mai, mon anniversaire"
+    },
+    "clothing": {
+      "title": "Oblečení a móda",
+      "kind": "vocabulary",
+      "cs": "le pull, la jupe, porter, mettre, la taille"
+    },
+    "demonstratives": {
+      "title": "Ukazovací zájmena",
+      "kind": "grammar",
+      "cs": "ce, cet, cette, ces, -ci, -là"
+    },
+    "comparative": {
+      "title": "Porovnávání",
+      "kind": "grammar",
+      "cs": "plus ... que, moins ... que, aussi ... que, meilleur"
+    },
+    "passe-compose": {
+      "title": "Minulý čas s avoir",
+      "kind": "grammar",
+      "cs": "j'ai joué, tu as fini, il a vu"
+    },
+    "past-time": {
+      "title": "Kdy to bylo?",
+      "kind": "communication",
+      "cs": "hier, samedi dernier, il y a deux jours"
+    },
+    "travel": {
+      "title": "Cestování a prázdniny",
+      "kind": "vocabulary",
+      "cs": "la plage, la montagne, la valise, à l'étranger"
+    },
+    "passe-compose-etre": {
+      "title": "Minulý čas s être",
+      "kind": "grammar",
+      "cs": "je suis allé(e), elle est partie, je me suis baigné(e)"
+    },
+    "body": {
+      "title": "Tělo",
+      "kind": "vocabulary",
+      "cs": "la tête, le bras, les yeux"
+    },
+    "health": {
+      "title": "Zdraví a nemoc",
+      "kind": "communication",
+      "cs": "j'ai mal à la tête, j'ai de la fièvre, chez le médecin"
+    },
+    "obligation": {
+      "title": "Povinnost a rady",
+      "kind": "grammar",
+      "cs": "il faut, il ne faut pas, devoir, tu devrais"
+    },
+    "media": {
+      "title": "Média a obrazovky",
+      "kind": "vocabulary",
+      "cs": "le portable, une série, les réseaux sociaux"
+    },
+    "object-pronouns": {
+      "title": "Zájmena le, la, les, lui, leur",
+      "kind": "grammar",
+      "cs": "je le regarde, je lui écris"
+    },
+    "celebrations": {
+      "title": "Svátky a oslavy",
+      "kind": "vocabulary",
+      "cs": "Noël, Joyeux anniversaire !, le 14 juillet"
+    },
+    "imparfait": {
+      "title": "Imperfektum",
+      "kind": "grammar",
+      "cs": "quand j'étais petit, il faisait beau, chaque année on fêtait"
+    },
+    "professions": {
+      "title": "Povolání",
+      "kind": "vocabulary",
+      "cs": "médecin, ingénieur, développeur, devenir"
+    },
+    "futur-simple": {
+      "title": "Budoucí čas",
+      "kind": "grammar",
+      "cs": "je travaillerai, je serai, j'irai"
+    }
+  },
+  "units": [
+    {
+      "id": 1,
+      "title": "Salut !",
+      "subtitle": "Pozdravy a představení se",
+      "level": "A1",
+      "parts": [
+        {
+          "id": "1.1",
+          "title": "Salut !",
+          "subtitle": "Pozdravy a představení",
+          "tenses": [
+            "present"
+          ],
+          "file": "01-salut.json"
+        },
+        {
+          "id": "1.2",
+          "title": "Je me présente",
+          "subtitle": "Věk, národnost a bydliště",
+          "tenses": [
+            "present"
+          ],
+          "file": "01-2-presente.json"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ma famille et mes loisirs",
+      "subtitle": "Rodina, vzhled, povaha a volný čas",
+      "level": "A1",
+      "parts": [
+        {
+          "id": "2.1",
+          "title": "Ma famille",
+          "subtitle": "Rodina a zvířata",
+          "file": "02-1-famille.json"
+        },
+        {
+          "id": "2.2",
+          "title": "Portrait",
+          "subtitle": "Vzhled a povaha",
+          "file": "02-2-portrait.json"
+        },
+        {
+          "id": "2.3",
+          "title": "Mes loisirs",
+          "subtitle": "Volný čas a sport",
+          "tenses": [
+            "present"
+          ],
+          "file": "03-loisirs.json"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Au collège",
+      "subtitle": "Škola a můj den",
+      "level": "A1",
+      "parts": [
+        {
+          "id": "3.1",
+          "title": "Au collège",
+          "subtitle": "Škola a čas",
+          "tenses": [
+            "present"
+          ],
+          "file": "04-1-college.json"
+        },
+        {
+          "id": "3.2",
+          "title": "Ma journée",
+          "subtitle": "Můj den",
+          "tenses": [
+            "present"
+          ],
+          "file": "04-2-journee.json"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "À table et chez moi",
+      "subtitle": "Jídlo, nakupování a bydlení",
+      "level": "A1",
+      "parts": [
+        {
+          "id": "4.1",
+          "title": "À table !",
+          "subtitle": "Jídlo a pití",
+          "tenses": [
+            "present"
+          ],
+          "file": "05-1-table.json"
+        },
+        {
+          "id": "4.2",
+          "title": "Faire les courses",
+          "subtitle": "Nakupování",
+          "tenses": [
+            "present"
+          ],
+          "file": "05-2-courses.json"
+        },
+        {
+          "id": "4.3",
+          "title": "Chez moi",
+          "subtitle": "Bydlení",
+          "file": "06-maison.json"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "En ville",
+      "subtitle": "Město, doprava, počasí a data",
+      "level": "A1",
+      "parts": [
+        {
+          "id": "5.1",
+          "title": "En ville",
+          "subtitle": "Město a doprava",
+          "tenses": [
+            "futur-proche",
+            "imperatif-present"
+          ],
+          "file": "07-ville.json"
+        },
+        {
+          "id": "5.2",
+          "title": "Quel temps fait-il ?",
+          "subtitle": "Počasí, roční období a data",
+          "file": "08-meteo.json"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "La mode et le week-end",
+      "subtitle": "Oblečení a minulý víkend",
+      "level": "A2",
+      "parts": [
+        {
+          "id": "6.1",
+          "title": "La mode",
+          "subtitle": "Oblečení",
+          "file": "a2-mode.json"
+        },
+        {
+          "id": "6.2",
+          "title": "Le week-end dernier",
+          "subtitle": "Minulý víkend",
+          "tenses": [
+            "passe-compose"
+          ],
+          "file": "a2-weekend.json"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Vacances et santé",
+      "subtitle": "Cestování, tělo a zdraví",
+      "level": "A2",
+      "parts": [
+        {
+          "id": "7.1",
+          "title": "En vacances",
+          "subtitle": "Prázdniny a cestování",
+          "tenses": [
+            "passe-compose"
+          ],
+          "file": "a2-vacances.json"
+        },
+        {
+          "id": "7.2",
+          "title": "La santé",
+          "subtitle": "Tělo a zdraví",
+          "file": "a2-sante.json"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Médias et fêtes",
+      "subtitle": "Obrazovky, svátky a vzpomínky",
+      "level": "A2",
+      "parts": [
+        {
+          "id": "8.1",
+          "title": "Écrans et médias",
+          "subtitle": "Média a technologie",
+          "file": "a2-medias.json"
+        },
+        {
+          "id": "8.2",
+          "title": "Les fêtes",
+          "subtitle": "Svátky a vzpomínky",
+          "tenses": [
+            "imparfait"
+          ],
+          "file": "a2-fetes.json"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Mon avenir",
+      "subtitle": "Povolání a budoucnost",
+      "level": "A2",
+      "tenses": [
+        "futur-simple"
+      ],
+      "file": "a2-avenir.json"
+    }
+  ]
+}

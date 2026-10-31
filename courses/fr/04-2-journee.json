@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "goals": [
+    "Časovat zvratná slovesa (se lever, s'habiller)",
+    "Tvořit zápor a otázky se zvratnými slovesy",
+    "Časovat prendre a partir",
+    "Popsat svůj den popořadě: d'abord, ensuite, enfin"
+  ],
+  "lessons": [
+    {
+      "id": "fr-4.2-1",
+      "title": "Je me lève",
+      "subtitle": "Zvratná slovesa",
+      "topics": ["reflexive", "daily"],
+      "words": ["verbs-reflexive#probudit se", "verbs-reflexive#vstát", "verbs-reflexive#mýt se", "verbs-reflexive#čistit kartáčem", "verbs-reflexive#sprchovat se", "verbs-reflexive#obléknout se", "verbs-reflexive#česat se", "verbs-reflexive#lehnout si", "verbs-reflexive#odpočívat"],
+      "learn": [
+        {"title": "Zvratná slovesa", "blocks": [
+          {"type": "text", "cs": "Zvratná slovesa mají navíc zájmeno, které se mění podle osoby: *me, te, se, nous, vous, se*. Před samohláskou se *me, te, se* zkracují na *m', t', s'*."},
+          {"type": "table", "verb": "se laver", "tense": "present"},
+          {"type": "tip", "title": "Česky jinak", "cs": "Ne každé české zvratné sloveso je zvratné i ve francouzštině a naopak: *se lever* znamená vstávat, česky bez „se“."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je ___ lave.", "a": ["me"]}}
+        ]},
+        {"title": "Se lever", "blocks": [
+          {"type": "text", "cs": "*Se lever* mění v kořeni *e* na *è*, když je koncovka nevyslovená: *je me lève*, ale *nous nous levons*."},
+          {"type": "table", "verb": "se lever", "tense": "present"},
+          {"type": "examples", "items": [
+            {"fr": "Je me réveille à six heures et demie.", "cs": "Probouzím se v půl sedmé."},
+            {"fr": "Je me douche et je m'habille.", "cs": "Osprchuju se a obleču se."},
+            {"fr": "Mon frère se lève à sept heures.", "cs": "Můj bratr vstává v sedm."},
+            {"fr": "Nous nous couchons à dix heures.", "cs": "Chodíme spát v deset."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Tu te ___ à quelle heure ?", "a": ["lèves"], "hint": "se lever"}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.2-1-f", "type": "form", "verb": "se lever", "tense": "present"},
+        {"id": "fr-4.2-1-01", "type": "cloze", "fr": "Je ___ réveille à six heures.", "a": ["me"]},
+        {"id": "fr-4.2-1-02", "type": "cloze", "fr": "Tu ___ douches le matin ?", "a": ["te"]},
+        {"id": "fr-4.2-1-03", "type": "cloze", "fr": "Il ___habille.", "a": ["s'"]},
+        {"id": "fr-4.2-1-04", "type": "cloze", "fr": "Nous ___ couchons tard.", "a": ["nous"]},
+        {"id": "fr-4.2-1-05", "type": "cloze", "fr": "Vous ___ lavez.", "a": ["vous"]},
+        {"id": "fr-4.2-1-06", "type": "cloze", "fr": "Ils se ___ les dents.", "a": ["brossent"], "hint": "se brosser"},
+        {"id": "fr-4.2-1-07", "type": "build", "cs": "Vstávám v sedm.", "a": ["Je me lève à sept heures."]},
+        {"id": "fr-4.2-1-08", "type": "build", "cs": "Sprchuju se a oblékám se.", "a": ["Je me douche et je m'habille."]},
+        {"id": "fr-4.2-1-09", "type": "build", "cs": "V kolik hodin si lehneš?", "a": ["{À quelle heure est-ce que tu te couches|Tu te couches à quelle heure|À quelle heure te couches-tu} ?"]},
+        {"id": "fr-4.2-1-10", "type": "build", "cs": "Můj bratr se probouzí pozdě.", "a": ["Mon frère se réveille tard."]},
+        {"id": "fr-4.2-1-11", "type": "transform", "task_cs": "Změň osobu na nous", "fr": "Je me lave.", "a": ["{Nous nous lavons|On se lave}."]},
+        {"id": "fr-4.2-1-12", "type": "transform", "task_cs": "Změň osobu na elle", "fr": "Je m'habille.", "a": ["Elle s'habille."]},
+        {"id": "fr-4.2-1-13", "type": "order", "cs": "Čistím si zuby.", "a": ["Je me brosse les dents"], "extra": ["te", "mes"]}
+      ]
+    },
+    {
+      "id": "fr-4.2-2",
+      "title": "Je ne me lève pas tôt",
+      "subtitle": "Zápor a otázky se zvratnými slovesy",
+      "topics": ["reflexive", "negation"],
+      "words": ["time#brzy", "time#pozdě", "time#ráno", "time#večer", "time#obvykle", "time#každý den", "verbs-reflexive#holit se", "verbs-reflexive#malovat se"],
+      "learn": [
+        {"title": "Zápor", "blocks": [
+          {"type": "text", "cs": "*Ne* stojí před zvratným zájmenem, *pas* za slovesem: *Je ne me lève pas tôt. Il ne se couche pas tard.* Před samohláskou je *n'*: *Elle ne s'habille pas.*"},
+          {"type": "examples", "items": [
+            {"fr": "Je ne me lève pas tôt le dimanche.", "cs": "V neděli nevstávám brzy."},
+            {"fr": "Mon père ne se rase pas.", "cs": "Můj táta se neholí."},
+            {"fr": "Tu ne te couches pas ?", "cs": "Nejdeš spát?"}
+          ]},
+          {"type": "check", "item": {"type": "transform", "task_cs": "Převeď do záporu", "fr": "Je me réveille tôt.", "a": ["Je ne me réveille pas tôt."]}}
+        ]},
+        {"title": "Otázky", "blocks": [
+          {"type": "text", "cs": "Ptát se můžeš všemi třemi způsoby: *Tu te lèves à quelle heure ?* / *À quelle heure est-ce que tu te lèves ?* V inverzi zůstává zájmeno před slovesem: *À quelle heure te lèves-tu ?*"}
+        ]},
+        {"title": "Brzy a pozdě", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["brzy", "tôt"], ["pozdě", "tard"], ["ráno", "le matin"], ["večer", "le soir"],
+            ["obvykle", "d'habitude"], ["každý den", "tous les jours"], ["v týdnu", "en semaine"], ["o víkendu", "le week-end"]
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.2-2-01", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Je me lève tôt.", "a": ["Je ne me lève pas tôt."]},
+        {"id": "fr-4.2-2-02", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il se douche le soir.", "a": ["Il ne se douche pas le soir."]},
+        {"id": "fr-4.2-2-03", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Nous nous couchons tard.", "a": ["{Nous ne nous couchons pas|On ne se couche pas} tard."]},
+        {"id": "fr-4.2-2-04", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Elle se maquille.", "a": ["Elle ne se maquille pas."]},
+        {"id": "fr-4.2-2-05", "type": "cloze", "fr": "Je ne ___ lève pas tôt.", "a": ["me"]},
+        {"id": "fr-4.2-2-06", "type": "cloze", "fr": "Il ne se rase ___.", "a": ["pas"]},
+        {"id": "fr-4.2-2-07", "type": "build", "cs": "Obvykle vstávám brzy.", "a": ["D'habitude, je me lève tôt."]},
+        {"id": "fr-4.2-2-08", "type": "build", "cs": "O víkendu vstávám pozdě.", "a": ["Le week-end, je me lève tard."]},
+        {"id": "fr-4.2-2-09", "type": "build", "cs": "Ráno se nesprchuju.", "a": ["Je ne me douche pas le matin.", "Le matin, je ne me douche pas."]},
+        {"id": "fr-4.2-2-10", "type": "build", "cs": "V kolik hodin vstáváš?", "a": ["{À quelle heure est-ce que tu te lèves|Tu te lèves à quelle heure|À quelle heure te lèves-tu} ?"]},
+        {"id": "fr-4.2-2-11", "type": "build", "cs": "V týdnu chodím spát v deset.", "a": ["En semaine, je me couche à dix heures."]},
+        {"id": "fr-4.2-2-12", "type": "order", "cs": "Můj táta se neholí.", "a": ["Mon père ne se rase pas", "Mon papa ne se rase pas"], "extra": ["me", "rasé"]}
+      ]
+    },
+    {
+      "id": "fr-4.2-3",
+      "title": "Je prends le petit-déjeuner",
+      "subtitle": "Prendre, partir a jídla během dne",
+      "topics": ["prendre", "daily"],
+      "words": ["verbs-irregular#vzít", "verbs-irregular#odejít, odjet", "time#snídaně", "time#oběd", "time#svačina", "time#večeře"],
+      "learn": [
+        {"title": "Sloveso prendre", "blocks": [
+          {"type": "table", "verb": "prendre", "tense": "present"},
+          {"type": "text", "cs": "*Prendre* (vzít) najdeš v mnoha spojeních: *prendre le petit-déjeuner* (snídat), *prendre une douche* (osprchovat se), *prendre le bus* (jet autobusem)."},
+          {"type": "tip", "title": "prennent", "cs": "Ve tvaru *ils prennent* se píšou **dvě n**, v *nous prenons* jen jedno."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je ___ le bus.", "a": ["prends"], "hint": "prendre"}}
+        ]},
+        {"title": "Jídla během dne", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["snídaně", "le petit-déjeuner"], ["oběd", "le déjeuner"], ["svačina (odpoledne)", "le goûter"], ["večeře", "le dîner"]
+          ]},
+          {"type": "text", "cs": "Slovesa *déjeuner* (obědvat) a *dîner* (večeřet) se časují pravidelně: *Je déjeune à la cantine. Nous dînons à sept heures.*"}
+        ]},
+        {"title": "Sloveso partir", "blocks": [
+          {"type": "table", "verb": "partir", "tense": "present"},
+          {"type": "text", "cs": "*Partir* (odejít, odjet) je nepravidelné: v jednotném čísle mizí *t* z kořene. *Je pars au collège à sept heures et demie.*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ à huit heures.", "a": ["partons"], "hint": "partir"}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.2-3-f", "type": "form", "verb": "prendre", "tense": "present"},
+        {"id": "fr-4.2-3-01", "type": "cloze", "fr": "Tu ___ ton petit-déjeuner ?", "a": ["prends"], "hint": "prendre"},
+        {"id": "fr-4.2-3-02", "type": "cloze", "fr": "Ils ___ le bus.", "a": ["prennent"], "hint": "prendre"},
+        {"id": "fr-4.2-3-03", "type": "cloze", "fr": "Vous ___ une douche ?", "a": ["prenez"], "hint": "prendre"},
+        {"id": "fr-4.2-3-04", "type": "cloze", "fr": "Je ___ à sept heures.", "a": ["pars"], "hint": "partir"},
+        {"id": "fr-4.2-3-05", "type": "cloze", "fr": "Elle ___ au collège.", "a": ["part"], "hint": "partir"},
+        {"id": "fr-4.2-3-06", "type": "cloze", "fr": "Ils ___ en vacances.", "a": ["partent"], "hint": "partir"},
+        {"id": "fr-4.2-3-07", "type": "build", "cs": "Snídám v sedm.", "a": ["Je prends le petit-déjeuner à sept heures."]},
+        {"id": "fr-4.2-3-08", "type": "build", "cs": "Obědvám ve školní jídelně.", "a": ["Je {déjeune|mange} à la cantine."]},
+        {"id": "fr-4.2-3-09", "type": "build", "cs": "Odcházím do školy v půl osmé.", "a": ["Je pars {à l'école|au collège} à sept heures et demie."]},
+        {"id": "fr-4.2-3-10", "type": "build", "cs": "Jezdíme autobusem.", "a": ["{Nous prenons|On prend} le bus."]},
+        {"id": "fr-4.2-3-11", "type": "build", "cs": "Večeříme v sedm večer.", "a": ["{Nous dînons|On dîne|Nous mangeons|On mange} à sept heures du soir."]},
+        {"id": "fr-4.2-3-12", "type": "order", "cs": "Ve čtyři mám svačinu.", "a": ["À quatre heures je prends le goûter"], "extra": ["prend", "dîner"]}
+      ]
+    },
+    {
+      "id": "fr-4.2-4",
+      "title": "D'abord, ensuite, enfin",
+      "subtitle": "Můj den popořadě",
+      "topics": ["daily"],
+      "words": ["time#nejdřív", "basics#potom", "time#nakonec", "time#obvykle"],
+      "learn": [
+        {"title": "Pořadí", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["nejdřív", "d'abord"], ["potom", "puis / ensuite"], ["po (něčem)", "après"], ["nakonec", "enfin"]
+          ]},
+          {"type": "text", "cs": "Když popisuješ svůj den, spoj věty těmito slovy: *D'abord, je me lève. Ensuite, je me douche. Puis, je prends le petit-déjeuner. Enfin, je pars au collège.* *Après* se pojí s podstatným jménem: *après le dîner, après l'école*."},
+          {"type": "check", "item": {"type": "build", "cs": "Nejdřív vstávám, potom se sprchuju.", "a": ["D'abord, je me lève, {puis|ensuite} je me douche."]}}
+        ]},
+        {"title": "Můj den", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "D'abord, je me réveille à six heures et demie.", "cs": "Nejdřív se probudím v půl sedmé."},
+            {"fr": "Ensuite, je me douche et je m'habille.", "cs": "Potom se osprchuju a obleču."},
+            {"fr": "Je prends le petit-déjeuner et je pars au collège.", "cs": "Nasnídám se a jdu do školy."},
+            {"fr": "Après les cours, je vais à l'entraînement de basket.", "cs": "Po vyučování jdu na basketbalový trénink."},
+            {"fr": "Le soir, je fais mes devoirs et je joue de la guitare.", "cs": "Večer dělám úkoly a hraju na kytaru."},
+            {"fr": "Enfin, je me couche à dix heures et demie.", "cs": "Nakonec jdu spát v půl jedenácté."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.2-4-01", "type": "cloze", "fr": "___, je me lève.", "a": ["D'abord"], "hint": "nejdřív"},
+        {"id": "fr-4.2-4-02", "type": "cloze", "fr": "___, je me couche.", "a": ["Enfin"], "hint": "nakonec"},
+        {"id": "fr-4.2-4-03", "type": "cloze", "fr": "___ le dîner, je lis.", "a": ["Après"], "hint": "po"},
+        {"id": "fr-4.2-4-04", "type": "cloze", "fr": "Je me douche, ___ je m'habille.", "a": ["puis", "ensuite"], "hint": "potom"},
+        {"id": "fr-4.2-4-05", "type": "build", "cs": "Po škole hraju basketbal.", "a": ["Après {l'école|le collège|les cours}, je {joue au basket|fais du basket}."]},
+        {"id": "fr-4.2-4-06", "type": "build", "cs": "Nejdřív snídám, potom jdu do školy.", "a": ["D'abord, je prends le petit-déjeuner, {puis|ensuite} je vais {à l'école|au collège}."]},
+        {"id": "fr-4.2-4-07", "type": "build", "cs": "Večer dělám úkoly.", "a": ["Le soir, je fais mes devoirs."]},
+        {"id": "fr-4.2-4-08", "type": "build", "cs": "Nakonec jdu spát v jedenáct.", "a": ["Enfin, je me couche à onze heures."]},
+        {"id": "fr-4.2-4-09", "type": "build", "cs": "Obvykle večeříme v sedm.", "a": ["D'habitude, {nous dînons|on dîne|nous mangeons|on mange} à sept heures."]},
+        {"id": "fr-4.2-4-10", "type": "transform", "task_cs": "Popiš den Marie (elle)", "fr": "Je me lève à sept heures.", "a": ["Elle se lève à sept heures."]},
+        {"id": "fr-4.2-4-11", "type": "transform", "task_cs": "Popiš den Marie (elle)", "fr": "Je prends le bus à huit heures.", "a": ["Elle prend le bus à huit heures."]},
+        {"id": "fr-4.2-4-12", "type": "order", "cs": "Po večeři hraju na kytaru.", "a": ["Après le dîner je joue de la guitare"], "extra": ["du", "dîne"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-4.2-t-01", "lesson": "fr-4.2-1", "type": "form", "verb": "se lever", "tense": "present", "person": 2},
+      {"id": "fr-4.2-t-02", "lesson": "fr-4.2-1", "type": "form", "verb": "s'habiller", "tense": "present", "person": 4},
+      {"id": "fr-4.2-t-03", "lesson": "fr-4.2-1", "type": "form", "verb": "se coucher", "tense": "present", "person": 3},
+      {"id": "fr-4.2-t-04", "lesson": "fr-4.2-1", "type": "cloze", "fr": "Je ___ douche le matin.", "a": ["me"]},
+      {"id": "fr-4.2-t-05", "lesson": "fr-4.2-1", "type": "cloze", "fr": "Tu te ___ à quelle heure ?", "a": ["couches"], "hint": "se coucher"},
+      {"id": "fr-4.2-t-06", "lesson": "fr-4.2-1", "type": "build", "cs": "Vstávám v šest.", "a": ["Je me lève à six heures."]},
+      {"id": "fr-4.2-t-07", "lesson": "fr-4.2-1", "type": "build", "cs": "Moje sestra se maluje.", "a": ["Ma sœur se maquille."]},
+      {"id": "fr-4.2-t-08", "lesson": "fr-4.2-1", "type": "transform", "task_cs": "Změň osobu na nous", "fr": "Je m'habille.", "a": ["{Nous nous habillons|On s'habille}."]},
+      {"id": "fr-4.2-t-09", "lesson": "fr-4.2-2", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Je me lève tard.", "a": ["Je ne me lève pas tard."]},
+      {"id": "fr-4.2-t-10", "lesson": "fr-4.2-2", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il se réveille tôt.", "a": ["Il ne se réveille pas tôt."]},
+      {"id": "fr-4.2-t-11", "lesson": "fr-4.2-2", "type": "build", "cs": "Nechodím spát pozdě.", "a": ["Je ne me couche pas tard."]},
+      {"id": "fr-4.2-t-12", "lesson": "fr-4.2-2", "type": "build", "cs": "V kolik hodin se probouzíš?", "a": ["{À quelle heure est-ce que tu te réveilles|Tu te réveilles à quelle heure|À quelle heure te réveilles-tu} ?"]},
+      {"id": "fr-4.2-t-13", "lesson": "fr-4.2-2", "type": "build", "cs": "O víkendu odpočívám.", "a": ["Le week-end, je me repose."]},
+      {"id": "fr-4.2-t-14", "lesson": "fr-4.2-3", "type": "form", "verb": "prendre", "tense": "present", "person": 5},
+      {"id": "fr-4.2-t-15", "lesson": "fr-4.2-3", "type": "form", "verb": "partir", "tense": "present", "person": 0},
+      {"id": "fr-4.2-t-16", "lesson": "fr-4.2-3", "type": "cloze", "fr": "Nous ___ le bus.", "a": ["prenons"], "hint": "prendre"},
+      {"id": "fr-4.2-t-17", "lesson": "fr-4.2-3", "type": "cloze", "fr": "Elles ___ à huit heures.", "a": ["partent"], "hint": "partir"},
+      {"id": "fr-4.2-t-18", "lesson": "fr-4.2-3", "type": "build", "cs": "Snídáme v půl osmé.", "a": ["{Nous prenons|On prend} le petit-déjeuner à sept heures et demie."]},
+      {"id": "fr-4.2-t-19", "lesson": "fr-4.2-3", "type": "build", "cs": "Odcházím do školy v osm.", "a": ["Je pars {à l'école|au collège} à huit heures."]},
+      {"id": "fr-4.2-t-20", "lesson": "fr-4.2-3", "type": "build", "cs": "Obědváš ve školní jídelně?", "a": ["{Tu déjeunes|Tu manges|Est-ce que tu déjeunes|Est-ce que tu manges} à la cantine ?"]},
+      {"id": "fr-4.2-t-21", "lesson": "fr-4.2-3", "type": "build", "cs": "Večeře je v sedm.", "a": ["Le dîner est à sept heures."]},
+      {"id": "fr-4.2-t-22", "lesson": "fr-4.2-4", "type": "build", "cs": "Nejdřív se osprchuju, potom se obleču.", "a": ["D'abord, je me douche, {puis|ensuite} je m'habille."]},
+      {"id": "fr-4.2-t-23", "lesson": "fr-4.2-4", "type": "build", "cs": "Po škole jdu na trénink.", "a": ["Après {l'école|le collège|les cours}, je vais à l'entraînement."]},
+      {"id": "fr-4.2-t-24", "lesson": "fr-4.2-4", "type": "cloze", "fr": "___, je me couche.", "a": ["Enfin"], "hint": "nakonec"},
+      {"id": "fr-4.2-t-25", "lesson": "fr-4.2-4", "type": "transform", "task_cs": "Popiš den Toma (il)", "fr": "Je pars au collège à huit heures.", "a": ["Il part au collège à huit heures."]}
+    ]
+  }
+}

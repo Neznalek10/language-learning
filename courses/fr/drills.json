@@ -1,0 +1,9 @@
+{
+  "schema": 1,
+  "lang": "fr",
+  "sets": [
+    {"id": "pronouns", "file": "drills/pronouns.json"},
+    {"id": "negation", "file": "drills/negation.json"},
+    {"id": "questions", "file": "drills/questions.json"}
+  ]
+}

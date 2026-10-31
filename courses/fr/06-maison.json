@@ -1,0 +1,220 @@
+{
+  "schema": 1,
+  "goals": [
+    "Popsat dům, byt a místnosti",
+    "Používat řadové číslovky u pater",
+    "Říct, co kde je: il y a, il n'y a pas de",
+    "Používat předložky místa a stahovat de + le = du",
+    "Mluvit o domácích pracích a časovat mettre"
+  ],
+  "lessons": [
+    {
+      "id": "fr-6-1",
+      "title": "Ma maison",
+      "subtitle": "Místnosti a patra",
+      "topics": ["home"],
+      "words": ["home#dům", "home#byt", "home#pokoj", "home#kuchyně", "home#obývák", "home#koupelna", "home#záchod", "home#jídelna (doma)", "home#zahrada", "home#patro", "home#přízemí", "home#schody", "home#balkon", "home#garáž"],
+      "learn": [
+        {"title": "Kde bydlíš?", "blocks": [
+          {"type": "text", "cs": "U domu a bytu se používá *dans*: *J'habite dans une maison.* (Bydlím v domě.) *J'habite dans un appartement.* (Bydlím v bytě.)"},
+          {"type": "table", "firstCs": true, "rows": [
+            ["kuchyně", "la cuisine"], ["obývák", "le salon"], ["koupelna", "la salle de bains"], ["záchod", "les toilettes"],
+            ["jídelna", "la salle à manger"], ["pokoj (ložnice)", "la chambre"], ["zahrada", "le jardin"], ["balkon", "le balcon"], ["garáž", "le garage"]
+          ]},
+          {"type": "tip", "title": "les toilettes", "cs": "*Les toilettes* jsou vždy v množném čísle, i když je záchod jen jeden."}
+        ]},
+        {"title": "Patra", "blocks": [
+          {"type": "text", "cs": "Přízemí je *le rez-de-chaussée*. Patra se počítají řadovými číslovkami: *au premier étage* (v 1. patře), *au deuxième étage* (ve 2. patře). Řadovou číslovku vytvoříš přidáním *-ième*: *deux → deuxième, trois → troisième*. Jen první je *premier / première*."},
+          {"type": "table", "firstCs": true, "rows": [["1.", "premier / première"], ["2.", "deuxième"], ["3.", "troisième"], ["4.", "quatrième"], ["5.", "cinquième"], ["9.", "neuvième"], ["10.", "dixième"]]},
+          {"type": "tip", "title": "Pravopis", "cs": "Koncové *-e* odpadá: *quatre → quatrième*. U pětky přibude *u*: *cinq → cinquième*. U devítky se *f* mění na *v*: *neuf → neuvième*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'habite au ___ étage.", "a": ["deuxième"], "hint": "2."}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-6-1-01", "type": "cloze", "fr": "J'habite ___ un appartement.", "a": ["dans"]},
+        {"id": "fr-6-1-02", "type": "cloze", "fr": "La cuisine est au ___.", "a": ["rez-de-chaussée"], "hint": "přízemí"},
+        {"id": "fr-6-1-03", "type": "cloze", "fr": "Ma chambre est au ___ étage.", "a": ["premier"], "hint": "1."},
+        {"id": "fr-6-1-04", "type": "cloze", "fr": "Nous habitons au ___ étage.", "a": ["troisième"], "hint": "3."},
+        {"id": "fr-6-1-05", "type": "cloze", "fr": "Ma grand-mère habite au ___ étage.", "a": ["cinquième"], "hint": "5."},
+        {"id": "fr-6-1-06", "type": "cloze", "fr": "Je mange dans la ___.", "a": ["cuisine"], "hint": "kuchyně"},
+        {"id": "fr-6-1-07", "type": "cloze", "fr": "Mon père regarde la télé dans le ___.", "a": ["salon"], "hint": "obývák"},
+        {"id": "fr-6-1-08", "type": "cloze", "fr": "Je me douche dans la ___.", "a": ["salle de bains"], "hint": "koupelna"},
+        {"id": "fr-6-1-09", "type": "build", "cs": "Bydlím v domě se zahradou.", "a": ["J'habite dans une maison avec un jardin."]},
+        {"id": "fr-6-1-10", "type": "build", "cs": "Náš byt je ve čtvrtém patře.", "a": ["Notre appartement est au quatrième étage."]},
+        {"id": "fr-6-1-11", "type": "build", "cs": "Kuchyně je velká.", "a": ["La cuisine est grande."]},
+        {"id": "fr-6-1-12", "type": "build", "cs": "Bydlíš v domě, nebo v bytě?", "a": ["{Tu habites|Est-ce que tu habites|Habites-tu} dans une maison ou dans un appartement ?"]},
+        {"id": "fr-6-1-13", "type": "order", "cs": "Můj pokoj je v prvním patře.", "a": ["Ma chambre est au premier étage"], "extra": ["première", "dans"]}
+      ]
+    },
+    {
+      "id": "fr-6-2",
+      "title": "Dans ma chambre, il y a...",
+      "subtitle": "Il y a a nábytek",
+      "topics": ["il-y-a", "home"],
+      "words": ["home#postel", "home#stůl", "home#židle", "home#psací stůl", "home#skříň", "home#police", "home#lampa", "home#koberec", "home#zrcadlo", "home#gauč", "home#okno", "home#dveře"],
+      "learn": [
+        {"title": "Il y a", "blocks": [
+          {"type": "text", "cs": "*Il y a* znamená „je, jsou, nachází se“ a nemění se podle čísla: *Dans ma chambre, il y a un lit.* (V mém pokoji je postel.) *Il y a deux fenêtres.* (Jsou tam dvě okna.)"},
+          {"type": "text", "cs": "Zápor je *il n'y a pas de*: *Il n'y a pas de télé.* (Není tam televize.) Otázka: *Est-ce qu'il y a un balcon ?* nebo *Qu'est-ce qu'il y a dans ta chambre ?*"},
+          {"type": "examples", "items": [
+            {"fr": "Dans le salon, il y a un canapé et une table.", "cs": "V obýváku je gauč a stůl."},
+            {"fr": "Il n'y a pas de garage.", "cs": "Není tam garáž."},
+            {"fr": "Qu'est-ce qu'il y a dans ta chambre ?", "cs": "Co je v tvém pokoji?"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Dans ma chambre, ___ un lit.", "a": ["il y a"], "hint": "je"}}
+        ]},
+        {"title": "Nábytek", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["postel", "le lit"], ["stůl", "la table"], ["židle", "la chaise"], ["psací stůl", "le bureau"], ["skříň", "l'armoire"],
+            ["police", "l'étagère"], ["lampa", "la lampe"], ["koberec", "le tapis"], ["zrcadlo", "le miroir"], ["gauč", "le canapé"],
+            ["okno", "la fenêtre"], ["dveře", "la porte"]
+          ]},
+          {"type": "tip", "title": "le bureau", "cs": "*Le bureau* je psací stůl i kancelář."}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-6-2-01", "type": "cloze", "fr": "Dans le salon, il y a ___ canapé.", "a": ["un"]},
+        {"id": "fr-6-2-02", "type": "cloze", "fr": "Il n'y a pas ___ télé.", "a": ["de"]},
+        {"id": "fr-6-2-03", "type": "cloze", "fr": "Est-ce qu'___ un garage ?", "a": ["il y a"], "hint": "je tam"},
+        {"id": "fr-6-2-04", "type": "cloze", "fr": "Dans la cuisine, il y a une table et quatre ___.", "a": ["chaises"], "hint": "židle"},
+        {"id": "fr-6-2-05", "type": "cloze", "fr": "Il y a deux ___.", "a": ["fenêtres"], "hint": "okna"},
+        {"id": "fr-6-2-06", "type": "cloze", "fr": "Dans ma chambre, il y a un ___ et un bureau.", "a": ["lit"], "hint": "postel"},
+        {"id": "fr-6-2-07", "type": "build", "cs": "V mém pokoji je postel, psací stůl a skříň.", "a": ["Dans ma chambre, il y a un lit, un bureau et une armoire."]},
+        {"id": "fr-6-2-08", "type": "build", "cs": "V obýváku není televize.", "a": ["Dans le salon, il n'y a pas de {télé|télévision}."]},
+        {"id": "fr-6-2-09", "type": "build", "cs": "Co je v tvém pokoji?", "a": ["{Qu'est-ce qu'il y a dans ta chambre|Il y a quoi dans ta chambre} ?"]},
+        {"id": "fr-6-2-10", "type": "build", "cs": "Je tam zrcadlo?", "a": ["{Est-ce qu'il y a un miroir|Il y a un miroir|Y a-t-il un miroir} ?"]},
+        {"id": "fr-6-2-11", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il y a un garage.", "a": ["Il n'y a pas de garage."]},
+        {"id": "fr-6-2-12", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il y a des chaises.", "a": ["Il n'y a pas de chaises."]},
+        {"id": "fr-6-2-13", "type": "order", "cs": "V kuchyni je velký stůl.", "a": ["Dans la cuisine il y a une grande table"], "extra": ["grand", "est"]}
+      ]
+    },
+    {
+      "id": "fr-6-3",
+      "title": "Où est le chat ?",
+      "subtitle": "Předložky místa",
+      "topics": ["prepositions"],
+      "words": ["basics#v (uvnitř)", "basics#na (nahoře)", "basics#pod", "basics#před", "basics#za (vzadu)", "basics#mezi", "basics#vedle", "basics#naproti", "basics#nalevo", "basics#napravo", "basics#poblíž", "basics#daleko"],
+      "learn": [
+        {"title": "Kde to je?", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["v", "dans"], ["na", "sur"], ["pod", "sous"], ["před", "devant"], ["za", "derrière"], ["mezi", "entre"],
+            ["vedle", "à côté de"], ["naproti", "en face de"], ["nalevo od", "à gauche de"], ["napravo od", "à droite de"],
+            ["blízko", "près de"], ["daleko od", "loin de"]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Le chat est ___ le lit.", "a": ["sous"], "hint": "pod"}}
+        ]},
+        {"title": "à côté du", "blocks": [
+          {"type": "text", "cs": "Předložky končící na *de* se stahují se členem *le* a *les*: *de + le = du*, *de + les = des*. *De la* a *de l'* zůstávají."},
+          {"type": "table", "rows": [
+            ["de + le", "à côté du lit"], ["de + la", "près de la porte"], ["de + l'", "en face de l'armoire"], ["de + les", "à côté des chaises"]
+          ]},
+          {"type": "examples", "items": [
+            {"fr": "La lampe est sur le bureau.", "cs": "Lampa je na psacím stole."},
+            {"fr": "Le tapis est devant le canapé.", "cs": "Koberec je před gaučem."},
+            {"fr": "J'habite près du collège.", "cs": "Bydlím blízko školy."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "La lampe est à côté ___ lit.", "a": ["du"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-6-3-01", "type": "cloze", "fr": "Le livre est ___ la table.", "a": ["sur"], "hint": "na"},
+        {"id": "fr-6-3-02", "type": "cloze", "fr": "Le chat est ___ le canapé.", "a": ["derrière"], "hint": "za"},
+        {"id": "fr-6-3-03", "type": "cloze", "fr": "Mes chaussures sont ___ le lit.", "a": ["sous"], "hint": "pod"},
+        {"id": "fr-6-3-04", "type": "cloze", "fr": "La chaise est ___ le bureau et l'armoire.", "a": ["entre"], "hint": "mezi"},
+        {"id": "fr-6-3-05", "type": "cloze", "fr": "Le miroir est en face ___ fenêtre.", "a": ["de la"]},
+        {"id": "fr-6-3-06", "type": "cloze", "fr": "Le tapis est près ___ canapé.", "a": ["du"]},
+        {"id": "fr-6-3-07", "type": "cloze", "fr": "Ma maison est loin ___école.", "a": ["de l'"]},
+        {"id": "fr-6-3-08", "type": "cloze", "fr": "Le bureau est à gauche ___ fenêtres.", "a": ["des"]},
+        {"id": "fr-6-3-09", "type": "build", "cs": "Kočka je na posteli.", "a": ["Le chat est sur le lit."]},
+        {"id": "fr-6-3-10", "type": "build", "cs": "Pes je pod stolem.", "a": ["Le chien est sous la table."]},
+        {"id": "fr-6-3-11", "type": "build", "cs": "Skříň je napravo od dveří.", "a": ["L'armoire est à droite de la porte."]},
+        {"id": "fr-6-3-12", "type": "build", "cs": "Bydlím blízko školy.", "a": ["J'habite près {de l'école|du collège}."]},
+        {"id": "fr-6-3-13", "type": "build", "cs": "Kde jsou moje boty? Pod postelí.", "a": ["Où sont mes chaussures ? Sous le lit."]},
+        {"id": "fr-6-3-14", "type": "order", "cs": "Gauč je naproti televizi.", "a": ["Le canapé est en face de la télé"], "extra": ["du", "dans"]}
+      ]
+    },
+    {
+      "id": "fr-6-4",
+      "title": "J'aide à la maison",
+      "subtitle": "Domácí práce a sloveso mettre",
+      "topics": ["mettre", "home"],
+      "words": ["verbs-irregular#položit, dát", "verbs#uklízet", "verbs#pomoci", "home#mýt nádobí", "home#prostřít stůl", "home#ustlat postel", "home#vysávat"],
+      "learn": [
+        {"title": "Sloveso mettre", "blocks": [
+          {"type": "table", "verb": "mettre", "tense": "present"},
+          {"type": "text", "cs": "*Mettre* znamená „dát, položit“, ale také „obléct si“: *Je mets le livre sur la table. Je mets un pull.*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je ___ la table.", "a": ["mets"], "hint": "mettre"}}
+        ]},
+        {"title": "Domácí práce", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["prostřít stůl", "mettre la table"],
+            ["umýt nádobí", "faire la vaisselle"],
+            ["ustlat postel", "faire son lit"],
+            ["uklidit si pokoj", "ranger sa chambre"],
+            ["vysávat", "passer l'aspirateur"],
+            ["vynést odpadky", "sortir la poubelle"],
+            ["pomáhat rodičům", "aider ses parents"]
+          ]},
+          {"type": "tip", "title": "mon lit, ta chambre", "cs": "Přivlastňovací zájmeno se mění podle osoby: *je fais mon lit, tu fais ton lit, il fait son lit; je range ma chambre*."},
+          {"type": "examples", "items": [
+            {"fr": "Le samedi, je range ma chambre.", "cs": "V sobotu si uklízím pokoj."},
+            {"fr": "Mon frère fait la vaisselle et moi, je mets la table.", "cs": "Můj bratr myje nádobí a já prostírám stůl."},
+            {"fr": "Tu aides tes parents ?", "cs": "Pomáháš rodičům?"}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-6-4-f", "type": "form", "verb": "mettre", "tense": "present"},
+        {"id": "fr-6-4-01", "type": "cloze", "fr": "Je ___ ma chambre.", "a": ["range"], "hint": "ranger"},
+        {"id": "fr-6-4-02", "type": "cloze", "fr": "Tu ___ la vaisselle ?", "a": ["fais"], "hint": "faire"},
+        {"id": "fr-6-4-03", "type": "cloze", "fr": "Il ___ la table.", "a": ["met"], "hint": "mettre"},
+        {"id": "fr-6-4-04", "type": "cloze", "fr": "Nous ___ nos parents.", "a": ["aidons"], "hint": "aider"},
+        {"id": "fr-6-4-05", "type": "cloze", "fr": "Elle passe ___.", "a": ["l'aspirateur"], "hint": "vysavač"},
+        {"id": "fr-6-4-06", "type": "cloze", "fr": "Je fais ___ lit.", "a": ["mon"], "hint": "můj"},
+        {"id": "fr-6-4-07", "type": "build", "cs": "Prostírám stůl.", "a": ["Je mets la table."]},
+        {"id": "fr-6-4-08", "type": "build", "cs": "Můj bratr myje nádobí.", "a": ["Mon frère fait la vaisselle."]},
+        {"id": "fr-6-4-09", "type": "build", "cs": "V sobotu si uklízím pokoj.", "a": ["{Samedi|Le samedi}, je range ma chambre."]},
+        {"id": "fr-6-4-10", "type": "build", "cs": "Pomáháš rodičům?", "a": ["{Tu aides|Est-ce que tu aides|Aides-tu} tes parents ?"]},
+        {"id": "fr-6-4-11", "type": "build", "cs": "Ustýlám si postel každý den.", "a": ["Je fais mon lit tous les jours."]},
+        {"id": "fr-6-4-12", "type": "transform", "task_cs": "Změň osobu na nous", "fr": "Je mets la table.", "a": ["{Nous mettons|On met} la table."]},
+        {"id": "fr-6-4-13", "type": "order", "cs": "Moje sestra vysává.", "a": ["Ma sœur passe l'aspirateur"], "extra": ["met", "fait"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-6-t-01", "lesson": "fr-6-1", "type": "cloze", "fr": "J'habite ___ une maison.", "a": ["dans"]},
+      {"id": "fr-6-t-02", "lesson": "fr-6-1", "type": "cloze", "fr": "Ma chambre est au ___ étage.", "a": ["deuxième"], "hint": "2."},
+      {"id": "fr-6-t-03", "lesson": "fr-6-1", "type": "cloze", "fr": "La ___ est au premier étage.", "a": ["salle de bains"], "hint": "koupelna"},
+      {"id": "fr-6-t-04", "lesson": "fr-6-1", "type": "build", "cs": "Bydlíme v bytě ve třetím patře.", "a": ["{Nous habitons|On habite} dans un appartement au troisième étage."]},
+      {"id": "fr-6-t-05", "lesson": "fr-6-1", "type": "build", "cs": "Kuchyně je malá, ale obývák je velký.", "a": ["La cuisine est petite, mais le salon est grand."]},
+      {"id": "fr-6-t-06", "lesson": "fr-6-2", "type": "cloze", "fr": "Dans ma chambre, ___ un bureau.", "a": ["il y a"], "hint": "je"},
+      {"id": "fr-6-t-07", "lesson": "fr-6-2", "type": "cloze", "fr": "Il n'y a pas ___ garage.", "a": ["de"]},
+      {"id": "fr-6-t-08", "lesson": "fr-6-2", "type": "build", "cs": "V mém pokoji je postel a dvě židle.", "a": ["Dans ma chambre, il y a un lit et deux chaises."]},
+      {"id": "fr-6-t-09", "lesson": "fr-6-2", "type": "build", "cs": "V koupelně není zrcadlo.", "a": ["Dans la salle de bains, il n'y a pas de miroir."]},
+      {"id": "fr-6-t-10", "lesson": "fr-6-2", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il y a une lampe.", "a": ["Il n'y a pas de lampe."]},
+      {"id": "fr-6-t-11", "lesson": "fr-6-2", "type": "build", "cs": "Co je v kuchyni?", "a": ["{Qu'est-ce qu'il y a dans la cuisine|Il y a quoi dans la cuisine} ?"]},
+      {"id": "fr-6-t-12", "lesson": "fr-6-3", "type": "cloze", "fr": "Le chat est ___ la chaise.", "a": ["sous"], "hint": "pod"},
+      {"id": "fr-6-t-13", "lesson": "fr-6-3", "type": "cloze", "fr": "Le livre est ___ le bureau.", "a": ["sur"], "hint": "na"},
+      {"id": "fr-6-t-14", "lesson": "fr-6-3", "type": "cloze", "fr": "La table est en face ___ fenêtre.", "a": ["de la"]},
+      {"id": "fr-6-t-15", "lesson": "fr-6-3", "type": "cloze", "fr": "Le lit est à côté ___armoire.", "a": ["de l'"]},
+      {"id": "fr-6-t-16", "lesson": "fr-6-3", "type": "cloze", "fr": "J'habite près ___ parc.", "a": ["du"]},
+      {"id": "fr-6-t-17", "lesson": "fr-6-3", "type": "build", "cs": "Pes je za gaučem.", "a": ["Le chien est derrière le canapé."]},
+      {"id": "fr-6-t-18", "lesson": "fr-6-3", "type": "build", "cs": "Moje kniha je pod postelí.", "a": ["Mon livre est sous le lit."]},
+      {"id": "fr-6-t-19", "lesson": "fr-6-3", "type": "build", "cs": "Bydlím daleko od školy.", "a": ["J'habite loin {de l'école|du collège}."]},
+      {"id": "fr-6-t-20", "lesson": "fr-6-4", "type": "form", "verb": "mettre", "tense": "present", "person": 2},
+      {"id": "fr-6-t-21", "lesson": "fr-6-4", "type": "form", "verb": "mettre", "tense": "present", "person": 5},
+      {"id": "fr-6-t-22", "lesson": "fr-6-4", "type": "form", "verb": "ranger", "tense": "present", "person": 3},
+      {"id": "fr-6-t-23", "lesson": "fr-6-4", "type": "build", "cs": "Myju nádobí a prostírám stůl.", "a": ["Je fais la vaisselle et je mets la table."]},
+      {"id": "fr-6-t-24", "lesson": "fr-6-4", "type": "build", "cs": "Uklízíš si pokoj?", "a": ["{Tu ranges|Est-ce que tu ranges|Ranges-tu} ta chambre ?"]},
+      {"id": "fr-6-t-25", "lesson": "fr-6-4", "type": "build", "cs": "Pomáhám rodičům.", "a": ["J'aide mes parents."]}
+    ]
+  }
+}

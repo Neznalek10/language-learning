@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "goals": [
+    "Popsat počasí: il fait, il pleut, il y a du vent",
+    "Používat roční období s en a au",
+    "Říct datum a kdy máš narozeniny",
+    "Říct předpověď počasí v blízké budoucnosti"
+  ],
+  "lessons": [
+    {
+      "id": "fr-8-1",
+      "title": "Il fait beau",
+      "subtitle": "Počasí",
+      "topics": ["weather"],
+      "words": ["weather#počasí", "weather#je hezky", "weather#je ošklivo", "weather#je chladno", "weather#prší", "weather#sněží", "weather#fouká vítr", "weather#svítí slunce", "weather#mírný (teplý)", "weather#stupeň", "weather#déšť", "weather#sníh", "weather#mrak", "weather#mlha", "weather#bouřka"],
+      "learn": [
+        {"title": "Jaké je počasí?", "blocks": [
+          {"type": "text", "cs": "*Quel temps fait-il ?* (Jaké je počasí?) O počasí se mluví neosobně: *Il fait beau.* (Je hezky.) Slovo *il* tu nic neznamená, stejně jako v *il est huit heures*."},
+          {"type": "table", "firstCs": true, "rows": [
+            ["Je hezky.", "Il fait beau."],
+            ["Je ošklivo.", "Il fait mauvais."],
+            ["Je teplo, horko.", "Il fait chaud."],
+            ["Je zima.", "Il fait froid."],
+            ["Je chladno.", "Il fait frais."],
+            ["Je příjemně (mírně).", "Il fait doux."],
+            ["Je 20 stupňů.", "Il fait vingt degrés."],
+            ["Je minus 5.", "Il fait moins cinq."]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Il ___ beau aujourd'hui.", "a": ["fait"]}}
+        ]},
+        {"title": "Prší, sněží", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["Prší.", "Il pleut."],
+            ["Sněží.", "Il neige."],
+            ["Mrzne.", "Il gèle."],
+            ["Svítí slunce.", "Il y a du soleil."],
+            ["Fouká vítr.", "Il y a du vent."],
+            ["Je zataženo.", "Il y a des nuages. / Le ciel est couvert."],
+            ["Je mlha.", "Il y a du brouillard."],
+            ["Je bouřka.", "Il y a de l'orage."]
+          ]},
+          {"type": "tip", "title": "il fait froid × j'ai froid", "cs": "*Il fait froid* = venku je zima. *J'ai froid* = je mi zima (tobě osobně)."},
+          {"type": "check", "item": {"type": "build", "cs": "Prší a fouká vítr.", "a": ["Il pleut et il y a du vent."]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-8-1-01", "type": "cloze", "fr": "Il ___ beau.", "a": ["fait"], "hint": "je hezky"},
+        {"id": "fr-8-1-02", "type": "cloze", "fr": "Il ___ en hiver.", "a": ["neige"], "hint": "sněží"},
+        {"id": "fr-8-1-03", "type": "cloze", "fr": "Il y a ___ soleil.", "a": ["du"]},
+        {"id": "fr-8-1-04", "type": "cloze", "fr": "Il y a ___ vent.", "a": ["du"]},
+        {"id": "fr-8-1-05", "type": "cloze", "fr": "Il fait vingt ___.", "a": ["degrés"], "hint": "stupňů"},
+        {"id": "fr-8-1-06", "type": "cloze", "fr": "Il ___ beaucoup en novembre.", "a": ["pleut"], "hint": "prší"},
+        {"id": "fr-8-1-07", "type": "cloze", "fr": "Il y a du ___.", "a": ["brouillard"], "hint": "mlha"},
+        {"id": "fr-8-1-08", "type": "build", "cs": "Dnes je hezky.", "a": ["Aujourd'hui, il fait beau.", "Il fait beau aujourd'hui."]},
+        {"id": "fr-8-1-09", "type": "build", "cs": "Je zima a sněží.", "a": ["Il fait froid et il neige."]},
+        {"id": "fr-8-1-10", "type": "build", "cs": "Jaké je počasí?", "a": ["{Quel temps fait-il|Il fait quel temps|Quel temps il fait} ?"]},
+        {"id": "fr-8-1-11", "type": "build", "cs": "Je třicet stupňů, je horko.", "a": ["Il fait trente degrés, il fait chaud."]},
+        {"id": "fr-8-1-12", "type": "build", "cs": "Je mi zima.", "a": ["J'ai froid."], "why": "Je mi zima = j'ai froid. Il fait froid = venku je zima."},
+        {"id": "fr-8-1-13", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il fait beau.", "a": ["Il ne fait pas beau."]},
+        {"id": "fr-8-1-14", "type": "order", "cs": "Svítí slunce, ale je chladno.", "a": ["Il y a du soleil mais il fait frais"], "extra": ["froid", "de"]}
+      ]
+    },
+    {
+      "id": "fr-8-2",
+      "title": "Les saisons",
+      "subtitle": "Roční období",
+      "topics": ["weather"],
+      "words": ["weather#jaro", "weather#léto", "weather#podzim", "weather#zima (roční období)", "sports#lyžování", "verbs#lyžovat", "verbs#plavat"],
+      "learn": [
+        {"title": "Roční období", "blocks": [
+          {"type": "table", "head": ["", "", "v ..."], "firstCs": true, "rows": [
+            ["jaro", "le printemps", "au printemps"],
+            ["léto", "l'été", "en été"],
+            ["podzim", "l'automne", "en automne"],
+            ["zima", "l'hiver", "en hiver"]
+          ]},
+          {"type": "text", "cs": "Všechna roční období jsou mužského rodu. „V“ se řekne *en*, jen u jara *au*: *au printemps*. Roční období je *la saison*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ printemps, il pleut souvent.", "a": ["Au"], "hint": "na jaře"}}
+        ]},
+        {"title": "Co děláš v létě?", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "En été, je nage et je fais du vélo.", "cs": "V létě plavu a jezdím na kole."},
+            {"fr": "En hiver, on fait du ski.", "cs": "V zimě lyžujeme."},
+            {"fr": "En automne, il pleut et il y a du vent.", "cs": "Na podzim prší a fouká vítr."},
+            {"fr": "Ma saison préférée, c'est l'été.", "cs": "Moje oblíbené roční období je léto."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-8-2-01", "type": "cloze", "fr": "___ été, il fait chaud.", "a": ["En"]},
+        {"id": "fr-8-2-02", "type": "cloze", "fr": "___ hiver, il neige.", "a": ["En"]},
+        {"id": "fr-8-2-03", "type": "cloze", "fr": "___ printemps, il fait doux.", "a": ["Au"]},
+        {"id": "fr-8-2-04", "type": "cloze", "fr": "___ automne, il pleut.", "a": ["En"]},
+        {"id": "fr-8-2-05", "type": "cloze", "fr": "Ma saison ___, c'est l'hiver.", "a": ["préférée"], "hint": "oblíbená"},
+        {"id": "fr-8-2-06", "type": "build", "cs": "V zimě lyžuju.", "a": ["En hiver, je {fais du ski|skie}."]},
+        {"id": "fr-8-2-07", "type": "build", "cs": "V létě plaveme.", "a": ["En été, {nous nageons|on nage}."]},
+        {"id": "fr-8-2-08", "type": "build", "cs": "Na jaře je příjemně.", "a": ["Au printemps, il fait doux."]},
+        {"id": "fr-8-2-09", "type": "build", "cs": "Moje oblíbené roční období je podzim.", "a": ["Ma saison préférée, c'est l'automne."]},
+        {"id": "fr-8-2-10", "type": "build", "cs": "Na podzim často prší.", "a": ["En automne, il pleut souvent."]},
+        {"id": "fr-8-2-11", "type": "order", "cs": "V létě jezdím na kole.", "a": ["En été je fais du vélo"], "extra": ["au", "de la"]}
+      ]
+    },
+    {
+      "id": "fr-8-3",
+      "title": "Les mois et la date",
+      "subtitle": "Měsíce, data a narozeniny",
+      "topics": ["dates"],
+      "words": ["time#leden", "time#únor", "time#březen", "time#duben", "time#květen", "time#červen", "time#červenec", "time#srpen", "time#září", "time#říjen", "time#listopad", "time#prosinec", "time#měsíc", "time#datum", "time#narozeniny", "time#první"],
+      "learn": [
+        {"title": "Měsíce", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["leden", "janvier"], ["únor", "février"], ["březen", "mars"], ["duben", "avril"], ["květen", "mai"], ["červen", "juin"],
+            ["červenec", "juillet"], ["srpen", "août"], ["září", "septembre"], ["říjen", "octobre"], ["listopad", "novembre"], ["prosinec", "décembre"]
+          ]},
+          {"type": "text", "cs": "Měsíce se píšou **malým písmenem**. „V měsíci“ se řekne *en*: *en janvier, en août*, nebo *au mois de janvier*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Noël est en ___.", "a": ["décembre"], "hint": "prosinec"}}
+        ]},
+        {"title": "Datum", "blocks": [
+          {"type": "text", "cs": "Datum se říká se členem *le* a **základní** číslovkou: *le deux mars, le quatorze juillet*. Jen první den v měsíci má řadovou číslovku: *le premier mai* (1. května)."},
+          {"type": "text", "cs": "Na datum se zeptáš *Quelle est la date aujourd'hui ?* nebo hovorově *On est le combien ?* (Kolikátého je?) Odpovíš *On est le vingt octobre.* nebo *Nous sommes le vingt octobre.*"},
+          {"type": "check", "item": {"type": "build", "cs": "Je prvního května.", "a": ["{On est|Nous sommes|C'est} le premier mai."]}}
+        ]},
+        {"title": "Narozeniny", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Mon anniversaire, c'est le cinq juin.", "cs": "Mám narozeniny pátého června."},
+            {"fr": "C'est quand, ton anniversaire ?", "cs": "Kdy máš narozeniny?"},
+            {"fr": "Joyeux anniversaire !", "cs": "Všechno nejlepší k narozeninám!"},
+            {"fr": "Le quatorze juillet, c'est la fête nationale française.", "cs": "Čtrnáctého července je francouzský státní svátek."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-8-3-01", "type": "cloze", "fr": "janvier, février, ___", "a": ["mars"]},
+        {"id": "fr-8-3-02", "type": "cloze", "fr": "juin, juillet, ___", "a": ["août"]},
+        {"id": "fr-8-3-03", "type": "cloze", "fr": "septembre, ___, novembre", "a": ["octobre"]},
+        {"id": "fr-8-3-04", "type": "cloze", "fr": "Mon anniversaire, c'est le ___ avril.", "a": ["premier"], "hint": "1."},
+        {"id": "fr-8-3-05", "type": "cloze", "fr": "Il fait chaud en ___.", "a": ["juillet"], "hint": "červenec"},
+        {"id": "fr-8-3-06", "type": "cloze", "fr": "On est le ___ mars.", "a": ["quinze"], "hint": "15."},
+        {"id": "fr-8-3-07", "type": "build", "cs": "Kolikátého je dnes?", "a": ["{Quelle est la date aujourd'hui|On est le combien aujourd'hui|On est le combien} ?"]},
+        {"id": "fr-8-3-08", "type": "build", "cs": "Mám narozeniny desátého listopadu.", "a": ["Mon anniversaire, c'est le dix novembre."]},
+        {"id": "fr-8-3-09", "type": "build", "cs": "Kdy máš narozeniny?", "a": ["{C'est quand, ton anniversaire|Quand est ton anniversaire|Ton anniversaire, c'est quand} ?"]},
+        {"id": "fr-8-3-10", "type": "build", "cs": "Všechno nejlepší k narozeninám!", "a": ["Joyeux anniversaire !"]},
+        {"id": "fr-8-3-11", "type": "build", "cs": "V srpnu jedeme k moři.", "a": ["En août, {nous allons|on va} à la mer."]},
+        {"id": "fr-8-3-12", "type": "order", "cs": "Dnes je dvacátého října.", "a": ["Aujourd'hui on est le vingt octobre"], "extra": ["vingtième", "en"]}
+      ]
+    },
+    {
+      "id": "fr-8-4",
+      "title": "La météo de demain",
+      "subtitle": "Předpověď počasí",
+      "topics": ["weather", "futur-proche"],
+      "words": ["weather#teplota", "weather#zataženo", "weather#zjasnění", "geography#sever", "geography#jih", "geography#východ", "geography#západ"],
+      "learn": [
+        {"title": "Předpověď", "blocks": [
+          {"type": "text", "cs": "V předpovědi počasí se často používá *futur proche*: *Demain, il va pleuvoir.* (Zítra bude pršet.) *Il va faire beau.* (Bude hezky.)"},
+          {"type": "table", "firstCs": true, "rows": [
+            ["Bude hezky.", "Il va faire beau."],
+            ["Bude pršet.", "Il va pleuvoir."],
+            ["Bude sněžit.", "Il va neiger."],
+            ["Bude foukat vítr.", "Il va y avoir du vent."],
+            ["Teploty budou mezi 10 a 15 stupni.", "Les températures vont être entre dix et quinze degrés."]
+          ]},
+          {"type": "tip", "title": "il va y avoir", "cs": "*Il y a* se v blízké budoucnosti mění na *il va y avoir*."},
+          {"type": "check", "item": {"type": "transform", "task_cs": "Převeď do futur proche", "fr": "Il pleut.", "a": ["Il va pleuvoir."]}}
+        ]},
+        {"title": "Počasí v zemi", "blocks": [
+          {"type": "text", "cs": "Světové strany: *le nord* (sever), *le sud* (jih), *l'est* (východ), *l'ouest* (západ). „Na severu“ je *dans le nord*."},
+          {"type": "examples", "items": [
+            {"fr": "Demain, dans le nord, il va pleuvoir.", "cs": "Zítra bude na severu pršet."},
+            {"fr": "Dans le sud, il va faire chaud et il va y avoir du soleil.", "cs": "Na jihu bude teplo a bude svítit slunce."},
+            {"fr": "Ce week-end, il va faire froid, alors on va faire du ski.", "cs": "O víkendu bude zima, tak budeme lyžovat."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-8-4-01", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Il fait beau.", "a": ["Il va faire beau."]},
+        {"id": "fr-8-4-02", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Il neige.", "a": ["Il va neiger."]},
+        {"id": "fr-8-4-03", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Il fait froid.", "a": ["Il va faire froid."]},
+        {"id": "fr-8-4-04", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Il y a du vent.", "a": ["Il va y avoir du vent."]},
+        {"id": "fr-8-4-05", "type": "cloze", "fr": "Demain, il ___ pleuvoir.", "a": ["va"]},
+        {"id": "fr-8-4-06", "type": "cloze", "fr": "Il va ___ chaud.", "a": ["faire"]},
+        {"id": "fr-8-4-07", "type": "cloze", "fr": "Il va y ___ du soleil.", "a": ["avoir"]},
+        {"id": "fr-8-4-08", "type": "build", "cs": "Zítra bude pršet.", "a": ["Demain, il va pleuvoir."]},
+        {"id": "fr-8-4-09", "type": "build", "cs": "O víkendu bude hezky.", "a": ["Ce week-end, il va faire beau."]},
+        {"id": "fr-8-4-10", "type": "build", "cs": "Na severu bude sněžit.", "a": ["Dans le nord, il va neiger."]},
+        {"id": "fr-8-4-11", "type": "build", "cs": "Bude dvacet pět stupňů.", "a": ["Il va faire vingt-cinq degrés."]},
+        {"id": "fr-8-4-12", "type": "build", "cs": "Bude zima, tak budeme lyžovat.", "a": ["Il va faire froid, alors {nous allons|on va} faire du ski."], "hint": "tak = alors"},
+        {"id": "fr-8-4-13", "type": "order", "cs": "Zítra nebude hezky.", "a": ["Demain il ne va pas faire beau"], "extra": ["fait", "de"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-8-t-01", "lesson": "fr-8-1", "type": "cloze", "fr": "Il ___ froid en hiver.", "a": ["fait"]},
+      {"id": "fr-8-t-02", "lesson": "fr-8-1", "type": "cloze", "fr": "Il ___ souvent en Angleterre.", "a": ["pleut"], "hint": "prší"},
+      {"id": "fr-8-t-03", "lesson": "fr-8-1", "type": "cloze", "fr": "Il y a ___ nuages.", "a": ["des"]},
+      {"id": "fr-8-t-04", "lesson": "fr-8-1", "type": "cloze", "fr": "Il fait moins ___ degrés.", "a": ["dix"], "hint": "10"},
+      {"id": "fr-8-t-05", "lesson": "fr-8-1", "type": "build", "cs": "Je ošklivo a prší.", "a": ["Il fait mauvais et il pleut."]},
+      {"id": "fr-8-t-06", "lesson": "fr-8-1", "type": "build", "cs": "Je chladno.", "a": ["Il fait frais."]},
+      {"id": "fr-8-t-07", "lesson": "fr-8-1", "type": "build", "cs": "Svítí slunce a je teplo.", "a": ["Il y a du soleil et il fait chaud."]},
+      {"id": "fr-8-t-08", "lesson": "fr-8-1", "type": "build", "cs": "Je mi horko.", "a": ["J'ai chaud."]},
+      {"id": "fr-8-t-09", "lesson": "fr-8-2", "type": "cloze", "fr": "___ hiver, je fais du ski.", "a": ["En"]},
+      {"id": "fr-8-t-10", "lesson": "fr-8-2", "type": "cloze", "fr": "___ printemps, il y a des fleurs.", "a": ["Au"]},
+      {"id": "fr-8-t-11", "lesson": "fr-8-2", "type": "build", "cs": "V létě je horko.", "a": ["En été, il fait chaud."]},
+      {"id": "fr-8-t-12", "lesson": "fr-8-2", "type": "build", "cs": "Moje oblíbené roční období je jaro.", "a": ["Ma saison préférée, c'est le printemps."]},
+      {"id": "fr-8-t-13", "lesson": "fr-8-2", "type": "build", "cs": "Na podzim fouká vítr.", "a": ["En automne, il y a du vent."]},
+      {"id": "fr-8-t-14", "lesson": "fr-8-3", "type": "cloze", "fr": "mars, avril, ___", "a": ["mai"]},
+      {"id": "fr-8-t-15", "lesson": "fr-8-3", "type": "cloze", "fr": "octobre, novembre, ___", "a": ["décembre"]},
+      {"id": "fr-8-t-16", "lesson": "fr-8-3", "type": "cloze", "fr": "Le ___ janvier, c'est le Nouvel An.", "a": ["premier"], "hint": "1."},
+      {"id": "fr-8-t-17", "lesson": "fr-8-3", "type": "build", "cs": "Mám narozeniny dvanáctého března.", "a": ["Mon anniversaire, c'est le douze mars."]},
+      {"id": "fr-8-t-18", "lesson": "fr-8-3", "type": "build", "cs": "Dnes je čtrnáctého července.", "a": ["Aujourd'hui, {on est|nous sommes|c'est} le quatorze juillet.", "{On est|Nous sommes|C'est} le quatorze juillet aujourd'hui."]},
+      {"id": "fr-8-t-19", "lesson": "fr-8-3", "type": "build", "cs": "V lednu sněží.", "a": ["En janvier, il neige.", "Il neige en janvier."]},
+      {"id": "fr-8-t-20", "lesson": "fr-8-3", "type": "build", "cs": "Kdy máš narozeniny? V květnu.", "a": ["{C'est quand, ton anniversaire|Quand est ton anniversaire|Ton anniversaire, c'est quand} ? En mai."]},
+      {"id": "fr-8-t-21", "lesson": "fr-8-4", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Il fait chaud.", "a": ["Il va faire chaud."]},
+      {"id": "fr-8-t-22", "lesson": "fr-8-4", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Il y a du soleil.", "a": ["Il va y avoir du soleil."]},
+      {"id": "fr-8-t-23", "lesson": "fr-8-4", "type": "build", "cs": "Zítra bude sněžit.", "a": ["Demain, il va neiger."]},
+      {"id": "fr-8-t-24", "lesson": "fr-8-4", "type": "build", "cs": "Zítra nebude pršet.", "a": ["Demain, il ne va pas pleuvoir."]},
+      {"id": "fr-8-t-25", "lesson": "fr-8-4", "type": "cloze", "fr": "Demain, il va ___ beau.", "a": ["faire"]}
+    ]
+  }
+}

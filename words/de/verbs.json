@@ -1,0 +1,29 @@
+{
+  "lang": "de",
+  "from": "cs",
+  "type": "verbs",
+  "title": "Verbs",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {"q": "být", "a": "sein"},
+    {"q": "mít", "a": "haben"},
+    {"q": "jít", "a": "gehen"},
+    {"q": "jet", "a": "fahren"},
+    {"q": "přijít", "a": "kommen"},
+    {"q": "dělat", "a": "machen"},
+    {"q": "říct", "a": "sagen"},
+    {"q": "mluvit", "a": "sprechen"},
+    {"q": "jíst", "a": "essen"},
+    {"q": "pít", "a": "trinken"},
+    {"q": "spát", "a": "schlafen"},
+    {"q": "bydlet", "a": "wohnen"},
+    {"q": "pracovat", "a": "arbeiten"},
+    {"q": "učit se", "a": "lernen"},
+    {"q": "vidět", "a": "sehen"},
+    {"q": "vědět", "a": "wissen"},
+    {"q": "chtít", "a": "wollen"},
+    {"q": "hrát", "a": "spielen"},
+    {"q": "číst", "a": "lesen"}
+  ]
+}

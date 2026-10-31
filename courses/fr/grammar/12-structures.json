@@ -1,0 +1,3030 @@
+{
+  "articles": [
+    {
+      "id": "avoir-expressions",
+      "title": "Expressions with avoir: faim, peur, besoin, envie, raison",
+      "fr": "les expressions avec avoir",
+      "level": "A1",
+      "keywords": [
+        "avoir faim",
+        "avoir soif",
+        "avoir peur",
+        "avoir besoin de",
+        "avoir envie de",
+        "avoir raison",
+        "avoir tort",
+        "avoir de la chance",
+        "avoir l'air",
+        "avoir mal à",
+        "avoir honte",
+        "avoir chaud",
+        "avoir froid",
+        "avoir sommeil",
+        "avoir l'habitude de",
+        "avoir du mal à",
+        "avoir lieu",
+        "avoir ans"
+      ],
+      "topics": [],
+      "see": [
+        "avoir-faire-expressions",
+        "faire-expressions",
+        "verbs-a-de-inf"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French says many things with **avoir** where English and Czech use *to be*: *I'm hungry* = *j'ai faim* (I have hunger). To intensify use **très** (*j'ai très faim, très froid*), never *beaucoup*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "expression",
+                "meaning",
+                "example"
+              ],
+              "rows": [
+                [
+                  "avoir faim / soif",
+                  "to be hungry / thirsty",
+                  "J'ai faim."
+                ],
+                [
+                  "avoir chaud / froid",
+                  "to be hot / cold (person)",
+                  "Il a froid."
+                ],
+                [
+                  "avoir sommeil",
+                  "to be sleepy",
+                  "Elle a sommeil."
+                ],
+                [
+                  "avoir peur (de)",
+                  "to be afraid (of)",
+                  "J'ai peur des chiens."
+                ],
+                [
+                  "avoir honte (de)",
+                  "to be ashamed (of)",
+                  "Il a honte de lui."
+                ],
+                [
+                  "avoir raison / tort",
+                  "to be right / wrong",
+                  "Tu as raison."
+                ],
+                [
+                  "avoir de la chance",
+                  "to be lucky",
+                  "Elle a de la chance."
+                ],
+                [
+                  "avoir mal (à)",
+                  "to hurt, have pain",
+                  "J'ai mal à la tête."
+                ],
+                [
+                  "avoir besoin de",
+                  "to need",
+                  "J'ai besoin de repos."
+                ],
+                [
+                  "avoir envie de",
+                  "to feel like",
+                  "J'ai envie de glace."
+                ],
+                [
+                  "avoir l'air + adjective",
+                  "to seem, look",
+                  "Elle a l'air fatiguée."
+                ],
+                [
+                  "avoir l'habitude de",
+                  "to be used to",
+                  "J'ai l'habitude de courir."
+                ],
+                [
+                  "avoir du mal à",
+                  "to have trouble",
+                  "J'ai du mal à comprendre."
+                ],
+                [
+                  "avoir ... ans",
+                  "to be ... years old",
+                  "Il a quinze ans."
+                ],
+                [
+                  "avoir lieu",
+                  "to take place",
+                  "Le match a lieu demain."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Avoir envie, besoin, peur de",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "They take **de + infinitive** or **de + noun**: *J'ai envie de dormir. J'ai besoin d'un stylo. Il a peur de tomber.* A pronoun replaces *de + noun* with **en**: *J'en ai besoin. Il en a peur.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Nous avons envie de partir.",
+                  "en": "We feel like leaving."
+                },
+                {
+                  "fr": "Elle a besoin de ton aide.",
+                  "en": "She needs your help."
+                },
+                {
+                  "fr": "Ils ont peur de l'orage.",
+                  "en": "They are afraid of the storm."
+                },
+                {
+                  "fr": "Tu as l'air triste.",
+                  "en": "You look sad."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm hungry.",
+                  "wrong": "Je suis faim.",
+                  "fr": "J'[[ai]] faim."
+                },
+                {
+                  "en": "I'm cold.",
+                  "wrong": "Je suis froid.",
+                  "fr": "J'[[ai]] froid.",
+                  "note": "*Je suis froid* would mean you are a cold person."
+                },
+                {
+                  "en": "I'm fifteen.",
+                  "wrong": "Je suis quinze ans.",
+                  "fr": "J'[[ai]] quinze ans."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "avoir-faire-expressions",
+                "faire-expressions",
+                "irregular-core"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai très soif, donne-moi de l'eau.",
+                  "en": "I'm very thirsty, give me some water."
+                },
+                {
+                  "fr": "Tu as de la chance d'être ici.",
+                  "en": "You're lucky to be here."
+                },
+                {
+                  "fr": "J'ai du mal à me lever le matin.",
+                  "en": "I find it hard to get up in the morning."
+                },
+                {
+                  "fr": "Le concert a lieu samedi soir.",
+                  "en": "The concert takes place on Saturday night."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-avoir-expressions-01",
+          "type": "build",
+          "en": "I'm hungry.",
+          "a": [
+            "J'ai faim."
+          ]
+        },
+        {
+          "id": "g-avoir-expressions-02",
+          "type": "build",
+          "en": "I'm cold.",
+          "a": [
+            "J'ai froid."
+          ]
+        },
+        {
+          "id": "g-avoir-expressions-03",
+          "type": "build",
+          "en": "She is lucky.",
+          "a": [
+            "Elle a de la chance."
+          ]
+        },
+        {
+          "id": "g-avoir-expressions-04",
+          "type": "build",
+          "en": "You're right.",
+          "a": [
+            "Tu as raison.",
+            "Vous avez raison."
+          ]
+        },
+        {
+          "id": "g-avoir-expressions-05",
+          "type": "build",
+          "en": "I need rest.",
+          "a": [
+            "J'ai besoin de repos."
+          ]
+        },
+        {
+          "id": "g-avoir-expressions-06",
+          "type": "build",
+          "en": "I feel like sleeping.",
+          "a": [
+            "J'ai envie de dormir."
+          ]
+        },
+        {
+          "id": "g-avoir-expressions-07",
+          "type": "build",
+          "en": "He looks tired.",
+          "a": [
+            "Il a l'air fatigué."
+          ]
+        },
+        {
+          "id": "g-avoir-expressions-08",
+          "type": "cloze",
+          "fr": "Il ___ peur des chiens.",
+          "a": [
+            "a"
+          ],
+          "en": "He is afraid of dogs."
+        },
+        {
+          "id": "g-avoir-expressions-09",
+          "type": "cloze",
+          "fr": "J'___ mal à la tête.",
+          "a": [
+            "ai"
+          ],
+          "en": "I have a headache."
+        },
+        {
+          "id": "g-avoir-expressions-10",
+          "type": "cloze",
+          "fr": "Nous ___ quinze ans.",
+          "a": [
+            "avons"
+          ],
+          "en": "We are fifteen."
+        }
+      ]
+    },
+    {
+      "id": "faire-expressions",
+      "title": "Expressions with faire: du sport, la cuisine, attention, la queue",
+      "fr": "les expressions avec faire",
+      "level": "A1",
+      "keywords": [
+        "faire du sport",
+        "faire la cuisine",
+        "faire les courses",
+        "faire la queue",
+        "faire attention",
+        "faire peur",
+        "faire partie de",
+        "faire confiance",
+        "faire exprès",
+        "faire mal",
+        "faire semblant",
+        "faire la vaisselle",
+        "faire le ménage",
+        "faire un voyage",
+        "faire de + activity",
+        "il fait beau",
+        "ça fait"
+      ],
+      "topics": [],
+      "see": [
+        "avoir-faire-expressions",
+        "avoir-expressions",
+        "irregular-core",
+        "weather"
+      ],
+      "verbs": [
+        "faire"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Faire* (*je fais, nous faisons, vous faites, ils font*) is the most flexible French verb. It means **to do** and **to make** but also appears in dozens of fixed expressions: **sports and hobbies**, **housework**, **shopping**, **weather**, **attention and feelings**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "expression",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "faire du sport / de la musique / de la danse",
+                  "to do sport / music / dancing (with de + article)"
+                ],
+                [
+                  "faire du tennis, du ski, de la natation",
+                  "to play tennis, to ski, to swim"
+                ],
+                [
+                  "faire la cuisine / la vaisselle / le ménage",
+                  "to cook / wash up / do housework"
+                ],
+                [
+                  "faire les courses / les magasins",
+                  "to go shopping (food / for clothes)"
+                ],
+                [
+                  "faire ses devoirs",
+                  "to do your homework"
+                ],
+                [
+                  "faire la queue",
+                  "to queue"
+                ],
+                [
+                  "faire attention (à)",
+                  "to be careful / pay attention"
+                ],
+                [
+                  "faire peur / mal / plaisir (à)",
+                  "to scare / hurt / please"
+                ],
+                [
+                  "faire partie de",
+                  "to be part of"
+                ],
+                [
+                  "faire confiance à",
+                  "to trust"
+                ],
+                [
+                  "faire semblant de",
+                  "to pretend to"
+                ],
+                [
+                  "faire exprès de",
+                  "to do on purpose"
+                ],
+                [
+                  "faire un voyage / une promenade / un gâteau",
+                  "to take a trip / a walk / bake a cake"
+                ],
+                [
+                  "faire + weather",
+                  "Il fait beau. Il fait chaud."
+                ],
+                [
+                  "ça fait + number",
+                  "Ça fait dix euros."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Faire du, jouer au, jouer du",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Faire de** + article + activity: *faire du sport, du ski, de la danse*. **Jouer à** + game or sport: *jouer au football, aux cartes*. **Jouer de** + instrument: *jouer du piano, de la batterie*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I play football.",
+                  "wrong": "Je joue football.",
+                  "fr": "Je joue [[au]] football. / Je [[fais du]] football."
+                },
+                {
+                  "en": "I play the guitar.",
+                  "wrong": "Je joue la guitare.",
+                  "fr": "Je joue [[de la]] guitare."
+                },
+                {
+                  "en": "I do sport.",
+                  "wrong": "Je fais sport.",
+                  "fr": "Je fais [[du]] sport."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Faire + noun for feelings",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Faire* + noun + *à qqn* expresses the effect on somebody: *Ça me fait plaisir* (that pleases me), *Ça me fait peur* (that scares me), *Ça me fait rire* (that makes me laugh), *Ça te fait mal ?* (does it hurt?)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu me fais peur !",
+                  "en": "You scare me!"
+                },
+                {
+                  "fr": "Ça lui fait plaisir.",
+                  "en": "It pleases him."
+                },
+                {
+                  "fr": "Fais attention à la marche !",
+                  "en": "Mind the step!"
+                },
+                {
+                  "fr": "Nous faisons la queue depuis une heure.",
+                  "en": "We've been queueing for an hour."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je fais du judo le mardi.",
+                  "en": "I do judo on Tuesdays."
+                },
+                {
+                  "fr": "Mon père fait la cuisine le dimanche.",
+                  "en": "My father cooks on Sundays."
+                },
+                {
+                  "fr": "Elle fait partie de l'équipe.",
+                  "en": "She is part of the team."
+                },
+                {
+                  "fr": "Tu fais exprès de m'embêter !",
+                  "en": "You're doing it on purpose to annoy me!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-faire-expressions-01",
+          "type": "build",
+          "en": "I do sport.",
+          "a": [
+            "Je fais du sport."
+          ]
+        },
+        {
+          "id": "g-faire-expressions-02",
+          "type": "build",
+          "en": "I play the guitar.",
+          "a": [
+            "Je joue de la guitare."
+          ]
+        },
+        {
+          "id": "g-faire-expressions-03",
+          "type": "build",
+          "en": "He plays football.",
+          "a": [
+            "Il joue au football.",
+            "Il joue au foot."
+          ]
+        },
+        {
+          "id": "g-faire-expressions-04",
+          "type": "build",
+          "en": "We are shopping.",
+          "a": [
+            "Nous faisons les courses.",
+            "On fait les courses."
+          ]
+        },
+        {
+          "id": "g-faire-expressions-05",
+          "type": "build",
+          "en": "Be careful!",
+          "a": [
+            "Fais attention !",
+            "Faites attention !"
+          ]
+        },
+        {
+          "id": "g-faire-expressions-06",
+          "type": "build",
+          "en": "That pleases me.",
+          "a": [
+            "Ça me fait plaisir."
+          ]
+        },
+        {
+          "id": "g-faire-expressions-07",
+          "type": "build",
+          "en": "They are queueing.",
+          "a": [
+            "Ils font la queue."
+          ]
+        },
+        {
+          "id": "g-faire-expressions-08",
+          "type": "cloze",
+          "fr": "Il ___ du ski.",
+          "a": [
+            "fait"
+          ],
+          "hint": "faire",
+          "en": "He skis."
+        },
+        {
+          "id": "g-faire-expressions-09",
+          "type": "cloze",
+          "fr": "Nous ___ la vaisselle.",
+          "a": [
+            "faisons"
+          ],
+          "hint": "faire",
+          "en": "We're washing up."
+        },
+        {
+          "id": "g-faire-expressions-10",
+          "type": "cloze",
+          "fr": "Vous ___ attention ?",
+          "a": [
+            "faites"
+          ],
+          "hint": "faire",
+          "en": "Are you being careful?"
+        }
+      ]
+    },
+    {
+      "id": "aller-etre-expressions",
+      "title": "Expressions with aller and être: ça va, être d'accord, être en retard",
+      "fr": "les expressions avec aller et être",
+      "level": "A1",
+      "keywords": [
+        "ça va",
+        "aller bien",
+        "aller mal",
+        "aller à",
+        "ça te va",
+        "on y va",
+        "s'en aller",
+        "être d'accord",
+        "être en retard",
+        "être en avance",
+        "être à l'heure",
+        "être en forme",
+        "être de retour",
+        "être en vacances",
+        "être sur le point de",
+        "être au courant",
+        "je vais bien"
+      ],
+      "topics": [],
+      "see": [
+        "irregular-core",
+        "en-train-de",
+        "avoir-expressions"
+      ],
+      "verbs": [
+        "aller",
+        "être"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Aller** means *to go*, but also *to be (well)* and *to suit*. **Être** appears in fixed expressions with **en** and **à**: *être en retard, être à l'heure, être d'accord*. Learn them as chunks."
+            },
+            {
+              "type": "table",
+              "head": [
+                "expression",
+                "meaning",
+                "example"
+              ],
+              "rows": [
+                [
+                  "aller bien / mal",
+                  "to be well / unwell",
+                  "Comment vas-tu ? Je vais bien."
+                ],
+                [
+                  "ça va ?",
+                  "how is it going?",
+                  "Ça va ? Oui, ça va."
+                ],
+                [
+                  "aller à qqn",
+                  "to suit someone",
+                  "Ce pull te va très bien."
+                ],
+                [
+                  "on y va",
+                  "let's go",
+                  "On y va ? Oui, allons-y !"
+                ],
+                [
+                  "s'en aller",
+                  "to leave",
+                  "Je m'en vais. Va-t'en !"
+                ],
+                [
+                  "être d'accord (avec)",
+                  "to agree",
+                  "Je suis d'accord avec toi."
+                ],
+                [
+                  "être en retard / en avance",
+                  "to be late / early",
+                  "Je suis en retard."
+                ],
+                [
+                  "être à l'heure",
+                  "to be on time",
+                  "Il est toujours à l'heure."
+                ],
+                [
+                  "être en forme",
+                  "to be in good shape",
+                  "Je suis en forme."
+                ],
+                [
+                  "être en vacances / en voyage",
+                  "to be on holiday / on a trip",
+                  "Nous sommes en vacances."
+                ],
+                [
+                  "être de retour",
+                  "to be back",
+                  "Je suis de retour demain."
+                ],
+                [
+                  "être au courant",
+                  "to know about it",
+                  "Tu es au courant ?"
+                ],
+                [
+                  "être en train de",
+                  "to be in the middle of",
+                  "Je suis en train de manger."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ça va",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ça va* is the most useful phrase: it asks and answers *how are you*, and confirms that **everything is fine**. Variations: *Ça va ? – Ça va bien. / Pas mal. / Comme ci, comme ça. / Ça ne va pas du tout.* To ask someone formal use **Comment allez-vous ?**"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Salut ! Ça va ? – Oui, ça va, et toi ?",
+                  "en": "Hi! How are you? – Fine, and you?"
+                },
+                {
+                  "fr": "Ça va aller.",
+                  "en": "It'll be OK."
+                },
+                {
+                  "fr": "Ça ne va pas ?",
+                  "en": "Is something wrong?"
+                },
+                {
+                  "fr": "Comment ça va ? – Pas mal.",
+                  "en": "How's it going? – Not bad."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I agree.",
+                  "wrong": "Je suis accord.",
+                  "fr": "Je suis [[d']]accord."
+                },
+                {
+                  "en": "I'm late.",
+                  "wrong": "Je suis retard.",
+                  "fr": "Je suis [[en]] retard."
+                },
+                {
+                  "en": "I'm doing well.",
+                  "wrong": "Je suis bien.",
+                  "fr": "Je [[vais]] bien.",
+                  "note": "*Je suis bien* means you are comfortable at that moment."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "irregular-core",
+                "en-train-de",
+                "avoir-expressions"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je suis d'accord avec vous.",
+                  "en": "I agree with you."
+                },
+                {
+                  "fr": "Désolé, je suis en retard !",
+                  "en": "Sorry, I'm late!"
+                },
+                {
+                  "fr": "Cette couleur te va bien.",
+                  "en": "This colour suits you."
+                },
+                {
+                  "fr": "Je m'en vais, à demain !",
+                  "en": "I'm off, see you tomorrow!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-aller-etre-expressions-01",
+          "type": "build",
+          "en": "How are you? (tu)",
+          "a": [
+            "Comment vas-tu ?",
+            "Comment ça va ?",
+            "Ça va ?",
+            "Comment tu vas ?"
+          ]
+        },
+        {
+          "id": "g-aller-etre-expressions-02",
+          "type": "build",
+          "en": "I'm fine.",
+          "a": [
+            "Je vais bien.",
+            "Ça va bien.",
+            "Ça va."
+          ]
+        },
+        {
+          "id": "g-aller-etre-expressions-03",
+          "type": "build",
+          "en": "I agree.",
+          "a": [
+            "Je suis d'accord."
+          ]
+        },
+        {
+          "id": "g-aller-etre-expressions-04",
+          "type": "build",
+          "en": "I'm late.",
+          "a": [
+            "Je suis en retard."
+          ]
+        },
+        {
+          "id": "g-aller-etre-expressions-05",
+          "type": "build",
+          "en": "This colour suits you. (tu)",
+          "a": [
+            "Cette couleur te va bien."
+          ]
+        },
+        {
+          "id": "g-aller-etre-expressions-06",
+          "type": "build",
+          "en": "Let's go!",
+          "a": [
+            "On y va !",
+            "Allons-y !"
+          ]
+        },
+        {
+          "id": "g-aller-etre-expressions-07",
+          "type": "cloze",
+          "fr": "Je suis ___accord avec toi.",
+          "a": [
+            "d'"
+          ],
+          "en": "I agree with you."
+        },
+        {
+          "id": "g-aller-etre-expressions-08",
+          "type": "cloze",
+          "fr": "Il est toujours ___ l'heure.",
+          "a": [
+            "à"
+          ],
+          "en": "He's always on time."
+        },
+        {
+          "id": "g-aller-etre-expressions-09",
+          "type": "cloze",
+          "fr": "Nous sommes ___ vacances.",
+          "a": [
+            "en"
+          ],
+          "en": "We're on holiday."
+        }
+      ]
+    },
+    {
+      "id": "like-verbs",
+      "title": "Liking and missing: aimer, plaire, manquer, trouver",
+      "fr": "aimer, plaire, manquer",
+      "level": "A1",
+      "keywords": [
+        "aimer",
+        "aimer bien",
+        "adorer",
+        "détester",
+        "préférer",
+        "plaire",
+        "ça me plaît",
+        "manquer",
+        "tu me manques",
+        "trouver",
+        "je trouve que",
+        "je pense que",
+        "à mon avis",
+        "like",
+        "miss",
+        "opinion",
+        "s'intéresser à"
+      ],
+      "topics": [
+        "likes"
+      ],
+      "see": [
+        "indirect-object",
+        "verbs-direct-indirect",
+        "avoir-faire-expressions"
+      ],
+      "verbs": [
+        "plaire"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Aimer, adorer, détester, préférer* work like English *like, love, hate, prefer*. But **plaire** and **manquer** **reverse** the subject: the thing liked or missed is the **subject**, the person is the **indirect object**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "word for word",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "J'aime ce film.",
+                  "I like this film.",
+                  "I like this film."
+                ],
+                [
+                  "Ce film me plaît.",
+                  "This film pleases me.",
+                  "I like this film."
+                ],
+                [
+                  "Tu me manques.",
+                  "You are missing to me.",
+                  "I miss you."
+                ],
+                [
+                  "Paris lui manque.",
+                  "Paris is missing to him.",
+                  "He misses Paris."
+                ],
+                [
+                  "Je trouve ça bien.",
+                  "I find that good.",
+                  "I think it's good."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Aimer: degrees",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "strength",
+                "example"
+              ],
+              "rows": [
+                [
+                  "adorer",
+                  "love",
+                  "J'adore le chocolat."
+                ],
+                [
+                  "aimer beaucoup",
+                  "like a lot",
+                  "J'aime beaucoup la musique."
+                ],
+                [
+                  "aimer (bien)",
+                  "like",
+                  "J'aime bien ce garçon."
+                ],
+                [
+                  "ne pas aimer",
+                  "don't like",
+                  "Je n'aime pas le poisson."
+                ],
+                [
+                  "détester",
+                  "hate",
+                  "Je déteste attendre."
+                ],
+                [
+                  "préférer",
+                  "prefer",
+                  "Je préfère le thé au café."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "**Aimer** + person = to love (*J'aime Marie*); **aimer bien** + person = to like (*J'aime bien Marie*). With things **aimer** is just *like*. After *aimer* the article is **le / la / les**: *J'aime le café.*"
+            }
+          ]
+        },
+        {
+          "title": "Plaire and manquer",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Plaire à* and *manquer à* put the person in the **indirect object**: *me, te, lui, nous, vous, leur*. The thing that pleases or the person who is missed is the **subject**, so the verb agrees with it."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I like these shoes.",
+                  "wrong": "Je plais ces chaussures.",
+                  "fr": "Ces chaussures [[me plaisent]]."
+                },
+                {
+                  "en": "I miss my friends.",
+                  "wrong": "Je manque mes amis.",
+                  "fr": "Mes amis [[me manquent]]."
+                },
+                {
+                  "en": "He misses you.",
+                  "wrong": "Il te manque.",
+                  "fr": "[[Tu lui manques]].",
+                  "note": "The one who is missed is the subject."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Giving your opinion",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Trouver que** + indicative (*je trouve que c'est bien*), **penser que**, **croire que**, **à mon avis**, **selon moi**, **pour moi**. **Trouver** + object + adjective: *Je trouve ce film nul.* In the negative opinions usually take the subjunctive."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je trouve que ce livre est intéressant.",
+                  "en": "I find this book interesting."
+                },
+                {
+                  "fr": "À mon avis, c'est trop cher.",
+                  "en": "In my opinion it's too expensive."
+                },
+                {
+                  "fr": "Je trouve ça nul.",
+                  "en": "I think it's rubbish."
+                },
+                {
+                  "fr": "Pour moi, c'est plus facile.",
+                  "en": "For me it's easier."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Cette chanson me plaît beaucoup.",
+                  "en": "I really like this song."
+                },
+                {
+                  "fr": "Mon pays me manque.",
+                  "en": "I miss my country."
+                },
+                {
+                  "fr": "Les devoirs ne me plaisent pas.",
+                  "en": "I don't like homework."
+                },
+                {
+                  "fr": "Tu nous as manqué hier.",
+                  "en": "We missed you yesterday."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-like-verbs-01",
+          "type": "build",
+          "en": "I like this film.",
+          "a": [
+            "J'aime ce film.",
+            "Ce film me plaît."
+          ]
+        },
+        {
+          "id": "g-like-verbs-02",
+          "type": "build",
+          "en": "I miss you. (tu)",
+          "a": [
+            "Tu me manques."
+          ]
+        },
+        {
+          "id": "g-like-verbs-03",
+          "type": "build",
+          "en": "He misses Paris.",
+          "a": [
+            "Paris lui manque."
+          ]
+        },
+        {
+          "id": "g-like-verbs-04",
+          "type": "build",
+          "en": "I think it's good.",
+          "a": [
+            "Je trouve ça bien.",
+            "Je trouve que c'est bien."
+          ]
+        },
+        {
+          "id": "g-like-verbs-05",
+          "type": "build",
+          "en": "In my opinion, it's too expensive.",
+          "a": [
+            "À mon avis, c'est trop cher."
+          ]
+        },
+        {
+          "id": "g-like-verbs-06",
+          "type": "cloze",
+          "fr": "Ces chaussures me ___.",
+          "a": [
+            "plaisent"
+          ],
+          "hint": "plaire",
+          "en": "I like these shoes."
+        },
+        {
+          "id": "g-like-verbs-07",
+          "type": "cloze",
+          "fr": "Mes amis me ___.",
+          "a": [
+            "manquent"
+          ],
+          "hint": "manquer",
+          "en": "I miss my friends."
+        },
+        {
+          "id": "g-like-verbs-08",
+          "type": "cloze",
+          "fr": "Ce film ___ plaît.",
+          "a": [
+            "lui"
+          ],
+          "en": "He likes this film."
+        },
+        {
+          "id": "g-like-verbs-09",
+          "type": "cloze",
+          "fr": "Je ___ que c'est facile.",
+          "a": [
+            "trouve"
+          ],
+          "hint": "trouver",
+          "en": "I find that it's easy."
+        }
+      ]
+    },
+    {
+      "id": "perception-verbs",
+      "title": "Looking, seeing, listening, hearing: regarder, voir, écouter, entendre",
+      "fr": "regarder, voir, écouter, entendre",
+      "level": "A1",
+      "keywords": [
+        "regarder",
+        "voir",
+        "écouter",
+        "entendre",
+        "sentir",
+        "ressembler",
+        "avoir l'air",
+        "paraître",
+        "look",
+        "see",
+        "listen",
+        "hear",
+        "smell",
+        "look like",
+        "chercher",
+        "trouver",
+        "perception"
+      ],
+      "topics": [],
+      "see": [
+        "direct-object",
+        "verbs-direct-indirect",
+        "avoir-expressions"
+      ],
+      "verbs": [
+        "regarder",
+        "voir",
+        "écouter"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "English *look, see, listen, hear* each have **two** French verbs: one for a **deliberate act** (*regarder, écouter*) and one for **perceiving** (*voir, entendre*). *Regarder* and *écouter* take **no preposition**: *regarder la télé*, *écouter la radio*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "deliberate",
+                "perceiving",
+                "example"
+              ],
+              "rows": [
+                [
+                  "regarder (to look at, watch)",
+                  "voir (to see)",
+                  "Je regarde un film. Je vois un chat."
+                ],
+                [
+                  "écouter (to listen to)",
+                  "entendre (to hear)",
+                  "J'écoute la radio. J'entends un bruit."
+                ],
+                [
+                  "goûter (to taste)",
+                  "sentir (to feel, smell)",
+                  "Je goûte la soupe. Ça sent bon."
+                ],
+                [
+                  "chercher (to look for)",
+                  "trouver (to find)",
+                  "Je cherche mes clés. Je les trouve."
+                ]
+              ],
+              "textCols": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "No preposition",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Regarder, écouter, chercher, attendre** take a **direct object**: no *at, to, for*. The pronoun is *le, la, les*: *Je le regarde. Je l'écoute. Je les cherche.*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm looking at the picture.",
+                  "wrong": "Je regarde à la photo.",
+                  "fr": "Je regarde [[la]] photo."
+                },
+                {
+                  "en": "I'm listening to music.",
+                  "wrong": "J'écoute à la musique.",
+                  "fr": "J'écoute [[la]] musique."
+                },
+                {
+                  "en": "I'm looking for my keys.",
+                  "wrong": "Je cherche pour mes clés.",
+                  "fr": "Je cherche [[mes]] clés."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Looking like",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Ressembler à** (to look like; *Il ressemble à son père* → *Il lui ressemble*), **avoir l'air + adjective** (to seem: *Elle a l'air fatiguée*), **sembler / paraître** (to seem), **sentir** (to smell or feel: *Ça sent bon. Je me sens bien.*)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Elle ressemble à sa mère.",
+                  "en": "She looks like her mother."
+                },
+                {
+                  "fr": "Tu as l'air content.",
+                  "en": "You look happy."
+                },
+                {
+                  "fr": "Ça sent le chocolat.",
+                  "en": "It smells of chocolate."
+                },
+                {
+                  "fr": "Je me sens fatigué.",
+                  "en": "I feel tired."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je regarde la télé tous les soirs.",
+                  "en": "I watch TV every evening."
+                },
+                {
+                  "fr": "J'entends quelqu'un dans le couloir.",
+                  "en": "I hear someone in the corridor."
+                },
+                {
+                  "fr": "Écoute ! Tu entends ?",
+                  "en": "Listen! Do you hear?"
+                },
+                {
+                  "fr": "Je ne vois rien sans mes lunettes.",
+                  "en": "I can't see anything without my glasses."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-perception-verbs-01",
+          "type": "build",
+          "en": "I'm watching a film.",
+          "a": [
+            "Je regarde un film."
+          ]
+        },
+        {
+          "id": "g-perception-verbs-02",
+          "type": "build",
+          "en": "I hear a noise.",
+          "a": [
+            "J'entends un bruit."
+          ]
+        },
+        {
+          "id": "g-perception-verbs-03",
+          "type": "build",
+          "en": "I'm listening to the radio.",
+          "a": [
+            "J'écoute la radio."
+          ]
+        },
+        {
+          "id": "g-perception-verbs-04",
+          "type": "build",
+          "en": "I'm looking for my keys.",
+          "a": [
+            "Je cherche mes clés."
+          ]
+        },
+        {
+          "id": "g-perception-verbs-05",
+          "type": "build",
+          "en": "He looks like his father.",
+          "a": [
+            "Il ressemble à son père."
+          ]
+        },
+        {
+          "id": "g-perception-verbs-06",
+          "type": "build",
+          "en": "It smells good.",
+          "a": [
+            "Ça sent bon."
+          ]
+        },
+        {
+          "id": "g-perception-verbs-07",
+          "type": "cloze",
+          "fr": "Je ___ la télé.",
+          "a": [
+            "regarde"
+          ],
+          "hint": "regarder",
+          "en": "I'm watching TV."
+        },
+        {
+          "id": "g-perception-verbs-08",
+          "type": "cloze",
+          "fr": "Tu ___ ce bruit ?",
+          "a": [
+            "entends"
+          ],
+          "hint": "entendre",
+          "en": "Do you hear that noise?"
+        },
+        {
+          "id": "g-perception-verbs-09",
+          "type": "cloze",
+          "fr": "Elle a l'___ fatiguée.",
+          "a": [
+            "air"
+          ],
+          "en": "She looks tired."
+        }
+      ]
+    },
+    {
+      "id": "leave-verbs",
+      "title": "Leaving: partir, quitter, laisser, sortir, s'en aller",
+      "fr": "partir, quitter, laisser, sortir",
+      "level": "A2",
+      "keywords": [
+        "partir",
+        "quitter",
+        "laisser",
+        "sortir",
+        "s'en aller",
+        "oublier",
+        "rester",
+        "leave",
+        "quitter la maison",
+        "partir de",
+        "laisser un message",
+        "sortir avec",
+        "left",
+        "go away",
+        "dépenser"
+      ],
+      "topics": [],
+      "see": [
+        "tir-mir-vir",
+        "passe-compose-etre",
+        "verb-constructions"
+      ],
+      "verbs": [
+        "partir",
+        "sortir"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "English *to leave* is several French verbs. **Partir** (no object) = to **go away**. **Quitter** + object = to **leave a place or a person**. **Laisser** = to **leave something behind** or to **let**. **Sortir** = to **go out**. **S'en aller** = to **go away** (more informal). **Oublier** = to **leave by mistake**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "use",
+                "example"
+              ],
+              "rows": [
+                [
+                  "partir (de, pour, à)",
+                  "to go away, depart",
+                  "Je pars demain. Elle part de Paris."
+                ],
+                [
+                  "quitter + noun",
+                  "to leave a place / someone",
+                  "Il quitte la maison. Je quitte mon travail."
+                ],
+                [
+                  "laisser + noun",
+                  "to leave behind; to let",
+                  "J'ai laissé mon sac. Laisse-moi tranquille."
+                ],
+                [
+                  "sortir (de)",
+                  "to go out",
+                  "Il sort de la maison. Je sors ce soir."
+                ],
+                [
+                  "s'en aller",
+                  "to go away",
+                  "Je m'en vais. Va-t'en !"
+                ],
+                [
+                  "oublier",
+                  "to leave by mistake",
+                  "J'ai oublié mes clés."
+                ],
+                [
+                  "rester",
+                  "to stay",
+                  "Je reste ici."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Partir or quitter?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Partir* is **intransitive**: nothing follows directly, only *de, pour, à* + place. *Quitter* needs a **direct object**."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "He is leaving Paris.",
+                  "wrong": "Il part Paris.",
+                  "fr": "Il [[quitte]] Paris. / Il [[part de]] Paris."
+                },
+                {
+                  "en": "I'm leaving for Lyon.",
+                  "wrong": "Je quitte pour Lyon.",
+                  "fr": "Je [[pars]] pour Lyon."
+                },
+                {
+                  "en": "I left my phone at home.",
+                  "wrong": "J'ai quitté mon téléphone.",
+                  "fr": "J'ai [[laissé]] mon téléphone à la maison."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Auxiliaries",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Partir* and *sortir* (without object) take **être**: *Je suis parti, elle est sortie*. *Quitter, laisser, oublier* take **avoir**: *J'ai quitté la salle. J'ai laissé la porte ouverte.* *Sortir* **with an object** takes avoir: *J'ai sorti le chien.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il est parti à huit heures.",
+                  "en": "He left at eight."
+                },
+                {
+                  "fr": "Nous avons quitté la ville.",
+                  "en": "We left the town."
+                },
+                {
+                  "fr": "Elle a laissé un message.",
+                  "en": "She left a message."
+                },
+                {
+                  "fr": "Il a sorti sa clé.",
+                  "en": "He took out his key."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quand est-ce que tu pars en vacances ?",
+                  "en": "When are you leaving on holiday?"
+                },
+                {
+                  "fr": "Je quitte le bureau à cinq heures.",
+                  "en": "I leave the office at five."
+                },
+                {
+                  "fr": "Laisse ton manteau ici.",
+                  "en": "Leave your coat here."
+                },
+                {
+                  "fr": "Ils sortent du cinéma.",
+                  "en": "They are coming out of the cinema."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-leave-verbs-01",
+          "type": "build",
+          "en": "I'm leaving tomorrow.",
+          "a": [
+            "Je pars demain."
+          ]
+        },
+        {
+          "id": "g-leave-verbs-02",
+          "type": "build",
+          "en": "He is leaving Paris.",
+          "a": [
+            "Il quitte Paris.",
+            "Il part de Paris."
+          ]
+        },
+        {
+          "id": "g-leave-verbs-03",
+          "type": "build",
+          "en": "I left my bag at home.",
+          "a": [
+            "J'ai laissé mon sac à la maison."
+          ]
+        },
+        {
+          "id": "g-leave-verbs-04",
+          "type": "build",
+          "en": "She left a message.",
+          "a": [
+            "Elle a laissé un message."
+          ]
+        },
+        {
+          "id": "g-leave-verbs-05",
+          "type": "build",
+          "en": "They come out of the cinema.",
+          "a": [
+            "Ils sortent du cinéma.",
+            "Elles sortent du cinéma."
+          ]
+        },
+        {
+          "id": "g-leave-verbs-06",
+          "type": "cloze",
+          "fr": "Il ___ la maison à huit heures.",
+          "a": [
+            "quitte"
+          ],
+          "hint": "quitter",
+          "en": "He leaves the house at eight."
+        },
+        {
+          "id": "g-leave-verbs-07",
+          "type": "cloze",
+          "fr": "Elle est ___ à huit heures.",
+          "a": [
+            "partie"
+          ],
+          "hint": "partir",
+          "en": "She left at eight."
+        },
+        {
+          "id": "g-leave-verbs-08",
+          "type": "cloze",
+          "fr": "J'ai ___ mes clés à la maison.",
+          "a": [
+            "laissé"
+          ],
+          "hint": "laisser",
+          "en": "I left my keys at home."
+        }
+      ]
+    },
+    {
+      "id": "put-wear-bring",
+      "title": "Putting, wearing, bringing: mettre, porter, apporter, amener",
+      "fr": "mettre, porter, apporter, amener, emmener",
+      "level": "A2",
+      "keywords": [
+        "mettre",
+        "porter",
+        "apporter",
+        "amener",
+        "emmener",
+        "emporter",
+        "ramener",
+        "rapporter",
+        "put",
+        "wear",
+        "bring",
+        "take along",
+        "mettre la table",
+        "porter des lunettes",
+        "se mettre à",
+        "mettre du temps"
+      ],
+      "topics": [],
+      "see": [
+        "irregular-more",
+        "avoir-faire-expressions"
+      ],
+      "verbs": [
+        "mettre"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Five verbs for moving things and people, depending on **what** you move and **in which direction**. **Mettre** = to put, to put on. **Porter** = to carry, to wear. **Apporter / emporter** = for **things**. **Amener / emmener** = for **people and animals**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "",
+                "things",
+                "people / animals",
+                "direction"
+              ],
+              "rows": [
+                [
+                  "bring here",
+                  "apporter",
+                  "amener",
+                  "towards the speaker"
+                ],
+                [
+                  "take away",
+                  "emporter",
+                  "emmener",
+                  "away from the speaker"
+                ],
+                [
+                  "bring back",
+                  "rapporter",
+                  "ramener",
+                  "returning"
+                ],
+                [
+                  "carry / wear",
+                  "porter",
+                  "porter (carry)",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Mettre and porter",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Mettre** = to put (on a table), to put on (clothes), to set (the table, an alarm), to take (time). **Porter** = to carry a weight or to **wear** (clothes, glasses, a beard). Compare: *Je mets mon manteau* (I put on) / *Je porte un manteau* (I'm wearing)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je mets le livre sur la table.",
+                  "en": "I put the book on the table."
+                },
+                {
+                  "fr": "Elle met un pull.",
+                  "en": "She puts on a sweater."
+                },
+                {
+                  "fr": "Elle porte des lunettes.",
+                  "en": "She wears glasses."
+                },
+                {
+                  "fr": "Il porte une valise lourde.",
+                  "en": "He carries a heavy suitcase."
+                },
+                {
+                  "fr": "Je mets la table.",
+                  "en": "I set the table."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bring and take",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Apporter** a thing: *Apporte ton livre.* **Amener** a person: *J'amène mon frère.* **Emporter** a thing away: *J'emporte mon parapluie.* **Emmener** a person away: *Je l'emmène au cinéma.* Mnemonic: **a- = toward**, **e- = away**."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Bring your friend!",
+                  "wrong": "Apporte ton ami !",
+                  "fr": "[[Amène]] ton ami !"
+                },
+                {
+                  "en": "Take your umbrella.",
+                  "wrong": "Emmène ton parapluie.",
+                  "fr": "[[Emporte]] ton parapluie."
+                },
+                {
+                  "en": "I'm taking my sister to school.",
+                  "wrong": "J'emporte ma sœur à l'école.",
+                  "fr": "J'[[emmène]] ma sœur à l'école."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu peux apporter du pain ?",
+                  "en": "Can you bring some bread?"
+                },
+                {
+                  "fr": "Nous emmenons les enfants à la piscine.",
+                  "en": "We take the children to the pool."
+                },
+                {
+                  "fr": "Mets ton manteau, il fait froid !",
+                  "en": "Put your coat on, it's cold!"
+                },
+                {
+                  "fr": "Pourquoi tu portes ce chapeau ?",
+                  "en": "Why are you wearing that hat?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-put-wear-bring-01",
+          "type": "build",
+          "en": "I put the book on the table.",
+          "a": [
+            "Je mets le livre sur la table."
+          ]
+        },
+        {
+          "id": "g-put-wear-bring-02",
+          "type": "build",
+          "en": "She is wearing glasses.",
+          "a": [
+            "Elle porte des lunettes."
+          ]
+        },
+        {
+          "id": "g-put-wear-bring-03",
+          "type": "build",
+          "en": "Bring your friend!",
+          "a": [
+            "Amène ton ami !",
+            "Amène ton amie !"
+          ]
+        },
+        {
+          "id": "g-put-wear-bring-04",
+          "type": "build",
+          "en": "Take your umbrella.",
+          "a": [
+            "Emporte ton parapluie."
+          ]
+        },
+        {
+          "id": "g-put-wear-bring-05",
+          "type": "build",
+          "en": "We take the kids to the pool.",
+          "a": [
+            "Nous emmenons les enfants à la piscine.",
+            "On emmène les enfants à la piscine."
+          ]
+        },
+        {
+          "id": "g-put-wear-bring-06",
+          "type": "cloze",
+          "fr": "Je ___ la table.",
+          "a": [
+            "mets"
+          ],
+          "hint": "mettre",
+          "en": "I'm setting the table."
+        },
+        {
+          "id": "g-put-wear-bring-07",
+          "type": "cloze",
+          "fr": "Tu peux ___ du pain ?",
+          "a": [
+            "apporter"
+          ],
+          "en": "Can you bring some bread?"
+        },
+        {
+          "id": "g-put-wear-bring-08",
+          "type": "cloze",
+          "fr": "J'___ mon frère au cinéma.",
+          "a": [
+            "emmène"
+          ],
+          "en": "I'm taking my brother to the cinema."
+        }
+      ]
+    },
+    {
+      "id": "ask-say-tell",
+      "title": "Asking, saying, telling: demander, dire, parler, raconter",
+      "fr": "demander, dire, parler, raconter",
+      "level": "A2",
+      "keywords": [
+        "demander",
+        "poser une question",
+        "dire",
+        "parler",
+        "raconter",
+        "répondre",
+        "expliquer",
+        "appeler",
+        "s'appeler",
+        "téléphoner",
+        "ask",
+        "say",
+        "tell",
+        "speak",
+        "talk",
+        "dire à qqn de",
+        "demander à qqn de",
+        "demander si"
+      ],
+      "topics": [],
+      "see": [
+        "verbs-direct-indirect",
+        "reported-speech",
+        "indirect-questions",
+        "verbs-a-de-inf"
+      ],
+      "verbs": [
+        "parler",
+        "dire"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Demander** = to ask for something or to ask someone to do something; **poser une question** = to ask a question. **Dire** = to say / to tell (a fact). **Parler** = to talk / to speak (a language). **Raconter** = to tell a story. **Expliquer** = to explain. All the people take **à**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "meaning",
+                "example"
+              ],
+              "rows": [
+                [
+                  "demander qqch à qqn",
+                  "to ask (for)",
+                  "Je demande l'heure à Paul."
+                ],
+                [
+                  "demander à qqn de + inf.",
+                  "to ask someone to",
+                  "Je te demande de venir."
+                ],
+                [
+                  "demander si / où ...",
+                  "to ask whether / where",
+                  "Il demande si tu viens."
+                ],
+                [
+                  "poser une question à qqn",
+                  "to ask a question",
+                  "Elle pose une question au prof."
+                ],
+                [
+                  "dire qqch à qqn",
+                  "to say / tell",
+                  "Je te dis la vérité."
+                ],
+                [
+                  "dire à qqn de + inf.",
+                  "to tell someone to",
+                  "Il me dit de partir."
+                ],
+                [
+                  "parler à / de / avec",
+                  "to speak to / about / with",
+                  "Je parle à Marie de mon voyage."
+                ],
+                [
+                  "parler + language",
+                  "to speak a language",
+                  "Il parle français."
+                ],
+                [
+                  "raconter qqch à qqn",
+                  "to tell a story",
+                  "Il raconte une histoire."
+                ],
+                [
+                  "expliquer qqch à qqn",
+                  "to explain",
+                  "Elle explique la règle aux élèves."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Demander or poser?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "You **demander** something (an object, the time, a favour) but you **poser** a question. **Never** say *demander une question*. To ask whether, use *demander si*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I ask a question.",
+                  "wrong": "Je demande une question.",
+                  "fr": "Je [[pose]] une question."
+                },
+                {
+                  "en": "He asks me the time.",
+                  "wrong": "Il demande moi l'heure.",
+                  "fr": "Il [[me]] demande l'heure."
+                },
+                {
+                  "en": "She asks if I'm coming.",
+                  "wrong": "Elle demande que je viens.",
+                  "fr": "Elle demande [[si]] je viens."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dire, parler, raconter",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Dire** introduces **what** is said (*dire bonjour, dire la vérité, dire que ...*). **Parler** is about the **activity of speaking** (*parler à, parler de, parler français*). **Raconter** is for **a story**: *raconter une histoire, raconter sa journée*. **Appeler** = to call (*appeler un ami*); **téléphoner à** = to phone."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il dit bonjour à tout le monde.",
+                  "en": "He says hello to everyone."
+                },
+                {
+                  "fr": "Ils parlent de football.",
+                  "en": "They're talking about football."
+                },
+                {
+                  "fr": "Il m'a raconté sa journée.",
+                  "en": "He told me about his day."
+                },
+                {
+                  "fr": "Appelle-moi demain.",
+                  "en": "Call me tomorrow."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je voudrais demander un renseignement.",
+                  "en": "I'd like to ask for some information."
+                },
+                {
+                  "fr": "Elle m'a dit de t'attendre.",
+                  "en": "She told me to wait for you."
+                },
+                {
+                  "fr": "Tu parles trois langues ?",
+                  "en": "Do you speak three languages?"
+                },
+                {
+                  "fr": "Raconte-moi ce qui s'est passé.",
+                  "en": "Tell me what happened."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-ask-say-tell-01",
+          "type": "build",
+          "en": "I ask a question.",
+          "a": [
+            "Je pose une question."
+          ]
+        },
+        {
+          "id": "g-ask-say-tell-02",
+          "type": "build",
+          "en": "He asks me the time.",
+          "a": [
+            "Il me demande l'heure."
+          ]
+        },
+        {
+          "id": "g-ask-say-tell-03",
+          "type": "build",
+          "en": "She asks if I'm coming.",
+          "a": [
+            "Elle demande si je viens."
+          ]
+        },
+        {
+          "id": "g-ask-say-tell-04",
+          "type": "build",
+          "en": "He told me to leave.",
+          "a": [
+            "Il m'a dit de partir."
+          ]
+        },
+        {
+          "id": "g-ask-say-tell-05",
+          "type": "build",
+          "en": "Tell me what happened.",
+          "a": [
+            "Raconte-moi ce qui s'est passé.",
+            "Dis-moi ce qui s'est passé."
+          ]
+        },
+        {
+          "id": "g-ask-say-tell-06",
+          "type": "build",
+          "en": "They are talking about football.",
+          "a": [
+            "Ils parlent de football.",
+            "Elles parlent de football."
+          ]
+        },
+        {
+          "id": "g-ask-say-tell-07",
+          "type": "cloze",
+          "fr": "Je te ___ de venir.",
+          "a": [
+            "demande"
+          ],
+          "hint": "ask",
+          "en": "I ask you to come."
+        },
+        {
+          "id": "g-ask-say-tell-08",
+          "type": "cloze",
+          "fr": "Il ___ une histoire.",
+          "a": [
+            "raconte"
+          ],
+          "hint": "tell",
+          "en": "He tells a story."
+        },
+        {
+          "id": "g-ask-say-tell-09",
+          "type": "cloze",
+          "fr": "Elle ___ trois langues.",
+          "a": [
+            "parle"
+          ],
+          "hint": "speak",
+          "en": "She speaks three languages."
+        }
+      ]
+    },
+    {
+      "id": "passer-meanings",
+      "title": "Passer, se passer, se passer de: many meanings",
+      "fr": "passer et se passer",
+      "level": "A2",
+      "keywords": [
+        "passer",
+        "se passer",
+        "se passer de",
+        "passer un examen",
+        "passer du temps",
+        "passer à",
+        "passer chez",
+        "passer l'aspirateur",
+        "pass",
+        "spend time",
+        "happen",
+        "do without",
+        "passer le sel",
+        "passé composé avec être ou avoir"
+      ],
+      "topics": [],
+      "see": [
+        "passe-compose-etre",
+        "participles",
+        "reflexive-advanced"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Passer** is one of the most flexible verbs. The meaning depends on the **construction**, and so does the **auxiliary** in the passé composé: *être* when it means **to go past / stop by**, *avoir* when it has an **object**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "construction",
+                "meaning",
+                "example"
+              ],
+              "rows": [
+                [
+                  "passer + time",
+                  "to spend time",
+                  "Je passe deux heures au club."
+                ],
+                [
+                  "passer + object",
+                  "to pass (an object); to take an exam",
+                  "Passe-moi le sel. Je passe l'examen."
+                ],
+                [
+                  "passer devant / par / chez",
+                  "to go past / through / by",
+                  "Je passe devant l'école. Passe chez moi !"
+                ],
+                [
+                  "passer à + place",
+                  "to stop by",
+                  "Je passe à la poste."
+                ],
+                [
+                  "passer + verb",
+                  "to spend time doing",
+                  "Je passe du temps à lire."
+                ],
+                [
+                  "se passer",
+                  "to happen",
+                  "Qu'est-ce qui se passe ?"
+                ],
+                [
+                  "se passer de + noun",
+                  "to do without",
+                  "Je ne peux pas me passer de mon téléphone."
+                ],
+                [
+                  "passer pour",
+                  "to be taken for",
+                  "Il passe pour un génie."
+                ],
+                [
+                  "passer l'aspirateur",
+                  "to vacuum",
+                  "Je passe l'aspirateur."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Être or avoir?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In the passé composé **passer** takes **être** when there is **no object** (*Je suis passé chez toi*, *Le temps est passé vite*) and **avoir** when there is an **object** (*J'ai passé mes vacances ici*, *J'ai passé l'examen*)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I stopped by your place.",
+                  "wrong": "J'ai passé chez toi.",
+                  "fr": "Je [[suis]] passé chez toi."
+                },
+                {
+                  "en": "I spent my holidays there.",
+                  "wrong": "Je suis passé mes vacances là.",
+                  "fr": "J'[[ai]] passé mes vacances là-bas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "To pass an exam",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Passer un examen** = to **take** an exam (not necessarily pass). **Réussir un examen** or **être reçu(e)** = to **succeed**. **Rater / échouer à** = to fail. Careful: this is a classic false friend."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je passe mon examen demain.",
+                  "en": "I'm taking my exam tomorrow."
+                },
+                {
+                  "fr": "Elle a réussi son examen.",
+                  "en": "She passed her exam."
+                },
+                {
+                  "fr": "Il a raté son examen de maths.",
+                  "en": "He failed his maths exam."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Se passer",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Se passer** = to happen. It is always in the **third person**, usually **il se passe / ça se passe**. In the passé composé: **ça s'est bien passé** (it went well). **Se passer de** = to do without."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Qu'est-ce qui s'est passé ?",
+                  "en": "What happened?"
+                },
+                {
+                  "fr": "Ça s'est bien passé.",
+                  "en": "It went well."
+                },
+                {
+                  "fr": "Je ne peux pas me passer de café.",
+                  "en": "I can't do without coffee."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Nous passons nos vacances en Italie.",
+                  "en": "We spend our holidays in Italy."
+                },
+                {
+                  "fr": "Passe-moi le pain, s'il te plaît.",
+                  "en": "Pass me the bread, please."
+                },
+                {
+                  "fr": "Le facteur est passé ce matin.",
+                  "en": "The postman came by this morning."
+                },
+                {
+                  "fr": "Le temps passe vite.",
+                  "en": "Time flies."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-passer-meanings-01",
+          "type": "build",
+          "en": "What's happening?",
+          "a": [
+            "Qu'est-ce qui se passe ?"
+          ]
+        },
+        {
+          "id": "g-passer-meanings-02",
+          "type": "build",
+          "en": "It went well.",
+          "a": [
+            "Ça s'est bien passé."
+          ]
+        },
+        {
+          "id": "g-passer-meanings-03",
+          "type": "build",
+          "en": "I'm taking my exam tomorrow.",
+          "a": [
+            "Je passe mon examen demain."
+          ]
+        },
+        {
+          "id": "g-passer-meanings-04",
+          "type": "build",
+          "en": "Pass me the salt.",
+          "a": [
+            "Passe-moi le sel.",
+            "Passez-moi le sel."
+          ]
+        },
+        {
+          "id": "g-passer-meanings-05",
+          "type": "build",
+          "en": "I can't do without my phone.",
+          "a": [
+            "Je ne peux pas me passer de mon téléphone."
+          ]
+        },
+        {
+          "id": "g-passer-meanings-06",
+          "type": "cloze",
+          "fr": "Nous ___ nos vacances en Italie.",
+          "a": [
+            "passons"
+          ],
+          "hint": "passer",
+          "en": "We spend our holidays in Italy."
+        },
+        {
+          "id": "g-passer-meanings-07",
+          "type": "cloze",
+          "fr": "Je suis ___ chez toi.",
+          "a": [
+            "passé"
+          ],
+          "hint": "passer",
+          "en": "I stopped by your place."
+        },
+        {
+          "id": "g-passer-meanings-08",
+          "type": "cloze",
+          "fr": "J'___ passé deux heures ici.",
+          "a": [
+            "ai"
+          ],
+          "hint": "avoir",
+          "en": "I spent two hours here."
+        }
+      ]
+    },
+    {
+      "id": "time-verbs",
+      "title": "How long it takes: durer, mettre, prendre, falloir",
+      "fr": "la durée",
+      "level": "A2",
+      "keywords": [
+        "durer",
+        "mettre du temps",
+        "prendre du temps",
+        "il faut",
+        "ça prend",
+        "ça dure",
+        "combien de temps",
+        "pendant",
+        "il y a",
+        "depuis",
+        "how long",
+        "it takes",
+        "duration",
+        "dans"
+      ],
+      "topics": [],
+      "see": [
+        "time-prepositions",
+        "necessity",
+        "time-expressions"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To say **how long something takes**, French has four structures. **Durer** is for events (a film, a trip). **Il faut + time** is general. **Ça prend / ça met** + time is spoken. **Mettre + time** is for what **you** take to do something."
+            },
+            {
+              "type": "table",
+              "head": [
+                "structure",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "durer",
+                  "Le film dure deux heures.",
+                  "The film lasts two hours."
+                ],
+                [
+                  "il faut + time (+ pour + inf.)",
+                  "Il faut dix minutes pour aller à l'école.",
+                  "It takes ten minutes to go to school."
+                ],
+                [
+                  "ça prend + time",
+                  "Ça prend une heure.",
+                  "It takes an hour."
+                ],
+                [
+                  "mettre + time + à + inf.",
+                  "Je mets dix minutes à aller à l'école.",
+                  "It takes me ten minutes to get to school."
+                ],
+                [
+                  "prendre du temps",
+                  "Le voyage a pris trois heures.",
+                  "The trip took three hours."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How long: question and answer",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Combien de temps** ... ? asks the duration: *Combien de temps dure le film ? Combien de temps mets-tu pour venir ?* Answer with the duration; **pendant** says how long something lasted (*J'ai dormi pendant dix heures*), **depuis** says since when (it still goes on), **il y a** says how long ago."
+            },
+            {
+              "type": "table",
+              "head": [
+                "question",
+                "answer"
+              ],
+              "rows": [
+                [
+                  "Combien de temps dure le film ?",
+                  "Deux heures."
+                ],
+                [
+                  "Combien de temps as-tu attendu ?",
+                  "J'ai attendu pendant une heure."
+                ],
+                [
+                  "Depuis combien de temps habites-tu ici ?",
+                  "J'habite ici depuis cinq ans."
+                ],
+                [
+                  "Il y a combien de temps que tu es parti ?",
+                  "Il y a un an."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "It takes me an hour.",
+                  "wrong": "Je prends une heure.",
+                  "fr": "[[Ça me prend]] une heure. / [[Je mets]] une heure."
+                },
+                {
+                  "en": "The film lasts two hours.",
+                  "wrong": "Le film prend deux heures.",
+                  "fr": "Le film [[dure]] deux heures."
+                },
+                {
+                  "en": "I slept for ten hours.",
+                  "wrong": "J'ai dormi pour dix heures.",
+                  "fr": "J'ai dormi [[pendant]] dix heures."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "time-prepositions",
+                "necessity",
+                "time-expressions",
+                "present-uses"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le trajet dure trois heures en train.",
+                  "en": "The journey takes three hours by train."
+                },
+                {
+                  "fr": "Il faut une heure pour y aller.",
+                  "en": "It takes an hour to get there."
+                },
+                {
+                  "fr": "Combien de temps tu mets pour te préparer ?",
+                  "en": "How long do you take to get ready?"
+                },
+                {
+                  "fr": "La réunion a duré quarante minutes.",
+                  "en": "The meeting lasted forty minutes."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-time-verbs-01",
+          "type": "build",
+          "en": "The film lasts two hours.",
+          "a": [
+            "Le film dure deux heures."
+          ]
+        },
+        {
+          "id": "g-time-verbs-02",
+          "type": "build",
+          "en": "It takes ten minutes to get there.",
+          "a": [
+            "Il faut dix minutes pour y aller.",
+            "Ça prend dix minutes pour y aller."
+          ]
+        },
+        {
+          "id": "g-time-verbs-03",
+          "type": "build",
+          "en": "How long does the film last?",
+          "a": [
+            "Combien de temps dure le film ?",
+            "Le film dure combien de temps ?"
+          ]
+        },
+        {
+          "id": "g-time-verbs-04",
+          "type": "build",
+          "en": "It takes me an hour.",
+          "a": [
+            "Je mets une heure.",
+            "Ça me prend une heure."
+          ]
+        },
+        {
+          "id": "g-time-verbs-05",
+          "type": "build",
+          "en": "I slept for ten hours.",
+          "a": [
+            "J'ai dormi pendant dix heures.",
+            "J'ai dormi dix heures."
+          ]
+        },
+        {
+          "id": "g-time-verbs-06",
+          "type": "cloze",
+          "fr": "Le voyage ___ trois heures.",
+          "a": [
+            "dure"
+          ],
+          "hint": "durer",
+          "en": "The trip lasts three hours."
+        },
+        {
+          "id": "g-time-verbs-07",
+          "type": "cloze",
+          "fr": "Il ___ dix minutes pour y aller.",
+          "a": [
+            "faut"
+          ],
+          "en": "It takes ten minutes to get there."
+        },
+        {
+          "id": "g-time-verbs-08",
+          "type": "cloze",
+          "fr": "Je ___ vingt minutes à me préparer.",
+          "a": [
+            "mets"
+          ],
+          "hint": "mettre",
+          "en": "It takes me twenty minutes to get ready."
+        }
+      ]
+    },
+    {
+      "id": "politeness",
+      "title": "Being polite: s'il vous plaît, excusez-moi, je voudrais",
+      "fr": "la politesse",
+      "level": "A1",
+      "keywords": [
+        "politeness",
+        "s'il vous plaît",
+        "s'il te plaît",
+        "merci",
+        "de rien",
+        "excusez-moi",
+        "pardon",
+        "je voudrais",
+        "pourriez-vous",
+        "puis-je",
+        "bonjour",
+        "au revoir",
+        "à bientôt",
+        "bonne journée",
+        "enchanté",
+        "volontiers",
+        "je vous en prie",
+        "greetings",
+        "request",
+        "thank you",
+        "sorry"
+      ],
+      "topics": [
+        "greetings",
+        "tu-vous"
+      ],
+      "see": [
+        "tu-vous",
+        "conditionnel",
+        "modals",
+        "imperative"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Politeness in French has **fixed phrases** and **polite forms**. Use **vous** with strangers and elders, **tu** with friends and family. Add **s'il vous plaît / s'il te plaît** to every request, and prefer **je voudrais** (conditional) to *je veux*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "situation",
+                "phrase",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "hello",
+                  "Bonjour (day), Bonsoir (evening), Salut (friends)",
+                  "hello"
+                ],
+                [
+                  "goodbye",
+                  "Au revoir, À bientôt, À demain, Salut",
+                  "goodbye, see you"
+                ],
+                [
+                  "please",
+                  "S'il vous plaît / S'il te plaît",
+                  "please"
+                ],
+                [
+                  "thank you",
+                  "Merci (beaucoup)",
+                  "thank you (very much)"
+                ],
+                [
+                  "you're welcome",
+                  "De rien, Je vous en prie, Il n'y a pas de quoi",
+                  "you're welcome"
+                ],
+                [
+                  "sorry",
+                  "Pardon, Excusez-moi, Désolé(e)",
+                  "sorry, excuse me"
+                ],
+                [
+                  "asking for something",
+                  "Je voudrais un café.",
+                  "I'd like a coffee."
+                ],
+                [
+                  "polite question",
+                  "Pourriez-vous m'aider ?",
+                  "Could you help me?"
+                ],
+                [
+                  "asking permission",
+                  "Puis-je entrer ? / Je peux entrer ?",
+                  "May I come in?"
+                ],
+                [
+                  "meeting someone",
+                  "Enchanté(e). / Ravi(e) de vous rencontrer.",
+                  "Nice to meet you."
+                ],
+                [
+                  "accepting",
+                  "Volontiers. / Avec plaisir.",
+                  "Gladly. / With pleasure."
+                ],
+                [
+                  "wishing",
+                  "Bonne journée ! Bon appétit ! Bon week-end !",
+                  "Have a nice day / meal / weekend."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Polite requests",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The **conditional** softens a request: *Je voudrais* (I'd like), *Pourriez-vous* (could you), *J'aimerais* (I would like), *Vous auriez l'heure ?* Compare: *Donnez-moi un café* (direct) / *Je voudrais un café, s'il vous plaît* (polite)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'd like a coffee.",
+                  "wrong": "Je veux un café.",
+                  "fr": "Je [[voudrais]] un café, s'il vous plaît."
+                },
+                {
+                  "en": "Could you help me?",
+                  "wrong": "Aidez-moi.",
+                  "fr": "[[Pourriez-vous]] m'aider ?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Titles",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Address people with **Monsieur, Madame, Mademoiselle** (rare today) and write **M., Mme**. Use the title with the surname: *Madame Dubois*. **Bonjour Monsieur** is the polite greeting; never only *Bonjour* to a shop assistant. For emails: **Cher Monsieur / Chère Madame**, ending **Cordialement** (neutral) or **Bien cordialement**."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Bonjour, madame. Je voudrais un renseignement.",
+                  "en": "Hello. I'd like some information."
+                },
+                {
+                  "fr": "Excusez-moi, où est la gare ?",
+                  "en": "Excuse me, where's the station?"
+                },
+                {
+                  "fr": "Merci beaucoup. – Je vous en prie.",
+                  "en": "Thank you very much. – You're welcome."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Bonjour, monsieur. Vous avez de la monnaie ?",
+                  "en": "Hello, sir. Do you have change?"
+                },
+                {
+                  "fr": "Je vous remercie de votre aide.",
+                  "en": "Thank you for your help."
+                },
+                {
+                  "fr": "Pardon, je me suis trompé.",
+                  "en": "Sorry, I made a mistake."
+                },
+                {
+                  "fr": "Bonne journée et à bientôt !",
+                  "en": "Have a nice day and see you soon!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-politeness-01",
+          "type": "build",
+          "en": "I'd like a coffee, please.",
+          "a": [
+            "Je voudrais un café, s'il vous plaît.",
+            "Je voudrais un café, s'il te plaît.",
+            "J'aimerais un café, s'il vous plaît."
+          ]
+        },
+        {
+          "id": "g-politeness-02",
+          "type": "build",
+          "en": "Could you help me?",
+          "a": [
+            "Pourriez-vous m'aider ?",
+            "Pouvez-vous m'aider ?",
+            "Est-ce que vous pourriez m'aider ?"
+          ]
+        },
+        {
+          "id": "g-politeness-03",
+          "type": "build",
+          "en": "Excuse me, where is the station?",
+          "a": [
+            "Excusez-moi, où est la gare ?",
+            "Pardon, où est la gare ?"
+          ]
+        },
+        {
+          "id": "g-politeness-04",
+          "type": "build",
+          "en": "Thank you very much.",
+          "a": [
+            "Merci beaucoup."
+          ]
+        },
+        {
+          "id": "g-politeness-05",
+          "type": "build",
+          "en": "You're welcome.",
+          "a": [
+            "De rien.",
+            "Je vous en prie.",
+            "Il n'y a pas de quoi."
+          ]
+        },
+        {
+          "id": "g-politeness-06",
+          "type": "build",
+          "en": "Have a nice day!",
+          "a": [
+            "Bonne journée !"
+          ]
+        },
+        {
+          "id": "g-politeness-07",
+          "type": "build",
+          "en": "Nice to meet you.",
+          "a": [
+            "Enchanté.",
+            "Enchantée.",
+            "Ravi de vous rencontrer.",
+            "Ravie de vous rencontrer."
+          ]
+        },
+        {
+          "id": "g-politeness-08",
+          "type": "cloze",
+          "fr": "Je ___ un café, s'il vous plaît.",
+          "a": [
+            "voudrais"
+          ],
+          "en": "I'd like a coffee, please."
+        },
+        {
+          "id": "g-politeness-09",
+          "type": "cloze",
+          "fr": "___-vous m'aider ?",
+          "a": [
+            "Pourriez"
+          ],
+          "en": "Could you help me?"
+        },
+        {
+          "id": "g-politeness-10",
+          "type": "cloze",
+          "fr": "Merci ! – De ___.",
+          "a": [
+            "rien"
+          ],
+          "en": "Thank you! – You're welcome."
+        }
+      ]
+    }
+  ]
+}

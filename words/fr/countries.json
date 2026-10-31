@@ -1,0 +1,189 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Countries & nationalities",
+  "unit": "1.2",
+  "level": "A1",
+  "words": [
+    {
+      "q": "Francie",
+      "a": "la France"
+    },
+    {
+      "q": "Česko",
+      "a": [
+        "la République tchèque",
+        "la Tchéquie"
+      ]
+    },
+    {
+      "q": "Slovensko",
+      "a": "la Slovaquie"
+    },
+    {
+      "q": "Německo",
+      "a": "l'Allemagne"
+    },
+    {
+      "q": "Rakousko",
+      "a": "l'Autriche"
+    },
+    {
+      "q": "Polsko",
+      "a": "la Pologne"
+    },
+    {
+      "q": "Anglie",
+      "a": "l'Angleterre"
+    },
+    {
+      "q": "Španělsko",
+      "a": "l'Espagne"
+    },
+    {
+      "q": "Itálie",
+      "a": "l'Italie"
+    },
+    {
+      "q": "Belgie",
+      "a": "la Belgique"
+    },
+    {
+      "q": "Švýcarsko",
+      "a": "la Suisse"
+    },
+    {
+      "q": "Kanada",
+      "a": "le Canada"
+    },
+    {
+      "q": "Spojené státy",
+      "a": "les États-Unis"
+    },
+    {
+      "q": "Slovák, Slovenka",
+      "a": "slovaque"
+    },
+    {
+      "q": "Němec",
+      "a": "allemand"
+    },
+    {
+      "q": "Němka",
+      "a": "allemande"
+    },
+    {
+      "q": "Rakušan",
+      "a": "autrichien"
+    },
+    {
+      "q": "Rakušanka",
+      "a": "autrichienne"
+    },
+    {
+      "q": "Polák",
+      "a": "polonais"
+    },
+    {
+      "q": "Polka",
+      "a": "polonaise"
+    },
+    {
+      "q": "Angličan",
+      "a": "anglais"
+    },
+    {
+      "q": "Angličanka",
+      "a": "anglaise"
+    },
+    {
+      "q": "Španěl",
+      "a": "espagnol"
+    },
+    {
+      "q": "Španělka",
+      "a": "espagnole"
+    },
+    {
+      "q": "Ital",
+      "a": "italien"
+    },
+    {
+      "q": "Italka",
+      "a": "italienne"
+    },
+    {
+      "q": "Američan",
+      "a": "américain"
+    },
+    {
+      "q": "Američanka",
+      "a": "américaine"
+    },
+    {
+      "q": "Belgičan, Belgičanka",
+      "a": "belge"
+    },
+    {
+      "q": "Švýcar, Švýcarka",
+      "a": "suisse"
+    },
+    {
+      "q": "čeština",
+      "a": [
+        "le tchèque",
+        "tchèque"
+      ]
+    },
+    {
+      "q": "němčina",
+      "a": [
+        "l'allemand",
+        "allemand"
+      ]
+    },
+    {
+      "q": "španělština",
+      "a": [
+        "l'espagnol",
+        "espagnol"
+      ]
+    },
+    {
+      "q": "jazyk",
+      "a": "la langue"
+    },
+    {
+      "q": "země",
+      "a": "le pays"
+    },
+    {
+      "q": "věk",
+      "a": "l'âge"
+    },
+    {
+      "q": "kolik je ti let?",
+      "a": [
+        "quel âge as-tu ?",
+        "tu as quel âge ?"
+      ]
+    },
+    {
+      "q": "kde bydlíš?",
+      "a": [
+        "où habites-tu ?",
+        "tu habites où ?",
+        "où est-ce que tu habites ?"
+      ]
+    },
+    {
+      "q": "odkud jsi?",
+      "a": [
+        "d'où viens-tu ?",
+        "tu viens d'où ?",
+        "d'où es-tu ?"
+      ]
+    }
+  ]
+}

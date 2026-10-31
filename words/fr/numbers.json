@@ -1,0 +1,218 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Numbers",
+  "unit": "1.2",
+  "level": null,
+  "words": [
+    {
+      "q": "nula",
+      "a": "zéro",
+      "unit": "1.1"
+    },
+    {
+      "q": "jedna",
+      "a": [
+        "un",
+        "une"
+      ],
+      "unit": "1.1"
+    },
+    {
+      "q": "dva",
+      "a": "deux",
+      "unit": "1.1"
+    },
+    {
+      "q": "tři",
+      "a": "trois",
+      "unit": "1.1"
+    },
+    {
+      "q": "čtyři",
+      "a": "quatre",
+      "unit": "1.1"
+    },
+    {
+      "q": "pět",
+      "a": "cinq",
+      "unit": "1.1"
+    },
+    {
+      "q": "šest",
+      "a": "six",
+      "unit": "1.1"
+    },
+    {
+      "q": "sedm",
+      "a": "sept",
+      "unit": "1.1"
+    },
+    {
+      "q": "osm",
+      "a": "huit",
+      "unit": "1.1"
+    },
+    {
+      "q": "devět",
+      "a": "neuf",
+      "unit": "1.1"
+    },
+    {
+      "q": "deset",
+      "a": "dix",
+      "unit": "1.1"
+    },
+    {
+      "q": "jedenáct",
+      "a": "onze",
+      "unit": "1.1"
+    },
+    {
+      "q": "dvanáct",
+      "a": "douze",
+      "unit": "1.1"
+    },
+    {
+      "q": "třináct",
+      "a": "treize",
+      "unit": "1.1"
+    },
+    {
+      "q": "čtrnáct",
+      "a": "quatorze",
+      "unit": "1.1"
+    },
+    {
+      "q": "patnáct",
+      "a": "quinze",
+      "unit": "1.1"
+    },
+    {
+      "q": "šestnáct",
+      "a": "seize",
+      "unit": "1.1"
+    },
+    {
+      "q": "sedmnáct",
+      "a": "dix-sept",
+      "unit": "1.1"
+    },
+    {
+      "q": "osmnáct",
+      "a": "dix-huit",
+      "unit": "1.1"
+    },
+    {
+      "q": "devatenáct",
+      "a": "dix-neuf",
+      "unit": "1.1"
+    },
+    {
+      "q": "dvacet",
+      "a": "vingt",
+      "unit": "1.1"
+    },
+    {
+      "q": "dvacet jedna",
+      "a": [
+        "vingt et un",
+        "vingt-et-un"
+      ]
+    },
+    {
+      "q": "dvacet dva",
+      "a": "vingt-deux"
+    },
+    {
+      "q": "třicet",
+      "a": "trente"
+    },
+    {
+      "q": "čtyřicet",
+      "a": "quarante"
+    },
+    {
+      "q": "padesát",
+      "a": "cinquante"
+    },
+    {
+      "q": "šedesát",
+      "a": "soixante"
+    },
+    {
+      "q": "sedmdesát",
+      "a": "soixante-dix",
+      "unit": "2.1"
+    },
+    {
+      "q": "osmdesát",
+      "a": "quatre-vingts",
+      "unit": "2.1"
+    },
+    {
+      "q": "devadesát",
+      "a": "quatre-vingt-dix",
+      "unit": "2.1"
+    },
+    {
+      "q": "sto",
+      "a": "cent",
+      "unit": "2.1"
+    },
+    {
+      "q": "napůl",
+      "a": "demi",
+      "unit": "3.1"
+    },
+    {
+      "q": "procento",
+      "a": [
+        "pour cent",
+        "pourcentage"
+      ],
+      "unit": "4.2"
+    },
+    {
+      "q": "třicet jedna",
+      "a": [
+        "trente et un",
+        "trente-et-un"
+      ]
+    },
+    {
+      "q": "sedmdesát jedna",
+      "a": [
+        "soixante et onze",
+        "soixante-et-onze"
+      ],
+      "unit": "2.1"
+    },
+    {
+      "q": "devadesát jedna",
+      "a": "quatre-vingt-onze",
+      "unit": "2.1"
+    },
+    {
+      "q": "dvě stě",
+      "a": "deux cents",
+      "unit": "4.2"
+    },
+    {
+      "q": "pět set",
+      "a": "cinq cents",
+      "unit": "4.2"
+    },
+    {
+      "q": "tisíc",
+      "a": "mille",
+      "unit": "4.2"
+    },
+    {
+      "q": "dva tisíce",
+      "a": "deux mille",
+      "unit": "4.2"
+    }
+  ]
+}

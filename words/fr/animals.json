@@ -1,0 +1,70 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Animals",
+  "unit": "2.1",
+  "level": null,
+  "words": [
+    {
+      "q": "zvíře",
+      "a": "animal"
+    },
+    {
+      "q": "zvířata",
+      "a": "animaux"
+    },
+    {
+      "q": "pes",
+      "a": "chien"
+    },
+    {
+      "q": "kočka",
+      "a": "chat"
+    },
+    {
+      "q": "pták",
+      "a": "oiseau"
+    },
+    {
+      "q": "papoušek",
+      "a": "perroquet"
+    },
+    {
+      "q": "křeček",
+      "a": "hamster"
+    },
+    {
+      "q": "morče",
+      "a": "cochon d'Inde"
+    },
+    {
+      "q": "rybička",
+      "a": "poisson"
+    },
+    {
+      "q": "želva",
+      "a": "tortue"
+    },
+    {
+      "q": "králík",
+      "a": "lapin"
+    },
+    {
+      "q": "kůň",
+      "a": "cheval"
+    },
+    {
+      "q": "koně",
+      "a": "chevaux"
+    },
+    {
+      "q": "myš",
+      "a": "souris"
+    },
+    {
+      "q": "had",
+      "a": "serpent"
+    }
+  ]
+}

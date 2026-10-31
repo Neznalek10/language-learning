@@ -1,0 +1,131 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Media",
+  "unit": "8.1",
+  "level": null,
+  "words": [
+    {
+      "q": "animovaný film",
+      "a": "dessin animé"
+    },
+    {
+      "q": "seriál",
+      "a": "série"
+    },
+    {
+      "q": "epizoda",
+      "a": "épisode"
+    },
+    {
+      "q": "sezóna",
+      "a": "saison"
+    },
+    {
+      "q": "seriál o vztazích",
+      "a": "feuilleton"
+    },
+    {
+      "q": "film",
+      "a": "film"
+    },
+    {
+      "q": "komedie",
+      "a": "comédie"
+    },
+    {
+      "q": "drama",
+      "a": "drame"
+    },
+    {
+      "q": "dobrodružný",
+      "a": [
+        "d'aventure",
+        "aventurier"
+      ]
+    },
+    {
+      "q": "zprávy",
+      "a": "journal télévisé"
+    },
+    {
+      "q": "informace",
+      "a": "informations"
+    },
+    {
+      "q": "aktuality",
+      "a": "actualités"
+    },
+    {
+      "q": "reklama",
+      "a": "publicité"
+    },
+    {
+      "q": "detektivní",
+      "a": "policier"
+    },
+    {
+      "q": "pořad",
+      "a": "émission"
+    },
+    {
+      "q": "obrazovka",
+      "a": "écran"
+    },
+    {
+      "q": "závislý",
+      "a": [
+        "accro",
+        "accroché"
+      ]
+    },
+    {
+      "q": "písnička",
+      "a": "chanson"
+    },
+    {
+      "q": "mobil",
+      "a": "portable"
+    },
+    {
+      "q": "počítač",
+      "a": "ordinateur"
+    },
+    {
+      "q": "tablet",
+      "a": "tablette"
+    },
+    {
+      "q": "aplikace",
+      "a": [
+        "appli",
+        "application"
+      ]
+    },
+    {
+      "q": "sociální síť",
+      "a": "réseau social"
+    },
+    {
+      "q": "heslo",
+      "a": "mot de passe"
+    },
+    {
+      "q": "online",
+      "a": "en ligne"
+    },
+    {
+      "q": "zpráva (v mobilu)",
+      "a": "message"
+    },
+    {
+      "q": "video",
+      "a": "vidéo"
+    },
+    {
+      "q": "nabíječka",
+      "a": "chargeur"
+    }
+  ]
+}

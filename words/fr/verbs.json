@@ -1,0 +1,307 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "verbs",
+  "title": "-er verbs",
+  "unit": "2.3",
+  "level": null,
+  "words": [
+    {
+      "q": "myslet",
+      "a": "penser",
+      "unit": "2.2"
+    },
+    {
+      "q": "dát",
+      "a": "donner",
+      "unit": "4.2"
+    },
+    {
+      "q": "hledat",
+      "a": "chercher",
+      "unit": "4.3"
+    },
+    {
+      "q": "najít",
+      "a": "trouver",
+      "unit": "4.3"
+    },
+    {
+      "q": "přát si",
+      "a": "désirer",
+      "unit": "4.2"
+    },
+    {
+      "q": "pozvat",
+      "a": "inviter",
+      "unit": "8.2"
+    },
+    {
+      "q": "vzít s sebou",
+      "a": "apporter",
+      "unit": "8.2"
+    },
+    {
+      "q": "poslat",
+      "a": "envoyer",
+      "unit": "8.1"
+    },
+    {
+      "q": "litovat",
+      "a": "regretter",
+      "unit": "6.2"
+    },
+    {
+      "q": "přestat, skončit (s něčím)",
+      "a": "arrêter",
+      "unit": "8.1"
+    },
+    {
+      "q": "vydělat / zvítězit",
+      "a": "gagner"
+    },
+    {
+      "q": "chodit",
+      "a": "marcher",
+      "unit": "5.1"
+    },
+    {
+      "q": "tancovat",
+      "a": "danser"
+    },
+    {
+      "q": "zpívat",
+      "a": "chanter"
+    },
+    {
+      "q": "pracovat",
+      "a": "travailler",
+      "unit": "3.1"
+    },
+    {
+      "q": "bydlet",
+      "a": "habiter",
+      "unit": "1.2"
+    },
+    {
+      "q": "vrátit se",
+      "a": "rentrer",
+      "unit": "3.2"
+    },
+    {
+      "q": "mluvit",
+      "a": "parler",
+      "unit": "1.2"
+    },
+    {
+      "q": "studovat",
+      "a": "étudier",
+      "unit": "3.1"
+    },
+    {
+      "q": "poslouchat",
+      "a": "écouter"
+    },
+    {
+      "q": "mít rád",
+      "a": "aimer"
+    },
+    {
+      "q": "dívat se",
+      "a": "regarder"
+    },
+    {
+      "q": "začít",
+      "a": "commencer",
+      "unit": "3.1"
+    },
+    {
+      "q": "koupit",
+      "a": "acheter",
+      "unit": "4.2"
+    },
+    {
+      "q": "hrát",
+      "a": "jouer"
+    },
+    {
+      "q": "provozovat",
+      "a": "pratiquer"
+    },
+    {
+      "q": "věšet",
+      "a": "accrocher",
+      "unit": "6.1"
+    },
+    {
+      "q": "žertovat",
+      "a": "plaisanter",
+      "unit": "2.2"
+    },
+    {
+      "q": "jíst",
+      "a": "manger",
+      "unit": "4.1"
+    },
+    {
+      "q": "pomoci",
+      "a": "aider",
+      "unit": "4.3"
+    },
+    {
+      "q": "cestovat",
+      "a": "voyager",
+      "unit": "7.1"
+    },
+    {
+      "q": "sněžit",
+      "a": "neiger",
+      "unit": "5.2"
+    },
+    {
+      "q": "mrznout",
+      "a": "geler",
+      "unit": "5.2"
+    },
+    {
+      "q": "trvat",
+      "a": "durer",
+      "unit": "6.2"
+    },
+    {
+      "q": "založit",
+      "a": "fonder",
+      "unit": "9"
+    },
+    {
+      "q": "zbožňovat",
+      "a": "adorer"
+    },
+    {
+      "q": "nesnášet",
+      "a": "détester"
+    },
+    {
+      "q": "mít raději",
+      "a": "préférer"
+    },
+    {
+      "q": "plavat",
+      "a": "nager"
+    },
+    {
+      "q": "lyžovat",
+      "a": "skier"
+    },
+    {
+      "q": "platit",
+      "a": "payer",
+      "unit": "4.2"
+    },
+    {
+      "q": "uklízet",
+      "a": "ranger",
+      "unit": "4.3"
+    },
+    {
+      "q": "zahnout",
+      "a": "tourner",
+      "unit": "5.1"
+    },
+    {
+      "q": "přejít",
+      "a": "traverser",
+      "unit": "5.1"
+    },
+    {
+      "q": "pokračovat",
+      "a": "continuer",
+      "unit": "5.1"
+    },
+    {
+      "q": "navštívit",
+      "a": "visiter",
+      "unit": "5.1"
+    },
+    {
+      "q": "přijet, dorazit",
+      "a": "arriver",
+      "unit": "7.1"
+    },
+    {
+      "q": "zůstat",
+      "a": "rester",
+      "unit": "7.1"
+    },
+    {
+      "q": "spadnout",
+      "a": "tomber",
+      "unit": "7.1"
+    },
+    {
+      "q": "nosit, mít na sobě",
+      "a": "porter",
+      "unit": "6.1"
+    },
+    {
+      "q": "zkusit si",
+      "a": "essayer",
+      "unit": "6.1"
+    },
+    {
+      "q": "zapomenout",
+      "a": "oublier",
+      "unit": "6.2"
+    },
+    {
+      "q": "potkat",
+      "a": "rencontrer",
+      "unit": "6.2"
+    },
+    {
+      "q": "opalovat se",
+      "a": "bronzer",
+      "unit": "7.1"
+    },
+    {
+      "q": "vstoupit",
+      "a": "entrer",
+      "unit": "7.1"
+    },
+    {
+      "q": "vyjít nahoru",
+      "a": "monter",
+      "unit": "7.1"
+    },
+    {
+      "q": "vrátit se (zpátky)",
+      "a": "retourner",
+      "unit": "7.1"
+    },
+    {
+      "q": "kašlat",
+      "a": "tousser",
+      "unit": "7.2"
+    },
+    {
+      "q": "stáhnout",
+      "a": "télécharger",
+      "unit": "8.1"
+    },
+    {
+      "q": "sdílet",
+      "a": "partager",
+      "unit": "8.1"
+    },
+    {
+      "q": "popřát",
+      "a": "souhaiter",
+      "unit": "8.2"
+    },
+    {
+      "q": "slavit",
+      "a": "fêter",
+      "unit": "8.2"
+    }
+  ]
+}

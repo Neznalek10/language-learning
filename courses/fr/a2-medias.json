@@ -1,0 +1,1495 @@
+{
+  "schema": 1,
+  "goals": [
+    "Mluvit o mobilu, počítači a sociálních sítích",
+    "Říct, co rád sleduješ a jak se ti to líbí",
+    "Nahradit věc zájmenem le, la, les",
+    "Nahradit osobu zájmenem lui, leur",
+    "Zápor: ne ... jamais, ne ... plus, ne ... rien, ne ... personne"
+  ],
+  "lessons": [
+    {
+      "id": "fr-medias-1",
+      "title": "Mon portable",
+      "subtitle": "Telefon, počítač a internet",
+      "topics": [
+        "media"
+      ],
+      "words": [
+        "media#mobil",
+        "media#počítač",
+        "media#tablet",
+        "media#aplikace",
+        "media#sociální síť",
+        "media#heslo",
+        "media#online",
+        "media#zpráva (v mobilu)",
+        "media#video",
+        "media#nabíječka",
+        "media#obrazovka",
+        "verbs#stáhnout",
+        "verbs#sdílet",
+        "verbs#poslat"
+      ],
+      "learn": [
+        {
+          "title": "Obrazovky",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "mobil",
+                  "un portable (un téléphone)"
+                ],
+                [
+                  "počítač",
+                  "un ordinateur"
+                ],
+                [
+                  "tablet",
+                  "une tablette"
+                ],
+                [
+                  "aplikace",
+                  "une appli"
+                ],
+                [
+                  "sociální síť",
+                  "un réseau social (des réseaux sociaux)"
+                ],
+                [
+                  "heslo",
+                  "un mot de passe"
+                ],
+                [
+                  "být online",
+                  "être en ligne"
+                ],
+                [
+                  "poslat zprávu",
+                  "envoyer un message"
+                ],
+                [
+                  "stáhnout aplikaci",
+                  "télécharger une appli"
+                ],
+                [
+                  "sdílet fotku",
+                  "partager une photo"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai oublié mon mot de ___.",
+                "a": [
+                  "passe"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Čas u obrazovky",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "*Le temps d'écran* = čas strávený u obrazovky. *Je passe deux heures par jour sur mon portable.* (Trávím dvě hodiny denně na mobilu.) Na internetu = *sur Internet*, na sociálních sítích = *sur les réseaux sociaux*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je regarde des vidéos sur mon portable.",
+                  "cs": "Dívám se na videa v mobilu."
+                },
+                {
+                  "fr": "Il joue sur son ordinateur tous les soirs.",
+                  "cs": "Každý večer hraje na počítači."
+                },
+                {
+                  "fr": "Tu es sur quels réseaux sociaux ?",
+                  "cs": "Na jakých sociálních sítích jsi?"
+                },
+                {
+                  "fr": "Mon portable n'a plus de batterie.",
+                  "cs": "Mobil mi došel."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Pošli mi zprávu!",
+                "a": [
+                  "Envoie-moi un message !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-medias-1-01",
+          "type": "cloze",
+          "fr": "Mon ___ n'a plus de batterie.",
+          "a": [
+            "portable"
+          ],
+          "hint": "mobil"
+        },
+        {
+          "id": "fr-medias-1-02",
+          "type": "cloze",
+          "fr": "Je fais mes devoirs sur l'___.",
+          "a": [
+            "ordinateur"
+          ],
+          "hint": "počítač"
+        },
+        {
+          "id": "fr-medias-1-03",
+          "type": "cloze",
+          "fr": "Tu es sur les réseaux ___ ?",
+          "a": [
+            "sociaux"
+          ]
+        },
+        {
+          "id": "fr-medias-1-04",
+          "type": "cloze",
+          "fr": "Je ___ une nouvelle appli.",
+          "a": [
+            "télécharge"
+          ],
+          "hint": "stáhnout"
+        },
+        {
+          "id": "fr-medias-1-05",
+          "type": "cloze",
+          "fr": "Elle ___ ses photos avec ses amis.",
+          "a": [
+            "partage"
+          ],
+          "hint": "partager"
+        },
+        {
+          "id": "fr-medias-1-06",
+          "type": "cloze",
+          "fr": "Où est mon ___ ? Mon portable est déchargé.",
+          "a": [
+            "chargeur"
+          ],
+          "hint": "nabíječka"
+        },
+        {
+          "id": "fr-medias-1-07",
+          "type": "build",
+          "cs": "Trávím hodně času na mobilu.",
+          "a": [
+            "Je passe beaucoup de temps sur mon portable.",
+            "Je passe beaucoup de temps sur le portable."
+          ]
+        },
+        {
+          "id": "fr-medias-1-08",
+          "type": "build",
+          "cs": "Poslal jsem ti zprávu.",
+          "a": [
+            "Je t'ai envoyé un message."
+          ]
+        },
+        {
+          "id": "fr-medias-1-09",
+          "type": "build",
+          "cs": "Nemám heslo.",
+          "a": [
+            "Je n'ai pas le mot de passe.",
+            "Je n'ai pas de mot de passe."
+          ]
+        },
+        {
+          "id": "fr-medias-1-10",
+          "type": "build",
+          "cs": "Moje sestra je pořád online.",
+          "a": [
+            "Ma sœur est toujours en ligne."
+          ]
+        },
+        {
+          "id": "fr-medias-1-11",
+          "type": "build",
+          "cs": "Dívám se na videa na internetu.",
+          "a": [
+            "Je regarde des vidéos sur Internet."
+          ]
+        },
+        {
+          "id": "fr-medias-1-12",
+          "type": "transform",
+          "task_cs": "Dej do množného čísla",
+          "fr": "un réseau social",
+          "a": [
+            "des réseaux sociaux"
+          ]
+        },
+        {
+          "id": "fr-medias-1-13",
+          "type": "order",
+          "cs": "Stáhl jsem si novou hru.",
+          "a": [
+            "J'ai téléchargé un nouveau jeu"
+          ],
+          "extra": [
+            "nouvelle",
+            "une"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-medias-2",
+      "title": "Séries et films",
+      "subtitle": "Co sleduješ",
+      "topics": [
+        "media",
+        "likes"
+      ],
+      "words": [
+        "media#animovaný film",
+        "media#seriál",
+        "media#epizoda",
+        "media#sezóna",
+        "media#film",
+        "media#komedie",
+        "media#drama",
+        "media#zprávy",
+        "media#reklama",
+        "media#detektivní",
+        "media#pořad",
+        "media#písnička",
+        "media#dobrodružný",
+        "media#seriál o vztazích",
+        "media#informace",
+        "media#aktuality"
+      ],
+      "learn": [
+        {
+          "title": "Co rád sleduješ?",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "seriál",
+                  "une série"
+                ],
+                [
+                  "epizoda",
+                  "un épisode"
+                ],
+                [
+                  "řada (sezóna)",
+                  "une saison"
+                ],
+                [
+                  "animovaný film",
+                  "un dessin animé"
+                ],
+                [
+                  "komedie",
+                  "une comédie"
+                ],
+                [
+                  "detektivka",
+                  "un film policier"
+                ],
+                [
+                  "zprávy v televizi",
+                  "le journal (télévisé)"
+                ],
+                [
+                  "reklama",
+                  "une publicité (une pub)"
+                ],
+                [
+                  "pořad",
+                  "une émission"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Ce soir, je regarde un nouvel ___ de ma série.",
+                "a": [
+                  "épisode"
+                ],
+                "hint": "epizoda"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Jaké to je?",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "vtipný",
+                  "drôle"
+                ],
+                [
+                  "nudný",
+                  "ennuyeux"
+                ],
+                [
+                  "napínavý",
+                  "passionnant"
+                ],
+                [
+                  "skvělý",
+                  "génial"
+                ],
+                [
+                  "hrozný, k ničemu",
+                  "nul"
+                ],
+                [
+                  "dojemný",
+                  "émouvant"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "aimer + le, la, les",
+              "cs": "Po *aimer, adorer, détester, préférer* stojí určitý člen: *J'aime les comédies.* Ne *des comédies*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'adore les séries policières.",
+                  "cs": "Zbožňuju detektivní seriály."
+                },
+                {
+                  "fr": "Je trouve ce film ennuyeux.",
+                  "cs": "Ten film mi přijde nudný."
+                },
+                {
+                  "fr": "Cette émission est nulle.",
+                  "cs": "Ten pořad je hrozný."
+                },
+                {
+                  "fr": "Le dernier épisode est génial !",
+                  "cs": "Poslední epizoda je skvělá!"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Miluju komedie.",
+                "a": [
+                  "J'adore les comédies."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-medias-2-01",
+          "type": "cloze",
+          "fr": "J'adore ___ dessins animés.",
+          "a": [
+            "les"
+          ]
+        },
+        {
+          "id": "fr-medias-2-02",
+          "type": "cloze",
+          "fr": "Il regarde le ___ à 20 heures.",
+          "a": [
+            "journal"
+          ],
+          "hint": "zprávy"
+        },
+        {
+          "id": "fr-medias-2-03",
+          "type": "cloze",
+          "fr": "Cette série a trois ___.",
+          "a": [
+            "saisons"
+          ],
+          "hint": "řady"
+        },
+        {
+          "id": "fr-medias-2-04",
+          "type": "cloze",
+          "fr": "Je déteste les ___ à la télé.",
+          "a": [
+            "publicités",
+            "pubs"
+          ],
+          "hint": "reklamy"
+        },
+        {
+          "id": "fr-medias-2-05",
+          "type": "cloze",
+          "fr": "Ce film est très ___, j'ai beaucoup ri.",
+          "a": [
+            "drôle"
+          ],
+          "hint": "vtipný"
+        },
+        {
+          "id": "fr-medias-2-06",
+          "type": "build",
+          "cs": "Jaký je tvůj oblíbený seriál?",
+          "a": [
+            "Quelle est ta série préférée ?",
+            "C'est quoi ta série préférée ?"
+          ]
+        },
+        {
+          "id": "fr-medias-2-07",
+          "type": "build",
+          "cs": "Nemám rád detektivky.",
+          "a": [
+            "Je n'aime pas les films policiers."
+          ]
+        },
+        {
+          "id": "fr-medias-2-08",
+          "type": "build",
+          "cs": "Ten film je nudný.",
+          "a": [
+            "Ce film est ennuyeux."
+          ]
+        },
+        {
+          "id": "fr-medias-2-09",
+          "type": "build",
+          "cs": "Díváme se na animované filmy.",
+          "a": [
+            "Nous regardons des dessins animés.",
+            "On regarde des dessins animés."
+          ]
+        },
+        {
+          "id": "fr-medias-2-10",
+          "type": "build",
+          "cs": "Tahle písnička je skvělá!",
+          "a": [
+            "Cette chanson est géniale !",
+            "Cette chanson est super !"
+          ]
+        },
+        {
+          "id": "fr-medias-2-11",
+          "type": "build",
+          "cs": "Viděl jsi poslední epizodu?",
+          "a": [
+            "Tu as vu le dernier épisode ?",
+            "Est-ce que tu as vu le dernier épisode ?"
+          ]
+        },
+        {
+          "id": "fr-medias-2-12",
+          "type": "order",
+          "cs": "Ten seriál je fakt napínavý.",
+          "a": [
+            "Cette série est vraiment passionnante"
+          ],
+          "extra": [
+            "passionnant",
+            "Ce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-medias-3",
+      "title": "Je le regarde",
+      "subtitle": "Zájmena le, la, les",
+      "topics": [
+        "object-pronouns",
+        "media"
+      ],
+      "words": [
+        "verbs#přestat, skončit (s něčím)"
+      ],
+      "learn": [
+        {
+          "title": "le, la, les",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Abys neopakoval podstatné jméno, nahradíš ho zájmenem *le* (mužský rod), *la* (ženský rod) nebo *les* (množné číslo). Před samohláskou je *l'*. Zájmeno stojí **před slovesem**: *Je regarde la série → Je la regarde.*"
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Dívám se na něj. (le film)",
+                  "Je le regarde."
+                ],
+                [
+                  "Dívám se na něj. (la série)",
+                  "Je la regarde."
+                ],
+                [
+                  "Dívám se na ně. (les vidéos)",
+                  "Je les regarde."
+                ],
+                [
+                  "Zbožňuju ho. (ten pořad)",
+                  "Je l'adore."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_cs": "Nahraď podtržená slova zájmenem",
+                "fr": "Je regarde [la télé].",
+                "a": [
+                  "Je la regarde."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Zápor a infinitiv",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "V záporu obklopí *ne ... pas* zájmeno i sloveso: *Je ne la regarde pas.* S infinitivem stojí zájmeno před infinitivem: *Je vais le regarder ce soir.*"
+            },
+            {
+              "type": "tip",
+              "title": "víc v Gramatice",
+              "cs": "Všechny situace krok za krokem najdeš v Gramatice v kapitole *Object pronouns step by step*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ton portable ? Je ne le trouve pas.",
+                  "cs": "Tvůj mobil? Nemůžu ho najít."
+                },
+                {
+                  "fr": "Cette appli ? Je l'utilise tous les jours.",
+                  "cs": "Tahle aplikace? Používám ji každý den."
+                },
+                {
+                  "fr": "Les infos ? Je les regarde le soir.",
+                  "cs": "Zprávy? Dívám se na ně večer."
+                },
+                {
+                  "fr": "Le match ? On va le regarder chez Tom.",
+                  "cs": "Zápas? Budeme se na něj dívat u Toma."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Uvidím ho zítra. (ten film)",
+                "a": [
+                  "Je vais le voir demain.",
+                  "Je le vois demain.",
+                  "Je le verrai demain."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-medias-3-01",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Je regarde [le match].",
+          "a": [
+            "Je le regarde."
+          ]
+        },
+        {
+          "id": "fr-medias-3-02",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Tu écoutes [cette chanson] ?",
+          "a": [
+            "Tu l'écoutes ?"
+          ]
+        },
+        {
+          "id": "fr-medias-3-03",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Nous aimons [les séries].",
+          "a": [
+            "Nous les aimons."
+          ]
+        },
+        {
+          "id": "fr-medias-3-04",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Elle prend [son portable].",
+          "a": [
+            "Elle le prend."
+          ]
+        },
+        {
+          "id": "fr-medias-3-05",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Je ne regarde pas [les infos].",
+          "a": [
+            "Je ne les regarde pas."
+          ]
+        },
+        {
+          "id": "fr-medias-3-06",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Je vais télécharger [l'appli].",
+          "a": [
+            "Je vais la télécharger."
+          ]
+        },
+        {
+          "id": "fr-medias-3-07",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Tu peux arrêter [la vidéo] ?",
+          "a": [
+            "Tu peux l'arrêter ?"
+          ]
+        },
+        {
+          "id": "fr-medias-3-08",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Il cherche [son chargeur].",
+          "a": [
+            "Il le cherche."
+          ]
+        },
+        {
+          "id": "fr-medias-3-09",
+          "type": "build",
+          "cs": "Mám ho rád. (ten seriál)",
+          "a": [
+            "Je l'aime bien.",
+            "Je l'aime.",
+            "Je l'adore."
+          ]
+        },
+        {
+          "id": "fr-medias-3-10",
+          "type": "build",
+          "cs": "Nevidím je. (moje klíče)",
+          "a": [
+            "Je ne les vois pas."
+          ]
+        },
+        {
+          "id": "fr-medias-3-11",
+          "type": "cloze",
+          "fr": "Ma tablette ? Je l'___ tous les jours.",
+          "a": [
+            "utilise"
+          ],
+          "hint": "používat"
+        },
+        {
+          "id": "fr-medias-3-12",
+          "type": "cloze",
+          "fr": "Les vidéos ? Je ___ regarde le soir.",
+          "a": [
+            "les"
+          ]
+        },
+        {
+          "id": "fr-medias-3-13",
+          "type": "order",
+          "cs": "Budu se na něj dívat večer. (film)",
+          "a": [
+            "Je vais le regarder ce soir"
+          ],
+          "extra": [
+            "la",
+            "regarde"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-medias-4",
+      "title": "Je lui envoie un message",
+      "subtitle": "Zájmena lui, leur",
+      "topics": [
+        "object-pronouns"
+      ],
+      "words": [
+        "verbs-irregular#říct, říkat"
+      ],
+      "learn": [
+        {
+          "title": "lui a leur",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Když se sloveso pojí s *à* + osoba (*envoyer à, écrire à, téléphoner à, répondre à, dire à, parler à*), nahradíš osobu zájmenem *lui* (jemu i jí) nebo *leur* (jim)."
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Píšu mu.",
+                  "Je lui écris."
+                ],
+                [
+                  "Píšu jí.",
+                  "Je lui écris."
+                ],
+                [
+                  "Píšu jim.",
+                  "Je leur écris."
+                ],
+                [
+                  "Volám mu.",
+                  "Je lui téléphone."
+                ],
+                [
+                  "Odpovídám jim.",
+                  "Je leur réponds."
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "lui = jemu i jí",
+              "cs": "*Lui* platí pro muže i ženu. A *leur* nikdy nemá *-s*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_cs": "Nahraď podtržená slova zájmenem",
+                "fr": "J'écris [à ma grand-mère].",
+                "a": [
+                  "Je lui écris."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "le, nebo lui?",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Zeptej se: stojí po slovese *à*? Ano → *lui / leur*. Ne → *le / la / les*. *Je regarde Paul → Je le regarde. Je parle à Paul → Je lui parle.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon frère ? Je lui envoie une vidéo.",
+                  "cs": "Brácha? Posílám mu video."
+                },
+                {
+                  "fr": "Mes parents ? Je leur téléphone le soir.",
+                  "cs": "Rodiče? Volám jim večer."
+                },
+                {
+                  "fr": "Léa ? Je l'appelle demain.",
+                  "cs": "Léa? Zavolám jí zítra."
+                },
+                {
+                  "fr": "Tu leur as répondu ?",
+                  "cs": "Odpověděl jsi jim?"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Volám jim.",
+                "a": [
+                  "Je leur téléphone.",
+                  "Je les appelle."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-medias-4-01",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Je téléphone [à Paul].",
+          "a": [
+            "Je lui téléphone."
+          ]
+        },
+        {
+          "id": "fr-medias-4-02",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Elle écrit [à ses amies].",
+          "a": [
+            "Elle leur écrit."
+          ]
+        },
+        {
+          "id": "fr-medias-4-03",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Nous répondons [au prof].",
+          "a": [
+            "Nous lui répondons."
+          ]
+        },
+        {
+          "id": "fr-medias-4-04",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Tu envoies une photo [à ta mère] ?",
+          "a": [
+            "Tu lui envoies une photo ?"
+          ]
+        },
+        {
+          "id": "fr-medias-4-05",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Il dit bonjour [aux voisins].",
+          "a": [
+            "Il leur dit bonjour."
+          ]
+        },
+        {
+          "id": "fr-medias-4-06",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Je vais écrire [à mon cousin].",
+          "a": [
+            "Je vais lui écrire."
+          ]
+        },
+        {
+          "id": "fr-medias-4-07",
+          "type": "transform",
+          "task_cs": "Nahraď podtržená slova zájmenem",
+          "fr": "Je ne parle pas [à mes voisins].",
+          "a": [
+            "Je ne leur parle pas."
+          ]
+        },
+        {
+          "id": "fr-medias-4-08",
+          "type": "cloze",
+          "fr": "Léa ? Je ___ envoie un message.",
+          "a": [
+            "lui"
+          ]
+        },
+        {
+          "id": "fr-medias-4-09",
+          "type": "cloze",
+          "fr": "Mes parents ? Je ___ téléphone tous les jours.",
+          "a": [
+            "leur"
+          ]
+        },
+        {
+          "id": "fr-medias-4-10",
+          "type": "cloze",
+          "fr": "Paul ? Je ___ vois demain.",
+          "a": [
+            "le"
+          ]
+        },
+        {
+          "id": "fr-medias-4-11",
+          "type": "build",
+          "cs": "Napíšu mu zprávu.",
+          "a": [
+            "Je vais lui écrire un message.",
+            "Je lui écris un message.",
+            "Je vais lui envoyer un message.",
+            "Je lui envoie un message."
+          ]
+        },
+        {
+          "id": "fr-medias-4-12",
+          "type": "build",
+          "cs": "Co jsi jim řekl?",
+          "a": [
+            "Qu'est-ce que tu leur as dit ?",
+            "Tu leur as dit quoi ?"
+          ]
+        },
+        {
+          "id": "fr-medias-4-13",
+          "type": "order",
+          "cs": "Pošlu jí video.",
+          "a": [
+            "Je vais lui envoyer une vidéo"
+          ],
+          "extra": [
+            "la",
+            "leur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-medias-5",
+      "title": "Je ne regarde jamais la télé",
+      "subtitle": "Zápor: jamais, plus, rien, personne",
+      "topics": [
+        "negation",
+        "media"
+      ],
+      "words": [
+        "media#závislý"
+      ],
+      "learn": [
+        {
+          "title": "Další zápory",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Nikdy se nedívám na televizi.",
+                  "Je ne regarde jamais la télé."
+                ],
+                [
+                  "Už nehraju videohry.",
+                  "Je ne joue plus aux jeux vidéo."
+                ],
+                [
+                  "Nic nevidím.",
+                  "Je ne vois rien."
+                ],
+                [
+                  "Nikoho neznám.",
+                  "Je ne connais personne."
+                ],
+                [
+                  "Mám jen deset minut.",
+                  "Je n'ai que dix minutes."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "cs": "*Ne* stojí před slovesem, druhé slovo za ním. Česky říkáš zápor dvakrát (*nikdy ne*), francouzsky taky: *ne ... jamais*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je ne regarde ___ la télé, je préfère YouTube.",
+                "a": [
+                  "jamais"
+                ],
+                "hint": "nikdy"
+              }
+            }
+          ]
+        },
+        {
+          "title": "V minulosti",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "V passé composé: *Je n'ai jamais vu ce film. Je n'ai rien compris.* Jen *personne* stojí až za příčestím: *Je n'ai vu personne.*"
+            },
+            {
+              "type": "tip",
+              "title": "être accro",
+              "cs": "*Être accro* = být závislý: *Il est accro à son portable.* (Je závislý na mobilu.)"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je ne suis plus sur Facebook.",
+                  "cs": "Už nejsem na Facebooku."
+                },
+                {
+                  "fr": "Il ne dit rien.",
+                  "cs": "Nic neříká."
+                },
+                {
+                  "fr": "Personne ne répond.",
+                  "cs": "Nikdo neodpovídá."
+                },
+                {
+                  "fr": "Je n'ai rien posté hier.",
+                  "cs": "Včera jsem nic nesdílel."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_cs": "Převeď do záporu s jamais",
+                "fr": "Je joue à des jeux en ligne.",
+                "a": [
+                  "Je ne joue jamais à des jeux en ligne.",
+                  "Je ne joue jamais aux jeux en ligne."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-medias-5-01",
+          "type": "cloze",
+          "fr": "Il ne joue ___ aux jeux vidéo, il a arrêté.",
+          "a": [
+            "plus"
+          ],
+          "hint": "už"
+        },
+        {
+          "id": "fr-medias-5-02",
+          "type": "cloze",
+          "fr": "Je ne vois ___ sur l'écran.",
+          "a": [
+            "rien"
+          ],
+          "hint": "nic"
+        },
+        {
+          "id": "fr-medias-5-03",
+          "type": "cloze",
+          "fr": "Je ne connais ___ dans ce groupe.",
+          "a": [
+            "personne"
+          ],
+          "hint": "nikoho"
+        },
+        {
+          "id": "fr-medias-5-04",
+          "type": "cloze",
+          "fr": "Je n'ai ___ dix minutes.",
+          "a": [
+            "que"
+          ],
+          "hint": "jen"
+        },
+        {
+          "id": "fr-medias-5-05",
+          "type": "transform",
+          "task_cs": "Převeď do záporu s rien",
+          "fr": "Je regarde quelque chose.",
+          "a": [
+            "Je ne regarde rien."
+          ]
+        },
+        {
+          "id": "fr-medias-5-06",
+          "type": "transform",
+          "task_cs": "Převeď do záporu s plus",
+          "fr": "Il est accro à son portable.",
+          "a": [
+            "Il n'est plus accro à son portable."
+          ]
+        },
+        {
+          "id": "fr-medias-5-07",
+          "type": "transform",
+          "task_cs": "Převeď do záporu s personne",
+          "fr": "Je vois quelqu'un.",
+          "a": [
+            "Je ne vois personne."
+          ]
+        },
+        {
+          "id": "fr-medias-5-08",
+          "type": "build",
+          "cs": "Nikdy nehraju hry na mobilu.",
+          "a": [
+            "Je ne joue jamais à des jeux sur mon portable.",
+            "Je ne joue jamais aux jeux sur mon portable.",
+            "Je ne joue jamais sur mon portable."
+          ]
+        },
+        {
+          "id": "fr-medias-5-09",
+          "type": "build",
+          "cs": "Už nejsem na sociálních sítích.",
+          "a": [
+            "Je ne suis plus sur les réseaux sociaux."
+          ]
+        },
+        {
+          "id": "fr-medias-5-10",
+          "type": "build",
+          "cs": "Nic jsem nepochopil.",
+          "a": [
+            "Je n'ai rien compris."
+          ]
+        },
+        {
+          "id": "fr-medias-5-11",
+          "type": "build",
+          "cs": "Nikdo mi nepíše.",
+          "a": [
+            "Personne ne m'écrit."
+          ]
+        },
+        {
+          "id": "fr-medias-5-12",
+          "type": "build",
+          "cs": "Můj bratr je závislý na mobilu.",
+          "a": [
+            "Mon frère est accro à son portable.",
+            "Mon frère est accroché à son portable."
+          ]
+        },
+        {
+          "id": "fr-medias-5-13",
+          "type": "order",
+          "cs": "Nikdy se nedívám na zprávy.",
+          "a": [
+            "Je ne regarde jamais le journal"
+          ],
+          "extra": [
+            "pas",
+            "rien"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-medias-t-01",
+        "lesson": "fr-medias-1",
+        "type": "cloze",
+        "fr": "J'envoie un ___ à ma copine.",
+        "a": [
+          "message"
+        ],
+        "hint": "zpráva"
+      },
+      {
+        "id": "fr-medias-t-02",
+        "lesson": "fr-medias-1",
+        "type": "build",
+        "cs": "Nemám nabíječku.",
+        "a": [
+          "Je n'ai pas de chargeur."
+        ]
+      },
+      {
+        "id": "fr-medias-t-03",
+        "lesson": "fr-medias-1",
+        "type": "build",
+        "cs": "Stáhl jsem si aplikaci.",
+        "a": [
+          "J'ai téléchargé une appli.",
+          "J'ai téléchargé une application."
+        ]
+      },
+      {
+        "id": "fr-medias-t-04",
+        "lesson": "fr-medias-1",
+        "type": "cloze",
+        "fr": "Je fais une recherche sur l'___.",
+        "a": [
+          "ordinateur"
+        ],
+        "hint": "počítač"
+      },
+      {
+        "id": "fr-medias-t-05",
+        "lesson": "fr-medias-1",
+        "type": "build",
+        "cs": "Sdílím fotky s kamarády.",
+        "a": [
+          "Je partage des photos avec mes amis.",
+          "Je partage mes photos avec mes amis.",
+          "Je partage des photos avec mes copains."
+        ]
+      },
+      {
+        "id": "fr-medias-t-06",
+        "lesson": "fr-medias-2",
+        "type": "build",
+        "cs": "Miluju animované filmy.",
+        "a": [
+          "J'adore les dessins animés."
+        ]
+      },
+      {
+        "id": "fr-medias-t-07",
+        "lesson": "fr-medias-2",
+        "type": "cloze",
+        "fr": "Cette ___ est trop longue : il y a dix saisons !",
+        "a": [
+          "série"
+        ],
+        "hint": "seriál"
+      },
+      {
+        "id": "fr-medias-t-08",
+        "lesson": "fr-medias-2",
+        "type": "build",
+        "cs": "Ten film byl nudný.",
+        "a": [
+          "Ce film était ennuyeux.",
+          "Ce film a été ennuyeux."
+        ]
+      },
+      {
+        "id": "fr-medias-t-09",
+        "lesson": "fr-medias-2",
+        "type": "build",
+        "cs": "Jaký film máš nejradši?",
+        "a": [
+          "Quel est ton film préféré ?",
+          "C'est quoi ton film préféré ?"
+        ]
+      },
+      {
+        "id": "fr-medias-t-10",
+        "lesson": "fr-medias-2",
+        "type": "cloze",
+        "fr": "J'aime regarder les ___ de sport à la télé.",
+        "a": [
+          "émissions"
+        ],
+        "hint": "pořady"
+      },
+      {
+        "id": "fr-medias-t-11",
+        "lesson": "fr-medias-3",
+        "type": "transform",
+        "task_cs": "Nahraď podtržená slova zájmenem",
+        "fr": "Je regarde [la série] le soir.",
+        "a": [
+          "Je la regarde le soir."
+        ]
+      },
+      {
+        "id": "fr-medias-t-12",
+        "lesson": "fr-medias-3",
+        "type": "transform",
+        "task_cs": "Nahraď podtržená slova zájmenem",
+        "fr": "Tu as [mon chargeur] ?",
+        "a": [
+          "Tu l'as ?"
+        ]
+      },
+      {
+        "id": "fr-medias-t-13",
+        "lesson": "fr-medias-3",
+        "type": "transform",
+        "task_cs": "Nahraď podtržená slova zájmenem",
+        "fr": "Nous n'aimons pas [ces publicités].",
+        "a": [
+          "Nous ne les aimons pas."
+        ]
+      },
+      {
+        "id": "fr-medias-t-14",
+        "lesson": "fr-medias-3",
+        "type": "cloze",
+        "fr": "Le film ? Je vais ___ voir samedi.",
+        "a": [
+          "le"
+        ]
+      },
+      {
+        "id": "fr-medias-t-15",
+        "lesson": "fr-medias-3",
+        "type": "build",
+        "cs": "Hledám ho. (mobil)",
+        "a": [
+          "Je le cherche."
+        ]
+      },
+      {
+        "id": "fr-medias-t-16",
+        "lesson": "fr-medias-4",
+        "type": "transform",
+        "task_cs": "Nahraď podtržená slova zájmenem",
+        "fr": "J'écris [à mes cousins].",
+        "a": [
+          "Je leur écris."
+        ]
+      },
+      {
+        "id": "fr-medias-t-17",
+        "lesson": "fr-medias-4",
+        "type": "transform",
+        "task_cs": "Nahraď podtržená slova zájmenem",
+        "fr": "Tu réponds [à Léa] ?",
+        "a": [
+          "Tu lui réponds ?"
+        ]
+      },
+      {
+        "id": "fr-medias-t-18",
+        "lesson": "fr-medias-4",
+        "type": "cloze",
+        "fr": "Mon père ? Je ___ envoie une photo.",
+        "a": [
+          "lui"
+        ]
+      },
+      {
+        "id": "fr-medias-t-19",
+        "lesson": "fr-medias-4",
+        "type": "build",
+        "cs": "Volám mu každý den.",
+        "a": [
+          "Je lui téléphone tous les jours.",
+          "Je l'appelle tous les jours."
+        ]
+      },
+      {
+        "id": "fr-medias-t-20",
+        "lesson": "fr-medias-4",
+        "type": "build",
+        "cs": "Napiš jim!",
+        "a": [
+          "Écris-leur !"
+        ]
+      },
+      {
+        "id": "fr-medias-t-21",
+        "lesson": "fr-medias-5",
+        "type": "cloze",
+        "fr": "Je ne poste ___ sur Instagram.",
+        "a": [
+          "rien"
+        ],
+        "hint": "nic"
+      },
+      {
+        "id": "fr-medias-t-22",
+        "lesson": "fr-medias-5",
+        "type": "build",
+        "cs": "Nikdy nesleduju zprávy.",
+        "a": [
+          "Je ne regarde jamais le journal.",
+          "Je ne regarde jamais les infos.",
+          "Je ne regarde jamais les informations."
+        ]
+      },
+      {
+        "id": "fr-medias-t-23",
+        "lesson": "fr-medias-5",
+        "type": "transform",
+        "task_cs": "Převeď do záporu s plus",
+        "fr": "Je joue à ce jeu.",
+        "a": [
+          "Je ne joue plus à ce jeu."
+        ]
+      },
+      {
+        "id": "fr-medias-t-24",
+        "lesson": "fr-medias-5",
+        "type": "build",
+        "cs": "Nikdo nevolá.",
+        "a": [
+          "Personne ne téléphone.",
+          "Personne n'appelle."
+        ]
+      },
+      {
+        "id": "fr-medias-t-25",
+        "lesson": "fr-medias-5",
+        "type": "build",
+        "cs": "Nic jsem neviděl.",
+        "a": [
+          "Je n'ai rien vu."
+        ]
+      }
+    ]
+  }
+}

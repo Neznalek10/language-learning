@@ -1,0 +1,1412 @@
+{
+  "articles": [
+    {
+      "id": "sj-01-forms",
+      "title": "Step 1: The subjunctive: regular forms",
+      "fr": "le subjonctif présent : les formes",
+      "level": "B1",
+      "keywords": [
+        "step by step",
+        "subjunctive",
+        "subjonctif",
+        "que je",
+        "forms",
+        "ils parlent"
+      ],
+      "topics": [],
+      "see": [
+        "subjonctif-basics"
+      ],
+      "tense": "subjonctif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The subjunctive (*subjonctif*) is a verb form used after certain expressions, almost always after **que**: *Il faut que tu viennes.* To form it, take the **ils** form of the present, drop **-ent**, and add *-e, -es, -e, -ions, -iez, -ent*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "ils (present)",
+                "stem",
+                "subjunctive"
+              ],
+              "rows": [
+                [
+                  "ils parlent",
+                  "parl-",
+                  "que je parle"
+                ],
+                [
+                  "ils finissent",
+                  "finiss-",
+                  "que je finisse"
+                ],
+                [
+                  "ils attendent",
+                  "attend-",
+                  "que j'attende"
+                ],
+                [
+                  "ils partent",
+                  "part-",
+                  "que je parte"
+                ],
+                [
+                  "ils écrivent",
+                  "écriv-",
+                  "que j'écrive"
+                ],
+                [
+                  "ils disent",
+                  "dis-",
+                  "que je dise"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Take ils, drop -ent",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "finir",
+              "tense": "subjonctif-present"
+            },
+            {
+              "type": "text",
+              "en": "For *-er* verbs *je, tu, il, ils* look like the present: *que je parle*. You see the difference with *-ir* and *-re* verbs: *que je finisse, que je parte*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "attendre",
+                "tense": "subjonctif-present",
+                "person": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "Nous and vous: like the imparfait",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Nous* and *vous* take the stem of *nous* in the present, so they look like the imparfait: *que nous parlions, que vous finissiez*. Verbs with two stems show it clearly: *que je prenne / que nous prenions, que je vienne / que nous venions, que je boive / que nous buvions*."
+            },
+            {
+              "type": "table",
+              "verb": "prendre",
+              "tense": "subjonctif-present"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "prendre",
+                "tense": "subjonctif-present",
+                "person": 3
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il faut que je parte.",
+                  "en": "I have to leave."
+                },
+                {
+                  "fr": "Je veux que tu finisses ton assiette.",
+                  "en": "I want you to finish your plate."
+                },
+                {
+                  "fr": "Il faut que vous écriviez la lettre.",
+                  "en": "You have to write the letter."
+                },
+                {
+                  "fr": "Le prof veut que nous lisions ce livre.",
+                  "en": "The teacher wants us to read this book."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-sj-01-forms-01",
+          "type": "form",
+          "verb": "parler",
+          "tense": "subjonctif-present",
+          "person": 0
+        },
+        {
+          "id": "g-sj-01-forms-02",
+          "type": "form",
+          "verb": "regarder",
+          "tense": "subjonctif-present",
+          "person": 5
+        },
+        {
+          "id": "g-sj-01-forms-03",
+          "type": "form",
+          "verb": "finir",
+          "tense": "subjonctif-present",
+          "person": 2
+        },
+        {
+          "id": "g-sj-01-forms-04",
+          "type": "form",
+          "verb": "choisir",
+          "tense": "subjonctif-present",
+          "person": 1
+        },
+        {
+          "id": "g-sj-01-forms-05",
+          "type": "form",
+          "verb": "vendre",
+          "tense": "subjonctif-present",
+          "person": 3
+        },
+        {
+          "id": "g-sj-01-forms-06",
+          "type": "form",
+          "verb": "partir",
+          "tense": "subjonctif-present",
+          "person": 2
+        },
+        {
+          "id": "g-sj-01-forms-07",
+          "type": "form",
+          "verb": "dormir",
+          "tense": "subjonctif-present",
+          "person": 4
+        },
+        {
+          "id": "g-sj-01-forms-08",
+          "type": "form",
+          "verb": "écrire",
+          "tense": "subjonctif-present",
+          "person": 1
+        },
+        {
+          "id": "g-sj-01-forms-09",
+          "type": "form",
+          "verb": "dire",
+          "tense": "subjonctif-present",
+          "person": 0
+        },
+        {
+          "id": "g-sj-01-forms-10",
+          "type": "form",
+          "verb": "lire",
+          "tense": "subjonctif-present",
+          "person": 2
+        },
+        {
+          "id": "g-sj-01-forms-11",
+          "type": "form",
+          "verb": "prendre",
+          "tense": "subjonctif-present",
+          "person": 0
+        },
+        {
+          "id": "g-sj-01-forms-12",
+          "type": "form",
+          "verb": "venir",
+          "tense": "subjonctif-present",
+          "person": 1
+        },
+        {
+          "id": "g-sj-01-forms-13",
+          "type": "form",
+          "verb": "boire",
+          "tense": "subjonctif-present",
+          "person": 3
+        },
+        {
+          "id": "g-sj-01-forms-14",
+          "type": "form",
+          "verb": "voir",
+          "tense": "subjonctif-present",
+          "person": 5
+        }
+      ]
+    },
+    {
+      "id": "sj-02-irregular",
+      "title": "Step 2: Irregular subjunctives",
+      "fr": "le subjonctif irrégulier",
+      "level": "B1",
+      "keywords": [
+        "step by step",
+        "subjunctive",
+        "irregular",
+        "sois",
+        "aie",
+        "aille",
+        "fasse",
+        "puisse",
+        "sache",
+        "veuille"
+      ],
+      "topics": [],
+      "see": [
+        "subjonctif-basics"
+      ],
+      "tense": "subjonctif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Seven common verbs are irregular. Learn them as a group: **être, avoir, aller, faire, pouvoir, savoir, vouloir**. Two impersonal ones are also useful: *qu'il faille* (falloir), *qu'il pleuve* (pleuvoir)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "que je",
+                "que nous"
+              ],
+              "rows": [
+                [
+                  "être",
+                  "sois",
+                  "soyons"
+                ],
+                [
+                  "avoir",
+                  "aie",
+                  "ayons"
+                ],
+                [
+                  "aller",
+                  "aille",
+                  "allions"
+                ],
+                [
+                  "faire",
+                  "fasse",
+                  "fassions"
+                ],
+                [
+                  "pouvoir",
+                  "puisse",
+                  "puissions"
+                ],
+                [
+                  "savoir",
+                  "sache",
+                  "sachions"
+                ],
+                [
+                  "vouloir",
+                  "veuille",
+                  "voulions"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Être and avoir",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "être",
+              "tense": "subjonctif-present"
+            },
+            {
+              "type": "table",
+              "verb": "avoir",
+              "tense": "subjonctif-present"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Il faut que tu ___ patient.",
+                "a": [
+                  "sois"
+                ],
+                "hint": "être",
+                "en": "You have to be patient."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Aller, faire, pouvoir, savoir, vouloir",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Aller* and *vouloir* go back to the regular stem for *nous, vous*: *que nous allions, que vous vouliez*. *Faire, pouvoir, savoir* keep the irregular stem everywhere: *que nous fassions, puissions, sachions*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "faire",
+                "tense": "subjonctif-present",
+                "person": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il faut que tu sois à l'heure.",
+                  "en": "You have to be on time."
+                },
+                {
+                  "fr": "Je ne crois pas qu'il ait raison.",
+                  "en": "I don't think he's right."
+                },
+                {
+                  "fr": "Il faut qu'on aille à la gare.",
+                  "en": "We have to go to the station."
+                },
+                {
+                  "fr": "Je veux que vous fassiez attention.",
+                  "en": "I want you to be careful."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-sj-02-irregular-01",
+          "type": "form",
+          "verb": "être",
+          "tense": "subjonctif-present",
+          "person": 0
+        },
+        {
+          "id": "g-sj-02-irregular-02",
+          "type": "form",
+          "verb": "être",
+          "tense": "subjonctif-present",
+          "person": 3
+        },
+        {
+          "id": "g-sj-02-irregular-03",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "subjonctif-present",
+          "person": 1
+        },
+        {
+          "id": "g-sj-02-irregular-04",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "subjonctif-present",
+          "person": 2
+        },
+        {
+          "id": "g-sj-02-irregular-05",
+          "type": "form",
+          "verb": "aller",
+          "tense": "subjonctif-present",
+          "person": 0
+        },
+        {
+          "id": "g-sj-02-irregular-06",
+          "type": "form",
+          "verb": "aller",
+          "tense": "subjonctif-present",
+          "person": 4
+        },
+        {
+          "id": "g-sj-02-irregular-07",
+          "type": "form",
+          "verb": "faire",
+          "tense": "subjonctif-present",
+          "person": 2
+        },
+        {
+          "id": "g-sj-02-irregular-08",
+          "type": "form",
+          "verb": "pouvoir",
+          "tense": "subjonctif-present",
+          "person": 0
+        },
+        {
+          "id": "g-sj-02-irregular-09",
+          "type": "form",
+          "verb": "savoir",
+          "tense": "subjonctif-present",
+          "person": 1
+        },
+        {
+          "id": "g-sj-02-irregular-10",
+          "type": "form",
+          "verb": "vouloir",
+          "tense": "subjonctif-present",
+          "person": 2
+        },
+        {
+          "id": "g-sj-02-irregular-11",
+          "type": "cloze",
+          "fr": "Il faut qu'elle ___ ses devoirs.",
+          "a": [
+            "fasse"
+          ],
+          "hint": "faire",
+          "en": "She has to do her homework."
+        }
+      ]
+    },
+    {
+      "id": "sj-03-il-faut-que",
+      "title": "Step 3: Il faut que: necessity",
+      "fr": "il faut que + subjonctif",
+      "level": "B1",
+      "keywords": [
+        "step by step",
+        "subjunctive",
+        "il faut que",
+        "il est important que",
+        "il vaut mieux que",
+        "must",
+        "have to"
+      ],
+      "topics": [],
+      "see": [
+        "subjonctif-uses"
+      ],
+      "tense": "subjonctif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Il faut que* + subjunctive = **someone** has to do something: *Il faut que je parte.* (I have to leave.) The same goes for *il est important que, il est nécessaire que, il vaut mieux que* (it's better that)."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Il"
+                    ],
+                    [
+                      "V",
+                      "faut"
+                    ],
+                    [
+                      "conj",
+                      "que"
+                    ],
+                    [
+                      "S",
+                      "tu"
+                    ],
+                    [
+                      "V",
+                      "viennes."
+                    ]
+                  ],
+                  "en": "You have to come."
+                }
+              ],
+              "formula": [
+                [
+                  "S",
+                  "il"
+                ],
+                [
+                  "V",
+                  "faut"
+                ],
+                [
+                  "conj",
+                  "que"
+                ],
+                "S",
+                [
+                  "V",
+                  "subjonctif"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With a person or in general",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "For a general rule, use the infinitive: *Il faut travailler.* (One has to work.) For a specific person, use *que* + subjunctive: *Il faut que tu travailles.* *Devoir* means the same: *Tu dois travailler.*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "One has to sleep.",
+                  "fr": "Il faut [[dormir]]."
+                },
+                {
+                  "en": "You have to sleep.",
+                  "fr": "Il faut que tu [[dormes]]."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Il faut que je ___ mes devoirs.",
+                "a": [
+                  "fasse"
+                ],
+                "hint": "faire",
+                "en": "I have to do my homework."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il faut que nous partions à huit heures.",
+                  "en": "We have to leave at eight."
+                },
+                {
+                  "fr": "Il est important que vous soyez à l'heure.",
+                  "en": "It's important that you're on time."
+                },
+                {
+                  "fr": "Il vaut mieux que tu prennes un parapluie.",
+                  "en": "You'd better take an umbrella."
+                },
+                {
+                  "fr": "Il faut qu'on aille au supermarché.",
+                  "en": "We have to go to the supermarket."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-sj-03-il-faut-que-01",
+          "type": "cloze",
+          "fr": "Il faut que nous ___ à huit heures.",
+          "a": [
+            "partions"
+          ],
+          "hint": "partir",
+          "en": "We have to leave at eight."
+        },
+        {
+          "id": "g-sj-03-il-faut-que-02",
+          "type": "cloze",
+          "fr": "Il faut que tu ___ ta chambre.",
+          "a": [
+            "ranges"
+          ],
+          "hint": "ranger",
+          "en": "You have to tidy your room."
+        },
+        {
+          "id": "g-sj-03-il-faut-que-03",
+          "type": "cloze",
+          "fr": "Il est important que vous ___ à l'heure.",
+          "a": [
+            "soyez"
+          ],
+          "hint": "être",
+          "en": "It's important that you're on time."
+        },
+        {
+          "id": "g-sj-03-il-faut-que-04",
+          "type": "cloze",
+          "fr": "Il vaut mieux qu'il ___ un taxi.",
+          "a": [
+            "prenne"
+          ],
+          "hint": "prendre",
+          "en": "He'd better take a taxi."
+        },
+        {
+          "id": "g-sj-03-il-faut-que-05",
+          "type": "cloze",
+          "fr": "Il faut qu'elle ___ sa mère.",
+          "a": [
+            "aide"
+          ],
+          "hint": "aider",
+          "en": "She has to help her mother."
+        },
+        {
+          "id": "g-sj-03-il-faut-que-06",
+          "type": "cloze",
+          "fr": "Il est nécessaire que tout le monde ___ la règle.",
+          "a": [
+            "sache"
+          ],
+          "hint": "savoir",
+          "en": "Everyone needs to know the rule."
+        },
+        {
+          "id": "g-sj-03-il-faut-que-07",
+          "type": "cloze",
+          "fr": "Il faut qu'on ___ au supermarché.",
+          "a": [
+            "aille"
+          ],
+          "hint": "aller",
+          "en": "We have to go to the supermarket."
+        },
+        {
+          "id": "g-sj-03-il-faut-que-08",
+          "type": "transform",
+          "task_en": "Say it with il faut que",
+          "fr": "Tu dois travailler.",
+          "a": [
+            "Il faut que tu travailles."
+          ]
+        },
+        {
+          "id": "g-sj-03-il-faut-que-09",
+          "type": "transform",
+          "task_en": "Say it with il faut que",
+          "fr": "Nous devons finir.",
+          "a": [
+            "Il faut que nous finissions."
+          ]
+        },
+        {
+          "id": "g-sj-03-il-faut-que-10",
+          "type": "transform",
+          "task_en": "Say it with il faut que",
+          "fr": "Je dois partir.",
+          "a": [
+            "Il faut que je parte."
+          ]
+        },
+        {
+          "id": "g-sj-03-il-faut-que-11",
+          "type": "build",
+          "en": "You have to come. (tu)",
+          "a": [
+            "Il faut que tu viennes.",
+            "Tu dois venir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sj-04-wishes-feelings",
+      "title": "Step 4: Wishes and feelings: je veux que, je suis content que",
+      "fr": "le subjonctif après la volonté et les sentiments",
+      "level": "B1",
+      "keywords": [
+        "step by step",
+        "subjunctive",
+        "je veux que",
+        "vouloir que",
+        "content que",
+        "avoir peur que",
+        "regretter que"
+      ],
+      "topics": [],
+      "see": [
+        "subjonctif-uses"
+      ],
+      "tense": "subjonctif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "After verbs of **wanting** (*vouloir que, aimer que, préférer que, souhaiter que*) and **feelings** (*être content que, être triste que, avoir peur que, regretter que, c'est dommage que*) the second verb is in the subjunctive, **when the two subjects are different**."
+            },
+            {
+              "type": "tip",
+              "en": "Whenever you mean *I want someone to...*, French needs *que* + subjunctive: *Je veux que tu viennes* (I want you to come).",
+              "title": "A clue"
+            }
+          ]
+        },
+        {
+          "title": "Same subject: infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "If both verbs have the same subject, there is no *que*, just the infinitive."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I want you to come.",
+                  "wrong": "Je veux toi venir.",
+                  "fr": "Je veux que tu [[viennes]]."
+                },
+                {
+                  "en": "I want to come.",
+                  "wrong": "Je veux que je vienne.",
+                  "fr": "Je veux [[venir]]."
+                },
+                {
+                  "en": "I'm happy that you're here.",
+                  "fr": "Je suis content que tu [[sois]] là."
+                },
+                {
+                  "en": "I'm happy to be here.",
+                  "fr": "Je suis content [[d'être]] là."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je veux que tu ___ avec moi.",
+                "a": [
+                  "viennes"
+                ],
+                "hint": "venir",
+                "en": "I want you to come with me."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mes parents veulent que je fasse mes devoirs.",
+                  "en": "My parents want me to do my homework."
+                },
+                {
+                  "fr": "Je suis content que tu sois là.",
+                  "en": "I'm glad you're here."
+                },
+                {
+                  "fr": "Elle a peur que son chien soit malade.",
+                  "en": "She's afraid her dog is ill."
+                },
+                {
+                  "fr": "C'est dommage qu'il pleuve.",
+                  "en": "It's a pity it's raining."
+                },
+                {
+                  "fr": "Je préfère que vous veniez demain.",
+                  "en": "I'd rather you came tomorrow."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-sj-04-wishes-feelings-01",
+          "type": "cloze",
+          "fr": "Mes parents veulent que je ___ mes devoirs.",
+          "a": [
+            "fasse"
+          ],
+          "hint": "faire",
+          "en": "My parents want me to do my homework."
+        },
+        {
+          "id": "g-sj-04-wishes-feelings-02",
+          "type": "cloze",
+          "fr": "Je suis content que tu ___ là.",
+          "a": [
+            "sois"
+          ],
+          "hint": "être",
+          "en": "I'm glad you're here."
+        },
+        {
+          "id": "g-sj-04-wishes-feelings-03",
+          "type": "cloze",
+          "fr": "Elle a peur que son chien ___ malade.",
+          "a": [
+            "soit"
+          ],
+          "hint": "être",
+          "en": "She's afraid her dog is ill."
+        },
+        {
+          "id": "g-sj-04-wishes-feelings-04",
+          "type": "cloze",
+          "fr": "Nous préférons que vous ___ demain.",
+          "a": [
+            "veniez"
+          ],
+          "hint": "venir",
+          "en": "We'd rather you came tomorrow."
+        },
+        {
+          "id": "g-sj-04-wishes-feelings-05",
+          "type": "cloze",
+          "fr": "C'est dommage qu'il ___.",
+          "a": [
+            "pleuve"
+          ],
+          "hint": "pleuvoir",
+          "en": "It's a pity it's raining."
+        },
+        {
+          "id": "g-sj-04-wishes-feelings-06",
+          "type": "cloze",
+          "fr": "Le prof aimerait que nous ___ plus.",
+          "a": [
+            "lisions"
+          ],
+          "hint": "lire",
+          "en": "The teacher would like us to read more."
+        },
+        {
+          "id": "g-sj-04-wishes-feelings-07",
+          "type": "cloze",
+          "fr": "Je regrette que tu ne ___ pas venir.",
+          "a": [
+            "puisses"
+          ],
+          "hint": "pouvoir",
+          "en": "I'm sorry you can't come."
+        },
+        {
+          "id": "g-sj-04-wishes-feelings-08",
+          "type": "transform",
+          "task_en": "Join into one sentence with que",
+          "fr": "Je veux. Tu viens.",
+          "a": [
+            "Je veux que tu viennes."
+          ]
+        },
+        {
+          "id": "g-sj-04-wishes-feelings-09",
+          "type": "transform",
+          "task_en": "Join into one sentence with que",
+          "fr": "Je suis triste. Tu pars.",
+          "a": [
+            "Je suis triste que tu partes."
+          ]
+        },
+        {
+          "id": "g-sj-04-wishes-feelings-10",
+          "type": "build",
+          "en": "I want you to listen. (tu)",
+          "a": [
+            "Je veux que tu écoutes."
+          ]
+        },
+        {
+          "id": "g-sj-04-wishes-feelings-11",
+          "type": "build",
+          "en": "I want to sleep.",
+          "a": [
+            "Je veux dormir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sj-05-conjunctions",
+      "title": "Step 5: After conjunctions: pour que, avant que, bien que",
+      "fr": "le subjonctif après une conjonction",
+      "level": "B1",
+      "keywords": [
+        "step by step",
+        "subjunctive",
+        "pour que",
+        "avant que",
+        "bien que",
+        "sans que",
+        "à condition que",
+        "jusqu'à ce que"
+      ],
+      "topics": [],
+      "see": [
+        "subjonctif-conjunctions",
+        "conjunctions"
+      ],
+      "tense": "subjonctif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Some conjunctions always take the subjunctive. Others never do. Learn the two lists side by side."
+            },
+            {
+              "type": "table",
+              "head": [
+                "+ subjunctive",
+                "meaning",
+                "+ indicative",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "pour que",
+                  "so that",
+                  "parce que",
+                  "because"
+                ],
+                [
+                  "avant que",
+                  "before",
+                  "après que",
+                  "after"
+                ],
+                [
+                  "bien que",
+                  "although",
+                  "pendant que",
+                  "while"
+                ],
+                [
+                  "sans que",
+                  "without",
+                  "quand",
+                  "when"
+                ],
+                [
+                  "à condition que",
+                  "provided that",
+                  "si",
+                  "if"
+                ],
+                [
+                  "jusqu'à ce que",
+                  "until",
+                  "depuis que",
+                  "since"
+                ]
+              ],
+              "textCols": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Same subject: preposition + infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When both parts have the same subject, use the preposition with the infinitive instead: *pour partir, avant de partir, sans dire*. *Je travaille pour réussir* (I work to succeed) but *Je travaille pour que mes parents soient contents*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Rentre avant qu'il ___ nuit.",
+                "a": [
+                  "fasse"
+                ],
+                "hint": "faire",
+                "en": "Come home before it gets dark."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je t'explique pour que tu comprennes.",
+                  "en": "I'm explaining so that you understand."
+                },
+                {
+                  "fr": "Bien qu'il soit malade, il va à l'école.",
+                  "en": "Although he's ill, he goes to school."
+                },
+                {
+                  "fr": "Tu peux sortir à condition que tu rentres à dix heures.",
+                  "en": "You can go out provided you're back at ten."
+                },
+                {
+                  "fr": "Attends ici jusqu'à ce que je revienne.",
+                  "en": "Wait here until I come back."
+                },
+                {
+                  "fr": "Je reste parce que je suis fatigué.",
+                  "en": "I'm staying because I'm tired."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-sj-05-conjunctions-01",
+          "type": "cloze",
+          "fr": "Je t'explique pour que tu ___.",
+          "a": [
+            "comprennes"
+          ],
+          "en": "I'm explaining so that you understand."
+        },
+        {
+          "id": "g-sj-05-conjunctions-02",
+          "type": "cloze",
+          "fr": "Bien qu'il ___ malade, il va à l'école.",
+          "a": [
+            "soit"
+          ],
+          "hint": "être",
+          "en": "Although he's ill, he goes to school."
+        },
+        {
+          "id": "g-sj-05-conjunctions-03",
+          "type": "cloze",
+          "fr": "Je te prête mon vélo à condition que tu ___ prudent.",
+          "a": [
+            "sois"
+          ],
+          "hint": "être",
+          "en": "I'll lend you my bike provided you're careful."
+        },
+        {
+          "id": "g-sj-05-conjunctions-04",
+          "type": "cloze",
+          "fr": "Il est parti sans que je le ___.",
+          "a": [
+            "voie"
+          ],
+          "hint": "voir",
+          "en": "He left without me seeing him."
+        },
+        {
+          "id": "g-sj-05-conjunctions-05",
+          "type": "cloze",
+          "fr": "Attends jusqu'à ce que je ___.",
+          "a": [
+            "finisse"
+          ],
+          "hint": "finir",
+          "en": "Wait until I finish."
+        },
+        {
+          "id": "g-sj-05-conjunctions-06",
+          "type": "cloze",
+          "fr": "Je parle lentement pour que vous ___ suivre.",
+          "a": [
+            "puissiez"
+          ],
+          "hint": "pouvoir",
+          "en": "I'm speaking slowly so that you can follow."
+        },
+        {
+          "id": "g-sj-05-conjunctions-07",
+          "type": "cloze",
+          "fr": "Je reste parce que je ___ fatigué.",
+          "a": [
+            "suis"
+          ],
+          "hint": "être",
+          "en": "I'm staying because I'm tired."
+        },
+        {
+          "id": "g-sj-05-conjunctions-08",
+          "type": "cloze",
+          "fr": "Quand tu ___, appelle-moi.",
+          "a": [
+            "arriveras",
+            "arrives"
+          ],
+          "hint": "arriver",
+          "en": "When you arrive, call me."
+        },
+        {
+          "id": "g-sj-05-conjunctions-09",
+          "type": "build",
+          "en": "I'm leaving before it rains.",
+          "a": [
+            "Je pars avant qu'il pleuve.",
+            "Je pars avant qu'il ne pleuve."
+          ]
+        },
+        {
+          "id": "g-sj-05-conjunctions-10",
+          "type": "build",
+          "en": "I'm working to succeed.",
+          "a": [
+            "Je travaille pour réussir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sj-06-mix",
+      "title": "Step 6: Subjunctive or indicative? Mixed practice",
+      "fr": "subjonctif ou indicatif ?",
+      "level": "B1",
+      "keywords": [
+        "step by step",
+        "subjunctive",
+        "indicative",
+        "je pense que",
+        "je ne pense pas que",
+        "espérer que",
+        "doute",
+        "mix"
+      ],
+      "topics": [],
+      "see": [
+        "subjonctif-uses",
+        "subjonctif-conjunctions"
+      ],
+      "tense": "subjonctif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Ask: is the second part a **fact**, or something you are **sure** of? Indicative. Is it **wanted, needed, felt, doubted or only possible**? Subjunctive. *Je pense qu'il vient* (I think so: indicative) but *Je ne pense pas qu'il vienne* (doubt: subjunctive)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "indicative",
+                "subjunctive"
+              ],
+              "rows": [
+                [
+                  "je pense que",
+                  "je ne pense pas que"
+                ],
+                [
+                  "je crois que",
+                  "je doute que"
+                ],
+                [
+                  "il est sûr que",
+                  "il est possible que"
+                ],
+                [
+                  "j'espère que",
+                  "je souhaite que"
+                ],
+                [
+                  "je sais que",
+                  "je veux que"
+                ],
+                [
+                  "parce que, quand, après que",
+                  "pour que, avant que, bien que"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "*Espérer que* takes the **indicative**: *J'espère que tu vas bien.* It feels like a wish, but French treats it as an expectation."
+            },
+            {
+              "type": "tip",
+              "en": "*Penser* and *croire* take the indicative when you say yes (*Je crois qu'il est là*) and the subjunctive in the negative (*Je ne crois pas qu'il soit là*)."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je pense qu'elle a raison.",
+                  "en": "I think she's right."
+                },
+                {
+                  "fr": "Je ne pense pas qu'elle ait raison.",
+                  "en": "I don't think she's right."
+                },
+                {
+                  "fr": "J'espère que tu viendras.",
+                  "en": "I hope you'll come."
+                },
+                {
+                  "fr": "Il est possible qu'il neige demain.",
+                  "en": "It may snow tomorrow."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-sj-06-mix-01",
+          "type": "cloze",
+          "fr": "Je pense qu'il ___ demain.",
+          "a": [
+            "viendra",
+            "vient"
+          ],
+          "hint": "venir",
+          "en": "I think he's coming tomorrow."
+        },
+        {
+          "id": "g-sj-06-mix-02",
+          "type": "cloze",
+          "fr": "Je ne pense pas qu'il ___ demain.",
+          "a": [
+            "vienne"
+          ],
+          "hint": "venir",
+          "en": "I don't think he's coming tomorrow."
+        },
+        {
+          "id": "g-sj-06-mix-03",
+          "type": "cloze",
+          "fr": "J'espère que tu ___ bien.",
+          "a": [
+            "vas"
+          ],
+          "hint": "aller",
+          "en": "I hope you're well."
+        },
+        {
+          "id": "g-sj-06-mix-04",
+          "type": "cloze",
+          "fr": "Je souhaite que tu ___ bien.",
+          "a": [
+            "ailles"
+          ],
+          "hint": "aller",
+          "en": "I wish you well."
+        },
+        {
+          "id": "g-sj-06-mix-05",
+          "type": "cloze",
+          "fr": "Il est sûr qu'elle ___ raison.",
+          "a": [
+            "a"
+          ],
+          "hint": "avoir",
+          "en": "It's certain she's right."
+        },
+        {
+          "id": "g-sj-06-mix-06",
+          "type": "cloze",
+          "fr": "Il est possible qu'elle ___ raison.",
+          "a": [
+            "ait"
+          ],
+          "hint": "avoir",
+          "en": "She may be right."
+        },
+        {
+          "id": "g-sj-06-mix-07",
+          "type": "cloze",
+          "fr": "Je sais que vous ___ fatigués.",
+          "a": [
+            "êtes"
+          ],
+          "hint": "être",
+          "en": "I know you're tired."
+        },
+        {
+          "id": "g-sj-06-mix-08",
+          "type": "cloze",
+          "fr": "Je doute que vous ___ fatigués.",
+          "a": [
+            "soyez"
+          ],
+          "hint": "être",
+          "en": "I doubt you're tired."
+        },
+        {
+          "id": "g-sj-06-mix-09",
+          "type": "cloze",
+          "fr": "Je crois que nous ___ en retard.",
+          "a": [
+            "sommes"
+          ],
+          "hint": "être",
+          "en": "I think we're late."
+        },
+        {
+          "id": "g-sj-06-mix-10",
+          "type": "cloze",
+          "fr": "Bien qu'il ___ froid, je sors.",
+          "a": [
+            "fasse"
+          ],
+          "hint": "faire",
+          "en": "Although it's cold, I'm going out."
+        },
+        {
+          "id": "g-sj-06-mix-11",
+          "type": "cloze",
+          "fr": "Je reste parce qu'il ___ froid.",
+          "a": [
+            "fait"
+          ],
+          "hint": "faire",
+          "en": "I'm staying in because it's cold."
+        },
+        {
+          "id": "g-sj-06-mix-12",
+          "type": "build",
+          "en": "I don't think he knows.",
+          "a": [
+            "Je ne pense pas qu'il sache.",
+            "Je ne crois pas qu'il sache."
+          ]
+        },
+        {
+          "id": "g-sj-06-mix-13",
+          "type": "build",
+          "en": "I hope you can come. (tu)",
+          "a": [
+            "J'espère que tu peux venir.",
+            "J'espère que tu pourras venir."
+          ]
+        }
+      ]
+    }
+  ]
+}

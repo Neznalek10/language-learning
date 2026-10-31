@@ -1,0 +1,3292 @@
+{
+  "articles": [
+    {
+      "id": "gender",
+      "title": "Gender of nouns",
+      "fr": "le genre des noms",
+      "level": "A1",
+      "keywords": [
+        "gender",
+        "masculine",
+        "feminine",
+        "masculin",
+        "féminin",
+        "le",
+        "la",
+        "endings",
+        "-tion",
+        "-age",
+        "feminine form"
+      ],
+      "topics": [
+        "articles"
+      ],
+      "see": [
+        "article-definite",
+        "plural",
+        "adj-agreement",
+        "adj-forms"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French has only **two genders**: masculine (*le*) and feminine (*la*). There is no neuter. The gender is often different from Czech, so learn every word **together with its article**: not *table*, but *la table*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "the bed (feminine in Czech)",
+                  "fr": "[[le]] lit",
+                  "note": "Masculine in French."
+                },
+                {
+                  "en": "the car (neuter in Czech)",
+                  "fr": "[[la]] voiture"
+                },
+                {
+                  "en": "the table (masculine in Czech)",
+                  "fr": "[[la]] table"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Endings that give a hint",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "usually masculine",
+                "usually feminine"
+              ],
+              "rows": [
+                [
+                  "-age: le fromage, le garage",
+                  "-tion, -sion: la nation, la télévision"
+                ],
+                [
+                  "-ment: le moment, le sentiment",
+                  "-té: la liberté, la santé"
+                ],
+                [
+                  "-eau: le bateau, le gâteau",
+                  "-ette: la baguette, la fourchette"
+                ],
+                [
+                  "-isme: le tourisme",
+                  "-ure: la voiture, la culture"
+                ],
+                [
+                  "-o: le vélo, le stylo",
+                  "-ie, -ée: la boulangerie, la journée"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "There are exceptions (*la plage, la page, l'eau* are feminine, *le musée* is masculine), but these rules hold for most words."
+            }
+          ]
+        },
+        {
+          "title": "People and animals",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With people the feminine often adds *-e*: *un ami → une amie, un étudiant → une étudiante*. Some words change more: *un acteur → une actrice, un chanteur → une chanteuse, un Italien → une Italienne*."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "adj-forms"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "le livre, la table",
+                  "en": "the book, the table"
+                },
+                {
+                  "fr": "le problème",
+                  "en": "the problem (masculine, even though it ends in -e)"
+                },
+                {
+                  "fr": "la photo",
+                  "en": "the photo (short for la photographie)"
+                },
+                {
+                  "fr": "le week-end",
+                  "en": "the weekend"
+                },
+                {
+                  "fr": "un élève, une élève",
+                  "en": "a pupil (boy), a pupil (girl)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-gender-01",
+          "type": "cloze",
+          "fr": "___ voiture est rouge.",
+          "a": [
+            "La"
+          ],
+          "en": "The car is red."
+        },
+        {
+          "id": "g-gender-02",
+          "type": "cloze",
+          "fr": "___ fromage est bon.",
+          "a": [
+            "Le"
+          ],
+          "en": "The cheese is good."
+        },
+        {
+          "id": "g-gender-03",
+          "type": "cloze",
+          "fr": "___ télévision est grande.",
+          "a": [
+            "La"
+          ],
+          "en": "The television is big."
+        },
+        {
+          "id": "g-gender-04",
+          "type": "cloze",
+          "fr": "___ gâteau est délicieux.",
+          "a": [
+            "Le"
+          ],
+          "en": "The cake is delicious."
+        },
+        {
+          "id": "g-gender-05",
+          "type": "transform",
+          "task_en": "Make it feminine",
+          "fr": "C'est un ami.",
+          "a": [
+            "C'est une amie."
+          ]
+        },
+        {
+          "id": "g-gender-06",
+          "type": "transform",
+          "task_en": "Make it feminine",
+          "fr": "Il est acteur.",
+          "a": [
+            "Elle est actrice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gender-endings",
+      "title": "Gender from the ending of a noun",
+      "fr": "le genre d'après la terminaison",
+      "level": "A1",
+      "keywords": [
+        "gender endings",
+        "masculine endings",
+        "feminine endings",
+        "-tion",
+        "-ment",
+        "-eur",
+        "-age",
+        "-ette",
+        "-té",
+        "-isme",
+        "-ure",
+        "le ou la",
+        "gender rules",
+        "genre"
+      ],
+      "topics": [],
+      "see": [
+        "gender",
+        "article-definite",
+        "gender-meaning-change"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "There are no rules without exceptions, but the **ending of a noun** gives you the gender in about 80% of cases. Learn the endings in the table and **always learn the article with a new noun**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "feminine endings",
+                "examples",
+                "masculine endings",
+                "examples"
+              ],
+              "rows": [
+                [
+                  "-tion, -sion",
+                  "la nation, la télévision",
+                  "-ment",
+                  "le moment, le gouvernement"
+                ],
+                [
+                  "-té, -tié",
+                  "la liberté, l'amitié",
+                  "-age",
+                  "le voyage, le fromage"
+                ],
+                [
+                  "-ette",
+                  "la fourchette, la cigarette",
+                  "-isme",
+                  "le tourisme, le journalisme"
+                ],
+                [
+                  "-ure",
+                  "la voiture, la nature",
+                  "-eau",
+                  "le bateau, le gâteau"
+                ],
+                [
+                  "-ance, -ence",
+                  "la chance, la patience",
+                  "-eur (things, jobs)",
+                  "le moteur, le chanteur"
+                ],
+                [
+                  "-ie, -ée",
+                  "la boulangerie, la journée",
+                  "-oir",
+                  "le miroir, le couloir"
+                ],
+                [
+                  "-ine, -ise",
+                  "la cuisine, la valise",
+                  "-et",
+                  "le billet, le ticket"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Typical exceptions",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "ending",
+                "exceptions",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "-age (m.)",
+                  "la page, l'image, la plage, la cage, la nage",
+                  "page, picture, beach, cage, swimming"
+                ],
+                [
+                  "-ée (f.)",
+                  "le lycée, le musée, le trophée",
+                  "high school, museum, trophy"
+                ],
+                [
+                  "-eur (f.)",
+                  "la chaleur, la couleur, la peur, la fleur, la valeur",
+                  "heat, colour, fear, flower, value"
+                ],
+                [
+                  "-ment (m.)",
+                  "la jument",
+                  "mare"
+                ],
+                [
+                  "-é (m.)",
+                  "le café, le blé, l'été, le côté, le thé",
+                  "coffee, wheat, summer, side, tea"
+                ],
+                [
+                  "-e (f.)",
+                  "le livre, le gîte, le groupe, le disque, le musée",
+                  "book, lodging, group, disc, museum"
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "By meaning",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Masculine**: days, months, seasons, languages, colours, metals, trees (*le chêne*), the cardinal points, many countries not ending in -e (*le Canada*). **Feminine**: most countries and rivers ending in **-e** (*la France, la Seine*), many sciences (*la physique*)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le lundi, le français, le rouge, l'été.",
+                  "en": "Monday, French, red, summer: all masculine."
+                },
+                {
+                  "fr": "La France, la Loire, la chimie.",
+                  "en": "France, the Loire, chemistry: feminine."
+                },
+                {
+                  "fr": "Un bateau, une voiture, un fromage, une boulangerie.",
+                  "en": "A boat, a car, a cheese, a bakery."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "the trip",
+                  "wrong": "la voyage",
+                  "fr": "[[le]] voyage"
+                },
+                {
+                  "en": "the television",
+                  "wrong": "le télévision",
+                  "fr": "[[la]] télévision"
+                },
+                {
+                  "en": "the colour",
+                  "wrong": "le couleur",
+                  "fr": "[[la]] couleur",
+                  "note": "Exception to *-eur*."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "Czech gender is a bad guide: *le soleil* (masc.) is neuter in Czech, *la lune* (fem.) is masculine in Czech. Learn each noun with its article."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "gender",
+                "article-definite",
+                "article-indefinite",
+                "gender-meaning-change"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "La télévision est dans le salon.",
+                  "en": "The television is in the living room."
+                },
+                {
+                  "fr": "Le voyage était très agréable.",
+                  "en": "The trip was very pleasant."
+                },
+                {
+                  "fr": "J'ai peur de la chaleur.",
+                  "en": "I'm afraid of the heat."
+                },
+                {
+                  "fr": "Le tourisme est important ici.",
+                  "en": "Tourism is important here."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-gender-endings-01",
+          "type": "cloze",
+          "fr": "___ voyage était long.",
+          "a": [
+            "Le"
+          ],
+          "en": "The trip was long."
+        },
+        {
+          "id": "g-gender-endings-02",
+          "type": "cloze",
+          "fr": "___ nation est unie.",
+          "a": [
+            "La"
+          ],
+          "en": "The nation is united."
+        },
+        {
+          "id": "g-gender-endings-03",
+          "type": "cloze",
+          "fr": "___ chaleur est forte.",
+          "a": [
+            "La"
+          ],
+          "en": "The heat is strong."
+        },
+        {
+          "id": "g-gender-endings-04",
+          "type": "cloze",
+          "fr": "___ gâteau est bon.",
+          "a": [
+            "Le"
+          ],
+          "en": "The cake is good."
+        },
+        {
+          "id": "g-gender-endings-05",
+          "type": "cloze",
+          "fr": "J'aime ___ liberté.",
+          "a": [
+            "la"
+          ],
+          "en": "I love freedom."
+        },
+        {
+          "id": "g-gender-endings-06",
+          "type": "cloze",
+          "fr": "Il achète ___ fromage.",
+          "a": [
+            "un"
+          ],
+          "en": "He buys a cheese."
+        },
+        {
+          "id": "g-gender-endings-07",
+          "type": "cloze",
+          "fr": "Elle regarde ___ télévision.",
+          "a": [
+            "la"
+          ],
+          "en": "She is watching television."
+        },
+        {
+          "id": "g-gender-endings-08",
+          "type": "build",
+          "en": "the beach",
+          "a": [
+            "la plage"
+          ]
+        },
+        {
+          "id": "g-gender-endings-09",
+          "type": "build",
+          "en": "the museum",
+          "a": [
+            "le musée"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gender-meaning-change",
+      "title": "Same word, two genders, two meanings",
+      "fr": "le genre qui change le sens",
+      "level": "A2",
+      "keywords": [
+        "gender meaning",
+        "le tour la tour",
+        "le livre la livre",
+        "le poste la poste",
+        "le mode la mode",
+        "le voile la voile",
+        "le vase la vase",
+        "le mémoire la mémoire",
+        "le critique la critique",
+        "le manche la manche",
+        "same word"
+      ],
+      "topics": [],
+      "see": [
+        "gender",
+        "gender-endings"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A group of French nouns changes **meaning with the gender**. Watch the article: *un tour* (a trip) and *une tour* (a tower) are different words with the same spelling."
+            },
+            {
+              "type": "table",
+              "head": [
+                "masculine",
+                "feminine"
+              ],
+              "rows": [
+                [
+                  "le livre = the book",
+                  "la livre = the pound"
+                ],
+                [
+                  "le tour = the tour, turn",
+                  "la tour = the tower"
+                ],
+                [
+                  "le poste = the post, job, set",
+                  "la poste = the post office"
+                ],
+                [
+                  "le mode = the way, mode",
+                  "la mode = fashion"
+                ],
+                [
+                  "le voile = the veil",
+                  "la voile = the sail"
+                ],
+                [
+                  "le vase = the vase",
+                  "la vase = the mud"
+                ],
+                [
+                  "le mémoire = the thesis",
+                  "la mémoire = the memory"
+                ],
+                [
+                  "le manche = the handle",
+                  "la manche = the sleeve"
+                ],
+                [
+                  "le critique = the critic (person)",
+                  "la critique = the criticism"
+                ],
+                [
+                  "le page = the page boy",
+                  "la page = the page"
+                ],
+                [
+                  "le somme = the nap",
+                  "la somme = the sum"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "People: masculine or feminine",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Some nouns are the **same for both sexes** and only the article changes: *un / une élève, un / une collègue, un / une touriste, un / une enfant*. Others change the ending: *un étudiant / une étudiante*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon collègue s'appelle Paul, ma collègue s'appelle Anna.",
+                  "en": "My (male) colleague is called Paul, my (female) colleague Anna."
+                },
+                {
+                  "fr": "Un enfant et une enfant sont là.",
+                  "en": "A boy and a girl are here."
+                },
+                {
+                  "fr": "Mon professeur est une femme.",
+                  "en": "My teacher is a woman. (professeur stays masculine in writing)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "fashion",
+                  "wrong": "le mode",
+                  "fr": "[[la]] mode"
+                },
+                {
+                  "en": "the post office",
+                  "wrong": "le poste",
+                  "fr": "[[la]] poste"
+                },
+                {
+                  "en": "the tower",
+                  "wrong": "le tour",
+                  "fr": "[[la]] tour",
+                  "note": "*Le tour* is a trip or a turn."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "gender",
+                "gender-endings"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "La tour Eiffel est très haute.",
+                  "en": "The Eiffel Tower is very tall."
+                },
+                {
+                  "fr": "Je fais le tour du lac.",
+                  "en": "I'm going around the lake."
+                },
+                {
+                  "fr": "Tu vas à la poste ?",
+                  "en": "Are you going to the post office?"
+                },
+                {
+                  "fr": "Il a une mauvaise mémoire.",
+                  "en": "He has a bad memory."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-gender-meaning-change-01",
+          "type": "build",
+          "en": "the Eiffel Tower",
+          "a": [
+            "la tour Eiffel"
+          ]
+        },
+        {
+          "id": "g-gender-meaning-change-02",
+          "type": "build",
+          "en": "fashion",
+          "a": [
+            "la mode"
+          ]
+        },
+        {
+          "id": "g-gender-meaning-change-03",
+          "type": "build",
+          "en": "the post office",
+          "a": [
+            "la poste"
+          ]
+        },
+        {
+          "id": "g-gender-meaning-change-04",
+          "type": "build",
+          "en": "the sail",
+          "a": [
+            "la voile"
+          ]
+        },
+        {
+          "id": "g-gender-meaning-change-05",
+          "type": "build",
+          "en": "the book",
+          "a": [
+            "le livre"
+          ]
+        },
+        {
+          "id": "g-gender-meaning-change-06",
+          "type": "cloze",
+          "fr": "Je vais à ___ poste.",
+          "a": [
+            "la"
+          ],
+          "en": "I'm going to the post office."
+        },
+        {
+          "id": "g-gender-meaning-change-07",
+          "type": "cloze",
+          "fr": "Il a ___ bonne mémoire.",
+          "a": [
+            "une"
+          ],
+          "en": "He has a good memory."
+        },
+        {
+          "id": "g-gender-meaning-change-08",
+          "type": "cloze",
+          "fr": "Nous faisons ___ tour de la ville.",
+          "a": [
+            "le"
+          ],
+          "en": "We're touring the town."
+        }
+      ]
+    },
+    {
+      "id": "plural",
+      "title": "The plural",
+      "fr": "le pluriel des noms",
+      "level": "A1",
+      "keywords": [
+        "plural",
+        "pluriel",
+        "-s",
+        "-x",
+        "-aux",
+        "-eaux",
+        "les",
+        "des",
+        "yeux"
+      ],
+      "topics": [
+        "articles"
+      ],
+      "see": [
+        "gender",
+        "article-definite",
+        "adj-agreement",
+        "liaison"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Most words take *-s* in the plural, and it is **not pronounced**. You tell it is plural mainly from the article: *le livre* × *les livres*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "rule",
+                "singular",
+                "plural"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "most words: + -s",
+                  "un livre",
+                  "des livres"
+                ],
+                [
+                  "-s, -x, -z: no change",
+                  "un bus, une voix, un nez",
+                  "des bus, des voix, des nez"
+                ],
+                [
+                  "-eau, -eu: + -x",
+                  "un bateau, un jeu",
+                  "des bateaux, des jeux"
+                ],
+                [
+                  "-al: → -aux",
+                  "un animal, un journal",
+                  "des animaux, des journaux"
+                ],
+                [
+                  "-ou: + -s (a few with -x)",
+                  "un trou, un bijou",
+                  "des trous, des bijoux"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Irregular",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "singular",
+                "plural",
+                "English"
+              ],
+              "textCols": [
+                2
+              ],
+              "rows": [
+                [
+                  "un œil",
+                  "des yeux",
+                  "eye, eyes"
+                ],
+                [
+                  "un travail",
+                  "des travaux",
+                  "job, (road)works"
+                ],
+                [
+                  "madame",
+                  "mesdames",
+                  "madam, ladies"
+                ],
+                [
+                  "monsieur",
+                  "messieurs",
+                  "sir, gentlemen"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pronunciation",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "Before a vowel the *-s* of the article is pronounced as [z]: *les‿amis, des‿enfants*."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "liaison"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai deux frères.",
+                  "en": "I have two brothers."
+                },
+                {
+                  "fr": "Les jeux vidéo sont chers.",
+                  "en": "Video games are expensive."
+                },
+                {
+                  "fr": "Il y a des animaux au zoo.",
+                  "en": "There are animals at the zoo."
+                },
+                {
+                  "fr": "Mes yeux sont bleus.",
+                  "en": "My eyes are blue."
+                },
+                {
+                  "fr": "Les journaux sont sur la table.",
+                  "en": "The newspapers are on the table."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-plural-01",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "le livre",
+          "a": [
+            "les livres"
+          ]
+        },
+        {
+          "id": "g-plural-02",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "un animal",
+          "a": [
+            "des animaux"
+          ]
+        },
+        {
+          "id": "g-plural-03",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "le jeu",
+          "a": [
+            "les jeux"
+          ]
+        },
+        {
+          "id": "g-plural-04",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "un œil",
+          "a": [
+            "des yeux"
+          ]
+        },
+        {
+          "id": "g-plural-05",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "le gâteau",
+          "a": [
+            "les gâteaux"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plural-special",
+      "title": "Special plurals: -al, -eau, -ou, les gens, les cheveux",
+      "fr": "les pluriels particuliers",
+      "level": "A2",
+      "keywords": [
+        "plural",
+        "chevaux",
+        "animaux",
+        "journaux",
+        "bijoux",
+        "gâteaux",
+        "yeux",
+        "les gens",
+        "les cheveux",
+        "les vacances",
+        "invariable",
+        "-s -x -z",
+        "compound plural",
+        "surname"
+      ],
+      "topics": [],
+      "see": [
+        "plural",
+        "adj-forms"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Most plurals just add **-s**. These are the exceptions you need. **-al → -aux**, **-eau, -eu → -x**, a few **-ou → -x**, nouns already ending in **-s, -x, -z** stay the same."
+            },
+            {
+              "type": "table",
+              "head": [
+                "singular",
+                "plural",
+                "rule"
+              ],
+              "rows": [
+                [
+                  "un cheval",
+                  "des chevaux",
+                  "-al → -aux"
+                ],
+                [
+                  "un journal",
+                  "des journaux",
+                  "-al → -aux"
+                ],
+                [
+                  "un gâteau",
+                  "des gâteaux",
+                  "-eau → -eaux"
+                ],
+                [
+                  "un jeu",
+                  "des jeux",
+                  "-eu → -eux"
+                ],
+                [
+                  "un bijou",
+                  "des bijoux",
+                  "7 nouns in -ou take -x: bijou, caillou, chou, genou, hibou, joujou, pou"
+                ],
+                [
+                  "un pays",
+                  "des pays",
+                  "-s stays"
+                ],
+                [
+                  "un prix",
+                  "des prix",
+                  "-x stays"
+                ],
+                [
+                  "un nez",
+                  "des nez",
+                  "-z stays"
+                ],
+                [
+                  "un œil",
+                  "des yeux",
+                  "irregular"
+                ],
+                [
+                  "madame",
+                  "mesdames",
+                  "irregular"
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Exceptions",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A few nouns in **-al** take **-s**: **des bals, des carnavals, des festivals, des récitals**. A few nouns in **-eau** with **-s**: **des landaus**. And **-ail → -aux**: *un travail → des travaux*, *un vitrail → des vitraux*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il y a trois festivals cet été.",
+                  "en": "There are three festivals this summer."
+                },
+                {
+                  "fr": "Les travaux durent deux mois.",
+                  "en": "The roadworks last two months."
+                },
+                {
+                  "fr": "Ces bijoux sont chers.",
+                  "en": "These pieces of jewellery are expensive."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Singular in French, plural in English (and the other way round)",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "rows": [
+                [
+                  "les cheveux (plural)",
+                  "hair (singular)"
+                ],
+                [
+                  "les gens (plural)",
+                  "people"
+                ],
+                [
+                  "les vacances (plural)",
+                  "holiday"
+                ],
+                [
+                  "les informations / les nouvelles",
+                  "the news"
+                ],
+                [
+                  "les mathématiques / les maths",
+                  "maths"
+                ],
+                [
+                  "le pantalon, le short, le jean",
+                  "trousers, shorts, jeans"
+                ],
+                [
+                  "les ciseaux (plural)",
+                  "scissors"
+                ],
+                [
+                  "les lunettes (plural)",
+                  "glasses"
+                ]
+              ]
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "My hair is long.",
+                  "wrong": "Mon cheveu est long.",
+                  "fr": "Mes [[cheveux]] sont longs."
+                },
+                {
+                  "en": "I'm on holiday.",
+                  "wrong": "Je suis en vacance.",
+                  "fr": "Je suis en [[vacances]]."
+                },
+                {
+                  "en": "These trousers are too big.",
+                  "wrong": "Ces pantalons sont trop grand.",
+                  "fr": "Ce [[pantalon]] est trop grand."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Names and compound nouns",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Surnames do not take -s**: *les Dupont, les Martin*. **Compound nouns** follow their own rules (*des grands-mères, des porte-clés*). When in doubt use the dictionary."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Les Martin habitent à côté.",
+                  "en": "The Martins live next door."
+                },
+                {
+                  "fr": "Mes grands-parents arrivent demain.",
+                  "en": "My grandparents arrive tomorrow."
+                },
+                {
+                  "fr": "Des tire-bouchons, des porte-monnaie.",
+                  "en": "Corkscrews, purses."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Les chevaux courent dans le pré.",
+                  "en": "The horses are running in the field."
+                },
+                {
+                  "fr": "J'ai lu deux journaux ce matin.",
+                  "en": "I read two newspapers this morning."
+                },
+                {
+                  "fr": "Les gens sont gentils ici.",
+                  "en": "People are kind here."
+                },
+                {
+                  "fr": "Ses yeux sont bleus.",
+                  "en": "His eyes are blue."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-plural-special-01",
+          "type": "build",
+          "en": "horses",
+          "a": [
+            "des chevaux",
+            "les chevaux"
+          ]
+        },
+        {
+          "id": "g-plural-special-02",
+          "type": "build",
+          "en": "newspapers",
+          "a": [
+            "des journaux",
+            "les journaux"
+          ]
+        },
+        {
+          "id": "g-plural-special-03",
+          "type": "build",
+          "en": "cakes",
+          "a": [
+            "des gâteaux",
+            "les gâteaux"
+          ]
+        },
+        {
+          "id": "g-plural-special-04",
+          "type": "build",
+          "en": "jewels",
+          "a": [
+            "des bijoux",
+            "les bijoux"
+          ]
+        },
+        {
+          "id": "g-plural-special-05",
+          "type": "build",
+          "en": "eyes",
+          "a": [
+            "des yeux",
+            "les yeux"
+          ]
+        },
+        {
+          "id": "g-plural-special-06",
+          "type": "cloze",
+          "fr": "Il y a trois ___ en ville.",
+          "a": [
+            "festivals"
+          ],
+          "hint": "festival",
+          "en": "There are three festivals in town."
+        },
+        {
+          "id": "g-plural-special-07",
+          "type": "cloze",
+          "fr": "Ses ___ sont longs.",
+          "a": [
+            "cheveux"
+          ],
+          "hint": "cheveu",
+          "en": "Her hair is long."
+        },
+        {
+          "id": "g-plural-special-08",
+          "type": "cloze",
+          "fr": "Les ___ sont gentils.",
+          "a": [
+            "gens"
+          ],
+          "en": "The people are kind."
+        },
+        {
+          "id": "g-plural-special-09",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "Le journal est nouveau.",
+          "a": [
+            "Les journaux sont nouveaux."
+          ]
+        },
+        {
+          "id": "g-plural-special-10",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "Le jeu est amusant.",
+          "a": [
+            "Les jeux sont amusants."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "article-definite",
+      "title": "Definite article: le, la, l', les",
+      "fr": "l'article défini",
+      "level": "A1",
+      "keywords": [
+        "le",
+        "la",
+        "l'",
+        "les",
+        "definite article",
+        "article défini",
+        "article",
+        "the"
+      ],
+      "topics": [
+        "articles"
+      ],
+      "see": [
+        "article-indefinite",
+        "partitive",
+        "choosing-article",
+        "contractions"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "singular",
+                "plural"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "masculine",
+                  "le (l')",
+                  "les"
+                ],
+                [
+                  "feminine",
+                  "la (l')",
+                  "les"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "Czech has no articles, French puts one before almost every noun. The definite article means \"the\": something **known, unique or general**."
+            }
+          ]
+        },
+        {
+          "title": "When",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "when",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "a specific, known thing",
+                  "Le prof est sympa.",
+                  "The teacher is nice."
+                ],
+                [
+                  "a unique thing",
+                  "le soleil, la France",
+                  "the sun, France"
+                ],
+                [
+                  "in general, a whole kind",
+                  "Les chats sont mignons.",
+                  "Cats are cute."
+                ],
+                [
+                  "likes and dislikes",
+                  "J'aime le chocolat.",
+                  "I like chocolate."
+                ],
+                [
+                  "a day of the week, regularly",
+                  "le lundi",
+                  "on Mondays"
+                ],
+                [
+                  "parts of the body",
+                  "Il a les yeux bleus.",
+                  "He has blue eyes."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "L'",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Before a vowel and a silent *h*, both *le* and *la* shorten to *l'*: *l'ami, l'école, l'hôtel*."
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I like football.",
+                  "wrong": "J'aime foot.",
+                  "fr": "J'aime [[le]] foot.",
+                  "note": "After *aimer, adorer, détester, préférer* there is always a definite article."
+                },
+                {
+                  "en": "France is beautiful.",
+                  "wrong": "France est belle.",
+                  "fr": "[[La]] France est belle."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "La mer est belle.",
+                  "en": "The sea is beautiful."
+                },
+                {
+                  "fr": "J'adore les jeux vidéo.",
+                  "en": "I love video games."
+                },
+                {
+                  "fr": "Le samedi, je joue au basket.",
+                  "en": "On Saturdays I play basketball."
+                },
+                {
+                  "fr": "L'école commence à huit heures.",
+                  "en": "School starts at eight."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-article-definite-01",
+          "type": "cloze",
+          "fr": "J'aime ___ musique.",
+          "a": [
+            "la"
+          ],
+          "en": "I like music."
+        },
+        {
+          "id": "g-article-definite-02",
+          "type": "cloze",
+          "fr": "___hôtel est grand.",
+          "a": [
+            "L'"
+          ],
+          "en": "The hotel is big."
+        },
+        {
+          "id": "g-article-definite-03",
+          "type": "cloze",
+          "fr": "Je déteste ___ épinards.",
+          "a": [
+            "les"
+          ],
+          "en": "I hate spinach."
+        },
+        {
+          "id": "g-article-definite-04",
+          "type": "build",
+          "en": "I like football.",
+          "a": [
+            "J'aime le {foot|football}.",
+            "J'adore le {foot|football}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "definite-uses",
+      "title": "More uses of le, la, les",
+      "fr": "les emplois de l'article défini",
+      "level": "A1",
+      "levelTo": "A2",
+      "keywords": [
+        "definite article",
+        "le la les",
+        "generalisation",
+        "j'aime le café",
+        "le lundi",
+        "body parts",
+        "je me lave les mains",
+        "languages",
+        "school subjects",
+        "prices",
+        "2 euros le kilo",
+        "à la maison",
+        "article défini"
+      ],
+      "topics": [],
+      "see": [
+        "article-definite",
+        "partitive",
+        "choosing-article",
+        "avoir-faire-expressions"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The definite article is used where Czech and English have **no article**. The main cases: **general statements**, **likes and dislikes**, **days (habit)**, **body parts**, **languages and school subjects**, **prices per unit**, and **countries**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "use",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "general / likes",
+                  "J'aime le café. Les chats sont mignons.",
+                  "I like coffee. Cats are cute."
+                ],
+                [
+                  "habit with a day",
+                  "Le lundi, j'ai sport.",
+                  "On Mondays I have PE."
+                ],
+                [
+                  "body parts",
+                  "Je me lave les mains. J'ai mal à la tête.",
+                  "I wash my hands. I have a headache."
+                ],
+                [
+                  "languages as a subject",
+                  "Le français est difficile.",
+                  "French is difficult."
+                ],
+                [
+                  "school subjects",
+                  "J'adore les maths.",
+                  "I love maths."
+                ],
+                [
+                  "prices per unit",
+                  "Ça coûte trois euros le kilo.",
+                  "It costs three euros a kilo."
+                ],
+                [
+                  "countries",
+                  "La France, le Canada, les États-Unis.",
+                  "France, Canada, the US."
+                ],
+                [
+                  "titles",
+                  "Le docteur Martin, la reine Élisabeth.",
+                  "Doctor Martin, Queen Elisabeth."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Likes, dislikes and generalisations",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "After *aimer, adorer, détester, préférer* and for any general statement, use **le, la, les**, not *du / de la*. Compare: *J'aime le café* (in general) / *Je bois du café* (some)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I love chocolate.",
+                  "wrong": "J'adore du chocolat.",
+                  "fr": "J'adore [[le]] chocolat."
+                },
+                {
+                  "en": "Cats are cute.",
+                  "wrong": "Chats sont mignons.",
+                  "fr": "[[Les]] chats sont mignons."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Habit with a day, and body parts",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Le lundi** = every Monday; **lundi** (no article) = this coming or last Monday. For the body use the article and **not the possessive** when the owner is clear from the verb: *Il lève la main, elle se brosse les dents.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le samedi, je dors tard.",
+                  "en": "On Saturdays I sleep late."
+                },
+                {
+                  "fr": "Lundi, j'ai un examen.",
+                  "en": "On Monday I have an exam."
+                },
+                {
+                  "fr": "Elle a les yeux bleus.",
+                  "en": "She has blue eyes."
+                },
+                {
+                  "fr": "Il s'est cassé la jambe.",
+                  "en": "He broke his leg."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I love music.",
+                  "wrong": "J'adore musique.",
+                  "fr": "J'adore [[la]] musique."
+                },
+                {
+                  "en": "He broke his arm.",
+                  "wrong": "Il a cassé son bras.",
+                  "fr": "Il s'est cassé [[le]] bras."
+                },
+                {
+                  "en": "The price is 5 euros a kilo.",
+                  "wrong": "Cinq euros un kilo.",
+                  "fr": "Cinq euros [[le]] kilo."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "article-definite",
+                "partitive",
+                "choosing-article",
+                "dates"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Les Français adorent le fromage.",
+                  "en": "The French love cheese."
+                },
+                {
+                  "fr": "Je déteste le matin.",
+                  "en": "I hate the morning."
+                },
+                {
+                  "fr": "Elle parle bien le français.",
+                  "en": "She speaks French well."
+                },
+                {
+                  "fr": "Les tomates coûtent deux euros le kilo.",
+                  "en": "Tomatoes cost two euros a kilo."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-definite-uses-01",
+          "type": "build",
+          "en": "I love chocolate.",
+          "a": [
+            "J'adore le chocolat.",
+            "J'aime le chocolat."
+          ]
+        },
+        {
+          "id": "g-definite-uses-02",
+          "type": "build",
+          "en": "On Mondays I have PE.",
+          "a": [
+            "Le lundi, j'ai sport.",
+            "Le lundi, j'ai EPS."
+          ]
+        },
+        {
+          "id": "g-definite-uses-03",
+          "type": "build",
+          "en": "She washes her hands.",
+          "a": [
+            "Elle se lave les mains."
+          ]
+        },
+        {
+          "id": "g-definite-uses-04",
+          "type": "build",
+          "en": "He broke his leg.",
+          "a": [
+            "Il s'est cassé la jambe."
+          ]
+        },
+        {
+          "id": "g-definite-uses-05",
+          "type": "build",
+          "en": "It costs three euros a kilo.",
+          "a": [
+            "Ça coûte trois euros le kilo.",
+            "C'est trois euros le kilo."
+          ]
+        },
+        {
+          "id": "g-definite-uses-06",
+          "type": "cloze",
+          "fr": "J'adore ___ musique.",
+          "a": [
+            "la"
+          ],
+          "en": "I love music."
+        },
+        {
+          "id": "g-definite-uses-07",
+          "type": "cloze",
+          "fr": "Il a ___ yeux verts.",
+          "a": [
+            "les"
+          ],
+          "en": "He has green eyes."
+        },
+        {
+          "id": "g-definite-uses-08",
+          "type": "cloze",
+          "fr": "J'ai mal ___ tête.",
+          "a": [
+            "à la"
+          ],
+          "en": "I have a headache."
+        }
+      ]
+    },
+    {
+      "id": "article-indefinite",
+      "title": "Indefinite article: un, une, des",
+      "fr": "l'article indéfini",
+      "level": "A1",
+      "keywords": [
+        "un",
+        "une",
+        "des",
+        "indefinite article",
+        "article indéfini",
+        "a",
+        "an",
+        "some"
+      ],
+      "topics": [
+        "articles"
+      ],
+      "see": [
+        "article-definite",
+        "partitive",
+        "article-negation",
+        "choosing-article"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "singular",
+                "plural"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "masculine",
+                  "un",
+                  "des"
+                ],
+                [
+                  "feminine",
+                  "une",
+                  "des"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "The indefinite article means \"a, an, one\". Use it when you mention something **for the first time** or when it is **one of many**."
+            }
+          ]
+        },
+        {
+          "title": "Des",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Des* is the plural of *un, une*. English often leaves it out (\"I have friends in Paris\"), but French cannot."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I have friends in Paris.",
+                  "wrong": "J'ai amis à Paris.",
+                  "fr": "J'ai [[des]] amis à Paris."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Un or le?",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I have a dog. The dog is called Max.",
+                  "fr": "J'ai [[un]] chien. [[Le]] chien s'appelle Max.",
+                  "note": "First *un*, then the dog is known: *le*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il y a un chat dans le jardin.",
+                  "en": "There is a cat in the garden."
+                },
+                {
+                  "fr": "C'est une bonne idée.",
+                  "en": "That's a good idea."
+                },
+                {
+                  "fr": "J'ai des baskets neuves.",
+                  "en": "I have new trainers."
+                },
+                {
+                  "fr": "Tu as un stylo ?",
+                  "en": "Do you have a pen?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-article-indefinite-01",
+          "type": "cloze",
+          "fr": "J'ai ___ sœur.",
+          "a": [
+            "une"
+          ],
+          "en": "I have a sister."
+        },
+        {
+          "id": "g-article-indefinite-02",
+          "type": "cloze",
+          "fr": "Il y a ___ livres sur la table.",
+          "a": [
+            "des"
+          ],
+          "en": "There are books on the table."
+        },
+        {
+          "id": "g-article-indefinite-03",
+          "type": "cloze",
+          "fr": "C'est ___ ami de Paul.",
+          "a": [
+            "un"
+          ],
+          "en": "He's a friend of Paul's."
+        },
+        {
+          "id": "g-article-indefinite-04",
+          "type": "build",
+          "en": "I have a dog and a cat.",
+          "a": [
+            "J'ai un chien et un chat."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "des-to-de",
+      "title": "Des or de? The article before an adjective",
+      "fr": "de devant un adjectif",
+      "level": "A2",
+      "keywords": [
+        "des",
+        "de",
+        "d'autres",
+        "de beaux livres",
+        "de bonnes idées",
+        "article before adjective",
+        "plural indefinite",
+        "d'autres",
+        "adjectif avant le nom"
+      ],
+      "topics": [],
+      "see": [
+        "article-indefinite",
+        "adj-position",
+        "article-negation"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The plural of **un / une** is **des**. But when a **plural adjective stands before the noun** (*beau, bon, grand, petit, jeune, vieux, autre...*), **des becomes de** (or **d'** before a vowel): *de beaux livres, d'autres idées*. After the noun, nothing changes: *des livres intéressants*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "beautiful books",
+                  "wrong": "des beaux livres",
+                  "fr": "[[de]] beaux livres"
+                },
+                {
+                  "en": "good ideas",
+                  "wrong": "des bonnes idées",
+                  "fr": "[[de]] bonnes idées"
+                },
+                {
+                  "en": "other solutions",
+                  "wrong": "des autres solutions",
+                  "fr": "[[d']]autres solutions"
+                },
+                {
+                  "en": "interesting books",
+                  "wrong": "de livres intéressants",
+                  "fr": "[[des]] livres intéressants",
+                  "note": "The adjective comes after, so *des* stays."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "It is a case of **simplification**: *de + adjective + noun* behaves like *de* after a quantity word. In everyday speech many people still say *des beaux livres*, but in careful French you write *de beaux livres*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "adjective before",
+                "adjective after"
+              ],
+              "rows": [
+                [
+                  "de grandes maisons",
+                  "des maisons blanches"
+                ],
+                [
+                  "de petits chats",
+                  "des chats noirs"
+                ],
+                [
+                  "de jeunes artistes",
+                  "des artistes célèbres"
+                ],
+                [
+                  "d'autres amis",
+                  "des amis français"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Not with a compound noun",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When the adjective is part of a **fixed compound noun**, *des* stays: *des jeunes gens, des petits pois, des petits-enfants, des grands-parents, des petits déjeuners*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Nous mangeons des petits pois.",
+                  "en": "We eat peas."
+                },
+                {
+                  "fr": "Mes grands-parents habitent ici.",
+                  "en": "My grandparents live here."
+                },
+                {
+                  "fr": "J'ai de bons amis.",
+                  "en": "I have good friends."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In the negative",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "After a negation *des* becomes *de* anyway (*Je n'ai pas d'amis*), so the adjective makes no difference: *Je n'ai pas de bons amis.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il a de belles chaussures.",
+                  "en": "He has beautiful shoes."
+                },
+                {
+                  "fr": "Nous avons eu de bonnes notes.",
+                  "en": "We got good marks."
+                },
+                {
+                  "fr": "Il y a d'autres possibilités.",
+                  "en": "There are other possibilities."
+                },
+                {
+                  "fr": "Elle a des chaussures neuves.",
+                  "en": "She has new shoes."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-des-to-de-01",
+          "type": "build",
+          "en": "beautiful shoes",
+          "a": [
+            "de belles chaussures"
+          ]
+        },
+        {
+          "id": "g-des-to-de-02",
+          "type": "build",
+          "en": "good friends",
+          "a": [
+            "de bons amis"
+          ]
+        },
+        {
+          "id": "g-des-to-de-03",
+          "type": "build",
+          "en": "other ideas",
+          "a": [
+            "d'autres idées"
+          ]
+        },
+        {
+          "id": "g-des-to-de-04",
+          "type": "cloze",
+          "fr": "Elle a ___ belles fleurs.",
+          "a": [
+            "de"
+          ],
+          "en": "She has beautiful flowers."
+        },
+        {
+          "id": "g-des-to-de-05",
+          "type": "cloze",
+          "fr": "Il a ___ chats noirs.",
+          "a": [
+            "des"
+          ],
+          "en": "He has black cats."
+        },
+        {
+          "id": "g-des-to-de-06",
+          "type": "cloze",
+          "fr": "Ils ont ___ bonnes notes.",
+          "a": [
+            "de"
+          ],
+          "en": "They have good marks."
+        },
+        {
+          "id": "g-des-to-de-07",
+          "type": "transform",
+          "task_en": "Put the adjective before the noun",
+          "fr": "Elle a des fleurs belles.",
+          "a": [
+            "Elle a de belles fleurs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "partitive",
+      "title": "Partitive article: du, de la, de l'",
+      "fr": "l'article partitif",
+      "level": "A1",
+      "keywords": [
+        "du",
+        "de la",
+        "de l'",
+        "des",
+        "partitive",
+        "partitif",
+        "some",
+        "food",
+        "uncountable"
+      ],
+      "topics": [
+        "partitive",
+        "food"
+      ],
+      "see": [
+        "article-negation",
+        "quantities",
+        "en",
+        "choosing-article"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "form",
+                "example"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "masculine",
+                  "du",
+                  "du pain"
+                ],
+                [
+                  "feminine",
+                  "de la",
+                  "de la confiture"
+                ],
+                [
+                  "before a vowel",
+                  "de l'",
+                  "de l'eau"
+                ],
+                [
+                  "plural",
+                  "des",
+                  "des pâtes"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "The partitive article goes before things you do **not count** but **measure**: some bread, some water. English often leaves it out or says \"some\"."
+            }
+          ]
+        },
+        {
+          "title": "Le or du?",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I like bread. (in general)",
+                  "fr": "J'aime [[le]] pain."
+                },
+                {
+                  "en": "I'm eating bread. (some)",
+                  "fr": "Je mange [[du]] pain."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "After *aimer, adorer, détester, préférer* it is *le, la, les*. After *manger, boire, acheter, vouloir, il y a* it is usually *du, de la, des*."
+            }
+          ]
+        },
+        {
+          "title": "Not just food",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The partitive article is also used with abstract things and activities: *faire du sport, jouer de la batterie, avoir de la chance* (to be lucky), *il y a du vent* (it's windy)."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je bois du lait le matin.",
+                  "en": "I drink milk in the morning."
+                },
+                {
+                  "fr": "Tu veux de l'eau ?",
+                  "en": "Do you want some water?"
+                },
+                {
+                  "fr": "On mange de la soupe ce soir.",
+                  "en": "We're having soup tonight."
+                },
+                {
+                  "fr": "Il faut du courage.",
+                  "en": "It takes courage."
+                },
+                {
+                  "fr": "J'achète des fruits.",
+                  "en": "I'm buying fruit."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-partitive-01",
+          "type": "cloze",
+          "fr": "Je mange ___ fromage.",
+          "a": [
+            "du"
+          ],
+          "en": "I'm eating cheese."
+        },
+        {
+          "id": "g-partitive-02",
+          "type": "cloze",
+          "fr": "Tu bois ___eau ?",
+          "a": [
+            "de l'"
+          ],
+          "en": "Are you drinking water?"
+        },
+        {
+          "id": "g-partitive-03",
+          "type": "cloze",
+          "fr": "Elle achète ___ viande.",
+          "a": [
+            "de la"
+          ],
+          "en": "She's buying meat."
+        },
+        {
+          "id": "g-partitive-04",
+          "type": "cloze",
+          "fr": "J'aime ___ chocolat.",
+          "a": [
+            "le"
+          ],
+          "en": "I like chocolate."
+        },
+        {
+          "id": "g-partitive-05",
+          "type": "build",
+          "en": "I want some bread.",
+          "a": [
+            "Je veux du pain.",
+            "Je voudrais du pain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "article-negation",
+      "title": "Pas de",
+      "fr": "pas de",
+      "level": "A1",
+      "keywords": [
+        "pas de",
+        "pas d'",
+        "negation and article",
+        "je n'ai pas de",
+        "ne... pas de",
+        "plus de",
+        "jamais de",
+        "no",
+        "not any"
+      ],
+      "topics": [
+        "partitive",
+        "negation"
+      ],
+      "see": [
+        "partitive",
+        "article-indefinite",
+        "ne-pas",
+        "pas-de-vs-pas-un",
+        "quantities"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In the negative *un, une, du, de la, de l', des* become **de** (*d'* before a vowel)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I have a dog. → I don't have a dog.",
+                  "fr": "J'ai un chien. → Je n'ai pas [[de]] chien."
+                },
+                {
+                  "en": "I drink milk. → I don't drink milk.",
+                  "fr": "Je bois du lait. → Je ne bois pas [[de]] lait."
+                },
+                {
+                  "en": "I have friends. → I don't have friends.",
+                  "fr": "J'ai des amis. → Je n'ai pas [[d']]amis."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What does not change",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Le, la, les* stay: *J'aime le café → Je n'aime pas le café.* And after *être* nothing changes: *C'est un chien → Ce n'est pas un chien.*"
+            },
+            {
+              "type": "table",
+              "head": [
+                "positive",
+                "negative"
+              ],
+              "rows": [
+                [
+                  "J'ai une voiture.",
+                  "Je n'ai pas de voiture."
+                ],
+                [
+                  "Il y a du pain.",
+                  "Il n'y a pas de pain."
+                ],
+                [
+                  "J'aime les chats.",
+                  "Je n'aime pas les chats."
+                ],
+                [
+                  "C'est une pomme.",
+                  "Ce n'est pas une pomme."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With all negations",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "This also applies to *jamais* and *plus*: *Je ne mange jamais de viande. Il n'y a plus de lait.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je n'ai pas de frère.",
+                  "en": "I don't have a brother."
+                },
+                {
+                  "fr": "Il n'y a pas d'école demain.",
+                  "en": "There is no school tomorrow."
+                },
+                {
+                  "fr": "Nous ne mangeons pas de viande.",
+                  "en": "We don't eat meat."
+                },
+                {
+                  "fr": "Il n'y a plus de pain.",
+                  "en": "There is no bread left."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-article-negation-01",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "J'ai un chat.",
+          "a": [
+            "Je n'ai pas de chat."
+          ]
+        },
+        {
+          "id": "g-article-negation-02",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Il y a du lait.",
+          "a": [
+            "Il n'y a pas de lait."
+          ]
+        },
+        {
+          "id": "g-article-negation-03",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "J'ai des devoirs.",
+          "a": [
+            "Je n'ai pas de devoirs."
+          ]
+        },
+        {
+          "id": "g-article-negation-04",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "J'aime le poisson.",
+          "a": [
+            "Je n'aime pas le poisson."
+          ]
+        },
+        {
+          "id": "g-article-negation-05",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "C'est un problème.",
+          "a": [
+            "Ce n'est pas un problème."
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "negation",
+          "tag": "pas-de",
+          "label": "Drill pas de"
+        }
+      ]
+    },
+    {
+      "id": "contractions",
+      "title": "Contracted articles: au, aux, du, des",
+      "fr": "les articles contractés",
+      "level": "A1",
+      "keywords": [
+        "au",
+        "aux",
+        "du",
+        "des",
+        "à + le",
+        "de + le",
+        "contracted article",
+        "à la",
+        "de la"
+      ],
+      "topics": [
+        "aller",
+        "places-prep"
+      ],
+      "see": [
+        "a-de",
+        "partitive",
+        "cities-countries",
+        "avoir-faire-expressions"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "+ le",
+                "+ la",
+                "+ l'",
+                "+ les"
+              ],
+              "rows": [
+                [
+                  "à",
+                  "au",
+                  "à la",
+                  "à l'",
+                  "aux"
+                ],
+                [
+                  "de",
+                  "du",
+                  "de la",
+                  "de l'",
+                  "des"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "The prepositions *à* and *de* **merge** with the articles *le* and *les* into one word. With *la* and *l'* they stay separate."
+            }
+          ]
+        },
+        {
+          "title": "With à",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je vais au cinéma.",
+                  "en": "I'm going to the cinema."
+                },
+                {
+                  "fr": "Je vais à la piscine.",
+                  "en": "I'm going to the swimming pool."
+                },
+                {
+                  "fr": "Il est à l'école.",
+                  "en": "He is at school."
+                },
+                {
+                  "fr": "Je parle aux élèves.",
+                  "en": "I'm talking to the pupils."
+                },
+                {
+                  "fr": "Je joue au foot.",
+                  "en": "I play football."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With de",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je viens du Canada.",
+                  "en": "I come from Canada."
+                },
+                {
+                  "fr": "C'est le livre du prof.",
+                  "en": "That's the teacher's book."
+                },
+                {
+                  "fr": "La porte de la maison est ouverte.",
+                  "en": "The door of the house is open."
+                },
+                {
+                  "fr": "Il parle des vacances.",
+                  "en": "He's talking about the holidays."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm going to the park.",
+                  "wrong": "Je vais à le parc.",
+                  "fr": "Je vais [[au]] parc."
+                },
+                {
+                  "en": "My teeth hurt.",
+                  "wrong": "J'ai mal à les dents.",
+                  "fr": "J'ai mal [[aux]] dents."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Des* can be two different words: the indefinite article (*des amis* = friends) or *de + les* (*le chien des voisins* = the neighbours' dog)."
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-contractions-01",
+          "type": "cloze",
+          "fr": "Je vais ___ cinéma.",
+          "a": [
+            "au"
+          ],
+          "en": "I'm going to the cinema."
+        },
+        {
+          "id": "g-contractions-02",
+          "type": "cloze",
+          "fr": "Il parle ___ enfants.",
+          "a": [
+            "aux"
+          ],
+          "en": "He's talking to the children."
+        },
+        {
+          "id": "g-contractions-03",
+          "type": "cloze",
+          "fr": "C'est le vélo ___ voisin.",
+          "a": [
+            "du"
+          ],
+          "en": "That's the neighbour's bike."
+        },
+        {
+          "id": "g-contractions-04",
+          "type": "cloze",
+          "fr": "Je joue ___ tennis.",
+          "a": [
+            "au"
+          ],
+          "en": "I play tennis."
+        },
+        {
+          "id": "g-contractions-05",
+          "type": "cloze",
+          "fr": "Je vais ___ piscine.",
+          "a": [
+            "à la"
+          ],
+          "en": "I'm going to the swimming pool."
+        },
+        {
+          "id": "g-contractions-06",
+          "type": "cloze",
+          "fr": "J'ai mal ___ dents.",
+          "a": [
+            "aux"
+          ],
+          "en": "My teeth hurt."
+        }
+      ]
+    },
+    {
+      "id": "quantities",
+      "title": "Quantities: beaucoup de, un kilo de",
+      "fr": "les expressions de quantité",
+      "level": "A1",
+      "keywords": [
+        "quantity",
+        "beaucoup de",
+        "un peu de",
+        "trop de",
+        "assez de",
+        "un kilo de",
+        "une bouteille de",
+        "combien de",
+        "quantité",
+        "a lot of"
+      ],
+      "topics": [
+        "quantities",
+        "shopping"
+      ],
+      "see": [
+        "partitive",
+        "en",
+        "article-negation"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "After expressions of quantity only **de** (*d'*) stands, without an article: *beaucoup de pain*, not *beaucoup du pain*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "expression",
+                "meaning",
+                "example"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "beaucoup de",
+                  "a lot of",
+                  "beaucoup d'amis"
+                ],
+                [
+                  "un peu de",
+                  "a little",
+                  "un peu de sucre"
+                ],
+                [
+                  "trop de",
+                  "too much, too many",
+                  "trop de devoirs"
+                ],
+                [
+                  "assez de",
+                  "enough",
+                  "assez d'argent"
+                ],
+                [
+                  "peu de",
+                  "little, few",
+                  "peu de temps"
+                ],
+                [
+                  "combien de ?",
+                  "how much, how many?",
+                  "combien de frères ?"
+                ],
+                [
+                  "plus de, moins de",
+                  "more, less",
+                  "plus de temps"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Packages and measures",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "un kilo de pommes",
+                  "a kilo of apples"
+                ],
+                [
+                  "une bouteille d'eau",
+                  "a bottle of water"
+                ],
+                [
+                  "un litre de lait",
+                  "a litre of milk"
+                ],
+                [
+                  "un paquet de chips",
+                  "a packet of crisps"
+                ],
+                [
+                  "une tranche de jambon",
+                  "a slice of ham"
+                ],
+                [
+                  "un morceau de pain",
+                  "a piece of bread"
+                ],
+                [
+                  "une boîte de thon",
+                  "a tin of tuna"
+                ],
+                [
+                  "un verre de jus",
+                  "a glass of juice"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I have a lot of homework.",
+                  "wrong": "J'ai beaucoup des devoirs.",
+                  "fr": "J'ai beaucoup [[de]] devoirs."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "Exception: *la plupart des* (most) keeps the article: *la plupart des élèves*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il y a beaucoup de monde.",
+                  "en": "There are a lot of people."
+                },
+                {
+                  "fr": "Je voudrais un kilo de tomates.",
+                  "en": "I'd like a kilo of tomatoes."
+                },
+                {
+                  "fr": "Tu as combien de cousins ?",
+                  "en": "How many cousins do you have?"
+                },
+                {
+                  "fr": "J'ai mangé trop de chocolat.",
+                  "en": "I ate too much chocolate."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-quantities-01",
+          "type": "cloze",
+          "fr": "J'ai beaucoup ___amis.",
+          "a": [
+            "d'"
+          ],
+          "en": "I have a lot of friends."
+        },
+        {
+          "id": "g-quantities-02",
+          "type": "cloze",
+          "fr": "Je voudrais une bouteille ___ lait.",
+          "a": [
+            "de"
+          ],
+          "en": "I'd like a bottle of milk."
+        },
+        {
+          "id": "g-quantities-03",
+          "type": "build",
+          "en": "I don't have much time.",
+          "a": [
+            "J'ai peu de temps.",
+            "Je n'ai pas beaucoup de temps."
+          ]
+        },
+        {
+          "id": "g-quantities-04",
+          "type": "build",
+          "en": "How many brothers and sisters do you have?",
+          "a": [
+            "Tu as combien de frères et sœurs ?",
+            "Combien de frères et sœurs as-tu ?",
+            "Combien de frères et sœurs est-ce que tu as ?"
+          ]
+        },
+        {
+          "id": "g-quantities-05",
+          "type": "cloze",
+          "fr": "Il y a trop ___ bruit.",
+          "a": [
+            "de"
+          ],
+          "en": "There is too much noise."
+        }
+      ]
+    },
+    {
+      "id": "no-article",
+      "title": "When there is no article",
+      "fr": "l'absence d'article",
+      "level": "A2",
+      "keywords": [
+        "no article",
+        "without article",
+        "profession",
+        "il est médecin",
+        "en France",
+        "sans",
+        "prof de français",
+        "un match de foot"
+      ],
+      "topics": [],
+      "see": [
+        "c-est-il-est",
+        "quantities",
+        "article-negation",
+        "cities-countries"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "when",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "profession and nationality after être",
+                  "Il est médecin. Elle est française.",
+                  "He is a doctor. She is French."
+                ],
+                [
+                  "after en (country, transport, material)",
+                  "en France, en bus, en bois",
+                  "in France, by bus, made of wood"
+                ],
+                [
+                  "after expressions of quantity",
+                  "beaucoup de livres",
+                  "a lot of books"
+                ],
+                [
+                  "after pas de (negation)",
+                  "pas de chance",
+                  "no luck"
+                ],
+                [
+                  "after sans, often after avec",
+                  "sans sucre, avec plaisir",
+                  "without sugar, with pleasure"
+                ],
+                [
+                  "in expressions with avoir",
+                  "avoir faim, avoir peur",
+                  "to be hungry, to be afraid"
+                ],
+                [
+                  "after de when it says the kind",
+                  "un livre de cuisine, un match de foot",
+                  "a cookbook, a football match"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Professions",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "My father is an engineer.",
+                  "wrong": "Mon père est un ingénieur.",
+                  "fr": "Mon père est [[ingénieur]].",
+                  "note": "With an adjective an article is needed again: *C'est un bon ingénieur.*"
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "c-est-il-est"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "De without an article",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When *de* links two nouns and the second says the **kind**, there is no article: *un prof de français* (a French teacher), *une salle de bains* (a bathroom), *un jeu de société* (a board game)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "a football match",
+                  "fr": "un match [[de]] foot"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ma mère est infirmière.",
+                  "en": "My mother is a nurse."
+                },
+                {
+                  "fr": "Je vais au collège en bus.",
+                  "en": "I go to school by bus."
+                },
+                {
+                  "fr": "Un café sans sucre, s'il vous plaît.",
+                  "en": "A coffee without sugar, please."
+                },
+                {
+                  "fr": "C'est mon prof d'histoire.",
+                  "en": "That's my history teacher."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-no-article-01",
+          "type": "build",
+          "en": "He is a doctor.",
+          "a": [
+            "Il est médecin."
+          ]
+        },
+        {
+          "id": "g-no-article-02",
+          "type": "build",
+          "en": "My father is a teacher.",
+          "a": [
+            "Mon père est {professeur|prof|enseignant}."
+          ]
+        },
+        {
+          "id": "g-no-article-03",
+          "type": "build",
+          "en": "Tea without sugar, please.",
+          "a": [
+            "Un thé sans sucre, s'il vous plaît.",
+            "Un thé sans sucre, s'il te plaît."
+          ]
+        },
+        {
+          "id": "g-no-article-04",
+          "type": "build",
+          "en": "That's my French teacher.",
+          "a": [
+            "C'est mon {prof|professeur} de français."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "choosing-article",
+      "title": "Which article?",
+      "fr": "quel article choisir ?",
+      "level": "A2",
+      "keywords": [
+        "which article",
+        "choosing an article",
+        "le or un",
+        "du or le",
+        "decision tree",
+        "article"
+      ],
+      "topics": [
+        "articles",
+        "partitive"
+      ],
+      "see": [
+        "article-definite",
+        "article-indefinite",
+        "partitive",
+        "article-negation",
+        "quantities",
+        "no-article"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Six questions that lead you to the right article. Go from the top and stop at the first one you answer yes to."
+            },
+            {
+              "type": "tree",
+              "items": [
+                {
+                  "label": "Is there a negation (*ne... pas, jamais, plus*) and not *être*?",
+                  "en": "→ *de, d'*: *Je n'ai pas de chien.*",
+                  "see": "article-negation"
+                },
+                {
+                  "label": "Does an expression of quantity (*beaucoup, un kilo, combien*) stand before the word?",
+                  "en": "→ *de, d'*: *beaucoup de chiens*",
+                  "see": "quantities"
+                },
+                {
+                  "label": "Are you talking about a thing in general, or about what you like?",
+                  "en": "→ *le, la, les*: *J'aime les chiens.*",
+                  "see": "article-definite"
+                },
+                {
+                  "label": "Is the thing known, specific, unique?",
+                  "en": "→ *le, la, les*: *Le chien du voisin aboie.*",
+                  "see": "article-definite"
+                },
+                {
+                  "label": "Can you count it (one, two...)?",
+                  "en": "→ *un, une, des*: *J'ai un chien.*",
+                  "see": "article-indefinite"
+                },
+                {
+                  "label": "Is it some amount of something uncountable?",
+                  "en": "→ *du, de la, de l'*: *Je mange du pain.*",
+                  "see": "partitive"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "One word, five articles",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'aime le chocolat.",
+                  "en": "I like chocolate. (in general)"
+                },
+                {
+                  "fr": "Je mange du chocolat.",
+                  "en": "I'm eating chocolate. (some)"
+                },
+                {
+                  "fr": "J'ai acheté un chocolat chaud.",
+                  "en": "I bought a hot chocolate. (one)"
+                },
+                {
+                  "fr": "Je ne mange pas de chocolat.",
+                  "en": "I don't eat chocolate."
+                },
+                {
+                  "fr": "Il y a beaucoup de chocolat.",
+                  "en": "There is a lot of chocolate."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I like eating apples.",
+                  "fr": "J'aime manger [[des]] pommes.",
+                  "note": "What decides is the verb the word belongs to: here *manger* (some apples), not *aimer*."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-choosing-article-01",
+          "type": "cloze",
+          "fr": "J'adore ___ pizza.",
+          "a": [
+            "la"
+          ],
+          "en": "I love pizza."
+        },
+        {
+          "id": "g-choosing-article-02",
+          "type": "cloze",
+          "fr": "Ce soir, je mange ___ pizza.",
+          "a": [
+            "une",
+            "de la"
+          ],
+          "en": "Tonight I'm eating pizza."
+        },
+        {
+          "id": "g-choosing-article-03",
+          "type": "cloze",
+          "fr": "Je ne bois pas ___ café.",
+          "a": [
+            "de"
+          ],
+          "en": "I don't drink coffee."
+        },
+        {
+          "id": "g-choosing-article-04",
+          "type": "cloze",
+          "fr": "Il y a ___eau dans la bouteille.",
+          "a": [
+            "de l'"
+          ],
+          "en": "There is water in the bottle."
+        },
+        {
+          "id": "g-choosing-article-05",
+          "type": "cloze",
+          "fr": "J'ai beaucoup ___ travail.",
+          "a": [
+            "de"
+          ],
+          "en": "I have a lot of work."
+        },
+        {
+          "id": "g-choosing-article-06",
+          "type": "cloze",
+          "fr": "Je préfère ___ chats.",
+          "a": [
+            "les"
+          ],
+          "en": "I prefer cats."
+        }
+      ]
+    }
+  ]
+}

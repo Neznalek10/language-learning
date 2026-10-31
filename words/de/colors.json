@@ -1,0 +1,18 @@
+{
+  "lang": "de",
+  "from": "cs",
+  "type": "adjectives",
+  "title": "Colors",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {"q": "červená", "a": "rot"},
+    {"q": "modrá", "a": "blau"},
+    {"q": "zelená", "a": "grün"},
+    {"q": "žlutá", "a": "gelb"},
+    {"q": "černá", "a": "schwarz"},
+    {"q": "bílá", "a": "weiß"},
+    {"q": "šedá", "a": "grau"},
+    {"q": "hnědá", "a": "braun"}
+  ]
+}

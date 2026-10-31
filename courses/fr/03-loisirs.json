@@ -1,0 +1,296 @@
+{
+  "schema": 1,
+  "goals": [
+    "Časovat pravidelná slovesa na -er",
+    "Říct, co máš a nemáš rád: aimer, adorer, préférer, détester",
+    "Mluvit o sportu a hudbě: faire du, jouer au, jouer de",
+    "Ptát se třemi způsoby a používat tázací slova",
+    "Říct, jak často něco děláš"
+  ],
+  "lessons": [
+    {
+      "id": "fr-3-1",
+      "title": "Je joue, tu joues",
+      "subtitle": "Slovesa na -er",
+      "topics": ["er-verbs"],
+      "words": ["verbs#tancovat", "verbs#zpívat", "verbs#poslouchat", "verbs#mít rád", "verbs#dívat se", "verbs#hrát", "verbs#plavat", "verbs#lyžovat"],
+      "learn": [
+        {"title": "Slovesa na -er", "blocks": [
+          {"type": "text", "cs": "Většina francouzských sloves končí na *-er* a časuje se úplně pravidelně. Odtrhneš *-er* a přidáš koncovky *-e, -es, -e, -ons, -ez, -ent*."},
+          {"type": "table", "verb": "jouer", "tense": "present"},
+          {"type": "text", "cs": "Koncovky *-e, -es, -e, -ent* se **nevyslovují**, takže *je joue, tu joues, il joue, ils jouent* zní úplně stejně. Slyšet jsou jen *-ons* a *-ez*."},
+          {"type": "tip", "title": "j'aime, j'écoute", "cs": "Před samohláskou a němým *h* se *je* zkracuje: *j'aime, j'écoute, j'habite*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ au tennis.", "a": ["jouons"], "hint": "jouer"}}
+        ]},
+        {"title": "Malé zvláštnosti", "blocks": [
+          {"type": "text", "cs": "*Préférer* (mít raději) mění v kořeni *é* na *è*, když je koncovka nevyslovená: *je préfère*, ale *nous préférons*."},
+          {"type": "table", "verb": "préférer", "tense": "present"},
+          {"type": "tip", "title": "nager, manger", "cs": "U sloves na *-ger* zůstává ve tvaru pro *nous* písmeno *e*, aby se *g* četlo [ʒ]: *nous nageons, nous mangeons*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Elle ___ le basket.", "a": ["préfère"], "hint": "préférer"}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-3-1-f", "type": "form", "verb": "aimer", "tense": "present"},
+        {"id": "fr-3-1-01", "type": "cloze", "fr": "J'___ la radio.", "a": ["écoute"], "hint": "écouter"},
+        {"id": "fr-3-1-02", "type": "cloze", "fr": "Tu ___ bien !", "a": ["chantes"], "hint": "chanter"},
+        {"id": "fr-3-1-03", "type": "cloze", "fr": "Il ___ au foot.", "a": ["joue"], "hint": "jouer"},
+        {"id": "fr-3-1-04", "type": "cloze", "fr": "Nous ___ la télé.", "a": ["regardons"], "hint": "regarder"},
+        {"id": "fr-3-1-05", "type": "cloze", "fr": "Vous ___ bien !", "a": ["dansez"], "hint": "danser"},
+        {"id": "fr-3-1-06", "type": "cloze", "fr": "Elles ___ tous les jours.", "a": ["nagent"], "hint": "nager"},
+        {"id": "fr-3-1-07", "type": "cloze", "fr": "Nous ___ le samedi.", "a": ["nageons"], "hint": "nager"},
+        {"id": "fr-3-1-08", "type": "cloze", "fr": "Ils ___ le hockey.", "a": ["préfèrent"], "hint": "préférer"},
+        {"id": "fr-3-1-09", "type": "build", "cs": "Díváme se na televizi.", "a": ["{Nous regardons|On regarde} la télé."]},
+        {"id": "fr-3-1-10", "type": "build", "cs": "Tancuješ?", "a": ["{Tu danses|Est-ce que tu danses|Danses-tu} ?"]},
+        {"id": "fr-3-1-11", "type": "build", "cs": "Plavou každý den.", "a": ["{Ils|Elles} nagent tous les jours."]},
+        {"id": "fr-3-1-12", "type": "transform", "task_cs": "Změň osobu na nous", "fr": "Je chante bien.", "a": ["{Nous chantons|On chante} bien."]},
+        {"id": "fr-3-1-13", "type": "transform", "task_cs": "Změň osobu na ils", "fr": "Il écoute le prof.", "a": ["Ils écoutent le prof."]},
+        {"id": "fr-3-1-14", "type": "transform", "task_cs": "Změň osobu na vous", "fr": "Tu nages bien.", "a": ["Vous nagez bien."]},
+        {"id": "fr-3-1-15", "type": "order", "cs": "Moje sestra zpívá a tancuje.", "a": ["Ma sœur chante et danse"], "extra": ["chantes", "dansent"]}
+      ]
+    },
+    {
+      "id": "fr-3-2",
+      "title": "J'aime le foot",
+      "subtitle": "Co mám a nemám rád",
+      "topics": ["likes", "hobbies"],
+      "words": ["verbs#zbožňovat", "verbs#nesnášet", "verbs#mít raději", "sports#fotbal", "sports#basketbal", "sports#tenis", "sports#hokej", "sports#basketbal", "sports#volejbal", "sports#tanec", "sports#videohry", "basics#protože", "basics#proč"],
+      "learn": [
+        {"title": "Co mám rád", "blocks": [
+          {"type": "text", "cs": "Co máš rád, vyjádříš slovesy *aimer* (mít rád), *adorer* (zbožňovat), *préférer* (mít raději) a *détester* (nesnášet). Po nich stojí **určitý člen**, protože mluvíš o věci obecně: *J'aime le foot. J'adore la musique. Je déteste les maths.*"},
+          {"type": "table", "firstCs": true, "rows": [
+            ["zbožňuju", "j'adore"],
+            ["mám rád", "j'aime"],
+            ["docela mám rád", "j'aime bien"],
+            ["nemám rád", "je n'aime pas"],
+            ["nesnáším", "je déteste"]
+          ]},
+          {"type": "tip", "title": "Nezapomeň na člen", "cs": "Česky řekneš „mám rád fotbal“ bez členu, francouzsky vždy se členem: *J'aime le foot*, ne *J'aime foot*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'adore ___ musique.", "a": ["la"]}}
+        ]},
+        {"title": "Rád dělám", "blocks": [
+          {"type": "text", "cs": "Když máš rád nějakou činnost, dáš za *aimer* infinitiv: *J'aime danser.* (Rád tancuju.) *Je déteste nager.* (Nesnáším plavání.)"},
+          {"type": "examples", "items": [
+            {"fr": "J'aime jouer aux jeux vidéo.", "cs": "Rád hraju videohry."},
+            {"fr": "Ma sœur adore chanter.", "cs": "Moje sestra zbožňuje zpěv."},
+            {"fr": "Je préfère regarder la télé.", "cs": "Raději se dívám na televizi."}
+          ]},
+          {"type": "check", "item": {"type": "build", "cs": "Rád zpívám.", "a": ["J'aime chanter."]}}
+        ]},
+        {"title": "Proč? Protože...", "blocks": [
+          {"type": "text", "cs": "Na *pourquoi ?* (proč?) odpovíš *parce que* (protože), před samohláskou *parce qu'*. Názor řekneš pomocí *c'est*: *c'est super, c'est ennuyeux*."},
+          {"type": "examples", "items": [
+            {"fr": "Pourquoi tu aimes le basket ? Parce que c'est rapide.", "cs": "Proč máš rád basketbal? Protože je rychlý."},
+            {"fr": "Je déteste le tennis parce que c'est ennuyeux.", "cs": "Nesnáším tenis, protože je nudný."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-3-2-01", "type": "cloze", "fr": "J'aime ___ foot.", "a": ["le"]},
+        {"id": "fr-3-2-02", "type": "cloze", "fr": "Tu aimes ___ musique ?", "a": ["la"]},
+        {"id": "fr-3-2-03", "type": "cloze", "fr": "Il déteste ___ jeux vidéo.", "a": ["les"]},
+        {"id": "fr-3-2-04", "type": "cloze", "fr": "J'___ le hockey.", "a": ["adore"], "hint": "adorer"},
+        {"id": "fr-3-2-05", "type": "cloze", "fr": "Elle ___ le tennis.", "a": ["déteste"], "hint": "détester"},
+        {"id": "fr-3-2-06", "type": "cloze", "fr": "Tu ___ le foot ou le basket ?", "a": ["préfères"], "hint": "préférer"},
+        {"id": "fr-3-2-07", "type": "build", "cs": "Mám rád basketbal.", "a": ["J'aime le basket."]},
+        {"id": "fr-3-2-08", "type": "build", "cs": "Moje sestra zbožňuje tanec.", "a": ["Ma sœur adore la danse."]},
+        {"id": "fr-3-2-09", "type": "build", "cs": "Nesnáším tenis.", "a": ["Je déteste le tennis."]},
+        {"id": "fr-3-2-10", "type": "build", "cs": "Rád hraju videohry.", "a": ["J'aime jouer aux jeux vidéo."], "hint": "hrát videohry = jouer aux jeux vidéo"},
+        {"id": "fr-3-2-11", "type": "build", "cs": "Máš raději fotbal, nebo hokej?", "a": ["{Tu préfères|Est-ce que tu préfères|Préfères-tu} le {foot|football} ou le hockey ?"]},
+        {"id": "fr-3-2-12", "type": "build", "cs": "Proč? Protože je to nudné.", "a": ["Pourquoi ? Parce que c'est ennuyeux."]},
+        {"id": "fr-3-2-13", "type": "transform", "task_cs": "Převeď do záporu", "fr": "J'aime le volley.", "a": ["Je n'aime pas le volley."], "why": "Po aimer zůstává určitý člen i v záporu."},
+        {"id": "fr-3-2-14", "type": "order", "cs": "Rád poslouchám rádio.", "a": ["J'aime écouter la radio"], "extra": ["le", "aimer"]}
+      ]
+    },
+    {
+      "id": "fr-3-3",
+      "title": "Je fais du sport",
+      "subtitle": "faire du, jouer au, jouer de",
+      "topics": ["faire", "hobbies"],
+      "words": ["verbs-irregular#dělat", "sports#lyžování", "sports#plavání", "sports#cyklistika", "sports#jezdectví", "sports#lezení", "sports#atletika", "sports#gymnastika", "sports#zápas", "sports#tým", "sports#trénink", "sports#piáno", "sports#kytara", "sports#bicí", "sports#housle", "sports#flétna"],
+      "learn": [
+        {"title": "Sloveso faire", "blocks": [
+          {"type": "text", "cs": "*Faire* (dělat) je nepravidelné a velmi časté."},
+          {"type": "table", "verb": "faire", "tense": "present"},
+          {"type": "tip", "title": "vous faites", "cs": "Pozor: *vous faites*, ne *vous faisez*. Podobně výjimečné je *vous êtes*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ du sport.", "a": ["faisons"], "hint": "faire"}}
+        ]},
+        {"title": "faire du, de la", "blocks": [
+          {"type": "text", "cs": "Sport, který provozuješ, vyjádříš slovesem *faire* a členem *du* (mužský rod), *de la* (ženský rod) nebo *de l'* (před samohláskou). *Du* vzniklo z *de + le*."},
+          {"type": "table", "head": ["", "člen", "příklad"], "firstCs": true, "rows": [
+            ["mužský rod", "du", "faire du ski, du vélo, du judo"],
+            ["ženský rod", "de la", "faire de la danse, de la natation"],
+            ["před samohláskou", "de l'", "faire de l'athlétisme, de l'escalade"]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je fais ___ natation.", "a": ["de la"]}}
+        ]},
+        {"title": "jouer à, jouer de", "blocks": [
+          {"type": "text", "cs": "U míčových sportů a her se říká *jouer à*, kde *à + le = au* a *à + les = aux*: *Je joue au foot. On joue aux cartes.* U hudebních nástrojů se říká *jouer de*: *Je joue de la guitare. Il joue du piano.*"},
+          {"type": "table", "firstCs": true, "rows": [
+            ["sport, hra", "jouer au foot, au tennis, aux jeux vidéo"],
+            ["nástroj", "jouer du piano, de la guitare, de la batterie"]
+          ]},
+          {"type": "tip", "title": "Basketbal", "cs": "Basketbal můžeš *faire* i *jouer*: *Je fais du basket.* i *Je joue au basket.* Obojí je správně."},
+          {"type": "tip", "title": "Zápor", "cs": "Po záporu se *du, de la* mění na *de*: *Je ne fais pas de sport.* Ale *au* zůstává: *Je ne joue pas au foot.*"},
+          {"type": "check", "item": {"type": "build", "cs": "Hraju na kytaru.", "a": ["Je joue de la guitare."]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-3-3-f", "type": "form", "verb": "faire", "tense": "present"},
+        {"id": "fr-3-3-01", "type": "cloze", "fr": "Il fait ___ ski.", "a": ["du"]},
+        {"id": "fr-3-3-02", "type": "cloze", "fr": "Nous faisons ___escalade.", "a": ["de l'"]},
+        {"id": "fr-3-3-03", "type": "cloze", "fr": "Elle fait ___ danse.", "a": ["de la"]},
+        {"id": "fr-3-3-04", "type": "cloze", "fr": "Je joue ___ tennis.", "a": ["au"]},
+        {"id": "fr-3-3-05", "type": "cloze", "fr": "Tu joues ___ guitare ?", "a": ["de la"]},
+        {"id": "fr-3-3-06", "type": "cloze", "fr": "Mon père joue ___ piano.", "a": ["du"]},
+        {"id": "fr-3-3-07", "type": "cloze", "fr": "Ils jouent ___ jeux vidéo.", "a": ["aux"]},
+        {"id": "fr-3-3-08", "type": "cloze", "fr": "Vous jouez ___ violon ?", "a": ["du"]},
+        {"id": "fr-3-3-09", "type": "build", "cs": "Dělám atletiku.", "a": ["Je fais de l'athlétisme."]},
+        {"id": "fr-3-3-10", "type": "build", "cs": "Hraju basketbal třikrát týdně.", "a": ["Je {joue au basket|fais du basket} trois fois par semaine."], "hint": "třikrát týdně = trois fois par semaine"},
+        {"id": "fr-3-3-11", "type": "build", "cs": "Můj bratr hraje na kytaru.", "a": ["Mon frère joue de la guitare."]},
+        {"id": "fr-3-3-12", "type": "build", "cs": "Děláte nějaký sport?", "a": ["{Vous faites|Est-ce que vous faites|Faites-vous} du sport ?"]},
+        {"id": "fr-3-3-13", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Je fais du sport.", "a": ["Je ne fais pas de sport."]},
+        {"id": "fr-3-3-14", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Elle fait de la natation.", "a": ["Elle ne fait pas de natation."]},
+        {"id": "fr-3-3-15", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il joue au hockey.", "a": ["Il ne joue pas au hockey."], "why": "Au se po záporu nemění, protože à není člen."},
+        {"id": "fr-3-3-16", "type": "order", "cs": "Hrajeme fotbal s kamarády.", "a": ["On joue au foot avec les copains", "Nous jouons au foot avec les copains"], "extra": ["du", "jouons"]}
+      ]
+    },
+    {
+      "id": "fr-3-4",
+      "title": "Tu aimes le sport ?",
+      "subtitle": "Otázky a tázací slova",
+      "topics": ["questions"],
+      "words": ["basics#co", "basics#kdy", "basics#jak", "basics#s kým", "basics#kolik", "basics#ano (na zápornou otázku)", "sports#volný čas / koníčky", "sports#hra", "sports#soutěž"],
+      "learn": [
+        {"title": "Tři druhy otázek", "blocks": [
+          {"type": "table", "head": ["", "příklad"], "firstCs": true, "rows": [
+            ["intonace (hovorově)", "Tu aimes le sport ?"],
+            ["est-ce que (neutrálně)", "Est-ce que tu aimes le sport ?"],
+            ["inverze (spisovně)", "Aimes-tu le sport ?"]
+          ]},
+          {"type": "text", "cs": "Nejjednodušší je zvednout hlas na konci věty. *Est-ce que* na začátku funguje vždy a slovosled se nemění. Před samohláskou se zkracuje na *est-ce qu'*: *Est-ce qu'il joue ?* Inverzi (sloveso před podmětem se spojovníkem) potkáš hlavně v psaném textu."},
+          {"type": "tip", "title": "joue-t-il", "cs": "V inverzi se mezi dvě samohlásky vkládá *-t-*: *Joue-t-il au foot ? Aime-t-elle danser ?*"},
+          {"type": "check", "item": {"type": "transform", "task_cs": "Polož otázku pomocí est-ce que", "fr": "Tu joues au tennis.", "a": ["Est-ce que tu joues au tennis ?"]}}
+        ]},
+        {"title": "Tázací slova", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["co?", "qu'est-ce que...? / ... quoi ?"],
+            ["kde?", "où ?"],
+            ["kdy?", "quand ?"],
+            ["jak?", "comment ?"],
+            ["proč?", "pourquoi ?"],
+            ["s kým?", "avec qui ?"],
+            ["kolik?", "combien ?"]
+          ]},
+          {"type": "text", "cs": "Tázací slovo stojí na začátku s *est-ce que*: *Où est-ce que tu joues ?* Hovorově může stát i na konci: *Tu joues où ?*"},
+          {"type": "examples", "items": [
+            {"fr": "Qu'est-ce que tu fais le week-end ?", "cs": "Co děláš o víkendu?"},
+            {"fr": "Avec qui est-ce que tu joues ?", "cs": "S kým hraješ?"},
+            {"fr": "Comment s'appelle ton équipe ?", "cs": "Jak se jmenuje tvůj tým?"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ est-ce que tu fais ?", "a": ["Qu'"], "hint": "co"}}
+        ]},
+        {"title": "Si!", "blocks": [
+          {"type": "text", "cs": "Na zápornou otázku odpovíš kladně slovem *si* (ale ano): *Tu n'aimes pas le foot ? Si, j'adore le foot !*"}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-3-4-01", "type": "transform", "task_cs": "Polož otázku pomocí est-ce que", "fr": "Il fait du sport.", "a": ["Est-ce qu'il fait du sport ?"], "why": "Před samohláskou se que zkracuje na qu'."},
+        {"id": "fr-3-4-02", "type": "transform", "task_cs": "Polož otázku pomocí est-ce que", "fr": "Vous jouez au volley.", "a": ["Est-ce que vous jouez au volley ?"]},
+        {"id": "fr-3-4-03", "type": "transform", "task_cs": "Polož otázku inverzí", "fr": "Tu aimes le ski.", "a": ["Aimes-tu le ski ?"]},
+        {"id": "fr-3-4-04", "type": "transform", "task_cs": "Polož otázku inverzí", "fr": "Vous faites du vélo.", "a": ["Faites-vous du vélo ?"]},
+        {"id": "fr-3-4-05", "type": "cloze", "fr": "___ est-ce que tu joues au foot ?", "a": ["Où"], "hint": "kde"},
+        {"id": "fr-3-4-06", "type": "cloze", "fr": "___ est-ce que tu fais du ski ?", "a": ["Quand"], "hint": "kdy"},
+        {"id": "fr-3-4-07", "type": "cloze", "fr": "___ est-ce que tu détestes le tennis ?", "a": ["Pourquoi"], "hint": "proč"},
+        {"id": "fr-3-4-08", "type": "cloze", "fr": "Tu joues avec ___ ?", "a": ["qui"], "hint": "s kým"},
+        {"id": "fr-3-4-09", "type": "cloze", "fr": "___ s'appelle ton équipe ?", "a": ["Comment"], "hint": "jak"},
+        {"id": "fr-3-4-10", "type": "build", "cs": "Co děláš o víkendu?", "a": ["{Qu'est-ce que tu fais le week-end|Tu fais quoi le week-end|Que fais-tu le week-end} ?"]},
+        {"id": "fr-3-4-11", "type": "build", "cs": "S kým hraješ tenis?", "a": ["{Avec qui est-ce que tu joues au tennis|Tu joues au tennis avec qui|Avec qui joues-tu au tennis} ?"]},
+        {"id": "fr-3-4-12", "type": "build", "cs": "Ty nemáš rád hokej? Ale ano!", "a": ["Tu n'aimes pas le hockey ? Si !"]},
+        {"id": "fr-3-4-13", "type": "build", "cs": "Proč hraješ basketbal? Protože je to super.", "a": ["{Pourquoi est-ce que tu joues au basket|Pourquoi tu joues au basket|Pourquoi joues-tu au basket} ? Parce que c'est super."]},
+        {"id": "fr-3-4-14", "type": "order", "cs": "Kde hraješ basketbal?", "a": ["Où est-ce que tu joues au basket"], "extra": ["qu'est-ce", "du"]}
+      ]
+    },
+    {
+      "id": "fr-3-5",
+      "title": "Souvent ou jamais ?",
+      "subtitle": "Jak často a sloveso lire",
+      "topics": ["hobbies", "negation"],
+      "words": ["verbs-irregular#číst", "basics#často", "basics#nikdy", "time#každý den", "sports#horská túra", "sports#běh"],
+      "learn": [
+        {"title": "Jak často?", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["vždycky", "toujours"],
+            ["často", "souvent"],
+            ["někdy", "parfois / quelquefois"],
+            ["nikdy", "ne ... jamais"],
+            ["každý den", "tous les jours"],
+            ["jednou týdně", "une fois par semaine"],
+            ["o víkendu", "le week-end"]
+          ]},
+          {"type": "text", "cs": "Krátká příslovce stojí hned za slovesem: *Je joue souvent au foot.* *Jamais* funguje jako *pas*, takže po něm se *du, de la* také mění na *de*: *Je ne fais jamais de ski.*"},
+          {"type": "check", "item": {"type": "transform", "task_cs": "Řekni, že to neděláš nikdy", "fr": "Je fais du ski.", "a": ["Je ne fais jamais de ski."]}}
+        ]},
+        {"title": "Sloveso lire (číst)", "blocks": [
+          {"type": "table", "verb": "lire", "tense": "present"},
+          {"type": "examples", "items": [
+            {"fr": "Je lis beaucoup.", "cs": "Hodně čtu."},
+            {"fr": "Tu lis des BD ?", "cs": "Čteš komiksy?"},
+            {"fr": "Le soir, mon père lit le journal.", "cs": "Večer můj táta čte noviny."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-3-5-f", "type": "form", "verb": "lire", "tense": "present"},
+        {"id": "fr-3-5-01", "type": "cloze", "fr": "Je joue ___ au foot.", "a": ["souvent"], "hint": "často"},
+        {"id": "fr-3-5-02", "type": "cloze", "fr": "Il ne fait ___ de sport.", "a": ["jamais"], "hint": "nikdy"},
+        {"id": "fr-3-5-03", "type": "cloze", "fr": "Nous jouons au basket ___ les jours.", "a": ["tous"]},
+        {"id": "fr-3-5-04", "type": "cloze", "fr": "Elle danse ___.", "a": ["parfois", "quelquefois"], "hint": "někdy"},
+        {"id": "fr-3-5-05", "type": "build", "cs": "Často čtu.", "a": ["Je lis souvent."]},
+        {"id": "fr-3-5-06", "type": "build", "cs": "Nikdy nehraju videohry.", "a": ["Je ne joue jamais aux jeux vidéo."]},
+        {"id": "fr-3-5-07", "type": "build", "cs": "Hraju na kytaru každý den.", "a": ["Je joue de la guitare tous les jours."]},
+        {"id": "fr-3-5-08", "type": "build", "cs": "O víkendu hraju basketbal.", "a": ["Le week-end, je {joue au basket|fais du basket}."]},
+        {"id": "fr-3-5-09", "type": "transform", "task_cs": "Řekni, že to nedělá nikdy", "fr": "Elle regarde la télé.", "a": ["Elle ne regarde jamais la télé."]},
+        {"id": "fr-3-5-10", "type": "transform", "task_cs": "Řekni, že to neděláme nikdy", "fr": "Nous faisons de la randonnée.", "a": ["{Nous ne faisons jamais|On ne fait jamais} de randonnée."]},
+        {"id": "fr-3-5-11", "type": "order", "cs": "Moje sestra čte každý den.", "a": ["Ma sœur lit tous les jours"], "extra": ["lis", "jamais"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-3-t-01", "lesson": "fr-3-1", "type": "form", "verb": "jouer", "tense": "present", "person": 3},
+      {"id": "fr-3-t-02", "lesson": "fr-3-1", "type": "form", "verb": "préférer", "tense": "present", "person": 1},
+      {"id": "fr-3-t-03", "lesson": "fr-3-1", "type": "cloze", "fr": "Ils ___ la télé.", "a": ["regardent"], "hint": "regarder"},
+      {"id": "fr-3-t-04", "lesson": "fr-3-1", "type": "cloze", "fr": "Vous ___ bien !", "a": ["chantez"], "hint": "chanter"},
+      {"id": "fr-3-t-05", "lesson": "fr-3-2", "type": "cloze", "fr": "J'___ le basket.", "a": ["adore"], "hint": "adorer"},
+      {"id": "fr-3-t-06", "lesson": "fr-3-2", "type": "cloze", "fr": "Je déteste ___ tennis.", "a": ["le"]},
+      {"id": "fr-3-t-07", "lesson": "fr-3-2", "type": "build", "cs": "Mám rád hokej, ale nesnáším tenis.", "a": ["J'aime le hockey, mais je déteste le tennis."]},
+      {"id": "fr-3-t-08", "lesson": "fr-3-2", "type": "build", "cs": "Zbožňuju tanec.", "a": ["J'adore {la danse|danser}."]},
+      {"id": "fr-3-t-09", "lesson": "fr-3-2", "type": "build", "cs": "Rádi tancujeme.", "a": ["{Nous aimons|On aime} danser."]},
+      {"id": "fr-3-t-10", "lesson": "fr-3-3", "type": "form", "verb": "faire", "tense": "present", "person": 4},
+      {"id": "fr-3-t-11", "lesson": "fr-3-3", "type": "form", "verb": "faire", "tense": "present", "person": 5},
+      {"id": "fr-3-t-12", "lesson": "fr-3-3", "type": "cloze", "fr": "Elle fait ___équitation.", "a": ["de l'"]},
+      {"id": "fr-3-t-13", "lesson": "fr-3-3", "type": "cloze", "fr": "Tu joues ___ flûte ?", "a": ["de la"]},
+      {"id": "fr-3-t-14", "lesson": "fr-3-3", "type": "cloze", "fr": "Nous jouons ___ volley.", "a": ["au"]},
+      {"id": "fr-3-t-15", "lesson": "fr-3-3", "type": "cloze", "fr": "Il fait ___ vélo.", "a": ["du"]},
+      {"id": "fr-3-t-16", "lesson": "fr-3-3", "type": "build", "cs": "Hraješ na piano?", "a": ["{Tu joues|Est-ce que tu joues|Joues-tu} du piano ?"]},
+      {"id": "fr-3-t-17", "lesson": "fr-3-3", "type": "build", "cs": "Nedělám žádný sport.", "a": ["Je ne fais pas de sport."]},
+      {"id": "fr-3-t-18", "lesson": "fr-3-3", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Je joue au tennis.", "a": ["Je ne joue pas au tennis."]},
+      {"id": "fr-3-t-19", "lesson": "fr-3-4", "type": "transform", "task_cs": "Polož otázku pomocí est-ce que", "fr": "Elle aime le ski.", "a": ["Est-ce qu'elle aime le ski ?"]},
+      {"id": "fr-3-t-20", "lesson": "fr-3-4", "type": "cloze", "fr": "___ est-ce que tu habites ?", "a": ["Où"], "hint": "kde"},
+      {"id": "fr-3-t-21", "lesson": "fr-3-4", "type": "cloze", "fr": "___ tu aimes le foot ? Parce que c'est super.", "a": ["Pourquoi"], "hint": "proč"},
+      {"id": "fr-3-t-22", "lesson": "fr-3-4", "type": "build", "cs": "Kdy hraješ basketbal?", "a": ["{Quand est-ce que tu joues au basket|Tu joues au basket quand|Quand joues-tu au basket} ?"]},
+      {"id": "fr-3-t-23", "lesson": "fr-3-4", "type": "build", "cs": "Co děláš ve volném čase?", "a": ["{Qu'est-ce que tu fais|Tu fais quoi|Que fais-tu} {pendant ton temps libre|dans ton temps libre} ?"], "hint": "ve volném čase = pendant ton temps libre"},
+      {"id": "fr-3-t-24", "lesson": "fr-3-5", "type": "form", "verb": "lire", "tense": "present", "person": 2},
+      {"id": "fr-3-t-25", "lesson": "fr-3-5", "type": "transform", "task_cs": "Řekni, že to nedělá nikdy", "fr": "Il fait du vélo.", "a": ["Il ne fait jamais de vélo."]},
+      {"id": "fr-3-t-26", "lesson": "fr-3-5", "type": "build", "cs": "Často hraju videohry.", "a": ["Je joue souvent aux jeux vidéo."]}
+    ]
+  }
+}

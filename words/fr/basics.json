@@ -1,0 +1,329 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Basics",
+  "unit": "1.1",
+  "level": null,
+  "words": [
+    {
+      "q": "ano",
+      "a": "oui"
+    },
+    {
+      "q": "ne",
+      "a": "non"
+    },
+    {
+      "q": "a",
+      "a": "et"
+    },
+    {
+      "q": "také",
+      "a": "aussi"
+    },
+    {
+      "q": "potom",
+      "a": [
+        "puis",
+        "ensuite"
+      ],
+      "unit": "3.2"
+    },
+    {
+      "q": "ale",
+      "a": "mais"
+    },
+    {
+      "q": "kde",
+      "a": "où",
+      "unit": "1.2"
+    },
+    {
+      "q": "odkud",
+      "a": "d'où",
+      "unit": "1.2"
+    },
+    {
+      "q": "trochu",
+      "a": "un peu",
+      "unit": "2.3"
+    },
+    {
+      "q": "hodně",
+      "a": "beaucoup",
+      "unit": "2.3"
+    },
+    {
+      "q": "velmi",
+      "a": "très",
+      "unit": "2.2"
+    },
+    {
+      "q": "až moc",
+      "a": "trop",
+      "unit": "2.2"
+    },
+    {
+      "q": "často",
+      "a": "souvent",
+      "unit": "3.2"
+    },
+    {
+      "q": "málo",
+      "a": "peu",
+      "unit": "2.3"
+    },
+    {
+      "q": "dost",
+      "a": "assez",
+      "unit": "2.3"
+    },
+    {
+      "q": "běžný",
+      "a": "courant",
+      "unit": "2.2"
+    },
+    {
+      "q": "možná",
+      "a": "peut-être",
+      "unit": "2.3"
+    },
+    {
+      "q": "jiný",
+      "a": "autre",
+      "unit": "2.2"
+    },
+    {
+      "q": "blízko",
+      "a": "proche",
+      "unit": "4.3"
+    },
+    {
+      "q": "daleko",
+      "a": "loin",
+      "unit": "4.3"
+    },
+    {
+      "q": "mezi",
+      "a": "entre",
+      "unit": "4.3"
+    },
+    {
+      "q": "před",
+      "a": "devant",
+      "unit": "4.3"
+    },
+    {
+      "q": "nebo",
+      "a": "ou"
+    },
+    {
+      "q": "napravo",
+      "a": "à droite",
+      "unit": "5.1"
+    },
+    {
+      "q": "drahý",
+      "a": "cher",
+      "unit": "4.2"
+    },
+    {
+      "q": "poškozený",
+      "a": "abîmé",
+      "unit": "4.2"
+    },
+    {
+      "q": "hodnota",
+      "a": "valeur",
+      "unit": "4.2"
+    },
+    {
+      "q": "nové",
+      "a": "neuf",
+      "unit": "4.2"
+    },
+    {
+      "q": "použité",
+      "a": "d'occasion",
+      "unit": "4.2"
+    },
+    {
+      "q": "sám",
+      "a": [
+        "seul",
+        "seule"
+      ],
+      "unit": "2.2"
+    },
+    {
+      "q": "souhlas",
+      "a": "d'accord"
+    },
+    {
+      "q": "je mi líto",
+      "a": "désolé"
+    },
+    {
+      "q": "škoda",
+      "a": "dommage",
+      "unit": "2.3"
+    },
+    {
+      "q": "tady je",
+      "a": "voilà"
+    },
+    {
+      "q": "nenávist",
+      "a": "haine",
+      "unit": "2.2"
+    },
+    {
+      "q": "čůrat",
+      "a": "faire pipi",
+      "unit": "7.2"
+    },
+    {
+      "q": "čurání",
+      "a": "pipi",
+      "unit": "7.2"
+    },
+    {
+      "q": "zhoršený",
+      "a": [
+        "aggravé",
+        "détérioré"
+      ],
+      "unit": "7.2"
+    },
+    {
+      "q": "bydlím",
+      "a": "j'habite",
+      "unit": "1.2"
+    },
+    {
+      "q": "kdo (který)",
+      "a": "qui"
+    },
+    {
+      "q": "tady jsou",
+      "a": "les voilà"
+    },
+    {
+      "q": "všichni",
+      "a": "tous",
+      "unit": "2.1"
+    },
+    {
+      "q": "jaký (který)",
+      "a": [
+        "quel",
+        "quelle"
+      ],
+      "unit": "1.2"
+    },
+    {
+      "q": "protože",
+      "a": "parce que",
+      "unit": "2.3"
+    },
+    {
+      "q": "vůbec ne",
+      "a": "pas du tout",
+      "unit": "2.3"
+    },
+    {
+      "q": "já taky",
+      "a": "moi aussi",
+      "unit": "1.2"
+    },
+    {
+      "q": "já taky ne",
+      "a": "moi non plus",
+      "unit": "1.2"
+    },
+    {
+      "q": "nikdy",
+      "a": "jamais",
+      "unit": "3.2"
+    },
+    {
+      "q": "proč",
+      "a": "pourquoi",
+      "unit": "2.3"
+    },
+    {
+      "q": "kdy",
+      "a": "quand",
+      "unit": "2.3"
+    },
+    {
+      "q": "jak",
+      "a": "comment",
+      "unit": "2.3"
+    },
+    {
+      "q": "s kým",
+      "a": "avec qui",
+      "unit": "2.3"
+    },
+    {
+      "q": "co",
+      "a": [
+        "qu'est-ce que",
+        "quoi"
+      ],
+      "unit": "2.3"
+    },
+    {
+      "q": "ano (na zápornou otázku)",
+      "a": "si",
+      "unit": "2.3"
+    },
+    {
+      "q": "kolik",
+      "a": "combien",
+      "unit": "4.2"
+    },
+    {
+      "q": "v (uvnitř)",
+      "a": "dans",
+      "unit": "4.3"
+    },
+    {
+      "q": "na (nahoře)",
+      "a": "sur",
+      "unit": "4.3"
+    },
+    {
+      "q": "pod",
+      "a": "sous",
+      "unit": "4.3"
+    },
+    {
+      "q": "za (vzadu)",
+      "a": "derrière",
+      "unit": "4.3"
+    },
+    {
+      "q": "vedle",
+      "a": "à côté de",
+      "unit": "4.3"
+    },
+    {
+      "q": "naproti",
+      "a": "en face de",
+      "unit": "4.3"
+    },
+    {
+      "q": "nalevo",
+      "a": "à gauche",
+      "unit": "4.3"
+    },
+    {
+      "q": "poblíž",
+      "a": "près de",
+      "unit": "4.3"
+    }
+  ]
+}

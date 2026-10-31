@@ -1,0 +1,1534 @@
+{
+  "articles": [
+    {
+      "id": "numbers-0-69",
+      "title": "Numbers 0 to 69",
+      "fr": "les nombres de 0 à 69",
+      "level": "A1",
+      "keywords": [
+        "numbers",
+        "nombres",
+        "un",
+        "deux",
+        "dix",
+        "vingt",
+        "trente",
+        "et un",
+        "counting"
+      ],
+      "topics": [
+        "numbers"
+      ],
+      "see": [
+        "numbers-70-100",
+        "big-numbers",
+        "clock"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "number",
+                "French"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "0",
+                  "zéro"
+                ],
+                [
+                  "1, 2, 3",
+                  "un, deux, trois"
+                ],
+                [
+                  "4, 5, 6",
+                  "quatre, cinq, six"
+                ],
+                [
+                  "7, 8, 9",
+                  "sept, huit, neuf"
+                ],
+                [
+                  "10, 11, 12",
+                  "dix, onze, douze"
+                ],
+                [
+                  "13, 14, 15",
+                  "treize, quatorze, quinze"
+                ],
+                [
+                  "16",
+                  "seize"
+                ],
+                [
+                  "17, 18, 19",
+                  "dix-sept, dix-huit, dix-neuf"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "You learn the numbers up to 16 by heart. From 17 they are built up: *dix-sept* = ten and seven."
+            }
+          ]
+        },
+        {
+          "title": "Tens",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "number",
+                "French"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "20",
+                  "vingt"
+                ],
+                [
+                  "30",
+                  "trente"
+                ],
+                [
+                  "40",
+                  "quarante"
+                ],
+                [
+                  "50",
+                  "cinquante"
+                ],
+                [
+                  "60",
+                  "soixante"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "A hyphen is written between tens and units: *vingt-deux, trente-cinq*. Only *one* takes *et*: *vingt et un, trente et un*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "21",
+                  "wrong": "vingt-un",
+                  "fr": "vingt [[et]] un"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Un and une, pronunciation",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Un* becomes *une* in the feminine: *vingt et une filles*. The other numbers do not change."
+            },
+            {
+              "type": "tip",
+              "en": "*Six* and *dix* before a consonant are read without the final sound (*six livres*), at the end of a sentence the *x* is read as s (*j'en ai six*). *Vingt* is read without the *t*, but *vingt-deux* with it."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai quatorze ans.",
+                  "en": "I'm fourteen."
+                },
+                {
+                  "fr": "Il y a vingt-huit élèves dans ma classe.",
+                  "en": "There are twenty-eight pupils in my class."
+                },
+                {
+                  "fr": "Mon père a quarante-trois ans.",
+                  "en": "My father is forty-three."
+                },
+                {
+                  "fr": "J'habite au numéro trente et un.",
+                  "en": "I live at number thirty-one."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-numbers-0-69-01",
+          "type": "build",
+          "en": "17",
+          "a": [
+            "dix-sept"
+          ]
+        },
+        {
+          "id": "g-numbers-0-69-02",
+          "type": "build",
+          "en": "21",
+          "a": [
+            "vingt et un"
+          ]
+        },
+        {
+          "id": "g-numbers-0-69-03",
+          "type": "build",
+          "en": "35",
+          "a": [
+            "trente-cinq"
+          ]
+        },
+        {
+          "id": "g-numbers-0-69-04",
+          "type": "build",
+          "en": "I'm fifteen.",
+          "a": [
+            "J'ai quinze ans."
+          ]
+        },
+        {
+          "id": "g-numbers-0-69-05",
+          "type": "build",
+          "en": "68",
+          "a": [
+            "soixante-huit"
+          ]
+        },
+        {
+          "id": "g-numbers-0-69-06",
+          "type": "build",
+          "en": "41",
+          "a": [
+            "quarante et un"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numbers-70-100",
+      "title": "Numbers 70 to 100",
+      "fr": "les nombres de 70 à 100",
+      "level": "A1",
+      "keywords": [
+        "70",
+        "80",
+        "90",
+        "soixante-dix",
+        "quatre-vingts",
+        "quatre-vingt-dix",
+        "septante",
+        "nonante",
+        "counting in twenties"
+      ],
+      "topics": [
+        "numbers"
+      ],
+      "see": [
+        "numbers-0-69",
+        "big-numbers"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "From 70 French counts in twenties. It looks complicated, but you only need to add."
+            },
+            {
+              "type": "table",
+              "head": [
+                "number",
+                "French",
+                "literally"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "70",
+                  "soixante-dix",
+                  "60 + 10"
+                ],
+                [
+                  "71",
+                  "soixante et onze",
+                  "60 + 11"
+                ],
+                [
+                  "75",
+                  "soixante-quinze",
+                  "60 + 15"
+                ],
+                [
+                  "80",
+                  "quatre-vingts",
+                  "4 × 20"
+                ],
+                [
+                  "81",
+                  "quatre-vingt-un",
+                  "4 × 20 + 1"
+                ],
+                [
+                  "90",
+                  "quatre-vingt-dix",
+                  "4 × 20 + 10"
+                ],
+                [
+                  "99",
+                  "quatre-vingt-dix-neuf",
+                  "4 × 20 + 19"
+                ],
+                [
+                  "100",
+                  "cent",
+                  "100"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Spelling",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Quatre-vingts* takes an *-s* only when nothing follows: *quatre-vingts*, but *quatre-vingt-trois*. With 81 and 91 there is **no** *et* any more."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "80",
+                  "wrong": "quatre-vingt",
+                  "fr": "quatre-vingt[[s]]"
+                },
+                {
+                  "en": "81",
+                  "wrong": "quatre-vingt et un",
+                  "fr": "quatre-vingt-[[un]]"
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Belgium and Switzerland",
+              "en": "In Belgium and Switzerland they say *septante* (70) and *nonante* (90), in Switzerland *huitante* (80) too. In France and at school *soixante-dix* and *quatre-vingt-dix* apply."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ma grand-mère a soixante-dix-huit ans.",
+                  "en": "My grandmother is seventy-eight."
+                },
+                {
+                  "fr": "Ça coûte quatre-vingts euros.",
+                  "en": "It costs eighty euros."
+                },
+                {
+                  "fr": "Il y a quatre-vingt-dix-neuf verbes dans l'appli.",
+                  "en": "There are ninety-nine verbs in the app."
+                },
+                {
+                  "fr": "Mon grand-père a quatre-vingt-un ans.",
+                  "en": "My grandfather is eighty-one."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-numbers-70-100-01",
+          "type": "build",
+          "en": "70",
+          "a": [
+            "soixante-dix"
+          ]
+        },
+        {
+          "id": "g-numbers-70-100-02",
+          "type": "build",
+          "en": "80",
+          "a": [
+            "quatre-vingts"
+          ]
+        },
+        {
+          "id": "g-numbers-70-100-03",
+          "type": "build",
+          "en": "92",
+          "a": [
+            "quatre-vingt-douze"
+          ]
+        },
+        {
+          "id": "g-numbers-70-100-04",
+          "type": "build",
+          "en": "71",
+          "a": [
+            "soixante et onze"
+          ]
+        },
+        {
+          "id": "g-numbers-70-100-05",
+          "type": "build",
+          "en": "85",
+          "a": [
+            "quatre-vingt-cinq"
+          ]
+        },
+        {
+          "id": "g-numbers-70-100-06",
+          "type": "build",
+          "en": "99",
+          "a": [
+            "quatre-vingt-dix-neuf"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "big-numbers",
+      "title": "Hundreds, thousands, prices",
+      "fr": "les grands nombres et les prix",
+      "level": "A1",
+      "keywords": [
+        "hundred",
+        "thousand",
+        "million",
+        "cent",
+        "mille",
+        "prices",
+        "euro",
+        "crown",
+        "decimal comma",
+        "years",
+        "prix"
+      ],
+      "topics": [
+        "numbers",
+        "shopping"
+      ],
+      "see": [
+        "numbers-70-100",
+        "dates"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "number",
+                "French"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "100",
+                  "cent"
+                ],
+                [
+                  "101",
+                  "cent un"
+                ],
+                [
+                  "200",
+                  "deux cents"
+                ],
+                [
+                  "250",
+                  "deux cent cinquante"
+                ],
+                [
+                  "1 000",
+                  "mille"
+                ],
+                [
+                  "2 000",
+                  "deux mille"
+                ],
+                [
+                  "2026",
+                  "deux mille vingt-six"
+                ],
+                [
+                  "1 000 000",
+                  "un million"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Spelling",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Cent* takes an *-s* only in **round** hundreds: *deux cents*, but *deux cent dix*. *Mille* **never changes**: *trois mille*. *Million* is a noun: *deux millions de personnes*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "3,000",
+                  "wrong": "trois milles",
+                  "fr": "trois [[mille]]"
+                },
+                {
+                  "en": "a hundred euros",
+                  "wrong": "un cent euros",
+                  "fr": "[[cent]] euros",
+                  "note": "You don't say *un* before *cent* and *mille*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Prices and years",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A decimal comma is not read out in prices, you simply say two numbers. Thousands are separated by a space: *1 500 CZK*. Years are read as ordinary numbers: *1989* = *mille neuf cent quatre-vingt-neuf*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "written",
+                "said"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "2,99 €",
+                  "deux euros quatre-vingt-dix-neuf"
+                ],
+                [
+                  "15 €",
+                  "quinze euros"
+                ],
+                [
+                  "1 200 CZK",
+                  "mille deux cents couronnes"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ça coûte combien ? Douze euros cinquante.",
+                  "en": "How much is it? Twelve euros fifty."
+                },
+                {
+                  "fr": "Il y a deux cents élèves dans mon collège.",
+                  "en": "There are two hundred pupils in my school."
+                },
+                {
+                  "fr": "Paris a plus de deux millions d'habitants.",
+                  "en": "Paris has more than two million inhabitants."
+                },
+                {
+                  "fr": "Mon père est né en mille neuf cent quatre-vingt-cinq.",
+                  "en": "My father was born in 1985."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-big-numbers-01",
+          "type": "build",
+          "en": "200",
+          "a": [
+            "deux cents"
+          ]
+        },
+        {
+          "id": "g-big-numbers-02",
+          "type": "build",
+          "en": "350",
+          "a": [
+            "trois cent cinquante"
+          ]
+        },
+        {
+          "id": "g-big-numbers-03",
+          "type": "build",
+          "en": "5,000",
+          "a": [
+            "cinq mille"
+          ]
+        },
+        {
+          "id": "g-big-numbers-04",
+          "type": "build",
+          "en": "2026",
+          "a": [
+            "deux mille vingt-six"
+          ]
+        },
+        {
+          "id": "g-big-numbers-05",
+          "type": "build",
+          "en": "€4.50",
+          "a": [
+            "quatre euros cinquante",
+            "quatre euros et cinquante centimes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "numbers-more",
+      "title": "More numbers: decimals, fractions, percentages, approximations",
+      "fr": "les nombres (suite)",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "decimals",
+        "virgule",
+        "fractions",
+        "la moitié",
+        "un tiers",
+        "un quart",
+        "pourcentage",
+        "pour cent",
+        "environ",
+        "une dizaine",
+        "une centaine",
+        "des milliers",
+        "plus et moins",
+        "arithmetic",
+        "calcul",
+        "mesures",
+        "mètre",
+        "kilo",
+        "degrés"
+      ],
+      "topics": [],
+      "see": [
+        "numbers-70-100",
+        "big-numbers",
+        "ordinals",
+        "quantities"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French writes **decimals with a comma** (*3,5* = *trois virgule cinq*) and **thousands with a space** (*10 000*). Fractions, percentages and approximate numbers use special words: *la moitié, un tiers, un quart, pour cent, une dizaine, une centaine*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "type",
+                "example",
+                "reading"
+              ],
+              "rows": [
+                [
+                  "decimal",
+                  "3,5",
+                  "trois virgule cinq"
+                ],
+                [
+                  "thousands",
+                  "12 500",
+                  "douze mille cinq cents"
+                ],
+                [
+                  "half",
+                  "1/2",
+                  "la moitié, un demi"
+                ],
+                [
+                  "third, quarter",
+                  "1/3, 1/4",
+                  "un tiers, un quart"
+                ],
+                [
+                  "other fractions",
+                  "2/5, 3/4",
+                  "deux cinquièmes, trois quarts"
+                ],
+                [
+                  "percentage",
+                  "25 %",
+                  "vingt-cinq pour cent"
+                ],
+                [
+                  "approximate",
+                  "~10, ~100",
+                  "une dizaine, une centaine"
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Approximate numbers",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The **-aine** nouns mean *about*: **une dizaine** (about 10), **une quinzaine** (about 15 or two weeks), **une vingtaine**, **une trentaine**, **une centaine** (about 100). **Des milliers** = thousands, **des millions** = millions. Add **de + noun**: *une dizaine de personnes*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il y a une vingtaine d'élèves.",
+                  "en": "There are about twenty pupils."
+                },
+                {
+                  "fr": "Nous avons attendu une quinzaine de minutes.",
+                  "en": "We waited about fifteen minutes."
+                },
+                {
+                  "fr": "Des milliers de personnes sont venues.",
+                  "en": "Thousands of people came."
+                },
+                {
+                  "fr": "Le trajet dure environ deux heures.",
+                  "en": "The journey takes about two hours."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Calculating",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "operation",
+                "French",
+                "example"
+              ],
+              "rows": [
+                [
+                  "+",
+                  "et / plus",
+                  "Deux plus deux font quatre."
+                ],
+                [
+                  "−",
+                  "moins",
+                  "Dix moins trois font sept."
+                ],
+                [
+                  "×",
+                  "fois",
+                  "Trois fois quatre font douze."
+                ],
+                [
+                  "÷",
+                  "divisé par",
+                  "Douze divisé par trois font quatre."
+                ],
+                [
+                  "=",
+                  "font / égale",
+                  "Deux et deux font quatre."
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "The verb after the numbers is **font** (plural): *deux plus deux font quatre*."
+            }
+          ]
+        },
+        {
+          "title": "Measures",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Height and size use **mesurer** or **faire**: *Il mesure un mètre quatre-vingts. Il fait 1,80 m.* Weight uses **peser**: *Elle pèse cinquante kilos.* Temperature uses **faire**: *Il fait vingt degrés.* Distance: *à dix kilomètres d'ici.* Speed: *cent kilomètres à l'heure.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il mesure un mètre soixante-quinze.",
+                  "en": "He is 1.75 m tall."
+                },
+                {
+                  "fr": "Ma valise pèse vingt kilos.",
+                  "en": "My suitcase weighs 20 kilos."
+                },
+                {
+                  "fr": "La ville est à trente kilomètres d'ici.",
+                  "en": "The town is 30 km from here."
+                },
+                {
+                  "fr": "Il roule à cent trente kilomètres à l'heure.",
+                  "en": "He drives at 130 km/h."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon frère a deux ans et demi.",
+                  "en": "My brother is two and a half."
+                },
+                {
+                  "fr": "Quarante pour cent des élèves sont des filles.",
+                  "en": "Forty per cent of the pupils are girls."
+                },
+                {
+                  "fr": "J'ai payé la moitié du prix.",
+                  "en": "I paid half the price."
+                },
+                {
+                  "fr": "Un quart d'heure, c'est quinze minutes.",
+                  "en": "A quarter of an hour is fifteen minutes."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-numbers-more-01",
+          "type": "build",
+          "en": "3.5 (say it)",
+          "a": [
+            "trois virgule cinq"
+          ]
+        },
+        {
+          "id": "g-numbers-more-02",
+          "type": "build",
+          "en": "25 per cent",
+          "a": [
+            "vingt-cinq pour cent"
+          ]
+        },
+        {
+          "id": "g-numbers-more-03",
+          "type": "build",
+          "en": "about twenty pupils",
+          "a": [
+            "une vingtaine d'élèves",
+            "environ vingt élèves"
+          ]
+        },
+        {
+          "id": "g-numbers-more-04",
+          "type": "build",
+          "en": "a quarter of an hour",
+          "a": [
+            "un quart d'heure"
+          ]
+        },
+        {
+          "id": "g-numbers-more-05",
+          "type": "build",
+          "en": "Two plus two is four.",
+          "a": [
+            "Deux plus deux font quatre.",
+            "Deux et deux font quatre."
+          ]
+        },
+        {
+          "id": "g-numbers-more-06",
+          "type": "build",
+          "en": "He is 1.80 m tall.",
+          "a": [
+            "Il mesure un mètre quatre-vingts.",
+            "Il fait un mètre quatre-vingts."
+          ]
+        },
+        {
+          "id": "g-numbers-more-07",
+          "type": "cloze",
+          "fr": "Il y a une ___ de personnes.",
+          "a": [
+            "dizaine"
+          ],
+          "en": "There are about ten people."
+        },
+        {
+          "id": "g-numbers-more-08",
+          "type": "cloze",
+          "fr": "Trois ___ quatre font douze.",
+          "a": [
+            "fois"
+          ],
+          "en": "Three times four is twelve."
+        },
+        {
+          "id": "g-numbers-more-09",
+          "type": "cloze",
+          "fr": "Elle ___ cinquante kilos.",
+          "a": [
+            "pèse"
+          ],
+          "hint": "weighs",
+          "en": "She weighs fifty kilos."
+        }
+      ]
+    },
+    {
+      "id": "ordinals",
+      "title": "Ordinal numbers",
+      "fr": "les nombres ordinaux",
+      "level": "A1",
+      "keywords": [
+        "ordinal numbers",
+        "premier",
+        "première",
+        "deuxième",
+        "second",
+        "troisième",
+        "dernier",
+        "-ième",
+        "1er",
+        "floor"
+      ],
+      "topics": [
+        "numbers",
+        "dates"
+      ],
+      "see": [
+        "dates",
+        "numbers-0-69"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Ordinal numbers are formed by adding *-ième* to the number: *deux → deuxième*. Only \"first\" is special: *premier, première*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "English",
+                "French",
+                "abbreviation"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "first",
+                  "premier, première",
+                  "1er, 1re"
+                ],
+                [
+                  "second",
+                  "deuxième (second)",
+                  "2e"
+                ],
+                [
+                  "third",
+                  "troisième",
+                  "3e"
+                ],
+                [
+                  "fourth",
+                  "quatrième",
+                  "4e"
+                ],
+                [
+                  "fifth",
+                  "cinquième",
+                  "5e"
+                ],
+                [
+                  "ninth",
+                  "neuvième",
+                  "9e"
+                ],
+                [
+                  "twenty-first",
+                  "vingt et unième",
+                  "21e"
+                ],
+                [
+                  "last",
+                  "dernier, dernière",
+                  ""
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Spelling",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A final *-e* drops: *quatre → quatrième, onze → onzième*. *Cinq* adds a *u*: *cinquième*. *Neuf* changes *f* to *v*: *neuvième*."
+            }
+          ]
+        },
+        {
+          "title": "Where they are used",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Floors (*au troisième étage*), order (*la deuxième rue à droite*), the first time (*la première fois*). In dates only the first is an ordinal: *le premier mai*, but *le deux mai*."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "dates"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "C'est la première fois.",
+                  "en": "It's the first time."
+                },
+                {
+                  "fr": "J'habite au cinquième étage.",
+                  "en": "I live on the fifth floor."
+                },
+                {
+                  "fr": "Prenez la deuxième rue à gauche.",
+                  "en": "Take the second street on the left."
+                },
+                {
+                  "fr": "Il est arrivé troisième.",
+                  "en": "He came third."
+                },
+                {
+                  "fr": "C'est le dernier jour des vacances.",
+                  "en": "It's the last day of the holidays."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-ordinals-01",
+          "type": "transform",
+          "task_en": "Form the ordinal number",
+          "fr": "trois",
+          "a": [
+            "troisième"
+          ]
+        },
+        {
+          "id": "g-ordinals-02",
+          "type": "transform",
+          "task_en": "Form the ordinal number",
+          "fr": "cinq",
+          "a": [
+            "cinquième"
+          ]
+        },
+        {
+          "id": "g-ordinals-03",
+          "type": "transform",
+          "task_en": "Form the ordinal number",
+          "fr": "neuf",
+          "a": [
+            "neuvième"
+          ]
+        },
+        {
+          "id": "g-ordinals-04",
+          "type": "build",
+          "en": "It's the first time.",
+          "a": [
+            "C'est la première fois."
+          ]
+        },
+        {
+          "id": "g-ordinals-05",
+          "type": "build",
+          "en": "I live on the second floor.",
+          "a": [
+            "J'habite au {deuxième|second} étage."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clock",
+      "title": "Telling the time",
+      "fr": "l'heure",
+      "level": "A1",
+      "keywords": [
+        "time",
+        "clock",
+        "what time is it",
+        "il est",
+        "et quart",
+        "et demie",
+        "moins le quart",
+        "midi",
+        "minuit",
+        "at what time"
+      ],
+      "topics": [
+        "time"
+      ],
+      "see": [
+        "impersonal",
+        "time-prepositions",
+        "numbers-0-69"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "You ask *Quelle heure est-il ?* and answer *Il est...* + number + *heure(s)*. The word *heures* is never left out."
+            },
+            {
+              "type": "table",
+              "head": [
+                "time",
+                "French",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "8:00",
+                  "Il est huit heures.",
+                  "It's eight o'clock."
+                ],
+                [
+                  "8:15",
+                  "Il est huit heures et quart.",
+                  "It's a quarter past eight."
+                ],
+                [
+                  "8:30",
+                  "Il est huit heures et demie.",
+                  "It's half past eight."
+                ],
+                [
+                  "8:45",
+                  "Il est neuf heures moins le quart.",
+                  "It's a quarter to nine."
+                ],
+                [
+                  "8:50",
+                  "Il est neuf heures moins dix.",
+                  "It's ten to nine."
+                ],
+                [
+                  "12:00",
+                  "Il est midi.",
+                  "It's noon."
+                ],
+                [
+                  "0:00",
+                  "Il est minuit.",
+                  "It's midnight."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out for half past",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "It's half past eight. (8:30)",
+                  "wrong": "Il est neuf heures et demie.",
+                  "fr": "Il est [[huit]] heures et demie.",
+                  "note": "In Czech, half past eight is called \"half nine\" and points to the next hour. French counts from the previous hour: eight and a half."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "24 hours and at what time",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In timetables, on TV and in shops the 24-hour clock is used and read with whole numbers: *Le train part à dix-sept heures quarante.* (17:40)"
+            },
+            {
+              "type": "text",
+              "en": "\"At what time\" = *à quelle heure*: *À quelle heure tu te lèves ? À sept heures.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il est une heure.",
+                  "en": "It's one o'clock."
+                },
+                {
+                  "fr": "On mange à midi et demi.",
+                  "en": "We eat at half past twelve."
+                },
+                {
+                  "fr": "Le cours finit à quinze heures trente.",
+                  "en": "The lesson ends at 15:30."
+                },
+                {
+                  "fr": "Je me couche vers dix heures.",
+                  "en": "I go to bed around ten."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-clock-01",
+          "type": "build",
+          "en": "It's eight o'clock.",
+          "a": [
+            "Il est huit heures."
+          ]
+        },
+        {
+          "id": "g-clock-02",
+          "type": "build",
+          "en": "It's half past nine. (9:30)",
+          "a": [
+            "Il est neuf heures {et demie|trente}."
+          ]
+        },
+        {
+          "id": "g-clock-03",
+          "type": "build",
+          "en": "It's a quarter past two. (2:15)",
+          "a": [
+            "Il est deux heures {et quart|quinze}.",
+            "Il est quatorze heures quinze."
+          ]
+        },
+        {
+          "id": "g-clock-04",
+          "type": "build",
+          "en": "It's noon.",
+          "a": [
+            "Il est midi."
+          ]
+        },
+        {
+          "id": "g-clock-05",
+          "type": "build",
+          "en": "What time do you get up?",
+          "a": [
+            "À quelle heure tu te lèves ?",
+            "Tu te lèves à quelle heure ?",
+            "À quelle heure est-ce que tu te lèves ?",
+            "À quelle heure te lèves-tu ?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dates",
+      "title": "Dates, days and months",
+      "fr": "la date",
+      "level": "A1",
+      "keywords": [
+        "date",
+        "days of the week",
+        "months",
+        "lundi",
+        "janvier",
+        "le premier",
+        "what's the date",
+        "seasons",
+        "en mai",
+        "au printemps"
+      ],
+      "topics": [
+        "dates",
+        "time"
+      ],
+      "see": [
+        "ordinals",
+        "time-prepositions",
+        "capitals"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A date is said with the article *le* and an **ordinary** number: *le 14 juillet, le 3 mars*. Only the first day of the month is *le premier*: *le 1er mai*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "English",
+                "French"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "14 July",
+                  "le 14 juillet"
+                ],
+                [
+                  "1 May",
+                  "le 1er mai (le premier mai)"
+                ],
+                [
+                  "on Monday 3 March",
+                  "le lundi 3 mars"
+                ],
+                [
+                  "What's the date?",
+                  "On est le combien ?"
+                ],
+                [
+                  "It's 21 October.",
+                  "On est le 21 octobre."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Days and months",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "days",
+                "months"
+              ],
+              "rows": [
+                [
+                  "lundi, mardi",
+                  "janvier, février, mars"
+                ],
+                [
+                  "mercredi, jeudi",
+                  "avril, mai, juin"
+                ],
+                [
+                  "vendredi, samedi",
+                  "juillet, août, septembre"
+                ],
+                [
+                  "dimanche",
+                  "octobre, novembre, décembre"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "Days and months are written with a **small letter** and are masculine."
+            }
+          ]
+        },
+        {
+          "title": "With a preposition",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "French",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "day",
+                  "lundi / le lundi",
+                  "on Monday / on Mondays"
+                ],
+                [
+                  "month",
+                  "en mai, au mois de mai",
+                  "in May"
+                ],
+                [
+                  "year",
+                  "en 2026",
+                  "in 2026"
+                ],
+                [
+                  "season",
+                  "en été, en automne, en hiver, au printemps",
+                  "in summer, in autumn, in winter, in spring"
+                ]
+              ]
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "On Monday I'm going to the dentist.",
+                  "fr": "[[Lundi]], je vais chez le dentiste.",
+                  "note": "One particular Monday has no article. *Le lundi* = every Monday."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon anniversaire, c'est le 12 avril.",
+                  "en": "My birthday is on 12 April."
+                },
+                {
+                  "fr": "Aujourd'hui, nous sommes mardi.",
+                  "en": "Today is Tuesday."
+                },
+                {
+                  "fr": "Les vacances commencent en juillet.",
+                  "en": "The holidays start in July."
+                },
+                {
+                  "fr": "Je fais du ski en hiver.",
+                  "en": "I ski in winter."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-dates-01",
+          "type": "build",
+          "en": "1 May",
+          "a": [
+            "le premier mai",
+            "le 1er mai"
+          ]
+        },
+        {
+          "id": "g-dates-02",
+          "type": "build",
+          "en": "My birthday is on 3 June.",
+          "a": [
+            "Mon anniversaire, c'est le {3|trois} juin.",
+            "Mon anniversaire est le {3|trois} juin."
+          ]
+        },
+        {
+          "id": "g-dates-03",
+          "type": "cloze",
+          "fr": "Mon anniversaire est ___ mars.",
+          "a": [
+            "en"
+          ],
+          "en": "My birthday is in March."
+        },
+        {
+          "id": "g-dates-04",
+          "type": "cloze",
+          "fr": "Je fais du vélo ___ printemps.",
+          "a": [
+            "au"
+          ],
+          "en": "I cycle in spring."
+        },
+        {
+          "id": "g-dates-05",
+          "type": "build",
+          "en": "What's the date today?",
+          "a": [
+            "On est le combien aujourd'hui ?",
+            "Quelle est la date aujourd'hui ?",
+            "Nous sommes le combien aujourd'hui ?"
+          ]
+        }
+      ]
+    }
+  ]
+}

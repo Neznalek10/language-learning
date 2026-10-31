@@ -1,0 +1,1552 @@
+{
+  "schema": 1,
+  "goals": [
+    "Vyprávět, co jsi dělal o víkendu",
+    "Tvořit passé composé s avoir",
+    "Používat nepravidelná příčestí (fait, vu, pris, eu, été...)",
+    "Zápor a otázka v minulosti: je n'ai pas vu, tu as déjà fini ?",
+    "Časové výrazy: hier, samedi dernier, il y a deux jours"
+  ],
+  "lessons": [
+    {
+      "id": "fr-weekend-1",
+      "title": "Hier, j'ai joué au basket",
+      "subtitle": "Minulý čas: -er slovesa",
+      "topics": [
+        "passe-compose"
+      ],
+      "words": [
+        "time#včera",
+        "time#víkend",
+        "verbs#zapomenout"
+      ],
+      "learn": [
+        {
+          "title": "Passé composé",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "O tom, co se stalo a skončilo, mluvíš v *passé composé*. Má dvě slova: tvar *avoir* v přítomném čase + příčestí minulé. *J'ai joué* = hrál jsem (hrála jsem)."
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "hrál jsem",
+                  "j'ai joué"
+                ],
+                [
+                  "hrál jsi",
+                  "tu as joué"
+                ],
+                [
+                  "hrál, hrála",
+                  "il / elle a joué"
+                ],
+                [
+                  "hráli jsme",
+                  "nous avons joué"
+                ],
+                [
+                  "hráli jste",
+                  "vous avez joué"
+                ],
+                [
+                  "hráli, hrály",
+                  "ils / elles ont joué"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "cs": "U sloves na *-er* uděláš příčestí tak, že *-er* změníš na *-é*: *jouer → joué, manger → mangé, regarder → regardé*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Hier, j'ai ___ un film.",
+                "a": [
+                  "regardé"
+                ],
+                "hint": "regarder"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Dvě slova",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "nevynechej avoir",
+              "cs": "Česky stačí jedno slovo (*hrál*), francouzsky potřebuješ vždy obě: *j'ai joué*. Samotné *joué* není věta. A *je joué* je chyba."
+            },
+            {
+              "type": "table",
+              "verb": "jouer",
+              "tense": "passe-compose"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Samedi, j'ai joué au basket.",
+                  "cs": "V sobotu jsem hrál basketbal."
+                },
+                {
+                  "fr": "Nous avons mangé une pizza.",
+                  "cs": "Snědli jsme pizzu."
+                },
+                {
+                  "fr": "Tu as écouté la radio ?",
+                  "cs": "Poslouchal jsi rádio?"
+                },
+                {
+                  "fr": "Ils ont visité Prague.",
+                  "cs": "Navštívili Prahu."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Včera jsme hráli basketbal.",
+                "a": [
+                  "Hier, nous avons joué au basket.",
+                  "Hier, on a joué au basket.",
+                  "Nous avons joué au basket hier."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-weekend-1-01",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-weekend-1-02",
+          "type": "form",
+          "verb": "manger",
+          "tense": "passe-compose",
+          "person": 3
+        },
+        {
+          "id": "fr-weekend-1-03",
+          "type": "form",
+          "verb": "regarder",
+          "tense": "passe-compose",
+          "person": 1
+        },
+        {
+          "id": "fr-weekend-1-04",
+          "type": "form",
+          "verb": "travailler",
+          "tense": "passe-compose",
+          "person": 2
+        },
+        {
+          "id": "fr-weekend-1-05",
+          "type": "form",
+          "verb": "écouter",
+          "tense": "passe-compose",
+          "person": 5
+        },
+        {
+          "id": "fr-weekend-1-06",
+          "type": "cloze",
+          "fr": "Samedi, j'___ joué aux jeux vidéo.",
+          "a": [
+            "ai"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-weekend-1-07",
+          "type": "cloze",
+          "fr": "Nous ___ mangé au restaurant.",
+          "a": [
+            "avons"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-weekend-1-08",
+          "type": "cloze",
+          "fr": "Tu as ___ ton devoir ?",
+          "a": [
+            "oublié"
+          ],
+          "hint": "oublier"
+        },
+        {
+          "id": "fr-weekend-1-09",
+          "type": "cloze",
+          "fr": "Elle a ___ de la musique.",
+          "a": [
+            "écouté"
+          ],
+          "hint": "écouter"
+        },
+        {
+          "id": "fr-weekend-1-10",
+          "type": "build",
+          "cs": "Včera jsem hrál basketbal.",
+          "a": [
+            "Hier, j'ai joué au basket.",
+            "J'ai joué au basket hier."
+          ]
+        },
+        {
+          "id": "fr-weekend-1-11",
+          "type": "build",
+          "cs": "Díval ses na zápas?",
+          "a": [
+            "Tu as regardé le match ?",
+            "Est-ce que tu as regardé le match ?",
+            "As-tu regardé le match ?"
+          ]
+        },
+        {
+          "id": "fr-weekend-1-12",
+          "type": "build",
+          "cs": "Celý víkend pracovali.",
+          "a": [
+            "Ils ont travaillé tout le week-end."
+          ]
+        },
+        {
+          "id": "fr-weekend-1-13",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Je mange une pomme.",
+          "a": [
+            "J'ai mangé une pomme."
+          ]
+        },
+        {
+          "id": "fr-weekend-1-14",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Nous regardons la télé.",
+          "a": [
+            "Nous avons regardé la télé."
+          ]
+        },
+        {
+          "id": "fr-weekend-1-15",
+          "type": "order",
+          "cs": "V sobotu jsem zapomněl telefon.",
+          "a": [
+            "Samedi j'ai oublié mon portable"
+          ],
+          "extra": [
+            "suis",
+            "oublier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-weekend-2",
+      "title": "J'ai fini, j'ai attendu",
+      "subtitle": "Minulý čas: -ir a -re slovesa",
+      "topics": [
+        "passe-compose"
+      ],
+      "words": [
+        "verbs-irregular#ztratit",
+        "verbs-irregular#spát",
+        "verbs-irregular#čekat",
+        "verbs#litovat"
+      ],
+      "learn": [
+        {
+          "title": "-ir → -i, -re → -u",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Slovesa na *-ir* jako *finir* mají příčestí na *-i*: *fini, choisi, dormi*. Slovesa na *-re* jako *attendre* mají příčestí na *-u*: *attendu, perdu, vendu, répondu*."
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "dokončil jsem",
+                  "j'ai fini"
+                ],
+                [
+                  "vybral jsem",
+                  "j'ai choisi"
+                ],
+                [
+                  "spal jsem",
+                  "j'ai dormi"
+                ],
+                [
+                  "čekal jsem",
+                  "j'ai attendu"
+                ],
+                [
+                  "ztratil jsem, prohrál jsem",
+                  "j'ai perdu"
+                ],
+                [
+                  "odpověděl jsem",
+                  "j'ai répondu"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Nous avons ___ le bus pendant vingt minutes.",
+                "a": [
+                  "attendu"
+                ],
+                "hint": "attendre"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Příklady",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "finir",
+              "tense": "passe-compose"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai fini mes devoirs à neuf heures.",
+                  "cs": "Úkoly jsem dodělal v devět."
+                },
+                {
+                  "fr": "On a perdu le match.",
+                  "cs": "Prohráli jsme zápas."
+                },
+                {
+                  "fr": "Tu as bien dormi ?",
+                  "cs": "Vyspal ses dobře?"
+                },
+                {
+                  "fr": "Elle a répondu à mon message.",
+                  "cs": "Odpověděla na mou zprávu."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Prohráli jsme zápas.",
+                "a": [
+                  "Nous avons perdu le match.",
+                  "On a perdu le match."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-weekend-2-01",
+          "type": "form",
+          "verb": "finir",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-weekend-2-02",
+          "type": "form",
+          "verb": "choisir",
+          "tense": "passe-compose",
+          "person": 4
+        },
+        {
+          "id": "fr-weekend-2-03",
+          "type": "form",
+          "verb": "attendre",
+          "tense": "passe-compose",
+          "person": 2
+        },
+        {
+          "id": "fr-weekend-2-04",
+          "type": "form",
+          "verb": "perdre",
+          "tense": "passe-compose",
+          "person": 3
+        },
+        {
+          "id": "fr-weekend-2-05",
+          "type": "form",
+          "verb": "dormir",
+          "tense": "passe-compose",
+          "person": 1
+        },
+        {
+          "id": "fr-weekend-2-06",
+          "type": "cloze",
+          "fr": "J'ai ___ mon livre hier soir.",
+          "a": [
+            "fini"
+          ],
+          "hint": "finir"
+        },
+        {
+          "id": "fr-weekend-2-07",
+          "type": "cloze",
+          "fr": "Tu as ___ ton sac ?",
+          "a": [
+            "perdu"
+          ],
+          "hint": "perdre"
+        },
+        {
+          "id": "fr-weekend-2-08",
+          "type": "cloze",
+          "fr": "Ils ont ___ un film d'action.",
+          "a": [
+            "choisi"
+          ],
+          "hint": "choisir"
+        },
+        {
+          "id": "fr-weekend-2-09",
+          "type": "cloze",
+          "fr": "Elle n'a pas ___ à ma question.",
+          "a": [
+            "répondu"
+          ],
+          "hint": "odpovědět"
+        },
+        {
+          "id": "fr-weekend-2-10",
+          "type": "build",
+          "cs": "Dobře jsem se vyspal.",
+          "a": [
+            "J'ai bien dormi."
+          ]
+        },
+        {
+          "id": "fr-weekend-2-11",
+          "type": "build",
+          "cs": "Čekali jsme na tebe.",
+          "a": [
+            "Nous t'avons attendu.",
+            "On t'a attendu.",
+            "Nous t'avons attendue.",
+            "On t'a attendue."
+          ]
+        },
+        {
+          "id": "fr-weekend-2-12",
+          "type": "build",
+          "cs": "Vybrala si modré šaty.",
+          "a": [
+            "Elle a choisi une robe bleue."
+          ]
+        },
+        {
+          "id": "fr-weekend-2-13",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Il finit son repas.",
+          "a": [
+            "Il a fini son repas."
+          ]
+        },
+        {
+          "id": "fr-weekend-2-14",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Vous attendez le train.",
+          "a": [
+            "Vous avez attendu le train."
+          ]
+        },
+        {
+          "id": "fr-weekend-2-15",
+          "type": "order",
+          "cs": "Náš tým prohrál zápas.",
+          "a": [
+            "Notre équipe a perdu le match"
+          ],
+          "extra": [
+            "perdre",
+            "est"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-weekend-3",
+      "title": "J'ai fait, j'ai vu",
+      "subtitle": "Nepravidelná příčestí",
+      "topics": [
+        "passe-compose"
+      ],
+      "words": [
+        "verbs-irregular#vidět"
+      ],
+      "learn": [
+        {
+          "title": "Tvary, které se musíš naučit",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Hodně častých sloves má nepravidelné příčestí. Nauč se je jako slovíčka:"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "avoir",
+                  "eu",
+                  "J'ai eu un cadeau."
+                ],
+                [
+                  "être",
+                  "été",
+                  "J'ai été malade."
+                ],
+                [
+                  "faire",
+                  "fait",
+                  "J'ai fait du sport."
+                ],
+                [
+                  "prendre",
+                  "pris",
+                  "J'ai pris le bus."
+                ],
+                [
+                  "mettre",
+                  "mis",
+                  "J'ai mis un pull."
+                ],
+                [
+                  "voir",
+                  "vu",
+                  "J'ai vu un film."
+                ],
+                [
+                  "boire",
+                  "bu",
+                  "J'ai bu un thé."
+                ],
+                [
+                  "lire",
+                  "lu",
+                  "J'ai lu un livre."
+                ],
+                [
+                  "dire",
+                  "dit",
+                  "Il a dit oui."
+                ],
+                [
+                  "écrire",
+                  "écrit",
+                  "J'ai écrit un message."
+                ],
+                [
+                  "pouvoir",
+                  "pu",
+                  "Je n'ai pas pu venir."
+                ],
+                [
+                  "vouloir",
+                  "voulu",
+                  "J'ai voulu partir."
+                ]
+              ],
+              "textCols": [],
+              "head": [
+                "sloveso",
+                "příčestí",
+                "příklad"
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Samedi, j'ai ___ du vélo.",
+                "a": [
+                  "fait"
+                ],
+                "hint": "faire"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Skupiny",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "stejná koncovka",
+              "cs": "Pomůže skupina: *pris, mis* (na *-is*), *dit, écrit, fait* (na *-t*), *vu, bu, lu, eu, pu, voulu* (na *-u*)."
+            },
+            {
+              "type": "table",
+              "verb": "faire",
+              "tense": "passe-compose"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "On a vu un super film.",
+                  "cs": "Viděli jsme super film."
+                },
+                {
+                  "fr": "J'ai pris des photos.",
+                  "cs": "Fotil jsem."
+                },
+                {
+                  "fr": "Tu as lu ce livre ?",
+                  "cs": "Četl jsi tu knihu?"
+                },
+                {
+                  "fr": "Mes parents ont eu une bonne idée.",
+                  "cs": "Rodiče dostali dobrý nápad."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Viděl jsem tvého bratra.",
+                "a": [
+                  "J'ai vu ton frère."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-weekend-3-01",
+          "type": "form",
+          "verb": "faire",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-weekend-3-02",
+          "type": "form",
+          "verb": "prendre",
+          "tense": "passe-compose",
+          "person": 2
+        },
+        {
+          "id": "fr-weekend-3-03",
+          "type": "form",
+          "verb": "voir",
+          "tense": "passe-compose",
+          "person": 3
+        },
+        {
+          "id": "fr-weekend-3-04",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "passe-compose",
+          "person": 1
+        },
+        {
+          "id": "fr-weekend-3-05",
+          "type": "form",
+          "verb": "être",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-weekend-3-06",
+          "type": "form",
+          "verb": "boire",
+          "tense": "passe-compose",
+          "person": 5
+        },
+        {
+          "id": "fr-weekend-3-07",
+          "type": "form",
+          "verb": "lire",
+          "tense": "passe-compose",
+          "person": 4
+        },
+        {
+          "id": "fr-weekend-3-08",
+          "type": "cloze",
+          "fr": "Hier, nous avons ___ le train.",
+          "a": [
+            "pris"
+          ],
+          "hint": "prendre"
+        },
+        {
+          "id": "fr-weekend-3-09",
+          "type": "cloze",
+          "fr": "Tu as ___ le nouveau film ?",
+          "a": [
+            "vu"
+          ],
+          "hint": "voir"
+        },
+        {
+          "id": "fr-weekend-3-10",
+          "type": "cloze",
+          "fr": "J'ai ___ un message à ma mère.",
+          "a": [
+            "écrit"
+          ],
+          "hint": "écrire"
+        },
+        {
+          "id": "fr-weekend-3-11",
+          "type": "cloze",
+          "fr": "Elle a ___ une veste parce qu'il faisait froid.",
+          "a": [
+            "mis"
+          ],
+          "hint": "mettre"
+        },
+        {
+          "id": "fr-weekend-3-12",
+          "type": "cloze",
+          "fr": "Ils ont ___ du sport tout le week-end.",
+          "a": [
+            "fait"
+          ],
+          "hint": "faire"
+        },
+        {
+          "id": "fr-weekend-3-13",
+          "type": "build",
+          "cs": "V sobotu jsem dělal úkoly.",
+          "a": [
+            "Samedi, j'ai fait mes devoirs.",
+            "J'ai fait mes devoirs samedi."
+          ]
+        },
+        {
+          "id": "fr-weekend-3-14",
+          "type": "build",
+          "cs": "Vypili jsme dvě limonády.",
+          "a": [
+            "Nous avons bu deux limonades.",
+            "On a bu deux limonades."
+          ]
+        },
+        {
+          "id": "fr-weekend-3-15",
+          "type": "build",
+          "cs": "Co jsi řekl?",
+          "a": [
+            "Qu'est-ce que tu as dit ?",
+            "Tu as dit quoi ?"
+          ]
+        },
+        {
+          "id": "fr-weekend-3-16",
+          "type": "build",
+          "cs": "Byl jsem nemocný.",
+          "a": [
+            "J'ai été malade."
+          ]
+        },
+        {
+          "id": "fr-weekend-3-17",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Je prends une photo.",
+          "a": [
+            "J'ai pris une photo."
+          ]
+        },
+        {
+          "id": "fr-weekend-3-18",
+          "type": "order",
+          "cs": "Četla jsem knihu o Paříži.",
+          "a": [
+            "J'ai lu un livre sur Paris"
+          ],
+          "extra": [
+            "lis",
+            "suis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-weekend-4",
+      "title": "Je n'ai pas dormi",
+      "subtitle": "Zápor a otázka v minulosti",
+      "topics": [
+        "passe-compose",
+        "negation"
+      ],
+      "words": [
+        "time#už",
+        "time#ještě ne"
+      ],
+      "learn": [
+        {
+          "title": "Zápor",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "*Ne ... pas* obklopí jen *avoir*, příčestí stojí až za *pas*: *Je n'ai pas dormi.* (Nespal jsem.) Stejně *ne ... jamais, ne ... rien*: *Je n'ai rien mangé.*"
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Nespal jsem.",
+                  "Je n'ai pas dormi."
+                ],
+                [
+                  "Nic jsem nejedl.",
+                  "Je n'ai rien mangé."
+                ],
+                [
+                  "Nikdy jsem to neviděl.",
+                  "Je n'ai jamais vu ça."
+                ],
+                [
+                  "Ještě jsem nedodělal.",
+                  "Je n'ai pas encore fini."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_cs": "Převeď do záporu",
+                "fr": "J'ai regardé le match.",
+                "a": [
+                  "Je n'ai pas regardé le match."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Otázka a krátká slova",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Otázka: *Tu as vu le match ?* nebo *Est-ce que tu as vu le match ?* Co jsi dělal? = *Qu'est-ce que tu as fait ?* Krátká příslovce *déjà, bien, beaucoup, trop* stojí mezi *avoir* a příčestím: *J'ai déjà mangé. J'ai bien dormi.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu as déjà fini ?",
+                  "cs": "Už máš hotovo?"
+                },
+                {
+                  "fr": "Je n'ai pas encore mangé.",
+                  "cs": "Ještě jsem nejedl."
+                },
+                {
+                  "fr": "Qu'est-ce que vous avez fait dimanche ?",
+                  "cs": "Co jste dělali v neděli?"
+                },
+                {
+                  "fr": "On a beaucoup travaillé.",
+                  "cs": "Hodně jsme pracovali."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Co jsi dělal o víkendu?",
+                "a": [
+                  "Qu'est-ce que tu as fait le week-end dernier ?",
+                  "Qu'est-ce que tu as fait ce week-end ?",
+                  "Tu as fait quoi ce week-end ?",
+                  "Qu'est-ce que tu as fait pendant le week-end ?"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-weekend-4-01",
+          "type": "cloze",
+          "fr": "Je n'___ pas dormi.",
+          "a": [
+            "ai"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-weekend-4-02",
+          "type": "cloze",
+          "fr": "Il n'a ___ mangé.",
+          "a": [
+            "rien"
+          ],
+          "hint": "nic"
+        },
+        {
+          "id": "fr-weekend-4-03",
+          "type": "cloze",
+          "fr": "Tu as ___ fini ?",
+          "a": [
+            "déjà"
+          ],
+          "hint": "už"
+        },
+        {
+          "id": "fr-weekend-4-04",
+          "type": "cloze",
+          "fr": "Je n'ai pas ___ lu ce livre.",
+          "a": [
+            "encore"
+          ],
+          "hint": "ještě"
+        },
+        {
+          "id": "fr-weekend-4-05",
+          "type": "transform",
+          "task_cs": "Převeď do záporu",
+          "fr": "Nous avons gagné.",
+          "a": [
+            "Nous n'avons pas gagné."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-06",
+          "type": "transform",
+          "task_cs": "Převeď do záporu",
+          "fr": "Elle a pris le bus.",
+          "a": [
+            "Elle n'a pas pris le bus."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-07",
+          "type": "transform",
+          "task_cs": "Převeď do záporu s jamais",
+          "fr": "J'ai vu la mer.",
+          "a": [
+            "Je n'ai jamais vu la mer."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-08",
+          "type": "build",
+          "cs": "Co jsi dělal v sobotu?",
+          "a": [
+            "Qu'est-ce que tu as fait samedi ?",
+            "Tu as fait quoi samedi ?"
+          ]
+        },
+        {
+          "id": "fr-weekend-4-09",
+          "type": "build",
+          "cs": "Už jsi viděl ten film?",
+          "a": [
+            "Tu as déjà vu ce film ?",
+            "Est-ce que tu as déjà vu ce film ?",
+            "As-tu déjà vu ce film ?"
+          ]
+        },
+        {
+          "id": "fr-weekend-4-10",
+          "type": "build",
+          "cs": "Ještě jsem nesnídal.",
+          "a": [
+            "Je n'ai pas encore pris mon petit-déjeuner.",
+            "Je n'ai pas encore pris le petit-déjeuner.",
+            "Je n'ai pas encore mangé."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-11",
+          "type": "build",
+          "cs": "Nic jsme neviděli.",
+          "a": [
+            "Nous n'avons rien vu.",
+            "On n'a rien vu."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-12",
+          "type": "build",
+          "cs": "Hodně jsem spal.",
+          "a": [
+            "J'ai beaucoup dormi."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-13",
+          "type": "order",
+          "cs": "Nevzal sis bundu?",
+          "a": [
+            "Tu n'as pas pris ton blouson"
+          ],
+          "extra": [
+            "ne",
+            "pris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-weekend-5",
+      "title": "Samedi dernier",
+      "subtitle": "Kdy to bylo?",
+      "topics": [
+        "past-time",
+        "passe-compose"
+      ],
+      "words": [
+        "time#včera večer",
+        "time#předevčírem",
+        "time#minulou sobotu",
+        "time#minulý týden",
+        "time#minulý měsíc",
+        "time#loni",
+        "time#před dvěma dny",
+        "verbs#potkat",
+        "verbs#trvat"
+      ],
+      "learn": [
+        {
+          "title": "Kdy?",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "včera",
+                  "hier"
+                ],
+                [
+                  "včera večer",
+                  "hier soir"
+                ],
+                [
+                  "předevčírem",
+                  "avant-hier"
+                ],
+                [
+                  "minulou sobotu",
+                  "samedi dernier"
+                ],
+                [
+                  "minulý týden",
+                  "la semaine dernière"
+                ],
+                [
+                  "minulý měsíc",
+                  "le mois dernier"
+                ],
+                [
+                  "loni",
+                  "l'année dernière"
+                ],
+                [
+                  "před dvěma dny",
+                  "il y a deux jours"
+                ],
+                [
+                  "dnes ráno",
+                  "ce matin"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "il y a = před",
+              "cs": "*Il y a* + doba znamená *před*: *il y a deux jours* (před dvěma dny), *il y a une semaine* (před týdnem). *Dernier* stojí za dnem: *samedi dernier*, ale před *semaine, mois, année* se shoduje: *la semaine dernière*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai visité Paris il y ___ deux ans.",
+                "a": [
+                  "a"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Vyprávění",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Když vyprávíš, pomůžou ti slova z A1: *d'abord* (nejdřív), *ensuite / puis* (potom), *après* (pak), *enfin* (nakonec)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Samedi dernier, j'ai joué au basket.",
+                  "cs": "Minulou sobotu jsem hrál basketbal."
+                },
+                {
+                  "fr": "D'abord, on a mangé, ensuite on a regardé un film.",
+                  "cs": "Nejdřív jsme jedli, potom jsme se dívali na film."
+                },
+                {
+                  "fr": "Le match a duré deux heures.",
+                  "cs": "Zápas trval dvě hodiny."
+                },
+                {
+                  "fr": "Hier soir, j'ai rencontré Paul en ville.",
+                  "cs": "Včera večer jsem ve městě potkal Paula."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Minulý týden jsem viděl babičku.",
+                "a": [
+                  "La semaine dernière, j'ai vu ma grand-mère.",
+                  "J'ai vu ma grand-mère la semaine dernière."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-weekend-5-01",
+          "type": "cloze",
+          "fr": "___ soir, j'ai regardé un film.",
+          "a": [
+            "Hier"
+          ],
+          "hint": "včera"
+        },
+        {
+          "id": "fr-weekend-5-02",
+          "type": "cloze",
+          "fr": "Samedi ___, nous avons joué au tennis.",
+          "a": [
+            "dernier"
+          ],
+          "hint": "minulý"
+        },
+        {
+          "id": "fr-weekend-5-03",
+          "type": "cloze",
+          "fr": "La semaine ___, il a plu.",
+          "a": [
+            "dernière"
+          ],
+          "hint": "minulý"
+        },
+        {
+          "id": "fr-weekend-5-04",
+          "type": "cloze",
+          "fr": "J'ai vu Léa il y a deux ___.",
+          "a": [
+            "jours"
+          ],
+          "hint": "dny"
+        },
+        {
+          "id": "fr-weekend-5-05",
+          "type": "cloze",
+          "fr": "Le film a ___ trois heures.",
+          "a": [
+            "duré"
+          ],
+          "hint": "durer"
+        },
+        {
+          "id": "fr-weekend-5-06",
+          "type": "build",
+          "cs": "Včera večer jsem hrál Minecraft.",
+          "a": [
+            "Hier soir, j'ai joué à Minecraft.",
+            "J'ai joué à Minecraft hier soir."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-07",
+          "type": "build",
+          "cs": "Předevčírem jsem potkal kamaráda.",
+          "a": [
+            "Avant-hier, j'ai rencontré un ami.",
+            "J'ai rencontré un ami avant-hier.",
+            "Avant-hier, j'ai rencontré un copain."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-08",
+          "type": "build",
+          "cs": "Loni jsme navštívili Paříž.",
+          "a": [
+            "L'année dernière, nous avons visité Paris.",
+            "L'année dernière, on a visité Paris.",
+            "Nous avons visité Paris l'année dernière."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-09",
+          "type": "build",
+          "cs": "Nejdřív jsem jedl, pak jsem se učil.",
+          "a": [
+            "D'abord, j'ai mangé, ensuite j'ai étudié.",
+            "D'abord, j'ai mangé, puis j'ai étudié.",
+            "D'abord, j'ai mangé, après j'ai étudié.",
+            "D'abord, j'ai mangé, ensuite j'ai travaillé."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-10",
+          "type": "build",
+          "cs": "Před týdnem jsem prohrál zápas.",
+          "a": [
+            "Il y a une semaine, j'ai perdu un match.",
+            "J'ai perdu un match il y a une semaine."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-11",
+          "type": "transform",
+          "task_cs": "Řekni to o minulé sobotě",
+          "fr": "Samedi prochain, je vais jouer au foot.",
+          "a": [
+            "Samedi dernier, j'ai joué au foot."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-12",
+          "type": "order",
+          "cs": "Minulý měsíc jsme vyhráli turnaj.",
+          "a": [
+            "Le mois dernier nous avons gagné le tournoi"
+          ],
+          "extra": [
+            "dernière",
+            "gagner"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-weekend-t-01",
+        "lesson": "fr-weekend-1",
+        "type": "build",
+        "cs": "V sobotu jsme jedli pizzu.",
+        "a": [
+          "Samedi, nous avons mangé une pizza.",
+          "Samedi, on a mangé une pizza.",
+          "Nous avons mangé une pizza samedi."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-02",
+        "lesson": "fr-weekend-1",
+        "type": "cloze",
+        "fr": "Ils ont ___ au parc.",
+        "a": [
+          "joué"
+        ],
+        "hint": "jouer"
+      },
+      {
+        "id": "fr-weekend-t-03",
+        "lesson": "fr-weekend-1",
+        "type": "transform",
+        "task_cs": "Dej do minulého času",
+        "fr": "Tu écoutes de la musique.",
+        "a": [
+          "Tu as écouté de la musique."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-04",
+        "lesson": "fr-weekend-1",
+        "type": "build",
+        "cs": "Zapomněl jsem klíče.",
+        "a": [
+          "J'ai oublié mes clés."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-05",
+        "lesson": "fr-weekend-1",
+        "type": "form",
+        "verb": "parler",
+        "tense": "passe-compose",
+        "person": 4
+      },
+      {
+        "id": "fr-weekend-t-06",
+        "lesson": "fr-weekend-2",
+        "type": "cloze",
+        "fr": "Nous avons ___ le match.",
+        "a": [
+          "perdu"
+        ],
+        "hint": "perdre"
+      },
+      {
+        "id": "fr-weekend-t-07",
+        "lesson": "fr-weekend-2",
+        "type": "build",
+        "cs": "Dobře jsi spal?",
+        "a": [
+          "Tu as bien dormi ?",
+          "Est-ce que tu as bien dormi ?"
+        ]
+      },
+      {
+        "id": "fr-weekend-t-08",
+        "lesson": "fr-weekend-2",
+        "type": "build",
+        "cs": "Čekal jsem dvacet minut.",
+        "a": [
+          "J'ai attendu vingt minutes."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-09",
+        "lesson": "fr-weekend-2",
+        "type": "transform",
+        "task_cs": "Dej do minulého času",
+        "fr": "Elle choisit un livre.",
+        "a": [
+          "Elle a choisi un livre."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-10",
+        "lesson": "fr-weekend-2",
+        "type": "form",
+        "verb": "finir",
+        "tense": "passe-compose",
+        "person": 5
+      },
+      {
+        "id": "fr-weekend-t-11",
+        "lesson": "fr-weekend-3",
+        "type": "cloze",
+        "fr": "Hier, j'ai ___ un bon livre.",
+        "a": [
+          "lu"
+        ],
+        "hint": "lire"
+      },
+      {
+        "id": "fr-weekend-t-12",
+        "lesson": "fr-weekend-3",
+        "type": "cloze",
+        "fr": "Vous avez ___ le métro ?",
+        "a": [
+          "pris"
+        ],
+        "hint": "prendre"
+      },
+      {
+        "id": "fr-weekend-t-13",
+        "lesson": "fr-weekend-3",
+        "type": "build",
+        "cs": "Viděli jsme super film.",
+        "a": [
+          "Nous avons vu un super film.",
+          "On a vu un super film."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-14",
+        "lesson": "fr-weekend-3",
+        "type": "build",
+        "cs": "Udělal jsem chybu.",
+        "a": [
+          "J'ai fait une erreur.",
+          "J'ai fait une faute."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-15",
+        "lesson": "fr-weekend-3",
+        "type": "form",
+        "verb": "écrire",
+        "tense": "passe-compose",
+        "person": 2
+      },
+      {
+        "id": "fr-weekend-t-16",
+        "lesson": "fr-weekend-4",
+        "type": "transform",
+        "task_cs": "Převeď do záporu",
+        "fr": "J'ai bu du café.",
+        "a": [
+          "Je n'ai pas bu de café."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-17",
+        "lesson": "fr-weekend-4",
+        "type": "build",
+        "cs": "Ještě jsem nedodělal úkol.",
+        "a": [
+          "Je n'ai pas encore fini mon devoir.",
+          "Je n'ai pas encore fini mes devoirs."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-18",
+        "lesson": "fr-weekend-4",
+        "type": "build",
+        "cs": "Už jsi jedl?",
+        "a": [
+          "Tu as déjà mangé ?",
+          "Est-ce que tu as déjà mangé ?"
+        ]
+      },
+      {
+        "id": "fr-weekend-t-19",
+        "lesson": "fr-weekend-4",
+        "type": "cloze",
+        "fr": "Je n'ai ___ vu ce film.",
+        "a": [
+          "jamais"
+        ],
+        "hint": "nikdy"
+      },
+      {
+        "id": "fr-weekend-t-20",
+        "lesson": "fr-weekend-4",
+        "type": "build",
+        "cs": "Co jste dělali v neděli?",
+        "a": [
+          "Qu'est-ce que vous avez fait dimanche ?",
+          "Vous avez fait quoi dimanche ?"
+        ]
+      },
+      {
+        "id": "fr-weekend-t-21",
+        "lesson": "fr-weekend-5",
+        "type": "cloze",
+        "fr": "J'ai vu ce film il y ___ trois jours.",
+        "a": [
+          "a"
+        ]
+      },
+      {
+        "id": "fr-weekend-t-22",
+        "lesson": "fr-weekend-5",
+        "type": "build",
+        "cs": "Minulou sobotu jsem hrál basketbal.",
+        "a": [
+          "Samedi dernier, j'ai joué au basket.",
+          "J'ai joué au basket samedi dernier."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-23",
+        "lesson": "fr-weekend-5",
+        "type": "build",
+        "cs": "Loni jsem se naučil plavat.",
+        "a": [
+          "L'année dernière, j'ai appris à nager.",
+          "J'ai appris à nager l'année dernière."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-24",
+        "lesson": "fr-weekend-5",
+        "type": "build",
+        "cs": "Zápas trval dvě hodiny.",
+        "a": [
+          "Le match a duré deux heures."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-25",
+        "lesson": "fr-weekend-5",
+        "type": "cloze",
+        "fr": "Le mois ___, nous avons visité Prague.",
+        "a": [
+          "dernier"
+        ],
+        "hint": "minulý"
+      }
+    ]
+  }
+}

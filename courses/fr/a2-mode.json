@@ -1,0 +1,1426 @@
+{
+  "schema": 1,
+  "goals": [
+    "Pojmenovat oblečení a doplňky",
+    "Říct, co nosíš a co si oblékáš (porter, mettre)",
+    "Ukázat na věc: ce, cet, cette, ces",
+    "Porovnat: plus ... que, moins ... que, aussi ... que, meilleur",
+    "Nakoupit oblečení: velikost, zkoušení, cena"
+  ],
+  "lessons": [
+    {
+      "id": "fr-mode-1",
+      "title": "Mes vêtements",
+      "subtitle": "Oblečení",
+      "topics": [
+        "clothing"
+      ],
+      "words": [
+        "clothing#tričko",
+        "clothing#mikina",
+        "clothing#džíny",
+        "clothing#kraťasy",
+        "clothing#šaty",
+        "clothing#svetr",
+        "clothing#sukně",
+        "clothing#bunda",
+        "clothing#kabát",
+        "clothing#kalhoty",
+        "clothing#košile",
+        "clothing#ponožky",
+        "clothing#boty",
+        "clothing#tenisky",
+        "clothing#čepice",
+        "clothing#kšiltovka",
+        "clothing#oblečení",
+        "clothing#tepláky"
+      ],
+      "learn": [
+        {
+          "title": "Co máš na sobě?",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Oblečení = *les vêtements*. Pozor na rod, často je jiný než v češtině: *le pull, le blouson*, ale *la jupe, la robe, la veste*. Uč se každé slovo i se členem."
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "tričko",
+                  "un T-shirt"
+                ],
+                [
+                  "mikina",
+                  "un sweat-shirt (un sweat)"
+                ],
+                [
+                  "svetr",
+                  "un pull"
+                ],
+                [
+                  "košile",
+                  "une chemise"
+                ],
+                [
+                  "sukně",
+                  "une jupe"
+                ],
+                [
+                  "šaty",
+                  "une robe"
+                ],
+                [
+                  "bunda",
+                  "un blouson"
+                ],
+                [
+                  "kabát",
+                  "un manteau"
+                ],
+                [
+                  "boty",
+                  "des chaussures"
+                ],
+                [
+                  "tenisky",
+                  "des baskets"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Il fait froid, je prends mon ___.",
+                "a": [
+                  "manteau"
+                ],
+                "hint": "kabát"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Kalhoty = un pantalon",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "jednotné číslo",
+              "cs": "Čeština má *kalhoty, džíny, kraťasy, tepláky* v množném čísle, francouzština v jednotném: *un pantalon, un jean, un short, un jogging*. Takže *Mon jean est bleu*, ne *mes jeans sont bleus*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai un nouveau jean.",
+                  "cs": "Mám nové džíny."
+                },
+                {
+                  "fr": "Ton pantalon est trop long.",
+                  "cs": "Tvoje kalhoty jsou moc dlouhé."
+                },
+                {
+                  "fr": "Mon short est rouge.",
+                  "cs": "Moje kraťasy jsou červené."
+                },
+                {
+                  "fr": "Où sont mes chaussettes ?",
+                  "cs": "Kde jsou moje ponožky?"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Moje džíny jsou černé.",
+                "a": [
+                  "Mon jean est noir."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-mode-1-01",
+          "type": "cloze",
+          "fr": "Ma sœur a une ___ rouge.",
+          "a": [
+            "jupe"
+          ],
+          "hint": "sukně"
+        },
+        {
+          "id": "fr-mode-1-02",
+          "type": "cloze",
+          "fr": "Mon ___ est trop petit.",
+          "a": [
+            "pull"
+          ],
+          "hint": "svetr"
+        },
+        {
+          "id": "fr-mode-1-03",
+          "type": "cloze",
+          "fr": "J'ai ___ nouvelles chaussures.",
+          "a": [
+            "de",
+            "des"
+          ],
+          "hint": "neurčitý člen",
+          "why": "Před přídavným jménem v množném čísle se v pečlivé francouzštině píše de: de nouvelles chaussures. V hovoru uslyšíš i des."
+        },
+        {
+          "id": "fr-mode-1-04",
+          "type": "cloze",
+          "fr": "Où est ma ___ ?",
+          "a": [
+            "veste"
+          ],
+          "hint": "sako"
+        },
+        {
+          "id": "fr-mode-1-05",
+          "type": "cloze",
+          "fr": "Mon ___ est bleu.",
+          "a": [
+            "jean"
+          ],
+          "hint": "džíny"
+        },
+        {
+          "id": "fr-mode-1-06",
+          "type": "build",
+          "cs": "Mám nové tričko.",
+          "a": [
+            "J'ai un nouveau T-shirt."
+          ]
+        },
+        {
+          "id": "fr-mode-1-07",
+          "type": "build",
+          "cs": "To je moje oblíbená mikina.",
+          "a": [
+            "C'est mon sweat-shirt préféré.",
+            "C'est mon sweat préféré."
+          ]
+        },
+        {
+          "id": "fr-mode-1-08",
+          "type": "build",
+          "cs": "Kde jsou moje boty?",
+          "a": [
+            "Où sont mes chaussures ?"
+          ]
+        },
+        {
+          "id": "fr-mode-1-09",
+          "type": "build",
+          "cs": "Moje kalhoty jsou moc dlouhé.",
+          "a": [
+            "Mon pantalon est trop long."
+          ],
+          "why": "Kalhoty = un pantalon, jednotné číslo."
+        },
+        {
+          "id": "fr-mode-1-10",
+          "type": "build",
+          "cs": "Je zima, vezmi si kabát!",
+          "a": [
+            "Il fait froid, prends ton manteau !"
+          ]
+        },
+        {
+          "id": "fr-mode-1-11",
+          "type": "transform",
+          "task_cs": "Dej do množného čísla",
+          "fr": "J'ai une chemise blanche.",
+          "a": [
+            "J'ai des chemises blanches."
+          ]
+        },
+        {
+          "id": "fr-mode-1-12",
+          "type": "build",
+          "cs": "Moje tenisky jsou bílé.",
+          "a": [
+            "Mes baskets sont blanches.",
+            "Mes tennis sont blancs."
+          ]
+        },
+        {
+          "id": "fr-mode-1-13",
+          "type": "order",
+          "cs": "Tvoje kraťasy jsou hezké.",
+          "a": [
+            "Ton short est joli"
+          ],
+          "extra": [
+            "tes",
+            "jolis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-mode-2",
+      "title": "Je porte un jean",
+      "subtitle": "Co nosím: porter a mettre",
+      "topics": [
+        "clothing",
+        "mettre"
+      ],
+      "words": [
+        "clothing#brýle",
+        "clothing#hodinky",
+        "clothing#rukavice",
+        "clothing#pásek",
+        "clothing#šála",
+        "clothing#klobouk",
+        "clothing#kabelka",
+        "clothing#plavky",
+        "clothing#legíny",
+        "verbs#nosit, mít na sobě"
+      ],
+      "learn": [
+        {
+          "title": "porter a mettre",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "*Porter* = nosit, mít na sobě (stav): *Aujourd'hui, je porte un jean.* *Mettre* = obléknout si, vzít si na sebe (děj): *Je mets mon manteau et je sors.*"
+            },
+            {
+              "type": "table",
+              "verb": "porter",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "mettre",
+              "tense": "present"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Aujourd'hui, Léa ___ une robe verte.",
+                "a": [
+                  "porte"
+                ],
+                "hint": "porter"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Barvy a shoda",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Barva stojí za podstatným jménem a shoduje se s ním: *une jupe noire, des chaussures blanches*. Některé barvy se nemění: *marron, orange* (*des chaussures marron*)."
+            },
+            {
+              "type": "tip",
+              "title": "s'habiller",
+              "cs": "*S'habiller* = obléknout se (celý). *Je m'habille vite.* Ale kus oblečení si vezmeš s *mettre*: *Je mets mes gants.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Mám na sobě černé kalhoty.",
+                "a": [
+                  "Je porte un pantalon noir."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-mode-2-01",
+          "type": "form",
+          "verb": "porter",
+          "tense": "present",
+          "person": 0
+        },
+        {
+          "id": "fr-mode-2-02",
+          "type": "form",
+          "verb": "mettre",
+          "tense": "present",
+          "person": 3
+        },
+        {
+          "id": "fr-mode-2-03",
+          "type": "form",
+          "verb": "mettre",
+          "tense": "present",
+          "person": 1
+        },
+        {
+          "id": "fr-mode-2-04",
+          "type": "cloze",
+          "fr": "Il fait froid, je ___ mon écharpe.",
+          "a": [
+            "mets"
+          ],
+          "hint": "mettre"
+        },
+        {
+          "id": "fr-mode-2-05",
+          "type": "cloze",
+          "fr": "Mon père ___ toujours une cravate.",
+          "a": [
+            "porte"
+          ],
+          "hint": "porter"
+        },
+        {
+          "id": "fr-mode-2-06",
+          "type": "cloze",
+          "fr": "Nous ___ nos gants.",
+          "a": [
+            "mettons"
+          ],
+          "hint": "mettre"
+        },
+        {
+          "id": "fr-mode-2-07",
+          "type": "cloze",
+          "fr": "Elle a une jupe ___.",
+          "a": [
+            "noire"
+          ],
+          "hint": "černá"
+        },
+        {
+          "id": "fr-mode-2-08",
+          "type": "cloze",
+          "fr": "J'ai des chaussures ___.",
+          "a": [
+            "blanches"
+          ],
+          "hint": "bílé"
+        },
+        {
+          "id": "fr-mode-2-09",
+          "type": "build",
+          "cs": "Dnes mám na sobě modré tričko.",
+          "a": [
+            "Aujourd'hui, je porte un T-shirt bleu.",
+            "Je porte un T-shirt bleu aujourd'hui."
+          ]
+        },
+        {
+          "id": "fr-mode-2-10",
+          "type": "build",
+          "cs": "Vezmi si plavky!",
+          "a": [
+            "Mets ton maillot de bain !",
+            "Prends ton maillot de bain !"
+          ]
+        },
+        {
+          "id": "fr-mode-2-11",
+          "type": "build",
+          "cs": "Moje máma nosí brýle.",
+          "a": [
+            "Ma mère porte des lunettes.",
+            "Ma mère a des lunettes."
+          ]
+        },
+        {
+          "id": "fr-mode-2-12",
+          "type": "build",
+          "cs": "Rychle se obléknu.",
+          "a": [
+            "Je m'habille vite."
+          ]
+        },
+        {
+          "id": "fr-mode-2-13",
+          "type": "transform",
+          "task_cs": "Převeď do záporu",
+          "fr": "Il porte une casquette.",
+          "a": [
+            "Il ne porte pas de casquette."
+          ]
+        },
+        {
+          "id": "fr-mode-2-14",
+          "type": "order",
+          "cs": "Nosím hodinky a pásek.",
+          "a": [
+            "Je porte une montre et une ceinture"
+          ],
+          "extra": [
+            "mets",
+            "un"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-mode-3",
+      "title": "Ce pull ou cette veste ?",
+      "subtitle": "Ukazovací zájmena",
+      "topics": [
+        "demonstratives",
+        "clothing"
+      ],
+      "words": [
+        "clothing#náušnice",
+        "clothing#náhrdelník",
+        "clothing#prsten",
+        "clothing#náramek",
+        "clothing#šperk",
+        "clothing#móda",
+        "clothing#módní",
+        "clothing#elegantní",
+        "clothing#pohodlný"
+      ],
+      "learn": [
+        {
+          "title": "ten, ta, to, ty",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Když na něco ukazuješ (*tenhle svetr, tahle sukně*), použiješ *ce, cet, cette, ces*."
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "tento svetr",
+                  "ce pull"
+                ],
+                [
+                  "tento kamarád",
+                  "cet ami"
+                ],
+                [
+                  "tato sukně",
+                  "cette jupe"
+                ],
+                [
+                  "tyto boty",
+                  "ces chaussures"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "cs": "*Cet* stojí před mužským slovem, které začíná samohláskou nebo němým *h*: *cet ami, cet hôtel, cet été*. *Ces* je množné číslo pro oba rody."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Tu aimes ___ robe ?",
+                "a": [
+                  "cette"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "-ci a -là",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Chceš-li odlišit *tenhle* a *tamten*, přidej *-ci* a *-là*: *ce pull-ci* (tenhle), *ce pull-là* (tamten). V běžné řeči se často říká jen *-là*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je préfère cette veste-ci.",
+                  "cs": "Radši mám tohle sako."
+                },
+                {
+                  "fr": "Ces chaussures-là sont trop chères.",
+                  "cs": "Tamty boty jsou moc drahé."
+                },
+                {
+                  "fr": "Cet été, je vais à la mer.",
+                  "cs": "Letos v létě jedu k moři."
+                },
+                {
+                  "fr": "Ce collier est très élégant.",
+                  "cs": "Tenhle náhrdelník je moc elegantní."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Tyhle náušnice jsou hezké.",
+                "a": [
+                  "Ces boucles d'{oreilles|oreille} sont jolies."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-mode-3-01",
+          "type": "cloze",
+          "fr": "___ pull est trop grand.",
+          "a": [
+            "Ce"
+          ]
+        },
+        {
+          "id": "fr-mode-3-02",
+          "type": "cloze",
+          "fr": "___ chemise est jolie.",
+          "a": [
+            "Cette"
+          ]
+        },
+        {
+          "id": "fr-mode-3-03",
+          "type": "cloze",
+          "fr": "___ chaussures sont confortables.",
+          "a": [
+            "Ces"
+          ]
+        },
+        {
+          "id": "fr-mode-3-04",
+          "type": "cloze",
+          "fr": "___ hôtel est cher.",
+          "a": [
+            "Cet"
+          ]
+        },
+        {
+          "id": "fr-mode-3-05",
+          "type": "cloze",
+          "fr": "Tu aimes ___ bracelet ?",
+          "a": [
+            "ce"
+          ]
+        },
+        {
+          "id": "fr-mode-3-06",
+          "type": "cloze",
+          "fr": "___ été, je vais acheter un maillot de bain.",
+          "a": [
+            "Cet"
+          ]
+        },
+        {
+          "id": "fr-mode-3-07",
+          "type": "cloze",
+          "fr": "Je préfère cette veste-___.",
+          "a": [
+            "ci",
+            "là"
+          ]
+        },
+        {
+          "id": "fr-mode-3-08",
+          "type": "build",
+          "cs": "Tento náhrdelník je elegantní.",
+          "a": [
+            "Ce collier est élégant."
+          ]
+        },
+        {
+          "id": "fr-mode-3-09",
+          "type": "build",
+          "cs": "Tyhle boty jsou pohodlné.",
+          "a": [
+            "Ces chaussures sont confortables."
+          ]
+        },
+        {
+          "id": "fr-mode-3-10",
+          "type": "build",
+          "cs": "Ta kabelka je moc drahá.",
+          "a": [
+            "Ce sac à main est trop cher."
+          ],
+          "why": "Sac à main je mužského rodu: ce sac, cher."
+        },
+        {
+          "id": "fr-mode-3-11",
+          "type": "build",
+          "cs": "Tento prsten je moc hezký.",
+          "a": [
+            "Cette bague est très jolie."
+          ]
+        },
+        {
+          "id": "fr-mode-3-12",
+          "type": "transform",
+          "task_cs": "Dej do množného čísla",
+          "fr": "Cette robe est chère.",
+          "a": [
+            "Ces robes sont chères."
+          ]
+        },
+        {
+          "id": "fr-mode-3-13",
+          "type": "transform",
+          "task_cs": "Dej do jednotného čísla",
+          "fr": "Ces pulls sont chauds.",
+          "a": [
+            "Ce pull est chaud."
+          ]
+        },
+        {
+          "id": "fr-mode-3-14",
+          "type": "order",
+          "cs": "Tahle sukně je v módě.",
+          "a": [
+            "Cette jupe est à la mode"
+          ],
+          "extra": [
+            "Ce",
+            "Cet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-mode-4",
+      "title": "Plus cher que...",
+      "subtitle": "Porovnávání",
+      "topics": [
+        "comparative",
+        "clothing"
+      ],
+      "words": [
+        "clothing#příliš velký"
+      ],
+      "learn": [
+        {
+          "title": "plus, moins, aussi",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Porovnáváš takto: *plus* (víc), *moins* (míň), *aussi* (stejně) + přídavné jméno + *que*. Přídavné jméno se shoduje s tím, co popisuje: *Cette robe est plus chère que la jupe.*"
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "dražší než",
+                  "plus cher que"
+                ],
+                [
+                  "levnější než (méně drahý)",
+                  "moins cher que"
+                ],
+                [
+                  "stejně drahý jako",
+                  "aussi cher que"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Le manteau est ___ cher que le pull.",
+                "a": [
+                  "plus"
+                ],
+                "hint": "dražší"
+              }
+            }
+          ]
+        },
+        {
+          "title": "lepší a nejlepší",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "meilleur",
+              "cs": "*Bon* nemá tvar *plus bon*, ale *meilleur* (ženský rod *meilleure*): *Ce jean est meilleur que l'autre.* U příslovce *bien* je to *mieux*: *Ça te va mieux.*"
+            },
+            {
+              "type": "text",
+              "cs": "Nejvíc = *le plus, la plus, les plus*: *C'est la robe la plus chère du magasin.* (Jsou to nejdražší šaty v obchodě.)"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Les baskets sont plus confortables que les bottes.",
+                  "cs": "Tenisky jsou pohodlnější než holínky."
+                },
+                {
+                  "fr": "Ma veste est moins chaude que ton manteau.",
+                  "cs": "Moje sako je méně teplé než tvůj kabát."
+                },
+                {
+                  "fr": "Ton T-shirt est aussi joli que ma chemise.",
+                  "cs": "Tvoje tričko je stejně hezké jako moje košile."
+                },
+                {
+                  "fr": "Cette robe te va mieux.",
+                  "cs": "Tyhle šaty ti sluší víc."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Tahle bunda je lepší.",
+                "a": [
+                  "Ce blouson est meilleur."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-mode-4-01",
+          "type": "cloze",
+          "fr": "Ma jupe est ___ longue que ta robe.",
+          "a": [
+            "plus"
+          ],
+          "hint": "delší"
+        },
+        {
+          "id": "fr-mode-4-02",
+          "type": "cloze",
+          "fr": "Les baskets sont ___ chères que les chaussures.",
+          "a": [
+            "moins"
+          ],
+          "hint": "levnější"
+        },
+        {
+          "id": "fr-mode-4-03",
+          "type": "cloze",
+          "fr": "Ce pull est ___ chaud que ton manteau.",
+          "a": [
+            "aussi"
+          ],
+          "hint": "stejně"
+        },
+        {
+          "id": "fr-mode-4-04",
+          "type": "cloze",
+          "fr": "Ce jean est ___ que l'autre.",
+          "a": [
+            "meilleur"
+          ],
+          "hint": "lepší"
+        },
+        {
+          "id": "fr-mode-4-05",
+          "type": "cloze",
+          "fr": "Cette robe te va ___.",
+          "a": [
+            "mieux"
+          ],
+          "hint": "líp"
+        },
+        {
+          "id": "fr-mode-4-06",
+          "type": "cloze",
+          "fr": "Ma sœur est plus grande ___ moi.",
+          "a": [
+            "que"
+          ]
+        },
+        {
+          "id": "fr-mode-4-07",
+          "type": "build",
+          "cs": "Kabát je teplejší než bunda.",
+          "a": [
+            "Le manteau est plus chaud que le blouson."
+          ]
+        },
+        {
+          "id": "fr-mode-4-08",
+          "type": "build",
+          "cs": "Tenhle svetr je levnější než tamten.",
+          "a": [
+            "Ce pull est moins cher que l'autre.",
+            "Ce pull-ci est moins cher que ce pull-là.",
+            "Ce pull-ci est moins cher que celui-là."
+          ]
+        },
+        {
+          "id": "fr-mode-4-09",
+          "type": "build",
+          "cs": "Moje boty jsou stejně pohodlné jako tenisky.",
+          "a": [
+            "Mes chaussures sont aussi confortables que les baskets."
+          ]
+        },
+        {
+          "id": "fr-mode-4-10",
+          "type": "build",
+          "cs": "To jsou nejdražší šaty v obchodě.",
+          "a": [
+            "C'est la robe la plus chère du magasin."
+          ]
+        },
+        {
+          "id": "fr-mode-4-11",
+          "type": "transform",
+          "task_cs": "Řekni opak (plus → moins)",
+          "fr": "Le T-shirt est plus cher que le short.",
+          "a": [
+            "Le T-shirt est moins cher que le short."
+          ]
+        },
+        {
+          "id": "fr-mode-4-12",
+          "type": "transform",
+          "task_cs": "Řekni to o sestře",
+          "fr": "Mon frère est plus grand que moi.",
+          "a": [
+            "Ma sœur est plus grande que moi."
+          ]
+        },
+        {
+          "id": "fr-mode-4-13",
+          "type": "order",
+          "cs": "Tahle sukně je hezčí než šaty.",
+          "a": [
+            "Cette jupe est plus jolie que la robe"
+          ],
+          "extra": [
+            "moins",
+            "meilleure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-mode-5",
+      "title": "Dans la boutique",
+      "subtitle": "V obchodě s oblečením",
+      "topics": [
+        "clothing",
+        "shopping"
+      ],
+      "words": [
+        "clothing#velikost",
+        "clothing#velikost bot",
+        "clothing#zkušební kabinka",
+        "clothing#výprodej",
+        "clothing#to mi sluší",
+        "verbs#zkusit si",
+        "verbs-irregular#líbit se"
+      ],
+      "learn": [
+        {
+          "title": "Můžu si to zkusit?",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Můžu vám pomoct?",
+                  "Je peux vous aider ?"
+                ],
+                [
+                  "Hledám mikinu.",
+                  "Je cherche un sweat-shirt."
+                ],
+                [
+                  "Jakou máte velikost?",
+                  "Quelle taille faites-vous ?"
+                ],
+                [
+                  "Mám velikost 38.",
+                  "Je fais du 38."
+                ],
+                [
+                  "Jakou máte velikost bot?",
+                  "Quelle est votre pointure ?"
+                ],
+                [
+                  "Můžu si to zkusit?",
+                  "Je peux l'essayer ?"
+                ],
+                [
+                  "Kde je zkušební kabinka?",
+                  "Où est la cabine d'essayage ?"
+                ],
+                [
+                  "Kolik to stojí?",
+                  "Ça coûte combien ?"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je peux ___ ce pantalon ?",
+                "a": [
+                  "essayer"
+                ],
+                "hint": "zkusit si"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Sluší mi to?",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "*Ça me va ?* = Sluší mi to? Padne mi to? *Ça te va bien.* = Sluší ti to. *C'est trop grand / trop petit / trop serré.* = Je to moc velké / malé / těsné. *Ça te plaît ?* = Líbí se ti to?"
+            },
+            {
+              "type": "tip",
+              "title": "plaire",
+              "cs": "*Plaire* funguje jako české *líbit se*: věc, která se líbí, je podmět. *Cette robe me plaît.* (Ty šaty se mi líbí.) *Ces chaussures te plaisent ?*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Ta bunda se mi líbí.",
+                "a": [
+                  "Ce blouson me plaît."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-mode-5-01",
+          "type": "cloze",
+          "fr": "Quelle ___ faites-vous ?",
+          "a": [
+            "taille"
+          ],
+          "hint": "velikost"
+        },
+        {
+          "id": "fr-mode-5-02",
+          "type": "cloze",
+          "fr": "Quelle est votre ___ ?",
+          "a": [
+            "pointure"
+          ],
+          "hint": "velikost bot"
+        },
+        {
+          "id": "fr-mode-5-03",
+          "type": "cloze",
+          "fr": "Ce pantalon est trop ___ pour moi.",
+          "a": [
+            "grand"
+          ],
+          "hint": "velký"
+        },
+        {
+          "id": "fr-mode-5-04",
+          "type": "cloze",
+          "fr": "Cette veste te ___ bien.",
+          "a": [
+            "va"
+          ],
+          "hint": "sluší"
+        },
+        {
+          "id": "fr-mode-5-05",
+          "type": "cloze",
+          "fr": "Ces chaussures me ___ beaucoup.",
+          "a": [
+            "plaisent"
+          ],
+          "hint": "plaire"
+        },
+        {
+          "id": "fr-mode-5-06",
+          "type": "cloze",
+          "fr": "Ce sont les ___ : tout est moins cher !",
+          "a": [
+            "soldes"
+          ],
+          "hint": "výprodej"
+        },
+        {
+          "id": "fr-mode-5-07",
+          "type": "build",
+          "cs": "Můžu si to zkusit?",
+          "a": [
+            "Je peux l'essayer ?",
+            "Est-ce que je peux l'essayer ?",
+            "Je peux essayer ?"
+          ]
+        },
+        {
+          "id": "fr-mode-5-08",
+          "type": "build",
+          "cs": "Kde je zkušební kabinka?",
+          "a": [
+            "Où est la cabine d'essayage ?"
+          ]
+        },
+        {
+          "id": "fr-mode-5-09",
+          "type": "build",
+          "cs": "Mám velikost 38.",
+          "a": [
+            "Je fais du 38.",
+            "Je fais du trente-huit."
+          ]
+        },
+        {
+          "id": "fr-mode-5-10",
+          "type": "build",
+          "cs": "Kolik stojí tohle tričko?",
+          "a": [
+            "Combien coûte ce T-shirt ?",
+            "Ce T-shirt coûte combien ?",
+            "Ça coûte combien, ce T-shirt ?"
+          ]
+        },
+        {
+          "id": "fr-mode-5-11",
+          "type": "build",
+          "cs": "Ty šaty ti moc sluší.",
+          "a": [
+            "Cette robe te va très bien."
+          ]
+        },
+        {
+          "id": "fr-mode-5-12",
+          "type": "build",
+          "cs": "Je to moc malé, máte větší velikost?",
+          "a": [
+            "C'est trop petit, vous avez une taille plus grande ?",
+            "C'est trop petit, avez-vous une taille plus grande ?",
+            "C'est trop petit, vous avez la taille au-dessus ?"
+          ]
+        },
+        {
+          "id": "fr-mode-5-13",
+          "type": "order",
+          "cs": "Hledám černou mikinu.",
+          "a": [
+            "Je cherche un sweat-shirt noir"
+          ],
+          "extra": [
+            "noire",
+            "une"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-mode-t-01",
+        "lesson": "fr-mode-1",
+        "type": "build",
+        "cs": "Moje sestra má červené šaty.",
+        "a": [
+          "Ma sœur a une robe rouge."
+        ]
+      },
+      {
+        "id": "fr-mode-t-02",
+        "lesson": "fr-mode-1",
+        "type": "cloze",
+        "fr": "En hiver, je porte un ___ chaud.",
+        "a": [
+          "manteau"
+        ],
+        "hint": "kabát"
+      },
+      {
+        "id": "fr-mode-t-03",
+        "lesson": "fr-mode-1",
+        "type": "build",
+        "cs": "Kde je moje bunda?",
+        "a": [
+          "Où est mon blouson ?"
+        ]
+      },
+      {
+        "id": "fr-mode-t-04",
+        "lesson": "fr-mode-1",
+        "type": "build",
+        "cs": "Moje tepláky jsou staré.",
+        "a": [
+          "Mon jogging est vieux."
+        ]
+      },
+      {
+        "id": "fr-mode-t-05",
+        "lesson": "fr-mode-2",
+        "type": "cloze",
+        "fr": "Le matin, je ___ mon pull.",
+        "a": [
+          "mets"
+        ],
+        "hint": "mettre"
+      },
+      {
+        "id": "fr-mode-t-06",
+        "lesson": "fr-mode-2",
+        "type": "cloze",
+        "fr": "Ils ___ des baskets.",
+        "a": [
+          "portent"
+        ],
+        "hint": "porter"
+      },
+      {
+        "id": "fr-mode-t-07",
+        "lesson": "fr-mode-2",
+        "type": "build",
+        "cs": "Moje babička nosí klobouk.",
+        "a": [
+          "Ma grand-mère porte un chapeau."
+        ]
+      },
+      {
+        "id": "fr-mode-t-08",
+        "lesson": "fr-mode-2",
+        "type": "build",
+        "cs": "Vezmi si šálu, je zima!",
+        "a": [
+          "Mets ton écharpe, il fait froid !",
+          "Prends ton écharpe, il fait froid !"
+        ]
+      },
+      {
+        "id": "fr-mode-t-09",
+        "lesson": "fr-mode-2",
+        "type": "transform",
+        "task_cs": "Převeď do záporu",
+        "fr": "Je porte des lunettes.",
+        "a": [
+          "Je ne porte pas de lunettes."
+        ]
+      },
+      {
+        "id": "fr-mode-t-10",
+        "lesson": "fr-mode-3",
+        "type": "cloze",
+        "fr": "___ casquette est à toi ?",
+        "a": [
+          "Cette"
+        ]
+      },
+      {
+        "id": "fr-mode-t-11",
+        "lesson": "fr-mode-3",
+        "type": "cloze",
+        "fr": "___ ami s'appelle Hugo.",
+        "a": [
+          "Cet"
+        ]
+      },
+      {
+        "id": "fr-mode-t-12",
+        "lesson": "fr-mode-3",
+        "type": "build",
+        "cs": "Tyhle ponožky jsou moje.",
+        "a": [
+          "Ces chaussettes sont à moi."
+        ]
+      },
+      {
+        "id": "fr-mode-t-13",
+        "lesson": "fr-mode-3",
+        "type": "build",
+        "cs": "Líbí se ti tahle mikina?",
+        "a": [
+          "Tu aimes ce sweat-shirt ?",
+          "Ce sweat-shirt te plaît ?",
+          "Tu aimes ce sweat ?",
+          "Ce sweat te plaît ?"
+        ]
+      },
+      {
+        "id": "fr-mode-t-14",
+        "lesson": "fr-mode-3",
+        "type": "transform",
+        "task_cs": "Dej do množného čísla",
+        "fr": "Ce bracelet est joli.",
+        "a": [
+          "Ces bracelets sont jolis."
+        ]
+      },
+      {
+        "id": "fr-mode-t-15",
+        "lesson": "fr-mode-4",
+        "type": "cloze",
+        "fr": "Ce manteau est ___ cher que l'autre.",
+        "a": [
+          "moins"
+        ],
+        "hint": "levnější"
+      },
+      {
+        "id": "fr-mode-t-16",
+        "lesson": "fr-mode-4",
+        "type": "build",
+        "cs": "Sukně je kratší než šaty.",
+        "a": [
+          "La jupe est plus courte que la robe."
+        ]
+      },
+      {
+        "id": "fr-mode-t-17",
+        "lesson": "fr-mode-4",
+        "type": "build",
+        "cs": "Moje bunda je stejně teplá jako kabát.",
+        "a": [
+          "Mon blouson est aussi chaud que le manteau."
+        ]
+      },
+      {
+        "id": "fr-mode-t-18",
+        "lesson": "fr-mode-4",
+        "type": "cloze",
+        "fr": "Ces chaussures sont ___ que les autres.",
+        "a": [
+          "meilleures"
+        ],
+        "hint": "lepší"
+      },
+      {
+        "id": "fr-mode-t-19",
+        "lesson": "fr-mode-4",
+        "type": "build",
+        "cs": "To je nejhezčí tričko.",
+        "a": [
+          "C'est le plus joli T-shirt.",
+          "C'est le T-shirt le plus joli."
+        ]
+      },
+      {
+        "id": "fr-mode-t-20",
+        "lesson": "fr-mode-5",
+        "type": "build",
+        "cs": "Hledám černé džíny.",
+        "a": [
+          "Je cherche un jean noir."
+        ]
+      },
+      {
+        "id": "fr-mode-t-21",
+        "lesson": "fr-mode-5",
+        "type": "build",
+        "cs": "Jakou máte velikost?",
+        "a": [
+          "Quelle taille faites-vous ?",
+          "Vous faites quelle taille ?",
+          "Quelle est votre taille ?"
+        ]
+      },
+      {
+        "id": "fr-mode-t-22",
+        "lesson": "fr-mode-5",
+        "type": "cloze",
+        "fr": "Ce pull est trop ___, je voudrais une taille plus grande.",
+        "a": [
+          "petit"
+        ],
+        "hint": "malý"
+      },
+      {
+        "id": "fr-mode-t-23",
+        "lesson": "fr-mode-5",
+        "type": "build",
+        "cs": "Ty boty se mi nelíbí.",
+        "a": [
+          "Ces chaussures ne me plaisent pas."
+        ]
+      },
+      {
+        "id": "fr-mode-t-24",
+        "lesson": "fr-mode-5",
+        "type": "build",
+        "cs": "Můžu si zkusit ty kalhoty?",
+        "a": [
+          "Je peux essayer ce pantalon ?",
+          "Est-ce que je peux essayer ce pantalon ?"
+        ]
+      },
+      {
+        "id": "fr-mode-t-25",
+        "lesson": "fr-mode-5",
+        "type": "build",
+        "cs": "Sluší ti to.",
+        "a": [
+          "Ça te va bien.",
+          "Ça te va."
+        ]
+      }
+    ]
+  }
+}

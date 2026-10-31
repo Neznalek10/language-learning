@@ -1,0 +1,113 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "verbs",
+  "title": "Reflexive verbs",
+  "unit": "3.2",
+  "level": null,
+  "words": [
+    {
+      "q": "jmenovat se",
+      "a": "s'appeler",
+      "unit": "1.1"
+    },
+    {
+      "q": "probudit se",
+      "a": "se réveiller"
+    },
+    {
+      "q": "vstát",
+      "a": "se lever"
+    },
+    {
+      "q": "mýt se",
+      "a": "se laver"
+    },
+    {
+      "q": "čistit kartáčem",
+      "a": "se brosser"
+    },
+    {
+      "q": "holit se",
+      "a": "se raser"
+    },
+    {
+      "q": "malovat se",
+      "a": "se maquiller"
+    },
+    {
+      "q": "česat se",
+      "a": "se peigner"
+    },
+    {
+      "q": "sprchovat se",
+      "a": "se doucher"
+    },
+    {
+      "q": "jít na procházku",
+      "a": "se promener"
+    },
+    {
+      "q": "trénovat",
+      "a": "s'entraîner",
+      "unit": "2.3"
+    },
+    {
+      "q": "vykoupat se",
+      "a": "se baigner",
+      "unit": "7.1"
+    },
+    {
+      "q": "lehnout si",
+      "a": "se coucher"
+    },
+    {
+      "q": "odpočívat",
+      "a": "se reposer"
+    },
+    {
+      "q": "odreagovat se, vybít se",
+      "a": "se défouler",
+      "unit": "2.3"
+    },
+    {
+      "q": "setkat se",
+      "a": "se retrouver",
+      "unit": "5.1"
+    },
+    {
+      "q": "starat se",
+      "a": "s'occuper",
+      "unit": "4.3"
+    },
+    {
+      "q": "naštvat se",
+      "a": "se fâcher",
+      "unit": "2.2"
+    },
+    {
+      "q": "vydat se",
+      "a": "se rendre",
+      "unit": "5.1"
+    },
+    {
+      "q": "obléknout se do masky",
+      "a": "se déguiser",
+      "unit": "8.2"
+    },
+    {
+      "q": "cítit se",
+      "a": "se sentir",
+      "unit": "7.2"
+    },
+    {
+      "q": "obléknout se",
+      "a": "s'habiller"
+    },
+    {
+      "q": "zlomit si",
+      "a": "se casser",
+      "unit": "7.2"
+    }
+  ]
+}

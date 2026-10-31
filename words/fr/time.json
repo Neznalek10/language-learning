@@ -1,0 +1,331 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Time",
+  "unit": "3.1",
+  "level": null,
+  "words": [
+    {
+      "q": "dnes",
+      "a": "aujourd'hui",
+      "unit": "3.2"
+    },
+    {
+      "q": "dnes večer",
+      "a": "ce soir",
+      "unit": "3.2"
+    },
+    {
+      "q": "včera",
+      "a": "hier",
+      "unit": "6.2"
+    },
+    {
+      "q": "leden",
+      "a": "janvier",
+      "unit": "5.2"
+    },
+    {
+      "q": "září",
+      "a": "septembre",
+      "unit": "5.2"
+    },
+    {
+      "q": "rok",
+      "a": [
+        "an",
+        "année"
+      ],
+      "unit": "1.2"
+    },
+    {
+      "q": "příští",
+      "a": "prochain",
+      "unit": "5.1"
+    },
+    {
+      "q": "sraz",
+      "a": "rendez-vous",
+      "unit": "5.1"
+    },
+    {
+      "q": "zároveň",
+      "a": "en même temps",
+      "unit": "3.2"
+    },
+    {
+      "q": "současný",
+      "a": "contemporain",
+      "unit": "8.1"
+    },
+    {
+      "q": "týden",
+      "a": "semaine"
+    },
+    {
+      "q": "každý den",
+      "a": "tous les jours",
+      "unit": "3.2"
+    },
+    {
+      "q": "hodina",
+      "a": "heure"
+    },
+    {
+      "q": "půl (u času)",
+      "a": [
+        "et demie",
+        "demie"
+      ]
+    },
+    {
+      "q": "čtvrt (u času)",
+      "a": [
+        "et quart",
+        "quart"
+      ]
+    },
+    {
+      "q": "ráno",
+      "a": "matin"
+    },
+    {
+      "q": "odpoledne",
+      "a": "après-midi"
+    },
+    {
+      "q": "poledne",
+      "a": "midi"
+    },
+    {
+      "q": "večer",
+      "a": "soir"
+    },
+    {
+      "q": "noc",
+      "a": "nuit"
+    },
+    {
+      "q": "půlnoc",
+      "a": "minuit"
+    },
+    {
+      "q": "víkend",
+      "a": "week-end",
+      "unit": "6.2"
+    },
+    {
+      "q": "brzy",
+      "a": "tôt",
+      "unit": "3.2"
+    },
+    {
+      "q": "během",
+      "a": "pendant",
+      "unit": "7.1"
+    },
+    {
+      "q": "pondělí",
+      "a": "lundi"
+    },
+    {
+      "q": "úterý",
+      "a": "mardi"
+    },
+    {
+      "q": "středa",
+      "a": "mercredi"
+    },
+    {
+      "q": "čtvrtek",
+      "a": "jeudi"
+    },
+    {
+      "q": "pátek",
+      "a": "vendredi"
+    },
+    {
+      "q": "sobota",
+      "a": "samedi"
+    },
+    {
+      "q": "neděle",
+      "a": "dimanche"
+    },
+    {
+      "q": "zítra",
+      "a": "demain"
+    },
+    {
+      "q": "den",
+      "a": "jour"
+    },
+    {
+      "q": "minuta",
+      "a": "minute"
+    },
+    {
+      "q": "kolik je hodin?",
+      "a": [
+        "quelle heure est-il ?",
+        "il est quelle heure ?"
+      ]
+    },
+    {
+      "q": "snídaně",
+      "a": "petit-déjeuner",
+      "unit": "3.2"
+    },
+    {
+      "q": "oběd",
+      "a": "déjeuner",
+      "unit": "3.2"
+    },
+    {
+      "q": "svačina",
+      "a": "goûter",
+      "unit": "3.2"
+    },
+    {
+      "q": "večeře",
+      "a": "dîner",
+      "unit": "3.2"
+    },
+    {
+      "q": "nejdřív",
+      "a": "d'abord",
+      "unit": "3.2"
+    },
+    {
+      "q": "nakonec",
+      "a": "enfin",
+      "unit": "3.2"
+    },
+    {
+      "q": "obvykle",
+      "a": "d'habitude",
+      "unit": "3.2"
+    },
+    {
+      "q": "pozdě",
+      "a": "tard",
+      "unit": "3.2"
+    },
+    {
+      "q": "únor",
+      "a": "février",
+      "unit": "5.2"
+    },
+    {
+      "q": "březen",
+      "a": "mars",
+      "unit": "5.2"
+    },
+    {
+      "q": "duben",
+      "a": "avril",
+      "unit": "5.2"
+    },
+    {
+      "q": "květen",
+      "a": "mai",
+      "unit": "5.2"
+    },
+    {
+      "q": "červen",
+      "a": "juin",
+      "unit": "5.2"
+    },
+    {
+      "q": "červenec",
+      "a": "juillet",
+      "unit": "5.2"
+    },
+    {
+      "q": "srpen",
+      "a": "août",
+      "unit": "5.2"
+    },
+    {
+      "q": "říjen",
+      "a": "octobre",
+      "unit": "5.2"
+    },
+    {
+      "q": "listopad",
+      "a": "novembre",
+      "unit": "5.2"
+    },
+    {
+      "q": "prosinec",
+      "a": "décembre",
+      "unit": "5.2"
+    },
+    {
+      "q": "měsíc",
+      "a": "mois",
+      "unit": "5.2"
+    },
+    {
+      "q": "narozeniny",
+      "a": "anniversaire",
+      "unit": "5.2"
+    },
+    {
+      "q": "datum",
+      "a": "date",
+      "unit": "5.2"
+    },
+    {
+      "q": "první",
+      "a": "premier",
+      "unit": "5.2"
+    },
+    {
+      "q": "včera večer",
+      "a": "hier soir",
+      "unit": "6.2"
+    },
+    {
+      "q": "předevčírem",
+      "a": "avant-hier",
+      "unit": "6.2"
+    },
+    {
+      "q": "minulou sobotu",
+      "a": "samedi dernier",
+      "unit": "6.2"
+    },
+    {
+      "q": "minulý týden",
+      "a": "la semaine dernière",
+      "unit": "6.2"
+    },
+    {
+      "q": "minulý měsíc",
+      "a": "le mois dernier",
+      "unit": "6.2"
+    },
+    {
+      "q": "loni",
+      "a": "l'année dernière",
+      "unit": "6.2"
+    },
+    {
+      "q": "před dvěma dny",
+      "a": "il y a deux jours",
+      "unit": "6.2"
+    },
+    {
+      "q": "už",
+      "a": "déjà",
+      "unit": "6.2"
+    },
+    {
+      "q": "ještě ne",
+      "a": "pas encore",
+      "unit": "6.2"
+    }
+  ]
+}

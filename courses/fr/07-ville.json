@@ -1,0 +1,261 @@
+{
+  "schema": 1,
+  "goals": [
+    "Popsat své město a zeptat se na cestu",
+    "Říct, kam jdeš a odkud jdeš (au, à la, du, de la, chez)",
+    "Říct, čím jedeš: en bus, à pied",
+    "Dávat pokyny v rozkazovacím způsobu",
+    "Mluvit o blízké budoucnosti: je vais + infinitiv"
+  ],
+  "lessons": [
+    {
+      "id": "fr-7-1",
+      "title": "Dans ma ville",
+      "subtitle": "Místa ve městě",
+      "topics": ["city"],
+      "words": ["geography#město", "geography#vesnice", "geography#hlavní město", "geography#náměstí", "geography#ulice", "geography#kostel", "geography#hrad", "geography#nádraží", "geography#pošta", "geography#muzeum", "geography#kino", "geography#banka", "geography#nemocnice", "geography#park", "geography#stadion", "geography#radnice", "geography#most"],
+      "learn": [
+        {"title": "Ve městě", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["nádraží", "la gare"], ["pošta", "la poste"], ["muzeum", "le musée"], ["kino", "le cinéma"], ["banka", "la banque"],
+            ["nemocnice", "l'hôpital"], ["radnice", "la mairie"], ["park", "le parc"], ["stadion", "le stade"], ["kostel", "l'église"],
+            ["náměstí", "la place"], ["ulice", "la rue"], ["most", "le pont"]
+          ]},
+          {"type": "text", "cs": "S *il y a* popíšeš, co ve městě je: *Dans ma ville, il y a un cinéma et un stade.* *Il n'y a pas de musée.*"},
+          {"type": "tip", "title": "la place", "cs": "*La place* je náměstí, ale také místo (k sezení). Ulice je *la rue*, široká třída *l'avenue* nebo *le boulevard*."}
+        ]},
+        {"title": "Kde je...?", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Pardon, où est la gare, s'il vous plaît ?", "cs": "Promiňte, kde je nádraží, prosím?"},
+            {"fr": "La poste est en face de la mairie.", "cs": "Pošta je naproti radnici."},
+            {"fr": "Le stade est loin du centre.", "cs": "Stadion je daleko od centra."},
+            {"fr": "C'est près d'ici ?", "cs": "Je to blízko?"}
+          ]},
+          {"type": "check", "item": {"type": "build", "cs": "Kde je kino?", "a": ["Où est le cinéma ?"]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-7-1-01", "type": "cloze", "fr": "Dans ma ville, il y a un ___.", "a": ["cinéma"], "hint": "kino"},
+        {"id": "fr-7-1-02", "type": "cloze", "fr": "Je prends le train à la ___.", "a": ["gare"], "hint": "nádraží"},
+        {"id": "fr-7-1-03", "type": "cloze", "fr": "J'envoie une lettre à la ___.", "a": ["poste"], "hint": "pošta"},
+        {"id": "fr-7-1-04", "type": "cloze", "fr": "Le ___ est grand et vert.", "a": ["parc"], "hint": "park"},
+        {"id": "fr-7-1-05", "type": "cloze", "fr": "On regarde le match au ___.", "a": ["stade"], "hint": "stadion"},
+        {"id": "fr-7-1-06", "type": "cloze", "fr": "Mon père travaille à l'___.", "a": ["hôpital"], "hint": "nemocnice"},
+        {"id": "fr-7-1-07", "type": "build", "cs": "V mém městě je muzeum a hrad.", "a": ["Dans ma ville, il y a un musée et un château."]},
+        {"id": "fr-7-1-08", "type": "build", "cs": "V naší vesnici není kino.", "a": ["Dans notre village, il n'y a pas de cinéma."]},
+        {"id": "fr-7-1-09", "type": "build", "cs": "Kde je pošta, prosím?", "a": ["Où est la poste, s'il vous plaît ?"]},
+        {"id": "fr-7-1-10", "type": "build", "cs": "Banka je naproti radnici.", "a": ["La banque est en face de la mairie."]},
+        {"id": "fr-7-1-11", "type": "order", "cs": "Nádraží je blízko parku.", "a": ["La gare est près du parc"], "extra": ["de", "le"]}
+      ]
+    },
+    {
+      "id": "fr-7-2",
+      "title": "On va au cinéma ?",
+      "subtitle": "Kam a odkud",
+      "topics": ["aller", "city"],
+      "words": ["verbs-irregular#jít, jet", "verbs-irregular#přijít, pocházet", "verbs#navštívit", "time#dnes večer", "basics#souhlas"],
+      "learn": [
+        {"title": "Kam jdeš?", "blocks": [
+          {"type": "text", "cs": "S *aller* zopakuj *à + člen*: *Je vais au cinéma, à la gare, à l'hôpital, aux toilettes.* K člověku jdeš *chez*: *Je vais chez le médecin, chez ma grand-mère.*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je vais ___ musée.", "a": ["au"]}}
+        ]},
+        {"title": "Odkud jdeš?", "blocks": [
+          {"type": "text", "cs": "S *venir de* je to obráceně, stahuje se *de*: *de + le = du, de + les = des*. *Je viens du cinéma. Il vient de la gare. Nous venons de l'école.* Od člověka: *Je viens de chez ma grand-mère.*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je viens ___ stade.", "a": ["du"]}}
+        ]},
+        {"title": "Návrh", "blocks": [
+          {"type": "text", "cs": "Něco navrhneš otázkou *On va... ?* (Půjdeme...?): *On va au cinéma ce soir ?* Odpovědět můžeš *D'accord ! / Bonne idée ! / Désolé, je ne peux pas.*"},
+          {"type": "examples", "items": [
+            {"fr": "On va à la piscine samedi ?", "cs": "Půjdeme v sobotu na koupaliště?"},
+            {"fr": "Bonne idée !", "cs": "Dobrý nápad!"},
+            {"fr": "Désolé, je ne peux pas. Je vais chez mes grands-parents.", "cs": "Promiň, nemůžu. Jedu k prarodičům."}
+          ]}
+        ]}
+      ],
+      "practice": [
+        {"id": "fr-7-2-01", "type": "cloze", "fr": "On va ___ cinéma ?", "a": ["au"]},
+        {"id": "fr-7-2-02", "type": "cloze", "fr": "Elle va ___ banque.", "a": ["à la"]},
+        {"id": "fr-7-2-03", "type": "cloze", "fr": "Nous allons ___hôpital.", "a": ["à l'"]},
+        {"id": "fr-7-2-04", "type": "cloze", "fr": "Tu vas ___ ta tante ?", "a": ["chez"]},
+        {"id": "fr-7-2-05", "type": "cloze", "fr": "Je viens ___ poste.", "a": ["de la"]},
+        {"id": "fr-7-2-06", "type": "cloze", "fr": "Ils viennent ___ stade.", "a": ["du"]},
+        {"id": "fr-7-2-07", "type": "cloze", "fr": "Vous venez ___école ?", "a": ["de l'"]},
+        {"id": "fr-7-2-08", "type": "cloze", "fr": "Je viens ___ Paul.", "a": ["de chez"]},
+        {"id": "fr-7-2-09", "type": "build", "cs": "Půjdeme dnes večer do kina?", "a": ["On va au cinéma ce soir ?", "Ce soir, on va au cinéma ?"]},
+        {"id": "fr-7-2-10", "type": "build", "cs": "Jdu k babičce.", "a": ["Je vais chez ma grand-mère."]},
+        {"id": "fr-7-2-11", "type": "build", "cs": "Jdu z nádraží.", "a": ["Je viens de la gare."]},
+        {"id": "fr-7-2-12", "type": "build", "cs": "Dobrý nápad!", "a": ["Bonne idée !"]},
+        {"id": "fr-7-2-13", "type": "build", "cs": "Promiň, nemůžu.", "a": ["{Désolé|Désolée}, je ne peux pas."]},
+        {"id": "fr-7-2-14", "type": "transform", "task_cs": "Řekni, odkud jdeš (venir de)", "fr": "Je vais au parc.", "a": ["Je viens du parc."]},
+        {"id": "fr-7-2-15", "type": "order", "cs": "Jdeme do muzea.", "a": ["Nous allons au musée", "On va au musée"], "extra": ["à", "du"]}
+      ]
+    },
+    {
+      "id": "fr-7-3",
+      "title": "En bus ou à pied ?",
+      "subtitle": "Doprava",
+      "topics": ["city"],
+      "words": ["transport#autobus", "transport#metro", "transport#tramvaj", "transport#vlak", "transport#auto", "transport#letadlo", "transport#loď", "transport#motorka", "transport#pěšky", "transport#na kole", "transport#autem", "transport#autobusem", "sports#kolo", "geography#zastávka"],
+      "learn": [
+        {"title": "Čím jedeš?", "blocks": [
+          {"type": "text", "cs": "Dopravní prostředek, do kterého nastupuješ, vyjádříš předložkou *en*: *en bus, en métro, en train, en voiture, en avion*. Když jdeš pěšky nebo na něčem sedíš, je *à*: *à pied, à vélo, à moto*."},
+          {"type": "table", "firstCs": true, "rows": [
+            ["autobusem", "en bus"], ["metrem", "en métro"], ["tramvají", "en tram"], ["vlakem", "en train"], ["autem", "en voiture"],
+            ["letadlem", "en avion"], ["lodí", "en bateau"], ["pěšky", "à pied"], ["na kole", "à vélo"], ["na motorce", "à moto"]
+          ]},
+          {"type": "tip", "title": "prendre", "cs": "Můžeš říct i *prendre* + člen: *Je prends le bus. Il prend le métro.*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je vais au collège ___ pied.", "a": ["à"]}}
+        ]},
+        {"title": "Cesta do školy", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Comment tu vas au collège ? En bus.", "cs": "Jak jezdíš do školy? Autobusem."},
+            {"fr": "Mon père va au travail en voiture.", "cs": "Můj táta jezdí do práce autem."},
+            {"fr": "Je prends le tram à l'arrêt devant la maison.", "cs": "Na tramvaj chodím na zastávku před domem."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-7-3-01", "type": "cloze", "fr": "Je vais à Paris ___ train.", "a": ["en"]},
+        {"id": "fr-7-3-02", "type": "cloze", "fr": "Il va au stade ___ vélo.", "a": ["à"]},
+        {"id": "fr-7-3-03", "type": "cloze", "fr": "Nous allons en Italie ___ avion.", "a": ["en"]},
+        {"id": "fr-7-3-04", "type": "cloze", "fr": "Elle va à l'école ___ pied.", "a": ["à"]},
+        {"id": "fr-7-3-05", "type": "cloze", "fr": "Tu prends ___ métro ?", "a": ["le"]},
+        {"id": "fr-7-3-06", "type": "cloze", "fr": "Ils vont au centre ___ tram.", "a": ["en"]},
+        {"id": "fr-7-3-07", "type": "build", "cs": "Jezdím do školy autobusem.", "a": ["Je vais {à l'école|au collège} en bus."]},
+        {"id": "fr-7-3-08", "type": "build", "cs": "Jak jezdíš na trénink?", "a": ["{Comment tu vas|Comment vas-tu|Tu vas comment|Comment est-ce que tu vas} à l'entraînement ?", "Tu vas à l'entraînement comment ?"]},
+        {"id": "fr-7-3-09", "type": "build", "cs": "Chodím pěšky.", "a": ["Je vais à pied."]},
+        {"id": "fr-7-3-10", "type": "build", "cs": "Můj táta jezdí do práce autem.", "a": ["Mon père va au travail en voiture."], "hint": "do práce = au travail"},
+        {"id": "fr-7-3-11", "type": "build", "cs": "Jedeme metrem.", "a": ["{Nous prenons|On prend} le métro.", "{Nous allons|On va} en métro."]},
+        {"id": "fr-7-3-12", "type": "build", "cs": "Zastávka je před školou.", "a": ["L'arrêt est devant {l'école|le collège}."]},
+        {"id": "fr-7-3-13", "type": "order", "cs": "Jezdím na kole do parku.", "a": ["Je vais au parc à vélo"], "extra": ["en", "du"]}
+      ]
+    },
+    {
+      "id": "fr-7-4",
+      "title": "Tournez à gauche",
+      "subtitle": "Rozkazovací způsob a cesta",
+      "topics": ["imperative", "city"],
+      "words": ["verbs#zahnout", "verbs#přejít", "verbs#pokračovat", "transport#rovně", "transport#doleva", "transport#doprava"],
+      "learn": [
+        {"title": "Rozkazovací způsob", "blocks": [
+          {"type": "text", "cs": "Rozkazovací způsob má tři tvary: pro *tu*, *nous* a *vous*, a to **bez zájmena**: *Tourne ! Tournons ! Tournez !* Tvary jsou stejné jako v přítomném čase, jen u sloves na *-er* (a u *aller*) odpadá v osobě *tu* koncové *-s*: *tu tournes → tourne !, tu vas → va !*"},
+          {"type": "table", "head": ["", "tourner", "aller", "prendre"], "firstCs": true, "rows": [
+            ["tu", "Tourne !", "Va !", "Prends !"],
+            ["nous", "Tournons !", "Allons !", "Prenons !"],
+            ["vous", "Tournez !", "Allez !", "Prenez !"]
+          ]},
+          {"type": "tip", "title": "Zápor", "cs": "V záporu obklopí *ne... pas* sloveso: *Ne traverse pas ! Ne tournez pas à droite !*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ à droite !", "a": ["Tournez"], "hint": "tourner, vous"}}
+        ]},
+        {"title": "Cesta", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [
+            ["Jděte rovně.", "Allez tout droit."],
+            ["Zahněte doleva.", "Tournez à gauche."],
+            ["Zahněte doprava.", "Tournez à droite."],
+            ["Přejděte náměstí.", "Traversez la place."],
+            ["Pokračujte až k mostu.", "Continuez jusqu'au pont."],
+            ["Je to první ulice vpravo.", "C'est la première rue à droite."]
+          ]},
+          {"type": "examples", "items": [
+            {"fr": "Pardon, madame, où est la gare ?", "cs": "Promiňte, paní, kde je nádraží?"},
+            {"fr": "Allez tout droit, puis tournez à gauche. La gare est en face du parc.", "cs": "Jděte rovně, pak zahněte doleva. Nádraží je naproti parku."},
+            {"fr": "Merci beaucoup !", "cs": "Děkuju moc!"}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-7-4-f1", "type": "form", "verb": "tourner", "tense": "imperatif-present"},
+        {"id": "fr-7-4-f2", "type": "form", "verb": "aller", "tense": "imperatif-present"},
+        {"id": "fr-7-4-01", "type": "cloze", "fr": "___ tout droit !", "a": ["Allez"], "hint": "aller, vous"},
+        {"id": "fr-7-4-02", "type": "cloze", "fr": "___ la rue !", "a": ["Traverse"], "hint": "traverser, tu"},
+        {"id": "fr-7-4-03", "type": "cloze", "fr": "___ la deuxième rue à gauche.", "a": ["Prenez"], "hint": "prendre, vous"},
+        {"id": "fr-7-4-04", "type": "cloze", "fr": "___ jusqu'à la place.", "a": ["Continuez"], "hint": "continuer, vous"},
+        {"id": "fr-7-4-05", "type": "cloze", "fr": "Ne ___ pas ici !", "a": ["traverse"], "hint": "traverser, tu"},
+        {"id": "fr-7-4-06", "type": "build", "cs": "Jděte rovně a pak zahněte doprava.", "a": ["Allez tout droit, {puis|ensuite|et} tournez à droite."]},
+        {"id": "fr-7-4-07", "type": "build", "cs": "Přejdi most!", "a": ["Traverse le pont !"]},
+        {"id": "fr-7-4-08", "type": "build", "cs": "Zahněte druhou ulicí doleva.", "a": ["Prenez la deuxième rue à gauche.", "Tournez dans la deuxième rue à gauche."]},
+        {"id": "fr-7-4-09", "type": "build", "cs": "Pojďme do parku!", "a": ["Allons au parc !"]},
+        {"id": "fr-7-4-10", "type": "build", "cs": "Nepřecházej ulici!", "a": ["Ne traverse pas la rue !"]},
+        {"id": "fr-7-4-11", "type": "transform", "task_cs": "Převeď do rozkazovacího způsobu (vous)", "fr": "Vous tournez à gauche.", "a": ["Tournez à gauche !"]},
+        {"id": "fr-7-4-12", "type": "transform", "task_cs": "Převeď do rozkazovacího způsobu (tu)", "fr": "Tu vas tout droit.", "a": ["Va tout droit !"], "why": "U aller (a sloves na -er) odpadá v osobě tu koncové -s."},
+        {"id": "fr-7-4-13", "type": "order", "cs": "Pokračujte rovně až k náměstí.", "a": ["Continuez tout droit jusqu'à la place"], "extra": ["continue", "au"]}
+      ]
+    },
+    {
+      "id": "fr-7-5",
+      "title": "Je vais visiter Paris",
+      "subtitle": "Blízká budoucnost (futur proche)",
+      "topics": ["futur-proche"],
+      "words": ["verbs#navštívit", "time#příští", "time#zítra", "time#víkend"],
+      "learn": [
+        {"title": "Blízká budoucnost", "blocks": [
+          {"type": "text", "cs": "Co uděláš brzy, vyjádříš slovesem *aller* v přítomném čase + infinitivem: *Je vais visiter Paris.* (Navštívím Paříž. / Chystám se navštívit Paříž.)"},
+          {"type": "table", "verb": "visiter", "tense": "futur-proche"},
+          {"type": "text", "cs": "Zápor obklopí *aller*: *Je ne vais pas sortir ce soir.* Časové výrazy: *demain* (zítra), *ce soir* (dnes večer), *ce week-end* (tento víkend), *la semaine prochaine* (příští týden), *l'année prochaine* (příští rok)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Demain, je ___ visiter le musée.", "a": ["vais"]}}
+        ]},
+        {"title": "visiter, nebo voir?", "blocks": [
+          {"type": "tip", "title": "Navštívit babičku", "cs": "*Visiter* se používá jen u míst: *visiter Paris, visiter un musée*. Když jdeš navštívit člověka, řekneš *aller voir* nebo *rendre visite à*: *Je vais voir ma grand-mère.*"},
+          {"type": "examples", "items": [
+            {"fr": "Ce week-end, on va aller au stade.", "cs": "Tento víkend půjdeme na stadion."},
+            {"fr": "Mes parents vont acheter une voiture.", "cs": "Moji rodiče si koupí auto."},
+            {"fr": "Tu vas venir à la fête ?", "cs": "Přijdeš na oslavu?"}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-7-5-f", "type": "form", "verb": "visiter", "tense": "futur-proche"},
+        {"id": "fr-7-5-01", "type": "cloze", "fr": "Ce soir, nous ___ regarder un film.", "a": ["allons"]},
+        {"id": "fr-7-5-02", "type": "cloze", "fr": "Demain, tu ___ prendre le bus ?", "a": ["vas"]},
+        {"id": "fr-7-5-03", "type": "cloze", "fr": "La semaine prochaine, ils ___ visiter Prague.", "a": ["vont"]},
+        {"id": "fr-7-5-04", "type": "cloze", "fr": "Je ne ___ pas venir.", "a": ["vais"]},
+        {"id": "fr-7-5-05", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Je visite le musée.", "a": ["Je vais visiter le musée."]},
+        {"id": "fr-7-5-06", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Nous prenons le train.", "a": ["{Nous allons|On va} prendre le train."]},
+        {"id": "fr-7-5-07", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Elle fait ses devoirs.", "a": ["Elle va faire ses devoirs."]},
+        {"id": "fr-7-5-08", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Je ne joue pas au foot.", "a": ["Je ne vais pas jouer au foot."]},
+        {"id": "fr-7-5-09", "type": "build", "cs": "Zítra navštívím babičku.", "a": ["Demain, je vais {voir ma grand-mère|rendre visite à ma grand-mère}."], "why": "U lidí se neříká visiter, ale aller voir nebo rendre visite à."},
+        {"id": "fr-7-5-10", "type": "build", "cs": "O víkendu budeme hrát basketbal.", "a": ["Ce week-end, {nous allons|on va} {jouer au basket|faire du basket}."]},
+        {"id": "fr-7-5-11", "type": "build", "cs": "Příští týden pojedeme do Paříže.", "a": ["La semaine prochaine, {nous allons|on va} aller à Paris."]},
+        {"id": "fr-7-5-12", "type": "build", "cs": "Dnes večer se nebudu dívat na televizi.", "a": ["Ce soir, je ne vais pas regarder la télé."]},
+        {"id": "fr-7-5-13", "type": "order", "cs": "Moji rodiče si koupí nové auto.", "a": ["Mes parents vont acheter une nouvelle voiture"], "extra": ["va", "nouveau"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-7-t-01", "lesson": "fr-7-1", "type": "cloze", "fr": "Dans ma ville, il y a un ___.", "a": ["hôpital"], "hint": "nemocnice"},
+      {"id": "fr-7-t-02", "lesson": "fr-7-1", "type": "cloze", "fr": "Le train part de la ___.", "a": ["gare"], "hint": "nádraží"},
+      {"id": "fr-7-t-03", "lesson": "fr-7-1", "type": "build", "cs": "V mém městě je stadion, ale není tu muzeum.", "a": ["Dans ma ville, il y a un stade, mais il n'y a pas de musée."]},
+      {"id": "fr-7-t-04", "lesson": "fr-7-1", "type": "build", "cs": "Kde je banka, prosím?", "a": ["Où est la banque, s'il vous plaît ?"]},
+      {"id": "fr-7-t-05", "lesson": "fr-7-2", "type": "cloze", "fr": "Je vais ___ parc.", "a": ["au"]},
+      {"id": "fr-7-t-06", "lesson": "fr-7-2", "type": "cloze", "fr": "On va ___ piscine ?", "a": ["à la"]},
+      {"id": "fr-7-t-07", "lesson": "fr-7-2", "type": "cloze", "fr": "Elle vient ___ cinéma.", "a": ["du"]},
+      {"id": "fr-7-t-08", "lesson": "fr-7-2", "type": "cloze", "fr": "Je vais ___ mon oncle.", "a": ["chez"]},
+      {"id": "fr-7-t-09", "lesson": "fr-7-2", "type": "build", "cs": "Půjdeme do kina?", "a": ["On va au cinéma ?"]},
+      {"id": "fr-7-t-10", "lesson": "fr-7-2", "type": "build", "cs": "Jdu z pošty.", "a": ["Je viens de la poste."]},
+      {"id": "fr-7-t-11", "lesson": "fr-7-3", "type": "cloze", "fr": "Je vais à Prague ___ train.", "a": ["en"]},
+      {"id": "fr-7-t-12", "lesson": "fr-7-3", "type": "cloze", "fr": "Tu vas au stade ___ pied ?", "a": ["à"]},
+      {"id": "fr-7-t-13", "lesson": "fr-7-3", "type": "build", "cs": "Jezdím do školy tramvají.", "a": ["Je vais {à l'école|au collège} en tram.", "Je prends le tram pour aller {à l'école|au collège}."]},
+      {"id": "fr-7-t-14", "lesson": "fr-7-3", "type": "build", "cs": "Táta jezdí do práce na kole.", "a": ["{Mon père|Papa|Mon papa} va au travail à vélo."]},
+      {"id": "fr-7-t-15", "lesson": "fr-7-4", "type": "form", "verb": "tourner", "tense": "imperatif-present", "person": 4},
+      {"id": "fr-7-t-16", "lesson": "fr-7-4", "type": "form", "verb": "prendre", "tense": "imperatif-present", "person": 1},
+      {"id": "fr-7-t-17", "lesson": "fr-7-4", "type": "form", "verb": "aller", "tense": "imperatif-present", "person": 3},
+      {"id": "fr-7-t-18", "lesson": "fr-7-4", "type": "cloze", "fr": "___ la place !", "a": ["Traversez"], "hint": "traverser, vous"},
+      {"id": "fr-7-t-19", "lesson": "fr-7-4", "type": "build", "cs": "Jděte rovně!", "a": ["Allez tout droit !"]},
+      {"id": "fr-7-t-20", "lesson": "fr-7-4", "type": "build", "cs": "Zahni doleva!", "a": ["Tourne à gauche !"]},
+      {"id": "fr-7-t-21", "lesson": "fr-7-4", "type": "transform", "task_cs": "Převeď do rozkazovacího způsobu (vous)", "fr": "Vous continuez tout droit.", "a": ["Continuez tout droit !"]},
+      {"id": "fr-7-t-22", "lesson": "fr-7-5", "type": "form", "verb": "visiter", "tense": "futur-proche", "person": 3},
+      {"id": "fr-7-t-23", "lesson": "fr-7-5", "type": "transform", "task_cs": "Převeď do futur proche", "fr": "Il prend le métro.", "a": ["Il va prendre le métro."]},
+      {"id": "fr-7-t-24", "lesson": "fr-7-5", "type": "build", "cs": "Zítra budu hrát basketbal.", "a": ["Demain, je vais {jouer au basket|faire du basket}."]},
+      {"id": "fr-7-t-25", "lesson": "fr-7-5", "type": "build", "cs": "Tento víkend navštívíme Paříž.", "a": ["Ce week-end, {nous allons|on va} visiter Paris."]},
+      {"id": "fr-7-t-26", "lesson": "fr-7-5", "type": "build", "cs": "Nebudu se dívat na film.", "a": ["Je ne vais pas regarder le film."]}
+    ]
+  }
+}

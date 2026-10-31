@@ -1,0 +1,1521 @@
+{
+  "schema": 1,
+  "goals": [
+    "Pojmenovat povolání (muž i žena)",
+    "Říct, čím chceš být: je veux devenir...",
+    "Tvořit futur simple pravidelných sloves",
+    "Nepravidelný budoucí čas: je serai, j'aurai, j'irai, je ferai",
+    "Plánovat: plus tard, dans dix ans, si + přítomný čas"
+  ],
+  "lessons": [
+    {
+      "id": "fr-avenir-1",
+      "title": "Les métiers",
+      "subtitle": "Povolání",
+      "topics": [
+        "professions"
+      ],
+      "words": [
+        "professions#inženýr",
+        "professions#programátor",
+        "professions#realitní makléř",
+        "professions#právník",
+        "professions#zdravotní sestra",
+        "professions#zdravotník",
+        "professions#prodavač",
+        "professions#prodavačka",
+        "professions#kuchař",
+        "professions#kuchařka",
+        "professions#policista",
+        "professions#policistka",
+        "professions#hasič",
+        "professions#architekt",
+        "professions#novinář",
+        "professions#účetní",
+        "professions#podnikatel",
+        "professions#hudebník",
+        "professions#hudebnice",
+        "professions#bubeník",
+        "professions#profesionální sportovec",
+        "professions#kadeřník",
+        "professions#kadeřnice",
+        "health#lékař",
+        "family#herec",
+        "family#herečka",
+        "family#překladatel",
+        "school#učitel"
+      ],
+      "learn": [
+        {
+          "title": "Kdo co dělá?",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Povolání = *le métier*. Většina povolání má mužský a ženský tvar."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "un vendeur",
+                  "une vendeuse",
+                  "prodavač(ka)"
+                ],
+                [
+                  "un coiffeur",
+                  "une coiffeuse",
+                  "kadeřník, kadeřnice"
+                ],
+                [
+                  "un cuisinier",
+                  "une cuisinière",
+                  "kuchař(ka)"
+                ],
+                [
+                  "un infirmier",
+                  "une infirmière",
+                  "zdravotník, zdravotní sestra"
+                ],
+                [
+                  "un policier",
+                  "une policière",
+                  "policista, policistka"
+                ],
+                [
+                  "un acteur",
+                  "une actrice",
+                  "herec, herečka"
+                ],
+                [
+                  "un musicien",
+                  "une musicienne",
+                  "hudebník, hudebnice"
+                ],
+                [
+                  "un avocat",
+                  "une avocate",
+                  "právník, právnička"
+                ],
+                [
+                  "un journaliste",
+                  "une journaliste",
+                  "novinář(ka)"
+                ],
+                [
+                  "un médecin",
+                  "un médecin / une médecin",
+                  "lékař(ka)"
+                ]
+              ],
+              "textCols": [
+                2
+              ],
+              "head": [
+                "muž",
+                "žena",
+                "česky"
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Ma tante coupe les cheveux, elle est ___.",
+                "a": [
+                  "coiffeuse"
+                ],
+                "hint": "kadeřnice"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Je suis médecin",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "bez členu",
+              "cs": "Po *être* se povolání říká **bez členu**: *Il est ingénieur. Ma mère est infirmière.* Člen přijde až s přídavným jménem nebo po *c'est*: *C'est un bon médecin.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon père est ingénieur.",
+                  "cs": "Táta je inženýr."
+                },
+                {
+                  "fr": "Ma mère est agent immobilier.",
+                  "cs": "Máma je realitní makléřka."
+                },
+                {
+                  "fr": "Qu'est-ce que tu fais dans la vie ?",
+                  "cs": "Čím se živíš?"
+                },
+                {
+                  "fr": "C'est un très bon cuisinier.",
+                  "cs": "Je to moc dobrý kuchař."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Moje sestra je zdravotní sestra.",
+                "a": [
+                  "Ma sœur est infirmière."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-avenir-1-01",
+          "type": "cloze",
+          "fr": "Il travaille dans un restaurant, il est ___.",
+          "a": [
+            "cuisinier"
+          ],
+          "hint": "kuchař"
+        },
+        {
+          "id": "fr-avenir-1-02",
+          "type": "cloze",
+          "fr": "Elle écrit des articles, elle est ___.",
+          "a": [
+            "journaliste"
+          ],
+          "hint": "novinářka"
+        },
+        {
+          "id": "fr-avenir-1-03",
+          "type": "cloze",
+          "fr": "Mon oncle est ___ : il éteint les incendies.",
+          "a": [
+            "pompier"
+          ],
+          "hint": "hasič"
+        },
+        {
+          "id": "fr-avenir-1-04",
+          "type": "cloze",
+          "fr": "Elle vend des vêtements, elle est ___.",
+          "a": [
+            "vendeuse"
+          ],
+          "hint": "prodavačka"
+        },
+        {
+          "id": "fr-avenir-1-05",
+          "type": "cloze",
+          "fr": "Il crée des applis, il est ___.",
+          "a": [
+            "développeur",
+            "programmeur"
+          ],
+          "hint": "programátor"
+        },
+        {
+          "id": "fr-avenir-1-06",
+          "type": "cloze",
+          "fr": "Elle dessine des maisons, elle est ___.",
+          "a": [
+            "architecte"
+          ],
+          "hint": "architektka"
+        },
+        {
+          "id": "fr-avenir-1-07",
+          "type": "build",
+          "cs": "Můj táta je lékař.",
+          "a": [
+            "Mon père est médecin."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-08",
+          "type": "build",
+          "cs": "Je to dobrý učitel.",
+          "a": [
+            "C'est un bon professeur.",
+            "C'est un bon prof."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-09",
+          "type": "build",
+          "cs": "Čím se živí tvoje máma?",
+          "a": [
+            "Qu'est-ce que ta mère fait dans la vie ?",
+            "Que fait ta mère dans la vie ?",
+            "Ta mère fait quoi dans la vie ?",
+            "Quel est le métier de ta mère ?"
+          ]
+        },
+        {
+          "id": "fr-avenir-1-10",
+          "type": "build",
+          "cs": "Moje teta je policistka.",
+          "a": [
+            "Ma tante est policière."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-11",
+          "type": "transform",
+          "task_cs": "Řekni to o ženě",
+          "fr": "Il est vendeur.",
+          "a": [
+            "Elle est vendeuse."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-12",
+          "type": "transform",
+          "task_cs": "Řekni to o ženě",
+          "fr": "Il est musicien.",
+          "a": [
+            "Elle est musicienne."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-13",
+          "type": "transform",
+          "task_cs": "Řekni to o ženě",
+          "fr": "Il est acteur.",
+          "a": [
+            "Elle est actrice."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-14",
+          "type": "order",
+          "cs": "Můj strýc je bubeník.",
+          "a": [
+            "Mon oncle est batteur"
+          ],
+          "extra": [
+            "un",
+            "une"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-avenir-2",
+      "title": "Je veux devenir...",
+      "subtitle": "Čím chci být",
+      "topics": [
+        "professions"
+      ],
+      "words": [
+        "professions#povolání",
+        "professions#práce",
+        "professions#plat",
+        "professions#firma",
+        "verbs-irregular#stát se",
+        "verbs#vydělat / zvítězit"
+      ],
+      "learn": [
+        {
+          "title": "Čím chceš být?",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Čím chceš být?",
+                  "Qu'est-ce que tu veux faire plus tard ?"
+                ],
+                [
+                  "Chci být programátor.",
+                  "Je veux être développeur."
+                ],
+                [
+                  "Rád bych se stal lékařem.",
+                  "J'aimerais devenir médecin."
+                ],
+                [
+                  "Chtěl bych pracovat ve firmě.",
+                  "Je voudrais travailler dans une entreprise."
+                ],
+                [
+                  "Chtěl bych pracovat jako kuchař.",
+                  "Je voudrais travailler comme cuisinier."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Plus tard, je veux ___ ingénieur.",
+                "a": [
+                  "devenir",
+                  "être"
+                ],
+                "hint": "stát se"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Proč?",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Důvod: *parce que* + věta. *C'est un métier intéressant / utile / bien payé.* *Je veux gagner beaucoup d'argent.* *J'aime aider les gens.*"
+            },
+            {
+              "type": "tip",
+              "title": "devenir",
+              "cs": "*Devenir* se časuje jako *venir*: *je deviens, tu deviens, il devient...* V passé composé má *être*: *Il est devenu médecin.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je veux devenir développeur parce que j'adore l'informatique.",
+                  "cs": "Chci být programátor, protože miluju informatiku."
+                },
+                {
+                  "fr": "C'est un métier bien payé.",
+                  "cs": "Je to dobře placené povolání."
+                },
+                {
+                  "fr": "Mon rêve, c'est de jouer au basket en équipe nationale.",
+                  "cs": "Můj sen je hrát basketbal za reprezentaci."
+                },
+                {
+                  "fr": "Je ne sais pas encore.",
+                  "cs": "Ještě nevím."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Chci pracovat s počítači.",
+                "a": [
+                  "Je veux travailler avec des ordinateurs.",
+                  "Je veux travailler avec les ordinateurs."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-avenir-2-01",
+          "type": "form",
+          "verb": "devenir",
+          "tense": "present",
+          "person": 0
+        },
+        {
+          "id": "fr-avenir-2-02",
+          "type": "form",
+          "verb": "devenir",
+          "tense": "present",
+          "person": 2
+        },
+        {
+          "id": "fr-avenir-2-03",
+          "type": "cloze",
+          "fr": "Qu'est-ce que tu veux ___ plus tard ?",
+          "a": [
+            "faire"
+          ],
+          "hint": "dělat"
+        },
+        {
+          "id": "fr-avenir-2-04",
+          "type": "cloze",
+          "fr": "Je voudrais travailler ___ vendeur.",
+          "a": [
+            "comme"
+          ],
+          "hint": "jako"
+        },
+        {
+          "id": "fr-avenir-2-05",
+          "type": "cloze",
+          "fr": "Mon frère travaille dans une grande ___.",
+          "a": [
+            "entreprise"
+          ],
+          "hint": "firma"
+        },
+        {
+          "id": "fr-avenir-2-06",
+          "type": "cloze",
+          "fr": "C'est un métier bien ___.",
+          "a": [
+            "payé"
+          ],
+          "hint": "placený"
+        },
+        {
+          "id": "fr-avenir-2-07",
+          "type": "cloze",
+          "fr": "Il est ___ médecin en 2010.",
+          "a": [
+            "devenu"
+          ],
+          "hint": "stát se"
+        },
+        {
+          "id": "fr-avenir-2-08",
+          "type": "build",
+          "cs": "Chci být inženýr.",
+          "a": [
+            "Je veux être ingénieur.",
+            "Je veux devenir ingénieur."
+          ]
+        },
+        {
+          "id": "fr-avenir-2-09",
+          "type": "build",
+          "cs": "Rád bych se stal hudebníkem.",
+          "a": [
+            "J'aimerais devenir musicien.",
+            "Je voudrais devenir musicien."
+          ]
+        },
+        {
+          "id": "fr-avenir-2-10",
+          "type": "build",
+          "cs": "Je to zajímavé povolání.",
+          "a": [
+            "C'est un métier intéressant."
+          ]
+        },
+        {
+          "id": "fr-avenir-2-11",
+          "type": "build",
+          "cs": "Ještě nevím, čím chci být.",
+          "a": [
+            "Je ne sais pas encore ce que je veux faire.",
+            "Je ne sais pas encore ce que je veux faire plus tard."
+          ]
+        },
+        {
+          "id": "fr-avenir-2-12",
+          "type": "build",
+          "cs": "Chci vydělávat hodně peněz.",
+          "a": [
+            "Je veux gagner beaucoup d'argent."
+          ]
+        },
+        {
+          "id": "fr-avenir-2-13",
+          "type": "order",
+          "cs": "Chtěl bych pracovat jako realitní makléř.",
+          "a": [
+            "Je voudrais travailler comme agent immobilier"
+          ],
+          "extra": [
+            "un",
+            "en"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-avenir-3",
+      "title": "Je serai ingénieur",
+      "subtitle": "Budoucí čas: pravidelná slovesa",
+      "topics": [
+        "futur-simple"
+      ],
+      "words": [
+        "professions#později",
+        "professions#jednoho dne"
+      ],
+      "learn": [
+        {
+          "title": "Futur simple",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "*Futur simple* mluví o budoucnosti, plánech a předpovědích. Vezmi infinitiv a přidej koncovky *-ai, -as, -a, -ons, -ez, -ont*: *travailler → je travaillerai*. U sloves na *-re* odpadne koncové *e*: *prendre → je prendrai*."
+            },
+            {
+              "type": "table",
+              "verb": "travailler",
+              "tense": "futur-simple"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "parler",
+                "tense": "futur-simple",
+                "person": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "futur proche × futur simple",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "*Je vais travailler* (futur proche) = brzy, plán už je jasný. *Je travaillerai* (futur simple) = později, obecně: *Un jour, je travaillerai à Paris.*"
+            },
+            {
+              "type": "tip",
+              "title": "koncovky",
+              "cs": "Koncovky se podobají přítomnému času *avoir*: *(j')ai, (tu) as, (il) a, (nous av)ons, (vous av)ez, (ils) ont*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Plus tard, je travaillerai dans l'informatique.",
+                  "cs": "Později budu pracovat v informatice."
+                },
+                {
+                  "fr": "Nous habiterons à Paris.",
+                  "cs": "Budeme bydlet v Paříži."
+                },
+                {
+                  "fr": "Tu prendras le train ?",
+                  "cs": "Pojedeš vlakem?"
+                },
+                {
+                  "fr": "Un jour, ils gagneront le championnat.",
+                  "cs": "Jednou vyhrají mistrovství."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Un jour, je ___ à Paris.",
+                "a": [
+                  "travaillerai"
+                ],
+                "hint": "travailler"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-avenir-3-01",
+          "type": "form",
+          "verb": "travailler",
+          "tense": "futur-simple",
+          "person": 1
+        },
+        {
+          "id": "fr-avenir-3-02",
+          "type": "form",
+          "verb": "finir",
+          "tense": "futur-simple",
+          "person": 0
+        },
+        {
+          "id": "fr-avenir-3-03",
+          "type": "form",
+          "verb": "prendre",
+          "tense": "futur-simple",
+          "person": 3
+        },
+        {
+          "id": "fr-avenir-3-04",
+          "type": "form",
+          "verb": "habiter",
+          "tense": "futur-simple",
+          "person": 5
+        },
+        {
+          "id": "fr-avenir-3-05",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "futur-simple",
+          "person": 2
+        },
+        {
+          "id": "fr-avenir-3-06",
+          "type": "form",
+          "verb": "choisir",
+          "tense": "futur-simple",
+          "person": 4
+        },
+        {
+          "id": "fr-avenir-3-07",
+          "type": "cloze",
+          "fr": "Plus tard, nous ___ à l'étranger.",
+          "a": [
+            "habiterons"
+          ],
+          "hint": "habiter"
+        },
+        {
+          "id": "fr-avenir-3-08",
+          "type": "cloze",
+          "fr": "Tu ___ tes études en 2030.",
+          "a": [
+            "finiras"
+          ],
+          "hint": "finir"
+        },
+        {
+          "id": "fr-avenir-3-09",
+          "type": "cloze",
+          "fr": "Elle ___ un métier intéressant.",
+          "a": [
+            "choisira"
+          ],
+          "hint": "choisir"
+        },
+        {
+          "id": "fr-avenir-3-10",
+          "type": "cloze",
+          "fr": "Ils ___ le bus demain.",
+          "a": [
+            "prendront"
+          ],
+          "hint": "prendre"
+        },
+        {
+          "id": "fr-avenir-3-11",
+          "type": "build",
+          "cs": "Jednoho dne budu pracovat v Paříži.",
+          "a": [
+            "Un jour, je travaillerai à Paris."
+          ]
+        },
+        {
+          "id": "fr-avenir-3-12",
+          "type": "build",
+          "cs": "Později budu hrát basketbal v Kanadě.",
+          "a": [
+            "Plus tard, je jouerai au basket au Canada."
+          ]
+        },
+        {
+          "id": "fr-avenir-3-13",
+          "type": "transform",
+          "task_cs": "Dej do futur simple",
+          "fr": "Je vais parler français.",
+          "a": [
+            "Je parlerai français."
+          ]
+        },
+        {
+          "id": "fr-avenir-3-14",
+          "type": "transform",
+          "task_cs": "Dej do futur simple",
+          "fr": "Nous allons finir nos études.",
+          "a": [
+            "Nous finirons nos études."
+          ]
+        },
+        {
+          "id": "fr-avenir-3-15",
+          "type": "order",
+          "cs": "Později budeme bydlet u moře.",
+          "a": [
+            "Plus tard nous habiterons au bord de la mer"
+          ],
+          "extra": [
+            "allons",
+            "habitons"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-avenir-4",
+      "title": "J'irai, je ferai",
+      "subtitle": "Nepravidelný budoucí čas",
+      "topics": [
+        "futur-simple"
+      ],
+      "words": [],
+      "learn": [
+        {
+          "title": "Nepravidelné kmeny",
+          "blocks": [
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "être",
+                  "ser-",
+                  "je serai"
+                ],
+                [
+                  "avoir",
+                  "aur-",
+                  "j'aurai"
+                ],
+                [
+                  "aller",
+                  "ir-",
+                  "j'irai"
+                ],
+                [
+                  "faire",
+                  "fer-",
+                  "je ferai"
+                ],
+                [
+                  "venir",
+                  "viendr-",
+                  "je viendrai"
+                ],
+                [
+                  "voir",
+                  "verr-",
+                  "je verrai"
+                ],
+                [
+                  "pouvoir",
+                  "pourr-",
+                  "je pourrai"
+                ],
+                [
+                  "vouloir",
+                  "voudr-",
+                  "je voudrai"
+                ],
+                [
+                  "devoir",
+                  "devr-",
+                  "je devrai"
+                ],
+                [
+                  "savoir",
+                  "saur-",
+                  "je saurai"
+                ],
+                [
+                  "il faut",
+                  "faudr-",
+                  "il faudra"
+                ]
+              ],
+              "textCols": [],
+              "head": [
+                "sloveso",
+                "kmen",
+                "je"
+              ]
+            },
+            {
+              "type": "text",
+              "cs": "Koncovky zůstávají stejné, mění se jen kmen. Stejné kmeny znáš z *je voudrais*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "être",
+                "tense": "futur-simple",
+                "person": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "Příklady",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "faire",
+              "tense": "futur-simple"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je serai développeur.",
+                  "cs": "Budu programátor."
+                },
+                {
+                  "fr": "Nous aurons une grande maison.",
+                  "cs": "Budeme mít velký dům."
+                },
+                {
+                  "fr": "Tu iras à l'université ?",
+                  "cs": "Půjdeš na vysokou?"
+                },
+                {
+                  "fr": "Il fera beau demain.",
+                  "cs": "Zítra bude hezky."
+                },
+                {
+                  "fr": "On verra !",
+                  "cs": "Uvidíme!"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Demain, il ___ beau.",
+                "a": [
+                  "fera"
+                ],
+                "hint": "faire"
+              }
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-avenir-4-01",
+          "type": "form",
+          "verb": "être",
+          "tense": "futur-simple",
+          "person": 1
+        },
+        {
+          "id": "fr-avenir-4-02",
+          "type": "form",
+          "verb": "être",
+          "tense": "futur-simple",
+          "person": 3
+        },
+        {
+          "id": "fr-avenir-4-03",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "futur-simple",
+          "person": 0
+        },
+        {
+          "id": "fr-avenir-4-04",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "futur-simple",
+          "person": 5
+        },
+        {
+          "id": "fr-avenir-4-05",
+          "type": "form",
+          "verb": "aller",
+          "tense": "futur-simple",
+          "person": 2
+        },
+        {
+          "id": "fr-avenir-4-06",
+          "type": "form",
+          "verb": "faire",
+          "tense": "futur-simple",
+          "person": 4
+        },
+        {
+          "id": "fr-avenir-4-07",
+          "type": "form",
+          "verb": "venir",
+          "tense": "futur-simple",
+          "person": 0
+        },
+        {
+          "id": "fr-avenir-4-08",
+          "type": "form",
+          "verb": "voir",
+          "tense": "futur-simple",
+          "person": 3
+        },
+        {
+          "id": "fr-avenir-4-09",
+          "type": "form",
+          "verb": "pouvoir",
+          "tense": "futur-simple",
+          "person": 1
+        },
+        {
+          "id": "fr-avenir-4-10",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "futur-simple",
+          "person": 2
+        },
+        {
+          "id": "fr-avenir-4-11",
+          "type": "cloze",
+          "fr": "Plus tard, je ___ médecin.",
+          "a": [
+            "serai"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-avenir-4-12",
+          "type": "cloze",
+          "fr": "Nous ___ en France l'été prochain.",
+          "a": [
+            "irons"
+          ],
+          "hint": "aller"
+        },
+        {
+          "id": "fr-avenir-4-13",
+          "type": "cloze",
+          "fr": "Tu ___ le temps demain ?",
+          "a": [
+            "auras"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-avenir-4-14",
+          "type": "cloze",
+          "fr": "Ils ___ nous voir dimanche.",
+          "a": [
+            "viendront"
+          ],
+          "hint": "venir"
+        },
+        {
+          "id": "fr-avenir-4-15",
+          "type": "build",
+          "cs": "Budu mít psa.",
+          "a": [
+            "J'aurai un chien."
+          ]
+        },
+        {
+          "id": "fr-avenir-4-16",
+          "type": "build",
+          "cs": "Uvidíme!",
+          "a": [
+            "On verra !"
+          ]
+        },
+        {
+          "id": "fr-avenir-4-17",
+          "type": "build",
+          "cs": "Zítra bude pršet.",
+          "a": [
+            "Demain, il pleuvra.",
+            "Il pleuvra demain.",
+            "Demain, il va pleuvoir."
+          ]
+        },
+        {
+          "id": "fr-avenir-4-18",
+          "type": "transform",
+          "task_cs": "Dej do futur simple",
+          "fr": "Je vais être prof.",
+          "a": [
+            "Je serai prof."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-avenir-5",
+      "title": "Dans dix ans",
+      "subtitle": "Plány do budoucna",
+      "topics": [
+        "futur-simple",
+        "professions"
+      ],
+      "words": [
+        "professions#studium",
+        "professions#maturita",
+        "professions#vysoká škola"
+      ],
+      "learn": [
+        {
+          "title": "Kdy?",
+          "blocks": [
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "později",
+                  "plus tard"
+                ],
+                [
+                  "jednoho dne",
+                  "un jour"
+                ],
+                [
+                  "za deset let",
+                  "dans dix ans"
+                ],
+                [
+                  "příští rok",
+                  "l'année prochaine"
+                ],
+                [
+                  "po maturitě",
+                  "après le bac"
+                ],
+                [
+                  "na vysoké škole",
+                  "à l'université / à la fac"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "dans = za",
+              "cs": "*Dans* + doba = za (v budoucnosti): *dans dix ans* (za deset let). *Il y a dix ans* = před deseti lety."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "___ dix ans, je serai ingénieur.",
+                "a": [
+                  "Dans"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "si + přítomný čas, futur",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Podmínka, která se může splnit: *si* + přítomný čas, potom futur: *Si j'ai mon bac, j'irai à l'université.* Po *si* nikdy nestojí futur."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Si je travaille bien, je réussirai.",
+                  "cs": "Když se budu dobře učit, uspěju."
+                },
+                {
+                  "fr": "S'il fait beau, on ira au stade.",
+                  "cs": "Jestli bude hezky, půjdeme na stadion."
+                },
+                {
+                  "fr": "Après le bac, je ferai des études d'informatique.",
+                  "cs": "Po maturitě budu studovat informatiku."
+                },
+                {
+                  "fr": "Dans dix ans, j'habiterai peut-être à l'étranger.",
+                  "cs": "Za deset let budu možná bydlet v zahraničí."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Když budu mít peníze, koupím si auto.",
+                "a": [
+                  "Si j'ai de l'argent, j'achèterai une voiture."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-avenir-5-01",
+          "type": "cloze",
+          "fr": "L'année ___, j'irai au lycée.",
+          "a": [
+            "prochaine"
+          ],
+          "hint": "příští"
+        },
+        {
+          "id": "fr-avenir-5-02",
+          "type": "cloze",
+          "fr": "Si tu ___, tu réussiras.",
+          "a": [
+            "travailles"
+          ],
+          "hint": "travailler"
+        },
+        {
+          "id": "fr-avenir-5-03",
+          "type": "cloze",
+          "fr": "S'il pleut, nous ___ à la maison.",
+          "a": [
+            "resterons"
+          ],
+          "hint": "rester"
+        },
+        {
+          "id": "fr-avenir-5-04",
+          "type": "cloze",
+          "fr": "Après le ___, je ferai des études.",
+          "a": [
+            "bac"
+          ],
+          "hint": "maturita"
+        },
+        {
+          "id": "fr-avenir-5-05",
+          "type": "cloze",
+          "fr": "Je veux étudier à l'___.",
+          "a": [
+            "université"
+          ],
+          "hint": "vysoká škola"
+        },
+        {
+          "id": "fr-avenir-5-06",
+          "type": "cloze",
+          "fr": "Dans dix ___, je serai riche !",
+          "a": [
+            "ans"
+          ],
+          "hint": "let"
+        },
+        {
+          "id": "fr-avenir-5-07",
+          "type": "build",
+          "cs": "Za deset let budu bydlet v Paříži.",
+          "a": [
+            "Dans dix ans, j'habiterai à Paris.",
+            "J'habiterai à Paris dans dix ans."
+          ]
+        },
+        {
+          "id": "fr-avenir-5-08",
+          "type": "build",
+          "cs": "Po maturitě půjdu na vysokou.",
+          "a": [
+            "Après le bac, j'irai à l'université.",
+            "Après le bac, j'irai à la fac."
+          ]
+        },
+        {
+          "id": "fr-avenir-5-09",
+          "type": "build",
+          "cs": "Jestli bude hezky, pojedeme k moři.",
+          "a": [
+            "S'il fait beau, nous irons à la mer.",
+            "S'il fait beau, on ira à la mer."
+          ]
+        },
+        {
+          "id": "fr-avenir-5-10",
+          "type": "build",
+          "cs": "Jednoho dne budu mít vlastní firmu.",
+          "a": [
+            "Un jour, j'aurai ma propre entreprise.",
+            "Un jour, j'aurai mon entreprise."
+          ]
+        },
+        {
+          "id": "fr-avenir-5-11",
+          "type": "transform",
+          "task_cs": "Spoj do jedné věty se si",
+          "fr": "J'ai mon bac. Je vais à l'université.",
+          "a": [
+            "Si j'ai mon bac, j'irai à l'université."
+          ]
+        },
+        {
+          "id": "fr-avenir-5-12",
+          "type": "order",
+          "cs": "Za pět let budu programátor.",
+          "a": [
+            "Dans cinq ans je serai développeur"
+          ],
+          "extra": [
+            "en",
+            "suis"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-avenir-t-01",
+        "lesson": "fr-avenir-1",
+        "type": "build",
+        "cs": "Moje máma je lékařka.",
+        "a": [
+          "Ma mère est médecin."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-02",
+        "lesson": "fr-avenir-1",
+        "type": "cloze",
+        "fr": "Il soigne les malades à l'hôpital, il est ___.",
+        "a": [
+          "infirmier",
+          "médecin"
+        ],
+        "hint": "zdravotník"
+      },
+      {
+        "id": "fr-avenir-t-03",
+        "lesson": "fr-avenir-1",
+        "type": "transform",
+        "task_cs": "Řekni to o ženě",
+        "fr": "Il est cuisinier.",
+        "a": [
+          "Elle est cuisinière."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-04",
+        "lesson": "fr-avenir-1",
+        "type": "build",
+        "cs": "Můj táta je realitní makléř.",
+        "a": [
+          "Mon père est agent immobilier."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-05",
+        "lesson": "fr-avenir-1",
+        "type": "build",
+        "cs": "Je to dobrá novinářka.",
+        "a": [
+          "C'est une bonne journaliste."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-06",
+        "lesson": "fr-avenir-2",
+        "type": "build",
+        "cs": "Chci být hasič.",
+        "a": [
+          "Je veux être pompier.",
+          "Je veux devenir pompier."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-07",
+        "lesson": "fr-avenir-2",
+        "type": "cloze",
+        "fr": "Je voudrais travailler ___ une banque.",
+        "a": [
+          "dans"
+        ]
+      },
+      {
+        "id": "fr-avenir-t-08",
+        "lesson": "fr-avenir-2",
+        "type": "build",
+        "cs": "Čím chceš být?",
+        "a": [
+          "Qu'est-ce que tu veux faire plus tard ?",
+          "Qu'est-ce que tu veux faire ?",
+          "Tu veux faire quoi plus tard ?"
+        ]
+      },
+      {
+        "id": "fr-avenir-t-09",
+        "lesson": "fr-avenir-2",
+        "type": "build",
+        "cs": "Je to dobře placená práce.",
+        "a": [
+          "C'est un travail bien payé.",
+          "C'est un métier bien payé."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-10",
+        "lesson": "fr-avenir-2",
+        "type": "form",
+        "verb": "devenir",
+        "tense": "present",
+        "person": 5
+      },
+      {
+        "id": "fr-avenir-t-11",
+        "lesson": "fr-avenir-3",
+        "type": "cloze",
+        "fr": "Nous ___ ensemble.",
+        "a": [
+          "travaillerons"
+        ],
+        "hint": "travailler"
+      },
+      {
+        "id": "fr-avenir-t-12",
+        "lesson": "fr-avenir-3",
+        "type": "form",
+        "verb": "prendre",
+        "tense": "futur-simple",
+        "person": 0
+      },
+      {
+        "id": "fr-avenir-t-13",
+        "lesson": "fr-avenir-3",
+        "type": "transform",
+        "task_cs": "Dej do futur simple",
+        "fr": "Tu vas jouer.",
+        "a": [
+          "Tu joueras."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-14",
+        "lesson": "fr-avenir-3",
+        "type": "build",
+        "cs": "Později budu bydlet ve Francii.",
+        "a": [
+          "Plus tard, j'habiterai en France."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-15",
+        "lesson": "fr-avenir-3",
+        "type": "cloze",
+        "fr": "Elles ___ le train.",
+        "a": [
+          "prendront"
+        ],
+        "hint": "prendre"
+      },
+      {
+        "id": "fr-avenir-t-16",
+        "lesson": "fr-avenir-4",
+        "type": "form",
+        "verb": "faire",
+        "tense": "futur-simple",
+        "person": 0
+      },
+      {
+        "id": "fr-avenir-t-17",
+        "lesson": "fr-avenir-4",
+        "type": "cloze",
+        "fr": "Demain, nous ___ au cinéma.",
+        "a": [
+          "irons"
+        ],
+        "hint": "aller"
+      },
+      {
+        "id": "fr-avenir-t-18",
+        "lesson": "fr-avenir-4",
+        "type": "build",
+        "cs": "Budu programátor.",
+        "a": [
+          "Je serai développeur.",
+          "Je serai programmeur."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-19",
+        "lesson": "fr-avenir-4",
+        "type": "cloze",
+        "fr": "Vous ___ venir ?",
+        "a": [
+          "pourrez"
+        ],
+        "hint": "pouvoir"
+      },
+      {
+        "id": "fr-avenir-t-20",
+        "lesson": "fr-avenir-4",
+        "type": "build",
+        "cs": "Zítra budeš mít čas?",
+        "a": [
+          "Tu auras le temps demain ?",
+          "Demain, tu auras le temps ?"
+        ]
+      },
+      {
+        "id": "fr-avenir-t-21",
+        "lesson": "fr-avenir-5",
+        "type": "build",
+        "cs": "Příští rok pojedu do Francie.",
+        "a": [
+          "L'année prochaine, j'irai en France.",
+          "J'irai en France l'année prochaine."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-22",
+        "lesson": "fr-avenir-5",
+        "type": "cloze",
+        "fr": "S'il neige, nous ___ du ski.",
+        "a": [
+          "ferons"
+        ],
+        "hint": "faire"
+      },
+      {
+        "id": "fr-avenir-t-23",
+        "lesson": "fr-avenir-5",
+        "type": "build",
+        "cs": "Jestli budeš chtít, pomůžu ti.",
+        "a": [
+          "Si tu veux, je t'aiderai."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-24",
+        "lesson": "fr-avenir-5",
+        "type": "cloze",
+        "fr": "___ cinq ans, je finirai mes études.",
+        "a": [
+          "Dans"
+        ]
+      },
+      {
+        "id": "fr-avenir-t-25",
+        "lesson": "fr-avenir-5",
+        "type": "build",
+        "cs": "Za deset let budu mít děti.",
+        "a": [
+          "Dans dix ans, j'aurai des enfants.",
+          "J'aurai des enfants dans dix ans."
+        ]
+      }
+    ]
+  }
+}

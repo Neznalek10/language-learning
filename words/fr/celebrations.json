@@ -1,0 +1,95 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Celebrations",
+  "unit": "8.2",
+  "level": null,
+  "words": [
+    {
+      "q": "svátek",
+      "a": "fête"
+    },
+    {
+      "q": "festival",
+      "a": "festival"
+    },
+    {
+      "q": "Velikonoce",
+      "a": "Pâques"
+    },
+    {
+      "q": "národní svátek",
+      "a": "fête nationale"
+    },
+    {
+      "q": "bál",
+      "a": "bal"
+    },
+    {
+      "q": "ohňostroj",
+      "a": "feu d'artifice"
+    },
+    {
+      "q": "figurka z porcelánu",
+      "a": "fève"
+    },
+    {
+      "q": "návrat do školy (po prázdninách)",
+      "a": "rentrée",
+      "unit": "3.1"
+    },
+    {
+      "q": "schovaný",
+      "a": "caché"
+    },
+    {
+      "q": "konec",
+      "a": "fin"
+    },
+    {
+      "q": "Vánoce",
+      "a": "Noël"
+    },
+    {
+      "q": "Silvestr",
+      "a": "Saint-Sylvestre"
+    },
+    {
+      "q": "Nový rok",
+      "a": "Nouvel An"
+    },
+    {
+      "q": "dárek",
+      "a": "cadeau"
+    },
+    {
+      "q": "svíčka",
+      "a": "bougie"
+    },
+    {
+      "q": "vánoční stromek",
+      "a": "sapin de Noël"
+    },
+    {
+      "q": "Veselé Vánoce!",
+      "a": "Joyeux Noël !"
+    },
+    {
+      "q": "Šťastný nový rok!",
+      "a": "Bonne année !"
+    },
+    {
+      "q": "Všechno nejlepší k narozeninám!",
+      "a": "Joyeux anniversaire !"
+    },
+    {
+      "q": "tradice",
+      "a": "tradition"
+    },
+    {
+      "q": "Tři králové",
+      "a": "Épiphanie"
+    }
+  ]
+}

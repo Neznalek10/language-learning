@@ -1,0 +1,1613 @@
+{
+  "articles": [
+    {
+      "id": "co-01-forms",
+      "title": "Step 1: The conditional: forms",
+      "fr": "le conditionnel présent : les formes",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "conditional",
+        "conditionnel",
+        "would",
+        "je voudrais",
+        "je serais",
+        "forms"
+      ],
+      "topics": [],
+      "see": [
+        "conditionnel",
+        "futur-simple"
+      ],
+      "tense": "conditionnel-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *conditionnel présent* means **would**: I would do = *je ferais*. Take the **future stem** (usually the infinitive) and add the **imparfait endings**: *-ais, -ais, -ait, -ions, -iez, -aient*."
+            },
+            {
+              "type": "table",
+              "verb": "parler",
+              "tense": "conditionnel-present"
+            }
+          ]
+        },
+        {
+          "title": "Regular verbs",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*-er* and *-ir* verbs keep the whole infinitive: *je parlerais, je finirais*. *-re* verbs drop the final *e*: *prendre → je prendrais, écrire → j'écrirais*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "finir",
+                "tense": "conditionnel-present",
+                "person": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "Irregular stems",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The irregular stems are the same as in the futur simple. Learn these:"
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "stem",
+                "je"
+              ],
+              "rows": [
+                [
+                  "être",
+                  "ser-",
+                  "je serais"
+                ],
+                [
+                  "avoir",
+                  "aur-",
+                  "j'aurais"
+                ],
+                [
+                  "aller",
+                  "ir-",
+                  "j'irais"
+                ],
+                [
+                  "faire",
+                  "fer-",
+                  "je ferais"
+                ],
+                [
+                  "pouvoir",
+                  "pourr-",
+                  "je pourrais"
+                ],
+                [
+                  "vouloir",
+                  "voudr-",
+                  "je voudrais"
+                ],
+                [
+                  "devoir",
+                  "devr-",
+                  "je devrais"
+                ],
+                [
+                  "savoir",
+                  "saur-",
+                  "je saurais"
+                ],
+                [
+                  "venir",
+                  "viendr-",
+                  "je viendrais"
+                ],
+                [
+                  "voir",
+                  "verr-",
+                  "je verrais"
+                ],
+                [
+                  "falloir",
+                  "faudr-",
+                  "il faudrait"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "être",
+                "tense": "conditionnel-present",
+                "person": 3
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "Future or conditional? Only the ending differs: *je parlerai* (I will speak) / *je parlerais* (I would speak)."
+            },
+            {
+              "type": "tip",
+              "en": "Two *r* in *pourrais, verrais, courrais*, one in *serais, ferais, aurais*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je voudrais un chocolat chaud.",
+                  "en": "I would like a hot chocolate."
+                },
+                {
+                  "fr": "Tu serais content ?",
+                  "en": "Would you be happy?"
+                },
+                {
+                  "fr": "Nous irions bien au cinéma.",
+                  "en": "We'd happily go to the cinema."
+                },
+                {
+                  "fr": "Ils feraient ça pour toi.",
+                  "en": "They would do that for you."
+                },
+                {
+                  "fr": "Vous pourriez m'aider ?",
+                  "en": "Could you help me?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-co-01-forms-01",
+          "type": "form",
+          "verb": "parler",
+          "tense": "conditionnel-present",
+          "person": 1
+        },
+        {
+          "id": "g-co-01-forms-02",
+          "type": "form",
+          "verb": "finir",
+          "tense": "conditionnel-present",
+          "person": 2
+        },
+        {
+          "id": "g-co-01-forms-03",
+          "type": "form",
+          "verb": "prendre",
+          "tense": "conditionnel-present",
+          "person": 0
+        },
+        {
+          "id": "g-co-01-forms-04",
+          "type": "form",
+          "verb": "être",
+          "tense": "conditionnel-present",
+          "person": 3
+        },
+        {
+          "id": "g-co-01-forms-05",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "conditionnel-present",
+          "person": 4
+        },
+        {
+          "id": "g-co-01-forms-06",
+          "type": "form",
+          "verb": "aller",
+          "tense": "conditionnel-present",
+          "person": 0
+        },
+        {
+          "id": "g-co-01-forms-07",
+          "type": "form",
+          "verb": "faire",
+          "tense": "conditionnel-present",
+          "person": 5
+        },
+        {
+          "id": "g-co-01-forms-08",
+          "type": "form",
+          "verb": "pouvoir",
+          "tense": "conditionnel-present",
+          "person": 1
+        },
+        {
+          "id": "g-co-01-forms-09",
+          "type": "form",
+          "verb": "vouloir",
+          "tense": "conditionnel-present",
+          "person": 0
+        },
+        {
+          "id": "g-co-01-forms-10",
+          "type": "form",
+          "verb": "venir",
+          "tense": "conditionnel-present",
+          "person": 2
+        },
+        {
+          "id": "g-co-01-forms-11",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "conditionnel-present",
+          "person": 3
+        },
+        {
+          "id": "g-co-01-forms-12",
+          "type": "form",
+          "verb": "savoir",
+          "tense": "conditionnel-present",
+          "person": 0
+        },
+        {
+          "id": "g-co-01-forms-13",
+          "type": "cloze",
+          "fr": "Je ___ bien un café.",
+          "a": [
+            "prendrais"
+          ],
+          "hint": "prendre",
+          "en": "I'd happily have a coffee."
+        }
+      ]
+    },
+    {
+      "id": "co-02-uses",
+      "title": "Step 2: Using it: polite requests, wishes, advice",
+      "fr": "employer le conditionnel",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "conditional",
+        "polite",
+        "je voudrais",
+        "j'aimerais",
+        "tu devrais",
+        "pourriez-vous",
+        "advice",
+        "wishes"
+      ],
+      "topics": [],
+      "see": [
+        "conditionnel",
+        "modals"
+      ],
+      "tense": "conditionnel-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The conditional makes things softer and less certain. Three everyday uses: **polite requests** (*Je voudrais un café*), **wishes** (*J'aimerais aller au Japon*) and **advice** (*Tu devrais dormir*)."
+            }
+          ]
+        },
+        {
+          "title": "Polite requests",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Je voudrais...* (I'd like), *Pourriez-vous...?* (Could you...?), *Vous auriez l'heure ?* (Would you have the time?), *Ça vous dérangerait de...?* (Would you mind...?)"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "___-vous m'aider ?",
+                "a": [
+                  "Pourriez"
+                ],
+                "hint": "pouvoir",
+                "en": "Could you help me?"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Wishes",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*J'aimerais...* (I'd like to), *Je préférerais...* (I'd rather), *Ce serait génial de...* (It would be great to)."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'___ visiter Paris.",
+                "a": [
+                  "aimerais"
+                ],
+                "hint": "aimer",
+                "en": "I'd like to visit Paris."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Advice",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Tu devrais...* (you should), *Vous pourriez...* (you could), *Il faudrait...* (it would be necessary to), *À ta place, je...* (if I were you, I...)."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Tu ___ te coucher plus tôt.",
+                "a": [
+                  "devrais"
+                ],
+                "hint": "devoir",
+                "en": "You should go to bed earlier."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je voudrais deux croissants, s'il vous plaît.",
+                  "en": "I'd like two croissants, please."
+                },
+                {
+                  "fr": "Pourriez-vous répéter ?",
+                  "en": "Could you repeat that?"
+                },
+                {
+                  "fr": "J'aimerais jouer en équipe nationale.",
+                  "en": "I'd like to play for the national team."
+                },
+                {
+                  "fr": "Tu devrais t'entraîner plus souvent.",
+                  "en": "You should train more often."
+                },
+                {
+                  "fr": "On pourrait aller au match samedi.",
+                  "en": "We could go to the match on Saturday."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-co-02-uses-01",
+          "type": "cloze",
+          "fr": "Je ___ un croissant, s'il vous plaît.",
+          "a": [
+            "voudrais"
+          ],
+          "hint": "vouloir"
+        },
+        {
+          "id": "g-co-02-uses-02",
+          "type": "cloze",
+          "fr": "Nous ___ partir en vacances.",
+          "a": [
+            "aimerions"
+          ],
+          "hint": "aimer",
+          "en": "We'd like to go on holiday."
+        },
+        {
+          "id": "g-co-02-uses-03",
+          "type": "cloze",
+          "fr": "Vous ___ fermer la fenêtre ?",
+          "a": [
+            "pourriez"
+          ],
+          "hint": "pouvoir",
+          "en": "Could you close the window?"
+        },
+        {
+          "id": "g-co-02-uses-04",
+          "type": "cloze",
+          "fr": "Tu ___ parler à ton prof.",
+          "a": [
+            "devrais"
+          ],
+          "hint": "devoir",
+          "en": "You should talk to your teacher."
+        },
+        {
+          "id": "g-co-02-uses-05",
+          "type": "cloze",
+          "fr": "Ce ___ super de te voir !",
+          "a": [
+            "serait"
+          ],
+          "hint": "être",
+          "en": "It would be great to see you!"
+        },
+        {
+          "id": "g-co-02-uses-06",
+          "type": "cloze",
+          "fr": "On ___ aller au cinéma ce soir.",
+          "a": [
+            "pourrait"
+          ],
+          "hint": "pouvoir",
+          "en": "We could go to the cinema tonight."
+        },
+        {
+          "id": "g-co-02-uses-07",
+          "type": "cloze",
+          "fr": "Je ___ le thé au café.",
+          "a": [
+            "préférerais"
+          ],
+          "hint": "préférer",
+          "en": "I'd rather have tea than coffee."
+        },
+        {
+          "id": "g-co-02-uses-08",
+          "type": "cloze",
+          "fr": "Vous ___ l'heure, s'il vous plaît ?",
+          "a": [
+            "auriez"
+          ],
+          "hint": "avoir",
+          "en": "Would you have the time, please?"
+        },
+        {
+          "id": "g-co-02-uses-09",
+          "type": "build",
+          "en": "I would like a ticket, please.",
+          "a": [
+            "Je voudrais un billet, s'il vous plaît.",
+            "J'aimerais un billet, s'il vous plaît."
+          ]
+        },
+        {
+          "id": "g-co-02-uses-10",
+          "type": "build",
+          "en": "You should rest. (tu)",
+          "a": [
+            "Tu devrais te reposer."
+          ]
+        },
+        {
+          "id": "g-co-02-uses-11",
+          "type": "build",
+          "en": "Could you repeat, please?",
+          "a": [
+            "Pourriez-vous répéter, s'il vous plaît ?",
+            "Vous pourriez répéter, s'il vous plaît ?",
+            "Tu pourrais répéter, s'il te plaît ?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "co-03-si-imparfait",
+      "title": "Step 3: If I had, I would: si + imparfait",
+      "fr": "si + imparfait, conditionnel",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "step by step",
+        "si",
+        "if",
+        "si j'avais",
+        "si j'étais",
+        "imparfait",
+        "conditionnel",
+        "hypothesis",
+        "if I were"
+      ],
+      "topics": [],
+      "see": [
+        "si-clauses",
+        "imparfait",
+        "conditionnel"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To imagine something that is **not true now**: **si + imparfait**, then the **conditionnel** in the other half. *Si j'avais de l'argent, j'achèterais un vélo.* Never put the conditional right after *si*."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "conj",
+                      "Si"
+                    ],
+                    [
+                      "S",
+                      "j'"
+                    ],
+                    [
+                      "V",
+                      "avais"
+                    ],
+                    [
+                      "obj",
+                      "de l'argent,"
+                    ],
+                    [
+                      "S",
+                      "j'"
+                    ],
+                    [
+                      "V",
+                      "achèterais"
+                    ],
+                    [
+                      "obj",
+                      "un vélo."
+                    ]
+                  ],
+                  "en": "If I had money, I would buy a bike."
+                }
+              ],
+              "formula": [
+                [
+                  "conj",
+                  "si"
+                ],
+                "S",
+                [
+                  "V",
+                  "imparfait"
+                ],
+                "S",
+                [
+                  "V",
+                  "conditionnel"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The pattern",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "si + imparfait",
+                "conditionnel"
+              ],
+              "rows": [
+                [
+                  "Si j'avais le temps,",
+                  "je viendrais."
+                ],
+                [
+                  "Si nous étions riches,",
+                  "nous voyagerions."
+                ],
+                [
+                  "S'il faisait beau,",
+                  "on irait à la plage."
+                ],
+                [
+                  "Si tu étudiais,",
+                  "tu aurais de meilleures notes."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Si j'___ le temps, je viendrais.",
+                "a": [
+                  "avais"
+                ],
+                "hint": "avoir",
+                "en": "If I had time, I would come."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Either order",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *si* part can also come second, usually without a comma: *Je viendrais si j'avais le temps.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je t'aiderais si je ___.",
+                "a": [
+                  "pouvais"
+                ],
+                "hint": "pouvoir",
+                "en": "I'd help you if I could."
+              }
+            }
+          ]
+        },
+        {
+          "title": "If I were you",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Si j'étais toi...* or simply *À ta place...* (in your place), then the conditional: *À ta place, je partirais.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "If I were you, I would sleep.",
+                "a": [
+                  "Si j'étais toi, je dormirais.",
+                  "À ta place, je dormirais."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "If I had time...",
+                  "wrong": "Si j'aurais le temps...",
+                  "fr": "Si j'[[avais]] le temps...",
+                  "note": "never the conditional after si"
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Si* + *il / ils* becomes **s'il, s'ils**. *Si* + *elle* stays: *si elle venait*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Si j'étais plus grand, je jouerais au basket.",
+                  "en": "If I were taller, I would play basketball."
+                },
+                {
+                  "fr": "Si tu habitais à Prague, on se verrait plus souvent.",
+                  "en": "If you lived in Prague, we'd see each other more often."
+                },
+                {
+                  "fr": "Qu'est-ce que tu ferais si tu gagnais au loto ?",
+                  "en": "What would you do if you won the lottery?"
+                },
+                {
+                  "fr": "S'il ne pleuvait pas, on jouerait dehors.",
+                  "en": "If it wasn't raining, we'd play outside."
+                },
+                {
+                  "fr": "À ta place, je dirais la vérité.",
+                  "en": "If I were you, I'd tell the truth."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-co-03-si-imparfait-01",
+          "type": "cloze",
+          "fr": "Si nous ___ riches, nous voyagerions.",
+          "a": [
+            "étions"
+          ],
+          "hint": "être",
+          "en": "If we were rich, we would travel."
+        },
+        {
+          "id": "g-co-03-si-imparfait-02",
+          "type": "cloze",
+          "fr": "S'il faisait beau, on ___ à la plage.",
+          "a": [
+            "irait"
+          ],
+          "hint": "aller",
+          "en": "If it was sunny, we'd go to the beach."
+        },
+        {
+          "id": "g-co-03-si-imparfait-03",
+          "type": "cloze",
+          "fr": "Si tu venais, je ___ content.",
+          "a": [
+            "serais"
+          ],
+          "hint": "être",
+          "en": "If you came, I'd be happy."
+        },
+        {
+          "id": "g-co-03-si-imparfait-04",
+          "type": "cloze",
+          "fr": "Si elle ___ son numéro, elle l'appellerait.",
+          "a": [
+            "savait"
+          ],
+          "hint": "savoir",
+          "en": "If she knew his number, she'd call him."
+        },
+        {
+          "id": "g-co-03-si-imparfait-05",
+          "type": "cloze",
+          "fr": "Si vous ___ plus, vous seriez en forme.",
+          "a": [
+            "dormiez"
+          ],
+          "hint": "dormir",
+          "en": "If you slept more, you'd be in shape."
+        },
+        {
+          "id": "g-co-03-si-imparfait-06",
+          "type": "cloze",
+          "fr": "Si j'étais riche, j'___ une grande maison.",
+          "a": [
+            "achèterais"
+          ],
+          "hint": "acheter",
+          "en": "If I were rich, I'd buy a big house."
+        },
+        {
+          "id": "g-co-03-si-imparfait-07",
+          "type": "cloze",
+          "fr": "Qu'est-ce que tu ___ si tu gagnais au loto ?",
+          "a": [
+            "ferais"
+          ],
+          "hint": "faire",
+          "en": "What would you do if you won the lottery?"
+        },
+        {
+          "id": "g-co-03-si-imparfait-08",
+          "type": "cloze",
+          "fr": "Ils ___ plus souvent s'ils habitaient plus près.",
+          "a": [
+            "viendraient"
+          ],
+          "hint": "venir",
+          "en": "They'd come more often if they lived closer."
+        },
+        {
+          "id": "g-co-03-si-imparfait-09",
+          "type": "transform",
+          "task_en": "Make it imagined: si + imparfait, conditionnel",
+          "fr": "Si j'ai faim, je mange.",
+          "a": [
+            "Si j'avais faim, je mangerais."
+          ]
+        },
+        {
+          "id": "g-co-03-si-imparfait-10",
+          "type": "transform",
+          "task_en": "Make it imagined: si + imparfait, conditionnel",
+          "fr": "Si tu viens, on joue.",
+          "a": [
+            "Si tu venais, on jouerait."
+          ]
+        },
+        {
+          "id": "g-co-03-si-imparfait-11",
+          "type": "build",
+          "en": "If it rained, we would stay at home.",
+          "a": [
+            "S'il pleuvait, nous resterions à la maison.",
+            "S'il pleuvait, on resterait à la maison."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "co-04-conditionnel-passe",
+      "title": "Step 4: I would have: the conditionnel passé",
+      "fr": "le conditionnel passé",
+      "level": "B1",
+      "keywords": [
+        "step by step",
+        "conditionnel passé",
+        "would have",
+        "j'aurais",
+        "je serais venu",
+        "j'aurais dû",
+        "regret"
+      ],
+      "topics": [],
+      "see": [
+        "conditionnel-passe",
+        "passe-compose-etre"
+      ],
+      "tense": "conditionnel-passe",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*J'aurais fait* = I would have done. It is the **conditional of avoir or être** + the **past participle**, with the same auxiliary as in the passé composé. It talks about a past that did not happen, and about regrets: *J'aurais dû travailler.*"
+            },
+            {
+              "type": "table",
+              "verb": "faire",
+              "tense": "conditionnel-passe"
+            }
+          ]
+        },
+        {
+          "title": "Avoir or être",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Verbs that take *être* in the passé composé (*aller, venir, partir, rester, arriver, tomber* and reflexive verbs) take it here too, and the participle agrees with the subject: *elle serait venue, nous serions restés*."
+            },
+            {
+              "type": "table",
+              "verb": "venir",
+              "tense": "conditionnel-passe"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "aller",
+                "tense": "conditionnel-passe",
+                "person": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "Regrets and reproaches",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*J'aurais dû...* (I should have), *J'aurais pu...* (I could have), *J'aurais aimé...* (I would have liked to), *Tu aurais pu me le dire !* (You could have told me!)"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'___ travailler plus.",
+                "a": [
+                  "aurais dû"
+                ],
+                "hint": "devoir",
+                "en": "I should have worked more."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'aurais aimé venir avec vous.",
+                  "en": "I would have liked to come with you."
+                },
+                {
+                  "fr": "Tu aurais dû m'appeler.",
+                  "en": "You should have called me."
+                },
+                {
+                  "fr": "Elle serait partie plus tôt.",
+                  "en": "She would have left earlier."
+                },
+                {
+                  "fr": "Nous aurions gagné le match.",
+                  "en": "We would have won the match."
+                },
+                {
+                  "fr": "Ils auraient pu attendre !",
+                  "en": "They could have waited!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-co-04-conditionnel-passe-01",
+          "type": "form",
+          "verb": "faire",
+          "tense": "conditionnel-passe",
+          "person": 0
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-02",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "conditionnel-passe",
+          "person": 1
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-03",
+          "type": "form",
+          "verb": "être",
+          "tense": "conditionnel-passe",
+          "person": 2
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-04",
+          "type": "form",
+          "verb": "venir",
+          "tense": "conditionnel-passe",
+          "person": 3
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-05",
+          "type": "form",
+          "verb": "partir",
+          "tense": "conditionnel-passe",
+          "person": 5
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-06",
+          "type": "form",
+          "verb": "rester",
+          "tense": "conditionnel-passe",
+          "person": 2
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-07",
+          "type": "form",
+          "verb": "voir",
+          "tense": "conditionnel-passe",
+          "person": 4
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-08",
+          "type": "form",
+          "verb": "pouvoir",
+          "tense": "conditionnel-passe",
+          "person": 0
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-09",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "conditionnel-passe",
+          "person": 1
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-10",
+          "type": "cloze",
+          "fr": "Tu ___ venir avec nous !",
+          "a": [
+            "aurais pu"
+          ],
+          "hint": "pouvoir",
+          "en": "You could have come with us!"
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-11",
+          "type": "cloze",
+          "fr": "Nous ___ voir ce film.",
+          "a": [
+            "aurions aimé"
+          ],
+          "hint": "aimer",
+          "en": "We would have liked to see that film."
+        },
+        {
+          "id": "g-co-04-conditionnel-passe-12",
+          "type": "build",
+          "en": "I should have said it.",
+          "a": [
+            "J'aurais dû le dire."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "co-05-si-pqp",
+      "title": "Step 5: If I had known, I would have",
+      "fr": "si + plus-que-parfait, conditionnel passé",
+      "level": "B1",
+      "keywords": [
+        "step by step",
+        "si",
+        "if I had known",
+        "si j'avais su",
+        "plus-que-parfait",
+        "conditionnel passé",
+        "past hypothesis"
+      ],
+      "topics": [],
+      "see": [
+        "si-clauses",
+        "plus-que-parfait",
+        "conditionnel-passe"
+      ],
+      "tense": "plus-que-parfait",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To imagine a **different past**: **si + plus-que-parfait**, then the **conditionnel passé**. *Si j'avais su, je serais venu.* = If I had known, I would have come."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "conj",
+                      "Si"
+                    ],
+                    [
+                      "S",
+                      "j'"
+                    ],
+                    [
+                      "aux",
+                      "avais"
+                    ],
+                    [
+                      "part",
+                      "su,"
+                    ],
+                    [
+                      "S",
+                      "je"
+                    ],
+                    [
+                      "aux",
+                      "serais"
+                    ],
+                    [
+                      "part",
+                      "venu."
+                    ]
+                  ],
+                  "en": "If I had known, I would have come."
+                }
+              ],
+              "formula": [
+                [
+                  "conj",
+                  "si"
+                ],
+                "S",
+                [
+                  "aux",
+                  "imparfait"
+                ],
+                "part",
+                "S",
+                [
+                  "aux",
+                  "conditionnel"
+                ],
+                "part"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The plus-que-parfait",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The **imparfait** of *avoir* or *être* + the past participle: *j'avais fait, tu avais vu, elle était partie, nous étions restés*. Same auxiliary and agreement as in the passé composé."
+            },
+            {
+              "type": "table",
+              "verb": "faire",
+              "tense": "plus-que-parfait"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "partir",
+                "tense": "plus-que-parfait",
+                "person": 2
+              }
+            }
+          ]
+        },
+        {
+          "title": "The pattern",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "si + plus-que-parfait",
+                "conditionnel passé"
+              ],
+              "rows": [
+                [
+                  "Si j'avais su,",
+                  "je serais venu."
+                ],
+                [
+                  "Si tu avais travaillé,",
+                  "tu aurais réussi."
+                ],
+                [
+                  "Si nous étions partis plus tôt,",
+                  "nous aurions eu le train."
+                ],
+                [
+                  "S'il n'avait pas plu,",
+                  "on serait allés à la plage."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Si j'___, je serais venu.",
+                "a": [
+                  "avais su"
+                ],
+                "hint": "savoir",
+                "en": "If I had known, I would have come."
+              }
+            }
+          ]
+        },
+        {
+          "title": "Past condition, present result",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When the result is **now**, the second half is a plain conditionnel: *Si j'avais pris le bus, je serais à la maison maintenant.* (If I had taken the bus, I'd be at home now.)"
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "If I had known...",
+                  "wrong": "Si j'aurais su...",
+                  "fr": "Si j'[[avais su]]...",
+                  "note": "never the conditional after si, even in the past"
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "In Czech the same sentence can be about now or about the past. French cannot: choose *si je savais* (if I knew, now) or *si j'avais su* (if I had known, in the past).",
+              "title": "Different from Czech"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Si tu m'avais demandé, je t'aurais aidé.",
+                  "en": "If you had asked me, I would have helped you."
+                },
+                {
+                  "fr": "Si nous avions gagné, nous aurions fait la fête.",
+                  "en": "If we had won, we would have partied."
+                },
+                {
+                  "fr": "Si elle avait pris le bus, elle serait arrivée à l'heure.",
+                  "en": "If she had taken the bus, she would have arrived on time."
+                },
+                {
+                  "fr": "Je ne serais pas venu si j'avais su.",
+                  "en": "I wouldn't have come if I had known."
+                },
+                {
+                  "fr": "S'il avait fait beau, on serait sortis.",
+                  "en": "If the weather had been nice, we would have gone out."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-co-05-si-pqp-01",
+          "type": "cloze",
+          "fr": "Si nous ___ plus tôt, nous aurions eu le train.",
+          "a": [
+            "étions partis",
+            "étions parties"
+          ],
+          "hint": "partir",
+          "en": "If we had left earlier, we would have caught the train."
+        },
+        {
+          "id": "g-co-05-si-pqp-02",
+          "type": "cloze",
+          "fr": "Si j'___ mes devoirs, le prof aurait été content.",
+          "a": [
+            "avais fait"
+          ],
+          "hint": "faire",
+          "en": "If I had done my homework, the teacher would have been happy."
+        },
+        {
+          "id": "g-co-05-si-pqp-03",
+          "type": "cloze",
+          "fr": "Si tu avais travaillé, tu ___ une meilleure note.",
+          "a": [
+            "aurais eu"
+          ],
+          "hint": "avoir",
+          "en": "If you had worked, you would have got a better mark."
+        },
+        {
+          "id": "g-co-05-si-pqp-04",
+          "type": "cloze",
+          "fr": "S'il avait plu, nous ___ à la maison.",
+          "a": [
+            "serions restés",
+            "serions restées"
+          ],
+          "hint": "rester",
+          "en": "If it had rained, we would have stayed at home."
+        },
+        {
+          "id": "g-co-05-si-pqp-05",
+          "type": "cloze",
+          "fr": "Si elle ___ le bus, elle serait arrivée à l'heure.",
+          "a": [
+            "avait pris"
+          ],
+          "hint": "prendre",
+          "en": "If she had taken the bus, she would have arrived on time."
+        },
+        {
+          "id": "g-co-05-si-pqp-06",
+          "type": "cloze",
+          "fr": "Si vous m'aviez invité, je ___.",
+          "a": [
+            "serais venu",
+            "serais venue"
+          ],
+          "hint": "venir",
+          "en": "If you had invited me, I would have come."
+        },
+        {
+          "id": "g-co-05-si-pqp-07",
+          "type": "cloze",
+          "fr": "Qu'est-ce que tu ___ si tu avais gagné ?",
+          "a": [
+            "aurais fait"
+          ],
+          "hint": "faire",
+          "en": "What would you have done if you had won?"
+        },
+        {
+          "id": "g-co-05-si-pqp-08",
+          "type": "cloze",
+          "fr": "Si j'avais vu ton message, je t'___.",
+          "a": [
+            "aurais répondu"
+          ],
+          "en": "If I had seen your message, I would have answered you."
+        },
+        {
+          "id": "g-co-05-si-pqp-09",
+          "type": "transform",
+          "task_en": "Move it into the past: si + plus-que-parfait, conditionnel passé",
+          "fr": "Si j'avais le temps, je viendrais.",
+          "a": [
+            "Si j'avais eu le temps, je serais {venu|venue}."
+          ]
+        },
+        {
+          "id": "g-co-05-si-pqp-10",
+          "type": "transform",
+          "task_en": "Move it into the past: si + plus-que-parfait, conditionnel passé",
+          "fr": "Si tu étudiais, tu réussirais.",
+          "a": [
+            "Si tu avais étudié, tu aurais réussi."
+          ]
+        },
+        {
+          "id": "g-co-05-si-pqp-11",
+          "type": "build",
+          "en": "If I had known, I would have come.",
+          "a": [
+            "Si j'avais su, je serais {venu|venue}."
+          ]
+        },
+        {
+          "id": "g-co-05-si-pqp-12",
+          "type": "build",
+          "en": "If we had left earlier, we wouldn't have missed the train.",
+          "a": [
+            "Si nous étions {partis|parties} plus tôt, nous n'aurions pas raté le train.",
+            "Si on était {partis|parties} plus tôt, on n'aurait pas raté le train."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "co-06-mix",
+      "title": "Step 6: The three si-sentences mixed",
+      "fr": "les trois types de phrases avec si",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "step by step",
+        "si",
+        "if",
+        "mix",
+        "real condition",
+        "si + présent",
+        "si + imparfait",
+        "si + plus-que-parfait"
+      ],
+      "topics": [],
+      "see": [
+        "si-clauses"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "There are three kinds of *si* sentence, chosen by how real the situation is. **Real:** si + présent → présent or futur. **Imagined now:** si + imparfait → conditionnel. **Imagined past:** si + plus-que-parfait → conditionnel passé."
+            },
+            {
+              "type": "table",
+              "head": [
+                "kind",
+                "si part",
+                "other part",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "real",
+                  "présent",
+                  "présent / futur",
+                  "S'il pleut, je resterai.",
+                  "If it rains, I'll stay."
+                ],
+                [
+                  "imagined now",
+                  "imparfait",
+                  "conditionnel",
+                  "S'il pleuvait, je resterais.",
+                  "If it rained, I'd stay."
+                ],
+                [
+                  "imagined past",
+                  "plus-que-parfait",
+                  "conditionnel passé",
+                  "S'il avait plu, je serais resté.",
+                  "If it had rained, I'd have stayed."
+                ]
+              ],
+              "textCols": [
+                0,
+                1,
+                2,
+                4
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How to choose",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Ask: **can it still happen?** Yes → real (*si + présent*). **Is it untrue now?** → imagined now. **Did it not happen?** → imagined past."
+            },
+            {
+              "type": "tip",
+              "en": "Czech uses the future in a real condition about tomorrow. French uses the **present** after *si*: *s'il pleut demain*, never *s'il pleuvra*.",
+              "title": "Different from Czech"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Si tu as faim, prends une pomme.",
+                  "en": "If you're hungry, take an apple."
+                },
+                {
+                  "fr": "Si j'avais un chien, je le promènerais tous les jours.",
+                  "en": "If I had a dog, I'd walk it every day."
+                },
+                {
+                  "fr": "Si j'avais su, je ne serais pas venu.",
+                  "en": "If I had known, I wouldn't have come."
+                },
+                {
+                  "fr": "S'il fait beau demain, on ira à la plage.",
+                  "en": "If it's nice tomorrow, we'll go to the beach."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-co-06-mix-01",
+          "type": "cloze",
+          "fr": "S'il pleut demain, je ___ à la maison.",
+          "a": [
+            "resterai"
+          ],
+          "hint": "rester",
+          "en": "If it rains tomorrow, I'll stay at home."
+        },
+        {
+          "id": "g-co-06-mix-02",
+          "type": "cloze",
+          "fr": "S'il pleuvait, je ___ à la maison.",
+          "a": [
+            "resterais"
+          ],
+          "hint": "rester",
+          "en": "If it rained, I'd stay at home."
+        },
+        {
+          "id": "g-co-06-mix-03",
+          "type": "cloze",
+          "fr": "S'il avait plu, je ___ à la maison.",
+          "a": [
+            "serais resté",
+            "serais restée"
+          ],
+          "hint": "rester",
+          "en": "If it had rained, I'd have stayed at home."
+        },
+        {
+          "id": "g-co-06-mix-04",
+          "type": "cloze",
+          "fr": "Si tu ___ faim, prends une pomme.",
+          "a": [
+            "as"
+          ],
+          "hint": "avoir",
+          "en": "If you're hungry, take an apple."
+        },
+        {
+          "id": "g-co-06-mix-05",
+          "type": "cloze",
+          "fr": "Si tu ___ faim, tu mangerais.",
+          "a": [
+            "avais"
+          ],
+          "hint": "avoir",
+          "en": "If you were hungry, you'd eat."
+        },
+        {
+          "id": "g-co-06-mix-06",
+          "type": "cloze",
+          "fr": "Si tu ___ faim, tu aurais mangé.",
+          "a": [
+            "avais eu"
+          ],
+          "hint": "avoir",
+          "en": "If you had been hungry, you'd have eaten."
+        },
+        {
+          "id": "g-co-06-mix-07",
+          "type": "cloze",
+          "fr": "Si on ___ le temps ce week-end, on ira au cinéma.",
+          "a": [
+            "a"
+          ],
+          "hint": "avoir",
+          "en": "If we have time this weekend, we'll go to the cinema."
+        },
+        {
+          "id": "g-co-06-mix-08",
+          "type": "transform",
+          "task_en": "Make it imagined now",
+          "fr": "Si je gagne, je suis content.",
+          "a": [
+            "Si je gagnais, je serais content."
+          ]
+        },
+        {
+          "id": "g-co-06-mix-09",
+          "type": "transform",
+          "task_en": "Make it imagined in the past",
+          "fr": "Si je gagnais, je serais content.",
+          "a": [
+            "Si j'avais gagné, j'aurais été content."
+          ]
+        },
+        {
+          "id": "g-co-06-mix-10",
+          "type": "build",
+          "en": "If I were rich, I would travel.",
+          "a": [
+            "Si j'étais riche, je voyagerais."
+          ]
+        },
+        {
+          "id": "g-co-06-mix-11",
+          "type": "build",
+          "en": "If you had come, you would have seen him. (tu)",
+          "a": [
+            "Si tu étais {venu|venue}, tu l'aurais vu."
+          ]
+        },
+        {
+          "id": "g-co-06-mix-12",
+          "type": "build",
+          "en": "If it's sunny tomorrow, we'll go to the beach.",
+          "a": [
+            "S'il fait beau demain, nous irons à la plage.",
+            "S'il fait beau demain, on ira à la plage.",
+            "S'il fait beau demain, nous allons aller à la plage.",
+            "S'il fait beau demain, on va aller à la plage."
+          ]
+        }
+      ]
+    }
+  ]
+}

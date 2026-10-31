@@ -1,0 +1,1516 @@
+{
+  "schema": 1,
+  "goals": [
+    "Mluvit o prázdninách a cestování",
+    "Passé composé s être (aller, partir, arriver, rester...)",
+    "Shoda příčestí s podmětem: elle est partie",
+    "Zvratná slovesa v minulosti: je me suis baigné(e)",
+    "Vyprávět o prázdninách: avoir, nebo être?"
+  ],
+  "lessons": [
+    {
+      "id": "fr-vacances-1",
+      "title": "Partir en vacances",
+      "subtitle": "Prázdniny a cestování",
+      "topics": [
+        "travel"
+      ],
+      "words": [
+        "school#prázdniny",
+        "geography#pláž",
+        "geography#hory",
+        "geography#moře",
+        "geography#ostrov",
+        "geography#les",
+        "geography#kemp",
+        "geography#hotel",
+        "geography#kufr",
+        "geography#v zahraničí",
+        "geography#túra",
+        "geography#suvenýr",
+        "geography#pobyt",
+        "geography#pas",
+        "geography#pohlednice",
+        "home#stan",
+        "home#spacák",
+        "home#fotoaparát",
+        "transport#letiště",
+        "transport#jízdenka, letenka",
+        "verbs#cestovat",
+        "verbs#opalovat se"
+      ],
+      "learn": [
+        {
+          "title": "Kam pojedeš?",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Na prázdniny jedeš *à la mer* (k moři), *à la montagne* (na hory), *à la campagne* (na venkov) nebo *à l'étranger* (do zahraničí). U zemí platí, co znáš z A1: *en France, au Portugal, aux États-Unis*."
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "k moři",
+                  "à la mer"
+                ],
+                [
+                  "na hory",
+                  "à la montagne"
+                ],
+                [
+                  "na venkov",
+                  "à la campagne"
+                ],
+                [
+                  "do zahraničí",
+                  "à l'étranger"
+                ],
+                [
+                  "na pláž",
+                  "à la plage"
+                ],
+                [
+                  "na ostrov",
+                  "sur une île"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Cet été, nous allons ___ la mer.",
+                "a": [
+                  "à"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Co budeš dělat?",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "*Faire du camping* (kempovat), *faire une randonnée* (jít na túru), *bronzer* (opalovat se), *se baigner* (koupat se), *visiter un musée*, *acheter des souvenirs*, *envoyer une carte postale*."
+            },
+            {
+              "type": "tip",
+              "title": "dormir sous la tente",
+              "cs": "Ve stanu se francouzsky spí *pod* stanem: *dormir sous la tente*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "On fait du camping au bord d'un lac.",
+                  "cs": "Kempujeme u jezera."
+                },
+                {
+                  "fr": "Je vais bronzer à la plage.",
+                  "cs": "Budu se opalovat na pláži."
+                },
+                {
+                  "fr": "Nous allons faire une randonnée en montagne.",
+                  "cs": "Půjdeme na túru na horách."
+                },
+                {
+                  "fr": "N'oublie pas ton passeport !",
+                  "cs": "Nezapomeň pas!"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Letos v létě pojedeme na hory.",
+                "a": [
+                  "Cet été, nous allons à la montagne.",
+                  "Cet été, on va à la montagne.",
+                  "Cet été, nous irons à la montagne."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-vacances-1-01",
+          "type": "cloze",
+          "fr": "En été, on va à la ___.",
+          "a": [
+            "plage"
+          ],
+          "hint": "pláž"
+        },
+        {
+          "id": "fr-vacances-1-02",
+          "type": "cloze",
+          "fr": "Nous faisons du ___ près de la forêt.",
+          "a": [
+            "camping"
+          ],
+          "hint": "kemp"
+        },
+        {
+          "id": "fr-vacances-1-03",
+          "type": "cloze",
+          "fr": "N'oublie pas ton ___ !",
+          "a": [
+            "passeport"
+          ],
+          "hint": "pas"
+        },
+        {
+          "id": "fr-vacances-1-04",
+          "type": "cloze",
+          "fr": "Je mets mes vêtements dans la ___.",
+          "a": [
+            "valise"
+          ],
+          "hint": "kufr"
+        },
+        {
+          "id": "fr-vacances-1-05",
+          "type": "cloze",
+          "fr": "Mes parents partent ___ l'étranger.",
+          "a": [
+            "à"
+          ]
+        },
+        {
+          "id": "fr-vacances-1-06",
+          "type": "build",
+          "cs": "Rád se opaluji na pláži.",
+          "a": [
+            "J'aime bronzer à la plage."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-07",
+          "type": "build",
+          "cs": "Spíme ve stanu.",
+          "a": [
+            "Nous dormons sous la tente.",
+            "On dort sous la tente.",
+            "Nous dormons dans une tente.",
+            "On dort dans une tente."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-08",
+          "type": "build",
+          "cs": "Kupuji suvenýry pro kamarády.",
+          "a": [
+            "J'achète des souvenirs pour mes amis.",
+            "J'achète des souvenirs pour mes copains."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-09",
+          "type": "build",
+          "cs": "Pošlu ti pohlednici.",
+          "a": [
+            "Je vais t'envoyer une carte postale.",
+            "Je t'envoie une carte postale.",
+            "Je t'enverrai une carte postale."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-10",
+          "type": "build",
+          "cs": "Rádi cestujeme.",
+          "a": [
+            "Nous aimons voyager.",
+            "On aime voyager."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-11",
+          "type": "build",
+          "cs": "Půjdeme na túru do lesa.",
+          "a": [
+            "Nous allons faire une randonnée dans la forêt.",
+            "On va faire une randonnée dans la forêt."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-12",
+          "type": "order",
+          "cs": "V srpnu jedeme do zahraničí.",
+          "a": [
+            "En août nous partons à l'étranger"
+          ],
+          "extra": [
+            "en",
+            "au"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-vacances-2",
+      "title": "Je suis allé à la mer",
+      "subtitle": "Minulý čas s être",
+      "topics": [
+        "passe-compose-etre"
+      ],
+      "words": [
+        "verbs#přijet, dorazit",
+        "verbs#zůstat",
+        "verbs#spadnout",
+        "verbs#vstoupit",
+        "verbs#vyjít nahoru",
+        "verbs-irregular#sejít dolů",
+        "verbs-irregular#narodit se",
+        "verbs-irregular#zemřít",
+        "verbs#vrátit se (zpátky)"
+      ],
+      "learn": [
+        {
+          "title": "être místo avoir",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Asi patnáct sloves tvoří passé composé s *être*, ne s *avoir*. Většinou jde o pohyb z místa na místo nebo o změnu: jít, přijít, přijet, odjet, vejít, vyjít, vystoupat, sestoupit, narodit se, zemřít, zůstat, spadnout, vrátit se."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "aller",
+                  "allé",
+                  "Je suis allé à Nice."
+                ],
+                [
+                  "venir",
+                  "venu",
+                  "Il est venu hier."
+                ],
+                [
+                  "arriver",
+                  "arrivé",
+                  "Nous sommes arrivés à midi."
+                ],
+                [
+                  "partir",
+                  "parti",
+                  "Tu es parti tôt."
+                ],
+                [
+                  "entrer",
+                  "entré",
+                  "Je suis entré dans la salle."
+                ],
+                [
+                  "sortir",
+                  "sorti",
+                  "Elle est sortie avec Paul."
+                ],
+                [
+                  "monter",
+                  "monté",
+                  "Je suis monté au sommet."
+                ],
+                [
+                  "descendre",
+                  "descendu",
+                  "On est descendus à la plage."
+                ],
+                [
+                  "naître",
+                  "né",
+                  "Je suis né en 2000."
+                ],
+                [
+                  "mourir",
+                  "mort",
+                  "Il est mort en 1900."
+                ],
+                [
+                  "rester",
+                  "resté",
+                  "Je suis resté à la maison."
+                ],
+                [
+                  "tomber",
+                  "tombé",
+                  "Il est tombé."
+                ],
+                [
+                  "rentrer",
+                  "rentré",
+                  "Je suis rentré à six heures."
+                ],
+                [
+                  "devenir",
+                  "devenu",
+                  "Il est devenu médecin."
+                ]
+              ],
+              "textCols": [],
+              "head": [
+                "sloveso",
+                "příčestí",
+                "příklad"
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Hier, je ___ allé au cinéma.",
+                "a": [
+                  "suis"
+                ],
+                "hint": "être"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Pomůcka: dům",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "aller",
+              "tense": "passe-compose"
+            },
+            {
+              "type": "tip",
+              "title": "dům",
+              "cs": "Představ si dům. Do domu *entrer*, z domu *sortir*, po schodech *monter* a *descendre*, k domu *arriver*, od domu *partir*, v domě *rester*, z okna *tomber*. Co se děje kolem domu, má *être*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Přijeli jsme v pondělí.",
+                "a": [
+                  "Nous sommes {arrivés|arrivées} lundi.",
+                  "On est {arrivés|arrivées} lundi."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-vacances-2-01",
+          "type": "form",
+          "verb": "aller",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-vacances-2-02",
+          "type": "form",
+          "verb": "partir",
+          "tense": "passe-compose",
+          "person": 2
+        },
+        {
+          "id": "fr-vacances-2-03",
+          "type": "form",
+          "verb": "arriver",
+          "tense": "passe-compose",
+          "person": 3
+        },
+        {
+          "id": "fr-vacances-2-04",
+          "type": "form",
+          "verb": "venir",
+          "tense": "passe-compose",
+          "person": 1
+        },
+        {
+          "id": "fr-vacances-2-05",
+          "type": "form",
+          "verb": "rester",
+          "tense": "passe-compose",
+          "person": 5
+        },
+        {
+          "id": "fr-vacances-2-06",
+          "type": "form",
+          "verb": "tomber",
+          "tense": "passe-compose",
+          "person": 4
+        },
+        {
+          "id": "fr-vacances-2-07",
+          "type": "cloze",
+          "fr": "Nous ___ partis à huit heures.",
+          "a": [
+            "sommes"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-2-08",
+          "type": "cloze",
+          "fr": "Tu es ___ à quelle heure ?",
+          "a": [
+            "arrivé",
+            "arrivée"
+          ],
+          "hint": "arriver"
+        },
+        {
+          "id": "fr-vacances-2-09",
+          "type": "cloze",
+          "fr": "Il est ___ de vélo.",
+          "a": [
+            "tombé"
+          ],
+          "hint": "tomber"
+        },
+        {
+          "id": "fr-vacances-2-10",
+          "type": "cloze",
+          "fr": "Je suis ___ à la maison.",
+          "a": [
+            "resté",
+            "restée"
+          ],
+          "hint": "rester"
+        },
+        {
+          "id": "fr-vacances-2-11",
+          "type": "build",
+          "cs": "Šel jsem na pláž.",
+          "a": [
+            "Je suis {allé|allée} à la plage."
+          ]
+        },
+        {
+          "id": "fr-vacances-2-12",
+          "type": "build",
+          "cs": "Kdy jsi přijel?",
+          "a": [
+            "Quand est-ce que tu es {arrivé|arrivée} ?",
+            "Tu es {arrivé|arrivée} quand ?",
+            "Quand es-tu {arrivé|arrivée} ?"
+          ]
+        },
+        {
+          "id": "fr-vacances-2-13",
+          "type": "build",
+          "cs": "Zůstali jsme týden v hotelu.",
+          "a": [
+            "Nous sommes {restés|restées} une semaine à l'hôtel.",
+            "On est {restés|restées} une semaine à l'hôtel."
+          ]
+        },
+        {
+          "id": "fr-vacances-2-14",
+          "type": "build",
+          "cs": "Narodil jsem se v Praze.",
+          "a": [
+            "Je suis {né|née} à Prague."
+          ]
+        },
+        {
+          "id": "fr-vacances-2-15",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Je vais à Paris.",
+          "a": [
+            "Je suis {allé|allée} à Paris."
+          ]
+        },
+        {
+          "id": "fr-vacances-2-16",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Il part en vacances.",
+          "a": [
+            "Il est parti en vacances."
+          ]
+        },
+        {
+          "id": "fr-vacances-2-17",
+          "type": "order",
+          "cs": "Vrátili jsme se v neděli.",
+          "a": [
+            "Nous sommes rentrés dimanche"
+          ],
+          "extra": [
+            "avons",
+            "rentré"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-vacances-3",
+      "title": "Elle est partie",
+      "subtitle": "Shoda příčestí s podmětem",
+      "topics": [
+        "passe-compose-etre"
+      ],
+      "words": [
+        "geography#sever",
+        "geography#jih",
+        "geography#východ",
+        "geography#západ"
+      ],
+      "learn": [
+        {
+          "title": "Shoda s podmětem",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "S *être* se příčestí shoduje s podmětem jako přídavné jméno: ženský rod *+e*, množné číslo *+s*, ženský rod v množném čísle *+es*."
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "odjel",
+                  "il est parti"
+                ],
+                [
+                  "odjela",
+                  "elle est partie"
+                ],
+                [
+                  "odjeli",
+                  "ils sont partis"
+                ],
+                [
+                  "odjely",
+                  "elles sont parties"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "cs": "Když holka mluví o sobě, píše *je suis allée*. Smíšená skupina kluků a holek má mužský rod: *Paul et Léa sont partis.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Ma sœur est ___ hier.",
+                "a": [
+                  "partie"
+                ],
+                "hint": "partir"
+              }
+            }
+          ]
+        },
+        {
+          "title": "S avoir bez shody",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "bez shody s avoir",
+              "cs": "S *avoir* se příčestí s podmětem neshoduje: *Elle a mangé*, ne *elle a mangée*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Léa est arrivée à midi.",
+                  "cs": "Léa přijela v poledne."
+                },
+                {
+                  "fr": "Mes parents sont restés à la maison.",
+                  "cs": "Moji rodiče zůstali doma."
+                },
+                {
+                  "fr": "Mes cousines sont venues avec nous.",
+                  "cs": "Moje sestřenice přijely s námi."
+                },
+                {
+                  "fr": "Elle a visité le musée.",
+                  "cs": "Navštívila muzeum."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Moje sestra zůstala doma.",
+                "a": [
+                  "Ma sœur est restée à la maison."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-vacances-3-01",
+          "type": "cloze",
+          "fr": "Elle est ___ en Italie.",
+          "a": [
+            "allée"
+          ],
+          "hint": "aller"
+        },
+        {
+          "id": "fr-vacances-3-02",
+          "type": "cloze",
+          "fr": "Mes amis sont ___ en retard.",
+          "a": [
+            "arrivés"
+          ],
+          "hint": "arriver"
+        },
+        {
+          "id": "fr-vacances-3-03",
+          "type": "cloze",
+          "fr": "Mes sœurs sont ___ à la plage.",
+          "a": [
+            "restées"
+          ],
+          "hint": "rester"
+        },
+        {
+          "id": "fr-vacances-3-04",
+          "type": "cloze",
+          "fr": "Léa et Hugo sont ___ ensemble.",
+          "a": [
+            "partis"
+          ],
+          "hint": "partir"
+        },
+        {
+          "id": "fr-vacances-3-05",
+          "type": "cloze",
+          "fr": "Marie est ___ dans la piscine.",
+          "a": [
+            "tombée"
+          ],
+          "hint": "tomber"
+        },
+        {
+          "id": "fr-vacances-3-06",
+          "type": "cloze",
+          "fr": "Elle a ___ une glace.",
+          "a": [
+            "mangé"
+          ],
+          "hint": "manger",
+          "why": "S avoir se příčestí s podmětem neshoduje."
+        },
+        {
+          "id": "fr-vacances-3-07",
+          "type": "transform",
+          "task_cs": "Řekni to o sestře",
+          "fr": "Mon frère est parti à Londres.",
+          "a": [
+            "Ma sœur est partie à Londres."
+          ]
+        },
+        {
+          "id": "fr-vacances-3-08",
+          "type": "transform",
+          "task_cs": "Dej do množného čísla",
+          "fr": "Elle est arrivée hier.",
+          "a": [
+            "Elles sont arrivées hier."
+          ]
+        },
+        {
+          "id": "fr-vacances-3-09",
+          "type": "transform",
+          "task_cs": "Dej do množného čísla",
+          "fr": "Il est tombé.",
+          "a": [
+            "Ils sont tombés."
+          ]
+        },
+        {
+          "id": "fr-vacances-3-10",
+          "type": "build",
+          "cs": "Moje máma přijela pozdě.",
+          "a": [
+            "Ma mère est arrivée en retard.",
+            "Ma mère est arrivée tard."
+          ]
+        },
+        {
+          "id": "fr-vacances-3-11",
+          "type": "build",
+          "cs": "Holky šly do kina.",
+          "a": [
+            "Les filles sont allées au cinéma."
+          ]
+        },
+        {
+          "id": "fr-vacances-3-12",
+          "type": "build",
+          "cs": "Léa, kdy ses vrátila?",
+          "a": [
+            "Léa, quand est-ce que tu es rentrée ?",
+            "Léa, tu es rentrée quand ?",
+            "Léa, quand es-tu rentrée ?"
+          ]
+        },
+        {
+          "id": "fr-vacances-3-13",
+          "type": "order",
+          "cs": "Babička se narodila v Praze.",
+          "a": [
+            "Ma grand-mère est née à Prague"
+          ],
+          "extra": [
+            "né",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-vacances-4",
+      "title": "Je me suis baigné",
+      "subtitle": "Zvratná slovesa v minulosti",
+      "topics": [
+        "passe-compose-etre",
+        "reflexive"
+      ],
+      "words": [
+        "verbs-reflexive#vykoupat se",
+        "time#během"
+      ],
+      "learn": [
+        {
+          "title": "se + être",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Všechna zvratná slovesa mají v passé composé *être*. Zvratné zájmeno stojí před *être*: *je me suis baigné, tu t'es levé, elle s'est reposée*."
+            },
+            {
+              "type": "table",
+              "verb": "se baigner",
+              "tense": "passe-compose"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Ce matin, je me ___ levé tôt.",
+                "a": [
+                  "suis"
+                ],
+                "hint": "être"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Zápor",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "*Ne* stojí před zájmenem, *pas* za *être*: *Je ne me suis pas baigné.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "On s'est bien amusés.",
+                  "cs": "Dobře jsme se bavili."
+                },
+                {
+                  "fr": "Elle s'est reposée sur la plage.",
+                  "cs": "Odpočívala na pláži."
+                },
+                {
+                  "fr": "Je ne me suis pas levé tôt.",
+                  "cs": "Nevstal jsem brzo."
+                },
+                {
+                  "fr": "Vous vous êtes baignés dans la mer ?",
+                  "cs": "Koupali jste se v moři?"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_cs": "Převeď do záporu",
+                "fr": "Je me suis baigné.",
+                "a": [
+                  "Je ne me suis pas {baigné|baignée}."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-vacances-4-01",
+          "type": "form",
+          "verb": "se baigner",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-vacances-4-02",
+          "type": "form",
+          "verb": "se lever",
+          "tense": "passe-compose",
+          "person": 2
+        },
+        {
+          "id": "fr-vacances-4-03",
+          "type": "form",
+          "verb": "se reposer",
+          "tense": "passe-compose",
+          "person": 3
+        },
+        {
+          "id": "fr-vacances-4-04",
+          "type": "form",
+          "verb": "se coucher",
+          "tense": "passe-compose",
+          "person": 1
+        },
+        {
+          "id": "fr-vacances-4-05",
+          "type": "form",
+          "verb": "s'habiller",
+          "tense": "passe-compose",
+          "person": 4
+        },
+        {
+          "id": "fr-vacances-4-06",
+          "type": "cloze",
+          "fr": "Nous nous ___ baignés dans le lac.",
+          "a": [
+            "sommes"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-4-07",
+          "type": "cloze",
+          "fr": "Elle s'est ___ à six heures.",
+          "a": [
+            "levée"
+          ],
+          "hint": "vstát"
+        },
+        {
+          "id": "fr-vacances-4-08",
+          "type": "cloze",
+          "fr": "Tu t'___ reposé ?",
+          "a": [
+            "es"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-4-09",
+          "type": "cloze",
+          "fr": "Ils se sont bien ___.",
+          "a": [
+            "amusés"
+          ],
+          "hint": "bavit se"
+        },
+        {
+          "id": "fr-vacances-4-10",
+          "type": "build",
+          "cs": "Ráno jsem se koupal v moři.",
+          "a": [
+            "Ce matin, je me suis {baigné|baignée} dans la mer.",
+            "Je me suis {baigné|baignée} dans la mer ce matin."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-11",
+          "type": "build",
+          "cs": "Dobře jsme se bavili.",
+          "a": [
+            "On s'est bien {amusés|amusées}.",
+            "Nous nous sommes bien {amusés|amusées}."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-12",
+          "type": "build",
+          "cs": "Během prázdnin jsem odpočíval.",
+          "a": [
+            "Pendant les vacances, je me suis {reposé|reposée}.",
+            "Je me suis {reposé|reposée} pendant les vacances."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-13",
+          "type": "build",
+          "cs": "V kolik ses probudil?",
+          "a": [
+            "À quelle heure est-ce que tu t'es {réveillé|réveillée} ?",
+            "Tu t'es {réveillé|réveillée} à quelle heure ?",
+            "À quelle heure t'es-tu {réveillé|réveillée} ?"
+          ]
+        },
+        {
+          "id": "fr-vacances-4-14",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Je me lève à sept heures.",
+          "a": [
+            "Je me suis {levé|levée} à sept heures."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-15",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Elle se couche tard.",
+          "a": [
+            "Elle s'est couchée tard."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-16",
+          "type": "transform",
+          "task_cs": "Převeď do záporu",
+          "fr": "Nous nous sommes baignés.",
+          "a": [
+            "Nous ne nous sommes pas baignés."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-17",
+          "type": "order",
+          "cs": "Lehla jsem si brzo.",
+          "a": [
+            "Je me suis couchée tôt"
+          ],
+          "extra": [
+            "ai",
+            "couché"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-vacances-5",
+      "title": "Mes dernières vacances",
+      "subtitle": "avoir, nebo être? Vyprávění",
+      "topics": [
+        "passe-compose-etre",
+        "passe-compose",
+        "travel"
+      ],
+      "words": [
+        "geography#ráj",
+        "geography#oceán"
+      ],
+      "learn": [
+        {
+          "title": "avoir, nebo être?",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Většina sloves má *avoir*. *Être* mají jen slovesa pohybu a změny ze seznamu a všechna zvratná slovesa."
+            },
+            {
+              "type": "table",
+              "firstCs": true,
+              "rows": [
+                [
+                  "Šel jsem na pláž a plaval jsem.",
+                  "Je suis allé à la plage et j'ai nagé."
+                ],
+                [
+                  "Přijeli jsme a navštívili město.",
+                  "Nous sommes arrivés et nous avons visité la ville."
+                ],
+                [
+                  "Vykoupala se a pak se najedla.",
+                  "Elle s'est baignée, puis elle a mangé."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Nous ___ visité le château.",
+                "a": [
+                  "avons"
+                ],
+                "hint": "avoir"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Pohlednice",
+          "blocks": [
+            {
+              "type": "text",
+              "cs": "Tak může vypadat pohlednice z prázdnin:"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Salut Tom !",
+                  "cs": "Ahoj Tome!"
+                },
+                {
+                  "fr": "Je suis à Nice avec mes parents depuis une semaine.",
+                  "cs": "Jsem v Nice s rodiči už týden."
+                },
+                {
+                  "fr": "Hier, on est allés à la plage et on a fait du bateau.",
+                  "cs": "Včera jsme šli na pláž a jezdili jsme lodí."
+                },
+                {
+                  "fr": "Il fait très beau. Bisous, Léa",
+                  "cs": "Je moc hezky. Pusu, Léa"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "cs": "Včera jsme byli na pláži a plavali jsme.",
+                "a": [
+                  "Hier, nous sommes {allés|allées} à la plage et nous avons nagé.",
+                  "Hier, on est {allés|allées} à la plage et on a nagé.",
+                  "Hier, nous avons été à la plage et nous avons nagé."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Slovíčka",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-vacances-5-01",
+          "type": "cloze",
+          "fr": "Je ___ parti en juillet.",
+          "a": [
+            "suis"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-5-02",
+          "type": "cloze",
+          "fr": "J'___ pris beaucoup de photos.",
+          "a": [
+            "ai"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-vacances-5-03",
+          "type": "cloze",
+          "fr": "Nous ___ restés deux semaines.",
+          "a": [
+            "sommes"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-5-04",
+          "type": "cloze",
+          "fr": "Ils ___ visité un musée.",
+          "a": [
+            "ont"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-vacances-5-05",
+          "type": "cloze",
+          "fr": "Elle s'___ baignée tous les jours.",
+          "a": [
+            "est"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-5-06",
+          "type": "cloze",
+          "fr": "Tu ___ fait une randonnée ?",
+          "a": [
+            "as"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-vacances-5-07",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Nous arrivons à l'hôtel et nous mangeons.",
+          "a": [
+            "Nous sommes {arrivés|arrivées} à l'hôtel et nous avons mangé."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-08",
+          "type": "transform",
+          "task_cs": "Dej do minulého času",
+          "fr": "Elle sort et elle achète une glace.",
+          "a": [
+            "Elle est sortie et elle a acheté une glace."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-09",
+          "type": "build",
+          "cs": "Loni v létě jsme jeli do Francie.",
+          "a": [
+            "L'été dernier, nous sommes {allés|allées} en France.",
+            "L'été dernier, on est {allés|allées} en France."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-10",
+          "type": "build",
+          "cs": "Zůstal jsem tam deset dní.",
+          "a": [
+            "Je suis {resté|restée} là-bas dix jours.",
+            "Je suis {resté|restée} dix jours là-bas."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-11",
+          "type": "build",
+          "cs": "Navštívili jsme hrad a koupili jsme suvenýry.",
+          "a": [
+            "Nous avons visité le château et nous avons acheté des souvenirs.",
+            "On a visité le château et on a acheté des souvenirs."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-12",
+          "type": "build",
+          "cs": "Spadl jsem z kola.",
+          "a": [
+            "Je suis {tombé|tombée} de vélo."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-13",
+          "type": "order",
+          "cs": "Prázdniny byly skvělé.",
+          "a": [
+            "Les vacances ont été super"
+          ],
+          "extra": [
+            "sont",
+            "étés"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-vacances-t-01",
+        "lesson": "fr-vacances-1",
+        "type": "cloze",
+        "fr": "Cet été, je vais à la ___.",
+        "a": [
+          "montagne"
+        ],
+        "hint": "hory"
+      },
+      {
+        "id": "fr-vacances-t-02",
+        "lesson": "fr-vacances-1",
+        "type": "build",
+        "cs": "Nezapomeň pas!",
+        "a": [
+          "N'oublie pas ton passeport !"
+        ]
+      },
+      {
+        "id": "fr-vacances-t-03",
+        "lesson": "fr-vacances-1",
+        "type": "build",
+        "cs": "Rádi spíme ve stanu.",
+        "a": [
+          "Nous aimons dormir sous la tente.",
+          "On aime dormir sous la tente.",
+          "Nous aimons dormir dans une tente."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-04",
+        "lesson": "fr-vacances-1",
+        "type": "build",
+        "cs": "Moji rodiče jedou do zahraničí.",
+        "a": [
+          "Mes parents partent à l'étranger.",
+          "Mes parents vont à l'étranger."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-05",
+        "lesson": "fr-vacances-2",
+        "type": "cloze",
+        "fr": "Nous ___ arrivés à midi.",
+        "a": [
+          "sommes"
+        ],
+        "hint": "être"
+      },
+      {
+        "id": "fr-vacances-t-06",
+        "lesson": "fr-vacances-2",
+        "type": "form",
+        "verb": "venir",
+        "tense": "passe-compose",
+        "person": 0
+      },
+      {
+        "id": "fr-vacances-t-07",
+        "lesson": "fr-vacances-2",
+        "type": "build",
+        "cs": "Šel jsem do muzea.",
+        "a": [
+          "Je suis {allé|allée} au musée."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-08",
+        "lesson": "fr-vacances-2",
+        "type": "transform",
+        "task_cs": "Dej do minulého času",
+        "fr": "Tu pars à huit heures.",
+        "a": [
+          "Tu es {parti|partie} à huit heures."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-09",
+        "lesson": "fr-vacances-2",
+        "type": "build",
+        "cs": "Kde ses narodil?",
+        "a": [
+          "Où est-ce que tu es {né|née} ?",
+          "Tu es {né|née} où ?",
+          "Où es-tu {né|née} ?"
+        ]
+      },
+      {
+        "id": "fr-vacances-t-10",
+        "lesson": "fr-vacances-3",
+        "type": "cloze",
+        "fr": "Ma cousine est ___ avec nous.",
+        "a": [
+          "venue"
+        ],
+        "hint": "venir"
+      },
+      {
+        "id": "fr-vacances-t-11",
+        "lesson": "fr-vacances-3",
+        "type": "transform",
+        "task_cs": "Řekni to o sestře",
+        "fr": "Mon frère est resté à Paris.",
+        "a": [
+          "Ma sœur est restée à Paris."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-12",
+        "lesson": "fr-vacances-3",
+        "type": "build",
+        "cs": "Holky přijely pozdě.",
+        "a": [
+          "Les filles sont arrivées en retard.",
+          "Les filles sont arrivées tard."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-13",
+        "lesson": "fr-vacances-3",
+        "type": "cloze",
+        "fr": "Mes parents sont ___ au restaurant.",
+        "a": [
+          "allés"
+        ],
+        "hint": "aller"
+      },
+      {
+        "id": "fr-vacances-t-14",
+        "lesson": "fr-vacances-3",
+        "type": "transform",
+        "task_cs": "Dej do množného čísla",
+        "fr": "Il est parti.",
+        "a": [
+          "Ils sont partis."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-15",
+        "lesson": "fr-vacances-4",
+        "type": "build",
+        "cs": "Vykoupal ses v jezeře?",
+        "a": [
+          "Tu t'es {baigné|baignée} dans le lac ?",
+          "Est-ce que tu t'es {baigné|baignée} dans le lac ?"
+        ]
+      },
+      {
+        "id": "fr-vacances-t-16",
+        "lesson": "fr-vacances-4",
+        "type": "cloze",
+        "fr": "Je me ___ couché à minuit.",
+        "a": [
+          "suis"
+        ],
+        "hint": "être"
+      },
+      {
+        "id": "fr-vacances-t-17",
+        "lesson": "fr-vacances-4",
+        "type": "transform",
+        "task_cs": "Dej do minulého času",
+        "fr": "Nous nous reposons.",
+        "a": [
+          "Nous nous sommes {reposés|reposées}."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-18",
+        "lesson": "fr-vacances-4",
+        "type": "transform",
+        "task_cs": "Převeď do záporu",
+        "fr": "Elle s'est levée tôt.",
+        "a": [
+          "Elle ne s'est pas levée tôt."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-19",
+        "lesson": "fr-vacances-4",
+        "type": "form",
+        "verb": "se lever",
+        "tense": "passe-compose",
+        "person": 0
+      },
+      {
+        "id": "fr-vacances-t-20",
+        "lesson": "fr-vacances-5",
+        "type": "cloze",
+        "fr": "Hier, nous ___ fait du vélo.",
+        "a": [
+          "avons"
+        ],
+        "hint": "avoir"
+      },
+      {
+        "id": "fr-vacances-t-21",
+        "lesson": "fr-vacances-5",
+        "type": "cloze",
+        "fr": "Elle ___ partie en Espagne.",
+        "a": [
+          "est"
+        ],
+        "hint": "être"
+      },
+      {
+        "id": "fr-vacances-t-22",
+        "lesson": "fr-vacances-5",
+        "type": "build",
+        "cs": "Jeli jsme k moři a koupali jsme se.",
+        "a": [
+          "Nous sommes {allés|allées} à la mer et nous nous sommes {baignés|baignées}.",
+          "On est {allés|allées} à la mer et on s'est {baignés|baignées}."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-23",
+        "lesson": "fr-vacances-5",
+        "type": "build",
+        "cs": "Moje prázdniny byly super.",
+        "a": [
+          "Mes vacances ont été super.",
+          "Mes vacances étaient super."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-24",
+        "lesson": "fr-vacances-5",
+        "type": "build",
+        "cs": "Koupil jsem pohlednici.",
+        "a": [
+          "J'ai acheté une carte postale."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-25",
+        "lesson": "fr-vacances-5",
+        "type": "build",
+        "cs": "Zůstali jsme doma.",
+        "a": [
+          "Nous sommes {restés|restées} à la maison.",
+          "On est {restés|restées} à la maison."
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,286 @@
+{
+  "schema": 1,
+  "goals": [
+    "Popsat vzhled a povahu člověka",
+    "Shodovat přídavná jména v rodě a čísle, i nepravidelná",
+    "Používat barvy a popsat vlasy a oči",
+    "Vědět, kdy přídavné jméno stojí před podstatným jménem",
+    "Tvořit zápor ne... pas a pas de"
+  ],
+  "lessons": [
+    {
+      "id": "fr-2.2-1",
+      "title": "Il est grand",
+      "subtitle": "Shoda přídavných jmen",
+      "topics": ["adjectives", "describe"],
+      "words": ["appearance#velký", "appearance#malý", "appearance#štíhlý", "appearance#mladý", "appearance#hezký", "appearance#průměrný", "personality#sympatický", "personality#stydlivý", "personality#zábavný", "personality#příjemný", "personality#chytrý", "personality#smutný", "personality#klidný", "personality#vtipný"],
+      "learn": [
+        {"title": "Přídavné jméno se shoduje", "blocks": [
+          {"type": "text", "cs": "Přídavné jméno se ve francouzštině řídí rodem a číslem podstatného jména, ke kterému patří. Pro ženský rod přidáš *-e*, pro množné číslo *-s*."},
+          {"type": "table", "head": ["", "mužský rod", "ženský rod"], "firstCs": true, "rows": [
+            ["jednotné číslo", "il est grand", "elle est grande"],
+            ["množné číslo", "ils sont grands", "elles sont grandes"]
+          ]},
+          {"type": "text", "cs": "Koncové *-e* a *-s* se nevyslovují. V ženském rodě ale uslyšíš souhlásku před *-e*: *petit* [pəti] → *petite* [pətit]."},
+          {"type": "tip", "title": "Končí na -e", "cs": "Přídavná jména, která už končí na *-e*, se v ženském rodě nemění: *jeune, mince, timide, sympathique, calme, drôle, triste, agréable*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Marie est ___.", "a": ["petite"], "hint": "malá"}}
+        ]},
+        {"title": "Ils, nebo elles?", "blocks": [
+          {"type": "text", "cs": "Když popisuješ skupinu mužů i žen, použiješ mužský rod množného čísla: *Paul et Marie sont grands.*"},
+          {"type": "examples", "items": [
+            {"fr": "Mon frère est grand et mince.", "cs": "Můj bratr je vysoký a štíhlý."},
+            {"fr": "Ma sœur est petite et sympathique.", "cs": "Moje sestra je malá a sympatická."},
+            {"fr": "Mes cousines sont amusantes.", "cs": "Moje sestřenice jsou zábavné."},
+            {"fr": "Tom et Léa sont intelligents.", "cs": "Tom a Léa jsou chytří."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Paul et Léa sont ___.", "a": ["intelligents"], "hint": "chytří"}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.2-1-01", "type": "cloze", "fr": "Ma mère est ___.", "a": ["mince"], "hint": "štíhlá", "why": "Mince končí na -e, takže se v ženském rodě nemění."},
+        {"id": "fr-2.2-1-02", "type": "cloze", "fr": "Ma sœur est ___.", "a": ["grande"], "hint": "velká"},
+        {"id": "fr-2.2-1-03", "type": "cloze", "fr": "Léa est ___.", "a": ["intelligente"], "hint": "chytrá"},
+        {"id": "fr-2.2-1-04", "type": "cloze", "fr": "Mes cousins sont ___.", "a": ["amusants"], "hint": "zábavní"},
+        {"id": "fr-2.2-1-05", "type": "cloze", "fr": "Mes tantes sont ___.", "a": ["agréables"], "hint": "příjemné"},
+        {"id": "fr-2.2-1-06", "type": "cloze", "fr": "Julie est ___.", "a": ["timide"], "hint": "stydlivá"},
+        {"id": "fr-2.2-1-07", "type": "cloze", "fr": "Elles sont ___.", "a": ["jeunes"], "hint": "mladé"},
+        {"id": "fr-2.2-1-08", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est petit.", "a": ["Elle est petite."]},
+        {"id": "fr-2.2-1-09", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est intelligent.", "a": ["Elle est intelligente."]},
+        {"id": "fr-2.2-1-10", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est timide.", "a": ["Elle est timide."]},
+        {"id": "fr-2.2-1-11", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "Elle est grande.", "a": ["Elles sont grandes."]},
+        {"id": "fr-2.2-1-12", "type": "build", "cs": "Moje sestra je malá a štíhlá.", "a": ["Ma sœur est petite et mince."]},
+        {"id": "fr-2.2-1-13", "type": "build", "cs": "Můj bratr je velký a vtipný.", "a": ["Mon frère est grand et drôle."]},
+        {"id": "fr-2.2-1-14", "type": "build", "cs": "Paul a Marie jsou mladí.", "a": ["Paul et Marie sont jeunes."]},
+        {"id": "fr-2.2-1-15", "type": "order", "cs": "Moje kamarádka je chytrá a zábavná.", "a": ["Mon amie est intelligente et amusante", "Ma copine est intelligente et amusante"], "extra": ["intelligent", "ma"]}
+      ]
+    },
+    {
+      "id": "fr-2.2-2",
+      "title": "Elle est sportive",
+      "subtitle": "Zvláštní tvary přídavných jmen",
+      "topics": ["adjectives", "describe"],
+      "words": ["personality#líný", "personality#sportovní", "personality#aktivní", "personality#štědrý", "personality#nudný", "personality#ukecaný", "personality#pracovitý", "personality#lakomý", "personality#upřímný", "personality#nervózní", "personality#hodný", "personality#zlý", "personality#vážný", "personality#zvědavý", "personality#šťastný", "appearance#tlustý", "appearance#starý", "appearance#krásný", "appearance#nový"],
+      "learn": [
+        {"title": "Zvláštní koncovky", "blocks": [
+          {"type": "table", "head": ["koncovka", "mužský rod", "ženský rod"], "rows": [
+            ["-eux → -euse", "paresseux, sérieux", "paresseuse, sérieuse"],
+            ["-if → -ive", "sportif, actif", "sportive, active"],
+            ["-eur → -euse", "travailleur, menteur", "travailleuse, menteuse"],
+            ["-en → -enne", "italien", "italienne"],
+            ["-er → -ère", "cher", "chère"]
+          ]},
+          {"type": "text", "cs": "Stejně jako *sérieux* se chovají *heureux, curieux, ennuyeux, généreux, nerveux*: *heureuse, curieuse, ennuyeuse, généreuse, nerveuse*."},
+          {"type": "tip", "title": "avare, sincère", "cs": "*Avare* (lakomý) a *sincère* (upřímný) končí na *-e*, takže se v ženském rodě nemění."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Ma sœur est très ___.", "a": ["sportive"], "hint": "sportovní"}}
+        ]},
+        {"title": "Nepravidelná přídavná jména", "blocks": [
+          {"type": "table", "head": ["", "mužský rod", "ženský rod"], "firstCs": true, "rows": [
+            ["krásný", "beau", "belle"],
+            ["nový", "nouveau", "nouvelle"],
+            ["starý", "vieux", "vieille"],
+            ["hodný", "gentil", "gentille"],
+            ["tlustý", "gros", "grosse"],
+            ["bílý", "blanc", "blanche"],
+            ["dlouhý", "long", "longue"],
+            ["pravdomluvný", "franc", "franche"]
+          ]},
+          {"type": "text", "cs": "V množném čísle se slova na *-s* a *-x* nemění: *Ils sont sérieux.* *Beau* a *nouveau* dostávají *-x*: *beaux, nouveaux*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Ma grand-mère est très ___.", "a": ["gentille"], "hint": "hodná"}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.2-2-01", "type": "cloze", "fr": "Elle est ___.", "a": ["paresseuse"], "hint": "líná"},
+        {"id": "fr-2.2-2-02", "type": "cloze", "fr": "Ma tante est ___.", "a": ["travailleuse"], "hint": "pracovitá"},
+        {"id": "fr-2.2-2-03", "type": "cloze", "fr": "Léa est ___.", "a": ["active"], "hint": "aktivní"},
+        {"id": "fr-2.2-2-04", "type": "cloze", "fr": "Mes cousines sont ___.", "a": ["curieuses"], "hint": "zvědavé"},
+        {"id": "fr-2.2-2-05", "type": "cloze", "fr": "Ma mère est ___.", "a": ["heureuse"], "hint": "šťastná"},
+        {"id": "fr-2.2-2-06", "type": "cloze", "fr": "Julie est ___.", "a": ["belle"], "hint": "krásná"},
+        {"id": "fr-2.2-2-07", "type": "cloze", "fr": "Ma grand-mère est ___.", "a": ["vieille"], "hint": "stará"},
+        {"id": "fr-2.2-2-08", "type": "cloze", "fr": "Mes frères sont ___.", "a": ["beaux"], "hint": "krásní"},
+        {"id": "fr-2.2-2-09", "type": "cloze", "fr": "Elles sont ___.", "a": ["bavardes"], "hint": "upovídané"},
+        {"id": "fr-2.2-2-10", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est sérieux.", "a": ["Elle est sérieuse."]},
+        {"id": "fr-2.2-2-11", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est gentil.", "a": ["Elle est gentille."]},
+        {"id": "fr-2.2-2-12", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est généreux.", "a": ["Elle est généreuse."]},
+        {"id": "fr-2.2-2-13", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est nouveau.", "a": ["Elle est nouvelle."]},
+        {"id": "fr-2.2-2-14", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "Il est ennuyeux.", "a": ["Ils sont ennuyeux."], "why": "Slova na -x se v množném čísle nemění."},
+        {"id": "fr-2.2-2-15", "type": "build", "cs": "Moje sestra je sportovní a aktivní.", "a": ["Ma sœur est sportive et active."]},
+        {"id": "fr-2.2-2-16", "type": "build", "cs": "Můj dědeček je starý, ale hodný.", "a": ["Mon grand-père est vieux, mais gentil."]},
+        {"id": "fr-2.2-2-17", "type": "build", "cs": "Ona je líná a nudná.", "a": ["Elle est paresseuse et ennuyeuse."]},
+        {"id": "fr-2.2-2-18", "type": "order", "cs": "Moje teta je velmi štědrá.", "a": ["Ma tante est très généreuse"], "extra": ["généreux", "mon"]}
+      ]
+    },
+    {
+      "id": "fr-2.2-3",
+      "title": "Les couleurs",
+      "subtitle": "Barvy a jejich shoda",
+      "topics": ["adjectives"],
+      "words": ["colors#barva", "colors#modrá", "colors#zelená", "colors#černá", "colors#šedivá", "colors#bílá", "colors#fialová", "colors#červená", "colors#žlutá", "colors#růžová", "colors#hnědá", "colors#oranžová", "colors#béžová", "colors#světlý", "colors#tmavý"],
+      "learn": [
+        {"title": "Barvy", "blocks": [
+          {"type": "table", "head": ["", "mužský rod", "ženský rod"], "firstCs": true, "rows": [
+            ["modrý", "bleu", "bleue"], ["zelený", "vert", "verte"], ["černý", "noir", "noire"], ["šedý", "gris", "grise"],
+            ["bílý", "blanc", "blanche"], ["fialový", "violet", "violette"], ["červený", "rouge", "rouge"], ["žlutý", "jaune", "jaune"],
+            ["růžový", "rose", "rose"], ["hnědý", "marron", "marron"], ["oranžový", "orange", "orange"]
+          ]},
+          {"type": "text", "cs": "Barva stojí **za** podstatným jménem a shoduje se s ním: *un chat noir, une voiture verte, des fleurs jaunes*."},
+          {"type": "tip", "title": "marron a orange", "cs": "*Marron* a *orange* se nemění vůbec, ani v množném čísle: *des yeux marron, des chaussures orange*. Původně to jsou názvy plodů (kaštan, pomeranč)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Une voiture ___.", "a": ["verte"], "hint": "zelený"}}
+        ]},
+        {"title": "Světle a tmavě", "blocks": [
+          {"type": "text", "cs": "*Clair* (světlý) a *foncé* (tmavý) se píšou za barvu a celé spojení se pak už nemění: *une robe bleu clair, des yeux vert foncé*."},
+          {"type": "examples", "items": [
+            {"fr": "Mon chat est noir et blanc.", "cs": "Moje kočka je černobílá."},
+            {"fr": "Ma chambre est bleu clair.", "cs": "Můj pokoj je světle modrý."},
+            {"fr": "J'adore la couleur orange.", "cs": "Zbožňuju oranžovou barvu."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.2-3-01", "type": "cloze", "fr": "Un chat ___.", "a": ["noir"], "hint": "černý"},
+        {"id": "fr-2.2-3-02", "type": "cloze", "fr": "Une maison ___.", "a": ["blanche"], "hint": "bílý"},
+        {"id": "fr-2.2-3-03", "type": "cloze", "fr": "Des chiens ___.", "a": ["gris"], "hint": "šedý", "why": "Gris končí na -s, takže se v množném čísle nemění."},
+        {"id": "fr-2.2-3-04", "type": "cloze", "fr": "Des fleurs ___.", "a": ["jaunes"], "hint": "žlutý"},
+        {"id": "fr-2.2-3-05", "type": "cloze", "fr": "Une fleur ___.", "a": ["violette"], "hint": "fialový"},
+        {"id": "fr-2.2-3-06", "type": "cloze", "fr": "Des yeux ___.", "a": ["marron"], "hint": "hnědý", "why": "Marron se nemění ani v množném čísle."},
+        {"id": "fr-2.2-3-07", "type": "cloze", "fr": "Une voiture ___.", "a": ["bleue"], "hint": "modrý"},
+        {"id": "fr-2.2-3-08", "type": "cloze", "fr": "Des voitures ___.", "a": ["orange"], "hint": "oranžový"},
+        {"id": "fr-2.2-3-09", "type": "cloze", "fr": "Une robe ___.", "a": ["rouge"], "hint": "červený"},
+        {"id": "fr-2.2-3-10", "type": "build", "cs": "Mám černou kočku.", "a": ["J'ai {un chat noir|une chatte noire}."]},
+        {"id": "fr-2.2-3-11", "type": "build", "cs": "Dům je bílý a zahrada je zelená.", "a": ["La maison est blanche et le jardin est vert."]},
+        {"id": "fr-2.2-3-12", "type": "build", "cs": "Moje auto je šedé.", "a": ["Ma voiture est grise."]},
+        {"id": "fr-2.2-3-13", "type": "order", "cs": "Mám ráda růžové a fialové květiny.", "a": ["J'aime les fleurs roses et violettes"], "extra": ["rose", "violet"]}
+      ]
+    },
+    {
+      "id": "fr-2.2-4",
+      "title": "Les yeux bleus",
+      "subtitle": "Vlasy, oči a pořadí slov",
+      "topics": ["adjectives", "describe"],
+      "words": ["body#vlasy", "body#oči", "body#oko", "body#obličej", "appearance#světlé vlasy", "appearance#tmavé vlasy", "appearance#zrzavé vlasy", "appearance#kaštanové vlasy", "appearance#krátké", "appearance#dlouhé", "appearance#rovné", "appearance#vlnité", "appearance#kudrnaté"],
+      "learn": [
+        {"title": "Vlasy a oči", "blocks": [
+          {"type": "text", "cs": "Vzhled popíšeš slovesem *avoir* a určitým členem: *J'ai les cheveux blonds.* (Mám blond vlasy.) *Il a les yeux bleus.* (Má modré oči.) *Cheveux* i *yeux* jsou mužského rodu v množném čísle, proto *blonds, bleus*."},
+          {"type": "table", "firstCs": true, "rows": [
+            ["blond vlasy", "les cheveux blonds"],
+            ["tmavé vlasy", "les cheveux bruns"],
+            ["zrzavé vlasy", "les cheveux roux"],
+            ["kaštanové vlasy", "les cheveux châtains"],
+            ["krátké / dlouhé vlasy", "les cheveux courts / longs"],
+            ["rovné / vlnité / kudrnaté", "raides / ondulés / frisés"],
+            ["modré / zelené / hnědé oči", "les yeux bleus / verts / marron"]
+          ]},
+          {"type": "tip", "title": "un œil, des yeux", "cs": "Jedno oko je *un œil*, oči jsou *des yeux*. Úplně jiné slovo!"},
+          {"type": "check", "item": {"type": "build", "cs": "Mám hnědé oči.", "a": ["J'ai les yeux marron."]}}
+        ]},
+        {"title": "Před, nebo za?", "blocks": [
+          {"type": "text", "cs": "Většina přídavných jmen stojí **za** podstatným jménem: *un garçon timide, une fille sportive*. Několik krátkých a častých stojí **před** ním: *grand, petit, jeune, vieux, beau, joli, nouveau, bon, mauvais*. Například *une petite sœur, un grand frère, une jolie maison*."},
+          {"type": "tip", "title": "bel, nouvel, vieil", "cs": "Před samohláskou mají *beau, nouveau, vieux* zvláštní tvar: *un bel homme, un nouvel ami, un vieil oncle*."},
+          {"type": "examples", "items": [
+            {"fr": "J'ai un grand frère et une petite sœur.", "cs": "Mám staršího bratra a mladší sestru."},
+            {"fr": "C'est une fille très sympathique.", "cs": "Je to velmi sympatická holka."},
+            {"fr": "Mon père a les cheveux courts et les yeux verts.", "cs": "Můj táta má krátké vlasy a zelené oči."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'ai une ___ sœur.", "a": ["petite"], "hint": "malá"}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.2-4-01", "type": "cloze", "fr": "Elle a les cheveux ___.", "a": ["blonds"], "hint": "blond"},
+        {"id": "fr-2.2-4-02", "type": "cloze", "fr": "Il a les yeux ___.", "a": ["verts"], "hint": "zelené"},
+        {"id": "fr-2.2-4-03", "type": "cloze", "fr": "Mon père a les cheveux ___.", "a": ["courts"], "hint": "krátké"},
+        {"id": "fr-2.2-4-04", "type": "cloze", "fr": "Ma sœur a les cheveux ___.", "a": ["longs"], "hint": "dlouhé"},
+        {"id": "fr-2.2-4-05", "type": "cloze", "fr": "Léa a les cheveux ___.", "a": ["roux"], "hint": "zrzavé"},
+        {"id": "fr-2.2-4-06", "type": "cloze", "fr": "J'ai un ___ ami.", "a": ["nouvel"], "hint": "nový", "why": "Před samohláskou se nouveau mění na nouvel."},
+        {"id": "fr-2.2-4-07", "type": "build", "cs": "Mám blond vlasy a modré oči.", "a": ["J'ai les cheveux blonds et les yeux bleus."]},
+        {"id": "fr-2.2-4-08", "type": "build", "cs": "Má krátké tmavé vlasy.", "a": ["{Il|Elle} a les cheveux {courts et bruns|bruns et courts}."]},
+        {"id": "fr-2.2-4-09", "type": "build", "cs": "Mám mladší sestru a staršího bratra.", "a": ["J'ai une petite sœur et un grand frère."]},
+        {"id": "fr-2.2-4-10", "type": "build", "cs": "Je to sympatický kluk.", "a": ["C'est un garçon sympathique."]},
+        {"id": "fr-2.2-4-11", "type": "build", "cs": "Moje babička má kudrnaté vlasy.", "a": ["Ma grand-mère a les cheveux frisés."]},
+        {"id": "fr-2.2-4-12", "type": "transform", "task_cs": "Popiš dívku (ženský rod)", "fr": "C'est un petit garçon blond.", "a": ["C'est une petite fille blonde."]},
+        {"id": "fr-2.2-4-13", "type": "order", "cs": "Můj kamarád má hnědé oči.", "a": ["Mon copain a les yeux marron", "Mon ami a les yeux marron"], "extra": ["marrons", "est"]}
+      ]
+    },
+    {
+      "id": "fr-2.2-5",
+      "title": "Je ne suis pas timide",
+      "subtitle": "Zápor ne... pas",
+      "topics": ["negation"],
+      "words": ["basics#ne", "basics#vůbec ne", "appearance#ošklivý", "personality#nesympatický", "personality#optimista", "personality#pesimista", "personality#spokojený", "personality#blázen"],
+      "learn": [
+        {"title": "Zápor ne... pas", "blocks": [
+          {"type": "text", "cs": "Zápor má ve francouzštině dvě části, které obklopí sloveso: *ne* + sloveso + *pas*. *Je suis timide. → Je ne suis pas timide.* Před samohláskou se *ne* zkracuje na *n'*: *Il n'est pas grand.*"},
+          {"type": "examples", "items": [
+            {"fr": "Je ne suis pas français.", "cs": "Nejsem Francouz."},
+            {"fr": "Elle n'est pas sportive.", "cs": "Není sportovní."},
+            {"fr": "Nous ne sommes pas frères.", "cs": "Nejsme bratři."},
+            {"fr": "Il n'est pas du tout timide.", "cs": "Není vůbec stydlivý."}
+          ]},
+          {"type": "tip", "title": "Zvratná slovesa", "cs": "U zvratných sloves stojí *ne* před zájmenem: *Je ne m'appelle pas Paul.*"},
+          {"type": "check", "item": {"type": "transform", "task_cs": "Převeď do záporu", "fr": "Je suis grand.", "a": ["Je ne suis pas grand."]}}
+        ]},
+        {"title": "pas de", "blocks": [
+          {"type": "text", "cs": "Po záporu se *un, une, des* mění na *de* (před samohláskou *d'*): *J'ai un frère. → Je n'ai pas de frère.* *J'ai un animal. → Je n'ai pas d'animal.*"},
+          {"type": "text", "cs": "Určitý člen *le, la, les* se po záporu nemění: *Il n'a pas les yeux bleus.* A po *être* se nemění nic: *Ce n'est pas un chat.*"},
+          {"type": "tip", "title": "V mluvené řeči", "cs": "Hovorově se *ne* často vynechává: *Je suis pas timide.* Ve škole a v testech ho ale piš vždy."},
+          {"type": "check", "item": {"type": "transform", "task_cs": "Převeď do záporu", "fr": "J'ai une sœur.", "a": ["Je n'ai pas de sœur."]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.2-5-01", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il est timide.", "a": ["Il n'est pas timide."]},
+        {"id": "fr-2.2-5-02", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Nous sommes tchèques.", "a": ["{Nous ne sommes pas|On n'est pas} tchèques."]},
+        {"id": "fr-2.2-5-03", "type": "transform", "task_cs": "Převeď do záporu", "fr": "J'ai un chien.", "a": ["Je n'ai pas de chien."]},
+        {"id": "fr-2.2-5-04", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Elle a des frères.", "a": ["Elle n'a pas de frères."]},
+        {"id": "fr-2.2-5-05", "type": "transform", "task_cs": "Převeď do záporu", "fr": "J'ai un animal.", "a": ["Je n'ai pas d'animal."]},
+        {"id": "fr-2.2-5-06", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Il a les yeux verts.", "a": ["Il n'a pas les yeux verts."], "why": "Určitý člen les se po záporu nemění."},
+        {"id": "fr-2.2-5-07", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Je m'appelle Marc.", "a": ["Je ne m'appelle pas Marc."]},
+        {"id": "fr-2.2-5-08", "type": "transform", "task_cs": "Převeď do záporu", "fr": "C'est un chat.", "a": ["Ce n'est pas un chat."], "why": "Po être se un nemění na de."},
+        {"id": "fr-2.2-5-09", "type": "cloze", "fr": "Je ___ suis pas grand.", "a": ["ne"]},
+        {"id": "fr-2.2-5-10", "type": "cloze", "fr": "Il ___ pas français.", "a": ["n'est"], "hint": "zápor + être"},
+        {"id": "fr-2.2-5-11", "type": "cloze", "fr": "Je n'ai pas ___ frère.", "a": ["de"]},
+        {"id": "fr-2.2-5-12", "type": "cloze", "fr": "Tu n'as pas ___animal ?", "a": ["d'"]},
+        {"id": "fr-2.2-5-13", "type": "build", "cs": "Nejsem stydlivý.", "a": ["Je ne suis pas timide."]},
+        {"id": "fr-2.2-5-14", "type": "build", "cs": "Nemám sestru.", "a": ["Je n'ai pas de sœur."]},
+        {"id": "fr-2.2-5-15", "type": "build", "cs": "Můj bratr není vůbec líný.", "a": ["Mon frère n'est pas du tout paresseux."]},
+        {"id": "fr-2.2-5-16", "type": "build", "cs": "Nejsme Francouzi, jsme Češi.", "a": ["{Nous ne sommes pas|On n'est pas} français, {nous sommes|on est} tchèques."]},
+        {"id": "fr-2.2-5-17", "type": "order", "cs": "Moje sestra nemá modré oči.", "a": ["Ma sœur n'a pas les yeux bleus"], "extra": ["de", "bleues"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-2.2-t-01", "lesson": "fr-2.2-1", "type": "cloze", "fr": "Ma cousine est ___.", "a": ["grande"], "hint": "vysoká"},
+      {"id": "fr-2.2-t-02", "lesson": "fr-2.2-1", "type": "cloze", "fr": "Mes amies sont ___.", "a": ["intelligentes"], "hint": "chytré"},
+      {"id": "fr-2.2-t-03", "lesson": "fr-2.2-1", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est blond.", "a": ["Elle est blonde."]},
+      {"id": "fr-2.2-t-04", "lesson": "fr-2.2-1", "type": "build", "cs": "Můj kamarád je velký a sympatický.", "a": ["{Mon copain|Mon ami} est grand et sympathique."]},
+      {"id": "fr-2.2-t-05", "lesson": "fr-2.2-2", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est sportif.", "a": ["Elle est sportive."]},
+      {"id": "fr-2.2-t-06", "lesson": "fr-2.2-2", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est paresseux.", "a": ["Elle est paresseuse."]},
+      {"id": "fr-2.2-t-07", "lesson": "fr-2.2-2", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est beau.", "a": ["Elle est belle."]},
+      {"id": "fr-2.2-t-08", "lesson": "fr-2.2-2", "type": "cloze", "fr": "Ma tante est ___.", "a": ["curieuse"], "hint": "zvědavá"},
+      {"id": "fr-2.2-t-09", "lesson": "fr-2.2-2", "type": "cloze", "fr": "Mes parents sont ___.", "a": ["heureux"], "hint": "šťastní"},
+      {"id": "fr-2.2-t-10", "lesson": "fr-2.2-2", "type": "build", "cs": "Moje babička je stará a štědrá.", "a": ["Ma grand-mère est vieille et généreuse."]},
+      {"id": "fr-2.2-t-11", "lesson": "fr-2.2-3", "type": "cloze", "fr": "Une robe ___.", "a": ["blanche"], "hint": "bílý"},
+      {"id": "fr-2.2-t-12", "lesson": "fr-2.2-3", "type": "cloze", "fr": "Des yeux ___.", "a": ["verts"], "hint": "zelený"},
+      {"id": "fr-2.2-t-13", "lesson": "fr-2.2-3", "type": "cloze", "fr": "Des chaussures ___.", "a": ["orange"], "hint": "oranžový"},
+      {"id": "fr-2.2-t-14", "lesson": "fr-2.2-4", "type": "build", "cs": "Mám tmavé vlasy a zelené oči.", "a": ["J'ai les cheveux bruns et les yeux verts."]},
+      {"id": "fr-2.2-t-15", "lesson": "fr-2.2-4", "type": "build", "cs": "Moje matka má dlouhé vlasy.", "a": ["Ma mère a les cheveux longs."]},
+      {"id": "fr-2.2-t-16", "lesson": "fr-2.2-4", "type": "build", "cs": "Je to stydlivá holka.", "a": ["C'est une fille timide."]},
+      {"id": "fr-2.2-t-17", "lesson": "fr-2.2-4", "type": "build", "cs": "Mám mladšího bratra.", "a": ["J'ai un petit frère."]},
+      {"id": "fr-2.2-t-18", "lesson": "fr-2.2-4", "type": "cloze", "fr": "C'est un ___ ami.", "a": ["vieil"], "hint": "starý"},
+      {"id": "fr-2.2-t-19", "lesson": "fr-2.2-5", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Je suis paresseux.", "a": ["Je ne suis pas paresseux."]},
+      {"id": "fr-2.2-t-20", "lesson": "fr-2.2-5", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Nous avons un chat.", "a": ["{Nous n'avons pas|On n'a pas} de chat."]},
+      {"id": "fr-2.2-t-21", "lesson": "fr-2.2-5", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Elle a des cousins.", "a": ["Elle n'a pas de cousins."]},
+      {"id": "fr-2.2-t-22", "lesson": "fr-2.2-5", "type": "transform", "task_cs": "Převeď do záporu", "fr": "Tu es timide.", "a": ["Tu n'es pas timide."]},
+      {"id": "fr-2.2-t-23", "lesson": "fr-2.2-5", "type": "build", "cs": "Nemám bratra.", "a": ["Je n'ai pas de frère."]},
+      {"id": "fr-2.2-t-24", "lesson": "fr-2.2-5", "type": "build", "cs": "Moje sestra není vůbec stydlivá.", "a": ["Ma sœur n'est pas du tout timide."]},
+      {"id": "fr-2.2-t-25", "lesson": "fr-2.2-5", "type": "cloze", "fr": "Mon père n'a pas ___ moto.", "a": ["de"]},
+      {"id": "fr-2.2-t-26", "lesson": "fr-2.2-4", "type": "build", "cs": "Máš blond vlasy?", "a": ["{Tu as|As-tu|Est-ce que tu as} les cheveux blonds ?"]}
+    ]
+  }
+}

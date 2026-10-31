@@ -1,0 +1,179 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "phrases",
+  "title": "Greetings & introductions",
+  "unit": "1.1",
+  "level": "A1",
+  "words": [
+    {
+      "q": "dobrý den",
+      "a": "bonjour"
+    },
+    {
+      "q": "ahoj",
+      "a": [
+        "salut",
+        "coucou"
+      ]
+    },
+    {
+      "q": "dobrý večer",
+      "a": "bonsoir"
+    },
+    {
+      "q": "dobrou noc",
+      "a": "bonne nuit"
+    },
+    {
+      "q": "na shledanou",
+      "a": "au revoir"
+    },
+    {
+      "q": "uvidíme se brzy",
+      "a": "à bientôt"
+    },
+    {
+      "q": "uvidíme se zítra",
+      "a": "à demain"
+    },
+    {
+      "q": "uvidíme se později",
+      "a": [
+        "à plus tard",
+        "à plus"
+      ]
+    },
+    {
+      "q": "vítej",
+      "a": "bienvenue"
+    },
+    {
+      "q": "děkuji",
+      "a": "merci"
+    },
+    {
+      "q": "děkuji mockrát",
+      "a": "merci beaucoup"
+    },
+    {
+      "q": "prosím (tykání)",
+      "a": "s'il te plaît"
+    },
+    {
+      "q": "prosím (vykání)",
+      "a": "s'il vous plaît"
+    },
+    {
+      "q": "není zač",
+      "a": "de rien"
+    },
+    {
+      "q": "promiňte",
+      "a": [
+        "pardon",
+        "excusez-moi"
+      ]
+    },
+    {
+      "q": "jak se máš?",
+      "a": [
+        "ça va ?",
+        "comment ça va ?",
+        "comment vas-tu ?"
+      ]
+    },
+    {
+      "q": "jak se máte?",
+      "a": "comment allez-vous ?"
+    },
+    {
+      "q": "mám se dobře",
+      "a": [
+        "je vais bien",
+        "ça va bien",
+        "ça va"
+      ]
+    },
+    {
+      "q": "dobře",
+      "a": "bien"
+    },
+    {
+      "q": "špatně",
+      "a": "mal"
+    },
+    {
+      "q": "ujde to",
+      "a": [
+        "comme ci, comme ça",
+        "comme ci comme ça"
+      ]
+    },
+    {
+      "q": "a ty?",
+      "a": "et toi ?"
+    },
+    {
+      "q": "a vy?",
+      "a": "et vous ?"
+    },
+    {
+      "q": "pan",
+      "a": "monsieur"
+    },
+    {
+      "q": "paní",
+      "a": "madame"
+    },
+    {
+      "q": "těší mě",
+      "a": [
+        "enchanté",
+        "enchantée"
+      ]
+    },
+    {
+      "q": "jmenuji se",
+      "a": "je m'appelle"
+    },
+    {
+      "q": "jak se jmenuješ?",
+      "a": [
+        "comment tu t'appelles ?",
+        "tu t'appelles comment ?",
+        "comment t'appelles-tu ?"
+      ]
+    },
+    {
+      "q": "jak se jmenujete?",
+      "a": [
+        "comment vous appelez-vous ?",
+        "vous vous appelez comment ?"
+      ]
+    },
+    {
+      "q": "kdo je to?",
+      "a": [
+        "qui est-ce ?",
+        "c'est qui ?"
+      ]
+    },
+    {
+      "q": "to je",
+      "a": "c'est"
+    },
+    {
+      "q": "Čech, Češka",
+      "a": "tchèque"
+    },
+    {
+      "q": "Francouz",
+      "a": "français"
+    },
+    {
+      "q": "Francouzka",
+      "a": "française"
+    }
+  ]
+}

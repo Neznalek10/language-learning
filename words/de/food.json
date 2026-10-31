@@ -1,0 +1,22 @@
+{
+  "lang": "de",
+  "from": "cs",
+  "type": "topics",
+  "title": "Food & drink",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {"q": "chléb", "a": "das Brot"},
+    {"q": "voda", "a": "das Wasser"},
+    {"q": "mléko", "a": "die Milch"},
+    {"q": "káva", "a": "der Kaffee"},
+    {"q": "čaj", "a": "der Tee"},
+    {"q": "jablko", "a": "der Apfel"},
+    {"q": "sýr", "a": "der Käse"},
+    {"q": "maso", "a": "das Fleisch"},
+    {"q": "vejce", "a": "das Ei"},
+    {"q": "polévka", "a": "die Suppe"},
+    {"q": "pivo", "a": "das Bier"},
+    {"q": "ryba", "a": "der Fisch"}
+  ]
+}

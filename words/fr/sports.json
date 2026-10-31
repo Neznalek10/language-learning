@@ -1,0 +1,164 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Sports",
+  "unit": "2.3",
+  "level": null,
+  "words": [
+    {
+      "q": "kolo",
+      "a": "vélo"
+    },
+    {
+      "q": "horské kolo",
+      "a": "VTT"
+    },
+    {
+      "q": "cyklistika",
+      "a": "cyclisme"
+    },
+    {
+      "q": "jezdectví",
+      "a": "équitation"
+    },
+    {
+      "q": "lezení",
+      "a": "escalade"
+    },
+    {
+      "q": "plavání",
+      "a": "natation"
+    },
+    {
+      "q": "ragby",
+      "a": "rugby"
+    },
+    {
+      "q": "atletika",
+      "a": "athlétisme"
+    },
+    {
+      "q": "gymnastika",
+      "a": "gymnastique"
+    },
+    {
+      "q": "bruslení",
+      "a": "patinage"
+    },
+    {
+      "q": "šerm",
+      "a": "escrime"
+    },
+    {
+      "q": "veslování",
+      "a": "aviron"
+    },
+    {
+      "q": "horská túra",
+      "a": "randonnée"
+    },
+    {
+      "q": "běh",
+      "a": "course à pied"
+    },
+    {
+      "q": "vrcholový",
+      "a": "de haut niveau"
+    },
+    {
+      "q": "piáno",
+      "a": "piano"
+    },
+    {
+      "q": "housle",
+      "a": "violon"
+    },
+    {
+      "q": "flétna",
+      "a": "flûte"
+    },
+    {
+      "q": "kytara",
+      "a": "guitare"
+    },
+    {
+      "q": "trombón",
+      "a": "trombone"
+    },
+    {
+      "q": "bicí",
+      "a": "batterie"
+    },
+    {
+      "q": "hra",
+      "a": "jeu"
+    },
+    {
+      "q": "soutěž",
+      "a": "concours"
+    },
+    {
+      "q": "volný čas / koníčky",
+      "a": [
+        "loisirs",
+        "loisir"
+      ]
+    },
+    {
+      "q": "fotbal",
+      "a": [
+        "football",
+        "foot"
+      ]
+    },
+    {
+      "q": "basketbal",
+      "a": "basket"
+    },
+    {
+      "q": "tenis",
+      "a": "tennis"
+    },
+    {
+      "q": "hokej",
+      "a": "hockey"
+    },
+    {
+      "q": "florbal",
+      "a": "floorball"
+    },
+    {
+      "q": "volejbal",
+      "a": "volley"
+    },
+    {
+      "q": "házená",
+      "a": "handball"
+    },
+    {
+      "q": "lyžování",
+      "a": "ski"
+    },
+    {
+      "q": "tanec",
+      "a": "danse"
+    },
+    {
+      "q": "videohry",
+      "a": "jeux vidéo"
+    },
+    {
+      "q": "zápas",
+      "a": "match"
+    },
+    {
+      "q": "tým",
+      "a": "équipe"
+    },
+    {
+      "q": "trénink",
+      "a": "entraînement"
+    }
+  ]
+}

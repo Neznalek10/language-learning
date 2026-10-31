@@ -1,0 +1,144 @@
+{
+  "lang": "fr",
+  "from": "cs",
+  "type": "topics",
+  "title": "Professions",
+  "unit": "9",
+  "level": null,
+  "words": [
+    {
+      "q": "povolání",
+      "a": "métier"
+    },
+    {
+      "q": "práce",
+      "a": "travail"
+    },
+    {
+      "q": "plat",
+      "a": "salaire"
+    },
+    {
+      "q": "firma",
+      "a": "entreprise"
+    },
+    {
+      "q": "inženýr",
+      "a": "ingénieur"
+    },
+    {
+      "q": "programátor",
+      "a": [
+        "développeur",
+        "programmeur"
+      ]
+    },
+    {
+      "q": "realitní makléř",
+      "a": "agent immobilier"
+    },
+    {
+      "q": "právník",
+      "a": "avocat"
+    },
+    {
+      "q": "zdravotní sestra",
+      "a": "infirmière"
+    },
+    {
+      "q": "zdravotník",
+      "a": "infirmier"
+    },
+    {
+      "q": "prodavač",
+      "a": "vendeur"
+    },
+    {
+      "q": "prodavačka",
+      "a": "vendeuse"
+    },
+    {
+      "q": "kuchař",
+      "a": "cuisinier"
+    },
+    {
+      "q": "kuchařka",
+      "a": "cuisinière"
+    },
+    {
+      "q": "policista",
+      "a": "policier"
+    },
+    {
+      "q": "policistka",
+      "a": "policière"
+    },
+    {
+      "q": "hasič",
+      "a": "pompier"
+    },
+    {
+      "q": "architekt",
+      "a": "architecte"
+    },
+    {
+      "q": "novinář",
+      "a": "journaliste"
+    },
+    {
+      "q": "účetní",
+      "a": "comptable"
+    },
+    {
+      "q": "podnikatel",
+      "a": "entrepreneur"
+    },
+    {
+      "q": "hudebník",
+      "a": "musicien"
+    },
+    {
+      "q": "hudebnice",
+      "a": "musicienne"
+    },
+    {
+      "q": "bubeník",
+      "a": "batteur"
+    },
+    {
+      "q": "profesionální sportovec",
+      "a": "sportif professionnel"
+    },
+    {
+      "q": "kadeřník",
+      "a": "coiffeur"
+    },
+    {
+      "q": "kadeřnice",
+      "a": "coiffeuse"
+    },
+    {
+      "q": "studium",
+      "a": "études"
+    },
+    {
+      "q": "maturita",
+      "a": "bac"
+    },
+    {
+      "q": "vysoká škola",
+      "a": [
+        "université",
+        "fac"
+      ]
+    },
+    {
+      "q": "později",
+      "a": "plus tard"
+    },
+    {
+      "q": "jednoho dne",
+      "a": "un jour"
+    }
+  ]
+}

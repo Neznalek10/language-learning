@@ -1,0 +1,22 @@
+{
+  "lang": "de",
+  "from": "cs",
+  "type": "topics",
+  "title": "Family",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {"q": "matka", "a": "die Mutter"},
+    {"q": "otec", "a": "der Vater"},
+    {"q": "rodiče", "a": "die Eltern", "note": "plural"},
+    {"q": "bratr", "a": "der Bruder"},
+    {"q": "sestra", "a": "die Schwester"},
+    {"q": "syn", "a": "der Sohn"},
+    {"q": "dcera", "a": "die Tochter"},
+    {"q": "babička", "a": ["die Großmutter", "die Oma"]},
+    {"q": "dědeček", "a": ["der Großvater", "der Opa"]},
+    {"q": "dítě", "a": "das Kind"},
+    {"q": "rodina", "a": "die Familie"},
+    {"q": "kamarád", "a": "der Freund"}
+  ]
+}

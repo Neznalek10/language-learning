@@ -1,0 +1,262 @@
+{
+  "schema": 1,
+  "goals": [
+    "Říct, kolik ti je let, a zeptat se na věk",
+    "Časovat avoir a venir v přítomném čase",
+    "Počítat do 69",
+    "Říct, odkud jsi a jaké jsi národnosti",
+    "Říct, kde bydlíš a jakými jazyky mluvíš"
+  ],
+  "lessons": [
+    {
+      "id": "fr-1.2-1",
+      "title": "J'ai quatorze ans",
+      "subtitle": "Sloveso avoir a věk",
+      "topics": ["avoir", "age"],
+      "words": ["verbs-irregular#mít", "countries#věk", "countries#kolik je ti let?", "time#rok"],
+      "learn": [
+        {"title": "Sloveso avoir (mít)", "blocks": [
+          {"type": "text", "cs": "*Avoir* (mít) je spolu s *être* nejdůležitější francouzské sloveso. Je nepravidelné, takže se ho nauč nazpaměť."},
+          {"type": "table", "verb": "avoir", "tense": "present"},
+          {"type": "tip", "title": "Zkracování", "cs": "Před *ai* se *je* zkracuje: *j'ai* (mám), nikdy *je ai*."},
+          {"type": "examples", "items": [
+            {"fr": "J'ai un frère.", "cs": "Mám bratra."},
+            {"fr": "Tu as un chien ?", "cs": "Máš psa?"},
+            {"fr": "Nous avons un chat.", "cs": "Máme kočku."},
+            {"fr": "Ils ont une maison.", "cs": "Mají dům."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ un chat.", "a": ["avons"], "hint": "avoir"}}
+        ]},
+        {"title": "Kolik je ti let?", "blocks": [
+          {"type": "text", "cs": "Pozor: věk se ve francouzštině neříká slovesem *être*, ale slovesem *avoir*. Doslova říkáš „mám 14 let“: *J'ai quatorze ans.*"},
+          {"type": "table", "firstCs": true, "rows": [
+            ["Kolik je ti let?", "Quel âge as-tu ? / Tu as quel âge ?"],
+            ["Kolik je vám let?", "Quel âge avez-vous ?"],
+            ["Kolik je mu let?", "Quel âge a-t-il ? / Il a quel âge ?"],
+            ["Je mi 14 let.", "J'ai quatorze ans."]
+          ]},
+          {"type": "tip", "title": "Nezapomeň na ans", "cs": "Slovo *ans* (let) se nesmí vynechat: *J'ai quatorze ans*, ne jen *J'ai quatorze*. Jen u jednoho roku je jednotné číslo: *J'ai un an.*"},
+          {"type": "tip", "title": "Proč a-t-il?", "cs": "V otázce *a-t-il ?* se mezi dvě samohlásky vkládá *-t-*, aby se to dalo plynule vyslovit."},
+          {"type": "check", "item": {"type": "build", "cs": "Je mi čtrnáct let.", "a": ["J'ai quatorze ans."]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-1.2-1-f", "type": "form", "verb": "avoir", "tense": "present"},
+        {"id": "fr-1.2-1-01", "type": "cloze", "fr": "J'___ quinze ans.", "a": ["ai"], "hint": "avoir"},
+        {"id": "fr-1.2-1-02", "type": "cloze", "fr": "Tu ___ quel âge ?", "a": ["as"], "hint": "avoir"},
+        {"id": "fr-1.2-1-03", "type": "cloze", "fr": "Paul ___ seize ans.", "a": ["a"], "hint": "avoir"},
+        {"id": "fr-1.2-1-04", "type": "cloze", "fr": "Vous ___ un chien ?", "a": ["avez"], "hint": "avoir"},
+        {"id": "fr-1.2-1-05", "type": "cloze", "fr": "Elles ___ douze ans.", "a": ["ont"], "hint": "avoir"},
+        {"id": "fr-1.2-1-06", "type": "build", "cs": "Je mi čtrnáct let.", "a": ["J'ai quatorze ans."], "why": "Věk se vyjadřuje slovesem avoir a slovem ans."},
+        {"id": "fr-1.2-1-07", "type": "build", "cs": "Kolik je ti let?", "a": ["{Quel âge as-tu|Tu as quel âge|Quel âge est-ce que tu as} ?"]},
+        {"id": "fr-1.2-1-08", "type": "build", "cs": "Je mu dvanáct let.", "a": ["Il a douze ans."]},
+        {"id": "fr-1.2-1-09", "type": "build", "cs": "Kolik je vám let, paní?", "a": ["{Quel âge avez-vous|Vous avez quel âge}, madame ?"]},
+        {"id": "fr-1.2-1-10", "type": "build", "cs": "Mám bratra a sestru.", "a": ["J'ai un frère et une sœur."], "hint": "bratr = un frère, sestra = une sœur"},
+        {"id": "fr-1.2-1-11", "type": "transform", "task_cs": "Převeď do vykání", "fr": "Quel âge as-tu ?", "a": ["{Quel âge avez-vous|Vous avez quel âge} ?"]},
+        {"id": "fr-1.2-1-12", "type": "transform", "task_cs": "Změň osobu na nous", "fr": "J'ai un chat.", "a": ["{Nous avons|On a} un chat."]},
+        {"id": "fr-1.2-1-13", "type": "order", "cs": "Lée je deset let.", "a": ["Léa a dix ans"], "extra": ["est", "as"]},
+        {"id": "fr-1.2-1-14", "type": "build", "cs": "Je mi patnáct let a jsem Čech.", "a": ["J'ai quinze ans et je suis tchèque."]}
+      ]
+    },
+    {
+      "id": "fr-1.2-2",
+      "title": "Les nombres jusqu'à 69",
+      "subtitle": "Čísla 20 až 69",
+      "topics": ["numbers"],
+      "words": ["numbers#dvacet jedna", "numbers#dvacet dva", "numbers#třicet", "numbers#třicet jedna", "numbers#čtyřicet", "numbers#padesát", "numbers#šedesát"],
+      "learn": [
+        {"title": "Desítky", "blocks": [
+          {"type": "table", "firstCs": true, "rows": [["20", "vingt"], ["30", "trente"], ["40", "quarante"], ["50", "cinquante"], ["60", "soixante"]]},
+          {"type": "text", "cs": "Ostatní čísla se skládají z desítky a jednotky, mezi které se píše **spojovník**: *vingt-deux* (22), *trente-cinq* (35), *quarante-huit* (48)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "trente, quarante, ___, soixante", "a": ["cinquante"]}}
+        ]},
+        {"title": "Pozor na jedničku", "blocks": [
+          {"type": "text", "cs": "Když číslo končí jedničkou, píše se mezi desítku a jednotku *et* a spojovník se nepíše: *vingt et un* (21), *trente et un* (31), *quarante et un* (41), *cinquante et un* (51), *soixante et un* (61)."},
+          {"type": "tip", "title": "Nový pravopis", "cs": "Podle pravopisné reformy z roku 1990 se smí psát spojovníky všude: *vingt-et-un*. Správně je obojí."},
+          {"type": "examples", "items": [
+            {"fr": "vingt-trois", "cs": "23"},
+            {"fr": "trente-quatre", "cs": "34"},
+            {"fr": "quarante-cinq", "cs": "45"},
+            {"fr": "cinquante et un", "cs": "51"},
+            {"fr": "soixante-huit", "cs": "68"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "trente-neuf, quarante, ___", "a": ["quarante et un", "quarante-et-un"]}}
+        ]},
+        {"title": "Telefonní čísla", "blocks": [
+          {"type": "text", "cs": "Francouzi čtou telefonní čísla **po dvojicích**: 06 12 34 56 → *zéro six, douze, trente-quatre, cinquante-six*."},
+          {"type": "examples", "items": [
+            {"fr": "Mon numéro, c'est le zéro six, vingt-deux, trente et un, quarante-cinq.", "cs": "Moje číslo je 06 22 31 45."}
+          ]}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-1.2-2-01", "type": "cloze", "fr": "vingt, vingt et un, ___", "a": ["vingt-deux"]},
+        {"id": "fr-1.2-2-02", "type": "cloze", "fr": "J'ai ___ ans.", "a": ["vingt-cinq"], "hint": "25"},
+        {"id": "fr-1.2-2-03", "type": "cloze", "fr": "Il a ___ ans.", "a": ["quarante et un", "quarante-et-un"], "hint": "41"},
+        {"id": "fr-1.2-2-04", "type": "cloze", "fr": "Elle a ___ ans.", "a": ["trente-huit"], "hint": "38"},
+        {"id": "fr-1.2-2-05", "type": "cloze", "fr": "Madame Dubois a ___ ans.", "a": ["cinquante-deux"], "hint": "52"},
+        {"id": "fr-1.2-2-06", "type": "cloze", "fr": "Monsieur Martin a ___ ans.", "a": ["soixante-sept"], "hint": "67"},
+        {"id": "fr-1.2-2-07", "type": "cloze", "fr": "Dix et dix font ___.", "a": ["vingt"]},
+        {"id": "fr-1.2-2-08", "type": "cloze", "fr": "Vingt et vingt font ___.", "a": ["quarante"]},
+        {"id": "fr-1.2-2-09", "type": "cloze", "fr": "Trente et trente font ___.", "a": ["soixante"]},
+        {"id": "fr-1.2-2-10", "type": "cloze", "fr": "Vingt-cinq et vingt-cinq font ___.", "a": ["cinquante"]},
+        {"id": "fr-1.2-2-11", "type": "build", "cs": "Je mi dvacet jedna let.", "a": ["J'ai {vingt et un|vingt-et-un} ans."]},
+        {"id": "fr-1.2-2-12", "type": "build", "cs": "Paulovi je třicet šest let.", "a": ["Paul a trente-six ans."]},
+        {"id": "fr-1.2-2-13", "type": "build", "cs": "Čtyřicet a dvacet je šedesát.", "a": ["Quarante et vingt font soixante."]}
+      ]
+    },
+    {
+      "id": "fr-1.2-3",
+      "title": "Pays et nationalités",
+      "subtitle": "Země a národnosti",
+      "topics": ["nationalities"],
+      "words": ["countries#Francie", "countries#Česko", "countries#Slovensko", "countries#Německo", "countries#Anglie", "countries#Španělsko", "countries#Itálie", "countries#Spojené státy", "countries#Slovák, Slovenka", "countries#Němec", "countries#Němka", "countries#Angličan", "countries#Angličanka", "countries#Španěl", "countries#Španělka", "countries#Ital", "countries#Italka", "countries#Američan", "countries#Američanka"],
+      "learn": [
+        {"title": "Země", "blocks": [
+          {"type": "text", "cs": "Názvy zemí mají ve francouzštině **člen**. Země, které končí na *-e*, jsou většinou ženského rodu: *la France, la Slovaquie, l'Allemagne, l'Italie*. Ostatní jsou mužského rodu: *le Canada, le Portugal*. Některé jsou v množném čísle: *les États-Unis*."},
+          {"type": "table", "firstCs": true, "rows": [
+            ["Česko", "la République tchèque / la Tchéquie"],
+            ["Slovensko", "la Slovaquie"],
+            ["Francie", "la France"],
+            ["Německo", "l'Allemagne"],
+            ["Rakousko", "l'Autriche"],
+            ["Anglie", "l'Angleterre"],
+            ["Španělsko", "l'Espagne"],
+            ["Itálie", "l'Italie"],
+            ["Kanada", "le Canada"],
+            ["USA", "les États-Unis"]
+          ]},
+          {"type": "tip", "title": "Výjimka", "cs": "*Le Mexique* končí na *-e*, a přesto je mužského rodu."},
+          {"type": "check", "item": {"type": "cloze", "fr": "C'est ___ Canada.", "a": ["le"], "hint": "člen"}}
+        ]},
+        {"title": "Národnost", "blocks": [
+          {"type": "text", "cs": "Národnost má mužský a ženský tvar. Většinou se k mužskému tvaru přidá *-e*: *allemand → allemande, anglais → anglaise, espagnol → espagnole, américain → américaine, français → française*."},
+          {"type": "text", "cs": "Některé tvary se mění víc: *italien → italienne, autrichien → autrichienne, canadien → canadienne*. Národnosti, které už končí na *-e*, se nemění: *tchèque, slovaque, belge, suisse*."},
+          {"type": "table", "head": ["muž", "žena"], "rows": [
+            ["français", "française"], ["allemand", "allemande"], ["anglais", "anglaise"], ["espagnol", "espagnole"],
+            ["américain", "américaine"], ["italien", "italienne"], ["tchèque", "tchèque"], ["slovaque", "slovaque"]
+          ]},
+          {"type": "tip", "title": "Malé, nebo velké písmeno?", "cs": "Když národnost popisuje člověka, píše se malým písmenem: *Il est allemand.* Když je to podstatné jméno (Němec), velkým: *un Allemand, une Allemande*."},
+          {"type": "tip", "title": "Výslovnost", "cs": "V mužském tvaru se koncová souhláska nečte (*allemand* [almɑ̃]), v ženském ano (*allemande* [almɑ̃d])."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Marie est ___.", "a": ["allemande"], "hint": "Němka"}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-1.2-3-01", "type": "cloze", "fr": "C'est ___ France.", "a": ["la"], "hint": "člen"},
+        {"id": "fr-1.2-3-02", "type": "cloze", "fr": "Ce sont ___ États-Unis.", "a": ["les"], "hint": "člen"},
+        {"id": "fr-1.2-3-03", "type": "cloze", "fr": "Paul est anglais et Kate est ___.", "a": ["anglaise"], "hint": "Angličanka"},
+        {"id": "fr-1.2-3-04", "type": "cloze", "fr": "Marco est ___.", "a": ["italien"], "hint": "Ital"},
+        {"id": "fr-1.2-3-05", "type": "cloze", "fr": "Giulia est ___.", "a": ["italienne"], "hint": "Italka"},
+        {"id": "fr-1.2-3-06", "type": "cloze", "fr": "Juan et Pablo sont ___.", "a": ["espagnols"], "hint": "Španělé"},
+        {"id": "fr-1.2-3-07", "type": "cloze", "fr": "Lena et Anna sont ___.", "a": ["allemandes"], "hint": "Němky"},
+        {"id": "fr-1.2-3-08", "type": "build", "cs": "Jsem Slovák.", "a": ["Je suis slovaque."]},
+        {"id": "fr-1.2-3-09", "type": "build", "cs": "Ona je Američanka.", "a": ["Elle est américaine."]},
+        {"id": "fr-1.2-3-10", "type": "build", "cs": "Oni jsou Němci.", "a": ["Ils sont allemands."]},
+        {"id": "fr-1.2-3-11", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est espagnol.", "a": ["Elle est espagnole."]},
+        {"id": "fr-1.2-3-12", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est italien.", "a": ["Elle est italienne."]},
+        {"id": "fr-1.2-3-13", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est tchèque.", "a": ["Elle est tchèque."], "why": "Tchèque končí na -e, takže se v ženském rodě nemění."},
+        {"id": "fr-1.2-3-14", "type": "transform", "task_cs": "Převeď do množného čísla", "fr": "Il est américain.", "a": ["Ils sont américains."]},
+        {"id": "fr-1.2-3-15", "type": "order", "cs": "Jsem Češka a ona je Francouzka.", "a": ["Je suis tchèque et elle est française"], "extra": ["français", "il"]}
+      ]
+    },
+    {
+      "id": "fr-1.2-4",
+      "title": "J'habite à Prague",
+      "subtitle": "Bydliště, původ a jazyky",
+      "topics": ["places-prep", "venir"],
+      "words": ["verbs-irregular#přijít, pocházet", "verbs#bydlet", "basics#bydlím", "basics#kde", "basics#odkud", "countries#kde bydlíš?", "countries#odkud jsi?", "countries#země", "countries#jazyk", "countries#čeština", "countries#němčina", "countries#španělština", "school#francouzština", "school#angličtina", "geography#Praha", "geography#Paříž"],
+      "learn": [
+        {"title": "Kde bydlíš?", "blocks": [
+          {"type": "text", "cs": "U **měst** se používá *à*: *J'habite à Prague.* (Bydlím v Praze.) U **zemí** záleží na rodu: ženský rod → *en*, mužský rod → *au*, množné číslo → *aux*."},
+          {"type": "table", "head": ["", "předložka", "příklad"], "firstCs": true, "rows": [
+            ["město", "à", "à Prague, à Paris"],
+            ["země ženského rodu", "en", "en France, en Italie"],
+            ["země mužského rodu", "au", "au Canada, au Portugal"],
+            ["množné číslo", "aux", "aux États-Unis"]
+          ]},
+          {"type": "text", "cs": "Sloveso *habiter* (bydlet) se časuje pravidelně:"},
+          {"type": "table", "verb": "habiter", "tense": "present"},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'habite ___ Prague.", "a": ["à"]}}
+        ]},
+        {"title": "Odkud jsi?", "blocks": [
+          {"type": "text", "cs": "*Venir de* znamená „být odněkud, pocházet z“. Sloveso *venir* je nepravidelné."},
+          {"type": "table", "verb": "venir", "tense": "present"},
+          {"type": "text", "cs": "Před městem a zemí ženského rodu stačí *de* (před samohláskou *d'*): *Je viens de Prague. Je viens de France. Je viens d'Italie.* U zemí mužského rodu je *du*, v množném čísle *des*: *Il vient du Canada. Elle vient des États-Unis.*"},
+          {"type": "examples", "items": [
+            {"fr": "D'où viens-tu ? Je viens de Prague.", "cs": "Odkud jsi? Jsem z Prahy."},
+            {"fr": "Marco vient d'Italie.", "cs": "Marco je z Itálie."},
+            {"fr": "Nous venons du Canada.", "cs": "Jsme z Kanady."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Il vient ___ Canada.", "a": ["du"]}}
+        ]},
+        {"title": "Jazyky", "blocks": [
+          {"type": "text", "cs": "Jazyk má stejný tvar jako národnost v mužském rodě a píše se malým písmenem: *le français, l'anglais, l'allemand, le tchèque*. Po *parler* se člen většinou vynechává: *Je parle français.*"},
+          {"type": "examples", "items": [
+            {"fr": "Je parle tchèque, anglais et un peu français.", "cs": "Mluvím česky, anglicky a trochu francouzsky."},
+            {"fr": "Tu parles allemand ?", "cs": "Mluvíš německy?"},
+            {"fr": "Au Canada, on parle anglais et français.", "cs": "V Kanadě se mluví anglicky a francouzsky."}
+          ]},
+          {"type": "tip", "title": "on = lidé", "cs": "*On parle* znamená „mluví se“. *On* tu označuje lidi obecně."},
+          {"type": "check", "item": {"type": "build", "cs": "Mluvím česky a anglicky.", "a": ["Je parle {|le }tchèque et {|l'}anglais."]}}
+        ]},
+        {"title": "Slovíčka", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-1.2-4-f", "type": "form", "verb": "venir", "tense": "present"},
+        {"id": "fr-1.2-4-01", "type": "cloze", "fr": "J'habite ___ Paris.", "a": ["à"]},
+        {"id": "fr-1.2-4-02", "type": "cloze", "fr": "Nous habitons ___ France.", "a": ["en"]},
+        {"id": "fr-1.2-4-03", "type": "cloze", "fr": "Ils habitent ___ Canada.", "a": ["au"]},
+        {"id": "fr-1.2-4-04", "type": "cloze", "fr": "Elle habite ___ États-Unis.", "a": ["aux"]},
+        {"id": "fr-1.2-4-05", "type": "cloze", "fr": "Je viens ___ Prague.", "a": ["de"]},
+        {"id": "fr-1.2-4-06", "type": "cloze", "fr": "Tu viens ___Italie ?", "a": ["d'"]},
+        {"id": "fr-1.2-4-07", "type": "cloze", "fr": "Paul vient ___ Canada.", "a": ["du"]},
+        {"id": "fr-1.2-4-08", "type": "build", "cs": "Bydlím v Praze.", "a": ["J'habite à Prague."]},
+        {"id": "fr-1.2-4-09", "type": "build", "cs": "Kde bydlíš?", "a": ["{Où habites-tu|Tu habites où|Où est-ce que tu habites} ?"]},
+        {"id": "fr-1.2-4-10", "type": "build", "cs": "Odkud jsi? Jsem z Prahy.", "a": ["{D'où viens-tu|Tu viens d'où|D'où es-tu} ? Je viens de Prague."]},
+        {"id": "fr-1.2-4-11", "type": "build", "cs": "Bydlíme v Česku.", "a": ["{Nous habitons|On habite} en {République tchèque|Tchéquie}."]},
+        {"id": "fr-1.2-4-12", "type": "build", "cs": "Mluvíš francouzsky?", "a": ["{Tu parles|Parles-tu|Est-ce que tu parles} {|le }français ?"]},
+        {"id": "fr-1.2-4-13", "type": "build", "cs": "Jsem z Německa, ale bydlím ve Francii.", "a": ["Je viens d'Allemagne, mais j'habite en France."]},
+        {"id": "fr-1.2-4-14", "type": "order", "cs": "V Kanadě se mluví francouzsky.", "a": ["Au Canada on parle français"], "extra": ["en", "parlons"]},
+        {"id": "fr-1.2-4-15", "type": "transform", "task_cs": "Změň osobu na nous", "fr": "Je viens de Prague.", "a": ["{Nous venons|On vient} de Prague."]},
+        {"id": "fr-1.2-4-16", "type": "transform", "task_cs": "Změň osobu na ils", "fr": "Il vient d'Espagne.", "a": ["Ils viennent d'Espagne."]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-1.2-t-01", "lesson": "fr-1.2-1", "type": "form", "verb": "avoir", "tense": "present", "person": 3},
+      {"id": "fr-1.2-t-02", "lesson": "fr-1.2-1", "type": "form", "verb": "avoir", "tense": "present", "person": 5},
+      {"id": "fr-1.2-t-03", "lesson": "fr-1.2-1", "type": "cloze", "fr": "Léa ___ treize ans.", "a": ["a"], "hint": "avoir"},
+      {"id": "fr-1.2-t-04", "lesson": "fr-1.2-1", "type": "build", "cs": "Je mi třináct let.", "a": ["J'ai treize ans."]},
+      {"id": "fr-1.2-t-05", "lesson": "fr-1.2-1", "type": "build", "cs": "Kolik je mu let?", "a": ["{Quel âge a-t-il|Il a quel âge|Quel âge est-ce qu'il a} ?"]},
+      {"id": "fr-1.2-t-06", "lesson": "fr-1.2-1", "type": "build", "cs": "Máme psa.", "a": ["{Nous avons|On a} un chien."], "hint": "pes = un chien"},
+      {"id": "fr-1.2-t-07", "lesson": "fr-1.2-2", "type": "cloze", "fr": "J'ai ___ ans.", "a": ["quarante-quatre"], "hint": "44"},
+      {"id": "fr-1.2-t-08", "lesson": "fr-1.2-2", "type": "cloze", "fr": "Il a ___ ans.", "a": ["soixante et un", "soixante-et-un"], "hint": "61"},
+      {"id": "fr-1.2-t-09", "lesson": "fr-1.2-2", "type": "cloze", "fr": "trente-cinq, trente-six, ___", "a": ["trente-sept"]},
+      {"id": "fr-1.2-t-10", "lesson": "fr-1.2-2", "type": "build", "cs": "Paní Martinové je padesát let.", "a": ["Madame Martin a cinquante ans."]},
+      {"id": "fr-1.2-t-11", "lesson": "fr-1.2-3", "type": "cloze", "fr": "Hans est ___.", "a": ["allemand"], "hint": "Němec"},
+      {"id": "fr-1.2-t-12", "lesson": "fr-1.2-3", "type": "cloze", "fr": "Kate et Emma sont ___.", "a": ["anglaises"], "hint": "Angličanky"},
+      {"id": "fr-1.2-t-13", "lesson": "fr-1.2-3", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est américain.", "a": ["Elle est américaine."]},
+      {"id": "fr-1.2-t-14", "lesson": "fr-1.2-3", "type": "transform", "task_cs": "Převeď do ženského rodu", "fr": "Il est slovaque.", "a": ["Elle est slovaque."]},
+      {"id": "fr-1.2-t-15", "lesson": "fr-1.2-3", "type": "build", "cs": "Ona je Italka.", "a": ["Elle est italienne."]},
+      {"id": "fr-1.2-t-16", "lesson": "fr-1.2-3", "type": "cloze", "fr": "C'est ___Espagne.", "a": ["l'"], "hint": "člen"},
+      {"id": "fr-1.2-t-17", "lesson": "fr-1.2-4", "type": "form", "verb": "venir", "tense": "present", "person": 4},
+      {"id": "fr-1.2-t-18", "lesson": "fr-1.2-4", "type": "form", "verb": "venir", "tense": "present", "person": 5},
+      {"id": "fr-1.2-t-19", "lesson": "fr-1.2-4", "type": "cloze", "fr": "J'habite ___ Lyon.", "a": ["à"]},
+      {"id": "fr-1.2-t-20", "lesson": "fr-1.2-4", "type": "cloze", "fr": "Ils habitent ___ Allemagne.", "a": ["en"]},
+      {"id": "fr-1.2-t-21", "lesson": "fr-1.2-4", "type": "cloze", "fr": "Elle vient ___ États-Unis.", "a": ["des"]},
+      {"id": "fr-1.2-t-22", "lesson": "fr-1.2-4", "type": "build", "cs": "Bydlím v Paříži, ale jsem z Prahy.", "a": ["J'habite à Paris, mais je viens de Prague."]},
+      {"id": "fr-1.2-t-23", "lesson": "fr-1.2-4", "type": "build", "cs": "Odkud jste?", "a": ["{D'où venez-vous|Vous venez d'où|D'où êtes-vous} ?"]},
+      {"id": "fr-1.2-t-24", "lesson": "fr-1.2-4", "type": "build", "cs": "Mluvíme česky.", "a": ["{Nous parlons|On parle} {|le }tchèque."]},
+      {"id": "fr-1.2-t-25", "lesson": "fr-1.2-4", "type": "build", "cs": "Bydlí v Kanadě.", "a": ["{Il|Elle} habite au Canada."]},
+      {"id": "fr-1.2-t-26", "lesson": "fr-1.2-4", "type": "transform", "task_cs": "Převeď do vykání", "fr": "Tu viens d'où ?", "a": ["{Vous venez d'où|D'où venez-vous} ?"]},
+      {"id": "fr-1.2-t-27", "lesson": "fr-1.2-1", "type": "build", "cs": "Je mi patnáct let a bydlím v Praze.", "a": ["J'ai quinze ans et j'habite à Prague."]}
+    ]
+  }
+}
