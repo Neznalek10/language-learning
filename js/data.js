@@ -64,6 +64,22 @@ export function levelKey(value) {
   return DIFFICULTIES.includes(key) ? key : null;
 }
 
+// The language the learner already speaks: word prompts, lessons and drills come in it. Menus stay English.
+export const BASES = {
+  cs: { name: 'Čeština', manifest: 'words.json' },
+  en: { name: 'English', manifest: 'en/words.json' },
+};
+export const guessBase = () => (/^(cs|sk)\b/i.test(navigator.language || '') ? 'cs' : 'en');
+let base = 'cs';
+let promptDir = 'prompts/';
+export const baseLang = () => base;
+export const promptUrl = name => `./${promptDir}${name}.md`;
+export const feedbackOptions = () => [
+  { value: 'en', label: 'English' },
+  ...(base === 'cs' ? [{ value: 'cs', label: 'Czech' }] : []),
+  { value: 'fr', label: 'French' },
+];
+
 let languageMeta = {};
 const displayNames = typeof Intl.DisplayNames === 'function' ? new Intl.DisplayNames(['en'], { type: 'language' }) : null;
 
@@ -118,8 +134,9 @@ export function cleanWords(list) {
   return { words: [...byKey.values()], duplicates, skipped };
 }
 
+// "words/fr/food.json" and "en/words/fr/food.json" are both "fr/food", so the course finds its words in either.
 export function deckIdFromPath(path) {
-  return path.replace(/^(\.\/)?(words\/)?/, '').replace(/\.json$/i, '');
+  return path.replace(/^(\.\/)?([a-z]{2}\/(?=words\/))?(words\/)?/, '').replace(/\.json$/i, '');
 }
 
 export function buildDeck(raw, id, local, additions = []) {
@@ -129,7 +146,7 @@ export function buildDeck(raw, id, local, additions = []) {
     id,
     local,
     lang: langCode(raw.lang),
-    from: langCode(raw.from || 'cs'),
+    from: langCode(raw.from || base),
     type: langCode(raw.type || 'other'),
     title: String(raw.title || id),
     unit: unitKey(raw.unit),
@@ -151,8 +168,10 @@ async function fetchJson(url) {
   return res.json();
 }
 
-export async function loadLibrary() {
-  const index = await fetchJson('./words.json');
+export async function loadLibrary(code) {
+  const index = await fetchJson(`./${BASES[code].manifest}`);
+  base = code;
+  promptDir = index.prompts || 'prompts/';
   languageMeta = index.languages || {};
   const paths = [...new Set(index.decks || [])];
   const settled = await Promise.allSettled(paths.map(p => fetchJson(`./${p}`)));

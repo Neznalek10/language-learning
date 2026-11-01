@@ -1,0 +1,2595 @@
+{
+  "articles": [
+    {
+      "id": "question-types",
+      "title": "Three ways to ask a question",
+      "fr": "poser une question",
+      "level": "A1",
+      "keywords": [
+        "question",
+        "interrogative",
+        "est-ce que",
+        "inversion",
+        "intonation",
+        "how to ask",
+        "asking questions"
+      ],
+      "topics": [
+        "questions"
+      ],
+      "see": [
+        "question-words",
+        "inversion",
+        "quel",
+        "si-yes"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "way",
+                "example",
+                "where"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "intonation (voice goes up)",
+                  "Tu viens ?",
+                  "in speech, the most common"
+                ],
+                [
+                  "est-ce que + statement",
+                  "Est-ce que tu viens ?",
+                  "neutral, fits everywhere"
+                ],
+                [
+                  "inversion (verb-pronoun)",
+                  "Viens-tu ?",
+                  "careful, formal"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "All three mean \"Are you coming?\". The word order of a statement changes only with inversion."
+            }
+          ]
+        },
+        {
+          "title": "Est-ce que",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Est-ce que* (literally \"is it that\") goes before any statement and turns it into a question. The word order stays. Before a vowel: *est-ce qu'il, est-ce qu'elle*."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "q",
+                      "Est-ce que"
+                    ],
+                    [
+                      "S",
+                      "tu"
+                    ],
+                    [
+                      "V",
+                      "aimes"
+                    ],
+                    [
+                      "obj",
+                      "le sport ?"
+                    ]
+                  ],
+                  "en": "Do you like sport?"
+                },
+                {
+                  "parts": [
+                    [
+                      "q",
+                      "Est-ce qu'"
+                    ],
+                    [
+                      "S",
+                      "il"
+                    ],
+                    [
+                      "V",
+                      "pleut ?"
+                    ]
+                  ],
+                  "en": "Is it raining?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Inversion",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The verb and the pronoun swap places and are joined with a hyphen."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "V",
+                      "Aimes"
+                    ],
+                    [
+                      "S",
+                      "-tu"
+                    ],
+                    [
+                      "obj",
+                      "le sport ?"
+                    ]
+                  ],
+                  "en": "Do you like sport?"
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "inversion"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Do you have a sister?",
+                  "wrong": "As tu une sœur ?",
+                  "fr": "[[As-tu]] une sœur ?",
+                  "note": "With inversion, don't forget the hyphen."
+                },
+                {
+                  "en": "Does he speak French?",
+                  "wrong": "Est-ce que parle-t-il français ?",
+                  "fr": "[[Est-ce qu']]il parle français ?",
+                  "note": "*Est-ce que* and inversion are not combined."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu as faim ?",
+                  "en": "Are you hungry?"
+                },
+                {
+                  "fr": "Est-ce que vous parlez anglais ?",
+                  "en": "Do you speak English?"
+                },
+                {
+                  "fr": "Parlez-vous anglais ?",
+                  "en": "Do you speak English?"
+                },
+                {
+                  "fr": "Est-ce qu'il y a un bus ?",
+                  "en": "Is there a bus?"
+                },
+                {
+                  "fr": "C'est loin ?",
+                  "en": "Is it far?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-question-types-01",
+          "type": "transform",
+          "task_en": "Make it a question with est-ce que",
+          "fr": "Tu aimes le chocolat.",
+          "a": [
+            "Est-ce que tu aimes le chocolat ?"
+          ]
+        },
+        {
+          "id": "g-question-types-02",
+          "type": "transform",
+          "task_en": "Make it a question with est-ce que",
+          "fr": "Il habite à Paris.",
+          "a": [
+            "Est-ce qu'il habite à Paris ?"
+          ]
+        },
+        {
+          "id": "g-question-types-03",
+          "type": "transform",
+          "task_en": "Make it a question with inversion",
+          "fr": "Vous parlez français.",
+          "a": [
+            "Parlez-vous français ?"
+          ]
+        },
+        {
+          "id": "g-question-types-04",
+          "type": "build",
+          "en": "Are you hungry?",
+          "a": [
+            "Tu as faim ?",
+            "Est-ce que tu as faim ?",
+            "As-tu faim ?"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "questions",
+          "tag": "est-ce-que",
+          "label": "Drill est-ce que"
+        },
+        {
+          "set": "questions",
+          "tag": "inversion",
+          "label": "Drill inversion"
+        }
+      ]
+    },
+    {
+      "id": "questions-every-form",
+      "title": "How to ask a question: every form",
+      "fr": "former les questions",
+      "level": "A1",
+      "levelTo": "B1",
+      "keywords": [
+        "question",
+        "ask a question",
+        "how to ask",
+        "est-ce que",
+        "inversion",
+        "intonation",
+        "question words",
+        "qu'est-ce que",
+        "qui est-ce que",
+        "où quand comment",
+        "yes no question",
+        "questions in every tense",
+        "interrogation",
+        "interrogatif"
+      ],
+      "topics": [],
+      "see": [
+        "question-types",
+        "question-words",
+        "inversion",
+        "qui-que-quoi",
+        "quel",
+        "question-prepositions",
+        "indirect-questions",
+        "answering"
+      ],
+      "drills": [
+        {
+          "set": "questions",
+          "tag": "est-ce-que",
+          "label": "Drill est-ce que"
+        },
+        {
+          "set": "questions",
+          "tag": "inversion",
+          "label": "Drill inversion"
+        },
+        {
+          "set": "questions",
+          "tag": "ou",
+          "label": "Drill question words"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "There are **two big families** of questions. **Yes / no questions** (*Do you like it?*) and **questions with a question word** (*Where do you live?*). Each can be formed in **three ways**: **intonation** (voice up), **est-ce que** (add before the statement), **inversion** (swap verb and subject)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "",
+                "intonation (spoken)",
+                "est-ce que (neutral)",
+                "inversion (formal)"
+              ],
+              "rows": [
+                [
+                  "yes / no",
+                  "Tu aimes ça ?",
+                  "Est-ce que tu aimes ça ?",
+                  "Aimes-tu ça ?"
+                ],
+                [
+                  "where",
+                  "Tu habites où ?",
+                  "Où est-ce que tu habites ?",
+                  "Où habites-tu ?"
+                ],
+                [
+                  "when",
+                  "Il arrive quand ?",
+                  "Quand est-ce qu'il arrive ?",
+                  "Quand arrive-t-il ?"
+                ],
+                [
+                  "what (object)",
+                  "Tu manges quoi ?",
+                  "Qu'est-ce que tu manges ?",
+                  "Que manges-tu ?"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Yes / no questions",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**1. Intonation**: keep the statement and raise your voice (writing: add *?*). **2. Est-ce que**: put *Est-ce que* (*est-ce qu'* before a vowel) in front. **3. Inversion**: put the subject **pronoun after the verb**, joined with a hyphen. For *il, elle, on* after a vowel add **-t-**: *a-t-il, parle-t-elle*."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Vous"
+                    ],
+                    [
+                      "V",
+                      "parlez"
+                    ],
+                    [
+                      "obj",
+                      "français ?"
+                    ]
+                  ],
+                  "en": "intonation"
+                },
+                {
+                  "parts": [
+                    [
+                      "q",
+                      "Est-ce que"
+                    ],
+                    [
+                      "S",
+                      "vous"
+                    ],
+                    [
+                      "V",
+                      "parlez"
+                    ],
+                    [
+                      "obj",
+                      "français ?"
+                    ]
+                  ],
+                  "en": "est-ce que"
+                },
+                {
+                  "parts": [
+                    [
+                      "V",
+                      "Parlez"
+                    ],
+                    [
+                      "S",
+                      "-vous"
+                    ],
+                    [
+                      "obj",
+                      "français ?"
+                    ]
+                  ],
+                  "en": "inversion"
+                },
+                {
+                  "parts": [
+                    [
+                      "V",
+                      "Parle"
+                    ],
+                    [
+                      "S",
+                      "-t-il"
+                    ],
+                    [
+                      "obj",
+                      "français ?"
+                    ]
+                  ],
+                  "en": "inversion with -t-"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Questions with a question word",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Put the **question word first** (informal: **last**). The word order after it is the same three ways. For a **noun subject** use *est-ce que* (*Où est-ce que Paul habite ?*) or **inversion with a pronoun** (*Où Paul habite-t-il ?*) or **simple inversion** with short verbs (*Où habite Paul ?*)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "question word",
+                "meaning",
+                "example"
+              ],
+              "rows": [
+                [
+                  "qui",
+                  "who",
+                  "Qui est-ce ? / Avec qui parles-tu ?"
+                ],
+                [
+                  "que, qu'est-ce que",
+                  "what",
+                  "Que fais-tu ? / Qu'est-ce que tu fais ?"
+                ],
+                [
+                  "quoi",
+                  "what (after a preposition or last)",
+                  "De quoi parles-tu ? / Tu fais quoi ?"
+                ],
+                [
+                  "où",
+                  "where",
+                  "Où vas-tu ?"
+                ],
+                [
+                  "quand",
+                  "when",
+                  "Quand pars-tu ?"
+                ],
+                [
+                  "comment",
+                  "how",
+                  "Comment vas-tu ?"
+                ],
+                [
+                  "pourquoi",
+                  "why",
+                  "Pourquoi pleures-tu ?"
+                ],
+                [
+                  "combien (de)",
+                  "how much / many",
+                  "Combien de frères as-tu ?"
+                ],
+                [
+                  "quel(le)(s) + noun",
+                  "which, what",
+                  "Quelle heure est-il ?"
+                ],
+                [
+                  "lequel...",
+                  "which one",
+                  "Lequel préfères-tu ?"
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Qui, que, quoi: the long forms",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "person",
+                "thing"
+              ],
+              "rows": [
+                [
+                  "subject",
+                  "Qui est-ce qui (Qui) vient ?",
+                  "Qu'est-ce qui se passe ?"
+                ],
+                [
+                  "object",
+                  "Qui est-ce que tu cherches ? (Qui cherches-tu ?)",
+                  "Qu'est-ce que tu cherches ? (Que cherches-tu ?)"
+                ],
+                [
+                  "after a preposition",
+                  "À qui parles-tu ?",
+                  "De quoi parles-tu ?"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Qu'est-ce que* is the question *what* + object, *qu'est-ce qui* is *what* + subject. After a **preposition** only *qui* (person) or *quoi* (thing) work: *avec qui, à quoi*."
+            }
+          ]
+        },
+        {
+          "title": "In every tense",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Compound tenses**: only the **auxiliary** is inverted (*As-tu mangé ? Est-elle partie ?*). With **two verbs** invert the first (*Peux-tu venir ?*). With **reflexive verbs** the pronoun stays in front (*Te lèves-tu ?*, *T'es-tu levé ?*). **Pronouns** stay in front of the verb (*Le vois-tu ? L'as-tu vu ?*). **Negative** questions put *ne ... pas* around the inverted block (*N'as-tu pas faim ?*)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "As-tu fini tes devoirs ?",
+                  "en": "Have you finished your homework?"
+                },
+                {
+                  "fr": "Où est-elle allée ?",
+                  "en": "Where did she go?"
+                },
+                {
+                  "fr": "Le professeur a-t-il corrigé les tests ?",
+                  "en": "Did the teacher mark the tests?"
+                },
+                {
+                  "fr": "Ne veux-tu pas venir ?",
+                  "en": "Don't you want to come?"
+                },
+                {
+                  "fr": "Pourquoi t'es-tu levé si tôt ?",
+                  "en": "Why did you get up so early?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tag questions and answering",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**N'est-ce pas ?** at the end asks for agreement (*Il fait beau, n'est-ce pas ?*). In speech also **non ?**, **hein ?**, **d'accord ?** Answer with **oui / non**; to contradict a **negative question** use **si**."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il fait beau, n'est-ce pas ?",
+                  "en": "It's nice, isn't it?"
+                },
+                {
+                  "fr": "Tu viens, d'accord ?",
+                  "en": "You're coming, OK?"
+                },
+                {
+                  "fr": "Tu ne viens pas ? – Si !",
+                  "en": "You're not coming? – Yes, I am!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Typical mistakes",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Do you speak French?",
+                  "wrong": "Vous parlez-vous français ?",
+                  "fr": "[[Parlez-vous]] français ? / [[Est-ce que]] vous parlez français ?",
+                  "note": "Do not combine both."
+                },
+                {
+                  "en": "Where do you live?",
+                  "wrong": "Où est-ce que habites-tu ?",
+                  "fr": "Où [[habites-tu]] ? / Où [[est-ce que tu habites]] ?"
+                },
+                {
+                  "en": "What are you eating?",
+                  "wrong": "Qu'est-ce que manges-tu ?",
+                  "fr": "[[Qu'est-ce que]] tu manges ? / [[Que]] manges-tu ?"
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "question-types",
+                "question-words",
+                "inversion",
+                "qui-que-quoi",
+                "quel",
+                "question-prepositions",
+                "indirect-questions",
+                "answering"
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-questions-every-form-01",
+          "type": "transform",
+          "task_en": "Ask with est-ce que",
+          "fr": "Tu aimes le chocolat.",
+          "a": [
+            "Est-ce que tu aimes le chocolat ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-02",
+          "type": "transform",
+          "task_en": "Ask with inversion",
+          "fr": "Vous parlez français.",
+          "a": [
+            "Parlez-vous français ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-03",
+          "type": "transform",
+          "task_en": "Ask with inversion",
+          "fr": "Il habite à Paris.",
+          "a": [
+            "Habite-t-il à Paris ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-04",
+          "type": "transform",
+          "task_en": "Ask with inversion (passé composé)",
+          "fr": "Tu as mangé.",
+          "a": [
+            "As-tu mangé ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-05",
+          "type": "transform",
+          "task_en": "Ask about the place (est-ce que)",
+          "fr": "Il habite à Lyon.",
+          "a": [
+            "Où est-ce qu'il habite ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-06",
+          "type": "transform",
+          "task_en": "Ask about the time (inversion)",
+          "fr": "Il arrive demain.",
+          "a": [
+            "Quand arrive-t-il ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-07",
+          "type": "transform",
+          "task_en": "Ask about the thing (est-ce que)",
+          "fr": "Tu manges une pomme.",
+          "a": [
+            "Qu'est-ce que tu manges ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-08",
+          "type": "transform",
+          "task_en": "Ask about the person (inversion)",
+          "fr": "Tu cherches Paul.",
+          "a": [
+            "Qui cherches-tu ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-09",
+          "type": "transform",
+          "task_en": "Ask a negative question (inversion)",
+          "fr": "Tu ne viens pas.",
+          "a": [
+            "Ne viens-tu pas ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-10",
+          "type": "build",
+          "en": "Where do you live?",
+          "a": [
+            "Où habites-tu ?",
+            "Où est-ce que tu habites ?",
+            "Tu habites où ?",
+            "Où tu habites ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-11",
+          "type": "build",
+          "en": "How are you? (vous)",
+          "a": [
+            "Comment allez-vous ?",
+            "Comment est-ce que vous allez ?",
+            "Vous allez comment ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-12",
+          "type": "build",
+          "en": "Why are you crying? (tu)",
+          "a": [
+            "Pourquoi pleures-tu ?",
+            "Pourquoi est-ce que tu pleures ?",
+            "Pourquoi tu pleures ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-13",
+          "type": "build",
+          "en": "What are you doing?",
+          "a": [
+            "Qu'est-ce que tu fais ?",
+            "Que fais-tu ?",
+            "Tu fais quoi ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-14",
+          "type": "build",
+          "en": "Have you finished?",
+          "a": [
+            "As-tu fini ?",
+            "Est-ce que tu as fini ?",
+            "Tu as fini ?"
+          ]
+        },
+        {
+          "id": "g-questions-every-form-15",
+          "type": "cloze",
+          "fr": "___-tu faim ?",
+          "a": [
+            "As"
+          ],
+          "en": "Are you hungry?"
+        },
+        {
+          "id": "g-questions-every-form-16",
+          "type": "cloze",
+          "fr": "Où ___-t-il ?",
+          "a": [
+            "habite"
+          ],
+          "hint": "habiter",
+          "en": "Where does he live?"
+        }
+      ]
+    },
+    {
+      "id": "answering",
+      "title": "Answering: oui, non, si, moi aussi, pas du tout",
+      "fr": "répondre",
+      "level": "A1",
+      "keywords": [
+        "answer",
+        "oui",
+        "non",
+        "si",
+        "moi aussi",
+        "moi non plus",
+        "pas du tout",
+        "peut-être",
+        "bien sûr",
+        "d'accord",
+        "je ne sais pas",
+        "short answers",
+        "ça dépend",
+        "agree",
+        "disagree",
+        "yes no"
+      ],
+      "topics": [],
+      "see": [
+        "si-yes",
+        "question-types",
+        "negation-every-form",
+        "stressed-advanced"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A short answer needs only **oui** (yes), **non** (no) or **si** (yes, to a **negative** question). You can add a short phrase to be polite or precise. Use **moi aussi / moi non plus** to agree, **pas moi / moi si** to disagree."
+            },
+            {
+              "type": "table",
+              "head": [
+                "question",
+                "answer",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "Tu aimes le sport ?",
+                  "Oui, j'adore ça.",
+                  "Yes, I love it."
+                ],
+                [
+                  "Tu aimes le sport ?",
+                  "Non, pas du tout.",
+                  "No, not at all."
+                ],
+                [
+                  "Tu n'aimes pas le sport ?",
+                  "Si, j'aime ça.",
+                  "Yes, I do like it."
+                ],
+                [
+                  "Tu n'aimes pas le sport ?",
+                  "Non, je n'aime pas ça.",
+                  "No, I don't."
+                ],
+                [
+                  "Je suis fatigué.",
+                  "Moi aussi.",
+                  "Me too."
+                ],
+                [
+                  "Je n'ai pas faim.",
+                  "Moi non plus.",
+                  "Me neither."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Oui or si?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Si** is the **yes that contradicts a negative**. **Oui** answers a positive question. If you agree with a negative question you say **non**."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Aren't you hungry? Yes, I am.",
+                  "wrong": "Tu n'as pas faim ? – Oui, j'ai faim.",
+                  "fr": "Tu n'as pas faim ? – [[Si]], j'ai faim."
+                },
+                {
+                  "en": "Aren't you coming? No, I'm not.",
+                  "wrong": "Tu ne viens pas ? – Si, je ne viens pas.",
+                  "fr": "Tu ne viens pas ? – [[Non]], je ne viens pas."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Useful short answers",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "phrase",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "bien sûr / évidemment",
+                  "of course"
+                ],
+                [
+                  "d'accord",
+                  "OK, agreed"
+                ],
+                [
+                  "peut-être",
+                  "perhaps"
+                ],
+                [
+                  "ça dépend",
+                  "it depends"
+                ],
+                [
+                  "pas du tout",
+                  "not at all"
+                ],
+                [
+                  "pas encore",
+                  "not yet"
+                ],
+                [
+                  "je ne sais pas / aucune idée",
+                  "I don't know / no idea"
+                ],
+                [
+                  "tout à fait",
+                  "absolutely"
+                ],
+                [
+                  "pas vraiment",
+                  "not really"
+                ],
+                [
+                  "moi non",
+                  "not me"
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Full answers",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To answer a question fully, **repeat the verb** instead of the pronoun: *Tu viens ? – Oui, je viens.* Do not say *Oui, je fais* instead of the verb in the question. Short answers like *Je le crois* or *Je l'espère* replace a clause (see the neutral *le*)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu parles français ? – Oui, je le parle un peu.",
+                  "en": "Do you speak French? – Yes, a little."
+                },
+                {
+                  "fr": "Il vient demain ? – Je pense que oui.",
+                  "en": "Is he coming tomorrow? – I think so."
+                },
+                {
+                  "fr": "Tu as des frères ? – Non, je n'en ai pas.",
+                  "en": "Do you have brothers? – No, I don't."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu viens ? – Bien sûr !",
+                  "en": "Are you coming? – Of course!"
+                },
+                {
+                  "fr": "Tu aimes les araignées ? – Pas du tout.",
+                  "en": "Do you like spiders? – Not at all."
+                },
+                {
+                  "fr": "Tu n'es pas content ? – Si, très.",
+                  "en": "Aren't you happy? – Yes, very."
+                },
+                {
+                  "fr": "J'ai faim. – Moi aussi.",
+                  "en": "I'm hungry. – Me too."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-answering-01",
+          "type": "build",
+          "en": "Of course!",
+          "a": [
+            "Bien sûr !",
+            "Évidemment !"
+          ]
+        },
+        {
+          "id": "g-answering-02",
+          "type": "build",
+          "en": "Not at all.",
+          "a": [
+            "Pas du tout."
+          ]
+        },
+        {
+          "id": "g-answering-03",
+          "type": "build",
+          "en": "Me too.",
+          "a": [
+            "Moi aussi."
+          ]
+        },
+        {
+          "id": "g-answering-04",
+          "type": "build",
+          "en": "Me neither.",
+          "a": [
+            "Moi non plus."
+          ]
+        },
+        {
+          "id": "g-answering-05",
+          "type": "build",
+          "en": "It depends.",
+          "a": [
+            "Ça dépend."
+          ]
+        },
+        {
+          "id": "g-answering-06",
+          "type": "cloze",
+          "fr": "Tu n'as pas faim ? – ___, j'ai faim.",
+          "a": [
+            "Si"
+          ],
+          "en": "Aren't you hungry? – Yes, I am."
+        },
+        {
+          "id": "g-answering-07",
+          "type": "cloze",
+          "fr": "Tu viens ? – ___, bien sûr.",
+          "a": [
+            "Oui"
+          ],
+          "en": "Are you coming? – Yes, of course."
+        },
+        {
+          "id": "g-answering-08",
+          "type": "cloze",
+          "fr": "Je n'aime pas le poisson. – Moi ___ plus.",
+          "a": [
+            "non"
+          ],
+          "en": "I don't like fish. – Me neither."
+        },
+        {
+          "id": "g-answering-09",
+          "type": "cloze",
+          "fr": "J'adore ça. – Moi ___.",
+          "a": [
+            "aussi"
+          ],
+          "en": "I love it. – Me too."
+        }
+      ]
+    },
+    {
+      "id": "question-words",
+      "title": "Question words and where they go",
+      "fr": "les mots interrogatifs",
+      "level": "A1",
+      "keywords": [
+        "question words",
+        "qui",
+        "quoi",
+        "où",
+        "quand",
+        "comment",
+        "pourquoi",
+        "combien",
+        "who",
+        "what",
+        "where",
+        "when",
+        "how",
+        "why",
+        "how much",
+        "from where"
+      ],
+      "topics": [
+        "questions"
+      ],
+      "see": [
+        "question-types",
+        "quel",
+        "qui-que-quoi",
+        "inversion"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "qui",
+                  "who"
+                ],
+                [
+                  "que, quoi",
+                  "what"
+                ],
+                [
+                  "où",
+                  "where"
+                ],
+                [
+                  "d'où",
+                  "from where"
+                ],
+                [
+                  "quand",
+                  "when"
+                ],
+                [
+                  "comment",
+                  "how"
+                ],
+                [
+                  "pourquoi",
+                  "why"
+                ],
+                [
+                  "combien (de)",
+                  "how much, how many"
+                ],
+                [
+                  "quel, quelle",
+                  "which, what"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Where the question word goes",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The same question can be asked in three ways. The question word is either **at the end** (speech), or **at the start** with *est-ce que* or with inversion."
+            },
+            {
+              "type": "table",
+              "head": [
+                "speech",
+                "with est-ce que",
+                "inversion"
+              ],
+              "rows": [
+                [
+                  "Tu vas où ?",
+                  "Où est-ce que tu vas ?",
+                  "Où vas-tu ?"
+                ],
+                [
+                  "Tu pars quand ?",
+                  "Quand est-ce que tu pars ?",
+                  "Quand pars-tu ?"
+                ],
+                [
+                  "Il s'appelle comment ?",
+                  "Comment est-ce qu'il s'appelle ?",
+                  "Comment s'appelle-t-il ?"
+                ],
+                [
+                  "Ça coûte combien ?",
+                  "Combien est-ce que ça coûte ?",
+                  "Combien cela coûte-t-il ?"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Que or quoi?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Que* stands at the start (*Qu'est-ce que tu fais ?*), *quoi* at the end or after a preposition (*Tu fais quoi ? À quoi tu penses ?*). The answer to *pourquoi* is *parce que*."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "qui-que-quoi"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Qui est-ce ?",
+                  "en": "Who is it?"
+                },
+                {
+                  "fr": "Où est la gare ?",
+                  "en": "Where is the station?"
+                },
+                {
+                  "fr": "Comment tu t'appelles ?",
+                  "en": "What's your name?"
+                },
+                {
+                  "fr": "Pourquoi tu es en retard ?",
+                  "en": "Why are you late?"
+                },
+                {
+                  "fr": "Combien de frères as-tu ?",
+                  "en": "How many brothers do you have?"
+                },
+                {
+                  "fr": "D'où viens-tu ?",
+                  "en": "Where do you come from?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-question-words-01",
+          "type": "cloze",
+          "fr": "___ tu habites ? À Prague.",
+          "a": [
+            "Où"
+          ],
+          "en": "Where do you live? In Prague."
+        },
+        {
+          "id": "g-question-words-02",
+          "type": "cloze",
+          "fr": "___ tu t'appelles ?",
+          "a": [
+            "Comment"
+          ],
+          "en": "What's your name?"
+        },
+        {
+          "id": "g-question-words-03",
+          "type": "cloze",
+          "fr": "Tu pars ___ ? Demain.",
+          "a": [
+            "quand"
+          ],
+          "en": "When are you leaving? Tomorrow."
+        },
+        {
+          "id": "g-question-words-04",
+          "type": "cloze",
+          "fr": "___ est-ce que tu ne viens pas ? Parce que je suis malade.",
+          "a": [
+            "Pourquoi"
+          ],
+          "en": "Why aren't you coming? Because I'm ill."
+        },
+        {
+          "id": "g-question-words-05",
+          "type": "transform",
+          "task_en": "Put the question word at the start (with est-ce que)",
+          "fr": "Tu vas où ?",
+          "a": [
+            "Où est-ce que tu vas ?"
+          ]
+        },
+        {
+          "id": "g-question-words-06",
+          "type": "build",
+          "en": "How much does it cost?",
+          "a": [
+            "Ça coûte combien ?",
+            "Combien ça coûte ?",
+            "Combien est-ce que ça coûte ?",
+            "C'est combien ?"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "questions",
+          "tag": "ou",
+          "label": "Drill où"
+        },
+        {
+          "set": "questions",
+          "tag": "quand",
+          "label": "Drill quand"
+        },
+        {
+          "set": "questions",
+          "tag": "comment",
+          "label": "Drill comment"
+        },
+        {
+          "set": "questions",
+          "tag": "combien",
+          "label": "Drill combien"
+        }
+      ]
+    },
+    {
+      "id": "quel",
+      "title": "Quel, quelle, quels, quelles",
+      "fr": "quel",
+      "level": "A1",
+      "keywords": [
+        "quel",
+        "quelle",
+        "quels",
+        "quelles",
+        "which",
+        "what",
+        "quel âge",
+        "quelle heure",
+        "quel temps"
+      ],
+      "topics": [
+        "questions",
+        "age",
+        "time"
+      ],
+      "see": [
+        "question-words",
+        "lequel",
+        "qui-que-quoi"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "singular",
+                "plural"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "masculine",
+                  "quel",
+                  "quels"
+                ],
+                [
+                  "feminine",
+                  "quelle",
+                  "quelles"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "*Quel* means \"which, what\", stands **before a noun** and agrees with it. All four forms sound the same."
+            }
+          ]
+        },
+        {
+          "title": "Common questions",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "Quel âge as-tu ?",
+                  "How old are you?"
+                ],
+                [
+                  "Quelle heure est-il ?",
+                  "What time is it?"
+                ],
+                [
+                  "Quel temps fait-il ?",
+                  "What's the weather like?"
+                ],
+                [
+                  "Quel jour sommes-nous ?",
+                  "What day is it?"
+                ],
+                [
+                  "Tu es en quelle classe ?",
+                  "Which class are you in?"
+                ],
+                [
+                  "Quels sports tu pratiques ?",
+                  "Which sports do you do?"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quel + être",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Quel* can also stand before *être* and then agrees with the noun after it: *Quelle est ta couleur préférée ?* (What is your favourite colour?)"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "What is your address?",
+                  "wrong": "Qu'est-ce que est ton adresse ?",
+                  "fr": "[[Quelle]] est ton adresse ?"
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Exclamations",
+              "en": "*Quel* is also used in exclamations: *Quel beau temps !* (What lovely weather!) *Quelle chance !* (What luck!)"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quel film tu veux voir ?",
+                  "en": "Which film do you want to see?"
+                },
+                {
+                  "fr": "Quelle est ta matière préférée ?",
+                  "en": "What is your favourite subject?"
+                },
+                {
+                  "fr": "Quels sont tes loisirs ?",
+                  "en": "What are your hobbies?"
+                },
+                {
+                  "fr": "À quelle heure tu te lèves ?",
+                  "en": "What time do you get up?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-quel-01",
+          "type": "cloze",
+          "fr": "___ âge as-tu ?",
+          "a": [
+            "Quel"
+          ],
+          "en": "How old are you?"
+        },
+        {
+          "id": "g-quel-02",
+          "type": "cloze",
+          "fr": "___ heure est-il ?",
+          "a": [
+            "Quelle"
+          ],
+          "en": "What time is it?"
+        },
+        {
+          "id": "g-quel-03",
+          "type": "cloze",
+          "fr": "___ est ta couleur préférée ?",
+          "a": [
+            "Quelle"
+          ],
+          "en": "What is your favourite colour?"
+        },
+        {
+          "id": "g-quel-04",
+          "type": "cloze",
+          "fr": "___ sont tes films préférés ?",
+          "a": [
+            "Quels"
+          ],
+          "en": "What are your favourite films?"
+        },
+        {
+          "id": "g-quel-05",
+          "type": "build",
+          "en": "What's the weather like?",
+          "a": [
+            "Quel temps fait-il ?",
+            "Il fait quel temps ?"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "questions",
+          "tag": "quel",
+          "label": "Drill quel"
+        }
+      ]
+    },
+    {
+      "id": "inversion",
+      "title": "Inversion",
+      "fr": "l'inversion",
+      "level": "A2",
+      "keywords": [
+        "inversion",
+        "reversed word order",
+        "as-tu",
+        "a-t-il",
+        "va-t-elle",
+        "-t-",
+        "formal question"
+      ],
+      "topics": [],
+      "see": [
+        "question-types",
+        "question-words",
+        "pronouns-imperative"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With inversion the **pronoun and the verb** swap places and are joined with a hyphen: *tu as → as-tu ?* It is the careful style. It is rare in speech but common in texts and at school."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "V",
+                      "Parles"
+                    ],
+                    [
+                      "S",
+                      "-tu"
+                    ],
+                    [
+                      "obj",
+                      "français ?"
+                    ]
+                  ],
+                  "en": "Do you speak French?"
+                },
+                {
+                  "parts": [
+                    [
+                      "q",
+                      "Où"
+                    ],
+                    [
+                      "V",
+                      "habitez"
+                    ],
+                    [
+                      "S",
+                      "-vous ?"
+                    ]
+                  ],
+                  "en": "Where do you live?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The inserted -t-",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When the verb ends in a vowel and the pronoun starts with a vowel (*il, elle, on*), a *-t-* is inserted between them so it can be pronounced: *A-t-il faim ? Va-t-elle venir ?*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Is he hungry?",
+                  "wrong": "A-il faim ?",
+                  "fr": "A[[-t-]]il faim ?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With a noun and in compound tenses",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When the subject is a noun, it stays at the start and a pronoun is added after the verb: *Paul vient-il ?* (Is Paul coming?)"
+            },
+            {
+              "type": "text",
+              "en": "In compound tenses the pronoun swaps with the **auxiliary**: *As-tu mangé ? Es-tu allé au cinéma ?*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Avez-vous des questions ?",
+                  "en": "Do you have any questions?"
+                },
+                {
+                  "fr": "Comment allez-vous ?",
+                  "en": "How are you?"
+                },
+                {
+                  "fr": "Que fais-tu ce soir ?",
+                  "en": "What are you doing tonight?"
+                },
+                {
+                  "fr": "Pourquoi est-il triste ?",
+                  "en": "Why is he sad?"
+                },
+                {
+                  "fr": "Ton frère joue-t-il au foot ?",
+                  "en": "Does your brother play football?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-inversion-01",
+          "type": "transform",
+          "task_en": "Make it a question with inversion",
+          "fr": "Tu as un chien.",
+          "a": [
+            "As-tu un chien ?"
+          ]
+        },
+        {
+          "id": "g-inversion-02",
+          "type": "transform",
+          "task_en": "Make it a question with inversion",
+          "fr": "Il a faim.",
+          "a": [
+            "A-t-il faim ?"
+          ]
+        },
+        {
+          "id": "g-inversion-03",
+          "type": "transform",
+          "task_en": "Make it a question with inversion",
+          "fr": "Elle va au cinéma.",
+          "a": [
+            "Va-t-elle au cinéma ?"
+          ]
+        },
+        {
+          "id": "g-inversion-04",
+          "type": "transform",
+          "task_en": "Make it a question with inversion",
+          "fr": "Vous habitez où ?",
+          "a": [
+            "Où habitez-vous ?"
+          ]
+        },
+        {
+          "id": "g-inversion-05",
+          "type": "transform",
+          "task_en": "Make it a question with inversion",
+          "fr": "Tu as fini.",
+          "a": [
+            "As-tu fini ?"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "questions",
+          "tag": "inversion",
+          "label": "Drill inversion"
+        },
+        {
+          "set": "questions",
+          "tag": "pc",
+          "label": "Drill passé composé questions"
+        },
+        {
+          "set": "questions",
+          "tag": "inversion-noun",
+          "label": "Drill inversion with a noun"
+        }
+      ]
+    },
+    {
+      "id": "qui-que-quoi",
+      "title": "Qui, que, quoi, qu'est-ce que",
+      "fr": "qui, que, quoi",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "qui",
+        "que",
+        "quoi",
+        "qu'est-ce que",
+        "qu'est-ce qui",
+        "qui est-ce qui",
+        "qui est-ce que",
+        "who",
+        "what",
+        "whom",
+        "what's happening"
+      ],
+      "topics": [
+        "questions"
+      ],
+      "see": [
+        "question-words",
+        "relative-qui-que",
+        "indirect-questions"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "person (who, whom)",
+                "thing (what)"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "subject",
+                  "Qui... ? / Qui est-ce qui... ?",
+                  "Qu'est-ce qui... ?"
+                ],
+                [
+                  "object",
+                  "Qui est-ce que... ?",
+                  "Qu'est-ce que... ?"
+                ],
+                [
+                  "at the end, after a preposition",
+                  "... qui ?",
+                  "... quoi ?"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "The interrogative *qui* is always about a **person**, *que / quoi* about a **thing**. (With relative pronouns it is different.)"
+            }
+          ]
+        },
+        {
+          "title": "What are you doing?",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "at the start",
+                  "Qu'est-ce que tu fais ?",
+                  "What are you doing?"
+                ],
+                [
+                  "inversion",
+                  "Que fais-tu ?",
+                  "What are you doing?"
+                ],
+                [
+                  "in speech, at the end",
+                  "Tu fais quoi ?",
+                  "What are you doing?"
+                ],
+                [
+                  "after a preposition",
+                  "À quoi tu penses ?",
+                  "What are you thinking about?"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Qu'est-ce qui",
+          "level": "B1",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When you ask about a thing that is the **subject** (what is happening, what interests you), use *qu'est-ce qui*: *Qu'est-ce qui se passe ?* (What is happening?) *Qu'est-ce qui t'intéresse ?* (What interests you?)"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "What happened?",
+                  "wrong": "Qu'est-ce que s'est passé ?",
+                  "fr": "Qu'est-ce [[qui]] s'est passé ?",
+                  "note": "After *qui* comes the verb straight away (the thing is the subject). After *que* come subject and verb."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Qui est là ?",
+                  "en": "Who is there?"
+                },
+                {
+                  "fr": "Qui est-ce que tu invites ?",
+                  "en": "Whom are you inviting?"
+                },
+                {
+                  "fr": "Qu'est-ce que tu veux ?",
+                  "en": "What do you want?"
+                },
+                {
+                  "fr": "Avec qui tu joues ?",
+                  "en": "Who are you playing with?"
+                },
+                {
+                  "fr": "De quoi vous parlez ?",
+                  "en": "What are you talking about?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-qui-que-quoi-01",
+          "type": "cloze",
+          "fr": "___est-ce que tu fais ce week-end ?",
+          "a": [
+            "Qu'"
+          ],
+          "en": "What are you doing this weekend?"
+        },
+        {
+          "id": "g-qui-que-quoi-02",
+          "type": "cloze",
+          "fr": "___ veut du gâteau ?",
+          "a": [
+            "Qui"
+          ],
+          "en": "Who wants some cake?"
+        },
+        {
+          "id": "g-qui-que-quoi-03",
+          "type": "cloze",
+          "fr": "Tu penses à ___ ?",
+          "a": [
+            "quoi"
+          ],
+          "en": "What are you thinking about?"
+        },
+        {
+          "id": "g-qui-que-quoi-04",
+          "type": "cloze",
+          "fr": "Qu'est-ce ___ se passe ?",
+          "a": [
+            "qui"
+          ],
+          "en": "What is happening?"
+        },
+        {
+          "id": "g-qui-que-quoi-05",
+          "type": "build",
+          "en": "Who are you going to the cinema with?",
+          "a": [
+            "Avec qui tu vas au cinéma ?",
+            "Avec qui est-ce que tu vas au cinéma ?",
+            "Avec qui vas-tu au cinéma ?",
+            "Tu vas au cinéma avec qui ?"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "questions",
+          "tag": "qui",
+          "label": "Drill qui"
+        },
+        {
+          "set": "questions",
+          "tag": "quoi",
+          "label": "Drill que, quoi"
+        }
+      ]
+    },
+    {
+      "id": "question-prepositions",
+      "title": "Preposition + question word: à qui, avec quoi, depuis quand",
+      "fr": "préposition + mot interrogatif",
+      "level": "A2",
+      "keywords": [
+        "à qui",
+        "avec qui",
+        "pour qui",
+        "chez qui",
+        "de quoi",
+        "à quoi",
+        "avec quoi",
+        "depuis quand",
+        "jusqu'à quand",
+        "à quelle heure",
+        "d'où",
+        "par où",
+        "dans quel",
+        "depuis combien de temps",
+        "pour combien de temps",
+        "preposition question"
+      ],
+      "topics": [],
+      "see": [
+        "question-words",
+        "qui-que-quoi",
+        "questions-every-form",
+        "time-prepositions"
+      ],
+      "drills": [
+        {
+          "set": "questions",
+          "tag": "prep",
+          "label": "Drill preposition + question word"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In French the **preposition always goes before the question word** (never at the end as in English). For people use **preposition + qui**, for things **preposition + quoi**, and for time, place and quantity the question words *quand, où, combien, quel*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "question",
+                "meaning",
+                "answer"
+              ],
+              "rows": [
+                [
+                  "À qui parles-tu ?",
+                  "Who are you talking to?",
+                  "À Marie."
+                ],
+                [
+                  "Avec qui sors-tu ?",
+                  "Who are you going out with?",
+                  "Avec mes amis."
+                ],
+                [
+                  "Pour qui est ce cadeau ?",
+                  "Who is this present for?",
+                  "Pour toi."
+                ],
+                [
+                  "Chez qui dormez-vous ?",
+                  "At whose place do you sleep?",
+                  "Chez Léa."
+                ],
+                [
+                  "De quoi as-tu besoin ?",
+                  "What do you need?",
+                  "D'un stylo."
+                ],
+                [
+                  "À quoi penses-tu ?",
+                  "What are you thinking about?",
+                  "À mes vacances."
+                ],
+                [
+                  "Avec quoi écris-tu ?",
+                  "What do you write with?",
+                  "Avec un stylo."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Time, place and quantity",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "question",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "Depuis quand habites-tu ici ?",
+                  "Since when have you lived here?"
+                ],
+                [
+                  "Depuis combien de temps apprends-tu le français ?",
+                  "For how long have you been learning French?"
+                ],
+                [
+                  "Jusqu'à quand restes-tu ?",
+                  "Until when are you staying?"
+                ],
+                [
+                  "À quelle heure commence le film ?",
+                  "At what time does the film start?"
+                ],
+                [
+                  "Pour combien de personnes ?",
+                  "For how many people?"
+                ],
+                [
+                  "D'où viens-tu ?",
+                  "Where are you from?"
+                ],
+                [
+                  "Par où passons-nous ?",
+                  "Which way do we go?"
+                ],
+                [
+                  "Dans quelle ville habites-tu ?",
+                  "In which town do you live?"
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Depuis quand* and *depuis combien de temps* are followed by the **present**: *Depuis quand habites-tu ici ?* (not the passé composé)."
+            }
+          ]
+        },
+        {
+          "title": "Informal: preposition at the end",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In speech the question word can stay at the end of the sentence with the preposition in front of it: **Tu parles à qui ? Tu penses à quoi ? Tu habites depuis quand ?** The preposition **still comes before** *qui* or *quoi*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Who are you talking to?",
+                  "wrong": "Tu parles qui à ?",
+                  "fr": "Tu parles [[à qui]] ?"
+                },
+                {
+                  "en": "What are you thinking about?",
+                  "wrong": "Quoi penses-tu à ?",
+                  "fr": "[[À quoi]] penses-tu ?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Avec qui est-ce que tu vas au cinéma ?",
+                  "en": "Who are you going to the cinema with?"
+                },
+                {
+                  "fr": "De quoi parlez-vous ?",
+                  "en": "What are you talking about?"
+                },
+                {
+                  "fr": "Depuis quand es-tu malade ?",
+                  "en": "Since when have you been ill?"
+                },
+                {
+                  "fr": "À quelle heure te lèves-tu ?",
+                  "en": "What time do you get up?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-question-prepositions-01",
+          "type": "transform",
+          "task_en": "Ask about the underlined words",
+          "fr": "Elle parle [à Paul].",
+          "a": [
+            "À qui parle-t-elle ?",
+            "À qui est-ce qu'elle parle ?",
+            "Elle parle à qui ?"
+          ]
+        },
+        {
+          "id": "g-question-prepositions-02",
+          "type": "transform",
+          "task_en": "Ask about the underlined words",
+          "fr": "Il part [avec ses amis].",
+          "a": [
+            "Avec qui part-il ?",
+            "Avec qui est-ce qu'il part ?",
+            "Il part avec qui ?"
+          ]
+        },
+        {
+          "id": "g-question-prepositions-03",
+          "type": "transform",
+          "task_en": "Ask about the underlined words",
+          "fr": "Tu penses [à tes vacances].",
+          "a": [
+            "À quoi penses-tu ?",
+            "À quoi est-ce que tu penses ?",
+            "Tu penses à quoi ?"
+          ]
+        },
+        {
+          "id": "g-question-prepositions-04",
+          "type": "transform",
+          "task_en": "Ask about the underlined words",
+          "fr": "Nous parlons [de la fête].",
+          "a": [
+            "De quoi parlons-nous ?",
+            "De quoi est-ce que nous parlons ?",
+            "Nous parlons de quoi ?"
+          ]
+        },
+        {
+          "id": "g-question-prepositions-05",
+          "type": "build",
+          "en": "Who is this present for?",
+          "a": [
+            "Pour qui est ce cadeau ?"
+          ]
+        },
+        {
+          "id": "g-question-prepositions-06",
+          "type": "build",
+          "en": "Where are you from?",
+          "a": [
+            "D'où viens-tu ?",
+            "D'où est-ce que tu viens ?",
+            "Tu viens d'où ?",
+            "D'où tu viens ?"
+          ]
+        },
+        {
+          "id": "g-question-prepositions-07",
+          "type": "build",
+          "en": "What time does the film start?",
+          "a": [
+            "À quelle heure commence le film ?",
+            "À quelle heure est-ce que le film commence ?",
+            "Le film commence à quelle heure ?"
+          ]
+        },
+        {
+          "id": "g-question-prepositions-08",
+          "type": "cloze",
+          "fr": "___ qui parles-tu ?",
+          "a": [
+            "À"
+          ],
+          "en": "Who are you talking to?"
+        },
+        {
+          "id": "g-question-prepositions-09",
+          "type": "cloze",
+          "fr": "De ___ as-tu besoin ?",
+          "a": [
+            "quoi"
+          ],
+          "en": "What do you need?"
+        },
+        {
+          "id": "g-question-prepositions-10",
+          "type": "cloze",
+          "fr": "___ quand habites-tu ici ?",
+          "a": [
+            "Depuis"
+          ],
+          "en": "Since when have you lived here?"
+        }
+      ]
+    },
+    {
+      "id": "lequel",
+      "title": "Lequel",
+      "fr": "lequel",
+      "level": "B1",
+      "keywords": [
+        "lequel",
+        "laquelle",
+        "lesquels",
+        "lesquelles",
+        "which one",
+        "auquel",
+        "duquel"
+      ],
+      "topics": [],
+      "see": [
+        "quel",
+        "demonstrative-pronouns"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "singular",
+                "plural"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "masculine",
+                  "lequel",
+                  "lesquels"
+                ],
+                [
+                  "feminine",
+                  "laquelle",
+                  "lesquelles"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "*Lequel* means \"which one (of them)\". It **replaces** *quel* + the noun that has already been mentioned."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I have two T-shirts. Which one do you want?",
+                  "fr": "J'ai deux t-shirts. [[Lequel]] tu veux ?",
+                  "note": "*T-shirt* is masculine, so *lequel*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With à and de",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With the prepositions *à* and *de* it merges like an article: *auquel, auxquels, auxquelles* and *duquel, desquels, desquelles*. The form with *la* stays: *à laquelle, de laquelle*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Laquelle de ces robes préfères-tu ?",
+                  "en": "Which of these dresses do you prefer?"
+                },
+                {
+                  "fr": "Lesquels sont à toi ?",
+                  "en": "Which ones are yours?"
+                },
+                {
+                  "fr": "Il y a deux bus. Lequel va au centre ?",
+                  "en": "There are two buses. Which one goes to the centre?"
+                },
+                {
+                  "fr": "Tu penses à un jeu ? Auquel ?",
+                  "en": "Are you thinking of a game? Which one?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-lequel-01",
+          "type": "cloze",
+          "fr": "Voici deux pommes. ___ tu veux ?",
+          "a": [
+            "Laquelle"
+          ],
+          "en": "Here are two apples. Which one do you want?"
+        },
+        {
+          "id": "g-lequel-02",
+          "type": "cloze",
+          "fr": "Il y a beaucoup de jeux. ___ tu préfères ?",
+          "a": [
+            "Lequel"
+          ],
+          "en": "There are lots of games. Which one do you prefer?"
+        },
+        {
+          "id": "g-lequel-03",
+          "type": "cloze",
+          "fr": "J'ai trois stylos. ___ sont à toi ?",
+          "a": [
+            "Lesquels"
+          ],
+          "en": "I have three pens. Which ones are yours?"
+        },
+        {
+          "id": "g-lequel-04",
+          "type": "cloze",
+          "fr": "Regarde ces chaussures. ___ tu aimes ?",
+          "a": [
+            "Lesquelles"
+          ],
+          "en": "Look at these shoes. Which ones do you like?"
+        }
+      ]
+    },
+    {
+      "id": "indirect-questions",
+      "title": "Indirect questions",
+      "fr": "l'interrogation indirecte",
+      "level": "B1",
+      "keywords": [
+        "indirect question",
+        "je ne sais pas si",
+        "dis-moi où",
+        "ce que",
+        "ce qui",
+        "je me demande",
+        "interrogation indirecte"
+      ],
+      "topics": [],
+      "see": [
+        "reported-speech",
+        "question-words",
+        "qui-que-quoi",
+        "complex-sentences"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "An indirect question is a question hidden inside a sentence: \"I don't know **where he lives**.\" It has **normal word order** (subject + verb), no *est-ce que*, no inversion and no question mark."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Where does he live? → I don't know where he lives.",
+                  "fr": "Où habite-t-il ? → Je ne sais pas [[où il habite]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What changes",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "direct question",
+                "indirect question"
+              ],
+              "rows": [
+                [
+                  "Tu viens ?",
+                  "Je me demande si tu viens."
+                ],
+                [
+                  "Où est-ce qu'il va ?",
+                  "Je ne sais pas où il va."
+                ],
+                [
+                  "Qu'est-ce que tu fais ?",
+                  "Dis-moi ce que tu fais."
+                ],
+                [
+                  "Qu'est-ce qui se passe ?",
+                  "Je ne sais pas ce qui se passe."
+                ],
+                [
+                  "Quand pars-tu ?",
+                  "Dis-moi quand tu pars."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "A yes / no question → *si* (whether). *Qu'est-ce que* → *ce que*, *qu'est-ce qui* → *ce qui*. The other question words stay."
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I don't know what he wants.",
+                  "wrong": "Je ne sais pas qu'est-ce qu'il veut.",
+                  "fr": "Je ne sais pas [[ce qu']]il veut."
+                },
+                {
+                  "en": "Tell me where the station is.",
+                  "wrong": "Dis-moi où est-ce que la gare est.",
+                  "fr": "Dis-moi [[où est]] la gare."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je ne sais pas s'il est là.",
+                  "en": "I don't know whether he's here."
+                },
+                {
+                  "fr": "Tu sais à quelle heure commence le film ?",
+                  "en": "Do you know what time the film starts?"
+                },
+                {
+                  "fr": "Je ne comprends pas ce que tu dis.",
+                  "en": "I don't understand what you're saying."
+                },
+                {
+                  "fr": "Il me demande pourquoi je suis triste.",
+                  "en": "He asks me why I'm sad."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-indirect-questions-01",
+          "type": "transform",
+          "task_en": "Turn into an indirect question: Je ne sais pas...",
+          "fr": "Où habite-t-il ?",
+          "a": [
+            "Je ne sais pas où il habite."
+          ]
+        },
+        {
+          "id": "g-indirect-questions-02",
+          "type": "transform",
+          "task_en": "Turn into an indirect question: Je me demande...",
+          "fr": "Tu viens ?",
+          "a": [
+            "Je me demande si tu viens."
+          ]
+        },
+        {
+          "id": "g-indirect-questions-03",
+          "type": "transform",
+          "task_en": "Turn into an indirect question: Dis-moi...",
+          "fr": "Qu'est-ce que tu veux ?",
+          "a": [
+            "Dis-moi ce que tu veux."
+          ]
+        },
+        {
+          "id": "g-indirect-questions-04",
+          "type": "cloze",
+          "fr": "Je ne sais pas ___ qui se passe.",
+          "a": [
+            "ce"
+          ],
+          "en": "I don't know what is happening."
+        },
+        {
+          "id": "g-indirect-questions-05",
+          "type": "build",
+          "en": "I don't know whether he's coming.",
+          "a": [
+            "Je ne sais pas s'il vient.",
+            "Je ne sais pas s'il va venir.",
+            "Je ne sais pas s'il viendra."
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "questions",
+          "tag": "indirect",
+          "label": "Drill indirect questions"
+        }
+      ]
+    }
+  ]
+}

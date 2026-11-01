@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": "im-01-regular",
-      "title": "Step 1: Commands with regular verbs",
+      "title": "Krok 1: Rozkazy u pravidelných sloves",
       "fr": "l'impératif des verbes réguliers",
       "level": "A1",
       "keywords": [
@@ -23,34 +23,34 @@
       "tense": "imperatif-present",
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A command uses only three persons, **tu, nous, vous**, and **no subject**: *Écoute ! Écoutons ! Écoutez !* The forms are the present tense without the subject, with one change: *-er* verbs drop the **-s** of the *tu* form."
+              "cs": "Rozkaz má jen tři osoby, **tu, nous, vous**, a **žádný podmět**: *Écoute ! Écoutons ! Écoutez !* Tvary jsou přítomný čas bez podmětu, s jednou změnou: slovesa na *-er* ztrácejí v osobě *tu* koncové **-s**."
             },
             {
               "type": "table",
               "head": [
-                "present",
-                "command",
-                "meaning"
+                "přítomný čas",
+                "rozkaz",
+                "význam"
               ],
               "rows": [
                 [
                   "tu écoutes",
                   "Écoute !",
-                  "Listen! (one friend)"
+                  "Poslouchej! (jednomu kamarádovi)"
                 ],
                 [
                   "nous écoutons",
                   "Écoutons !",
-                  "Let's listen!"
+                  "Poslouchejme!"
                 ],
                 [
                   "vous écoutez",
                   "Écoutez !",
-                  "Listen! (several people, or polite)"
+                  "Poslouchejte! (více lidem nebo zdvořile)"
                 ]
               ],
               "textCols": [
@@ -60,7 +60,7 @@
           ]
         },
         {
-          "title": "-er verbs: no -s for tu",
+          "title": "Slovesa na -er: u tu bez -s",
           "blocks": [
             {
               "type": "table",
@@ -69,7 +69,7 @@
             },
             {
               "type": "text",
-              "en": "*Tu parles → Parle !* *Tu manges → Mange !* Verbs like *ouvrir* and *offrir* also drop it: *Ouvre la porte !*"
+              "cs": "*Tu parles → Parle !* *Tu manges → Mange !* Slovesa jako *ouvrir* a *offrir* ho taky ztrácejí: *Ouvre la porte !*"
             },
             {
               "type": "check",
@@ -83,7 +83,7 @@
           ]
         },
         {
-          "title": "-ir and -re verbs keep the -s",
+          "title": "Slovesa na -ir a -re si -s nechávají",
           "blocks": [
             {
               "type": "table",
@@ -92,7 +92,7 @@
             },
             {
               "type": "text",
-              "en": "*Finis ! Choisis ! Attends ! Prends ! Écris !* The *tu* form is exactly the present."
+              "cs": "*Finis ! Choisis ! Attends ! Prends ! Écris !* Tvar pro *tu* je přesně přítomný čas."
             },
             {
               "type": "check",
@@ -106,11 +106,11 @@
           ]
         },
         {
-          "title": "Nous: let's",
+          "title": "Nous: pojďme",
           "blocks": [
             {
               "type": "text",
-              "en": "The *nous* form means **let's**: *Allons au cinéma !* (Let's go to the cinema!) *Mangeons !* (Let's eat!)"
+              "cs": "Tvar pro *nous* znamená **pojďme**: *Allons au cinéma !* (Pojďme do kina!) *Mangeons !* (Pojďme jíst!)"
             },
             {
               "type": "check",
@@ -121,49 +121,49 @@
                   "mangeons"
                 ],
                 "hint": "manger",
-                "en": "We're hungry: let's eat a pizza!"
+                "cs": "Máme hlad: dáme si pizzu!"
               }
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "*Aller* behaves like an *-er* verb: *Va au lit !* (no -s)."
+              "cs": "*Aller* se chová jako sloveso na *-er*: *Va au lit !* (bez -s)."
             },
             {
               "type": "tip",
-              "en": "*Vous* is for several people **and** for one adult you say *vous* to: *Entrez, madame !*"
+              "cs": "*Vous* je pro více lidí **i** pro jednoho dospělého, kterému vykáš: *Entrez, madame !*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Regarde ce chien !",
-                  "en": "Look at that dog!"
+                  "cs": "Podívej se na toho psa!"
                 },
                 {
                   "fr": "Finissez vos devoirs !",
-                  "en": "Finish your homework!"
+                  "cs": "Dodělej úkoly!"
                 },
                 {
                   "fr": "Prends ton manteau, il fait froid.",
-                  "en": "Take your coat, it's cold."
+                  "cs": "Vezmi si kabát, je zima."
                 },
                 {
                   "fr": "Attendez ici, s'il vous plaît.",
-                  "en": "Wait here, please."
+                  "cs": "Počkej tady, prosím."
                 },
                 {
                   "fr": "Parlons français !",
-                  "en": "Let's speak French!"
+                  "cs": "Mluvme francouzsky!"
                 }
               ]
             }
@@ -235,7 +235,7 @@
             "Range"
           ],
           "hint": "ranger",
-          "en": "Tidy your room! (tu)"
+          "cs": "Ukliď si pokoj! (tu)"
         },
         {
           "id": "g-im-01-regular-10",
@@ -245,12 +245,12 @@
             "Prenez"
           ],
           "hint": "prendre",
-          "en": "Take the bus, it's quicker! (vous)"
+          "cs": "Jeďte autobusem, je to rychlejší! (vous)"
         },
         {
           "id": "g-im-01-regular-11",
           "type": "build",
-          "en": "Let's dance!",
+          "cs": "Pojďme tančit!",
           "a": [
             "Dansons !"
           ]
@@ -258,7 +258,7 @@
         {
           "id": "g-im-01-regular-12",
           "type": "build",
-          "en": "Wait here! (vous)",
+          "cs": "Počkejte tady! (vous)",
           "a": [
             "Attendez ici !"
           ]
@@ -267,7 +267,7 @@
     },
     {
       "id": "im-02-irregular",
-      "title": "Step 2: Irregular commands: sois, aie, sache, va",
+      "title": "Krok 2: Nepravidelné rozkazy: sois, aie, sache, va",
       "fr": "l'impératif irrégulier",
       "level": "A1",
       "keywords": [
@@ -291,16 +291,16 @@
       "tense": "imperatif-present",
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Only a few verbs are irregular in commands, but they are very common. **Être, avoir, savoir, vouloir** take their forms from the subjunctive, **aller** is *va*, and **faire, dire** have *faites, dites*."
+              "cs": "V rozkazu je nepravidelných jen pár sloves, ale jsou hodně častá. **Être, avoir, savoir, vouloir** berou tvary ze subjonctivu, **aller** má *va* a **faire, dire** mají *faites, dites*."
             },
             {
               "type": "table",
               "head": [
-                "verb",
+                "sloveso",
                 "tu",
                 "nous",
                 "vous"
@@ -353,11 +353,11 @@
           ]
         },
         {
-          "title": "Être and avoir",
+          "title": "Être a avoir",
           "blocks": [
             {
               "type": "text",
-              "en": "*Sois sage !* (Be good!) *Soyez à l'heure !* (Be on time!) *N'aie pas peur !* (Don't be afraid!) *Ayez confiance !* (Have confidence!)"
+              "cs": "*Sois sage !* (Buď hodný!) *Soyez à l'heure !* (Buďte včas!) *N'aie pas peur !* (Neboj se!) *Ayez confiance !* (Mějte důvěru!)"
             },
             {
               "type": "check",
@@ -368,23 +368,23 @@
                   "Sois"
                 ],
                 "hint": "être",
-                "en": "Be nice to your sister!"
+                "cs": "Buď hodný na sestru!"
               }
             }
           ]
         },
         {
-          "title": "Savoir and vouloir",
+          "title": "Savoir a vouloir",
           "blocks": [
             {
               "type": "text",
-              "en": "*Sachez que...* (Please note that...) is formal. *Veuillez* + infinitive is a very polite request, used in letters, emails and announcements: *Veuillez patienter.* (Please wait.)"
+              "cs": "*Sachez que...* (Berte na vědomí, že...) je formální. *Veuillez* + infinitiv je velmi zdvořilá prosba, používá se v dopisech, e-mailech a hlášeních: *Veuillez patienter.* (Vyčkejte, prosím.)"
             },
             {
               "type": "check",
               "item": {
                 "type": "build",
-                "en": "Please wait. (announcement)",
+                "cs": "Vyčkejte, prosím. (hlášení)",
                 "a": [
                   "Veuillez patienter."
                 ]
@@ -397,7 +397,7 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Fais attention !* (Be careful!) *Faites vite !* (Be quick!) *Dites bonjour !* (Say hello!) *Va au lit !* (Go to bed!)"
+              "cs": "*Fais attention !* (Dávej pozor!) *Faites vite !* (Pospěšte si!) *Dites bonjour !* (Pozdravte!) *Va au lit !* (Jdi spát!)"
             },
             {
               "type": "check",
@@ -409,49 +409,49 @@
                   "Faites"
                 ],
                 "hint": "faire",
-                "en": "Be careful, the road is slippery!"
+                "cs": "Dávej pozor, silnice klouže!"
               }
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "*Aie* has no -s and sounds like *et*: *N'aie pas peur.*"
+              "cs": "*Aie* nemá -s a zní jako *et*: *N'aie pas peur.*"
             },
             {
               "type": "tip",
-              "en": "*Faites* and *dites* are the same as in the present: *vous faites, vous dites*. Not *faisez* or *disez*."
+              "cs": "*Faites* a *dites* jsou stejné jako v přítomném čase: *vous faites, vous dites*. Ne *faisez* ani *disez*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Sois prudent sur ton vélo !",
-                  "en": "Be careful on your bike!"
+                  "cs": "Dávej pozor na kole!"
                 },
                 {
                   "fr": "N'ayez pas peur, le chien est gentil.",
-                  "en": "Don't be afraid, the dog is friendly."
+                  "cs": "Neboj se, ten pes je hodný."
                 },
                 {
                   "fr": "Va chercher ton frère !",
-                  "en": "Go and get your brother!"
+                  "cs": "Jdi pro bratra!"
                 },
                 {
                   "fr": "Dites-moi la vérité !",
-                  "en": "Tell me the truth!"
+                  "cs": "Řekni mi pravdu!"
                 },
                 {
                   "fr": "Veuillez fermer la porte.",
-                  "en": "Please close the door."
+                  "cs": "Zavřete prosím dveře."
                 }
               ]
             }
@@ -523,7 +523,7 @@
             "Soyez"
           ],
           "hint": "être",
-          "en": "Be careful on the road! (vous)"
+          "cs": "Dávejte pozor na silnici! (vous)"
         },
         {
           "id": "g-im-02-irregular-10",
@@ -533,7 +533,7 @@
             "aie"
           ],
           "hint": "avoir",
-          "en": "Don't be afraid of the dog! (tu)"
+          "cs": "Neboj se toho psa! (tu)"
         },
         {
           "id": "g-im-02-irregular-11",
@@ -543,12 +543,12 @@
             "Va"
           ],
           "hint": "aller",
-          "en": "Go to the board, Paul!"
+          "cs": "Jdi k tabuli, Pavle!"
         },
         {
           "id": "g-im-02-irregular-12",
           "type": "build",
-          "en": "Let's be patient!",
+          "cs": "Buďme trpěliví!",
           "a": [
             "Soyons patients !"
           ]
@@ -557,7 +557,7 @@
     },
     {
       "id": "im-03-negative",
-      "title": "Step 3: Negative commands: Ne fais pas ça !",
+      "title": "Krok 3: Záporné rozkazy: Ne fais pas ça !",
       "fr": "l'impératif négatif",
       "level": "A1",
       "keywords": [
@@ -576,11 +576,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Put **ne** before the verb and **pas** after it, as in any negative: *Ne parle pas ! N'oublie pas !* The other negative words work too: *Ne dis rien ! Ne fais jamais ça !*"
+              "cs": "Dej **ne** před sloveso a **pas** za něj, jako u každého záporu: *Ne parle pas ! N'oublie pas !* Fungují i ostatní záporná slova: *Ne dis rien ! Ne fais jamais ça !*"
             },
             {
               "type": "pattern",
@@ -600,7 +600,7 @@
                       "pas !"
                     ]
                   ],
-                  "en": "Don't speak!"
+                  "cs": "Nemluv!"
                 },
                 {
                   "parts": [
@@ -621,7 +621,7 @@
                       "vos livres !"
                     ]
                   ],
-                  "en": "Don't forget your books!"
+                  "cs": "Nezapomeň si knihy!"
                 }
               ],
               "formula": [
@@ -637,13 +637,13 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Ne* becomes *n'* before a vowel: *N'ouvre pas ! N'ayez pas peur !* *Un, une, du, des* become **de**: *Faites du bruit → Ne faites pas de bruit !*"
+              "cs": "*Ne* se před samohláskou mění na *n'*: *N'ouvre pas ! N'ayez pas peur !* *Un, une, du, des* se mění na **de**: *Faites du bruit → Ne faites pas de bruit !*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Make the command negative",
+                "task_cs": "Převeď rozkaz do záporu",
                 "fr": "Mange !",
                 "a": [
                   "Ne mange pas !"
@@ -653,17 +653,17 @@
           ]
         },
         {
-          "title": "Other negative words",
+          "title": "Další záporná slova",
           "blocks": [
             {
               "type": "text",
-              "en": "*Ne ... jamais* (never), *ne ... plus* (no more), *ne ... rien* (nothing), *ne ... personne* (nobody): *Ne mange plus de bonbons ! Ne dis rien à personne !*"
+              "cs": "*Ne ... jamais* (nikdy), *ne ... plus* (už ne), *ne ... rien* (nic), *ne ... personne* (nikdo): *Ne mange plus de bonbons ! Ne dis rien à personne !*"
             },
             {
               "type": "check",
               "item": {
                 "type": "build",
-                "en": "Don't say anything! (tu)",
+                "cs": "Nic neříkej! (tu)",
                 "a": [
                   "Ne dis rien !"
                 ]
@@ -672,43 +672,43 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "Spoken French sometimes drops *ne* (*Fais pas ça !*). In writing keep it."
+              "cs": "Mluvená francouzština někdy *ne* vynechává (*Fais pas ça !*). V psaní ho nech."
             },
             {
               "type": "tip",
-              "en": "A short sign can be just *pas de* + noun: *Pas de bruit !* (No noise!)"
+              "cs": "Krátký nápis může být jen *pas de* + podstatné jméno: *Pas de bruit !* (Ticho!)"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ne touche pas, c'est chaud !",
-                  "en": "Don't touch, it's hot!"
+                  "cs": "Nesahej na to, je to horké!"
                 },
                 {
                   "fr": "N'oublie pas ton sac !",
-                  "en": "Don't forget your bag!"
+                  "cs": "Nezapomeň si tašku!"
                 },
                 {
                   "fr": "Ne soyez pas en retard demain.",
-                  "en": "Don't be late tomorrow."
+                  "cs": "Zítra nechoďte pozdě."
                 },
                 {
                   "fr": "Ne parlons plus de ça.",
-                  "en": "Let's not talk about that anymore."
+                  "cs": "Už se o tom nebavme."
                 },
                 {
                   "fr": "Ne fais jamais ça !",
-                  "en": "Never do that!"
+                  "cs": "Tohle nikdy nedělej!"
                 }
               ]
             }
@@ -719,7 +719,7 @@
         {
           "id": "g-im-03-negative-01",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Sortez !",
           "a": [
             "Ne sortez pas !"
@@ -728,7 +728,7 @@
         {
           "id": "g-im-03-negative-02",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Cours !",
           "a": [
             "Ne cours pas !"
@@ -737,7 +737,7 @@
         {
           "id": "g-im-03-negative-03",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Sois triste !",
           "a": [
             "Ne sois pas triste !"
@@ -746,7 +746,7 @@
         {
           "id": "g-im-03-negative-04",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Va dans le jardin !",
           "a": [
             "Ne va pas dans le jardin !"
@@ -755,7 +755,7 @@
         {
           "id": "g-im-03-negative-05",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Faites du bruit !",
           "a": [
             "Ne faites pas de bruit !"
@@ -764,7 +764,7 @@
         {
           "id": "g-im-03-negative-06",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Achetons des bonbons !",
           "a": [
             "N'achetons pas de bonbons !"
@@ -773,7 +773,7 @@
         {
           "id": "g-im-03-negative-07",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Oublie ton livre !",
           "a": [
             "N'oublie pas ton livre !"
@@ -782,7 +782,7 @@
         {
           "id": "g-im-03-negative-08",
           "type": "transform",
-          "task_en": "Turn it into a negative command",
+          "task_cs": "Převeď na záporný rozkaz",
           "fr": "Tu cries.",
           "a": [
             "Ne crie pas !"
@@ -791,7 +791,7 @@
         {
           "id": "g-im-03-negative-09",
           "type": "transform",
-          "task_en": "Turn it into a negative command",
+          "task_cs": "Převeď na záporný rozkaz",
           "fr": "Vous parlez pendant le film.",
           "a": [
             "Ne parlez pas pendant le film !"
@@ -800,7 +800,7 @@
         {
           "id": "g-im-03-negative-10",
           "type": "build",
-          "en": "Don't be late! (vous)",
+          "cs": "Nechoďte pozdě! (vous)",
           "a": [
             "Ne soyez pas en retard !"
           ]
@@ -808,7 +808,7 @@
         {
           "id": "g-im-03-negative-11",
           "type": "build",
-          "en": "Don't forget! (tu)",
+          "cs": "Nezapomeň! (tu)",
           "a": [
             "N'oublie pas !"
           ]
@@ -816,7 +816,7 @@
         {
           "id": "g-im-03-negative-12",
           "type": "build",
-          "en": "Never do that again! (tu)",
+          "cs": "Tohle už nikdy nedělej! (tu)",
           "a": [
             "Ne fais plus jamais ça !",
             "Ne refais jamais ça !"
@@ -826,7 +826,7 @@
     },
     {
       "id": "im-04-reflexive",
-      "title": "Step 4: Reflexive verbs: Lève-toi ! Ne te lève pas !",
+      "title": "Krok 4: Zvratná slovesa: Lève-toi ! Ne te lève pas !",
       "fr": "l'impératif des verbes pronominaux",
       "level": "A2",
       "keywords": [
@@ -847,11 +847,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Reflexive verbs keep their pronoun, but it moves **after** the verb with a hyphen, and *te* becomes **toi**: *Lève-toi ! Levons-nous ! Levez-vous !* In the negative it goes back in front: *Ne te lève pas !*"
+              "cs": "Zvratná slovesa si zájmeno nechávají, ale to se přesune **za** sloveso se spojovníkem a *te* se změní na **toi**: *Lève-toi ! Levons-nous ! Levez-vous !* V záporu se vrací dopředu: *Ne te lève pas !*"
             },
             {
               "type": "table",
@@ -861,17 +861,17 @@
           ]
         },
         {
-          "title": "Affirmative: after the verb",
+          "title": "Kladně: za slovesem",
           "blocks": [
             {
               "type": "text",
-              "en": "The most common ones: *Dépêche-toi !* (Hurry up!) *Assieds-toi !* (Sit down!) *Calme-toi !* (Calm down!) *Tais-toi !* (Be quiet!) *Amuse-toi bien !* (Have fun!) *Repose-toi !* (Get some rest!)"
+              "cs": "Nejčastější: *Dépêche-toi !* (Pospěš si!) *Assieds-toi !* (Sedni si!) *Calme-toi !* (Uklidni se!) *Tais-toi !* (Mlč!) *Amuse-toi bien !* (Dobře se bav!) *Repose-toi !* (Odpočiň si!)"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Turn it into a command",
+                "task_cs": "Převeď na rozkaz",
                 "fr": "Tu te couches.",
                 "a": [
                   "Couche-toi !"
@@ -881,17 +881,17 @@
           ]
         },
         {
-          "title": "Negative: back in front",
+          "title": "Záporně: zpátky dopředu",
           "blocks": [
             {
               "type": "text",
-              "en": "*Ne* + pronoun + verb + *pas*, and *toi* goes back to *te*: *Ne t'inquiète pas !* (Don't worry!) *Ne vous asseyez pas là !*"
+              "cs": "*Ne* + zájmeno + sloveso + *pas* a *toi* se mění zpátky na *te*: *Ne t'inquiète pas !* (Neboj se!) *Ne vous asseyez pas là !*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Make the command negative",
+                "task_cs": "Převeď rozkaz do záporu",
                 "fr": "Habille-toi !",
                 "a": [
                   "Ne t'habille pas !"
@@ -901,43 +901,43 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "Keep the hyphen: *Lève-toi*, not *Lève toi*."
+              "cs": "Spojovník nech: *Lève-toi*, ne *Lève toi*."
             },
             {
               "type": "tip",
-              "en": "Only *te* changes. *Nous* and *vous* stay: *Promenons-nous ! Ne nous promenons pas !*"
+              "cs": "Mění se jen *te*. *Nous* a *vous* zůstávají: *Promenons-nous ! Ne nous promenons pas !*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Dépêche-toi, le bus arrive !",
-                  "en": "Hurry up, the bus is coming!"
+                  "cs": "Pospěš si, jede autobus!"
                 },
                 {
                   "fr": "Asseyez-vous, s'il vous plaît.",
-                  "en": "Sit down, please."
+                  "cs": "Posaďte se, prosím."
                 },
                 {
                   "fr": "Ne t'inquiète pas, tout va bien.",
-                  "en": "Don't worry, everything is fine."
+                  "cs": "Neboj se, všechno je v pořádku."
                 },
                 {
                   "fr": "Amusez-vous bien à la fête !",
-                  "en": "Have fun at the party!"
+                  "cs": "Dobře se bav na večírku!"
                 },
                 {
                   "fr": "Ne te couche pas trop tard !",
-                  "en": "Don't go to bed too late!"
+                  "cs": "Nechoď spát moc pozdě!"
                 }
               ]
             }
@@ -976,7 +976,7 @@
         {
           "id": "g-im-04-reflexive-05",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Vous vous asseyez.",
           "a": [
             "Asseyez-vous !"
@@ -985,7 +985,7 @@
         {
           "id": "g-im-04-reflexive-06",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Nous nous promenons.",
           "a": [
             "Promenons-nous !"
@@ -994,7 +994,7 @@
         {
           "id": "g-im-04-reflexive-07",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Tu te réveilles.",
           "a": [
             "Réveille-toi !"
@@ -1003,7 +1003,7 @@
         {
           "id": "g-im-04-reflexive-08",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Fâche-toi !",
           "a": [
             "Ne te fâche pas !"
@@ -1012,7 +1012,7 @@
         {
           "id": "g-im-04-reflexive-09",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Couchez-vous !",
           "a": [
             "Ne vous couchez pas !"
@@ -1021,7 +1021,7 @@
         {
           "id": "g-im-04-reflexive-10",
           "type": "build",
-          "en": "Don't worry! (tu)",
+          "cs": "Neboj se! (tu)",
           "a": [
             "Ne t'inquiète pas !"
           ]
@@ -1029,7 +1029,7 @@
         {
           "id": "g-im-04-reflexive-11",
           "type": "build",
-          "en": "Have fun! (vous)",
+          "cs": "Bavte se dobře! (vous)",
           "a": [
             "Amusez-vous bien !",
             "Amusez-vous !"
@@ -1038,7 +1038,7 @@
         {
           "id": "g-im-04-reflexive-12",
           "type": "build",
-          "en": "Sit down! (tu)",
+          "cs": "Sedni si! (tu)",
           "a": [
             "Assieds-toi !",
             "Assois-toi !"
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "im-05-pronouns",
-      "title": "Step 5: Commands with object pronouns",
+      "title": "Krok 5: Rozkazy s předmětovými zájmeny",
       "fr": "l'impératif avec un pronom",
       "level": "A2",
       "keywords": [
@@ -1068,17 +1068,17 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Object pronouns follow the same rule as reflexive ones: **after** the verb with a hyphen in the affirmative (*Prends-le !*), **before** it in the negative (*Ne le prends pas !*). *Me* becomes **moi**: *Aide-moi !* Step 15 of *Object pronouns step by step* goes deeper, with two pronouns."
+              "cs": "Předmětová zájmena se řídí stejným pravidlem jako zvratná: v kladném rozkazu **za** slovesem se spojovníkem (*Prends-le !*), v záporném **před** ním (*Ne le prends pas !*). *Me* se mění na **moi**: *Aide-moi !* Krok 15 v *Předmětová zájmena krok za krokem* jde víc do hloubky, se dvěma zájmeny."
             },
             {
               "type": "table",
               "head": [
-                "affirmative",
-                "negative"
+                "kladně",
+                "záporně"
               ],
               "rows": [
                 [
@@ -1106,17 +1106,17 @@
           ]
         },
         {
-          "title": "Affirmative",
+          "title": "Kladně",
           "blocks": [
             {
               "type": "text",
-              "en": "Choose the pronoun as usual (step 1 of the pronoun path), then put it after the verb. Before *y* and *en* the *tu* form of *-er* verbs gets its *-s* back: *Vas-y ! Manges-en !*"
+              "cs": "Vyber zájmeno jako obvykle (krok 1 cesty se zájmeny) a dej ho za sloveso. Před *y* a *en* dostává tvar *tu* u sloves na *-er* zpátky své *-s*: *Vas-y ! Manges-en !*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Turn it into a command and replace the underlined words",
+                "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
                 "fr": "Tu achètes [le pain].",
                 "a": [
                   "Achète-le !"
@@ -1126,17 +1126,17 @@
           ]
         },
         {
-          "title": "Negative",
+          "title": "Záporně",
           "blocks": [
             {
               "type": "text",
-              "en": "Everything goes back to the normal order: *ne* + pronoun + verb + *pas*."
+              "cs": "Všechno se vrací do normálního pořadí: *ne* + zájmeno + sloveso + *pas*."
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Make the command negative",
+                "task_cs": "Převeď rozkaz do záporu",
                 "fr": "Mange-le !",
                 "a": [
                   "Ne le mange pas !"
@@ -1146,26 +1146,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ton portable ? Éteins-le !",
-                  "en": "Your phone? Switch it off!"
+                  "cs": "Tvůj telefon? Vypni ho!"
                 },
                 {
                   "fr": "Ta mère t'attend, appelle-la !",
-                  "en": "Your mother is waiting, call her!"
+                  "cs": "Máma čeká, zavolej jí!"
                 },
                 {
                   "fr": "Le parc ? Allons-y !",
-                  "en": "The park? Let's go!"
+                  "cs": "Do parku? Pojďme tam!"
                 },
                 {
                   "fr": "Ne me parle pas comme ça !",
-                  "en": "Don't talk to me like that!"
+                  "cs": "Takhle se mnou nemluv!"
                 }
               ]
             }
@@ -1176,7 +1176,7 @@
         {
           "id": "g-im-05-pronouns-01",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Vous invitez [vos voisins].",
           "a": [
             "Invitez-les !"
@@ -1185,7 +1185,7 @@
         {
           "id": "g-im-05-pronouns-02",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Tu téléphones [à ton père].",
           "a": [
             "Téléphone-lui !"
@@ -1194,7 +1194,7 @@
         {
           "id": "g-im-05-pronouns-03",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Tu vas [à la boulangerie].",
           "a": [
             "Vas-y !"
@@ -1203,7 +1203,7 @@
         {
           "id": "g-im-05-pronouns-04",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Tu bois [de l'eau].",
           "a": [
             "Bois-en !"
@@ -1212,7 +1212,7 @@
         {
           "id": "g-im-05-pronouns-05",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Dis-leur !",
           "a": [
             "Ne leur dis pas !"
@@ -1221,7 +1221,7 @@
         {
           "id": "g-im-05-pronouns-06",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Parlez-moi !",
           "a": [
             "Ne me parlez pas !"
@@ -1230,7 +1230,7 @@
         {
           "id": "g-im-05-pronouns-07",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Ouvre-la !",
           "a": [
             "Ne l'ouvre pas !"
@@ -1239,7 +1239,7 @@
         {
           "id": "g-im-05-pronouns-08",
           "type": "build",
-          "en": "Help me! (tu)",
+          "cs": "Pomoz mi! (tu)",
           "a": [
             "Aide-moi !"
           ]
@@ -1247,7 +1247,7 @@
         {
           "id": "g-im-05-pronouns-09",
           "type": "build",
-          "en": "Call her! (vous)",
+          "cs": "Zavolejte jí! (vous)",
           "a": [
             "Appelez-la !",
             "Téléphonez-lui !"
@@ -1257,7 +1257,7 @@
     },
     {
       "id": "im-06-polite-mix",
-      "title": "Step 6: Polite requests and mixed practice",
+      "title": "Krok 6: Zdvořilé prosby a smíšené procvičování",
       "fr": "demander poliment",
       "level": "A2",
       "keywords": [
@@ -1276,22 +1276,22 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A bare command can sound rude to an adult. Soften it with **s'il te plaît / s'il vous plaît**, or ask a question instead: *Tu peux fermer la fenêtre ? Pourriez-vous m'aider ?* Instructions and signs often use the **infinitive**: *Ne pas fumer. Mélanger la farine et les œufs.*"
+              "cs": "Holý rozkaz může dospělému znít hrubě. Zjemni ho pomocí **s'il te plaît / s'il vous plaît**, nebo se místo toho zeptej: *Tu peux fermer la fenêtre ? Pourriez-vous m'aider ?* Pokyny a nápisy často používají **infinitiv**: *Ne pas fumer. Mélanger la farine et les œufs.*"
             }
           ]
         },
         {
-          "title": "Softer ways to ask",
+          "title": "Jemnější způsoby, jak požádat",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "command",
-                "softer"
+                "rozkaz",
+                "jemněji"
               ],
               "rows": [
                 [
@@ -1316,7 +1316,7 @@
               "type": "check",
               "item": {
                 "type": "build",
-                "en": "Could you help me? (polite)",
+                "cs": "Mohl byste mi pomoct? (zdvořile)",
                 "a": [
                   "Pourriez-vous m'aider ?",
                   "Pouvez-vous m'aider ?",
@@ -1328,17 +1328,17 @@
           ]
         },
         {
-          "title": "Instructions with the infinitive",
+          "title": "Pokyny s infinitivem",
           "blocks": [
             {
               "type": "text",
-              "en": "Recipes, exam tasks and signs use the infinitive instead of a command: *Lire le texte et répondre aux questions. Ne pas toucher.* The negative puts **ne pas together before** the infinitive."
+              "cs": "Recepty, zadání úloh a nápisy používají místo rozkazu infinitiv: *Lire le texte et répondre aux questions. Ne pas toucher.* V záporu stojí **ne pas spolu před** infinitivem."
             },
             {
               "type": "check",
               "item": {
                 "type": "build",
-                "en": "Do not smoke. (a sign)",
+                "cs": "Zákaz kouření. (nápis)",
                 "a": [
                   "Ne pas fumer."
                 ]
@@ -1347,26 +1347,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Passe-moi le pain, s'il te plaît.",
-                  "en": "Pass me the bread, please."
+                  "cs": "Podej mi chleba, prosím."
                 },
                 {
                   "fr": "Pourriez-vous parler plus lentement ?",
-                  "en": "Could you speak more slowly?"
+                  "cs": "Mohl byste mluvit pomaleji?"
                 },
                 {
                   "fr": "Ne pas marcher sur la pelouse.",
-                  "en": "Do not walk on the grass."
+                  "cs": "Nechoďte po trávníku."
                 },
                 {
                   "fr": "Couper les tomates en morceaux.",
-                  "en": "Cut the tomatoes into pieces."
+                  "cs": "Nakrájejte rajčata na kousky."
                 }
               ]
             }
@@ -1377,7 +1377,7 @@
         {
           "id": "g-im-06-polite-mix-01",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Tu fais tes devoirs.",
           "a": [
             "Fais tes devoirs !"
@@ -1386,7 +1386,7 @@
         {
           "id": "g-im-06-polite-mix-02",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Vous êtes calmes.",
           "a": [
             "Soyez calmes !"
@@ -1395,7 +1395,7 @@
         {
           "id": "g-im-06-polite-mix-03",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Nous allons au parc.",
           "a": [
             "Allons au parc !"
@@ -1404,7 +1404,7 @@
         {
           "id": "g-im-06-polite-mix-04",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Tu as confiance.",
           "a": [
             "Aie confiance !"
@@ -1413,7 +1413,7 @@
         {
           "id": "g-im-06-polite-mix-05",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Tu ne cries pas.",
           "a": [
             "Ne crie pas !"
@@ -1422,7 +1422,7 @@
         {
           "id": "g-im-06-polite-mix-06",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Tu te réveilles.",
           "a": [
             "Réveille-toi !"
@@ -1431,7 +1431,7 @@
         {
           "id": "g-im-06-polite-mix-07",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Vous ne vous inquiétez pas.",
           "a": [
             "Ne vous inquiétez pas !"
@@ -1440,7 +1440,7 @@
         {
           "id": "g-im-06-polite-mix-08",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Tu le prends.",
           "a": [
             "Prends-le !"
@@ -1449,7 +1449,7 @@
         {
           "id": "g-im-06-polite-mix-09",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Vous ne le dites pas.",
           "a": [
             "Ne le dites pas !"
@@ -1458,7 +1458,7 @@
         {
           "id": "g-im-06-polite-mix-10",
           "type": "build",
-          "en": "Let's go!",
+          "cs": "Jdeme!",
           "a": [
             "Allons-y !",
             "On y va !"
@@ -1467,7 +1467,7 @@
         {
           "id": "g-im-06-polite-mix-11",
           "type": "build",
-          "en": "Be quiet, please. (vous)",
+          "cs": "Buďte zticha, prosím. (vous)",
           "a": [
             "Taisez-vous, s'il vous plaît.",
             "Silence, s'il vous plaît."
@@ -1476,7 +1476,7 @@
         {
           "id": "g-im-06-polite-mix-12",
           "type": "build",
-          "en": "Can you close the door, please? (tu)",
+          "cs": "Můžeš zavřít dveře, prosím? (tu)",
           "a": [
             "Tu peux fermer la porte, s'il te plaît ?",
             "Est-ce que tu peux fermer la porte, s'il te plaît ?",

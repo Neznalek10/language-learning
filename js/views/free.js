@@ -1,5 +1,5 @@
 import { store } from '../store.js';
-import { ACCENTS } from '../data.js';
+import { ACCENTS, feedbackOptions } from '../data.js';
 import { html, icon, plural, segmented, onSegmented } from '../ui.js';
 import { aiReady, wordCount, AiError } from '../ai.js';
 import { chatTurn, OPENER } from '../learn/freechat.js';
@@ -9,7 +9,6 @@ import { addMistakes } from '../learn/mistakes.js';
 const MIN_WORDS = 8;
 const LEVELS = ['A1', 'A2', 'B1'];
 const STRICT = [{ value: 'gentle', label: 'Gentle' }, { value: 'normal', label: 'Normal' }, { value: 'strict', label: 'Strict' }];
-const FEEDBACK = [{ value: 'en', label: 'English' }, { value: 'cs', label: 'Czech' }, { value: 'fr', label: 'French' }];
 const MODES = [{ value: 'chat', label: 'Talk with me' }, { value: 'check', label: 'Just correct me' }];
 
 export const freeTopic = level => ({
@@ -47,7 +46,7 @@ export function openFreeWriting(app) {
       <div class="field-label">How strict should the check be?</div>
       ${segmented('strict', STRICT, o.strict)}
       <div class="field-label">Feedback language</div>
-      ${segmented('feedback', FEEDBACK, o.feedback)}
+      ${segmented('feedback', feedbackOptions(), o.feedback)}
       <div data-live-box>
         <div class="field-label">Corrections while chatting</div>
         ${segmented('live', [{ value: 'on', label: 'After each message' }, { value: 'off', label: 'Only at the end' }], o.live ? 'on' : 'off')}

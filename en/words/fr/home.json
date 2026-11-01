@@ -1,0 +1,151 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Home",
+  "unit": "4.3",
+  "level": null,
+  "words": [
+    {
+      "q": "house",
+      "a": "maison"
+    },
+    {
+      "q": "garden",
+      "a": "jardin"
+    },
+    {
+      "q": "bedroom",
+      "a": "chambre"
+    },
+    {
+      "q": "wardrobe",
+      "a": "armoire"
+    },
+    {
+      "q": "sleeping bag",
+      "a": "sac de couchage",
+      "unit": "7.1"
+    },
+    {
+      "q": "tent",
+      "a": "tente",
+      "unit": "7.1"
+    },
+    {
+      "q": "camera",
+      "a": [
+        "appareil photo",
+        "appareil-photo"
+      ],
+      "unit": "7.1"
+    },
+    {
+      "q": "kitchen",
+      "a": "cuisine"
+    },
+    {
+      "q": "living room",
+      "a": "salon"
+    },
+    {
+      "q": "bathroom",
+      "a": [
+        "salle de bains",
+        "salle de bain"
+      ]
+    },
+    {
+      "q": "toilet",
+      "a": "toilettes"
+    },
+    {
+      "q": "dining room",
+      "a": "salle à manger"
+    },
+    {
+      "q": "floor, storey",
+      "a": "étage"
+    },
+    {
+      "q": "ground floor",
+      "a": "rez-de-chaussée"
+    },
+    {
+      "q": "flat, apartment",
+      "a": "appartement"
+    },
+    {
+      "q": "stairs",
+      "a": "escalier"
+    },
+    {
+      "q": "bed",
+      "a": "lit"
+    },
+    {
+      "q": "table",
+      "a": "table"
+    },
+    {
+      "q": "chair",
+      "a": "chaise"
+    },
+    {
+      "q": "desk",
+      "a": "bureau"
+    },
+    {
+      "q": "sofa",
+      "a": "canapé"
+    },
+    {
+      "q": "window",
+      "a": "fenêtre"
+    },
+    {
+      "q": "door",
+      "a": "porte"
+    },
+    {
+      "q": "shelf",
+      "a": "étagère"
+    },
+    {
+      "q": "lamp",
+      "a": "lampe"
+    },
+    {
+      "q": "rug, carpet",
+      "a": "tapis"
+    },
+    {
+      "q": "mirror",
+      "a": "miroir"
+    },
+    {
+      "q": "balcony",
+      "a": "balcon"
+    },
+    {
+      "q": "garage",
+      "a": "garage"
+    },
+    {
+      "q": "to wash the dishes",
+      "a": "faire la vaisselle"
+    },
+    {
+      "q": "to set the table",
+      "a": "mettre la table"
+    },
+    {
+      "q": "to make your bed",
+      "a": "faire son lit"
+    },
+    {
+      "q": "to vacuum",
+      "a": "passer l'aspirateur"
+    }
+  ]
+}

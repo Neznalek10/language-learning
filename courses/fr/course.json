@@ -5,7 +5,7 @@
   "levels": {
     "A1": {
       "title": "A1 final test",
-      "subtitle": "Covers all 5 A1 units. Pass it (70%) to skip A1: every A1 lesson opens and A2 starts.",
+      "subtitle": "Pokrývá všech 5 jednotek A1. Když ho splníš (70 %), přeskočíš A1: otevřou se všechny lekce A1 a začne A2.",
       "file": "a1-test.json"
     }
   },

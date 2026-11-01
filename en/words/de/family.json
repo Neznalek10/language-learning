@@ -1,0 +1,65 @@
+{
+  "lang": "de",
+  "from": "en",
+  "type": "topics",
+  "title": "Family",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {
+      "q": "mother",
+      "a": "die Mutter"
+    },
+    {
+      "q": "father",
+      "a": "der Vater"
+    },
+    {
+      "q": "parents",
+      "a": "die Eltern",
+      "note": "plural"
+    },
+    {
+      "q": "brother",
+      "a": "der Bruder"
+    },
+    {
+      "q": "sister",
+      "a": "die Schwester"
+    },
+    {
+      "q": "son",
+      "a": "der Sohn"
+    },
+    {
+      "q": "daughter",
+      "a": "die Tochter"
+    },
+    {
+      "q": "grandmother",
+      "a": [
+        "die Großmutter",
+        "die Oma"
+      ]
+    },
+    {
+      "q": "grandfather",
+      "a": [
+        "der Großvater",
+        "der Opa"
+      ]
+    },
+    {
+      "q": "child",
+      "a": "das Kind"
+    },
+    {
+      "q": "family",
+      "a": "die Familie"
+    },
+    {
+      "q": "friend",
+      "a": "der Freund"
+    }
+  ]
+}

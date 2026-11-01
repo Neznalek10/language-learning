@@ -1,0 +1,164 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Sports",
+  "unit": "2.3",
+  "level": null,
+  "words": [
+    {
+      "q": "bike",
+      "a": "vélo"
+    },
+    {
+      "q": "mountain bike",
+      "a": "VTT"
+    },
+    {
+      "q": "cycling",
+      "a": "cyclisme"
+    },
+    {
+      "q": "horse riding",
+      "a": "équitation"
+    },
+    {
+      "q": "climbing",
+      "a": "escalade"
+    },
+    {
+      "q": "swimming",
+      "a": "natation"
+    },
+    {
+      "q": "rugby",
+      "a": "rugby"
+    },
+    {
+      "q": "athletics",
+      "a": "athlétisme"
+    },
+    {
+      "q": "gymnastics",
+      "a": "gymnastique"
+    },
+    {
+      "q": "skating",
+      "a": "patinage"
+    },
+    {
+      "q": "fencing",
+      "a": "escrime"
+    },
+    {
+      "q": "rowing",
+      "a": "aviron"
+    },
+    {
+      "q": "hiking (in the mountains)",
+      "a": "randonnée"
+    },
+    {
+      "q": "running",
+      "a": "course à pied"
+    },
+    {
+      "q": "top-level, elite",
+      "a": "de haut niveau"
+    },
+    {
+      "q": "piano",
+      "a": "piano"
+    },
+    {
+      "q": "violin",
+      "a": "violon"
+    },
+    {
+      "q": "flute",
+      "a": "flûte"
+    },
+    {
+      "q": "guitar",
+      "a": "guitare"
+    },
+    {
+      "q": "trombone",
+      "a": "trombone"
+    },
+    {
+      "q": "drums",
+      "a": "batterie"
+    },
+    {
+      "q": "game",
+      "a": "jeu"
+    },
+    {
+      "q": "competition, contest",
+      "a": "concours"
+    },
+    {
+      "q": "hobbies, free time",
+      "a": [
+        "loisirs",
+        "loisir"
+      ]
+    },
+    {
+      "q": "football",
+      "a": [
+        "football",
+        "foot"
+      ]
+    },
+    {
+      "q": "basketball",
+      "a": "basket"
+    },
+    {
+      "q": "tennis",
+      "a": "tennis"
+    },
+    {
+      "q": "hockey",
+      "a": "hockey"
+    },
+    {
+      "q": "floorball",
+      "a": "floorball"
+    },
+    {
+      "q": "volleyball",
+      "a": "volley"
+    },
+    {
+      "q": "handball",
+      "a": "handball"
+    },
+    {
+      "q": "skiing",
+      "a": "ski"
+    },
+    {
+      "q": "dance, dancing",
+      "a": "danse"
+    },
+    {
+      "q": "video games",
+      "a": "jeux vidéo"
+    },
+    {
+      "q": "match",
+      "a": "match"
+    },
+    {
+      "q": "team",
+      "a": "équipe"
+    },
+    {
+      "q": "training",
+      "a": "entraînement"
+    }
+  ]
+}

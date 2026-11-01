@@ -1,0 +1,262 @@
+{
+  "schema": 1,
+  "goals": [
+    "Say how old you are and ask someone's age",
+    "Conjugate avoir and venir in the present tense",
+    "Count to 69",
+    "Say where you're from and what nationality you are",
+    "Say where you live and which languages you speak"
+  ],
+  "lessons": [
+    {
+      "id": "fr-1.2-1",
+      "title": "J'ai quatorze ans",
+      "subtitle": "The verb avoir and age",
+      "topics": ["avoir", "age"],
+      "words": ["verbs-irregular#to have", "countries#age", "countries#how old are you?", "time#year"],
+      "learn": [
+        {"title": "The verb avoir (to have)", "blocks": [
+          {"type": "text", "en": "*Avoir* (to have) is, together with *être*, the most important French verb. It's irregular, so learn it by heart."},
+          {"type": "table", "verb": "avoir", "tense": "present"},
+          {"type": "tip", "title": "Shortening", "en": "Before *ai*, *je* shortens: *j'ai* (I have), never *je ai*."},
+          {"type": "examples", "items": [
+            {"fr": "J'ai un frère.", "en": "I have a brother."},
+            {"fr": "Tu as un chien ?", "en": "Do you have a dog? (tu)"},
+            {"fr": "Nous avons un chat.", "en": "We have a cat."},
+            {"fr": "Ils ont une maison.", "en": "They have a house."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ un chat.", "a": ["avons"], "hint": "avoir"}}
+        ]},
+        {"title": "How old are you? (tu)", "blocks": [
+          {"type": "text", "en": "Watch out: in French you don't give your age with *être* but with *avoir*. You literally say \"I have 14 years\": *J'ai quatorze ans.*"},
+          {"type": "table", "textCols": [0], "rows": [
+            ["How old are you? (tu)", "Quel âge as-tu ? / Tu as quel âge ?"],
+            ["How old are you? (formal)", "Quel âge avez-vous ?"],
+            ["How old is he?", "Quel âge a-t-il ? / Il a quel âge ?"],
+            ["I'm 14.", "J'ai quatorze ans."]
+          ]},
+          {"type": "tip", "title": "Don't forget ans", "en": "You can't leave out *ans* (years): *J'ai quatorze ans*, not just *J'ai quatorze*. Only for one year is it singular: *J'ai un an.*"},
+          {"type": "tip", "title": "Why a-t-il?", "en": "In the question *a-t-il ?* a *-t-* goes between the two vowels so that it's easy to say."},
+          {"type": "check", "item": {"type": "build", "en": "I'm fourteen.", "a": ["J'ai quatorze ans."]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-1.2-1-f", "type": "form", "verb": "avoir", "tense": "present"},
+        {"id": "fr-1.2-1-01", "type": "cloze", "fr": "J'___ quinze ans.", "a": ["ai"], "hint": "avoir"},
+        {"id": "fr-1.2-1-02", "type": "cloze", "fr": "Tu ___ quel âge ?", "a": ["as"], "hint": "avoir"},
+        {"id": "fr-1.2-1-03", "type": "cloze", "fr": "Paul ___ seize ans.", "a": ["a"], "hint": "avoir"},
+        {"id": "fr-1.2-1-04", "type": "cloze", "fr": "Vous ___ un chien ?", "a": ["avez"], "hint": "avoir"},
+        {"id": "fr-1.2-1-05", "type": "cloze", "fr": "Elles ___ douze ans.", "a": ["ont"], "hint": "avoir"},
+        {"id": "fr-1.2-1-06", "type": "build", "en": "I'm fourteen.", "a": ["J'ai quatorze ans."], "why": "Age is given with the verb avoir and the word ans."},
+        {"id": "fr-1.2-1-07", "type": "build", "en": "How old are you? (tu)", "a": ["{Quel âge as-tu|Tu as quel âge|Quel âge est-ce que tu as} ?"]},
+        {"id": "fr-1.2-1-08", "type": "build", "en": "He's twelve.", "a": ["Il a douze ans."]},
+        {"id": "fr-1.2-1-09", "type": "build", "en": "How old are you, madam?", "a": ["{Quel âge avez-vous|Vous avez quel âge}, madame ?"]},
+        {"id": "fr-1.2-1-10", "type": "build", "en": "I have a brother and a sister.", "a": ["J'ai un frère et une sœur."], "hint": "brother = un frère, sister = une sœur"},
+        {"id": "fr-1.2-1-11", "type": "transform", "task_en": "Make it formal (vous)", "fr": "Quel âge as-tu ?", "a": ["{Quel âge avez-vous|Vous avez quel âge} ?"]},
+        {"id": "fr-1.2-1-12", "type": "transform", "task_en": "Change the person to nous", "fr": "J'ai un chat.", "a": ["{Nous avons|On a} un chat."]},
+        {"id": "fr-1.2-1-13", "type": "order", "en": "Léa is ten.", "a": ["Léa a dix ans"], "extra": ["est", "as"]},
+        {"id": "fr-1.2-1-14", "type": "build", "en": "I'm fifteen and I'm Czech.", "a": ["J'ai quinze ans et je suis tchèque."]}
+      ]
+    },
+    {
+      "id": "fr-1.2-2",
+      "title": "Les nombres jusqu'à 69",
+      "subtitle": "Numbers 20 to 69",
+      "topics": ["numbers"],
+      "words": ["numbers#twenty-one", "numbers#twenty-two", "numbers#thirty", "numbers#thirty-one", "numbers#forty", "numbers#fifty", "numbers#sixty"],
+      "learn": [
+        {"title": "The tens", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [["20", "vingt"], ["30", "trente"], ["40", "quarante"], ["50", "cinquante"], ["60", "soixante"]]},
+          {"type": "text", "en": "The other numbers are made of a ten and a unit, joined by a **hyphen**: *vingt-deux* (22), *trente-cinq* (35), *quarante-huit* (48)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "trente, quarante, ___, soixante", "a": ["cinquante"]}}
+        ]},
+        {"title": "Watch out for one", "blocks": [
+          {"type": "text", "en": "When a number ends in one, you put *et* between the ten and the unit and leave out the hyphen: *vingt et un* (21), *trente et un* (31), *quarante et un* (41), *cinquante et un* (51), *soixante et un* (61)."},
+          {"type": "tip", "title": "New spelling", "en": "Since the 1990 spelling reform you may use hyphens everywhere: *vingt-et-un*. Both are correct."},
+          {"type": "examples", "items": [
+            {"fr": "vingt-trois", "en": "23"},
+            {"fr": "trente-quatre", "en": "34"},
+            {"fr": "quarante-cinq", "en": "45"},
+            {"fr": "cinquante et un", "en": "51"},
+            {"fr": "soixante-huit", "en": "68"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "trente-neuf, quarante, ___", "a": ["quarante et un", "quarante-et-un"]}}
+        ]},
+        {"title": "Phone numbers", "blocks": [
+          {"type": "text", "en": "The French read phone numbers **in pairs**: 06 12 34 56 → *zéro six, douze, trente-quatre, cinquante-six*."},
+          {"type": "examples", "items": [
+            {"fr": "Mon numéro, c'est le zéro six, vingt-deux, trente et un, quarante-cinq.", "en": "My number is 06 22 31 45."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-1.2-2-01", "type": "cloze", "fr": "vingt, vingt et un, ___", "a": ["vingt-deux"]},
+        {"id": "fr-1.2-2-02", "type": "cloze", "fr": "J'ai ___ ans.", "a": ["vingt-cinq"], "hint": "25"},
+        {"id": "fr-1.2-2-03", "type": "cloze", "fr": "Il a ___ ans.", "a": ["quarante et un", "quarante-et-un"], "hint": "41"},
+        {"id": "fr-1.2-2-04", "type": "cloze", "fr": "Elle a ___ ans.", "a": ["trente-huit"], "hint": "38"},
+        {"id": "fr-1.2-2-05", "type": "cloze", "fr": "Madame Dubois a ___ ans.", "a": ["cinquante-deux"], "hint": "52"},
+        {"id": "fr-1.2-2-06", "type": "cloze", "fr": "Monsieur Martin a ___ ans.", "a": ["soixante-sept"], "hint": "67"},
+        {"id": "fr-1.2-2-07", "type": "cloze", "fr": "Dix et dix font ___.", "a": ["vingt"]},
+        {"id": "fr-1.2-2-08", "type": "cloze", "fr": "Vingt et vingt font ___.", "a": ["quarante"]},
+        {"id": "fr-1.2-2-09", "type": "cloze", "fr": "Trente et trente font ___.", "a": ["soixante"]},
+        {"id": "fr-1.2-2-10", "type": "cloze", "fr": "Vingt-cinq et vingt-cinq font ___.", "a": ["cinquante"]},
+        {"id": "fr-1.2-2-11", "type": "build", "en": "I'm twenty-one.", "a": ["J'ai {vingt et un|vingt-et-un} ans."]},
+        {"id": "fr-1.2-2-12", "type": "build", "en": "Paul is thirty-six.", "a": ["Paul a trente-six ans."]},
+        {"id": "fr-1.2-2-13", "type": "build", "en": "Forty and twenty make sixty.", "a": ["Quarante et vingt font soixante."]}
+      ]
+    },
+    {
+      "id": "fr-1.2-3",
+      "title": "Pays et nationalités",
+      "subtitle": "Countries and nationalities",
+      "topics": ["nationalities"],
+      "words": ["countries#France", "countries#the Czech Republic, Czechia", "countries#Slovakia", "countries#Germany", "countries#England", "countries#Spain", "countries#Italy", "countries#the United States", "countries#Slovak (nationality)", "countries#German (man)", "countries#German (woman)", "countries#English (man)", "countries#English (woman)", "countries#Spanish (man)", "countries#Spanish (woman)", "countries#Italian (man)", "countries#Italian (woman)", "countries#American (man)", "countries#American (woman)"],
+      "learn": [
+        {"title": "Countries", "blocks": [
+          {"type": "text", "en": "In French, country names take an **article**. Countries ending in *-e* are mostly feminine: *la France, la Slovaquie, l'Allemagne, l'Italie*. The others are masculine: *le Canada, le Portugal*. Some are plural: *les États-Unis*."},
+          {"type": "table", "textCols": [0], "rows": [
+            ["the Czech Republic", "la République tchèque / la Tchéquie"],
+            ["Slovakia", "la Slovaquie"],
+            ["France", "la France"],
+            ["Germany", "l'Allemagne"],
+            ["Austria", "l'Autriche"],
+            ["England", "l'Angleterre"],
+            ["Spain", "l'Espagne"],
+            ["Italy", "l'Italie"],
+            ["Canada", "le Canada"],
+            ["the USA", "les États-Unis"]
+          ]},
+          {"type": "tip", "title": "Exception", "en": "*Le Mexique* ends in *-e* but is masculine."},
+          {"type": "check", "item": {"type": "cloze", "fr": "C'est ___ Canada.", "a": ["le"], "hint": "article"}}
+        ]},
+        {"title": "Nationality", "blocks": [
+          {"type": "text", "en": "A nationality has a masculine and a feminine form. Usually you add *-e* to the masculine: *allemand → allemande, anglais → anglaise, espagnol → espagnole, américain → américaine, français → française*."},
+          {"type": "text", "en": "Some forms change more: *italien → italienne, autrichien → autrichienne, canadien → canadienne*. Nationalities that already end in *-e* don't change: *tchèque, slovaque, belge, suisse*."},
+          {"type": "table", "head": ["man", "woman"], "rows": [
+            ["français", "française"], ["allemand", "allemande"], ["anglais", "anglaise"], ["espagnol", "espagnole"],
+            ["américain", "américaine"], ["italien", "italienne"], ["tchèque", "tchèque"], ["slovaque", "slovaque"]
+          ]},
+          {"type": "tip", "title": "Small or capital letter?", "en": "When a nationality describes a person, it takes a small letter: *Il est allemand.* When it's a noun (a German), it takes a capital: *un Allemand, une Allemande*."},
+          {"type": "tip", "title": "Pronunciation", "en": "In the masculine the final consonant is silent (*allemand* [almɑ̃]), in the feminine it is pronounced (*allemande* [almɑ̃d])."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Marie est ___.", "a": ["allemande"], "hint": "German (woman)"}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-1.2-3-01", "type": "cloze", "fr": "C'est ___ France.", "a": ["la"], "hint": "article"},
+        {"id": "fr-1.2-3-02", "type": "cloze", "fr": "Ce sont ___ États-Unis.", "a": ["les"], "hint": "article"},
+        {"id": "fr-1.2-3-03", "type": "cloze", "fr": "Paul est anglais et Kate est ___.", "a": ["anglaise"], "hint": "English (woman)"},
+        {"id": "fr-1.2-3-04", "type": "cloze", "fr": "Marco est ___.", "a": ["italien"], "hint": "Italian (man)"},
+        {"id": "fr-1.2-3-05", "type": "cloze", "fr": "Giulia est ___.", "a": ["italienne"], "hint": "Italian (woman)"},
+        {"id": "fr-1.2-3-06", "type": "cloze", "fr": "Juan et Pablo sont ___.", "a": ["espagnols"], "hint": "Spanish (men)"},
+        {"id": "fr-1.2-3-07", "type": "cloze", "fr": "Lena et Anna sont ___.", "a": ["allemandes"], "hint": "German (women)"},
+        {"id": "fr-1.2-3-08", "type": "build", "en": "I'm Slovak.", "a": ["Je suis slovaque."]},
+        {"id": "fr-1.2-3-09", "type": "build", "en": "She's American.", "a": ["Elle est américaine."]},
+        {"id": "fr-1.2-3-10", "type": "build", "en": "They're German.", "a": ["Ils sont allemands."]},
+        {"id": "fr-1.2-3-11", "type": "transform", "task_en": "Make it feminine", "fr": "Il est espagnol.", "a": ["Elle est espagnole."]},
+        {"id": "fr-1.2-3-12", "type": "transform", "task_en": "Make it feminine", "fr": "Il est italien.", "a": ["Elle est italienne."]},
+        {"id": "fr-1.2-3-13", "type": "transform", "task_en": "Make it feminine", "fr": "Il est tchèque.", "a": ["Elle est tchèque."], "why": "Tchèque ends in -e, so it doesn't change in the feminine."},
+        {"id": "fr-1.2-3-14", "type": "transform", "task_en": "Make it plural", "fr": "Il est américain.", "a": ["Ils sont américains."]},
+        {"id": "fr-1.2-3-15", "type": "order", "en": "I'm Czech and she's French.", "a": ["Je suis tchèque et elle est française"], "extra": ["français", "il"]}
+      ]
+    },
+    {
+      "id": "fr-1.2-4",
+      "title": "J'habite à Prague",
+      "subtitle": "Home, origin and languages",
+      "topics": ["places-prep", "venir"],
+      "words": ["verbs-irregular#to come", "verbs#to live", "basics#I live", "basics#where", "basics#where from", "countries#where do you live?", "countries#where are you from?", "countries#country", "countries#language", "countries#Czech (language)", "countries#German (language)", "countries#Spanish (language)", "school#French (language)", "school#English (language)", "geography#Prague", "geography#Paris"],
+      "learn": [
+        {"title": "Where do you live?", "blocks": [
+          {"type": "text", "en": "With **towns** you use *à*: *J'habite à Prague.* (I live in Prague.) With **countries** it depends on the gender: feminine → *en*, masculine → *au*, plural → *aux*."},
+          {"type": "table", "head": ["", "preposition", "example"], "textCols": [0], "rows": [
+            ["town", "à", "à Prague, à Paris"],
+            ["feminine country", "en", "en France, en Italie"],
+            ["masculine country", "au", "au Canada, au Portugal"],
+            ["plural", "aux", "aux États-Unis"]
+          ]},
+          {"type": "text", "en": "The verb *habiter* (to live) is regular:"},
+          {"type": "table", "verb": "habiter", "tense": "present"},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'habite ___ Prague.", "a": ["à"]}}
+        ]},
+        {"title": "Where are you from?", "blocks": [
+          {"type": "text", "en": "*Venir de* means \"to come from\". The verb *venir* is irregular."},
+          {"type": "table", "verb": "venir", "tense": "present"},
+          {"type": "text", "en": "Before a town or a feminine country *de* is enough (*d'* before a vowel): *Je viens de Prague. Je viens de France. Je viens d'Italie.* With masculine countries it's *du*, in the plural *des*: *Il vient du Canada. Elle vient des États-Unis.*"},
+          {"type": "examples", "items": [
+            {"fr": "D'où viens-tu ? Je viens de Prague.", "en": "Where are you from? I'm from Prague."},
+            {"fr": "Marco vient d'Italie.", "en": "Marco is from Italy."},
+            {"fr": "Nous venons du Canada.", "en": "We're from Canada."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Il vient ___ Canada.", "a": ["du"]}}
+        ]},
+        {"title": "Languages", "blocks": [
+          {"type": "text", "en": "A language has the same form as the masculine nationality and takes a small letter: *le français, l'anglais, l'allemand, le tchèque*. After *parler* the article is usually left out: *Je parle français.*"},
+          {"type": "examples", "items": [
+            {"fr": "Je parle tchèque, anglais et un peu français.", "en": "I speak Czech, English and a little French."},
+            {"fr": "Tu parles allemand ?", "en": "Do you speak German? (tu)"},
+            {"fr": "Au Canada, on parle anglais et français.", "en": "In Canada they speak English and French."}
+          ]},
+          {"type": "tip", "title": "on = people", "en": "*On parle* means \"people speak\" or \"is spoken\". Here *on* means people in general."},
+          {"type": "check", "item": {"type": "build", "en": "I speak Czech and English.", "a": ["Je parle {|le }tchèque et {|l'}anglais."]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-1.2-4-f", "type": "form", "verb": "venir", "tense": "present"},
+        {"id": "fr-1.2-4-01", "type": "cloze", "fr": "J'habite ___ Paris.", "a": ["à"]},
+        {"id": "fr-1.2-4-02", "type": "cloze", "fr": "Nous habitons ___ France.", "a": ["en"]},
+        {"id": "fr-1.2-4-03", "type": "cloze", "fr": "Ils habitent ___ Canada.", "a": ["au"]},
+        {"id": "fr-1.2-4-04", "type": "cloze", "fr": "Elle habite ___ États-Unis.", "a": ["aux"]},
+        {"id": "fr-1.2-4-05", "type": "cloze", "fr": "Je viens ___ Prague.", "a": ["de"]},
+        {"id": "fr-1.2-4-06", "type": "cloze", "fr": "Tu viens ___Italie ?", "a": ["d'"]},
+        {"id": "fr-1.2-4-07", "type": "cloze", "fr": "Paul vient ___ Canada.", "a": ["du"]},
+        {"id": "fr-1.2-4-08", "type": "build", "en": "I live in Prague.", "a": ["J'habite à Prague."]},
+        {"id": "fr-1.2-4-09", "type": "build", "en": "Where do you live?", "a": ["{Où habites-tu|Tu habites où|Où est-ce que tu habites} ?"]},
+        {"id": "fr-1.2-4-10", "type": "build", "en": "Where are you from? I'm from Prague.", "a": ["{D'où viens-tu|Tu viens d'où|D'où es-tu} ? Je viens de Prague."]},
+        {"id": "fr-1.2-4-11", "type": "build", "en": "We live in the Czech Republic.", "a": ["{Nous habitons|On habite} en {République tchèque|Tchéquie}."]},
+        {"id": "fr-1.2-4-12", "type": "build", "en": "Do you speak French? (tu)", "a": ["{Tu parles|Parles-tu|Est-ce que tu parles} {|le }français ?"]},
+        {"id": "fr-1.2-4-13", "type": "build", "en": "I'm from Germany, but I live in France.", "a": ["Je viens d'Allemagne, mais j'habite en France."]},
+        {"id": "fr-1.2-4-14", "type": "order", "en": "In Canada they speak French.", "a": ["Au Canada on parle français"], "extra": ["en", "parlons"]},
+        {"id": "fr-1.2-4-15", "type": "transform", "task_en": "Change the person to nous", "fr": "Je viens de Prague.", "a": ["{Nous venons|On vient} de Prague."]},
+        {"id": "fr-1.2-4-16", "type": "transform", "task_en": "Change the person to ils", "fr": "Il vient d'Espagne.", "a": ["Ils viennent d'Espagne."]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-1.2-t-01", "lesson": "fr-1.2-1", "type": "form", "verb": "avoir", "tense": "present", "person": 3},
+      {"id": "fr-1.2-t-02", "lesson": "fr-1.2-1", "type": "form", "verb": "avoir", "tense": "present", "person": 5},
+      {"id": "fr-1.2-t-03", "lesson": "fr-1.2-1", "type": "cloze", "fr": "Léa ___ treize ans.", "a": ["a"], "hint": "avoir"},
+      {"id": "fr-1.2-t-04", "lesson": "fr-1.2-1", "type": "build", "en": "I'm thirteen.", "a": ["J'ai treize ans."]},
+      {"id": "fr-1.2-t-05", "lesson": "fr-1.2-1", "type": "build", "en": "How old is he?", "a": ["{Quel âge a-t-il|Il a quel âge|Quel âge est-ce qu'il a} ?"]},
+      {"id": "fr-1.2-t-06", "lesson": "fr-1.2-1", "type": "build", "en": "We have a dog.", "a": ["{Nous avons|On a} un chien."], "hint": "dog = un chien"},
+      {"id": "fr-1.2-t-07", "lesson": "fr-1.2-2", "type": "cloze", "fr": "J'ai ___ ans.", "a": ["quarante-quatre"], "hint": "44"},
+      {"id": "fr-1.2-t-08", "lesson": "fr-1.2-2", "type": "cloze", "fr": "Il a ___ ans.", "a": ["soixante et un", "soixante-et-un"], "hint": "61"},
+      {"id": "fr-1.2-t-09", "lesson": "fr-1.2-2", "type": "cloze", "fr": "trente-cinq, trente-six, ___", "a": ["trente-sept"]},
+      {"id": "fr-1.2-t-10", "lesson": "fr-1.2-2", "type": "build", "en": "Mrs Martin is fifty.", "a": ["Madame Martin a cinquante ans."]},
+      {"id": "fr-1.2-t-11", "lesson": "fr-1.2-3", "type": "cloze", "fr": "Hans est ___.", "a": ["allemand"], "hint": "German (man)"},
+      {"id": "fr-1.2-t-12", "lesson": "fr-1.2-3", "type": "cloze", "fr": "Kate et Emma sont ___.", "a": ["anglaises"], "hint": "English (women)"},
+      {"id": "fr-1.2-t-13", "lesson": "fr-1.2-3", "type": "transform", "task_en": "Make it feminine", "fr": "Il est américain.", "a": ["Elle est américaine."]},
+      {"id": "fr-1.2-t-14", "lesson": "fr-1.2-3", "type": "transform", "task_en": "Make it feminine", "fr": "Il est slovaque.", "a": ["Elle est slovaque."]},
+      {"id": "fr-1.2-t-15", "lesson": "fr-1.2-3", "type": "build", "en": "She's Italian.", "a": ["Elle est italienne."]},
+      {"id": "fr-1.2-t-16", "lesson": "fr-1.2-3", "type": "cloze", "fr": "C'est ___Espagne.", "a": ["l'"], "hint": "article"},
+      {"id": "fr-1.2-t-17", "lesson": "fr-1.2-4", "type": "form", "verb": "venir", "tense": "present", "person": 4},
+      {"id": "fr-1.2-t-18", "lesson": "fr-1.2-4", "type": "form", "verb": "venir", "tense": "present", "person": 5},
+      {"id": "fr-1.2-t-19", "lesson": "fr-1.2-4", "type": "cloze", "fr": "J'habite ___ Lyon.", "a": ["à"]},
+      {"id": "fr-1.2-t-20", "lesson": "fr-1.2-4", "type": "cloze", "fr": "Ils habitent ___ Allemagne.", "a": ["en"]},
+      {"id": "fr-1.2-t-21", "lesson": "fr-1.2-4", "type": "cloze", "fr": "Elle vient ___ États-Unis.", "a": ["des"]},
+      {"id": "fr-1.2-t-22", "lesson": "fr-1.2-4", "type": "build", "en": "I live in Paris, but I'm from Prague.", "a": ["J'habite à Paris, mais je viens de Prague."]},
+      {"id": "fr-1.2-t-23", "lesson": "fr-1.2-4", "type": "build", "en": "Where are you from? (vous)", "a": ["{D'où venez-vous|Vous venez d'où|D'où êtes-vous} ?"]},
+      {"id": "fr-1.2-t-24", "lesson": "fr-1.2-4", "type": "build", "en": "We speak Czech.", "a": ["{Nous parlons|On parle} {|le }tchèque."]},
+      {"id": "fr-1.2-t-25", "lesson": "fr-1.2-4", "type": "build", "en": "He lives in Canada. / She lives in Canada.", "a": ["{Il|Elle} habite au Canada."]},
+      {"id": "fr-1.2-t-26", "lesson": "fr-1.2-4", "type": "transform", "task_en": "Make it formal (vous)", "fr": "Tu viens d'où ?", "a": ["{Vous venez d'où|D'où venez-vous} ?"]},
+      {"id": "fr-1.2-t-27", "lesson": "fr-1.2-1", "type": "build", "en": "I'm fifteen and I live in Prague.", "a": ["J'ai quinze ans et j'habite à Prague."]}
+    ]
+  }
+}

@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": "sj-01-forms",
-      "title": "Step 1: The subjunctive: regular forms",
+      "title": "Krok 1: Subjonctif: pravidelné tvary",
       "fr": "le subjonctif présent : les formes",
       "level": "B1",
       "keywords": [
@@ -20,17 +20,17 @@
       "tense": "subjonctif-present",
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The subjunctive (*subjonctif*) is a verb form used after certain expressions, almost always after **que**: *Il faut que tu viennes.* To form it, take the **ils** form of the present, drop **-ent**, and add *-e, -es, -e, -ions, -iez, -ent*."
+              "cs": "Subjonctif (*subjonctif*) je slovesný tvar, který se používá po některých výrazech, skoro vždycky po **que**: *Il faut que tu viennes.* Tvoří se tak, že vezmeš tvar pro **ils** v přítomném čase, odtrhneš **-ent** a přidáš *-e, -es, -e, -ions, -iez, -ent*."
             },
             {
               "type": "table",
               "head": [
-                "ils (present)",
-                "stem",
+                "ils (přítomný čas)",
+                "kmen",
                 "subjunctive"
               ],
               "rows": [
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "title": "Take ils, drop -ent",
+          "title": "Vezmi ils, odtrhni -ent",
           "blocks": [
             {
               "type": "table",
@@ -78,7 +78,7 @@
             },
             {
               "type": "text",
-              "en": "For *-er* verbs *je, tu, il, ils* look like the present: *que je parle*. You see the difference with *-ir* and *-re* verbs: *que je finisse, que je parte*."
+              "cs": "U sloves na *-er* vypadají *je, tu, il, ils* jako přítomný čas: *que je parle*. Rozdíl uvidíš u sloves na *-ir* a *-re*: *que je finisse, que je parte*."
             },
             {
               "type": "check",
@@ -92,11 +92,11 @@
           ]
         },
         {
-          "title": "Nous and vous: like the imparfait",
+          "title": "Nous a vous: jako imparfait",
           "blocks": [
             {
               "type": "text",
-              "en": "*Nous* and *vous* take the stem of *nous* in the present, so they look like the imparfait: *que nous parlions, que vous finissiez*. Verbs with two stems show it clearly: *que je prenne / que nous prenions, que je vienne / que nous venions, que je boive / que nous buvions*."
+              "cs": "*Nous* a *vous* berou kmen z *nous* v přítomném čase, takže vypadají jako imparfait: *que nous parlions, que vous finissiez*. Slovesa se dvěma kmeny to ukazují jasně: *que je prenne / que nous prenions, que je vienne / que nous venions, que je boive / que nous buvions*."
             },
             {
               "type": "table",
@@ -115,26 +115,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il faut que je parte.",
-                  "en": "I have to leave."
+                  "cs": "Musím odejít."
                 },
                 {
                   "fr": "Je veux que tu finisses ton assiette.",
-                  "en": "I want you to finish your plate."
+                  "cs": "Chci, abys dojedl talíř."
                 },
                 {
                   "fr": "Il faut que vous écriviez la lettre.",
-                  "en": "You have to write the letter."
+                  "cs": "Musíš napsat ten dopis."
                 },
                 {
                   "fr": "Le prof veut que nous lisions ce livre.",
-                  "en": "The teacher wants us to read this book."
+                  "cs": "Učitel chce, abychom si přečetli tuhle knihu."
                 }
               ]
             }
@@ -244,7 +244,7 @@
     },
     {
       "id": "sj-02-irregular",
-      "title": "Step 2: Irregular subjunctives",
+      "title": "Krok 2: Nepravidelný subjonctif",
       "fr": "le subjonctif irrégulier",
       "level": "B1",
       "keywords": [
@@ -266,16 +266,16 @@
       "tense": "subjonctif-present",
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Seven common verbs are irregular. Learn them as a group: **être, avoir, aller, faire, pouvoir, savoir, vouloir**. Two impersonal ones are also useful: *qu'il faille* (falloir), *qu'il pleuve* (pleuvoir)."
+              "cs": "Sedm běžných sloves je nepravidelných. Nauč se je jako skupinu: **être, avoir, aller, faire, pouvoir, savoir, vouloir**. Hodí se i dvě neosobní: *qu'il faille* (falloir), *qu'il pleuve* (pleuvoir)."
             },
             {
               "type": "table",
               "head": [
-                "verb",
+                "sloveso",
                 "que je",
                 "que nous"
               ],
@@ -320,7 +320,7 @@
           ]
         },
         {
-          "title": "Être and avoir",
+          "title": "Être a avoir",
           "blocks": [
             {
               "type": "table",
@@ -341,7 +341,7 @@
                   "sois"
                 ],
                 "hint": "être",
-                "en": "You have to be patient."
+                "cs": "Musíš být trpělivý."
               }
             }
           ]
@@ -351,7 +351,7 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Aller* and *vouloir* go back to the regular stem for *nous, vous*: *que nous allions, que vous vouliez*. *Faire, pouvoir, savoir* keep the irregular stem everywhere: *que nous fassions, puissions, sachions*."
+              "cs": "*Aller* a *vouloir* se u *nous, vous* vracejí k pravidelnému kmeni: *que nous allions, que vous vouliez*. *Faire, pouvoir, savoir* si nechávají nepravidelný kmen všude: *que nous fassions, puissions, sachions*."
             },
             {
               "type": "check",
@@ -365,26 +365,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il faut que tu sois à l'heure.",
-                  "en": "You have to be on time."
+                  "cs": "Musíš přijít včas."
                 },
                 {
                   "fr": "Je ne crois pas qu'il ait raison.",
-                  "en": "I don't think he's right."
+                  "cs": "Nemyslím si, že má pravdu."
                 },
                 {
                   "fr": "Il faut qu'on aille à la gare.",
-                  "en": "We have to go to the station."
+                  "cs": "Musíme jít na nádraží."
                 },
                 {
                   "fr": "Je veux que vous fassiez attention.",
-                  "en": "I want you to be careful."
+                  "cs": "Chci, abys byl opatrný."
                 }
               ]
             }
@@ -470,13 +470,13 @@
             "fasse"
           ],
           "hint": "faire",
-          "en": "She has to do her homework."
+          "cs": "Musí si udělat úkoly."
         }
       ]
     },
     {
       "id": "sj-03-il-faut-que",
-      "title": "Step 3: Il faut que: necessity",
+      "title": "Krok 3: Il faut que: nutnost",
       "fr": "il faut que + subjonctif",
       "level": "B1",
       "keywords": [
@@ -495,11 +495,11 @@
       "tense": "subjonctif-present",
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*Il faut que* + subjunctive = **someone** has to do something: *Il faut que je parte.* (I have to leave.) The same goes for *il est important que, il est nécessaire que, il vaut mieux que* (it's better that)."
+              "cs": "*Il faut que* + subjonctif = **někdo** musí něco udělat: *Il faut que je parte.* (Musím odejít.) Totéž platí pro *il est important que, il est nécessaire que, il vaut mieux que* (je lepší, aby)."
             },
             {
               "type": "pattern",
@@ -527,7 +527,7 @@
                       "viennes."
                     ]
                   ],
-                  "en": "You have to come."
+                  "cs": "Musíš přijít."
                 }
               ],
               "formula": [
@@ -553,21 +553,21 @@
           ]
         },
         {
-          "title": "With a person or in general",
+          "title": "S osobou, nebo obecně",
           "blocks": [
             {
               "type": "text",
-              "en": "For a general rule, use the infinitive: *Il faut travailler.* (One has to work.) For a specific person, use *que* + subjunctive: *Il faut que tu travailles.* *Devoir* means the same: *Tu dois travailler.*"
+              "cs": "Pro obecné pravidlo použij infinitiv: *Il faut travailler.* (Člověk musí pracovat.) Pro konkrétní osobu *que* + subjonctif: *Il faut que tu travailles.* *Devoir* znamená totéž: *Tu dois travailler.*"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "One has to sleep.",
+                  "cs": "Člověk musí spát.",
                   "fr": "Il faut [[dormir]]."
                 },
                 {
-                  "en": "You have to sleep.",
+                  "cs": "Musíš spát.",
                   "fr": "Il faut que tu [[dormes]]."
                 }
               ]
@@ -581,32 +581,32 @@
                   "fasse"
                 ],
                 "hint": "faire",
-                "en": "I have to do my homework."
+                "cs": "Musím si udělat úkoly."
               }
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il faut que nous partions à huit heures.",
-                  "en": "We have to leave at eight."
+                  "cs": "Musíme vyrazit v osm."
                 },
                 {
                   "fr": "Il est important que vous soyez à l'heure.",
-                  "en": "It's important that you're on time."
+                  "cs": "Je důležité, abys přišel včas."
                 },
                 {
                   "fr": "Il vaut mieux que tu prennes un parapluie.",
-                  "en": "You'd better take an umbrella."
+                  "cs": "Radši si vezmi deštník."
                 },
                 {
                   "fr": "Il faut qu'on aille au supermarché.",
-                  "en": "We have to go to the supermarket."
+                  "cs": "Musíme jít do supermarketu."
                 }
               ]
             }
@@ -622,7 +622,7 @@
             "partions"
           ],
           "hint": "partir",
-          "en": "We have to leave at eight."
+          "cs": "Musíme vyrazit v osm."
         },
         {
           "id": "g-sj-03-il-faut-que-02",
@@ -632,7 +632,7 @@
             "ranges"
           ],
           "hint": "ranger",
-          "en": "You have to tidy your room."
+          "cs": "Musíš si uklidit pokoj."
         },
         {
           "id": "g-sj-03-il-faut-que-03",
@@ -642,7 +642,7 @@
             "soyez"
           ],
           "hint": "être",
-          "en": "It's important that you're on time."
+          "cs": "Je důležité, abys přišel včas."
         },
         {
           "id": "g-sj-03-il-faut-que-04",
@@ -652,7 +652,7 @@
             "prenne"
           ],
           "hint": "prendre",
-          "en": "He'd better take a taxi."
+          "cs": "Radši ať si vezme taxi."
         },
         {
           "id": "g-sj-03-il-faut-que-05",
@@ -662,7 +662,7 @@
             "aide"
           ],
           "hint": "aider",
-          "en": "She has to help her mother."
+          "cs": "Musí pomoct mámě."
         },
         {
           "id": "g-sj-03-il-faut-que-06",
@@ -672,7 +672,7 @@
             "sache"
           ],
           "hint": "savoir",
-          "en": "Everyone needs to know the rule."
+          "cs": "Všichni musí znát to pravidlo."
         },
         {
           "id": "g-sj-03-il-faut-que-07",
@@ -682,12 +682,12 @@
             "aille"
           ],
           "hint": "aller",
-          "en": "We have to go to the supermarket."
+          "cs": "Musíme jít do supermarketu."
         },
         {
           "id": "g-sj-03-il-faut-que-08",
           "type": "transform",
-          "task_en": "Say it with il faut que",
+          "task_cs": "Řekni to pomocí il faut que",
           "fr": "Tu dois travailler.",
           "a": [
             "Il faut que tu travailles."
@@ -696,7 +696,7 @@
         {
           "id": "g-sj-03-il-faut-que-09",
           "type": "transform",
-          "task_en": "Say it with il faut que",
+          "task_cs": "Řekni to pomocí il faut que",
           "fr": "Nous devons finir.",
           "a": [
             "Il faut que nous finissions."
@@ -705,7 +705,7 @@
         {
           "id": "g-sj-03-il-faut-que-10",
           "type": "transform",
-          "task_en": "Say it with il faut que",
+          "task_cs": "Řekni to pomocí il faut que",
           "fr": "Je dois partir.",
           "a": [
             "Il faut que je parte."
@@ -714,7 +714,7 @@
         {
           "id": "g-sj-03-il-faut-que-11",
           "type": "build",
-          "en": "You have to come. (tu)",
+          "cs": "Musíš přijít. (tu)",
           "a": [
             "Il faut que tu viennes.",
             "Tu dois venir."
@@ -724,7 +724,7 @@
     },
     {
       "id": "sj-04-wishes-feelings",
-      "title": "Step 4: Wishes and feelings: je veux que, je suis content que",
+      "title": "Krok 4: Přání a pocity: je veux que, je suis content que",
       "fr": "le subjonctif après la volonté et les sentiments",
       "level": "B1",
       "keywords": [
@@ -743,45 +743,45 @@
       "tense": "subjonctif-present",
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "After verbs of **wanting** (*vouloir que, aimer que, préférer que, souhaiter que*) and **feelings** (*être content que, être triste que, avoir peur que, regretter que, c'est dommage que*) the second verb is in the subjunctive, **when the two subjects are different**."
+              "cs": "Po slovesech **chtění** (*vouloir que, aimer que, préférer que, souhaiter que*) a **pocitů** (*être content que, être triste que, avoir peur que, regretter que, c'est dommage que*) je druhé sloveso v subjonctivu, **když mají obě slovesa různý podmět**."
             },
             {
               "type": "tip",
-              "en": "Whenever you mean *I want someone to...*, French needs *que* + subjunctive: *Je veux que tu viennes* (I want you to come).",
-              "title": "A clue"
+              "cs": "Kdykoli myslíš *chci, aby někdo...*, francouzština potřebuje *que* + subjonctif: *Je veux que tu viennes* (Chci, abys přišel).",
+              "title": "Vodítko"
             }
           ]
         },
         {
-          "title": "Same subject: infinitive",
+          "title": "Stejný podmět: infinitiv",
           "blocks": [
             {
               "type": "text",
-              "en": "If both verbs have the same subject, there is no *que*, just the infinitive."
+              "cs": "Když mají obě slovesa stejný podmět, žádné *que* tam není, jen infinitiv."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I want you to come.",
+                  "cs": "Chci, abys přišel.",
                   "wrong": "Je veux toi venir.",
                   "fr": "Je veux que tu [[viennes]]."
                 },
                 {
-                  "en": "I want to come.",
+                  "cs": "Chci přijít.",
                   "wrong": "Je veux que je vienne.",
                   "fr": "Je veux [[venir]]."
                 },
                 {
-                  "en": "I'm happy that you're here.",
+                  "cs": "Jsem rád, že jsi tady.",
                   "fr": "Je suis content que tu [[sois]] là."
                 },
                 {
-                  "en": "I'm happy to be here.",
+                  "cs": "Jsem rád, že jsem tady.",
                   "fr": "Je suis content [[d'être]] là."
                 }
               ]
@@ -795,36 +795,36 @@
                   "viennes"
                 ],
                 "hint": "venir",
-                "en": "I want you to come with me."
+                "cs": "Chci, abys šel se mnou."
               }
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Mes parents veulent que je fasse mes devoirs.",
-                  "en": "My parents want me to do my homework."
+                  "cs": "Rodiče chtějí, abych si udělal úkoly."
                 },
                 {
                   "fr": "Je suis content que tu sois là.",
-                  "en": "I'm glad you're here."
+                  "cs": "Jsem rád, že jsi tady."
                 },
                 {
                   "fr": "Elle a peur que son chien soit malade.",
-                  "en": "She's afraid her dog is ill."
+                  "cs": "Bojí se, že je její pes nemocný."
                 },
                 {
                   "fr": "C'est dommage qu'il pleuve.",
-                  "en": "It's a pity it's raining."
+                  "cs": "Škoda, že prší."
                 },
                 {
                   "fr": "Je préfère que vous veniez demain.",
-                  "en": "I'd rather you came tomorrow."
+                  "cs": "Byl bych radši, kdybys přišel zítra."
                 }
               ]
             }
@@ -840,7 +840,7 @@
             "fasse"
           ],
           "hint": "faire",
-          "en": "My parents want me to do my homework."
+          "cs": "Rodiče chtějí, abych si udělal úkoly."
         },
         {
           "id": "g-sj-04-wishes-feelings-02",
@@ -850,7 +850,7 @@
             "sois"
           ],
           "hint": "être",
-          "en": "I'm glad you're here."
+          "cs": "Jsem rád, že jsi tady."
         },
         {
           "id": "g-sj-04-wishes-feelings-03",
@@ -860,7 +860,7 @@
             "soit"
           ],
           "hint": "être",
-          "en": "She's afraid her dog is ill."
+          "cs": "Bojí se, že je její pes nemocný."
         },
         {
           "id": "g-sj-04-wishes-feelings-04",
@@ -870,7 +870,7 @@
             "veniez"
           ],
           "hint": "venir",
-          "en": "We'd rather you came tomorrow."
+          "cs": "Byli bychom radši, kdybys přišel zítra."
         },
         {
           "id": "g-sj-04-wishes-feelings-05",
@@ -880,7 +880,7 @@
             "pleuve"
           ],
           "hint": "pleuvoir",
-          "en": "It's a pity it's raining."
+          "cs": "Škoda, že prší."
         },
         {
           "id": "g-sj-04-wishes-feelings-06",
@@ -890,7 +890,7 @@
             "lisions"
           ],
           "hint": "lire",
-          "en": "The teacher would like us to read more."
+          "cs": "Učitel by chtěl, abychom víc četli."
         },
         {
           "id": "g-sj-04-wishes-feelings-07",
@@ -900,12 +900,12 @@
             "puisses"
           ],
           "hint": "pouvoir",
-          "en": "I'm sorry you can't come."
+          "cs": "Mrzí mě, že nemůžeš přijít."
         },
         {
           "id": "g-sj-04-wishes-feelings-08",
           "type": "transform",
-          "task_en": "Join into one sentence with que",
+          "task_cs": "Spoj do jedné věty pomocí que",
           "fr": "Je veux. Tu viens.",
           "a": [
             "Je veux que tu viennes."
@@ -914,7 +914,7 @@
         {
           "id": "g-sj-04-wishes-feelings-09",
           "type": "transform",
-          "task_en": "Join into one sentence with que",
+          "task_cs": "Spoj do jedné věty pomocí que",
           "fr": "Je suis triste. Tu pars.",
           "a": [
             "Je suis triste que tu partes."
@@ -923,7 +923,7 @@
         {
           "id": "g-sj-04-wishes-feelings-10",
           "type": "build",
-          "en": "I want you to listen. (tu)",
+          "cs": "Chci, abys poslouchal. (tu)",
           "a": [
             "Je veux que tu écoutes."
           ]
@@ -931,7 +931,7 @@
         {
           "id": "g-sj-04-wishes-feelings-11",
           "type": "build",
-          "en": "I want to sleep.",
+          "cs": "Chci spát.",
           "a": [
             "Je veux dormir."
           ]
@@ -940,7 +940,7 @@
     },
     {
       "id": "sj-05-conjunctions",
-      "title": "Step 5: After conjunctions: pour que, avant que, bien que",
+      "title": "Krok 5: Po spojkách: pour que, avant que, bien que",
       "fr": "le subjonctif après une conjonction",
       "level": "B1",
       "keywords": [
@@ -961,56 +961,56 @@
       "tense": "subjonctif-present",
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Some conjunctions always take the subjunctive. Others never do. Learn the two lists side by side."
+              "cs": "Některé spojky mají vždycky subjonctif. Jiné nikdy. Nauč se oba seznamy vedle sebe."
             },
             {
               "type": "table",
               "head": [
-                "+ subjunctive",
-                "meaning",
-                "+ indicative",
-                "meaning"
+                "+ subjonctif",
+                "význam",
+                "+ indikativ",
+                "význam"
               ],
               "rows": [
                 [
                   "pour que",
-                  "so that",
+                  "aby",
                   "parce que",
-                  "because"
+                  "protože"
                 ],
                 [
                   "avant que",
-                  "before",
+                  "před, dřív než",
                   "après que",
-                  "after"
+                  "po, poté co"
                 ],
                 [
                   "bien que",
-                  "although",
+                  "přestože",
                   "pendant que",
-                  "while"
+                  "zatímco"
                 ],
                 [
                   "sans que",
-                  "without",
+                  "aniž",
                   "quand",
-                  "when"
+                  "když"
                 ],
                 [
                   "à condition que",
-                  "provided that",
+                  "pod podmínkou, že",
                   "si",
-                  "if"
+                  "jestli, když"
                 ],
                 [
                   "jusqu'à ce que",
-                  "until",
+                  "dokud, až",
                   "depuis que",
-                  "since"
+                  "protože, jelikož"
                 ]
               ],
               "textCols": [
@@ -1021,11 +1021,11 @@
           ]
         },
         {
-          "title": "Same subject: preposition + infinitive",
+          "title": "Stejný podmět: předložka + infinitiv",
           "blocks": [
             {
               "type": "text",
-              "en": "When both parts have the same subject, use the preposition with the infinitive instead: *pour partir, avant de partir, sans dire*. *Je travaille pour réussir* (I work to succeed) but *Je travaille pour que mes parents soient contents*."
+              "cs": "Když mají obě části stejný podmět, použij místo toho předložku s infinitivem: *pour partir, avant de partir, sans dire*. *Je travaille pour réussir* (Pracuju, abych uspěl), ale *Je travaille pour que mes parents soient contents*."
             },
             {
               "type": "check",
@@ -1036,36 +1036,36 @@
                   "fasse"
                 ],
                 "hint": "faire",
-                "en": "Come home before it gets dark."
+                "cs": "Vrať se domů, než se setmí."
               }
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je t'explique pour que tu comprennes.",
-                  "en": "I'm explaining so that you understand."
+                  "cs": "Vysvětluju to, abys to pochopil."
                 },
                 {
                   "fr": "Bien qu'il soit malade, il va à l'école.",
-                  "en": "Although he's ill, he goes to school."
+                  "cs": "Přestože je nemocný, jde do školy."
                 },
                 {
                   "fr": "Tu peux sortir à condition que tu rentres à dix heures.",
-                  "en": "You can go out provided you're back at ten."
+                  "cs": "Můžeš jít ven, pokud se vrátíš v deset."
                 },
                 {
                   "fr": "Attends ici jusqu'à ce que je revienne.",
-                  "en": "Wait here until I come back."
+                  "cs": "Počkej tady, dokud se nevrátím."
                 },
                 {
                   "fr": "Je reste parce que je suis fatigué.",
-                  "en": "I'm staying because I'm tired."
+                  "cs": "Zůstávám, protože jsem unavený."
                 }
               ]
             }
@@ -1080,7 +1080,7 @@
           "a": [
             "comprennes"
           ],
-          "en": "I'm explaining so that you understand."
+          "cs": "Vysvětluju to, abys to pochopil."
         },
         {
           "id": "g-sj-05-conjunctions-02",
@@ -1090,7 +1090,7 @@
             "soit"
           ],
           "hint": "être",
-          "en": "Although he's ill, he goes to school."
+          "cs": "Přestože je nemocný, jde do školy."
         },
         {
           "id": "g-sj-05-conjunctions-03",
@@ -1100,7 +1100,7 @@
             "sois"
           ],
           "hint": "être",
-          "en": "I'll lend you my bike provided you're careful."
+          "cs": "Půjčím ti kolo, pokud budeš opatrný."
         },
         {
           "id": "g-sj-05-conjunctions-04",
@@ -1110,7 +1110,7 @@
             "voie"
           ],
           "hint": "voir",
-          "en": "He left without me seeing him."
+          "cs": "Odešel, aniž bych ho viděl."
         },
         {
           "id": "g-sj-05-conjunctions-05",
@@ -1120,7 +1120,7 @@
             "finisse"
           ],
           "hint": "finir",
-          "en": "Wait until I finish."
+          "cs": "Počkej, až to dodělám."
         },
         {
           "id": "g-sj-05-conjunctions-06",
@@ -1130,7 +1130,7 @@
             "puissiez"
           ],
           "hint": "pouvoir",
-          "en": "I'm speaking slowly so that you can follow."
+          "cs": "Mluvím pomalu, abys stačil."
         },
         {
           "id": "g-sj-05-conjunctions-07",
@@ -1140,7 +1140,7 @@
             "suis"
           ],
           "hint": "être",
-          "en": "I'm staying because I'm tired."
+          "cs": "Zůstávám, protože jsem unavený."
         },
         {
           "id": "g-sj-05-conjunctions-08",
@@ -1151,12 +1151,12 @@
             "arrives"
           ],
           "hint": "arriver",
-          "en": "When you arrive, call me."
+          "cs": "Až přijedeš, zavolej mi."
         },
         {
           "id": "g-sj-05-conjunctions-09",
           "type": "build",
-          "en": "I'm leaving before it rains.",
+          "cs": "Odcházím, než začne pršet.",
           "a": [
             "Je pars avant qu'il pleuve.",
             "Je pars avant qu'il ne pleuve."
@@ -1165,7 +1165,7 @@
         {
           "id": "g-sj-05-conjunctions-10",
           "type": "build",
-          "en": "I'm working to succeed.",
+          "cs": "Pracuju, abych uspěl.",
           "a": [
             "Je travaille pour réussir."
           ]
@@ -1174,7 +1174,7 @@
     },
     {
       "id": "sj-06-mix",
-      "title": "Step 6: Subjunctive or indicative? Mixed practice",
+      "title": "Krok 6: Subjonctif, nebo indikativ? Smíšené procvičování",
       "fr": "subjonctif ou indicatif ?",
       "level": "B1",
       "keywords": [
@@ -1195,16 +1195,16 @@
       "tense": "subjonctif-present",
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Ask: is the second part a **fact**, or something you are **sure** of? Indicative. Is it **wanted, needed, felt, doubted or only possible**? Subjunctive. *Je pense qu'il vient* (I think so: indicative) but *Je ne pense pas qu'il vienne* (doubt: subjunctive)."
+              "cs": "Zeptej se: je druhá část **fakt**, nebo něco, čím si jsi **jistý**? Indikativ. Je to něco **chtěného, nutného, pociťovaného, pochybného nebo jen možného**? Subjonctif. *Je pense qu'il vient* (myslím si to: indikativ), ale *Je ne pense pas qu'il vienne* (pochybnost: subjonctif)."
             },
             {
               "type": "table",
               "head": [
-                "indicative",
+                "indikativ",
                 "subjunctive"
               ],
               "rows": [
@@ -1237,39 +1237,39 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "*Espérer que* takes the **indicative**: *J'espère que tu vas bien.* It feels like a wish, but French treats it as an expectation."
+              "cs": "*Espérer que* má **indikativ**: *J'espère que tu vas bien.* Působí to jako přání, ale francouzština to bere jako očekávání."
             },
             {
               "type": "tip",
-              "en": "*Penser* and *croire* take the indicative when you say yes (*Je crois qu'il est là*) and the subjunctive in the negative (*Je ne crois pas qu'il soit là*)."
+              "cs": "*Penser* a *croire* mají indikativ, když říkáš ano (*Je crois qu'il est là*), a subjonctif v záporu (*Je ne crois pas qu'il soit là*)."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je pense qu'elle a raison.",
-                  "en": "I think she's right."
+                  "cs": "Myslím, že má pravdu."
                 },
                 {
                   "fr": "Je ne pense pas qu'elle ait raison.",
-                  "en": "I don't think she's right."
+                  "cs": "Nemyslím si, že má pravdu."
                 },
                 {
                   "fr": "J'espère que tu viendras.",
-                  "en": "I hope you'll come."
+                  "cs": "Doufám, že přijdeš."
                 },
                 {
                   "fr": "Il est possible qu'il neige demain.",
-                  "en": "It may snow tomorrow."
+                  "cs": "Zítra možná bude sněžit."
                 }
               ]
             }
@@ -1286,7 +1286,7 @@
             "vient"
           ],
           "hint": "venir",
-          "en": "I think he's coming tomorrow."
+          "cs": "Myslím, že zítra přijde."
         },
         {
           "id": "g-sj-06-mix-02",
@@ -1296,7 +1296,7 @@
             "vienne"
           ],
           "hint": "venir",
-          "en": "I don't think he's coming tomorrow."
+          "cs": "Nemyslím si, že zítra přijde."
         },
         {
           "id": "g-sj-06-mix-03",
@@ -1306,7 +1306,7 @@
             "vas"
           ],
           "hint": "aller",
-          "en": "I hope you're well."
+          "cs": "Doufám, že se máš dobře."
         },
         {
           "id": "g-sj-06-mix-04",
@@ -1316,7 +1316,7 @@
             "ailles"
           ],
           "hint": "aller",
-          "en": "I wish you well."
+          "cs": "Přeju ti, ať se máš dobře."
         },
         {
           "id": "g-sj-06-mix-05",
@@ -1326,7 +1326,7 @@
             "a"
           ],
           "hint": "avoir",
-          "en": "It's certain she's right."
+          "cs": "Je jisté, že má pravdu."
         },
         {
           "id": "g-sj-06-mix-06",
@@ -1336,7 +1336,7 @@
             "ait"
           ],
           "hint": "avoir",
-          "en": "She may be right."
+          "cs": "Možná má pravdu."
         },
         {
           "id": "g-sj-06-mix-07",
@@ -1346,7 +1346,7 @@
             "êtes"
           ],
           "hint": "être",
-          "en": "I know you're tired."
+          "cs": "Vím, že jsi unavený."
         },
         {
           "id": "g-sj-06-mix-08",
@@ -1356,7 +1356,7 @@
             "soyez"
           ],
           "hint": "être",
-          "en": "I doubt you're tired."
+          "cs": "Pochybuju, že jsi unavený."
         },
         {
           "id": "g-sj-06-mix-09",
@@ -1366,7 +1366,7 @@
             "sommes"
           ],
           "hint": "être",
-          "en": "I think we're late."
+          "cs": "Myslím, že jdeme pozdě."
         },
         {
           "id": "g-sj-06-mix-10",
@@ -1376,7 +1376,7 @@
             "fasse"
           ],
           "hint": "faire",
-          "en": "Although it's cold, I'm going out."
+          "cs": "Přestože je zima, jdu ven."
         },
         {
           "id": "g-sj-06-mix-11",
@@ -1386,12 +1386,12 @@
             "fait"
           ],
           "hint": "faire",
-          "en": "I'm staying in because it's cold."
+          "cs": "Zůstávám doma, protože je zima."
         },
         {
           "id": "g-sj-06-mix-12",
           "type": "build",
-          "en": "I don't think he knows.",
+          "cs": "Nemyslím si, že to ví.",
           "a": [
             "Je ne pense pas qu'il sache.",
             "Je ne crois pas qu'il sache."
@@ -1400,7 +1400,7 @@
         {
           "id": "g-sj-06-mix-13",
           "type": "build",
-          "en": "I hope you can come. (tu)",
+          "cs": "Doufám, že můžeš přijít. (tu)",
           "a": [
             "J'espère que tu peux venir.",
             "J'espère que tu pourras venir."

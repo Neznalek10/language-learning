@@ -1,0 +1,286 @@
+{
+  "schema": 1,
+  "goals": [
+    "Describe what someone looks like and what they're like",
+    "Make adjectives agree in gender and number, including irregular ones",
+    "Use colours and describe hair and eyes",
+    "Know when an adjective goes before the noun",
+    "Form the negative with ne... pas and pas de"
+  ],
+  "lessons": [
+    {
+      "id": "fr-2.2-1",
+      "title": "Il est grand",
+      "subtitle": "Adjective agreement",
+      "topics": ["adjectives", "describe"],
+      "words": ["appearance#tall, big", "appearance#small", "appearance#slim", "appearance#young", "appearance#pretty", "appearance#average", "personality#nice, likeable", "personality#shy", "personality#fun, amusing", "personality#pleasant", "personality#clever, intelligent", "personality#sad", "personality#calm", "personality#funny"],
+      "learn": [
+        {"title": "Adjectives agree", "blocks": [
+          {"type": "text", "en": "In French an adjective follows the gender and number of the noun it describes. For the feminine you add *-e*, for the plural *-s*."},
+          {"type": "table", "head": ["", "masculine", "feminine"], "textCols": [0], "rows": [
+            ["singular", "il est grand", "elle est grande"],
+            ["plural", "ils sont grands", "elles sont grandes"]
+          ]},
+          {"type": "text", "en": "The final *-e* and *-s* are silent. In the feminine, though, you hear the consonant before the *-e*: *petit* [pəti] → *petite* [pətit]."},
+          {"type": "tip", "title": "Ending in -e", "en": "Adjectives that already end in *-e* don't change in the feminine: *jeune, mince, timide, sympathique, calme, drôle, triste, agréable*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Marie est ___.", "a": ["petite"], "hint": "small"}}
+        ]},
+        {"title": "Ils or elles?", "blocks": [
+          {"type": "text", "en": "When you describe a group of men and women, you use the masculine plural: *Paul et Marie sont grands.*"},
+          {"type": "examples", "items": [
+            {"fr": "Mon frère est grand et mince.", "en": "My brother is tall and slim."},
+            {"fr": "Ma sœur est petite et sympathique.", "en": "My sister is small and nice."},
+            {"fr": "Mes cousines sont amusantes.", "en": "My cousins (girls) are fun."},
+            {"fr": "Tom et Léa sont intelligents.", "en": "Tom and Léa are clever."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Paul et Léa sont ___.", "a": ["intelligents"], "hint": "clever"}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.2-1-01", "type": "cloze", "fr": "Ma mère est ___.", "a": ["mince"], "hint": "slim", "why": "Mince ends in -e, so it doesn't change in the feminine."},
+        {"id": "fr-2.2-1-02", "type": "cloze", "fr": "Ma sœur est ___.", "a": ["grande"], "hint": "tall"},
+        {"id": "fr-2.2-1-03", "type": "cloze", "fr": "Léa est ___.", "a": ["intelligente"], "hint": "clever"},
+        {"id": "fr-2.2-1-04", "type": "cloze", "fr": "Mes cousins sont ___.", "a": ["amusants"], "hint": "fun"},
+        {"id": "fr-2.2-1-05", "type": "cloze", "fr": "Mes tantes sont ___.", "a": ["agréables"], "hint": "pleasant"},
+        {"id": "fr-2.2-1-06", "type": "cloze", "fr": "Julie est ___.", "a": ["timide"], "hint": "shy"},
+        {"id": "fr-2.2-1-07", "type": "cloze", "fr": "Elles sont ___.", "a": ["jeunes"], "hint": "young"},
+        {"id": "fr-2.2-1-08", "type": "transform", "task_en": "Make it feminine", "fr": "Il est petit.", "a": ["Elle est petite."]},
+        {"id": "fr-2.2-1-09", "type": "transform", "task_en": "Make it feminine", "fr": "Il est intelligent.", "a": ["Elle est intelligente."]},
+        {"id": "fr-2.2-1-10", "type": "transform", "task_en": "Make it feminine", "fr": "Il est timide.", "a": ["Elle est timide."]},
+        {"id": "fr-2.2-1-11", "type": "transform", "task_en": "Make it plural", "fr": "Elle est grande.", "a": ["Elles sont grandes."]},
+        {"id": "fr-2.2-1-12", "type": "build", "en": "My sister is small and slim.", "a": ["Ma sœur est petite et mince."]},
+        {"id": "fr-2.2-1-13", "type": "build", "en": "My brother is tall and funny.", "a": ["Mon frère est grand et drôle."]},
+        {"id": "fr-2.2-1-14", "type": "build", "en": "Paul and Marie are young.", "a": ["Paul et Marie sont jeunes."]},
+        {"id": "fr-2.2-1-15", "type": "order", "en": "My friend (a girl) is clever and fun.", "a": ["Mon amie est intelligente et amusante", "Ma copine est intelligente et amusante"], "extra": ["intelligent", "ma"]}
+      ]
+    },
+    {
+      "id": "fr-2.2-2",
+      "title": "Elle est sportive",
+      "subtitle": "Special adjective forms",
+      "topics": ["adjectives", "describe"],
+      "words": ["personality#lazy", "personality#sporty", "personality#active", "personality#generous", "personality#boring", "personality#chatty, talkative", "personality#hard-working", "personality#stingy", "personality#sincere", "personality#nervous", "personality#kind", "personality#nasty, mean", "personality#serious", "personality#curious", "personality#happy", "appearance#fat", "appearance#old", "appearance#beautiful", "appearance#new"],
+      "learn": [
+        {"title": "Special endings", "blocks": [
+          {"type": "table", "head": ["ending", "masculine", "feminine"], "rows": [
+            ["-eux → -euse", "paresseux, sérieux", "paresseuse, sérieuse"],
+            ["-if → -ive", "sportif, actif", "sportive, active"],
+            ["-eur → -euse", "travailleur, menteur", "travailleuse, menteuse"],
+            ["-en → -enne", "italien", "italienne"],
+            ["-er → -ère", "cher", "chère"]
+          ]},
+          {"type": "text", "en": "*Heureux, curieux, ennuyeux, généreux, nerveux* behave like *sérieux*: *heureuse, curieuse, ennuyeuse, généreuse, nerveuse*."},
+          {"type": "tip", "title": "avare, sincère", "en": "*Avare* (stingy) and *sincère* (sincere) end in *-e*, so they don't change in the feminine."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Ma sœur est très ___.", "a": ["sportive"], "hint": "sporty"}}
+        ]},
+        {"title": "Irregular adjectives", "blocks": [
+          {"type": "table", "head": ["", "masculine", "feminine"], "textCols": [0], "rows": [
+            ["beautiful", "beau", "belle"],
+            ["new", "nouveau", "nouvelle"],
+            ["old", "vieux", "vieille"],
+            ["kind", "gentil", "gentille"],
+            ["fat", "gros", "grosse"],
+            ["white", "blanc", "blanche"],
+            ["long", "long", "longue"],
+            ["frank", "franc", "franche"]
+          ]},
+          {"type": "text", "en": "In the plural, words ending in *-s* or *-x* don't change: *Ils sont sérieux.* *Beau* and *nouveau* take *-x*: *beaux, nouveaux*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Ma grand-mère est très ___.", "a": ["gentille"], "hint": "kind"}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.2-2-01", "type": "cloze", "fr": "Elle est ___.", "a": ["paresseuse"], "hint": "lazy"},
+        {"id": "fr-2.2-2-02", "type": "cloze", "fr": "Ma tante est ___.", "a": ["travailleuse"], "hint": "hard-working"},
+        {"id": "fr-2.2-2-03", "type": "cloze", "fr": "Léa est ___.", "a": ["active"], "hint": "active"},
+        {"id": "fr-2.2-2-04", "type": "cloze", "fr": "Mes cousines sont ___.", "a": ["curieuses"], "hint": "curious"},
+        {"id": "fr-2.2-2-05", "type": "cloze", "fr": "Ma mère est ___.", "a": ["heureuse"], "hint": "happy"},
+        {"id": "fr-2.2-2-06", "type": "cloze", "fr": "Julie est ___.", "a": ["belle"], "hint": "beautiful"},
+        {"id": "fr-2.2-2-07", "type": "cloze", "fr": "Ma grand-mère est ___.", "a": ["vieille"], "hint": "old"},
+        {"id": "fr-2.2-2-08", "type": "cloze", "fr": "Mes frères sont ___.", "a": ["beaux"], "hint": "handsome"},
+        {"id": "fr-2.2-2-09", "type": "cloze", "fr": "Elles sont ___.", "a": ["bavardes"], "hint": "chatty"},
+        {"id": "fr-2.2-2-10", "type": "transform", "task_en": "Make it feminine", "fr": "Il est sérieux.", "a": ["Elle est sérieuse."]},
+        {"id": "fr-2.2-2-11", "type": "transform", "task_en": "Make it feminine", "fr": "Il est gentil.", "a": ["Elle est gentille."]},
+        {"id": "fr-2.2-2-12", "type": "transform", "task_en": "Make it feminine", "fr": "Il est généreux.", "a": ["Elle est généreuse."]},
+        {"id": "fr-2.2-2-13", "type": "transform", "task_en": "Make it feminine", "fr": "Il est nouveau.", "a": ["Elle est nouvelle."]},
+        {"id": "fr-2.2-2-14", "type": "transform", "task_en": "Make it plural", "fr": "Il est ennuyeux.", "a": ["Ils sont ennuyeux."], "why": "Words ending in -x don't change in the plural."},
+        {"id": "fr-2.2-2-15", "type": "build", "en": "My sister is sporty and active.", "a": ["Ma sœur est sportive et active."]},
+        {"id": "fr-2.2-2-16", "type": "build", "en": "My grandfather is old but kind.", "a": ["Mon grand-père est vieux, mais gentil."]},
+        {"id": "fr-2.2-2-17", "type": "build", "en": "She is lazy and boring.", "a": ["Elle est paresseuse et ennuyeuse."]},
+        {"id": "fr-2.2-2-18", "type": "order", "en": "My aunt is very generous.", "a": ["Ma tante est très généreuse"], "extra": ["généreux", "mon"]}
+      ]
+    },
+    {
+      "id": "fr-2.2-3",
+      "title": "Les couleurs",
+      "subtitle": "Colours and agreement",
+      "topics": ["adjectives"],
+      "words": ["colors#colour", "colors#blue", "colors#green", "colors#black", "colors#grey", "colors#white", "colors#purple", "colors#red", "colors#yellow", "colors#pink", "colors#brown", "colors#orange", "colors#beige", "colors#light (colour)", "colors#dark (colour)"],
+      "learn": [
+        {"title": "Colours", "blocks": [
+          {"type": "table", "head": ["", "masculine", "feminine"], "textCols": [0], "rows": [
+            ["blue", "bleu", "bleue"], ["green", "vert", "verte"], ["black", "noir", "noire"], ["grey", "gris", "grise"],
+            ["white", "blanc", "blanche"], ["purple", "violet", "violette"], ["red", "rouge", "rouge"], ["yellow", "jaune", "jaune"],
+            ["pink", "rose", "rose"], ["brown", "marron", "marron"], ["orange", "orange", "orange"]
+          ]},
+          {"type": "text", "en": "A colour goes **after** the noun and agrees with it: *un chat noir, une voiture verte, des fleurs jaunes*."},
+          {"type": "tip", "title": "marron and orange", "en": "*Marron* and *orange* never change, not even in the plural: *des yeux marron, des chaussures orange*. They were originally the names of fruits (chestnut, orange)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Une voiture ___.", "a": ["verte"], "hint": "green"}}
+        ]},
+        {"title": "Light and dark", "blocks": [
+          {"type": "text", "en": "*Clair* (light) and *foncé* (dark) go after the colour, and then the whole phrase doesn't change: *une robe bleu clair, des yeux vert foncé*."},
+          {"type": "examples", "items": [
+            {"fr": "Mon chat est noir et blanc.", "en": "My cat is black and white."},
+            {"fr": "Ma chambre est bleu clair.", "en": "My bedroom is light blue."},
+            {"fr": "J'adore la couleur orange.", "en": "I love the colour orange."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.2-3-01", "type": "cloze", "fr": "Un chat ___.", "a": ["noir"], "hint": "black"},
+        {"id": "fr-2.2-3-02", "type": "cloze", "fr": "Une maison ___.", "a": ["blanche"], "hint": "white"},
+        {"id": "fr-2.2-3-03", "type": "cloze", "fr": "Des chiens ___.", "a": ["gris"], "hint": "grey", "why": "Gris ends in -s, so it doesn't change in the plural."},
+        {"id": "fr-2.2-3-04", "type": "cloze", "fr": "Des fleurs ___.", "a": ["jaunes"], "hint": "yellow"},
+        {"id": "fr-2.2-3-05", "type": "cloze", "fr": "Une fleur ___.", "a": ["violette"], "hint": "purple"},
+        {"id": "fr-2.2-3-06", "type": "cloze", "fr": "Des yeux ___.", "a": ["marron"], "hint": "brown", "why": "Marron doesn't change, not even in the plural."},
+        {"id": "fr-2.2-3-07", "type": "cloze", "fr": "Une voiture ___.", "a": ["bleue"], "hint": "blue"},
+        {"id": "fr-2.2-3-08", "type": "cloze", "fr": "Des voitures ___.", "a": ["orange"], "hint": "orange"},
+        {"id": "fr-2.2-3-09", "type": "cloze", "fr": "Une robe ___.", "a": ["rouge"], "hint": "red"},
+        {"id": "fr-2.2-3-10", "type": "build", "en": "I have a black cat.", "a": ["J'ai {un chat noir|une chatte noire}."]},
+        {"id": "fr-2.2-3-11", "type": "build", "en": "The house is white and the garden is green.", "a": ["La maison est blanche et le jardin est vert."]},
+        {"id": "fr-2.2-3-12", "type": "build", "en": "My car is grey.", "a": ["Ma voiture est grise."]},
+        {"id": "fr-2.2-3-13", "type": "order", "en": "I like pink and purple flowers.", "a": ["J'aime les fleurs roses et violettes"], "extra": ["rose", "violet"]}
+      ]
+    },
+    {
+      "id": "fr-2.2-4",
+      "title": "Les yeux bleus",
+      "subtitle": "Hair, eyes and word order",
+      "topics": ["adjectives", "describe"],
+      "words": ["body#hair", "body#eyes", "body#eye", "body#face", "appearance#blond (hair)", "appearance#dark brown (hair)", "appearance#red (hair)", "appearance#chestnut brown (hair)", "appearance#short", "appearance#long", "appearance#straight (hair)", "appearance#wavy", "appearance#curly"],
+      "learn": [
+        {"title": "Hair and eyes", "blocks": [
+          {"type": "text", "en": "You describe appearance with *avoir* and the definite article: *J'ai les cheveux blonds.* (I have blond hair.) *Il a les yeux bleus.* (He has blue eyes.) *Cheveux* and *yeux* are masculine plural, so *blonds, bleus*."},
+          {"type": "table", "textCols": [0], "rows": [
+            ["blond hair", "les cheveux blonds"],
+            ["tmavé vlasy", "les cheveux bruns"],
+            ["zrzavé vlasy", "les cheveux roux"],
+            ["chestnut brown hair", "les cheveux châtains"],
+            ["short / long hair", "les cheveux courts / longs"],
+            ["rovné / vlnité / kudrnaté", "raides / ondulés / frisés"],
+            ["blue / green / brown eyes", "les yeux bleus / verts / marron"]
+          ]},
+          {"type": "tip", "title": "un œil, des yeux", "en": "One eye is *un œil*, eyes are *des yeux*. A completely different word!"},
+          {"type": "check", "item": {"type": "build", "en": "I have brown eyes.", "a": ["J'ai les yeux marron."]}}
+        ]},
+        {"title": "Before or after?", "blocks": [
+          {"type": "text", "en": "Most adjectives go **after** the noun: *un garçon timide, une fille sportive*. A few short, common ones go **before** it: *grand, petit, jeune, vieux, beau, joli, nouveau, bon, mauvais*. For example *une petite sœur, un grand frère, une jolie maison*."},
+          {"type": "tip", "title": "bel, nouvel, vieil", "en": "Before a vowel, *beau, nouveau, vieux* have a special form: *un bel homme, un nouvel ami, un vieil oncle*."},
+          {"type": "examples", "items": [
+            {"fr": "J'ai un grand frère et une petite sœur.", "en": "I have an older brother and a younger sister."},
+            {"fr": "C'est une fille très sympathique.", "en": "She's a very nice girl."},
+            {"fr": "Mon père a les cheveux courts et les yeux verts.", "en": "My dad has short hair and green eyes."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'ai une ___ sœur.", "a": ["petite"], "hint": "small"}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.2-4-01", "type": "cloze", "fr": "Elle a les cheveux ___.", "a": ["blonds"], "hint": "blond"},
+        {"id": "fr-2.2-4-02", "type": "cloze", "fr": "Il a les yeux ___.", "a": ["verts"], "hint": "green"},
+        {"id": "fr-2.2-4-03", "type": "cloze", "fr": "Mon père a les cheveux ___.", "a": ["courts"], "hint": "short"},
+        {"id": "fr-2.2-4-04", "type": "cloze", "fr": "Ma sœur a les cheveux ___.", "a": ["longs"], "hint": "long"},
+        {"id": "fr-2.2-4-05", "type": "cloze", "fr": "Léa a les cheveux ___.", "a": ["roux"], "hint": "red (hair)"},
+        {"id": "fr-2.2-4-06", "type": "cloze", "fr": "J'ai un ___ ami.", "a": ["nouvel"], "hint": "new", "why": "Before a vowel, nouveau becomes nouvel."},
+        {"id": "fr-2.2-4-07", "type": "build", "en": "I have blond hair and blue eyes.", "a": ["J'ai les cheveux blonds et les yeux bleus."]},
+        {"id": "fr-2.2-4-08", "type": "build", "en": "He (or she) has short dark hair.", "a": ["{Il|Elle} a les cheveux {courts et bruns|bruns et courts}."]},
+        {"id": "fr-2.2-4-09", "type": "build", "en": "I have a younger sister and an older brother.", "a": ["J'ai une petite sœur et un grand frère."]},
+        {"id": "fr-2.2-4-10", "type": "build", "en": "He's a nice boy.", "a": ["C'est un garçon sympathique."]},
+        {"id": "fr-2.2-4-11", "type": "build", "en": "My grandmother has curly hair.", "a": ["Ma grand-mère a les cheveux frisés."]},
+        {"id": "fr-2.2-4-12", "type": "transform", "task_en": "Describe a girl (feminine)", "fr": "C'est un petit garçon blond.", "a": ["C'est une petite fille blonde."]},
+        {"id": "fr-2.2-4-13", "type": "order", "en": "My friend (a boy) has brown eyes.", "a": ["Mon copain a les yeux marron", "Mon ami a les yeux marron"], "extra": ["marrons", "est"]}
+      ]
+    },
+    {
+      "id": "fr-2.2-5",
+      "title": "Je ne suis pas timide",
+      "subtitle": "The negative ne... pas",
+      "topics": ["negation"],
+      "words": ["basics#no", "basics#not at all", "appearance#ugly", "personality#unlikeable", "personality#optimistic", "personality#pessimistic", "personality#pleased, content", "personality#crazy, mad"],
+      "learn": [
+        {"title": "The negative ne... pas", "blocks": [
+          {"type": "text", "en": "A French negative has two parts that go around the verb: *ne* + verb + *pas*. *Je suis timide. → Je ne suis pas timide.* Before a vowel *ne* shortens to *n'*: *Il n'est pas grand.*"},
+          {"type": "examples", "items": [
+            {"fr": "Je ne suis pas français.", "en": "I'm not French. (boy)"},
+            {"fr": "Elle n'est pas sportive.", "en": "She isn't sporty."},
+            {"fr": "Nous ne sommes pas frères.", "en": "We aren't brothers."},
+            {"fr": "Il n'est pas du tout timide.", "en": "He isn't shy at all."}
+          ]},
+          {"type": "tip", "title": "Reflexive verbs", "en": "With reflexive verbs *ne* goes before the pronoun: *Je ne m'appelle pas Paul.*"},
+          {"type": "check", "item": {"type": "transform", "task_en": "Make it negative", "fr": "Je suis grand.", "a": ["Je ne suis pas grand."]}}
+        ]},
+        {"title": "pas de", "blocks": [
+          {"type": "text", "en": "After a negative, *un, une, des* become *de* (*d'* before a vowel): *J'ai un frère. → Je n'ai pas de frère.* *J'ai un animal. → Je n'ai pas d'animal.*"},
+          {"type": "text", "en": "The definite article *le, la, les* doesn't change after a negative: *Il n'a pas les yeux bleus.* And after *être* nothing changes: *Ce n'est pas un chat.*"},
+          {"type": "tip", "title": "In speech", "en": "In everyday speech *ne* is often dropped: *Je suis pas timide.* At school and in tests, always write it."},
+          {"type": "check", "item": {"type": "transform", "task_en": "Make it negative", "fr": "J'ai une sœur.", "a": ["Je n'ai pas de sœur."]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.2-5-01", "type": "transform", "task_en": "Make it negative", "fr": "Il est timide.", "a": ["Il n'est pas timide."]},
+        {"id": "fr-2.2-5-02", "type": "transform", "task_en": "Make it negative", "fr": "Nous sommes tchèques.", "a": ["{Nous ne sommes pas|On n'est pas} tchèques."]},
+        {"id": "fr-2.2-5-03", "type": "transform", "task_en": "Make it negative", "fr": "J'ai un chien.", "a": ["Je n'ai pas de chien."]},
+        {"id": "fr-2.2-5-04", "type": "transform", "task_en": "Make it negative", "fr": "Elle a des frères.", "a": ["Elle n'a pas de frères."]},
+        {"id": "fr-2.2-5-05", "type": "transform", "task_en": "Make it negative", "fr": "J'ai un animal.", "a": ["Je n'ai pas d'animal."]},
+        {"id": "fr-2.2-5-06", "type": "transform", "task_en": "Make it negative", "fr": "Il a les yeux verts.", "a": ["Il n'a pas les yeux verts."], "why": "The definite article les doesn't change after a negative."},
+        {"id": "fr-2.2-5-07", "type": "transform", "task_en": "Make it negative", "fr": "Je m'appelle Marc.", "a": ["Je ne m'appelle pas Marc."]},
+        {"id": "fr-2.2-5-08", "type": "transform", "task_en": "Make it negative", "fr": "C'est un chat.", "a": ["Ce n'est pas un chat."], "why": "After être, un doesn't change to de."},
+        {"id": "fr-2.2-5-09", "type": "cloze", "fr": "Je ___ suis pas grand.", "a": ["ne"]},
+        {"id": "fr-2.2-5-10", "type": "cloze", "fr": "Il ___ pas français.", "a": ["n'est"], "hint": "negative + être"},
+        {"id": "fr-2.2-5-11", "type": "cloze", "fr": "Je n'ai pas ___ frère.", "a": ["de"]},
+        {"id": "fr-2.2-5-12", "type": "cloze", "fr": "Tu n'as pas ___animal ?", "a": ["d'"]},
+        {"id": "fr-2.2-5-13", "type": "build", "en": "I'm not shy.", "a": ["Je ne suis pas timide."]},
+        {"id": "fr-2.2-5-14", "type": "build", "en": "I don't have a sister.", "a": ["Je n'ai pas de sœur."]},
+        {"id": "fr-2.2-5-15", "type": "build", "en": "My brother isn't lazy at all.", "a": ["Mon frère n'est pas du tout paresseux."]},
+        {"id": "fr-2.2-5-16", "type": "build", "en": "We aren't French, we're Czech.", "a": ["{Nous ne sommes pas|On n'est pas} français, {nous sommes|on est} tchèques."]},
+        {"id": "fr-2.2-5-17", "type": "order", "en": "My sister doesn't have blue eyes.", "a": ["Ma sœur n'a pas les yeux bleus"], "extra": ["de", "bleues"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-2.2-t-01", "lesson": "fr-2.2-1", "type": "cloze", "fr": "Ma cousine est ___.", "a": ["grande"], "hint": "tall"},
+      {"id": "fr-2.2-t-02", "lesson": "fr-2.2-1", "type": "cloze", "fr": "Mes amies sont ___.", "a": ["intelligentes"], "hint": "clever"},
+      {"id": "fr-2.2-t-03", "lesson": "fr-2.2-1", "type": "transform", "task_en": "Make it feminine", "fr": "Il est blond.", "a": ["Elle est blonde."]},
+      {"id": "fr-2.2-t-04", "lesson": "fr-2.2-1", "type": "build", "en": "My friend (a boy) is tall and nice.", "a": ["{Mon copain|Mon ami} est grand et sympathique."]},
+      {"id": "fr-2.2-t-05", "lesson": "fr-2.2-2", "type": "transform", "task_en": "Make it feminine", "fr": "Il est sportif.", "a": ["Elle est sportive."]},
+      {"id": "fr-2.2-t-06", "lesson": "fr-2.2-2", "type": "transform", "task_en": "Make it feminine", "fr": "Il est paresseux.", "a": ["Elle est paresseuse."]},
+      {"id": "fr-2.2-t-07", "lesson": "fr-2.2-2", "type": "transform", "task_en": "Make it feminine", "fr": "Il est beau.", "a": ["Elle est belle."]},
+      {"id": "fr-2.2-t-08", "lesson": "fr-2.2-2", "type": "cloze", "fr": "Ma tante est ___.", "a": ["curieuse"], "hint": "curious"},
+      {"id": "fr-2.2-t-09", "lesson": "fr-2.2-2", "type": "cloze", "fr": "Mes parents sont ___.", "a": ["heureux"], "hint": "happy"},
+      {"id": "fr-2.2-t-10", "lesson": "fr-2.2-2", "type": "build", "en": "My grandmother is old and generous.", "a": ["Ma grand-mère est vieille et généreuse."]},
+      {"id": "fr-2.2-t-11", "lesson": "fr-2.2-3", "type": "cloze", "fr": "Une robe ___.", "a": ["blanche"], "hint": "white"},
+      {"id": "fr-2.2-t-12", "lesson": "fr-2.2-3", "type": "cloze", "fr": "Des yeux ___.", "a": ["verts"], "hint": "green"},
+      {"id": "fr-2.2-t-13", "lesson": "fr-2.2-3", "type": "cloze", "fr": "Des chaussures ___.", "a": ["orange"], "hint": "orange"},
+      {"id": "fr-2.2-t-14", "lesson": "fr-2.2-4", "type": "build", "en": "I have dark hair and green eyes.", "a": ["J'ai les cheveux bruns et les yeux verts."]},
+      {"id": "fr-2.2-t-15", "lesson": "fr-2.2-4", "type": "build", "en": "My mother has long hair.", "a": ["Ma mère a les cheveux longs."]},
+      {"id": "fr-2.2-t-16", "lesson": "fr-2.2-4", "type": "build", "en": "She's a shy girl.", "a": ["C'est une fille timide."]},
+      {"id": "fr-2.2-t-17", "lesson": "fr-2.2-4", "type": "build", "en": "I have a younger brother.", "a": ["J'ai un petit frère."]},
+      {"id": "fr-2.2-t-18", "lesson": "fr-2.2-4", "type": "cloze", "fr": "C'est un ___ ami.", "a": ["vieil"], "hint": "old"},
+      {"id": "fr-2.2-t-19", "lesson": "fr-2.2-5", "type": "transform", "task_en": "Make it negative", "fr": "Je suis paresseux.", "a": ["Je ne suis pas paresseux."]},
+      {"id": "fr-2.2-t-20", "lesson": "fr-2.2-5", "type": "transform", "task_en": "Make it negative", "fr": "Nous avons un chat.", "a": ["{Nous n'avons pas|On n'a pas} de chat."]},
+      {"id": "fr-2.2-t-21", "lesson": "fr-2.2-5", "type": "transform", "task_en": "Make it negative", "fr": "Elle a des cousins.", "a": ["Elle n'a pas de cousins."]},
+      {"id": "fr-2.2-t-22", "lesson": "fr-2.2-5", "type": "transform", "task_en": "Make it negative", "fr": "Tu es timide.", "a": ["Tu n'es pas timide."]},
+      {"id": "fr-2.2-t-23", "lesson": "fr-2.2-5", "type": "build", "en": "I don't have a brother.", "a": ["Je n'ai pas de frère."]},
+      {"id": "fr-2.2-t-24", "lesson": "fr-2.2-5", "type": "build", "en": "My sister isn't shy at all.", "a": ["Ma sœur n'est pas du tout timide."]},
+      {"id": "fr-2.2-t-25", "lesson": "fr-2.2-5", "type": "cloze", "fr": "Mon père n'a pas ___ moto.", "a": ["de"]},
+      {"id": "fr-2.2-t-26", "lesson": "fr-2.2-4", "type": "build", "en": "Do you have blond hair? (tu)", "a": ["{Tu as|As-tu|Est-ce que tu as} les cheveux blonds ?"]}
+    ]
+  }
+}

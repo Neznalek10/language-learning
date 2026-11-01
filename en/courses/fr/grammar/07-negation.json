@@ -1,0 +1,2389 @@
+{
+  "articles": [
+    {
+      "id": "ne-pas",
+      "title": "Ne... pas",
+      "fr": "la négation",
+      "level": "A1",
+      "keywords": [
+        "negation",
+        "ne pas",
+        "n'",
+        "not",
+        "ne",
+        "pas",
+        "négation",
+        "I don't know"
+      ],
+      "topics": [
+        "negation"
+      ],
+      "see": [
+        "negation-position",
+        "negation-words",
+        "article-negation",
+        "si-yes",
+        "spoken-negation"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French negation has **two parts** that wrap around the conjugated verb: *ne* before it, *pas* after it. Before a vowel *ne* shortens to *n'*."
+            },
+            {
+              "type": "pattern",
+              "formula": [
+                "S",
+                [
+                  "neg",
+                  "ne"
+                ],
+                "V",
+                [
+                  "neg",
+                  "pas"
+                ]
+              ],
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "V",
+                      "parle"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "obj",
+                      "allemand."
+                    ]
+                  ],
+                  "en": "I don't speak German."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Il"
+                    ],
+                    [
+                      "neg",
+                      "n'"
+                    ],
+                    [
+                      "V",
+                      "aime"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "obj",
+                      "le café."
+                    ]
+                  ],
+                  "en": "He doesn't like coffee."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Ce"
+                    ],
+                    [
+                      "neg",
+                      "n'"
+                    ],
+                    [
+                      "V",
+                      "est"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "x",
+                      "grave."
+                    ]
+                  ],
+                  "en": "It doesn't matter."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "You need both parts",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In English one word (*not*) is enough. In French you need **both** parts, and the verb stays in between."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I don't know.",
+                  "wrong": "Je pas sais.",
+                  "fr": "Je [[ne]] sais [[pas]]."
+                },
+                {
+                  "en": "I'm not tired.",
+                  "wrong": "Je ne suis fatigué.",
+                  "fr": "Je ne suis [[pas]] fatigué."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Short answers",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A short answer is *Non.* \"Not me\" is *Moi non.* or *Pas moi.* \"Not now\" is *Pas maintenant.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je ne comprends pas.",
+                  "en": "I don't understand."
+                },
+                {
+                  "fr": "Tu n'as pas faim ?",
+                  "en": "Aren't you hungry?"
+                },
+                {
+                  "fr": "Nous ne sommes pas d'accord.",
+                  "en": "We don't agree."
+                },
+                {
+                  "fr": "Elle n'habite pas ici.",
+                  "en": "She doesn't live here."
+                },
+                {
+                  "fr": "Ce n'est pas mon sac.",
+                  "en": "It's not my bag."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-ne-pas-01",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Je parle anglais.",
+          "a": [
+            "Je ne parle pas anglais."
+          ]
+        },
+        {
+          "id": "g-ne-pas-02",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Il aime le sport.",
+          "a": [
+            "Il n'aime pas le sport."
+          ]
+        },
+        {
+          "id": "g-ne-pas-03",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "C'est difficile.",
+          "a": [
+            "Ce n'est pas difficile."
+          ]
+        },
+        {
+          "id": "g-ne-pas-04",
+          "type": "build",
+          "en": "I don't know.",
+          "a": [
+            "Je ne sais pas."
+          ]
+        },
+        {
+          "id": "g-ne-pas-05",
+          "type": "build",
+          "en": "I don't live in Prague.",
+          "a": [
+            "Je n'habite pas à Prague."
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "negation",
+          "tag": "ne-pas",
+          "label": "Drill ne... pas"
+        }
+      ]
+    },
+    {
+      "id": "negation-every-form",
+      "title": "How to make a negative sentence: every tense and structure",
+      "fr": "former la négation",
+      "level": "A1",
+      "levelTo": "B1",
+      "keywords": [
+        "negative",
+        "negation",
+        "how to form",
+        "ne pas",
+        "make negative",
+        "negative sentence",
+        "n'",
+        "pas de",
+        "negative tenses",
+        "négation",
+        "step by step",
+        "negate"
+      ],
+      "topics": [],
+      "see": [
+        "ne-pas",
+        "negation-inventory",
+        "negation-position",
+        "negation-words",
+        "article-negation",
+        "spoken-negation"
+      ],
+      "drills": [
+        {
+          "set": "negation",
+          "tag": "ne-pas",
+          "label": "Drill ne... pas"
+        },
+        {
+          "set": "negation",
+          "tag": "compound",
+          "label": "Drill the passé composé"
+        },
+        {
+          "set": "negation",
+          "tag": "pronouns",
+          "label": "Drill with pronouns"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The rule in one line: **put *ne* before the conjugated verb and *pas* right after it**. Before a vowel or a silent *h* *ne* becomes **n'**. Everything that belongs to the verb (a pronoun, the reflexive pronoun) stays **between *ne* and the verb**, so *ne* goes in front of the whole block."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "V",
+                      "mange"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "obj",
+                      "de pain."
+                    ]
+                  ],
+                  "en": "I don't eat bread."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Il"
+                    ],
+                    [
+                      "neg",
+                      "n'"
+                    ],
+                    [
+                      "V",
+                      "aime"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "obj",
+                      "le café."
+                    ]
+                  ],
+                  "en": "He doesn't like coffee."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "pron",
+                      "le"
+                    ],
+                    [
+                      "V",
+                      "vois"
+                    ],
+                    [
+                      "neg",
+                      "pas."
+                    ]
+                  ],
+                  "en": "I don't see him."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Elle"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "pron",
+                      "se"
+                    ],
+                    [
+                      "V",
+                      "lève"
+                    ],
+                    [
+                      "neg",
+                      "pas."
+                    ]
+                  ],
+                  "en": "She doesn't get up."
+                }
+              ],
+              "formula": [
+                "S",
+                [
+                  "neg",
+                  "ne"
+                ],
+                "pron?",
+                "V",
+                [
+                  "neg",
+                  "pas"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The four steps",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**1. Find the conjugated verb** (in a compound tense it is *avoir* or *être*). **2. Put *ne / n'* before it** (and before any pronoun that stands in front of it). **3. Put *pas* right after it.** **4. Change the article** *un, une, du, de la, des* into **de / d'** (not after *être*, not after *aimer*-type verbs with *le / la / les*)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "step",
+                "affirmative",
+                "negative"
+              ],
+              "rows": [
+                [
+                  "1-3. ne ... pas",
+                  "Je parle anglais.",
+                  "Je ne parle pas anglais."
+                ],
+                [
+                  "vowel",
+                  "Il aime ça.",
+                  "Il n'aime pas ça."
+                ],
+                [
+                  "4. article → de",
+                  "J'ai un frère.",
+                  "Je n'ai pas de frère."
+                ],
+                [
+                  "4. du → de",
+                  "Je bois du lait.",
+                  "Je ne bois pas de lait."
+                ],
+                [
+                  "4. des → de",
+                  "Il a des amis.",
+                  "Il n'a pas d'amis."
+                ],
+                [
+                  "article stays after être",
+                  "C'est un livre.",
+                  "Ce n'est pas un livre."
+                ],
+                [
+                  "le / la / les stay",
+                  "J'aime le jazz.",
+                  "Je n'aime pas le jazz."
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In every tense and structure",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "structure",
+                "affirmative",
+                "negative"
+              ],
+              "rows": [
+                [
+                  "present",
+                  "Il travaille.",
+                  "Il ne travaille pas."
+                ],
+                [
+                  "il y a",
+                  "Il y a du pain.",
+                  "Il n'y a pas de pain."
+                ],
+                [
+                  "passé composé",
+                  "J'ai mangé.",
+                  "Je n'ai pas mangé."
+                ],
+                [
+                  "passé composé (être)",
+                  "Elle est partie.",
+                  "Elle n'est pas partie."
+                ],
+                [
+                  "futur proche",
+                  "Je vais venir.",
+                  "Je ne vais pas venir."
+                ],
+                [
+                  "modal + infinitive",
+                  "Je peux venir.",
+                  "Je ne peux pas venir."
+                ],
+                [
+                  "futur simple",
+                  "Il viendra.",
+                  "Il ne viendra pas."
+                ],
+                [
+                  "imparfait",
+                  "Il pleuvait.",
+                  "Il ne pleuvait pas."
+                ],
+                [
+                  "conditionnel",
+                  "Je viendrais.",
+                  "Je ne viendrais pas."
+                ],
+                [
+                  "plus-que-parfait",
+                  "J'avais fini.",
+                  "Je n'avais pas fini."
+                ],
+                [
+                  "subjonctif",
+                  "Il faut que tu viennes.",
+                  "Il ne faut pas que tu viennes."
+                ],
+                [
+                  "command",
+                  "Mange !",
+                  "Ne mange pas !"
+                ],
+                [
+                  "reflexive",
+                  "Je me lève.",
+                  "Je ne me lève pas."
+                ],
+                [
+                  "reflexive p.c.",
+                  "Elle s'est levée.",
+                  "Elle ne s'est pas levée."
+                ],
+                [
+                  "with a pronoun",
+                  "Je le vois.",
+                  "Je ne le vois pas."
+                ],
+                [
+                  "p.c. + pronoun",
+                  "Je l'ai vu.",
+                  "Je ne l'ai pas vu."
+                ],
+                [
+                  "two pronouns",
+                  "Je le lui donne.",
+                  "Je ne le lui donne pas."
+                ],
+                [
+                  "y / en",
+                  "J'y vais. J'en veux.",
+                  "Je n'y vais pas. Je n'en veux pas."
+                ],
+                [
+                  "infinitive",
+                  "Il demande de venir.",
+                  "Il demande de ne pas venir."
+                ]
+              ]
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Elle ne s'est pas levée tôt.",
+                  "en": "She didn't get up early."
+                },
+                {
+                  "fr": "Il ne me l'a pas dit.",
+                  "en": "He didn't tell me."
+                },
+                {
+                  "fr": "Nous n'allons pas y aller.",
+                  "en": "We aren't going to go there."
+                },
+                {
+                  "fr": "Ne le lui donne pas !",
+                  "en": "Don't give it to him!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Choosing the negative word",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Pas* is the default. Replace it with **jamais** (never), **plus** (no more), **rien** (nothing), **personne** (nobody), **aucun** (none), **nulle part** (nowhere), **pas encore** (not yet) or **que** (only) to change the meaning. There is **only one *ne***."
+            },
+            {
+              "type": "table",
+              "head": [
+                "word",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "ne ... pas",
+                  "Je ne sais pas.",
+                  "I don't know."
+                ],
+                [
+                  "ne ... jamais",
+                  "Je ne mange jamais de viande.",
+                  "I never eat meat."
+                ],
+                [
+                  "ne ... plus",
+                  "Il n'habite plus ici.",
+                  "He no longer lives here."
+                ],
+                [
+                  "ne ... rien",
+                  "Je ne vois rien.",
+                  "I see nothing."
+                ],
+                [
+                  "ne ... personne",
+                  "Je ne connais personne.",
+                  "I know nobody."
+                ],
+                [
+                  "ne ... pas encore",
+                  "Il n'est pas encore là.",
+                  "He isn't here yet."
+                ],
+                [
+                  "ne ... que",
+                  "Je n'ai que dix euros.",
+                  "I only have ten euros."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Answering and spoken French",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A negative answer is **non** or **pas du tout**. To contradict a **negative question** use **si**: *Tu ne viens pas ? – Si !* In speech the *ne* is dropped: *Je sais pas. T'as pas faim ?* You need *ne* in writing and in formal speech."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu n'as pas faim ? – Si, j'ai faim.",
+                  "en": "Aren't you hungry? – Yes, I am."
+                },
+                {
+                  "fr": "Tu aimes ça ? – Non, pas du tout.",
+                  "en": "Do you like that? – No, not at all."
+                },
+                {
+                  "fr": "Je sais pas.",
+                  "en": "I don't know. (spoken)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Typical mistakes",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I don't know.",
+                  "wrong": "Je pas sais.",
+                  "fr": "Je [[ne]] sais [[pas]]."
+                },
+                {
+                  "en": "I don't have a car.",
+                  "wrong": "Je n'ai pas une voiture.",
+                  "fr": "Je n'ai pas [[de]] voiture."
+                },
+                {
+                  "en": "He doesn't eat.",
+                  "wrong": "Il ne pas mange.",
+                  "fr": "Il ne mange [[pas]].",
+                  "note": "*Pas* goes after the verb."
+                },
+                {
+                  "en": "I haven't seen him.",
+                  "wrong": "Je n'ai vu pas le.",
+                  "fr": "Je ne [[l']]ai [[pas]] vu.",
+                  "note": "*Ne* before the pronoun, *pas* before the participle."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "ne-pas",
+                "negation-inventory",
+                "negation-position",
+                "negation-words",
+                "article-negation",
+                "spoken-negation"
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-negation-every-form-01",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Je parle français.",
+          "a": [
+            "Je ne parle pas français."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-02",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Il aime le chocolat.",
+          "a": [
+            "Il n'aime pas le chocolat."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-03",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "J'ai un frère.",
+          "a": [
+            "Je n'ai pas de frère."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-04",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Nous mangeons du pain.",
+          "a": [
+            "Nous ne mangeons pas de pain."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-05",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "C'est un livre.",
+          "a": [
+            "Ce n'est pas un livre."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-06",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Elle est partie.",
+          "a": [
+            "Elle n'est pas partie."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-07",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Je vais venir.",
+          "a": [
+            "Je ne vais pas venir."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-08",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Je le vois.",
+          "a": [
+            "Je ne le vois pas."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-09",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Je l'ai vu.",
+          "a": [
+            "Je ne l'ai pas vu."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-10",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Elle se lève.",
+          "a": [
+            "Elle ne se lève pas."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-11",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Mange !",
+          "a": [
+            "Ne mange pas !"
+          ]
+        },
+        {
+          "id": "g-negation-every-form-12",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Il y a des places.",
+          "a": [
+            "Il n'y a pas de places."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-13",
+          "type": "build",
+          "en": "I don't know.",
+          "a": [
+            "Je ne sais pas."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-14",
+          "type": "build",
+          "en": "I don't have a car.",
+          "a": [
+            "Je n'ai pas de voiture."
+          ]
+        },
+        {
+          "id": "g-negation-every-form-15",
+          "type": "build",
+          "en": "She doesn't like it.",
+          "a": [
+            "Elle ne l'aime pas.",
+            "Ça ne lui plaît pas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "negation-position",
+      "title": "Where negation goes in complex sentences",
+      "fr": "la place de la négation",
+      "level": "A2",
+      "keywords": [
+        "negation position",
+        "negation passé composé",
+        "negation infinitive",
+        "ne pas fumer",
+        "negation with pronouns",
+        "negation futur proche",
+        "personne",
+        "nulle part"
+      ],
+      "topics": [
+        "negation"
+      ],
+      "see": [
+        "ne-pas",
+        "sentence-map",
+        "negation-words",
+        "direct-object",
+        "reflexive-verbs"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The rule stays the same: ***ne* + pronouns** before the **conjugated** verb, *pas* right after it. You only have to spot which verb is conjugated."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "n'"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "part",
+                      "mangé."
+                    ]
+                  ],
+                  "en": "I didn't eat."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "inf",
+                      "sortir."
+                    ]
+                  ],
+                  "en": "I'm not going to go out."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "pron",
+                      "le"
+                    ],
+                    [
+                      "V",
+                      "vois"
+                    ],
+                    [
+                      "neg",
+                      "pas."
+                    ]
+                  ],
+                  "en": "I don't see him."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "pron",
+                      "me"
+                    ],
+                    [
+                      "aux",
+                      "suis"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "part",
+                      "levé."
+                    ]
+                  ],
+                  "en": "I didn't get up."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Negating an infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When you negate the infinitive itself, *ne pas* go **together before it**: *Je préfère ne pas sortir.* (I'd rather not go out.) On signs: *Ne pas fumer.* (No smoking.)"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm trying not to think about it.",
+                  "fr": "J'essaie de [[ne pas]] y penser."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Personne and nulle part",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Personne* (nobody) and *nulle part* (nowhere) stand **after the participle** in the passé composé. The others (*pas, jamais, rien, plus*) stand before it: *Je n'ai rien vu.*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I didn't see anybody.",
+                  "wrong": "Je n'ai personne vu.",
+                  "fr": "Je n'ai vu [[personne]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je ne l'ai pas vu.",
+                  "en": "I didn't see him."
+                },
+                {
+                  "fr": "Nous n'allons pas jouer demain.",
+                  "en": "We're not going to play tomorrow."
+                },
+                {
+                  "fr": "Il ne s'est pas réveillé.",
+                  "en": "He didn't wake up."
+                },
+                {
+                  "fr": "Je te conseille de ne pas manger ça.",
+                  "en": "I advise you not to eat that."
+                },
+                {
+                  "fr": "Je n'ai rien compris.",
+                  "en": "I didn't understand anything."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-negation-position-01",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "J'ai fini.",
+          "a": [
+            "Je n'ai pas fini."
+          ]
+        },
+        {
+          "id": "g-negation-position-02",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Je vais manger.",
+          "a": [
+            "Je ne vais pas manger."
+          ]
+        },
+        {
+          "id": "g-negation-position-03",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Je la connais.",
+          "a": [
+            "Je ne la connais pas."
+          ]
+        },
+        {
+          "id": "g-negation-position-04",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Il s'est lavé.",
+          "a": [
+            "Il ne s'est pas lavé."
+          ]
+        },
+        {
+          "id": "g-negation-position-05",
+          "type": "build",
+          "en": "I didn't see anybody.",
+          "a": [
+            "Je n'ai vu personne."
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "negation",
+          "tag": "modal",
+          "label": "Drill two verbs"
+        },
+        {
+          "set": "negation",
+          "tag": "infinitive",
+          "label": "Drill the negative infinitive"
+        }
+      ]
+    },
+    {
+      "id": "negation-words",
+      "title": "Ne... jamais, plus, rien, personne",
+      "fr": "les autres négations",
+      "level": "A2",
+      "keywords": [
+        "ne jamais",
+        "ne plus",
+        "ne rien",
+        "ne personne",
+        "ne nulle part",
+        "ne aucun",
+        "never",
+        "no longer",
+        "nothing",
+        "nobody",
+        "nowhere",
+        "none"
+      ],
+      "topics": [
+        "negation"
+      ],
+      "see": [
+        "ne-pas",
+        "negation-position",
+        "indefinites",
+        "frequency",
+        "ne-que"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "negation",
+                "meaning",
+                "example"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "ne... pas",
+                  "not",
+                  "Je ne fume pas."
+                ],
+                [
+                  "ne... jamais",
+                  "never",
+                  "Je ne fume jamais."
+                ],
+                [
+                  "ne... plus",
+                  "no longer",
+                  "Je ne fume plus."
+                ],
+                [
+                  "ne... rien",
+                  "nothing",
+                  "Je ne vois rien."
+                ],
+                [
+                  "ne... personne",
+                  "nobody",
+                  "Je ne vois personne."
+                ],
+                [
+                  "ne... nulle part",
+                  "nowhere",
+                  "Je ne le trouve nulle part."
+                ],
+                [
+                  "ne... aucun, aucune",
+                  "no, none",
+                  "Je n'ai aucune idée."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "The second part takes the place of *pas*. It is **never** combined with *pas*."
+            }
+          ]
+        },
+        {
+          "title": "Several negatives at once",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Standard English allows only one negative word (\"I never see anybody\"), but French can stack them: one *ne* and several negative words after the verb. Only *pas* does not belong among them."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "He never says anything.",
+                  "wrong": "Il ne dit pas jamais rien.",
+                  "fr": "Il ne dit [[jamais rien]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "As a subject",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Personne* and *rien* can stand at the start of the sentence as the subject. Then *ne* comes right after them: *Personne ne sait. Rien n'est impossible.*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Nobody came.",
+                  "wrong": "Personne n'est pas venu.",
+                  "fr": "Personne [[n']]est venu."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Short answers",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu as vu quelqu'un ? Personne.",
+                  "en": "Did you see anyone? Nobody."
+                },
+                {
+                  "fr": "Qu'est-ce que tu fais ? Rien.",
+                  "en": "What are you doing? Nothing."
+                },
+                {
+                  "fr": "Tu fumes ? Jamais !",
+                  "en": "Do you smoke? Never!"
+                },
+                {
+                  "fr": "Il n'y a plus de pain.",
+                  "en": "There is no bread left."
+                },
+                {
+                  "fr": "Je n'ai aucune idée.",
+                  "en": "I have no idea."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-negation-words-01",
+          "type": "transform",
+          "task_en": "Make it negative with \"jamais\"",
+          "fr": "Je mange du poisson.",
+          "a": [
+            "Je ne mange jamais de poisson."
+          ]
+        },
+        {
+          "id": "g-negation-words-02",
+          "type": "transform",
+          "task_en": "Make it negative with \"plus\"",
+          "fr": "Il habite ici.",
+          "a": [
+            "Il n'habite plus ici."
+          ]
+        },
+        {
+          "id": "g-negation-words-03",
+          "type": "build",
+          "en": "I can't see anything.",
+          "a": [
+            "Je ne vois rien."
+          ]
+        },
+        {
+          "id": "g-negation-words-04",
+          "type": "build",
+          "en": "Nobody knows.",
+          "a": [
+            "Personne ne sait."
+          ]
+        },
+        {
+          "id": "g-negation-words-05",
+          "type": "cloze",
+          "fr": "Je n'ai ___ idée.",
+          "a": [
+            "aucune"
+          ],
+          "en": "I have no idea."
+        },
+        {
+          "id": "g-negation-words-06",
+          "type": "build",
+          "en": "I don't play football any more.",
+          "a": [
+            "Je ne joue plus au {foot|football}."
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "negation",
+          "tag": "jamais",
+          "label": "Drill jamais"
+        },
+        {
+          "set": "negation",
+          "tag": "rien",
+          "label": "Drill rien"
+        },
+        {
+          "set": "negation",
+          "tag": "personne",
+          "label": "Drill personne"
+        }
+      ]
+    },
+    {
+      "id": "negation-inventory",
+      "title": "Every negative word: jamais, plus, rien, personne, aucun, ni... ni...",
+      "fr": "tous les mots négatifs",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "negative words",
+        "jamais",
+        "plus",
+        "rien",
+        "personne",
+        "aucun",
+        "nulle part",
+        "ni ni",
+        "pas encore",
+        "pas du tout",
+        "guère",
+        "pas grand-chose",
+        "non plus",
+        "pas toujours",
+        "ne que",
+        "nobody",
+        "nothing",
+        "never",
+        "negative list"
+      ],
+      "topics": [],
+      "see": [
+        "negation-every-form",
+        "negation-words",
+        "ne-que",
+        "negation-position",
+        "article-negation"
+      ],
+      "drills": [
+        {
+          "set": "negation",
+          "tag": "jamais",
+          "label": "Drill jamais"
+        },
+        {
+          "set": "negation",
+          "tag": "rien",
+          "label": "Drill rien"
+        },
+        {
+          "set": "negation",
+          "tag": "personne",
+          "label": "Drill personne"
+        },
+        {
+          "set": "negation",
+          "tag": "plus",
+          "label": "Drill plus"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French has a whole family of negative words. They all take **ne** before the verb and the second word **where *pas* would go**. In the passé composé *jamais, plus, pas encore* stand **between the auxiliary and the participle**; *personne, nulle part* and *aucun* come **after the participle**; *rien* comes **before the participle**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "word",
+                "meaning",
+                "present",
+                "passé composé"
+              ],
+              "rows": [
+                [
+                  "ne ... pas",
+                  "not",
+                  "Je ne mange pas.",
+                  "Je n'ai pas mangé."
+                ],
+                [
+                  "ne ... jamais",
+                  "never",
+                  "Je ne mens jamais.",
+                  "Je n'ai jamais menti."
+                ],
+                [
+                  "ne ... plus",
+                  "no longer",
+                  "Il ne vient plus.",
+                  "Il n'est plus venu."
+                ],
+                [
+                  "ne ... rien",
+                  "nothing",
+                  "Je ne vois rien.",
+                  "Je n'ai rien vu."
+                ],
+                [
+                  "ne ... personne",
+                  "nobody",
+                  "Je ne vois personne.",
+                  "Je n'ai vu personne."
+                ],
+                [
+                  "ne ... pas encore",
+                  "not yet",
+                  "Il n'arrive pas encore.",
+                  "Il n'est pas encore arrivé."
+                ],
+                [
+                  "ne ... pas du tout",
+                  "not at all",
+                  "Je n'aime pas du tout ça.",
+                  "Je n'ai pas du tout aimé."
+                ],
+                [
+                  "ne ... aucun(e)",
+                  "none, no",
+                  "Je n'ai aucune idée.",
+                  "Je n'ai vu aucun film."
+                ],
+                [
+                  "ne ... nulle part",
+                  "nowhere",
+                  "Je ne vais nulle part.",
+                  "Je ne suis allé nulle part."
+                ],
+                [
+                  "ne ... guère",
+                  "hardly",
+                  "Il ne dort guère.",
+                  "Il n'a guère dormi."
+                ],
+                [
+                  "ne ... que",
+                  "only",
+                  "Je n'ai que dix euros.",
+                  "Je n'ai mangé qu'une pomme."
+                ],
+                [
+                  "ne ... ni ... ni",
+                  "neither... nor",
+                  "Je n'aime ni A ni B.",
+                  "Je n'ai vu ni A ni B."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Rien and personne as subject",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Rien* and *personne* can also be the **subject**. They then come **first**, and *ne* stays before the verb. There is **no *pas***: *Personne ne vient. Rien n'est facile. Aucun élève n'est venu.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Personne ne m'a appelé.",
+                  "en": "Nobody called me."
+                },
+                {
+                  "fr": "Rien ne m'intéresse.",
+                  "en": "Nothing interests me."
+                },
+                {
+                  "fr": "Aucun ne veut venir.",
+                  "en": "None wants to come."
+                },
+                {
+                  "fr": "Ni Paul ni Marie ne sont venus.",
+                  "en": "Neither Paul nor Marie came."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Two negative words together",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Negative words can combine and there is **still only one *ne***: *plus jamais, plus rien, plus personne, jamais rien, jamais personne, plus nulle part*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je ne dis jamais rien.",
+                  "en": "I never say anything."
+                },
+                {
+                  "fr": "Il n'y a plus personne.",
+                  "en": "There is nobody left."
+                },
+                {
+                  "fr": "Elle ne mange plus jamais de viande.",
+                  "en": "She never eats meat any more."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Article after a negation",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "After *pas, plus, jamais, guère* the articles **un, une, du, de la, des** become **de**: *Je ne bois jamais de café.* After *rien / personne / aucun / ni... ni* there is **no article**: *Je n'ai aucun ami. Je ne mange ni viande ni poisson.* After *ne... que* the article **stays**: *Je ne mange que du pain.*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I never drink coffee.",
+                  "wrong": "Je ne bois jamais du café.",
+                  "fr": "Je ne bois jamais [[de]] café."
+                },
+                {
+                  "en": "I only eat bread.",
+                  "wrong": "Je ne mange que de pain.",
+                  "fr": "Je ne mange que [[du]] pain."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Non plus, pas non plus",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Non plus* is **either / neither** in short answers: *Moi non plus.* After a negative verb use *pas non plus*: *Je n'aime pas ça non plus.* (I don't like that either). Never use *aussi* after a negative sentence."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je n'ai jamais vu ce film.",
+                  "en": "I've never seen this film."
+                },
+                {
+                  "fr": "Il n'y a plus de lait.",
+                  "en": "There is no more milk."
+                },
+                {
+                  "fr": "Je n'ai rien compris.",
+                  "en": "I understood nothing."
+                },
+                {
+                  "fr": "Nous n'avons parlé à personne.",
+                  "en": "We spoke to nobody."
+                },
+                {
+                  "fr": "Tu n'as pas encore fini ?",
+                  "en": "Haven't you finished yet?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-negation-inventory-01",
+          "type": "transform",
+          "task_en": "Say never (jamais)",
+          "fr": "Il arrive en retard.",
+          "a": [
+            "Il n'arrive jamais en retard."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-02",
+          "type": "transform",
+          "task_en": "Say no longer (plus)",
+          "fr": "J'habite à Lyon.",
+          "a": [
+            "Je n'habite plus à Lyon."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-03",
+          "type": "transform",
+          "task_en": "Say nothing (rien)",
+          "fr": "J'ai vu quelque chose.",
+          "a": [
+            "Je n'ai rien vu."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-04",
+          "type": "transform",
+          "task_en": "Say nobody (personne)",
+          "fr": "J'ai vu quelqu'un.",
+          "a": [
+            "Je n'ai vu personne."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-05",
+          "type": "transform",
+          "task_en": "Say not yet (pas encore)",
+          "fr": "J'ai fini.",
+          "a": [
+            "Je n'ai pas encore fini."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-06",
+          "type": "transform",
+          "task_en": "Say none (aucun)",
+          "fr": "Il a des amis ici.",
+          "a": [
+            "Il n'a aucun ami ici."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-07",
+          "type": "transform",
+          "task_en": "Say only (que)",
+          "fr": "J'ai deux euros.",
+          "a": [
+            "Je n'ai que deux euros."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-08",
+          "type": "transform",
+          "task_en": "Say neither... nor",
+          "fr": "Il parle anglais et allemand.",
+          "a": [
+            "Il ne parle ni anglais ni allemand."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-09",
+          "type": "transform",
+          "task_en": "Say nobody as the subject",
+          "fr": "Quelqu'un a téléphoné.",
+          "a": [
+            "Personne n'a téléphoné."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-10",
+          "type": "build",
+          "en": "I never say anything.",
+          "a": [
+            "Je ne dis jamais rien."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-11",
+          "type": "build",
+          "en": "Nobody knows.",
+          "a": [
+            "Personne ne sait."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-12",
+          "type": "build",
+          "en": "Me neither.",
+          "a": [
+            "Moi non plus."
+          ]
+        },
+        {
+          "id": "g-negation-inventory-13",
+          "type": "cloze",
+          "fr": "Je n'ai ___ vu.",
+          "a": [
+            "rien"
+          ],
+          "hint": "nothing",
+          "en": "I saw nothing."
+        },
+        {
+          "id": "g-negation-inventory-14",
+          "type": "cloze",
+          "fr": "Je n'ai vu ___.",
+          "a": [
+            "personne"
+          ],
+          "hint": "nobody",
+          "en": "I saw nobody."
+        },
+        {
+          "id": "g-negation-inventory-15",
+          "type": "cloze",
+          "fr": "Il n'y a ___ de pain.",
+          "a": [
+            "plus"
+          ],
+          "en": "There is no more bread."
+        }
+      ]
+    },
+    {
+      "id": "ne-que",
+      "title": "Ne... que",
+      "fr": "ne... que",
+      "level": "B1",
+      "keywords": [
+        "ne que",
+        "only",
+        "just",
+        "seulement",
+        "restriction"
+      ],
+      "topics": [],
+      "see": [
+        "negation-words",
+        "quantities",
+        "pas-de-vs-pas-un"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ne... que* **is not a negation**. It means \"only\" (= *seulement*). *Que* stands directly before what it limits."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "n'"
+                    ],
+                    [
+                      "V",
+                      "ai"
+                    ],
+                    [
+                      "neg",
+                      "que",
+                      "= only"
+                    ],
+                    [
+                      "obj",
+                      "deux euros."
+                    ]
+                  ],
+                  "en": "I only have two euros."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The article does not change",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Because it is not a negation, the article stays: *Je ne mange que des légumes* (I only eat vegetables)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I only drink water.",
+                  "wrong": "Je ne bois que d'eau.",
+                  "fr": "Je ne bois que [[de l']]eau."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Seulement",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Seulement* has the same meaning and is simpler: *J'ai seulement deux euros.* You will meet *ne... que* mainly in texts and set phrases."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il ne pense qu'au foot.",
+                  "en": "He only thinks about football."
+                },
+                {
+                  "fr": "Je n'ai qu'une sœur.",
+                  "en": "I only have one sister."
+                },
+                {
+                  "fr": "On ne vit qu'une fois.",
+                  "en": "You only live once."
+                },
+                {
+                  "fr": "Le magasin n'ouvre qu'à dix heures.",
+                  "en": "The shop doesn't open until ten."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-ne-que-01",
+          "type": "transform",
+          "task_en": "Rewrite with ne... que",
+          "fr": "J'ai seulement cinq euros.",
+          "a": [
+            "Je n'ai que cinq euros."
+          ]
+        },
+        {
+          "id": "g-ne-que-02",
+          "type": "build",
+          "en": "I only have one brother.",
+          "a": [
+            "Je n'ai qu'un frère.",
+            "J'ai seulement un frère."
+          ]
+        },
+        {
+          "id": "g-ne-que-03",
+          "type": "transform",
+          "task_en": "Rewrite with ne... que",
+          "fr": "Il mange seulement des pâtes.",
+          "a": [
+            "Il ne mange que des pâtes."
+          ]
+        },
+        {
+          "id": "g-ne-que-04",
+          "type": "cloze",
+          "fr": "Je ne bois ___ de l'eau.",
+          "a": [
+            "que"
+          ],
+          "en": "I only drink water."
+        }
+      ],
+      "drills": [
+        {
+          "set": "negation",
+          "tag": "que",
+          "label": "Drill ne... que"
+        }
+      ]
+    },
+    {
+      "id": "si-yes",
+      "title": "Si instead of oui",
+      "fr": "oui ou si",
+      "level": "A1",
+      "keywords": [
+        "si",
+        "oui",
+        "yes",
+        "answering a negative question",
+        "mais si"
+      ],
+      "topics": [],
+      "see": [
+        "ne-pas",
+        "question-types"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "You answer a **negative** question with \"yes\" using ***si***, not *oui*. You are correcting what the other person assumed."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "You don't like pizza? Yes, I do!",
+                  "wrong": "Tu n'aimes pas la pizza ? Oui !",
+                  "fr": "Tu n'aimes pas la pizza ? [[Si]] !"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Overview",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "question",
+                "yes",
+                "no"
+              ],
+              "rows": [
+                [
+                  "Tu viens ?",
+                  "Oui.",
+                  "Non."
+                ],
+                [
+                  "Tu ne viens pas ?",
+                  "Si.",
+                  "Non."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "To a negative question *non* means you agree with it: \"Aren't you coming? No (I'm not).\" *Mais si !* (Oh yes I am!) is the more emphatic version when you are correcting someone."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu n'as pas faim ? Si, un peu.",
+                  "en": "Aren't you hungry? Yes, a little."
+                },
+                {
+                  "fr": "Il ne vient pas ? Si, il arrive.",
+                  "en": "Isn't he coming? Yes he is, he's on his way."
+                },
+                {
+                  "fr": "Vous n'êtes pas français ? Non, je suis tchèque.",
+                  "en": "Aren't you French? No, I'm Czech."
+                },
+                {
+                  "fr": "Ce n'est pas vrai ! Mais si !",
+                  "en": "That's not true! Yes it is!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-si-yes-01",
+          "type": "cloze",
+          "fr": "Tu ne joues pas au foot ? ___, je joue tous les samedis.",
+          "a": [
+            "Si"
+          ],
+          "en": "You don't play football? Yes I do, every Saturday."
+        },
+        {
+          "id": "g-si-yes-02",
+          "type": "cloze",
+          "fr": "Tu aimes le chocolat ? ___ !",
+          "a": [
+            "Oui"
+          ],
+          "en": "Do you like chocolate? Yes!"
+        },
+        {
+          "id": "g-si-yes-03",
+          "type": "cloze",
+          "fr": "Tu n'as pas de chien ? ___, je n'en ai pas.",
+          "a": [
+            "Non"
+          ],
+          "en": "You don't have a dog? No, I don't."
+        },
+        {
+          "id": "g-si-yes-04",
+          "type": "cloze",
+          "fr": "Il n'est pas là ? Mais ___ !",
+          "a": [
+            "si"
+          ],
+          "en": "He isn't here? Yes he is!"
+        }
+      ]
+    },
+    {
+      "id": "spoken-negation",
+      "title": "Spoken French without ne",
+      "fr": "la négation à l'oral",
+      "level": "A2",
+      "keywords": [
+        "spoken french",
+        "colloquial french",
+        "without ne",
+        "j'sais pas",
+        "c'est pas",
+        "t'inquiète",
+        "y a"
+      ],
+      "topics": [],
+      "see": [
+        "ne-pas",
+        "negation-words"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In everyday conversation the French almost always **drop** *ne* and the negation is carried by *pas* alone. You have to understand it, but **in a test or an essay always write *ne***."
+            },
+            {
+              "type": "table",
+              "head": [
+                "careful",
+                "spoken",
+                "English"
+              ],
+              "textCols": [
+                2
+              ],
+              "rows": [
+                [
+                  "Je ne sais pas.",
+                  "J'sais pas. / Chais pas.",
+                  "I don't know."
+                ],
+                [
+                  "Ce n'est pas grave.",
+                  "C'est pas grave.",
+                  "It doesn't matter."
+                ],
+                [
+                  "Il n'y a pas de problème.",
+                  "Y a pas de problème.",
+                  "No problem."
+                ],
+                [
+                  "Je ne peux pas.",
+                  "J'peux pas.",
+                  "I can't."
+                ],
+                [
+                  "Ne t'inquiète pas.",
+                  "T'inquiète.",
+                  "Don't worry."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Other shortcuts",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In speech *tu* also shortens before a vowel (*t'as vu ?* = *tu as vu ?*) and *il y a* becomes *y a*. You will keep seeing this online, in videos and in songs."
+            },
+            {
+              "type": "tip",
+              "en": "At school and in tests, leaving out *ne* is not allowed. Treat this as passive knowledge: understand it, don't write it."
+            }
+          ]
+        },
+        {
+          "title": "What it sounds like",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "T'as vu le match ?",
+                  "en": "Did you see the match?"
+                },
+                {
+                  "fr": "J'ai pas le temps.",
+                  "en": "I don't have time."
+                },
+                {
+                  "fr": "Y a personne.",
+                  "en": "There's nobody here."
+                },
+                {
+                  "fr": "C'est pas moi !",
+                  "en": "It wasn't me!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-spoken-negation-01",
+          "type": "transform",
+          "task_en": "Write it in careful French",
+          "fr": "J'sais pas.",
+          "a": [
+            "Je ne sais pas."
+          ]
+        },
+        {
+          "id": "g-spoken-negation-02",
+          "type": "transform",
+          "task_en": "Write it in careful French",
+          "fr": "C'est pas grave.",
+          "a": [
+            "Ce n'est pas grave."
+          ]
+        },
+        {
+          "id": "g-spoken-negation-03",
+          "type": "transform",
+          "task_en": "Write it in careful French",
+          "fr": "Y a pas de problème.",
+          "a": [
+            "Il n'y a pas de problème."
+          ]
+        },
+        {
+          "id": "g-spoken-negation-04",
+          "type": "transform",
+          "task_en": "Write it in careful French",
+          "fr": "T'as faim ?",
+          "a": [
+            "Tu as faim ?"
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "negation",
+          "tag": "spoken",
+          "label": "Drill spoken negation"
+        }
+      ]
+    },
+    {
+      "id": "pas-de-vs-pas-un",
+      "title": "Pas de or pas un?",
+      "fr": "pas de ou pas un",
+      "level": "A2",
+      "keywords": [
+        "pas de",
+        "pas un",
+        "pas une",
+        "pas un seul",
+        "ce n'est pas un",
+        "negation and article"
+      ],
+      "topics": [
+        "negation"
+      ],
+      "see": [
+        "article-negation",
+        "c-est-il-est",
+        "ne-que"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The usual rule: in the negative *un, une, des* become *de*. But there are situations where the article stays:"
+            },
+            {
+              "type": "table",
+              "head": [
+                "when",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "after être",
+                  "Ce n'est pas un chien, c'est un loup.",
+                  "It's not a dog, it's a wolf."
+                ],
+                [
+                  "\"not even one\"",
+                  "Je n'ai pas un seul euro.",
+                  "I don't have a single euro."
+                ],
+                [
+                  "contrast: not one, but...",
+                  "Je n'ai pas un chat, j'en ai deux !",
+                  "I don't have one cat, I have two!"
+                ],
+                [
+                  "le, la, les (after aimer...)",
+                  "Je n'aime pas les maths.",
+                  "I don't like maths."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "After être",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "It's not a problem.",
+                  "wrong": "Ce n'est pas de problème.",
+                  "fr": "Ce n'est pas [[un]] problème.",
+                  "note": "After *être* the article does not change. But: *Il n'y a pas de problème.*"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "en": "After *ne... que* (only) the article does not change either, because it is not really a negation: *Je ne mange que des fruits.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ce n'est pas une bonne idée.",
+                  "en": "It's not a good idea."
+                },
+                {
+                  "fr": "Il n'a pas dit un mot.",
+                  "en": "He didn't say a word."
+                },
+                {
+                  "fr": "Je n'ai pas de vélo.",
+                  "en": "I don't have a bike."
+                },
+                {
+                  "fr": "Ce ne sont pas mes chaussures.",
+                  "en": "Those aren't my shoes."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pas-de-vs-pas-un-01",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "C'est un problème.",
+          "a": [
+            "Ce n'est pas un problème."
+          ]
+        },
+        {
+          "id": "g-pas-de-vs-pas-un-02",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Il y a un problème.",
+          "a": [
+            "Il n'y a pas de problème."
+          ]
+        },
+        {
+          "id": "g-pas-de-vs-pas-un-03",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "C'est une bonne idée.",
+          "a": [
+            "Ce n'est pas une bonne idée."
+          ]
+        },
+        {
+          "id": "g-pas-de-vs-pas-un-04",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "J'ai une voiture.",
+          "a": [
+            "Je n'ai pas de voiture."
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "negation",
+          "tag": "etre",
+          "label": "Drill after être"
+        },
+        {
+          "set": "negation",
+          "tag": "pas-de",
+          "label": "Drill pas de"
+        }
+      ]
+    }
+  ]
+}

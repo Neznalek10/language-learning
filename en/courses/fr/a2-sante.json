@@ -1,0 +1,1491 @@
+{
+  "schema": 1,
+  "goals": [
+    "Name the parts of the body",
+    "Say what hurts: j'ai mal à la tête, au ventre",
+    "Describe an illness and its symptoms",
+    "Get by at the doctor's and the chemist's (depuis)",
+    "Give advice: il faut, devoir, tu devrais"
+  ],
+  "lessons": [
+    {
+      "id": "fr-sante-1",
+      "title": "Le corps",
+      "subtitle": "The body",
+      "topics": [
+        "body"
+      ],
+      "words": [
+        "body#head",
+        "body#ear",
+        "body#nose",
+        "body#mouth",
+        "body#tooth",
+        "body#eyebrow",
+        "body#eyelashes",
+        "body#back",
+        "body#arm",
+        "body#hand",
+        "body#belly, stomach",
+        "body#leg",
+        "body#foot",
+        "body#cheek",
+        "body#neck",
+        "body#chest",
+        "body#bottom",
+        "body#torso",
+        "body#throat",
+        "body#ankle"
+      ],
+      "learn": [
+        {
+          "title": "Parts of the body",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "head",
+                  "la tête"
+                ],
+                [
+                  "eye, eyes",
+                  "l'œil, les yeux"
+                ],
+                [
+                  "ear",
+                  "l'oreille"
+                ],
+                [
+                  "nose",
+                  "le nez"
+                ],
+                [
+                  "mouth",
+                  "la bouche"
+                ],
+                [
+                  "tooth",
+                  "la dent"
+                ],
+                [
+                  "neck",
+                  "le cou"
+                ],
+                [
+                  "throat",
+                  "la gorge"
+                ],
+                [
+                  "back",
+                  "le dos"
+                ],
+                [
+                  "arm",
+                  "le bras"
+                ],
+                [
+                  "hand",
+                  "la main"
+                ],
+                [
+                  "belly, stomach",
+                  "le ventre"
+                ],
+                [
+                  "leg",
+                  "la jambe"
+                ],
+                [
+                  "foot",
+                  "le pied"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "un œil, des yeux",
+              "en": "Irregular plural: *un œil → des yeux*. *Le dos, le bras, le nez* stay the same in the plural."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai deux ___ et deux pieds.",
+                "a": [
+                  "mains"
+                ],
+                "hint": "hands"
+              }
+            }
+          ]
+        },
+        {
+          "title": "I wash my hands",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With parts of the body French uses the article, not a possessive: *Je me lave les mains.* (I wash my hands.) *Il lève la main.* (He raises his hand.) *J'ai les yeux bleus.* (I have blue eyes.)"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je me brosse les dents.",
+                  "en": "I brush my teeth."
+                },
+                {
+                  "fr": "Lève la main !",
+                  "en": "Put your hand up! (tu)"
+                },
+                {
+                  "fr": "Elle a les cheveux longs.",
+                  "en": "She has long hair."
+                },
+                {
+                  "fr": "Il a un grand nez.",
+                  "en": "He has a big nose."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "I'm washing my hands.",
+                "a": [
+                  "Je me lave les mains."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-sante-1-01",
+          "type": "cloze",
+          "fr": "Je vois avec les ___.",
+          "a": [
+            "yeux"
+          ],
+          "hint": "eyes"
+        },
+        {
+          "id": "fr-sante-1-02",
+          "type": "cloze",
+          "fr": "J'entends avec les ___.",
+          "a": [
+            "oreilles"
+          ],
+          "hint": "ears"
+        },
+        {
+          "id": "fr-sante-1-03",
+          "type": "cloze",
+          "fr": "On mange avec la ___.",
+          "a": [
+            "bouche"
+          ],
+          "hint": "mouth"
+        },
+        {
+          "id": "fr-sante-1-04",
+          "type": "cloze",
+          "fr": "Je me brosse les ___.",
+          "a": [
+            "dents"
+          ],
+          "hint": "teeth"
+        },
+        {
+          "id": "fr-sante-1-05",
+          "type": "cloze",
+          "fr": "Le pied est au bout de la ___.",
+          "a": [
+            "jambe"
+          ],
+          "hint": "leg"
+        },
+        {
+          "id": "fr-sante-1-06",
+          "type": "cloze",
+          "fr": "Elle a les cheveux longs et un petit ___.",
+          "a": [
+            "nez"
+          ],
+          "hint": "nose"
+        },
+        {
+          "id": "fr-sante-1-07",
+          "type": "build",
+          "en": "I have big hands.",
+          "a": [
+            "J'ai de grandes mains.",
+            "J'ai des grandes mains."
+          ]
+        },
+        {
+          "id": "fr-sante-1-08",
+          "type": "build",
+          "en": "I'm washing my face.",
+          "a": [
+            "Je me lave le visage."
+          ]
+        },
+        {
+          "id": "fr-sante-1-09",
+          "type": "build",
+          "en": "Put your hand up! (tu)",
+          "a": [
+            "Lève la main !"
+          ]
+        },
+        {
+          "id": "fr-sante-1-10",
+          "type": "build",
+          "en": "I brush my teeth.",
+          "a": [
+            "Je me brosse les dents."
+          ]
+        },
+        {
+          "id": "fr-sante-1-11",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "un œil",
+          "a": [
+            "des yeux"
+          ]
+        },
+        {
+          "id": "fr-sante-1-12",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "le bras",
+          "a": [
+            "les bras"
+          ]
+        },
+        {
+          "id": "fr-sante-1-13",
+          "type": "order",
+          "en": "I'm washing my hands and face.",
+          "a": [
+            "Je me lave les mains et le visage"
+          ],
+          "extra": [
+            "mes",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-sante-2",
+      "title": "J'ai mal à la tête",
+      "subtitle": "What hurts",
+      "topics": [
+        "health",
+        "body"
+      ],
+      "words": [
+        "health#I have a headache",
+        "health#evil, harm",
+        "health#health"
+      ],
+      "learn": [
+        {
+          "title": "avoir mal à",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To say what hurts, use *avoir mal à* + article. Watch the contractions: *à + le = au*, *à + les = aux*."
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "I have a headache.",
+                  "J'ai mal à la tête."
+                ],
+                [
+                  "I have a stomach ache.",
+                  "J'ai mal au ventre."
+                ],
+                [
+                  "My back hurts.",
+                  "J'ai mal au dos."
+                ],
+                [
+                  "I have a sore throat.",
+                  "J'ai mal à la gorge."
+                ],
+                [
+                  "My ear hurts.",
+                  "J'ai mal à l'oreille."
+                ],
+                [
+                  "I have toothache.",
+                  "J'ai mal aux dents."
+                ],
+                [
+                  "My legs hurt.",
+                  "J'ai mal aux jambes."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai mal ___ ventre.",
+                "a": [
+                  "au"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Where does it hurt?",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "it hurts = j'ai mal",
+              "en": "In English the thing that hurts is often the subject (my head hurts); in French it's you: *J'ai mal* (literally \"I have pain\"). *Ma tête a mal* is wrong."
+            },
+            {
+              "type": "text",
+              "en": "Questions: *Où est-ce que tu as mal ?* / *Où avez-vous mal ?* (Where does it hurt?) *Ça fait mal !* (That hurts!)"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu as mal où ?",
+                  "en": "Where does it hurt?"
+                },
+                {
+                  "fr": "Il a mal aux pieds après le match.",
+                  "en": "His feet hurt after the match."
+                },
+                {
+                  "fr": "J'ai très mal à la gorge.",
+                  "en": "My throat really hurts."
+                },
+                {
+                  "fr": "Aïe, ça fait mal !",
+                  "en": "Ouch, that hurts!"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "My back hurts.",
+                "a": [
+                  "J'ai mal au dos."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-sante-2-01",
+          "type": "cloze",
+          "fr": "J'ai mal ___ tête.",
+          "a": [
+            "à la"
+          ]
+        },
+        {
+          "id": "fr-sante-2-02",
+          "type": "cloze",
+          "fr": "Elle a mal ___ dents.",
+          "a": [
+            "aux"
+          ]
+        },
+        {
+          "id": "fr-sante-2-03",
+          "type": "cloze",
+          "fr": "Tu as mal ___ oreille ?",
+          "a": [
+            "à l'"
+          ]
+        },
+        {
+          "id": "fr-sante-2-04",
+          "type": "cloze",
+          "fr": "Il a mal ___ dos.",
+          "a": [
+            "au"
+          ]
+        },
+        {
+          "id": "fr-sante-2-05",
+          "type": "cloze",
+          "fr": "Nous avons mal ___ jambes.",
+          "a": [
+            "aux"
+          ]
+        },
+        {
+          "id": "fr-sante-2-06",
+          "type": "cloze",
+          "fr": "Où est-ce que vous avez ___ ?",
+          "a": [
+            "mal"
+          ],
+          "hint": "pain"
+        },
+        {
+          "id": "fr-sante-2-07",
+          "type": "build",
+          "en": "I have a sore throat.",
+          "a": [
+            "J'ai mal à la gorge."
+          ]
+        },
+        {
+          "id": "fr-sante-2-08",
+          "type": "build",
+          "en": "Do you have a headache? (tu)",
+          "a": [
+            "Tu as mal à la tête ?",
+            "Est-ce que tu as mal à la tête ?",
+            "As-tu mal à la tête ?"
+          ]
+        },
+        {
+          "id": "fr-sante-2-09",
+          "type": "build",
+          "en": "My legs hurt after training.",
+          "a": [
+            "Après l'entraînement, j'ai mal aux jambes.",
+            "J'ai mal aux jambes après l'entraînement."
+          ]
+        },
+        {
+          "id": "fr-sante-2-10",
+          "type": "build",
+          "en": "My brother has a stomach ache.",
+          "a": [
+            "Mon frère a mal au ventre."
+          ]
+        },
+        {
+          "id": "fr-sante-2-11",
+          "type": "build",
+          "en": "Where does it hurt? (vous)",
+          "a": [
+            "Où avez-vous mal ?",
+            "Où est-ce que vous avez mal ?",
+            "Vous avez mal où ?"
+          ]
+        },
+        {
+          "id": "fr-sante-2-12",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "J'ai mal au pied.",
+          "a": [
+            "J'ai mal aux pieds."
+          ]
+        },
+        {
+          "id": "fr-sante-2-13",
+          "type": "order",
+          "en": "My hand hurts.",
+          "a": [
+            "J'ai mal à la main"
+          ],
+          "extra": [
+            "au",
+            "ma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-sante-3",
+      "title": "Je suis malade",
+      "subtitle": "Illness and symptoms",
+      "topics": [
+        "health"
+      ],
+      "words": [
+        "health#ill, sick",
+        "health#fever",
+        "health#a cold",
+        "health#flu",
+        "health#cough",
+        "health#tired",
+        "health#tiredness",
+        "health#to be sleepy",
+        "health#I'm hot",
+        "health#I'm cold",
+        "verbs#to cough",
+        "verbs-reflexive#to feel",
+        "verbs-reflexive#to break (an arm, a leg)",
+        "verbs-irregular#to get well, to recover"
+      ],
+      "learn": [
+        {
+          "title": "What's wrong? (tu)",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "I'm ill.",
+                  "Je suis malade."
+                ],
+                [
+                  "I have a fever.",
+                  "J'ai de la fièvre."
+                ],
+                [
+                  "I have a cold.",
+                  "J'ai un rhume."
+                ],
+                [
+                  "I have flu.",
+                  "J'ai la grippe."
+                ],
+                [
+                  "I'm coughing.",
+                  "Je tousse."
+                ],
+                [
+                  "I'm tired.",
+                  "Je suis fatigué."
+                ],
+                [
+                  "I don't feel well.",
+                  "Je ne me sens pas bien."
+                ],
+                [
+                  "I broke my leg.",
+                  "Je me suis cassé la jambe."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai de la ___ : 39 degrés !",
+                "a": [
+                  "fièvre"
+                ],
+                "hint": "fever"
+              }
+            }
+          ]
+        },
+        {
+          "title": "How do you feel?",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "se sentir",
+              "tense": "present"
+            },
+            {
+              "type": "text",
+              "en": "*Je me sens bien / mal / fatigué.* = I feel well / unwell / tired. *Qu'est-ce qui ne va pas ?* = What's wrong? What's the matter?"
+            },
+            {
+              "type": "tip",
+              "title": "j'ai chaud",
+              "en": "I'm hot = *j'ai chaud*, I'm cold = *j'ai froid*. Not *je suis chaud*, which means something completely different."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "I don't feel well.",
+                "a": [
+                  "Je ne me sens pas bien."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-sante-3-01",
+          "type": "cloze",
+          "fr": "Je ___ malade, je reste à la maison.",
+          "a": [
+            "suis"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-sante-3-02",
+          "type": "cloze",
+          "fr": "Il a un ___, il a le nez qui coule.",
+          "a": [
+            "rhume"
+          ],
+          "hint": "a cold"
+        },
+        {
+          "id": "fr-sante-3-03",
+          "type": "cloze",
+          "fr": "Tu ___ beaucoup, tu es malade ?",
+          "a": [
+            "tousses"
+          ],
+          "hint": "tousser"
+        },
+        {
+          "id": "fr-sante-3-04",
+          "type": "cloze",
+          "fr": "Je me ___ fatigué.",
+          "a": [
+            "sens"
+          ],
+          "hint": "to feel"
+        },
+        {
+          "id": "fr-sante-3-05",
+          "type": "cloze",
+          "fr": "Elle s'est ___ le bras.",
+          "a": [
+            "cassé"
+          ],
+          "hint": "to break",
+          "why": "The participle doesn't agree here, because the object le bras comes after it."
+        },
+        {
+          "id": "fr-sante-3-06",
+          "type": "cloze",
+          "fr": "J'ai ___, je mets un pull.",
+          "a": [
+            "froid"
+          ],
+          "hint": "I'm cold"
+        },
+        {
+          "id": "fr-sante-3-07",
+          "type": "build",
+          "en": "I have flu.",
+          "a": [
+            "J'ai la grippe."
+          ]
+        },
+        {
+          "id": "fr-sante-3-08",
+          "type": "build",
+          "en": "I have a fever and a headache.",
+          "a": [
+            "J'ai de la fièvre et j'ai mal à la tête."
+          ]
+        },
+        {
+          "id": "fr-sante-3-09",
+          "type": "build",
+          "en": "I'm hot.",
+          "a": [
+            "J'ai chaud."
+          ]
+        },
+        {
+          "id": "fr-sante-3-10",
+          "type": "build",
+          "en": "What's wrong? (tu)",
+          "a": [
+            "Qu'est-ce qui ne va pas ?",
+            "Qu'est-ce que tu as ?"
+          ]
+        },
+        {
+          "id": "fr-sante-3-11",
+          "type": "build",
+          "en": "I broke my leg.",
+          "a": [
+            "Je me suis cassé la jambe."
+          ],
+          "why": "La jambe comes after the participle, so cassé doesn't agree, even when a girl is speaking."
+        },
+        {
+          "id": "fr-sante-3-12",
+          "type": "build",
+          "en": "You'll soon get better. (tu)",
+          "a": [
+            "Tu vas vite guérir.",
+            "Tu vas guérir vite.",
+            "Tu guériras vite.",
+            "Tu vas bientôt guérir."
+          ]
+        },
+        {
+          "id": "fr-sante-3-13",
+          "type": "order",
+          "en": "I'm tired and cold. (boy)",
+          "a": [
+            "Je suis fatigué et j'ai froid"
+          ],
+          "extra": [
+            "suis",
+            "froide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-sante-4",
+      "title": "Chez le médecin",
+      "subtitle": "At the doctor's and the chemist's",
+      "topics": [
+        "health"
+      ],
+      "words": [
+        "health#doctor",
+        "health#dentist",
+        "health#prescription",
+        "shopping#chemist's, pharmacy",
+        "shopping#medicines"
+      ],
+      "learn": [
+        {
+          "title": "At the doctor's",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "What's the matter?",
+                  "Qu'est-ce qui ne va pas ?"
+                ],
+                [
+                  "Since when?",
+                  "Depuis quand ?"
+                ],
+                [
+                  "Since yesterday.",
+                  "Depuis hier."
+                ],
+                [
+                  "I've had a fever for three days.",
+                  "J'ai de la fièvre depuis trois jours."
+                ],
+                [
+                  "Open your mouth.",
+                  "Ouvrez la bouche."
+                ],
+                [
+                  "Berte tento lék.",
+                  "Prenez ce médicament."
+                ],
+                [
+                  "three times a day",
+                  "trois fois par jour"
+                ],
+                [
+                  "Tady je recept.",
+                  "Voici l'ordonnance."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "You go to the doctor's *chez le médecin*, to the dentist's *chez le dentiste*: you go to people with *chez*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai mal à la gorge ___ hier.",
+                "a": [
+                  "depuis"
+                ],
+                "hint": "since, for"
+              }
+            }
+          ]
+        },
+        {
+          "title": "depuis + present tense",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "depuis",
+              "en": "Something that started in the past and is still going on is said in the **present tense** with *depuis*: *Je tousse depuis une semaine.* (I've been coughing for a week.) Not *j'ai toussé*."
+            },
+            {
+              "type": "text",
+              "en": "At the chemist's (*à la pharmacie*): *Je voudrais quelque chose contre la toux / contre le mal de tête.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Bonjour docteur, j'ai mal au ventre.",
+                  "en": "Hello, doctor, I have a stomach ache."
+                },
+                {
+                  "fr": "Depuis quand ?",
+                  "en": "Since when?"
+                },
+                {
+                  "fr": "Depuis ce matin.",
+                  "en": "Since this morning."
+                },
+                {
+                  "fr": "Prenez ces comprimés deux fois par jour.",
+                  "en": "Take these tablets twice a day."
+                },
+                {
+                  "fr": "Je dois aller chez le dentiste.",
+                  "en": "I have to go to the dentist."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "I've been coughing for a week.",
+                "a": [
+                  "Je tousse depuis une semaine."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-sante-4-01",
+          "type": "cloze",
+          "fr": "Je vais ___ le médecin.",
+          "a": [
+            "chez"
+          ]
+        },
+        {
+          "id": "fr-sante-4-02",
+          "type": "cloze",
+          "fr": "Il a mal aux dents, il va chez le ___.",
+          "a": [
+            "dentiste"
+          ],
+          "hint": "dentist"
+        },
+        {
+          "id": "fr-sante-4-03",
+          "type": "cloze",
+          "fr": "Prenez ce médicament trois ___ par jour.",
+          "a": [
+            "fois"
+          ],
+          "hint": "times"
+        },
+        {
+          "id": "fr-sante-4-04",
+          "type": "cloze",
+          "fr": "J'ai de la fièvre ___ deux jours.",
+          "a": [
+            "depuis"
+          ],
+          "hint": "already"
+        },
+        {
+          "id": "fr-sante-4-05",
+          "type": "cloze",
+          "fr": "Le médecin me donne une ___.",
+          "a": [
+            "ordonnance"
+          ],
+          "hint": "prescription"
+        },
+        {
+          "id": "fr-sante-4-06",
+          "type": "cloze",
+          "fr": "___ la bouche, s'il vous plaît.",
+          "a": [
+            "Ouvrez"
+          ],
+          "hint": "open (vous)"
+        },
+        {
+          "id": "fr-sante-4-07",
+          "type": "build",
+          "en": "I have to go to the doctor.",
+          "a": [
+            "Je dois aller chez le médecin.",
+            "Il faut que j'aille chez le médecin."
+          ]
+        },
+        {
+          "id": "fr-sante-4-08",
+          "type": "build",
+          "en": "Since when have you had a headache? (vous)",
+          "a": [
+            "Depuis quand avez-vous mal à la tête ?",
+            "Vous avez mal à la tête depuis quand ?",
+            "Depuis quand est-ce que vous avez mal à la tête ?"
+          ]
+        },
+        {
+          "id": "fr-sante-4-09",
+          "type": "build",
+          "en": "It's been hurting since yesterday.",
+          "a": [
+            "J'ai mal depuis hier.",
+            "Ça fait mal depuis hier."
+          ]
+        },
+        {
+          "id": "fr-sante-4-10",
+          "type": "build",
+          "en": "I'd like something for a cough.",
+          "a": [
+            "Je voudrais quelque chose contre la toux."
+          ]
+        },
+        {
+          "id": "fr-sante-4-11",
+          "type": "build",
+          "en": "Where is the chemist's?",
+          "a": [
+            "Où est la pharmacie ?"
+          ]
+        },
+        {
+          "id": "fr-sante-4-12",
+          "type": "transform",
+          "task_en": "Say it with depuis (three days)",
+          "fr": "Je suis malade.",
+          "a": [
+            "Je suis malade depuis trois jours."
+          ]
+        },
+        {
+          "id": "fr-sante-4-13",
+          "type": "order",
+          "en": "Take it twice a day.",
+          "a": [
+            "Prenez-le deux fois par jour"
+          ],
+          "extra": [
+            "prends",
+            "jours"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-sante-5",
+      "title": "Il faut dormir",
+      "subtitle": "Advice: il faut, devoir",
+      "topics": [
+        "health",
+        "obligation"
+      ],
+      "words": [
+        "health#advice",
+        "health#it is necessary",
+        "verbs-irregular#to have to, must",
+        "health#food, nutrition",
+        "health#tiring",
+        "health#cause"
+      ],
+      "learn": [
+        {
+          "title": "il faut",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Il faut* + infinitive = you have to, one must (in general, for everyone): *Il faut dormir huit heures.* *Il ne faut pas* = you mustn't: *Il ne faut pas fumer.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Pour être en forme, il ___ faire du sport.",
+                "a": [
+                  "faut"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "devoir",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "devoir",
+              "tense": "present"
+            },
+            {
+              "type": "text",
+              "en": "*Devoir* + infinitive = must, to have to (a particular person): *Tu dois rester au lit.* You give advice more politely with *tu devrais* (you should): *Tu devrais boire plus d'eau.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il faut manger des fruits et des légumes.",
+                  "en": "You have to eat fruit and vegetables."
+                },
+                {
+                  "fr": "Tu dois prendre tes médicaments.",
+                  "en": "You have to take your medicine."
+                },
+                {
+                  "fr": "Il ne faut pas jouer avec de la fièvre.",
+                  "en": "You mustn't play with a fever."
+                },
+                {
+                  "fr": "Vous devriez vous reposer.",
+                  "en": "You should rest. (vous)"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "You need to sleep more. (tu)",
+                "a": [
+                  "Tu dois dormir plus.",
+                  "Tu dois plus dormir.",
+                  "Il faut dormir plus.",
+                  "Tu devrais dormir plus."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-sante-5-01",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "present",
+          "person": 0
+        },
+        {
+          "id": "fr-sante-5-02",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "present",
+          "person": 1
+        },
+        {
+          "id": "fr-sante-5-03",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "present",
+          "person": 3
+        },
+        {
+          "id": "fr-sante-5-04",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "present",
+          "person": 5
+        },
+        {
+          "id": "fr-sante-5-05",
+          "type": "cloze",
+          "fr": "Il ___ boire de l'eau.",
+          "a": [
+            "faut"
+          ],
+          "hint": "one must"
+        },
+        {
+          "id": "fr-sante-5-06",
+          "type": "cloze",
+          "fr": "Tu ___ rester au lit.",
+          "a": [
+            "dois"
+          ],
+          "hint": "devoir"
+        },
+        {
+          "id": "fr-sante-5-07",
+          "type": "cloze",
+          "fr": "Nous ___ partir maintenant.",
+          "a": [
+            "devons"
+          ],
+          "hint": "devoir"
+        },
+        {
+          "id": "fr-sante-5-08",
+          "type": "cloze",
+          "fr": "Il ne faut ___ manger trop de sucre.",
+          "a": [
+            "pas"
+          ]
+        },
+        {
+          "id": "fr-sante-5-09",
+          "type": "cloze",
+          "fr": "Tu ___ voir un médecin.",
+          "a": [
+            "devrais"
+          ],
+          "hint": "you should"
+        },
+        {
+          "id": "fr-sante-5-10",
+          "type": "build",
+          "en": "You have to eat vegetables. (in general)",
+          "a": [
+            "Il faut manger des légumes."
+          ]
+        },
+        {
+          "id": "fr-sante-5-11",
+          "type": "build",
+          "en": "You mustn't smoke. (in general)",
+          "a": [
+            "Il ne faut pas fumer."
+          ]
+        },
+        {
+          "id": "fr-sante-5-12",
+          "type": "build",
+          "en": "I have to take my medicine.",
+          "a": [
+            "Je dois prendre un médicament.",
+            "Je dois prendre mon médicament.",
+            "Je dois prendre mes médicaments."
+          ]
+        },
+        {
+          "id": "fr-sante-5-13",
+          "type": "build",
+          "en": "You should rest more. (tu)",
+          "a": [
+            "Tu devrais te reposer plus.",
+            "Tu devrais plus te reposer."
+          ]
+        },
+        {
+          "id": "fr-sante-5-14",
+          "type": "transform",
+          "task_en": "Say it with il faut",
+          "fr": "Tu dois boire beaucoup d'eau.",
+          "a": [
+            "Il faut boire beaucoup d'eau."
+          ]
+        },
+        {
+          "id": "fr-sante-5-15",
+          "type": "order",
+          "en": "We must eat healthily.",
+          "a": [
+            "Nous devons manger sainement"
+          ],
+          "extra": [
+            "faut",
+            "doit"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-sante-t-01",
+        "lesson": "fr-sante-1",
+        "type": "cloze",
+        "fr": "Il a les ___ bleus.",
+        "a": [
+          "yeux"
+        ],
+        "hint": "eyes"
+      },
+      {
+        "id": "fr-sante-t-02",
+        "lesson": "fr-sante-1",
+        "type": "build",
+        "en": "I have long hair and a small nose.",
+        "a": [
+          "J'ai les cheveux longs et un petit nez."
+        ]
+      },
+      {
+        "id": "fr-sante-t-03",
+        "lesson": "fr-sante-1",
+        "type": "cloze",
+        "fr": "On marche avec les ___.",
+        "a": [
+          "jambes",
+          "pieds"
+        ],
+        "hint": "legs, feet"
+      },
+      {
+        "id": "fr-sante-t-04",
+        "lesson": "fr-sante-1",
+        "type": "build",
+        "en": "Wash your hands! (tu)",
+        "a": [
+          "Lave-toi les mains !"
+        ]
+      },
+      {
+        "id": "fr-sante-t-05",
+        "lesson": "fr-sante-2",
+        "type": "cloze",
+        "fr": "J'ai mal ___ pieds.",
+        "a": [
+          "aux"
+        ]
+      },
+      {
+        "id": "fr-sante-t-06",
+        "lesson": "fr-sante-2",
+        "type": "build",
+        "en": "My ear hurts.",
+        "a": [
+          "J'ai mal à l'oreille."
+        ]
+      },
+      {
+        "id": "fr-sante-t-07",
+        "lesson": "fr-sante-2",
+        "type": "build",
+        "en": "She has a headache.",
+        "a": [
+          "Elle a mal à la tête."
+        ]
+      },
+      {
+        "id": "fr-sante-t-08",
+        "lesson": "fr-sante-2",
+        "type": "cloze",
+        "fr": "Tu as mal ___ gorge ?",
+        "a": [
+          "à la"
+        ]
+      },
+      {
+        "id": "fr-sante-t-09",
+        "lesson": "fr-sante-2",
+        "type": "build",
+        "en": "Does it hurt anywhere? (tu)",
+        "a": [
+          "Tu as mal quelque part ?",
+          "Est-ce que tu as mal quelque part ?"
+        ]
+      },
+      {
+        "id": "fr-sante-t-10",
+        "lesson": "fr-sante-3",
+        "type": "build",
+        "en": "I'm ill, I have a cold.",
+        "a": [
+          "Je suis malade, j'ai un rhume."
+        ]
+      },
+      {
+        "id": "fr-sante-t-11",
+        "lesson": "fr-sante-3",
+        "type": "cloze",
+        "fr": "Il ___ toute la nuit.",
+        "a": [
+          "a toussé"
+        ],
+        "hint": "tousser"
+      },
+      {
+        "id": "fr-sante-t-12",
+        "lesson": "fr-sante-3",
+        "type": "build",
+        "en": "I'm cold.",
+        "a": [
+          "J'ai froid."
+        ]
+      },
+      {
+        "id": "fr-sante-t-13",
+        "lesson": "fr-sante-3",
+        "type": "build",
+        "en": "I feel better.",
+        "a": [
+          "Je me sens mieux."
+        ]
+      },
+      {
+        "id": "fr-sante-t-14",
+        "lesson": "fr-sante-3",
+        "type": "build",
+        "en": "She broke her arm.",
+        "a": [
+          "Elle s'est cassé le bras.",
+          "Elle s'est cassé la main."
+        ]
+      },
+      {
+        "id": "fr-sante-t-15",
+        "lesson": "fr-sante-4",
+        "type": "cloze",
+        "fr": "Je dois aller chez le ___, j'ai mal aux dents.",
+        "a": [
+          "dentiste"
+        ],
+        "hint": "dentist"
+      },
+      {
+        "id": "fr-sante-t-16",
+        "lesson": "fr-sante-4",
+        "type": "build",
+        "en": "I've had a fever since yesterday.",
+        "a": [
+          "J'ai de la fièvre depuis hier."
+        ]
+      },
+      {
+        "id": "fr-sante-t-17",
+        "lesson": "fr-sante-4",
+        "type": "build",
+        "en": "Take the medicine three times a day.",
+        "a": [
+          "Prenez le médicament trois fois par jour.",
+          "Prenez ce médicament trois fois par jour."
+        ]
+      },
+      {
+        "id": "fr-sante-t-18",
+        "lesson": "fr-sante-4",
+        "type": "cloze",
+        "fr": "Voici votre ___.",
+        "a": [
+          "ordonnance"
+        ],
+        "hint": "prescription"
+      },
+      {
+        "id": "fr-sante-t-19",
+        "lesson": "fr-sante-4",
+        "type": "build",
+        "en": "Since when have you been coughing? (tu)",
+        "a": [
+          "Depuis quand est-ce que tu tousses ?",
+          "Depuis quand tu tousses ?",
+          "Tu tousses depuis quand ?"
+        ]
+      },
+      {
+        "id": "fr-sante-t-20",
+        "lesson": "fr-sante-5",
+        "type": "cloze",
+        "fr": "Il ___ dormir huit heures par nuit.",
+        "a": [
+          "faut"
+        ]
+      },
+      {
+        "id": "fr-sante-t-21",
+        "lesson": "fr-sante-5",
+        "type": "cloze",
+        "fr": "Vous ___ prendre ce médicament.",
+        "a": [
+          "devez"
+        ],
+        "hint": "devoir"
+      },
+      {
+        "id": "fr-sante-t-22",
+        "lesson": "fr-sante-5",
+        "type": "build",
+        "en": "You must stay in bed. (tu)",
+        "a": [
+          "Tu dois rester au lit."
+        ]
+      },
+      {
+        "id": "fr-sante-t-23",
+        "lesson": "fr-sante-5",
+        "type": "build",
+        "en": "You mustn't eat too much sugar. (in general)",
+        "a": [
+          "Il ne faut pas manger trop de sucre."
+        ]
+      },
+      {
+        "id": "fr-sante-t-24",
+        "lesson": "fr-sante-5",
+        "type": "build",
+        "en": "You should go to the doctor. (tu)",
+        "a": [
+          "Tu devrais aller chez le médecin."
+        ]
+      },
+      {
+        "id": "fr-sante-t-25",
+        "lesson": "fr-sante-5",
+        "type": "form",
+        "verb": "devoir",
+        "tense": "present",
+        "person": 4
+      }
+    ]
+  }
+}

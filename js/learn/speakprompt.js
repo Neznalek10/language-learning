@@ -1,3 +1,5 @@
+import { baseLang } from '../data.js';
+
 export const MINUTES = [
   { value: 5, label: '5 min' },
   { value: 10, label: '10 min' },
@@ -55,10 +57,11 @@ You are my French speaking partner in a live voice conversation. Your job is to 
       ? 'In this session I talk freely about anything, and you are a warm, curious conversation partner.'
       : 'In this session I talk freely about anything, and you are a patient listener who mostly lets me speak.'}`);
 
+  const czech = baseLang() === 'cs';
   parts.push(`# ABOUT ME
-- I am a Czech teenager learning French at school. My level: ${level}.
+- I am a ${czech ? 'Czech ' : ''}teenager learning French at school. My level: ${level}.
 - ${LEVEL_TEXT[level]}
-- My native language is Czech and I also speak English, but in this session I want to speak French as much as possible.`);
+- ${czech ? 'My native language is Czech and I also speak English' : 'My native language is English'}, but in this session I want to speak French as much as possible.`);
 
   if (topic) {
     const grammar = (topic.grammar || []).map(id => rules.find(r => r.id === id)?.title || id);

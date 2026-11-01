@@ -1,0 +1,224 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Shopping",
+  "unit": "4.2",
+  "level": null,
+  "words": [
+    {
+      "q": "chemist's, pharmacy",
+      "a": "pharmacie"
+    },
+    {
+      "q": "bookshop",
+      "a": "librairie"
+    },
+    {
+      "q": "stationer's",
+      "a": "papeterie"
+    },
+    {
+      "q": "the press, newsagent's",
+      "a": "presse"
+    },
+    {
+      "q": "market",
+      "a": "marché"
+    },
+    {
+      "q": "marketplace",
+      "a": "marché"
+    },
+    {
+      "q": "flower",
+      "a": "fleur"
+    },
+    {
+      "q": "florist's",
+      "a": "fleuriste"
+    },
+    {
+      "q": "home appliances shop",
+      "a": "électroménager"
+    },
+    {
+      "q": "bakery",
+      "a": "boulangerie"
+    },
+    {
+      "q": "butcher's",
+      "a": "boucherie"
+    },
+    {
+      "q": "cake shop",
+      "a": "pâtisserie"
+    },
+    {
+      "q": "grocer's",
+      "a": "épicerie"
+    },
+    {
+      "q": "delicatessen",
+      "a": "épicerie"
+    },
+    {
+      "q": "jeweller's",
+      "a": "bijouterie"
+    },
+    {
+      "q": "medicines",
+      "a": "médicaments"
+    },
+    {
+      "q": "money",
+      "a": "argent"
+    },
+    {
+      "q": "litre",
+      "a": "litre"
+    },
+    {
+      "q": "bouquet",
+      "a": "bouquet"
+    },
+    {
+      "q": "slice",
+      "a": "tranche"
+    },
+    {
+      "q": "tin (of food)",
+      "a": "boîte"
+    },
+    {
+      "q": "bottle",
+      "a": "bouteille"
+    },
+    {
+      "q": "brick",
+      "a": "brique"
+    },
+    {
+      "q": "carton of milk",
+      "a": "brique de lait"
+    },
+    {
+      "q": "jar of jam",
+      "a": "pot de confiture"
+    },
+    {
+      "q": "tube",
+      "a": "tube"
+    },
+    {
+      "q": "sachet, small bag",
+      "a": "sachet"
+    },
+    {
+      "q": "bar of chocolate",
+      "a": "tablette de chocolat"
+    },
+    {
+      "q": "piece",
+      "a": "morceau"
+    },
+    {
+      "q": "piece of cheese",
+      "a": "part de fromage"
+    },
+    {
+      "q": "slice of salami",
+      "a": "rondelle de saucisson"
+    },
+    {
+      "q": "glass of water",
+      "a": "verre d'eau"
+    },
+    {
+      "q": "cup of coffee",
+      "a": "tasse de café"
+    },
+    {
+      "q": "clove of garlic",
+      "a": "gousse d'ail"
+    },
+    {
+      "q": "jug, carafe",
+      "a": "carafe"
+    },
+    {
+      "q": "can (of drink)",
+      "a": "canette"
+    },
+    {
+      "q": "cushion, pillow",
+      "a": [
+        "coussin",
+        "oreiller"
+      ]
+    },
+    {
+      "q": "fruit and vegetables",
+      "a": "fruits et légumes"
+    },
+    {
+      "q": "how much is it?",
+      "a": [
+        "ça coûte combien ?",
+        "c'est combien ?",
+        "combien ça coûte ?"
+      ]
+    },
+    {
+      "q": "euro",
+      "a": "euro"
+    },
+    {
+      "q": "crown (Czech currency)",
+      "a": "couronne"
+    },
+    {
+      "q": "kilo",
+      "a": "kilo"
+    },
+    {
+      "q": "gram",
+      "a": "gramme"
+    },
+    {
+      "q": "packet",
+      "a": "paquet"
+    },
+    {
+      "q": "supermarket",
+      "a": "supermarché"
+    },
+    {
+      "q": "shop",
+      "a": "magasin"
+    },
+    {
+      "q": "baker",
+      "a": "boulanger"
+    },
+    {
+      "q": "butcher",
+      "a": "boucher"
+    },
+    {
+      "q": "that's all",
+      "a": "c'est tout"
+    },
+    {
+      "q": "what would you like?",
+      "a": "vous désirez ?"
+    },
+    {
+      "q": "cheap",
+      "a": [
+        "pas cher",
+        "bon marché"
+      ]
+    }
+  ]
+}

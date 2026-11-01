@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": "gender",
-      "title": "Gender of nouns",
+      "title": "Rod podstatných jmen",
       "fr": "le genre des noms",
       "level": "A1",
       "keywords": [
@@ -29,26 +29,26 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "French has only **two genders**: masculine (*le*) and feminine (*la*). There is no neuter. The gender is often different from Czech, so learn every word **together with its article**: not *table*, but *la table*."
+              "cs": "Francouzština má jen **dva rody**: mužský (*le*) a ženský (*la*). Střední rod nemá. Rod se často liší od češtiny, proto se každé slovo uč **i se členem**: ne *table*, ale *la table*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "the bed (feminine in Czech)",
+                  "cs": "postel (v češtině ženský rod)",
                   "fr": "[[le]] lit",
-                  "note": "Masculine in French."
+                  "note": "Ve francouzštině mužský rod."
                 },
                 {
-                  "en": "the car (neuter in Czech)",
+                  "cs": "auto (v češtině střední rod)",
                   "fr": "[[la]] voiture"
                 },
                 {
-                  "en": "the table (masculine in Czech)",
+                  "cs": "stůl (v češtině mužský rod)",
                   "fr": "[[la]] table"
                 }
               ]
@@ -56,13 +56,13 @@
           ]
         },
         {
-          "title": "Endings that give a hint",
+          "title": "Koncovky, které napoví",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "usually masculine",
-                "usually feminine"
+                "většinou mužský rod",
+                "většinou ženský rod"
               ],
               "rows": [
                 [
@@ -89,16 +89,16 @@
             },
             {
               "type": "tip",
-              "en": "There are exceptions (*la plage, la page, l'eau* are feminine, *le musée* is masculine), but these rules hold for most words."
+              "cs": "Existují výjimky (*la plage, la page, l'eau* jsou ženského rodu, *le musée* mužského), ale u většiny slov tato pravidla platí."
             }
           ]
         },
         {
-          "title": "People and animals",
+          "title": "Lidé a zvířata",
           "blocks": [
             {
               "type": "text",
-              "en": "With people the feminine often adds *-e*: *un ami → une amie, un étudiant → une étudiante*. Some words change more: *un acteur → une actrice, un chanteur → une chanteuse, un Italien → une Italienne*."
+              "cs": "U lidí ženský rod často přidává *-e*: *un ami → une amie, un étudiant → une étudiante*. Některá slova se mění víc: *un acteur → une actrice, un chanteur → une chanteuse, un Italien → une Italienne*."
             },
             {
               "type": "see",
@@ -109,30 +109,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "le livre, la table",
-                  "en": "the book, the table"
+                  "cs": "kniha, stůl"
                 },
                 {
                   "fr": "le problème",
-                  "en": "the problem (masculine, even though it ends in -e)"
+                  "cs": "problém (mužský rod, i když končí na -e)"
                 },
                 {
                   "fr": "la photo",
-                  "en": "the photo (short for la photographie)"
+                  "cs": "fotka (zkráceně z la photographie)"
                 },
                 {
                   "fr": "le week-end",
-                  "en": "the weekend"
+                  "cs": "víkend"
                 },
                 {
                   "fr": "un élève, une élève",
-                  "en": "a pupil (boy), a pupil (girl)"
+                  "cs": "žák, žákyně"
                 }
               ]
             }
@@ -147,7 +147,7 @@
           "a": [
             "La"
           ],
-          "en": "The car is red."
+          "cs": "To auto je červené."
         },
         {
           "id": "g-gender-02",
@@ -156,7 +156,7 @@
           "a": [
             "Le"
           ],
-          "en": "The cheese is good."
+          "cs": "Ten sýr je dobrý."
         },
         {
           "id": "g-gender-03",
@@ -165,7 +165,7 @@
           "a": [
             "La"
           ],
-          "en": "The television is big."
+          "cs": "Ta televize je velká."
         },
         {
           "id": "g-gender-04",
@@ -174,12 +174,12 @@
           "a": [
             "Le"
           ],
-          "en": "The cake is delicious."
+          "cs": "Ten dort je výborný."
         },
         {
           "id": "g-gender-05",
           "type": "transform",
-          "task_en": "Make it feminine",
+          "task_cs": "Převeď do ženského rodu",
           "fr": "C'est un ami.",
           "a": [
             "C'est une amie."
@@ -188,7 +188,7 @@
         {
           "id": "g-gender-06",
           "type": "transform",
-          "task_en": "Make it feminine",
+          "task_cs": "Převeď do ženského rodu",
           "fr": "Il est acteur.",
           "a": [
             "Elle est actrice."
@@ -198,7 +198,7 @@
     },
     {
       "id": "gender-endings",
-      "title": "Gender from the ending of a noun",
+      "title": "Rod podle koncovky podstatného jména",
       "fr": "le genre d'après la terminaison",
       "level": "A1",
       "keywords": [
@@ -225,19 +225,19 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "There are no rules without exceptions, but the **ending of a noun** gives you the gender in about 80% of cases. Learn the endings in the table and **always learn the article with a new noun**."
+              "cs": "Pravidla bez výjimek nejsou, ale **koncovka podstatného jména** ti rod prozradí asi v 80 % případů. Nauč se koncovky z tabulky a **ke každému novému podstatnému jménu se vždycky uč i člen**."
             },
             {
               "type": "table",
               "head": [
-                "feminine endings",
-                "examples",
-                "masculine endings",
-                "examples"
+                "koncovky ženského rodu",
+                "příklady",
+                "koncovky mužského rodu",
+                "příklady"
               ],
               "rows": [
                 [
@@ -267,7 +267,7 @@
                 [
                   "-ance, -ence",
                   "la chance, la patience",
-                  "-eur (things, jobs)",
+                  "-eur (věci, povolání)",
                   "le moteur, le chanteur"
                 ],
                 [
@@ -287,45 +287,45 @@
           ]
         },
         {
-          "title": "Typical exceptions",
+          "title": "Typické výjimky",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "ending",
-                "exceptions",
-                "meaning"
+                "koncovka",
+                "výjimky",
+                "význam"
               ],
               "rows": [
                 [
                   "-age (m.)",
                   "la page, l'image, la plage, la cage, la nage",
-                  "page, picture, beach, cage, swimming"
+                  "stránka, obraz, pláž, klec, plavání"
                 ],
                 [
                   "-ée (f.)",
                   "le lycée, le musée, le trophée",
-                  "high school, museum, trophy"
+                  "lyceum, muzeum, trofej"
                 ],
                 [
                   "-eur (f.)",
                   "la chaleur, la couleur, la peur, la fleur, la valeur",
-                  "heat, colour, fear, flower, value"
+                  "horko, barva, strach, květina, hodnota"
                 ],
                 [
                   "-ment (m.)",
                   "la jument",
-                  "mare"
+                  "klisna"
                 ],
                 [
                   "-é (m.)",
                   "le café, le blé, l'été, le côté, le thé",
-                  "coffee, wheat, summer, side, tea"
+                  "káva, pšenice, léto, strana, čaj"
                 ],
                 [
                   "-e (f.)",
                   "le livre, le gîte, le groupe, le disque, le musée",
-                  "book, lodging, group, disc, museum"
+                  "kniha, ubytování, skupina, disk, muzeum"
                 ]
               ],
               "textCols": [
@@ -335,58 +335,58 @@
           ]
         },
         {
-          "title": "By meaning",
+          "title": "Podle významu",
           "blocks": [
             {
               "type": "text",
-              "en": "**Masculine**: days, months, seasons, languages, colours, metals, trees (*le chêne*), the cardinal points, many countries not ending in -e (*le Canada*). **Feminine**: most countries and rivers ending in **-e** (*la France, la Seine*), many sciences (*la physique*)."
+              "cs": "**Mužský rod**: dny, měsíce, roční období, jazyky, barvy, kovy, stromy (*le chêne*), světové strany, mnoho zemí nezakončených na -e (*le Canada*). **Ženský rod**: většina zemí a řek zakončených na **-e** (*la France, la Seine*), mnoho věd (*la physique*)."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le lundi, le français, le rouge, l'été.",
-                  "en": "Monday, French, red, summer: all masculine."
+                  "cs": "Pondělí, francouzština, červená, léto: všechno mužský rod."
                 },
                 {
                   "fr": "La France, la Loire, la chimie.",
-                  "en": "France, the Loire, chemistry: feminine."
+                  "cs": "Francie, Loira, chemie: ženský rod."
                 },
                 {
                   "fr": "Un bateau, une voiture, un fromage, une boulangerie.",
-                  "en": "A boat, a car, a cheese, a bakery."
+                  "cs": "Loď, auto, sýr, pekárna."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "the trip",
+                  "cs": "výlet",
                   "wrong": "la voyage",
                   "fr": "[[le]] voyage"
                 },
                 {
-                  "en": "the television",
+                  "cs": "televize",
                   "wrong": "le télévision",
                   "fr": "[[la]] télévision"
                 },
                 {
-                  "en": "the colour",
+                  "cs": "barva",
                   "wrong": "le couleur",
                   "fr": "[[la]] couleur",
-                  "note": "Exception to *-eur*."
+                  "note": "Výjimka z *-eur*."
                 }
               ]
             },
             {
               "type": "tip",
-              "en": "Czech gender is a bad guide: *le soleil* (masc.) is neuter in Czech, *la lune* (fem.) is masculine in Czech. Learn each noun with its article."
+              "cs": "Český rod je špatný rádce: *le soleil* (m.) je v češtině střední rod, *la lune* (ž.) je v češtině mužský rod (měsíc). Každé podstatné jméno se uč se členem."
             },
             {
               "type": "see",
@@ -400,26 +400,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "La télévision est dans le salon.",
-                  "en": "The television is in the living room."
+                  "cs": "Televize je v obýváku."
                 },
                 {
                   "fr": "Le voyage était très agréable.",
-                  "en": "The trip was very pleasant."
+                  "cs": "Výlet byl moc příjemný."
                 },
                 {
                   "fr": "J'ai peur de la chaleur.",
-                  "en": "I'm afraid of the heat."
+                  "cs": "Bojím se horka."
                 },
                 {
                   "fr": "Le tourisme est important ici.",
-                  "en": "Tourism is important here."
+                  "cs": "Cestovní ruch je tu důležitý."
                 }
               ]
             }
@@ -434,7 +434,7 @@
           "a": [
             "Le"
           ],
-          "en": "The trip was long."
+          "cs": "Výlet byl dlouhý."
         },
         {
           "id": "g-gender-endings-02",
@@ -443,7 +443,7 @@
           "a": [
             "La"
           ],
-          "en": "The nation is united."
+          "cs": "Národ je jednotný."
         },
         {
           "id": "g-gender-endings-03",
@@ -452,7 +452,7 @@
           "a": [
             "La"
           ],
-          "en": "The heat is strong."
+          "cs": "Je velké horko."
         },
         {
           "id": "g-gender-endings-04",
@@ -461,7 +461,7 @@
           "a": [
             "Le"
           ],
-          "en": "The cake is good."
+          "cs": "Ten dort je dobrý."
         },
         {
           "id": "g-gender-endings-05",
@@ -470,7 +470,7 @@
           "a": [
             "la"
           ],
-          "en": "I love freedom."
+          "cs": "Miluju svobodu."
         },
         {
           "id": "g-gender-endings-06",
@@ -479,7 +479,7 @@
           "a": [
             "un"
           ],
-          "en": "He buys a cheese."
+          "cs": "Kupuje sýr."
         },
         {
           "id": "g-gender-endings-07",
@@ -488,12 +488,12 @@
           "a": [
             "la"
           ],
-          "en": "She is watching television."
+          "cs": "Dívá se na televizi."
         },
         {
           "id": "g-gender-endings-08",
           "type": "build",
-          "en": "the beach",
+          "cs": "pláž",
           "a": [
             "la plage"
           ]
@@ -501,7 +501,7 @@
         {
           "id": "g-gender-endings-09",
           "type": "build",
-          "en": "the museum",
+          "cs": "muzeum",
           "a": [
             "le musée"
           ]
@@ -510,7 +510,7 @@
     },
     {
       "id": "gender-meaning-change",
-      "title": "Same word, two genders, two meanings",
+      "title": "Stejné slovo, dva rody, dva významy",
       "fr": "le genre qui change le sens",
       "level": "A2",
       "keywords": [
@@ -533,114 +533,114 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A group of French nouns changes **meaning with the gender**. Watch the article: *un tour* (a trip) and *une tour* (a tower) are different words with the same spelling."
+              "cs": "Skupina francouzských podstatných jmen **mění s rodem význam**. Sleduj člen: *un tour* (výlet) a *une tour* (věž) jsou různá slova se stejným pravopisem."
             },
             {
               "type": "table",
               "head": [
-                "masculine",
-                "feminine"
+                "mužský rod",
+                "ženský rod"
               ],
               "rows": [
                 [
-                  "le livre = the book",
-                  "la livre = the pound"
+                  "le livre = kniha",
+                  "la livre = libra"
                 ],
                 [
-                  "le tour = the tour, turn",
-                  "la tour = the tower"
+                  "le tour = výlet, kolo",
+                  "la tour = věž"
                 ],
                 [
-                  "le poste = the post, job, set",
-                  "la poste = the post office"
+                  "le poste = místo, práce, přijímač",
+                  "la poste = pošta"
                 ],
                 [
-                  "le mode = the way, mode",
-                  "la mode = fashion"
+                  "le mode = způsob, režim",
+                  "la mode = móda"
                 ],
                 [
-                  "le voile = the veil",
-                  "la voile = the sail"
+                  "le voile = závoj",
+                  "la voile = plachta"
                 ],
                 [
-                  "le vase = the vase",
-                  "la vase = the mud"
+                  "le vase = váza",
+                  "la vase = bahno"
                 ],
                 [
-                  "le mémoire = the thesis",
-                  "la mémoire = the memory"
+                  "le mémoire = diplomová práce",
+                  "la mémoire = paměť"
                 ],
                 [
-                  "le manche = the handle",
-                  "la manche = the sleeve"
+                  "le manche = rukojeť",
+                  "la manche = rukáv"
                 ],
                 [
-                  "le critique = the critic (person)",
-                  "la critique = the criticism"
+                  "le critique = kritik (osoba)",
+                  "la critique = kritika"
                 ],
                 [
-                  "le page = the page boy",
-                  "la page = the page"
+                  "le page = páže",
+                  "la page = stránka"
                 ],
                 [
-                  "le somme = the nap",
-                  "la somme = the sum"
+                  "le somme = zdřímnutí",
+                  "la somme = součet, částka"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "People: masculine or feminine",
+          "title": "Lidé: mužský, nebo ženský rod",
           "blocks": [
             {
               "type": "text",
-              "en": "Some nouns are the **same for both sexes** and only the article changes: *un / une élève, un / une collègue, un / une touriste, un / une enfant*. Others change the ending: *un étudiant / une étudiante*."
+              "cs": "Některá podstatná jména jsou **stejná pro obě pohlaví** a mění se jen člen: *un / une élève, un / une collègue, un / une touriste, un / une enfant*. Jiná mění koncovku: *un étudiant / une étudiante*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Mon collègue s'appelle Paul, ma collègue s'appelle Anna.",
-                  "en": "My (male) colleague is called Paul, my (female) colleague Anna."
+                  "cs": "Můj kolega se jmenuje Paul, moje kolegyně Anna."
                 },
                 {
                   "fr": "Un enfant et une enfant sont là.",
-                  "en": "A boy and a girl are here."
+                  "cs": "Je tu jeden kluk a jedna holka."
                 },
                 {
                   "fr": "Mon professeur est une femme.",
-                  "en": "My teacher is a woman. (professeur stays masculine in writing)"
+                  "cs": "Můj učitel je žena. (professeur zůstává v psaní mužského rodu)"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "fashion",
+                  "cs": "móda",
                   "wrong": "le mode",
                   "fr": "[[la]] mode"
                 },
                 {
-                  "en": "the post office",
+                  "cs": "pošta",
                   "wrong": "le poste",
                   "fr": "[[la]] poste"
                 },
                 {
-                  "en": "the tower",
+                  "cs": "věž",
                   "wrong": "le tour",
                   "fr": "[[la]] tour",
-                  "note": "*Le tour* is a trip or a turn."
+                  "note": "*Le tour* je výlet nebo kolo (otočka)."
                 }
               ]
             },
@@ -654,26 +654,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "La tour Eiffel est très haute.",
-                  "en": "The Eiffel Tower is very tall."
+                  "cs": "Eiffelova věž je hodně vysoká."
                 },
                 {
                   "fr": "Je fais le tour du lac.",
-                  "en": "I'm going around the lake."
+                  "cs": "Jdu kolem jezera."
                 },
                 {
                   "fr": "Tu vas à la poste ?",
-                  "en": "Are you going to the post office?"
+                  "cs": "Jdeš na poštu?"
                 },
                 {
                   "fr": "Il a une mauvaise mémoire.",
-                  "en": "He has a bad memory."
+                  "cs": "Má špatnou paměť."
                 }
               ]
             }
@@ -684,7 +684,7 @@
         {
           "id": "g-gender-meaning-change-01",
           "type": "build",
-          "en": "the Eiffel Tower",
+          "cs": "Eiffelova věž",
           "a": [
             "la tour Eiffel"
           ]
@@ -692,7 +692,7 @@
         {
           "id": "g-gender-meaning-change-02",
           "type": "build",
-          "en": "fashion",
+          "cs": "móda",
           "a": [
             "la mode"
           ]
@@ -700,7 +700,7 @@
         {
           "id": "g-gender-meaning-change-03",
           "type": "build",
-          "en": "the post office",
+          "cs": "pošta",
           "a": [
             "la poste"
           ]
@@ -708,7 +708,7 @@
         {
           "id": "g-gender-meaning-change-04",
           "type": "build",
-          "en": "the sail",
+          "cs": "plachta",
           "a": [
             "la voile"
           ]
@@ -716,7 +716,7 @@
         {
           "id": "g-gender-meaning-change-05",
           "type": "build",
-          "en": "the book",
+          "cs": "kniha",
           "a": [
             "le livre"
           ]
@@ -728,7 +728,7 @@
           "a": [
             "la"
           ],
-          "en": "I'm going to the post office."
+          "cs": "Jdu na poštu."
         },
         {
           "id": "g-gender-meaning-change-07",
@@ -737,7 +737,7 @@
           "a": [
             "une"
           ],
-          "en": "He has a good memory."
+          "cs": "Má dobrou paměť."
         },
         {
           "id": "g-gender-meaning-change-08",
@@ -746,13 +746,13 @@
           "a": [
             "le"
           ],
-          "en": "We're touring the town."
+          "cs": "Prohlížíme si město."
         }
       ]
     },
     {
       "id": "plural",
-      "title": "The plural",
+      "title": "Množné číslo",
       "fr": "le pluriel des noms",
       "level": "A1",
       "keywords": [
@@ -777,30 +777,30 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Most words take *-s* in the plural, and it is **not pronounced**. You tell it is plural mainly from the article: *le livre* × *les livres*."
+              "cs": "Většina slov dostává v množném čísle *-s* a to se **nevyslovuje**. Množné číslo poznáš hlavně podle členu: *le livre* × *les livres*."
             },
             {
               "type": "table",
               "head": [
-                "rule",
-                "singular",
-                "plural"
+                "pravidlo",
+                "jednotné číslo",
+                "množné číslo"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "most words: + -s",
+                  "většina slov: + -s",
                   "un livre",
                   "des livres"
                 ],
                 [
-                  "-s, -x, -z: no change",
+                  "-s, -x, -z: beze změny",
                   "un bus, une voix, un nez",
                   "des bus, des voix, des nez"
                 ],
@@ -815,7 +815,7 @@
                   "des animaux, des journaux"
                 ],
                 [
-                  "-ou: + -s (a few with -x)",
+                  "-ou: + -s (pár slov s -x)",
                   "un trou, un bijou",
                   "des trous, des bijoux"
                 ]
@@ -824,14 +824,14 @@
           ]
         },
         {
-          "title": "Irregular",
+          "title": "Nepravidelné",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "singular",
-                "plural",
-                "English"
+                "jednotné číslo",
+                "množné číslo",
+                "česky"
               ],
               "textCols": [
                 2
@@ -840,33 +840,33 @@
                 [
                   "un œil",
                   "des yeux",
-                  "eye, eyes"
+                  "oko, oči"
                 ],
                 [
                   "un travail",
                   "des travaux",
-                  "job, (road)works"
+                  "práce, (stavební) práce"
                 ],
                 [
                   "madame",
                   "mesdames",
-                  "madam, ladies"
+                  "paní, dámy"
                 ],
                 [
                   "monsieur",
                   "messieurs",
-                  "sir, gentlemen"
+                  "pan, pánové"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Pronunciation",
+          "title": "Výslovnost",
           "blocks": [
             {
               "type": "tip",
-              "en": "Before a vowel the *-s* of the article is pronounced as [z]: *les‿amis, des‿enfants*."
+              "cs": "Před samohláskou se *-s* členu vyslovuje jako [z]: *les‿amis, des‿enfants*."
             },
             {
               "type": "see",
@@ -877,30 +877,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'ai deux frères.",
-                  "en": "I have two brothers."
+                  "cs": "Mám dva bratry."
                 },
                 {
                   "fr": "Les jeux vidéo sont chers.",
-                  "en": "Video games are expensive."
+                  "cs": "Videohry jsou drahé."
                 },
                 {
                   "fr": "Il y a des animaux au zoo.",
-                  "en": "There are animals at the zoo."
+                  "cs": "V zoo jsou zvířata."
                 },
                 {
                   "fr": "Mes yeux sont bleus.",
-                  "en": "My eyes are blue."
+                  "cs": "Mám modré oči."
                 },
                 {
                   "fr": "Les journaux sont sur la table.",
-                  "en": "The newspapers are on the table."
+                  "cs": "Noviny jsou na stole."
                 }
               ]
             }
@@ -911,7 +911,7 @@
         {
           "id": "g-plural-01",
           "type": "transform",
-          "task_en": "Make it plural",
+          "task_cs": "Převeď do množného čísla",
           "fr": "le livre",
           "a": [
             "les livres"
@@ -920,7 +920,7 @@
         {
           "id": "g-plural-02",
           "type": "transform",
-          "task_en": "Make it plural",
+          "task_cs": "Převeď do množného čísla",
           "fr": "un animal",
           "a": [
             "des animaux"
@@ -929,7 +929,7 @@
         {
           "id": "g-plural-03",
           "type": "transform",
-          "task_en": "Make it plural",
+          "task_cs": "Převeď do množného čísla",
           "fr": "le jeu",
           "a": [
             "les jeux"
@@ -938,7 +938,7 @@
         {
           "id": "g-plural-04",
           "type": "transform",
-          "task_en": "Make it plural",
+          "task_cs": "Převeď do množného čísla",
           "fr": "un œil",
           "a": [
             "des yeux"
@@ -947,7 +947,7 @@
         {
           "id": "g-plural-05",
           "type": "transform",
-          "task_en": "Make it plural",
+          "task_cs": "Převeď do množného čísla",
           "fr": "le gâteau",
           "a": [
             "les gâteaux"
@@ -957,7 +957,7 @@
     },
     {
       "id": "plural-special",
-      "title": "Special plurals: -al, -eau, -ou, les gens, les cheveux",
+      "title": "Zvláštní množná čísla: -al, -eau, -ou, les gens, les cheveux",
       "fr": "les pluriels particuliers",
       "level": "A2",
       "keywords": [
@@ -983,18 +983,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Most plurals just add **-s**. These are the exceptions you need. **-al → -aux**, **-eau, -eu → -x**, a few **-ou → -x**, nouns already ending in **-s, -x, -z** stay the same."
+              "cs": "Většina množných čísel jen přidává **-s**. Tohle jsou výjimky, které potřebuješ. **-al → -aux**, **-eau, -eu → -x**, pár slov **-ou → -x**, podstatná jména zakončená na **-s, -x, -z** zůstávají stejná."
             },
             {
               "type": "table",
               "head": [
-                "singular",
-                "plural",
-                "rule"
+                "jednotné číslo",
+                "množné číslo",
+                "pravidlo"
               ],
               "rows": [
                 [
@@ -1020,32 +1020,32 @@
                 [
                   "un bijou",
                   "des bijoux",
-                  "7 nouns in -ou take -x: bijou, caillou, chou, genou, hibou, joujou, pou"
+                  "7 podstatných jmen na -ou má -x: bijou, caillou, chou, genou, hibou, joujou, pou"
                 ],
                 [
                   "un pays",
                   "des pays",
-                  "-s stays"
+                  "-s zůstává"
                 ],
                 [
                   "un prix",
                   "des prix",
-                  "-x stays"
+                  "-x zůstává"
                 ],
                 [
                   "un nez",
                   "des nez",
-                  "-z stays"
+                  "-z zůstává"
                 ],
                 [
                   "un œil",
                   "des yeux",
-                  "irregular"
+                  "nepravidelné"
                 ],
                 [
                   "madame",
                   "mesdames",
-                  "irregular"
+                  "nepravidelné"
                 ]
               ],
               "textCols": [
@@ -1055,39 +1055,39 @@
           ]
         },
         {
-          "title": "Exceptions",
+          "title": "Výjimky",
           "blocks": [
             {
               "type": "text",
-              "en": "A few nouns in **-al** take **-s**: **des bals, des carnavals, des festivals, des récitals**. A few nouns in **-eau** with **-s**: **des landaus**. And **-ail → -aux**: *un travail → des travaux*, *un vitrail → des vitraux*."
+              "cs": "Pár podstatných jmen na **-al** má **-s**: **des bals, des carnavals, des festivals, des récitals**. Pár na **-eau** s **-s**: **des landaus**. A **-ail → -aux**: *un travail → des travaux*, *un vitrail → des vitraux*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il y a trois festivals cet été.",
-                  "en": "There are three festivals this summer."
+                  "cs": "Letos v létě jsou tři festivaly."
                 },
                 {
                   "fr": "Les travaux durent deux mois.",
-                  "en": "The roadworks last two months."
+                  "cs": "Stavební práce trvají dva měsíce."
                 },
                 {
                   "fr": "Ces bijoux sont chers.",
-                  "en": "These pieces of jewellery are expensive."
+                  "cs": "Tyhle šperky jsou drahé."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Singular in French, plural in English (and the other way round)",
+          "title": "Jednotné a množné číslo jinak než v češtině",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "rows": [
                 [
@@ -1096,7 +1096,7 @@
                 ],
                 [
                   "les gens (plural)",
-                  "people"
+                  "lidé"
                 ],
                 [
                   "les vacances (plural)",
@@ -1104,7 +1104,7 @@
                 ],
                 [
                   "les informations / les nouvelles",
-                  "the news"
+                  "zprávy (noviny)"
                 ],
                 [
                   "les mathématiques / les maths",
@@ -1128,17 +1128,17 @@
               "type": "compare",
               "items": [
                 {
-                  "en": "My hair is long.",
+                  "cs": "Mám dlouhé vlasy.",
                   "wrong": "Mon cheveu est long.",
                   "fr": "Mes [[cheveux]] sont longs."
                 },
                 {
-                  "en": "I'm on holiday.",
+                  "cs": "Mám prázdniny.",
                   "wrong": "Je suis en vacance.",
                   "fr": "Je suis en [[vacances]]."
                 },
                 {
-                  "en": "These trousers are too big.",
+                  "cs": "Tyhle kalhoty jsou moc velké.",
                   "wrong": "Ces pantalons sont trop grand.",
                   "fr": "Ce [[pantalon]] est trop grand."
                 }
@@ -1147,52 +1147,52 @@
           ]
         },
         {
-          "title": "Names and compound nouns",
+          "title": "Jména a složená podstatná jména",
           "blocks": [
             {
               "type": "text",
-              "en": "**Surnames do not take -s**: *les Dupont, les Martin*. **Compound nouns** follow their own rules (*des grands-mères, des porte-clés*). When in doubt use the dictionary."
+              "cs": "**Příjmení nedostávají -s**: *les Dupont, les Martin*. **Složená podstatná jména** mají vlastní pravidla (*des grands-mères, des porte-clés*). Když si nejsi jistý(á), podívej se do slovníku."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Les Martin habitent à côté.",
-                  "en": "The Martins live next door."
+                  "cs": "Vedle bydlí Martinovi."
                 },
                 {
                   "fr": "Mes grands-parents arrivent demain.",
-                  "en": "My grandparents arrive tomorrow."
+                  "cs": "Babička a děda přijedou zítra."
                 },
                 {
                   "fr": "Des tire-bouchons, des porte-monnaie.",
-                  "en": "Corkscrews, purses."
+                  "cs": "Vývrtky, peněženky."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Les chevaux courent dans le pré.",
-                  "en": "The horses are running in the field."
+                  "cs": "Koně běhají po poli."
                 },
                 {
                   "fr": "J'ai lu deux journaux ce matin.",
-                  "en": "I read two newspapers this morning."
+                  "cs": "Dnes ráno jsem přečetl dvoje noviny."
                 },
                 {
                   "fr": "Les gens sont gentils ici.",
-                  "en": "People are kind here."
+                  "cs": "Lidé jsou tady milí."
                 },
                 {
                   "fr": "Ses yeux sont bleus.",
-                  "en": "His eyes are blue."
+                  "cs": "Má modré oči."
                 }
               ]
             }
@@ -1203,7 +1203,7 @@
         {
           "id": "g-plural-special-01",
           "type": "build",
-          "en": "horses",
+          "cs": "koně",
           "a": [
             "des chevaux",
             "les chevaux"
@@ -1212,7 +1212,7 @@
         {
           "id": "g-plural-special-02",
           "type": "build",
-          "en": "newspapers",
+          "cs": "noviny",
           "a": [
             "des journaux",
             "les journaux"
@@ -1221,7 +1221,7 @@
         {
           "id": "g-plural-special-03",
           "type": "build",
-          "en": "cakes",
+          "cs": "dorty",
           "a": [
             "des gâteaux",
             "les gâteaux"
@@ -1230,7 +1230,7 @@
         {
           "id": "g-plural-special-04",
           "type": "build",
-          "en": "jewels",
+          "cs": "šperky",
           "a": [
             "des bijoux",
             "les bijoux"
@@ -1239,7 +1239,7 @@
         {
           "id": "g-plural-special-05",
           "type": "build",
-          "en": "eyes",
+          "cs": "oči",
           "a": [
             "des yeux",
             "les yeux"
@@ -1253,7 +1253,7 @@
             "festivals"
           ],
           "hint": "festival",
-          "en": "There are three festivals in town."
+          "cs": "Ve městě jsou tři festivaly."
         },
         {
           "id": "g-plural-special-07",
@@ -1263,7 +1263,7 @@
             "cheveux"
           ],
           "hint": "cheveu",
-          "en": "Her hair is long."
+          "cs": "Má dlouhé vlasy."
         },
         {
           "id": "g-plural-special-08",
@@ -1272,12 +1272,12 @@
           "a": [
             "gens"
           ],
-          "en": "The people are kind."
+          "cs": "Lidé jsou milí."
         },
         {
           "id": "g-plural-special-09",
           "type": "transform",
-          "task_en": "Make it plural",
+          "task_cs": "Převeď do množného čísla",
           "fr": "Le journal est nouveau.",
           "a": [
             "Les journaux sont nouveaux."
@@ -1286,7 +1286,7 @@
         {
           "id": "g-plural-special-10",
           "type": "transform",
-          "task_en": "Make it plural",
+          "task_cs": "Převeď do množného čísla",
           "fr": "Le jeu est amusant.",
           "a": [
             "Les jeux sont amusants."
@@ -1296,7 +1296,7 @@
     },
     {
       "id": "article-definite",
-      "title": "Definite article: le, la, l', les",
+      "title": "Určitý člen: le, la, l', les",
       "fr": "l'article défini",
       "level": "A1",
       "keywords": [
@@ -1320,26 +1320,26 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "singular",
-                "plural"
+                "jednotné číslo",
+                "množné číslo"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "masculine",
+                  "mužský rod",
                   "le (l')",
                   "les"
                 ],
                 [
-                  "feminine",
+                  "ženský rod",
                   "la (l')",
                   "les"
                 ]
@@ -1347,19 +1347,19 @@
             },
             {
               "type": "text",
-              "en": "Czech has no articles, French puts one before almost every noun. The definite article means \"the\": something **known, unique or general**."
+              "cs": "Čeština členy nemá, francouzština dává člen skoro před každé podstatné jméno. Určitý člen odpovídá \"ten, ta, to\": něco **známého, jedinečného nebo obecného**."
             }
           ]
         },
         {
-          "title": "When",
+          "title": "Kdy",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "when",
-                "example",
-                "English"
+                "kdy",
+                "příklad",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -1367,34 +1367,34 @@
               ],
               "rows": [
                 [
-                  "a specific, known thing",
+                  "konkrétní, známá věc",
                   "Le prof est sympa.",
-                  "The teacher is nice."
+                  "Ten učitel je milý."
                 ],
                 [
-                  "a unique thing",
+                  "jedinečná věc",
                   "le soleil, la France",
-                  "the sun, France"
+                  "slunce, Francie"
                 ],
                 [
-                  "in general, a whole kind",
+                  "obecně, celý druh",
                   "Les chats sont mignons.",
-                  "Cats are cute."
+                  "Kočky jsou roztomilé."
                 ],
                 [
-                  "likes and dislikes",
+                  "co mám a nemám rád",
                   "J'aime le chocolat.",
-                  "I like chocolate."
+                  "Mám rád čokoládu."
                 ],
                 [
-                  "a day of the week, regularly",
+                  "den v týdnu, pravidelně",
                   "le lundi",
-                  "on Mondays"
+                  "v pondělí (každé)"
                 ],
                 [
-                  "parts of the body",
+                  "části těla",
                   "Il a les yeux bleus.",
-                  "He has blue eyes."
+                  "Má modré oči."
                 ]
               ]
             }
@@ -1405,24 +1405,24 @@
           "blocks": [
             {
               "type": "text",
-              "en": "Before a vowel and a silent *h*, both *le* and *la* shorten to *l'*: *l'ami, l'école, l'hôtel*."
+              "cs": "Před samohláskou a němým *h* se *le* i *la* zkracují na *l'*: *l'ami, l'école, l'hôtel*."
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I like football.",
+                  "cs": "Mám rád fotbal.",
                   "wrong": "J'aime foot.",
                   "fr": "J'aime [[le]] foot.",
-                  "note": "After *aimer, adorer, détester, préférer* there is always a definite article."
+                  "note": "Po *aimer, adorer, détester, préférer* je vždycky určitý člen."
                 },
                 {
-                  "en": "France is beautiful.",
+                  "cs": "Francie je krásná.",
                   "wrong": "France est belle.",
                   "fr": "[[La]] France est belle."
                 }
@@ -1431,26 +1431,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "La mer est belle.",
-                  "en": "The sea is beautiful."
+                  "cs": "Moře je krásné."
                 },
                 {
                   "fr": "J'adore les jeux vidéo.",
-                  "en": "I love video games."
+                  "cs": "Miluju videohry."
                 },
                 {
                   "fr": "Le samedi, je joue au basket.",
-                  "en": "On Saturdays I play basketball."
+                  "cs": "V sobotu hraju basketbal."
                 },
                 {
                   "fr": "L'école commence à huit heures.",
-                  "en": "School starts at eight."
+                  "cs": "Škola začíná v osm."
                 }
               ]
             }
@@ -1465,7 +1465,7 @@
           "a": [
             "la"
           ],
-          "en": "I like music."
+          "cs": "Mám rád hudbu."
         },
         {
           "id": "g-article-definite-02",
@@ -1474,7 +1474,7 @@
           "a": [
             "L'"
           ],
-          "en": "The hotel is big."
+          "cs": "Ten hotel je velký."
         },
         {
           "id": "g-article-definite-03",
@@ -1483,12 +1483,12 @@
           "a": [
             "les"
           ],
-          "en": "I hate spinach."
+          "cs": "Nesnáším špenát."
         },
         {
           "id": "g-article-definite-04",
           "type": "build",
-          "en": "I like football.",
+          "cs": "Mám rád fotbal.",
           "a": [
             "J'aime le {foot|football}.",
             "J'adore le {foot|football}."
@@ -1498,7 +1498,7 @@
     },
     {
       "id": "definite-uses",
-      "title": "More uses of le, la, les",
+      "title": "Další použití le, la, les",
       "fr": "les emplois de l'article défini",
       "level": "A1",
       "levelTo": "A2",
@@ -1526,59 +1526,59 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The definite article is used where Czech and English have **no article**. The main cases: **general statements**, **likes and dislikes**, **days (habit)**, **body parts**, **languages and school subjects**, **prices per unit**, and **countries**."
+              "cs": "Určitý člen se používá tam, kde čeština **nic nemá**. Hlavní případy: **obecná tvrzení**, **co mám a nemám rád**, **dny (zvyk)**, **části těla**, **jazyky a školní předměty**, **ceny za jednotku** a **země**."
             },
             {
               "type": "table",
               "head": [
-                "use",
-                "example",
-                "English"
+                "použití",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
                   "general / likes",
                   "J'aime le café. Les chats sont mignons.",
-                  "I like coffee. Cats are cute."
+                  "Mám rád kávu. Kočky jsou roztomilé."
                 ],
                 [
-                  "habit with a day",
+                  "zvyk se dnem",
                   "Le lundi, j'ai sport.",
-                  "On Mondays I have PE."
+                  "V pondělí mám tělocvik."
                 ],
                 [
                   "body parts",
                   "Je me lave les mains. J'ai mal à la tête.",
-                  "I wash my hands. I have a headache."
+                  "Myju si ruce. Bolí mě hlava."
                 ],
                 [
-                  "languages as a subject",
+                  "jazyky jako předmět ve škole",
                   "Le français est difficile.",
-                  "French is difficult."
+                  "Francouzština je těžká."
                 ],
                 [
                   "school subjects",
                   "J'adore les maths.",
-                  "I love maths."
+                  "Miluju matiku."
                 ],
                 [
                   "prices per unit",
                   "Ça coûte trois euros le kilo.",
-                  "It costs three euros a kilo."
+                  "Stojí to tři eura za kilo."
                 ],
                 [
                   "countries",
                   "La France, le Canada, les États-Unis.",
-                  "France, Canada, the US."
+                  "Francie, Kanada, USA."
                 ],
                 [
                   "titles",
                   "Le docteur Martin, la reine Élisabeth.",
-                  "Doctor Martin, Queen Elisabeth."
+                  "Doktor Martin, královna Alžběta."
                 ]
               ],
               "textCols": [
@@ -1588,22 +1588,22 @@
           ]
         },
         {
-          "title": "Likes, dislikes and generalisations",
+          "title": "Co mám a nemám rád, obecná tvrzení",
           "blocks": [
             {
               "type": "text",
-              "en": "After *aimer, adorer, détester, préférer* and for any general statement, use **le, la, les**, not *du / de la*. Compare: *J'aime le café* (in general) / *Je bois du café* (some)."
+              "cs": "Po *aimer, adorer, détester, préférer* a u každého obecného tvrzení použij **le, la, les**, ne *du / de la*. Porovnej: *J'aime le café* (obecně) / *Je bois du café* (nějakou)."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I love chocolate.",
+                  "cs": "Miluju čokoládu.",
                   "wrong": "J'adore du chocolat.",
                   "fr": "J'adore [[le]] chocolat."
                 },
                 {
-                  "en": "Cats are cute.",
+                  "cs": "Kočky jsou roztomilé.",
                   "wrong": "Chats sont mignons.",
                   "fr": "[[Les]] chats sont mignons."
                 }
@@ -1612,53 +1612,53 @@
           ]
         },
         {
-          "title": "Habit with a day, and body parts",
+          "title": "Zvyk se dnem a části těla",
           "blocks": [
             {
               "type": "text",
-              "en": "**Le lundi** = every Monday; **lundi** (no article) = this coming or last Monday. For the body use the article and **not the possessive** when the owner is clear from the verb: *Il lève la main, elle se brosse les dents.*"
+              "cs": "**Le lundi** = každé pondělí; **lundi** (bez členu) = toto nebo minulé pondělí. U těla použij člen a **ne přivlastňovací zájmeno**, když je ze slovesa jasné, čí to je: *Il lève la main, elle se brosse les dents.*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le samedi, je dors tard.",
-                  "en": "On Saturdays I sleep late."
+                  "cs": "V sobotu spím dlouho."
                 },
                 {
                   "fr": "Lundi, j'ai un examen.",
-                  "en": "On Monday I have an exam."
+                  "cs": "V pondělí mám zkoušku."
                 },
                 {
                   "fr": "Elle a les yeux bleus.",
-                  "en": "She has blue eyes."
+                  "cs": "Má modré oči."
                 },
                 {
                   "fr": "Il s'est cassé la jambe.",
-                  "en": "He broke his leg."
+                  "cs": "Zlomil si nohu."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I love music.",
+                  "cs": "Miluju hudbu.",
                   "wrong": "J'adore musique.",
                   "fr": "J'adore [[la]] musique."
                 },
                 {
-                  "en": "He broke his arm.",
+                  "cs": "Zlomil si ruku.",
                   "wrong": "Il a cassé son bras.",
                   "fr": "Il s'est cassé [[le]] bras."
                 },
                 {
-                  "en": "The price is 5 euros a kilo.",
+                  "cs": "Cena je 5 eur za kilo.",
                   "wrong": "Cinq euros un kilo.",
                   "fr": "Cinq euros [[le]] kilo."
                 }
@@ -1676,26 +1676,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Les Français adorent le fromage.",
-                  "en": "The French love cheese."
+                  "cs": "Francouzi milují sýr."
                 },
                 {
                   "fr": "Je déteste le matin.",
-                  "en": "I hate the morning."
+                  "cs": "Nesnáším rána."
                 },
                 {
                   "fr": "Elle parle bien le français.",
-                  "en": "She speaks French well."
+                  "cs": "Mluví dobře francouzsky."
                 },
                 {
                   "fr": "Les tomates coûtent deux euros le kilo.",
-                  "en": "Tomatoes cost two euros a kilo."
+                  "cs": "Rajčata stojí dvě eura za kilo."
                 }
               ]
             }
@@ -1706,7 +1706,7 @@
         {
           "id": "g-definite-uses-01",
           "type": "build",
-          "en": "I love chocolate.",
+          "cs": "Miluju čokoládu.",
           "a": [
             "J'adore le chocolat.",
             "J'aime le chocolat."
@@ -1715,7 +1715,7 @@
         {
           "id": "g-definite-uses-02",
           "type": "build",
-          "en": "On Mondays I have PE.",
+          "cs": "V pondělí mám tělocvik.",
           "a": [
             "Le lundi, j'ai sport.",
             "Le lundi, j'ai EPS."
@@ -1724,7 +1724,7 @@
         {
           "id": "g-definite-uses-03",
           "type": "build",
-          "en": "She washes her hands.",
+          "cs": "Myje si ruce.",
           "a": [
             "Elle se lave les mains."
           ]
@@ -1732,7 +1732,7 @@
         {
           "id": "g-definite-uses-04",
           "type": "build",
-          "en": "He broke his leg.",
+          "cs": "Zlomil si nohu.",
           "a": [
             "Il s'est cassé la jambe."
           ]
@@ -1740,7 +1740,7 @@
         {
           "id": "g-definite-uses-05",
           "type": "build",
-          "en": "It costs three euros a kilo.",
+          "cs": "Stojí to tři eura za kilo.",
           "a": [
             "Ça coûte trois euros le kilo.",
             "C'est trois euros le kilo."
@@ -1753,7 +1753,7 @@
           "a": [
             "la"
           ],
-          "en": "I love music."
+          "cs": "Miluju hudbu."
         },
         {
           "id": "g-definite-uses-07",
@@ -1762,7 +1762,7 @@
           "a": [
             "les"
           ],
-          "en": "He has green eyes."
+          "cs": "Má zelené oči."
         },
         {
           "id": "g-definite-uses-08",
@@ -1771,13 +1771,13 @@
           "a": [
             "à la"
           ],
-          "en": "I have a headache."
+          "cs": "Bolí mě hlava."
         }
       ]
     },
     {
       "id": "article-indefinite",
-      "title": "Indefinite article: un, une, des",
+      "title": "Neurčitý člen: un, une, des",
       "fr": "l'article indéfini",
       "level": "A1",
       "keywords": [
@@ -1801,26 +1801,26 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "singular",
-                "plural"
+                "jednotné číslo",
+                "množné číslo"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "masculine",
+                  "mužský rod",
                   "un",
                   "des"
                 ],
                 [
-                  "feminine",
+                  "ženský rod",
                   "une",
                   "des"
                 ]
@@ -1828,7 +1828,7 @@
             },
             {
               "type": "text",
-              "en": "The indefinite article means \"a, an, one\". Use it when you mention something **for the first time** or when it is **one of many**."
+              "cs": "Neurčitý člen odpovídá \"nějaký, jeden\". Použij ho, když o něčem mluvíš **poprvé** nebo když je to **jedno z mnoha**."
             }
           ]
         },
@@ -1837,13 +1837,13 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Des* is the plural of *un, une*. English often leaves it out (\"I have friends in Paris\"), but French cannot."
+              "cs": "*Des* je množné číslo od *un, une*. Čeština ho nemá (\"Mám kamarády v Paříži\"), ale francouzština ho vynechat nemůže."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I have friends in Paris.",
+                  "cs": "Mám kamarády v Paříži.",
                   "wrong": "J'ai amis à Paris.",
                   "fr": "J'ai [[des]] amis à Paris."
                 }
@@ -1852,41 +1852,41 @@
           ]
         },
         {
-          "title": "Un or le?",
+          "title": "Un, nebo le?",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I have a dog. The dog is called Max.",
+                  "cs": "Mám psa. Ten pes se jmenuje Max.",
                   "fr": "J'ai [[un]] chien. [[Le]] chien s'appelle Max.",
-                  "note": "First *un*, then the dog is known: *le*."
+                  "note": "Nejdřív *un*, pak je pes známý: *le*."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il y a un chat dans le jardin.",
-                  "en": "There is a cat in the garden."
+                  "cs": "Na zahradě je kočka."
                 },
                 {
                   "fr": "C'est une bonne idée.",
-                  "en": "That's a good idea."
+                  "cs": "To je dobrý nápad."
                 },
                 {
                   "fr": "J'ai des baskets neuves.",
-                  "en": "I have new trainers."
+                  "cs": "Mám nové tenisky."
                 },
                 {
                   "fr": "Tu as un stylo ?",
-                  "en": "Do you have a pen?"
+                  "cs": "Máš propisku?"
                 }
               ]
             }
@@ -1901,7 +1901,7 @@
           "a": [
             "une"
           ],
-          "en": "I have a sister."
+          "cs": "Mám sestru."
         },
         {
           "id": "g-article-indefinite-02",
@@ -1910,7 +1910,7 @@
           "a": [
             "des"
           ],
-          "en": "There are books on the table."
+          "cs": "Na stole jsou knihy."
         },
         {
           "id": "g-article-indefinite-03",
@@ -1919,12 +1919,12 @@
           "a": [
             "un"
           ],
-          "en": "He's a friend of Paul's."
+          "cs": "Je to Paulův kamarád."
         },
         {
           "id": "g-article-indefinite-04",
           "type": "build",
-          "en": "I have a dog and a cat.",
+          "cs": "Mám psa a kočku.",
           "a": [
             "J'ai un chien et un chat."
           ]
@@ -1933,7 +1933,7 @@
     },
     {
       "id": "des-to-de",
-      "title": "Des or de? The article before an adjective",
+      "title": "Des, nebo de? Člen před přídavným jménem",
       "fr": "de devant un adjectif",
       "level": "A2",
       "keywords": [
@@ -1955,52 +1955,52 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The plural of **un / une** is **des**. But when a **plural adjective stands before the noun** (*beau, bon, grand, petit, jeune, vieux, autre...*), **des becomes de** (or **d'** before a vowel): *de beaux livres, d'autres idées*. After the noun, nothing changes: *des livres intéressants*."
+              "cs": "Množné číslo od **un / une** je **des**. Když ale **před podstatným jménem stojí přídavné jméno v množném čísle** (*beau, bon, grand, petit, jeune, vieux, autre...*), **des se mění na de** (před samohláskou **d'**): *de beaux livres, d'autres idées*. Za podstatným jménem se nic nemění: *des livres intéressants*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "beautiful books",
+                  "cs": "krásné knihy",
                   "wrong": "des beaux livres",
                   "fr": "[[de]] beaux livres"
                 },
                 {
-                  "en": "good ideas",
+                  "cs": "dobré nápady",
                   "wrong": "des bonnes idées",
                   "fr": "[[de]] bonnes idées"
                 },
                 {
-                  "en": "other solutions",
+                  "cs": "jiná řešení",
                   "wrong": "des autres solutions",
                   "fr": "[[d']]autres solutions"
                 },
                 {
-                  "en": "interesting books",
+                  "cs": "zajímavé knihy",
                   "wrong": "de livres intéressants",
                   "fr": "[[des]] livres intéressants",
-                  "note": "The adjective comes after, so *des* stays."
+                  "note": "Přídavné jméno stojí za podstatným jménem, takže *des* zůstává."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Why",
+          "title": "Proč",
           "blocks": [
             {
               "type": "text",
-              "en": "It is a case of **simplification**: *de + adjective + noun* behaves like *de* after a quantity word. In everyday speech many people still say *des beaux livres*, but in careful French you write *de beaux livres*."
+              "cs": "Jde o **zjednodušení**: *de + přídavné jméno + podstatné jméno* se chová jako *de* po výrazu množství. V běžné řeči spousta lidí pořád říká *des beaux livres*, ale ve spisovné francouzštině se píše *de beaux livres*."
             },
             {
               "type": "table",
               "head": [
-                "adjective before",
-                "adjective after"
+                "přídavné jméno před",
+                "přídavné jméno za"
               ],
               "rows": [
                 [
@@ -2024,61 +2024,61 @@
           ]
         },
         {
-          "title": "Not with a compound noun",
+          "title": "Ne u složeného podstatného jména",
           "blocks": [
             {
               "type": "text",
-              "en": "When the adjective is part of a **fixed compound noun**, *des* stays: *des jeunes gens, des petits pois, des petits-enfants, des grands-parents, des petits déjeuners*."
+              "cs": "Když je přídavné jméno součástí **pevného složeného podstatného jména**, *des* zůstává: *des jeunes gens, des petits pois, des petits-enfants, des grands-parents, des petits déjeuners*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Nous mangeons des petits pois.",
-                  "en": "We eat peas."
+                  "cs": "Jíme hrášek."
                 },
                 {
                   "fr": "Mes grands-parents habitent ici.",
-                  "en": "My grandparents live here."
+                  "cs": "Babička a děda bydlí tady."
                 },
                 {
                   "fr": "J'ai de bons amis.",
-                  "en": "I have good friends."
+                  "cs": "Mám dobré kamarády."
                 }
               ]
             }
           ]
         },
         {
-          "title": "In the negative",
+          "title": "V záporu",
           "blocks": [
             {
               "type": "text",
-              "en": "After a negation *des* becomes *de* anyway (*Je n'ai pas d'amis*), so the adjective makes no difference: *Je n'ai pas de bons amis.*"
+              "cs": "Po záporu se *des* mění na *de* tak jako tak (*Je n'ai pas d'amis*), takže na přídavném jménu nezáleží: *Je n'ai pas de bons amis.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il a de belles chaussures.",
-                  "en": "He has beautiful shoes."
+                  "cs": "Má krásné boty."
                 },
                 {
                   "fr": "Nous avons eu de bonnes notes.",
-                  "en": "We got good marks."
+                  "cs": "Dostali jsme dobré známky."
                 },
                 {
                   "fr": "Il y a d'autres possibilités.",
-                  "en": "There are other possibilities."
+                  "cs": "Jsou i jiné možnosti."
                 },
                 {
                   "fr": "Elle a des chaussures neuves.",
-                  "en": "She has new shoes."
+                  "cs": "Má nové boty."
                 }
               ]
             }
@@ -2089,7 +2089,7 @@
         {
           "id": "g-des-to-de-01",
           "type": "build",
-          "en": "beautiful shoes",
+          "cs": "krásné boty",
           "a": [
             "de belles chaussures"
           ]
@@ -2097,7 +2097,7 @@
         {
           "id": "g-des-to-de-02",
           "type": "build",
-          "en": "good friends",
+          "cs": "dobří kamarádi",
           "a": [
             "de bons amis"
           ]
@@ -2105,7 +2105,7 @@
         {
           "id": "g-des-to-de-03",
           "type": "build",
-          "en": "other ideas",
+          "cs": "jiné nápady",
           "a": [
             "d'autres idées"
           ]
@@ -2117,7 +2117,7 @@
           "a": [
             "de"
           ],
-          "en": "She has beautiful flowers."
+          "cs": "Má krásné květiny."
         },
         {
           "id": "g-des-to-de-05",
@@ -2126,7 +2126,7 @@
           "a": [
             "des"
           ],
-          "en": "He has black cats."
+          "cs": "Má černé kočky."
         },
         {
           "id": "g-des-to-de-06",
@@ -2135,12 +2135,12 @@
           "a": [
             "de"
           ],
-          "en": "They have good marks."
+          "cs": "Mají dobré známky."
         },
         {
           "id": "g-des-to-de-07",
           "type": "transform",
-          "task_en": "Put the adjective before the noun",
+          "task_cs": "Dej přídavné jméno před podstatné jméno",
           "fr": "Elle a des fleurs belles.",
           "a": [
             "Elle a de belles fleurs."
@@ -2150,7 +2150,7 @@
     },
     {
       "id": "partitive",
-      "title": "Partitive article: du, de la, de l'",
+      "title": "Dělivý člen: du, de la, de l'",
       "fr": "l'article partitif",
       "level": "A1",
       "keywords": [
@@ -2176,36 +2176,36 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "form",
-                "example"
+                "tvar",
+                "příklad"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "masculine",
+                  "mužský rod",
                   "du",
                   "du pain"
                 ],
                 [
-                  "feminine",
+                  "ženský rod",
                   "de la",
                   "de la confiture"
                 ],
                 [
-                  "before a vowel",
+                  "před samohláskou",
                   "de l'",
                   "de l'eau"
                 ],
                 [
-                  "plural",
+                  "množné číslo",
                   "des",
                   "des pâtes"
                 ]
@@ -2213,66 +2213,66 @@
             },
             {
               "type": "text",
-              "en": "The partitive article goes before things you do **not count** but **measure**: some bread, some water. English often leaves it out or says \"some\"."
+              "cs": "Dělivý člen stojí před věcmi, které **nepočítáš**, ale **odměřuješ**: (nějaký) chleba, (nějaká) voda. Čeština ho nemá, nanejvýš řekne \"trochu\"."
             }
           ]
         },
         {
-          "title": "Le or du?",
+          "title": "Le, nebo du?",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I like bread. (in general)",
+                  "cs": "Mám rád chleba. (obecně)",
                   "fr": "J'aime [[le]] pain."
                 },
                 {
-                  "en": "I'm eating bread. (some)",
+                  "cs": "Jím chleba. (nějaký)",
                   "fr": "Je mange [[du]] pain."
                 }
               ]
             },
             {
               "type": "tip",
-              "en": "After *aimer, adorer, détester, préférer* it is *le, la, les*. After *manger, boire, acheter, vouloir, il y a* it is usually *du, de la, des*."
+              "cs": "Po *aimer, adorer, détester, préférer* je *le, la, les*. Po *manger, boire, acheter, vouloir, il y a* většinou *du, de la, des*."
             }
           ]
         },
         {
-          "title": "Not just food",
+          "title": "Nejen jídlo",
           "blocks": [
             {
               "type": "text",
-              "en": "The partitive article is also used with abstract things and activities: *faire du sport, jouer de la batterie, avoir de la chance* (to be lucky), *il y a du vent* (it's windy)."
+              "cs": "Dělivý člen se používá i u abstraktních věcí a činností: *faire du sport, jouer de la batterie, avoir de la chance* (mít štěstí), *il y a du vent* (fouká vítr)."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je bois du lait le matin.",
-                  "en": "I drink milk in the morning."
+                  "cs": "Ráno piju mléko."
                 },
                 {
                   "fr": "Tu veux de l'eau ?",
-                  "en": "Do you want some water?"
+                  "cs": "Chceš vodu?"
                 },
                 {
                   "fr": "On mange de la soupe ce soir.",
-                  "en": "We're having soup tonight."
+                  "cs": "Dnes večer máme polévku."
                 },
                 {
                   "fr": "Il faut du courage.",
-                  "en": "It takes courage."
+                  "cs": "Chce to odvahu."
                 },
                 {
                   "fr": "J'achète des fruits.",
-                  "en": "I'm buying fruit."
+                  "cs": "Kupuju ovoce."
                 }
               ]
             }
@@ -2287,7 +2287,7 @@
           "a": [
             "du"
           ],
-          "en": "I'm eating cheese."
+          "cs": "Jím sýr."
         },
         {
           "id": "g-partitive-02",
@@ -2296,7 +2296,7 @@
           "a": [
             "de l'"
           ],
-          "en": "Are you drinking water?"
+          "cs": "Piješ vodu?"
         },
         {
           "id": "g-partitive-03",
@@ -2305,7 +2305,7 @@
           "a": [
             "de la"
           ],
-          "en": "She's buying meat."
+          "cs": "Kupuje maso."
         },
         {
           "id": "g-partitive-04",
@@ -2314,12 +2314,12 @@
           "a": [
             "le"
           ],
-          "en": "I like chocolate."
+          "cs": "Mám rád čokoládu."
         },
         {
           "id": "g-partitive-05",
           "type": "build",
-          "en": "I want some bread.",
+          "cs": "Chci chleba.",
           "a": [
             "Je veux du pain.",
             "Je voudrais du pain."
@@ -2356,25 +2356,25 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "In the negative *un, une, du, de la, de l', des* become **de** (*d'* before a vowel)."
+              "cs": "V záporu se *un, une, du, de la, de l', des* mění na **de** (před samohláskou *d'*)."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I have a dog. → I don't have a dog.",
+                  "cs": "Mám psa. → Nemám psa.",
                   "fr": "J'ai un chien. → Je n'ai pas [[de]] chien."
                 },
                 {
-                  "en": "I drink milk. → I don't drink milk.",
+                  "cs": "Piju mléko. → Nepiju mléko.",
                   "fr": "Je bois du lait. → Je ne bois pas [[de]] lait."
                 },
                 {
-                  "en": "I have friends. → I don't have friends.",
+                  "cs": "Mám kamarády. → Nemám kamarády.",
                   "fr": "J'ai des amis. → Je n'ai pas [[d']]amis."
                 }
               ]
@@ -2382,17 +2382,17 @@
           ]
         },
         {
-          "title": "What does not change",
+          "title": "Co se nemění",
           "blocks": [
             {
               "type": "text",
-              "en": "*Le, la, les* stay: *J'aime le café → Je n'aime pas le café.* And after *être* nothing changes: *C'est un chien → Ce n'est pas un chien.*"
+              "cs": "*Le, la, les* zůstávají: *J'aime le café → Je n'aime pas le café.* A po *être* se nemění nic: *C'est un chien → Ce n'est pas un chien.*"
             },
             {
               "type": "table",
               "head": [
-                "positive",
-                "negative"
+                "kladně",
+                "záporně"
               ],
               "rows": [
                 [
@@ -2416,35 +2416,35 @@
           ]
         },
         {
-          "title": "With all negations",
+          "title": "U všech záporů",
           "blocks": [
             {
               "type": "text",
-              "en": "This also applies to *jamais* and *plus*: *Je ne mange jamais de viande. Il n'y a plus de lait.*"
+              "cs": "Platí to i pro *jamais* a *plus*: *Je ne mange jamais de viande. Il n'y a plus de lait.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je n'ai pas de frère.",
-                  "en": "I don't have a brother."
+                  "cs": "Nemám bratra."
                 },
                 {
                   "fr": "Il n'y a pas d'école demain.",
-                  "en": "There is no school tomorrow."
+                  "cs": "Zítra není škola."
                 },
                 {
                   "fr": "Nous ne mangeons pas de viande.",
-                  "en": "We don't eat meat."
+                  "cs": "Nejíme maso."
                 },
                 {
                   "fr": "Il n'y a plus de pain.",
-                  "en": "There is no bread left."
+                  "cs": "Už není chleba."
                 }
               ]
             }
@@ -2455,7 +2455,7 @@
         {
           "id": "g-article-negation-01",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "J'ai un chat.",
           "a": [
             "Je n'ai pas de chat."
@@ -2464,7 +2464,7 @@
         {
           "id": "g-article-negation-02",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Il y a du lait.",
           "a": [
             "Il n'y a pas de lait."
@@ -2473,7 +2473,7 @@
         {
           "id": "g-article-negation-03",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "J'ai des devoirs.",
           "a": [
             "Je n'ai pas de devoirs."
@@ -2482,7 +2482,7 @@
         {
           "id": "g-article-negation-04",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "J'aime le poisson.",
           "a": [
             "Je n'aime pas le poisson."
@@ -2491,7 +2491,7 @@
         {
           "id": "g-article-negation-05",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "C'est un problème.",
           "a": [
             "Ce n'est pas un problème."
@@ -2502,13 +2502,13 @@
         {
           "set": "negation",
           "tag": "pas-de",
-          "label": "Drill pas de"
+          "label": "Dril pas de"
         }
       ]
     },
     {
       "id": "contractions",
-      "title": "Contracted articles: au, aux, du, des",
+      "title": "Stažené členy: au, aux, du, des",
       "fr": "les articles contractés",
       "level": "A1",
       "keywords": [
@@ -2534,7 +2534,7 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
@@ -2564,79 +2564,79 @@
             },
             {
               "type": "text",
-              "en": "The prepositions *à* and *de* **merge** with the articles *le* and *les* into one word. With *la* and *l'* they stay separate."
+              "cs": "Předložky *à* a *de* se **stahují** se členy *le* a *les* do jednoho slova. S *la* a *l'* zůstávají zvlášť."
             }
           ]
         },
         {
-          "title": "With à",
+          "title": "S à",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je vais au cinéma.",
-                  "en": "I'm going to the cinema."
+                  "cs": "Jdu do kina."
                 },
                 {
                   "fr": "Je vais à la piscine.",
-                  "en": "I'm going to the swimming pool."
+                  "cs": "Jdu na plavání."
                 },
                 {
                   "fr": "Il est à l'école.",
-                  "en": "He is at school."
+                  "cs": "Je ve škole."
                 },
                 {
                   "fr": "Je parle aux élèves.",
-                  "en": "I'm talking to the pupils."
+                  "cs": "Mluvím se žáky."
                 },
                 {
                   "fr": "Je joue au foot.",
-                  "en": "I play football."
+                  "cs": "Hraju fotbal."
                 }
               ]
             }
           ]
         },
         {
-          "title": "With de",
+          "title": "S de",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je viens du Canada.",
-                  "en": "I come from Canada."
+                  "cs": "Pocházím z Kanady."
                 },
                 {
                   "fr": "C'est le livre du prof.",
-                  "en": "That's the teacher's book."
+                  "cs": "To je učitelova kniha."
                 },
                 {
                   "fr": "La porte de la maison est ouverte.",
-                  "en": "The door of the house is open."
+                  "cs": "Dveře domu jsou otevřené."
                 },
                 {
                   "fr": "Il parle des vacances.",
-                  "en": "He's talking about the holidays."
+                  "cs": "Mluví o prázdninách."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm going to the park.",
+                  "cs": "Jdu do parku.",
                   "wrong": "Je vais à le parc.",
                   "fr": "Je vais [[au]] parc."
                 },
                 {
-                  "en": "My teeth hurt.",
+                  "cs": "Bolí mě zuby.",
                   "wrong": "J'ai mal à les dents.",
                   "fr": "J'ai mal [[aux]] dents."
                 }
@@ -2644,7 +2644,7 @@
             },
             {
               "type": "tip",
-              "en": "*Des* can be two different words: the indefinite article (*des amis* = friends) or *de + les* (*le chien des voisins* = the neighbours' dog)."
+              "cs": "*Des* můžou být dvě různá slova: neurčitý člen (*des amis* = kamarádi) nebo *de + les* (*le chien des voisins* = pes sousedů)."
             }
           ]
         }
@@ -2657,7 +2657,7 @@
           "a": [
             "au"
           ],
-          "en": "I'm going to the cinema."
+          "cs": "Jdu do kina."
         },
         {
           "id": "g-contractions-02",
@@ -2666,7 +2666,7 @@
           "a": [
             "aux"
           ],
-          "en": "He's talking to the children."
+          "cs": "Mluví s dětmi."
         },
         {
           "id": "g-contractions-03",
@@ -2675,7 +2675,7 @@
           "a": [
             "du"
           ],
-          "en": "That's the neighbour's bike."
+          "cs": "To je sousedovo kolo."
         },
         {
           "id": "g-contractions-04",
@@ -2684,7 +2684,7 @@
           "a": [
             "au"
           ],
-          "en": "I play tennis."
+          "cs": "Hraju tenis."
         },
         {
           "id": "g-contractions-05",
@@ -2693,7 +2693,7 @@
           "a": [
             "à la"
           ],
-          "en": "I'm going to the swimming pool."
+          "cs": "Jdu na plavání."
         },
         {
           "id": "g-contractions-06",
@@ -2702,13 +2702,13 @@
           "a": [
             "aux"
           ],
-          "en": "My teeth hurt."
+          "cs": "Bolí mě zuby."
         }
       ]
     },
     {
       "id": "quantities",
-      "title": "Quantities: beaucoup de, un kilo de",
+      "title": "Množství: beaucoup de, un kilo de",
       "fr": "les expressions de quantité",
       "level": "A1",
       "keywords": [
@@ -2734,18 +2734,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "After expressions of quantity only **de** (*d'*) stands, without an article: *beaucoup de pain*, not *beaucoup du pain*."
+              "cs": "Po výrazech množství stojí jen **de** (*d'*), bez členu: *beaucoup de pain*, ne *beaucoup du pain*."
             },
             {
               "type": "table",
               "head": [
-                "expression",
-                "meaning",
-                "example"
+                "výraz",
+                "význam",
+                "příklad"
               ],
               "textCols": [
                 1
@@ -2753,37 +2753,37 @@
               "rows": [
                 [
                   "beaucoup de",
-                  "a lot of",
+                  "hodně",
                   "beaucoup d'amis"
                 ],
                 [
                   "un peu de",
-                  "a little",
+                  "trochu",
                   "un peu de sucre"
                 ],
                 [
                   "trop de",
-                  "too much, too many",
+                  "příliš (mnoho)",
                   "trop de devoirs"
                 ],
                 [
                   "assez de",
-                  "enough",
+                  "dost",
                   "assez d'argent"
                 ],
                 [
                   "peu de",
-                  "little, few",
+                  "málo",
                   "peu de temps"
                 ],
                 [
                   "combien de ?",
-                  "how much, how many?",
+                  "kolik?",
                   "combien de frères ?"
                 ],
                 [
                   "plus de, moins de",
-                  "more, less",
+                  "víc, míň",
                   "plus de temps"
                 ]
               ]
@@ -2791,13 +2791,13 @@
           ]
         },
         {
-          "title": "Packages and measures",
+          "title": "Balení a míry",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 1
@@ -2805,48 +2805,48 @@
               "rows": [
                 [
                   "un kilo de pommes",
-                  "a kilo of apples"
+                  "kilo jablek"
                 ],
                 [
                   "une bouteille d'eau",
-                  "a bottle of water"
+                  "láhev vody"
                 ],
                 [
                   "un litre de lait",
-                  "a litre of milk"
+                  "litr mléka"
                 ],
                 [
                   "un paquet de chips",
-                  "a packet of crisps"
+                  "sáček chipsů"
                 ],
                 [
                   "une tranche de jambon",
-                  "a slice of ham"
+                  "plátek šunky"
                 ],
                 [
                   "un morceau de pain",
-                  "a piece of bread"
+                  "kus chleba"
                 ],
                 [
                   "une boîte de thon",
-                  "a tin of tuna"
+                  "konzerva tuňáka"
                 ],
                 [
                   "un verre de jus",
-                  "a glass of juice"
+                  "sklenice džusu"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I have a lot of homework.",
+                  "cs": "Mám hodně úkolů.",
                   "wrong": "J'ai beaucoup des devoirs.",
                   "fr": "J'ai beaucoup [[de]] devoirs."
                 }
@@ -2854,31 +2854,31 @@
             },
             {
               "type": "tip",
-              "en": "Exception: *la plupart des* (most) keeps the article: *la plupart des élèves*."
+              "cs": "Výjimka: *la plupart des* (většina) si člen nechává: *la plupart des élèves*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il y a beaucoup de monde.",
-                  "en": "There are a lot of people."
+                  "cs": "Je tu hodně lidí."
                 },
                 {
                   "fr": "Je voudrais un kilo de tomates.",
-                  "en": "I'd like a kilo of tomatoes."
+                  "cs": "Chtěl bych kilo rajčat."
                 },
                 {
                   "fr": "Tu as combien de cousins ?",
-                  "en": "How many cousins do you have?"
+                  "cs": "Kolik máš bratranců a sestřenic?"
                 },
                 {
                   "fr": "J'ai mangé trop de chocolat.",
-                  "en": "I ate too much chocolate."
+                  "cs": "Snědl jsem moc čokolády."
                 }
               ]
             }
@@ -2893,7 +2893,7 @@
           "a": [
             "d'"
           ],
-          "en": "I have a lot of friends."
+          "cs": "Mám hodně kamarádů."
         },
         {
           "id": "g-quantities-02",
@@ -2902,12 +2902,12 @@
           "a": [
             "de"
           ],
-          "en": "I'd like a bottle of milk."
+          "cs": "Chtěl bych láhev mléka."
         },
         {
           "id": "g-quantities-03",
           "type": "build",
-          "en": "I don't have much time.",
+          "cs": "Nemám moc času.",
           "a": [
             "J'ai peu de temps.",
             "Je n'ai pas beaucoup de temps."
@@ -2916,7 +2916,7 @@
         {
           "id": "g-quantities-04",
           "type": "build",
-          "en": "How many brothers and sisters do you have?",
+          "cs": "Kolik máš sourozenců?",
           "a": [
             "Tu as combien de frères et sœurs ?",
             "Combien de frères et sœurs as-tu ?",
@@ -2930,13 +2930,13 @@
           "a": [
             "de"
           ],
-          "en": "There is too much noise."
+          "cs": "Je tu moc hluku."
         }
       ]
     },
     {
       "id": "no-article",
-      "title": "When there is no article",
+      "title": "Kdy člen není",
       "fr": "l'absence d'article",
       "level": "A2",
       "keywords": [
@@ -2958,14 +2958,14 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "when",
-                "example",
-                "English"
+                "kdy",
+                "příklad",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -2973,55 +2973,55 @@
               ],
               "rows": [
                 [
-                  "profession and nationality after être",
+                  "povolání a národnost po être",
                   "Il est médecin. Elle est française.",
-                  "He is a doctor. She is French."
+                  "Je lékař. Je Francouzka."
                 ],
                 [
-                  "after en (country, transport, material)",
+                  "po en (země, doprava, materiál)",
                   "en France, en bus, en bois",
-                  "in France, by bus, made of wood"
+                  "ve Francii, autobusem, ze dřeva"
                 ],
                 [
-                  "after expressions of quantity",
+                  "po výrazech množství",
                   "beaucoup de livres",
-                  "a lot of books"
+                  "hodně knih"
                 ],
                 [
-                  "after pas de (negation)",
+                  "po pas de (zápor)",
                   "pas de chance",
-                  "no luck"
+                  "žádné štěstí"
                 ],
                 [
-                  "after sans, often after avec",
+                  "po sans, často po avec",
                   "sans sucre, avec plaisir",
-                  "without sugar, with pleasure"
+                  "bez cukru, s radostí"
                 ],
                 [
-                  "in expressions with avoir",
+                  "ve spojeních s avoir",
                   "avoir faim, avoir peur",
-                  "to be hungry, to be afraid"
+                  "mít hlad, bát se"
                 ],
                 [
-                  "after de when it says the kind",
+                  "po de, když říká druh",
                   "un livre de cuisine, un match de foot",
-                  "a cookbook, a football match"
+                  "kuchařka, fotbalový zápas"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Professions",
+          "title": "Povolání",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "My father is an engineer.",
+                  "cs": "Můj táta je inženýr.",
                   "wrong": "Mon père est un ingénieur.",
                   "fr": "Mon père est [[ingénieur]].",
-                  "note": "With an adjective an article is needed again: *C'est un bon ingénieur.*"
+                  "note": "S přídavným jménem je člen zase potřeba: *C'est un bon ingénieur.*"
                 }
               ]
             },
@@ -3034,17 +3034,17 @@
           ]
         },
         {
-          "title": "De without an article",
+          "title": "De bez členu",
           "blocks": [
             {
               "type": "text",
-              "en": "When *de* links two nouns and the second says the **kind**, there is no article: *un prof de français* (a French teacher), *une salle de bains* (a bathroom), *un jeu de société* (a board game)."
+              "cs": "Když *de* spojuje dvě podstatná jména a to druhé říká **druh**, člen tam není: *un prof de français* (učitel francouzštiny), *une salle de bains* (koupelna), *un jeu de société* (společenská hra)."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "a football match",
+                  "cs": "fotbalový zápas",
                   "fr": "un match [[de]] foot"
                 }
               ]
@@ -3052,26 +3052,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ma mère est infirmière.",
-                  "en": "My mother is a nurse."
+                  "cs": "Moje máma je zdravotní sestra."
                 },
                 {
                   "fr": "Je vais au collège en bus.",
-                  "en": "I go to school by bus."
+                  "cs": "Do školy jezdím autobusem."
                 },
                 {
                   "fr": "Un café sans sucre, s'il vous plaît.",
-                  "en": "A coffee without sugar, please."
+                  "cs": "Kávu bez cukru, prosím."
                 },
                 {
                   "fr": "C'est mon prof d'histoire.",
-                  "en": "That's my history teacher."
+                  "cs": "To je můj učitel dějepisu."
                 }
               ]
             }
@@ -3082,7 +3082,7 @@
         {
           "id": "g-no-article-01",
           "type": "build",
-          "en": "He is a doctor.",
+          "cs": "Je lékař.",
           "a": [
             "Il est médecin."
           ]
@@ -3090,7 +3090,7 @@
         {
           "id": "g-no-article-02",
           "type": "build",
-          "en": "My father is a teacher.",
+          "cs": "Můj táta je učitel.",
           "a": [
             "Mon père est {professeur|prof|enseignant}."
           ]
@@ -3098,7 +3098,7 @@
         {
           "id": "g-no-article-03",
           "type": "build",
-          "en": "Tea without sugar, please.",
+          "cs": "Čaj bez cukru, prosím.",
           "a": [
             "Un thé sans sucre, s'il vous plaît.",
             "Un thé sans sucre, s'il te plaît."
@@ -3107,7 +3107,7 @@
         {
           "id": "g-no-article-04",
           "type": "build",
-          "en": "That's my French teacher.",
+          "cs": "To je můj učitel francouzštiny.",
           "a": [
             "C'est mon {prof|professeur} de français."
           ]
@@ -3116,7 +3116,7 @@
     },
     {
       "id": "choosing-article",
-      "title": "Which article?",
+      "title": "Který člen?",
       "fr": "quel article choisir ?",
       "level": "A2",
       "keywords": [
@@ -3141,43 +3141,43 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Six questions that lead you to the right article. Go from the top and stop at the first one you answer yes to."
+              "cs": "Šest otázek, které tě dovedou ke správnému členu. Jdi odshora a zastav se u první, na kterou odpovíš ano."
             },
             {
               "type": "tree",
               "items": [
                 {
-                  "label": "Is there a negation (*ne... pas, jamais, plus*) and not *être*?",
-                  "en": "→ *de, d'*: *Je n'ai pas de chien.*",
+                  "label": "Je tam zápor (*ne... pas, jamais, plus*) a ne *être*?",
+                  "cs": "→ *de, d'*: *Je n'ai pas de chien.*",
                   "see": "article-negation"
                 },
                 {
-                  "label": "Does an expression of quantity (*beaucoup, un kilo, combien*) stand before the word?",
-                  "en": "→ *de, d'*: *beaucoup de chiens*",
+                  "label": "Stojí před slovem výraz množství (*beaucoup, un kilo, combien*)?",
+                  "cs": "→ *de, d'*: *beaucoup de chiens*",
                   "see": "quantities"
                 },
                 {
-                  "label": "Are you talking about a thing in general, or about what you like?",
-                  "en": "→ *le, la, les*: *J'aime les chiens.*",
+                  "label": "Mluvíš o věci obecně, nebo o tom, co máš rád?",
+                  "cs": "→ *le, la, les*: *J'aime les chiens.*",
                   "see": "article-definite"
                 },
                 {
-                  "label": "Is the thing known, specific, unique?",
-                  "en": "→ *le, la, les*: *Le chien du voisin aboie.*",
+                  "label": "Je věc známá, konkrétní, jedinečná?",
+                  "cs": "→ *le, la, les*: *Le chien du voisin aboie.*",
                   "see": "article-definite"
                 },
                 {
-                  "label": "Can you count it (one, two...)?",
-                  "en": "→ *un, une, des*: *J'ai un chien.*",
+                  "label": "Dá se počítat (jeden, dva...)?",
+                  "cs": "→ *un, une, des*: *J'ai un chien.*",
                   "see": "article-indefinite"
                 },
                 {
-                  "label": "Is it some amount of something uncountable?",
-                  "en": "→ *du, de la, de l'*: *Je mange du pain.*",
+                  "label": "Je to nějaké množství něčeho nepočitatelného?",
+                  "cs": "→ *du, de la, de l'*: *Je mange du pain.*",
                   "see": "partitive"
                 }
               ]
@@ -3185,45 +3185,45 @@
           ]
         },
         {
-          "title": "One word, five articles",
+          "title": "Jedno slovo, pět členů",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'aime le chocolat.",
-                  "en": "I like chocolate. (in general)"
+                  "cs": "Mám rád čokoládu. (obecně)"
                 },
                 {
                   "fr": "Je mange du chocolat.",
-                  "en": "I'm eating chocolate. (some)"
+                  "cs": "Jím čokoládu. (nějakou)"
                 },
                 {
                   "fr": "J'ai acheté un chocolat chaud.",
-                  "en": "I bought a hot chocolate. (one)"
+                  "cs": "Koupil jsem si horkou čokoládu. (jednu)"
                 },
                 {
                   "fr": "Je ne mange pas de chocolat.",
-                  "en": "I don't eat chocolate."
+                  "cs": "Nejím čokoládu."
                 },
                 {
                   "fr": "Il y a beaucoup de chocolat.",
-                  "en": "There is a lot of chocolate."
+                  "cs": "Je tu hodně čokolády."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I like eating apples.",
+                  "cs": "Rád jím jablka.",
                   "fr": "J'aime manger [[des]] pommes.",
-                  "note": "What decides is the verb the word belongs to: here *manger* (some apples), not *aimer*."
+                  "note": "Rozhoduje sloveso, ke kterému slovo patří: tady *manger* (nějaká jablka), ne *aimer*."
                 }
               ]
             }
@@ -3238,7 +3238,7 @@
           "a": [
             "la"
           ],
-          "en": "I love pizza."
+          "cs": "Miluju pizzu."
         },
         {
           "id": "g-choosing-article-02",
@@ -3248,7 +3248,7 @@
             "une",
             "de la"
           ],
-          "en": "Tonight I'm eating pizza."
+          "cs": "Dnes večer jím pizzu."
         },
         {
           "id": "g-choosing-article-03",
@@ -3257,7 +3257,7 @@
           "a": [
             "de"
           ],
-          "en": "I don't drink coffee."
+          "cs": "Nepiju kávu."
         },
         {
           "id": "g-choosing-article-04",
@@ -3266,7 +3266,7 @@
           "a": [
             "de l'"
           ],
-          "en": "There is water in the bottle."
+          "cs": "V láhvi je voda."
         },
         {
           "id": "g-choosing-article-05",
@@ -3275,7 +3275,7 @@
           "a": [
             "de"
           ],
-          "en": "I have a lot of work."
+          "cs": "Mám hodně práce."
         },
         {
           "id": "g-choosing-article-06",
@@ -3284,7 +3284,7 @@
           "a": [
             "les"
           ],
-          "en": "I prefer cats."
+          "cs": "Mám radši kočky."
         }
       ]
     }

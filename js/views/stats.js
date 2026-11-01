@@ -5,6 +5,7 @@ import { noDecks, deckHref } from './decks.js';
 import { writingStats } from '../learn/writestats.js';
 import { weakRules } from '../learn/mistakes.js';
 import { ruleHref } from '../learn/blocks.js';
+import { locale } from '../i18n.js';
 
 const niceMax = n => {
   if (n <= 4) return 4;
@@ -12,7 +13,7 @@ const niceMax = n => {
   return [1, 2, 2.5, 5, 10].map(m => m * step).find(v => v >= n);
 };
 
-const dateLabel = d => d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+const dateLabel = d => d.toLocaleDateString(locale(), { weekday: 'short', month: 'short', day: 'numeric' });
 
 // items: { value, tip, x }. One series, so no legend; the card title names it.
 function barChart(items, max, ticks = [max, max / 2, 0]) {

@@ -1,0 +1,70 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Animals",
+  "unit": "2.1",
+  "level": null,
+  "words": [
+    {
+      "q": "animal",
+      "a": "animal"
+    },
+    {
+      "q": "animals",
+      "a": "animaux"
+    },
+    {
+      "q": "dog",
+      "a": "chien"
+    },
+    {
+      "q": "cat",
+      "a": "chat"
+    },
+    {
+      "q": "bird",
+      "a": "oiseau"
+    },
+    {
+      "q": "parrot",
+      "a": "perroquet"
+    },
+    {
+      "q": "hamster",
+      "a": "hamster"
+    },
+    {
+      "q": "guinea pig",
+      "a": "cochon d'Inde"
+    },
+    {
+      "q": "fish (pet)",
+      "a": "poisson"
+    },
+    {
+      "q": "tortoise",
+      "a": "tortue"
+    },
+    {
+      "q": "rabbit",
+      "a": "lapin"
+    },
+    {
+      "q": "horse",
+      "a": "cheval"
+    },
+    {
+      "q": "horses",
+      "a": "chevaux"
+    },
+    {
+      "q": "mouse",
+      "a": "souris"
+    },
+    {
+      "q": "snake",
+      "a": "serpent"
+    }
+  ]
+}

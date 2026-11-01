@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": "pp-01-function",
-      "title": "Step 1: Find the function",
+      "title": "Krok 1: Najdi funkci",
       "fr": "trouver la fonction du pronom",
       "level": "A2",
       "keywords": [
@@ -28,53 +28,53 @@
         {
           "set": "pronouns",
           "tag": "mixed",
-          "label": "Drill: which pronoun?"
+          "label": "Dril: které zájmeno?"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Before you choose a pronoun, look at **what comes right after the verb**. Is there a preposition? Is it a person or a thing? Those two questions decide which pronoun you need. The next steps take each pronoun one by one, then mix them."
+              "cs": "Než vybereš zájmeno, podívej se, **co stojí hned za slovesem**. Je tam předložka? Je to osoba, nebo věc? Tyhle dvě otázky rozhodnou, které zájmeno potřebuješ. Další kroky probírají každé zájmeno zvlášť a pak je míchají."
             },
             {
               "type": "table",
               "head": [
-                "what follows the verb",
-                "function",
-                "pronoun",
-                "example"
+                "co stojí za slovesem",
+                "funkce",
+                "zájmeno",
+                "příklad"
               ],
               "rows": [
                 [
-                  "no preposition (person or thing)",
-                  "COD",
+                  "žádná předložka (osoba nebo věc)",
+                  "COD (přímý předmět)",
                   "le, la, les",
                   "Je vois Marie. → Je la vois."
                 ],
                 [
-                  "à + person",
-                  "COI",
+                  "à + osoba",
+                  "COI (nepřímý předmět)",
                   "lui, leur",
                   "Je parle à Marie. → Je lui parle."
                 ],
                 [
-                  "à + thing or place",
+                  "à + věc nebo místo",
                   "y",
                   "y",
                   "Je pense à l'examen. → J'y pense."
                 ],
                 [
-                  "de + thing, or a quantity",
+                  "de + věc, nebo množství",
                   "en",
                   "en",
                   "J'ai besoin de mon vélo. → J'en ai besoin."
                 ],
                 [
-                  "de + person",
-                  "stressed",
+                  "de + osoba",
+                  "samostatné zájmeno",
                   "de lui, d'elle, d'eux",
                   "Je parle de Paul. → Je parle de lui."
                 ]
@@ -87,19 +87,19 @@
           ]
         },
         {
-          "title": "Question 1: is there a preposition?",
+          "title": "Otázka 1: je tam předložka?",
           "blocks": [
             {
               "type": "text",
-              "en": "Look at the verb **as French uses it**, not as English or Czech does. *Regarder quelque chose* has no preposition, although English says *look **at***. *Téléphoner à quelqu'un* has *à*, although English says *call someone*."
+              "cs": "Dívej se na sloveso **tak, jak ho používá francouzština**, ne čeština. *Regarder quelque chose* nemá předložku, i když česky se díváš **na** něco. *Téléphoner à quelqu'un* má *à*, i když česky prostě někomu voláš."
             },
             {
               "type": "table",
               "head": [
-                "no preposition → COD",
-                "à + person → COI",
-                "à + thing → y",
-                "de + thing → en"
+                "žádná předložka → COD",
+                "à + osoba → COI",
+                "à + věc → y",
+                "de + věc → en"
               ],
               "rows": [
                 [
@@ -129,7 +129,7 @@
                 [
                   "inviter, appeler",
                   "écrire à, demander à",
-                  "aller à, être à (place)",
+                  "aller à, être à (místo)",
                   "manger du, boire de l'"
                 ]
               ]
@@ -147,32 +147,32 @@
           ]
         },
         {
-          "title": "Question 2: person or thing?",
+          "title": "Otázka 2: osoba, nebo věc?",
           "blocks": [
             {
               "type": "text",
-              "en": "Without a preposition, person and thing are the same: *le, la, les*. After **à**, a person gives *lui / leur* and a thing or a place gives *y*. After **de**, a thing gives *en* and a person keeps *de* + a stressed pronoun (*de lui*)."
+              "cs": "Bez předložky jsou osoba i věc stejné: *le, la, les*. Po **à** dává osoba *lui / leur* a věc nebo místo *y*. Po **de** dává věc *en* a osoba si nechává *de* + samostatné zájmeno (*de lui*)."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I talk to Paul.",
+                  "cs": "Mluvím s Paulem.",
                   "fr": "Je [[lui]] parle."
                 },
                 {
-                  "en": "I'm thinking about the holidays.",
+                  "cs": "Myslím na prázdniny.",
                   "fr": "J'[[y]] pense."
                 },
                 {
-                  "en": "I'm talking about the film.",
+                  "cs": "Mluvím o filmu.",
                   "fr": "J'[[en]] parle."
                 },
                 {
-                  "en": "I'm talking about Paul.",
+                  "cs": "Mluvím o Paulovi.",
                   "wrong": "J'en parle.",
                   "fr": "Je parle [[de lui]].",
-                  "note": "de + person keeps de and takes lui, elle, eux"
+                  "note": "de + osoba si nechává de a bere lui, elle, eux"
                 }
               ]
             },
@@ -189,11 +189,11 @@
           ]
         },
         {
-          "title": "Question 3: which form?",
+          "title": "Otázka 3: jaký tvar?",
           "blocks": [
             {
               "type": "text",
-              "en": "For a COD: *le* (masculine singular), *la* (feminine singular), *les* (plural). *Le* and *la* become **l'** before a vowel. For a COI: *lui* (one person, man **or** woman) and *leur* (several people). *Me, te, nous, vous* work for both, see step 9."
+              "cs": "U COD: *le* (mužský rod, jednotné číslo), *la* (ženský rod, jednotné číslo), *les* (množné číslo). *Le* a *la* se před samohláskou mění na **l'**. U COI: *lui* (jedna osoba, muž **i** žena) a *leur* (více osob). *Me, te, nous, vous* fungují pro oboje, viz krok 9."
             },
             {
               "type": "check",
@@ -208,44 +208,44 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "*Écouter, regarder, chercher, attendre* take **no** preposition in French: *Je l'écoute, je l'attends*. *Téléphoner à, répondre à, ressembler à, obéir à* **do** take *à*: *Je lui téléphone*.",
-              "title": "Different from English"
+              "cs": "*Écouter, regarder, chercher, attendre* nemají ve francouzštině **žádnou** předložku: *Je l'écoute, je l'attends*. *Téléphoner à, répondre à, ressembler à, obéir à* *à* **mají**: *Je lui téléphone*.",
+              "title": "Jinak než v češtině"
             },
             {
               "type": "tip",
-              "en": "*Leur* (to them) never takes an **-s**. *Leurs* with an s is the possessive: *leurs parents* (their parents)."
+              "cs": "*Leur* (jim) nikdy nemá **-s**. *Leurs* se s je přivlastňovací: *leurs parents* (jejich rodiče)."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu regardes le match ? Oui, je le regarde.",
-                  "en": "Are you watching the match? Yes, I'm watching it."
+                  "cs": "Díváš se na zápas? Jo, dívám se na něj."
                 },
                 {
                   "fr": "Tu parles à ton frère ? Oui, je lui parle.",
-                  "en": "Are you talking to your brother? Yes, I'm talking to him."
+                  "cs": "Mluvíš s bratrem? Jo, mluvím s ním."
                 },
                 {
                   "fr": "Tu vas à Prague ? Oui, j'y vais.",
-                  "en": "Are you going to Prague? Yes, I'm going there."
+                  "cs": "Jedeš do Prahy? Jo, jedu tam."
                 },
                 {
                   "fr": "Tu manges des fruits ? Oui, j'en mange.",
-                  "en": "Do you eat fruit? Yes, I do."
+                  "cs": "Jíš ovoce? Jo, jím."
                 },
                 {
                   "fr": "Tu parles de ta sœur ? Oui, je parle d'elle.",
-                  "en": "Are you talking about your sister? Yes, I'm talking about her."
+                  "cs": "Mluvíš o sestře? Jo, mluvím o ní."
                 }
               ]
             }
@@ -353,7 +353,7 @@
     },
     {
       "id": "pp-02-cod-present",
-      "title": "Step 2: le, la, les in simple tenses",
+      "title": "Krok 2: le, la, les v jednoduchých časech",
       "fr": "le COD aux temps simples",
       "level": "A2",
       "keywords": [
@@ -380,16 +380,16 @@
         {
           "set": "pronouns",
           "tag": "direct",
-          "label": "Drill le, la, les"
+          "label": "Dril le, la, les"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*Le, la, les* replace a person or a thing that comes **right after the verb, with no preposition**. In a simple tense the pronoun goes **just before the conjugated verb**, never after it as in English."
+              "cs": "*Le, la, les* nahrazují osobu nebo věc, která stojí **hned za slovesem, bez předložky**. V jednoduchém čase stojí zájmeno **těsně před časovaným slovesem**, nikdy za ním."
             },
             {
               "type": "pattern",
@@ -409,7 +409,7 @@
                       "Marie."
                     ]
                   ],
-                  "en": "I see Marie."
+                  "cs": "Vidím Marii."
                 },
                 {
                   "parts": [
@@ -426,7 +426,7 @@
                       "vois."
                     ]
                   ],
-                  "en": "I see her."
+                  "cs": "Vidím ji."
                 }
               ],
               "formula": [
@@ -438,33 +438,33 @@
           ]
         },
         {
-          "title": "Choose the form",
+          "title": "Vyber tvar",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "replaced word",
-                "pronoun",
-                "example"
+                "nahrazené slovo",
+                "zájmeno",
+                "příklad"
               ],
               "rows": [
                 [
-                  "masculine singular",
+                  "mužský rod, jednotné číslo",
                   "le",
                   "le film → Je le regarde."
                 ],
                 [
-                  "feminine singular",
+                  "ženský rod, jednotné číslo",
                   "la",
                   "la pizza → Je la mange."
                 ],
                 [
-                  "plural (both genders)",
+                  "množné číslo (oba rody)",
                   "les",
                   "les clés → Je les cherche."
                 ],
                 [
-                  "le / la before a vowel or silent h",
+                  "le / la před samohláskou nebo němým h",
                   "l'",
                   "Lucas → Je l'aime. / l'histoire → Je l'écoute."
                 ]
@@ -475,13 +475,13 @@
             },
             {
               "type": "text",
-              "en": "The pronoun takes the gender of the **French** word: *la voiture → la*, *le vélo → le*, even if it is a thing."
+              "cs": "Zájmeno má rod **francouzského** slova: *la voiture → la*, *le vélo → le*, i když jde o věc."
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Elle mange [le gâteau].",
                 "a": [
                   "Elle le mange."
@@ -491,17 +491,17 @@
           ]
         },
         {
-          "title": "Every simple tense works the same",
+          "title": "Všechny jednoduché časy fungují stejně",
           "blocks": [
             {
               "type": "text",
-              "en": "Imparfait, futur simple and conditionnel are simple tenses too (one verb word), so the pronoun stays right before that verb."
+              "cs": "Imparfait, futur simple a conditionnel jsou taky jednoduché časy (jedno slovo slovesa), takže zájmeno zůstává těsně před tím slovesem."
             },
             {
               "type": "table",
               "head": [
-                "tense",
-                "example"
+                "čas",
+                "příklad"
               ],
               "rows": [
                 [
@@ -529,7 +529,7 @@
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Nous regardions [les photos].",
                 "a": [
                   "Nous les regardions."
@@ -539,48 +539,48 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "Never after the verb: *Je le vois*, not *Je vois le*."
+              "cs": "Nikdy za slovesem: *Je le vois*, ne *Je vois le*."
             },
             {
               "type": "tip",
-              "en": "*Les* before a vowel has no apostrophe, you hear a liaison instead: *Je les aime* [ʒə le.zɛm]."
+              "cs": "*Les* před samohláskou nemá apostrof, místo toho uslyšíš vázání: *Je les aime* [ʒə le.zɛm]."
             },
             {
               "type": "tip",
-              "en": "*Attendre, chercher, écouter, regarder* take a COD in French: *Je l'attends* (I'm waiting for him), *Je la cherche* (I'm looking for her).",
-              "title": "Different from English"
+              "cs": "*Attendre, chercher, écouter, regarder* mají ve francouzštině COD: *Je l'attends* (čekám na něj), *Je la cherche* (hledám ji).",
+              "title": "Jinak než v češtině"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu connais Marie ? Oui, je la connais.",
-                  "en": "Do you know Marie? Yes, I know her."
+                  "cs": "Znáš Marii? Jo, znám ji."
                 },
                 {
                   "fr": "Le film ? Je le regarde ce soir.",
-                  "en": "The film? I'm watching it tonight."
+                  "cs": "Ten film? Dívám se na něj dnes večer."
                 },
                 {
                   "fr": "Mes clés ? Je les cherche.",
-                  "en": "My keys? I'm looking for them."
+                  "cs": "Moje klíče? Hledám je."
                 },
                 {
                   "fr": "Ton frère ? Je l'attends devant l'école.",
-                  "en": "Your brother? I'm waiting for him in front of the school."
+                  "cs": "Tvůj bratr? Čekám na něj před školou."
                 },
                 {
                   "fr": "Les devoirs ? Je les finirai demain.",
-                  "en": "The homework? I'll finish it tomorrow."
+                  "cs": "Úkoly? Dodělám je zítra."
                 }
               ]
             }
@@ -591,7 +591,7 @@
         {
           "id": "g-pp-02-cod-present-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je regarde [le match].",
           "a": [
             "Je le regarde."
@@ -600,7 +600,7 @@
         {
           "id": "g-pp-02-cod-present-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu prends [la voiture] ?",
           "a": [
             "Tu la prends ?"
@@ -609,7 +609,7 @@
         {
           "id": "g-pp-02-cod-present-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Ils achètent [les billets].",
           "a": [
             "Ils les achètent."
@@ -618,7 +618,7 @@
         {
           "id": "g-pp-02-cod-present-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'aime [Lucas].",
           "a": [
             "Je l'aime."
@@ -627,7 +627,7 @@
         {
           "id": "g-pp-02-cod-present-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous invitons [nos amis].",
           "a": [
             "Nous les invitons."
@@ -636,7 +636,7 @@
         {
           "id": "g-pp-02-cod-present-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle attend [sa mère].",
           "a": [
             "Elle l'attend."
@@ -645,7 +645,7 @@
         {
           "id": "g-pp-02-cod-present-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Vous écoutez [la radio] ?",
           "a": [
             "Vous l'écoutez ?"
@@ -654,7 +654,7 @@
         {
           "id": "g-pp-02-cod-present-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je cherchais [mes clés].",
           "a": [
             "Je les cherchais."
@@ -663,7 +663,7 @@
         {
           "id": "g-pp-02-cod-present-09",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il finira [ses devoirs] demain.",
           "a": [
             "Il les finira demain."
@@ -672,7 +672,7 @@
         {
           "id": "g-pp-02-cod-present-10",
           "type": "build",
-          "en": "I know her.",
+          "cs": "Znám ji.",
           "a": [
             "Je la connais."
           ]
@@ -680,7 +680,7 @@
         {
           "id": "g-pp-02-cod-present-11",
           "type": "build",
-          "en": "We see them every day.",
+          "cs": "Vidíme je každý den.",
           "a": [
             "Nous les voyons tous les jours.",
             "On les voit tous les jours."
@@ -690,7 +690,7 @@
     },
     {
       "id": "pp-03-cod-infinitive",
-      "title": "Step 3: le, la, les with an infinitive",
+      "title": "Krok 3: le, la, les s infinitivem",
       "fr": "le COD devant l'infinitif",
       "level": "A2",
       "keywords": [
@@ -716,16 +716,16 @@
         {
           "set": "pronouns",
           "tag": "direct",
-          "label": "Drill le, la, les"
+          "label": "Dril le, la, les"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "When a conjugated verb is followed by an **infinitive** (*vais voir, veux acheter, peux faire*), the pronoun belongs to the infinitive. So it goes **right before the infinitive**, not before the first verb."
+              "cs": "Když za časovaným slovesem následuje **infinitiv** (*vais voir, veux acheter, peux faire*), patří zájmeno k infinitivu. Stojí tedy **těsně před infinitivem**, ne před prvním slovesem."
             },
             {
               "type": "pattern",
@@ -749,7 +749,7 @@
                       "le film."
                     ]
                   ],
-                  "en": "I'm going to see the film."
+                  "cs": "Půjdu se podívat na ten film."
                 },
                 {
                   "parts": [
@@ -770,7 +770,7 @@
                       "voir."
                     ]
                   ],
-                  "en": "I'm going to see it."
+                  "cs": "Půjdu se na něj podívat."
                 }
               ],
               "formula": [
@@ -783,45 +783,45 @@
           ]
         },
         {
-          "title": "Which structures?",
+          "title": "Jaké vazby?",
           "blocks": [
             {
               "type": "text",
-              "en": "Everything where an infinitive follows: the futur proche (*aller* + infinitive), *vouloir, pouvoir, devoir, savoir, aimer, préférer* + infinitive, and verbs with *à* or *de* before the infinitive (*commencer à, oublier de, essayer de*). Also after *pour* and *sans*."
+              "cs": "Všechno, kde následuje infinitiv: futur proche (*aller* + infinitiv), *vouloir, pouvoir, devoir, savoir, aimer, préférer* + infinitiv a slovesa s *à* nebo *de* před infinitivem (*commencer à, oublier de, essayer de*). Taky po *pour* a *sans*."
             },
             {
               "type": "table",
               "head": [
-                "structure",
-                "example"
+                "vazba",
+                "příklad"
               ],
               "rows": [
                 [
-                  "aller + infinitive",
+                  "aller + infinitiv",
                   "Je vais le voir."
                 ],
                 [
-                  "vouloir + infinitive",
+                  "vouloir + infinitiv",
                   "Tu veux la manger ?"
                 ],
                 [
-                  "pouvoir + infinitive",
+                  "pouvoir + infinitiv",
                   "Je peux les aider."
                 ],
                 [
-                  "devoir + infinitive",
+                  "devoir + infinitiv",
                   "Il doit le finir."
                 ],
                 [
-                  "oublier de + infinitive",
+                  "oublier de + infinitiv",
                   "J'ai oublié de le faire."
                 ],
                 [
-                  "commencer à + infinitive",
+                  "commencer à + infinitiv",
                   "Il commence à les lire."
                 ],
                 [
-                  "pour + infinitive",
+                  "pour + infinitiv",
                   "Je viens pour la voir."
                 ]
               ],
@@ -833,7 +833,7 @@
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je vais acheter [le pain].",
                 "a": [
                   "Je vais l'acheter."
@@ -843,17 +843,17 @@
           ]
         },
         {
-          "title": "Before a vowel",
+          "title": "Před samohláskou",
           "blocks": [
             {
               "type": "text",
-              "en": "*Le* and *la* become **l'** when the infinitive starts with a vowel or a silent *h*: *Je vais l'acheter. Tu peux l'aider ? Elle veut l'inviter.*"
+              "cs": "*Le* a *la* se mění na **l'**, když infinitiv začíná samohláskou nebo němým *h*: *Je vais l'acheter. Tu peux l'aider ? Elle veut l'inviter.*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Elle veut inviter [Thomas].",
                 "a": [
                   "Elle veut l'inviter."
@@ -863,43 +863,43 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "Not before the first verb: *Je vais le voir*, not *Je le vais voir*."
+              "cs": "Ne před první sloveso: *Je vais le voir*, ne *Je le vais voir*."
             },
             {
               "type": "tip",
-              "en": "The negative is the next step. Already here: *ne ... pas* goes around the **conjugated** verb and the pronoun stays put: *Je ne vais pas le voir.*"
+              "cs": "Zápor je další krok. Už teď: *ne ... pas* obklopuje **časované** sloveso a zájmeno zůstává na místě: *Je ne vais pas le voir.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "La série ? Je vais la regarder ce soir.",
-                  "en": "The series? I'm going to watch it tonight."
+                  "cs": "Ten seriál? Dnes večer se na něj podívám."
                 },
                 {
                   "fr": "Tes devoirs ? Tu dois les finir.",
-                  "en": "Your homework? You have to finish it."
+                  "cs": "Tvoje úkoly? Musíš je dodělat."
                 },
                 {
                   "fr": "Ce gâteau ? Je veux le goûter.",
-                  "en": "This cake? I want to taste it."
+                  "cs": "Tenhle dort? Chci ho ochutnat."
                 },
                 {
                   "fr": "Mes parents ? Je peux les appeler.",
-                  "en": "My parents? I can call them."
+                  "cs": "Moji rodiče? Můžu jim zavolat."
                 },
                 {
                   "fr": "La lettre ? J'ai oublié de l'envoyer.",
-                  "en": "The letter? I forgot to send it."
+                  "cs": "Ten dopis? Zapomněl jsem ho poslat."
                 }
               ]
             }
@@ -910,7 +910,7 @@
         {
           "id": "g-pp-03-cod-infinitive-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je vais regarder [la série].",
           "a": [
             "Je vais la regarder."
@@ -919,7 +919,7 @@
         {
           "id": "g-pp-03-cod-infinitive-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu veux manger [les crêpes] ?",
           "a": [
             "Tu veux les manger ?"
@@ -928,7 +928,7 @@
         {
           "id": "g-pp-03-cod-infinitive-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous devons finir [le projet].",
           "a": [
             "Nous devons le finir."
@@ -937,7 +937,7 @@
         {
           "id": "g-pp-03-cod-infinitive-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il peut aider [ses parents].",
           "a": [
             "Il peut les aider."
@@ -946,7 +946,7 @@
         {
           "id": "g-pp-03-cod-infinitive-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je préfère prendre [le train].",
           "a": [
             "Je préfère le prendre."
@@ -955,7 +955,7 @@
         {
           "id": "g-pp-03-cod-infinitive-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elles vont acheter [la robe].",
           "a": [
             "Elles vont l'acheter."
@@ -964,7 +964,7 @@
         {
           "id": "g-pp-03-cod-infinitive-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai oublié de faire [mes devoirs].",
           "a": [
             "J'ai oublié de les faire."
@@ -973,7 +973,7 @@
         {
           "id": "g-pp-03-cod-infinitive-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Ils commencent à lire [le livre].",
           "a": [
             "Ils commencent à le lire."
@@ -982,7 +982,7 @@
         {
           "id": "g-pp-03-cod-infinitive-09",
           "type": "order",
-          "en": "We want to see it.",
+          "cs": "Chceme ho vidět.",
           "a": [
             "Nous voulons le voir."
           ]
@@ -990,7 +990,7 @@
         {
           "id": "g-pp-03-cod-infinitive-10",
           "type": "build",
-          "en": "I'm going to call her tonight.",
+          "cs": "Dnes večer jí zavolám.",
           "a": [
             "Je vais l'appeler ce soir.",
             "Ce soir, je vais l'appeler."
@@ -999,7 +999,7 @@
         {
           "id": "g-pp-03-cod-infinitive-11",
           "type": "build",
-          "en": "Can you help him?",
+          "cs": "Můžeš mu pomoct?",
           "a": [
             "Tu peux l'aider ?",
             "Est-ce que tu peux l'aider ?",
@@ -1013,7 +1013,7 @@
     },
     {
       "id": "pp-04-cod-negative-question",
-      "title": "Step 4: le, la, les in negatives and questions",
+      "title": "Krok 4: le, la, les v záporu a v otázkách",
       "fr": "le COD, la négation et la question",
       "level": "A2",
       "keywords": [
@@ -1038,16 +1038,16 @@
         {
           "set": "pronouns",
           "tag": "direct",
-          "label": "Drill le, la, les"
+          "label": "Dril le, la, les"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The pronoun and its verb stick together. In a negative, **ne goes before the pronoun** and *pas* after the verb: *Je ne le vois pas.* In a question nothing moves, except with inversion, where the pronoun still stays **before** the verb: *Le vois-tu ?*"
+              "cs": "Zájmeno a jeho sloveso drží spolu. V záporu stojí **ne před zájmenem** a *pas* za slovesem: *Je ne le vois pas.* V otázce se nic nehýbe, kromě inverze, kde zájmeno pořád stojí **před** slovesem: *Le vois-tu ?*"
             },
             {
               "type": "pattern",
@@ -1075,7 +1075,7 @@
                       "pas."
                     ]
                   ],
-                  "en": "I don't see him."
+                  "cs": "Nevidím ho."
                 }
               ],
               "formula": [
@@ -1089,17 +1089,17 @@
           ]
         },
         {
-          "title": "Negative, one verb",
+          "title": "Zápor, jedno sloveso",
           "blocks": [
             {
               "type": "text",
-              "en": "*Ne* goes in front of the whole block *pronoun + verb*. *Ne* before a vowel becomes *n'*, but before a pronoun it is just *ne*: *Tu n'aimes pas ce film → Tu ne l'aimes pas.* The same goes for *jamais, plus, rien*: *Je ne le vois jamais.*"
+              "cs": "*Ne* stojí před celým blokem *zájmeno + sloveso*. Před samohláskou se *ne* mění na *n'*, ale před zájmenem je to prostě *ne*: *Tu n'aimes pas ce film → Tu ne l'aimes pas.* Totéž platí pro *jamais, plus, rien*: *Je ne le vois jamais.*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je ne comprends pas [la question].",
                 "a": [
                   "Je ne la comprends pas."
@@ -1109,11 +1109,11 @@
           ]
         },
         {
-          "title": "Negative with an infinitive",
+          "title": "Zápor s infinitivem",
           "blocks": [
             {
               "type": "text",
-              "en": "With two verbs *ne ... pas* goes around the **conjugated** verb and the pronoun stays before the infinitive."
+              "cs": "U dvou sloves obklopuje *ne ... pas* **časované** sloveso a zájmeno zůstává před infinitivem."
             },
             {
               "type": "pattern",
@@ -1145,7 +1145,7 @@
                       "voir."
                     ]
                   ],
-                  "en": "I'm not going to see him."
+                  "cs": "Nepůjdu se na něj podívat."
                 }
               ],
               "formula": [
@@ -1161,7 +1161,7 @@
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je ne veux pas manger [la soupe].",
                 "a": [
                   "Je ne veux pas la manger."
@@ -1171,21 +1171,21 @@
           ]
         },
         {
-          "title": "Questions",
+          "title": "Otázky",
           "blocks": [
             {
               "type": "text",
-              "en": "With rising intonation or *est-ce que* the word order stays the same: *Tu le vois ? Est-ce que tu le vois ?* With inversion the pronoun stays in front, the subject moves after the verb with a hyphen: *Le vois-tu ?* With two verbs the inversion is on the first verb: *Vas-tu le voir ?*"
+              "cs": "Se stoupavou intonací nebo s *est-ce que* zůstává slovosled stejný: *Tu le vois ? Est-ce que tu le vois ?* Při inverzi zůstává zájmeno vpředu a podmět jde za sloveso se spojovníkem: *Le vois-tu ?* U dvou sloves je inverze u prvního slovesa: *Vas-tu le voir ?*"
             },
             {
               "type": "table",
               "head": [
-                "way of asking",
-                "example"
+                "způsob otázky",
+                "příklad"
               ],
               "rows": [
                 [
-                  "intonation",
+                  "intonace",
                   "Tu le vois ?"
                 ],
                 [
@@ -1193,11 +1193,11 @@
                   "Est-ce que tu le vois ?"
                 ],
                 [
-                  "inversion",
+                  "inverze",
                   "Le vois-tu ?"
                 ],
                 [
-                  "inversion + infinitive",
+                  "inverze + infinitiv",
                   "Vas-tu le voir ?"
                 ]
               ],
@@ -1209,7 +1209,7 @@
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Ask the question with inversion",
+                "task_cs": "Polož otázku inverzí",
                 "fr": "Tu le connais.",
                 "a": [
                   "Le connais-tu ?"
@@ -1219,39 +1219,39 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "Do not split the pronoun from its verb: *Je ne le vois pas*, not *Je le ne vois pas* or *Je ne vois pas le*."
+              "cs": "Neoddělej zájmeno od jeho slovesa: *Je ne le vois pas*, ne *Je le ne vois pas* ani *Je ne vois pas le*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ce prof ? Je ne le connais pas.",
-                  "en": "This teacher? I don't know him."
+                  "cs": "Tenhle učitel? Neznám ho."
                 },
                 {
                   "fr": "La musique ? Il ne l'écoute jamais.",
-                  "en": "Music? He never listens to it."
+                  "cs": "Hudba? Nikdy ji neposlouchá."
                 },
                 {
                   "fr": "Le bus ? Nous n'allons pas le prendre.",
-                  "en": "The bus? We're not going to take it."
+                  "cs": "Autobus? Nepojedeme jím."
                 },
                 {
                   "fr": "Tes clés, tu les as ?",
-                  "en": "Your keys, have you got them?"
+                  "cs": "Tvoje klíče, máš je?"
                 },
                 {
                   "fr": "Cette fille, la connais-tu ?",
-                  "en": "That girl, do you know her?"
+                  "cs": "Ta holka, znáš ji?"
                 }
               ]
             }
@@ -1262,7 +1262,7 @@
         {
           "id": "g-pp-04-cod-negative-question-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je ne connais pas [ses parents].",
           "a": [
             "Je ne les connais pas."
@@ -1271,7 +1271,7 @@
         {
           "id": "g-pp-04-cod-negative-question-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il ne regarde jamais [la télé].",
           "a": [
             "Il ne la regarde jamais."
@@ -1280,7 +1280,7 @@
         {
           "id": "g-pp-04-cod-negative-question-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous ne trouvons plus [nos billets].",
           "a": [
             "Nous ne les trouvons plus."
@@ -1289,7 +1289,7 @@
         {
           "id": "g-pp-04-cod-negative-question-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu n'aimes pas [ce film] ?",
           "a": [
             "Tu ne l'aimes pas ?"
@@ -1298,7 +1298,7 @@
         {
           "id": "g-pp-04-cod-negative-question-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je ne vais pas prendre [le bus].",
           "a": [
             "Je ne vais pas le prendre."
@@ -1307,7 +1307,7 @@
         {
           "id": "g-pp-04-cod-negative-question-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle ne peut pas porter [la valise].",
           "a": [
             "Elle ne peut pas la porter."
@@ -1316,7 +1316,7 @@
         {
           "id": "g-pp-04-cod-negative-question-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Est-ce que tu as [la clé] ?",
           "a": [
             "Est-ce que tu l'as ?"
@@ -1325,7 +1325,7 @@
         {
           "id": "g-pp-04-cod-negative-question-08",
           "type": "transform",
-          "task_en": "Ask the question with inversion",
+          "task_cs": "Polož otázku inverzí",
           "fr": "Vous la voyez.",
           "a": [
             "La voyez-vous ?"
@@ -1334,7 +1334,7 @@
         {
           "id": "g-pp-04-cod-negative-question-09",
           "type": "transform",
-          "task_en": "Ask the question with inversion",
+          "task_cs": "Polož otázku inverzí",
           "fr": "Vous allez la voir.",
           "a": [
             "Allez-vous la voir ?"
@@ -1343,7 +1343,7 @@
         {
           "id": "g-pp-04-cod-negative-question-10",
           "type": "build",
-          "en": "I don't understand it. (the lesson)",
+          "cs": "Nerozumím tomu. (ta lekce)",
           "a": [
             "Je ne la comprends pas."
           ]
@@ -1351,7 +1351,7 @@
         {
           "id": "g-pp-04-cod-negative-question-11",
           "type": "build",
-          "en": "We aren't going to buy them.",
+          "cs": "Nekoupíme je.",
           "a": [
             "Nous n'allons pas les acheter.",
             "On ne va pas les acheter."
@@ -1361,7 +1361,7 @@
     },
     {
       "id": "pp-05-cod-passe-compose",
-      "title": "Step 5: le, la, les in the passé composé",
+      "title": "Krok 5: le, la, les v passé composé",
       "fr": "le COD au passé composé et l'accord",
       "level": "A2",
       "keywords": [
@@ -1387,16 +1387,16 @@
         {
           "set": "pronouns",
           "tag": "pc-agreement",
-          "label": "Drill the passé composé agreement"
+          "label": "Dril shoda v passé composé"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "In the passé composé the pronoun goes **before the auxiliary** (*avoir* or *être*). And because the COD now stands **before** the participle, the participle **agrees** with it: *la → -e*, *les → -s* or *-es*."
+              "cs": "V passé composé stojí zájmeno **před pomocným slovesem** (*avoir* nebo *être*). A protože teď COD stojí **před** příčestím, příčestí se s ním **shoduje**: *la → -e*, *les → -s* nebo *-es*."
             },
             {
               "type": "pattern",
@@ -1420,7 +1420,7 @@
                       "vu."
                     ]
                   ],
-                  "en": "I saw it. (le film)"
+                  "cs": "Viděl jsem ho. (le film)"
                 },
                 {
                   "parts": [
@@ -1441,7 +1441,7 @@
                       "vue."
                     ]
                   ],
-                  "en": "I saw it. (la série)"
+                  "cs": "Viděl jsem ho. (la série)"
                 },
                 {
                   "parts": [
@@ -1462,7 +1462,7 @@
                       "vus."
                     ]
                   ],
-                  "en": "I saw them. (les films)"
+                  "cs": "Viděl jsem je. (les films)"
                 }
               ],
               "formula": [
@@ -1475,17 +1475,17 @@
           ]
         },
         {
-          "title": "Before the auxiliary",
+          "title": "Před pomocným slovesem",
           "blocks": [
             {
               "type": "text",
-              "en": "*Ai, as, a, avons, avez, ont* all start with a vowel, so *le* and *la* are always **l'** here. Only the participle tells you which one it was."
+              "cs": "*Ai, as, a, avons, avez, ont* všechny začínají samohláskou, takže *le* a *la* jsou tady vždycky **l'**. Které to bylo, prozradí jen příčestí."
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "J'ai mangé [le gâteau].",
                 "a": [
                   "Je l'ai mangé."
@@ -1495,14 +1495,14 @@
           ]
         },
         {
-          "title": "Agreement",
+          "title": "Shoda",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "replaced word",
-                "pronoun",
-                "participle"
+                "nahrazené slovo",
+                "zájmeno",
+                "příčestí"
               ],
               "rows": [
                 [
@@ -1532,13 +1532,13 @@
             },
             {
               "type": "text",
-              "en": "Often you cannot hear it (*mangé, mangée*), but you can with participles that end in a consonant: *pris → prise*, *mis → mise*, *fait → faite*, *écrit → écrite*, *ouvert → ouverte*."
+              "cs": "Často to neuslyšíš (*mangé, mangée*), ale u příčestí zakončených souhláskou ano: *pris → prise*, *mis → mise*, *fait → faite*, *écrit → écrite*, *ouvert → ouverte*."
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "J'ai pris [la photo].",
                 "a": [
                   "Je l'ai prise."
@@ -1548,17 +1548,17 @@
           ]
         },
         {
-          "title": "Negative and questions",
+          "title": "Zápor a otázky",
           "blocks": [
             {
               "type": "text",
-              "en": "*Ne* goes before the pronoun, *pas* after the auxiliary: *Je ne l'ai pas vu.* Questions: *Tu l'as vu ? Est-ce que tu l'as vu ? L'as-tu vu ?*"
+              "cs": "*Ne* stojí před zájmenem, *pas* za pomocným slovesem: *Je ne l'ai pas vu.* Otázky: *Tu l'as vu ? Est-ce que tu l'as vu ? L'as-tu vu ?*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je n'ai pas fini [mes devoirs].",
                 "a": [
                   "Je ne les ai pas finis."
@@ -1568,43 +1568,43 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "No agreement when the COD comes **after** the verb: *J'ai vu Marie* (no -e) but *Je l'ai vue*."
+              "cs": "Žádná shoda, když COD stojí **za** slovesem: *J'ai vu Marie* (bez -e), ale *Je l'ai vue*."
             },
             {
               "type": "tip",
-              "en": "Only a COD in front makes the participle agree. *Lui, leur, y* and *en* never do (steps 7, 10 and 11)."
+              "cs": "Shodu příčestí způsobuje jen COD vpředu. *Lui, leur, y* a *en* nikdy (kroky 7, 10 a 11)."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le film ? Je l'ai déjà vu.",
-                  "en": "The film? I've already seen it."
+                  "cs": "Ten film? Už jsem ho viděl."
                 },
                 {
                   "fr": "Ta sœur ? Je l'ai vue hier.",
-                  "en": "Your sister? I saw her yesterday."
+                  "cs": "Tvoje sestra? Viděl jsem ji včera."
                 },
                 {
                   "fr": "Les photos ? Je les ai prises à Paris.",
-                  "en": "The photos? I took them in Paris."
+                  "cs": "Fotky? Fotil jsem je v Paříži."
                 },
                 {
                   "fr": "La porte ? Il ne l'a pas ouverte.",
-                  "en": "The door? He didn't open it."
+                  "cs": "Dveře? Neotevřel je."
                 },
                 {
                   "fr": "Tes lunettes, tu les as trouvées ?",
-                  "en": "Your glasses, did you find them?"
+                  "cs": "Tvoje brýle, našel jsi je?"
                 }
               ]
             }
@@ -1615,7 +1615,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai acheté [le pain].",
           "a": [
             "Je l'ai acheté."
@@ -1624,7 +1624,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu as vu [la nouvelle série] ?",
           "a": [
             "Tu l'as vue ?"
@@ -1633,7 +1633,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous avons invité [nos cousins].",
           "a": [
             "Nous les avons invités."
@@ -1642,7 +1642,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle a mis [la robe rouge].",
           "a": [
             "Elle l'a mise."
@@ -1651,7 +1651,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Ils ont fait [les exercices].",
           "a": [
             "Ils les ont faits."
@@ -1660,7 +1660,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai écrit [la lettre].",
           "a": [
             "Je l'ai écrite."
@@ -1669,7 +1669,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Vous avez pris [les photos] ?",
           "a": [
             "Vous les avez prises ?"
@@ -1678,7 +1678,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je n'ai pas compris [la question].",
           "a": [
             "Je ne l'ai pas comprise."
@@ -1687,7 +1687,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-09",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il n'a jamais lu [ces livres].",
           "a": [
             "Il ne les a jamais lus."
@@ -1696,7 +1696,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-10",
           "type": "build",
-          "en": "I saw her yesterday.",
+          "cs": "Viděl jsem ji včera.",
           "a": [
             "Je l'ai vue hier.",
             "Hier, je l'ai vue."
@@ -1705,7 +1705,7 @@
         {
           "id": "g-pp-05-cod-passe-compose-11",
           "type": "build",
-          "en": "Did you find them? (the keys)",
+          "cs": "Našel jsi je? (ty klíče)",
           "a": [
             "Tu les as trouvées ?",
             "Est-ce que tu les as trouvées ?",
@@ -1719,7 +1719,7 @@
     },
     {
       "id": "pp-06-coi-present",
-      "title": "Step 6: lui, leur in simple tenses and with an infinitive",
+      "title": "Krok 6: lui, leur v jednoduchých časech a s infinitivem",
       "fr": "le COI : lui, leur",
       "level": "A2",
       "keywords": [
@@ -1744,16 +1744,16 @@
         {
           "set": "pronouns",
           "tag": "indirect",
-          "label": "Drill lui, leur"
+          "label": "Dril lui, leur"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*Lui* (one person) and *leur* (several people) replace **à + a person**. They go in **the same places** as *le, la, les*: before the conjugated verb, or before the infinitive."
+              "cs": "*Lui* (jedna osoba) a *leur* (více osob) nahrazují **à + osobu**. Stojí **na stejných místech** jako *le, la, les*: před časovaným slovesem nebo před infinitivem."
             },
             {
               "type": "pattern",
@@ -1777,7 +1777,7 @@
                       "Marie."
                     ]
                   ],
-                  "en": "I talk to Marie."
+                  "cs": "Mluvím s Marií."
                 },
                 {
                   "parts": [
@@ -1794,7 +1794,7 @@
                       "parle."
                     ]
                   ],
-                  "en": "I talk to her."
+                  "cs": "Mluvím s ní."
                 },
                 {
                   "parts": [
@@ -1815,7 +1815,7 @@
                       "téléphoner."
                     ]
                   ],
-                  "en": "I'm going to call them."
+                  "cs": "Zavolám jim."
                 }
               ],
               "formula": [
@@ -1827,63 +1827,63 @@
           ]
         },
         {
-          "title": "Verbs with à + person",
+          "title": "Slovesa s à + osoba",
           "blocks": [
             {
               "type": "text",
-              "en": "Verbs of giving and communicating usually take *à* + person: you give something **to** someone, you say something **to** someone."
+              "cs": "Slovesa dávání a komunikace mají obvykle *à* + osobu: něco dáváš **někomu**, něco říkáš **někomu**."
             },
             {
               "type": "table",
               "head": [
-                "verb",
-                "meaning",
-                "example"
+                "sloveso",
+                "význam",
+                "příklad"
               ],
               "rows": [
                 [
                   "parler à",
-                  "talk to",
+                  "mluvit s",
                   "Je lui parle."
                 ],
                 [
                   "téléphoner à",
-                  "call",
+                  "volat",
                   "Je leur téléphone."
                 ],
                 [
                   "répondre à",
-                  "answer",
+                  "odpovědět",
                   "Il lui répond."
                 ],
                 [
                   "dire à",
-                  "tell, say to",
+                  "říct komu",
                   "Je lui dis bonjour."
                 ],
                 [
                   "donner à, offrir à",
-                  "give to",
+                  "dát komu",
                   "Je lui donne un livre."
                 ],
                 [
                   "écrire à, envoyer à",
-                  "write to, send to",
+                  "psát komu, poslat komu",
                   "Elle leur écrit."
                 ],
                 [
                   "demander à",
-                  "ask",
+                  "zeptat se, požádat",
                   "Je lui demande l'heure."
                 ],
                 [
                   "montrer à, expliquer à",
-                  "show, explain to",
+                  "ukázat, vysvětlit komu",
                   "Il leur explique la règle."
                 ],
                 [
                   "ressembler à",
-                  "look like",
+                  "podobat se",
                   "Tu lui ressembles."
                 ]
               ],
@@ -1895,7 +1895,7 @@
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je téléphone [à ma grand-mère].",
                 "a": [
                   "Je lui téléphone."
@@ -1905,26 +1905,26 @@
           ]
         },
         {
-          "title": "Lui for him and her, leur for them",
+          "title": "Lui pro jeho i ji, leur pro ně",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I talk to him.",
+                  "cs": "Mluvím s ním.",
                   "fr": "Je [[lui]] parle."
                 },
                 {
-                  "en": "I talk to her.",
+                  "cs": "Mluvím s ní.",
                   "wrong": "Je la parle.",
                   "fr": "Je [[lui]] parle.",
-                  "note": "parler à + person: lui for a woman too"
+                  "note": "parler à + osoba: lui i pro ženu"
                 },
                 {
-                  "en": "I write to them.",
+                  "cs": "Píšu jim.",
                   "wrong": "Je leurs écris.",
                   "fr": "Je [[leur]] écris.",
-                  "note": "leur never takes an -s"
+                  "note": "leur nikdy nemá -s"
                 }
               ]
             },
@@ -1932,7 +1932,7 @@
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Il répond [à ses parents].",
                 "a": [
                   "Il leur répond."
@@ -1942,17 +1942,17 @@
           ]
         },
         {
-          "title": "With an infinitive",
+          "title": "S infinitivem",
           "blocks": [
             {
               "type": "text",
-              "en": "Exactly like step 3: the pronoun goes right before the infinitive. *Je vais lui écrire. Tu peux leur répondre ?*"
+              "cs": "Přesně jako v kroku 3: zájmeno stojí těsně před infinitivem. *Je vais lui écrire. Tu peux leur répondre ?*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je vais écrire [à Paul].",
                 "a": [
                   "Je vais lui écrire."
@@ -1962,44 +1962,44 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "*Téléphoner à, répondre à, ressembler à, obéir à, demander à* have *à* in French but nothing in English.",
-              "title": "Different from English"
+              "cs": "*Téléphoner à, répondre à, ressembler à, obéir à, demander à* mají ve francouzštině *à*, česky jde o 3. pád (komu) bez předložky.",
+              "title": "Jinak než v češtině"
             },
             {
               "type": "tip",
-              "en": "*Lui, leur* are for people (and animals). *À* + a thing or a place is *y* (step 10)."
+              "cs": "*Lui, leur* jsou pro lidi (a zvířata). *À* + věc nebo místo je *y* (krok 10)."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ton prof ? Je lui parle après le cours.",
-                  "en": "Your teacher? I talk to him after class."
+                  "cs": "Tvůj učitel? Mluvím s ním po hodině."
                 },
                 {
                   "fr": "Tes amis ? Je leur écris tous les jours.",
-                  "en": "Your friends? I write to them every day."
+                  "cs": "Tvoji kamarádi? Píšu jim každý den."
                 },
                 {
                   "fr": "Ma mère ? Je lui donne des fleurs.",
-                  "en": "My mother? I give her flowers."
+                  "cs": "Moje máma? Dávám jí květiny."
                 },
                 {
                   "fr": "Les voisins ? Nous leur disons bonjour.",
-                  "en": "The neighbours? We say hello to them."
+                  "cs": "Sousedi? Zdravíme je."
                 },
                 {
                   "fr": "Ta sœur ? Je vais lui téléphoner ce soir.",
-                  "en": "Your sister? I'm going to call her tonight."
+                  "cs": "Tvoje sestra? Dnes večer jí zavolám."
                 }
               ]
             }
@@ -2010,7 +2010,7 @@
         {
           "id": "g-pp-06-coi-present-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je parle [à mon prof].",
           "a": [
             "Je lui parle."
@@ -2019,7 +2019,7 @@
         {
           "id": "g-pp-06-coi-present-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle téléphone [à ses amies].",
           "a": [
             "Elle leur téléphone."
@@ -2028,7 +2028,7 @@
         {
           "id": "g-pp-06-coi-present-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous écrivons [à notre oncle].",
           "a": [
             "Nous lui écrivons."
@@ -2037,7 +2037,7 @@
         {
           "id": "g-pp-06-coi-present-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu donnes le livre [à Léa] ?",
           "a": [
             "Tu lui donnes le livre ?"
@@ -2046,7 +2046,7 @@
         {
           "id": "g-pp-06-coi-present-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il dit bonjour [aux voisins].",
           "a": [
             "Il leur dit bonjour."
@@ -2055,7 +2055,7 @@
         {
           "id": "g-pp-06-coi-present-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je ressemble [à mon père].",
           "a": [
             "Je lui ressemble."
@@ -2064,7 +2064,7 @@
         {
           "id": "g-pp-06-coi-present-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Vous expliquez la règle [aux élèves].",
           "a": [
             "Vous leur expliquez la règle."
@@ -2073,7 +2073,7 @@
         {
           "id": "g-pp-06-coi-present-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je vais téléphoner [à Chloé].",
           "a": [
             "Je vais lui téléphoner."
@@ -2082,7 +2082,7 @@
         {
           "id": "g-pp-06-coi-present-09",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu peux répondre [à tes parents] ?",
           "a": [
             "Tu peux leur répondre ?"
@@ -2091,7 +2091,7 @@
         {
           "id": "g-pp-06-coi-present-10",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous voulons offrir un cadeau [à notre mère].",
           "a": [
             "Nous voulons lui offrir un cadeau."
@@ -2100,7 +2100,7 @@
         {
           "id": "g-pp-06-coi-present-11",
           "type": "build",
-          "en": "I'm going to write to them.",
+          "cs": "Napíšu jim.",
           "a": [
             "Je vais leur écrire."
           ]
@@ -2108,7 +2108,7 @@
         {
           "id": "g-pp-06-coi-present-12",
           "type": "build",
-          "en": "She sends him a message.",
+          "cs": "Posílá mu zprávu.",
           "a": [
             "Elle lui envoie un message."
           ]
@@ -2117,7 +2117,7 @@
     },
     {
       "id": "pp-07-coi-past-negative",
-      "title": "Step 7: lui, leur in negatives, questions and the passé composé",
+      "title": "Krok 7: lui, leur v záporu, otázkách a passé composé",
       "fr": "le COI, la négation et le passé composé",
       "level": "A2",
       "keywords": [
@@ -2141,16 +2141,16 @@
         {
           "set": "pronouns",
           "tag": "indirect",
-          "label": "Drill lui, leur"
+          "label": "Dril lui, leur"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*Lui* and *leur* follow the same places as *le, la, les*: *ne* before the pronoun, the pronoun before the auxiliary. One big difference: in the passé composé there is **no agreement**, because *lui* and *leur* are not COD."
+              "cs": "*Lui* a *leur* stojí na stejných místech jako *le, la, les*: *ne* před zájmenem, zájmeno před pomocným slovesem. Jeden velký rozdíl: v passé composé **žádná shoda**, protože *lui* a *leur* nejsou COD."
             },
             {
               "type": "pattern",
@@ -2174,7 +2174,7 @@
                       "parlé."
                     ]
                   ],
-                  "en": "I talked to her."
+                  "cs": "Mluvil jsem s ní."
                 },
                 {
                   "parts": [
@@ -2203,7 +2203,7 @@
                       "parlé."
                     ]
                   ],
-                  "en": "I didn't talk to her."
+                  "cs": "Nemluvil jsem s ní."
                 }
               ],
               "formula": [
@@ -2218,17 +2218,17 @@
           ]
         },
         {
-          "title": "Negative",
+          "title": "Zápor",
           "blocks": [
             {
               "type": "text",
-              "en": "*Ne* goes in front of the pronoun, *pas* after the verb: *Je ne lui parle pas.* With an infinitive: *Je ne vais pas lui parler.*"
+              "cs": "*Ne* stojí před zájmenem, *pas* za slovesem: *Je ne lui parle pas.* S infinitivem: *Je ne vais pas lui parler.*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je ne parle pas [à Marc].",
                 "a": [
                   "Je ne lui parle pas."
@@ -2238,17 +2238,17 @@
           ]
         },
         {
-          "title": "Questions",
+          "title": "Otázky",
           "blocks": [
             {
               "type": "text",
-              "en": "*Tu lui parles ? Est-ce que tu lui parles ?* With inversion the pronoun stays in front: *Lui parles-tu ?*"
+              "cs": "*Tu lui parles ? Est-ce que tu lui parles ?* Při inverzi zůstává zájmeno vpředu: *Lui parles-tu ?*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Ask the question with inversion",
+                "task_cs": "Polož otázku inverzí",
                 "fr": "Tu leur écris.",
                 "a": [
                   "Leur écris-tu ?"
@@ -2258,21 +2258,21 @@
           ]
         },
         {
-          "title": "Passé composé: no agreement",
+          "title": "Passé composé: žádná shoda",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I saw her.",
+                  "cs": "Viděl jsem ji.",
                   "fr": "Je l'ai [[vue]].",
-                  "note": "COD in front: agreement"
+                  "note": "COD vpředu: shoda"
                 },
                 {
-                  "en": "I talked to her.",
+                  "cs": "Mluvil jsem s ní.",
                   "wrong": "Je lui ai parlée.",
                   "fr": "Je lui ai [[parlé]].",
-                  "note": "COI: no agreement"
+                  "note": "COI: žádná shoda"
                 }
               ]
             },
@@ -2280,7 +2280,7 @@
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "J'ai téléphoné [à ma tante].",
                 "a": [
                   "Je lui ai téléphoné."
@@ -2290,39 +2290,39 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "*Appeler* (COD) and *téléphoner à* (COI) mean the same thing but take different pronouns: *Je l'ai appelée* but *Je lui ai téléphoné*."
+              "cs": "*Appeler* (COD) a *téléphoner à* (COI) znamenají totéž, ale mají různá zájmena: *Je l'ai appelée*, ale *Je lui ai téléphoné*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ton frère ? Je ne lui parle plus.",
-                  "en": "Your brother? I don't talk to him anymore."
+                  "cs": "Tvůj bratr? Už s ním nemluvím."
                 },
                 {
                   "fr": "Tes grands-parents, tu leur écris ?",
-                  "en": "Your grandparents, do you write to them?"
+                  "cs": "Babička a děda, píšeš jim?"
                 },
                 {
                   "fr": "Ma prof ? Je lui ai posé une question.",
-                  "en": "My teacher? I asked her a question."
+                  "cs": "Moje učitelka? Položil jsem jí otázku."
                 },
                 {
                   "fr": "Mes parents ? Je ne leur ai pas dit la vérité.",
-                  "en": "My parents? I didn't tell them the truth."
+                  "cs": "Moji rodiče? Neřekl jsem jim pravdu."
                 },
                 {
                   "fr": "Léa ? Je vais lui répondre demain.",
-                  "en": "Léa? I'm going to answer her tomorrow."
+                  "cs": "Léa? Odpovím jí zítra."
                 }
               ]
             }
@@ -2333,7 +2333,7 @@
         {
           "id": "g-pp-07-coi-past-negative-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je ne réponds pas [à Hugo].",
           "a": [
             "Je ne lui réponds pas."
@@ -2342,7 +2342,7 @@
         {
           "id": "g-pp-07-coi-past-negative-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle ne parle plus [à ses cousins].",
           "a": [
             "Elle ne leur parle plus."
@@ -2351,7 +2351,7 @@
         {
           "id": "g-pp-07-coi-past-negative-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu ne vas pas écrire [à Julie] ?",
           "a": [
             "Tu ne vas pas lui écrire ?"
@@ -2360,7 +2360,7 @@
         {
           "id": "g-pp-07-coi-past-negative-04",
           "type": "transform",
-          "task_en": "Ask the question with inversion",
+          "task_cs": "Polož otázku inverzí",
           "fr": "Vous lui téléphonez.",
           "a": [
             "Lui téléphonez-vous ?"
@@ -2369,7 +2369,7 @@
         {
           "id": "g-pp-07-coi-past-negative-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai parlé [à la directrice].",
           "a": [
             "Je lui ai parlé."
@@ -2378,7 +2378,7 @@
         {
           "id": "g-pp-07-coi-past-negative-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous avons écrit [à nos grands-parents].",
           "a": [
             "Nous leur avons écrit."
@@ -2387,7 +2387,7 @@
         {
           "id": "g-pp-07-coi-past-negative-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il a donné son numéro [à Emma].",
           "a": [
             "Il lui a donné son numéro."
@@ -2396,7 +2396,7 @@
         {
           "id": "g-pp-07-coi-past-negative-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elles ont dit la vérité [à leurs parents].",
           "a": [
             "Elles leur ont dit la vérité."
@@ -2405,7 +2405,7 @@
         {
           "id": "g-pp-07-coi-past-negative-09",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je n'ai pas répondu [à ma sœur].",
           "a": [
             "Je ne lui ai pas répondu."
@@ -2414,7 +2414,7 @@
         {
           "id": "g-pp-07-coi-past-negative-10",
           "type": "build",
-          "en": "I called her yesterday.",
+          "cs": "Včera jsem jí volal.",
           "a": [
             "Je lui ai téléphoné hier.",
             "Hier, je lui ai téléphoné.",
@@ -2425,7 +2425,7 @@
         {
           "id": "g-pp-07-coi-past-negative-11",
           "type": "build",
-          "en": "We didn't answer them.",
+          "cs": "Neodpověděli jsme jim.",
           "a": [
             "Nous ne leur avons pas répondu.",
             "On ne leur a pas répondu."
@@ -2435,7 +2435,7 @@
     },
     {
       "id": "pp-08-le-or-lui",
-      "title": "Step 8: le or lui? Mixing COD and COI",
+      "title": "Krok 8: le, nebo lui? Míchání COD a COI",
       "fr": "COD ou COI ?",
       "level": "A2",
       "keywords": [
@@ -2457,26 +2457,26 @@
         {
           "set": "pronouns",
           "tag": "mixed",
-          "label": "Drill: which pronoun?"
+          "label": "Dril: které zájmeno?"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Now mix the two. Ask one question: **does the verb take *à* before the person?** Yes → *lui / leur*. No → *le / la / les*. *Je le vois* (I see him), but *Je lui parle* (I talk to him)."
+              "cs": "Teď obojí smíchej. Polož si jednu otázku: **má sloveso před osobou *à*?** Ano → *lui / leur*. Ne → *le / la / les*. *Je le vois* (vidím ho), ale *Je lui parle* (mluvím s ním)."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I see him.",
+                  "cs": "Vidím ho.",
                   "fr": "Je [[le]] vois."
                 },
                 {
-                  "en": "I talk to him.",
+                  "cs": "Mluvím s ním.",
                   "fr": "Je [[lui]] parle."
                 }
               ]
@@ -2484,13 +2484,13 @@
           ]
         },
         {
-          "title": "The test, verb by verb",
+          "title": "Test, sloveso po slovesu",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "COD: no preposition",
-                "COI: à + person"
+                "COD: bez předložky",
+                "COI: à + osoba"
               ],
               "rows": [
                 [
@@ -2536,17 +2536,17 @@
           ]
         },
         {
-          "title": "One verb, two objects",
+          "title": "Jedno sloveso, dva předměty",
           "blocks": [
             {
               "type": "text",
-              "en": "Many verbs take both: *donner* **quelque chose** (COD) **à quelqu'un** (COI). Each one has its own pronoun: *Je donne le livre à Paul → Je le donne à Paul* or *Je lui donne le livre*. Both at once is step 14."
+              "cs": "Spousta sloves má obojí: *donner* **quelque chose** (COD) **à quelqu'un** (COI). Každý má své zájmeno: *Je donne le livre à Paul → Je le donne à Paul* nebo *Je lui donne le livre*. Obojí najednou je krok 14."
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je montre [les photos] à Léo.",
                 "a": [
                   "Je les montre à Léo."
@@ -2556,39 +2556,39 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "Same meaning, different pronoun: *Je l'appelle* / *Je lui téléphone*, *Je l'aide* / *Je lui donne un coup de main*."
+              "cs": "Stejný význam, jiné zájmeno: *Je l'appelle* / *Je lui téléphone*, *Je l'aide* / *Je lui donne un coup de main*."
             },
             {
               "type": "tip",
-              "en": "Agreement in the passé composé only for the COD: *Je l'ai invitée* but *Je lui ai souri*."
+              "cs": "Shoda v passé composé jen u COD: *Je l'ai invitée*, ale *Je lui ai souri*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ma mère ? Je l'appelle et je lui raconte tout.",
-                  "en": "My mother? I call her and tell her everything."
+                  "cs": "Moje máma? Volám jí a všechno jí říkám."
                 },
                 {
                   "fr": "Le prof ? Je l'écoute et je lui pose des questions.",
-                  "en": "The teacher? I listen to him and ask him questions."
+                  "cs": "Učitel? Poslouchám ho a kladu mu otázky."
                 },
                 {
                   "fr": "Mes amis ? Je les attends et je leur envoie un message.",
-                  "en": "My friends? I wait for them and send them a message."
+                  "cs": "Moji kamarádi? Čekám na ně a posílám jim zprávu."
                 },
                 {
                   "fr": "Sophie ? Je l'ai invitée et je lui ai donné l'adresse.",
-                  "en": "Sophie? I invited her and gave her the address."
+                  "cs": "Sophie? Pozval jsem ji a dal jsem jí adresu."
                 }
               ]
             }
@@ -2615,7 +2615,7 @@
         {
           "id": "g-pp-08-le-or-lui-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'appelle [ma mère].",
           "a": [
             "Je l'appelle."
@@ -2624,7 +2624,7 @@
         {
           "id": "g-pp-08-le-or-lui-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je téléphone [à ma mère].",
           "a": [
             "Je lui téléphone."
@@ -2633,7 +2633,7 @@
         {
           "id": "g-pp-08-le-or-lui-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous attendons [nos amis].",
           "a": [
             "Nous les attendons."
@@ -2642,7 +2642,7 @@
         {
           "id": "g-pp-08-le-or-lui-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous écrivons [à nos amis].",
           "a": [
             "Nous leur écrivons."
@@ -2651,7 +2651,7 @@
         {
           "id": "g-pp-08-le-or-lui-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il remercie [la prof].",
           "a": [
             "Il la remercie."
@@ -2660,7 +2660,7 @@
         {
           "id": "g-pp-08-le-or-lui-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il pose une question [à la prof].",
           "a": [
             "Il lui pose une question."
@@ -2669,7 +2669,7 @@
         {
           "id": "g-pp-08-le-or-lui-09",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je vais aider [mes parents].",
           "a": [
             "Je vais les aider."
@@ -2678,7 +2678,7 @@
         {
           "id": "g-pp-08-le-or-lui-10",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je vais répondre [à mes parents].",
           "a": [
             "Je vais leur répondre."
@@ -2687,7 +2687,7 @@
         {
           "id": "g-pp-08-le-or-lui-11",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai invité [Sophie].",
           "a": [
             "Je l'ai invitée."
@@ -2696,7 +2696,7 @@
         {
           "id": "g-pp-08-le-or-lui-12",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai souri [à Sophie].",
           "a": [
             "Je lui ai souri."
@@ -2705,7 +2705,7 @@
         {
           "id": "g-pp-08-le-or-lui-13",
           "type": "build",
-          "en": "I'm listening to her.",
+          "cs": "Poslouchám ji.",
           "a": [
             "Je l'écoute."
           ]
@@ -2713,7 +2713,7 @@
         {
           "id": "g-pp-08-le-or-lui-14",
           "type": "build",
-          "en": "I'm asking her.",
+          "cs": "Ptám se jí.",
           "a": [
             "Je lui demande."
           ]
@@ -2722,7 +2722,7 @@
     },
     {
       "id": "pp-09-me-te-nous-vous",
-      "title": "Step 9: me, te, nous, vous (and se)",
+      "title": "Krok 9: me, te, nous, vous (a se)",
       "fr": "me, te, nous, vous, se",
       "level": "A2",
       "keywords": [
@@ -2746,34 +2746,34 @@
         {
           "set": "pronouns",
           "tag": "me-te",
-          "label": "Drill me, te, nous, vous"
+          "label": "Dril me, te, nous, vous"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "For *me, you, us, you* French uses **one form for both COD and COI**: *me, te, nous, vous*. So you don't have to check the preposition, only the place. *Me* and *te* become **m'**, **t'** before a vowel."
+              "cs": "Pro *mě, tě, nás, vás* má francouzština **jeden tvar pro COD i COI**: *me, te, nous, vous*. Nemusíš tedy kontrolovat předložku, jen místo. *Me* a *te* se před samohláskou mění na **m'**, **t'**."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "He sees me.",
+                  "cs": "Vidí mě.",
                   "fr": "Il [[me]] voit."
                 },
                 {
-                  "en": "He talks to me.",
+                  "cs": "Mluví se mnou.",
                   "fr": "Il [[me]] parle."
                 },
                 {
-                  "en": "I'll call you.",
+                  "cs": "Zavolám ti.",
                   "fr": "Je [[t']]appelle."
                 },
                 {
-                  "en": "She writes to us.",
+                  "cs": "Píše nám.",
                   "fr": "Elle [[nous]] écrit."
                 }
               ]
@@ -2781,25 +2781,25 @@
           ]
         },
         {
-          "title": "Same places as before",
+          "title": "Stejná místa jako předtím",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "situation",
-                "example"
+                "situace",
+                "příklad"
               ],
               "rows": [
                 [
-                  "simple tense",
+                  "jednoduchý čas",
                   "Il me regarde."
                 ],
                 [
-                  "infinitive",
+                  "infinitiv",
                   "Tu peux m'aider ?"
                 ],
                 [
-                  "negative",
+                  "zápor",
                   "Je ne te crois pas."
                 ],
                 [
@@ -2807,7 +2807,7 @@
                   "Il nous a invités."
                 ],
                 [
-                  "question",
+                  "otázka",
                   "Tu m'entends ?"
                 ]
               ],
@@ -2819,7 +2819,7 @@
               "type": "check",
               "item": {
                 "type": "build",
-                "en": "She loves me.",
+                "cs": "Miluje mě.",
                 "a": [
                   "Elle m'aime."
                 ]
@@ -2828,17 +2828,17 @@
           ]
         },
         {
-          "title": "Agreement in the passé composé",
+          "title": "Shoda v passé composé",
           "blocks": [
             {
               "type": "text",
-              "en": "When *me, te, nous, vous* are a **COD**, the participle agrees with the person they stand for: Marie says *Il m'a vue*. *Ils nous ont invités.* When they are a **COI** (*parler à, téléphoner à*), no agreement: *Elle nous a parlé.*"
+              "cs": "Když jsou *me, te, nous, vous* **COD**, příčestí se shoduje s osobou, kterou zastupují: Marie říká *Il m'a vue*. *Ils nous ont invités.* Když jsou **COI** (*parler à, téléphoner à*), žádná shoda: *Elle nous a parlé.*"
             },
             {
               "type": "check",
               "item": {
                 "type": "build",
-                "en": "Marie says: \"He saw me.\"",
+                "cs": "Marie říká: \"Viděl mě.\"",
                 "a": [
                   "Il m'a vue."
                 ]
@@ -2847,11 +2847,11 @@
           ]
         },
         {
-          "title": "Se: the reflexive",
+          "title": "Se: zvratné zájmeno",
           "blocks": [
             {
               "type": "text",
-              "en": "*Se (s')* is for the subject doing something to itself: *il se lave, elle s'appelle*. It sits in the same place as the other pronouns: *Il ne se lève pas. Elle va se coucher. Elle s'est levée.*"
+              "cs": "*Se (s')* je pro podmět, který něco dělá sám sobě: *il se lave, elle s'appelle*. Stojí na stejném místě jako ostatní zájmena: *Il ne se lève pas. Elle va se coucher. Elle s'est levée.*"
             },
             {
               "type": "see",
@@ -2862,30 +2862,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu me prêtes ton stylo ?",
-                  "en": "Will you lend me your pen?"
+                  "cs": "Půjčíš mi propisku?"
                 },
                 {
                   "fr": "Je t'attends devant le cinéma.",
-                  "en": "I'm waiting for you in front of the cinema."
+                  "cs": "Čekám na tebe před kinem."
                 },
                 {
                   "fr": "Le prof nous a expliqué la règle.",
-                  "en": "The teacher explained the rule to us."
+                  "cs": "Učitel nám vysvětlil to pravidlo."
                 },
                 {
                   "fr": "Je vais vous montrer ma chambre.",
-                  "en": "I'm going to show you my room."
+                  "cs": "Ukážu ti svůj pokoj."
                 },
                 {
                   "fr": "Elle ne m'a pas répondu.",
-                  "en": "She didn't answer me."
+                  "cs": "Neodpověděla mi."
                 }
               ]
             }
@@ -2896,7 +2896,7 @@
         {
           "id": "g-pp-09-me-te-nous-vous-01",
           "type": "build",
-          "en": "He's looking at me.",
+          "cs": "Dívá se na mě.",
           "a": [
             "Il me regarde."
           ]
@@ -2904,7 +2904,7 @@
         {
           "id": "g-pp-09-me-te-nous-vous-02",
           "type": "build",
-          "en": "I'll call you tomorrow. (tu)",
+          "cs": "Zítra ti zavolám. (tu)",
           "a": [
             "Je t'appelle demain.",
             "Demain, je t'appelle.",
@@ -2915,7 +2915,7 @@
         {
           "id": "g-pp-09-me-te-nous-vous-03",
           "type": "build",
-          "en": "She talks to us.",
+          "cs": "Mluví s námi.",
           "a": [
             "Elle nous parle."
           ]
@@ -2923,7 +2923,7 @@
         {
           "id": "g-pp-09-me-te-nous-vous-04",
           "type": "build",
-          "en": "I don't believe you. (vous)",
+          "cs": "Nevěřím vám. (vous)",
           "a": [
             "Je ne vous crois pas."
           ]
@@ -2931,7 +2931,7 @@
         {
           "id": "g-pp-09-me-te-nous-vous-05",
           "type": "build",
-          "en": "Can you hear me?",
+          "cs": "Slyšíš mě?",
           "a": [
             "Tu m'entends ?",
             "Est-ce que tu m'entends ?",
@@ -2944,7 +2944,7 @@
         {
           "id": "g-pp-09-me-te-nous-vous-06",
           "type": "build",
-          "en": "Can you help me?",
+          "cs": "Můžeš mi pomoct?",
           "a": [
             "Tu peux m'aider ?",
             "Est-ce que tu peux m'aider ?",
@@ -2957,7 +2957,7 @@
         {
           "id": "g-pp-09-me-te-nous-vous-07",
           "type": "build",
-          "en": "I'm going to tell you a story. (tu)",
+          "cs": "Povím ti příběh. (tu)",
           "a": [
             "Je vais te raconter une histoire."
           ]
@@ -2965,7 +2965,7 @@
         {
           "id": "g-pp-09-me-te-nous-vous-08",
           "type": "build",
-          "en": "He wrote to me.",
+          "cs": "Napsal mi.",
           "a": [
             "Il m'a écrit."
           ]
@@ -2973,7 +2973,7 @@
         {
           "id": "g-pp-09-me-te-nous-vous-09",
           "type": "build",
-          "en": "They invited us.",
+          "cs": "Pozvali nás.",
           "a": [
             "Ils nous ont {invités|invitées}.",
             "Elles nous ont {invités|invitées}."
@@ -2982,7 +2982,7 @@
         {
           "id": "g-pp-09-me-te-nous-vous-10",
           "type": "transform",
-          "task_en": "Put it in the passé composé",
+          "task_cs": "Dej to do passé composé",
           "fr": "Tu me téléphones.",
           "a": [
             "Tu m'as téléphoné."
@@ -2992,7 +2992,7 @@
     },
     {
       "id": "pp-10-y",
-      "title": "Step 10: y for places and à + thing",
+      "title": "Krok 10: y pro místa a à + věc",
       "fr": "le pronom y",
       "level": "A2",
       "keywords": [
@@ -3014,16 +3014,16 @@
         {
           "set": "pronouns",
           "tag": "y",
-          "label": "Drill y"
+          "label": "Dril y"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*Y* replaces **à + a thing or an idea** (*penser à l'examen*) and **a place** introduced by *à, en, dans, sur, chez* (*aller à Paris, être dans la chambre*). It goes in the usual spot: before the conjugated verb, or before the infinitive."
+              "cs": "*Y* nahrazuje **à + věc nebo myšlenku** (*penser à l'examen*) a **místo** uvedené pomocí *à, en, dans, sur, chez* (*aller à Paris, être dans la chambre*). Stojí na obvyklém místě: před časovaným slovesem nebo před infinitivem."
             },
             {
               "type": "pattern",
@@ -3043,7 +3043,7 @@
                       "à Paris."
                     ]
                   ],
-                  "en": "I'm going to Paris."
+                  "cs": "Jedu do Paříže."
                 },
                 {
                   "parts": [
@@ -3060,7 +3060,7 @@
                       "vais."
                     ]
                   ],
-                  "en": "I'm going there."
+                  "cs": "Jedu tam."
                 }
               ],
               "formula": [
@@ -3072,13 +3072,13 @@
           ]
         },
         {
-          "title": "Places",
+          "title": "Místa",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "sentence",
-                "with y"
+                "věta",
+                "s y"
               ],
               "rows": [
                 [
@@ -3103,7 +3103,7 @@
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Nous allons [au cinéma].",
                 "a": [
                   "Nous y allons."
@@ -3113,17 +3113,17 @@
           ]
         },
         {
-          "title": "À + thing",
+          "title": "À + věc",
           "blocks": [
             {
               "type": "text",
-              "en": "Verbs with *à* + a thing: *penser à, réfléchir à, répondre à* (a letter, a question), *jouer à* (a game), *s'intéresser à, participer à, croire à*."
+              "cs": "Slovesa s *à* + věc: *penser à, réfléchir à, répondre à* (na dopis, na otázku), *jouer à* (hru), *s'intéresser à, participer à, croire à*."
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je réfléchis [à ta question].",
                 "a": [
                   "J'y réfléchis."
@@ -3133,25 +3133,25 @@
           ]
         },
         {
-          "title": "In every situation",
+          "title": "Ve všech situacích",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "situation",
-                "example"
+                "situace",
+                "příklad"
               ],
               "rows": [
                 [
-                  "simple tense",
+                  "jednoduchý čas",
                   "J'y vais."
                 ],
                 [
-                  "infinitive",
+                  "infinitiv",
                   "Je vais y aller."
                 ],
                 [
-                  "negative",
+                  "zápor",
                   "Je n'y vais pas."
                 ],
                 [
@@ -3159,7 +3159,7 @@
                   "J'y suis allé."
                 ],
                 [
-                  "question",
+                  "otázka",
                   "Tu y vas ? Y vas-tu ?"
                 ]
               ],
@@ -3169,13 +3169,13 @@
             },
             {
               "type": "text",
-              "en": "No agreement with *y*. In *Elle y est allée* the *-e* comes from *être* and the subject *elle*, not from *y*."
+              "cs": "S *y* žádná shoda. V *Elle y est allée* je *-e* kvůli *être* a podmětu *elle*, ne kvůli *y*."
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je ne suis jamais allé [en Italie].",
                 "a": [
                   "Je n'y suis jamais allé."
@@ -3185,47 +3185,47 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "*À* + a person is *lui / leur*, not *y*: *Je lui réponds* (to Paul) but *J'y réponds* (to the email)."
+              "cs": "*À* + osoba je *lui / leur*, ne *y*: *Je lui réponds* (Paulovi), ale *J'y réponds* (na e-mail)."
             },
             {
               "type": "tip",
-              "en": "Before *irai, irais* (future and conditional of *aller*) French drops *y* for the sound: *Tu vas à Paris ? Oui, j'irai demain.*"
+              "cs": "Před *irai, irais* (budoucí čas a kondicionál od *aller*) francouzština kvůli zvuku *y* vynechává: *Tu vas à Paris ? Oui, j'irai demain.*"
             },
             {
               "type": "tip",
-              "en": "*Penser à, s'intéresser à* + a person keep *à* + a stressed pronoun: *Je pense à elle* (step 12)."
+              "cs": "*Penser à, s'intéresser à* + osoba si nechávají *à* + samostatné zájmeno: *Je pense à elle* (krok 12)."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu vas à la piscine ? Oui, j'y vais samedi.",
-                  "en": "Are you going to the pool? Yes, I'm going on Saturday."
+                  "cs": "Jdeš na plavání? Jo, jdu tam v sobotu."
                 },
                 {
                   "fr": "L'examen ? Je n'y pense pas.",
-                  "en": "The exam? I'm not thinking about it."
+                  "cs": "Zkouška? Nemyslím na ni."
                 },
                 {
                   "fr": "Lyon ? Nous y avons habité deux ans.",
-                  "en": "Lyon? We lived there for two years."
+                  "cs": "Lyon? Bydleli jsme tam dva roky."
                 },
                 {
                   "fr": "Le concert ? Je vais y aller avec Paul.",
-                  "en": "The concert? I'm going with Paul."
+                  "cs": "Koncert? Jdu tam s Paulem."
                 },
                 {
                   "fr": "Ton message ? J'y ai déjà répondu.",
-                  "en": "Your message? I've already answered it."
+                  "cs": "Tvoje zpráva? Už jsem na ni odpověděl."
                 }
               ]
             }
@@ -3236,7 +3236,7 @@
         {
           "id": "g-pp-10-y-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je vais [à la piscine].",
           "a": [
             "J'y vais."
@@ -3245,7 +3245,7 @@
         {
           "id": "g-pp-10-y-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle habite [à Lyon].",
           "a": [
             "Elle y habite."
@@ -3254,7 +3254,7 @@
         {
           "id": "g-pp-10-y-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Les clés sont [dans mon sac].",
           "a": [
             "Les clés y sont."
@@ -3263,7 +3263,7 @@
         {
           "id": "g-pp-10-y-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous dormons [chez ma tante].",
           "a": [
             "Nous y dormons."
@@ -3272,7 +3272,7 @@
         {
           "id": "g-pp-10-y-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu penses [à tes vacances] ?",
           "a": [
             "Tu y penses ?"
@@ -3281,7 +3281,7 @@
         {
           "id": "g-pp-10-y-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il joue [aux jeux vidéo].",
           "a": [
             "Il y joue."
@@ -3290,7 +3290,7 @@
         {
           "id": "g-pp-10-y-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je vais aller [au marché].",
           "a": [
             "Je vais y aller."
@@ -3299,7 +3299,7 @@
         {
           "id": "g-pp-10-y-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je ne réponds pas [à ce message].",
           "a": [
             "Je n'y réponds pas."
@@ -3308,7 +3308,7 @@
         {
           "id": "g-pp-10-y-09",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous sommes allés [à la plage].",
           "a": [
             "Nous y sommes allés."
@@ -3317,7 +3317,7 @@
         {
           "id": "g-pp-10-y-10",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle n'a pas pensé [à son rendez-vous].",
           "a": [
             "Elle n'y a pas pensé."
@@ -3326,7 +3326,7 @@
         {
           "id": "g-pp-10-y-11",
           "type": "build",
-          "en": "Are you going there tomorrow?",
+          "cs": "Půjdeš tam zítra?",
           "a": [
             "Tu y vas demain ?",
             "Est-ce que tu y vas demain ?",
@@ -3339,7 +3339,7 @@
         {
           "id": "g-pp-10-y-12",
           "type": "build",
-          "en": "I'm thinking about it.",
+          "cs": "Myslím na to.",
           "a": [
             "J'y pense."
           ]
@@ -3348,7 +3348,7 @@
     },
     {
       "id": "pp-11-en",
-      "title": "Step 11: en for quantities and de + thing",
+      "title": "Krok 11: en pro množství a de + věc",
       "fr": "le pronom en",
       "level": "A2",
       "keywords": [
@@ -3373,16 +3373,16 @@
         {
           "set": "pronouns",
           "tag": "en",
-          "label": "Drill en"
+          "label": "Dril en"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*En* replaces **de + a thing** (*parler de, avoir besoin de*) and any noun with a **partitive or a quantity**: *du, de la, des, un, une, beaucoup de, trois...* The number or quantity word **stays at the end**: *J'en ai trois.*"
+              "cs": "*En* nahrazuje **de + věc** (*parler de, avoir besoin de*) a každé podstatné jméno s **dělivým členem nebo množstvím**: *du, de la, des, un, une, beaucoup de, trois...* Číslo nebo výraz množství **zůstává na konci**: *J'en ai trois.*"
             },
             {
               "type": "pattern",
@@ -3402,7 +3402,7 @@
                       "du pain."
                     ]
                   ],
-                  "en": "I eat bread."
+                  "cs": "Jím chleba."
                 },
                 {
                   "parts": [
@@ -3419,7 +3419,7 @@
                       "mange."
                     ]
                   ],
-                  "en": "I eat some."
+                  "cs": "Jím ho (trochu)."
                 }
               ],
               "formula": [
@@ -3436,8 +3436,8 @@
             {
               "type": "table",
               "head": [
-                "sentence",
-                "with en"
+                "věta",
+                "s en"
               ],
               "rows": [
                 [
@@ -3462,7 +3462,7 @@
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je bois [du lait].",
                 "a": [
                   "J'en bois."
@@ -3472,17 +3472,17 @@
           ]
         },
         {
-          "title": "Numbers and quantities",
+          "title": "Čísla a množství",
           "blocks": [
             {
               "type": "text",
-              "en": "*En* goes before the verb, the number or quantity word stays after it: *J'ai deux sœurs → J'en ai deux. Il a beaucoup d'amis → Il en a beaucoup. J'ai un chien → J'en ai un.* In the negative the number goes away: *Je n'en ai pas.*"
+              "cs": "*En* stojí před slovesem, číslo nebo výraz množství zůstává za ním: *J'ai deux sœurs → J'en ai deux. Il a beaucoup d'amis → Il en a beaucoup. J'ai un chien → J'en ai un.* V záporu číslo zmizí: *Je n'en ai pas.*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "J'ai trois [cousins].",
                 "a": [
                   "J'en ai trois."
@@ -3492,17 +3492,17 @@
           ]
         },
         {
-          "title": "De + thing after a verb",
+          "title": "De + věc po slovese",
           "blocks": [
             {
               "type": "text",
-              "en": "Verbs and expressions with *de*: *avoir besoin de, avoir envie de, parler de, rêver de, s'occuper de, avoir peur de, être content de*."
+              "cs": "Slovesa a spojení s *de*: *avoir besoin de, avoir envie de, parler de, rêver de, s'occuper de, avoir peur de, être content de*."
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Il parle [de son voyage].",
                 "a": [
                   "Il en parle."
@@ -3512,25 +3512,25 @@
           ]
         },
         {
-          "title": "In every situation",
+          "title": "Ve všech situacích",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "situation",
-                "example"
+                "situace",
+                "příklad"
               ],
               "rows": [
                 [
-                  "simple tense",
+                  "jednoduchý čas",
                   "J'en veux."
                 ],
                 [
-                  "infinitive",
+                  "infinitiv",
                   "Je vais en acheter."
                 ],
                 [
-                  "negative",
+                  "zápor",
                   "Je n'en veux pas."
                 ],
                 [
@@ -3538,7 +3538,7 @@
                   "J'en ai mangé."
                 ],
                 [
-                  "question",
+                  "otázka",
                   "Tu en veux ? En veux-tu ?"
                 ]
               ],
@@ -3548,13 +3548,13 @@
             },
             {
               "type": "text",
-              "en": "No agreement with *en* in the passé composé: *Des pommes ? J'en ai mangé.*"
+              "cs": "S *en* v passé composé žádná shoda: *Des pommes ? J'en ai mangé.*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je ne vais pas acheter [de chocolat].",
                 "a": [
                   "Je ne vais pas en acheter."
@@ -3564,43 +3564,43 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "tip",
-              "en": "*Le, la, les* replace a definite thing (*le gâteau*, that cake), *en* replaces an amount (*du gâteau*, some cake): *Je mange le gâteau → Je le mange*, *Je mange du gâteau → J'en mange*."
+              "cs": "*Le, la, les* nahrazují určitou věc (*le gâteau*, ten dort), *en* nahrazuje množství (*du gâteau*, kus dortu): *Je mange le gâteau → Je le mange*, *Je mange du gâteau → J'en mange*."
             },
             {
               "type": "tip",
-              "en": "*De* + a person is not *en*: *Je parle de Paul → Je parle de lui* (step 12)."
+              "cs": "*De* + osoba není *en*: *Je parle de Paul → Je parle de lui* (krok 12)."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Du café ? Non merci, je n'en bois pas.",
-                  "en": "Coffee? No thanks, I don't drink it."
+                  "cs": "Káva? Ne, díky, nepiju ji."
                 },
                 {
                   "fr": "Des frères ? J'en ai deux.",
-                  "en": "Brothers? I have two."
+                  "cs": "Bratry? Mám dva."
                 },
                 {
                   "fr": "Ton vélo ? J'en ai besoin demain.",
-                  "en": "Your bike? I need it tomorrow."
+                  "cs": "Tvoje kolo? Zítra ho potřebuju."
                 },
                 {
                   "fr": "Ce film ? Tout le monde en parle.",
-                  "en": "That film? Everybody is talking about it."
+                  "cs": "Ten film? Všichni o něm mluví."
                 },
                 {
                   "fr": "Des crêpes ? Nous en avons mangé dix !",
-                  "en": "Pancakes? We ate ten!"
+                  "cs": "Palačinky? Snědli jsme jich deset!"
                 }
               ]
             }
@@ -3611,7 +3611,7 @@
         {
           "id": "g-pp-11-en-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle mange [de la salade].",
           "a": [
             "Elle en mange."
@@ -3620,7 +3620,7 @@
         {
           "id": "g-pp-11-en-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous achetons [des fraises].",
           "a": [
             "Nous en achetons."
@@ -3629,7 +3629,7 @@
         {
           "id": "g-pp-11-en-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai deux [sœurs].",
           "a": [
             "J'en ai deux."
@@ -3638,7 +3638,7 @@
         {
           "id": "g-pp-11-en-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il a beaucoup [d'amis].",
           "a": [
             "Il en a beaucoup."
@@ -3647,7 +3647,7 @@
         {
           "id": "g-pp-11-en-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu as un [vélo] ?",
           "a": [
             "Tu en as un ?"
@@ -3656,7 +3656,7 @@
         {
           "id": "g-pp-11-en-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai besoin [de ton aide].",
           "a": [
             "J'en ai besoin."
@@ -3665,7 +3665,7 @@
         {
           "id": "g-pp-11-en-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous parlons [du match].",
           "a": [
             "Nous en parlons."
@@ -3674,7 +3674,7 @@
         {
           "id": "g-pp-11-en-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle a envie [d'une glace].",
           "a": [
             "Elle en a envie."
@@ -3683,7 +3683,7 @@
         {
           "id": "g-pp-11-en-09",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je vais prendre [du café].",
           "a": [
             "Je vais en prendre."
@@ -3692,7 +3692,7 @@
         {
           "id": "g-pp-11-en-10",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il n'a pas [de frères].",
           "a": [
             "Il n'en a pas."
@@ -3701,7 +3701,7 @@
         {
           "id": "g-pp-11-en-11",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai mangé [des cerises].",
           "a": [
             "J'en ai mangé."
@@ -3710,7 +3710,7 @@
         {
           "id": "g-pp-11-en-12",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Ils ont acheté trois [livres].",
           "a": [
             "Ils en ont acheté trois."
@@ -3719,7 +3719,7 @@
         {
           "id": "g-pp-11-en-13",
           "type": "build",
-          "en": "Do you want some? (tu)",
+          "cs": "Chceš trochu? (tu)",
           "a": [
             "Tu en veux ?",
             "Est-ce que tu en veux ?",
@@ -3730,7 +3730,7 @@
     },
     {
       "id": "pp-12-stressed",
-      "title": "Step 12: people after a preposition: à lui, de lui, avec eux",
+      "title": "Krok 12: osoby po předložce: à lui, de lui, avec eux",
       "fr": "les pronoms toniques après une préposition",
       "level": "A2",
       "keywords": [
@@ -3757,22 +3757,22 @@
         {
           "set": "pronouns",
           "tag": "stressed",
-          "label": "Drill: stressed pronouns"
+          "label": "Dril: samostatná zájmena"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "When a **person** comes after a preposition and there is no object pronoun for that case, keep the preposition and use a **stressed pronoun**: *moi, toi, lui, elle, nous, vous, eux, elles*. *Je parle de Paul → Je parle de lui.*"
+              "cs": "Když po předložce stojí **osoba** a pro tento případ neexistuje předmětové zájmeno, nech předložku a použij **samostatné zájmeno**: *moi, toi, lui, elle, nous, vous, eux, elles*. *Je parle de Paul → Je parle de lui.*"
             },
             {
               "type": "table",
               "head": [
-                "subject",
-                "stressed"
+                "podmět",
+                "samostatné zájmeno"
               ],
               "rows": [
                 [
@@ -3812,21 +3812,21 @@
           ]
         },
         {
-          "title": "De + person",
+          "title": "De + osoba",
           "blocks": [
             {
               "type": "text",
-              "en": "*Parler de, avoir peur de, s'occuper de, être fier de, se souvenir de, avoir besoin de*: a thing becomes *en*, a person becomes *de* + stressed pronoun."
+              "cs": "*Parler de, avoir peur de, s'occuper de, être fier de, se souvenir de, avoir besoin de*: věc se mění na *en*, osoba na *de* + samostatné zájmeno."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm talking about the film.",
+                  "cs": "Mluvím o filmu.",
                   "fr": "J'[[en]] parle."
                 },
                 {
-                  "en": "I'm talking about Paul.",
+                  "cs": "Mluvím o Paulovi.",
                   "wrong": "J'en parle.",
                   "fr": "Je parle [[de lui]]."
                 }
@@ -3836,7 +3836,7 @@
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Elle a besoin [de sa mère].",
                 "a": [
                   "Elle a besoin d'elle."
@@ -3846,17 +3846,17 @@
           ]
         },
         {
-          "title": "À + person with some verbs",
+          "title": "À + osoba u některých sloves",
           "blocks": [
             {
               "type": "text",
-              "en": "A few verbs keep *à* + stressed pronoun for people instead of *lui / leur*: *penser à, faire attention à, s'intéresser à, tenir à*, and *être à* (to belong to). *Je pense à Marie → Je pense à elle. Ce livre est à moi.*"
+              "cs": "Pár sloves si u osob nechává *à* + samostatné zájmeno místo *lui / leur*: *penser à, faire attention à, s'intéresser à, tenir à* a *être à* (patřit). *Je pense à Marie → Je pense à elle. Ce livre est à moi.*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je pense [à mes grands-parents].",
                 "a": [
                   "Je pense à eux."
@@ -3866,17 +3866,17 @@
           ]
         },
         {
-          "title": "Other prepositions",
+          "title": "Další předložky",
           "blocks": [
             {
               "type": "text",
-              "en": "After *avec, pour, chez, sans, devant, derrière, à côté de* a person is always a stressed pronoun: *Je vais chez lui. C'est pour toi. Il est assis à côté d'elle.*"
+              "cs": "Po *avec, pour, chez, sans, devant, derrière, à côté de* je osoba vždycky samostatné zájmeno: *Je vais chez lui. C'est pour toi. Il est assis à côté d'elle.*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace the underlined words with a pronoun",
+                "task_cs": "Nahraď podtržená slova zájmenem",
                 "fr": "Je joue avec [mes cousines].",
                 "a": [
                   "Je joue avec elles."
@@ -3886,39 +3886,39 @@
           ]
         },
         {
-          "title": "Alone and after c'est",
+          "title": "Samostatně a po c'est",
           "blocks": [
             {
               "type": "text",
-              "en": "Stressed pronouns also stand alone and after *c'est*: *Qui veut du gâteau ? Moi ! C'est lui. Moi, je préfère le thé.*"
+              "cs": "Samostatná zájmena stojí i úplně samostatně a po *c'est*: *Qui veut du gâteau ? Moi ! C'est lui. Moi, je préfère le thé.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ton grand-père ? Je pense souvent à lui.",
-                  "en": "Your grandfather? I often think about him."
+                  "cs": "Tvůj děda? Často na něj myslím."
                 },
                 {
                   "fr": "Mes petites sœurs ? Je m'occupe d'elles le mercredi.",
-                  "en": "My little sisters? I look after them on Wednesdays."
+                  "cs": "Moje malé sestry? Ve středu se o ně starám."
                 },
                 {
                   "fr": "Ce soir, on dîne chez eux.",
-                  "en": "Tonight we're having dinner at their place."
+                  "cs": "Dnes večer večeříme u nich."
                 },
                 {
                   "fr": "Tu viens avec nous ?",
-                  "en": "Are you coming with us?"
+                  "cs": "Půjdeš s námi?"
                 },
                 {
                   "fr": "Ce sac est à toi ?",
-                  "en": "Is this bag yours?"
+                  "cs": "Je tahle taška tvoje?"
                 }
               ]
             }
@@ -3929,7 +3929,7 @@
         {
           "id": "g-pp-12-stressed-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous parlons [de notre voisin].",
           "a": [
             "Nous parlons de lui."
@@ -3938,7 +3938,7 @@
         {
           "id": "g-pp-12-stressed-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il a peur [de sa sœur].",
           "a": [
             "Il a peur d'elle."
@@ -3947,7 +3947,7 @@
         {
           "id": "g-pp-12-stressed-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle s'occupe [de ses frères].",
           "a": [
             "Elle s'occupe d'eux."
@@ -3956,7 +3956,7 @@
         {
           "id": "g-pp-12-stressed-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je pense souvent [à ma grand-mère].",
           "a": [
             "Je pense souvent à elle."
@@ -3965,7 +3965,7 @@
         {
           "id": "g-pp-12-stressed-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Fais attention [à ton petit frère] !",
           "a": [
             "Fais attention à lui !"
@@ -3974,7 +3974,7 @@
         {
           "id": "g-pp-12-stressed-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il s'intéresse [à ces chanteuses].",
           "a": [
             "Il s'intéresse à elles."
@@ -3983,7 +3983,7 @@
         {
           "id": "g-pp-12-stressed-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je vais chez [Marc].",
           "a": [
             "Je vais chez lui."
@@ -3992,7 +3992,7 @@
         {
           "id": "g-pp-12-stressed-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "C'est un cadeau pour [mes parents].",
           "a": [
             "C'est un cadeau pour eux."
@@ -4001,7 +4001,7 @@
         {
           "id": "g-pp-12-stressed-09",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu viens avec [Julie et moi] ?",
           "a": [
             "Tu viens avec nous ?"
@@ -4010,7 +4010,7 @@
         {
           "id": "g-pp-12-stressed-10",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je parle [de mon week-end].",
           "a": [
             "J'en parle."
@@ -4019,7 +4019,7 @@
         {
           "id": "g-pp-12-stressed-11",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je parle [de mon frère].",
           "a": [
             "Je parle de lui."
@@ -4028,7 +4028,7 @@
         {
           "id": "g-pp-12-stressed-12",
           "type": "build",
-          "en": "Who wants cake? Me!",
+          "cs": "Kdo chce dort? Já!",
           "a": [
             "Qui veut du gâteau ? Moi !"
           ]
@@ -4037,7 +4037,7 @@
     },
     {
       "id": "pp-13-mix",
-      "title": "Step 13: mixed practice with one pronoun",
+      "title": "Krok 13: smíšené procvičování s jedním zájmenem",
       "fr": "un pronom, toutes les situations",
       "level": "A2",
       "keywords": [
@@ -4057,47 +4057,47 @@
         {
           "set": "pronouns",
           "tag": "mixed",
-          "label": "Drill: which pronoun?"
+          "label": "Dril: které zájmeno?"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Now everything with one pronoun, in every situation. For each sentence use the three questions from step 1: **preposition? person or thing? which form?** Then place it: before the conjugated verb, before the infinitive, or before the auxiliary."
+              "cs": "Teď všechno s jedním zájmenem, ve všech situacích. U každé věty použij tři otázky z kroku 1: **předložka? osoba, nebo věc? jaký tvar?** Pak ho umísti: před časované sloveso, před infinitiv nebo před pomocné sloveso."
             }
           ]
         },
         {
-          "title": "The decision",
+          "title": "Rozhodování",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "after the verb",
-                "pronoun"
+                "za slovesem",
+                "zájmeno"
               ],
               "rows": [
                 [
-                  "no preposition",
+                  "bez předložky",
                   "le, la, les (me, te, nous, vous)"
                 ],
                 [
-                  "à + person",
+                  "à + osoba",
                   "lui, leur (penser à → à lui)"
                 ],
                 [
-                  "à + thing or place",
+                  "à + věc nebo místo",
                   "y"
                 ],
                 [
-                  "de + thing, or a quantity",
+                  "de + věc, nebo množství",
                   "en"
                 ],
                 [
-                  "de or another preposition + person",
+                  "de nebo jiná předložka + osoba",
                   "de lui, avec elle, chez eux"
                 ]
               ],
@@ -4108,34 +4108,34 @@
           ]
         },
         {
-          "title": "The places in one table",
+          "title": "Místa v jedné tabulce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "situation",
-                "COD",
-                "COI",
+                "situace",
+                "COD (přímý předmět)",
+                "COI (nepřímý předmět)",
                 "y",
                 "en"
               ],
               "rows": [
                 [
-                  "simple tense",
+                  "jednoduchý čas",
                   "Je le vois.",
                   "Je lui parle.",
                   "J'y vais.",
                   "J'en veux."
                 ],
                 [
-                  "infinitive",
+                  "infinitiv",
                   "Je vais le voir.",
                   "Je vais lui parler.",
                   "Je vais y aller.",
                   "Je vais en prendre."
                 ],
                 [
-                  "negative",
+                  "zápor",
                   "Je ne le vois pas.",
                   "Je ne lui parle pas.",
                   "Je n'y vais pas.",
@@ -4149,7 +4149,7 @@
                   "J'en ai pris."
                 ],
                 [
-                  "inversion",
+                  "inverze",
                   "Le vois-tu ?",
                   "Lui parles-tu ?",
                   "Y vas-tu ?",
@@ -4163,30 +4163,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "La chanson ? Je l'écoute tout le temps.",
-                  "en": "The song? I listen to it all the time."
+                  "cs": "Ta písnička? Poslouchám ji pořád."
                 },
                 {
                   "fr": "Le prof ? Je vais lui parler demain.",
-                  "en": "The teacher? I'm going to talk to him tomorrow."
+                  "cs": "Učitel? Zítra s ním promluvím."
                 },
                 {
                   "fr": "La bibliothèque ? Je n'y suis jamais allé.",
-                  "en": "The library? I've never been there."
+                  "cs": "Knihovna? Nikdy jsem tam nebyl."
                 },
                 {
                   "fr": "Des devoirs ? J'en ai beaucoup ce soir.",
-                  "en": "Homework? I've got a lot tonight."
+                  "cs": "Úkoly? Dnes večer jich mám hodně."
                 },
                 {
                   "fr": "Mon cousin ? On parle souvent de lui.",
-                  "en": "My cousin? We often talk about him."
+                  "cs": "Můj bratranec? Často o něm mluvíme."
                 }
               ]
             }
@@ -4197,7 +4197,7 @@
         {
           "id": "g-pp-13-mix-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je regarde [les étoiles].",
           "a": [
             "Je les regarde."
@@ -4206,7 +4206,7 @@
         {
           "id": "g-pp-13-mix-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je réponds [à mon cousin].",
           "a": [
             "Je lui réponds."
@@ -4215,7 +4215,7 @@
         {
           "id": "g-pp-13-mix-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je réponds [à son e-mail].",
           "a": [
             "J'y réponds."
@@ -4224,7 +4224,7 @@
         {
           "id": "g-pp-13-mix-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il mange [des pâtes].",
           "a": [
             "Il en mange."
@@ -4233,7 +4233,7 @@
         {
           "id": "g-pp-13-mix-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle pense [à son copain].",
           "a": [
             "Elle pense à lui."
@@ -4242,7 +4242,7 @@
         {
           "id": "g-pp-13-mix-06",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous allons visiter [le musée].",
           "a": [
             "Nous allons le visiter."
@@ -4251,7 +4251,7 @@
         {
           "id": "g-pp-13-mix-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu vas parler [à la directrice] ?",
           "a": [
             "Tu vas lui parler ?"
@@ -4260,7 +4260,7 @@
         {
           "id": "g-pp-13-mix-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je dois aller [à la banque].",
           "a": [
             "Je dois y aller."
@@ -4269,7 +4269,7 @@
         {
           "id": "g-pp-13-mix-09",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Vous voulez boire [de l'eau] ?",
           "a": [
             "Vous voulez en boire ?"
@@ -4278,7 +4278,7 @@
         {
           "id": "g-pp-13-mix-10",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je n'aime pas [cette chanson].",
           "a": [
             "Je ne l'aime pas."
@@ -4287,7 +4287,7 @@
         {
           "id": "g-pp-13-mix-11",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il ne téléphone jamais [à ses grands-parents].",
           "a": [
             "Il ne leur téléphone jamais."
@@ -4296,7 +4296,7 @@
         {
           "id": "g-pp-13-mix-12",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous ne sommes pas allés [au concert].",
           "a": [
             "Nous n'y sommes pas allés."
@@ -4305,7 +4305,7 @@
         {
           "id": "g-pp-13-mix-13",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle a lu [la lettre].",
           "a": [
             "Elle l'a lue."
@@ -4314,7 +4314,7 @@
         {
           "id": "g-pp-13-mix-14",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai parlé [de mes problèmes].",
           "a": [
             "J'en ai parlé."
@@ -4323,7 +4323,7 @@
         {
           "id": "g-pp-13-mix-15",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai parlé [de mon ami].",
           "a": [
             "J'ai parlé de lui."
@@ -4332,7 +4332,7 @@
         {
           "id": "g-pp-13-mix-16",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Ils ont écrit [à leurs amis].",
           "a": [
             "Ils leur ont écrit."
@@ -4341,7 +4341,7 @@
         {
           "id": "g-pp-13-mix-17",
           "type": "build",
-          "en": "I don't need it. (the car)",
+          "cs": "Nepotřebuju ho. (to auto)",
           "a": [
             "Je n'en ai pas besoin."
           ]
@@ -4349,7 +4349,7 @@
         {
           "id": "g-pp-13-mix-18",
           "type": "build",
-          "en": "We're going to see them tonight.",
+          "cs": "Dnes večer je uvidíme.",
           "a": [
             "Nous allons les voir ce soir.",
             "On va les voir ce soir.",
@@ -4361,7 +4361,7 @@
     },
     {
       "id": "pp-14-two-pronouns",
-      "title": "Step 14: two pronouns together",
+      "title": "Krok 14: dvě zájmena spolu",
       "fr": "deux pronoms ensemble",
       "level": "B1",
       "keywords": [
@@ -4382,16 +4382,16 @@
         {
           "set": "pronouns",
           "tag": "double",
-          "label": "Drill two pronouns"
+          "label": "Dril dvě zájmena"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "With two pronouns the order is fixed: **me / te / se / nous / vous → le / la / les → lui / leur → y → en**. Both go where one pronoun would go. *Il me le donne. Je le lui donne. Il m'en donne.*"
+              "cs": "U dvou zájmen je pořadí pevné: **me / te / se / nous / vous → le / la / les → lui / leur → y → en**. Obě stojí tam, kde by stálo jedno zájmeno. *Il me le donne. Je le lui donne. Il m'en donne.*"
             },
             {
               "type": "table",
@@ -4415,13 +4415,13 @@
           ]
         },
         {
-          "title": "The pairs you will use most",
+          "title": "Dvojice, které budeš používat nejčastěji",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "pair",
-                "example"
+                "dvojice",
+                "příklad"
               ],
               "rows": [
                 [
@@ -4460,13 +4460,13 @@
             },
             {
               "type": "text",
-              "en": "*Lui* and *leur* never go together with *me, te, nous, vous*. In that case use *à* + stressed pronoun for the person: *Je te présente à lui.*"
+              "cs": "*Lui* a *leur* nikdy nejdou spolu s *me, te, nous, vous*. V takovém případě použij pro osobu *à* + samostatné zájmeno: *Je te présente à lui.*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace both underlined parts with pronouns",
+                "task_cs": "Nahraď obě podtržené části zájmeny",
                 "fr": "Je donne [le livre] [à Paul].",
                 "a": [
                   "Je le lui donne."
@@ -4476,25 +4476,25 @@
           ]
         },
         {
-          "title": "In every situation",
+          "title": "Ve všech situacích",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "situation",
-                "example"
+                "situace",
+                "příklad"
               ],
               "rows": [
                 [
-                  "simple tense",
+                  "jednoduchý čas",
                   "Je le lui donne."
                 ],
                 [
-                  "infinitive",
+                  "infinitiv",
                   "Je vais le lui donner."
                 ],
                 [
-                  "negative",
+                  "zápor",
                   "Je ne le lui donne pas."
                 ],
                 [
@@ -4502,7 +4502,7 @@
                   "Je la lui ai donnée."
                 ],
                 [
-                  "question",
+                  "otázka",
                   "Tu me le prêtes ?"
                 ]
               ],
@@ -4512,13 +4512,13 @@
             },
             {
               "type": "text",
-              "en": "In the passé composé the participle still agrees with the COD only: *Les clés ? Je te les ai données.*"
+              "cs": "V passé composé se příčestí pořád shoduje jen s COD: *Les clés ? Je te les ai données.*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Replace both underlined parts with pronouns",
+                "task_cs": "Nahraď obě podtržené části zájmeny",
                 "fr": "Je vais montrer [la photo] [à mes amis].",
                 "a": [
                   "Je vais la leur montrer."
@@ -4528,30 +4528,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ton vélo ? Tu me le prêtes ?",
-                  "en": "Your bike? Will you lend it to me?"
+                  "cs": "Tvoje kolo? Půjčíš mi ho?"
                 },
                 {
                   "fr": "La vérité ? Je ne la leur ai pas dite.",
-                  "en": "The truth? I didn't tell it to them."
+                  "cs": "Pravda? Neřekl jsem jim ji."
                 },
                 {
                   "fr": "Des bonbons ? Mamie nous en donne toujours.",
-                  "en": "Sweets? Grandma always gives us some."
+                  "cs": "Bonbony? Babička nám nějaké dává pořád."
                 },
                 {
                   "fr": "Il y en a encore dans le frigo.",
-                  "en": "There's still some in the fridge."
+                  "cs": "V lednici ještě něco je."
                 },
                 {
                   "fr": "Le cadeau ? Je vais le lui offrir demain.",
-                  "en": "The present? I'm going to give it to her tomorrow."
+                  "cs": "Ten dárek? Zítra jí ho dám."
                 }
               ]
             }
@@ -4562,7 +4562,7 @@
         {
           "id": "g-pp-14-two-pronouns-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il me donne [le stylo].",
           "a": [
             "Il me le donne."
@@ -4571,7 +4571,7 @@
         {
           "id": "g-pp-14-two-pronouns-02",
           "type": "transform",
-          "task_en": "Replace both underlined parts with pronouns",
+          "task_cs": "Nahraď obě podtržené části zájmeny",
           "fr": "Je prête [ma veste] [à Marie].",
           "a": [
             "Je la lui prête."
@@ -4580,7 +4580,7 @@
         {
           "id": "g-pp-14-two-pronouns-03",
           "type": "transform",
-          "task_en": "Replace both underlined parts with pronouns",
+          "task_cs": "Nahraď obě podtržené části zájmeny",
           "fr": "Nous envoyons [les photos] [à nos parents].",
           "a": [
             "Nous les leur envoyons."
@@ -4589,7 +4589,7 @@
         {
           "id": "g-pp-14-two-pronouns-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu me prêtes [ton vélo] ?",
           "a": [
             "Tu me le prêtes ?"
@@ -4598,7 +4598,7 @@
         {
           "id": "g-pp-14-two-pronouns-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle nous donne [des bonbons].",
           "a": [
             "Elle nous en donne."
@@ -4607,7 +4607,7 @@
         {
           "id": "g-pp-14-two-pronouns-06",
           "type": "transform",
-          "task_en": "Replace both underlined parts with pronouns",
+          "task_cs": "Nahraď obě podtržené části zájmeny",
           "fr": "Je parle [à Paul] [de mon projet].",
           "a": [
             "Je lui en parle."
@@ -4616,7 +4616,7 @@
         {
           "id": "g-pp-14-two-pronouns-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il y a [des pommes].",
           "a": [
             "Il y en a."
@@ -4625,7 +4625,7 @@
         {
           "id": "g-pp-14-two-pronouns-08",
           "type": "transform",
-          "task_en": "Replace both underlined parts with pronouns",
+          "task_cs": "Nahraď obě podtržené části zájmeny",
           "fr": "Je vais expliquer [la règle] [aux élèves].",
           "a": [
             "Je vais la leur expliquer."
@@ -4634,7 +4634,7 @@
         {
           "id": "g-pp-14-two-pronouns-09",
           "type": "transform",
-          "task_en": "Replace both underlined parts with pronouns",
+          "task_cs": "Nahraď obě podtržené části zájmeny",
           "fr": "Je ne dis pas [la vérité] [à ma mère].",
           "a": [
             "Je ne la lui dis pas."
@@ -4643,7 +4643,7 @@
         {
           "id": "g-pp-14-two-pronouns-10",
           "type": "transform",
-          "task_en": "Replace both underlined parts with pronouns",
+          "task_cs": "Nahraď obě podtržené části zájmeny",
           "fr": "J'ai donné [les clés] [à Thomas].",
           "a": [
             "Je les lui ai données."
@@ -4652,7 +4652,7 @@
         {
           "id": "g-pp-14-two-pronouns-11",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il m'a offert [des fleurs].",
           "a": [
             "Il m'en a offert."
@@ -4661,7 +4661,7 @@
         {
           "id": "g-pp-14-two-pronouns-12",
           "type": "build",
-          "en": "Can you lend it to me? (the book)",
+          "cs": "Můžeš mi ji půjčit? (tu knihu)",
           "a": [
             "Tu peux me le prêter ?",
             "Est-ce que tu peux me le prêter ?",
@@ -4675,7 +4675,7 @@
     },
     {
       "id": "pp-15-commands",
-      "title": "Step 15: commands: Donne-le-moi ! Ne le donne pas !",
+      "title": "Krok 15: rozkazy: Donne-le-moi ! Ne le donne pas !",
       "fr": "les pronoms à l'impératif",
       "level": "A2",
       "keywords": [
@@ -4698,27 +4698,27 @@
         {
           "set": "pronouns",
           "tag": "imperative",
-          "label": "Drill pronouns in commands"
+          "label": "Dril zájmena v rozkazech"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "In an **affirmative** command the pronoun goes **after** the verb, joined with a hyphen, and *me, te* become **moi, toi**: *Regarde-moi ! Prends-le !* In a **negative** command everything goes back to normal: *Ne me regarde pas ! Ne le prends pas !*"
+              "cs": "V **kladném** rozkazu stojí zájmeno **za** slovesem se spojovníkem a *me, te* se mění na **moi, toi**: *Regarde-moi ! Prends-le !* V **záporném** rozkazu se všechno vrací k normálu: *Ne me regarde pas ! Ne le prends pas !*"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Take it!",
+                  "cs": "Vezmi si to!",
                   "wrong": "Le prends !",
                   "fr": "Prends-[[le]] !"
                 },
                 {
-                  "en": "Don't take it!",
+                  "cs": "Neber si to!",
                   "fr": "Ne [[le]] prends pas !"
                 }
               ]
@@ -4726,13 +4726,13 @@
           ]
         },
         {
-          "title": "Affirmative: after the verb",
+          "title": "Kladně: za slovesem",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "sentence",
-                "command"
+                "věta",
+                "rozkaz"
               ],
               "rows": [
                 [
@@ -4763,13 +4763,13 @@
             },
             {
               "type": "text",
-              "en": "The *tu* form of *-er* verbs (and *aller*) loses its *-s* in commands, but gets it back before *y* and *en* for the sound: *Va ! → Vas-y !*, *Mange ! → Manges-en !*"
+              "cs": "Tvar *tu* u sloves na *-er* (a *aller*) v rozkazu ztrácí *-s*, ale před *y* a *en* ho kvůli zvuku dostává zpátky: *Va ! → Vas-y !*, *Mange ! → Manges-en !*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Turn it into a command and replace the underlined words",
+                "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
                 "fr": "Tu finis [tes devoirs].",
                 "a": [
                   "Finis-les !"
@@ -4779,17 +4779,17 @@
           ]
         },
         {
-          "title": "Two pronouns in a command",
+          "title": "Dvě zájmena v rozkazu",
           "blocks": [
             {
               "type": "text",
-              "en": "In an affirmative command the COD comes first, the other one second: *Donne-le-moi ! Donne-les-leur ! Montre-la-nous !* With *en*: *moi + en → m'en*: *Donne-m'en !*"
+              "cs": "V kladném rozkazu je COD první a to druhé až po něm: *Donne-le-moi ! Donne-les-leur ! Montre-la-nous !* S *en*: *moi + en → m'en*: *Donne-m'en !*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Turn it into a command and replace the underlined words",
+                "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
                 "fr": "Tu me donnes [le sel].",
                 "a": [
                   "Donne-le-moi !"
@@ -4799,17 +4799,17 @@
           ]
         },
         {
-          "title": "Negative: back to normal",
+          "title": "Záporně: zpátky k normálu",
           "blocks": [
             {
               "type": "text",
-              "en": "*Ne* before the pronouns, *pas* after the verb, normal order, and *moi, toi* go back to *me, te*: *Aide-moi ! → Ne m'aide pas !* *Donne-le-moi ! → Ne me le donne pas !*"
+              "cs": "*Ne* před zájmeny, *pas* za slovesem, normální pořadí a *moi, toi* se mění zpátky na *me, te*: *Aide-moi ! → Ne m'aide pas !* *Donne-le-moi ! → Ne me le donne pas !*"
             },
             {
               "type": "check",
               "item": {
                 "type": "transform",
-                "task_en": "Make the command negative",
+                "task_cs": "Převeď rozkaz do záporu",
                 "fr": "Prends-le !",
                 "a": [
                   "Ne le prends pas !"
@@ -4819,30 +4819,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ton portable ? Range-le !",
-                  "en": "Your phone? Put it away!"
+                  "cs": "Tvůj telefon? Ukliď ho!"
                 },
                 {
                   "fr": "Ta grand-mère ? Appelle-la !",
-                  "en": "Your grandmother? Call her!"
+                  "cs": "Tvoje babička? Zavolej jí!"
                 },
                 {
                   "fr": "Le cinéma ? Allons-y ce soir !",
-                  "en": "The cinema? Let's go tonight!"
+                  "cs": "Kino? Pojďme tam dnes večer!"
                 },
                 {
                   "fr": "Ne lui dis rien !",
-                  "en": "Don't tell him anything!"
+                  "cs": "Nic mu neříkej!"
                 },
                 {
                   "fr": "Les photos ? Montre-les-moi !",
-                  "en": "The photos? Show them to me!"
+                  "cs": "Ty fotky? Ukaž mi je!"
                 }
               ]
             }
@@ -4853,7 +4853,7 @@
         {
           "id": "g-pp-15-commands-01",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Tu regardes [le tableau].",
           "a": [
             "Regarde-le !"
@@ -4862,7 +4862,7 @@
         {
           "id": "g-pp-15-commands-02",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Tu écris [à ta grand-mère].",
           "a": [
             "Écris-lui !"
@@ -4871,7 +4871,7 @@
         {
           "id": "g-pp-15-commands-03",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Vous écoutez [le professeur].",
           "a": [
             "Écoutez-le !"
@@ -4880,7 +4880,7 @@
         {
           "id": "g-pp-15-commands-04",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Nous allons [au parc].",
           "a": [
             "Allons-y !"
@@ -4889,7 +4889,7 @@
         {
           "id": "g-pp-15-commands-05",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Tu prends [des légumes].",
           "a": [
             "Prends-en !"
@@ -4898,7 +4898,7 @@
         {
           "id": "g-pp-15-commands-06",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Tu m'aides.",
           "a": [
             "Aide-moi !"
@@ -4907,7 +4907,7 @@
         {
           "id": "g-pp-15-commands-07",
           "type": "transform",
-          "task_en": "Turn it into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Tu te dépêches.",
           "a": [
             "Dépêche-toi !"
@@ -4916,7 +4916,7 @@
         {
           "id": "g-pp-15-commands-08",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Tu me donnes [ton numéro].",
           "a": [
             "Donne-le-moi !"
@@ -4925,7 +4925,7 @@
         {
           "id": "g-pp-15-commands-09",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Vous expliquez [les règles] [aux enfants].",
           "a": [
             "Expliquez-les-leur !"
@@ -4934,7 +4934,7 @@
         {
           "id": "g-pp-15-commands-10",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Regarde-la !",
           "a": [
             "Ne la regarde pas !"
@@ -4943,7 +4943,7 @@
         {
           "id": "g-pp-15-commands-11",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Vas-y !",
           "a": [
             "N'y va pas !"
@@ -4952,7 +4952,7 @@
         {
           "id": "g-pp-15-commands-12",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Donne-le-moi !",
           "a": [
             "Ne me le donne pas !"
@@ -4961,7 +4961,7 @@
         {
           "id": "g-pp-15-commands-13",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Lève-toi !",
           "a": [
             "Ne te lève pas !"
@@ -4971,7 +4971,7 @@
     },
     {
       "id": "pp-16-final-mix",
-      "title": "Step 16: everything mixed",
+      "title": "Krok 16: všechno dohromady",
       "fr": "tous les pronoms, toutes les situations",
       "level": "A2",
       "levelTo": "B1",
@@ -4996,52 +4996,52 @@
         {
           "set": "pronouns",
           "tag": "mixed",
-          "label": "Drill: which pronoun?"
+          "label": "Dril: které zájmeno?"
         },
         {
           "set": "pronouns",
           "tag": "double",
-          "label": "Drill two pronouns"
+          "label": "Dril dvě zájmena"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The final round: any pronoun, any situation. For every sentence: **1. find the function, 2. choose the form, 3. place it.** Say the sentence out loud before you type it."
+              "cs": "Závěrečné kolo: libovolné zájmeno, libovolná situace. U každé věty: **1. najdi funkci, 2. vyber tvar, 3. umísti ho.** Než větu napíšeš, řekni si ji nahlas."
             }
           ]
         },
         {
-          "title": "The checklist",
+          "title": "Kontrolní seznam",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "step",
-                "ask yourself"
+                "krok",
+                "zeptej se sám sebe"
               ],
               "rows": [
                 [
-                  "1. function",
-                  "Preposition after the verb? Person or thing? → COD, COI, y, en or a stressed pronoun"
+                  "1. funkce",
+                  "Předložka za slovesem? Osoba, nebo věc? → COD, COI, y, en nebo samostatné zájmeno"
                 ],
                 [
-                  "2. form",
-                  "Masculine, feminine or plural? One person or several? Me, you, us?"
+                  "2. tvar",
+                  "Mužský rod, ženský rod, nebo množné číslo? Jedna osoba, nebo víc? Já, ty, my?"
                 ],
                 [
-                  "3. place",
-                  "Before the conjugated verb, before the infinitive, before the auxiliary, or after the verb in a command"
+                  "3. místo",
+                  "Před časované sloveso, před infinitiv, před pomocné sloveso, nebo v rozkazu za sloveso"
                 ],
                 [
-                  "4. agreement",
-                  "Passé composé with a COD in front? Then the participle agrees"
+                  "4. shoda",
+                  "Passé composé s COD vpředu? Pak se příčestí shoduje"
                 ],
                 [
-                  "5. two pronouns",
+                  "5. dvě zájmena",
                   "me → le → lui → y → en"
                 ]
               ],
@@ -5053,69 +5053,69 @@
           ]
         },
         {
-          "title": "Quick reference",
+          "title": "Rychlý přehled",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "situation",
-                "rule",
-                "example"
+                "situace",
+                "pravidlo",
+                "příklad"
               ],
               "rows": [
                 [
-                  "COD, simple tense",
-                  "before the verb",
+                  "COD, jednoduchý čas",
+                  "před slovesem",
                   "Je le vois."
                 ],
                 [
-                  "COI, simple tense",
-                  "before the verb",
+                  "COI, jednoduchý čas",
+                  "před slovesem",
                   "Je lui parle."
                 ],
                 [
-                  "à + thing or place",
+                  "à + věc nebo místo",
                   "y",
                   "J'y pense."
                 ],
                 [
-                  "de + thing or quantity",
+                  "de + věc nebo množství",
                   "en",
                   "J'en ai besoin."
                 ],
                 [
-                  "de + person",
-                  "de + stressed pronoun",
+                  "de + osoba",
+                  "de + samostatné zájmeno",
                   "Je parle de lui."
                 ],
                 [
-                  "infinitive",
-                  "before the infinitive",
+                  "infinitiv",
+                  "před infinitivem",
                   "Je vais le voir."
                 ],
                 [
                   "passé composé + COD",
-                  "before the auxiliary, agreement",
+                  "před pomocným slovesem, shoda",
                   "Je l'ai vue."
                 ],
                 [
                   "passé composé + COI, y, en",
-                  "before the auxiliary, no agreement",
+                  "před pomocným slovesem, bez shody",
                   "Je lui ai parlé."
                 ],
                 [
-                  "two pronouns",
+                  "dvě zájmena",
                   "me, te, nous, vous → le, la, les → lui, leur → y → en",
                   "Je le lui donne."
                 ],
                 [
-                  "affirmative command",
-                  "after the verb, moi / toi",
+                  "kladný rozkaz",
+                  "za slovesem, moi / toi",
                   "Donne-le-moi !"
                 ],
                 [
-                  "negative command",
-                  "before the verb",
+                  "záporný rozkaz",
+                  "před slovesem",
                   "Ne le donne pas !"
                 ]
               ],
@@ -5127,30 +5127,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ta console ? Mon frère me l'a prêtée.",
-                  "en": "Your console? My brother lent it to me."
+                  "cs": "Tvoje konzole? Půjčil mi ji brácha."
                 },
                 {
                   "fr": "Tes parents, tu leur as dit ?",
-                  "en": "Your parents, did you tell them?"
+                  "cs": "Tvoji rodiče, řekl jsi jim to?"
                 },
                 {
                   "fr": "Les devoirs ? Je n'y pense même pas.",
-                  "en": "Homework? I'm not even thinking about it."
+                  "cs": "Úkoly? Ani na ně nemyslím."
                 },
                 {
                   "fr": "Des photos ? J'en ai pris beaucoup.",
-                  "en": "Photos? I took a lot."
+                  "cs": "Fotky? Udělal jsem jich spoustu."
                 },
                 {
                   "fr": "Ces lunettes ? Ne les mets pas !",
-                  "en": "Those glasses? Don't put them on!"
+                  "cs": "Ty brýle? Nenasazuj si je!"
                 }
               ]
             }
@@ -5161,7 +5161,7 @@
         {
           "id": "g-pp-16-final-mix-01",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Tu as vu [mes lunettes] ?",
           "a": [
             "Tu les as vues ?"
@@ -5170,7 +5170,7 @@
         {
           "id": "g-pp-16-final-mix-02",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je vais parler [à mes parents] ce soir.",
           "a": [
             "Je vais leur parler ce soir."
@@ -5179,7 +5179,7 @@
         {
           "id": "g-pp-16-final-mix-03",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il ne pense jamais [à ses devoirs].",
           "a": [
             "Il n'y pense jamais."
@@ -5188,7 +5188,7 @@
         {
           "id": "g-pp-16-final-mix-04",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous avons mangé trois [crêpes].",
           "a": [
             "Nous en avons mangé trois."
@@ -5197,7 +5197,7 @@
         {
           "id": "g-pp-16-final-mix-05",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Elle se souvient [de son grand-père].",
           "a": [
             "Elle se souvient de lui."
@@ -5206,7 +5206,7 @@
         {
           "id": "g-pp-16-final-mix-06",
           "type": "transform",
-          "task_en": "Replace both underlined parts with pronouns",
+          "task_cs": "Nahraď obě podtržené části zájmeny",
           "fr": "Tu donnes [ce cadeau] [à ta sœur] ?",
           "a": [
             "Tu le lui donnes ?"
@@ -5215,7 +5215,7 @@
         {
           "id": "g-pp-16-final-mix-07",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Je ne veux pas voir [ce film].",
           "a": [
             "Je ne veux pas le voir."
@@ -5224,7 +5224,7 @@
         {
           "id": "g-pp-16-final-mix-08",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Ils sont allés [en Espagne].",
           "a": [
             "Ils y sont allés."
@@ -5233,7 +5233,7 @@
         {
           "id": "g-pp-16-final-mix-09",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Mon frère m'a prêté [sa console].",
           "a": [
             "Mon frère me l'a prêtée."
@@ -5242,7 +5242,7 @@
         {
           "id": "g-pp-16-final-mix-10",
           "type": "transform",
-          "task_en": "Turn it into a command and replace the underlined words",
+          "task_cs": "Převeď na rozkaz a nahraď podtržená slova",
           "fr": "Tu montres [tes photos] [à Lucie].",
           "a": [
             "Montre-les-lui !"
@@ -5251,7 +5251,7 @@
         {
           "id": "g-pp-16-final-mix-11",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Donne-m'en !",
           "a": [
             "Ne m'en donne pas !"
@@ -5260,7 +5260,7 @@
         {
           "id": "g-pp-16-final-mix-12",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Est-ce que tu as besoin [de ce livre] ?",
           "a": [
             "Est-ce que tu en as besoin ?"
@@ -5269,7 +5269,7 @@
         {
           "id": "g-pp-16-final-mix-13",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "J'ai invité [mes cousines].",
           "a": [
             "Je les ai invitées."
@@ -5278,7 +5278,7 @@
         {
           "id": "g-pp-16-final-mix-14",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Nous avons répondu [à la directrice].",
           "a": [
             "Nous lui avons répondu."
@@ -5287,7 +5287,7 @@
         {
           "id": "g-pp-16-final-mix-15",
           "type": "transform",
-          "task_en": "Replace the underlined words with a pronoun",
+          "task_cs": "Nahraď podtržená slova zájmenem",
           "fr": "Il y a beaucoup [de neige].",
           "a": [
             "Il y en a beaucoup."
@@ -5296,7 +5296,7 @@
         {
           "id": "g-pp-16-final-mix-16",
           "type": "build",
-          "en": "I gave it to them. (the letter)",
+          "cs": "Dal jsem jim ho. (ten dopis)",
           "a": [
             "Je la leur ai donnée."
           ]
@@ -5304,7 +5304,7 @@
         {
           "id": "g-pp-16-final-mix-17",
           "type": "build",
-          "en": "Don't think about it!",
+          "cs": "Nemysli na to!",
           "a": [
             "N'y pense pas !",
             "N'y pensez pas !"
@@ -5313,7 +5313,7 @@
         {
           "id": "g-pp-16-final-mix-18",
           "type": "build",
-          "en": "She's going to call me.",
+          "cs": "Zavolá mi.",
           "a": [
             "Elle va m'appeler.",
             "Elle va me téléphoner."

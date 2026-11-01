@@ -16,10 +16,14 @@ export function buildBackup(source, { name, version, now = new Date() }) {
   return { app: 'vocab', format: BACKUP_FORMAT, appVersion: version, exported: now.toISOString(), account: { name }, data };
 }
 
+const safeName = name => String(name).normalize('NFKD').replace(/\p{M}+/gu, '').replace(/[^\w-]+/g, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'profile';
+
 export function backupFileName(name, now = new Date()) {
-  const safe = String(name).normalize('NFKD').replace(/\p{M}+/gu, '').replace(/[^\w-]+/g, '-').replace(/^-+|-+$/g, '').toLowerCase() || 'profile';
-  return `vocab-backup-${safe}-${now.toISOString().slice(0, 10)}.json`;
+  return `vocab-backup-${safeName(name)}-${now.toISOString().slice(0, 10)}.json`;
 }
+
+// The id keeps two names that look alike once accents are gone ("Šimon", "Simon") in separate files.
+export const profileFileName = (name, id) => `vocab-${safeName(name)}-${id}.json`;
 
 export function parseBackup(text) {
   let file;
@@ -42,7 +46,8 @@ export function parseBackup(text) {
   }
   if (typeof file.data.lang === 'string') data.lang = file.data.lang;
   const name = String(file.account?.name || 'Restored').trim().slice(0, 24) || 'Restored';
-  return { name, exported: file.exported || null, data };
+  const id = /^a[0-9a-z]{1,20}$/.test(file.account?.id) ? file.account.id : null;
+  return { name, id, exported: file.exported || null, data };
 }
 
 export function backupSummary(data) {

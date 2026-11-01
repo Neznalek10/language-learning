@@ -1,6 +1,6 @@
 import { check } from '../../check.js';
 
-// A deck word, Czech to French. Answers count toward the word's level, like the normal practice.
+// A deck word, from the learner's language to French. Answers count toward the word's level, like the normal practice.
 export default {
   type: 'word',
   questions(item, ctx) {

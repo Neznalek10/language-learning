@@ -1,0 +1,296 @@
+{
+  "schema": 1,
+  "goals": [
+    "Conjugate regular -er verbs",
+    "Say what you like and dislike: aimer, adorer, préférer, détester",
+    "Talk about sport and music: faire du, jouer au, jouer de",
+    "Ask questions in three ways and use question words",
+    "Say how often you do something"
+  ],
+  "lessons": [
+    {
+      "id": "fr-3-1",
+      "title": "Je joue, tu joues",
+      "subtitle": "-er verbs",
+      "topics": ["er-verbs"],
+      "words": ["verbs#to dance", "verbs#to sing", "verbs#to listen (to)", "verbs#to like, to love", "verbs#to watch, to look at", "verbs#to play", "verbs#to swim", "verbs#to ski"],
+      "learn": [
+        {"title": "-er verbs", "blocks": [
+          {"type": "text", "en": "Most French verbs end in *-er* and are completely regular. Take off *-er* and add the endings *-e, -es, -e, -ons, -ez, -ent*."},
+          {"type": "table", "verb": "jouer", "tense": "present"},
+          {"type": "text", "en": "The endings *-e, -es, -e, -ent* are **silent**, so *je joue, tu joues, il joue, ils jouent* all sound exactly the same. You only hear *-ons* and *-ez*."},
+          {"type": "tip", "title": "j'aime, j'écoute", "en": "Before a vowel or a silent *h*, *je* shortens: *j'aime, j'écoute, j'habite*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ au tennis.", "a": ["jouons"], "hint": "jouer"}}
+        ]},
+        {"title": "Small quirks", "blocks": [
+          {"type": "text", "en": "*Préférer* (to prefer) changes *é* to *è* in the stem when the ending is silent: *je préfère*, but *nous préférons*."},
+          {"type": "table", "verb": "préférer", "tense": "present"},
+          {"type": "tip", "title": "nager, manger", "en": "Verbs ending in *-ger* keep the *e* in the *nous* form, so that the *g* is pronounced [ʒ]: *nous nageons, nous mangeons*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Elle ___ le basket.", "a": ["préfère"], "hint": "préférer"}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-3-1-f", "type": "form", "verb": "aimer", "tense": "present"},
+        {"id": "fr-3-1-01", "type": "cloze", "fr": "J'___ la radio.", "a": ["écoute"], "hint": "écouter"},
+        {"id": "fr-3-1-02", "type": "cloze", "fr": "Tu ___ bien !", "a": ["chantes"], "hint": "chanter"},
+        {"id": "fr-3-1-03", "type": "cloze", "fr": "Il ___ au foot.", "a": ["joue"], "hint": "jouer"},
+        {"id": "fr-3-1-04", "type": "cloze", "fr": "Nous ___ la télé.", "a": ["regardons"], "hint": "regarder"},
+        {"id": "fr-3-1-05", "type": "cloze", "fr": "Vous ___ bien !", "a": ["dansez"], "hint": "danser"},
+        {"id": "fr-3-1-06", "type": "cloze", "fr": "Elles ___ tous les jours.", "a": ["nagent"], "hint": "nager"},
+        {"id": "fr-3-1-07", "type": "cloze", "fr": "Nous ___ le samedi.", "a": ["nageons"], "hint": "nager"},
+        {"id": "fr-3-1-08", "type": "cloze", "fr": "Ils ___ le hockey.", "a": ["préfèrent"], "hint": "préférer"},
+        {"id": "fr-3-1-09", "type": "build", "en": "We're watching TV.", "a": ["{Nous regardons|On regarde} la télé."]},
+        {"id": "fr-3-1-10", "type": "build", "en": "Do you dance? (tu)", "a": ["{Tu danses|Est-ce que tu danses|Danses-tu} ?"]},
+        {"id": "fr-3-1-11", "type": "build", "en": "They swim every day.", "a": ["{Ils|Elles} nagent tous les jours."]},
+        {"id": "fr-3-1-12", "type": "transform", "task_en": "Change the person to nous", "fr": "Je chante bien.", "a": ["{Nous chantons|On chante} bien."]},
+        {"id": "fr-3-1-13", "type": "transform", "task_en": "Change the person to ils", "fr": "Il écoute le prof.", "a": ["Ils écoutent le prof."]},
+        {"id": "fr-3-1-14", "type": "transform", "task_en": "Change the person to vous", "fr": "Tu nages bien.", "a": ["Vous nagez bien."]},
+        {"id": "fr-3-1-15", "type": "order", "en": "My sister sings and dances.", "a": ["Ma sœur chante et danse"], "extra": ["chantes", "dansent"]}
+      ]
+    },
+    {
+      "id": "fr-3-2",
+      "title": "J'aime le foot",
+      "subtitle": "What I like and dislike",
+      "topics": ["likes", "hobbies"],
+      "words": ["verbs#to adore", "verbs#to hate", "verbs#to prefer", "sports#football", "sports#basketball", "sports#tennis", "sports#hockey", "sports#basketball", "sports#volleyball", "sports#dance, dancing", "sports#video games", "basics#because", "basics#why"],
+      "learn": [
+        {"title": "What I like", "blocks": [
+          {"type": "text", "en": "You say what you like with the verbs *aimer* (to like, to love), *adorer* (to adore), *préférer* (to prefer) and *détester* (to hate). They are followed by the **definite article**, because you're talking about something in general: *J'aime le foot. J'adore la musique. Je déteste les maths.*"},
+          {"type": "table", "textCols": [0], "rows": [
+            ["I love", "j'adore"],
+            ["I like", "j'aime"],
+            ["I quite like", "j'aime bien"],
+            ["I don't like", "je n'aime pas"],
+            ["I hate", "je déteste"]
+          ]},
+          {"type": "tip", "title": "Don't forget the article", "en": "In English you say \"I like football\" without an article, but French always uses one: *J'aime le foot*, not *J'aime foot*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'adore ___ musique.", "a": ["la"]}}
+        ]},
+        {"title": "I like doing", "blocks": [
+          {"type": "text", "en": "When you like doing something, put an infinitive after *aimer*: *J'aime danser.* (I like dancing.) *Je déteste nager.* (I hate swimming.)"},
+          {"type": "examples", "items": [
+            {"fr": "J'aime jouer aux jeux vidéo.", "en": "I like playing video games."},
+            {"fr": "Ma sœur adore chanter.", "en": "My sister loves singing."},
+            {"fr": "Je préfère regarder la télé.", "en": "I prefer watching TV."}
+          ]},
+          {"type": "check", "item": {"type": "build", "en": "I like singing.", "a": ["J'aime chanter."]}}
+        ]},
+        {"title": "Why? Because...", "blocks": [
+          {"type": "text", "en": "You answer *pourquoi ?* (why?) with *parce que* (because), *parce qu'* before a vowel. You give your opinion with *c'est*: *c'est super, c'est ennuyeux*."},
+          {"type": "examples", "items": [
+            {"fr": "Pourquoi tu aimes le basket ? Parce que c'est rapide.", "en": "Why do you like basketball? Because it's fast."},
+            {"fr": "Je déteste le tennis parce que c'est ennuyeux.", "en": "I hate tennis because it's boring."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-3-2-01", "type": "cloze", "fr": "J'aime ___ foot.", "a": ["le"]},
+        {"id": "fr-3-2-02", "type": "cloze", "fr": "Tu aimes ___ musique ?", "a": ["la"]},
+        {"id": "fr-3-2-03", "type": "cloze", "fr": "Il déteste ___ jeux vidéo.", "a": ["les"]},
+        {"id": "fr-3-2-04", "type": "cloze", "fr": "J'___ le hockey.", "a": ["adore"], "hint": "adorer"},
+        {"id": "fr-3-2-05", "type": "cloze", "fr": "Elle ___ le tennis.", "a": ["déteste"], "hint": "détester"},
+        {"id": "fr-3-2-06", "type": "cloze", "fr": "Tu ___ le foot ou le basket ?", "a": ["préfères"], "hint": "préférer"},
+        {"id": "fr-3-2-07", "type": "build", "en": "I like basketball.", "a": ["J'aime le basket."]},
+        {"id": "fr-3-2-08", "type": "build", "en": "My sister loves dancing.", "a": ["Ma sœur adore la danse."]},
+        {"id": "fr-3-2-09", "type": "build", "en": "I hate tennis.", "a": ["Je déteste le tennis."]},
+        {"id": "fr-3-2-10", "type": "build", "en": "I like playing video games.", "a": ["J'aime jouer aux jeux vidéo."], "hint": "to play video games = jouer aux jeux vidéo"},
+        {"id": "fr-3-2-11", "type": "build", "en": "Do you prefer football or hockey? (tu)", "a": ["{Tu préfères|Est-ce que tu préfères|Préfères-tu} le {foot|football} ou le hockey ?"]},
+        {"id": "fr-3-2-12", "type": "build", "en": "Why? Because it's boring.", "a": ["Pourquoi ? Parce que c'est ennuyeux."]},
+        {"id": "fr-3-2-13", "type": "transform", "task_en": "Make it negative", "fr": "J'aime le volley.", "a": ["Je n'aime pas le volley."], "why": "After aimer the definite article stays, even in the negative."},
+        {"id": "fr-3-2-14", "type": "order", "en": "I like listening to the radio.", "a": ["J'aime écouter la radio"], "extra": ["le", "aimer"]}
+      ]
+    },
+    {
+      "id": "fr-3-3",
+      "title": "Je fais du sport",
+      "subtitle": "faire du, jouer au, jouer de",
+      "topics": ["faire", "hobbies"],
+      "words": ["verbs-irregular#to do, to make", "sports#skiing", "sports#swimming", "sports#cycling", "sports#horse riding", "sports#climbing", "sports#athletics", "sports#gymnastics", "sports#match", "sports#team", "sports#training", "sports#piano", "sports#guitar", "sports#drums", "sports#violin", "sports#flute"],
+      "learn": [
+        {"title": "The verb faire", "blocks": [
+          {"type": "text", "en": "*Faire* (to do, to make) is irregular and very common."},
+          {"type": "table", "verb": "faire", "tense": "present"},
+          {"type": "tip", "title": "vous faites", "en": "Watch out: *vous faites*, not *vous faisez*. *Vous êtes* is just as unusual."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ du sport.", "a": ["faisons"], "hint": "faire"}}
+        ]},
+        {"title": "faire du, de la", "blocks": [
+          {"type": "text", "en": "You say which sport you do with *faire* and *du* (masculine), *de la* (feminine) or *de l'* (before a vowel). *Du* comes from *de + le*."},
+          {"type": "table", "head": ["", "article", "example"], "textCols": [0], "rows": [
+            ["masculine", "du", "faire du ski, du vélo, du judo"],
+            ["feminine", "de la", "faire de la danse, de la natation"],
+            ["before a vowel", "de l'", "faire de l'athlétisme, de l'escalade"]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je fais ___ natation.", "a": ["de la"]}}
+        ]},
+        {"title": "jouer à, jouer de", "blocks": [
+          {"type": "text", "en": "For ball sports and games you say *jouer à*, where *à + le = au* and *à + les = aux*: *Je joue au foot. On joue aux cartes.* For musical instruments you say *jouer de*: *Je joue de la guitare. Il joue du piano.*"},
+          {"type": "table", "textCols": [0], "rows": [
+            ["sport, game", "jouer au foot, au tennis, aux jeux vidéo"],
+            ["instrument", "jouer du piano, de la guitare, de la batterie"]
+          ]},
+          {"type": "tip", "title": "Basketball", "en": "With basketball you can use *faire* or *jouer*: *Je fais du basket.* and *Je joue au basket.* Both are correct."},
+          {"type": "tip", "title": "The negative", "en": "After a negative, *du, de la* become *de*: *Je ne fais pas de sport.* But *au* stays: *Je ne joue pas au foot.*"},
+          {"type": "check", "item": {"type": "build", "en": "I play the guitar.", "a": ["Je joue de la guitare."]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-3-3-f", "type": "form", "verb": "faire", "tense": "present"},
+        {"id": "fr-3-3-01", "type": "cloze", "fr": "Il fait ___ ski.", "a": ["du"]},
+        {"id": "fr-3-3-02", "type": "cloze", "fr": "Nous faisons ___escalade.", "a": ["de l'"]},
+        {"id": "fr-3-3-03", "type": "cloze", "fr": "Elle fait ___ danse.", "a": ["de la"]},
+        {"id": "fr-3-3-04", "type": "cloze", "fr": "Je joue ___ tennis.", "a": ["au"]},
+        {"id": "fr-3-3-05", "type": "cloze", "fr": "Tu joues ___ guitare ?", "a": ["de la"]},
+        {"id": "fr-3-3-06", "type": "cloze", "fr": "Mon père joue ___ piano.", "a": ["du"]},
+        {"id": "fr-3-3-07", "type": "cloze", "fr": "Ils jouent ___ jeux vidéo.", "a": ["aux"]},
+        {"id": "fr-3-3-08", "type": "cloze", "fr": "Vous jouez ___ violon ?", "a": ["du"]},
+        {"id": "fr-3-3-09", "type": "build", "en": "I do athletics.", "a": ["Je fais de l'athlétisme."]},
+        {"id": "fr-3-3-10", "type": "build", "en": "I play basketball three times a week.", "a": ["Je {joue au basket|fais du basket} trois fois par semaine."], "hint": "three times a week = trois fois par semaine"},
+        {"id": "fr-3-3-11", "type": "build", "en": "My brother plays the guitar.", "a": ["Mon frère joue de la guitare."]},
+        {"id": "fr-3-3-12", "type": "build", "en": "Do you do any sport? (vous)", "a": ["{Vous faites|Est-ce que vous faites|Faites-vous} du sport ?"]},
+        {"id": "fr-3-3-13", "type": "transform", "task_en": "Make it negative", "fr": "Je fais du sport.", "a": ["Je ne fais pas de sport."]},
+        {"id": "fr-3-3-14", "type": "transform", "task_en": "Make it negative", "fr": "Elle fait de la natation.", "a": ["Elle ne fait pas de natation."]},
+        {"id": "fr-3-3-15", "type": "transform", "task_en": "Make it negative", "fr": "Il joue au hockey.", "a": ["Il ne joue pas au hockey."], "why": "Au doesn't change after a negative, because à isn't an article."},
+        {"id": "fr-3-3-16", "type": "order", "en": "We play football with our friends.", "a": ["On joue au foot avec les copains", "Nous jouons au foot avec les copains"], "extra": ["du", "jouons"]}
+      ]
+    },
+    {
+      "id": "fr-3-4",
+      "title": "Tu aimes le sport ?",
+      "subtitle": "Questions and question words",
+      "topics": ["questions"],
+      "words": ["basics#what", "basics#when", "basics#how", "basics#with whom", "basics#how much, how many", "basics#yes (to a negative question)", "sports#hobbies, free time", "sports#game", "sports#competition, contest"],
+      "learn": [
+        {"title": "Three kinds of question", "blocks": [
+          {"type": "table", "head": ["", "example"], "textCols": [0], "rows": [
+            ["intonation (spoken)", "Tu aimes le sport ?"],
+            ["est-ce que (neutral)", "Est-ce que tu aimes le sport ?"],
+            ["inversion (formal, written)", "Aimes-tu le sport ?"]
+          ]},
+          {"type": "text", "en": "The easiest way is to raise your voice at the end of the sentence. *Est-ce que* at the start always works and the word order stays the same. Before a vowel it shortens to *est-ce qu'*: *Est-ce qu'il joue ?* You'll meet inversion (verb before the subject, with a hyphen) mostly in written texts."},
+          {"type": "tip", "title": "joue-t-il", "en": "In inversion a *-t-* goes between two vowels: *Joue-t-il au foot ? Aime-t-elle danser ?*"},
+          {"type": "check", "item": {"type": "transform", "task_en": "Ask the question with est-ce que", "fr": "Tu joues au tennis.", "a": ["Est-ce que tu joues au tennis ?"]}}
+        ]},
+        {"title": "Question words", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["what?", "qu'est-ce que...? / ... quoi ?"],
+            ["where?", "où ?"],
+            ["when?", "quand ?"],
+            ["how?", "comment ?"],
+            ["why?", "pourquoi ?"],
+            ["with whom?", "avec qui ?"],
+            ["how much? how many?", "combien ?"]
+          ]},
+          {"type": "text", "en": "With *est-ce que* the question word goes at the start: *Où est-ce que tu joues ?* In speech it can also go at the end: *Tu joues où ?*"},
+          {"type": "examples", "items": [
+            {"fr": "Qu'est-ce que tu fais le week-end ?", "en": "What do you do at the weekend?"},
+            {"fr": "Avec qui est-ce que tu joues ?", "en": "Who do you play with?"},
+            {"fr": "Comment s'appelle ton équipe ?", "en": "What's your team called?"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ est-ce que tu fais ?", "a": ["Qu'"], "hint": "what"}}
+        ]},
+        {"title": "Si!", "blocks": [
+          {"type": "text", "en": "To answer \"yes\" to a negative question you say *si*: *Tu n'aimes pas le foot ? Si, j'adore le foot !*"}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-3-4-01", "type": "transform", "task_en": "Ask the question with est-ce que", "fr": "Il fait du sport.", "a": ["Est-ce qu'il fait du sport ?"], "why": "Before a vowel, que shortens to qu'."},
+        {"id": "fr-3-4-02", "type": "transform", "task_en": "Ask the question with est-ce que", "fr": "Vous jouez au volley.", "a": ["Est-ce que vous jouez au volley ?"]},
+        {"id": "fr-3-4-03", "type": "transform", "task_en": "Ask the question with inversion", "fr": "Tu aimes le ski.", "a": ["Aimes-tu le ski ?"]},
+        {"id": "fr-3-4-04", "type": "transform", "task_en": "Ask the question with inversion", "fr": "Vous faites du vélo.", "a": ["Faites-vous du vélo ?"]},
+        {"id": "fr-3-4-05", "type": "cloze", "fr": "___ est-ce que tu joues au foot ?", "a": ["Où"], "hint": "where"},
+        {"id": "fr-3-4-06", "type": "cloze", "fr": "___ est-ce que tu fais du ski ?", "a": ["Quand"], "hint": "when"},
+        {"id": "fr-3-4-07", "type": "cloze", "fr": "___ est-ce que tu détestes le tennis ?", "a": ["Pourquoi"], "hint": "why"},
+        {"id": "fr-3-4-08", "type": "cloze", "fr": "Tu joues avec ___ ?", "a": ["qui"], "hint": "with whom"},
+        {"id": "fr-3-4-09", "type": "cloze", "fr": "___ s'appelle ton équipe ?", "a": ["Comment"], "hint": "how"},
+        {"id": "fr-3-4-10", "type": "build", "en": "What do you do at the weekend?", "a": ["{Qu'est-ce que tu fais le week-end|Tu fais quoi le week-end|Que fais-tu le week-end} ?"]},
+        {"id": "fr-3-4-11", "type": "build", "en": "Who do you play tennis with? (tu)", "a": ["{Avec qui est-ce que tu joues au tennis|Tu joues au tennis avec qui|Avec qui joues-tu au tennis} ?"]},
+        {"id": "fr-3-4-12", "type": "build", "en": "You don't like hockey? Yes, I do!", "a": ["Tu n'aimes pas le hockey ? Si !"]},
+        {"id": "fr-3-4-13", "type": "build", "en": "Why do you play basketball? (tu) Because it's great.", "a": ["{Pourquoi est-ce que tu joues au basket|Pourquoi tu joues au basket|Pourquoi joues-tu au basket} ? Parce que c'est super."]},
+        {"id": "fr-3-4-14", "type": "order", "en": "Where do you play basketball?", "a": ["Où est-ce que tu joues au basket"], "extra": ["qu'est-ce", "du"]}
+      ]
+    },
+    {
+      "id": "fr-3-5",
+      "title": "Souvent ou jamais ?",
+      "subtitle": "How often, and the verb lire",
+      "topics": ["hobbies", "negation"],
+      "words": ["verbs-irregular#to read", "basics#often", "basics#never", "time#every day", "sports#hiking (in the mountains)", "sports#running"],
+      "learn": [
+        {"title": "How often?", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["always", "toujours"],
+            ["often", "souvent"],
+            ["sometimes", "parfois / quelquefois"],
+            ["never", "ne ... jamais"],
+            ["every day", "tous les jours"],
+            ["once a week", "une fois par semaine"],
+            ["at the weekend", "le week-end"]
+          ]},
+          {"type": "text", "en": "Short adverbs go straight after the verb: *Je joue souvent au foot.* *Jamais* works like *pas*, so after it *du, de la* also become *de*: *Je ne fais jamais de ski.*"},
+          {"type": "check", "item": {"type": "transform", "task_en": "Say you never do it", "fr": "Je fais du ski.", "a": ["Je ne fais jamais de ski."]}}
+        ]},
+        {"title": "The verb lire (to read)", "blocks": [
+          {"type": "table", "verb": "lire", "tense": "present"},
+          {"type": "examples", "items": [
+            {"fr": "Je lis beaucoup.", "en": "I read a lot."},
+            {"fr": "Tu lis des BD ?", "en": "Do you read comics?"},
+            {"fr": "Le soir, mon père lit le journal.", "en": "In the evening my dad reads the newspaper."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-3-5-f", "type": "form", "verb": "lire", "tense": "present"},
+        {"id": "fr-3-5-01", "type": "cloze", "fr": "Je joue ___ au foot.", "a": ["souvent"], "hint": "often"},
+        {"id": "fr-3-5-02", "type": "cloze", "fr": "Il ne fait ___ de sport.", "a": ["jamais"], "hint": "never"},
+        {"id": "fr-3-5-03", "type": "cloze", "fr": "Nous jouons au basket ___ les jours.", "a": ["tous"]},
+        {"id": "fr-3-5-04", "type": "cloze", "fr": "Elle danse ___.", "a": ["parfois", "quelquefois"], "hint": "sometimes"},
+        {"id": "fr-3-5-05", "type": "build", "en": "I read often.", "a": ["Je lis souvent."]},
+        {"id": "fr-3-5-06", "type": "build", "en": "I never play video games.", "a": ["Je ne joue jamais aux jeux vidéo."]},
+        {"id": "fr-3-5-07", "type": "build", "en": "I play the guitar every day.", "a": ["Je joue de la guitare tous les jours."]},
+        {"id": "fr-3-5-08", "type": "build", "en": "At the weekend I play basketball.", "a": ["Le week-end, je {joue au basket|fais du basket}."]},
+        {"id": "fr-3-5-09", "type": "transform", "task_en": "Say she never does it", "fr": "Elle regarde la télé.", "a": ["Elle ne regarde jamais la télé."]},
+        {"id": "fr-3-5-10", "type": "transform", "task_en": "Say we never do it", "fr": "Nous faisons de la randonnée.", "a": ["{Nous ne faisons jamais|On ne fait jamais} de randonnée."]},
+        {"id": "fr-3-5-11", "type": "order", "en": "My sister reads every day.", "a": ["Ma sœur lit tous les jours"], "extra": ["lis", "jamais"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-3-t-01", "lesson": "fr-3-1", "type": "form", "verb": "jouer", "tense": "present", "person": 3},
+      {"id": "fr-3-t-02", "lesson": "fr-3-1", "type": "form", "verb": "préférer", "tense": "present", "person": 1},
+      {"id": "fr-3-t-03", "lesson": "fr-3-1", "type": "cloze", "fr": "Ils ___ la télé.", "a": ["regardent"], "hint": "regarder"},
+      {"id": "fr-3-t-04", "lesson": "fr-3-1", "type": "cloze", "fr": "Vous ___ bien !", "a": ["chantez"], "hint": "chanter"},
+      {"id": "fr-3-t-05", "lesson": "fr-3-2", "type": "cloze", "fr": "J'___ le basket.", "a": ["adore"], "hint": "adorer"},
+      {"id": "fr-3-t-06", "lesson": "fr-3-2", "type": "cloze", "fr": "Je déteste ___ tennis.", "a": ["le"]},
+      {"id": "fr-3-t-07", "lesson": "fr-3-2", "type": "build", "en": "I like hockey, but I hate tennis.", "a": ["J'aime le hockey, mais je déteste le tennis."]},
+      {"id": "fr-3-t-08", "lesson": "fr-3-2", "type": "build", "en": "I love dancing.", "a": ["J'adore {la danse|danser}."]},
+      {"id": "fr-3-t-09", "lesson": "fr-3-2", "type": "build", "en": "We like dancing.", "a": ["{Nous aimons|On aime} danser."]},
+      {"id": "fr-3-t-10", "lesson": "fr-3-3", "type": "form", "verb": "faire", "tense": "present", "person": 4},
+      {"id": "fr-3-t-11", "lesson": "fr-3-3", "type": "form", "verb": "faire", "tense": "present", "person": 5},
+      {"id": "fr-3-t-12", "lesson": "fr-3-3", "type": "cloze", "fr": "Elle fait ___équitation.", "a": ["de l'"]},
+      {"id": "fr-3-t-13", "lesson": "fr-3-3", "type": "cloze", "fr": "Tu joues ___ flûte ?", "a": ["de la"]},
+      {"id": "fr-3-t-14", "lesson": "fr-3-3", "type": "cloze", "fr": "Nous jouons ___ volley.", "a": ["au"]},
+      {"id": "fr-3-t-15", "lesson": "fr-3-3", "type": "cloze", "fr": "Il fait ___ vélo.", "a": ["du"]},
+      {"id": "fr-3-t-16", "lesson": "fr-3-3", "type": "build", "en": "Do you play the piano? (tu)", "a": ["{Tu joues|Est-ce que tu joues|Joues-tu} du piano ?"]},
+      {"id": "fr-3-t-17", "lesson": "fr-3-3", "type": "build", "en": "I don't do any sport.", "a": ["Je ne fais pas de sport."]},
+      {"id": "fr-3-t-18", "lesson": "fr-3-3", "type": "transform", "task_en": "Make it negative", "fr": "Je joue au tennis.", "a": ["Je ne joue pas au tennis."]},
+      {"id": "fr-3-t-19", "lesson": "fr-3-4", "type": "transform", "task_en": "Ask the question with est-ce que", "fr": "Elle aime le ski.", "a": ["Est-ce qu'elle aime le ski ?"]},
+      {"id": "fr-3-t-20", "lesson": "fr-3-4", "type": "cloze", "fr": "___ est-ce que tu habites ?", "a": ["Où"], "hint": "where"},
+      {"id": "fr-3-t-21", "lesson": "fr-3-4", "type": "cloze", "fr": "___ tu aimes le foot ? Parce que c'est super.", "a": ["Pourquoi"], "hint": "why"},
+      {"id": "fr-3-t-22", "lesson": "fr-3-4", "type": "build", "en": "When do you play basketball? (tu)", "a": ["{Quand est-ce que tu joues au basket|Tu joues au basket quand|Quand joues-tu au basket} ?"]},
+      {"id": "fr-3-t-23", "lesson": "fr-3-4", "type": "build", "en": "What do you do in your free time? (tu)", "a": ["{Qu'est-ce que tu fais|Tu fais quoi|Que fais-tu} {pendant ton temps libre|dans ton temps libre} ?"], "hint": "in your free time = pendant ton temps libre"},
+      {"id": "fr-3-t-24", "lesson": "fr-3-5", "type": "form", "verb": "lire", "tense": "present", "person": 2},
+      {"id": "fr-3-t-25", "lesson": "fr-3-5", "type": "transform", "task_en": "Say she never does it", "fr": "Il fait du vélo.", "a": ["Il ne fait jamais de vélo."]},
+      {"id": "fr-3-t-26", "lesson": "fr-3-5", "type": "build", "en": "I often play video games.", "a": ["Je joue souvent aux jeux vidéo."]}
+    ]
+  }
+}

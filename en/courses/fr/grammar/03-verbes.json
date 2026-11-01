@@ -1,0 +1,6606 @@
+{
+  "articles": [
+    {
+      "id": "verbs-overview",
+      "title": "How verbs are divided",
+      "fr": "les groupes de verbes",
+      "level": "A1",
+      "keywords": [
+        "verbs",
+        "groups",
+        "classes",
+        "-er",
+        "-ir",
+        "-re",
+        "-oir",
+        "irregular",
+        "regular",
+        "groupes",
+        "overview of verbs"
+      ],
+      "topics": [
+        "er-verbs",
+        "ir-verbs"
+      ],
+      "see": [
+        "conjugation-basics",
+        "er-verbs",
+        "ir-verbs",
+        "irregular-core",
+        "reflexive-verbs",
+        "modals"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French verbs fall into three groups, according to the ending of the infinitive. The group tells you whether a verb is conjugated by a rule or whether you have to learn it by heart."
+            },
+            {
+              "type": "tree",
+              "items": [
+                {
+                  "label": "1st group: *-er*",
+                  "en": "*parler, jouer, aimer*. About 9 verbs in 10, all regular (except *aller*).",
+                  "see": "er-verbs"
+                },
+                {
+                  "label": "2nd group: *-ir* like *finir*",
+                  "en": "*finir, choisir, réussir*. Regular, with *-iss-* in the plural: *nous finissons*.",
+                  "see": "ir-verbs"
+                },
+                {
+                  "label": "3rd group: everything else",
+                  "en": "irregular verbs, which you learn in families",
+                  "see": "irregular-more",
+                  "children": [
+                    {
+                      "label": "*-ir* without *-iss-*",
+                      "en": "*partir, sortir, dormir, venir*"
+                    },
+                    {
+                      "label": "*-re*",
+                      "en": "*prendre, attendre, vendre, mettre, dire, lire*"
+                    },
+                    {
+                      "label": "*-oir*",
+                      "en": "*pouvoir, vouloir, savoir, voir, devoir*"
+                    },
+                    {
+                      "label": "*être, avoir, aller, faire*",
+                      "en": "the four most important ones",
+                      "see": "irregular-core"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "New verbs",
+              "en": "Verbs that are added to the language are almost always in *-er*: *googler, liker, streamer*."
+            }
+          ]
+        },
+        {
+          "title": "Other divisions",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "kind",
+                "what it means",
+                "example"
+              ],
+              "textCols": [
+                0,
+                1
+              ],
+              "rows": [
+                [
+                  "reflexive",
+                  "have the pronoun *se* and use *être* in the past",
+                  "se lever, s'appeler"
+                ],
+                [
+                  "auxiliary",
+                  "*avoir* and *être* build compound tenses",
+                  "j'ai mangé, je suis allé"
+                ],
+                [
+                  "modal",
+                  "combine with an infinitive",
+                  "je peux venir"
+                ],
+                [
+                  "impersonal",
+                  "have only the subject *il*",
+                  "il pleut, il faut"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Telling the group of an -ir verb",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "to finish → we finish",
+                  "fr": "fin[[ir]] → nous fin[[iss]]ons",
+                  "note": "It has *-iss-*, so it is 2nd group."
+                },
+                {
+                  "en": "to leave → we leave",
+                  "fr": "part[[ir]] → nous part[[ons]]",
+                  "note": "No *-iss-*, so it is 3rd group. With *-ir* verbs you have to learn which is which."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je parle français.",
+                  "en": "I speak French. (1st group)"
+                },
+                {
+                  "fr": "Le cours finit à midi.",
+                  "en": "The lesson ends at noon. (2nd group)"
+                },
+                {
+                  "fr": "Nous prenons le bus.",
+                  "en": "We take the bus. (3rd group)"
+                },
+                {
+                  "fr": "Ils font du sport.",
+                  "en": "They do sport. (3rd group)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-verbs-overview-01",
+          "type": "form",
+          "verb": "parler",
+          "tense": "present",
+          "person": 3
+        },
+        {
+          "id": "g-verbs-overview-02",
+          "type": "form",
+          "verb": "finir",
+          "tense": "present",
+          "person": 3
+        },
+        {
+          "id": "g-verbs-overview-03",
+          "type": "form",
+          "verb": "partir",
+          "tense": "present",
+          "person": 3
+        },
+        {
+          "id": "g-verbs-overview-04",
+          "type": "cloze",
+          "fr": "Nous ___ nos devoirs.",
+          "a": [
+            "finissons"
+          ],
+          "hint": "finir",
+          "en": "We are finishing our homework."
+        },
+        {
+          "id": "g-verbs-overview-05",
+          "type": "cloze",
+          "fr": "Ils ___ le train.",
+          "a": [
+            "prennent"
+          ],
+          "hint": "prendre",
+          "en": "They take the train."
+        }
+      ]
+    },
+    {
+      "id": "conjugation-basics",
+      "title": "Conjugation: persons and endings",
+      "fr": "la conjugaison",
+      "level": "A1",
+      "keywords": [
+        "conjugation",
+        "persons",
+        "endings",
+        "infinitive",
+        "stem",
+        "conjugaison",
+        "radical",
+        "terminaison",
+        "silent endings",
+        "simple and compound tenses"
+      ],
+      "topics": [
+        "er-verbs"
+      ],
+      "see": [
+        "verbs-overview",
+        "er-verbs",
+        "silent-letters",
+        "tenses-overview"
+      ],
+      "verbs": [
+        "parler"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The **infinitive** is the basic form (*parler* = to speak). To conjugate, you cut off the ending and add an ending to the **stem** according to the person: *parl-er → je parl-e, nous parl-ons*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "person",
+                "pronoun",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "1st singular",
+                  "je",
+                  "I"
+                ],
+                [
+                  "2nd singular",
+                  "tu",
+                  "you"
+                ],
+                [
+                  "3rd singular",
+                  "il, elle, on",
+                  "he, she, one"
+                ],
+                [
+                  "1st plural",
+                  "nous",
+                  "we"
+                ],
+                [
+                  "2nd plural",
+                  "vous",
+                  "you (pl.)"
+                ],
+                [
+                  "3rd plural",
+                  "ils, elles",
+                  "they"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What you can hear",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Many endings are **written but not pronounced**. With *-er* verbs, *je parle, tu parles, il parle, ils parlent* sound identical. That is why the pronoun is compulsory, and why you learn the endings mainly for writing."
+            },
+            {
+              "type": "table",
+              "verb": "parler",
+              "tense": "present"
+            },
+            {
+              "type": "tip",
+              "en": "The ending *-ent* in the 3rd person plural of verbs is **always silent**: *ils parlent* sounds like *il parle*."
+            }
+          ]
+        },
+        {
+          "title": "Simple and compound tenses",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Tenses are **simple** (one word: *je parle, je parlais, je parlerai*) or **compound** (auxiliary + participle: *j'ai parlé*). Compound tenses are built on *avoir* and *être*, so you need to know those best."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "tenses-overview",
+                "irregular-core"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je travaille le samedi.",
+                  "en": "I work on Saturdays."
+                },
+                {
+                  "fr": "Tu travailles beaucoup.",
+                  "en": "You work a lot."
+                },
+                {
+                  "fr": "Nous travaillons ensemble.",
+                  "en": "We work together."
+                },
+                {
+                  "fr": "Ils travaillent à Prague.",
+                  "en": "They work in Prague."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-conjugation-basics-01",
+          "type": "cloze",
+          "fr": "Ils ___ au tennis.",
+          "a": [
+            "jouent"
+          ],
+          "hint": "jouer",
+          "en": "They play tennis."
+        },
+        {
+          "id": "g-conjugation-basics-02",
+          "type": "cloze",
+          "fr": "Vous ___ français ?",
+          "a": [
+            "parlez"
+          ],
+          "hint": "parler",
+          "en": "Do you speak French?"
+        },
+        {
+          "id": "g-conjugation-basics-03",
+          "type": "form",
+          "verb": "travailler",
+          "tense": "present",
+          "person": 1
+        },
+        {
+          "id": "g-conjugation-basics-04",
+          "type": "cloze",
+          "fr": "Nous ___ la télé.",
+          "a": [
+            "regardons"
+          ],
+          "hint": "regarder",
+          "en": "We watch TV."
+        }
+      ]
+    },
+    {
+      "id": "er-verbs",
+      "title": "Verbs in -er",
+      "fr": "les verbes en -er",
+      "level": "A1",
+      "keywords": [
+        "-er",
+        "first group",
+        "1st group",
+        "parler",
+        "aimer",
+        "jouer",
+        "regular verbs",
+        "verbes du premier groupe"
+      ],
+      "topics": [
+        "er-verbs"
+      ],
+      "see": [
+        "er-spelling",
+        "conjugation-basics",
+        "present"
+      ],
+      "verbs": [
+        "parler",
+        "aimer",
+        "jouer",
+        "habiter",
+        "écouter"
+      ],
+      "tense": "present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "About 9 in 10 French verbs end in *-er*, and they are conjugated completely regularly: cut off *-er* and add *-e, -es, -e, -ons, -ez, -ent*."
+            },
+            {
+              "type": "table",
+              "verb": "jouer",
+              "tense": "present"
+            }
+          ]
+        },
+        {
+          "title": "Pronunciation",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Only *-ons* and *-ez* are audible. The other endings are silent, so *je joue, tu joues, il joue, ils jouent* sound the same."
+            }
+          ]
+        },
+        {
+          "title": "Before a vowel",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With verbs that begin with a vowel or a silent *h*, *je* shortens to *j'* and in the plural there is a liaison: *j'aime, nous‿aimons, ils‿aiment*."
+            },
+            {
+              "type": "table",
+              "verb": "aimer",
+              "tense": "present"
+            },
+            {
+              "type": "tip",
+              "title": "Exception",
+              "en": "*Aller* ends in *-er* but is completely irregular: *je vais, tu vas, il va...*"
+            },
+            {
+              "type": "see",
+              "rules": [
+                "irregular-core",
+                "er-spelling"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'habite à Prague.",
+                  "en": "I live in Prague."
+                },
+                {
+                  "fr": "Tu écoutes de la musique ?",
+                  "en": "Are you listening to music?"
+                },
+                {
+                  "fr": "Nous regardons un film.",
+                  "en": "We are watching a film."
+                },
+                {
+                  "fr": "Vous travaillez où ?",
+                  "en": "Where do you work?"
+                },
+                {
+                  "fr": "Elles dansent bien.",
+                  "en": "They dance well."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-er-verbs-01",
+          "type": "cloze",
+          "fr": "Je ___ au basket.",
+          "a": [
+            "joue"
+          ],
+          "hint": "jouer",
+          "en": "I play basketball."
+        },
+        {
+          "id": "g-er-verbs-02",
+          "type": "cloze",
+          "fr": "Nous ___ le français.",
+          "a": [
+            "aimons"
+          ],
+          "hint": "aimer",
+          "en": "We like French."
+        },
+        {
+          "id": "g-er-verbs-03",
+          "type": "cloze",
+          "fr": "Ils ___ à Lyon.",
+          "a": [
+            "habitent"
+          ],
+          "hint": "habiter",
+          "en": "They live in Lyon."
+        },
+        {
+          "id": "g-er-verbs-04",
+          "type": "form",
+          "verb": "écouter",
+          "tense": "present"
+        },
+        {
+          "id": "g-er-verbs-05",
+          "type": "build",
+          "en": "Are you listening to music?",
+          "a": [
+            "Tu écoutes de la musique ?",
+            "Est-ce que tu écoutes de la musique ?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "er-spelling",
+      "title": "Spelling changes in -er verbs",
+      "fr": "les particularités des verbes en -er",
+      "level": "A1",
+      "levelTo": "A2",
+      "keywords": [
+        "manger",
+        "commencer",
+        "acheter",
+        "appeler",
+        "préférer",
+        "payer",
+        "envoyer",
+        "nous mangeons",
+        "nous commençons",
+        "j'achète",
+        "je préfère",
+        "spelling changes",
+        "cédille"
+      ],
+      "topics": [
+        "er-verbs"
+      ],
+      "see": [
+        "er-verbs",
+        "accents"
+      ],
+      "verbs": [
+        "manger",
+        "commencer",
+        "acheter",
+        "préférer",
+        "s'appeler",
+        "payer",
+        "envoyer"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Some *-er* verbs have regular endings, but their spelling changes inside the stem so that the pronunciation stays right."
+            },
+            {
+              "type": "table",
+              "head": [
+                "type",
+                "what happens",
+                "example"
+              ],
+              "textCols": [
+                0,
+                1
+              ],
+              "rows": [
+                [
+                  "-ger",
+                  "with *nous* the *e* stays, so *g* sounds soft",
+                  "nous mangeons"
+                ],
+                [
+                  "-cer",
+                  "with *nous* the *c* becomes *ç*",
+                  "nous commençons"
+                ],
+                [
+                  "e, é in the stem",
+                  "before a silent ending it becomes *è*",
+                  "j'achète, je préfère"
+                ],
+                [
+                  "-eler, -eter",
+                  "the consonant doubles before a silent ending",
+                  "je m'appelle, je jette"
+                ],
+                [
+                  "-yer",
+                  "*y → i* before a silent ending",
+                  "je paie, j'envoie"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "-ger and -cer",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Without the *e*, *nous mangons* would be read with a hard *g*. Without *ç*, *nous commencons* would be read with a *k*."
+            },
+            {
+              "type": "table",
+              "verb": "manger",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "commencer",
+              "tense": "present"
+            }
+          ]
+        },
+        {
+          "title": "A change in the stem",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The change happens only where the ending is **silent** (*je, tu, il, ils*). With *nous* and *vous* the stem stays as in the infinitive: *nous achetons, vous préférez*."
+            },
+            {
+              "type": "table",
+              "verb": "acheter",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "préférer",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "s'appeler",
+              "tense": "present"
+            }
+          ]
+        },
+        {
+          "title": "-yer",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With *-yer*, the *y* becomes *i* before a silent ending. With *payer* both forms are correct: *je paie* and *je paye*."
+            },
+            {
+              "type": "table",
+              "verb": "envoyer",
+              "tense": "present"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Nous mangeons à midi.",
+                  "en": "We eat at noon."
+                },
+                {
+                  "fr": "Nous commençons demain.",
+                  "en": "We start tomorrow."
+                },
+                {
+                  "fr": "J'achète du pain.",
+                  "en": "I'm buying bread."
+                },
+                {
+                  "fr": "Je préfère le chocolat.",
+                  "en": "I prefer chocolate."
+                },
+                {
+                  "fr": "Comment tu t'appelles ?",
+                  "en": "What's your name?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-er-spelling-01",
+          "type": "cloze",
+          "fr": "Nous ___ une pizza.",
+          "a": [
+            "mangeons"
+          ],
+          "hint": "manger",
+          "en": "We are eating a pizza."
+        },
+        {
+          "id": "g-er-spelling-02",
+          "type": "cloze",
+          "fr": "Nous ___ à huit heures.",
+          "a": [
+            "commençons"
+          ],
+          "hint": "commencer",
+          "en": "We start at eight."
+        },
+        {
+          "id": "g-er-spelling-03",
+          "type": "cloze",
+          "fr": "J'___ des baskets.",
+          "a": [
+            "achète"
+          ],
+          "hint": "acheter",
+          "en": "I'm buying trainers."
+        },
+        {
+          "id": "g-er-spelling-04",
+          "type": "cloze",
+          "fr": "Tu ___ le thé ou le café ?",
+          "a": [
+            "préfères"
+          ],
+          "hint": "préférer",
+          "en": "Do you prefer tea or coffee?"
+        },
+        {
+          "id": "g-er-spelling-05",
+          "type": "cloze",
+          "fr": "Je m'___ Hugo.",
+          "a": [
+            "appelle"
+          ],
+          "hint": "s'appeler",
+          "en": "My name is Hugo."
+        }
+      ]
+    },
+    {
+      "id": "ir-verbs",
+      "title": "Verbs in -ir (finir)",
+      "fr": "les verbes du deuxième groupe",
+      "level": "A1",
+      "keywords": [
+        "finir",
+        "choisir",
+        "réussir",
+        "grandir",
+        "-ir",
+        "-iss-",
+        "second group",
+        "2nd group",
+        "nous finissons"
+      ],
+      "topics": [
+        "ir-verbs"
+      ],
+      "see": [
+        "verbs-overview",
+        "irregular-more"
+      ],
+      "verbs": [
+        "finir",
+        "choisir"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Verbs of the 2nd group end in *-ir* and have the insert *-iss-* in the plural. Endings: *-is, -is, -it, -issons, -issez, -issent*."
+            },
+            {
+              "type": "table",
+              "verb": "finir",
+              "tense": "present"
+            }
+          ]
+        },
+        {
+          "title": "Which ones",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "finir",
+                  "to finish"
+                ],
+                [
+                  "choisir",
+                  "to choose"
+                ],
+                [
+                  "réussir",
+                  "to succeed, to pass"
+                ],
+                [
+                  "grandir",
+                  "to grow up"
+                ],
+                [
+                  "grossir",
+                  "to put on weight"
+                ],
+                [
+                  "maigrir",
+                  "to lose weight"
+                ],
+                [
+                  "rougir",
+                  "to blush"
+                ],
+                [
+                  "obéir à",
+                  "to obey"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "Many come from adjectives: *grand → grandir, gros → grossir, rouge → rougir*."
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "We're leaving.",
+                  "wrong": "Nous partissons.",
+                  "fr": "Nous [[partons]].",
+                  "note": "*Partir, sortir, dormir* end in *-ir* but do not have *-iss-*. They belong to the 3rd group."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "irregular-more"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le film finit à dix heures.",
+                  "en": "The film ends at ten."
+                },
+                {
+                  "fr": "Tu choisis quoi ?",
+                  "en": "What are you choosing?"
+                },
+                {
+                  "fr": "Nous finissons nos devoirs.",
+                  "en": "We are finishing our homework."
+                },
+                {
+                  "fr": "Les enfants grandissent vite.",
+                  "en": "Children grow up fast."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-ir-verbs-01",
+          "type": "cloze",
+          "fr": "Je ___ mes devoirs.",
+          "a": [
+            "finis"
+          ],
+          "hint": "finir",
+          "en": "I'm finishing my homework."
+        },
+        {
+          "id": "g-ir-verbs-02",
+          "type": "cloze",
+          "fr": "Vous ___ quoi ?",
+          "a": [
+            "choisissez"
+          ],
+          "hint": "choisir",
+          "en": "What are you choosing?"
+        },
+        {
+          "id": "g-ir-verbs-03",
+          "type": "cloze",
+          "fr": "Ils ___ à cinq heures.",
+          "a": [
+            "finissent"
+          ],
+          "hint": "finir",
+          "en": "They finish at five."
+        },
+        {
+          "id": "g-ir-verbs-04",
+          "type": "form",
+          "verb": "choisir",
+          "tense": "present",
+          "person": 3
+        }
+      ]
+    },
+    {
+      "id": "re-verbs",
+      "title": "Verbs in -re (attendre, vendre, répondre)",
+      "fr": "les verbes en -re",
+      "level": "A1",
+      "keywords": [
+        "re verbs",
+        "-re",
+        "-dre",
+        "attendre",
+        "vendre",
+        "répondre",
+        "perdre",
+        "entendre",
+        "descendre",
+        "rendre",
+        "third group",
+        "conjugation"
+      ],
+      "topics": [],
+      "see": [
+        "er-verbs",
+        "ir-verbs",
+        "irregular-more",
+        "participles"
+      ],
+      "verbs": [
+        "attendre",
+        "vendre",
+        "perdre"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Regular verbs in **-re** (mostly **-dre**) drop *-re* and add **-s, -s, -, -ons, -ez, -ent**. In the *il / elle / on* form the stem stays alone (**il attend**), so the final *d* is silent but written. The past participle ends in **-u**."
+            },
+            {
+              "type": "table",
+              "verb": "attendre",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "meaning",
+                "participle"
+              ],
+              "rows": [
+                [
+                  "attendre",
+                  "to wait for",
+                  "attendu"
+                ],
+                [
+                  "vendre",
+                  "to sell",
+                  "vendu"
+                ],
+                [
+                  "répondre (à)",
+                  "to answer",
+                  "répondu"
+                ],
+                [
+                  "perdre",
+                  "to lose",
+                  "perdu"
+                ],
+                [
+                  "entendre",
+                  "to hear",
+                  "entendu"
+                ],
+                [
+                  "descendre",
+                  "to go down, get off",
+                  "descendu (être or avoir)"
+                ],
+                [
+                  "rendre",
+                  "to give back",
+                  "rendu"
+                ],
+                [
+                  "défendre, attendre, étendre, tendre",
+                  "to defend, wait, spread, hold out",
+                  "-u"
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The other tenses",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The **imparfait** is *j'attendais*, the **futur** *j'attendrai* (the *e* of *-re* is dropped, the *r* stays), the **conditionnel** *j'attendrais*, the **passé composé** *j'ai attendu*, the **imperative** *Attends ! Attendons ! Attendez !*, the **subjunctive** *que j'attende*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'attendais le bus.",
+                  "en": "I was waiting for the bus."
+                },
+                {
+                  "fr": "Il a perdu ses clés.",
+                  "en": "He lost his keys."
+                },
+                {
+                  "fr": "Je répondrai demain.",
+                  "en": "I'll answer tomorrow."
+                },
+                {
+                  "fr": "Attendez-moi !",
+                  "en": "Wait for me!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I wait for the bus.",
+                  "wrong": "J'attende le bus.",
+                  "fr": "J'[[attends]] le bus."
+                },
+                {
+                  "en": "He sells cars.",
+                  "wrong": "Il vends des voitures.",
+                  "fr": "Il [[vend]] des voitures.",
+                  "note": "No *s* in *il / elle / on*."
+                },
+                {
+                  "en": "We answer the questions.",
+                  "wrong": "Nous répondons les questions.",
+                  "fr": "Nous [[répondons]] [[aux]] questions.",
+                  "note": "*Répondre* takes *à*."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Descendre*, *rendre*, *répondre* are regular, but **prendre** and **mettre** are not (*nous prenons, ils prennent*). See the irregular verbs."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "irregular-more",
+                "participles",
+                "verbs-direct-indirect"
+              ],
+              "verbs": [
+                "attendre",
+                "vendre",
+                "perdre"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Nous attendons le train depuis vingt minutes.",
+                  "en": "We've been waiting for the train for twenty minutes."
+                },
+                {
+                  "fr": "Elle vend sa vieille guitare.",
+                  "en": "She is selling her old guitar."
+                },
+                {
+                  "fr": "Tu entends ce bruit ?",
+                  "en": "Do you hear that noise?"
+                },
+                {
+                  "fr": "Il ne répond jamais à mes messages.",
+                  "en": "He never answers my messages."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-re-verbs-01",
+          "type": "cloze",
+          "fr": "Nous ___ le bus.",
+          "a": [
+            "attendons"
+          ],
+          "hint": "attendre",
+          "en": "We are waiting for the bus."
+        },
+        {
+          "id": "g-re-verbs-02",
+          "type": "cloze",
+          "fr": "Il ___ sa voiture.",
+          "a": [
+            "vend"
+          ],
+          "hint": "vendre",
+          "en": "He is selling his car."
+        },
+        {
+          "id": "g-re-verbs-03",
+          "type": "cloze",
+          "fr": "Vous ___ à la question ?",
+          "a": [
+            "répondez"
+          ],
+          "hint": "répondre",
+          "en": "Do you answer the question?"
+        },
+        {
+          "id": "g-re-verbs-04",
+          "type": "cloze",
+          "fr": "J'ai ___ mes clés.",
+          "a": [
+            "perdu"
+          ],
+          "hint": "perdre",
+          "en": "I lost my keys."
+        },
+        {
+          "id": "g-re-verbs-05",
+          "type": "cloze",
+          "fr": "Tu ___ la musique ?",
+          "a": [
+            "entends"
+          ],
+          "hint": "entendre",
+          "en": "Do you hear the music?"
+        },
+        {
+          "id": "g-re-verbs-06",
+          "type": "transform",
+          "task_en": "Say it in the passé composé",
+          "fr": "J'attends le bus.",
+          "a": [
+            "J'ai attendu le bus."
+          ]
+        },
+        {
+          "id": "g-re-verbs-07",
+          "type": "transform",
+          "task_en": "Say it in the imparfait",
+          "fr": "Il vend des fruits.",
+          "a": [
+            "Il vendait des fruits."
+          ]
+        },
+        {
+          "id": "g-re-verbs-08",
+          "type": "build",
+          "en": "Wait for me! (tu)",
+          "a": [
+            "Attends-moi !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tir-mir-vir",
+      "title": "Partir, sortir, dormir, servir, sentir",
+      "fr": "les verbes en -tir, -mir, -vir",
+      "level": "A1",
+      "keywords": [
+        "partir",
+        "sortir",
+        "dormir",
+        "servir",
+        "sentir",
+        "mentir",
+        "s'endormir",
+        "se sentir",
+        "-tir",
+        "-mir",
+        "-vir",
+        "irregular -ir",
+        "je pars",
+        "je dors",
+        "je sors"
+      ],
+      "topics": [],
+      "see": [
+        "ir-verbs",
+        "irregular-more",
+        "passe-compose-etre"
+      ],
+      "verbs": [
+        "partir",
+        "sortir",
+        "dormir"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A group of irregular **-ir** verbs drops the **last consonant of the stem** in the singular: *je pars, tu pars, il part* (but *nous partons*). The endings are **-s, -s, -t, -ons, -ez, -ent**. The past participle ends in **-i**, except *venir*-type verbs."
+            },
+            {
+              "type": "table",
+              "verb": "partir",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "singular (je)",
+                "plural (nous)",
+                "participle"
+              ],
+              "rows": [
+                [
+                  "partir (to leave)",
+                  "je pars",
+                  "nous partons",
+                  "parti (être)"
+                ],
+                [
+                  "sortir (to go out)",
+                  "je sors",
+                  "nous sortons",
+                  "sorti (être)"
+                ],
+                [
+                  "dormir (to sleep)",
+                  "je dors",
+                  "nous dormons",
+                  "dormi"
+                ],
+                [
+                  "servir (to serve)",
+                  "je sers",
+                  "nous servons",
+                  "servi"
+                ],
+                [
+                  "sentir (to feel, smell)",
+                  "je sens",
+                  "nous sentons",
+                  "senti"
+                ],
+                [
+                  "mentir (to lie)",
+                  "je mens",
+                  "nous mentons",
+                  "menti"
+                ],
+                [
+                  "s'endormir (to fall asleep)",
+                  "je m'endors",
+                  "nous nous endormons",
+                  "endormi"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Compare finir",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Finir* adds **-iss-** in the plural (*nous finissons*). *Partir*, *sortir*, *dormir*, *servir*, *sentir* **do not**: *nous partons*, not *partissons*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "We leave.",
+                  "wrong": "Nous partissons.",
+                  "fr": "Nous [[partons]]."
+                },
+                {
+                  "en": "He sleeps.",
+                  "wrong": "Il dormit.",
+                  "fr": "Il [[dort]]."
+                },
+                {
+                  "en": "I go out.",
+                  "wrong": "Je sortis.",
+                  "fr": "Je [[sors]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Être or avoir?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In the passé composé *partir* and *sortir* use **être** when they have no object: *Je suis parti. Elle est sortie.* *Sortir* with an object uses **avoir**: *J'ai sorti le chien.* *Dormir, servir, sentir, mentir* always take *avoir*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Nous sommes partis hier soir.",
+                  "en": "We left last night."
+                },
+                {
+                  "fr": "Elle est sortie avec ses amis.",
+                  "en": "She went out with her friends."
+                },
+                {
+                  "fr": "J'ai sorti la poubelle.",
+                  "en": "I took out the rubbish."
+                },
+                {
+                  "fr": "Il a dormi dix heures.",
+                  "en": "He slept ten hours."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je pars à huit heures.",
+                  "en": "I leave at eight."
+                },
+                {
+                  "fr": "Tu sors ce soir ?",
+                  "en": "Are you going out tonight?"
+                },
+                {
+                  "fr": "Les enfants dorment déjà.",
+                  "en": "The children are already asleep."
+                },
+                {
+                  "fr": "Ça sent bon !",
+                  "en": "That smells good!"
+                },
+                {
+                  "fr": "Le serveur nous sert un café.",
+                  "en": "The waiter serves us a coffee."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-tir-mir-vir-01",
+          "type": "cloze",
+          "fr": "Je ___ à huit heures.",
+          "a": [
+            "pars"
+          ],
+          "hint": "partir",
+          "en": "I leave at eight."
+        },
+        {
+          "id": "g-tir-mir-vir-02",
+          "type": "cloze",
+          "fr": "Nous ___ ce soir.",
+          "a": [
+            "sortons"
+          ],
+          "hint": "sortir",
+          "en": "We're going out tonight."
+        },
+        {
+          "id": "g-tir-mir-vir-03",
+          "type": "cloze",
+          "fr": "Il ___ dix heures par nuit.",
+          "a": [
+            "dort"
+          ],
+          "hint": "dormir",
+          "en": "He sleeps ten hours a night."
+        },
+        {
+          "id": "g-tir-mir-vir-04",
+          "type": "cloze",
+          "fr": "Tu ___ ?",
+          "a": [
+            "mens"
+          ],
+          "hint": "mentir",
+          "en": "Are you lying?"
+        },
+        {
+          "id": "g-tir-mir-vir-05",
+          "type": "cloze",
+          "fr": "Vous ___ du café ?",
+          "a": [
+            "servez"
+          ],
+          "hint": "servir",
+          "en": "Are you serving coffee?"
+        },
+        {
+          "id": "g-tir-mir-vir-06",
+          "type": "transform",
+          "task_en": "Say it in the passé composé",
+          "fr": "Elle part.",
+          "a": [
+            "Elle est partie."
+          ]
+        },
+        {
+          "id": "g-tir-mir-vir-07",
+          "type": "transform",
+          "task_en": "Say it in the passé composé",
+          "fr": "Il dort.",
+          "a": [
+            "Il a dormi."
+          ]
+        },
+        {
+          "id": "g-tir-mir-vir-08",
+          "type": "build",
+          "en": "They are leaving.",
+          "a": [
+            "Ils partent.",
+            "Elles partent."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ouvrir-offrir",
+      "title": "Ouvrir, offrir, couvrir, découvrir, souffrir",
+      "fr": "les verbes comme ouvrir",
+      "level": "A2",
+      "keywords": [
+        "ouvrir",
+        "offrir",
+        "couvrir",
+        "découvrir",
+        "souffrir",
+        "cueillir",
+        "-vrir",
+        "-frir",
+        "j'ouvre",
+        "ouvert",
+        "offert",
+        "irregular -ir with -er endings"
+      ],
+      "topics": [],
+      "see": [
+        "er-verbs",
+        "ir-verbs",
+        "participles"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "These verbs end in **-ir** but are conjugated like **-er verbs** in the present: **-e, -es, -e, -ons, -ez, -ent**. The past participle is **-ert**: *ouvert, offert, couvert, découvert, souffert*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "person",
+                "ouvrir",
+                "offrir",
+                "souffrir"
+              ],
+              "rows": [
+                [
+                  "je",
+                  "j'ouvre",
+                  "j'offre",
+                  "je souffre"
+                ],
+                [
+                  "tu",
+                  "tu ouvres",
+                  "tu offres",
+                  "tu souffres"
+                ],
+                [
+                  "il / elle / on",
+                  "il ouvre",
+                  "il offre",
+                  "il souffre"
+                ],
+                [
+                  "nous",
+                  "nous ouvrons",
+                  "nous offrons",
+                  "nous souffrons"
+                ],
+                [
+                  "vous",
+                  "vous ouvrez",
+                  "vous offrez",
+                  "vous souffrez"
+                ],
+                [
+                  "ils / elles",
+                  "ils ouvrent",
+                  "ils offrent",
+                  "ils souffrent"
+                ],
+                [
+                  "participle",
+                  "ouvert",
+                  "offert",
+                  "souffert"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "ouvrir / rouvrir",
+                  "to open / reopen"
+                ],
+                [
+                  "offrir",
+                  "to offer, give as a gift"
+                ],
+                [
+                  "couvrir / découvrir / recouvrir",
+                  "to cover / discover / cover again"
+                ],
+                [
+                  "souffrir",
+                  "to suffer"
+                ],
+                [
+                  "cueillir",
+                  "to pick (je cueille, cueilli)"
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Other tenses",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The **futur** is *j'ouvrirai, j'offrirai*. The **imparfait** is *j'ouvrais, j'offrais*. The **imperative** has no *s* in *tu*: *Ouvre ! Offre !* The **passé composé** takes *avoir*: *J'ai ouvert, j'ai offert, j'ai découvert*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il a ouvert la porte.",
+                  "en": "He opened the door."
+                },
+                {
+                  "fr": "Ils m'ont offert un livre.",
+                  "en": "They gave me a book."
+                },
+                {
+                  "fr": "J'ai découvert un bon restaurant.",
+                  "en": "I discovered a good restaurant."
+                },
+                {
+                  "fr": "Ouvre la fenêtre, s'il te plaît.",
+                  "en": "Open the window, please."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I open the window.",
+                  "wrong": "J'ouvris la fenêtre.",
+                  "fr": "J'[[ouvre]] la fenêtre."
+                },
+                {
+                  "en": "I opened the door.",
+                  "wrong": "J'ai ouvri la porte.",
+                  "fr": "J'ai [[ouvert]] la porte.",
+                  "note": "The participle is *ouvert*, not *ouvri*."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Offrir* is the verb for gifts: *offrir un cadeau à quelqu'un*. *Donner* is more general."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le magasin ouvre à neuf heures.",
+                  "en": "The shop opens at nine."
+                },
+                {
+                  "fr": "Je t'offre un café.",
+                  "en": "I'll buy you a coffee."
+                },
+                {
+                  "fr": "Nous avons découvert un petit village.",
+                  "en": "We discovered a little village."
+                },
+                {
+                  "fr": "Il souffre d'une allergie.",
+                  "en": "He suffers from an allergy."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-ouvrir-offrir-01",
+          "type": "cloze",
+          "fr": "Le magasin ___ à neuf heures.",
+          "a": [
+            "ouvre"
+          ],
+          "hint": "ouvrir",
+          "en": "The shop opens at nine."
+        },
+        {
+          "id": "g-ouvrir-offrir-02",
+          "type": "cloze",
+          "fr": "Nous ___ la porte.",
+          "a": [
+            "ouvrons"
+          ],
+          "hint": "ouvrir",
+          "en": "We open the door."
+        },
+        {
+          "id": "g-ouvrir-offrir-03",
+          "type": "cloze",
+          "fr": "Je t'___ un cadeau.",
+          "a": [
+            "offre"
+          ],
+          "hint": "offrir",
+          "en": "I'm giving you a present."
+        },
+        {
+          "id": "g-ouvrir-offrir-04",
+          "type": "cloze",
+          "fr": "Il a ___ la porte.",
+          "a": [
+            "ouvert"
+          ],
+          "hint": "ouvrir",
+          "en": "He opened the door."
+        },
+        {
+          "id": "g-ouvrir-offrir-05",
+          "type": "cloze",
+          "fr": "Elle a ___ un café.",
+          "a": [
+            "offert"
+          ],
+          "hint": "offrir",
+          "en": "She bought a coffee for someone."
+        },
+        {
+          "id": "g-ouvrir-offrir-06",
+          "type": "transform",
+          "task_en": "Say it in the passé composé",
+          "fr": "J'ouvre la fenêtre.",
+          "a": [
+            "J'ai ouvert la fenêtre."
+          ]
+        },
+        {
+          "id": "g-ouvrir-offrir-07",
+          "type": "build",
+          "en": "Open the window! (tu)",
+          "a": [
+            "Ouvre la fenêtre !"
+          ]
+        },
+        {
+          "id": "g-ouvrir-offrir-08",
+          "type": "build",
+          "en": "They discovered a village.",
+          "a": [
+            "Ils ont découvert un village."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irregular-core",
+      "title": "Être, avoir, aller, faire",
+      "fr": "être, avoir, aller, faire",
+      "level": "A1",
+      "keywords": [
+        "être",
+        "avoir",
+        "aller",
+        "faire",
+        "irregular verbs",
+        "auxiliary verbs",
+        "je suis",
+        "j'ai",
+        "je vais",
+        "je fais",
+        "to be",
+        "to have",
+        "to go",
+        "to do"
+      ],
+      "topics": [
+        "etre",
+        "avoir",
+        "aller",
+        "faire"
+      ],
+      "see": [
+        "passe-compose-avoir",
+        "passe-compose-etre",
+        "futur-proche",
+        "avoir-faire-expressions"
+      ],
+      "verbs": [
+        "être",
+        "avoir",
+        "aller",
+        "faire"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The four most important verbs in French. They are irregular, so you learn them by heart, and whole tenses are built on them: *avoir* and *être* form the passé composé, *aller* the near future."
+            },
+            {
+              "type": "table",
+              "verb": "être",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "avoir",
+              "tense": "present"
+            }
+          ]
+        },
+        {
+          "title": "Aller and faire",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "aller",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "faire",
+              "tense": "present"
+            }
+          ]
+        },
+        {
+          "title": "What they are for",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "meaning",
+                "helps to form"
+              ],
+              "textCols": [
+                0,
+                1,
+                2
+              ],
+              "rows": [
+                [
+                  "*être*",
+                  "to be",
+                  "passé composé: *je suis allé*"
+                ],
+                [
+                  "*avoir*",
+                  "to have",
+                  "passé composé: *j'ai mangé*"
+                ],
+                [
+                  "*aller*",
+                  "to go",
+                  "the near future: *je vais manger*"
+                ],
+                [
+                  "*faire*",
+                  "to do, to make",
+                  "weather and sports: *il fait beau, je fais du ski*"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm 14.",
+                  "wrong": "Je suis 14 ans.",
+                  "fr": "[[J'ai]] 14 ans.",
+                  "note": "Age is expressed with *avoir*."
+                },
+                {
+                  "en": "I'm hungry.",
+                  "wrong": "Je suis faim.",
+                  "fr": "[[J'ai]] faim."
+                },
+                {
+                  "en": "I'm going to school.",
+                  "wrong": "Je vais à le collège.",
+                  "fr": "Je vais [[au]] collège.",
+                  "note": "*à + le = au*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Nous sommes en retard.",
+                  "en": "We are late."
+                },
+                {
+                  "fr": "Tu as des frères et sœurs ?",
+                  "en": "Do you have brothers and sisters?"
+                },
+                {
+                  "fr": "Ils vont au cinéma.",
+                  "en": "They are going to the cinema."
+                },
+                {
+                  "fr": "Qu'est-ce que tu fais ce soir ?",
+                  "en": "What are you doing tonight?"
+                },
+                {
+                  "fr": "Vous êtes d'où ?",
+                  "en": "Where are you from?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-irregular-core-01",
+          "type": "form",
+          "verb": "être",
+          "tense": "present"
+        },
+        {
+          "id": "g-irregular-core-02",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "present",
+          "person": 4
+        },
+        {
+          "id": "g-irregular-core-03",
+          "type": "cloze",
+          "fr": "Ils ___ au collège.",
+          "a": [
+            "vont"
+          ],
+          "hint": "aller",
+          "en": "They are going to school."
+        },
+        {
+          "id": "g-irregular-core-04",
+          "type": "cloze",
+          "fr": "Nous ___ du ski.",
+          "a": [
+            "faisons"
+          ],
+          "hint": "faire",
+          "en": "We go skiing."
+        },
+        {
+          "id": "g-irregular-core-05",
+          "type": "cloze",
+          "fr": "Vous ___ quoi ce week-end ?",
+          "a": [
+            "faites"
+          ],
+          "hint": "faire",
+          "en": "What are you doing this weekend?"
+        },
+        {
+          "id": "g-irregular-core-06",
+          "type": "build",
+          "en": "I'm fourteen.",
+          "a": [
+            "J'ai quatorze ans.",
+            "J'ai 14 ans."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irregular-more",
+      "title": "More irregular verbs",
+      "fr": "les verbes irréguliers",
+      "level": "A1",
+      "levelTo": "A2",
+      "keywords": [
+        "prendre",
+        "venir",
+        "partir",
+        "sortir",
+        "dormir",
+        "mettre",
+        "voir",
+        "boire",
+        "dire",
+        "lire",
+        "écrire",
+        "connaître",
+        "attendre",
+        "irregular verbs",
+        "3rd group"
+      ],
+      "topics": [
+        "prendre",
+        "venir",
+        "mettre"
+      ],
+      "see": [
+        "irregular-core",
+        "modals",
+        "ir-verbs"
+      ],
+      "verbs": [
+        "prendre",
+        "venir",
+        "partir",
+        "sortir",
+        "dormir",
+        "mettre",
+        "voir",
+        "boire",
+        "dire",
+        "lire",
+        "écrire",
+        "connaître",
+        "attendre"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "There are many irregular verbs, but they form **families with the same pattern**. If you know one, you know the whole family."
+            },
+            {
+              "type": "table",
+              "head": [
+                "model",
+                "conjugated the same way"
+              ],
+              "rows": [
+                [
+                  "prendre",
+                  "apprendre, comprendre"
+                ],
+                [
+                  "venir",
+                  "devenir, revenir, se souvenir"
+                ],
+                [
+                  "partir",
+                  "sortir, dormir, sentir"
+                ],
+                [
+                  "mettre",
+                  "promettre, permettre"
+                ],
+                [
+                  "attendre",
+                  "vendre, perdre, répondre, entendre"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Prendre and venir",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "prendre",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "venir",
+              "tense": "present"
+            },
+            {
+              "type": "tip",
+              "en": "*Prendre*: *nous prenons*, but *ils prennent* (two *n*). *Venir*: *ils viennent*."
+            }
+          ]
+        },
+        {
+          "title": "Partir, sortir, dormir",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In the singular they lose the last consonant of the stem: *je pars, je sors, je dors*. In the plural they keep it: *nous partons, nous sortons, nous dormons*."
+            },
+            {
+              "type": "table",
+              "verb": "partir",
+              "tense": "present"
+            }
+          ]
+        },
+        {
+          "title": "Mettre, voir, dire",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "mettre",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "voir",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "dire",
+              "tense": "present"
+            },
+            {
+              "type": "see",
+              "label": "More tables",
+              "verbs": [
+                "boire",
+                "lire",
+                "écrire",
+                "connaître",
+                "attendre",
+                "sortir",
+                "dormir"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "you say (pl.)",
+                  "wrong": "vous disez",
+                  "fr": "vous [[dites]]",
+                  "note": "Only three verbs have the ending *-tes* with *vous*: *vous êtes, vous faites, vous dites*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je prends le bus à sept heures.",
+                  "en": "I take the bus at seven."
+                },
+                {
+                  "fr": "Tu viens avec nous ?",
+                  "en": "Are you coming with us?"
+                },
+                {
+                  "fr": "Nous partons en vacances.",
+                  "en": "We are going on holiday."
+                },
+                {
+                  "fr": "Je dors mal.",
+                  "en": "I sleep badly."
+                },
+                {
+                  "fr": "Qu'est-ce que tu bois ?",
+                  "en": "What are you drinking?"
+                },
+                {
+                  "fr": "Je ne vois rien.",
+                  "en": "I can't see anything."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-irregular-more-01",
+          "type": "cloze",
+          "fr": "Nous ___ le métro.",
+          "a": [
+            "prenons"
+          ],
+          "hint": "prendre",
+          "en": "We take the metro."
+        },
+        {
+          "id": "g-irregular-more-02",
+          "type": "cloze",
+          "fr": "Ils ___ de Prague.",
+          "a": [
+            "viennent"
+          ],
+          "hint": "venir",
+          "en": "They are from Prague."
+        },
+        {
+          "id": "g-irregular-more-03",
+          "type": "cloze",
+          "fr": "Je ___ huit heures par nuit.",
+          "a": [
+            "dors"
+          ],
+          "hint": "dormir",
+          "en": "I sleep eight hours a night."
+        },
+        {
+          "id": "g-irregular-more-04",
+          "type": "cloze",
+          "fr": "Vous ___ quoi ?",
+          "a": [
+            "dites"
+          ],
+          "hint": "dire",
+          "en": "What are you saying?"
+        },
+        {
+          "id": "g-irregular-more-05",
+          "type": "cloze",
+          "fr": "Tu ___ la mer ?",
+          "a": [
+            "vois"
+          ],
+          "hint": "voir",
+          "en": "Can you see the sea?"
+        },
+        {
+          "id": "g-irregular-more-06",
+          "type": "form",
+          "verb": "mettre",
+          "tense": "present"
+        }
+      ]
+    },
+    {
+      "id": "venir-tenir",
+      "title": "Venir, tenir and their family",
+      "fr": "venir, tenir et leurs dérivés",
+      "level": "A2",
+      "keywords": [
+        "venir",
+        "tenir",
+        "devenir",
+        "revenir",
+        "se souvenir",
+        "obtenir",
+        "appartenir",
+        "maintenir",
+        "retenir",
+        "contenir",
+        "je viens",
+        "je tiens",
+        "venu"
+      ],
+      "topics": [],
+      "see": [
+        "irregular-more",
+        "passe-recent",
+        "passe-compose-etre"
+      ],
+      "verbs": [
+        "venir"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Venir* and *tenir* have the stem **vien- / tien-** in the singular and the third person plural, **ven- / ten-** in *nous* and *vous*: *je viens, nous venons, ils viennent*. The participle is **venu** (with **être**) and **tenu** (with **avoir**). The whole family follows them."
+            },
+            {
+              "type": "table",
+              "verb": "venir",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "meaning",
+                "participle",
+                "auxiliary"
+              ],
+              "rows": [
+                [
+                  "venir",
+                  "to come",
+                  "venu",
+                  "être"
+                ],
+                [
+                  "devenir",
+                  "to become",
+                  "devenu",
+                  "être"
+                ],
+                [
+                  "revenir",
+                  "to come back",
+                  "revenu",
+                  "être"
+                ],
+                [
+                  "se souvenir de",
+                  "to remember",
+                  "souvenu",
+                  "être"
+                ],
+                [
+                  "tenir",
+                  "to hold",
+                  "tenu",
+                  "avoir"
+                ],
+                [
+                  "obtenir",
+                  "to obtain, get",
+                  "obtenu",
+                  "avoir"
+                ],
+                [
+                  "retenir",
+                  "to hold back, remember",
+                  "retenu",
+                  "avoir"
+                ],
+                [
+                  "appartenir à",
+                  "to belong to",
+                  "appartenu",
+                  "avoir"
+                ],
+                [
+                  "maintenir, contenir, soutenir",
+                  "to maintain, contain, support",
+                  "-tenu",
+                  "avoir"
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tenses",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The **futur** has a double *r*: *je viendrai, je tiendrai, nous deviendrons*. The **imparfait** is regular from *nous venons*: *je venais, je tenais*. The **subjunctive** is *que je vienne, que nous venions*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il viendra demain.",
+                  "en": "He'll come tomorrow."
+                },
+                {
+                  "fr": "Elle est devenue médecin.",
+                  "en": "She became a doctor."
+                },
+                {
+                  "fr": "Je me souviens de ce jour.",
+                  "en": "I remember that day."
+                },
+                {
+                  "fr": "Tiens, voilà ton livre.",
+                  "en": "Here, here's your book."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Venir de",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Venir de* + infinitive is the **recent past**: *Je viens de manger* (I have just eaten). *Venir de* + place is **origin**: *Je viens de Prague.* *Venir* + place without *de* is **to come to**: *Je viens à la fête.*"
+            },
+            {
+              "type": "see",
+              "rules": [
+                "passe-recent",
+                "cities-countries",
+                "passe-compose-etre"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "They come.",
+                  "wrong": "Ils venent.",
+                  "fr": "Ils [[viennent]]."
+                },
+                {
+                  "en": "She became a doctor.",
+                  "wrong": "Elle a devenu médecin.",
+                  "fr": "Elle [[est]] devenue médecin.",
+                  "note": "*Devenir* takes *être*."
+                },
+                {
+                  "en": "I remember Paris.",
+                  "wrong": "Je me souviens Paris.",
+                  "fr": "Je me souviens [[de]] Paris."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ils viennent de Lyon.",
+                  "en": "They come from Lyon."
+                },
+                {
+                  "fr": "Tu viens avec nous ?",
+                  "en": "Are you coming with us?"
+                },
+                {
+                  "fr": "Il tient son chien en laisse.",
+                  "en": "He's holding his dog on a lead."
+                },
+                {
+                  "fr": "Elle a obtenu son diplôme.",
+                  "en": "She got her diploma."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-venir-tenir-01",
+          "type": "cloze",
+          "fr": "Je ___ de Prague.",
+          "a": [
+            "viens"
+          ],
+          "hint": "venir",
+          "en": "I come from Prague."
+        },
+        {
+          "id": "g-venir-tenir-02",
+          "type": "cloze",
+          "fr": "Nous ___ avec vous.",
+          "a": [
+            "venons"
+          ],
+          "hint": "venir",
+          "en": "We're coming with you."
+        },
+        {
+          "id": "g-venir-tenir-03",
+          "type": "cloze",
+          "fr": "Ils ___ demain.",
+          "a": [
+            "viendront"
+          ],
+          "hint": "venir",
+          "en": "They will come tomorrow."
+        },
+        {
+          "id": "g-venir-tenir-04",
+          "type": "cloze",
+          "fr": "Elle ___ le livre.",
+          "a": [
+            "tient"
+          ],
+          "hint": "tenir",
+          "en": "She is holding the book."
+        },
+        {
+          "id": "g-venir-tenir-05",
+          "type": "cloze",
+          "fr": "Il est ___ médecin.",
+          "a": [
+            "devenu"
+          ],
+          "hint": "devenir",
+          "en": "He became a doctor."
+        },
+        {
+          "id": "g-venir-tenir-06",
+          "type": "transform",
+          "task_en": "Say it in the passé composé",
+          "fr": "Elle devient médecin.",
+          "a": [
+            "Elle est devenue médecin."
+          ]
+        },
+        {
+          "id": "g-venir-tenir-07",
+          "type": "build",
+          "en": "They are coming.",
+          "a": [
+            "Ils viennent.",
+            "Elles viennent."
+          ]
+        },
+        {
+          "id": "g-venir-tenir-08",
+          "type": "build",
+          "en": "I remember that.",
+          "a": [
+            "Je m'en souviens.",
+            "Je me souviens de ça."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "connaitre-family",
+      "title": "Connaître, paraître and their family",
+      "fr": "les verbes en -aître",
+      "level": "A2",
+      "keywords": [
+        "connaître",
+        "reconnaître",
+        "paraître",
+        "apparaître",
+        "disparaître",
+        "naître",
+        "je connais",
+        "il connaît",
+        "-aître",
+        "connu",
+        "savoir or connaître"
+      ],
+      "topics": [],
+      "see": [
+        "modals",
+        "irregular-more",
+        "participles"
+      ],
+      "verbs": [
+        "connaître",
+        "savoir"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Verbs in **-aître** keep the **circumflex only before a t**: *il connaît* but *je connais, nous connaissons*. The stem gets **-ss-** in the plural. The participle is **-u**: *connu, paru, apparu*."
+            },
+            {
+              "type": "table",
+              "verb": "connaître",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "meaning",
+                "participle"
+              ],
+              "rows": [
+                [
+                  "connaître",
+                  "to know (a person or place)",
+                  "connu"
+                ],
+                [
+                  "reconnaître",
+                  "to recognise",
+                  "reconnu"
+                ],
+                [
+                  "paraître",
+                  "to seem, appear",
+                  "paru"
+                ],
+                [
+                  "apparaître",
+                  "to appear",
+                  "apparu"
+                ],
+                [
+                  "disparaître",
+                  "to disappear",
+                  "disparu"
+                ],
+                [
+                  "naître",
+                  "to be born",
+                  "né (être)"
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Savoir or connaître?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Connaître** = to **know a person, a place, a thing** (you have met or been there): *Je connais Paul. Je connais Paris.* **Savoir** = to **know a fact or how to do something**: *Je sais nager. Je sais où il habite.* After *que*, *si*, *où*, *comment* use *savoir*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I know Marie.",
+                  "wrong": "Je sais Marie.",
+                  "fr": "Je [[connais]] Marie."
+                },
+                {
+                  "en": "I can swim.",
+                  "wrong": "Je connais nager.",
+                  "fr": "Je [[sais]] nager."
+                },
+                {
+                  "en": "I know where he lives.",
+                  "wrong": "Je connais où il habite.",
+                  "fr": "Je [[sais]] où il habite."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu connais ce restaurant ?",
+                  "en": "Do you know this restaurant?"
+                },
+                {
+                  "fr": "Je ne le reconnais pas.",
+                  "en": "I don't recognise him."
+                },
+                {
+                  "fr": "Elle paraît fatiguée.",
+                  "en": "She seems tired."
+                },
+                {
+                  "fr": "Le soleil a disparu derrière les nuages.",
+                  "en": "The sun disappeared behind the clouds."
+                },
+                {
+                  "fr": "Ma sœur est née en 2010.",
+                  "en": "My sister was born in 2010."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-connaitre-family-01",
+          "type": "cloze",
+          "fr": "Je ___ Paul depuis longtemps.",
+          "a": [
+            "connais"
+          ],
+          "hint": "connaître",
+          "en": "I've known Paul for a long time."
+        },
+        {
+          "id": "g-connaitre-family-02",
+          "type": "cloze",
+          "fr": "Nous ___ cette ville.",
+          "a": [
+            "connaissons"
+          ],
+          "hint": "connaître",
+          "en": "We know this town."
+        },
+        {
+          "id": "g-connaitre-family-03",
+          "type": "cloze",
+          "fr": "Il ___ très fatigué.",
+          "a": [
+            "paraît"
+          ],
+          "hint": "paraître",
+          "en": "He seems very tired."
+        },
+        {
+          "id": "g-connaitre-family-04",
+          "type": "cloze",
+          "fr": "Je ___ nager.",
+          "a": [
+            "sais"
+          ],
+          "en": "I can swim."
+        },
+        {
+          "id": "g-connaitre-family-05",
+          "type": "cloze",
+          "fr": "Tu ___ ce film ?",
+          "a": [
+            "connais"
+          ],
+          "en": "Do you know this film?"
+        },
+        {
+          "id": "g-connaitre-family-06",
+          "type": "cloze",
+          "fr": "Elle ___ où il habite.",
+          "a": [
+            "sait"
+          ],
+          "en": "She knows where he lives."
+        },
+        {
+          "id": "g-connaitre-family-07",
+          "type": "build",
+          "en": "I don't recognise you. (tu)",
+          "a": [
+            "Je ne te reconnais pas."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oir-verbs",
+      "title": "Voir, croire, boire, recevoir",
+      "fr": "voir, croire, boire, recevoir",
+      "level": "A2",
+      "keywords": [
+        "voir",
+        "croire",
+        "boire",
+        "recevoir",
+        "apercevoir",
+        "prévoir",
+        "je vois",
+        "je crois",
+        "je bois",
+        "je reçois",
+        "nous voyons",
+        "nous buvons",
+        "ils boivent"
+      ],
+      "topics": [],
+      "see": [
+        "irregular-more",
+        "participles",
+        "futur-simple"
+      ],
+      "verbs": [
+        "voir",
+        "boire"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Four common irregular verbs with a **change of stem** between singular and plural. They have to be learned, but each follows a pattern: the **plural stem** appears in *nous* and *vous*, a **different stem** in *ils / elles*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "",
+                "voir",
+                "croire",
+                "boire",
+                "recevoir"
+              ],
+              "rows": [
+                [
+                  "je",
+                  "vois",
+                  "crois",
+                  "bois",
+                  "reçois"
+                ],
+                [
+                  "tu",
+                  "vois",
+                  "crois",
+                  "bois",
+                  "reçois"
+                ],
+                [
+                  "il / elle / on",
+                  "voit",
+                  "croit",
+                  "boit",
+                  "reçoit"
+                ],
+                [
+                  "nous",
+                  "voyons",
+                  "croyons",
+                  "buvons",
+                  "recevons"
+                ],
+                [
+                  "vous",
+                  "voyez",
+                  "croyez",
+                  "buvez",
+                  "recevez"
+                ],
+                [
+                  "ils / elles",
+                  "voient",
+                  "croient",
+                  "boivent",
+                  "reçoivent"
+                ],
+                [
+                  "participle",
+                  "vu",
+                  "cru",
+                  "bu",
+                  "reçu"
+                ],
+                [
+                  "futur (je)",
+                  "verrai",
+                  "croirai",
+                  "boirai",
+                  "recevrai"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Notes",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Voir** and **croire** have **-y-** before a pronounced ending (*voyons, croyez*), and an *i* in the imparfait *nous voyions*. **Recevoir** gets a **cedilla** before *o* (*reçois, reçoit, reçoivent*, *reçu*) but not before *e* (*recevons*). The family: **apercevoir, décevoir, concevoir** (like recevoir), **prévoir** (like voir but *prévoirai*)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je vois un chat sur le toit.",
+                  "en": "I see a cat on the roof."
+                },
+                {
+                  "fr": "Nous croyons qu'il a raison.",
+                  "en": "We believe he is right."
+                },
+                {
+                  "fr": "Ils boivent du thé le matin.",
+                  "en": "They drink tea in the morning."
+                },
+                {
+                  "fr": "Tu reçois beaucoup de messages ?",
+                  "en": "Do you get lots of messages?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "They drink water.",
+                  "wrong": "Ils boient de l'eau.",
+                  "fr": "Ils [[boivent]] de l'eau."
+                },
+                {
+                  "en": "We see the sea.",
+                  "wrong": "Nous voions la mer.",
+                  "fr": "Nous [[voyons]] la mer."
+                },
+                {
+                  "en": "I got a letter.",
+                  "wrong": "J'ai receu une lettre.",
+                  "fr": "J'ai [[reçu]] une lettre."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Croire à* (to believe in) takes **à**; *croire que* (to believe that) takes **que**: *Je crois à la chance. Je crois qu'il vient.* After a negative *croire* the subjunctive is common: *Je ne crois pas qu'il vienne.*"
+            },
+            {
+              "type": "see",
+              "rules": [
+                "subjonctif-basics",
+                "participles"
+              ],
+              "verbs": [
+                "voir",
+                "boire"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je ne vois rien sans mes lunettes.",
+                  "en": "I can't see anything without my glasses."
+                },
+                {
+                  "fr": "Il croit au Père Noël.",
+                  "en": "He believes in Santa Claus."
+                },
+                {
+                  "fr": "Qu'est-ce que tu bois ?",
+                  "en": "What are you drinking?"
+                },
+                {
+                  "fr": "Nous avons reçu une bonne nouvelle.",
+                  "en": "We received good news."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-oir-verbs-01",
+          "type": "cloze",
+          "fr": "Je ___ un oiseau.",
+          "a": [
+            "vois"
+          ],
+          "hint": "voir",
+          "en": "I see a bird."
+        },
+        {
+          "id": "g-oir-verbs-02",
+          "type": "cloze",
+          "fr": "Nous ___ la mer.",
+          "a": [
+            "voyons"
+          ],
+          "hint": "voir",
+          "en": "We see the sea."
+        },
+        {
+          "id": "g-oir-verbs-03",
+          "type": "cloze",
+          "fr": "Ils ___ du café.",
+          "a": [
+            "boivent"
+          ],
+          "hint": "boire",
+          "en": "They drink coffee."
+        },
+        {
+          "id": "g-oir-verbs-04",
+          "type": "cloze",
+          "fr": "Tu ___ ça ?",
+          "a": [
+            "crois"
+          ],
+          "hint": "croire",
+          "en": "Do you believe that?"
+        },
+        {
+          "id": "g-oir-verbs-05",
+          "type": "cloze",
+          "fr": "Elle ___ beaucoup de lettres.",
+          "a": [
+            "reçoit"
+          ],
+          "hint": "recevoir",
+          "en": "She receives a lot of letters."
+        },
+        {
+          "id": "g-oir-verbs-06",
+          "type": "cloze",
+          "fr": "J'ai ___ ton message.",
+          "a": [
+            "reçu"
+          ],
+          "hint": "recevoir",
+          "en": "I received your message."
+        },
+        {
+          "id": "g-oir-verbs-07",
+          "type": "transform",
+          "task_en": "Say it in the passé composé",
+          "fr": "Je bois de l'eau.",
+          "a": [
+            "J'ai bu de l'eau."
+          ]
+        },
+        {
+          "id": "g-oir-verbs-08",
+          "type": "build",
+          "en": "They believe it.",
+          "a": [
+            "Ils le croient.",
+            "Elles le croient."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irregular-families",
+      "title": "Écrire, lire, dire, suivre, vivre",
+      "fr": "écrire, lire, dire, suivre, vivre",
+      "level": "A2",
+      "keywords": [
+        "écrire",
+        "lire",
+        "dire",
+        "suivre",
+        "vivre",
+        "décrire",
+        "inscrire",
+        "élire",
+        "redire",
+        "j'écris",
+        "je lis",
+        "je dis",
+        "vous dites",
+        "je suis",
+        "je vis",
+        "vécu"
+      ],
+      "topics": [],
+      "see": [
+        "irregular-more",
+        "participles",
+        "irregular-families-more"
+      ],
+      "verbs": [
+        "écrire",
+        "lire",
+        "dire"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Five irregular verbs whose forms have to be learned. They share the **-s, -s, -t** endings of the singular and add **-s- or -v-** to the stem in the plural: *écrire → nous écrivons*, *lire → nous lisons*, *vivre → nous vivons*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "",
+                "écrire",
+                "lire",
+                "dire",
+                "suivre",
+                "vivre"
+              ],
+              "rows": [
+                [
+                  "je",
+                  "écris",
+                  "lis",
+                  "dis",
+                  "suis",
+                  "vis"
+                ],
+                [
+                  "tu",
+                  "écris",
+                  "lis",
+                  "dis",
+                  "suis",
+                  "vis"
+                ],
+                [
+                  "il / elle / on",
+                  "écrit",
+                  "lit",
+                  "dit",
+                  "suit",
+                  "vit"
+                ],
+                [
+                  "nous",
+                  "écrivons",
+                  "lisons",
+                  "disons",
+                  "suivons",
+                  "vivons"
+                ],
+                [
+                  "vous",
+                  "écrivez",
+                  "lisez",
+                  "dites",
+                  "suivez",
+                  "vivez"
+                ],
+                [
+                  "ils / elles",
+                  "écrivent",
+                  "lisent",
+                  "disent",
+                  "suivent",
+                  "vivent"
+                ],
+                [
+                  "participle",
+                  "écrit",
+                  "lu",
+                  "dit",
+                  "suivi",
+                  "vécu"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Vous dites* (and *vous faites*) are the only *vous* forms that do not end in *-ez*."
+            }
+          ]
+        },
+        {
+          "title": "The families",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "family",
+                "members"
+              ],
+              "rows": [
+                [
+                  "écrire",
+                  "décrire (to describe), inscrire (to register), récrire"
+                ],
+                [
+                  "lire",
+                  "élire (to elect), relire (to reread)"
+                ],
+                [
+                  "dire",
+                  "redire, prédire (vous prédisez), contredire (vous contredisez)"
+                ],
+                [
+                  "suivre",
+                  "poursuivre, s'ensuivre"
+                ],
+                [
+                  "vivre",
+                  "survivre, revivre"
+                ]
+              ]
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je lis un livre par semaine.",
+                  "en": "I read a book a week."
+                },
+                {
+                  "fr": "Il écrit à sa grand-mère.",
+                  "en": "He writes to his grandmother."
+                },
+                {
+                  "fr": "Qu'est-ce que vous dites ?",
+                  "en": "What are you saying?"
+                },
+                {
+                  "fr": "Nous vivons à Prague.",
+                  "en": "We live in Prague."
+                },
+                {
+                  "fr": "Je suis un cours de français.",
+                  "en": "I'm taking a French course."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "You (pl.) say.",
+                  "wrong": "Vous disez.",
+                  "fr": "Vous [[dites]]."
+                },
+                {
+                  "en": "I write a letter.",
+                  "wrong": "J'écrie une lettre.",
+                  "fr": "J'[[écris]] une lettre."
+                },
+                {
+                  "en": "I live in Prague.",
+                  "wrong": "Je vive à Prague.",
+                  "fr": "Je [[vis]] à Prague."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Je suis* is the **first person of être *and* of suivre**. The context tells you which: *Je suis fatigué* / *Je suis un cours*."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "participles",
+                "irregular-more"
+              ],
+              "verbs": [
+                "écrire",
+                "lire",
+                "dire"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Elle a écrit un long message.",
+                  "en": "She wrote a long message."
+                },
+                {
+                  "fr": "Tu as lu ce roman ?",
+                  "en": "Have you read this novel?"
+                },
+                {
+                  "fr": "Ils ont dit la vérité.",
+                  "en": "They told the truth."
+                },
+                {
+                  "fr": "Mes grands-parents ont vécu à Paris.",
+                  "en": "My grandparents lived in Paris."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-irregular-families-01",
+          "type": "cloze",
+          "fr": "J'___ une lettre.",
+          "a": [
+            "écris"
+          ],
+          "hint": "écrire",
+          "en": "I'm writing a letter."
+        },
+        {
+          "id": "g-irregular-families-02",
+          "type": "cloze",
+          "fr": "Nous ___ un roman.",
+          "a": [
+            "lisons"
+          ],
+          "hint": "lire",
+          "en": "We're reading a novel."
+        },
+        {
+          "id": "g-irregular-families-03",
+          "type": "cloze",
+          "fr": "Vous ___ la vérité.",
+          "a": [
+            "dites"
+          ],
+          "hint": "dire",
+          "en": "You tell the truth."
+        },
+        {
+          "id": "g-irregular-families-04",
+          "type": "cloze",
+          "fr": "Il ___ à Paris.",
+          "a": [
+            "vit"
+          ],
+          "hint": "vivre",
+          "en": "He lives in Paris."
+        },
+        {
+          "id": "g-irregular-families-05",
+          "type": "cloze",
+          "fr": "J'ai ___ ton message.",
+          "a": [
+            "lu"
+          ],
+          "hint": "lire",
+          "en": "I read your message."
+        },
+        {
+          "id": "g-irregular-families-06",
+          "type": "cloze",
+          "fr": "Elle a ___ une lettre.",
+          "a": [
+            "écrit"
+          ],
+          "hint": "écrire",
+          "en": "She wrote a letter."
+        },
+        {
+          "id": "g-irregular-families-07",
+          "type": "cloze",
+          "fr": "Ils ___ le professeur.",
+          "a": [
+            "suivent"
+          ],
+          "hint": "suivre",
+          "en": "They are following the teacher."
+        },
+        {
+          "id": "g-irregular-families-08",
+          "type": "transform",
+          "task_en": "Say it in the passé composé",
+          "fr": "Il dit bonjour.",
+          "a": [
+            "Il a dit bonjour."
+          ]
+        },
+        {
+          "id": "g-irregular-families-09",
+          "type": "build",
+          "en": "What do you say? (vous)",
+          "a": [
+            "Qu'est-ce que vous dites ?",
+            "Que dites-vous ?",
+            "Vous dites quoi ?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "irregular-families-more",
+      "title": "Conduire, craindre, rire, courir, mourir, valoir",
+      "fr": "autres verbes irréguliers",
+      "level": "B1",
+      "keywords": [
+        "conduire",
+        "construire",
+        "produire",
+        "traduire",
+        "craindre",
+        "peindre",
+        "joindre",
+        "rire",
+        "sourire",
+        "courir",
+        "mourir",
+        "valoir",
+        "plaire",
+        "se taire",
+        "falloir",
+        "je conduis",
+        "je crains",
+        "je cours",
+        "il vaut mieux"
+      ],
+      "topics": [],
+      "see": [
+        "irregular-families",
+        "irregular-more",
+        "participles"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "More verbs you will meet at B1. Learn the **je / nous / ils** forms and the **participle**; the others follow the pattern. The families are listed below."
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "je",
+                "nous",
+                "ils",
+                "participle"
+              ],
+              "rows": [
+                [
+                  "conduire (to drive)",
+                  "conduis",
+                  "conduisons",
+                  "conduisent",
+                  "conduit"
+                ],
+                [
+                  "craindre (to fear)",
+                  "crains",
+                  "craignons",
+                  "craignent",
+                  "craint"
+                ],
+                [
+                  "rire (to laugh)",
+                  "ris",
+                  "rions",
+                  "rient",
+                  "ri"
+                ],
+                [
+                  "courir (to run)",
+                  "cours",
+                  "courons",
+                  "courent",
+                  "couru"
+                ],
+                [
+                  "mourir (to die)",
+                  "meurs",
+                  "mourons",
+                  "meurent",
+                  "mort (être)"
+                ],
+                [
+                  "valoir (to be worth)",
+                  "vaux",
+                  "valons",
+                  "valent",
+                  "valu"
+                ],
+                [
+                  "plaire (to please)",
+                  "plais",
+                  "plaisons",
+                  "plaisent",
+                  "plu"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The families",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "same pattern"
+              ],
+              "rows": [
+                [
+                  "conduire",
+                  "construire, produire, traduire, détruire, réduire, séduire"
+                ],
+                [
+                  "craindre",
+                  "peindre (je peins), joindre (je joins), plaindre, atteindre, éteindre"
+                ],
+                [
+                  "rire",
+                  "sourire"
+                ],
+                [
+                  "courir",
+                  "parcourir, secourir"
+                ],
+                [
+                  "plaire",
+                  "déplaire, se taire (il se tait, no circumflex)"
+                ]
+              ]
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je conduis depuis un an.",
+                  "en": "I've been driving for a year."
+                },
+                {
+                  "fr": "Elle peint un tableau.",
+                  "en": "She's painting a picture."
+                },
+                {
+                  "fr": "Nous avons traduit le texte.",
+                  "en": "We translated the text."
+                },
+                {
+                  "fr": "Il court tous les matins.",
+                  "en": "He runs every morning."
+                },
+                {
+                  "fr": "Elle sourit à tout le monde.",
+                  "en": "She smiles at everyone."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Valoir, falloir, pleuvoir: impersonal",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Valoir** is mostly used in **il vaut mieux** + infinitive (*it's better to*): *Il vaut mieux partir tôt.* **Falloir** exists only as **il faut** (*il fallait, il faudra, il a fallu, qu'il faille*) and **pleuvoir** as *il pleut* (*il pleuvait, il pleuvra, il a plu*)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il vaut mieux attendre.",
+                  "en": "It's better to wait."
+                },
+                {
+                  "fr": "Il a fallu beaucoup de temps.",
+                  "en": "It took a lot of time."
+                },
+                {
+                  "fr": "Ça vaut la peine.",
+                  "en": "It's worth it."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm afraid.",
+                  "wrong": "Je craigne.",
+                  "fr": "Je [[crains]]."
+                },
+                {
+                  "en": "They run.",
+                  "wrong": "Ils courrent.",
+                  "fr": "Ils [[courent]]."
+                },
+                {
+                  "en": "She died.",
+                  "wrong": "Elle a mouru.",
+                  "fr": "Elle [[est morte]].",
+                  "note": "*Mourir* takes *être*."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "**Courir** has a double *r* in the future and conditional: *je courrai, je courrais*. **Mourir** too: *je mourrai*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon père conduit une vieille voiture.",
+                  "en": "My father drives an old car."
+                },
+                {
+                  "fr": "Ils ont construit une maison.",
+                  "en": "They built a house."
+                },
+                {
+                  "fr": "Nous craignons la pluie.",
+                  "en": "We fear the rain."
+                },
+                {
+                  "fr": "Il ne rit jamais.",
+                  "en": "He never laughs."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-irregular-families-more-01",
+          "type": "cloze",
+          "fr": "Je ___ depuis un an.",
+          "a": [
+            "conduis"
+          ],
+          "hint": "conduire",
+          "en": "I've been driving for a year."
+        },
+        {
+          "id": "g-irregular-families-more-02",
+          "type": "cloze",
+          "fr": "Nous ___ un tableau.",
+          "a": [
+            "peignons"
+          ],
+          "hint": "peindre",
+          "en": "We're painting a picture."
+        },
+        {
+          "id": "g-irregular-families-more-03",
+          "type": "cloze",
+          "fr": "Ils ___ tous les matins.",
+          "a": [
+            "courent"
+          ],
+          "hint": "courir",
+          "en": "They run every morning."
+        },
+        {
+          "id": "g-irregular-families-more-04",
+          "type": "cloze",
+          "fr": "Il ___ mieux attendre.",
+          "a": [
+            "vaut"
+          ],
+          "hint": "valoir",
+          "en": "It's better to wait."
+        },
+        {
+          "id": "g-irregular-families-more-05",
+          "type": "cloze",
+          "fr": "Elle ___ à tout le monde.",
+          "a": [
+            "sourit"
+          ],
+          "hint": "sourire",
+          "en": "She smiles at everyone."
+        },
+        {
+          "id": "g-irregular-families-more-06",
+          "type": "transform",
+          "task_en": "Say it in the passé composé",
+          "fr": "Il conduit la voiture.",
+          "a": [
+            "Il a conduit la voiture."
+          ]
+        },
+        {
+          "id": "g-irregular-families-more-07",
+          "type": "build",
+          "en": "It's better to leave early.",
+          "a": [
+            "Il vaut mieux partir tôt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "modals",
+      "title": "Pouvoir, vouloir, devoir, savoir",
+      "fr": "les verbes modaux",
+      "level": "A1",
+      "levelTo": "A2",
+      "keywords": [
+        "pouvoir",
+        "vouloir",
+        "devoir",
+        "savoir",
+        "connaître",
+        "can",
+        "want",
+        "must",
+        "know",
+        "know how",
+        "je peux",
+        "je veux",
+        "je dois",
+        "je sais",
+        "je voudrais"
+      ],
+      "topics": [
+        "vouloir-pouvoir",
+        "obligation"
+      ],
+      "see": [
+        "verb-infinitive",
+        "conditionnel",
+        "impersonal"
+      ],
+      "verbs": [
+        "pouvoir",
+        "vouloir",
+        "devoir",
+        "savoir",
+        "connaître"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "These four verbs combine with an **infinitive**, just like English \"I can go, I want to sleep\". All of them are irregular."
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "meaning",
+                "example"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "pouvoir",
+                  "can, to be able to",
+                  "Je peux venir."
+                ],
+                [
+                  "vouloir",
+                  "to want",
+                  "Je veux dormir."
+                ],
+                [
+                  "devoir",
+                  "must, to have to",
+                  "Je dois partir."
+                ],
+                [
+                  "savoir",
+                  "to know how to, to know",
+                  "Je sais nager."
+                ]
+              ]
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "peux"
+                    ],
+                    [
+                      "inf",
+                      "venir"
+                    ],
+                    [
+                      "time",
+                      "demain."
+                    ]
+                  ],
+                  "en": "I can come tomorrow."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "V",
+                      "veux"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "inf",
+                      "dormir."
+                    ]
+                  ],
+                  "en": "I don't want to sleep."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tables",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "pouvoir",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "vouloir",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "devoir",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "savoir",
+              "tense": "present"
+            }
+          ]
+        },
+        {
+          "title": "Savoir, pouvoir or connaître?",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "when",
+                "example"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "savoir",
+                  "to know how to (a learned skill), to know (a fact)",
+                  "Je sais nager. Je sais où il habite."
+                ],
+                [
+                  "pouvoir",
+                  "can (I have the possibility, I'm allowed)",
+                  "Je peux nager aujourd'hui."
+                ],
+                [
+                  "connaître",
+                  "to know (a person, a place, a thing)",
+                  "Je connais Paris. Je connais Léa."
+                ]
+              ]
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I can swim.",
+                  "wrong": "Je peux nager.",
+                  "fr": "Je [[sais]] nager.",
+                  "note": "*Je peux nager* means \"I can go for a swim, I have the opportunity\"."
+                },
+                {
+                  "en": "I know Paul.",
+                  "wrong": "Je sais Paul.",
+                  "fr": "Je [[connais]] Paul."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Politely",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Instead of *je veux* (I want), you say politely *je voudrais* (I would like), and instead of *tu peux* it is nicer to say *tu pourrais* (could you)."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "conditionnel"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu peux m'aider ?",
+                  "en": "Can you help me?"
+                },
+                {
+                  "fr": "Je veux jouer aux jeux vidéo.",
+                  "en": "I want to play video games."
+                },
+                {
+                  "fr": "Nous devons faire nos devoirs.",
+                  "en": "We have to do our homework."
+                },
+                {
+                  "fr": "Elle sait parler anglais.",
+                  "en": "She can speak English."
+                },
+                {
+                  "fr": "Je voudrais un croissant, s'il vous plaît.",
+                  "en": "I'd like a croissant, please."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-modals-01",
+          "type": "cloze",
+          "fr": "Tu ___ venir ce soir ?",
+          "a": [
+            "peux"
+          ],
+          "hint": "pouvoir",
+          "en": "Can you come tonight?"
+        },
+        {
+          "id": "g-modals-02",
+          "type": "cloze",
+          "fr": "Ils ___ jouer au foot.",
+          "a": [
+            "veulent"
+          ],
+          "hint": "vouloir",
+          "en": "They want to play football."
+        },
+        {
+          "id": "g-modals-03",
+          "type": "cloze",
+          "fr": "Nous ___ partir.",
+          "a": [
+            "devons"
+          ],
+          "hint": "devoir",
+          "en": "We have to leave."
+        },
+        {
+          "id": "g-modals-04",
+          "type": "cloze",
+          "fr": "Je ___ nager.",
+          "a": [
+            "sais"
+          ],
+          "hint": "savoir",
+          "en": "I can swim."
+        },
+        {
+          "id": "g-modals-05",
+          "type": "cloze",
+          "fr": "Tu ___ mon frère ?",
+          "a": [
+            "connais"
+          ],
+          "hint": "connaître",
+          "en": "Do you know my brother?"
+        },
+        {
+          "id": "g-modals-06",
+          "type": "build",
+          "en": "I don't want to sleep.",
+          "a": [
+            "Je ne veux pas dormir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "necessity",
+      "title": "Obligation and necessity: devoir, il faut, avoir besoin de",
+      "fr": "l'obligation et la nécessité",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "must",
+        "have to",
+        "devoir",
+        "il faut",
+        "falloir",
+        "avoir besoin de",
+        "être obligé de",
+        "il est interdit de",
+        "il vaut mieux",
+        "n'avoir pas besoin de",
+        "ne pas devoir",
+        "il ne faut pas",
+        "obligation",
+        "need"
+      ],
+      "topics": [],
+      "see": [
+        "modals",
+        "impersonal",
+        "subjonctif-basics",
+        "verbs-a-de-inf"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To express **obligation** French has several tools. **Devoir** (*je dois*) is personal. **Il faut** is impersonal and general. **Avoir besoin de** says you need something. **Être obligé de** says you are forced to. Be careful with the **negative**: *il ne faut pas* means *you must not*, but *pas besoin de* means *you don't have to*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "structure",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "devoir + inf.",
+                  "Je dois partir.",
+                  "I must leave."
+                ],
+                [
+                  "il faut + inf.",
+                  "Il faut partir.",
+                  "One has to leave."
+                ],
+                [
+                  "il faut + noun",
+                  "Il faut du pain.",
+                  "We need bread."
+                ],
+                [
+                  "il faut que + subj.",
+                  "Il faut que tu partes.",
+                  "You have to leave."
+                ],
+                [
+                  "avoir besoin de",
+                  "J'ai besoin de dormir.",
+                  "I need to sleep."
+                ],
+                [
+                  "être obligé de",
+                  "Il est obligé de rester.",
+                  "He is obliged to stay."
+                ],
+                [
+                  "il est interdit de",
+                  "Il est interdit de fumer.",
+                  "Smoking is forbidden."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Il ne faut pas or pas besoin?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Il ne faut pas** + infinitive = **prohibition** (*don't*). **Il n'est pas nécessaire de** and **ce n'est pas la peine de / pas besoin de** = **no need**. **Ne pas devoir** is also a prohibition: *Tu ne dois pas mentir.*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "You must not shout.",
+                  "wrong": "Tu n'as pas besoin de crier.",
+                  "fr": "Il [[ne faut pas]] crier. / Tu [[ne dois pas]] crier."
+                },
+                {
+                  "en": "You don't have to come.",
+                  "wrong": "Il ne faut pas venir.",
+                  "fr": "Tu [[n'as pas besoin de]] venir. / Ce [[n'est pas nécessaire]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Il faut and the subject",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Il faut* does not name who must. To name the person use a **pronoun before faut**: *Il **me** faut du temps* (I need time) or **il faut que + subjunctive**: *il faut que je parte*. With **an infinitive** it is general: *il faut manger pour vivre*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il me faut un stylo.",
+                  "en": "I need a pen."
+                },
+                {
+                  "fr": "Il faut que tu fasses tes devoirs.",
+                  "en": "You have to do your homework."
+                },
+                {
+                  "fr": "Il faut dix minutes pour y aller.",
+                  "en": "It takes ten minutes to get there."
+                },
+                {
+                  "fr": "Il faut manger pour vivre.",
+                  "en": "You have to eat to live."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Devoir: three meanings",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Devoir* + infinitive means **must** (obligation), **probably** (*Il doit être malade*) and **to be supposed to** (*Le train doit arriver à huit heures*). *Devoir* + noun means **to owe**: *Je te dois dix euros.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu dois faire attention.",
+                  "en": "You must be careful."
+                },
+                {
+                  "fr": "Il doit être fatigué.",
+                  "en": "He must be tired."
+                },
+                {
+                  "fr": "Nous devons partir à huit heures.",
+                  "en": "We are to leave at eight."
+                },
+                {
+                  "fr": "Je te dois dix euros.",
+                  "en": "I owe you ten euros."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il faut que je finisse mon devoir avant ce soir.",
+                  "en": "I have to finish my homework before tonight."
+                },
+                {
+                  "fr": "Tu n'as pas besoin de venir.",
+                  "en": "You don't need to come."
+                },
+                {
+                  "fr": "Il ne faut pas courir près de la piscine.",
+                  "en": "You mustn't run near the pool."
+                },
+                {
+                  "fr": "Elle a besoin de repos.",
+                  "en": "She needs rest."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-necessity-01",
+          "type": "build",
+          "en": "I must leave.",
+          "a": [
+            "Je dois partir."
+          ]
+        },
+        {
+          "id": "g-necessity-02",
+          "type": "build",
+          "en": "You have to be careful.",
+          "a": [
+            "Il faut faire attention.",
+            "Tu dois faire attention."
+          ]
+        },
+        {
+          "id": "g-necessity-03",
+          "type": "build",
+          "en": "I need a pen.",
+          "a": [
+            "Il me faut un stylo.",
+            "J'ai besoin d'un stylo."
+          ]
+        },
+        {
+          "id": "g-necessity-04",
+          "type": "build",
+          "en": "You mustn't shout.",
+          "a": [
+            "Il ne faut pas crier.",
+            "Tu ne dois pas crier."
+          ]
+        },
+        {
+          "id": "g-necessity-05",
+          "type": "build",
+          "en": "You don't have to come.",
+          "a": [
+            "Tu n'as pas besoin de venir.",
+            "Il n'est pas nécessaire de venir.",
+            "Ce n'est pas nécessaire de venir."
+          ]
+        },
+        {
+          "id": "g-necessity-06",
+          "type": "cloze",
+          "fr": "Il ___ que tu fasses tes devoirs.",
+          "a": [
+            "faut"
+          ],
+          "en": "You have to do your homework."
+        },
+        {
+          "id": "g-necessity-07",
+          "type": "cloze",
+          "fr": "Il est ___ de fumer ici.",
+          "a": [
+            "interdit"
+          ],
+          "en": "Smoking here is forbidden."
+        },
+        {
+          "id": "g-necessity-08",
+          "type": "cloze",
+          "fr": "J'ai ___ de dormir.",
+          "a": [
+            "besoin"
+          ],
+          "en": "I need to sleep."
+        },
+        {
+          "id": "g-necessity-09",
+          "type": "cloze",
+          "fr": "Je te ___ dix euros.",
+          "a": [
+            "dois"
+          ],
+          "en": "I owe you ten euros."
+        }
+      ]
+    },
+    {
+      "id": "reflexive-verbs",
+      "title": "Reflexive verbs",
+      "fr": "les verbes pronominaux",
+      "level": "A1",
+      "keywords": [
+        "reflexive verbs",
+        "se lever",
+        "se coucher",
+        "s'appeler",
+        "s'habiller",
+        "se réveiller",
+        "verbes pronominaux",
+        "daily routine"
+      ],
+      "topics": [
+        "reflexive"
+      ],
+      "see": [
+        "reflexive-pronouns",
+        "passe-compose-etre",
+        "pronouns-imperative"
+      ],
+      "verbs": [
+        "se lever",
+        "se coucher",
+        "s'habiller",
+        "se réveiller",
+        "se promener"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A reflexive verb has a pronoun before it that **changes with the person**: *je me lève, tu te lèves*. In the past it always uses *être*: *je me suis levé*."
+            },
+            {
+              "type": "table",
+              "verb": "se lever",
+              "tense": "present"
+            }
+          ]
+        },
+        {
+          "title": "Daily routine",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "se réveiller",
+                  "to wake up"
+                ],
+                [
+                  "se lever",
+                  "to get up"
+                ],
+                [
+                  "se laver",
+                  "to wash"
+                ],
+                [
+                  "se doucher",
+                  "to take a shower"
+                ],
+                [
+                  "s'habiller",
+                  "to get dressed"
+                ],
+                [
+                  "se brosser les dents",
+                  "to brush one's teeth"
+                ],
+                [
+                  "se reposer",
+                  "to rest"
+                ],
+                [
+                  "se coucher",
+                  "to go to bed"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reflexive in French, not in English",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "se reposer",
+                  "to rest"
+                ],
+                [
+                  "se dépêcher",
+                  "to hurry"
+                ],
+                [
+                  "s'asseoir",
+                  "to sit down"
+                ],
+                [
+                  "se souvenir (de)",
+                  "to remember"
+                ],
+                [
+                  "se taire",
+                  "to be quiet"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Negation, past, command",
+          "blocks": [
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "pron",
+                      "me"
+                    ],
+                    [
+                      "V",
+                      "lève"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "time",
+                      "tôt."
+                    ]
+                  ],
+                  "en": "I don't get up early."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "pron",
+                      "me"
+                    ],
+                    [
+                      "aux",
+                      "suis"
+                    ],
+                    [
+                      "part",
+                      "levé"
+                    ],
+                    [
+                      "time",
+                      "à sept heures."
+                    ]
+                  ],
+                  "en": "I got up at seven."
+                },
+                {
+                  "parts": [
+                    [
+                      "V",
+                      "Lève"
+                    ],
+                    [
+                      "pron",
+                      "-toi !"
+                    ]
+                  ],
+                  "en": "Get up!"
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "pronouns-imperative",
+                "passe-compose-etre"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je me réveille à six heures et demie.",
+                  "en": "I wake up at half past six."
+                },
+                {
+                  "fr": "Tu te couches tard ?",
+                  "en": "Do you go to bed late?"
+                },
+                {
+                  "fr": "On se retrouve devant le cinéma.",
+                  "en": "We'll meet in front of the cinema."
+                },
+                {
+                  "fr": "Elle s'est habillée vite.",
+                  "en": "She got dressed quickly."
+                },
+                {
+                  "fr": "Dépêche-toi !",
+                  "en": "Hurry up!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-reflexive-verbs-01",
+          "type": "cloze",
+          "fr": "Je ___ couche à dix heures.",
+          "a": [
+            "me"
+          ],
+          "en": "I go to bed at ten."
+        },
+        {
+          "id": "g-reflexive-verbs-02",
+          "type": "cloze",
+          "fr": "Nous ___ promenons au parc.",
+          "a": [
+            "nous"
+          ],
+          "en": "We walk in the park."
+        },
+        {
+          "id": "g-reflexive-verbs-03",
+          "type": "form",
+          "verb": "se lever",
+          "tense": "present",
+          "person": 1
+        },
+        {
+          "id": "g-reflexive-verbs-04",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Je me lève tôt.",
+          "a": [
+            "Je ne me lève pas tôt."
+          ]
+        },
+        {
+          "id": "g-reflexive-verbs-05",
+          "type": "build",
+          "en": "I'm learning French.",
+          "a": [
+            "J'apprends le français."
+          ]
+        }
+      ],
+      "drills": [
+        {
+          "set": "negation",
+          "tag": "reflexive",
+          "label": "Drill reflexive negation"
+        }
+      ]
+    },
+    {
+      "id": "reflexive-advanced",
+      "title": "Reflexive verbs in every tense and mood",
+      "fr": "les verbes pronominaux (suite)",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "reflexive",
+        "pronominal",
+        "se laver",
+        "se lever",
+        "s'est levé",
+        "lève-toi",
+        "ne te lève pas",
+        "se disputer",
+        "se téléphoner",
+        "reciprocal",
+        "s'en aller",
+        "se passer",
+        "se promener",
+        "passé composé",
+        "imperative"
+      ],
+      "topics": [],
+      "see": [
+        "reflexive-verbs",
+        "reflexive-pronouns",
+        "passe-compose-etre",
+        "pc-agreement"
+      ],
+      "verbs": [
+        "se lever",
+        "se laver"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A reflexive verb always has its **pronoun** (*me, te, se, nous, vous, se*) right before the verb. In **compound tenses** it uses **être** and the participle agrees with the pronoun if it is a **direct** object. The pronoun follows a **positive command** (*Lève-toi !*) and goes before the **infinitive** (*Je vais me lever.*)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "form",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "present",
+                  "Je me lève.",
+                  "I get up."
+                ],
+                [
+                  "negative",
+                  "Je ne me lève pas.",
+                  "I don't get up."
+                ],
+                [
+                  "passé composé",
+                  "Elle s'est levée.",
+                  "She got up."
+                ],
+                [
+                  "negative p.c.",
+                  "Elle ne s'est pas levée.",
+                  "She didn't get up."
+                ],
+                [
+                  "with an infinitive",
+                  "Je vais me lever.",
+                  "I'm going to get up."
+                ],
+                [
+                  "command",
+                  "Lève-toi ! / Ne te lève pas !",
+                  "Get up! / Don't get up!"
+                ],
+                [
+                  "question (inversion)",
+                  "Te lèves-tu ? / T'es-tu levé ?",
+                  "Do you get up? / Did you get up?"
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The passé composé",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Auxiliary **être**: *je me suis lavé(e), tu t'es lavé(e), il s'est lavé, elle s'est lavée, nous nous sommes lavé(e)s*. The participle **agrees with the subject** if the pronoun is a **direct** object. It does **not** agree when there is another direct object (*Elle s'est lavé **les mains***) or when the pronoun is indirect (*Elles se sont téléphoné*)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "She got up.",
+                  "wrong": "Elle s'est levé.",
+                  "fr": "Elle s'est [[levée]]."
+                },
+                {
+                  "en": "She washed her hands.",
+                  "wrong": "Elle s'est lavée les mains.",
+                  "fr": "Elle s'est [[lavé]] les mains.",
+                  "note": "The hands are the direct object, so no agreement."
+                },
+                {
+                  "en": "They phoned each other.",
+                  "wrong": "Elles se sont téléphonées.",
+                  "fr": "Elles se sont [[téléphoné]].",
+                  "note": "*Téléphoner à* is indirect."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reciprocal verbs",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Se* with a **plural subject** can mean **each other**: *Ils s'aiment, nous nous écrivons, elles se parlent.* It is the same form as the reflexive; the context tells which meaning."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ils se voient tous les week-ends.",
+                  "en": "They see each other every weekend."
+                },
+                {
+                  "fr": "Nous nous sommes rencontrés à Paris.",
+                  "en": "We met in Paris."
+                },
+                {
+                  "fr": "Les deux amis se téléphonent souvent.",
+                  "en": "The two friends often phone each other."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Verbs that are reflexive only in French",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Many verbs are reflexive in French but not in English: **se souvenir de** (to remember), **s'en aller** (to leave), **se passer** (to happen), **se tromper** (to be wrong), **s'asseoir** (to sit down), **se dépêcher** (to hurry), **se promener** (to take a walk), **s'ennuyer** (to be bored), **se débrouiller** (to manage)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Qu'est-ce qui s'est passé ?",
+                  "en": "What happened?"
+                },
+                {
+                  "fr": "Dépêche-toi, on va être en retard !",
+                  "en": "Hurry up, we're going to be late!"
+                },
+                {
+                  "fr": "Assieds-toi, je t'en prie.",
+                  "en": "Sit down, please."
+                },
+                {
+                  "fr": "Je me suis trompé de numéro.",
+                  "en": "I dialled the wrong number."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Nous nous sommes couchés tard.",
+                  "en": "We went to bed late."
+                },
+                {
+                  "fr": "Ne vous inquiétez pas.",
+                  "en": "Don't worry."
+                },
+                {
+                  "fr": "Elle s'est fait mal au pied.",
+                  "en": "She hurt her foot."
+                },
+                {
+                  "fr": "Je me suis réveillé à sept heures.",
+                  "en": "I woke up at seven."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-reflexive-advanced-01",
+          "type": "transform",
+          "task_en": "Say it in the passé composé",
+          "fr": "Elle se lève.",
+          "a": [
+            "Elle s'est levée."
+          ]
+        },
+        {
+          "id": "g-reflexive-advanced-02",
+          "type": "transform",
+          "task_en": "Say it in the passé composé",
+          "fr": "Nous nous dépêchons.",
+          "a": [
+            "Nous nous sommes dépêchés.",
+            "Nous nous sommes dépêchées."
+          ]
+        },
+        {
+          "id": "g-reflexive-advanced-03",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Elle s'est levée.",
+          "a": [
+            "Elle ne s'est pas levée."
+          ]
+        },
+        {
+          "id": "g-reflexive-advanced-04",
+          "type": "transform",
+          "task_en": "Turn into a command",
+          "fr": "Tu te lèves.",
+          "a": [
+            "Lève-toi !"
+          ]
+        },
+        {
+          "id": "g-reflexive-advanced-05",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Dépêche-toi !",
+          "a": [
+            "Ne te dépêche pas !"
+          ]
+        },
+        {
+          "id": "g-reflexive-advanced-06",
+          "type": "build",
+          "en": "I'm going to get up early.",
+          "a": [
+            "Je vais me lever tôt."
+          ]
+        },
+        {
+          "id": "g-reflexive-advanced-07",
+          "type": "build",
+          "en": "What happened?",
+          "a": [
+            "Qu'est-ce qui s'est passé ?"
+          ]
+        },
+        {
+          "id": "g-reflexive-advanced-08",
+          "type": "cloze",
+          "fr": "Elle s'est ___ les mains.",
+          "a": [
+            "lavé"
+          ],
+          "hint": "laver",
+          "en": "She washed her hands."
+        },
+        {
+          "id": "g-reflexive-advanced-09",
+          "type": "cloze",
+          "fr": "Nous nous ___ rencontrés à Paris.",
+          "a": [
+            "sommes"
+          ],
+          "en": "We met in Paris."
+        }
+      ]
+    },
+    {
+      "id": "verb-infinitive",
+      "title": "Two verbs in a row",
+      "fr": "verbe + infinitif",
+      "level": "A2",
+      "keywords": [
+        "infinitive",
+        "two verbs",
+        "commencer à",
+        "arrêter de",
+        "essayer de",
+        "apprendre à",
+        "oublier de",
+        "aimer faire",
+        "verbe + infinitif"
+      ],
+      "topics": [],
+      "see": [
+        "modals",
+        "verb-constructions",
+        "futur-proche"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When two verbs follow each other, only the **first** is conjugated and the second stays in the infinitive. Between them there is either nothing, *à*, or *de*, depending on the first verb."
+            },
+            {
+              "type": "table",
+              "head": [
+                "construction",
+                "verbs",
+                "example"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "no preposition",
+                  "aimer, adorer, détester, préférer, vouloir, pouvoir, devoir, savoir, aller",
+                  "J'aime lire."
+                ],
+                [
+                  "+ à",
+                  "commencer à, apprendre à, aider à, réussir à",
+                  "J'apprends à nager."
+                ],
+                [
+                  "+ de",
+                  "arrêter de, essayer de, oublier de, décider de, finir de",
+                  "J'essaie de dormir."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I like reading.",
+                  "wrong": "J'aime lis.",
+                  "fr": "J'aime [[lire]].",
+                  "note": "The second verb stays in the infinitive."
+                },
+                {
+                  "en": "I stopped smoking.",
+                  "wrong": "J'ai arrêté fumer.",
+                  "fr": "J'ai arrêté [[de]] fumer."
+                },
+                {
+                  "en": "It's starting to rain.",
+                  "wrong": "Il commence pleuvoir.",
+                  "fr": "Il commence [[à]] pleuvoir."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "Learn the construction together with the verb: not *essayer*, but *essayer de*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je préfère jouer dehors.",
+                  "en": "I prefer playing outside."
+                },
+                {
+                  "fr": "Il a commencé à neiger.",
+                  "en": "It started snowing."
+                },
+                {
+                  "fr": "N'oublie pas de fermer la porte.",
+                  "en": "Don't forget to close the door."
+                },
+                {
+                  "fr": "J'ai décidé de partir.",
+                  "en": "I decided to leave."
+                },
+                {
+                  "fr": "Tu m'aides à porter le sac ?",
+                  "en": "Will you help me carry the bag?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-verb-infinitive-01",
+          "type": "cloze",
+          "fr": "J'apprends ___ jouer de la guitare.",
+          "a": [
+            "à"
+          ],
+          "en": "I'm learning to play the guitar."
+        },
+        {
+          "id": "g-verb-infinitive-02",
+          "type": "cloze",
+          "fr": "Il essaie ___ dormir.",
+          "a": [
+            "de"
+          ],
+          "en": "He's trying to sleep."
+        },
+        {
+          "id": "g-verb-infinitive-03",
+          "type": "cloze",
+          "fr": "J'adore ___ au basket.",
+          "a": [
+            "jouer"
+          ],
+          "hint": "infinitive",
+          "en": "I love playing basketball."
+        },
+        {
+          "id": "g-verb-infinitive-04",
+          "type": "build",
+          "en": "Stop talking!",
+          "a": [
+            "Arrête de parler !"
+          ]
+        },
+        {
+          "id": "g-verb-infinitive-05",
+          "type": "cloze",
+          "fr": "Ma sœur commence ___ parler.",
+          "a": [
+            "à"
+          ],
+          "en": "My sister is starting to talk."
+        }
+      ]
+    },
+    {
+      "id": "verbs-a-de-inf",
+      "title": "Verbs followed by à, de or nothing + infinitive",
+      "fr": "verbes + à / de + infinitif",
+      "level": "A2",
+      "keywords": [
+        "infinitive",
+        "à + infinitive",
+        "de + infinitive",
+        "commencer à",
+        "finir de",
+        "arrêter de",
+        "essayer de",
+        "réussir à",
+        "apprendre à",
+        "décider de",
+        "oublier de",
+        "continuer à",
+        "avoir envie de",
+        "avoir peur de",
+        "verb constructions",
+        "demander à",
+        "se mettre à"
+      ],
+      "topics": [],
+      "see": [
+        "verb-infinitive",
+        "verb-constructions",
+        "modals",
+        "infinitive-uses"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When two verbs follow each other, the second is an **infinitive**, linked in one of **three ways**: **directly**, with **à** or with **de**. There is no rule, but the groups are stable, so learn the verb with its link."
+            },
+            {
+              "type": "table",
+              "head": [
+                "link",
+                "typical verbs",
+                "example"
+              ],
+              "rows": [
+                [
+                  "nothing",
+                  "aimer, adorer, détester, préférer, vouloir, pouvoir, devoir, savoir, aller, désirer, falloir, espérer, penser, venir",
+                  "Je veux partir."
+                ],
+                [
+                  "à",
+                  "commencer à, continuer à, apprendre à, réussir à, hésiter à, aider à, se mettre à, arriver à, passer du temps à",
+                  "J'apprends à nager."
+                ],
+                [
+                  "de",
+                  "finir de, arrêter de, essayer de, décider de, oublier de, refuser de, avoir envie de, avoir peur de, avoir besoin de, demander de, promettre de, conseiller de",
+                  "Il a décidé de rester."
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Directly",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Aimer, vouloir, pouvoir, devoir, savoir, aller, espérer, préférer, désirer, détester* and the verbs of motion take **no preposition**. A pronoun goes before the infinitive: *Je veux le voir.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'aime lire.",
+                  "en": "I like reading."
+                },
+                {
+                  "fr": "Elle espère gagner.",
+                  "en": "She hopes to win."
+                },
+                {
+                  "fr": "Nous allons manger.",
+                  "en": "We are going to eat."
+                },
+                {
+                  "fr": "Tu peux m'aider ?",
+                  "en": "Can you help me?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With à",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**À** goes with **beginning, continuing, learning, succeeding and helping**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "commencer à",
+                  "Il commence à pleuvoir.",
+                  "It's beginning to rain."
+                ],
+                [
+                  "continuer à / de",
+                  "Elle continue à travailler.",
+                  "She keeps working."
+                ],
+                [
+                  "apprendre à",
+                  "J'apprends à conduire.",
+                  "I'm learning to drive."
+                ],
+                [
+                  "réussir à",
+                  "Il a réussi à gagner.",
+                  "He managed to win."
+                ],
+                [
+                  "hésiter à",
+                  "J'hésite à partir.",
+                  "I hesitate to leave."
+                ],
+                [
+                  "se mettre à",
+                  "Elle s'est mise à rire.",
+                  "She started laughing."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With de",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**De** goes with **ending, trying, deciding, forgetting, refusing** and the expressions with **avoir** (*avoir envie de, besoin de, peur de, l'intention de*)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "finir de",
+                  "J'ai fini de manger.",
+                  "I've finished eating."
+                ],
+                [
+                  "arrêter de",
+                  "Il a arrêté de fumer.",
+                  "He stopped smoking."
+                ],
+                [
+                  "essayer de",
+                  "J'essaie de comprendre.",
+                  "I'm trying to understand."
+                ],
+                [
+                  "décider de",
+                  "Nous avons décidé de partir.",
+                  "We decided to leave."
+                ],
+                [
+                  "oublier de",
+                  "N'oublie pas de téléphoner.",
+                  "Don't forget to phone."
+                ],
+                [
+                  "avoir envie de",
+                  "J'ai envie de dormir.",
+                  "I feel like sleeping."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Two different links",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Some verbs change meaning with their link. **Demander à qqn de** + infinitive: *Je lui demande de venir.* **Dire à qqn de**: *Elle me dit de partir.* **Commencer par** + infinitive means *to begin by*; **finir par** means *to end up*: *Il a fini par comprendre.*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I stopped smoking.",
+                  "wrong": "J'ai arrêté à fumer.",
+                  "fr": "J'ai arrêté [[de]] fumer."
+                },
+                {
+                  "en": "I'm learning to swim.",
+                  "wrong": "J'apprends de nager.",
+                  "fr": "J'apprends [[à]] nager."
+                },
+                {
+                  "en": "I want to leave.",
+                  "wrong": "Je veux de partir.",
+                  "fr": "Je veux partir."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je commence à comprendre.",
+                  "en": "I'm beginning to understand."
+                },
+                {
+                  "fr": "Il refuse de répondre.",
+                  "en": "He refuses to answer."
+                },
+                {
+                  "fr": "Tu as réussi à ouvrir la porte ?",
+                  "en": "Did you manage to open the door?"
+                },
+                {
+                  "fr": "Elle a peur de parler en public.",
+                  "en": "She is afraid of speaking in public."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-verbs-a-de-inf-01",
+          "type": "cloze",
+          "fr": "J'apprends ___ nager.",
+          "a": [
+            "à"
+          ],
+          "en": "I'm learning to swim."
+        },
+        {
+          "id": "g-verbs-a-de-inf-02",
+          "type": "cloze",
+          "fr": "Il a arrêté ___ fumer.",
+          "a": [
+            "de"
+          ],
+          "en": "He stopped smoking."
+        },
+        {
+          "id": "g-verbs-a-de-inf-03",
+          "type": "cloze",
+          "fr": "Nous avons décidé ___ partir.",
+          "a": [
+            "de"
+          ],
+          "en": "We decided to leave."
+        },
+        {
+          "id": "g-verbs-a-de-inf-04",
+          "type": "cloze",
+          "fr": "Elle commence ___ comprendre.",
+          "a": [
+            "à"
+          ],
+          "en": "She's beginning to understand."
+        },
+        {
+          "id": "g-verbs-a-de-inf-05",
+          "type": "build",
+          "en": "I'm trying to understand.",
+          "a": [
+            "J'essaie de comprendre.",
+            "Je tente de comprendre."
+          ]
+        },
+        {
+          "id": "g-verbs-a-de-inf-06",
+          "type": "build",
+          "en": "Don't forget to phone me.",
+          "a": [
+            "N'oublie pas de me téléphoner.",
+            "N'oubliez pas de me téléphoner."
+          ]
+        },
+        {
+          "id": "g-verbs-a-de-inf-07",
+          "type": "build",
+          "en": "She managed to win.",
+          "a": [
+            "Elle a réussi à gagner."
+          ]
+        },
+        {
+          "id": "g-verbs-a-de-inf-08",
+          "type": "build",
+          "en": "I feel like sleeping.",
+          "a": [
+            "J'ai envie de dormir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "infinitive-uses",
+      "title": "The infinitive: avant de, sans, pour, après avoir",
+      "fr": "l'infinitif",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "infinitive",
+        "avant de",
+        "après avoir",
+        "après être",
+        "sans",
+        "pour",
+        "au lieu de",
+        "afin de",
+        "à force de",
+        "infinitif passé",
+        "past infinitive",
+        "lire est agréable",
+        "negative infinitive",
+        "ne pas"
+      ],
+      "topics": [],
+      "see": [
+        "verb-infinitive",
+        "verbs-a-de-inf",
+        "time-connectors",
+        "purpose"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The infinitive is used **after prepositions** (*pour, sans, avant de, au lieu de, afin de*), as a **noun** (*Lire est agréable*), after **modals and verbs of wanting** (*je veux partir*) and in **instructions** (*Ajouter du sel*). Its **negative** goes in front together: **ne pas** + infinitive."
+            },
+            {
+              "type": "table",
+              "head": [
+                "use",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "pour + inf.",
+                  "Je travaille pour gagner de l'argent.",
+                  "I work to earn money."
+                ],
+                [
+                  "sans + inf.",
+                  "Il part sans dire au revoir.",
+                  "He leaves without saying goodbye."
+                ],
+                [
+                  "avant de + inf.",
+                  "Lave-toi les mains avant de manger.",
+                  "Wash your hands before eating."
+                ],
+                [
+                  "au lieu de + inf.",
+                  "Au lieu de pleurer, riez !",
+                  "Instead of crying, laugh!"
+                ],
+                [
+                  "après avoir / être + participle",
+                  "Après avoir mangé, je sors.",
+                  "After eating I go out."
+                ],
+                [
+                  "infinitive as a subject",
+                  "Voyager est agréable.",
+                  "Travelling is nice."
+                ],
+                [
+                  "negative",
+                  "Il demande de ne pas parler.",
+                  "He asks us not to speak."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The past infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To say that the action was **finished before** the main verb use **avoir or être + past participle**: *après avoir mangé, après être arrivé(e)*. With *être* verbs and reflexives the participle agrees with the subject: *Après être arrivée, elle a téléphoné.* Both actions must have **the same subject**."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Après avoir fini, il est parti.",
+                  "en": "After finishing he left."
+                },
+                {
+                  "fr": "Après être rentrés, ils ont dîné.",
+                  "en": "After coming home they had dinner."
+                },
+                {
+                  "fr": "Après s'être lavée, elle a mangé.",
+                  "en": "After washing she ate."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Same subject only",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With *avant de, après, sans, pour* the infinitive needs the **same subject** as the main verb. With different subjects use a clause: *avant que* + subjunctive, *pour que* + subjunctive, *sans que* + subjunctive."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Before I leave, I call.",
+                  "wrong": "Avant que je pars, j'appelle.",
+                  "fr": "[[Avant de partir]], j'appelle."
+                },
+                {
+                  "en": "Before you leave, call me.",
+                  "wrong": "Avant de partir tu, appelle-moi.",
+                  "fr": "[[Avant que tu partes]], appelle-moi."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il est sorti sans prendre son manteau.",
+                  "en": "He went out without taking his coat."
+                },
+                {
+                  "fr": "Fermez la porte avant de partir.",
+                  "en": "Close the door before leaving."
+                },
+                {
+                  "fr": "Il vaut mieux ne pas attendre.",
+                  "en": "It's better not to wait."
+                },
+                {
+                  "fr": "Écouter, c'est apprendre.",
+                  "en": "Listening is learning."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-infinitive-uses-01",
+          "type": "build",
+          "en": "He leaves without saying goodbye.",
+          "a": [
+            "Il part sans dire au revoir."
+          ]
+        },
+        {
+          "id": "g-infinitive-uses-02",
+          "type": "build",
+          "en": "Wash your hands before eating.",
+          "a": [
+            "Lave-toi les mains avant de manger.",
+            "Lavez-vous les mains avant de manger."
+          ]
+        },
+        {
+          "id": "g-infinitive-uses-03",
+          "type": "build",
+          "en": "After eating, I go out.",
+          "a": [
+            "Après avoir mangé, je sors."
+          ]
+        },
+        {
+          "id": "g-infinitive-uses-04",
+          "type": "build",
+          "en": "After arriving, she phoned.",
+          "a": [
+            "Après être arrivée, elle a téléphoné."
+          ]
+        },
+        {
+          "id": "g-infinitive-uses-05",
+          "type": "build",
+          "en": "Instead of crying, laugh!",
+          "a": [
+            "Au lieu de pleurer, riez !",
+            "Au lieu de pleurer, ris !"
+          ]
+        },
+        {
+          "id": "g-infinitive-uses-06",
+          "type": "cloze",
+          "fr": "Il part ___ dire au revoir.",
+          "a": [
+            "sans"
+          ],
+          "en": "He leaves without saying goodbye."
+        },
+        {
+          "id": "g-infinitive-uses-07",
+          "type": "cloze",
+          "fr": "Après ___ mangé, nous sommes sortis.",
+          "a": [
+            "avoir"
+          ],
+          "en": "After eating we went out."
+        },
+        {
+          "id": "g-infinitive-uses-08",
+          "type": "cloze",
+          "fr": "Il demande de ne ___ parler.",
+          "a": [
+            "pas"
+          ],
+          "en": "He asks us not to speak."
+        }
+      ]
+    },
+    {
+      "id": "causative-sensory",
+      "title": "Faire, laisser, voir + infinitive",
+      "fr": "faire faire, laisser faire",
+      "level": "B1",
+      "keywords": [
+        "faire + infinitive",
+        "faire faire",
+        "laisser",
+        "voir + infinitive",
+        "entendre",
+        "regarder",
+        "écouter",
+        "causative",
+        "j'ai fait réparer",
+        "je l'entends chanter",
+        "se faire"
+      ],
+      "topics": [],
+      "see": [
+        "verb-infinitive",
+        "verbs-a-de-inf"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Faire + infinitive** means to **cause** something to happen or to **have it done**: *Je fais réparer ma voiture* (I'm having my car repaired). **Laisser + infinitive** means **to let**: *Je laisse partir les enfants.* **Voir, entendre, regarder, écouter + infinitive** say **what you perceive**: *Je vois venir le bus.*"
+            },
+            {
+              "type": "table",
+              "head": [
+                "structure",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "faire + inf.",
+                  "Il fait rire tout le monde.",
+                  "He makes everyone laugh."
+                ],
+                [
+                  "faire + inf. + noun",
+                  "Je fais réparer mon vélo.",
+                  "I'm having my bike repaired."
+                ],
+                [
+                  "se faire + inf.",
+                  "Elle se fait couper les cheveux.",
+                  "She's having her hair cut."
+                ],
+                [
+                  "laisser + inf.",
+                  "Laisse-moi parler !",
+                  "Let me speak!"
+                ],
+                [
+                  "voir / entendre + inf.",
+                  "J'entends chanter les oiseaux.",
+                  "I hear the birds sing."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Faire + infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The two verbs form a **block**: nothing goes in between and a pronoun goes before *faire*: *Je le fais réparer.* *Faire* is an auxiliary-like verb, so in the passé composé the participle **fait** never agrees: *Je les ai fait venir.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je fais cuire le riz.",
+                  "en": "I'm cooking the rice."
+                },
+                {
+                  "fr": "Il m'a fait pleurer.",
+                  "en": "He made me cry."
+                },
+                {
+                  "fr": "Nous avons fait construire une maison.",
+                  "en": "We had a house built."
+                },
+                {
+                  "fr": "Ça me fait rire.",
+                  "en": "That makes me laugh."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Laisser and perception verbs",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With **laisser** and the verbs of **perception** a pronoun goes before the first verb: *Je les vois jouer.* *Laisse-le faire.* The participle of *laisser* can stay unchanged."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je les ai entendus chanter.",
+                  "en": "I heard them sing."
+                },
+                {
+                  "fr": "Elle laisse son fils jouer dehors.",
+                  "en": "She lets her son play outside."
+                },
+                {
+                  "fr": "Nous regardons passer les voitures.",
+                  "en": "We watch the cars go by."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm having my car repaired.",
+                  "wrong": "Je répare ma voiture.",
+                  "fr": "Je [[fais réparer]] ma voiture.",
+                  "note": "*Je répare* means *I repair it myself*."
+                },
+                {
+                  "en": "He made me laugh.",
+                  "wrong": "Il a fait me rire.",
+                  "fr": "Il [[m']]a [[fait rire]]."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "verbs-a-de-inf",
+                "pc-agreement",
+                "infinitive-uses"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je fais nettoyer mon appartement.",
+                  "en": "I'm having my flat cleaned."
+                },
+                {
+                  "fr": "Il fait toujours rire ses amis.",
+                  "en": "He always makes his friends laugh."
+                },
+                {
+                  "fr": "Laissez-les entrer.",
+                  "en": "Let them in."
+                },
+                {
+                  "fr": "J'ai vu partir le train.",
+                  "en": "I saw the train leave."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-causative-sensory-01",
+          "type": "build",
+          "en": "I'm having my bike repaired.",
+          "a": [
+            "Je fais réparer mon vélo."
+          ]
+        },
+        {
+          "id": "g-causative-sensory-02",
+          "type": "build",
+          "en": "He makes everyone laugh.",
+          "a": [
+            "Il fait rire tout le monde."
+          ]
+        },
+        {
+          "id": "g-causative-sensory-03",
+          "type": "build",
+          "en": "Let me speak!",
+          "a": [
+            "Laisse-moi parler !",
+            "Laissez-moi parler !"
+          ]
+        },
+        {
+          "id": "g-causative-sensory-04",
+          "type": "build",
+          "en": "I hear the birds sing.",
+          "a": [
+            "J'entends chanter les oiseaux.",
+            "J'entends les oiseaux chanter."
+          ]
+        },
+        {
+          "id": "g-causative-sensory-05",
+          "type": "build",
+          "en": "I saw the train leave.",
+          "a": [
+            "J'ai vu partir le train.",
+            "J'ai vu le train partir."
+          ]
+        },
+        {
+          "id": "g-causative-sensory-06",
+          "type": "cloze",
+          "fr": "Il m'a ___ rire.",
+          "a": [
+            "fait"
+          ],
+          "hint": "made",
+          "en": "He made me laugh."
+        },
+        {
+          "id": "g-causative-sensory-07",
+          "type": "cloze",
+          "fr": "Elle se ___ couper les cheveux.",
+          "a": [
+            "fait"
+          ],
+          "hint": "has",
+          "en": "She's having her hair cut."
+        },
+        {
+          "id": "g-causative-sensory-08",
+          "type": "cloze",
+          "fr": "Je les ai ___ chanter.",
+          "a": [
+            "entendus"
+          ],
+          "hint": "heard",
+          "en": "I heard them sing."
+        }
+      ]
+    },
+    {
+      "id": "verb-constructions",
+      "title": "Tricky verb constructions",
+      "fr": "les constructions verbales",
+      "level": "A2",
+      "keywords": [
+        "constructions",
+        "attendre",
+        "aider",
+        "chercher",
+        "regarder",
+        "téléphoner à",
+        "demander à",
+        "penser à",
+        "jouer à",
+        "jouer de",
+        "avoir besoin de",
+        "se souvenir de",
+        "prepositions with verbs",
+        "wait for",
+        "look for",
+        "listen to"
+      ],
+      "topics": [],
+      "see": [
+        "direct-object",
+        "indirect-object",
+        "verb-infinitive",
+        "y",
+        "en"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French and English verbs often take a different preposition. Learn the ones that differ together with their construction."
+            },
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English",
+                "watch out"
+              ],
+              "textCols": [
+                1,
+                2
+              ],
+              "rows": [
+                [
+                  "attendre qn",
+                  "to wait **for** someone",
+                  "no preposition: *je l'attends*"
+                ],
+                [
+                  "chercher qc",
+                  "to look **for** something",
+                  "no preposition: *je le cherche*"
+                ],
+                [
+                  "regarder qc",
+                  "to look **at** something",
+                  "no preposition: *je le regarde*"
+                ],
+                [
+                  "écouter qn",
+                  "to listen **to** someone",
+                  "no preposition: *je l'écoute*"
+                ],
+                [
+                  "aider qn",
+                  "to help someone",
+                  "direct object: *je l'aide*"
+                ],
+                [
+                  "téléphoner à qn",
+                  "to phone someone",
+                  "*à*: *je lui téléphone*"
+                ],
+                [
+                  "demander à qn",
+                  "to ask someone",
+                  "*à*: *je lui demande*"
+                ],
+                [
+                  "penser à qc, qn",
+                  "to think **about** something",
+                  "*à*: *j'y pense*"
+                ],
+                [
+                  "avoir besoin de",
+                  "to need",
+                  "*de*: *j'en ai besoin*"
+                ],
+                [
+                  "se souvenir de",
+                  "to remember",
+                  "*de*: *je m'en souviens*"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Jouer à or jouer de?",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I play basketball.",
+                  "fr": "Je joue [[au]] basket.",
+                  "note": "Sports and games: *jouer à*."
+                },
+                {
+                  "en": "I play the guitar.",
+                  "fr": "Je joue [[de la]] guitare.",
+                  "note": "Musical instruments: *jouer de*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm waiting for the bus.",
+                  "wrong": "J'attends pour le bus.",
+                  "fr": "J'attends [[le]] bus."
+                },
+                {
+                  "en": "I'm watching TV.",
+                  "wrong": "Je regarde à la télé.",
+                  "fr": "Je regarde [[la]] télé."
+                },
+                {
+                  "en": "I'm helping my father.",
+                  "wrong": "J'aide à mon père.",
+                  "fr": "J'aide [[mon]] père."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je cherche mes clés.",
+                  "en": "I'm looking for my keys."
+                },
+                {
+                  "fr": "Tu penses à moi ?",
+                  "en": "Are you thinking of me?"
+                },
+                {
+                  "fr": "J'ai besoin d'un stylo.",
+                  "en": "I need a pen."
+                },
+                {
+                  "fr": "Je me souviens de ce jour.",
+                  "en": "I remember that day."
+                },
+                {
+                  "fr": "Il demande à la prof.",
+                  "en": "He's asking the teacher."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-verb-constructions-01",
+          "type": "build",
+          "en": "I'm waiting for you.",
+          "a": [
+            "Je t'attends."
+          ]
+        },
+        {
+          "id": "g-verb-constructions-02",
+          "type": "build",
+          "en": "I play the guitar.",
+          "a": [
+            "Je joue de la guitare."
+          ]
+        },
+        {
+          "id": "g-verb-constructions-03",
+          "type": "build",
+          "en": "I play football.",
+          "a": [
+            "Je joue au {foot|football}."
+          ]
+        },
+        {
+          "id": "g-verb-constructions-04",
+          "type": "cloze",
+          "fr": "J'ai besoin ___ ton aide.",
+          "a": [
+            "de"
+          ],
+          "en": "I need your help."
+        },
+        {
+          "id": "g-verb-constructions-05",
+          "type": "cloze",
+          "fr": "Je téléphone ___ ma grand-mère.",
+          "a": [
+            "à"
+          ],
+          "en": "I'm phoning my grandmother."
+        },
+        {
+          "id": "g-verb-constructions-06",
+          "type": "build",
+          "en": "I'm helping my mum.",
+          "a": [
+            "J'aide {ma mère|maman}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "avoir-faire-expressions",
+      "title": "Expressions with avoir and faire",
+      "fr": "les expressions avec avoir et faire",
+      "level": "A1",
+      "keywords": [
+        "avoir faim",
+        "avoir soif",
+        "avoir froid",
+        "avoir chaud",
+        "avoir peur",
+        "avoir mal",
+        "avoir besoin",
+        "avoir envie",
+        "avoir raison",
+        "faire du sport",
+        "faire beau",
+        "faire les courses",
+        "il fait",
+        "hungry",
+        "thirsty",
+        "cold",
+        "hot",
+        "afraid",
+        "pain",
+        "need",
+        "idioms",
+        "expressions"
+      ],
+      "topics": [
+        "age",
+        "faire",
+        "weather"
+      ],
+      "see": [
+        "irregular-core",
+        "impersonal",
+        "partitive"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Where English says \"I'm cold, I'm afraid\", French **has**: *j'ai froid, j'ai peur*. And French expresses many activities and the weather with the verb *faire*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "avoir...",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "avoir 14 ans",
+                  "to be 14 years old"
+                ],
+                [
+                  "avoir faim",
+                  "to be hungry"
+                ],
+                [
+                  "avoir soif",
+                  "to be thirsty"
+                ],
+                [
+                  "avoir froid",
+                  "to be cold"
+                ],
+                [
+                  "avoir chaud",
+                  "to be hot"
+                ],
+                [
+                  "avoir peur de",
+                  "to be afraid of"
+                ],
+                [
+                  "avoir sommeil",
+                  "to be sleepy"
+                ],
+                [
+                  "avoir raison, avoir tort",
+                  "to be right, to be wrong"
+                ],
+                [
+                  "avoir mal à",
+                  "to hurt, to have a pain in"
+                ],
+                [
+                  "avoir besoin de",
+                  "to need"
+                ],
+                [
+                  "avoir envie de",
+                  "to feel like, to want"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Avoir mal à",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Avoir mal à* + a part of the body: *J'ai mal à la tête* (I have a headache), *j'ai mal au ventre* (my stomach hurts), *j'ai mal aux dents* (my teeth hurt)."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "contractions"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Faire",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "faire...",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "faire du sport, du vélo, du ski",
+                  "to do sport, to cycle, to ski"
+                ],
+                [
+                  "faire de la musique",
+                  "to make music"
+                ],
+                [
+                  "faire les courses",
+                  "to go shopping (for food)"
+                ],
+                [
+                  "faire la cuisine",
+                  "to cook"
+                ],
+                [
+                  "faire ses devoirs",
+                  "to do one's homework"
+                ],
+                [
+                  "faire la vaisselle",
+                  "to wash the dishes"
+                ],
+                [
+                  "il fait beau, il fait froid",
+                  "the weather is nice, it's cold"
+                ],
+                [
+                  "faire attention",
+                  "to pay attention, to be careful"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Je fais du sport* (I do sport), but *je joue au foot* (I play football). Ball games and games: *jouer à*. Other sports: *faire de*."
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm cold.",
+                  "wrong": "Il est froid à moi.",
+                  "fr": "[[J'ai]] froid.",
+                  "note": "For the weather: *il fait froid*. For how you feel: *j'ai froid*."
+                },
+                {
+                  "en": "I'm afraid of dogs.",
+                  "wrong": "Je suis peur des chiens.",
+                  "fr": "[[J'ai peur]] des chiens."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai faim, on mange ?",
+                  "en": "I'm hungry, shall we eat?"
+                },
+                {
+                  "fr": "Tu as raison.",
+                  "en": "You're right."
+                },
+                {
+                  "fr": "J'ai mal au pied.",
+                  "en": "My foot hurts."
+                },
+                {
+                  "fr": "J'ai envie d'une pizza.",
+                  "en": "I feel like a pizza."
+                },
+                {
+                  "fr": "Le week-end, je fais du vélo.",
+                  "en": "At weekends I go cycling."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-avoir-faire-expressions-01",
+          "type": "build",
+          "en": "I'm thirsty.",
+          "a": [
+            "J'ai soif."
+          ]
+        },
+        {
+          "id": "g-avoir-faire-expressions-02",
+          "type": "build",
+          "en": "I'm cold.",
+          "a": [
+            "J'ai froid."
+          ]
+        },
+        {
+          "id": "g-avoir-faire-expressions-03",
+          "type": "build",
+          "en": "I have a headache.",
+          "a": [
+            "J'ai mal à la tête."
+          ]
+        },
+        {
+          "id": "g-avoir-faire-expressions-04",
+          "type": "build",
+          "en": "I ski.",
+          "a": [
+            "Je fais du ski."
+          ]
+        },
+        {
+          "id": "g-avoir-faire-expressions-05",
+          "type": "cloze",
+          "fr": "Tu ___ raison.",
+          "a": [
+            "as"
+          ],
+          "hint": "avoir",
+          "en": "You're right."
+        },
+        {
+          "id": "g-avoir-faire-expressions-06",
+          "type": "build",
+          "en": "I need help.",
+          "a": [
+            "J'ai besoin d'aide."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "passive",
+      "title": "The passive (basics)",
+      "fr": "la voix passive",
+      "level": "B1",
+      "keywords": [
+        "passive",
+        "passive voice",
+        "être + participe",
+        "par",
+        "voix passive",
+        "was built"
+      ],
+      "topics": [],
+      "see": [
+        "participles",
+        "on",
+        "passe-compose-etre"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The passive is formed with *être* + the past participle. The participle agrees with the subject. Who does the action is introduced by *par*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Victor Hugo wrote this book. → This book was written by Victor Hugo.",
+                  "fr": "Victor Hugo a écrit ce livre. → Ce livre [[a été écrit]] [[par]] Victor Hugo."
+                }
+              ]
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "La tour Eiffel"
+                    ],
+                    [
+                      "aux",
+                      "a été"
+                    ],
+                    [
+                      "part",
+                      "construite"
+                    ],
+                    [
+                      "time",
+                      "en 1889."
+                    ]
+                  ],
+                  "en": "The Eiffel Tower was built in 1889."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The tense is carried by être",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "tense",
+                "example"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "présent",
+                  "Le match est diffusé à la télé."
+                ],
+                [
+                  "passé composé",
+                  "Le match a été diffusé à la télé."
+                ],
+                [
+                  "futur simple",
+                  "Le match sera diffusé à la télé."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Prefer on",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In everyday speech French avoids the passive and uses *on*. At B1 it is enough to **recognise** the passive in a text and to form a simple one."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "French is spoken here.",
+                  "fr": "[[On]] parle français ici.",
+                  "note": "More natural than *Le français est parlé ici.*"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ce film a été tourné à Paris.",
+                  "en": "This film was shot in Paris."
+                },
+                {
+                  "fr": "Les élèves sont invités à la fête.",
+                  "en": "The pupils are invited to the party."
+                },
+                {
+                  "fr": "La lettre a été envoyée hier.",
+                  "en": "The letter was sent yesterday."
+                },
+                {
+                  "fr": "Il a été piqué par une abeille.",
+                  "en": "He was stung by a bee."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-passive-01",
+          "type": "transform",
+          "task_en": "Turn into the passive",
+          "fr": "Le chat mange la souris.",
+          "a": [
+            "La souris est mangée par le chat."
+          ]
+        },
+        {
+          "id": "g-passive-02",
+          "type": "transform",
+          "task_en": "Turn into the passive",
+          "fr": "Paul a écrit cette lettre.",
+          "a": [
+            "Cette lettre a été écrite par Paul."
+          ]
+        },
+        {
+          "id": "g-passive-03",
+          "type": "cloze",
+          "fr": "La maison a été ___ en 1990.",
+          "a": [
+            "construite"
+          ],
+          "en": "The house was built in 1990."
+        },
+        {
+          "id": "g-passive-04",
+          "type": "transform",
+          "task_en": "Turn into the active with the pronoun on",
+          "fr": "Mon vélo a été volé.",
+          "a": [
+            "On a volé mon vélo."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,106 +1,106 @@
 {
   "schema": 1,
   "lang": "fr",
-  "title": "Grammar",
+  "title": "Gramatika",
   "chapters": [
     {
       "id": "phrase",
-      "title": "Sentence structure",
-      "subtitle": "Word order, subject, sentence map, c'est and il y a",
+      "title": "Stavba věty",
+      "subtitle": "Slovosled, podmět, mapa věty, c'est a il y a",
       "file": "grammar/01-phrase.json"
     },
     {
       "id": "pronoms",
-      "title": "Pronouns",
-      "subtitle": "How they split, where they go and when to use which",
+      "title": "Zájmena",
+      "subtitle": "Jak se dělí, kam patří a kdy použít které",
       "file": "grammar/02-pronoms.json"
     },
     {
       "id": "pronoun-path",
-      "title": "Object pronouns step by step",
-      "subtitle": "One rule at a time, practised in every situation, then mixed",
+      "title": "Předmětová zájmena krok za krokem",
+      "subtitle": "Jedno pravidlo po druhém, procvičené ve všech situacích, pak namíchané",
       "file": "grammar/13-pronoun-path.json",
       "path": true
     },
     {
       "id": "verbes",
-      "title": "Verbs",
-      "subtitle": "Groups, conjugation, irregular verbs and constructions",
+      "title": "Slovesa",
+      "subtitle": "Třídy, časování, nepravidelná slovesa a vazby",
       "file": "grammar/03-verbes.json"
     },
     {
       "id": "temps",
-      "title": "Tenses and moods",
-      "subtitle": "From the présent to the subjonctif and when to use which",
+      "title": "Časy a způsoby",
+      "subtitle": "Od présent po subjonctif a kdy použít který",
       "file": "grammar/04-temps.json"
     },
     {
       "id": "imperative-path",
-      "title": "The imperative step by step",
-      "subtitle": "Commands: forms, irregular verbs, negatives, reflexives, pronouns, polite requests",
+      "title": "Rozkazovací způsob krok za krokem",
+      "subtitle": "Rozkazy: tvary, nepravidelná slovesa, zápor, zvratná slovesa, zájmena, zdvořilé prosby",
       "file": "grammar/14-imperative-path.json",
       "path": true
     },
     {
       "id": "conditional-path",
-      "title": "Conditional and si step by step",
-      "subtitle": "Would, if I were, if I had been",
+      "title": "Kondicionál a si krok za krokem",
+      "subtitle": "Bych, kdybych byl, kdybych byl býval",
       "file": "grammar/15-conditional-path.json",
       "path": true
     },
     {
       "id": "subjunctive-path",
-      "title": "The subjunctive step by step",
-      "subtitle": "Forms, il faut que, wishes and feelings, conjunctions, subjunctive or not",
+      "title": "Subjonctif krok za krokem",
+      "subtitle": "Tvary, il faut que, přání a pocity, spojky, subjonctif, nebo ne",
       "file": "grammar/16-subjunctive-path.json",
       "path": true
     },
     {
       "id": "noms",
-      "title": "Nouns and articles",
-      "subtitle": "Gender, plural, le, un, du",
+      "title": "Podstatná jména a členy",
+      "subtitle": "Rod, množné číslo, le, un, du",
       "file": "grammar/05-noms.json"
     },
     {
       "id": "adjectifs",
-      "title": "Adjectives and adverbs",
-      "subtitle": "Agreement, position, comparison",
+      "title": "Přídavná jména a příslovce",
+      "subtitle": "Shoda, postavení, stupňování",
       "file": "grammar/06-adjectifs.json"
     },
     {
       "id": "negation",
-      "title": "Negation",
-      "subtitle": "ne... pas and everything around it",
+      "title": "Zápor",
+      "subtitle": "ne... pas a všechno kolem",
       "file": "grammar/07-negation.json"
     },
     {
       "id": "questions",
-      "title": "Questions",
-      "subtitle": "Three ways to ask and the question words",
+      "title": "Otázky",
+      "subtitle": "Tři způsoby, jak se ptát, a tázací slova",
       "file": "grammar/08-questions.json"
     },
     {
       "id": "prepositions",
-      "title": "Prepositions",
-      "subtitle": "à, de, en, chez, place and time",
+      "title": "Předložky",
+      "subtitle": "à, de, en, chez, místo a čas",
       "file": "grammar/09-prepositions.json"
     },
     {
       "id": "nombres",
-      "title": "Numbers, time and dates",
-      "subtitle": "From zero to a million, clock, dates",
+      "title": "Čísla, čas a data",
+      "subtitle": "Od nuly do milionu, hodiny, data",
       "file": "grammar/10-nombres.json"
     },
     {
       "id": "orthographe",
-      "title": "Pronunciation and spelling",
-      "subtitle": "Accents, elision, liaison, punctuation",
+      "title": "Výslovnost a pravopis",
+      "subtitle": "Diakritika, elize, vázání, interpunkce",
       "file": "grammar/11-orthographe.json"
     },
     {
       "id": "structures",
-      "title": "Useful structures",
-      "subtitle": "Expressions, verbs that look alike and polite phrases",
+      "title": "Užitečné vazby",
+      "subtitle": "Ustálená spojení, podobná slovesa a zdvořilé fráze",
       "file": "grammar/12-structures.json"
     }
   ]

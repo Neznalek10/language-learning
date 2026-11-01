@@ -1,20 +1,22 @@
 # Vocab
 
-A French trainer for Czech speakers that runs in the browser and installs on a phone as an app (PWA). It started as a vocabulary trainer and grew into a full A1 to A2 course with grammar, drills, writing and speaking practice. German has a small vocabulary set.
+A French trainer for Czech and English speakers that runs in the browser and installs on a phone as an app (PWA). It started as a vocabulary trainer and grew into a full A1 to A2 course with grammar, drills, writing and speaking practice. German has a small vocabulary set.
+
+Each profile picks the language it already speaks, **Čeština** or **English**, when it is created, and can change it later in **Settings > I speak**. Everything then comes in that language: words, lessons, grammar, drills, writing and speaking topics, the AI instructions and the app's own menus and messages. The course follows Hugo, a Czech student, so a few example sentences are about the Czech Republic.
 
 > **Vibe coded.** This project was built with AI assistance (Claude Code) by prompting and iterating, not by writing every line by hand. The course content (lessons, grammar, sentences) was also written with AI help, checked with the validator and LanguageTool, and reviewed by hand, but it has **not** been reviewed by a teacher. Expect some mistakes, and please open an issue when you find one.
 
 ## Features
 
-- **Vocabulary**: 1,055 French words in 27 decks and 100 German words in 8 decks, Czech on the other side. Practise in either direction or mixed.
+- **Vocabulary**: 1,055 French words in 27 decks and 100 German words in 8 decks, Czech or English on the other side. Practise in either direction or mixed.
 - **Levels**: every word moves through New, Learning (0 to 2 correct in a row), Familiar (3 to 4) and Mastered (5). Smart sessions show due words first, then new ones.
 - **Answer checking** that forgives missing accents (optional), points out typos and explains each mistake: wrong accent, the letter that is off, a word you mixed it up with, a missing German article or reflexive pronoun.
-- **Learn**: a French course in 9 units (A1 units 1 to 5, A2 units 6 to 9) with lessons explained in Czech, about 1,750 exercises and a test for every part. Units open in order.
-- **Grammar**: a reference in English with 219 articles in 16 chapters, A1 to B1, each with typical mistakes and practice. Four chapters are step-by-step paths (object pronouns, imperative, conditional and *si*, subjunctive).
+- **Learn**: a French course in 9 units (A1 units 1 to 5, A2 units 6 to 9) with lessons explained in Czech or English, about 1,750 exercises and a test for every part. Units open in order.
+- **Grammar**: a reference in Czech or English with 219 articles in 16 chapters, A1 to B1, each with typical mistakes and practice. Four chapters are step-by-step paths (object pronouns, imperative, conditional and *si*, subjunctive).
 - **Tenses**: conjugation tables for 117 verbs in 18 tenses, with a drill.
-- **Drills**: 900+ Czech sentences to translate, 372 pronoun replacements, 259 negations and 163 questions.
+- **Drills**: 900+ Czech or English sentences to translate, 372 pronoun replacements, 259 negations and 163 questions.
 - **Write** (87 topics) and **Speak** (50 scenarios): writing is checked by an AI you connect yourself; speaking builds a prompt for any voice AI.
-- **Profiles** with names only, **backup and restore** as a file, **works offline**.
+- **Profiles** with names only, **auto-save to a folder**, **backup and restore** as a file, **works offline**.
 
 Everything stays in your browser. There is no server and no account.
 
@@ -57,12 +59,14 @@ All paths are relative (`./`), so the app works in a subfolder such as `https://
 | `courses/fr/drills.json`, `drills/*.json`, `translate.json` | Sentence drills and the translation bank |
 | `courses/fr/writing.json`, `speaking.json` | Writing topics and speaking scenarios |
 | `prompts/*.md` | Instructions sent to the AI (essay check, topic generator, free chat, answer appeal) |
-| `tools/check_course.py` | Validates all course files, optionally proofreads them |
+| `en/` | The English edition of the content: `en/words.json`, `en/words/`, `en/courses/fr/`, `en/prompts/`. Paths in `en/words.json` start from the app folder, so it shares `conjugations/` |
+| `js/i18n.js`, `js/i18n-cs.js` | Czech for the app's menus and messages. Views are written in English; in Czech mode every text on screen is looked up in `i18n-cs.js`, and anything missing stays English. When you add a button or message, add its Czech there |
+| `tools/check_course.py` | Validates all course files for both languages, optionally proofreads them |
 | `tools/conjugate.py` | Regenerates the conjugation tables |
 
 ## Adding words
 
-Add a deck file, for example `words/fr/food-2.json`, and add its path to `decks` in `words.json`:
+Add a deck file, for example `words/fr/food-2.json`, and add its path to `decks` in `words.json`. For English speakers do the same in `en/words/fr/` and `en/words.json`, using the same file name so course lessons find the word in both:
 
 ```json
 {
@@ -143,7 +147,7 @@ Wrong answers come back once at the end. **I was right** accepts your answer on 
 
 The Grammar tab is a reference: nothing is locked or tracked. Articles have **In short** first, then sections such as forms, use, word order, examples and **Watch out**. **Practice this rule** runs the article's checks; tense articles link to the conjugation drill. Search ignores accents, and a level filter hides articles above A1, A2 or B1 (the step-by-step chapters, marked `"path": true` in `grammar.json`, are never hidden).
 
-Besides the Learn block types, grammar articles can use `pattern` (a sentence split into labelled slots), `compare` (English, the typical wrong French, the right French with the difference in `[[...]]`), `tree` and `see` (links). Explanations go in `en`. Check ids start with `g-<article id>-` and never change. The topic lists follow the DELF A1 to B1 grammar lists and the Lawless French A1 to B1 lessons.
+Besides the Learn block types, grammar articles can use `pattern` (a sentence split into labelled slots), `compare` (the learner's language, the typical wrong French, the right French with the difference in `[[...]]`), `tree` and `see` (links). Explanations go in `cs` in the Czech files and in `en` under `en/`. Check ids start with `g-<article id>-` and never change. The topic lists follow the DELF A1 to B1 grammar lists and the Lawless French A1 to B1 lessons.
 
 ## Drills
 
@@ -159,16 +163,19 @@ Besides the Learn block types, grammar articles can use `pattern` (a sentence sp
 
 ## Profiles, privacy and backups
 
-The app opens on a profile picker. Profiles are names only, without passwords, and each has its own progress and settings, stored in this browser's `localStorage` under `vocab.<profileId>.<key>`. Nothing is sent anywhere except the texts you choose to check with the AI provider you configured.
+The app opens on a profile picker. Profiles are names only, without passwords, and each has its own progress and settings, stored in this browser's `localStorage` under `vocab.<profileId>.<key>`. Course and drill progress is saved per exercise id, which both languages share, so switching language keeps it. Word progress is saved per prompt, so it stays with the language it was earned in. Nothing is sent anywhere except the texts you choose to check with the AI provider you configured.
 
-Clearing site data or changing devices loses progress, so use **Settings > Back up progress**. **Restore** always creates a new profile and never overwrites one.
+Clearing site data or changing devices loses progress, so use **Settings > Save to a folder** (Chrome or Edge on a computer). Pick a folder once and every profile is written there as `vocab-<name>-<profileId>.json` a moment after each change. When the app starts and finds a profile in the folder that the browser no longer has, it restores it; after site data is cleared, the profile screen offers **Load profiles from a save folder**. Browsers may ask for permission to the folder again after a restart, which the profile screen shows as an **Allow** button. The folder handle is kept in IndexedDB (`vocab-folder`); the AI key is never written to the files.
+
+In other browsers use **Settings > Back up progress**. **Restore** always creates a new profile and never overwrites one.
 
 ## Tools
 
 Validate the course after every change (unique ids, known types, links, verb forms, one gap per cloze and more). `--proofread` also sends the French sentences to the public [LanguageTool](https://languagetool.org) API; it catches grammar and spelling, not wrong translations.
 
 ```bash
-python3 tools/check_course.py
+python3 tools/check_course.py                        # both languages
+python3 tools/check_course.py --en                   # only English (--cs: only Czech)
 python3 tools/check_course.py --proofread            # everything
 python3 tools/check_course.py --proofread --grammar  # grammar only
 python3 tools/check_course.py --proofread --drills   # drills and translation bank only

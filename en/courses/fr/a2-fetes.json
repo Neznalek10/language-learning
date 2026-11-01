@@ -1,0 +1,1426 @@
+{
+  "schema": 1,
+  "goals": [
+    "Name celebrations and give wishes (Joyeux Noël, Bonne année)",
+    "Describe French celebrations and customs",
+    "Form the imparfait (nous → -ais)",
+    "Talk about memories: quand j'étais petit, chaque année...",
+    "Tell background (imparfait) and action (passé composé) apart"
+  ],
+  "lessons": [
+    {
+      "id": "fr-fetes-1",
+      "title": "Joyeux Noël !",
+      "subtitle": "Celebrations and wishes",
+      "topics": [
+        "celebrations"
+      ],
+      "words": [
+        "celebrations#Christmas",
+        "celebrations#New Year's Eve",
+        "celebrations#New Year",
+        "celebrations#present, gift",
+        "celebrations#candle",
+        "celebrations#Christmas tree",
+        "celebrations#Merry Christmas!",
+        "celebrations#Happy New Year!",
+        "celebrations#Happy birthday!",
+        "celebrations#celebration, party",
+        "celebrations#Easter",
+        "verbs#to wish",
+        "verbs#to celebrate",
+        "verbs#to invite",
+        "verbs#to bring"
+      ],
+      "learn": [
+        {
+          "title": "Celebrations",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "Christmas",
+                  "Noël"
+                ],
+                [
+                  "Christmas Eve dinner",
+                  "le réveillon de Noël"
+                ],
+                [
+                  "New Year's Eve",
+                  "la Saint-Sylvestre"
+                ],
+                [
+                  "New Year's Day",
+                  "le Nouvel An"
+                ],
+                [
+                  "Easter",
+                  "Pâques"
+                ],
+                [
+                  "birthday",
+                  "l'anniversaire"
+                ],
+                [
+                  "party, celebration",
+                  "la fête"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "*À Noël* (at Christmas), *à Pâques* (at Easter), *pour mon anniversaire* (for my birthday)."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "___ Noël, on mange en famille.",
+                "a": [
+                  "À"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Wishes",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "Merry Christmas!",
+                  "Joyeux Noël !"
+                ],
+                [
+                  "Happy New Year!",
+                  "Bonne année !"
+                ],
+                [
+                  "Happy birthday!",
+                  "Joyeux anniversaire !"
+                ],
+                [
+                  "Veselé Velikonoce!",
+                  "Joyeuses Pâques !"
+                ],
+                [
+                  "Good luck!",
+                  "Bonne chance !"
+                ],
+                [
+                  "Congratulations!",
+                  "Félicitations !"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "souhaiter and fêter",
+              "en": "*Souhaiter* = to wish: *Je te souhaite un bon anniversaire.* *Fêter* = to celebrate: *On fête Noël en famille.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Merry Christmas and a happy New Year!",
+                "a": [
+                  "Joyeux Noël et bonne année !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-fetes-1-01",
+          "type": "cloze",
+          "fr": "Le 31 décembre, c'est la ___.",
+          "a": [
+            "Saint-Sylvestre"
+          ],
+          "hint": "New Year's Eve"
+        },
+        {
+          "id": "fr-fetes-1-02",
+          "type": "cloze",
+          "fr": "Pour mon anniversaire, j'ai eu beaucoup de ___.",
+          "a": [
+            "cadeaux"
+          ],
+          "hint": "presents"
+        },
+        {
+          "id": "fr-fetes-1-03",
+          "type": "cloze",
+          "fr": "On met des boules sur le ___ de Noël.",
+          "a": [
+            "sapin"
+          ],
+          "hint": "tree"
+        },
+        {
+          "id": "fr-fetes-1-04",
+          "type": "cloze",
+          "fr": "Je te ___ un bon anniversaire !",
+          "a": [
+            "souhaite"
+          ],
+          "hint": "souhaiter"
+        },
+        {
+          "id": "fr-fetes-1-05",
+          "type": "cloze",
+          "fr": "Nous ___ Noël chez mes grands-parents.",
+          "a": [
+            "fêtons"
+          ],
+          "hint": "fêter"
+        },
+        {
+          "id": "fr-fetes-1-06",
+          "type": "cloze",
+          "fr": "Il y a dix ___ sur le gâteau.",
+          "a": [
+            "bougies"
+          ],
+          "hint": "candles"
+        },
+        {
+          "id": "fr-fetes-1-07",
+          "type": "build",
+          "en": "Happy birthday!",
+          "a": [
+            "Joyeux anniversaire !",
+            "Bon anniversaire !"
+          ]
+        },
+        {
+          "id": "fr-fetes-1-08",
+          "type": "build",
+          "en": "Happy New Year!",
+          "a": [
+            "Bonne année !"
+          ]
+        },
+        {
+          "id": "fr-fetes-1-09",
+          "type": "build",
+          "en": "At Christmas I get presents.",
+          "a": [
+            "À Noël, je reçois des cadeaux.",
+            "À Noël, j'ai des cadeaux.",
+            "À Noël, on me donne des cadeaux."
+          ]
+        },
+        {
+          "id": "fr-fetes-1-10",
+          "type": "build",
+          "en": "I'm going to invite my friends to the party.",
+          "a": [
+            "Je vais inviter mes amis à la fête.",
+            "J'invite mes amis à la fête.",
+            "J'invite mes copains à ma fête.",
+            "Je vais inviter mes copains à ma fête.",
+            "Je vais inviter mes amis à ma fête.",
+            "J'invite mes amis à ma fête."
+          ]
+        },
+        {
+          "id": "fr-fetes-1-11",
+          "type": "build",
+          "en": "What will you bring? (tu)",
+          "a": [
+            "Qu'est-ce que tu apportes ?",
+            "Tu apportes quoi ?"
+          ]
+        },
+        {
+          "id": "fr-fetes-1-12",
+          "type": "order",
+          "en": "At Easter we eat chocolate.",
+          "a": [
+            "À Pâques nous mangeons du chocolat"
+          ],
+          "extra": [
+            "Au",
+            "de"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-fetes-2",
+      "title": "Les fêtes en France",
+      "subtitle": "French celebrations",
+      "topics": [
+        "celebrations"
+      ],
+      "words": [
+        "celebrations#national holiday",
+        "celebrations#fireworks",
+        "celebrations#ball (dance)",
+        "celebrations#porcelain charm (in a king cake)",
+        "celebrations#Epiphany",
+        "celebrations#tradition",
+        "celebrations#festival"
+      ],
+      "learn": [
+        {
+          "title": "Through the year",
+          "blocks": [
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "6 January",
+                  "l'Épiphanie",
+                  "People eat a *galette des rois*. Whoever finds the charm (*la fève*) is king."
+                ],
+                [
+                  "2 February",
+                  "la Chandeleur",
+                  "People make pancakes (*crêpes*)."
+                ],
+                [
+                  "March or April",
+                  "Pâques",
+                  "Children look for chocolate eggs."
+                ],
+                [
+                  "21 June",
+                  "la Fête de la musique",
+                  "Music is played outside everywhere."
+                ],
+                [
+                  "14 July",
+                  "la fête nationale",
+                  "A parade, a dance and fireworks."
+                ],
+                [
+                  "25 December",
+                  "Noël",
+                  "Presents under the tree, and *le réveillon* the evening before."
+                ]
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "head": [
+                "when",
+                "celebration",
+                "what people do"
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Le 14 juillet, on regarde le feu d'___.",
+                "a": [
+                  "artifice"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "How it's celebrated",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "You describe customs in the present tense, often with *on*: *On mange une galette. On danse au bal.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le 14 juillet, il y a un feu d'artifice à Paris.",
+                  "en": "On the 14th of July there are fireworks in Paris."
+                },
+                {
+                  "fr": "À la Fête de la musique, on joue de la guitare dans la rue.",
+                  "en": "At the Fête de la musique people play the guitar in the street."
+                },
+                {
+                  "fr": "Celui qui trouve la fève est le roi.",
+                  "en": "Whoever finds the charm is king."
+                },
+                {
+                  "fr": "À la Chandeleur, on fait des crêpes.",
+                  "en": "At Candlemas people make pancakes."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Fête de la musique",
+              "en": "On the 21st of June in France you can play the guitar outside and nobody minds."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "On the national holiday there are fireworks.",
+                "a": [
+                  "Pour la fête nationale, il y a un feu d'artifice.",
+                  "À la fête nationale, il y a un feu d'artifice.",
+                  "Le jour de la fête nationale, il y a un feu d'artifice."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-fetes-2-01",
+          "type": "cloze",
+          "fr": "Le 14 juillet, c'est la fête ___.",
+          "a": [
+            "nationale"
+          ],
+          "hint": "national"
+        },
+        {
+          "id": "fr-fetes-2-02",
+          "type": "cloze",
+          "fr": "À l'Épiphanie, on mange la galette des ___.",
+          "a": [
+            "rois"
+          ],
+          "hint": "kings"
+        },
+        {
+          "id": "fr-fetes-2-03",
+          "type": "cloze",
+          "fr": "Dans la galette, il y a une ___.",
+          "a": [
+            "fève"
+          ],
+          "hint": "charm (in the cake)"
+        },
+        {
+          "id": "fr-fetes-2-04",
+          "type": "cloze",
+          "fr": "À la Chandeleur, on mange des ___.",
+          "a": [
+            "crêpes"
+          ],
+          "hint": "pancakes"
+        },
+        {
+          "id": "fr-fetes-2-05",
+          "type": "cloze",
+          "fr": "Le soir du 14 juillet, on danse au ___.",
+          "a": [
+            "bal"
+          ],
+          "hint": "ball, dance"
+        },
+        {
+          "id": "fr-fetes-2-06",
+          "type": "build",
+          "en": "In France people celebrate the Fête de la musique.",
+          "a": [
+            "En France, on fête la Fête de la musique.",
+            "En France, on célèbre la Fête de la musique."
+          ]
+        },
+        {
+          "id": "fr-fetes-2-07",
+          "type": "build",
+          "en": "Whoever finds the charm is king.",
+          "a": [
+            "Celui qui trouve la fève est le roi.",
+            "Qui trouve la fève est le roi."
+          ]
+        },
+        {
+          "id": "fr-fetes-2-08",
+          "type": "build",
+          "en": "At Easter children look for eggs.",
+          "a": [
+            "À Pâques, les enfants cherchent des œufs.",
+            "À Pâques, les enfants cherchent les œufs."
+          ]
+        },
+        {
+          "id": "fr-fetes-2-09",
+          "type": "build",
+          "en": "It's an old tradition.",
+          "a": [
+            "C'est une vieille tradition."
+          ]
+        },
+        {
+          "id": "fr-fetes-2-10",
+          "type": "build",
+          "en": "What's your favourite celebration? (tu)",
+          "a": [
+            "Quelle est ta fête préférée ?",
+            "C'est quoi ta fête préférée ?"
+          ]
+        },
+        {
+          "id": "fr-fetes-2-11",
+          "type": "order",
+          "en": "In June there's a music festival.",
+          "a": [
+            "En juin il y a un festival de musique"
+          ],
+          "extra": [
+            "au",
+            "du"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-fetes-3",
+      "title": "Quand j'étais petit",
+      "subtitle": "The imparfait: forms",
+      "topics": [
+        "imparfait"
+      ],
+      "words": [],
+      "learn": [
+        {
+          "title": "How it's formed",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *imparfait* describes what something was like and what used to happen again and again (in English often \"used to\" or \"was ...ing\"). Take the *nous* form of the present, remove *-ons* and add the endings *-ais, -ais, -ait, -ions, -iez, -aient*: *nous jouons → je jouais*."
+            },
+            {
+              "type": "table",
+              "verb": "jouer",
+              "tense": "imparfait"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "habiter",
+                "tense": "imparfait",
+                "person": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "être",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The only exception is *être*, which has the stem *ét-*: *j'étais, tu étais, il était, nous étions, vous étiez, ils étaient*."
+            },
+            {
+              "type": "table",
+              "verb": "être",
+              "tense": "imparfait"
+            },
+            {
+              "type": "tip",
+              "title": "pronunciation",
+              "en": "*-ais, -ait, -aient* all sound the same: *je jouais, il jouait, ils jouaient*. The difference is only in the spelling."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quand j'étais petit, j'habitais à Prague.",
+                  "en": "When I was little, I lived in Prague."
+                },
+                {
+                  "fr": "Nous avions un grand jardin.",
+                  "en": "We had a big garden."
+                },
+                {
+                  "fr": "Mon père travaillait à Prague.",
+                  "en": "Dad worked in Prague."
+                },
+                {
+                  "fr": "Les enfants étaient contents.",
+                  "en": "The children were happy."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Quand j'___ petit, j'habitais à Prague.",
+                "a": [
+                  "étais"
+                ],
+                "hint": "être"
+              }
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-fetes-3-01",
+          "type": "form",
+          "verb": "être",
+          "tense": "imparfait",
+          "person": 0
+        },
+        {
+          "id": "fr-fetes-3-02",
+          "type": "form",
+          "verb": "être",
+          "tense": "imparfait",
+          "person": 2
+        },
+        {
+          "id": "fr-fetes-3-03",
+          "type": "form",
+          "verb": "être",
+          "tense": "imparfait",
+          "person": 3
+        },
+        {
+          "id": "fr-fetes-3-04",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "imparfait",
+          "person": 1
+        },
+        {
+          "id": "fr-fetes-3-05",
+          "type": "form",
+          "verb": "faire",
+          "tense": "imparfait",
+          "person": 0
+        },
+        {
+          "id": "fr-fetes-3-06",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "imparfait",
+          "person": 5
+        },
+        {
+          "id": "fr-fetes-3-07",
+          "type": "form",
+          "verb": "habiter",
+          "tense": "imparfait",
+          "person": 3
+        },
+        {
+          "id": "fr-fetes-3-08",
+          "type": "form",
+          "verb": "finir",
+          "tense": "imparfait",
+          "person": 2
+        },
+        {
+          "id": "fr-fetes-3-09",
+          "type": "form",
+          "verb": "prendre",
+          "tense": "imparfait",
+          "person": 4
+        },
+        {
+          "id": "fr-fetes-3-10",
+          "type": "cloze",
+          "fr": "Quand j'étais petit, je ___ au foot.",
+          "a": [
+            "jouais"
+          ],
+          "hint": "jouer"
+        },
+        {
+          "id": "fr-fetes-3-11",
+          "type": "cloze",
+          "fr": "Nous ___ à Prague.",
+          "a": [
+            "habitions"
+          ],
+          "hint": "habiter"
+        },
+        {
+          "id": "fr-fetes-3-12",
+          "type": "cloze",
+          "fr": "Il ___ beaucoup de jouets.",
+          "a": [
+            "avait"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-fetes-3-13",
+          "type": "cloze",
+          "fr": "Mes parents ___ jeunes.",
+          "a": [
+            "étaient"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-fetes-3-14",
+          "type": "build",
+          "en": "When I was little, I lived in Prague.",
+          "a": [
+            "Quand j'étais {petit|petite}, j'habitais à Prague."
+          ]
+        },
+        {
+          "id": "fr-fetes-3-15",
+          "type": "build",
+          "en": "We had a dog.",
+          "a": [
+            "Nous avions un chien.",
+            "On avait un chien."
+          ]
+        },
+        {
+          "id": "fr-fetes-3-16",
+          "type": "transform",
+          "task_en": "Put it in the imparfait",
+          "fr": "Je joue au parc.",
+          "a": [
+            "Je jouais au parc."
+          ]
+        },
+        {
+          "id": "fr-fetes-3-17",
+          "type": "transform",
+          "task_en": "Put it in the imparfait",
+          "fr": "Nous sommes contents.",
+          "a": [
+            "Nous étions contents."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-fetes-4",
+      "title": "Chaque année, on fêtait...",
+      "subtitle": "Habits and descriptions in the past",
+      "topics": [
+        "imparfait",
+        "celebrations"
+      ],
+      "words": [
+        "celebrations#hidden",
+        "celebrations#end"
+      ],
+      "learn": [
+        {
+          "title": "When to use the imparfait",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "You use the imparfait for **habits** in the past (*every year, often, always*) and for **descriptions** of what things were like (the weather, a mood, what someone looked like)."
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "every year",
+                  "chaque année / tous les ans"
+                ],
+                [
+                  "every Christmas",
+                  "chaque Noël"
+                ],
+                [
+                  "usually",
+                  "d'habitude"
+                ],
+                [
+                  "often",
+                  "souvent"
+                ],
+                [
+                  "always",
+                  "toujours"
+                ],
+                [
+                  "The weather was lovely.",
+                  "Il faisait beau."
+                ],
+                [
+                  "There were lots of people.",
+                  "Il y avait beaucoup de monde."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Chaque année, nous ___ Noël chez ma grand-mère.",
+                "a": [
+                  "fêtions"
+                ],
+                "hint": "fêter"
+              }
+            }
+          ]
+        },
+        {
+          "title": "A memory",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quand j'étais petit, on fêtait Noël à la montagne.",
+                  "en": "When I was little, we used to celebrate Christmas in the mountains."
+                },
+                {
+                  "fr": "Il neigeait toujours et il faisait très froid.",
+                  "en": "It always snowed and it was very cold."
+                },
+                {
+                  "fr": "Ma grand-mère faisait des gâteaux.",
+                  "en": "Grandma used to bake cakes."
+                },
+                {
+                  "fr": "Les cadeaux étaient cachés sous le sapin.",
+                  "en": "The presents were hidden under the tree."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "the weather",
+              "en": "The weather in the past is nearly always in the imparfait: *il faisait beau, il pleuvait, il neigeait*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Every year we used to go to the seaside.",
+                "a": [
+                  "Chaque année, nous allions à la mer.",
+                  "Tous les ans, nous allions à la mer.",
+                  "Chaque année, on allait à la mer.",
+                  "Tous les ans, on allait à la mer."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-fetes-4-01",
+          "type": "cloze",
+          "fr": "Il ___ beau et chaud.",
+          "a": [
+            "faisait"
+          ],
+          "hint": "faire"
+        },
+        {
+          "id": "fr-fetes-4-02",
+          "type": "cloze",
+          "fr": "Il y ___ beaucoup de monde à la fête.",
+          "a": [
+            "avait"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-fetes-4-03",
+          "type": "cloze",
+          "fr": "Mon grand-père ___ toujours des histoires.",
+          "a": [
+            "racontait"
+          ],
+          "hint": "to tell (stories)"
+        },
+        {
+          "id": "fr-fetes-4-04",
+          "type": "cloze",
+          "fr": "En hiver, il ___ souvent.",
+          "a": [
+            "neigeait"
+          ],
+          "hint": "neiger"
+        },
+        {
+          "id": "fr-fetes-4-05",
+          "type": "cloze",
+          "fr": "Les enfants ___ dans le jardin.",
+          "a": [
+            "jouaient"
+          ],
+          "hint": "jouer"
+        },
+        {
+          "id": "fr-fetes-4-06",
+          "type": "cloze",
+          "fr": "D'habitude, nous ___ ensemble.",
+          "a": [
+            "dînions"
+          ],
+          "hint": "to have dinner"
+        },
+        {
+          "id": "fr-fetes-4-07",
+          "type": "build",
+          "en": "At Christmas it always snowed.",
+          "a": [
+            "À Noël, il neigeait toujours.",
+            "Il neigeait toujours à Noël."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-08",
+          "type": "build",
+          "en": "Grandma used to bake cakes.",
+          "a": [
+            "Ma grand-mère faisait des gâteaux."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-09",
+          "type": "build",
+          "en": "We usually ate fish.",
+          "a": [
+            "D'habitude, nous mangions du poisson.",
+            "D'habitude, on mangeait du poisson."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-10",
+          "type": "build",
+          "en": "We were ten years old.",
+          "a": [
+            "Nous avions dix ans.",
+            "On avait dix ans."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-11",
+          "type": "transform",
+          "task_en": "Put it in the imparfait",
+          "fr": "Chaque été, on va à la mer.",
+          "a": [
+            "Chaque été, on allait à la mer."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-12",
+          "type": "transform",
+          "task_en": "Put it in the imparfait",
+          "fr": "Il fait froid et il neige.",
+          "a": [
+            "Il faisait froid et il neigeait."
+          ]
+        },
+        {
+          "id": "fr-fetes-4-13",
+          "type": "order",
+          "en": "The presents were under the tree.",
+          "a": [
+            "Les cadeaux étaient sous le sapin"
+          ],
+          "extra": [
+            "été",
+            "sont"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-fetes-5",
+      "title": "Il neigeait quand...",
+      "subtitle": "Imparfait or passé composé?",
+      "topics": [
+        "imparfait",
+        "passe-compose"
+      ],
+      "words": [],
+      "learn": [
+        {
+          "title": "Background and action",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In a story the *imparfait* is the background (what it was like, what was going on) and the *passé composé* the action (what happened once). *Il neigeait quand le Père Noël est arrivé.* (It was snowing when Father Christmas arrived.)"
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "It was snowing. (background)",
+                  "Il neigeait."
+                ],
+                [
+                  "Father Christmas arrived. (action)",
+                  "Le Père Noël est arrivé."
+                ],
+                [
+                  "I was sleeping when the phone rang.",
+                  "Je dormais quand le téléphone a sonné."
+                ],
+                [
+                  "The weather was nice, so we went out.",
+                  "Il faisait beau, alors nous sommes sortis."
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "le Père Noël",
+              "en": "In France presents are brought by *le Père Noël* (Father Christmas)."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je ___ la télé quand tu as téléphoné.",
+                "a": [
+                  "regardais"
+                ],
+                "hint": "regarder"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Memory aid",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Ask yourself: *What was it like? What was going on?* → imparfait. *What happened? What happened next?* → passé composé."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "C'était le 24 décembre.",
+                  "en": "It was the 24th of December."
+                },
+                {
+                  "fr": "Toute la famille était là.",
+                  "en": "The whole family was there."
+                },
+                {
+                  "fr": "Soudain, mon frère a crié.",
+                  "en": "Suddenly my brother shouted."
+                },
+                {
+                  "fr": "Il a vu un chat dans le sapin !",
+                  "en": "He saw a cat in the tree!"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Put the verb in brackets in the imparfait",
+                "fr": "Il (pleuvoir) quand je suis sorti.",
+                "a": [
+                  "Il pleuvait quand je suis sorti."
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-fetes-5-01",
+          "type": "cloze",
+          "fr": "Il ___ quand nous sommes arrivés.",
+          "a": [
+            "pleuvait"
+          ],
+          "hint": "pleuvoir"
+        },
+        {
+          "id": "fr-fetes-5-02",
+          "type": "cloze",
+          "fr": "Je dormais quand mon portable a ___.",
+          "a": [
+            "sonné"
+          ],
+          "hint": "to ring"
+        },
+        {
+          "id": "fr-fetes-5-03",
+          "type": "cloze",
+          "fr": "Nous mangions quand le téléphone ___ sonné.",
+          "a": [
+            "a"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-fetes-5-04",
+          "type": "cloze",
+          "fr": "C'___ une belle fête.",
+          "a": [
+            "était"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-fetes-5-05",
+          "type": "cloze",
+          "fr": "Hier, j'___ un beau cadeau.",
+          "a": [
+            "ai eu"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-fetes-5-06",
+          "type": "cloze",
+          "fr": "Quand j'étais petit, je ___ au Père Noël.",
+          "a": [
+            "croyais"
+          ],
+          "hint": "to believe"
+        },
+        {
+          "id": "fr-fetes-5-07",
+          "type": "build",
+          "en": "The weather was lovely, so we went out.",
+          "a": [
+            "Il faisait beau, alors nous sommes {sortis|sorties}.",
+            "Il faisait beau, alors on est {sortis|sorties}.",
+            "Il faisait beau, donc nous sommes {sortis|sorties}."
+          ]
+        },
+        {
+          "id": "fr-fetes-5-08",
+          "type": "build",
+          "en": "I was sleeping when the phone rang.",
+          "a": [
+            "Je dormais quand le téléphone a sonné."
+          ]
+        },
+        {
+          "id": "fr-fetes-5-09",
+          "type": "build",
+          "en": "The whole family was there.",
+          "a": [
+            "Toute la famille était là."
+          ]
+        },
+        {
+          "id": "fr-fetes-5-10",
+          "type": "build",
+          "en": "When I arrived, everyone was dancing.",
+          "a": [
+            "Quand je suis {arrivé|arrivée}, tout le monde dansait."
+          ]
+        },
+        {
+          "id": "fr-fetes-5-11",
+          "type": "transform",
+          "task_en": "Background in the imparfait, action in the passé composé",
+          "fr": "Il fait nuit. Le Père Noël arrive.",
+          "a": [
+            "Il faisait nuit. Le Père Noël est arrivé."
+          ]
+        },
+        {
+          "id": "fr-fetes-5-12",
+          "type": "order",
+          "en": "It was snowing when we left.",
+          "a": [
+            "Il neigeait quand nous sommes partis"
+          ],
+          "extra": [
+            "a",
+            "neigé"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-fetes-t-01",
+        "lesson": "fr-fetes-1",
+        "type": "build",
+        "en": "Merry Christmas!",
+        "a": [
+          "Joyeux Noël !"
+        ]
+      },
+      {
+        "id": "fr-fetes-t-02",
+        "lesson": "fr-fetes-1",
+        "type": "cloze",
+        "fr": "Pour la Saint-Sylvestre, on ___ la nouvelle année.",
+        "a": [
+          "fête"
+        ],
+        "hint": "fêter"
+      },
+      {
+        "id": "fr-fetes-t-03",
+        "lesson": "fr-fetes-1",
+        "type": "build",
+        "en": "On New Year's Eve there are fireworks.",
+        "a": [
+          "À la Saint-Sylvestre, il y a un feu d'artifice.",
+          "Pour la Saint-Sylvestre, il y a un feu d'artifice."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-04",
+        "lesson": "fr-fetes-1",
+        "type": "cloze",
+        "fr": "J'ai acheté un ___ pour ma mère.",
+        "a": [
+          "cadeau"
+        ],
+        "hint": "present"
+      },
+      {
+        "id": "fr-fetes-t-05",
+        "lesson": "fr-fetes-1",
+        "type": "build",
+        "en": "I wish you lots of luck.",
+        "a": [
+          "Je te souhaite bonne chance.",
+          "Je te souhaite beaucoup de chance."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-06",
+        "lesson": "fr-fetes-2",
+        "type": "cloze",
+        "fr": "Le 14 juillet, il y a un ___ d'artifice.",
+        "a": [
+          "feu"
+        ]
+      },
+      {
+        "id": "fr-fetes-t-07",
+        "lesson": "fr-fetes-2",
+        "type": "build",
+        "en": "At Candlemas people make pancakes.",
+        "a": [
+          "À la Chandeleur, on fait des crêpes."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-08",
+        "lesson": "fr-fetes-2",
+        "type": "build",
+        "en": "I like French traditions.",
+        "a": [
+          "J'aime les traditions françaises."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-09",
+        "lesson": "fr-fetes-2",
+        "type": "cloze",
+        "fr": "Le 21 juin, c'est la Fête de la ___.",
+        "a": [
+          "musique"
+        ],
+        "hint": "music"
+      },
+      {
+        "id": "fr-fetes-t-10",
+        "lesson": "fr-fetes-2",
+        "type": "build",
+        "en": "People dance on the national holiday.",
+        "a": [
+          "Pour la fête nationale, on danse.",
+          "À la fête nationale, on danse.",
+          "Le jour de la fête nationale, on danse."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-11",
+        "lesson": "fr-fetes-3",
+        "type": "form",
+        "verb": "être",
+        "tense": "imparfait",
+        "person": 1
+      },
+      {
+        "id": "fr-fetes-t-12",
+        "lesson": "fr-fetes-3",
+        "type": "form",
+        "verb": "avoir",
+        "tense": "imparfait",
+        "person": 3
+      },
+      {
+        "id": "fr-fetes-t-13",
+        "lesson": "fr-fetes-3",
+        "type": "cloze",
+        "fr": "Quand il était petit, il ___ un chat.",
+        "a": [
+          "avait"
+        ],
+        "hint": "avoir"
+      },
+      {
+        "id": "fr-fetes-t-14",
+        "lesson": "fr-fetes-3",
+        "type": "build",
+        "en": "When I was little, I had a cat. (girl)",
+        "a": [
+          "Quand j'étais petite, j'avais un chat.",
+          "Quand j'étais petite, j'avais une chatte."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-15",
+        "lesson": "fr-fetes-3",
+        "type": "transform",
+        "task_en": "Put it in the imparfait",
+        "fr": "Ils habitent à Lyon.",
+        "a": [
+          "Ils habitaient à Lyon."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-16",
+        "lesson": "fr-fetes-4",
+        "type": "cloze",
+        "fr": "Chaque année, on ___ des crêpes.",
+        "a": [
+          "faisait"
+        ],
+        "hint": "faire"
+      },
+      {
+        "id": "fr-fetes-t-17",
+        "lesson": "fr-fetes-4",
+        "type": "build",
+        "en": "Every Christmas we used to go to Grandma's.",
+        "a": [
+          "Chaque Noël, nous allions chez ma grand-mère.",
+          "Chaque Noël, on allait chez ma grand-mère."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-18",
+        "lesson": "fr-fetes-4",
+        "type": "build",
+        "en": "It was cold.",
+        "a": [
+          "Il faisait froid.",
+          "Il faisait frais."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-19",
+        "lesson": "fr-fetes-4",
+        "type": "cloze",
+        "fr": "D'habitude, nous ___ à huit heures.",
+        "a": [
+          "mangions"
+        ],
+        "hint": "manger"
+      },
+      {
+        "id": "fr-fetes-t-20",
+        "lesson": "fr-fetes-4",
+        "type": "transform",
+        "task_en": "Put it in the imparfait",
+        "fr": "Le dimanche, je joue au foot.",
+        "a": [
+          "Le dimanche, je jouais au foot."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-21",
+        "lesson": "fr-fetes-5",
+        "type": "cloze",
+        "fr": "Je ___ quand tu m'as appelé.",
+        "a": [
+          "dormais"
+        ],
+        "hint": "dormir"
+      },
+      {
+        "id": "fr-fetes-t-22",
+        "lesson": "fr-fetes-5",
+        "type": "build",
+        "en": "It was raining when I went out.",
+        "a": [
+          "Il pleuvait quand je suis {sorti|sortie}."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-23",
+        "lesson": "fr-fetes-5",
+        "type": "build",
+        "en": "It was a beautiful day.",
+        "a": [
+          "C'était une belle journée.",
+          "C'était un beau jour."
+        ]
+      },
+      {
+        "id": "fr-fetes-t-24",
+        "lesson": "fr-fetes-5",
+        "type": "cloze",
+        "fr": "Nous regardions un film quand mon père ___ arrivé.",
+        "a": [
+          "est"
+        ],
+        "hint": "être"
+      },
+      {
+        "id": "fr-fetes-t-25",
+        "lesson": "fr-fetes-5",
+        "type": "transform",
+        "task_en": "Background in the imparfait, action in the passé composé",
+        "fr": "Il fait beau. Nous partons.",
+        "a": [
+          "Il faisait beau. Nous sommes {partis|parties}."
+        ]
+      }
+    ]
+  }
+}

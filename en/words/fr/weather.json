@@ -1,0 +1,133 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Weather",
+  "unit": "5.2",
+  "level": null,
+  "words": [
+    {
+      "q": "weather",
+      "a": [
+        "météo",
+        "temps"
+      ]
+    },
+    {
+      "q": "temperature",
+      "a": "température"
+    },
+    {
+      "q": "rain",
+      "a": "pluie"
+    },
+    {
+      "q": "dry",
+      "a": "sec"
+    },
+    {
+      "q": "warm, hot",
+      "a": "chaud"
+    },
+    {
+      "q": "cold",
+      "a": "froid"
+    },
+    {
+      "q": "bad, nasty (weather)",
+      "a": "mauvais"
+    },
+    {
+      "q": "snow",
+      "a": "neige"
+    },
+    {
+      "q": "sun",
+      "a": "soleil"
+    },
+    {
+      "q": "wind",
+      "a": "vent"
+    },
+    {
+      "q": "black ice",
+      "a": "verglas"
+    },
+    {
+      "q": "cloud",
+      "a": "nuage"
+    },
+    {
+      "q": "sunny spell",
+      "a": "éclaircie"
+    },
+    {
+      "q": "overcast",
+      "a": "couvert"
+    },
+    {
+      "q": "cloudy",
+      "a": "couvert"
+    },
+    {
+      "q": "fog",
+      "a": "brouillard"
+    },
+    {
+      "q": "thunderstorm",
+      "a": "orage"
+    },
+    {
+      "q": "spring",
+      "a": "printemps"
+    },
+    {
+      "q": "summer",
+      "a": "été"
+    },
+    {
+      "q": "autumn",
+      "a": "automne"
+    },
+    {
+      "q": "winter",
+      "a": "hiver"
+    },
+    {
+      "q": "the weather is nice",
+      "a": "il fait beau"
+    },
+    {
+      "q": "the weather is bad",
+      "a": "il fait mauvais"
+    },
+    {
+      "q": "it's cool, it's chilly",
+      "a": "il fait frais"
+    },
+    {
+      "q": "it's raining",
+      "a": "il pleut"
+    },
+    {
+      "q": "it's snowing",
+      "a": "il neige"
+    },
+    {
+      "q": "it's windy",
+      "a": "il y a du vent"
+    },
+    {
+      "q": "it's sunny",
+      "a": "il y a du soleil"
+    },
+    {
+      "q": "degree",
+      "a": "degré"
+    },
+    {
+      "q": "mild",
+      "a": "doux"
+    }
+  ]
+}

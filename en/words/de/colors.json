@@ -1,0 +1,42 @@
+{
+  "lang": "de",
+  "from": "en",
+  "type": "adjectives",
+  "title": "Colors",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {
+      "q": "red",
+      "a": "rot"
+    },
+    {
+      "q": "blue",
+      "a": "blau"
+    },
+    {
+      "q": "green",
+      "a": "grün"
+    },
+    {
+      "q": "yellow",
+      "a": "gelb"
+    },
+    {
+      "q": "black",
+      "a": "schwarz"
+    },
+    {
+      "q": "white",
+      "a": "weiß"
+    },
+    {
+      "q": "grey",
+      "a": "grau"
+    },
+    {
+      "q": "brown",
+      "a": "braun"
+    }
+  ]
+}

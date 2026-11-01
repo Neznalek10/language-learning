@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": "question-types",
-      "title": "Three ways to ask a question",
+      "title": "Tři způsoby, jak se zeptat",
       "fr": "poser une question",
       "level": "A1",
       "keywords": [
@@ -25,14 +25,14 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "way",
-                "example",
-                "where"
+                "způsob",
+                "příklad",
+                "kde"
               ],
               "textCols": [
                 0,
@@ -40,25 +40,25 @@
               ],
               "rows": [
                 [
-                  "intonation (voice goes up)",
+                  "intonace (hlas jde nahoru)",
                   "Tu viens ?",
-                  "in speech, the most common"
+                  "v mluvené řeči, nejčastější"
                 ],
                 [
-                  "est-ce que + statement",
+                  "est-ce que + oznamovací věta",
                   "Est-ce que tu viens ?",
-                  "neutral, fits everywhere"
+                  "neutrální, hodí se všude"
                 ],
                 [
-                  "inversion (verb-pronoun)",
+                  "inverze (sloveso-zájmeno)",
                   "Viens-tu ?",
-                  "careful, formal"
+                  "pečlivý, formální"
                 ]
               ]
             },
             {
               "type": "text",
-              "en": "All three mean \"Are you coming?\". The word order of a statement changes only with inversion."
+              "cs": "Všechny tři znamenají \"Přijdeš?\". Slovosled oznamovací věty se mění jen při inverzi."
             }
           ]
         },
@@ -67,7 +67,7 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Est-ce que* (literally \"is it that\") goes before any statement and turns it into a question. The word order stays. Before a vowel: *est-ce qu'il, est-ce qu'elle*."
+              "cs": "*Est-ce que* (doslova \"je to, že\") se dá před jakoukoli oznamovací větu a udělá z ní otázku. Slovosled zůstává. Před samohláskou: *est-ce qu'il, est-ce qu'elle*."
             },
             {
               "type": "pattern",
@@ -91,7 +91,7 @@
                       "le sport ?"
                     ]
                   ],
-                  "en": "Do you like sport?"
+                  "cs": "Máš rád sport?"
                 },
                 {
                   "parts": [
@@ -108,18 +108,18 @@
                       "pleut ?"
                     ]
                   ],
-                  "en": "Is it raining?"
+                  "cs": "Prší?"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Inversion",
+          "title": "Inverze",
           "blocks": [
             {
               "type": "text",
-              "en": "The verb and the pronoun swap places and are joined with a hyphen."
+              "cs": "Sloveso a zájmeno si prohodí místa a spojí se spojovníkem."
             },
             {
               "type": "pattern",
@@ -139,7 +139,7 @@
                       "le sport ?"
                     ]
                   ],
-                  "en": "Do you like sport?"
+                  "cs": "Máš rád sport?"
                 }
               ]
             },
@@ -152,52 +152,52 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Do you have a sister?",
+                  "cs": "Máš sestru?",
                   "wrong": "As tu une sœur ?",
                   "fr": "[[As-tu]] une sœur ?",
-                  "note": "With inversion, don't forget the hyphen."
+                  "note": "U inverze nezapomeň na spojovník."
                 },
                 {
-                  "en": "Does he speak French?",
+                  "cs": "Mluví francouzsky?",
                   "wrong": "Est-ce que parle-t-il français ?",
                   "fr": "[[Est-ce qu']]il parle français ?",
-                  "note": "*Est-ce que* and inversion are not combined."
+                  "note": "*Est-ce que* a inverze se nekombinují."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu as faim ?",
-                  "en": "Are you hungry?"
+                  "cs": "Máš hlad?"
                 },
                 {
                   "fr": "Est-ce que vous parlez anglais ?",
-                  "en": "Do you speak English?"
+                  "cs": "Mluvíš anglicky?"
                 },
                 {
                   "fr": "Parlez-vous anglais ?",
-                  "en": "Do you speak English?"
+                  "cs": "Mluvíš anglicky?"
                 },
                 {
                   "fr": "Est-ce qu'il y a un bus ?",
-                  "en": "Is there a bus?"
+                  "cs": "Jezdí tu autobus?"
                 },
                 {
                   "fr": "C'est loin ?",
-                  "en": "Is it far?"
+                  "cs": "Je to daleko?"
                 }
               ]
             }
@@ -208,7 +208,7 @@
         {
           "id": "g-question-types-01",
           "type": "transform",
-          "task_en": "Make it a question with est-ce que",
+          "task_cs": "Utvoř otázku pomocí est-ce que",
           "fr": "Tu aimes le chocolat.",
           "a": [
             "Est-ce que tu aimes le chocolat ?"
@@ -217,7 +217,7 @@
         {
           "id": "g-question-types-02",
           "type": "transform",
-          "task_en": "Make it a question with est-ce que",
+          "task_cs": "Utvoř otázku pomocí est-ce que",
           "fr": "Il habite à Paris.",
           "a": [
             "Est-ce qu'il habite à Paris ?"
@@ -226,7 +226,7 @@
         {
           "id": "g-question-types-03",
           "type": "transform",
-          "task_en": "Make it a question with inversion",
+          "task_cs": "Utvoř otázku inverzí",
           "fr": "Vous parlez français.",
           "a": [
             "Parlez-vous français ?"
@@ -235,7 +235,7 @@
         {
           "id": "g-question-types-04",
           "type": "build",
-          "en": "Are you hungry?",
+          "cs": "Máš hlad?",
           "a": [
             "Tu as faim ?",
             "Est-ce que tu as faim ?",
@@ -247,18 +247,18 @@
         {
           "set": "questions",
           "tag": "est-ce-que",
-          "label": "Drill est-ce que"
+          "label": "Dril est-ce que"
         },
         {
           "set": "questions",
           "tag": "inversion",
-          "label": "Drill inversion"
+          "label": "Dril inverze"
         }
       ]
     },
     {
       "id": "questions-every-form",
-      "title": "How to ask a question: every form",
+      "title": "Jak se zeptat: všechny tvary",
       "fr": "former les questions",
       "level": "A1",
       "levelTo": "B1",
@@ -293,38 +293,38 @@
         {
           "set": "questions",
           "tag": "est-ce-que",
-          "label": "Drill est-ce que"
+          "label": "Dril est-ce que"
         },
         {
           "set": "questions",
           "tag": "inversion",
-          "label": "Drill inversion"
+          "label": "Dril inverze"
         },
         {
           "set": "questions",
           "tag": "ou",
-          "label": "Drill question words"
+          "label": "Dril tázací slova"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "There are **two big families** of questions. **Yes / no questions** (*Do you like it?*) and **questions with a question word** (*Where do you live?*). Each can be formed in **three ways**: **intonation** (voice up), **est-ce que** (add before the statement), **inversion** (swap verb and subject)."
+              "cs": "Otázky mají **dvě velké skupiny**. **Otázky ano / ne** (*Líbí se ti to?*) a **otázky s tázacím slovem** (*Kde bydlíš?*). Každou jde utvořit **třemi způsoby**: **intonací** (hlas nahoru), **est-ce que** (přidá se před oznamovací větu), **inverzí** (prohodí se sloveso a podmět)."
             },
             {
               "type": "table",
               "head": [
                 "",
-                "intonation (spoken)",
-                "est-ce que (neutral)",
-                "inversion (formal)"
+                "intonace (mluveně)",
+                "est-ce que (neutrálně)",
+                "inverze (formálně)"
               ],
               "rows": [
                 [
-                  "yes / no",
+                  "ano / ne",
                   "Tu aimes ça ?",
                   "Est-ce que tu aimes ça ?",
                   "Aimes-tu ça ?"
@@ -336,13 +336,13 @@
                   "Où habites-tu ?"
                 ],
                 [
-                  "when",
+                  "kdy",
                   "Il arrive quand ?",
                   "Quand est-ce qu'il arrive ?",
                   "Quand arrive-t-il ?"
                 ],
                 [
-                  "what (object)",
+                  "co (předmět)",
                   "Tu manges quoi ?",
                   "Qu'est-ce que tu manges ?",
                   "Que manges-tu ?"
@@ -352,11 +352,11 @@
           ]
         },
         {
-          "title": "Yes / no questions",
+          "title": "Otázky ano / ne",
           "blocks": [
             {
               "type": "text",
-              "en": "**1. Intonation**: keep the statement and raise your voice (writing: add *?*). **2. Est-ce que**: put *Est-ce que* (*est-ce qu'* before a vowel) in front. **3. Inversion**: put the subject **pronoun after the verb**, joined with a hyphen. For *il, elle, on* after a vowel add **-t-**: *a-t-il, parle-t-elle*."
+              "cs": "**1. Intonace**: nech oznamovací větu a zvedni hlas (v psaní: přidej *?*). **2. Est-ce que**: dej na začátek *Est-ce que* (před samohláskou *est-ce qu'*). **3. Inverze**: dej podmětové **zájmeno za sloveso** a spoj je spojovníkem. U *il, elle, on* po samohlásce přidej **-t-**: *a-t-il, parle-t-elle*."
             },
             {
               "type": "pattern",
@@ -376,7 +376,7 @@
                       "français ?"
                     ]
                   ],
-                  "en": "intonation"
+                  "cs": "intonace"
                 },
                 {
                   "parts": [
@@ -397,7 +397,7 @@
                       "français ?"
                     ]
                   ],
-                  "en": "est-ce que"
+                  "cs": "est-ce que"
                 },
                 {
                   "parts": [
@@ -414,7 +414,7 @@
                       "français ?"
                     ]
                   ],
-                  "en": "inversion"
+                  "cs": "inverze"
                 },
                 {
                   "parts": [
@@ -431,75 +431,75 @@
                       "français ?"
                     ]
                   ],
-                  "en": "inversion with -t-"
+                  "cs": "inverze s -t-"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Questions with a question word",
+          "title": "Otázky s tázacím slovem",
           "blocks": [
             {
               "type": "text",
-              "en": "Put the **question word first** (informal: **last**). The word order after it is the same three ways. For a **noun subject** use *est-ce que* (*Où est-ce que Paul habite ?*) or **inversion with a pronoun** (*Où Paul habite-t-il ?*) or **simple inversion** with short verbs (*Où habite Paul ?*)."
+              "cs": "Dej **tázací slovo na začátek** (hovorově: **na konec**). Slovosled za ním má zase tři možnosti. U **podmětu vyjádřeného podstatným jménem** použij *est-ce que* (*Où est-ce que Paul habite ?*), **inverzi se zájmenem** (*Où Paul habite-t-il ?*) nebo u krátkých sloves **jednoduchou inverzi** (*Où habite Paul ?*)."
             },
             {
               "type": "table",
               "head": [
-                "question word",
-                "meaning",
-                "example"
+                "tázací slovo",
+                "význam",
+                "příklad"
               ],
               "rows": [
                 [
                   "qui",
-                  "who",
+                  "kdo",
                   "Qui est-ce ? / Avec qui parles-tu ?"
                 ],
                 [
                   "que, qu'est-ce que",
-                  "what",
+                  "co",
                   "Que fais-tu ? / Qu'est-ce que tu fais ?"
                 ],
                 [
                   "quoi",
-                  "what (after a preposition or last)",
+                  "co (po předložce nebo na konci)",
                   "De quoi parles-tu ? / Tu fais quoi ?"
                 ],
                 [
                   "où",
-                  "where",
+                  "kde",
                   "Où vas-tu ?"
                 ],
                 [
                   "quand",
-                  "when",
+                  "kdy",
                   "Quand pars-tu ?"
                 ],
                 [
                   "comment",
-                  "how",
+                  "jak",
                   "Comment vas-tu ?"
                 ],
                 [
                   "pourquoi",
-                  "why",
+                  "proč",
                   "Pourquoi pleures-tu ?"
                 ],
                 [
                   "combien (de)",
-                  "how much / many",
+                  "kolik",
                   "Combien de frères as-tu ?"
                 ],
                 [
-                  "quel(le)(s) + noun",
-                  "which, what",
+                  "quel(le)(s) + podstatné jméno",
+                  "který, jaký",
                   "Quelle heure est-il ?"
                 ],
                 [
                   "lequel...",
-                  "which one",
+                  "který z nich",
                   "Lequel préfères-tu ?"
                 ]
               ],
@@ -510,28 +510,28 @@
           ]
         },
         {
-          "title": "Qui, que, quoi: the long forms",
+          "title": "Qui, que, quoi: dlouhé tvary",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "person",
-                "thing"
+                "osoba",
+                "věc"
               ],
               "rows": [
                 [
-                  "subject",
+                  "podmět",
                   "Qui est-ce qui (Qui) vient ?",
                   "Qu'est-ce qui se passe ?"
                 ],
                 [
-                  "object",
+                  "předmět",
                   "Qui est-ce que tu cherches ? (Qui cherches-tu ?)",
                   "Qu'est-ce que tu cherches ? (Que cherches-tu ?)"
                 ],
                 [
-                  "after a preposition",
+                  "po předložce",
                   "À qui parles-tu ?",
                   "De quoi parles-tu ?"
                 ]
@@ -539,89 +539,89 @@
             },
             {
               "type": "tip",
-              "en": "*Qu'est-ce que* is the question *what* + object, *qu'est-ce qui* is *what* + subject. After a **preposition** only *qui* (person) or *quoi* (thing) work: *avec qui, à quoi*."
+              "cs": "*Qu'est-ce que* je otázka *co* + předmět, *qu'est-ce qui* je *co* + podmět. Po **předložce** fungují jen *qui* (osoba) nebo *quoi* (věc): *avec qui, à quoi*."
             }
           ]
         },
         {
-          "title": "In every tense",
+          "title": "Ve všech časech",
           "blocks": [
             {
               "type": "text",
-              "en": "**Compound tenses**: only the **auxiliary** is inverted (*As-tu mangé ? Est-elle partie ?*). With **two verbs** invert the first (*Peux-tu venir ?*). With **reflexive verbs** the pronoun stays in front (*Te lèves-tu ?*, *T'es-tu levé ?*). **Pronouns** stay in front of the verb (*Le vois-tu ? L'as-tu vu ?*). **Negative** questions put *ne ... pas* around the inverted block (*N'as-tu pas faim ?*)."
+              "cs": "**Složené časy**: převrací se jen **pomocné sloveso** (*As-tu mangé ? Est-elle partie ?*). U **dvou sloves** převrať to první (*Peux-tu venir ?*). U **zvratných sloves** zůstává zájmeno vpředu (*Te lèves-tu ?*, *T'es-tu levé ?*). **Zájmena** zůstávají před slovesem (*Le vois-tu ? L'as-tu vu ?*). **Záporné** otázky dávají *ne ... pas* kolem převráceného bloku (*N'as-tu pas faim ?*)."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "As-tu fini tes devoirs ?",
-                  "en": "Have you finished your homework?"
+                  "cs": "Udělal jsi úkoly?"
                 },
                 {
                   "fr": "Où est-elle allée ?",
-                  "en": "Where did she go?"
+                  "cs": "Kam šla?"
                 },
                 {
                   "fr": "Le professeur a-t-il corrigé les tests ?",
-                  "en": "Did the teacher mark the tests?"
+                  "cs": "Opravil učitel testy?"
                 },
                 {
                   "fr": "Ne veux-tu pas venir ?",
-                  "en": "Don't you want to come?"
+                  "cs": "Nechceš přijít?"
                 },
                 {
                   "fr": "Pourquoi t'es-tu levé si tôt ?",
-                  "en": "Why did you get up so early?"
+                  "cs": "Proč jsi vstal tak brzy?"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Tag questions and answering",
+          "title": "Otázky na ujištění a odpovědi",
           "blocks": [
             {
               "type": "text",
-              "en": "**N'est-ce pas ?** at the end asks for agreement (*Il fait beau, n'est-ce pas ?*). In speech also **non ?**, **hein ?**, **d'accord ?** Answer with **oui / non**; to contradict a **negative question** use **si**."
+              "cs": "**N'est-ce pas ?** na konci žádá souhlas (*Il fait beau, n'est-ce pas ?*). V mluvené řeči i **non ?**, **hein ?**, **d'accord ?** Odpovídá se **oui / non**; když odporuješ **záporné otázce**, použij **si**."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il fait beau, n'est-ce pas ?",
-                  "en": "It's nice, isn't it?"
+                  "cs": "Je hezky, že?"
                 },
                 {
                   "fr": "Tu viens, d'accord ?",
-                  "en": "You're coming, OK?"
+                  "cs": "Přijdeš, jo?"
                 },
                 {
                   "fr": "Tu ne viens pas ? – Si !",
-                  "en": "You're not coming? – Yes, I am!"
+                  "cs": "Ty nepřijdeš? – Ale přijdu!"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Typical mistakes",
+          "title": "Typické chyby",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Do you speak French?",
+                  "cs": "Mluvíš francouzsky?",
                   "wrong": "Vous parlez-vous français ?",
                   "fr": "[[Parlez-vous]] français ? / [[Est-ce que]] vous parlez français ?",
-                  "note": "Do not combine both."
+                  "note": "Nekombinuj obojí."
                 },
                 {
-                  "en": "Where do you live?",
+                  "cs": "Kde bydlíš?",
                   "wrong": "Où est-ce que habites-tu ?",
                   "fr": "Où [[habites-tu]] ? / Où [[est-ce que tu habites]] ?"
                 },
                 {
-                  "en": "What are you eating?",
+                  "cs": "Co jíš?",
                   "wrong": "Qu'est-ce que manges-tu ?",
                   "fr": "[[Qu'est-ce que]] tu manges ? / [[Que]] manges-tu ?"
                 }
@@ -647,7 +647,7 @@
         {
           "id": "g-questions-every-form-01",
           "type": "transform",
-          "task_en": "Ask with est-ce que",
+          "task_cs": "Zeptej se pomocí est-ce que",
           "fr": "Tu aimes le chocolat.",
           "a": [
             "Est-ce que tu aimes le chocolat ?"
@@ -656,7 +656,7 @@
         {
           "id": "g-questions-every-form-02",
           "type": "transform",
-          "task_en": "Ask with inversion",
+          "task_cs": "Zeptej se inverzí",
           "fr": "Vous parlez français.",
           "a": [
             "Parlez-vous français ?"
@@ -665,7 +665,7 @@
         {
           "id": "g-questions-every-form-03",
           "type": "transform",
-          "task_en": "Ask with inversion",
+          "task_cs": "Zeptej se inverzí",
           "fr": "Il habite à Paris.",
           "a": [
             "Habite-t-il à Paris ?"
@@ -674,7 +674,7 @@
         {
           "id": "g-questions-every-form-04",
           "type": "transform",
-          "task_en": "Ask with inversion (passé composé)",
+          "task_cs": "Zeptej se inverzí (passé composé)",
           "fr": "Tu as mangé.",
           "a": [
             "As-tu mangé ?"
@@ -683,7 +683,7 @@
         {
           "id": "g-questions-every-form-05",
           "type": "transform",
-          "task_en": "Ask about the place (est-ce que)",
+          "task_cs": "Zeptej se na místo (est-ce que)",
           "fr": "Il habite à Lyon.",
           "a": [
             "Où est-ce qu'il habite ?"
@@ -692,7 +692,7 @@
         {
           "id": "g-questions-every-form-06",
           "type": "transform",
-          "task_en": "Ask about the time (inversion)",
+          "task_cs": "Zeptej se na čas (inverze)",
           "fr": "Il arrive demain.",
           "a": [
             "Quand arrive-t-il ?"
@@ -701,7 +701,7 @@
         {
           "id": "g-questions-every-form-07",
           "type": "transform",
-          "task_en": "Ask about the thing (est-ce que)",
+          "task_cs": "Zeptej se na věc (est-ce que)",
           "fr": "Tu manges une pomme.",
           "a": [
             "Qu'est-ce que tu manges ?"
@@ -710,7 +710,7 @@
         {
           "id": "g-questions-every-form-08",
           "type": "transform",
-          "task_en": "Ask about the person (inversion)",
+          "task_cs": "Zeptej se na osobu (inverze)",
           "fr": "Tu cherches Paul.",
           "a": [
             "Qui cherches-tu ?"
@@ -719,7 +719,7 @@
         {
           "id": "g-questions-every-form-09",
           "type": "transform",
-          "task_en": "Ask a negative question (inversion)",
+          "task_cs": "Polož zápornou otázku (inverze)",
           "fr": "Tu ne viens pas.",
           "a": [
             "Ne viens-tu pas ?"
@@ -728,7 +728,7 @@
         {
           "id": "g-questions-every-form-10",
           "type": "build",
-          "en": "Where do you live?",
+          "cs": "Kde bydlíš?",
           "a": [
             "Où habites-tu ?",
             "Où est-ce que tu habites ?",
@@ -739,7 +739,7 @@
         {
           "id": "g-questions-every-form-11",
           "type": "build",
-          "en": "How are you? (vous)",
+          "cs": "Jak se máte? (vous)",
           "a": [
             "Comment allez-vous ?",
             "Comment est-ce que vous allez ?",
@@ -749,7 +749,7 @@
         {
           "id": "g-questions-every-form-12",
           "type": "build",
-          "en": "Why are you crying? (tu)",
+          "cs": "Proč pláčeš? (tu)",
           "a": [
             "Pourquoi pleures-tu ?",
             "Pourquoi est-ce que tu pleures ?",
@@ -759,7 +759,7 @@
         {
           "id": "g-questions-every-form-13",
           "type": "build",
-          "en": "What are you doing?",
+          "cs": "Co děláš?",
           "a": [
             "Qu'est-ce que tu fais ?",
             "Que fais-tu ?",
@@ -769,7 +769,7 @@
         {
           "id": "g-questions-every-form-14",
           "type": "build",
-          "en": "Have you finished?",
+          "cs": "Hotovo? (máš to?)",
           "a": [
             "As-tu fini ?",
             "Est-ce que tu as fini ?",
@@ -783,7 +783,7 @@
           "a": [
             "As"
           ],
-          "en": "Are you hungry?"
+          "cs": "Máš hlad?"
         },
         {
           "id": "g-questions-every-form-16",
@@ -793,13 +793,13 @@
             "habite"
           ],
           "hint": "habiter",
-          "en": "Where does he live?"
+          "cs": "Kde bydlí?"
         }
       ]
     },
     {
       "id": "answering",
-      "title": "Answering: oui, non, si, moi aussi, pas du tout",
+      "title": "Odpovědi: oui, non, si, moi aussi, pas du tout",
       "fr": "répondre",
       "level": "A1",
       "keywords": [
@@ -829,49 +829,49 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A short answer needs only **oui** (yes), **non** (no) or **si** (yes, to a **negative** question). You can add a short phrase to be polite or precise. Use **moi aussi / moi non plus** to agree, **pas moi / moi si** to disagree."
+              "cs": "Krátké odpovědi stačí **oui** (ano), **non** (ne) nebo **si** (ano na **zápornou** otázku). Můžeš přidat krátkou frázi, abys byl(a) zdvořilý(á) nebo přesný(á). **Moi aussi / moi non plus** použij, když souhlasíš, **pas moi / moi si**, když nesouhlasíš."
             },
             {
               "type": "table",
               "head": [
-                "question",
-                "answer",
-                "meaning"
+                "otázka",
+                "odpověď",
+                "význam"
               ],
               "rows": [
                 [
                   "Tu aimes le sport ?",
                   "Oui, j'adore ça.",
-                  "Yes, I love it."
+                  "Ano, moc."
                 ],
                 [
                   "Tu aimes le sport ?",
                   "Non, pas du tout.",
-                  "No, not at all."
+                  "Ne, vůbec."
                 ],
                 [
                   "Tu n'aimes pas le sport ?",
                   "Si, j'aime ça.",
-                  "Yes, I do like it."
+                  "Ale ano, mám to rád."
                 ],
                 [
                   "Tu n'aimes pas le sport ?",
                   "Non, je n'aime pas ça.",
-                  "No, I don't."
+                  "Ne, nemám."
                 ],
                 [
                   "Je suis fatigué.",
                   "Moi aussi.",
-                  "Me too."
+                  "Já taky."
                 ],
                 [
                   "Je n'ai pas faim.",
                   "Moi non plus.",
-                  "Me neither."
+                  "Já taky ne."
                 ]
               ],
               "textCols": [
@@ -881,22 +881,22 @@
           ]
         },
         {
-          "title": "Oui or si?",
+          "title": "Oui, nebo si?",
           "blocks": [
             {
               "type": "text",
-              "en": "**Si** is the **yes that contradicts a negative**. **Oui** answers a positive question. If you agree with a negative question you say **non**."
+              "cs": "**Si** je **ano, které odporuje záporu**. **Oui** odpovídá na kladnou otázku. Když se zápornou otázkou souhlasíš, řekneš **non**."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Aren't you hungry? Yes, I am.",
+                  "cs": "Nemáš hlad? Ale mám.",
                   "wrong": "Tu n'as pas faim ? – Oui, j'ai faim.",
                   "fr": "Tu n'as pas faim ? – [[Si]], j'ai faim."
                 },
                 {
-                  "en": "Aren't you coming? No, I'm not.",
+                  "cs": "Nepřijdeš? Ne, nepřijdu.",
                   "wrong": "Tu ne viens pas ? – Si, je ne viens pas.",
                   "fr": "Tu ne viens pas ? – [[Non]], je ne viens pas."
                 }
@@ -905,54 +905,54 @@
           ]
         },
         {
-          "title": "Useful short answers",
+          "title": "Užitečné krátké odpovědi",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "phrase",
-                "meaning"
+                "fráze",
+                "význam"
               ],
               "rows": [
                 [
                   "bien sûr / évidemment",
-                  "of course"
+                  "samozřejmě"
                 ],
                 [
                   "d'accord",
-                  "OK, agreed"
+                  "dobře, platí"
                 ],
                 [
                   "peut-être",
-                  "perhaps"
+                  "možná"
                 ],
                 [
                   "ça dépend",
-                  "it depends"
+                  "záleží na tom"
                 ],
                 [
                   "pas du tout",
-                  "not at all"
+                  "vůbec ne"
                 ],
                 [
                   "pas encore",
-                  "not yet"
+                  "ještě ne"
                 ],
                 [
                   "je ne sais pas / aucune idée",
-                  "I don't know / no idea"
+                  "nevím / nemám tušení"
                 ],
                 [
                   "tout à fait",
-                  "absolutely"
+                  "rozhodně"
                 ],
                 [
                   "pas vraiment",
-                  "not really"
+                  "spíš ne"
                 ],
                 [
                   "moi non",
-                  "not me"
+                  "já ne"
                 ]
               ],
               "textCols": [
@@ -962,52 +962,52 @@
           ]
         },
         {
-          "title": "Full answers",
+          "title": "Celé odpovědi",
           "blocks": [
             {
               "type": "text",
-              "en": "To answer a question fully, **repeat the verb** instead of the pronoun: *Tu viens ? – Oui, je viens.* Do not say *Oui, je fais* instead of the verb in the question. Short answers like *Je le crois* or *Je l'espère* replace a clause (see the neutral *le*)."
+              "cs": "Když odpovídáš celou větou, **zopakuj sloveso** místo zájmena: *Tu viens ? – Oui, je viens.* Neříkej *Oui, je fais* místo slovesa z otázky. Krátké odpovědi jako *Je le crois* nebo *Je l'espère* nahrazují celou větu (viz neutrální *le*)."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu parles français ? – Oui, je le parle un peu.",
-                  "en": "Do you speak French? – Yes, a little."
+                  "cs": "Mluvíš francouzsky? – Ano, trochu."
                 },
                 {
                   "fr": "Il vient demain ? – Je pense que oui.",
-                  "en": "Is he coming tomorrow? – I think so."
+                  "cs": "Přijde zítra? – Myslím, že ano."
                 },
                 {
                   "fr": "Tu as des frères ? – Non, je n'en ai pas.",
-                  "en": "Do you have brothers? – No, I don't."
+                  "cs": "Máš bratry? – Ne, nemám."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu viens ? – Bien sûr !",
-                  "en": "Are you coming? – Of course!"
+                  "cs": "Přijdeš? – Samozřejmě!"
                 },
                 {
                   "fr": "Tu aimes les araignées ? – Pas du tout.",
-                  "en": "Do you like spiders? – Not at all."
+                  "cs": "Máš rád pavouky? – Vůbec ne."
                 },
                 {
                   "fr": "Tu n'es pas content ? – Si, très.",
-                  "en": "Aren't you happy? – Yes, very."
+                  "cs": "Ty nejsi šťastný? – Ale jsem, moc."
                 },
                 {
                   "fr": "J'ai faim. – Moi aussi.",
-                  "en": "I'm hungry. – Me too."
+                  "cs": "Mám hlad. – Já taky."
                 }
               ]
             }
@@ -1018,7 +1018,7 @@
         {
           "id": "g-answering-01",
           "type": "build",
-          "en": "Of course!",
+          "cs": "Samozřejmě!",
           "a": [
             "Bien sûr !",
             "Évidemment !"
@@ -1027,7 +1027,7 @@
         {
           "id": "g-answering-02",
           "type": "build",
-          "en": "Not at all.",
+          "cs": "Vůbec ne.",
           "a": [
             "Pas du tout."
           ]
@@ -1035,7 +1035,7 @@
         {
           "id": "g-answering-03",
           "type": "build",
-          "en": "Me too.",
+          "cs": "Já taky.",
           "a": [
             "Moi aussi."
           ]
@@ -1043,7 +1043,7 @@
         {
           "id": "g-answering-04",
           "type": "build",
-          "en": "Me neither.",
+          "cs": "Já taky ne.",
           "a": [
             "Moi non plus."
           ]
@@ -1051,7 +1051,7 @@
         {
           "id": "g-answering-05",
           "type": "build",
-          "en": "It depends.",
+          "cs": "Záleží na tom.",
           "a": [
             "Ça dépend."
           ]
@@ -1063,7 +1063,7 @@
           "a": [
             "Si"
           ],
-          "en": "Aren't you hungry? – Yes, I am."
+          "cs": "Nemáš hlad? – Ale mám."
         },
         {
           "id": "g-answering-07",
@@ -1072,7 +1072,7 @@
           "a": [
             "Oui"
           ],
-          "en": "Are you coming? – Yes, of course."
+          "cs": "Přijdeš? – Ano, samozřejmě."
         },
         {
           "id": "g-answering-08",
@@ -1081,7 +1081,7 @@
           "a": [
             "non"
           ],
-          "en": "I don't like fish. – Me neither."
+          "cs": "Nemám rád ryby. – Já taky ne."
         },
         {
           "id": "g-answering-09",
@@ -1090,13 +1090,13 @@
           "a": [
             "aussi"
           ],
-          "en": "I love it. – Me too."
+          "cs": "Miluju to. – Já taky."
         }
       ]
     },
     {
       "id": "question-words",
-      "title": "Question words and where they go",
+      "title": "Tázací slova a kam patří",
       "fr": "les mots interrogatifs",
       "level": "A1",
       "keywords": [
@@ -1128,13 +1128,13 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 1
@@ -1142,57 +1142,57 @@
               "rows": [
                 [
                   "qui",
-                  "who"
+                  "kdo"
                 ],
                 [
                   "que, quoi",
-                  "what"
+                  "co"
                 ],
                 [
                   "où",
-                  "where"
+                  "kde"
                 ],
                 [
                   "d'où",
-                  "from where"
+                  "odkud"
                 ],
                 [
                   "quand",
-                  "when"
+                  "kdy"
                 ],
                 [
                   "comment",
-                  "how"
+                  "jak"
                 ],
                 [
                   "pourquoi",
-                  "why"
+                  "proč"
                 ],
                 [
                   "combien (de)",
-                  "how much, how many"
+                  "kolik"
                 ],
                 [
                   "quel, quelle",
-                  "which, what"
+                  "který, jaký"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Where the question word goes",
+          "title": "Kam patří tázací slovo",
           "blocks": [
             {
               "type": "text",
-              "en": "The same question can be asked in three ways. The question word is either **at the end** (speech), or **at the start** with *est-ce que* or with inversion."
+              "cs": "Stejnou otázku jde položit třemi způsoby. Tázací slovo stojí buď **na konci** (mluveně), nebo **na začátku** s *est-ce que* nebo s inverzí."
             },
             {
               "type": "table",
               "head": [
-                "speech",
-                "with est-ce que",
-                "inversion"
+                "mluveně",
+                "s est-ce que",
+                "inverze"
               ],
               "rows": [
                 [
@@ -1220,11 +1220,11 @@
           ]
         },
         {
-          "title": "Que or quoi?",
+          "title": "Que, nebo quoi?",
           "blocks": [
             {
               "type": "text",
-              "en": "*Que* stands at the start (*Qu'est-ce que tu fais ?*), *quoi* at the end or after a preposition (*Tu fais quoi ? À quoi tu penses ?*). The answer to *pourquoi* is *parce que*."
+              "cs": "*Que* stojí na začátku (*Qu'est-ce que tu fais ?*), *quoi* na konci nebo po předložce (*Tu fais quoi ? À quoi tu penses ?*). Odpověď na *pourquoi* je *parce que*."
             },
             {
               "type": "see",
@@ -1235,34 +1235,34 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Qui est-ce ?",
-                  "en": "Who is it?"
+                  "cs": "Kdo je to?"
                 },
                 {
                   "fr": "Où est la gare ?",
-                  "en": "Where is the station?"
+                  "cs": "Kde je nádraží?"
                 },
                 {
                   "fr": "Comment tu t'appelles ?",
-                  "en": "What's your name?"
+                  "cs": "Jak se jmenuješ?"
                 },
                 {
                   "fr": "Pourquoi tu es en retard ?",
-                  "en": "Why are you late?"
+                  "cs": "Proč jdeš pozdě?"
                 },
                 {
                   "fr": "Combien de frères as-tu ?",
-                  "en": "How many brothers do you have?"
+                  "cs": "Kolik máš bratrů?"
                 },
                 {
                   "fr": "D'où viens-tu ?",
-                  "en": "Where do you come from?"
+                  "cs": "Odkud pocházíš?"
                 }
               ]
             }
@@ -1277,7 +1277,7 @@
           "a": [
             "Où"
           ],
-          "en": "Where do you live? In Prague."
+          "cs": "Kde bydlíš? V Praze."
         },
         {
           "id": "g-question-words-02",
@@ -1286,7 +1286,7 @@
           "a": [
             "Comment"
           ],
-          "en": "What's your name?"
+          "cs": "Jak se jmenuješ?"
         },
         {
           "id": "g-question-words-03",
@@ -1295,7 +1295,7 @@
           "a": [
             "quand"
           ],
-          "en": "When are you leaving? Tomorrow."
+          "cs": "Kdy odjíždíš? Zítra."
         },
         {
           "id": "g-question-words-04",
@@ -1304,12 +1304,12 @@
           "a": [
             "Pourquoi"
           ],
-          "en": "Why aren't you coming? Because I'm ill."
+          "cs": "Proč nepřijdeš? Protože jsem nemocný."
         },
         {
           "id": "g-question-words-05",
           "type": "transform",
-          "task_en": "Put the question word at the start (with est-ce que)",
+          "task_cs": "Dej tázací slovo na začátek (s est-ce que)",
           "fr": "Tu vas où ?",
           "a": [
             "Où est-ce que tu vas ?"
@@ -1318,7 +1318,7 @@
         {
           "id": "g-question-words-06",
           "type": "build",
-          "en": "How much does it cost?",
+          "cs": "Kolik to stojí?",
           "a": [
             "Ça coûte combien ?",
             "Combien ça coûte ?",
@@ -1331,22 +1331,22 @@
         {
           "set": "questions",
           "tag": "ou",
-          "label": "Drill où"
+          "label": "Dril où"
         },
         {
           "set": "questions",
           "tag": "quand",
-          "label": "Drill quand"
+          "label": "Dril quand"
         },
         {
           "set": "questions",
           "tag": "comment",
-          "label": "Drill comment"
+          "label": "Dril comment"
         },
         {
           "set": "questions",
           "tag": "combien",
-          "label": "Drill combien"
+          "label": "Dril combien"
         }
       ]
     },
@@ -1378,26 +1378,26 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "singular",
-                "plural"
+                "jednotné číslo",
+                "množné číslo"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "masculine",
+                  "mužský rod",
                   "quel",
                   "quels"
                 ],
                 [
-                  "feminine",
+                  "ženský rod",
                   "quelle",
                   "quelles"
                 ]
@@ -1405,18 +1405,18 @@
             },
             {
               "type": "text",
-              "en": "*Quel* means \"which, what\", stands **before a noun** and agrees with it. All four forms sound the same."
+              "cs": "*Quel* znamená \"který, jaký\", stojí **před podstatným jménem** a shoduje se s ním. Všechny čtyři tvary znějí stejně."
             }
           ]
         },
         {
-          "title": "Common questions",
+          "title": "Běžné otázky",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 1
@@ -1424,27 +1424,27 @@
               "rows": [
                 [
                   "Quel âge as-tu ?",
-                  "How old are you?"
+                  "Kolik ti je?"
                 ],
                 [
                   "Quelle heure est-il ?",
-                  "What time is it?"
+                  "Kolik je hodin?"
                 ],
                 [
                   "Quel temps fait-il ?",
-                  "What's the weather like?"
+                  "Jaké je počasí?"
                 ],
                 [
                   "Quel jour sommes-nous ?",
-                  "What day is it?"
+                  "Co je dnes za den?"
                 ],
                 [
                   "Tu es en quelle classe ?",
-                  "Which class are you in?"
+                  "Do které třídy chodíš?"
                 ],
                 [
                   "Quels sports tu pratiques ?",
-                  "Which sports do you do?"
+                  "Jaké sporty děláš?"
                 ]
               ]
             }
@@ -1455,13 +1455,13 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Quel* can also stand before *être* and then agrees with the noun after it: *Quelle est ta couleur préférée ?* (What is your favourite colour?)"
+              "cs": "*Quel* může stát i před *être* a pak se shoduje s podstatným jménem za ním: *Quelle est ta couleur préférée ?* (Jaká je tvoje oblíbená barva?)"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "What is your address?",
+                  "cs": "Jaká je tvoje adresa?",
                   "wrong": "Qu'est-ce que est ton adresse ?",
                   "fr": "[[Quelle]] est ton adresse ?"
                 }
@@ -1469,32 +1469,32 @@
             },
             {
               "type": "tip",
-              "title": "Exclamations",
-              "en": "*Quel* is also used in exclamations: *Quel beau temps !* (What lovely weather!) *Quelle chance !* (What luck!)"
+              "title": "Zvolání",
+              "cs": "*Quel* se používá i ve zvoláních: *Quel beau temps !* (To je krásné počasí!) *Quelle chance !* (To je štěstí!)"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Quel film tu veux voir ?",
-                  "en": "Which film do you want to see?"
+                  "cs": "Na jaký film chceš jít?"
                 },
                 {
                   "fr": "Quelle est ta matière préférée ?",
-                  "en": "What is your favourite subject?"
+                  "cs": "Jaký je tvůj oblíbený předmět?"
                 },
                 {
                   "fr": "Quels sont tes loisirs ?",
-                  "en": "What are your hobbies?"
+                  "cs": "Jaké máš koníčky?"
                 },
                 {
                   "fr": "À quelle heure tu te lèves ?",
-                  "en": "What time do you get up?"
+                  "cs": "V kolik vstáváš?"
                 }
               ]
             }
@@ -1509,7 +1509,7 @@
           "a": [
             "Quel"
           ],
-          "en": "How old are you?"
+          "cs": "Kolik ti je?"
         },
         {
           "id": "g-quel-02",
@@ -1518,7 +1518,7 @@
           "a": [
             "Quelle"
           ],
-          "en": "What time is it?"
+          "cs": "Kolik je hodin?"
         },
         {
           "id": "g-quel-03",
@@ -1527,7 +1527,7 @@
           "a": [
             "Quelle"
           ],
-          "en": "What is your favourite colour?"
+          "cs": "Jaká je tvoje oblíbená barva?"
         },
         {
           "id": "g-quel-04",
@@ -1536,12 +1536,12 @@
           "a": [
             "Quels"
           ],
-          "en": "What are your favourite films?"
+          "cs": "Jaké jsou tvoje oblíbené filmy?"
         },
         {
           "id": "g-quel-05",
           "type": "build",
-          "en": "What's the weather like?",
+          "cs": "Jaké je počasí?",
           "a": [
             "Quel temps fait-il ?",
             "Il fait quel temps ?"
@@ -1552,13 +1552,13 @@
         {
           "set": "questions",
           "tag": "quel",
-          "label": "Drill quel"
+          "label": "Dril quel"
         }
       ]
     },
     {
       "id": "inversion",
-      "title": "Inversion",
+      "title": "Inverze",
       "fr": "l'inversion",
       "level": "A2",
       "keywords": [
@@ -1578,11 +1578,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "With inversion the **pronoun and the verb** swap places and are joined with a hyphen: *tu as → as-tu ?* It is the careful style. It is rare in speech but common in texts and at school."
+              "cs": "Při inverzi si **zájmeno a sloveso** prohodí místa a spojí se spojovníkem: *tu as → as-tu ?* Je to pečlivý styl. V mluvené řeči je vzácný, ale v textech a ve škole běžný."
             },
             {
               "type": "pattern",
@@ -1602,7 +1602,7 @@
                       "français ?"
                     ]
                   ],
-                  "en": "Do you speak French?"
+                  "cs": "Mluvíš francouzsky?"
                 },
                 {
                   "parts": [
@@ -1619,24 +1619,24 @@
                       "-vous ?"
                     ]
                   ],
-                  "en": "Where do you live?"
+                  "cs": "Kde bydlíš?"
                 }
               ]
             }
           ]
         },
         {
-          "title": "The inserted -t-",
+          "title": "Vložené -t-",
           "blocks": [
             {
               "type": "text",
-              "en": "When the verb ends in a vowel and the pronoun starts with a vowel (*il, elle, on*), a *-t-* is inserted between them so it can be pronounced: *A-t-il faim ? Va-t-elle venir ?*"
+              "cs": "Když sloveso končí samohláskou a zájmeno samohláskou začíná (*il, elle, on*), vloží se mezi ně *-t-*, aby se to dalo vyslovit: *A-t-il faim ? Va-t-elle venir ?*"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Is he hungry?",
+                  "cs": "Má hlad?",
                   "wrong": "A-il faim ?",
                   "fr": "A[[-t-]]il faim ?"
                 }
@@ -1645,43 +1645,43 @@
           ]
         },
         {
-          "title": "With a noun and in compound tenses",
+          "title": "S podstatným jménem a ve složených časech",
           "blocks": [
             {
               "type": "text",
-              "en": "When the subject is a noun, it stays at the start and a pronoun is added after the verb: *Paul vient-il ?* (Is Paul coming?)"
+              "cs": "Když je podmětem podstatné jméno, zůstává na začátku a za sloveso se přidá zájmeno: *Paul vient-il ?* (Přijde Paul?)"
             },
             {
               "type": "text",
-              "en": "In compound tenses the pronoun swaps with the **auxiliary**: *As-tu mangé ? Es-tu allé au cinéma ?*"
+              "cs": "Ve složených časech se zájmeno prohazuje s **pomocným slovesem**: *As-tu mangé ? Es-tu allé au cinéma ?*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Avez-vous des questions ?",
-                  "en": "Do you have any questions?"
+                  "cs": "Máte nějaké otázky?"
                 },
                 {
                   "fr": "Comment allez-vous ?",
-                  "en": "How are you?"
+                  "cs": "Jak se máš?"
                 },
                 {
                   "fr": "Que fais-tu ce soir ?",
-                  "en": "What are you doing tonight?"
+                  "cs": "Co děláš dnes večer?"
                 },
                 {
                   "fr": "Pourquoi est-il triste ?",
-                  "en": "Why is he sad?"
+                  "cs": "Proč je smutný?"
                 },
                 {
                   "fr": "Ton frère joue-t-il au foot ?",
-                  "en": "Does your brother play football?"
+                  "cs": "Hraje tvůj bratr fotbal?"
                 }
               ]
             }
@@ -1692,7 +1692,7 @@
         {
           "id": "g-inversion-01",
           "type": "transform",
-          "task_en": "Make it a question with inversion",
+          "task_cs": "Utvoř otázku inverzí",
           "fr": "Tu as un chien.",
           "a": [
             "As-tu un chien ?"
@@ -1701,7 +1701,7 @@
         {
           "id": "g-inversion-02",
           "type": "transform",
-          "task_en": "Make it a question with inversion",
+          "task_cs": "Utvoř otázku inverzí",
           "fr": "Il a faim.",
           "a": [
             "A-t-il faim ?"
@@ -1710,7 +1710,7 @@
         {
           "id": "g-inversion-03",
           "type": "transform",
-          "task_en": "Make it a question with inversion",
+          "task_cs": "Utvoř otázku inverzí",
           "fr": "Elle va au cinéma.",
           "a": [
             "Va-t-elle au cinéma ?"
@@ -1719,7 +1719,7 @@
         {
           "id": "g-inversion-04",
           "type": "transform",
-          "task_en": "Make it a question with inversion",
+          "task_cs": "Utvoř otázku inverzí",
           "fr": "Vous habitez où ?",
           "a": [
             "Où habitez-vous ?"
@@ -1728,7 +1728,7 @@
         {
           "id": "g-inversion-05",
           "type": "transform",
-          "task_en": "Make it a question with inversion",
+          "task_cs": "Utvoř otázku inverzí",
           "fr": "Tu as fini.",
           "a": [
             "As-tu fini ?"
@@ -1739,17 +1739,17 @@
         {
           "set": "questions",
           "tag": "inversion",
-          "label": "Drill inversion"
+          "label": "Dril inverze"
         },
         {
           "set": "questions",
           "tag": "pc",
-          "label": "Drill passé composé questions"
+          "label": "Dril otázky v passé composé"
         },
         {
           "set": "questions",
           "tag": "inversion-noun",
-          "label": "Drill inversion with a noun"
+          "label": "Dril inverze s podstatným jménem"
         }
       ]
     },
@@ -1782,31 +1782,31 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "person (who, whom)",
-                "thing (what)"
+                "osoba (kdo, koho)",
+                "věc (co)"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "subject",
+                  "podmět",
                   "Qui... ? / Qui est-ce qui... ?",
                   "Qu'est-ce qui... ?"
                 ],
                 [
-                  "object",
+                  "předmět",
                   "Qui est-ce que... ?",
                   "Qu'est-ce que... ?"
                 ],
                 [
-                  "at the end, after a preposition",
+                  "na konci, po předložce",
                   "... qui ?",
                   "... quoi ?"
                 ]
@@ -1814,19 +1814,19 @@
             },
             {
               "type": "text",
-              "en": "The interrogative *qui* is always about a **person**, *que / quoi* about a **thing**. (With relative pronouns it is different.)"
+              "cs": "Tázací *qui* se vždycky ptá na **osobu**, *que / quoi* na **věc**. (U vztažných zájmen je to jinak.)"
             }
           ]
         },
         {
-          "title": "What are you doing?",
+          "title": "Co děláš?",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "example",
-                "English"
+                "příklad",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -1834,24 +1834,24 @@
               ],
               "rows": [
                 [
-                  "at the start",
+                  "na začátku",
                   "Qu'est-ce que tu fais ?",
-                  "What are you doing?"
+                  "Co děláš?"
                 ],
                 [
-                  "inversion",
+                  "inverze",
                   "Que fais-tu ?",
-                  "What are you doing?"
+                  "Co děláš?"
                 ],
                 [
-                  "in speech, at the end",
+                  "mluveně, na konci",
                   "Tu fais quoi ?",
-                  "What are you doing?"
+                  "Co děláš?"
                 ],
                 [
-                  "after a preposition",
+                  "po předložce",
                   "À quoi tu penses ?",
-                  "What are you thinking about?"
+                  "Na co myslíš?"
                 ]
               ]
             }
@@ -1863,46 +1863,46 @@
           "blocks": [
             {
               "type": "text",
-              "en": "When you ask about a thing that is the **subject** (what is happening, what interests you), use *qu'est-ce qui*: *Qu'est-ce qui se passe ?* (What is happening?) *Qu'est-ce qui t'intéresse ?* (What interests you?)"
+              "cs": "Když se ptáš na věc, která je **podmětem** (co se děje, co tě zajímá), použij *qu'est-ce qui*: *Qu'est-ce qui se passe ?* (Co se děje?) *Qu'est-ce qui t'intéresse ?* (Co tě zajímá?)"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "What happened?",
+                  "cs": "Co se stalo?",
                   "wrong": "Qu'est-ce que s'est passé ?",
                   "fr": "Qu'est-ce [[qui]] s'est passé ?",
-                  "note": "After *qui* comes the verb straight away (the thing is the subject). After *que* come subject and verb."
+                  "note": "Po *qui* následuje rovnou sloveso (věc je podmět). Po *que* následuje podmět a sloveso."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Qui est là ?",
-                  "en": "Who is there?"
+                  "cs": "Kdo je tam?"
                 },
                 {
                   "fr": "Qui est-ce que tu invites ?",
-                  "en": "Whom are you inviting?"
+                  "cs": "Koho zveš?"
                 },
                 {
                   "fr": "Qu'est-ce que tu veux ?",
-                  "en": "What do you want?"
+                  "cs": "Co chceš?"
                 },
                 {
                   "fr": "Avec qui tu joues ?",
-                  "en": "Who are you playing with?"
+                  "cs": "S kým hraješ?"
                 },
                 {
                   "fr": "De quoi vous parlez ?",
-                  "en": "What are you talking about?"
+                  "cs": "O čem mluvíš?"
                 }
               ]
             }
@@ -1917,7 +1917,7 @@
           "a": [
             "Qu'"
           ],
-          "en": "What are you doing this weekend?"
+          "cs": "Co děláš o víkendu?"
         },
         {
           "id": "g-qui-que-quoi-02",
@@ -1926,7 +1926,7 @@
           "a": [
             "Qui"
           ],
-          "en": "Who wants some cake?"
+          "cs": "Kdo chce dort?"
         },
         {
           "id": "g-qui-que-quoi-03",
@@ -1935,7 +1935,7 @@
           "a": [
             "quoi"
           ],
-          "en": "What are you thinking about?"
+          "cs": "Na co myslíš?"
         },
         {
           "id": "g-qui-que-quoi-04",
@@ -1944,12 +1944,12 @@
           "a": [
             "qui"
           ],
-          "en": "What is happening?"
+          "cs": "Co se děje?"
         },
         {
           "id": "g-qui-que-quoi-05",
           "type": "build",
-          "en": "Who are you going to the cinema with?",
+          "cs": "S kým jdeš do kina?",
           "a": [
             "Avec qui tu vas au cinéma ?",
             "Avec qui est-ce que tu vas au cinéma ?",
@@ -1962,18 +1962,18 @@
         {
           "set": "questions",
           "tag": "qui",
-          "label": "Drill qui"
+          "label": "Dril qui"
         },
         {
           "set": "questions",
           "tag": "quoi",
-          "label": "Drill que, quoi"
+          "label": "Dril que, quoi"
         }
       ]
     },
     {
       "id": "question-prepositions",
-      "title": "Preposition + question word: à qui, avec quoi, depuis quand",
+      "title": "Předložka + tázací slovo: à qui, avec quoi, depuis quand",
       "fr": "préposition + mot interrogatif",
       "level": "A2",
       "keywords": [
@@ -2005,58 +2005,58 @@
         {
           "set": "questions",
           "tag": "prep",
-          "label": "Drill preposition + question word"
+          "label": "Dril předložka + tázací slovo"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "In French the **preposition always goes before the question word** (never at the end as in English). For people use **preposition + qui**, for things **preposition + quoi**, and for time, place and quantity the question words *quand, où, combien, quel*."
+              "cs": "Ve francouzštině stojí **předložka vždycky před tázacím slovem** (na rozdíl od angličtiny nikdy na konci). U osob použij **předložku + qui**, u věcí **předložku + quoi** a pro čas, místo a množství tázací slova *quand, où, combien, quel*."
             },
             {
               "type": "table",
               "head": [
-                "question",
-                "meaning",
-                "answer"
+                "otázka",
+                "význam",
+                "odpověď"
               ],
               "rows": [
                 [
                   "À qui parles-tu ?",
-                  "Who are you talking to?",
+                  "S kým mluvíš?",
                   "À Marie."
                 ],
                 [
                   "Avec qui sors-tu ?",
-                  "Who are you going out with?",
+                  "S kým chodíš?",
                   "Avec mes amis."
                 ],
                 [
                   "Pour qui est ce cadeau ?",
-                  "Who is this present for?",
+                  "Pro koho je ten dárek?",
                   "Pour toi."
                 ],
                 [
                   "Chez qui dormez-vous ?",
-                  "At whose place do you sleep?",
+                  "U koho spíš?",
                   "Chez Léa."
                 ],
                 [
                   "De quoi as-tu besoin ?",
-                  "What do you need?",
+                  "Co potřebuješ?",
                   "D'un stylo."
                 ],
                 [
                   "À quoi penses-tu ?",
-                  "What are you thinking about?",
+                  "Na co myslíš?",
                   "À mes vacances."
                 ],
                 [
                   "Avec quoi écris-tu ?",
-                  "What do you write with?",
+                  "Čím píšeš?",
                   "Avec un stylo."
                 ]
               ],
@@ -2067,46 +2067,46 @@
           ]
         },
         {
-          "title": "Time, place and quantity",
+          "title": "Čas, místo a množství",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "question",
-                "meaning"
+                "otázka",
+                "význam"
               ],
               "rows": [
                 [
                   "Depuis quand habites-tu ici ?",
-                  "Since when have you lived here?"
+                  "Odkdy tady bydlíš?"
                 ],
                 [
                   "Depuis combien de temps apprends-tu le français ?",
-                  "For how long have you been learning French?"
+                  "Jak dlouho se učíš francouzsky?"
                 ],
                 [
                   "Jusqu'à quand restes-tu ?",
-                  "Until when are you staying?"
+                  "Do kdy zůstáváš?"
                 ],
                 [
                   "À quelle heure commence le film ?",
-                  "At what time does the film start?"
+                  "V kolik začíná film?"
                 ],
                 [
                   "Pour combien de personnes ?",
-                  "For how many people?"
+                  "Pro kolik lidí?"
                 ],
                 [
                   "D'où viens-tu ?",
-                  "Where are you from?"
+                  "Odkud jsi?"
                 ],
                 [
                   "Par où passons-nous ?",
-                  "Which way do we go?"
+                  "Kudy půjdeme?"
                 ],
                 [
                   "Dans quelle ville habites-tu ?",
-                  "In which town do you live?"
+                  "Ve kterém městě bydlíš?"
                 ]
               ],
               "textCols": [
@@ -2115,27 +2115,27 @@
             },
             {
               "type": "tip",
-              "en": "*Depuis quand* and *depuis combien de temps* are followed by the **present**: *Depuis quand habites-tu ici ?* (not the passé composé)."
+              "cs": "Po *depuis quand* a *depuis combien de temps* následuje **přítomný čas**: *Depuis quand habites-tu ici ?* (ne passé composé)."
             }
           ]
         },
         {
-          "title": "Informal: preposition at the end",
+          "title": "Hovorově: předložka na konci",
           "blocks": [
             {
               "type": "text",
-              "en": "In speech the question word can stay at the end of the sentence with the preposition in front of it: **Tu parles à qui ? Tu penses à quoi ? Tu habites depuis quand ?** The preposition **still comes before** *qui* or *quoi*."
+              "cs": "V mluvené řeči může tázací slovo zůstat na konci věty a předložka stojí před ním: **Tu parles à qui ? Tu penses à quoi ? Tu habites depuis quand ?** Předložka **pořád stojí před** *qui* nebo *quoi*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Who are you talking to?",
+                  "cs": "S kým mluvíš?",
                   "wrong": "Tu parles qui à ?",
                   "fr": "Tu parles [[à qui]] ?"
                 },
                 {
-                  "en": "What are you thinking about?",
+                  "cs": "Na co myslíš?",
                   "wrong": "Quoi penses-tu à ?",
                   "fr": "[[À quoi]] penses-tu ?"
                 }
@@ -2144,26 +2144,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Avec qui est-ce que tu vas au cinéma ?",
-                  "en": "Who are you going to the cinema with?"
+                  "cs": "S kým jdeš do kina?"
                 },
                 {
                   "fr": "De quoi parlez-vous ?",
-                  "en": "What are you talking about?"
+                  "cs": "O čem mluvíš?"
                 },
                 {
                   "fr": "Depuis quand es-tu malade ?",
-                  "en": "Since when have you been ill?"
+                  "cs": "Odkdy jsi nemocný?"
                 },
                 {
                   "fr": "À quelle heure te lèves-tu ?",
-                  "en": "What time do you get up?"
+                  "cs": "V kolik vstáváš?"
                 }
               ]
             }
@@ -2174,7 +2174,7 @@
         {
           "id": "g-question-prepositions-01",
           "type": "transform",
-          "task_en": "Ask about the underlined words",
+          "task_cs": "Zeptej se na podtržená slova",
           "fr": "Elle parle [à Paul].",
           "a": [
             "À qui parle-t-elle ?",
@@ -2185,7 +2185,7 @@
         {
           "id": "g-question-prepositions-02",
           "type": "transform",
-          "task_en": "Ask about the underlined words",
+          "task_cs": "Zeptej se na podtržená slova",
           "fr": "Il part [avec ses amis].",
           "a": [
             "Avec qui part-il ?",
@@ -2196,7 +2196,7 @@
         {
           "id": "g-question-prepositions-03",
           "type": "transform",
-          "task_en": "Ask about the underlined words",
+          "task_cs": "Zeptej se na podtržená slova",
           "fr": "Tu penses [à tes vacances].",
           "a": [
             "À quoi penses-tu ?",
@@ -2207,7 +2207,7 @@
         {
           "id": "g-question-prepositions-04",
           "type": "transform",
-          "task_en": "Ask about the underlined words",
+          "task_cs": "Zeptej se na podtržená slova",
           "fr": "Nous parlons [de la fête].",
           "a": [
             "De quoi parlons-nous ?",
@@ -2218,7 +2218,7 @@
         {
           "id": "g-question-prepositions-05",
           "type": "build",
-          "en": "Who is this present for?",
+          "cs": "Pro koho je ten dárek?",
           "a": [
             "Pour qui est ce cadeau ?"
           ]
@@ -2226,7 +2226,7 @@
         {
           "id": "g-question-prepositions-06",
           "type": "build",
-          "en": "Where are you from?",
+          "cs": "Odkud jsi?",
           "a": [
             "D'où viens-tu ?",
             "D'où est-ce que tu viens ?",
@@ -2237,7 +2237,7 @@
         {
           "id": "g-question-prepositions-07",
           "type": "build",
-          "en": "What time does the film start?",
+          "cs": "V kolik začíná film?",
           "a": [
             "À quelle heure commence le film ?",
             "À quelle heure est-ce que le film commence ?",
@@ -2251,7 +2251,7 @@
           "a": [
             "À"
           ],
-          "en": "Who are you talking to?"
+          "cs": "S kým mluvíš?"
         },
         {
           "id": "g-question-prepositions-09",
@@ -2260,7 +2260,7 @@
           "a": [
             "quoi"
           ],
-          "en": "What do you need?"
+          "cs": "Co potřebuješ?"
         },
         {
           "id": "g-question-prepositions-10",
@@ -2269,7 +2269,7 @@
           "a": [
             "Depuis"
           ],
-          "en": "Since when have you lived here?"
+          "cs": "Odkdy tady bydlíš?"
         }
       ]
     },
@@ -2294,26 +2294,26 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "singular",
-                "plural"
+                "jednotné číslo",
+                "množné číslo"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "masculine",
+                  "mužský rod",
                   "lequel",
                   "lesquels"
                 ],
                 [
-                  "feminine",
+                  "ženský rod",
                   "laquelle",
                   "lesquelles"
                 ]
@@ -2321,50 +2321,50 @@
             },
             {
               "type": "text",
-              "en": "*Lequel* means \"which one (of them)\". It **replaces** *quel* + the noun that has already been mentioned."
+              "cs": "*Lequel* znamená \"který (z nich)\". **Nahrazuje** *quel* + podstatné jméno, které už zaznělo."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I have two T-shirts. Which one do you want?",
+                  "cs": "Mám dvě trička. Které chceš?",
                   "fr": "J'ai deux t-shirts. [[Lequel]] tu veux ?",
-                  "note": "*T-shirt* is masculine, so *lequel*."
+                  "note": "*T-shirt* je mužského rodu, takže *lequel*."
                 }
               ]
             }
           ]
         },
         {
-          "title": "With à and de",
+          "title": "S à a de",
           "blocks": [
             {
               "type": "text",
-              "en": "With the prepositions *à* and *de* it merges like an article: *auquel, auxquels, auxquelles* and *duquel, desquels, desquelles*. The form with *la* stays: *à laquelle, de laquelle*."
+              "cs": "S předložkami *à* a *de* se stahuje jako člen: *auquel, auxquels, auxquelles* a *duquel, desquels, desquelles*. Tvar s *la* zůstává: *à laquelle, de laquelle*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Laquelle de ces robes préfères-tu ?",
-                  "en": "Which of these dresses do you prefer?"
+                  "cs": "Které z těch šatů se ti líbí víc?"
                 },
                 {
                   "fr": "Lesquels sont à toi ?",
-                  "en": "Which ones are yours?"
+                  "cs": "Které jsou tvoje?"
                 },
                 {
                   "fr": "Il y a deux bus. Lequel va au centre ?",
-                  "en": "There are two buses. Which one goes to the centre?"
+                  "cs": "Jezdí tu dva autobusy. Který jede do centra?"
                 },
                 {
                   "fr": "Tu penses à un jeu ? Auquel ?",
-                  "en": "Are you thinking of a game? Which one?"
+                  "cs": "Myslíš na nějakou hru? Na kterou?"
                 }
               ]
             }
@@ -2379,7 +2379,7 @@
           "a": [
             "Laquelle"
           ],
-          "en": "Here are two apples. Which one do you want?"
+          "cs": "Tady jsou dvě jablka. Které chceš?"
         },
         {
           "id": "g-lequel-02",
@@ -2388,7 +2388,7 @@
           "a": [
             "Lequel"
           ],
-          "en": "There are lots of games. Which one do you prefer?"
+          "cs": "Je spousta her. Kterou máš nejradši?"
         },
         {
           "id": "g-lequel-03",
@@ -2397,7 +2397,7 @@
           "a": [
             "Lesquels"
           ],
-          "en": "I have three pens. Which ones are yours?"
+          "cs": "Mám tři propisky. Které jsou tvoje?"
         },
         {
           "id": "g-lequel-04",
@@ -2406,13 +2406,13 @@
           "a": [
             "Lesquelles"
           ],
-          "en": "Look at these shoes. Which ones do you like?"
+          "cs": "Podívej na ty boty. Které se ti líbí?"
         }
       ]
     },
     {
       "id": "indirect-questions",
-      "title": "Indirect questions",
+      "title": "Nepřímé otázky",
       "fr": "l'interrogation indirecte",
       "level": "B1",
       "keywords": [
@@ -2433,17 +2433,17 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "An indirect question is a question hidden inside a sentence: \"I don't know **where he lives**.\" It has **normal word order** (subject + verb), no *est-ce que*, no inversion and no question mark."
+              "cs": "Nepřímá otázka je otázka schovaná uvnitř věty: \"Nevím, **kde bydlí**.\" Má **normální slovosled** (podmět + sloveso), žádné *est-ce que*, žádnou inverzi a žádný otazník."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Where does he live? → I don't know where he lives.",
+                  "cs": "Kde bydlí? → Nevím, kde bydlí.",
                   "fr": "Où habite-t-il ? → Je ne sais pas [[où il habite]]."
                 }
               ]
@@ -2451,13 +2451,13 @@
           ]
         },
         {
-          "title": "What changes",
+          "title": "Co se mění",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "direct question",
-                "indirect question"
+                "přímá otázka",
+                "nepřímá otázka"
               ],
               "rows": [
                 [
@@ -2484,23 +2484,23 @@
             },
             {
               "type": "text",
-              "en": "A yes / no question → *si* (whether). *Qu'est-ce que* → *ce que*, *qu'est-ce qui* → *ce qui*. The other question words stay."
+              "cs": "Otázka ano / ne → *si* (jestli). *Qu'est-ce que* → *ce que*, *qu'est-ce qui* → *ce qui*. Ostatní tázací slova zůstávají."
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I don't know what he wants.",
+                  "cs": "Nevím, co chce.",
                   "wrong": "Je ne sais pas qu'est-ce qu'il veut.",
                   "fr": "Je ne sais pas [[ce qu']]il veut."
                 },
                 {
-                  "en": "Tell me where the station is.",
+                  "cs": "Řekni mi, kde je nádraží.",
                   "wrong": "Dis-moi où est-ce que la gare est.",
                   "fr": "Dis-moi [[où est]] la gare."
                 }
@@ -2509,26 +2509,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je ne sais pas s'il est là.",
-                  "en": "I don't know whether he's here."
+                  "cs": "Nevím, jestli je tady."
                 },
                 {
                   "fr": "Tu sais à quelle heure commence le film ?",
-                  "en": "Do you know what time the film starts?"
+                  "cs": "Víš, v kolik začíná film?"
                 },
                 {
                   "fr": "Je ne comprends pas ce que tu dis.",
-                  "en": "I don't understand what you're saying."
+                  "cs": "Nerozumím, co říkáš."
                 },
                 {
                   "fr": "Il me demande pourquoi je suis triste.",
-                  "en": "He asks me why I'm sad."
+                  "cs": "Ptá se mě, proč jsem smutný."
                 }
               ]
             }
@@ -2539,7 +2539,7 @@
         {
           "id": "g-indirect-questions-01",
           "type": "transform",
-          "task_en": "Turn into an indirect question: Je ne sais pas...",
+          "task_cs": "Převeď na nepřímou otázku: Je ne sais pas...",
           "fr": "Où habite-t-il ?",
           "a": [
             "Je ne sais pas où il habite."
@@ -2548,7 +2548,7 @@
         {
           "id": "g-indirect-questions-02",
           "type": "transform",
-          "task_en": "Turn into an indirect question: Je me demande...",
+          "task_cs": "Převeď na nepřímou otázku: Je me demande...",
           "fr": "Tu viens ?",
           "a": [
             "Je me demande si tu viens."
@@ -2557,7 +2557,7 @@
         {
           "id": "g-indirect-questions-03",
           "type": "transform",
-          "task_en": "Turn into an indirect question: Dis-moi...",
+          "task_cs": "Převeď na nepřímou otázku: Dis-moi...",
           "fr": "Qu'est-ce que tu veux ?",
           "a": [
             "Dis-moi ce que tu veux."
@@ -2570,12 +2570,12 @@
           "a": [
             "ce"
           ],
-          "en": "I don't know what is happening."
+          "cs": "Nevím, co se děje."
         },
         {
           "id": "g-indirect-questions-05",
           "type": "build",
-          "en": "I don't know whether he's coming.",
+          "cs": "Nevím, jestli přijde.",
           "a": [
             "Je ne sais pas s'il vient.",
             "Je ne sais pas s'il va venir.",
@@ -2587,7 +2587,7 @@
         {
           "set": "questions",
           "tag": "indirect",
-          "label": "Drill indirect questions"
+          "label": "Dril nepřímé otázky"
         }
       ]
     }

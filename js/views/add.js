@@ -1,5 +1,5 @@
 import { store } from '../store.js';
-import { ITEM_TYPES, DIFFICULTIES, langName, langFlag, saveImport } from '../data.js';
+import { ITEM_TYPES, DIFFICULTIES, langName, langFlag, saveImport, baseLang } from '../data.js';
 import { normalize } from '../check.js';
 import { collectUnits, unitLabel } from '../units.js';
 import { html, icon, segmented, onSegmented } from '../ui.js';
@@ -27,7 +27,7 @@ export function addForm(app) {
   const lang = langs.includes(memory.lang) ? memory.lang : app.lang;
   const decks = app.decksFor(lang).filter(type.fitsDeck);
   const deckId = memory.deck === NEW_DECK || decks.some(d => d.id === memory.deck) ? memory.deck : decks[0]?.id || NEW_DECK;
-  const from = decks.find(d => d.id === deckId)?.from || 'cs';
+  const from = decks.find(d => d.id === deckId)?.from || baseLang();
 
   const body = html`
     <section class="card">

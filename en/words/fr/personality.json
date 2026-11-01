@@ -1,0 +1,164 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "adjectives",
+  "title": "Personality",
+  "unit": "2.2",
+  "level": null,
+  "words": [
+    {
+      "q": "personality",
+      "a": "caractère"
+    },
+    {
+      "q": "qualities",
+      "a": "qualités"
+    },
+    {
+      "q": "faults, flaws",
+      "a": "défauts"
+    },
+    {
+      "q": "untidy, messy",
+      "a": "désordonné"
+    },
+    {
+      "q": "fun, amusing",
+      "a": "amusant"
+    },
+    {
+      "q": "nice, likeable",
+      "a": "sympathique"
+    },
+    {
+      "q": "shy",
+      "a": "timide"
+    },
+    {
+      "q": "optimistic",
+      "a": "optimiste"
+    },
+    {
+      "q": "lazy",
+      "a": "paresseux"
+    },
+    {
+      "q": "generous",
+      "a": "généreux"
+    },
+    {
+      "q": "sporty",
+      "a": "sportif"
+    },
+    {
+      "q": "active",
+      "a": "actif"
+    },
+    {
+      "q": "hypocrite",
+      "a": "hypocrite"
+    },
+    {
+      "q": "pleasant",
+      "a": "agréable"
+    },
+    {
+      "q": "pessimistic",
+      "a": "pessimiste"
+    },
+    {
+      "q": "passive",
+      "a": "passif"
+    },
+    {
+      "q": "unlikeable",
+      "a": "antipathique"
+    },
+    {
+      "q": "boring",
+      "a": "ennuyeux"
+    },
+    {
+      "q": "chatty, talkative",
+      "a": "bavard"
+    },
+    {
+      "q": "hard-working",
+      "a": "travailleur"
+    },
+    {
+      "q": "stingy",
+      "a": "avare"
+    },
+    {
+      "q": "sincere",
+      "a": "sincère"
+    },
+    {
+      "q": "frank, straightforward",
+      "a": "franc"
+    },
+    {
+      "q": "nervous",
+      "a": "nerveux"
+    },
+    {
+      "q": "pleased, content",
+      "a": "content"
+    },
+    {
+      "q": "crazy, mad",
+      "a": [
+        "fou",
+        "folle"
+      ]
+    },
+    {
+      "q": "order, tidiness",
+      "a": "ordre"
+    },
+    {
+      "q": "liar",
+      "a": [
+        "menteur",
+        "menteuse"
+      ]
+    },
+    {
+      "q": "kind",
+      "a": "gentil"
+    },
+    {
+      "q": "nasty, mean",
+      "a": "méchant"
+    },
+    {
+      "q": "clever, intelligent",
+      "a": "intelligent"
+    },
+    {
+      "q": "funny",
+      "a": "drôle"
+    },
+    {
+      "q": "serious",
+      "a": "sérieux"
+    },
+    {
+      "q": "calm",
+      "a": "calme"
+    },
+    {
+      "q": "curious",
+      "a": "curieux"
+    },
+    {
+      "q": "happy",
+      "a": "heureux"
+    },
+    {
+      "q": "sad",
+      "a": "triste"
+    }
+  ]
+}

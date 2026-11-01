@@ -1,0 +1,179 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "phrases",
+  "title": "Greetings & introductions",
+  "unit": "1.1",
+  "level": "A1",
+  "words": [
+    {
+      "q": "hello, good morning",
+      "a": "bonjour"
+    },
+    {
+      "q": "hi",
+      "a": [
+        "salut",
+        "coucou"
+      ]
+    },
+    {
+      "q": "good evening",
+      "a": "bonsoir"
+    },
+    {
+      "q": "good night",
+      "a": "bonne nuit"
+    },
+    {
+      "q": "goodbye",
+      "a": "au revoir"
+    },
+    {
+      "q": "see you soon",
+      "a": "à bientôt"
+    },
+    {
+      "q": "see you tomorrow",
+      "a": "à demain"
+    },
+    {
+      "q": "see you later",
+      "a": [
+        "à plus tard",
+        "à plus"
+      ]
+    },
+    {
+      "q": "welcome",
+      "a": "bienvenue"
+    },
+    {
+      "q": "thank you",
+      "a": "merci"
+    },
+    {
+      "q": "thank you very much",
+      "a": "merci beaucoup"
+    },
+    {
+      "q": "please (informal)",
+      "a": "s'il te plaît"
+    },
+    {
+      "q": "please (formal)",
+      "a": "s'il vous plaît"
+    },
+    {
+      "q": "you're welcome",
+      "a": "de rien"
+    },
+    {
+      "q": "excuse me, sorry",
+      "a": [
+        "pardon",
+        "excusez-moi"
+      ]
+    },
+    {
+      "q": "how are you? (informal)",
+      "a": [
+        "ça va ?",
+        "comment ça va ?",
+        "comment vas-tu ?"
+      ]
+    },
+    {
+      "q": "how are you? (formal)",
+      "a": "comment allez-vous ?"
+    },
+    {
+      "q": "I'm fine",
+      "a": [
+        "je vais bien",
+        "ça va bien",
+        "ça va"
+      ]
+    },
+    {
+      "q": "well",
+      "a": "bien"
+    },
+    {
+      "q": "badly",
+      "a": "mal"
+    },
+    {
+      "q": "so-so",
+      "a": [
+        "comme ci, comme ça",
+        "comme ci comme ça"
+      ]
+    },
+    {
+      "q": "and you? (informal)",
+      "a": "et toi ?"
+    },
+    {
+      "q": "and you? (formal)",
+      "a": "et vous ?"
+    },
+    {
+      "q": "sir, Mr",
+      "a": "monsieur"
+    },
+    {
+      "q": "madam, Mrs",
+      "a": "madame"
+    },
+    {
+      "q": "nice to meet you",
+      "a": [
+        "enchanté",
+        "enchantée"
+      ]
+    },
+    {
+      "q": "my name is",
+      "a": "je m'appelle"
+    },
+    {
+      "q": "what's your name? (informal)",
+      "a": [
+        "comment tu t'appelles ?",
+        "tu t'appelles comment ?",
+        "comment t'appelles-tu ?"
+      ]
+    },
+    {
+      "q": "what's your name? (formal)",
+      "a": [
+        "comment vous appelez-vous ?",
+        "vous vous appelez comment ?"
+      ]
+    },
+    {
+      "q": "who is it?",
+      "a": [
+        "qui est-ce ?",
+        "c'est qui ?"
+      ]
+    },
+    {
+      "q": "it is, this is",
+      "a": "c'est"
+    },
+    {
+      "q": "Czech (nationality)",
+      "a": "tchèque"
+    },
+    {
+      "q": "French (man)",
+      "a": "français"
+    },
+    {
+      "q": "French (woman)",
+      "a": "française"
+    }
+  ]
+}

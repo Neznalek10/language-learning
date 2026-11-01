@@ -1,12 +1,13 @@
 import { store } from '../store.js';
-import { parseImport, saveImport, COMMON_LANGS, TYPES, DIFFICULTIES, langName, langFlag, unitKey, levelKey } from '../data.js';
+import { parseImport, saveImport, COMMON_LANGS, TYPES, DIFFICULTIES, langName, langFlag, unitKey, levelKey, baseLang } from '../data.js';
 import { html, icon, plural, answersText, segmented, onSegmented } from '../ui.js';
 import { deckHref } from './decks.js';
 import { addForm, unitOptions } from './add.js';
 
-const EXAMPLE = `pes; chien | le chien
-kočka; chat
-jíst; manger`;
+const EXAMPLES = {
+  cs: { lines: 'pes; chien | le chien\nkočka; chat\njíst; manger', verb: 'jíst' },
+  en: { lines: 'dog; chien | le chien\ncat; chat\nto eat; manger', verb: 'to eat' },
+};
 
 function langOptions(codes, selected) {
   return codes.map(c => html`<option value="${c}" ${c === selected ? 'selected' : ''}>${langFlag(c)} ${langName(c)}</option>`);
@@ -14,14 +15,16 @@ function langOptions(codes, selected) {
 
 function listForm(app) {
   const known = [...new Set([...app.languages(), ...COMMON_LANGS])];
-  const targets = known.filter(c => c !== 'cs').concat('cs');
+  const base = baseLang();
+  const example = EXAMPLES[base];
+  const targets = known.filter(c => c !== base).concat(base);
 
   const body = html`<div class="list-form">
     <section class="card">
       <header class="card-head"><h2>1. Add your words</h2></header>
       ${segmented('source', [{ value: 'paste', label: 'Paste text' }, { value: 'file', label: 'Upload file' }], 'paste')}
       <div class="source source-paste">
-        <textarea class="input textarea" rows="8" placeholder="${EXAMPLE}" spellcheck="false" aria-label="Words to import"></textarea>
+        <textarea class="input textarea" rows="8" placeholder="${example.lines}" spellcheck="false" aria-label="Words to import"></textarea>
       </div>
       <div class="source source-file" hidden>
         <label class="dropzone">
@@ -36,7 +39,7 @@ function listForm(app) {
         <summary>${icon('info')}Accepted formats</summary>
         <ul>
           <li><strong>Text or CSV:</strong> one word per line, prompt and answer separated by <code>;</code> <code>,</code> <code>=</code> <code> - </code> or a tab. Separate several correct answers with <code>|</code>.</li>
-          <li><strong>JSON deck:</strong> <code>{"lang": "fr", "type": "verbs", "title": "Verbs", "words": [{"q": "jíst", "a": "manger"}]}</code></li>
+          <li><strong>JSON deck:</strong> <code>{"lang": "fr", "type": "verbs", "title": "Verbs", "words": [{"q": "${example.verb}", "a": "manger"}]}</code></li>
           <li><strong>Old app files:</strong> the v1 <code>dictionaries/*.json</code> files work as they are.</li>
         </ul>
       </details>
@@ -52,7 +55,7 @@ function listForm(app) {
           <input class="input" name="langCode" placeholder="e.g. hu, el, fi" maxlength="8" autocapitalize="off">
         </label>
         <label class="field"><span class="field-label">Translating from</span>
-          <select class="input" name="from">${langOptions(known, 'cs')}</select>
+          <select class="input" name="from">${langOptions(known, base)}</select>
         </label>
         <label class="field"><span class="field-label">Word type</span>
           <select class="input" name="type">${TYPES.map(t => html`<option value="${t.key}" ${t.key === 'topics' ? 'selected' : ''}>${t.label}</option>`)}</select>

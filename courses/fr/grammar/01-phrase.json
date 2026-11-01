@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": "word-order",
-      "title": "Basic word order",
+      "title": "Základní slovosled",
       "fr": "l'ordre des mots",
       "level": "A1",
       "keywords": [
@@ -25,11 +25,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A French statement has a **fixed order**: subject, verb, object. Czech can shuffle words around because it has cases. French has no cases, so **who does what to whom is shown only by the word order**."
+              "cs": "Francouzská oznamovací věta má **pevné pořadí**: podmět, sloveso, předmět. Čeština může slova přehazovat, protože má pády. Francouzština pády nemá, takže **kdo co komu dělá, ukazuje jen slovosled**."
             },
             {
               "type": "pattern",
@@ -54,7 +54,7 @@
                       "le match."
                     ]
                   ],
-                  "en": "Paul watches the match."
+                  "cs": "Paul se dívá na zápas."
                 },
                 {
                   "parts": [
@@ -71,91 +71,91 @@
                       "les chats."
                     ]
                   ],
-                  "en": "My sister likes cats."
+                  "cs": "Moje sestra má ráda kočky."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Why the order matters",
+          "title": "Proč na pořadí záleží",
           "blocks": [
             {
               "type": "text",
-              "en": "In Czech the object has a case ending, so \"Peter bites the dog\" can be said with the words in either order and the meaning stays the same. In French the words never change form, so swapping them swaps the meaning."
+              "cs": "V češtině má předmět pádovou koncovku, takže \"Petr kouše psa\" můžeš říct v jakémkoli pořadí a význam zůstane. Ve francouzštině slova nikdy nemění tvar, takže když je prohodíš, prohodíš i význam."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Pierre bites the dog.",
+                  "cs": "Pierre kouše psa.",
                   "fr": "[[Pierre]] mord [[le chien]].",
-                  "note": "Whoever bites comes first."
+                  "note": "Ten, kdo kouše, stojí první."
                 },
                 {
-                  "en": "The dog bites Pierre.",
+                  "cs": "Pes kouše Pierra.",
                   "fr": "[[Le chien]] mord [[Pierre]].",
-                  "note": "Same words, opposite meaning."
+                  "note": "Stejná slova, opačný význam."
                 }
               ]
             }
           ]
         },
         {
-          "title": "The order stays the same",
+          "title": "Pořadí zůstává stejné",
           "blocks": [
             {
               "type": "text",
-              "en": "Subject + verb also holds after conjunctions and in subordinate clauses: *Je pense que Paul aime le foot.* The only exception is the inversion in some questions (*Aimes-tu le foot ?*)."
+              "cs": "Podmět + sloveso platí i po spojkách a ve vedlejších větách: *Je pense que Paul aime le foot.* Jedinou výjimkou je inverze v některých otázkách (*Aimes-tu le foot ?*)."
             },
             {
               "type": "tip",
-              "title": "Emphasis",
-              "en": "To stress something, French does not move words around. It uses *c'est... qui*: *C'est Paul qui a gagné.* (It was **Paul** who won.)"
+              "title": "Důraz",
+              "cs": "Když chce francouzština něco zdůraznit, slova nepřehazuje. Použije *c'est... qui*: *C'est Paul qui a gagné.* (To **Paul** vyhrál.)"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je joue au basket.",
-                  "en": "I play basketball."
+                  "cs": "Hraju basketbal."
                 },
                 {
                   "fr": "Mon frère regarde un film.",
-                  "en": "My brother is watching a film."
+                  "cs": "Můj bratr se dívá na film."
                 },
                 {
                   "fr": "Les élèves écoutent le professeur.",
-                  "en": "The pupils listen to the teacher."
+                  "cs": "Žáci poslouchají učitele."
                 },
                 {
                   "fr": "Nous mangeons une pizza.",
-                  "en": "We are eating a pizza."
+                  "cs": "Jíme pizzu."
                 },
                 {
                   "fr": "Paul aime Marie.",
-                  "en": "Paul loves Marie."
+                  "cs": "Paul miluje Marii."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Paul is watching the match.",
+                  "cs": "Paul se dívá na zápas.",
                   "wrong": "Le match regarde Paul.",
                   "fr": "[[Paul]] regarde le match.",
-                  "note": "The subject goes first, even if Czech would put it last."
+                  "note": "Podmět stojí první, i kdyby ho čeština dala na konec."
                 }
               ]
             },
@@ -173,7 +173,7 @@
         {
           "id": "g-word-order-01",
           "type": "order",
-          "en": "My father reads the newspaper.",
+          "cs": "Můj táta čte noviny.",
           "a": [
             "Mon père lit le journal."
           ]
@@ -181,7 +181,7 @@
         {
           "id": "g-word-order-02",
           "type": "build",
-          "en": "Marie is watching the film.",
+          "cs": "Marie se dívá na film.",
           "a": [
             "Marie regarde {le|un|ce} film."
           ]
@@ -189,7 +189,7 @@
         {
           "id": "g-word-order-03",
           "type": "transform",
-          "task_en": "Swap who bites whom (the dog bites Pierre)",
+          "task_cs": "Prohoď, kdo koho kouše (pes kouše Pierra)",
           "fr": "Pierre mord le chien.",
           "a": [
             "Le chien mord Pierre."
@@ -198,7 +198,7 @@
         {
           "id": "g-word-order-04",
           "type": "build",
-          "en": "Paul loves Marie.",
+          "cs": "Paul miluje Marii.",
           "a": [
             "Paul aime Marie."
           ]
@@ -207,7 +207,7 @@
     },
     {
       "id": "subject-required",
-      "title": "The subject is required",
+      "title": "Podmět je povinný",
       "fr": "le sujet obligatoire",
       "level": "A1",
       "keywords": [
@@ -233,17 +233,17 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Czech often drops the subject (the verb alone says \"am at home\", \"rains\"). In French **every conjugated verb needs a subject**, even if it is only a pronoun."
+              "cs": "Čeština podmět často vynechává (stačí samotné sloveso: \"jsem doma\", \"prší\"). Ve francouzštině **každé časované sloveso potřebuje podmět**, i kdyby to bylo jen zájmeno."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm at home.",
+                  "cs": "Jsem doma.",
                   "wrong": "Suis à la maison.",
                   "fr": "[[Je]] suis à la maison."
                 }
@@ -252,43 +252,43 @@
           ]
         },
         {
-          "title": "Why",
+          "title": "Proč",
           "blocks": [
             {
               "type": "text",
-              "en": "*Je parle, tu parles, il parle, ils parlent* all sound the same. Only the pronoun tells you who is speaking, so French cannot leave it out."
+              "cs": "*Je parle, tu parles, il parle, ils parlent* znějí všechny stejně. Kdo mluví, ti řekne jen zájmeno, takže ho francouzština vynechat nemůže."
             }
           ]
         },
         {
-          "title": "The empty il",
+          "title": "Prázdné il",
           "blocks": [
             {
               "type": "text",
-              "en": "With weather, time and a few set phrases the subject is *il*, which means nothing (like English \"it\"). Czech has no subject there at all."
+              "cs": "U počasí, času a pár ustálených spojení je podmětem *il*, které nic neznamená (jako anglické \"it\"). Čeština tam podmět vůbec nemá."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il pleut.",
-                  "en": "It's raining."
+                  "cs": "Prší."
                 },
                 {
                   "fr": "Il fait froid.",
-                  "en": "It's cold."
+                  "cs": "Je zima."
                 },
                 {
                   "fr": "Il est huit heures.",
-                  "en": "It's eight o'clock."
+                  "cs": "Je osm hodin."
                 },
                 {
                   "fr": "Il faut travailler.",
-                  "en": "One has to work."
+                  "cs": "Musí se pracovat."
                 },
                 {
                   "fr": "Il y a un problème.",
-                  "en": "There is a problem."
+                  "cs": "Je tu problém."
                 }
               ]
             },
@@ -302,57 +302,57 @@
           ]
         },
         {
-          "title": "When the subject is missing",
+          "title": "Kdy podmět chybí",
           "blocks": [
             {
               "type": "text",
-              "en": "Only in the **imperative**: *Regarde !* (Look!), *Venez !* (Come!). And in short answers without a verb: *Qui est là ? Moi.*"
+              "cs": "Jen v **rozkazovacím způsobu**: *Regarde !* (Podívej!), *Venez !* (Pojďte!). A v krátkých odpovědích bez slovesa: *Qui est là ? Moi.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je suis tchèque.",
-                  "en": "I'm Czech."
+                  "cs": "Jsem Čech."
                 },
                 {
                   "fr": "Tu as quel âge ?",
-                  "en": "How old are you?"
+                  "cs": "Kolik ti je?"
                 },
                 {
                   "fr": "Nous habitons à Prague.",
-                  "en": "We live in Prague."
+                  "cs": "Bydlíme v Praze."
                 },
                 {
                   "fr": "Elle s'appelle Léa.",
-                  "en": "Her name is Léa."
+                  "cs": "Jmenuje se Léa."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "He plays basketball.",
+                  "cs": "Hraje basketbal.",
                   "wrong": "Joue au basket.",
                   "fr": "[[Il]] joue au basket.",
-                  "note": "Who plays? A man: *il*, a woman: *elle*."
+                  "note": "Kdo hraje? Muž: *il*, žena: *elle*."
                 },
                 {
-                  "en": "It's cold.",
+                  "cs": "Je zima.",
                   "wrong": "Est froid.",
                   "fr": "[[Il fait]] froid.",
-                  "note": "Weather uses the verb *faire*: *il fait froid, il fait beau*."
+                  "note": "Počasí používá sloveso *faire*: *il fait froid, il fait beau*."
                 }
               ]
             }
@@ -363,7 +363,7 @@
         {
           "id": "g-subject-required-01",
           "type": "build",
-          "en": "I'm at home.",
+          "cs": "Jsem doma.",
           "a": [
             "Je suis {à la maison|chez moi}."
           ]
@@ -371,7 +371,7 @@
         {
           "id": "g-subject-required-02",
           "type": "build",
-          "en": "It's raining.",
+          "cs": "Prší.",
           "a": [
             "Il pleut."
           ]
@@ -379,7 +379,7 @@
         {
           "id": "g-subject-required-03",
           "type": "build",
-          "en": "We have a dog.",
+          "cs": "Máme psa.",
           "a": [
             "Nous avons un chien.",
             "On a un chien."
@@ -392,12 +392,12 @@
           "a": [
             "Il"
           ],
-          "en": "The weather is nice today."
+          "cs": "Dnes je hezky."
         },
         {
           "id": "g-subject-required-05",
           "type": "build",
-          "en": "He lives in Paris.",
+          "cs": "Bydlí v Paříži.",
           "a": [
             "Il habite à Paris."
           ]
@@ -406,7 +406,7 @@
     },
     {
       "id": "sentence-map",
-      "title": "Sentence map: where everything goes",
+      "title": "Mapa věty: kam co patří",
       "fr": "la place des mots",
       "level": "A1",
       "levelTo": "B1",
@@ -431,11 +431,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Every French statement has the same skeleton. Once you know which slot is which, you know where negation, pronouns and adverbs go. Empty slots are simply skipped."
+              "cs": "Každá francouzská oznamovací věta má stejnou kostru. Když víš, které místo je které, víš, kam patří zápor, zájmena a příslovce. Prázdná místa se prostě přeskočí."
             },
             {
               "type": "pattern",
@@ -490,7 +490,7 @@
                       "dormi."
                     ]
                   ],
-                  "en": "Yesterday I didn't sleep well."
+                  "cs": "Včera jsem se špatně vyspal."
                 },
                 {
                   "parts": [
@@ -523,7 +523,7 @@
                       "à Prague."
                     ]
                   ],
-                  "en": "I have never seen him in Prague."
+                  "cs": "V Praze jsem ho nikdy neviděl."
                 },
                 {
                   "parts": [
@@ -548,7 +548,7 @@
                       "le samedi."
                     ]
                   ],
-                  "en": "We often go to the cinema on Saturdays."
+                  "cs": "V sobotu často chodíme do kina."
                 },
                 {
                   "parts": [
@@ -573,21 +573,21 @@
                       "rien."
                     ]
                   ],
-                  "en": "You're not telling me anything."
+                  "cs": "Nic mi neříkáš."
                 }
               ]
             }
           ]
         },
         {
-          "title": "The slots one by one",
+          "title": "Místa jedno po druhém",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "Slot",
-                "What goes there",
-                "Example"
+                "Místo",
+                "Co tam patří",
+                "Příklad"
               ],
               "textCols": [
                 0,
@@ -595,52 +595,52 @@
               ],
               "rows": [
                 [
-                  "1. time (optional)",
+                  "1. čas (nepovinně)",
                   "*hier, demain, le samedi*",
                   "Demain, je travaille."
                 ],
                 [
-                  "2. subject",
+                  "2. podmět",
                   "*je, tu, Paul, ma sœur*",
                   "Paul travaille."
                 ],
                 [
-                  "3. first part of the negation",
+                  "3. první část záporu",
                   "*ne, n'*",
                   "Je ne travaille pas."
                 ],
                 [
-                  "4. pronouns",
+                  "4. zájmena",
                   "*me, te, se, le, la, les, lui, leur, y, en*",
                   "Je le vois."
                 ],
                 [
-                  "5. conjugated verb",
-                  "the verb, or the auxiliary *avoir / être*",
+                  "5. časované sloveso",
+                  "sloveso, nebo pomocné sloveso *avoir / être*",
                   "J'ai mangé."
                 ],
                 [
-                  "6. second part of the negation",
+                  "6. druhá část záporu",
                   "*pas, jamais, plus, rien*",
                   "Je n'ai pas mangé."
                 ],
                 [
-                  "7. short adverb",
+                  "7. krátké příslovce",
                   "*bien, mal, déjà, souvent, beaucoup, trop*",
                   "J'ai bien mangé."
                 ],
                 [
-                  "8. participle or infinitive",
+                  "8. příčestí nebo infinitiv",
                   "*mangé, fait, manger*",
                   "Je vais manger."
                 ],
                 [
-                  "9. object",
+                  "9. předmět",
                   "*une pomme, le match*",
                   "Je mange une pomme."
                 ],
                 [
-                  "10. place and time",
+                  "10. místo a čas",
                   "*à la cantine, à midi*",
                   "Je mange à la cantine à midi."
                 ]
@@ -649,20 +649,20 @@
           ]
         },
         {
-          "title": "Three extra rules",
+          "title": "Tři pravidla navíc",
           "level": "A2",
           "blocks": [
             {
               "type": "text",
-              "en": "1. **Negation and pronouns wrap around the conjugated verb**: *ne* and the pronouns before it, *pas* after it."
+              "cs": "1. **Zápor a zájmena obklopují časované sloveso**: *ne* a zájmena před ním, *pas* za ním."
             },
             {
               "type": "text",
-              "en": "2. In **compound tenses** the conjugated verb is the auxiliary: *Je ne l'ai pas vu.*"
+              "cs": "2. Ve **složených časech** je časovaným slovesem pomocné sloveso: *Je ne l'ai pas vu.*"
             },
             {
               "type": "text",
-              "en": "3. With an **infinitive**, pronouns go with the infinitive, not with the conjugated verb: *Je vais le voir.*"
+              "cs": "3. U **infinitivu** patří zájmena k infinitivu, ne k časovanému slovesu: *Je vais le voir.*"
             },
             {
               "type": "pattern",
@@ -694,53 +694,53 @@
                       "regarder."
                     ]
                   ],
-                  "en": "I'm not going to watch it. (the film)"
+                  "cs": "Nebudu se na něj dívat. (ten film)"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Demain, je ne vais pas au collège.",
-                  "en": "Tomorrow I'm not going to school."
+                  "cs": "Zítra nejdu do školy."
                 },
                 {
                   "fr": "Je l'ai déjà lu.",
-                  "en": "I've already read it."
+                  "cs": "Už jsem ji četl."
                 },
                 {
                   "fr": "Elle ne te parle jamais.",
-                  "en": "She never talks to you."
+                  "cs": "Nikdy s tebou nemluví."
                 },
                 {
                   "fr": "Nous avons beaucoup travaillé hier.",
-                  "en": "We worked a lot yesterday."
+                  "cs": "Včera jsme hodně pracovali."
                 },
                 {
                   "fr": "Tu vas lui écrire ?",
-                  "en": "Are you going to write to him?"
+                  "cs": "Napíšeš mu?"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I've never seen him.",
+                  "cs": "Nikdy jsem ho neviděl.",
                   "wrong": "Je n'ai jamais le vu.",
                   "fr": "Je ne [[l'ai]] jamais vu.",
-                  "note": "The pronoun goes before the auxiliary and *jamais* after it. And *le* becomes *l'* before a vowel."
+                  "note": "Zájmeno stojí před pomocným slovesem a *jamais* za ním. A *le* se před samohláskou mění na *l'*."
                 }
               ]
             }
@@ -751,7 +751,7 @@
         {
           "id": "g-sentence-map-01",
           "type": "order",
-          "en": "Yesterday I didn't sleep well.",
+          "cs": "Včera jsem se špatně vyspal.",
           "a": [
             "Hier, je n'ai pas bien dormi."
           ]
@@ -759,7 +759,7 @@
         {
           "id": "g-sentence-map-02",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Je l'ai vu.",
           "a": [
             "Je ne l'ai pas vu."
@@ -768,7 +768,7 @@
         {
           "id": "g-sentence-map-03",
           "type": "transform",
-          "task_en": "Replace \"le film\" with a pronoun",
+          "task_cs": "Nahraď \"le film\" zájmenem",
           "fr": "Je vais regarder le film.",
           "a": [
             "Je vais le regarder."
@@ -777,7 +777,7 @@
         {
           "id": "g-sentence-map-04",
           "type": "transform",
-          "task_en": "Add \"bien\" in the right place",
+          "task_cs": "Přidej \"bien\" na správné místo",
           "fr": "J'ai dormi.",
           "a": [
             "J'ai bien dormi."
@@ -786,7 +786,7 @@
         {
           "id": "g-sentence-map-05",
           "type": "build",
-          "en": "You're not telling me anything.",
+          "cs": "Nic mi neříkáš.",
           "a": [
             "Tu ne me dis rien."
           ]
@@ -795,7 +795,7 @@
     },
     {
       "id": "time-place",
-      "title": "Where time and place go",
+      "title": "Kam patří čas a místo",
       "fr": "le temps et le lieu",
       "level": "A1",
       "keywords": [
@@ -817,11 +817,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Words about time (*demain, le lundi, à huit heures*) go **at the start** or **at the very end** of the sentence, never between the subject and the verb. When both place and time come at the end, **place comes first, then time**."
+              "cs": "Časové údaje (*demain, le lundi, à huit heures*) stojí **na začátku** nebo **úplně na konci** věty, nikdy mezi podmětem a slovesem. Když je na konci místo i čas, **místo je první, pak čas**."
             },
             {
               "type": "pattern",
@@ -845,7 +845,7 @@
                       "à Paris."
                     ]
                   ],
-                  "en": "Tomorrow I'm going to Paris."
+                  "cs": "Zítra jedu do Paříže."
                 },
                 {
                   "parts": [
@@ -866,30 +866,30 @@
                       "demain."
                     ]
                   ],
-                  "en": "I'm going to Paris tomorrow."
+                  "cs": "Jedu do Paříže zítra."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Tomorrow I'm going to Paris.",
+                  "cs": "Zítra jedu do Paříže.",
                   "wrong": "Je demain vais à Paris.",
                   "fr": "[[Demain]], je vais à Paris.",
-                  "note": "Only *ne* and pronouns may stand between the subject and the verb."
+                  "note": "Mezi podmětem a slovesem smí stát jen *ne* a zájmena."
                 }
               ]
             },
             {
               "type": "tip",
-              "title": "Exception: how often",
-              "en": "*Souvent, toujours, déjà, jamais* are short adverbs and go **right after the verb**: *Je joue souvent au foot.*"
+              "title": "Výjimka: jak často",
+              "cs": "*Souvent, toujours, déjà, jamais* jsou krátká příslovce a stojí **hned za slovesem**: *Je joue souvent au foot.*"
             },
             {
               "type": "see",
@@ -901,30 +901,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le samedi, je joue au basket.",
-                  "en": "On Saturdays I play basketball."
+                  "cs": "V sobotu hraju basketbal."
                 },
                 {
                   "fr": "Je joue au basket le samedi.",
-                  "en": "I play basketball on Saturdays."
+                  "cs": "Basketbal hraju v sobotu."
                 },
                 {
                   "fr": "Nous mangeons à la cantine à midi.",
-                  "en": "We eat in the canteen at noon."
+                  "cs": "V poledne jíme v jídelně."
                 },
                 {
                   "fr": "Ce soir, on va au cinéma.",
-                  "en": "Tonight we're going to the cinema."
+                  "cs": "Dnes večer jdeme do kina."
                 },
                 {
                   "fr": "Elle est née à Prague en 2012.",
-                  "en": "She was born in Prague in 2012."
+                  "cs": "Narodila se v Praze v roce 2012."
                 }
               ]
             }
@@ -935,7 +935,7 @@
         {
           "id": "g-time-place-01",
           "type": "build",
-          "en": "Tomorrow I'm playing basketball.",
+          "cs": "Zítra hraju basketbal.",
           "a": [
             "Demain, je joue au basket.",
             "Je joue au basket demain."
@@ -944,7 +944,7 @@
         {
           "id": "g-time-place-02",
           "type": "order",
-          "en": "On Saturday I'm going to the cinema.",
+          "cs": "V sobotu jdu do kina.",
           "a": [
             "Samedi, je vais au cinéma.",
             "Je vais au cinéma samedi."
@@ -953,7 +953,7 @@
         {
           "id": "g-time-place-03",
           "type": "transform",
-          "task_en": "Move \"demain\" to the start of the sentence",
+          "task_cs": "Přesuň \"demain\" na začátek věty",
           "fr": "Je vais à Paris demain.",
           "a": [
             "Demain, je vais à Paris."
@@ -962,7 +962,7 @@
         {
           "id": "g-time-place-04",
           "type": "build",
-          "en": "Tonight I'm at home.",
+          "cs": "Dnes večer jsem doma.",
           "a": [
             "Ce soir, je suis {à la maison|chez moi}.",
             "Je suis {à la maison|chez moi} ce soir."
@@ -972,7 +972,7 @@
     },
     {
       "id": "c-est-il-est",
-      "title": "C'est or il est?",
+      "title": "C'est, nebo il est?",
       "fr": "c'est / il est",
       "level": "A1",
       "levelTo": "A2",
@@ -997,11 +997,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "When an **article** (*un, le, mon...*) or a name follows, use *c'est*. When a bare **adjective** or a profession follows and you are talking about a specific person, use *il est / elle est*."
+              "cs": "Když následuje **člen** (*un, le, mon...*) nebo jméno, použij *c'est*. Když následuje holé **přídavné jméno** nebo povolání a mluvíš o konkrétní osobě, použij *il est / elle est*."
             },
             {
               "type": "table",
@@ -1015,91 +1015,91 @@
               ],
               "rows": [
                 [
-                  "article + noun: *C'est un ami.*",
-                  "adjective: *Il est sympa.*"
+                  "člen + podstatné jméno: *C'est un ami.*",
+                  "přídavné jméno: *Il est sympa.*"
                 ],
                 [
-                  "name: *C'est Paul.*",
-                  "profession without an article: *Il est médecin.*"
+                  "jméno: *C'est Paul.*",
+                  "povolání bez členu: *Il est médecin.*"
                 ],
                 [
-                  "stressed pronoun: *C'est moi.*",
-                  "nationality: *Elle est française.*"
+                  "samostatné zájmeno: *C'est moi.*",
+                  "národnost: *Elle est française.*"
                 ],
                 [
-                  "judging a thing: *C'est super !*",
-                  "time: *Il est huit heures.*"
+                  "hodnocení věci: *C'est super !*",
+                  "čas: *Il est huit heures.*"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Professions",
+          "title": "Povolání",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "That's a doctor.",
+                  "cs": "To je lékař.",
                   "fr": "[[C'est un]] médecin."
                 },
                 {
-                  "en": "He's a doctor.",
+                  "cs": "Je lékař.",
                   "fr": "[[Il est]] médecin.",
-                  "note": "After *il est* the profession has **no article**."
+                  "note": "Po *il est* nemá povolání **žádný člen**."
                 },
                 {
-                  "en": "He's a good doctor.",
+                  "cs": "Je to dobrý lékař.",
                   "fr": "[[C'est un]] bon médecin.",
-                  "note": "As soon as the profession has an adjective it needs an article, so *c'est*."
+                  "note": "Jakmile má povolání přídavné jméno, potřebuje člen, takže *c'est*."
                 }
               ]
             }
           ]
         },
         {
-          "title": "C'est + adjective",
+          "title": "C'est + přídavné jméno",
           "blocks": [
             {
               "type": "text",
-              "en": "*C'est* + adjective judges **a thing or a situation in general**: *C'est facile.* (That's easy.) The adjective is then always masculine: *La pizza ? C'est bon !*"
+              "cs": "*C'est* + přídavné jméno hodnotí **věc nebo situaci obecně**: *C'est facile.* (To je snadné.) Přídavné jméno je pak vždycky v mužském rodě: *La pizza ? C'est bon !*"
             },
             {
               "type": "text",
-              "en": "In the plural the careful form is *ce sont*: *Ce sont mes amis.* In speech you will also hear *C'est mes amis.*"
+              "cs": "V množném čísle je spisovný tvar *ce sont*: *Ce sont mes amis.* V mluvené řeči uslyšíš i *C'est mes amis.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Qui est-ce ? C'est mon frère.",
-                  "en": "Who is it? It's my brother."
+                  "cs": "Kdo je to? To je můj brácha."
                 },
                 {
                   "fr": "Il est grand et sportif.",
-                  "en": "He's tall and sporty."
+                  "cs": "Je vysoký a sportovní."
                 },
                 {
                   "fr": "C'est une bonne idée.",
-                  "en": "That's a good idea."
+                  "cs": "To je dobrý nápad."
                 },
                 {
                   "fr": "Elle est professeure.",
-                  "en": "She's a teacher."
+                  "cs": "Je učitelka."
                 },
                 {
                   "fr": "Ce sont mes parents.",
-                  "en": "These are my parents."
+                  "cs": "To jsou moji rodiče."
                 },
                 {
                   "fr": "Le français, c'est difficile ?",
-                  "en": "Is French difficult?"
+                  "cs": "Je francouzština těžká?"
                 }
               ]
             }
@@ -1114,7 +1114,7 @@
           "a": [
             "C'est"
           ],
-          "en": "This is my friend Lucas."
+          "cs": "To je můj kamarád Lukáš."
         },
         {
           "id": "g-c-est-il-est-02",
@@ -1123,7 +1123,7 @@
           "a": [
             "Il est"
           ],
-          "en": "Lucas? He's really nice."
+          "cs": "Lukáš? Je fakt milý."
         },
         {
           "id": "g-c-est-il-est-03",
@@ -1132,7 +1132,7 @@
           "a": [
             "Elle est"
           ],
-          "en": "My mother? She's a doctor."
+          "cs": "Moje máma? Je lékařka."
         },
         {
           "id": "g-c-est-il-est-04",
@@ -1142,12 +1142,12 @@
             "Ce sont",
             "C'est"
           ],
-          "en": "These are my cousins."
+          "cs": "To jsou moji bratranci a sestřenice."
         },
         {
           "id": "g-c-est-il-est-05",
           "type": "build",
-          "en": "That's easy.",
+          "cs": "To je snadné.",
           "a": [
             "C'est facile."
           ]
@@ -1156,7 +1156,7 @@
     },
     {
       "id": "possession",
-      "title": "Showing who owns it: de, à and possessives",
+      "title": "Čí to je: de, à a přivlastňovací zájmena",
       "fr": "la possession",
       "level": "A1",
       "keywords": [
@@ -1180,27 +1180,27 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "French has no *'s*. You say **the thing + de + the owner**: *le livre de Paul*. To say that something belongs to someone you can also use **être à**: *Ce livre est à Paul.* For *whose* use **à qui**."
+              "cs": "Francouzština nemá přivlastňovací přídavná jména jako české *Pavlův*. Říká se **věc + de + majitel**: *le livre de Paul*. Že něco někomu patří, řekneš i pomocí **être à**: *Ce livre est à Paul.* Na *čí* se ptej **à qui**."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Paul's book",
+                  "cs": "Pavlova kniha",
                   "wrong": "Le livre Paul.",
                   "fr": "Le livre [[de]] Paul."
                 },
                 {
-                  "en": "This book is Paul's.",
+                  "cs": "Tahle kniha je Pavlova.",
                   "wrong": "Ce livre est Paul.",
                   "fr": "Ce livre est [[à]] Paul."
                 },
                 {
-                  "en": "Whose bike is this?",
+                  "cs": "Čí je to kolo?",
                   "wrong": "Qui est ce vélo ?",
                   "fr": "[[À qui]] est ce vélo ?"
                 }
@@ -1209,39 +1209,39 @@
           ]
         },
         {
-          "title": "With de",
+          "title": "S de",
           "blocks": [
             {
               "type": "text",
-              "en": "The owner comes **after** the thing. *De* + *le* becomes *du*, *de* + *les* becomes *des*, and *de* shortens to *d'* before a vowel."
+              "cs": "Majitel stojí **za** věcí. *De* + *le* se mění na *du*, *de* + *les* na *des* a *de* se před samohláskou zkracuje na *d'*."
             },
             {
               "type": "table",
               "head": [
-                "pattern",
-                "example",
-                "English"
+                "vzorec",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
                   "la chambre de + name",
                   "la chambre de Marie",
-                  "Marie's room"
+                  "Mariin pokoj"
                 ],
                 [
                   "le père de + name",
                   "le père d'Éric",
-                  "Éric's father"
+                  "Erikův táta"
                 ],
                 [
                   "de + le = du",
                   "le vélo du frère de Paul",
-                  "Paul's brother's bike"
+                  "kolo Pavlova bratra"
                 ],
                 [
                   "de + les = des",
                   "la voiture des voisins",
-                  "the neighbours' car"
+                  "auto sousedů"
                 ]
               ],
               "textCols": [
@@ -1250,39 +1250,39 @@
             },
             {
               "type": "tip",
-              "en": "A chain of owners keeps the same order: *la voiture du frère de mon ami* = my friend's brother's car."
+              "cs": "Řetěz majitelů si drží stejné pořadí: *la voiture du frère de mon ami* = auto bratra mého kamaráda."
             }
           ]
         },
         {
-          "title": "With être à",
+          "title": "S être à",
           "blocks": [
             {
               "type": "text",
-              "en": "*Être à* says that something **belongs to** someone. After *à* you use a name or a **stressed pronoun**: *à moi, à toi, à lui, à elle, à nous, à vous, à eux, à elles*."
+              "cs": "*Être à* říká, že něco někomu **patří**. Po *à* použij jméno nebo **samostatné zájmeno**: *à moi, à toi, à lui, à elle, à nous, à vous, à eux, à elles*."
             },
             {
               "type": "table",
               "head": [
-                "question",
-                "answer",
-                "English"
+                "otázka",
+                "odpověď",
+                "česky"
               ],
               "rows": [
                 [
                   "À qui est ce sac ?",
                   "Il est à moi.",
-                  "Whose bag is this? It's mine."
+                  "Čí je to taška? Moje."
                 ],
                 [
                   "C'est à toi ?",
                   "Non, c'est à lui.",
-                  "Is it yours? No, it's his."
+                  "Je tvoje? Ne, jeho."
                 ],
                 [
                   "Ces clés sont à Julie.",
                   "Elles sont à elle.",
-                  "These keys are Julie's. They are hers."
+                  "Tyhle klíče jsou Juliiny. Jsou její."
                 ]
               ],
               "textCols": [
@@ -1291,32 +1291,32 @@
             },
             {
               "type": "tip",
-              "en": "*C'est à moi* (it is mine) and *c'est mon livre* (it is my book) are two different ways to say the same thing. Use the possessive before a noun, *à moi* when the noun is not said.",
-              "title": "Mon or à moi?"
+              "cs": "*C'est à moi* (to je moje) a *c'est mon livre* (to je moje kniha) jsou dva způsoby, jak říct totéž. Přivlastňovací zájmeno použij před podstatným jménem, *à moi*, když podstatné jméno nezazní.",
+              "title": "Mon, nebo à moi?"
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "my friend's house",
+                  "cs": "dům mého kamaráda",
                   "wrong": "la maison mon ami",
                   "fr": "la maison [[de]] mon ami"
                 },
                 {
-                  "en": "It's Marie's.",
+                  "cs": "Je Mariin.",
                   "wrong": "C'est Marie.",
                   "fr": "C'est [[à]] Marie. / C'est [[celui de]] Marie."
                 },
                 {
-                  "en": "It's mine.",
+                  "cs": "Je můj.",
                   "wrong": "C'est mien.",
                   "fr": "C'est [[à moi]]. / C'est [[le mien]].",
-                  "note": "*Le mien* is the possessive pronoun (see the article about it)."
+                  "note": "*Le mien* je přivlastňovací zájmeno (viz článek o něm)."
                 }
               ]
             },
@@ -1332,34 +1332,34 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "C'est la maison de mes grands-parents.",
-                  "en": "It's my grandparents' house."
+                  "cs": "To je dům mých prarodičů."
                 },
                 {
                   "fr": "Le téléphone de Paul est cassé.",
-                  "en": "Paul's phone is broken."
+                  "cs": "Pavlův telefon je rozbitý."
                 },
                 {
                   "fr": "À qui est cette veste ? Elle est à moi.",
-                  "en": "Whose jacket is this? It's mine."
+                  "cs": "Čí je to bunda? Moje."
                 },
                 {
                   "fr": "Le chat de la voisine dort sur mon lit.",
-                  "en": "The neighbour's cat is sleeping on my bed."
+                  "cs": "Sousedova kočka spí na mé posteli."
                 },
                 {
                   "fr": "Ces livres ne sont pas à nous.",
-                  "en": "These books are not ours."
+                  "cs": "Tyhle knihy nejsou naše."
                 },
                 {
                   "fr": "Le prénom du professeur est Hugo.",
-                  "en": "The teacher's first name is Hugo."
+                  "cs": "Učitel se křestním jménem jmenuje Hugo."
                 }
               ]
             }
@@ -1370,7 +1370,7 @@
         {
           "id": "g-possession-01",
           "type": "build",
-          "en": "Paul's book.",
+          "cs": "Pavlova kniha.",
           "a": [
             "Le livre de Paul."
           ]
@@ -1378,7 +1378,7 @@
         {
           "id": "g-possession-02",
           "type": "build",
-          "en": "The neighbours' car.",
+          "cs": "Auto sousedů.",
           "a": [
             "La voiture des voisins."
           ]
@@ -1386,7 +1386,7 @@
         {
           "id": "g-possession-03",
           "type": "build",
-          "en": "Whose bag is this?",
+          "cs": "Čí je ta taška?",
           "a": [
             "À qui est ce sac ?"
           ]
@@ -1394,7 +1394,7 @@
         {
           "id": "g-possession-04",
           "type": "build",
-          "en": "This pen is mine.",
+          "cs": "Tahle propiska je moje.",
           "a": [
             "Ce stylo est à moi."
           ]
@@ -1402,7 +1402,7 @@
         {
           "id": "g-possession-05",
           "type": "build",
-          "en": "It's Marie's room.",
+          "cs": "To je Mariin pokoj.",
           "a": [
             "C'est la chambre de Marie."
           ]
@@ -1414,7 +1414,7 @@
           "a": [
             "de"
           ],
-          "en": "It's Marie's bike."
+          "cs": "To je Mariino kolo."
         },
         {
           "id": "g-possession-07",
@@ -1423,7 +1423,7 @@
           "a": [
             "du"
           ],
-          "en": "Paul's brother's phone is new."
+          "cs": "Telefon Pavlova bratra je nový."
         },
         {
           "id": "g-possession-08",
@@ -1432,7 +1432,7 @@
           "a": [
             "à"
           ],
-          "en": "These keys are theirs."
+          "cs": "Tyhle klíče jsou jejich."
         }
       ]
     },
@@ -1459,11 +1459,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*Il y a* means \"there is, there are\". It is a fixed phrase and **never changes for number**: *il y a un chat* and *il y a trois chats*."
+              "cs": "*Il y a* znamená \"je, jsou, existuje\". Je to ustálené spojení a **nikdy se nemění podle čísla**: *il y a un chat* i *il y a trois chats*."
             },
             {
               "type": "pattern",
@@ -1491,21 +1491,21 @@
                       "dans le jardin."
                     ]
                   ],
-                  "en": "There is a cat in the garden."
+                  "cs": "Na zahradě je kočka."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Negation, questions, past",
+          "title": "Zápor, otázky, minulost",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -1513,55 +1513,55 @@
               ],
               "rows": [
                 [
-                  "statement",
+                  "oznamovací věta",
                   "Il y a du pain.",
-                  "There is bread."
+                  "Je tu chleba."
                 ],
                 [
-                  "negation",
+                  "zápor",
                   "Il n'y a pas de pain.",
-                  "There is no bread."
+                  "Není tu chleba."
                 ],
                 [
-                  "question",
+                  "otázka",
                   "Est-ce qu'il y a du pain ?",
-                  "Is there any bread?"
+                  "Je tu chleba?"
                 ],
                 [
-                  "past",
+                  "minulost",
                   "Il y avait du pain.",
-                  "There was bread."
+                  "Byl tam chleba."
                 ]
               ]
             },
             {
               "type": "tip",
-              "en": "In the negative *un, une, du, des* become *de*: *Il n'y a pas de lait.*"
+              "cs": "V záporu se *un, une, du, des* mění na *de*: *Il n'y a pas de lait.*"
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "In my room there is a bed.",
+                  "cs": "V mém pokoji je postel.",
                   "wrong": "Dans ma chambre est un lit.",
                   "fr": "Dans ma chambre, [[il y a]] un lit."
                 },
                 {
-                  "en": "How many pupils are there in the class?",
+                  "cs": "Kolik je ve třídě žáků?",
                   "fr": "[[Il y a]] combien d'élèves dans la classe ?",
-                  "note": "The careful form: *Combien d'élèves y a-t-il dans la classe ?*"
+                  "note": "Spisovný tvar: *Combien d'élèves y a-t-il dans la classe ?*"
                 }
               ]
             },
             {
               "type": "tip",
-              "title": "Il y a + time",
-              "en": "*Il y a* + a time expression means \"ago\": *il y a deux ans* = two years ago."
+              "title": "Il y a + čas",
+              "cs": "*Il y a* + časový údaj znamená \"před\": *il y a deux ans* = před dvěma lety."
             },
             {
               "type": "see",
@@ -1572,30 +1572,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il y a un parc près de chez moi.",
-                  "en": "There is a park near my house."
+                  "cs": "Blízko mého domu je park."
                 },
                 {
                   "fr": "Il y a beaucoup de monde.",
-                  "en": "There are a lot of people."
+                  "cs": "Je tu hodně lidí."
                 },
                 {
                   "fr": "Il n'y a pas de bus le dimanche.",
-                  "en": "There are no buses on Sundays."
+                  "cs": "V neděli nejezdí autobusy."
                 },
                 {
                   "fr": "Qu'est-ce qu'il y a ?",
-                  "en": "What's the matter?"
+                  "cs": "Co se děje?"
                 },
                 {
                   "fr": "Il y a vingt élèves dans ma classe.",
-                  "en": "There are twenty pupils in my class."
+                  "cs": "V mé třídě je dvacet žáků."
                 }
               ]
             }
@@ -1606,7 +1606,7 @@
         {
           "id": "g-il-y-a-01",
           "type": "build",
-          "en": "There is an apple on the table.",
+          "cs": "Na stole je jablko.",
           "a": [
             "Il y a une pomme sur la table.",
             "Sur la table, il y a une pomme."
@@ -1615,7 +1615,7 @@
         {
           "id": "g-il-y-a-02",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Il y a du lait.",
           "a": [
             "Il n'y a pas de lait."
@@ -1628,12 +1628,12 @@
           "a": [
             "y"
           ],
-          "en": "There are two beds in my room."
+          "cs": "V mém pokoji jsou dvě postele."
         },
         {
           "id": "g-il-y-a-04",
           "type": "build",
-          "en": "There is no problem.",
+          "cs": "Není žádný problém.",
           "a": [
             "Il n'y a pas de problème.",
             "Il n'y a aucun problème."
@@ -1643,7 +1643,7 @@
     },
     {
       "id": "voici-voila",
-      "title": "Pointing things out: voici, voilà, c'est, ce sont",
+      "title": "Ukazování: voici, voilà, c'est, ce sont",
       "fr": "les présentatifs",
       "level": "A1",
       "keywords": [
@@ -1664,38 +1664,38 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "To **show or introduce** something French uses small fixed words: *voici* (here is), *voilà* (there is, here you are), *c'est* and *ce sont* (this is, these are) and *il y a* (there is, there are). None of them changes with the tense of a story, they just point."
+              "cs": "Když něco **ukazuješ nebo představuješ**, používá francouzština malá ustálená slova: *voici* (tady je), *voilà* (tamhle je, tady máš), *c'est* a *ce sont* (to je, to jsou) a *il y a* (je, jsou). Žádné z nich se nemění podle času vyprávění, jen ukazují."
             },
             {
               "type": "table",
               "head": [
-                "word",
-                "use",
-                "example"
+                "slovo",
+                "použití",
+                "příklad"
               ],
               "rows": [
                 [
                   "voici",
-                  "here is, here are (near)",
+                  "tady je, tady jsou (blízko)",
                   "Voici ma sœur."
                 ],
                 [
                   "voilà",
-                  "there is, there you are, that's it",
+                  "tamhle je, tady máš, a je to",
                   "Voilà le bus !"
                 ],
                 [
                   "c'est / ce sont",
-                  "this is, these are",
+                  "to je, to jsou",
                   "C'est Léa. Ce sont mes amis."
                 ],
                 [
                   "il y a",
-                  "there is, there are (exists)",
+                  "je, jsou (existuje)",
                   "Il y a un chat dans le jardin."
                 ]
               ],
@@ -1706,52 +1706,52 @@
           ]
         },
         {
-          "title": "Voici and voilà",
+          "title": "Voici a voilà",
           "blocks": [
             {
               "type": "text",
-              "en": "*Voici* points to something **near**, *voilà* to something **farther** or to the thing you just said or gave. In everyday speech people mostly say *voilà* for both. With a pronoun it goes in front: *Me voici !* (here I am) *Le voilà !* (there he is)."
+              "cs": "*Voici* ukazuje na něco **blízko**, *voilà* na něco **dál** nebo na to, co jsi právě řekl(a) či podal(a). V běžné řeči se většinou říká *voilà* pro obojí. Se zájmenem stojí zájmeno vpředu: *Me voici !* (tady jsem) *Le voilà !* (tamhle je)."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Voici mon frère et voilà ma sœur.",
-                  "en": "Here's my brother and there's my sister."
+                  "cs": "Tady je můj bratr a tamhle moje sestra."
                 },
                 {
                   "fr": "Voilà ton café.",
-                  "en": "Here's your coffee."
+                  "cs": "Tady je tvoje káva."
                 },
                 {
                   "fr": "Me voilà !",
-                  "en": "Here I am!"
+                  "cs": "Tady jsem!"
                 },
                 {
                   "fr": "Les voici !",
-                  "en": "Here they are!"
+                  "cs": "Tady jsou!"
                 }
               ]
             }
           ]
         },
         {
-          "title": "C'est, ce sont and il y a",
+          "title": "C'est, ce sont a il y a",
           "blocks": [
             {
               "type": "text",
-              "en": "*C'est* **identifies** (who or what is it?). *Il y a* says that something **exists** or is present somewhere. After *c'est* the noun is known and has an article or possessive; after *il y a* it is new."
+              "cs": "*C'est* **určuje** (kdo nebo co to je?). *Il y a* říká, že něco **existuje** nebo někde je. Po *c'est* je podstatné jméno známé a má člen nebo přivlastňovací zájmeno; po *il y a* je nové."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Who is it? It's Paul.",
+                  "cs": "Kdo je to? To je Paul.",
                   "wrong": "Il y a Paul.",
                   "fr": "[[C'est]] Paul."
                 },
                 {
-                  "en": "There are two cats in the garden.",
+                  "cs": "Na zahradě jsou dvě kočky.",
                   "wrong": "Ce sont deux chats dans le jardin.",
                   "fr": "[[Il y a]] deux chats dans le jardin."
                 }
@@ -1759,35 +1759,35 @@
             },
             {
               "type": "tip",
-              "en": "In speech *c'est* is also used with plurals: *C'est mes amis.* In writing use *ce sont*: *Ce sont mes amis.*"
+              "cs": "V mluvené řeči se *c'est* používá i s množným číslem: *C'est mes amis.* V psaní použij *ce sont*: *Ce sont mes amis.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Voici la clé de la maison.",
-                  "en": "Here's the house key."
+                  "cs": "Tady je klíč od domu."
                 },
                 {
                   "fr": "Voilà, c'est fini !",
-                  "en": "There, it's done!"
+                  "cs": "A je to hotové!"
                 },
                 {
                   "fr": "C'est une bonne idée.",
-                  "en": "That's a good idea."
+                  "cs": "To je dobrý nápad."
                 },
                 {
                   "fr": "Ce sont des touristes.",
-                  "en": "They are tourists."
+                  "cs": "Jsou to turisti."
                 },
                 {
                   "fr": "Il y a trop de monde ici.",
-                  "en": "There are too many people here."
+                  "cs": "Je tu moc lidí."
                 }
               ]
             }
@@ -1798,7 +1798,7 @@
         {
           "id": "g-voici-voila-01",
           "type": "build",
-          "en": "Here's my brother.",
+          "cs": "Tady je můj bratr.",
           "a": [
             "Voici mon frère."
           ]
@@ -1806,7 +1806,7 @@
         {
           "id": "g-voici-voila-02",
           "type": "build",
-          "en": "Here you go!",
+          "cs": "Tady máš!",
           "a": [
             "Voilà !",
             "Tenez !"
@@ -1815,7 +1815,7 @@
         {
           "id": "g-voici-voila-03",
           "type": "build",
-          "en": "There he is!",
+          "cs": "Tamhle je!",
           "a": [
             "Le voilà !"
           ]
@@ -1823,7 +1823,7 @@
         {
           "id": "g-voici-voila-04",
           "type": "build",
-          "en": "These are my friends.",
+          "cs": "To jsou moji kamarádi.",
           "a": [
             "Ce sont mes amis."
           ]
@@ -1836,7 +1836,7 @@
             "Voilà",
             "Voici"
           ],
-          "en": "Here's your phone!"
+          "cs": "Tady je tvůj telefon!"
         },
         {
           "id": "g-voici-voila-06",
@@ -1845,7 +1845,7 @@
           "a": [
             "y a"
           ],
-          "en": "There are three pupils absent."
+          "cs": "Chybí tři žáci."
         },
         {
           "id": "g-voici-voila-07",
@@ -1856,13 +1856,13 @@
             "Voici",
             "Voilà"
           ],
-          "en": "This is my sister, her name is Léa."
+          "cs": "To je moje sestra, jmenuje se Léa."
         }
       ]
     },
     {
       "id": "impersonal",
-      "title": "Impersonal sentences",
+      "title": "Neosobní věty",
       "fr": "les verbes impersonnels",
       "level": "A1",
       "keywords": [
@@ -1888,18 +1888,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Some verbs have only the empty *il* as their subject. Czech has no subject there at all (the verb alone says \"rains\", \"is cold\", \"is necessary\")."
+              "cs": "Některá slovesa mají jako podmět jen prázdné *il*. Čeština tam podmět vůbec nemá (stačí samotné sloveso: \"prší\", \"je zima\", \"je třeba\")."
             },
             {
               "type": "table",
               "head": [
                 "",
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -1907,34 +1907,34 @@
               ],
               "rows": [
                 [
-                  "weather",
+                  "počasí",
                   "Il pleut. Il neige.",
-                  "It's raining. It's snowing."
+                  "Prší. Sněží."
                 ],
                 [
-                  "weather with faire",
+                  "počasí s faire",
                   "Il fait beau / froid / chaud.",
-                  "It's nice / cold / hot."
+                  "Je hezky / zima / horko."
                 ],
                 [
-                  "time",
+                  "čas",
                   "Il est huit heures.",
-                  "It's eight o'clock."
+                  "Je osm hodin."
                 ],
                 [
-                  "necessity",
+                  "nutnost",
                   "Il faut partir.",
-                  "One has to leave."
+                  "Musí se jít."
                 ],
                 [
                   "existence",
                   "Il y a un problème.",
-                  "There is a problem."
+                  "Je tu problém."
                 ],
                 [
-                  "judgement",
+                  "hodnocení",
                   "Il est important de dormir.",
-                  "It's important to sleep."
+                  "Je důležité spát."
                 ]
               ]
             }
@@ -1945,48 +1945,48 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Il faut* + infinitive means \"one has to, it is necessary to\". It does not say who, it applies in general. To say who exactly has to, use *devoir*: *Je dois partir.* (I have to leave.)"
+              "cs": "*Il faut* + infinitiv znamená \"je třeba, musí se\". Neříká kdo, platí obecně. Když chceš říct, kdo přesně musí, použij *devoir*: *Je dois partir.* (Musím odejít.)"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il faut manger des légumes.",
-                  "en": "One has to eat vegetables."
+                  "cs": "Je třeba jíst zeleninu."
                 },
                 {
                   "fr": "Il ne faut pas courir ici.",
-                  "en": "You must not run here."
+                  "cs": "Tady se nesmí běhat."
                 }
               ]
             },
             {
               "type": "tip",
-              "en": "*Il ne faut pas* means \"must not\", not \"doesn't have to\". \"Doesn't have to\" is *il n'est pas nécessaire de*."
+              "cs": "*Il ne faut pas* znamená \"nesmí se\", ne \"nemusí se\". \"Nemusí se\" je *il n'est pas nécessaire de*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il fait très chaud aujourd'hui.",
-                  "en": "It's very hot today."
+                  "cs": "Dnes je velké horko."
                 },
                 {
                   "fr": "Il est tard, il faut dormir.",
-                  "en": "It's late, we have to sleep."
+                  "cs": "Je pozdě, musíme spát."
                 },
                 {
                   "fr": "Il a neigé cette nuit.",
-                  "en": "It snowed last night."
+                  "cs": "V noci sněžilo."
                 },
                 {
                   "fr": "Il est difficile de parler chinois.",
-                  "en": "It's difficult to speak Chinese."
+                  "cs": "Je těžké mluvit čínsky."
                 }
               ]
             }
@@ -1997,7 +1997,7 @@
         {
           "id": "g-impersonal-01",
           "type": "build",
-          "en": "It's raining.",
+          "cs": "Prší.",
           "a": [
             "Il pleut."
           ]
@@ -2005,7 +2005,7 @@
         {
           "id": "g-impersonal-02",
           "type": "build",
-          "en": "It's cold.",
+          "cs": "Je zima.",
           "a": [
             "Il fait froid."
           ]
@@ -2017,12 +2017,12 @@
           "a": [
             "faut"
           ],
-          "en": "One has to be careful."
+          "cs": "Je třeba dávat pozor."
         },
         {
           "id": "g-impersonal-04",
           "type": "build",
-          "en": "It's nine o'clock.",
+          "cs": "Je devět hodin.",
           "a": [
             "Il est neuf heures."
           ]
@@ -2030,7 +2030,7 @@
         {
           "id": "g-impersonal-05",
           "type": "transform",
-          "task_en": "Make it negative (= must not)",
+          "task_cs": "Utvoř zápor (= nesmí se)",
           "fr": "Il faut courir.",
           "a": [
             "Il ne faut pas courir."
@@ -2040,7 +2040,7 @@
     },
     {
       "id": "weather",
-      "title": "Weather: il fait, il y a, il pleut",
+      "title": "Počasí: il fait, il y a, il pleut",
       "fr": "le temps qu'il fait",
       "level": "A1",
       "keywords": [
@@ -2065,39 +2065,39 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Weather uses **impersonal *il***, which means nothing. Three patterns: **il fait + adjective** (*il fait chaud*), **il y a + noun** (*il y a du vent*) and **a weather verb** (*il pleut, il neige*). Ask with **Quel temps fait-il ?**"
+              "cs": "Počasí používá **neosobní *il***, které nic neznamená. Tři vzorce: **il fait + přídavné jméno** (*il fait chaud*), **il y a + podstatné jméno** (*il y a du vent*) a **sloveso počasí** (*il pleut, il neige*). Ptej se **Quel temps fait-il ?**"
             },
             {
               "type": "table",
               "head": [
-                "pattern",
-                "examples",
-                "English"
+                "vzorec",
+                "příklady",
+                "česky"
               ],
               "rows": [
                 [
-                  "il fait + adjective",
+                  "il fait + přídavné jméno",
                   "il fait beau, chaud, froid, frais, mauvais",
-                  "it's nice, hot, cold, cool, bad"
+                  "je hezky, horko, zima, chladno, ošklivo"
                 ],
                 [
-                  "il y a + noun",
+                  "il y a + podstatné jméno",
                   "il y a du soleil, du vent, des nuages, de l'orage",
-                  "it's sunny, windy, cloudy, stormy"
+                  "svítí slunce, fouká vítr, je zataženo, je bouřka"
                 ],
                 [
-                  "a verb",
+                  "sloveso",
                   "il pleut, il neige, il gèle",
-                  "it rains, it snows, it freezes"
+                  "prší, sněží, mrzne"
                 ],
                 [
                   "être / faire + number",
                   "il fait 20 degrés",
-                  "it's 20 degrees"
+                  "je 20 stupňů"
                 ]
               ],
               "textCols": [
@@ -2107,13 +2107,13 @@
           ]
         },
         {
-          "title": "Questions and answers",
+          "title": "Otázky a odpovědi",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "question",
-                "answer"
+                "otázka",
+                "odpověď"
               ],
               "rows": [
                 [
@@ -2136,62 +2136,62 @@
             },
             {
               "type": "tip",
-              "en": "With *faire*, the weather word is an adjective: *il fait beau* (not *il est beau*). With *il y a* it is a noun, so it needs an article: *il y a **du** soleil*."
+              "cs": "S *faire* je slovo o počasí přídavné jméno: *il fait beau* (ne *il est beau*). S *il y a* je to podstatné jméno, takže potřebuje člen: *il y a **du** soleil*."
             }
           ]
         },
         {
-          "title": "Past and future",
+          "title": "Minulost a budoucnost",
           "blocks": [
             {
               "type": "text",
-              "en": "Weather in the past is usually in the **imparfait** (*il faisait chaud, il pleuvait*) because it describes the background. For the future use **futur proche** or **futur simple**."
+              "cs": "Počasí v minulosti je obvykle v **imparfait** (*il faisait chaud, il pleuvait*), protože popisuje pozadí. Pro budoucnost použij **futur proche** nebo **futur simple**."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Hier, il pleuvait.",
-                  "en": "Yesterday it was raining."
+                  "cs": "Včera pršelo."
                 },
                 {
                   "fr": "Il faisait très froid ce matin.",
-                  "en": "It was very cold this morning."
+                  "cs": "Dnes ráno byla velká zima."
                 },
                 {
                   "fr": "Demain, il va neiger.",
-                  "en": "Tomorrow it's going to snow."
+                  "cs": "Zítra bude sněžit."
                 },
                 {
                   "fr": "Il y aura du soleil ce week-end.",
-                  "en": "There will be sun this weekend."
+                  "cs": "O víkendu bude svítit slunce."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "It's hot.",
+                  "cs": "Je horko.",
                   "wrong": "Il est chaud.",
                   "fr": "Il [[fait]] chaud.",
-                  "note": "*Il est chaud* would describe an object."
+                  "note": "*Il est chaud* by popisovalo předmět (je horký)."
                 },
                 {
-                  "en": "It's very cold.",
+                  "cs": "Je velká zima.",
                   "wrong": "Il est très froid.",
                   "fr": "Il fait [[très]] froid. / Il fait [[un froid de canard]]."
                 },
                 {
-                  "en": "I'm cold.",
+                  "cs": "Je mi zima.",
                   "wrong": "Je fais froid.",
                   "fr": "J'[[ai]] froid.",
-                  "note": "People feel cold, hot with *avoir*."
+                  "note": "Lidem je zima nebo horko s *avoir*."
                 }
               ]
             },
@@ -2207,30 +2207,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Aujourd'hui, il fait chaud et il y a du soleil.",
-                  "en": "It's hot and sunny today."
+                  "cs": "Dnes je horko a svítí slunce."
                 },
                 {
                   "fr": "En hiver, il neige souvent.",
-                  "en": "It often snows in winter."
+                  "cs": "V zimě často sněží."
                 },
                 {
                   "fr": "Il y a beaucoup de vent ce soir.",
-                  "en": "It's very windy tonight."
+                  "cs": "Dnes večer hodně fouká."
                 },
                 {
                   "fr": "Il fait zéro degré.",
-                  "en": "It's zero degrees."
+                  "cs": "Je nula stupňů."
                 },
                 {
                   "fr": "Il ne fait pas beau.",
-                  "en": "The weather is not nice."
+                  "cs": "Není hezky."
                 }
               ]
             }
@@ -2241,7 +2241,7 @@
         {
           "id": "g-weather-01",
           "type": "build",
-          "en": "It's cold.",
+          "cs": "Je zima.",
           "a": [
             "Il fait froid."
           ]
@@ -2249,7 +2249,7 @@
         {
           "id": "g-weather-02",
           "type": "build",
-          "en": "It's raining.",
+          "cs": "Prší.",
           "a": [
             "Il pleut."
           ]
@@ -2257,7 +2257,7 @@
         {
           "id": "g-weather-03",
           "type": "build",
-          "en": "It's sunny.",
+          "cs": "Svítí slunce.",
           "a": [
             "Il y a du soleil.",
             "Il fait beau."
@@ -2266,7 +2266,7 @@
         {
           "id": "g-weather-04",
           "type": "build",
-          "en": "What's the weather like?",
+          "cs": "Jaké je počasí?",
           "a": [
             "Quel temps fait-il ?",
             "Il fait quel temps ?"
@@ -2275,7 +2275,7 @@
         {
           "id": "g-weather-05",
           "type": "build",
-          "en": "It was very hot yesterday.",
+          "cs": "Včera bylo velké horko.",
           "a": [
             "Hier, il faisait très chaud.",
             "Il faisait très chaud hier."
@@ -2284,7 +2284,7 @@
         {
           "id": "g-weather-06",
           "type": "build",
-          "en": "It's going to snow tomorrow.",
+          "cs": "Zítra bude sněžit.",
           "a": [
             "Demain, il va neiger.",
             "Il va neiger demain."
@@ -2297,7 +2297,7 @@
           "a": [
             "fait"
           ],
-          "en": "It's hot today."
+          "cs": "Dnes je horko."
         },
         {
           "id": "g-weather-08",
@@ -2306,12 +2306,12 @@
           "a": [
             "du"
           ],
-          "en": "It's windy."
+          "cs": "Fouká vítr."
         },
         {
           "id": "g-weather-09",
           "type": "transform",
-          "task_en": "Say it's not true",
+          "task_cs": "Řekni, že to neplatí",
           "fr": "Il fait beau.",
           "a": [
             "Il ne fait pas beau."
@@ -2321,7 +2321,7 @@
     },
     {
       "id": "conjunctions",
-      "title": "Conjunctions: et, mais, ou, donc, parce que",
+      "title": "Spojky: et, mais, ou, donc, parce que",
       "fr": "les conjonctions",
       "level": "A1",
       "keywords": [
@@ -2346,14 +2346,14 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "conjunction",
-                "meaning",
-                "example"
+                "spojka",
+                "význam",
+                "příklad"
               ],
               "textCols": [
                 1
@@ -2361,44 +2361,44 @@
               "rows": [
                 [
                   "et",
-                  "and",
+                  "a",
                   "J'aime le sport et la musique."
                 ],
                 [
                   "mais",
-                  "but",
+                  "ale",
                   "Il est petit, mais il est fort."
                 ],
                 [
                   "ou",
-                  "or",
+                  "nebo",
                   "Du thé ou du café ?"
                 ],
                 [
                   "donc",
-                  "so, therefore",
+                  "takže, proto",
                   "Il pleut, donc je reste à la maison."
                 ],
                 [
                   "alors",
-                  "so (spoken)",
+                  "takže (hovorově)",
                   "Il pleut, alors je reste à la maison."
                 ],
                 [
                   "parce que",
-                  "because",
+                  "protože",
                   "Je reste parce qu'il pleut."
                 ],
                 [
                   "car",
-                  "for, because (written)",
+                  "neboť, protože (psaně)",
                   "Je reste, car il pleut."
                 ]
               ]
             },
             {
               "type": "text",
-              "en": "After a conjunction the **word order does not change**: it is still subject + verb."
+              "cs": "Po spojce se **slovosled nemění**: pořád podmět + sloveso."
             }
           ]
         },
@@ -2407,58 +2407,58 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Parce que* shortens before a vowel: *parce qu'il, parce qu'elle, parce qu'on*. The answer to *Pourquoi ?* always starts with *parce que*."
+              "cs": "*Parce que* se před samohláskou zkracuje: *parce qu'il, parce qu'elle, parce qu'on*. Odpověď na *Pourquoi ?* vždycky začíná *parce que*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Pourquoi tu ris ? Parce que c'est drôle.",
-                  "en": "Why are you laughing? Because it's funny."
+                  "cs": "Proč se směješ? Protože je to vtipné."
                 }
               ]
             },
             {
               "type": "tip",
-              "title": "Reason at the start of the sentence",
-              "en": "When you give the reason first, use *comme*: *Comme il pleut, je reste à la maison.* (Since it's raining, I'm staying at home.)"
+              "title": "Důvod na začátku věty",
+              "cs": "Když říkáš důvod jako první, použij *comme*: *Comme il pleut, je reste à la maison.* (Protože prší, zůstanu doma.)"
             }
           ]
         },
         {
-          "title": "Commas",
+          "title": "Čárky",
           "blocks": [
             {
               "type": "text",
-              "en": "A comma is normally written before *mais*, but not before *et* and *ou*. Before *que* (that) **no comma** is written, even though Czech puts one before its word for \"that\": *Je pense que tu as raison.*"
+              "cs": "Před *mais* se čárka obvykle píše, před *et* a *ou* ne. Před *que* (že) se **čárka nepíše**, i když čeština ji před \"že\" dává: *Je pense que tu as raison.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'ai un frère et une sœur.",
-                  "en": "I have a brother and a sister."
+                  "cs": "Mám bratra a sestru."
                 },
                 {
                   "fr": "Je voudrais venir, mais je n'ai pas le temps.",
-                  "en": "I would like to come, but I don't have time."
+                  "cs": "Rád bych přišel, ale nemám čas."
                 },
                 {
                   "fr": "Tu viens ce soir ou demain ?",
-                  "en": "Are you coming tonight or tomorrow?"
+                  "cs": "Přijdeš dnes večer, nebo zítra?"
                 },
                 {
                   "fr": "Je suis fatigué, donc je vais me coucher.",
-                  "en": "I'm tired, so I'm going to bed."
+                  "cs": "Jsem unavený, tak jdu spát."
                 },
                 {
                   "fr": "Je ne sors pas parce que j'ai des devoirs.",
-                  "en": "I'm not going out because I have homework."
+                  "cs": "Nejdu ven, protože mám úkoly."
                 }
               ]
             }
@@ -2474,7 +2474,7 @@
             "parce que",
             "car"
           ],
-          "en": "I'm staying at home because I'm ill."
+          "cs": "Zůstávám doma, protože jsem nemocný."
         },
         {
           "id": "g-conjunctions-02",
@@ -2483,12 +2483,12 @@
           "a": [
             "mais"
           ],
-          "en": "He's nice, but a bit shy."
+          "cs": "Je milý, ale trochu stydlivý."
         },
         {
           "id": "g-conjunctions-03",
           "type": "build",
-          "en": "Do you want tea or coffee?",
+          "cs": "Chceš čaj, nebo kávu?",
           "a": [
             "Tu veux du thé ou du café ?",
             "Tu veux un thé ou un café ?"
@@ -2497,7 +2497,7 @@
         {
           "id": "g-conjunctions-04",
           "type": "build",
-          "en": "I'm not going out because it's raining.",
+          "cs": "Nejdu ven, protože prší.",
           "a": [
             "Je ne sors pas parce qu'il pleut.",
             "Je ne sors pas, car il pleut."
@@ -2507,7 +2507,7 @@
     },
     {
       "id": "cause-consequence",
-      "title": "Cause and consequence: parce que, car, donc, alors",
+      "title": "Příčina a důsledek: parce que, car, donc, alors",
       "fr": "la cause et la conséquence",
       "level": "A2",
       "keywords": [
@@ -2536,58 +2536,58 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "**Cause** answers *why?* (**parce que, car, comme, puisque, à cause de, grâce à**). **Consequence** gives the result (**donc, alors, c'est pourquoi, par conséquent, du coup**). Cause connectors with *que* take a sentence, *à cause de* and *grâce à* take a noun."
+              "cs": "**Příčina** odpovídá na *proč?* (**parce que, car, comme, puisque, à cause de, grâce à**). **Důsledek** říká výsledek (**donc, alors, c'est pourquoi, par conséquent, du coup**). Spojky příčiny s *que* mají za sebou větu, *à cause de* a *grâce à* podstatné jméno."
             },
             {
               "type": "table",
               "head": [
-                "connector",
-                "meaning",
-                "example"
+                "spojovací výraz",
+                "význam",
+                "příklad"
               ],
               "rows": [
                 [
                   "parce que",
-                  "because (answers pourquoi)",
+                  "protože (odpovídá na pourquoi)",
                   "Je reste ici parce que je suis malade."
                 ],
                 [
                   "car",
-                  "for, because (writing)",
+                  "neboť, protože (psaně)",
                   "Il est absent, car il est malade."
                 ],
                 [
                   "comme",
-                  "since, as (before the result)",
+                  "protože, jelikož (před výsledkem)",
                   "Comme il pleut, je reste."
                 ],
                 [
                   "puisque",
-                  "since (the reason is known)",
+                  "když už, protože (důvod je známý)",
                   "Puisque tu es là, aide-moi."
                 ],
                 [
                   "à cause de",
-                  "because of (usually bad)",
+                  "kvůli (obvykle špatné)",
                   "À cause du bruit, je n'ai pas dormi."
                 ],
                 [
                   "grâce à",
-                  "thanks to (usually good)",
+                  "díky (obvykle dobré)",
                   "Grâce à toi, j'ai réussi."
                 ],
                 [
                   "donc, alors",
-                  "so",
+                  "takže",
                   "Il pleut, donc je reste."
                 ],
                 [
                   "c'est pourquoi",
-                  "that is why (formal)",
+                  "proto (formálně)",
                   "Il est malade, c'est pourquoi il est absent."
                 ]
               ],
@@ -2602,18 +2602,18 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Parce que* answers a question and can stand alone: *Pourquoi ? Parce que j'ai faim.* *Car* is used in writing and never starts a sentence. *Comme* starts the sentence: **Comme** il pleut, je reste. *Puisque* introduces a reason the listener already knows."
+              "cs": "*Parce que* odpovídá na otázku a může stát samo: *Pourquoi ? Parce que j'ai faim.* *Car* se používá v psaní a nikdy nezačíná větu. *Comme* stojí na začátku věty: **Comme** il pleut, je reste. *Puisque* uvádí důvod, který posluchač už zná."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm staying because it's raining.",
+                  "cs": "Zůstávám, protože prší.",
                   "wrong": "Je reste comme il pleut.",
                   "fr": "Je reste [[parce qu']]il pleut. / [[Comme]] il pleut, je reste."
                 },
                 {
-                  "en": "Why? Because I'm tired.",
+                  "cs": "Proč? Protože jsem unavený.",
                   "wrong": "Pourquoi ? Car je suis fatigué.",
                   "fr": "Pourquoi ? [[Parce que]] je suis fatigué."
                 }
@@ -2621,31 +2621,31 @@
             },
             {
               "type": "tip",
-              "en": "Before a vowel *parce que* becomes *parce qu'* and *puisque* becomes *puisqu'*: *parce qu'il, puisqu'elle*."
+              "cs": "Před samohláskou se *parce que* mění na *parce qu'* a *puisque* na *puisqu'*: *parce qu'il, puisqu'elle*."
             }
           ]
         },
         {
-          "title": "À cause de and grâce à",
+          "title": "À cause de a grâce à",
           "blocks": [
             {
               "type": "text",
-              "en": "They are followed by a **noun** (or a pronoun), not by a verb. Use *à cause de* for a negative result and *grâce à* for a positive one. Use *de* + article: *à cause du, à cause de la, à cause des*."
+              "cs": "Následuje po nich **podstatné jméno** (nebo zájmeno), ne sloveso. *À cause de* použij pro špatný výsledek a *grâce à* pro dobrý. Pozor na *de* + člen: *à cause du, à cause de la, à cause des*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "À cause de la grève, le train est en retard.",
-                  "en": "Because of the strike, the train is late."
+                  "cs": "Kvůli stávce má vlak zpoždění."
                 },
                 {
                   "fr": "Grâce à mes amis, j'ai passé un bon week-end.",
-                  "en": "Thanks to my friends, I had a good weekend."
+                  "cs": "Díky kamarádům jsem měl dobrý víkend."
                 },
                 {
                   "fr": "À cause de lui, nous sommes en retard.",
-                  "en": "Because of him, we are late."
+                  "cs": "Kvůli němu máme zpoždění."
                 }
               ]
             }
@@ -2656,52 +2656,52 @@
           "blocks": [
             {
               "type": "text",
-              "en": "These give the **result**. *Donc* and *alors* are neutral. *C'est pourquoi* and *par conséquent* are more formal. *Du coup* is very common in speech. Put *donc* after the verb for a smooth effect: *Je pense, donc je suis.*"
+              "cs": "Tyto výrazy uvádějí **výsledek**. *Donc* a *alors* jsou neutrální. *C'est pourquoi* a *par conséquent* jsou formálnější. *Du coup* je v mluvené řeči hodně časté. *Donc* dej pro plynulost za sloveso: *Je pense, donc je suis.*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il fait froid, donc je mets un manteau.",
-                  "en": "It's cold, so I'm putting on a coat."
+                  "cs": "Je zima, tak si beru kabát."
                 },
                 {
                   "fr": "Je n'avais pas faim, alors je n'ai rien mangé.",
-                  "en": "I wasn't hungry, so I ate nothing."
+                  "cs": "Neměl jsem hlad, takže jsem nic nesnědl."
                 },
                 {
                   "fr": "Il a beaucoup travaillé, par conséquent il a réussi.",
-                  "en": "He worked a lot, so he succeeded."
+                  "cs": "Hodně pracoval, takže uspěl."
                 },
                 {
                   "fr": "Du coup, on reste à la maison ?",
-                  "en": "So, are we staying at home?"
+                  "cs": "Tak co, zůstaneme doma?"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je suis en retard parce que j'ai raté le bus.",
-                  "en": "I'm late because I missed the bus."
+                  "cs": "Mám zpoždění, protože mi ujel autobus."
                 },
                 {
                   "fr": "Comme il n'y avait pas de place, nous sommes partis.",
-                  "en": "As there was no room, we left."
+                  "cs": "Protože nebylo místo, odešli jsme."
                 },
                 {
                   "fr": "Puisque tu connais la réponse, dis-la !",
-                  "en": "Since you know the answer, say it!"
+                  "cs": "Když znáš odpověď, tak ji řekni!"
                 },
                 {
                   "fr": "Je suis malade, donc je reste au lit.",
-                  "en": "I'm ill, so I'm staying in bed."
+                  "cs": "Jsem nemocný, takže zůstávám v posteli."
                 }
               ]
             }
@@ -2712,7 +2712,7 @@
         {
           "id": "g-cause-consequence-01",
           "type": "build",
-          "en": "I'm staying because I'm ill.",
+          "cs": "Zůstávám, protože jsem nemocný.",
           "a": [
             "Je reste parce que je suis malade.",
             "Je reste, car je suis malade."
@@ -2721,7 +2721,7 @@
         {
           "id": "g-cause-consequence-02",
           "type": "build",
-          "en": "Because of the rain, we stayed at home.",
+          "cs": "Kvůli dešti jsme zůstali doma.",
           "a": [
             "À cause de la pluie, nous sommes restés à la maison.",
             "À cause de la pluie, on est resté à la maison."
@@ -2730,7 +2730,7 @@
         {
           "id": "g-cause-consequence-03",
           "type": "build",
-          "en": "Thanks to you, I succeeded.",
+          "cs": "Díky tobě jsem uspěl.",
           "a": [
             "Grâce à toi, j'ai réussi."
           ]
@@ -2738,7 +2738,7 @@
         {
           "id": "g-cause-consequence-04",
           "type": "build",
-          "en": "It's cold, so I'm putting on a coat.",
+          "cs": "Je zima, tak si beru kabát.",
           "a": [
             "Il fait froid, donc je mets un manteau.",
             "Il fait froid, alors je mets un manteau."
@@ -2752,7 +2752,7 @@
             "parce que",
             "car"
           ],
-          "en": "I'm not going out because I'm ill."
+          "cs": "Nejdu ven, protože jsem nemocný."
         },
         {
           "id": "g-cause-consequence-06",
@@ -2761,7 +2761,7 @@
           "a": [
             "À cause"
           ],
-          "en": "Because of the noise, I didn't sleep."
+          "cs": "Kvůli hluku jsem nespal."
         },
         {
           "id": "g-cause-consequence-07",
@@ -2770,7 +2770,7 @@
           "a": [
             "Grâce"
           ],
-          "en": "Thanks to your help, I finished."
+          "cs": "Díky tvé pomoci jsem to dodělal."
         },
         {
           "id": "g-cause-consequence-08",
@@ -2780,12 +2780,12 @@
             "donc",
             "alors"
           ],
-          "en": "It's late, so I'm going home."
+          "cs": "Je pozdě, tak jdu domů."
         },
         {
           "id": "g-cause-consequence-09",
           "type": "transform",
-          "task_en": "Join with parce que",
+          "task_cs": "Spoj pomocí parce que",
           "fr": "Je reste. Je suis fatigué.",
           "a": [
             "Je reste parce que je suis fatigué."
@@ -2795,7 +2795,7 @@
     },
     {
       "id": "purpose",
-      "title": "Purpose: pour, afin de, pour que, afin que",
+      "title": "Účel: pour, afin de, pour que, afin que",
       "fr": "le but",
       "level": "A2",
       "keywords": [
@@ -2818,29 +2818,29 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "To say **why** you do something, use **pour + infinitive** (same subject) or **pour que + subjunctive** (different subjects). *Afin de* and *afin que* are the formal versions."
+              "cs": "Když chceš říct, **proč** něco děláš, použij **pour + infinitiv** (stejný podmět) nebo **pour que + subjonctif** (různé podměty). *Afin de* a *afin que* jsou formální verze."
             },
             {
               "type": "table",
               "head": [
-                "same subject",
-                "different subjects",
-                "English"
+                "stejný podmět",
+                "různé podměty",
+                "česky"
               ],
               "rows": [
                 [
                   "Je travaille pour gagner de l'argent.",
                   "Je travaille pour que tu puisses étudier.",
-                  "I work to earn money. / so that you can study."
+                  "Pracuju, abych vydělal peníze. / abys mohl studovat."
                 ],
                 [
                   "Il part tôt afin d'arriver à l'heure.",
                   "Il part tôt afin que tu arrives à l'heure.",
-                  "He leaves early to arrive on time. / so that you arrive on time."
+                  "Odchází brzy, aby přišel včas. / abys přišel včas."
                 ]
               ],
               "textCols": [
@@ -2850,80 +2850,80 @@
           ]
         },
         {
-          "title": "Same subject: pour + infinitive",
+          "title": "Stejný podmět: pour + infinitiv",
           "blocks": [
             {
               "type": "text",
-              "en": "When the subject of both verbs is the same, use *pour* (or *afin de*) with the **infinitive**. For a negative purpose put *ne pas* together in front of the verb: *pour ne pas être en retard*."
+              "cs": "Když mají obě slovesa stejný podmět, použij *pour* (nebo *afin de*) s **infinitivem**. U záporného účelu dej *ne pas* spolu před sloveso: *pour ne pas être en retard*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'étudie pour réussir mon examen.",
-                  "en": "I study to pass my exam."
+                  "cs": "Učím se, abych udělal zkoušku."
                 },
                 {
                   "fr": "Il court pour ne pas rater le bus.",
-                  "en": "He runs so as not to miss the bus."
+                  "cs": "Běží, aby mu neujel autobus."
                 },
                 {
                   "fr": "Nous prenons le train afin de gagner du temps.",
-                  "en": "We take the train to save time."
+                  "cs": "Jedeme vlakem, abychom ušetřili čas."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Different subjects: pour que + subjunctive",
+          "title": "Různé podměty: pour que + subjonctif",
           "blocks": [
             {
               "type": "text",
-              "en": "When the subjects differ you need a clause: *pour que* or *afin que* **+ subjunctive**. Learn the forms in the subjunctive article. The most common irregular ones are *que je sois, que j'aie, que je fasse, que j'aille, que je puisse*."
+              "cs": "Když se podměty liší, potřebuješ větu: *pour que* nebo *afin que* **+ subjonctif**. Tvary se nauč v článku o subjonctivu. Nejčastější nepravidelné jsou *que je sois, que j'aie, que je fasse, que j'aille, que je puisse*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je te dis ça pour que tu comprennes.",
-                  "en": "I'm telling you so that you understand."
+                  "cs": "Říkám ti to, abys to pochopil."
                 },
                 {
                   "fr": "Elle parle lentement pour que nous puissions la suivre.",
-                  "en": "She speaks slowly so that we can follow her."
+                  "cs": "Mluví pomalu, abychom stačili."
                 },
                 {
                   "fr": "Ouvre la fenêtre pour que l'air entre.",
-                  "en": "Open the window so that the air comes in."
+                  "cs": "Otevři okno, ať jde dovnitř vzduch."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I study to learn.",
+                  "cs": "Studuju, abych se něco naučil.",
                   "wrong": "J'étudie pour que j'apprenne.",
                   "fr": "J'étudie [[pour apprendre]].",
-                  "note": "Same subject: infinitive."
+                  "note": "Stejný podmět: infinitiv."
                 },
                 {
-                  "en": "She tells him so that he knows.",
+                  "cs": "Říká mu to, aby to věděl.",
                   "wrong": "Elle lui dit pour il sait.",
                   "fr": "Elle lui dit [[pour qu']]il [[sache]].",
-                  "note": "*Pour que* needs the subjunctive."
+                  "note": "*Pour que* potřebuje subjonctif."
                 }
               ]
             },
             {
               "type": "tip",
-              "en": "*Pour* can also mean *for* (*Un cadeau pour toi*) and *to* before an infinitive. Do not mix it with *pendant* (during) or *depuis* (since)."
+              "cs": "*Pour* může znamenat i *pro* (*Un cadeau pour toi*) a *aby* před infinitivem. Neplet si ho s *pendant* (během) ani s *depuis* (od)."
             },
             {
               "type": "see",
@@ -2936,26 +2936,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je mets un réveil pour me lever tôt.",
-                  "en": "I set an alarm to get up early."
+                  "cs": "Nastavil jsem si budík, abych vstal brzy."
                 },
                 {
                   "fr": "Elle économise pour acheter un vélo.",
-                  "en": "She saves to buy a bike."
+                  "cs": "Šetří, aby si koupila kolo."
                 },
                 {
                   "fr": "Parle plus fort pour que je t'entende.",
-                  "en": "Speak louder so that I can hear you."
+                  "cs": "Mluv hlasitěji, ať tě slyším."
                 },
                 {
                   "fr": "Nous sommes partis tôt afin d'éviter les embouteillages.",
-                  "en": "We left early to avoid the traffic."
+                  "cs": "Vyrazili jsme brzy, abychom se vyhnuli zácpě."
                 }
               ]
             }
@@ -2966,7 +2966,7 @@
         {
           "id": "g-purpose-01",
           "type": "build",
-          "en": "I'm studying to pass my exam.",
+          "cs": "Učím se, abych udělal zkoušku.",
           "a": [
             "J'étudie pour réussir mon examen.",
             "Je travaille pour réussir mon examen."
@@ -2975,7 +2975,7 @@
         {
           "id": "g-purpose-02",
           "type": "build",
-          "en": "He runs so as not to miss the bus.",
+          "cs": "Běží, aby mu neujel autobus.",
           "a": [
             "Il court pour ne pas rater le bus."
           ]
@@ -2983,7 +2983,7 @@
         {
           "id": "g-purpose-03",
           "type": "build",
-          "en": "Speak louder so that I can hear you.",
+          "cs": "Mluv hlasitěji, ať tě slyším.",
           "a": [
             "Parle plus fort pour que je t'entende."
           ]
@@ -2995,7 +2995,7 @@
           "a": [
             "pour"
           ],
-          "en": "He leaves early to arrive on time."
+          "cs": "Odchází brzy, aby přišel včas."
         },
         {
           "id": "g-purpose-05",
@@ -3005,7 +3005,7 @@
             "comprennes"
           ],
           "hint": "comprendre",
-          "en": "I'm telling you this so that you understand."
+          "cs": "Říkám ti to, abys to pochopil."
         },
         {
           "id": "g-purpose-06",
@@ -3015,7 +3015,7 @@
             "entre"
           ],
           "hint": "entrer",
-          "en": "Open the door so that the cat can come in."
+          "cs": "Otevři dveře, ať může kočka dovnitř."
         },
         {
           "id": "g-purpose-07",
@@ -3024,13 +3024,13 @@
           "a": [
             "pas"
           ],
-          "en": "She studies so as not to fail."
+          "cs": "Učí se, aby neprošvihla zkoušku."
         }
       ]
     },
     {
       "id": "contrast-concession",
-      "title": "Contrast and concession: mais, pourtant, bien que, malgré",
+      "title": "Protiklad a přípustka: mais, pourtant, bien que, malgré",
       "fr": "l'opposition et la concession",
       "level": "B1",
       "keywords": [
@@ -3060,73 +3060,73 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "To show a **contrast** use *mais, par contre, en revanche, alors que*. For a **concession** (something happens in spite of something else) use *pourtant, cependant, quand même, malgré, bien que, même si*. Only **bien que** needs the subjunctive."
+              "cs": "Pro **protiklad** použij *mais, par contre, en revanche, alors que*. Pro **přípustku** (něco se děje navzdory něčemu jinému) použij *pourtant, cependant, quand même, malgré, bien que, même si*. Subjonctif potřebuje jen **bien que**."
             },
             {
               "type": "table",
               "head": [
-                "connector",
-                "meaning",
-                "followed by",
-                "example"
+                "spojovací výraz",
+                "význam",
+                "následuje",
+                "příklad"
               ],
               "rows": [
                 [
                   "mais",
-                  "but",
-                  "sentence",
+                  "ale",
+                  "věta",
                   "Il est petit mais fort."
                 ],
                 [
                   "pourtant, cependant",
-                  "yet, however",
-                  "sentence",
+                  "přesto, avšak",
+                  "věta",
                   "Il pleut, pourtant je sors."
                 ],
                 [
                   "quand même",
-                  "all the same",
-                  "after the verb",
+                  "stejně, přece jen",
+                  "za slovesem",
                   "Je viendrai quand même."
                 ],
                 [
                   "malgré",
-                  "despite",
-                  "noun",
+                  "navzdory",
+                  "podstatné jméno",
                   "Malgré la pluie, nous sortons."
                 ],
                 [
                   "bien que",
-                  "although",
-                  "subjunctive",
+                  "přestože",
+                  "subjonctif",
                   "Bien qu'il soit petit, il est fort."
                 ],
                 [
                   "même si",
-                  "even if",
-                  "indicative",
+                  "i když",
+                  "indikativ",
                   "Même s'il pleut, je viens."
                 ],
                 [
                   "alors que",
-                  "while, whereas",
-                  "indicative",
+                  "zatímco",
+                  "indikativ",
                   "Il travaille alors que je dors."
                 ],
                 [
                   "au contraire",
-                  "on the contrary",
-                  "sentence",
+                  "naopak",
+                  "věta",
                   "Il n'est pas triste, au contraire !"
                 ],
                 [
                   "par contre, en revanche",
-                  "on the other hand",
-                  "sentence",
+                  "na druhou stranu",
+                  "věta",
                   "Il est lent, en revanche il est précis."
                 ]
               ],
@@ -3138,22 +3138,22 @@
           ]
         },
         {
-          "title": "Malgré and bien que",
+          "title": "Malgré a bien que",
           "blocks": [
             {
               "type": "text",
-              "en": "*Malgré* is followed by a **noun**: *malgré la pluie, malgré lui*. *Bien que* is followed by a **clause in the subjunctive**: *bien qu'il pleuve*. Never use *malgré que* in careful French."
+              "cs": "Po *malgré* následuje **podstatné jméno**: *malgré la pluie, malgré lui*. Po *bien que* následuje **věta v subjonctivu**: *bien qu'il pleuve*. Ve spisovné francouzštině nikdy nepoužívej *malgré que*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Despite the rain we went out.",
+                  "cs": "Navzdory dešti jsme šli ven.",
                   "wrong": "Malgré il pleuvait, nous sommes sortis.",
                   "fr": "[[Malgré la pluie]], nous sommes sortis. / [[Bien qu']]il [[pleuve]], nous sommes sortis."
                 },
                 {
-                  "en": "Although he is tired he works.",
+                  "cs": "Přestože je unavený, pracuje.",
                   "wrong": "Bien qu'il est fatigué, il travaille.",
                   "fr": "Bien qu'il [[soit]] fatigué, il travaille."
                 }
@@ -3162,26 +3162,26 @@
           ]
         },
         {
-          "title": "Même si and alors que",
+          "title": "Même si a alors que",
           "blocks": [
             {
               "type": "text",
-              "en": "*Même si* (even if) is followed by an **ordinary tense** (present or imparfait), not the subjunctive. *Alors que* means *whereas* or *while* and shows a contrast between two facts."
+              "cs": "Po *même si* (i když) následuje **běžný čas** (přítomný nebo imparfait), ne subjonctif. *Alors que* znamená *zatímco* a ukazuje protiklad mezi dvěma fakty."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Même si tu as raison, je ne suis pas d'accord.",
-                  "en": "Even if you are right, I don't agree."
+                  "cs": "I když máš pravdu, nesouhlasím."
                 },
                 {
                   "fr": "Elle adore le sport alors que son frère le déteste.",
-                  "en": "She loves sport whereas her brother hates it."
+                  "cs": "Ona miluje sport, zatímco její bratr ho nesnáší."
                 },
                 {
                   "fr": "Même s'il faisait froid, nous sommes allés à la plage.",
-                  "en": "Even though it was cold we went to the beach."
+                  "cs": "I když byla zima, šli jsme na pláž."
                 }
               ]
             }
@@ -3192,48 +3192,48 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Pourtant* and *cependant* start a new clause and show something unexpected. *Quand même* and *tout de même* go **after the verb** and mean *all the same*."
+              "cs": "*Pourtant* a *cependant* začínají novou větu a ukazují něco nečekaného. *Quand même* a *tout de même* stojí **za slovesem** a znamenají *stejně, přesto*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il a étudié. Pourtant il a échoué.",
-                  "en": "He studied. Yet he failed."
+                  "cs": "Učil se. Přesto neuspěl."
                 },
                 {
                   "fr": "Il est tard, mais je veux quand même sortir.",
-                  "en": "It's late but I still want to go out."
+                  "cs": "Je pozdě, ale stejně chci jít ven."
                 },
                 {
                   "fr": "Elle est malade. Elle travaille cependant.",
-                  "en": "She is ill. She works nevertheless."
+                  "cs": "Je nemocná. Přesto pracuje."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je l'aime bien, mais il est souvent en retard.",
-                  "en": "I like him but he's often late."
+                  "cs": "Mám ho rád, ale často chodí pozdě."
                 },
                 {
                   "fr": "Malgré le froid, il porte un t-shirt.",
-                  "en": "Despite the cold he wears a T-shirt."
+                  "cs": "Navzdory zimě nosí tričko."
                 },
                 {
                   "fr": "Bien que ce soit cher, je l'achète.",
-                  "en": "Although it's expensive, I'm buying it."
+                  "cs": "Přestože je to drahé, kupuju to."
                 },
                 {
                   "fr": "Nous avons perdu. Au contraire, c'était un bon match !",
-                  "en": "We lost. On the contrary, it was a good match!"
+                  "cs": "Prohráli jsme. Naopak, byl to dobrý zápas!"
                 }
               ]
             }
@@ -3244,7 +3244,7 @@
         {
           "id": "g-contrast-concession-01",
           "type": "build",
-          "en": "Despite the rain, we went out.",
+          "cs": "Navzdory dešti jsme šli ven.",
           "a": [
             "Malgré la pluie, nous sommes sortis.",
             "Malgré la pluie, on est sorti."
@@ -3253,7 +3253,7 @@
         {
           "id": "g-contrast-concession-02",
           "type": "build",
-          "en": "Although he is tired, he is working.",
+          "cs": "Přestože je unavený, pracuje.",
           "a": [
             "Bien qu'il soit fatigué, il travaille."
           ]
@@ -3261,7 +3261,7 @@
         {
           "id": "g-contrast-concession-03",
           "type": "build",
-          "en": "Even if it rains, I'm coming.",
+          "cs": "I když bude pršet, přijdu.",
           "a": [
             "Même s'il pleut, je viens."
           ]
@@ -3273,7 +3273,7 @@
           "a": [
             "Malgré"
           ],
-          "en": "Despite the tiredness, he went on."
+          "cs": "Navzdory únavě pokračoval."
         },
         {
           "id": "g-contrast-concession-05",
@@ -3283,7 +3283,7 @@
             "soit"
           ],
           "hint": "être",
-          "en": "Although it's late, we are staying."
+          "cs": "Přestože je pozdě, zůstáváme."
         },
         {
           "id": "g-contrast-concession-06",
@@ -3293,7 +3293,7 @@
             "en revanche",
             "par contre"
           ],
-          "en": "He is slow, but on the other hand he is precise."
+          "cs": "Je pomalý, ale na druhou stranu přesný."
         },
         {
           "id": "g-contrast-concession-07",
@@ -3302,7 +3302,7 @@
           "a": [
             "quand"
           ],
-          "en": "It's raining, but I'm going out all the same."
+          "cs": "Prší, ale stejně jdu ven."
         },
         {
           "id": "g-contrast-concession-08",
@@ -3311,13 +3311,13 @@
           "a": [
             "alors"
           ],
-          "en": "She likes summer whereas he prefers winter."
+          "cs": "Ona má ráda léto, zatímco on má radši zimu."
         }
       ]
     },
     {
       "id": "time-connectors",
-      "title": "Linking events in time: d'abord, ensuite, quand, dès que",
+      "title": "Spojování dějů v čase: d'abord, ensuite, quand, dès que",
       "fr": "les connecteurs de temps",
       "level": "A2",
       "keywords": [
@@ -3348,47 +3348,47 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "To tell things **in order** use *d'abord, ensuite, puis, après, enfin*. To link two clauses use **quand, lorsque, dès que, pendant que, avant de, après avoir, depuis que, jusqu'à ce que**. After *quand* and *dès que* a future action takes the **futur simple**."
+              "cs": "Když vyprávíš věci **popořadě**, použij *d'abord, ensuite, puis, après, enfin*. Ke spojení dvou vět použij **quand, lorsque, dès que, pendant que, avant de, après avoir, depuis que, jusqu'à ce que**. Po *quand* a *dès que* má budoucí děj **futur simple**."
             },
             {
               "type": "table",
               "head": [
-                "function",
-                "words",
-                "example"
+                "funkce",
+                "slova",
+                "příklad"
               ],
               "rows": [
                 [
-                  "order",
+                  "pořadí",
                   "d'abord, ensuite, puis, après, enfin",
                   "D'abord je mange, ensuite je sors."
                 ],
                 [
-                  "when",
+                  "když",
                   "quand, lorsque, au moment où",
                   "Quand je rentre, je mange."
                 ],
                 [
-                  "as soon as",
+                  "jakmile",
                   "dès que, aussitôt que",
                   "Dès que j'arrive, je t'appelle."
                 ],
                 [
-                  "while",
+                  "zatímco",
                   "pendant que, alors que",
                   "Je cuisine pendant que tu travailles."
                 ],
                 [
-                  "before / after",
-                  "avant de + inf., après + past inf.",
+                  "před / po",
+                  "avant de + inf., après + minulý inf.",
                   "Avant de partir, ferme la porte."
                 ],
                 [
-                  "since / until",
+                  "od té doby, co / dokud",
                   "depuis que, jusqu'à ce que",
                   "Attends jusqu'à ce que je revienne."
                 ]
@@ -3400,22 +3400,22 @@
           ]
         },
         {
-          "title": "Quand and the future",
+          "title": "Quand a budoucnost",
           "blocks": [
             {
               "type": "text",
-              "en": "Czech uses the present after its word for *when*. In French **quand** and **dès que** are followed by the **futur simple** when the action is in the future. After *si*, in contrast, you use the present."
+              "cs": "Čeština po \"až\" používá budoucí čas, angličtina přítomný. Ve francouzštině po **quand** a **dès que** následuje **futur simple**, když jde o budoucí děj. Po *si* naopak použiješ přítomný čas."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "When I arrive, I'll call you.",
+                  "cs": "Až přijedu, zavolám ti.",
                   "wrong": "Quand j'arrive, je t'appellerai.",
                   "fr": "Quand [[j'arriverai]], je t'appellerai."
                 },
                 {
-                  "en": "If I arrive, I'll call you.",
+                  "cs": "Jestli přijedu, zavolám ti.",
                   "wrong": "Si j'arriverai, je t'appellerai.",
                   "fr": "[[Si j'arrive]], je t'appellerai."
                 }
@@ -3426,93 +3426,93 @@
               "items": [
                 {
                   "fr": "Quand tu viendras, apporte ton ordinateur.",
-                  "en": "When you come, bring your computer."
+                  "cs": "Až přijdeš, přines si počítač."
                 },
                 {
                   "fr": "Dès que j'aurai fini, je sortirai.",
-                  "en": "As soon as I've finished, I'll go out."
+                  "cs": "Jakmile to dodělám, půjdu ven."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Before and after",
+          "title": "Před a po",
           "blocks": [
             {
               "type": "text",
-              "en": "**Avant de + infinitive** (same subject): *Avant de partir, je ferme la fenêtre.* **Après avoir / être + participle** (same subject): *Après avoir mangé, je sors.* With different subjects use **avant que + subjunctive**: *avant que tu partes*, and **après que + indicative**."
+              "cs": "**Avant de + infinitiv** (stejný podmět): *Avant de partir, je ferme la fenêtre.* **Après avoir / être + příčestí** (stejný podmět): *Après avoir mangé, je sors.* S různými podměty použij **avant que + subjonctif**: *avant que tu partes*, a **après que + indikativ**."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Avant de dormir, je lis un peu.",
-                  "en": "Before sleeping I read a little."
+                  "cs": "Před spaním si trochu čtu."
                 },
                 {
                   "fr": "Après avoir mangé, nous sommes sortis.",
-                  "en": "After eating we went out."
+                  "cs": "Po jídle jsme šli ven."
                 },
                 {
                   "fr": "Après être rentré, il a pris une douche.",
-                  "en": "After coming home he took a shower."
+                  "cs": "Když se vrátil domů, osprchoval se."
                 },
                 {
                   "fr": "Avant que tu partes, appelle ta mère.",
-                  "en": "Before you leave, call your mother."
+                  "cs": "Než odejdeš, zavolej mámě."
                 }
               ]
             }
           ]
         },
         {
-          "title": "In stories",
+          "title": "Ve vyprávění",
           "blocks": [
             {
               "type": "text",
-              "en": "In a story use **la veille** (the day before), **le lendemain** (the next day), **ce jour-là**, **soudain**, **un peu plus tard**, **à ce moment-là**, **finalement**."
+              "cs": "Ve vyprávění používej **la veille** (den předtím), **le lendemain** (druhý den), **ce jour-là**, **soudain**, **un peu plus tard**, **à ce moment-là**, **finalement**."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le lendemain, il est parti.",
-                  "en": "The next day he left."
+                  "cs": "Druhý den odjel."
                 },
                 {
                   "fr": "La veille, nous avions préparé les valises.",
-                  "en": "The day before, we had packed the cases."
+                  "cs": "Den předtím jsme si sbalili kufry."
                 },
                 {
                   "fr": "Soudain, il a commencé à pleuvoir.",
-                  "en": "Suddenly it began to rain."
+                  "cs": "Najednou začalo pršet."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "D'abord, je me lève, ensuite je prends mon petit-déjeuner.",
-                  "en": "First I get up, then I have breakfast."
+                  "cs": "Nejdřív vstanu, pak se nasnídám."
                 },
                 {
                   "fr": "Pendant que je faisais mes devoirs, il regardait la télé.",
-                  "en": "While I was doing my homework he was watching TV."
+                  "cs": "Zatímco jsem dělal úkoly, díval se na televizi."
                 },
                 {
                   "fr": "Lorsque nous sommes arrivés, le film avait commencé.",
-                  "en": "When we arrived, the film had started."
+                  "cs": "Když jsme dorazili, film už začal."
                 },
                 {
                   "fr": "Je vis ici depuis que j'ai dix ans.",
-                  "en": "I have lived here since I was ten."
+                  "cs": "Bydlím tady od deseti let."
                 }
               ]
             }
@@ -3523,7 +3523,7 @@
         {
           "id": "g-time-connectors-01",
           "type": "build",
-          "en": "First I get up, then I have breakfast.",
+          "cs": "Nejdřív vstanu, pak se nasnídám.",
           "a": [
             "D'abord, je me lève, ensuite je prends mon petit-déjeuner.",
             "D'abord je me lève, puis je prends mon petit-déjeuner."
@@ -3532,7 +3532,7 @@
         {
           "id": "g-time-connectors-02",
           "type": "build",
-          "en": "As soon as I arrive, I'll call you.",
+          "cs": "Jakmile dorazím, zavolám ti.",
           "a": [
             "Dès que j'arriverai, je t'appellerai.",
             "Dès que je serai arrivé, je t'appellerai."
@@ -3541,7 +3541,7 @@
         {
           "id": "g-time-connectors-03",
           "type": "build",
-          "en": "Before leaving, close the window.",
+          "cs": "Než odejdeš, zavři okno.",
           "a": [
             "Avant de partir, ferme la fenêtre."
           ]
@@ -3549,7 +3549,7 @@
         {
           "id": "g-time-connectors-04",
           "type": "build",
-          "en": "After eating, we went out.",
+          "cs": "Po jídle jsme šli ven.",
           "a": [
             "Après avoir mangé, nous sommes sortis.",
             "Après avoir mangé, on est sorti."
@@ -3563,7 +3563,7 @@
             "viendras"
           ],
           "hint": "venir",
-          "en": "When you come, bring your book."
+          "cs": "Až přijdeš, přines si knihu."
         },
         {
           "id": "g-time-connectors-06",
@@ -3572,7 +3572,7 @@
           "a": [
             "aurai"
           ],
-          "en": "As soon as I've finished, I'll call you."
+          "cs": "Jakmile to dodělám, zavolám ti."
         },
         {
           "id": "g-time-connectors-07",
@@ -3581,7 +3581,7 @@
           "a": [
             "pendant"
           ],
-          "en": "I cook while you work."
+          "cs": "Vařím, zatímco ty pracuješ."
         },
         {
           "id": "g-time-connectors-08",
@@ -3590,13 +3590,13 @@
           "a": [
             "lendemain"
           ],
-          "en": "The next day he left."
+          "cs": "Druhý den odjel."
         }
       ]
     },
     {
       "id": "complex-sentences",
-      "title": "Complex sentences: que, quand, si, comme",
+      "title": "Souvětí: que, quand, si, comme",
       "fr": "les subordonnées",
       "level": "A2",
       "keywords": [
@@ -3622,18 +3622,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A subordinate clause starts with a conjunction and then has **normal word order**: subject + verb."
+              "cs": "Vedlejší věta začíná spojkou a pak má **normální slovosled**: podmět + sloveso."
             },
             {
               "type": "table",
               "head": [
-                "conjunction",
-                "meaning",
-                "example"
+                "spojka",
+                "význam",
+                "příklad"
               ],
               "textCols": [
                 1
@@ -3641,32 +3641,32 @@
               "rows": [
                 [
                   "que (qu')",
-                  "that",
+                  "že",
                   "Je pense que c'est vrai."
                 ],
                 [
                   "quand",
-                  "when",
+                  "když",
                   "Quand il pleut, je lis."
                 ],
                 [
                   "si (s'il)",
-                  "if",
+                  "jestli, když",
                   "Si tu veux, on y va."
                 ],
                 [
                   "comme",
-                  "since, as (at the start)",
+                  "protože, jelikož (na začátku)",
                   "Comme il est tard, je rentre."
                 ],
                 [
                   "pendant que",
-                  "while",
+                  "zatímco",
                   "Je lis pendant que tu dors."
                 ],
                 [
                   "lorsque",
-                  "when (written)",
+                  "když (psaně)",
                   "Lorsqu'il arrive, on mange."
                 ]
               ]
@@ -3674,33 +3674,33 @@
           ]
         },
         {
-          "title": "Que cannot be dropped",
+          "title": "Que nejde vynechat",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I think he's right.",
+                  "cs": "Myslím, že má pravdu.",
                   "wrong": "Je pense il a raison.",
                   "fr": "Je pense [[qu']]il a raison.",
-                  "note": "English sometimes drops \"that\", French **never** drops *que*. And no comma is written before *que*."
+                  "note": "Francouzština *que* **nikdy** nevynechává (angličtina své \"that\" někdy ano). A před *que* se nepíše čárka."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Quand and the future",
+          "title": "Quand a budoucnost",
           "blocks": [
             {
               "type": "text",
-              "en": "When you talk about the future, *quand* is followed by the **future tense**, even though Czech uses the present tense there (\"when you come\"): *Quand tu viendras, on mangera.* After *si* (if), however, the future is **never** used: *S'il pleut demain, je resterai à la maison.*"
+              "cs": "Když mluvíš o budoucnosti, následuje po *quand* **budoucí čas**, stejně jako v češtině (\"až přijdeš\"): *Quand tu viendras, on mangera.* Po *si* (jestli) se ale budoucí čas **nikdy** nepoužívá: *S'il pleut demain, je resterai à la maison.*"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "When you come, call me.",
+                  "cs": "Až přijdeš, zavolej mi.",
                   "wrong": "Quand tu viens, appelle-moi.",
                   "fr": "Quand tu [[viendras]], appelle-moi."
                 }
@@ -3716,30 +3716,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je sais que tu es fatigué.",
-                  "en": "I know you're tired."
+                  "cs": "Vím, že jsi unavený."
                 },
                 {
                   "fr": "Quand j'étais petit, j'habitais à Prague.",
-                  "en": "When I was little I lived in Prague."
+                  "cs": "Když jsem byl malý, bydlel jsem v Praze."
                 },
                 {
                   "fr": "Si tu as faim, il y a du pain.",
-                  "en": "If you're hungry, there's bread."
+                  "cs": "Jestli máš hlad, je tu chleba."
                 },
                 {
                   "fr": "Comme il pleut, on reste à la maison.",
-                  "en": "Since it's raining, we're staying at home."
+                  "cs": "Protože prší, zůstáváme doma."
                 },
                 {
                   "fr": "Elle dit qu'elle est malade.",
-                  "en": "She says she's ill."
+                  "cs": "Říká, že je nemocná."
                 }
               ]
             }
@@ -3750,7 +3750,7 @@
         {
           "id": "g-complex-sentences-01",
           "type": "build",
-          "en": "I think it's true.",
+          "cs": "Myslím, že je to pravda.",
           "a": [
             "Je pense que c'est vrai.",
             "Je crois que c'est vrai."
@@ -3763,7 +3763,7 @@
           "a": [
             "que"
           ],
-          "en": "I know you're here."
+          "cs": "Vím, že jsi tady."
         },
         {
           "id": "g-complex-sentences-03",
@@ -3773,7 +3773,7 @@
             "Quand",
             "Si"
           ],
-          "en": "When I have time, I play video games."
+          "cs": "Když mám čas, hraju videohry."
         },
         {
           "id": "g-complex-sentences-04",
@@ -3783,12 +3783,12 @@
             "serai"
           ],
           "hint": "être",
-          "en": "When I'm big, I'll be a pilot."
+          "cs": "Až budu velký, budu pilot."
         },
         {
           "id": "g-complex-sentences-05",
           "type": "build",
-          "en": "When I was little I lived in Prague.",
+          "cs": "Když jsem byl malý, bydlel jsem v Praze.",
           "a": [
             "Quand j'étais petit, j'habitais à Prague."
           ]
@@ -3797,7 +3797,7 @@
     },
     {
       "id": "exclamations",
-      "title": "Exclamations: quel, que, comme",
+      "title": "Zvolání: quel, que, comme",
       "fr": "l'exclamation",
       "level": "A2",
       "keywords": [
@@ -3819,44 +3819,44 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "To exclaim, use **quel + noun** (*Quel beau temps !*), **que + adjective or sentence** (*Qu'il est grand !*) or **comme + sentence** (*Comme il est grand !*). In speech you often hear **ce que** and **qu'est-ce que**."
+              "cs": "Pro zvolání použij **quel + podstatné jméno** (*Quel beau temps !*), **que + přídavné jméno nebo věta** (*Qu'il est grand !*) nebo **comme + věta** (*Comme il est grand !*). V mluvené řeči často uslyšíš **ce que** a **qu'est-ce que**."
             },
             {
               "type": "table",
               "head": [
-                "pattern",
-                "example",
-                "English"
+                "vzorec",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
-                  "Quel / quelle + noun",
+                  "Quel / quelle + podstatné jméno",
                   "Quelle belle journée !",
-                  "What a nice day!"
+                  "To je hezký den!"
                 ],
                 [
-                  "Quel + adjective + noun",
+                  "Quel + přídavné jméno + podstatné jméno",
                   "Quel beau film !",
-                  "What a beautiful film!"
+                  "To je krásný film!"
                 ],
                 [
                   "Que + sentence",
                   "Que c'est beau !",
-                  "How beautiful!"
+                  "To je krása!"
                 ],
                 [
                   "Comme + sentence",
                   "Comme il fait chaud !",
-                  "How hot it is!"
+                  "To je horko!"
                 ],
                 [
                   "Ce que + sentence (spoken)",
                   "Ce qu'il est grand !",
-                  "How tall he is!"
+                  "Ten je ale vysoký!"
                 ]
               ],
               "textCols": [
@@ -3866,53 +3866,53 @@
           ]
         },
         {
-          "title": "Quel agrees with the noun",
+          "title": "Quel se shoduje s podstatným jménem",
           "blocks": [
             {
               "type": "text",
-              "en": "*Quel, quelle, quels, quelles* agree in gender and number with the noun. There is **no article**: not *quelle une belle ville*."
+              "cs": "*Quel, quelle, quels, quelles* se shodují s podstatným jménem v rodě a čísle. **Člen tam není**: ne *quelle une belle ville*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Quel dommage !",
-                  "en": "What a pity!"
+                  "cs": "To je škoda!"
                 },
                 {
                   "fr": "Quelle bonne idée !",
-                  "en": "What a good idea!"
+                  "cs": "To je dobrý nápad!"
                 },
                 {
                   "fr": "Quels beaux yeux !",
-                  "en": "What beautiful eyes!"
+                  "cs": "Ty máš ale krásné oči!"
                 },
                 {
                   "fr": "Quelles belles vacances !",
-                  "en": "What lovely holidays!"
+                  "cs": "To byly krásné prázdniny!"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Que, comme and ce que",
+          "title": "Que, comme a ce que",
           "blocks": [
             {
               "type": "text",
-              "en": "*Que*, *comme* and *ce que* are followed by a normal sentence (subject + verb). *Que* is more formal, *ce que* is very common in speech."
+              "cs": "Po *que*, *comme* a *ce que* následuje normální věta (podmět + sloveso). *Que* je formálnější, *ce que* je v mluvené řeči hodně časté."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "How cold it is!",
+                  "cs": "To je ale zima!",
                   "wrong": "Comme il est froid !",
                   "fr": "Comme il fait [[froid]] !",
-                  "note": "The weather uses *faire*."
+                  "note": "Počasí používá *faire*."
                 },
                 {
-                  "en": "How well you speak French!",
+                  "cs": "Ty ale mluvíš dobře francouzsky!",
                   "wrong": "Que bien tu parles français !",
                   "fr": "[[Comme]] tu parles bien français ! / Ce que tu parles bien français !"
                 }
@@ -3920,36 +3920,36 @@
             },
             {
               "type": "tip",
-              "en": "You can also exclaim with just a word: *Super !* *Génial !* *Dommage !* *Attention !* *Bravo !*",
-              "title": "Short exclamations"
+              "cs": "Zvolat můžeš i jedním slovem: *Super !* *Génial !* *Dommage !* *Attention !* *Bravo !*",
+              "title": "Krátká zvolání"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Quelle chance !",
-                  "en": "What luck!"
+                  "cs": "To je štěstí!"
                 },
                 {
                   "fr": "Quel beau cadeau !",
-                  "en": "What a beautiful present!"
+                  "cs": "To je krásný dárek!"
                 },
                 {
                   "fr": "Comme tu as grandi !",
-                  "en": "How you've grown!"
+                  "cs": "Ty jsi ale vyrostl!"
                 },
                 {
                   "fr": "Qu'il est gentil !",
-                  "en": "How nice he is!"
+                  "cs": "Ten je ale milý!"
                 },
                 {
                   "fr": "Ce que j'ai faim !",
-                  "en": "How hungry I am!"
+                  "cs": "Já mám ale hlad!"
                 }
               ]
             }
@@ -3960,7 +3960,7 @@
         {
           "id": "g-exclamations-01",
           "type": "build",
-          "en": "What a nice day!",
+          "cs": "To je hezký den!",
           "a": [
             "Quelle belle journée !"
           ]
@@ -3968,7 +3968,7 @@
         {
           "id": "g-exclamations-02",
           "type": "build",
-          "en": "What a pity!",
+          "cs": "To je škoda!",
           "a": [
             "Quel dommage !"
           ]
@@ -3976,7 +3976,7 @@
         {
           "id": "g-exclamations-03",
           "type": "build",
-          "en": "What beautiful eyes!",
+          "cs": "Ty máš ale krásné oči!",
           "a": [
             "Quels beaux yeux !"
           ]
@@ -3984,7 +3984,7 @@
         {
           "id": "g-exclamations-04",
           "type": "build",
-          "en": "How cold it is!",
+          "cs": "To je ale zima!",
           "a": [
             "Comme il fait froid !",
             "Qu'il fait froid !",
@@ -3994,7 +3994,7 @@
         {
           "id": "g-exclamations-05",
           "type": "build",
-          "en": "How you've grown!",
+          "cs": "Ty jsi ale vyrostl!",
           "a": [
             "Comme tu as grandi !",
             "Qu'est-ce que tu as grandi !",
@@ -4008,7 +4008,7 @@
           "a": [
             "Quelle"
           ],
-          "en": "What a beautiful city!"
+          "cs": "To je krásné město!"
         },
         {
           "id": "g-exclamations-07",
@@ -4017,7 +4017,7 @@
           "a": [
             "Quelles"
           ],
-          "en": "What a holiday! (plural)"
+          "cs": "To byly prázdniny! (množné číslo)"
         },
         {
           "id": "g-exclamations-08",
@@ -4026,13 +4026,13 @@
           "a": [
             "Comme"
           ],
-          "en": "How nice he is!"
+          "cs": "Ten je ale milý!"
         }
       ]
     },
     {
       "id": "reported-speech",
-      "title": "Reported speech (basics)",
+      "title": "Nepřímá řeč (základy)",
       "fr": "le discours indirect",
       "level": "B1",
       "keywords": [
@@ -4053,17 +4053,17 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "When you retell what someone **is saying now**, a clause with *que* and a change of persons is enough. The tenses do not change. (The tense shift after *il a dit que...* comes at a higher level.)"
+              "cs": "Když převyprávíš, co někdo **říká teď**, stačí věta s *que* a změna osob. Časy se nemění. (Posun časů po *il a dit que...* přijde na vyšší úrovni.)"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Paul says: \"I'm tired.\" → Paul says that he's tired.",
+                  "cs": "Paul říká: \"Jsem unavený.\" → Paul říká, že je unavený.",
                   "fr": "Paul dit : « Je suis fatigué. » → Paul dit [[qu'il est]] fatigué."
                 }
               ]
@@ -4071,17 +4071,17 @@
           ]
         },
         {
-          "title": "What changes",
+          "title": "Co se mění",
           "blocks": [
             {
               "type": "text",
-              "en": "**Pronouns** change (*je → il / elle*) and so do **possessives** (*ma → sa*), depending on who speaks and who is spoken about."
+              "cs": "Mění se **zájmena** (*je → il / elle*) a **přivlastňovací zájmena** (*ma → sa*) podle toho, kdo mluví a o kom."
             },
             {
               "type": "table",
               "head": [
-                "direct speech",
-                "reported speech"
+                "přímá řeč",
+                "nepřímá řeč"
               ],
               "rows": [
                 [
@@ -4105,31 +4105,31 @@
           ]
         },
         {
-          "title": "Questions and commands",
+          "title": "Otázky a rozkazy",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "type",
-                "direct speech",
-                "reported speech"
+                "typ",
+                "přímá řeč",
+                "nepřímá řeč"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "yes / no question",
+                  "otázka ano / ne",
                   "« Tu viens ? »",
                   "Il demande si je viens."
                 ],
                 [
-                  "with a question word",
+                  "s tázacím slovem",
                   "« Où vas-tu ? »",
                   "Il demande où je vais."
                 ],
                 [
-                  "command",
+                  "rozkaz",
                   "« Viens ! »",
                   "Il me dit de venir."
                 ]
@@ -4137,7 +4137,7 @@
             },
             {
               "type": "text",
-              "en": "A yes / no question is introduced by *si* (whether). The question word stays, but **without inversion and without est-ce que**. A command becomes *dire de* + infinitive."
+              "cs": "Otázku ano / ne uvádí *si* (jestli). Tázací slovo zůstává, ale **bez inverze a bez est-ce que**. Rozkaz se mění na *dire de* + infinitiv."
             },
             {
               "type": "see",
@@ -4148,26 +4148,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ma mère dit que le dîner est prêt.",
-                  "en": "My mother says dinner is ready."
+                  "cs": "Máma říká, že je večeře hotová."
                 },
                 {
                   "fr": "Le prof demande si nous avons fini.",
-                  "en": "The teacher asks whether we've finished."
+                  "cs": "Učitel se ptá, jestli máme hotovo."
                 },
                 {
                   "fr": "Il veut savoir quand tu arrives.",
-                  "en": "He wants to know when you're arriving."
+                  "cs": "Chce vědět, kdy přijedeš."
                 },
                 {
                   "fr": "Elle me dit de fermer la porte.",
-                  "en": "She tells me to close the door."
+                  "cs": "Říká mi, ať zavřu dveře."
                 }
               ]
             }
@@ -4178,7 +4178,7 @@
         {
           "id": "g-reported-speech-01",
           "type": "transform",
-          "task_en": "Turn it into reported speech",
+          "task_cs": "Převeď do nepřímé řeči",
           "fr": "Paul dit : « Je suis malade. »",
           "a": [
             "Paul dit qu'il est malade."
@@ -4187,7 +4187,7 @@
         {
           "id": "g-reported-speech-02",
           "type": "transform",
-          "task_en": "Turn it into reported speech (she is asking you)",
+          "task_cs": "Převeď do nepřímé řeči (ptá se tebe)",
           "fr": "Elle demande : « Tu viens ? »",
           "a": [
             "Elle demande si je viens.",
@@ -4197,7 +4197,7 @@
         {
           "id": "g-reported-speech-03",
           "type": "transform",
-          "task_en": "Turn it into reported speech",
+          "task_cs": "Převeď do nepřímé řeči",
           "fr": "Il demande : « Où est la gare ? »",
           "a": [
             "Il demande où est la gare.",
@@ -4207,7 +4207,7 @@
         {
           "id": "g-reported-speech-04",
           "type": "transform",
-          "task_en": "Turn the command into reported speech",
+          "task_cs": "Převeď rozkaz do nepřímé řeči",
           "fr": "Le prof nous dit : « Écoutez ! »",
           "a": [
             "Le prof nous dit d'écouter."
@@ -4217,7 +4217,7 @@
     },
     {
       "id": "nominalisation",
-      "title": "Verbs into nouns: la nominalisation",
+      "title": "Ze slovesa podstatné jméno: la nominalisation",
       "fr": "la nominalisation",
       "level": "B1",
       "keywords": [
@@ -4241,59 +4241,59 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "French (especially in **headlines, summaries and formal writing**) prefers a **noun to a verb**: *Le président arrive demain* becomes *L'arrivée du président demain*. Most nouns come from the verb with a **suffix**: *-tion, -ment, -age, -ance, -ure, -eur*."
+              "cs": "Francouzština (hlavně v **titulcích, shrnutích a formálních textech**) dává přednost **podstatnému jménu před slovesem**: *Le président arrive demain* se mění na *L'arrivée du président demain*. Většina podstatných jmen vzniká ze slovesa **příponou**: *-tion, -ment, -age, -ance, -ure, -eur*."
             },
             {
               "type": "table",
               "head": [
-                "verb",
-                "noun",
-                "English"
+                "sloveso",
+                "podstatné jméno",
+                "česky"
               ],
               "rows": [
                 [
                   "arriver",
                   "l'arrivée",
-                  "arrival"
+                  "příjezd"
                 ],
                 [
                   "décider",
                   "la décision",
-                  "decision"
+                  "rozhodnutí"
                 ],
                 [
                   "changer",
                   "le changement",
-                  "change"
+                  "změna"
                 ],
                 [
                   "voyager",
                   "le voyage",
-                  "trip"
+                  "cesta"
                 ],
                 [
                   "réussir",
                   "la réussite",
-                  "success"
+                  "úspěch"
                 ],
                 [
                   "augmenter",
                   "l'augmentation",
-                  "increase"
+                  "zvýšení"
                 ],
                 [
                   "travailler",
                   "le travail",
-                  "work"
+                  "práce"
                 ],
                 [
                   "entrer",
                   "l'entrée",
-                  "entrance"
+                  "vstup"
                 ]
               ],
               "textCols": [
@@ -4303,49 +4303,49 @@
           ]
         },
         {
-          "title": "The common endings",
+          "title": "Běžné přípony",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "ending",
-                "gender",
-                "examples"
+                "přípona",
+                "rod",
+                "příklady"
               ],
               "rows": [
                 [
                   "-tion / -sion",
-                  "feminine",
+                  "ženský",
                   "la création, la décision, la discussion"
                 ],
                 [
                   "-ment",
-                  "masculine",
+                  "mužský",
                   "le changement, le logement, le mouvement"
                 ],
                 [
                   "-age",
-                  "masculine",
+                  "mužský",
                   "le voyage, le chômage, le stationnement"
                 ],
                 [
                   "-ance / -ence",
-                  "feminine",
+                  "ženský",
                   "la naissance, la confiance, la différence"
                 ],
                 [
                   "-ure",
-                  "feminine",
+                  "ženský",
                   "la lecture, la fermeture, l'ouverture"
                 ],
                 [
-                  "-eur (person)",
-                  "masculine",
+                  "-eur (osoba)",
+                  "mužský",
                   "le chanteur, le joueur, le vendeur"
                 ],
                 [
                   "-é / -ée",
-                  "feminine",
+                  "ženský",
                   "l'arrivée, la journée, la durée"
                 ]
               ],
@@ -4355,57 +4355,57 @@
             },
             {
               "type": "tip",
-              "en": "There is no fixed rule, so learn the noun with the verb. The gender follows the ending."
+              "cs": "Pevné pravidlo neexistuje, tak se podstatné jméno uč se slovesem. Rod se řídí příponou."
             }
           ]
         },
         {
-          "title": "Using it",
+          "title": "Použití",
           "blocks": [
             {
               "type": "text",
-              "en": "Turn the subject into *de + noun* or a possessive, and the verb into a noun: *Les prix augmentent* → *l'augmentation des prix*. For a headline drop the article."
+              "cs": "Z podmětu udělej *de + podstatné jméno* nebo přivlastňovací zájmeno a ze slovesa podstatné jméno: *Les prix augmentent* → *l'augmentation des prix*. V titulku člen vynech."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le ministre arrive demain. → L'arrivée du ministre demain.",
-                  "en": "The minister arrives tomorrow."
+                  "cs": "Ministr přijede zítra."
                 },
                 {
                   "fr": "On a décidé de partir. → La décision de partir est prise.",
-                  "en": "The decision to leave is made."
+                  "cs": "Rozhodnutí odejít padlo."
                 },
                 {
                   "fr": "Les prix ont augmenté. → L'augmentation des prix inquiète.",
-                  "en": "The rise in prices worries people."
+                  "cs": "Růst cen lidi znepokojuje."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "La lecture est mon passe-temps préféré.",
-                  "en": "Reading is my favourite pastime."
+                  "cs": "Čtení je můj nejoblíbenější koníček."
                 },
                 {
                   "fr": "Le changement climatique est un problème.",
-                  "en": "Climate change is a problem."
+                  "cs": "Změna klimatu je problém."
                 },
                 {
                   "fr": "Son départ m'a surpris.",
-                  "en": "His leaving surprised me."
+                  "cs": "Jeho odchod mě překvapil."
                 },
                 {
                   "fr": "Après la fermeture du magasin, nous sommes rentrés.",
-                  "en": "After the shop closed we went home."
+                  "cs": "Po zavření obchodu jsme šli domů."
                 }
               ]
             }
@@ -4416,7 +4416,7 @@
         {
           "id": "g-nominalisation-01",
           "type": "build",
-          "en": "the arrival",
+          "cs": "příjezd",
           "a": [
             "l'arrivée"
           ]
@@ -4424,7 +4424,7 @@
         {
           "id": "g-nominalisation-02",
           "type": "build",
-          "en": "the decision",
+          "cs": "rozhodnutí",
           "a": [
             "la décision"
           ]
@@ -4432,7 +4432,7 @@
         {
           "id": "g-nominalisation-03",
           "type": "build",
-          "en": "the change",
+          "cs": "změna",
           "a": [
             "le changement"
           ]
@@ -4444,7 +4444,7 @@
           "a": [
             "voyage"
           ],
-          "en": "The verb voyager gives the noun: the trip."
+          "cs": "Ze slovesa voyager vzniká podstatné jméno: cesta."
         },
         {
           "id": "g-nominalisation-05",
@@ -4453,7 +4453,7 @@
           "a": [
             "décision"
           ],
-          "en": "The verb décider gives the noun: the decision."
+          "cs": "Ze slovesa décider vzniká podstatné jméno: rozhodnutí."
         },
         {
           "id": "g-nominalisation-06",
@@ -4462,12 +4462,12 @@
           "a": [
             "changement"
           ],
-          "en": "The verb changer gives the noun: the change."
+          "cs": "Ze slovesa changer vzniká podstatné jméno: změna."
         },
         {
           "id": "g-nominalisation-07",
           "type": "transform",
-          "task_en": "Turn into a noun phrase",
+          "task_cs": "Převeď na podstatné jméno",
           "fr": "Les prix augmentent.",
           "a": [
             "L'augmentation des prix.",
@@ -4478,7 +4478,7 @@
     },
     {
       "id": "emphasis",
-      "title": "Emphasis: c'est... qui, c'est... que, ce qui, ce que",
+      "title": "Důraz: c'est... qui, c'est... que, ce qui, ce que",
       "fr": "la mise en relief",
       "level": "B1",
       "keywords": [
@@ -4502,39 +4502,39 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "To **highlight** one part of a sentence, put it between **c'est** and **qui** (subject) or **que** (everything else). *C'est Marie **qui** a gagné.* *C'est demain **que** je pars.* You can also highlight with **ce qui / ce que / ce dont ... c'est**."
+              "cs": "Když chceš jednu část věty **zdůraznit**, dej ji mezi **c'est** a **qui** (podmět) nebo **que** (všechno ostatní). *C'est Marie **qui** a gagné.* *C'est demain **que** je pars.* Zdůraznit můžeš i pomocí **ce qui / ce que / ce dont ... c'est**."
             },
             {
               "type": "table",
               "head": [
-                "plain sentence",
-                "highlighted",
-                "English"
+                "obyčejná věta",
+                "zdůrazněná",
+                "česky"
               ],
               "rows": [
                 [
                   "Marie a gagné.",
                   "C'est Marie qui a gagné.",
-                  "It was Marie who won."
+                  "To Marie vyhrála."
                 ],
                 [
                   "Je pars demain.",
                   "C'est demain que je pars.",
-                  "It's tomorrow that I'm leaving."
+                  "To zítra odjíždím."
                 ],
                 [
                   "Il parle à Paul.",
                   "C'est à Paul qu'il parle.",
-                  "It's Paul he is speaking to."
+                  "To s Paulem mluví."
                 ],
                 [
                   "Je veux ça.",
                   "C'est ça que je veux.",
-                  "That's what I want."
+                  "To je to, co chci."
                 ]
               ],
               "textCols": [
@@ -4544,36 +4544,36 @@
           ]
         },
         {
-          "title": "C'est... qui and c'est... que",
+          "title": "C'est... qui a c'est... que",
           "blocks": [
             {
               "type": "text",
-              "en": "**Qui** replaces the **subject**, **que** everything else (an object, a place, a time). With a person or a thing after a preposition the preposition stays with the highlighted word: *C'est avec toi que je veux parler.* The verb after *qui* agrees with the highlighted word: *C'est moi qui **ai** gagné.*"
+              "cs": "**Qui** nahrazuje **podmět**, **que** všechno ostatní (předmět, místo, čas). U osoby nebo věci po předložce zůstává předložka u zdůrazněného slova: *C'est avec toi que je veux parler.* Sloveso po *qui* se shoduje se zdůrazněným slovem: *C'est moi qui **ai** gagné.*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "C'est moi qui ai fait le gâteau.",
-                  "en": "I'm the one who made the cake."
+                  "cs": "To já jsem upekl ten dort."
                 },
                 {
                   "fr": "C'est lui qui a raison.",
-                  "en": "He is the one who is right."
+                  "cs": "To on má pravdu."
                 },
                 {
                   "fr": "C'est en été que nous partons.",
-                  "en": "We leave in summer."
+                  "cs": "Odjíždíme v létě."
                 },
                 {
                   "fr": "C'est à vous que je parle.",
-                  "en": "I'm talking to you."
+                  "cs": "Mluvím s tebou."
                 }
               ]
             },
             {
               "type": "tip",
-              "en": "With stressed pronouns: *C'est moi qui*, *c'est toi qui*, *c'est lui qui*. The verb is in the person of the pronoun: *C'est moi qui **suis** là.*"
+              "cs": "Se samostatnými zájmeny: *C'est moi qui*, *c'est toi qui*, *c'est lui qui*. Sloveso je v osobě zájmena: *C'est moi qui **suis** là.*"
             }
           ]
         },
@@ -4582,30 +4582,30 @@
           "blocks": [
             {
               "type": "text",
-              "en": "To highlight what you **mean** put the clause first and **c'est** after it. *Ce qui* is the subject, *ce que* the object, *ce dont* with *de*."
+              "cs": "Když chceš zdůraznit, co **myslíš**, dej vedlejší větu na začátek a **c'est** za ni. *Ce qui* je podmět, *ce que* předmět, *ce dont* s *de*."
             },
             {
               "type": "table",
               "head": [
-                "pattern",
-                "example",
-                "English"
+                "vzorec",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
-                  "Ce qui + verb, c'est ...",
+                  "Ce qui + sloveso, c'est ...",
                   "Ce qui me plaît, c'est la musique.",
-                  "What I like is music."
+                  "Co mám rád, je hudba."
                 ],
                 [
-                  "Ce que + subject + verb, c'est ...",
+                  "Ce que + podmět + sloveso, c'est ...",
                   "Ce que je veux, c'est dormir.",
-                  "What I want is to sleep."
+                  "Co chci, je spát."
                 ],
                 [
-                  "Ce dont + subject + verb, c'est ...",
+                  "Ce dont + podmět + sloveso, c'est ...",
                   "Ce dont j'ai besoin, c'est d'un café.",
-                  "What I need is a coffee."
+                  "Co potřebuju, je káva."
                 ]
               ],
               "textCols": [
@@ -4615,52 +4615,52 @@
           ]
         },
         {
-          "title": "Speech: moi, je...",
+          "title": "Mluvená řeč: moi, je...",
           "blocks": [
             {
               "type": "text",
-              "en": "In everyday French you also repeat a stressed pronoun to stress yourself: *Moi, je pense que...* *Toi, tu...* *Eux, ils...*"
+              "cs": "V běžné francouzštině se samostatné zájmeno opakuje i pro důraz na sebe: *Moi, je pense que...* *Toi, tu...* *Eux, ils...*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Moi, je préfère le thé.",
-                  "en": "I prefer tea."
+                  "cs": "Já mám radši čaj."
                 },
                 {
                   "fr": "Toi, tu n'as pas faim ?",
-                  "en": "Aren't you hungry?"
+                  "cs": "Ty nemáš hlad?"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "C'est Paul qui a téléphoné.",
-                  "en": "It was Paul who called."
+                  "cs": "To Paul volal."
                 },
                 {
                   "fr": "C'est ici que je travaille.",
-                  "en": "This is where I work."
+                  "cs": "Tady pracuju."
                 },
                 {
                   "fr": "Ce qui est important, c'est de rester calme.",
-                  "en": "What matters is staying calm."
+                  "cs": "Důležité je zůstat v klidu."
                 },
                 {
                   "fr": "Ce que j'aime ici, c'est la mer.",
-                  "en": "What I like here is the sea."
+                  "cs": "Co se mi tu líbí, je moře."
                 },
                 {
                   "fr": "C'est de toi que je parle.",
-                  "en": "It's you I'm talking about."
+                  "cs": "To o tobě mluvím."
                 }
               ]
             }
@@ -4671,7 +4671,7 @@
         {
           "id": "g-emphasis-01",
           "type": "transform",
-          "task_en": "Highlight the subject with c'est... qui",
+          "task_cs": "Zdůrazni podmět pomocí c'est... qui",
           "fr": "Marie a gagné.",
           "a": [
             "C'est Marie qui a gagné."
@@ -4680,7 +4680,7 @@
         {
           "id": "g-emphasis-02",
           "type": "transform",
-          "task_en": "Highlight \"demain\" with c'est... que",
+          "task_cs": "Zdůrazni \"demain\" pomocí c'est... que",
           "fr": "Je pars demain.",
           "a": [
             "C'est demain que je pars."
@@ -4689,7 +4689,7 @@
         {
           "id": "g-emphasis-03",
           "type": "transform",
-          "task_en": "Highlight \"à Paul\"",
+          "task_cs": "Zdůrazni \"à Paul\"",
           "fr": "Il parle à Paul.",
           "a": [
             "C'est à Paul qu'il parle."
@@ -4698,7 +4698,7 @@
         {
           "id": "g-emphasis-04",
           "type": "build",
-          "en": "I'm the one who did it.",
+          "cs": "To já jsem to udělal.",
           "a": [
             "C'est moi qui l'ai fait.",
             "C'est moi qui ai fait ça."
@@ -4707,7 +4707,7 @@
         {
           "id": "g-emphasis-05",
           "type": "build",
-          "en": "What I like is music.",
+          "cs": "Co mám rád, je hudba.",
           "a": [
             "Ce qui me plaît, c'est la musique.",
             "Ce que j'aime, c'est la musique."
@@ -4720,7 +4720,7 @@
           "a": [
             "qui"
           ],
-          "en": "He is the one who is right."
+          "cs": "To on má pravdu."
         },
         {
           "id": "g-emphasis-07",
@@ -4729,7 +4729,7 @@
           "a": [
             "que"
           ],
-          "en": "We leave in summer."
+          "cs": "Odjíždíme v létě."
         },
         {
           "id": "g-emphasis-08",
@@ -4738,7 +4738,7 @@
           "a": [
             "que"
           ],
-          "en": "What I want is to sleep."
+          "cs": "Co chci, je spát."
         },
         {
           "id": "g-emphasis-09",
@@ -4747,7 +4747,7 @@
           "a": [
             "qui"
           ],
-          "en": "What bothers me is the noise."
+          "cs": "Co mi vadí, je hluk."
         }
       ]
     }

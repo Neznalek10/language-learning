@@ -1,0 +1,144 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Professions",
+  "unit": "9",
+  "level": null,
+  "words": [
+    {
+      "q": "profession, trade",
+      "a": "métier"
+    },
+    {
+      "q": "work, job",
+      "a": "travail"
+    },
+    {
+      "q": "salary",
+      "a": "salaire"
+    },
+    {
+      "q": "company",
+      "a": "entreprise"
+    },
+    {
+      "q": "engineer",
+      "a": "ingénieur"
+    },
+    {
+      "q": "programmer, developer",
+      "a": [
+        "développeur",
+        "programmeur"
+      ]
+    },
+    {
+      "q": "estate agent",
+      "a": "agent immobilier"
+    },
+    {
+      "q": "lawyer",
+      "a": "avocat"
+    },
+    {
+      "q": "nurse (woman)",
+      "a": "infirmière"
+    },
+    {
+      "q": "nurse (man)",
+      "a": "infirmier"
+    },
+    {
+      "q": "shop assistant (man)",
+      "a": "vendeur"
+    },
+    {
+      "q": "shop assistant (woman)",
+      "a": "vendeuse"
+    },
+    {
+      "q": "cook, chef (man)",
+      "a": "cuisinier"
+    },
+    {
+      "q": "cook, chef (woman)",
+      "a": "cuisinière"
+    },
+    {
+      "q": "police officer (man)",
+      "a": "policier"
+    },
+    {
+      "q": "police officer (woman)",
+      "a": "policière"
+    },
+    {
+      "q": "firefighter",
+      "a": "pompier"
+    },
+    {
+      "q": "architect",
+      "a": "architecte"
+    },
+    {
+      "q": "journalist",
+      "a": "journaliste"
+    },
+    {
+      "q": "accountant",
+      "a": "comptable"
+    },
+    {
+      "q": "entrepreneur",
+      "a": "entrepreneur"
+    },
+    {
+      "q": "musician (man)",
+      "a": "musicien"
+    },
+    {
+      "q": "musician (woman)",
+      "a": "musicienne"
+    },
+    {
+      "q": "drummer",
+      "a": "batteur"
+    },
+    {
+      "q": "professional athlete",
+      "a": "sportif professionnel"
+    },
+    {
+      "q": "hairdresser (man)",
+      "a": "coiffeur"
+    },
+    {
+      "q": "hairdresser (woman)",
+      "a": "coiffeuse"
+    },
+    {
+      "q": "studies",
+      "a": "études"
+    },
+    {
+      "q": "school-leaving exam",
+      "a": "bac"
+    },
+    {
+      "q": "university",
+      "a": [
+        "université",
+        "fac"
+      ]
+    },
+    {
+      "q": "later",
+      "a": "plus tard"
+    },
+    {
+      "q": "one day",
+      "a": "un jour"
+    }
+  ]
+}

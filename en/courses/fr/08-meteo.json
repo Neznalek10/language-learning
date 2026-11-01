@@ -1,0 +1,228 @@
+{
+  "schema": 1,
+  "goals": [
+    "Describe the weather: il fait, il pleut, il y a du vent",
+    "Use the seasons with en and au",
+    "Say the date and when your birthday is",
+    "Give a weather forecast in the near future"
+  ],
+  "lessons": [
+    {
+      "id": "fr-8-1",
+      "title": "Il fait beau",
+      "subtitle": "The weather",
+      "topics": ["weather"],
+      "words": ["weather#weather", "weather#the weather is nice", "weather#the weather is bad", "weather#it's cool, it's chilly", "weather#it's raining", "weather#it's snowing", "weather#it's windy", "weather#it's sunny", "weather#mild", "weather#degree", "weather#rain", "weather#snow", "weather#cloud", "weather#fog", "weather#thunderstorm"],
+      "learn": [
+        {"title": "What's the weather like?", "blocks": [
+          {"type": "text", "en": "*Quel temps fait-il ?* (What's the weather like?) You talk about the weather impersonally: *Il fait beau.* (It's nice.) Here *il* means nothing, just like \"it\" in \"it's eight o'clock\"."},
+          {"type": "table", "textCols": [0], "rows": [
+            ["It's nice.", "Il fait beau."],
+            ["The weather is bad.", "Il fait mauvais."],
+            ["It's warm, hot.", "Il fait chaud."],
+            ["It's cold.", "Il fait froid."],
+            ["It's cool.", "Il fait frais."],
+            ["It's mild.", "Il fait doux."],
+            ["It's 20 degrees.", "Il fait vingt degrés."],
+            ["It's minus 5.", "Il fait moins cinq."]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Il ___ beau aujourd'hui.", "a": ["fait"]}}
+        ]},
+        {"title": "It's raining, it's snowing", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["It's raining.", "Il pleut."],
+            ["It's snowing.", "Il neige."],
+            ["It's freezing.", "Il gèle."],
+            ["It's sunny.", "Il y a du soleil."],
+            ["It's windy.", "Il y a du vent."],
+            ["It's cloudy.", "Il y a des nuages. / Le ciel est couvert."],
+            ["It's foggy.", "Il y a du brouillard."],
+            ["There's a storm.", "Il y a de l'orage."]
+          ]},
+          {"type": "tip", "title": "il fait froid × j'ai froid", "en": "*Il fait froid* = it's cold outside. *J'ai froid* = I'm cold (you personally)."},
+          {"type": "check", "item": {"type": "build", "en": "It's raining and windy.", "a": ["Il pleut et il y a du vent."]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-8-1-01", "type": "cloze", "fr": "Il ___ beau.", "a": ["fait"], "hint": "it's nice"},
+        {"id": "fr-8-1-02", "type": "cloze", "fr": "Il ___ en hiver.", "a": ["neige"], "hint": "it snows"},
+        {"id": "fr-8-1-03", "type": "cloze", "fr": "Il y a ___ soleil.", "a": ["du"]},
+        {"id": "fr-8-1-04", "type": "cloze", "fr": "Il y a ___ vent.", "a": ["du"]},
+        {"id": "fr-8-1-05", "type": "cloze", "fr": "Il fait vingt ___.", "a": ["degrés"], "hint": "degrees"},
+        {"id": "fr-8-1-06", "type": "cloze", "fr": "Il ___ beaucoup en novembre.", "a": ["pleut"], "hint": "it rains"},
+        {"id": "fr-8-1-07", "type": "cloze", "fr": "Il y a du ___.", "a": ["brouillard"], "hint": "fog"},
+        {"id": "fr-8-1-08", "type": "build", "en": "It's nice today.", "a": ["Aujourd'hui, il fait beau.", "Il fait beau aujourd'hui."]},
+        {"id": "fr-8-1-09", "type": "build", "en": "It's cold and it's snowing.", "a": ["Il fait froid et il neige."]},
+        {"id": "fr-8-1-10", "type": "build", "en": "What's the weather like?", "a": ["{Quel temps fait-il|Il fait quel temps|Quel temps il fait} ?"]},
+        {"id": "fr-8-1-11", "type": "build", "en": "It's thirty degrees, it's hot.", "a": ["Il fait trente degrés, il fait chaud."]},
+        {"id": "fr-8-1-12", "type": "build", "en": "I'm cold.", "a": ["J'ai froid."], "why": "I'm cold = j'ai froid. Il fait froid = it's cold outside."},
+        {"id": "fr-8-1-13", "type": "transform", "task_en": "Make it negative", "fr": "Il fait beau.", "a": ["Il ne fait pas beau."]},
+        {"id": "fr-8-1-14", "type": "order", "en": "It's sunny but cool.", "a": ["Il y a du soleil mais il fait frais"], "extra": ["froid", "de"]}
+      ]
+    },
+    {
+      "id": "fr-8-2",
+      "title": "Les saisons",
+      "subtitle": "The seasons",
+      "topics": ["weather"],
+      "words": ["weather#spring", "weather#summer", "weather#autumn", "weather#winter", "sports#skiing", "verbs#to ski", "verbs#to swim"],
+      "learn": [
+        {"title": "The seasons", "blocks": [
+          {"type": "table", "head": ["", "", "in ..."], "textCols": [0], "rows": [
+            ["spring", "le printemps", "au printemps"],
+            ["léto", "l'été", "en été"],
+            ["autumn", "l'automne", "en automne"],
+            ["winter", "l'hiver", "en hiver"]
+          ]},
+          {"type": "text", "en": "All the seasons are masculine. \"In\" is *en*, except for spring: *au printemps*. A season is *la saison*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ printemps, il pleut souvent.", "a": ["Au"], "hint": "in spring"}}
+        ]},
+        {"title": "What do you do in summer?", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "En été, je nage et je fais du vélo.", "en": "In summer I swim and go cycling."},
+            {"fr": "En hiver, on fait du ski.", "en": "In winter we go skiing."},
+            {"fr": "En automne, il pleut et il y a du vent.", "en": "In autumn it rains and it's windy."},
+            {"fr": "Ma saison préférée, c'est l'été.", "en": "My favourite season is summer."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-8-2-01", "type": "cloze", "fr": "___ été, il fait chaud.", "a": ["En"]},
+        {"id": "fr-8-2-02", "type": "cloze", "fr": "___ hiver, il neige.", "a": ["En"]},
+        {"id": "fr-8-2-03", "type": "cloze", "fr": "___ printemps, il fait doux.", "a": ["Au"]},
+        {"id": "fr-8-2-04", "type": "cloze", "fr": "___ automne, il pleut.", "a": ["En"]},
+        {"id": "fr-8-2-05", "type": "cloze", "fr": "Ma saison ___, c'est l'hiver.", "a": ["préférée"], "hint": "favourite"},
+        {"id": "fr-8-2-06", "type": "build", "en": "In winter I go skiing.", "a": ["En hiver, je {fais du ski|skie}."]},
+        {"id": "fr-8-2-07", "type": "build", "en": "In summer we swim.", "a": ["En été, {nous nageons|on nage}."]},
+        {"id": "fr-8-2-08", "type": "build", "en": "In spring it's mild.", "a": ["Au printemps, il fait doux."]},
+        {"id": "fr-8-2-09", "type": "build", "en": "My favourite season is autumn.", "a": ["Ma saison préférée, c'est l'automne."]},
+        {"id": "fr-8-2-10", "type": "build", "en": "In autumn it often rains.", "a": ["En automne, il pleut souvent."]},
+        {"id": "fr-8-2-11", "type": "order", "en": "In summer I go cycling.", "a": ["En été je fais du vélo"], "extra": ["au", "de la"]}
+      ]
+    },
+    {
+      "id": "fr-8-3",
+      "title": "Les mois et la date",
+      "subtitle": "Months, dates and birthdays",
+      "topics": ["dates"],
+      "words": ["time#January", "time#February", "time#March", "time#April", "time#May", "time#June", "time#July", "time#August", "time#September", "time#October", "time#November", "time#December", "time#month", "time#date", "time#birthday", "time#first (1st)"],
+      "learn": [
+        {"title": "Months", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["January", "janvier"], ["February", "février"], ["March", "mars"], ["April", "avril"], ["May", "mai"], ["June", "juin"],
+            ["July", "juillet"], ["August", "août"], ["September", "septembre"], ["October", "octobre"], ["November", "novembre"], ["December", "décembre"]
+          ]},
+          {"type": "text", "en": "Unlike English, months are written with a **small letter**. \"In\" a month is *en*: *en janvier, en août*, or *au mois de janvier*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Noël est en ___.", "a": ["décembre"], "hint": "December"}}
+        ]},
+        {"title": "The date", "blocks": [
+          {"type": "text", "en": "A date uses the article *le* and an ordinary **cardinal** number: *le deux mars, le quatorze juillet* (literally \"the two March\"). Only the first of the month uses an ordinal: *le premier mai* (1st May)."},
+          {"type": "text", "en": "To ask the date you say *Quelle est la date aujourd'hui ?* or informally *On est le combien ?* (What's the date?) You answer *On est le vingt octobre.* or *Nous sommes le vingt octobre.*"},
+          {"type": "check", "item": {"type": "build", "en": "It's the first of May.", "a": ["{On est|Nous sommes|C'est} le premier mai."]}}
+        ]},
+        {"title": "Birthdays", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Mon anniversaire, c'est le cinq juin.", "en": "My birthday is on the fifth of June."},
+            {"fr": "C'est quand, ton anniversaire ?", "en": "When is your birthday?"},
+            {"fr": "Joyeux anniversaire !", "en": "Happy birthday!"},
+            {"fr": "Le quatorze juillet, c'est la fête nationale française.", "en": "The fourteenth of July is the French national holiday."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-8-3-01", "type": "cloze", "fr": "janvier, février, ___", "a": ["mars"]},
+        {"id": "fr-8-3-02", "type": "cloze", "fr": "juin, juillet, ___", "a": ["août"]},
+        {"id": "fr-8-3-03", "type": "cloze", "fr": "septembre, ___, novembre", "a": ["octobre"]},
+        {"id": "fr-8-3-04", "type": "cloze", "fr": "Mon anniversaire, c'est le ___ avril.", "a": ["premier"], "hint": "1."},
+        {"id": "fr-8-3-05", "type": "cloze", "fr": "Il fait chaud en ___.", "a": ["juillet"], "hint": "July"},
+        {"id": "fr-8-3-06", "type": "cloze", "fr": "On est le ___ mars.", "a": ["quinze"], "hint": "15."},
+        {"id": "fr-8-3-07", "type": "build", "en": "What's the date today?", "a": ["{Quelle est la date aujourd'hui|On est le combien aujourd'hui|On est le combien} ?"]},
+        {"id": "fr-8-3-08", "type": "build", "en": "My birthday is on the tenth of November.", "a": ["Mon anniversaire, c'est le dix novembre."]},
+        {"id": "fr-8-3-09", "type": "build", "en": "When is your birthday?", "a": ["{C'est quand, ton anniversaire|Quand est ton anniversaire|Ton anniversaire, c'est quand} ?"]},
+        {"id": "fr-8-3-10", "type": "build", "en": "Happy birthday!", "a": ["Joyeux anniversaire !"]},
+        {"id": "fr-8-3-11", "type": "build", "en": "In August we're going to the seaside.", "a": ["En août, {nous allons|on va} à la mer."]},
+        {"id": "fr-8-3-12", "type": "order", "en": "Today is the twentieth of October.", "a": ["Aujourd'hui on est le vingt octobre"], "extra": ["vingtième", "en"]}
+      ]
+    },
+    {
+      "id": "fr-8-4",
+      "title": "La météo de demain",
+      "subtitle": "The weather forecast",
+      "topics": ["weather", "futur-proche"],
+      "words": ["weather#temperature", "weather#overcast", "weather#sunny spell", "geography#north", "geography#south", "geography#east", "geography#west"],
+      "learn": [
+        {"title": "Forecast", "blocks": [
+          {"type": "text", "en": "Weather forecasts often use the *futur proche*: *Demain, il va pleuvoir.* (Tomorrow it's going to rain.) *Il va faire beau.* (It's going to be nice.)"},
+          {"type": "table", "textCols": [0], "rows": [
+            ["It's going to be nice.", "Il va faire beau."],
+            ["It's going to rain.", "Il va pleuvoir."],
+            ["It's going to snow.", "Il va neiger."],
+            ["It's going to be windy.", "Il va y avoir du vent."],
+            ["Temperatures are going to be between 10 and 15 degrees.", "Les températures vont être entre dix et quinze degrés."]
+          ]},
+          {"type": "tip", "title": "il va y avoir", "en": "In the near future *il y a* becomes *il va y avoir*."},
+          {"type": "check", "item": {"type": "transform", "task_en": "Put it in the futur proche", "fr": "Il pleut.", "a": ["Il va pleuvoir."]}}
+        ]},
+        {"title": "The weather across the country", "blocks": [
+          {"type": "text", "en": "The points of the compass: *le nord* (north), *le sud* (south), *l'est* (east), *l'ouest* (west). \"In the north\" is *dans le nord*."},
+          {"type": "examples", "items": [
+            {"fr": "Demain, dans le nord, il va pleuvoir.", "en": "Tomorrow it's going to rain in the north."},
+            {"fr": "Dans le sud, il va faire chaud et il va y avoir du soleil.", "en": "In the south it's going to be hot and sunny."},
+            {"fr": "Ce week-end, il va faire froid, alors on va faire du ski.", "en": "This weekend it's going to be cold, so we're going to go skiing."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-8-4-01", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Il fait beau.", "a": ["Il va faire beau."]},
+        {"id": "fr-8-4-02", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Il neige.", "a": ["Il va neiger."]},
+        {"id": "fr-8-4-03", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Il fait froid.", "a": ["Il va faire froid."]},
+        {"id": "fr-8-4-04", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Il y a du vent.", "a": ["Il va y avoir du vent."]},
+        {"id": "fr-8-4-05", "type": "cloze", "fr": "Demain, il ___ pleuvoir.", "a": ["va"]},
+        {"id": "fr-8-4-06", "type": "cloze", "fr": "Il va ___ chaud.", "a": ["faire"]},
+        {"id": "fr-8-4-07", "type": "cloze", "fr": "Il va y ___ du soleil.", "a": ["avoir"]},
+        {"id": "fr-8-4-08", "type": "build", "en": "Tomorrow it's going to rain.", "a": ["Demain, il va pleuvoir."]},
+        {"id": "fr-8-4-09", "type": "build", "en": "This weekend the weather's going to be nice.", "a": ["Ce week-end, il va faire beau."]},
+        {"id": "fr-8-4-10", "type": "build", "en": "In the north it's going to snow.", "a": ["Dans le nord, il va neiger."]},
+        {"id": "fr-8-4-11", "type": "build", "en": "It's going to be twenty-five degrees.", "a": ["Il va faire vingt-cinq degrés."]},
+        {"id": "fr-8-4-12", "type": "build", "en": "It's going to be cold, so we're going to go skiing.", "a": ["Il va faire froid, alors {nous allons|on va} faire du ski."], "hint": "so = alors"},
+        {"id": "fr-8-4-13", "type": "order", "en": "Tomorrow the weather isn't going to be nice.", "a": ["Demain il ne va pas faire beau"], "extra": ["fait", "de"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-8-t-01", "lesson": "fr-8-1", "type": "cloze", "fr": "Il ___ froid en hiver.", "a": ["fait"]},
+      {"id": "fr-8-t-02", "lesson": "fr-8-1", "type": "cloze", "fr": "Il ___ souvent en Angleterre.", "a": ["pleut"], "hint": "it rains"},
+      {"id": "fr-8-t-03", "lesson": "fr-8-1", "type": "cloze", "fr": "Il y a ___ nuages.", "a": ["des"]},
+      {"id": "fr-8-t-04", "lesson": "fr-8-1", "type": "cloze", "fr": "Il fait moins ___ degrés.", "a": ["dix"], "hint": "10"},
+      {"id": "fr-8-t-05", "lesson": "fr-8-1", "type": "build", "en": "The weather is bad and it's raining.", "a": ["Il fait mauvais et il pleut."]},
+      {"id": "fr-8-t-06", "lesson": "fr-8-1", "type": "build", "en": "It's cool.", "a": ["Il fait frais."]},
+      {"id": "fr-8-t-07", "lesson": "fr-8-1", "type": "build", "en": "It's sunny and warm.", "a": ["Il y a du soleil et il fait chaud."]},
+      {"id": "fr-8-t-08", "lesson": "fr-8-1", "type": "build", "en": "I'm hot.", "a": ["J'ai chaud."]},
+      {"id": "fr-8-t-09", "lesson": "fr-8-2", "type": "cloze", "fr": "___ hiver, je fais du ski.", "a": ["En"]},
+      {"id": "fr-8-t-10", "lesson": "fr-8-2", "type": "cloze", "fr": "___ printemps, il y a des fleurs.", "a": ["Au"]},
+      {"id": "fr-8-t-11", "lesson": "fr-8-2", "type": "build", "en": "In summer it's hot.", "a": ["En été, il fait chaud."]},
+      {"id": "fr-8-t-12", "lesson": "fr-8-2", "type": "build", "en": "My favourite season is spring.", "a": ["Ma saison préférée, c'est le printemps."]},
+      {"id": "fr-8-t-13", "lesson": "fr-8-2", "type": "build", "en": "In autumn it's windy.", "a": ["En automne, il y a du vent."]},
+      {"id": "fr-8-t-14", "lesson": "fr-8-3", "type": "cloze", "fr": "mars, avril, ___", "a": ["mai"]},
+      {"id": "fr-8-t-15", "lesson": "fr-8-3", "type": "cloze", "fr": "octobre, novembre, ___", "a": ["décembre"]},
+      {"id": "fr-8-t-16", "lesson": "fr-8-3", "type": "cloze", "fr": "Le ___ janvier, c'est le Nouvel An.", "a": ["premier"], "hint": "1."},
+      {"id": "fr-8-t-17", "lesson": "fr-8-3", "type": "build", "en": "My birthday is on the twelfth of March.", "a": ["Mon anniversaire, c'est le douze mars."]},
+      {"id": "fr-8-t-18", "lesson": "fr-8-3", "type": "build", "en": "Today is the fourteenth of July.", "a": ["Aujourd'hui, {on est|nous sommes|c'est} le quatorze juillet.", "{On est|Nous sommes|C'est} le quatorze juillet aujourd'hui."]},
+      {"id": "fr-8-t-19", "lesson": "fr-8-3", "type": "build", "en": "In January it snows.", "a": ["En janvier, il neige.", "Il neige en janvier."]},
+      {"id": "fr-8-t-20", "lesson": "fr-8-3", "type": "build", "en": "When's your birthday? In May.", "a": ["{C'est quand, ton anniversaire|Quand est ton anniversaire|Ton anniversaire, c'est quand} ? En mai."]},
+      {"id": "fr-8-t-21", "lesson": "fr-8-4", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Il fait chaud.", "a": ["Il va faire chaud."]},
+      {"id": "fr-8-t-22", "lesson": "fr-8-4", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Il y a du soleil.", "a": ["Il va y avoir du soleil."]},
+      {"id": "fr-8-t-23", "lesson": "fr-8-4", "type": "build", "en": "Tomorrow it's going to snow.", "a": ["Demain, il va neiger."]},
+      {"id": "fr-8-t-24", "lesson": "fr-8-4", "type": "build", "en": "Tomorrow it isn't going to rain.", "a": ["Demain, il ne va pas pleuvoir."]},
+      {"id": "fr-8-t-25", "lesson": "fr-8-4", "type": "cloze", "fr": "Demain, il va ___ beau.", "a": ["faire"]}
+    ]
+  }
+}

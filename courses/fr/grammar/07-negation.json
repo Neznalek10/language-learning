@@ -27,11 +27,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "French negation has **two parts** that wrap around the conjugated verb: *ne* before it, *pas* after it. Before a vowel *ne* shortens to *n'*."
+              "cs": "Francouzský zápor má **dvě části**, které obklopují časované sloveso: *ne* před ním, *pas* za ním. Před samohláskou se *ne* zkracuje na *n'*."
             },
             {
               "type": "pattern",
@@ -71,7 +71,7 @@
                       "allemand."
                     ]
                   ],
-                  "en": "I don't speak German."
+                  "cs": "Nemluvím německy."
                 },
                 {
                   "parts": [
@@ -96,7 +96,7 @@
                       "le café."
                     ]
                   ],
-                  "en": "He doesn't like coffee."
+                  "cs": "Nemá rád kávu."
                 },
                 {
                   "parts": [
@@ -121,29 +121,29 @@
                       "grave."
                     ]
                   ],
-                  "en": "It doesn't matter."
+                  "cs": "To nevadí."
                 }
               ]
             }
           ]
         },
         {
-          "title": "You need both parts",
+          "title": "Potřebuješ obě části",
           "blocks": [
             {
               "type": "text",
-              "en": "In Czech the prefix *ne-* is enough. In French you need **both** parts, and the verb stays in between."
+              "cs": "V češtině stačí předpona *ne-*. Ve francouzštině potřebuješ **obě** části a sloveso stojí mezi nimi."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I don't know.",
+                  "cs": "Nevím.",
                   "wrong": "Je pas sais.",
                   "fr": "Je [[ne]] sais [[pas]]."
                 },
                 {
-                  "en": "I'm not tired.",
+                  "cs": "Nejsem unavený.",
                   "wrong": "Je ne suis fatigué.",
                   "fr": "Je ne suis [[pas]] fatigué."
                 }
@@ -152,39 +152,39 @@
           ]
         },
         {
-          "title": "Short answers",
+          "title": "Krátké odpovědi",
           "blocks": [
             {
               "type": "text",
-              "en": "A short answer is *Non.* \"Not me\" is *Moi non.* or *Pas moi.* \"Not now\" is *Pas maintenant.*"
+              "cs": "Krátká odpověď je *Non.* \"Já ne\" je *Moi non.* nebo *Pas moi.* \"Teď ne\" je *Pas maintenant.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je ne comprends pas.",
-                  "en": "I don't understand."
+                  "cs": "Nerozumím."
                 },
                 {
                   "fr": "Tu n'as pas faim ?",
-                  "en": "Aren't you hungry?"
+                  "cs": "Nemáš hlad?"
                 },
                 {
                   "fr": "Nous ne sommes pas d'accord.",
-                  "en": "We don't agree."
+                  "cs": "Nesouhlasíme."
                 },
                 {
                   "fr": "Elle n'habite pas ici.",
-                  "en": "She doesn't live here."
+                  "cs": "Nebydlí tady."
                 },
                 {
                   "fr": "Ce n'est pas mon sac.",
-                  "en": "It's not my bag."
+                  "cs": "To není moje taška."
                 }
               ]
             }
@@ -195,7 +195,7 @@
         {
           "id": "g-ne-pas-01",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Je parle anglais.",
           "a": [
             "Je ne parle pas anglais."
@@ -204,7 +204,7 @@
         {
           "id": "g-ne-pas-02",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Il aime le sport.",
           "a": [
             "Il n'aime pas le sport."
@@ -213,7 +213,7 @@
         {
           "id": "g-ne-pas-03",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "C'est difficile.",
           "a": [
             "Ce n'est pas difficile."
@@ -222,7 +222,7 @@
         {
           "id": "g-ne-pas-04",
           "type": "build",
-          "en": "I don't know.",
+          "cs": "Nevím.",
           "a": [
             "Je ne sais pas."
           ]
@@ -230,7 +230,7 @@
         {
           "id": "g-ne-pas-05",
           "type": "build",
-          "en": "I don't live in Prague.",
+          "cs": "Nebydlím v Praze.",
           "a": [
             "Je n'habite pas à Prague."
           ]
@@ -240,13 +240,13 @@
         {
           "set": "negation",
           "tag": "ne-pas",
-          "label": "Drill ne... pas"
+          "label": "Dril ne... pas"
         }
       ]
     },
     {
       "id": "negation-every-form",
-      "title": "How to make a negative sentence: every tense and structure",
+      "title": "Jak utvořit zápornou větu: všechny časy a vazby",
       "fr": "former la négation",
       "level": "A1",
       "levelTo": "B1",
@@ -277,26 +277,26 @@
         {
           "set": "negation",
           "tag": "ne-pas",
-          "label": "Drill ne... pas"
+          "label": "Dril ne... pas"
         },
         {
           "set": "negation",
           "tag": "compound",
-          "label": "Drill the passé composé"
+          "label": "Dril passé composé"
         },
         {
           "set": "negation",
           "tag": "pronouns",
-          "label": "Drill with pronouns"
+          "label": "Dril se zájmeny"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The rule in one line: **put *ne* before the conjugated verb and *pas* right after it**. Before a vowel or a silent *h* *ne* becomes **n'**. Everything that belongs to the verb (a pronoun, the reflexive pronoun) stays **between *ne* and the verb**, so *ne* goes in front of the whole block."
+              "cs": "Pravidlo v jedné větě: **dej *ne* před časované sloveso a *pas* hned za něj**. Před samohláskou nebo němým *h* se *ne* mění na **n'**. Všechno, co ke slovesu patří (zájmeno, zvratné zájmeno), zůstává **mezi *ne* a slovesem**, takže *ne* stojí před celým blokem."
             },
             {
               "type": "pattern",
@@ -324,7 +324,7 @@
                       "de pain."
                     ]
                   ],
-                  "en": "I don't eat bread."
+                  "cs": "Nejím chleba."
                 },
                 {
                   "parts": [
@@ -349,7 +349,7 @@
                       "le café."
                     ]
                   ],
-                  "en": "He doesn't like coffee."
+                  "cs": "Nemá rád kávu."
                 },
                 {
                   "parts": [
@@ -374,7 +374,7 @@
                       "pas."
                     ]
                   ],
-                  "en": "I don't see him."
+                  "cs": "Nevidím ho."
                 },
                 {
                   "parts": [
@@ -399,7 +399,7 @@
                       "pas."
                     ]
                   ],
-                  "en": "She doesn't get up."
+                  "cs": "Nevstává."
                 }
               ],
               "formula": [
@@ -419,18 +419,18 @@
           ]
         },
         {
-          "title": "The four steps",
+          "title": "Čtyři kroky",
           "blocks": [
             {
               "type": "text",
-              "en": "**1. Find the conjugated verb** (in a compound tense it is *avoir* or *être*). **2. Put *ne / n'* before it** (and before any pronoun that stands in front of it). **3. Put *pas* right after it.** **4. Change the article** *un, une, du, de la, des* into **de / d'** (not after *être*, not after *aimer*-type verbs with *le / la / les*)."
+              "cs": "**1. Najdi časované sloveso** (ve složeném čase je to *avoir* nebo *être*). **2. Dej před něj *ne / n'*** (i před zájmeno, které před ním stojí). **3. Dej *pas* hned za něj.** **4. Změň člen** *un, une, du, de la, des* na **de / d'** (ne po *être* a ne u sloves jako *aimer* se *le / la / les*)."
             },
             {
               "type": "table",
               "head": [
-                "step",
-                "affirmative",
-                "negative"
+                "krok",
+                "kladně",
+                "záporně"
               ],
               "rows": [
                 [
@@ -439,12 +439,12 @@
                   "Je ne parle pas anglais."
                 ],
                 [
-                  "vowel",
+                  "samohláska",
                   "Il aime ça.",
                   "Il n'aime pas ça."
                 ],
                 [
-                  "4. article → de",
+                  "4. člen → de",
                   "J'ai un frère.",
                   "Je n'ai pas de frère."
                 ],
@@ -459,12 +459,12 @@
                   "Il n'a pas d'amis."
                 ],
                 [
-                  "article stays after être",
+                  "po être člen zůstává",
                   "C'est un livre.",
                   "Ce n'est pas un livre."
                 ],
                 [
-                  "le / la / les stay",
+                  "le / la / les zůstávají",
                   "J'aime le jazz.",
                   "Je n'aime pas le jazz."
                 ]
@@ -476,14 +476,14 @@
           ]
         },
         {
-          "title": "In every tense and structure",
+          "title": "Ve všech časech a vazbách",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "structure",
-                "affirmative",
-                "negative"
+                "vazba",
+                "kladně",
+                "záporně"
               ],
               "rows": [
                 [
@@ -512,7 +512,7 @@
                   "Je ne vais pas venir."
                 ],
                 [
-                  "modal + infinitive",
+                  "způsobové sloveso + infinitiv",
                   "Je peux venir.",
                   "Je ne peux pas venir."
                 ],
@@ -557,7 +557,7 @@
                   "Elle ne s'est pas levée."
                 ],
                 [
-                  "with a pronoun",
+                  "se zájmenem",
                   "Je le vois.",
                   "Je ne le vois pas."
                 ],
@@ -577,7 +577,7 @@
                   "Je n'y vais pas. Je n'en veux pas."
                 ],
                 [
-                  "infinitive",
+                  "infinitiv",
                   "Il demande de venir.",
                   "Il demande de ne pas venir."
                 ]
@@ -588,73 +588,73 @@
               "items": [
                 {
                   "fr": "Elle ne s'est pas levée tôt.",
-                  "en": "She didn't get up early."
+                  "cs": "Nevstala brzy."
                 },
                 {
                   "fr": "Il ne me l'a pas dit.",
-                  "en": "He didn't tell me."
+                  "cs": "Neřekl mi to."
                 },
                 {
                   "fr": "Nous n'allons pas y aller.",
-                  "en": "We aren't going to go there."
+                  "cs": "Nepůjdeme tam."
                 },
                 {
                   "fr": "Ne le lui donne pas !",
-                  "en": "Don't give it to him!"
+                  "cs": "Nedávej mu to!"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Choosing the negative word",
+          "title": "Výběr záporného slova",
           "blocks": [
             {
               "type": "text",
-              "en": "*Pas* is the default. Replace it with **jamais** (never), **plus** (no more), **rien** (nothing), **personne** (nobody), **aucun** (none), **nulle part** (nowhere), **pas encore** (not yet) or **que** (only) to change the meaning. There is **only one *ne***."
+              "cs": "*Pas* je základ. Když ho nahradíš slovem **jamais** (nikdy), **plus** (už ne), **rien** (nic), **personne** (nikdo), **aucun** (žádný), **nulle part** (nikde), **pas encore** (ještě ne) nebo **que** (jen), změníš význam. ***Ne* je vždycky jen jedno**."
             },
             {
               "type": "table",
               "head": [
-                "word",
-                "example",
-                "English"
+                "slovo",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
                   "ne ... pas",
                   "Je ne sais pas.",
-                  "I don't know."
+                  "Nevím."
                 ],
                 [
                   "ne ... jamais",
                   "Je ne mange jamais de viande.",
-                  "I never eat meat."
+                  "Nikdy nejím maso."
                 ],
                 [
                   "ne ... plus",
                   "Il n'habite plus ici.",
-                  "He no longer lives here."
+                  "Už tady nebydlí."
                 ],
                 [
                   "ne ... rien",
                   "Je ne vois rien.",
-                  "I see nothing."
+                  "Nic nevidím."
                 ],
                 [
                   "ne ... personne",
                   "Je ne connais personne.",
-                  "I know nobody."
+                  "Nikoho neznám."
                 ],
                 [
                   "ne ... pas encore",
                   "Il n'est pas encore là.",
-                  "He isn't here yet."
+                  "Ještě tu není."
                 ],
                 [
                   "ne ... que",
                   "Je n'ai que dix euros.",
-                  "I only have ten euros."
+                  "Mám jen deset eur."
                 ]
               ],
               "textCols": [
@@ -664,58 +664,58 @@
           ]
         },
         {
-          "title": "Answering and spoken French",
+          "title": "Odpovědi a mluvená francouzština",
           "blocks": [
             {
               "type": "text",
-              "en": "A negative answer is **non** or **pas du tout**. To contradict a **negative question** use **si**: *Tu ne viens pas ? – Si !* In speech the *ne* is dropped: *Je sais pas. T'as pas faim ?* You need *ne* in writing and in formal speech."
+              "cs": "Záporná odpověď je **non** nebo **pas du tout**. Když odporuješ **záporné otázce**, použij **si**: *Tu ne viens pas ? – Si !* V mluvené řeči *ne* odpadá: *Je sais pas. T'as pas faim ?* V psaní a ve formální řeči *ne* potřebuješ."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu n'as pas faim ? – Si, j'ai faim.",
-                  "en": "Aren't you hungry? – Yes, I am."
+                  "cs": "Nemáš hlad? – Ale mám."
                 },
                 {
                   "fr": "Tu aimes ça ? – Non, pas du tout.",
-                  "en": "Do you like that? – No, not at all."
+                  "cs": "Líbí se ti to? – Ne, vůbec."
                 },
                 {
                   "fr": "Je sais pas.",
-                  "en": "I don't know. (spoken)"
+                  "cs": "Nevím. (mluveně)"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Typical mistakes",
+          "title": "Typické chyby",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I don't know.",
+                  "cs": "Nevím.",
                   "wrong": "Je pas sais.",
                   "fr": "Je [[ne]] sais [[pas]]."
                 },
                 {
-                  "en": "I don't have a car.",
+                  "cs": "Nemám auto.",
                   "wrong": "Je n'ai pas une voiture.",
                   "fr": "Je n'ai pas [[de]] voiture."
                 },
                 {
-                  "en": "He doesn't eat.",
+                  "cs": "Nejí.",
                   "wrong": "Il ne pas mange.",
                   "fr": "Il ne mange [[pas]].",
-                  "note": "*Pas* goes after the verb."
+                  "note": "*Pas* stojí za slovesem."
                 },
                 {
-                  "en": "I haven't seen him.",
+                  "cs": "Neviděl jsem ho.",
                   "wrong": "Je n'ai vu pas le.",
                   "fr": "Je ne [[l']]ai [[pas]] vu.",
-                  "note": "*Ne* before the pronoun, *pas* before the participle."
+                  "note": "*Ne* před zájmenem, *pas* před příčestím."
                 }
               ]
             },
@@ -737,7 +737,7 @@
         {
           "id": "g-negation-every-form-01",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Je parle français.",
           "a": [
             "Je ne parle pas français."
@@ -746,7 +746,7 @@
         {
           "id": "g-negation-every-form-02",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Il aime le chocolat.",
           "a": [
             "Il n'aime pas le chocolat."
@@ -755,7 +755,7 @@
         {
           "id": "g-negation-every-form-03",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "J'ai un frère.",
           "a": [
             "Je n'ai pas de frère."
@@ -764,7 +764,7 @@
         {
           "id": "g-negation-every-form-04",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Nous mangeons du pain.",
           "a": [
             "Nous ne mangeons pas de pain."
@@ -773,7 +773,7 @@
         {
           "id": "g-negation-every-form-05",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "C'est un livre.",
           "a": [
             "Ce n'est pas un livre."
@@ -782,7 +782,7 @@
         {
           "id": "g-negation-every-form-06",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Elle est partie.",
           "a": [
             "Elle n'est pas partie."
@@ -791,7 +791,7 @@
         {
           "id": "g-negation-every-form-07",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Je vais venir.",
           "a": [
             "Je ne vais pas venir."
@@ -800,7 +800,7 @@
         {
           "id": "g-negation-every-form-08",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Je le vois.",
           "a": [
             "Je ne le vois pas."
@@ -809,7 +809,7 @@
         {
           "id": "g-negation-every-form-09",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Je l'ai vu.",
           "a": [
             "Je ne l'ai pas vu."
@@ -818,7 +818,7 @@
         {
           "id": "g-negation-every-form-10",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Elle se lève.",
           "a": [
             "Elle ne se lève pas."
@@ -827,7 +827,7 @@
         {
           "id": "g-negation-every-form-11",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Mange !",
           "a": [
             "Ne mange pas !"
@@ -836,7 +836,7 @@
         {
           "id": "g-negation-every-form-12",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Il y a des places.",
           "a": [
             "Il n'y a pas de places."
@@ -845,7 +845,7 @@
         {
           "id": "g-negation-every-form-13",
           "type": "build",
-          "en": "I don't know.",
+          "cs": "Nevím.",
           "a": [
             "Je ne sais pas."
           ]
@@ -853,7 +853,7 @@
         {
           "id": "g-negation-every-form-14",
           "type": "build",
-          "en": "I don't have a car.",
+          "cs": "Nemám auto.",
           "a": [
             "Je n'ai pas de voiture."
           ]
@@ -861,7 +861,7 @@
         {
           "id": "g-negation-every-form-15",
           "type": "build",
-          "en": "She doesn't like it.",
+          "cs": "Nemá to ráda.",
           "a": [
             "Elle ne l'aime pas.",
             "Ça ne lui plaît pas."
@@ -871,7 +871,7 @@
     },
     {
       "id": "negation-position",
-      "title": "Where negation goes in complex sentences",
+      "title": "Kam patří zápor ve složitějších větách",
       "fr": "la place de la négation",
       "level": "A2",
       "keywords": [
@@ -896,11 +896,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The rule stays the same: ***ne* + pronouns** before the **conjugated** verb, *pas* right after it. You only have to spot which verb is conjugated."
+              "cs": "Pravidlo zůstává stejné: ***ne* + zájmena** před **časované** sloveso, *pas* hned za něj. Stačí poznat, které sloveso je časované."
             },
             {
               "type": "pattern",
@@ -928,7 +928,7 @@
                       "mangé."
                     ]
                   ],
-                  "en": "I didn't eat."
+                  "cs": "Nejedl jsem."
                 },
                 {
                   "parts": [
@@ -953,7 +953,7 @@
                       "sortir."
                     ]
                   ],
-                  "en": "I'm not going to go out."
+                  "cs": "Nepůjdu ven."
                 },
                 {
                   "parts": [
@@ -978,7 +978,7 @@
                       "pas."
                     ]
                   ],
-                  "en": "I don't see him."
+                  "cs": "Nevidím ho."
                 },
                 {
                   "parts": [
@@ -1007,24 +1007,24 @@
                       "levé."
                     ]
                   ],
-                  "en": "I didn't get up."
+                  "cs": "Nevstal jsem."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Negating an infinitive",
+          "title": "Zápor u infinitivu",
           "blocks": [
             {
               "type": "text",
-              "en": "When you negate the infinitive itself, *ne pas* go **together before it**: *Je préfère ne pas sortir.* (I'd rather not go out.) On signs: *Ne pas fumer.* (No smoking.)"
+              "cs": "Když popíráš samotný infinitiv, stojí *ne pas* **spolu před ním**: *Je préfère ne pas sortir.* (Raději nikam nepůjdu.) Na cedulích: *Ne pas fumer.* (Zákaz kouření.)"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm trying not to think about it.",
+                  "cs": "Snažím se na to nemyslet.",
                   "fr": "J'essaie de [[ne pas]] y penser."
                 }
               ]
@@ -1032,17 +1032,17 @@
           ]
         },
         {
-          "title": "Personne and nulle part",
+          "title": "Personne a nulle part",
           "blocks": [
             {
               "type": "text",
-              "en": "*Personne* (nobody) and *nulle part* (nowhere) stand **after the participle** in the passé composé. The others (*pas, jamais, rien, plus*) stand before it: *Je n'ai rien vu.*"
+              "cs": "*Personne* (nikdo) a *nulle part* (nikde) stojí v passé composé **za příčestím**. Ostatní (*pas, jamais, rien, plus*) stojí před ním: *Je n'ai rien vu.*"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I didn't see anybody.",
+                  "cs": "Nikoho jsem neviděl.",
                   "wrong": "Je n'ai personne vu.",
                   "fr": "Je n'ai vu [[personne]]."
                 }
@@ -1051,30 +1051,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je ne l'ai pas vu.",
-                  "en": "I didn't see him."
+                  "cs": "Neviděl jsem ho."
                 },
                 {
                   "fr": "Nous n'allons pas jouer demain.",
-                  "en": "We're not going to play tomorrow."
+                  "cs": "Zítra nebudeme hrát."
                 },
                 {
                   "fr": "Il ne s'est pas réveillé.",
-                  "en": "He didn't wake up."
+                  "cs": "Neprobudil se."
                 },
                 {
                   "fr": "Je te conseille de ne pas manger ça.",
-                  "en": "I advise you not to eat that."
+                  "cs": "Radím ti, abys to nejedl."
                 },
                 {
                   "fr": "Je n'ai rien compris.",
-                  "en": "I didn't understand anything."
+                  "cs": "Ničemu jsem nerozuměl."
                 }
               ]
             }
@@ -1085,7 +1085,7 @@
         {
           "id": "g-negation-position-01",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "J'ai fini.",
           "a": [
             "Je n'ai pas fini."
@@ -1094,7 +1094,7 @@
         {
           "id": "g-negation-position-02",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Je vais manger.",
           "a": [
             "Je ne vais pas manger."
@@ -1103,7 +1103,7 @@
         {
           "id": "g-negation-position-03",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Je la connais.",
           "a": [
             "Je ne la connais pas."
@@ -1112,7 +1112,7 @@
         {
           "id": "g-negation-position-04",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Il s'est lavé.",
           "a": [
             "Il ne s'est pas lavé."
@@ -1121,7 +1121,7 @@
         {
           "id": "g-negation-position-05",
           "type": "build",
-          "en": "I didn't see anybody.",
+          "cs": "Nikoho jsem neviděl.",
           "a": [
             "Je n'ai vu personne."
           ]
@@ -1131,12 +1131,12 @@
         {
           "set": "negation",
           "tag": "modal",
-          "label": "Drill two verbs"
+          "label": "Dril dvě slovesa"
         },
         {
           "set": "negation",
           "tag": "infinitive",
-          "label": "Drill the negative infinitive"
+          "label": "Dril záporný infinitiv"
         }
       ]
     },
@@ -1171,14 +1171,14 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "negation",
-                "meaning",
-                "example"
+                "zápor",
+                "význam",
+                "příklad"
               ],
               "textCols": [
                 1
@@ -1186,59 +1186,59 @@
               "rows": [
                 [
                   "ne... pas",
-                  "not",
+                  "ne",
                   "Je ne fume pas."
                 ],
                 [
                   "ne... jamais",
-                  "never",
+                  "nikdy",
                   "Je ne fume jamais."
                 ],
                 [
                   "ne... plus",
-                  "no longer",
+                  "už ne",
                   "Je ne fume plus."
                 ],
                 [
                   "ne... rien",
-                  "nothing",
+                  "nic",
                   "Je ne vois rien."
                 ],
                 [
                   "ne... personne",
-                  "nobody",
+                  "nikdo",
                   "Je ne vois personne."
                 ],
                 [
                   "ne... nulle part",
-                  "nowhere",
+                  "nikde",
                   "Je ne le trouve nulle part."
                 ],
                 [
                   "ne... aucun, aucune",
-                  "no, none",
+                  "žádný",
                   "Je n'ai aucune idée."
                 ]
               ]
             },
             {
               "type": "text",
-              "en": "The second part takes the place of *pas*. It is **never** combined with *pas*."
+              "cs": "Druhá část zaujme místo *pas*. S *pas* se **nikdy** nekombinuje."
             }
           ]
         },
         {
-          "title": "Several negatives at once",
+          "title": "Několik záporů najednou",
           "blocks": [
             {
               "type": "text",
-              "en": "Czech piles up several negatives (\"never see nobody\") and French does something similar: one *ne* and several negative words after the verb. Only *pas* does not belong among them."
+              "cs": "Čeština hromadí zápory (\"nikdy nikoho nevidím\") a francouzština dělá něco podobného: jedno *ne* a za slovesem několik záporných slov. Jen *pas* mezi ně nepatří."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "He never says anything.",
+                  "cs": "Nikdy nic neřekne.",
                   "wrong": "Il ne dit pas jamais rien.",
                   "fr": "Il ne dit [[jamais rien]]."
                 }
@@ -1247,17 +1247,17 @@
           ]
         },
         {
-          "title": "As a subject",
+          "title": "Jako podmět",
           "blocks": [
             {
               "type": "text",
-              "en": "*Personne* and *rien* can stand at the start of the sentence as the subject. Then *ne* comes right after them: *Personne ne sait. Rien n'est impossible.*"
+              "cs": "*Personne* a *rien* můžou stát na začátku věty jako podmět. Pak *ne* následuje hned za nimi: *Personne ne sait. Rien n'est impossible.*"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Nobody came.",
+                  "cs": "Nikdo nepřišel.",
                   "wrong": "Personne n'est pas venu.",
                   "fr": "Personne [[n']]est venu."
                 }
@@ -1266,30 +1266,30 @@
           ]
         },
         {
-          "title": "Short answers",
+          "title": "Krátké odpovědi",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu as vu quelqu'un ? Personne.",
-                  "en": "Did you see anyone? Nobody."
+                  "cs": "Viděl jsi někoho? Nikoho."
                 },
                 {
                   "fr": "Qu'est-ce que tu fais ? Rien.",
-                  "en": "What are you doing? Nothing."
+                  "cs": "Co děláš? Nic."
                 },
                 {
                   "fr": "Tu fumes ? Jamais !",
-                  "en": "Do you smoke? Never!"
+                  "cs": "Kouříš? Nikdy!"
                 },
                 {
                   "fr": "Il n'y a plus de pain.",
-                  "en": "There is no bread left."
+                  "cs": "Už není chleba."
                 },
                 {
                   "fr": "Je n'ai aucune idée.",
-                  "en": "I have no idea."
+                  "cs": "Nemám tušení."
                 }
               ]
             }
@@ -1300,7 +1300,7 @@
         {
           "id": "g-negation-words-01",
           "type": "transform",
-          "task_en": "Make it negative with \"jamais\"",
+          "task_cs": "Utvoř zápor s \"jamais\"",
           "fr": "Je mange du poisson.",
           "a": [
             "Je ne mange jamais de poisson."
@@ -1309,7 +1309,7 @@
         {
           "id": "g-negation-words-02",
           "type": "transform",
-          "task_en": "Make it negative with \"plus\"",
+          "task_cs": "Utvoř zápor s \"plus\"",
           "fr": "Il habite ici.",
           "a": [
             "Il n'habite plus ici."
@@ -1318,7 +1318,7 @@
         {
           "id": "g-negation-words-03",
           "type": "build",
-          "en": "I can't see anything.",
+          "cs": "Nic nevidím.",
           "a": [
             "Je ne vois rien."
           ]
@@ -1326,7 +1326,7 @@
         {
           "id": "g-negation-words-04",
           "type": "build",
-          "en": "Nobody knows.",
+          "cs": "Nikdo neví.",
           "a": [
             "Personne ne sait."
           ]
@@ -1338,12 +1338,12 @@
           "a": [
             "aucune"
           ],
-          "en": "I have no idea."
+          "cs": "Nemám tušení."
         },
         {
           "id": "g-negation-words-06",
           "type": "build",
-          "en": "I don't play football any more.",
+          "cs": "Už nehraju fotbal.",
           "a": [
             "Je ne joue plus au {foot|football}."
           ]
@@ -1353,23 +1353,23 @@
         {
           "set": "negation",
           "tag": "jamais",
-          "label": "Drill jamais"
+          "label": "Dril jamais"
         },
         {
           "set": "negation",
           "tag": "rien",
-          "label": "Drill rien"
+          "label": "Dril rien"
         },
         {
           "set": "negation",
           "tag": "personne",
-          "label": "Drill personne"
+          "label": "Dril personne"
         }
       ]
     },
     {
       "id": "negation-inventory",
-      "title": "Every negative word: jamais, plus, rien, personne, aucun, ni... ni...",
+      "title": "Všechna záporná slova: jamais, plus, rien, personne, aucun, ni... ni...",
       "fr": "tous les mots négatifs",
       "level": "A2",
       "levelTo": "B1",
@@ -1406,110 +1406,110 @@
         {
           "set": "negation",
           "tag": "jamais",
-          "label": "Drill jamais"
+          "label": "Dril jamais"
         },
         {
           "set": "negation",
           "tag": "rien",
-          "label": "Drill rien"
+          "label": "Dril rien"
         },
         {
           "set": "negation",
           "tag": "personne",
-          "label": "Drill personne"
+          "label": "Dril personne"
         },
         {
           "set": "negation",
           "tag": "plus",
-          "label": "Drill plus"
+          "label": "Dril plus"
         }
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "French has a whole family of negative words. They all take **ne** before the verb and the second word **where *pas* would go**. In the passé composé *jamais, plus, pas encore* stand **between the auxiliary and the participle**; *personne, nulle part* and *aucun* come **after the participle**; *rien* comes **before the participle**."
+              "cs": "Francouzština má celou rodinu záporných slov. Všechna mají před slovesem **ne** a druhé slovo stojí **tam, kde by bylo *pas***. V passé composé stojí *jamais, plus, pas encore* **mezi pomocným slovesem a příčestím**; *personne, nulle part* a *aucun* stojí **za příčestím**; *rien* stojí **před příčestím**."
             },
             {
               "type": "table",
               "head": [
-                "word",
-                "meaning",
-                "present",
+                "slovo",
+                "význam",
+                "přítomný čas",
                 "passé composé"
               ],
               "rows": [
                 [
                   "ne ... pas",
-                  "not",
+                  "ne",
                   "Je ne mange pas.",
                   "Je n'ai pas mangé."
                 ],
                 [
                   "ne ... jamais",
-                  "never",
+                  "nikdy",
                   "Je ne mens jamais.",
                   "Je n'ai jamais menti."
                 ],
                 [
                   "ne ... plus",
-                  "no longer",
+                  "už ne",
                   "Il ne vient plus.",
                   "Il n'est plus venu."
                 ],
                 [
                   "ne ... rien",
-                  "nothing",
+                  "nic",
                   "Je ne vois rien.",
                   "Je n'ai rien vu."
                 ],
                 [
                   "ne ... personne",
-                  "nobody",
+                  "nikdo",
                   "Je ne vois personne.",
                   "Je n'ai vu personne."
                 ],
                 [
                   "ne ... pas encore",
-                  "not yet",
+                  "ještě ne",
                   "Il n'arrive pas encore.",
                   "Il n'est pas encore arrivé."
                 ],
                 [
                   "ne ... pas du tout",
-                  "not at all",
+                  "vůbec ne",
                   "Je n'aime pas du tout ça.",
                   "Je n'ai pas du tout aimé."
                 ],
                 [
                   "ne ... aucun(e)",
-                  "none, no",
+                  "žádný",
                   "Je n'ai aucune idée.",
                   "Je n'ai vu aucun film."
                 ],
                 [
                   "ne ... nulle part",
-                  "nowhere",
+                  "nikde",
                   "Je ne vais nulle part.",
                   "Je ne suis allé nulle part."
                 ],
                 [
                   "ne ... guère",
-                  "hardly",
+                  "sotva",
                   "Il ne dort guère.",
                   "Il n'a guère dormi."
                 ],
                 [
                   "ne ... que",
-                  "only",
+                  "jen",
                   "Je n'ai que dix euros.",
                   "Je n'ai mangé qu'une pomme."
                 ],
                 [
                   "ne ... ni ... ni",
-                  "neither... nor",
+                  "ani... ani",
                   "Je n'aime ni A ni B.",
                   "Je n'ai vu ni A ni B."
                 ]
@@ -1521,78 +1521,78 @@
           ]
         },
         {
-          "title": "Rien and personne as subject",
+          "title": "Rien a personne jako podmět",
           "blocks": [
             {
               "type": "text",
-              "en": "*Rien* and *personne* can also be the **subject**. They then come **first**, and *ne* stays before the verb. There is **no *pas***: *Personne ne vient. Rien n'est facile. Aucun élève n'est venu.*"
+              "cs": "*Rien* a *personne* můžou být i **podmětem**. Pak stojí **na začátku** a *ne* zůstává před slovesem. ***Pas* tam není**: *Personne ne vient. Rien n'est facile. Aucun élève n'est venu.*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Personne ne m'a appelé.",
-                  "en": "Nobody called me."
+                  "cs": "Nikdo mi nevolal."
                 },
                 {
                   "fr": "Rien ne m'intéresse.",
-                  "en": "Nothing interests me."
+                  "cs": "Nic mě nezajímá."
                 },
                 {
                   "fr": "Aucun ne veut venir.",
-                  "en": "None wants to come."
+                  "cs": "Nikdo nechce přijít."
                 },
                 {
                   "fr": "Ni Paul ni Marie ne sont venus.",
-                  "en": "Neither Paul nor Marie came."
+                  "cs": "Nepřišel ani Paul, ani Marie."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Two negative words together",
+          "title": "Dvě záporná slova spolu",
           "blocks": [
             {
               "type": "text",
-              "en": "Negative words can combine and there is **still only one *ne***: *plus jamais, plus rien, plus personne, jamais rien, jamais personne, plus nulle part*."
+              "cs": "Záporná slova se dají spojovat a ***ne* je pořád jen jedno**: *plus jamais, plus rien, plus personne, jamais rien, jamais personne, plus nulle part*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je ne dis jamais rien.",
-                  "en": "I never say anything."
+                  "cs": "Nikdy nic neříkám."
                 },
                 {
                   "fr": "Il n'y a plus personne.",
-                  "en": "There is nobody left."
+                  "cs": "Už tu nikdo není."
                 },
                 {
                   "fr": "Elle ne mange plus jamais de viande.",
-                  "en": "She never eats meat any more."
+                  "cs": "Už nikdy nejí maso."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Article after a negation",
+          "title": "Člen po záporu",
           "blocks": [
             {
               "type": "text",
-              "en": "After *pas, plus, jamais, guère* the articles **un, une, du, de la, des** become **de**: *Je ne bois jamais de café.* After *rien / personne / aucun / ni... ni* there is **no article**: *Je n'ai aucun ami. Je ne mange ni viande ni poisson.* After *ne... que* the article **stays**: *Je ne mange que du pain.*"
+              "cs": "Po *pas, plus, jamais, guère* se členy **un, une, du, de la, des** mění na **de**: *Je ne bois jamais de café.* Po *rien / personne / aucun / ni... ni* **člen není**: *Je n'ai aucun ami. Je ne mange ni viande ni poisson.* Po *ne... que* člen **zůstává**: *Je ne mange que du pain.*"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I never drink coffee.",
+                  "cs": "Nikdy nepiju kávu.",
                   "wrong": "Je ne bois jamais du café.",
                   "fr": "Je ne bois jamais [[de]] café."
                 },
                 {
-                  "en": "I only eat bread.",
+                  "cs": "Jím jen chleba.",
                   "wrong": "Je ne mange que de pain.",
                   "fr": "Je ne mange que [[du]] pain."
                 }
@@ -1605,35 +1605,35 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Non plus* is **either / neither** in short answers: *Moi non plus.* After a negative verb use *pas non plus*: *Je n'aime pas ça non plus.* (I don't like that either). Never use *aussi* after a negative sentence."
+              "cs": "*Non plus* znamená **taky ne** v krátkých odpovědích: *Moi non plus.* Po záporném slovese použij *pas non plus*: *Je n'aime pas ça non plus.* (Tohle taky nemám rád.) Po záporné větě nikdy nepoužívej *aussi*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je n'ai jamais vu ce film.",
-                  "en": "I've never seen this film."
+                  "cs": "Ten film jsem nikdy neviděl."
                 },
                 {
                   "fr": "Il n'y a plus de lait.",
-                  "en": "There is no more milk."
+                  "cs": "Už není mléko."
                 },
                 {
                   "fr": "Je n'ai rien compris.",
-                  "en": "I understood nothing."
+                  "cs": "Ničemu jsem nerozuměl."
                 },
                 {
                   "fr": "Nous n'avons parlé à personne.",
-                  "en": "We spoke to nobody."
+                  "cs": "S nikým jsme nemluvili."
                 },
                 {
                   "fr": "Tu n'as pas encore fini ?",
-                  "en": "Haven't you finished yet?"
+                  "cs": "Ještě jsi to nedodělal?"
                 }
               ]
             }
@@ -1644,7 +1644,7 @@
         {
           "id": "g-negation-inventory-01",
           "type": "transform",
-          "task_en": "Say never (jamais)",
+          "task_cs": "Řekni nikdy (jamais)",
           "fr": "Il arrive en retard.",
           "a": [
             "Il n'arrive jamais en retard."
@@ -1653,7 +1653,7 @@
         {
           "id": "g-negation-inventory-02",
           "type": "transform",
-          "task_en": "Say no longer (plus)",
+          "task_cs": "Řekni už ne (plus)",
           "fr": "J'habite à Lyon.",
           "a": [
             "Je n'habite plus à Lyon."
@@ -1662,7 +1662,7 @@
         {
           "id": "g-negation-inventory-03",
           "type": "transform",
-          "task_en": "Say nothing (rien)",
+          "task_cs": "Řekni nic (rien)",
           "fr": "J'ai vu quelque chose.",
           "a": [
             "Je n'ai rien vu."
@@ -1671,7 +1671,7 @@
         {
           "id": "g-negation-inventory-04",
           "type": "transform",
-          "task_en": "Say nobody (personne)",
+          "task_cs": "Řekni nikdo (personne)",
           "fr": "J'ai vu quelqu'un.",
           "a": [
             "Je n'ai vu personne."
@@ -1680,7 +1680,7 @@
         {
           "id": "g-negation-inventory-05",
           "type": "transform",
-          "task_en": "Say not yet (pas encore)",
+          "task_cs": "Řekni ještě ne (pas encore)",
           "fr": "J'ai fini.",
           "a": [
             "Je n'ai pas encore fini."
@@ -1689,7 +1689,7 @@
         {
           "id": "g-negation-inventory-06",
           "type": "transform",
-          "task_en": "Say none (aucun)",
+          "task_cs": "Řekni žádný (aucun)",
           "fr": "Il a des amis ici.",
           "a": [
             "Il n'a aucun ami ici."
@@ -1698,7 +1698,7 @@
         {
           "id": "g-negation-inventory-07",
           "type": "transform",
-          "task_en": "Say only (que)",
+          "task_cs": "Řekni jen (que)",
           "fr": "J'ai deux euros.",
           "a": [
             "Je n'ai que deux euros."
@@ -1707,7 +1707,7 @@
         {
           "id": "g-negation-inventory-08",
           "type": "transform",
-          "task_en": "Say neither... nor",
+          "task_cs": "Řekni ani... ani",
           "fr": "Il parle anglais et allemand.",
           "a": [
             "Il ne parle ni anglais ni allemand."
@@ -1716,7 +1716,7 @@
         {
           "id": "g-negation-inventory-09",
           "type": "transform",
-          "task_en": "Say nobody as the subject",
+          "task_cs": "Řekni nikdo jako podmět",
           "fr": "Quelqu'un a téléphoné.",
           "a": [
             "Personne n'a téléphoné."
@@ -1725,7 +1725,7 @@
         {
           "id": "g-negation-inventory-10",
           "type": "build",
-          "en": "I never say anything.",
+          "cs": "Nikdy nic neříkám.",
           "a": [
             "Je ne dis jamais rien."
           ]
@@ -1733,7 +1733,7 @@
         {
           "id": "g-negation-inventory-11",
           "type": "build",
-          "en": "Nobody knows.",
+          "cs": "Nikdo neví.",
           "a": [
             "Personne ne sait."
           ]
@@ -1741,7 +1741,7 @@
         {
           "id": "g-negation-inventory-12",
           "type": "build",
-          "en": "Me neither.",
+          "cs": "Já taky ne.",
           "a": [
             "Moi non plus."
           ]
@@ -1753,8 +1753,8 @@
           "a": [
             "rien"
           ],
-          "hint": "nothing",
-          "en": "I saw nothing."
+          "hint": "nic",
+          "cs": "Nic jsem neviděl."
         },
         {
           "id": "g-negation-inventory-14",
@@ -1763,8 +1763,8 @@
           "a": [
             "personne"
           ],
-          "hint": "nobody",
-          "en": "I saw nobody."
+          "hint": "nikdo",
+          "cs": "Nikoho jsem neviděl."
         },
         {
           "id": "g-negation-inventory-15",
@@ -1773,7 +1773,7 @@
           "a": [
             "plus"
           ],
-          "en": "There is no more bread."
+          "cs": "Už není chleba."
         }
       ]
     },
@@ -1797,11 +1797,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*Ne... que* **is not a negation**. It means \"only\" (= *seulement*). *Que* stands directly before what it limits."
+              "cs": "*Ne... que* **není zápor**. Znamená \"jen\" (= *seulement*). *Que* stojí přímo před tím, co omezuje."
             },
             {
               "type": "pattern",
@@ -1830,24 +1830,24 @@
                       "deux euros."
                     ]
                   ],
-                  "en": "I only have two euros."
+                  "cs": "Mám jen dvě eura."
                 }
               ]
             }
           ]
         },
         {
-          "title": "The article does not change",
+          "title": "Člen se nemění",
           "blocks": [
             {
               "type": "text",
-              "en": "Because it is not a negation, the article stays: *Je ne mange que des légumes* (I only eat vegetables)."
+              "cs": "Protože to není zápor, člen zůstává: *Je ne mange que des légumes* (Jím jen zeleninu)."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I only drink water.",
+                  "cs": "Piju jen vodu.",
                   "wrong": "Je ne bois que d'eau.",
                   "fr": "Je ne bois que [[de l']]eau."
                 }
@@ -1860,31 +1860,31 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Seulement* has the same meaning and is simpler: *J'ai seulement deux euros.* You will meet *ne... que* mainly in texts and set phrases."
+              "cs": "*Seulement* znamená totéž a je jednodušší: *J'ai seulement deux euros.* *Ne... que* potkáš hlavně v textech a ustálených spojeních."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il ne pense qu'au foot.",
-                  "en": "He only thinks about football."
+                  "cs": "Myslí jen na fotbal."
                 },
                 {
                   "fr": "Je n'ai qu'une sœur.",
-                  "en": "I only have one sister."
+                  "cs": "Mám jen jednu sestru."
                 },
                 {
                   "fr": "On ne vit qu'une fois.",
-                  "en": "You only live once."
+                  "cs": "Žije se jen jednou."
                 },
                 {
                   "fr": "Le magasin n'ouvre qu'à dix heures.",
-                  "en": "The shop doesn't open until ten."
+                  "cs": "Obchod otevírá až v deset."
                 }
               ]
             }
@@ -1895,7 +1895,7 @@
         {
           "id": "g-ne-que-01",
           "type": "transform",
-          "task_en": "Rewrite with ne... que",
+          "task_cs": "Přepiš pomocí ne... que",
           "fr": "J'ai seulement cinq euros.",
           "a": [
             "Je n'ai que cinq euros."
@@ -1904,7 +1904,7 @@
         {
           "id": "g-ne-que-02",
           "type": "build",
-          "en": "I only have one brother.",
+          "cs": "Mám jen jednoho bratra.",
           "a": [
             "Je n'ai qu'un frère.",
             "J'ai seulement un frère."
@@ -1913,7 +1913,7 @@
         {
           "id": "g-ne-que-03",
           "type": "transform",
-          "task_en": "Rewrite with ne... que",
+          "task_cs": "Přepiš pomocí ne... que",
           "fr": "Il mange seulement des pâtes.",
           "a": [
             "Il ne mange que des pâtes."
@@ -1926,20 +1926,20 @@
           "a": [
             "que"
           ],
-          "en": "I only drink water."
+          "cs": "Piju jen vodu."
         }
       ],
       "drills": [
         {
           "set": "negation",
           "tag": "que",
-          "label": "Drill ne... que"
+          "label": "Dril ne... que"
         }
       ]
     },
     {
       "id": "si-yes",
-      "title": "Si instead of oui",
+      "title": "Si místo oui",
       "fr": "oui ou si",
       "level": "A1",
       "keywords": [
@@ -1956,17 +1956,17 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "You answer a **negative** question with \"yes\" using ***si***, not *oui*. You are correcting what the other person assumed."
+              "cs": "Na **zápornou** otázku odpovídáš \"ano\" slovem ***si***, ne *oui*. Opravuješ tím, co si ten druhý myslel."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "You don't like pizza? Yes, I do!",
+                  "cs": "Nemáš rád pizzu? Ale mám!",
                   "wrong": "Tu n'aimes pas la pizza ? Oui !",
                   "fr": "Tu n'aimes pas la pizza ? [[Si]] !"
                 }
@@ -1975,14 +1975,14 @@
           ]
         },
         {
-          "title": "Overview",
+          "title": "Přehled",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "question",
-                "yes",
-                "no"
+                "otázka",
+                "ano",
+                "ne"
               ],
               "rows": [
                 [
@@ -1999,31 +1999,31 @@
             },
             {
               "type": "text",
-              "en": "To a negative question *non* means you agree with it: \"Aren't you coming? No (I'm not).\" *Mais si !* (Oh yes I am!) is the more emphatic version when you are correcting someone."
+              "cs": "Na zápornou otázku znamená *non*, že souhlasíš: \"Nepřijdeš? Ne (nepřijdu).\" *Mais si !* (Ale jo, přijdu!) je důraznější verze, když někoho opravuješ."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu n'as pas faim ? Si, un peu.",
-                  "en": "Aren't you hungry? Yes, a little."
+                  "cs": "Nemáš hlad? Ale jo, trochu."
                 },
                 {
                   "fr": "Il ne vient pas ? Si, il arrive.",
-                  "en": "Isn't he coming? Yes he is, he's on his way."
+                  "cs": "On nepřijde? Ale přijde, už je na cestě."
                 },
                 {
                   "fr": "Vous n'êtes pas français ? Non, je suis tchèque.",
-                  "en": "Aren't you French? No, I'm Czech."
+                  "cs": "Ty nejsi Francouz? Ne, jsem Čech."
                 },
                 {
                   "fr": "Ce n'est pas vrai ! Mais si !",
-                  "en": "That's not true! Yes it is!"
+                  "cs": "To není pravda! Ale je!"
                 }
               ]
             }
@@ -2038,7 +2038,7 @@
           "a": [
             "Si"
           ],
-          "en": "You don't play football? Yes I do, every Saturday."
+          "cs": "Ty nehraješ fotbal? Ale hraju, každou sobotu."
         },
         {
           "id": "g-si-yes-02",
@@ -2047,7 +2047,7 @@
           "a": [
             "Oui"
           ],
-          "en": "Do you like chocolate? Yes!"
+          "cs": "Máš rád čokoládu? Ano!"
         },
         {
           "id": "g-si-yes-03",
@@ -2056,7 +2056,7 @@
           "a": [
             "Non"
           ],
-          "en": "You don't have a dog? No, I don't."
+          "cs": "Nemáš psa? Ne, nemám."
         },
         {
           "id": "g-si-yes-04",
@@ -2065,13 +2065,13 @@
           "a": [
             "si"
           ],
-          "en": "He isn't here? Yes he is!"
+          "cs": "On tu není? Ale je!"
         }
       ]
     },
     {
       "id": "spoken-negation",
-      "title": "Spoken French without ne",
+      "title": "Mluvená francouzština bez ne",
       "fr": "la négation à l'oral",
       "level": "A2",
       "keywords": [
@@ -2090,18 +2090,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "In everyday conversation the French almost always **drop** *ne* and the negation is carried by *pas* alone. You have to understand it, but **in a test or an essay always write *ne***."
+              "cs": "V běžném rozhovoru Francouzi *ne* skoro vždycky **vynechávají** a zápor nese samotné *pas*. Musíš tomu rozumět, ale **v testu nebo v slohové práci vždycky piš *ne***."
             },
             {
               "type": "table",
               "head": [
-                "careful",
-                "spoken",
-                "English"
+                "spisovně",
+                "mluveně",
+                "česky"
               ],
               "textCols": [
                 2
@@ -2110,66 +2110,66 @@
                 [
                   "Je ne sais pas.",
                   "J'sais pas. / Chais pas.",
-                  "I don't know."
+                  "Nevím."
                 ],
                 [
                   "Ce n'est pas grave.",
                   "C'est pas grave.",
-                  "It doesn't matter."
+                  "To nevadí."
                 ],
                 [
                   "Il n'y a pas de problème.",
                   "Y a pas de problème.",
-                  "No problem."
+                  "Žádný problém."
                 ],
                 [
                   "Je ne peux pas.",
                   "J'peux pas.",
-                  "I can't."
+                  "Nemůžu."
                 ],
                 [
                   "Ne t'inquiète pas.",
                   "T'inquiète.",
-                  "Don't worry."
+                  "Neboj se."
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Other shortcuts",
+          "title": "Další zkratky",
           "blocks": [
             {
               "type": "text",
-              "en": "In speech *tu* also shortens before a vowel (*t'as vu ?* = *tu as vu ?*) and *il y a* becomes *y a*. You will keep seeing this online, in videos and in songs."
+              "cs": "V mluvené řeči se před samohláskou zkracuje i *tu* (*t'as vu ?* = *tu as vu ?*) a z *il y a* se stává *y a*. Uvidíš to pořád na internetu, ve videích a v písničkách."
             },
             {
               "type": "tip",
-              "en": "At school and in tests, leaving out *ne* is not allowed. Treat this as passive knowledge: understand it, don't write it."
+              "cs": "Ve škole a v testech se *ne* vynechávat nesmí. Ber to jako pasivní znalost: rozuměj tomu, ale nepiš to."
             }
           ]
         },
         {
-          "title": "What it sounds like",
+          "title": "Jak to zní",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "T'as vu le match ?",
-                  "en": "Did you see the match?"
+                  "cs": "Viděl jsi ten zápas?"
                 },
                 {
                   "fr": "J'ai pas le temps.",
-                  "en": "I don't have time."
+                  "cs": "Nemám čas."
                 },
                 {
                   "fr": "Y a personne.",
-                  "en": "There's nobody here."
+                  "cs": "Nikdo tu není."
                 },
                 {
                   "fr": "C'est pas moi !",
-                  "en": "It wasn't me!"
+                  "cs": "To jsem nebyl já!"
                 }
               ]
             }
@@ -2180,7 +2180,7 @@
         {
           "id": "g-spoken-negation-01",
           "type": "transform",
-          "task_en": "Write it in careful French",
+          "task_cs": "Napiš to spisovně",
           "fr": "J'sais pas.",
           "a": [
             "Je ne sais pas."
@@ -2189,7 +2189,7 @@
         {
           "id": "g-spoken-negation-02",
           "type": "transform",
-          "task_en": "Write it in careful French",
+          "task_cs": "Napiš to spisovně",
           "fr": "C'est pas grave.",
           "a": [
             "Ce n'est pas grave."
@@ -2198,7 +2198,7 @@
         {
           "id": "g-spoken-negation-03",
           "type": "transform",
-          "task_en": "Write it in careful French",
+          "task_cs": "Napiš to spisovně",
           "fr": "Y a pas de problème.",
           "a": [
             "Il n'y a pas de problème."
@@ -2207,7 +2207,7 @@
         {
           "id": "g-spoken-negation-04",
           "type": "transform",
-          "task_en": "Write it in careful French",
+          "task_cs": "Napiš to spisovně",
           "fr": "T'as faim ?",
           "a": [
             "Tu as faim ?"
@@ -2218,13 +2218,13 @@
         {
           "set": "negation",
           "tag": "spoken",
-          "label": "Drill spoken negation"
+          "label": "Dril mluvený zápor"
         }
       ]
     },
     {
       "id": "pas-de-vs-pas-un",
-      "title": "Pas de or pas un?",
+      "title": "Pas de, nebo pas un?",
       "fr": "pas de ou pas un",
       "level": "A2",
       "keywords": [
@@ -2245,18 +2245,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The usual rule: in the negative *un, une, des* become *de*. But there are situations where the article stays:"
+              "cs": "Obvyklé pravidlo: v záporu se *un, une, des* mění na *de*. Jsou ale situace, kdy člen zůstává:"
             },
             {
               "type": "table",
               "head": [
-                "when",
-                "example",
-                "English"
+                "kdy",
+                "příklad",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -2264,70 +2264,70 @@
               ],
               "rows": [
                 [
-                  "after être",
+                  "po être",
                   "Ce n'est pas un chien, c'est un loup.",
-                  "It's not a dog, it's a wolf."
+                  "To není pes, to je vlk."
                 ],
                 [
-                  "\"not even one\"",
+                  "\"ani jeden\"",
                   "Je n'ai pas un seul euro.",
-                  "I don't have a single euro."
+                  "Nemám ani jedno euro."
                 ],
                 [
-                  "contrast: not one, but...",
+                  "kontrast: ne jeden, ale...",
                   "Je n'ai pas un chat, j'en ai deux !",
-                  "I don't have one cat, I have two!"
+                  "Nemám jednu kočku, mám dvě!"
                 ],
                 [
-                  "le, la, les (after aimer...)",
+                  "le, la, les (po aimer...)",
                   "Je n'aime pas les maths.",
-                  "I don't like maths."
+                  "Nemám rád matiku."
                 ]
               ]
             }
           ]
         },
         {
-          "title": "After être",
+          "title": "Po être",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "It's not a problem.",
+                  "cs": "To není problém.",
                   "wrong": "Ce n'est pas de problème.",
                   "fr": "Ce n'est pas [[un]] problème.",
-                  "note": "After *être* the article does not change. But: *Il n'y a pas de problème.*"
+                  "note": "Po *être* se člen nemění. Ale: *Il n'y a pas de problème.*"
                 }
               ]
             },
             {
               "type": "text",
-              "en": "After *ne... que* (only) the article does not change either, because it is not really a negation: *Je ne mange que des fruits.*"
+              "cs": "Po *ne... que* (jen) se člen taky nemění, protože to vlastně není zápor: *Je ne mange que des fruits.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ce n'est pas une bonne idée.",
-                  "en": "It's not a good idea."
+                  "cs": "To není dobrý nápad."
                 },
                 {
                   "fr": "Il n'a pas dit un mot.",
-                  "en": "He didn't say a word."
+                  "cs": "Neřekl ani slovo."
                 },
                 {
                   "fr": "Je n'ai pas de vélo.",
-                  "en": "I don't have a bike."
+                  "cs": "Nemám kolo."
                 },
                 {
                   "fr": "Ce ne sont pas mes chaussures.",
-                  "en": "Those aren't my shoes."
+                  "cs": "To nejsou moje boty."
                 }
               ]
             }
@@ -2338,7 +2338,7 @@
         {
           "id": "g-pas-de-vs-pas-un-01",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "C'est un problème.",
           "a": [
             "Ce n'est pas un problème."
@@ -2347,7 +2347,7 @@
         {
           "id": "g-pas-de-vs-pas-un-02",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Il y a un problème.",
           "a": [
             "Il n'y a pas de problème."
@@ -2356,7 +2356,7 @@
         {
           "id": "g-pas-de-vs-pas-un-03",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "C'est une bonne idée.",
           "a": [
             "Ce n'est pas une bonne idée."
@@ -2365,7 +2365,7 @@
         {
           "id": "g-pas-de-vs-pas-un-04",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "J'ai une voiture.",
           "a": [
             "Je n'ai pas de voiture."
@@ -2376,12 +2376,12 @@
         {
           "set": "negation",
           "tag": "etre",
-          "label": "Drill after être"
+          "label": "Dril po être"
         },
         {
           "set": "negation",
           "tag": "pas-de",
-          "label": "Drill pas de"
+          "label": "Dril pas de"
         }
       ]
     }

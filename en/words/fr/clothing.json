@@ -1,0 +1,245 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Clothing",
+  "unit": "6.1",
+  "level": null,
+  "words": [
+    {
+      "q": "T-shirt",
+      "a": "T-shirt"
+    },
+    {
+      "q": "sweatshirt, hoodie",
+      "a": "sweat-shirt"
+    },
+    {
+      "q": "jeans",
+      "a": "jean"
+    },
+    {
+      "q": "shorts",
+      "a": "short"
+    },
+    {
+      "q": "dress",
+      "a": "robe"
+    },
+    {
+      "q": "jumper, sweater",
+      "a": "pull"
+    },
+    {
+      "q": "skirt",
+      "a": "jupe"
+    },
+    {
+      "q": "boots",
+      "a": "bottes"
+    },
+    {
+      "q": "jacket",
+      "a": "blouson"
+    },
+    {
+      "q": "blazer, suit jacket",
+      "a": "veste"
+    },
+    {
+      "q": "puffer jacket",
+      "a": "doudoune"
+    },
+    {
+      "q": "coat",
+      "a": "manteau"
+    },
+    {
+      "q": "trousers",
+      "a": "pantalon"
+    },
+    {
+      "q": "shirt",
+      "a": "chemise"
+    },
+    {
+      "q": "blouse",
+      "a": "chemisier"
+    },
+    {
+      "q": "tank top",
+      "a": "débardeur"
+    },
+    {
+      "q": "socks",
+      "a": "chaussettes"
+    },
+    {
+      "q": "shoes",
+      "a": "chaussures"
+    },
+    {
+      "q": "cap",
+      "a": "casquette"
+    },
+    {
+      "q": "beanie, woolly hat",
+      "a": "bonnet"
+    },
+    {
+      "q": "hat",
+      "a": "chapeau"
+    },
+    {
+      "q": "suit",
+      "a": "costume"
+    },
+    {
+      "q": "women's suit",
+      "a": "tailleur"
+    },
+    {
+      "q": "tie",
+      "a": "cravate"
+    },
+    {
+      "q": "tights",
+      "a": "collant"
+    },
+    {
+      "q": "trainers, sneakers",
+      "a": [
+        "baskets",
+        "tennis"
+      ]
+    },
+    {
+      "q": "handbag",
+      "a": "sac à main"
+    },
+    {
+      "q": "clothes",
+      "a": "vêtements"
+    },
+    {
+      "q": "underwear",
+      "a": "sous-vêtements"
+    },
+    {
+      "q": "bra",
+      "a": "soutien-gorge"
+    },
+    {
+      "q": "heel",
+      "a": "talon"
+    },
+    {
+      "q": "glasses",
+      "a": "lunettes"
+    },
+    {
+      "q": "flip-flops",
+      "a": "tongs"
+    },
+    {
+      "q": "watch",
+      "a": "montre"
+    },
+    {
+      "q": "gloves",
+      "a": "gants"
+    },
+    {
+      "q": "belt",
+      "a": "ceinture"
+    },
+    {
+      "q": "scarf",
+      "a": "écharpe"
+    },
+    {
+      "q": "earring",
+      "a": "boucle d'oreille"
+    },
+    {
+      "q": "knickers",
+      "a": "culotte"
+    },
+    {
+      "q": "swimsuit",
+      "a": "maillot de bain"
+    },
+    {
+      "q": "necklace",
+      "a": "collier"
+    },
+    {
+      "q": "ring",
+      "a": "bague"
+    },
+    {
+      "q": "bracelet",
+      "a": "bracelet"
+    },
+    {
+      "q": "piece of jewellery",
+      "a": "bijou"
+    },
+    {
+      "q": "swimming trunks",
+      "a": "slip de bain"
+    },
+    {
+      "q": "leggings",
+      "a": "legging"
+    },
+    {
+      "q": "tracksuit bottoms",
+      "a": "jogging"
+    },
+    {
+      "q": "printed",
+      "a": "imprimé"
+    },
+    {
+      "q": "size",
+      "a": "taille"
+    },
+    {
+      "q": "shoe size",
+      "a": "pointure"
+    },
+    {
+      "q": "fitting room",
+      "a": "cabine d'essayage"
+    },
+    {
+      "q": "the sales",
+      "a": "soldes"
+    },
+    {
+      "q": "fashion",
+      "a": "mode"
+    },
+    {
+      "q": "fashionable, in fashion",
+      "a": "à la mode"
+    },
+    {
+      "q": "comfortable",
+      "a": "confortable"
+    },
+    {
+      "q": "elegant",
+      "a": "élégant"
+    },
+    {
+      "q": "too big",
+      "a": "trop grand"
+    },
+    {
+      "q": "it suits me",
+      "a": "ça me va bien"
+    }
+  ]
+}

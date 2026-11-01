@@ -1,6 +1,7 @@
 import { store } from '../store.js';
 import { wordCount } from '../ai.js';
 import { backupDue, continueItems } from '../learn/resume.js';
+import { folderActive } from '../folder.js';
 import { learnParts, partStates, nextStep } from '../learn/course.js';
 import { activeMistakes } from '../learn/mistakes.js';
 import { findTopic, writeOptions, startWriting } from './write.js';
@@ -34,7 +35,7 @@ export function homeContinue(app) {
     draft: latestDraft(app),
     step: nextLearnStep(app),
     openMistakes: activeMistakes(store.write.mistakes || []).length,
-    backup: backupDue({ words: Object.keys(store.progress).length, lastBackup: store.settings.lastBackup }),
+    backup: !folderActive() && backupDue({ words: Object.keys(store.progress).length, lastBackup: store.settings.lastBackup }),
   });
 }
 

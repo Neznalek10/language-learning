@@ -1,0 +1,1521 @@
+{
+  "schema": 1,
+  "goals": [
+    "Name jobs (for men and women)",
+    "Say what you want to be: je veux devenir...",
+    "Form the futur simple of regular verbs",
+    "The irregular future: je serai, j'aurai, j'irai, je ferai",
+    "Make plans: plus tard, dans dix ans, si + present tense"
+  ],
+  "lessons": [
+    {
+      "id": "fr-avenir-1",
+      "title": "Les métiers",
+      "subtitle": "Jobs",
+      "topics": [
+        "professions"
+      ],
+      "words": [
+        "professions#engineer",
+        "professions#programmer, developer",
+        "professions#estate agent",
+        "professions#lawyer",
+        "professions#nurse (woman)",
+        "professions#nurse (man)",
+        "professions#shop assistant (man)",
+        "professions#shop assistant (woman)",
+        "professions#cook, chef (man)",
+        "professions#cook, chef (woman)",
+        "professions#police officer (man)",
+        "professions#police officer (woman)",
+        "professions#firefighter",
+        "professions#architect",
+        "professions#journalist",
+        "professions#accountant",
+        "professions#entrepreneur",
+        "professions#musician (man)",
+        "professions#musician (woman)",
+        "professions#drummer",
+        "professions#professional athlete",
+        "professions#hairdresser (man)",
+        "professions#hairdresser (woman)",
+        "health#doctor",
+        "family#actor",
+        "family#actress",
+        "family#translator",
+        "school#teacher"
+      ],
+      "learn": [
+        {
+          "title": "Who does what?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A job = *le métier*. Most jobs have a masculine and a feminine form."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "un vendeur",
+                  "une vendeuse",
+                  "shop assistant"
+                ],
+                [
+                  "un coiffeur",
+                  "une coiffeuse",
+                  "hairdresser"
+                ],
+                [
+                  "un cuisinier",
+                  "une cuisinière",
+                  "cook, chef"
+                ],
+                [
+                  "un infirmier",
+                  "une infirmière",
+                  "nurse"
+                ],
+                [
+                  "un policier",
+                  "une policière",
+                  "police officer"
+                ],
+                [
+                  "un acteur",
+                  "une actrice",
+                  "actor, actress"
+                ],
+                [
+                  "un musicien",
+                  "une musicienne",
+                  "musician"
+                ],
+                [
+                  "un avocat",
+                  "une avocate",
+                  "lawyer"
+                ],
+                [
+                  "un journaliste",
+                  "une journaliste",
+                  "journalist"
+                ],
+                [
+                  "un médecin",
+                  "un médecin / une médecin",
+                  "doctor"
+                ]
+              ],
+              "textCols": [
+                2
+              ],
+              "head": [
+                "man",
+                "woman",
+                "English"
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Ma tante coupe les cheveux, elle est ___.",
+                "a": [
+                  "coiffeuse"
+                ],
+                "hint": "hairdresser (woman)"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Je suis médecin",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "no article",
+              "en": "After *être* you give a job **without an article**, unlike English \"a\": *Il est ingénieur. Ma mère est infirmière.* The article only comes back with an adjective or after *c'est*: *C'est un bon médecin.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon père est ingénieur.",
+                  "en": "Dad is an engineer."
+                },
+                {
+                  "fr": "Ma mère est agent immobilier.",
+                  "en": "Mum is an estate agent."
+                },
+                {
+                  "fr": "Qu'est-ce que tu fais dans la vie ?",
+                  "en": "What do you do for a living? (tu)"
+                },
+                {
+                  "fr": "C'est un très bon cuisinier.",
+                  "en": "He's a very good cook."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "My sister is a nurse.",
+                "a": [
+                  "Ma sœur est infirmière."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-avenir-1-01",
+          "type": "cloze",
+          "fr": "Il travaille dans un restaurant, il est ___.",
+          "a": [
+            "cuisinier"
+          ],
+          "hint": "cook"
+        },
+        {
+          "id": "fr-avenir-1-02",
+          "type": "cloze",
+          "fr": "Elle écrit des articles, elle est ___.",
+          "a": [
+            "journaliste"
+          ],
+          "hint": "journalist (woman)"
+        },
+        {
+          "id": "fr-avenir-1-03",
+          "type": "cloze",
+          "fr": "Mon oncle est ___ : il éteint les incendies.",
+          "a": [
+            "pompier"
+          ],
+          "hint": "firefighter"
+        },
+        {
+          "id": "fr-avenir-1-04",
+          "type": "cloze",
+          "fr": "Elle vend des vêtements, elle est ___.",
+          "a": [
+            "vendeuse"
+          ],
+          "hint": "shop assistant (woman)"
+        },
+        {
+          "id": "fr-avenir-1-05",
+          "type": "cloze",
+          "fr": "Il crée des applis, il est ___.",
+          "a": [
+            "développeur",
+            "programmeur"
+          ],
+          "hint": "programmer"
+        },
+        {
+          "id": "fr-avenir-1-06",
+          "type": "cloze",
+          "fr": "Elle dessine des maisons, elle est ___.",
+          "a": [
+            "architecte"
+          ],
+          "hint": "architect (woman)"
+        },
+        {
+          "id": "fr-avenir-1-07",
+          "type": "build",
+          "en": "My dad is a doctor.",
+          "a": [
+            "Mon père est médecin."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-08",
+          "type": "build",
+          "en": "He's a good teacher.",
+          "a": [
+            "C'est un bon professeur.",
+            "C'est un bon prof."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-09",
+          "type": "build",
+          "en": "What does your mum do for a living?",
+          "a": [
+            "Qu'est-ce que ta mère fait dans la vie ?",
+            "Que fait ta mère dans la vie ?",
+            "Ta mère fait quoi dans la vie ?",
+            "Quel est le métier de ta mère ?"
+          ]
+        },
+        {
+          "id": "fr-avenir-1-10",
+          "type": "build",
+          "en": "My aunt is a police officer.",
+          "a": [
+            "Ma tante est policière."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-11",
+          "type": "transform",
+          "task_en": "Say it about a woman",
+          "fr": "Il est vendeur.",
+          "a": [
+            "Elle est vendeuse."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-12",
+          "type": "transform",
+          "task_en": "Say it about a woman",
+          "fr": "Il est musicien.",
+          "a": [
+            "Elle est musicienne."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-13",
+          "type": "transform",
+          "task_en": "Say it about a woman",
+          "fr": "Il est acteur.",
+          "a": [
+            "Elle est actrice."
+          ]
+        },
+        {
+          "id": "fr-avenir-1-14",
+          "type": "order",
+          "en": "My uncle is a drummer.",
+          "a": [
+            "Mon oncle est batteur"
+          ],
+          "extra": [
+            "un",
+            "une"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-avenir-2",
+      "title": "Je veux devenir...",
+      "subtitle": "What I want to be",
+      "topics": [
+        "professions"
+      ],
+      "words": [
+        "professions#profession, trade",
+        "professions#work, job",
+        "professions#salary",
+        "professions#company",
+        "verbs-irregular#to become",
+        "verbs#to earn, to win"
+      ],
+      "learn": [
+        {
+          "title": "What do you want to be?",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "What do you want to be?",
+                  "Qu'est-ce que tu veux faire plus tard ?"
+                ],
+                [
+                  "I want to be a programmer.",
+                  "Je veux être développeur."
+                ],
+                [
+                  "I'd like to become a doctor.",
+                  "J'aimerais devenir médecin."
+                ],
+                [
+                  "I'd like to work for a company.",
+                  "Je voudrais travailler dans une entreprise."
+                ],
+                [
+                  "I'd like to work as a cook.",
+                  "Je voudrais travailler comme cuisinier."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Plus tard, je veux ___ ingénieur.",
+                "a": [
+                  "devenir",
+                  "être"
+                ],
+                "hint": "to become"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Why?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Reasons: *parce que* + a sentence. *C'est un métier intéressant / utile / bien payé.* *Je veux gagner beaucoup d'argent.* *J'aime aider les gens.*"
+            },
+            {
+              "type": "tip",
+              "title": "devenir",
+              "en": "*Devenir* is conjugated like *venir*: *je deviens, tu deviens, il devient...* In the passé composé it takes *être*: *Il est devenu médecin.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je veux devenir développeur parce que j'adore l'informatique.",
+                  "en": "I want to be a programmer because I love computer science."
+                },
+                {
+                  "fr": "C'est un métier bien payé.",
+                  "en": "It's a well-paid job."
+                },
+                {
+                  "fr": "Mon rêve, c'est de jouer au basket en équipe nationale.",
+                  "en": "My dream is to play basketball for the national team."
+                },
+                {
+                  "fr": "Je ne sais pas encore.",
+                  "en": "I don't know yet."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "I want to work with computers.",
+                "a": [
+                  "Je veux travailler avec des ordinateurs.",
+                  "Je veux travailler avec les ordinateurs."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-avenir-2-01",
+          "type": "form",
+          "verb": "devenir",
+          "tense": "present",
+          "person": 0
+        },
+        {
+          "id": "fr-avenir-2-02",
+          "type": "form",
+          "verb": "devenir",
+          "tense": "present",
+          "person": 2
+        },
+        {
+          "id": "fr-avenir-2-03",
+          "type": "cloze",
+          "fr": "Qu'est-ce que tu veux ___ plus tard ?",
+          "a": [
+            "faire"
+          ],
+          "hint": "to do"
+        },
+        {
+          "id": "fr-avenir-2-04",
+          "type": "cloze",
+          "fr": "Je voudrais travailler ___ vendeur.",
+          "a": [
+            "comme"
+          ],
+          "hint": "as"
+        },
+        {
+          "id": "fr-avenir-2-05",
+          "type": "cloze",
+          "fr": "Mon frère travaille dans une grande ___.",
+          "a": [
+            "entreprise"
+          ],
+          "hint": "company"
+        },
+        {
+          "id": "fr-avenir-2-06",
+          "type": "cloze",
+          "fr": "C'est un métier bien ___.",
+          "a": [
+            "payé"
+          ],
+          "hint": "paid"
+        },
+        {
+          "id": "fr-avenir-2-07",
+          "type": "cloze",
+          "fr": "Il est ___ médecin en 2010.",
+          "a": [
+            "devenu"
+          ],
+          "hint": "to become"
+        },
+        {
+          "id": "fr-avenir-2-08",
+          "type": "build",
+          "en": "I want to be an engineer.",
+          "a": [
+            "Je veux être ingénieur.",
+            "Je veux devenir ingénieur."
+          ]
+        },
+        {
+          "id": "fr-avenir-2-09",
+          "type": "build",
+          "en": "I'd like to become a musician.",
+          "a": [
+            "J'aimerais devenir musicien.",
+            "Je voudrais devenir musicien."
+          ]
+        },
+        {
+          "id": "fr-avenir-2-10",
+          "type": "build",
+          "en": "It's an interesting job.",
+          "a": [
+            "C'est un métier intéressant."
+          ]
+        },
+        {
+          "id": "fr-avenir-2-11",
+          "type": "build",
+          "en": "I don't know yet what I want to be.",
+          "a": [
+            "Je ne sais pas encore ce que je veux faire.",
+            "Je ne sais pas encore ce que je veux faire plus tard."
+          ]
+        },
+        {
+          "id": "fr-avenir-2-12",
+          "type": "build",
+          "en": "I want to earn lots of money.",
+          "a": [
+            "Je veux gagner beaucoup d'argent."
+          ]
+        },
+        {
+          "id": "fr-avenir-2-13",
+          "type": "order",
+          "en": "I'd like to work as an estate agent.",
+          "a": [
+            "Je voudrais travailler comme agent immobilier"
+          ],
+          "extra": [
+            "un",
+            "en"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-avenir-3",
+      "title": "Je serai ingénieur",
+      "subtitle": "The future tense: regular verbs",
+      "topics": [
+        "futur-simple"
+      ],
+      "words": [
+        "professions#later",
+        "professions#one day"
+      ],
+      "learn": [
+        {
+          "title": "Futur simple",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *futur simple* talks about the future, plans and predictions. Take the infinitive and add the endings *-ai, -as, -a, -ons, -ez, -ont*: *travailler → je travaillerai*. For *-re* verbs the final *e* drops: *prendre → je prendrai*."
+            },
+            {
+              "type": "table",
+              "verb": "travailler",
+              "tense": "futur-simple"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "parler",
+                "tense": "futur-simple",
+                "person": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "futur proche × futur simple",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Je vais travailler* (futur proche) = soon, the plan is already clear. *Je travaillerai* (futur simple) = later, in general: *Un jour, je travaillerai à Paris.*"
+            },
+            {
+              "type": "tip",
+              "title": "endings",
+              "en": "The endings look like the present tense of *avoir*: *(j')ai, (tu) as, (il) a, (nous av)ons, (vous av)ez, (ils) ont*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Plus tard, je travaillerai dans l'informatique.",
+                  "en": "Later I'll work in IT."
+                },
+                {
+                  "fr": "Nous habiterons à Paris.",
+                  "en": "We'll live in Paris."
+                },
+                {
+                  "fr": "Tu prendras le train ?",
+                  "en": "Will you take the train?"
+                },
+                {
+                  "fr": "Un jour, ils gagneront le championnat.",
+                  "en": "One day they'll win the championship."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Un jour, je ___ à Paris.",
+                "a": [
+                  "travaillerai"
+                ],
+                "hint": "travailler"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-avenir-3-01",
+          "type": "form",
+          "verb": "travailler",
+          "tense": "futur-simple",
+          "person": 1
+        },
+        {
+          "id": "fr-avenir-3-02",
+          "type": "form",
+          "verb": "finir",
+          "tense": "futur-simple",
+          "person": 0
+        },
+        {
+          "id": "fr-avenir-3-03",
+          "type": "form",
+          "verb": "prendre",
+          "tense": "futur-simple",
+          "person": 3
+        },
+        {
+          "id": "fr-avenir-3-04",
+          "type": "form",
+          "verb": "habiter",
+          "tense": "futur-simple",
+          "person": 5
+        },
+        {
+          "id": "fr-avenir-3-05",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "futur-simple",
+          "person": 2
+        },
+        {
+          "id": "fr-avenir-3-06",
+          "type": "form",
+          "verb": "choisir",
+          "tense": "futur-simple",
+          "person": 4
+        },
+        {
+          "id": "fr-avenir-3-07",
+          "type": "cloze",
+          "fr": "Plus tard, nous ___ à l'étranger.",
+          "a": [
+            "habiterons"
+          ],
+          "hint": "habiter"
+        },
+        {
+          "id": "fr-avenir-3-08",
+          "type": "cloze",
+          "fr": "Tu ___ tes études en 2030.",
+          "a": [
+            "finiras"
+          ],
+          "hint": "finir"
+        },
+        {
+          "id": "fr-avenir-3-09",
+          "type": "cloze",
+          "fr": "Elle ___ un métier intéressant.",
+          "a": [
+            "choisira"
+          ],
+          "hint": "choisir"
+        },
+        {
+          "id": "fr-avenir-3-10",
+          "type": "cloze",
+          "fr": "Ils ___ le bus demain.",
+          "a": [
+            "prendront"
+          ],
+          "hint": "prendre"
+        },
+        {
+          "id": "fr-avenir-3-11",
+          "type": "build",
+          "en": "One day I'll work in Paris.",
+          "a": [
+            "Un jour, je travaillerai à Paris."
+          ]
+        },
+        {
+          "id": "fr-avenir-3-12",
+          "type": "build",
+          "en": "Later I'll play basketball in Canada.",
+          "a": [
+            "Plus tard, je jouerai au basket au Canada."
+          ]
+        },
+        {
+          "id": "fr-avenir-3-13",
+          "type": "transform",
+          "task_en": "Put it in the futur simple",
+          "fr": "Je vais parler français.",
+          "a": [
+            "Je parlerai français."
+          ]
+        },
+        {
+          "id": "fr-avenir-3-14",
+          "type": "transform",
+          "task_en": "Put it in the futur simple",
+          "fr": "Nous allons finir nos études.",
+          "a": [
+            "Nous finirons nos études."
+          ]
+        },
+        {
+          "id": "fr-avenir-3-15",
+          "type": "order",
+          "en": "Later we'll live by the sea.",
+          "a": [
+            "Plus tard nous habiterons au bord de la mer"
+          ],
+          "extra": [
+            "allons",
+            "habitons"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-avenir-4",
+      "title": "J'irai, je ferai",
+      "subtitle": "The irregular future",
+      "topics": [
+        "futur-simple"
+      ],
+      "words": [],
+      "learn": [
+        {
+          "title": "Irregular stems",
+          "blocks": [
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "être",
+                  "ser-",
+                  "je serai"
+                ],
+                [
+                  "avoir",
+                  "aur-",
+                  "j'aurai"
+                ],
+                [
+                  "aller",
+                  "ir-",
+                  "j'irai"
+                ],
+                [
+                  "faire",
+                  "fer-",
+                  "je ferai"
+                ],
+                [
+                  "venir",
+                  "viendr-",
+                  "je viendrai"
+                ],
+                [
+                  "voir",
+                  "verr-",
+                  "je verrai"
+                ],
+                [
+                  "pouvoir",
+                  "pourr-",
+                  "je pourrai"
+                ],
+                [
+                  "vouloir",
+                  "voudr-",
+                  "je voudrai"
+                ],
+                [
+                  "devoir",
+                  "devr-",
+                  "je devrai"
+                ],
+                [
+                  "savoir",
+                  "saur-",
+                  "je saurai"
+                ],
+                [
+                  "il faut",
+                  "faudr-",
+                  "il faudra"
+                ]
+              ],
+              "textCols": [],
+              "head": [
+                "verb",
+                "stem",
+                "je"
+              ]
+            },
+            {
+              "type": "text",
+              "en": "The endings stay the same; only the stem changes. You already know the same stems from *je voudrais*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "être",
+                "tense": "futur-simple",
+                "person": 0
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "faire",
+              "tense": "futur-simple"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je serai développeur.",
+                  "en": "I'll be a programmer."
+                },
+                {
+                  "fr": "Nous aurons une grande maison.",
+                  "en": "We'll have a big house."
+                },
+                {
+                  "fr": "Tu iras à l'université ?",
+                  "en": "Will you go to university?"
+                },
+                {
+                  "fr": "Il fera beau demain.",
+                  "en": "The weather will be nice tomorrow."
+                },
+                {
+                  "fr": "On verra !",
+                  "en": "We'll see!"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Demain, il ___ beau.",
+                "a": [
+                  "fera"
+                ],
+                "hint": "faire"
+              }
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-avenir-4-01",
+          "type": "form",
+          "verb": "être",
+          "tense": "futur-simple",
+          "person": 1
+        },
+        {
+          "id": "fr-avenir-4-02",
+          "type": "form",
+          "verb": "être",
+          "tense": "futur-simple",
+          "person": 3
+        },
+        {
+          "id": "fr-avenir-4-03",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "futur-simple",
+          "person": 0
+        },
+        {
+          "id": "fr-avenir-4-04",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "futur-simple",
+          "person": 5
+        },
+        {
+          "id": "fr-avenir-4-05",
+          "type": "form",
+          "verb": "aller",
+          "tense": "futur-simple",
+          "person": 2
+        },
+        {
+          "id": "fr-avenir-4-06",
+          "type": "form",
+          "verb": "faire",
+          "tense": "futur-simple",
+          "person": 4
+        },
+        {
+          "id": "fr-avenir-4-07",
+          "type": "form",
+          "verb": "venir",
+          "tense": "futur-simple",
+          "person": 0
+        },
+        {
+          "id": "fr-avenir-4-08",
+          "type": "form",
+          "verb": "voir",
+          "tense": "futur-simple",
+          "person": 3
+        },
+        {
+          "id": "fr-avenir-4-09",
+          "type": "form",
+          "verb": "pouvoir",
+          "tense": "futur-simple",
+          "person": 1
+        },
+        {
+          "id": "fr-avenir-4-10",
+          "type": "form",
+          "verb": "devoir",
+          "tense": "futur-simple",
+          "person": 2
+        },
+        {
+          "id": "fr-avenir-4-11",
+          "type": "cloze",
+          "fr": "Plus tard, je ___ médecin.",
+          "a": [
+            "serai"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-avenir-4-12",
+          "type": "cloze",
+          "fr": "Nous ___ en France l'été prochain.",
+          "a": [
+            "irons"
+          ],
+          "hint": "aller"
+        },
+        {
+          "id": "fr-avenir-4-13",
+          "type": "cloze",
+          "fr": "Tu ___ le temps demain ?",
+          "a": [
+            "auras"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-avenir-4-14",
+          "type": "cloze",
+          "fr": "Ils ___ nous voir dimanche.",
+          "a": [
+            "viendront"
+          ],
+          "hint": "venir"
+        },
+        {
+          "id": "fr-avenir-4-15",
+          "type": "build",
+          "en": "I'll have a dog.",
+          "a": [
+            "J'aurai un chien."
+          ]
+        },
+        {
+          "id": "fr-avenir-4-16",
+          "type": "build",
+          "en": "We'll see!",
+          "a": [
+            "On verra !"
+          ]
+        },
+        {
+          "id": "fr-avenir-4-17",
+          "type": "build",
+          "en": "Tomorrow it's going to rain.",
+          "a": [
+            "Demain, il pleuvra.",
+            "Il pleuvra demain.",
+            "Demain, il va pleuvoir."
+          ]
+        },
+        {
+          "id": "fr-avenir-4-18",
+          "type": "transform",
+          "task_en": "Put it in the futur simple",
+          "fr": "Je vais être prof.",
+          "a": [
+            "Je serai prof."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-avenir-5",
+      "title": "Dans dix ans",
+      "subtitle": "Plans for the future",
+      "topics": [
+        "futur-simple",
+        "professions"
+      ],
+      "words": [
+        "professions#studies",
+        "professions#school-leaving exam",
+        "professions#university"
+      ],
+      "learn": [
+        {
+          "title": "When?",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "later",
+                  "plus tard"
+                ],
+                [
+                  "one day",
+                  "un jour"
+                ],
+                [
+                  "in ten years",
+                  "dans dix ans"
+                ],
+                [
+                  "next year",
+                  "l'année prochaine"
+                ],
+                [
+                  "after the school-leaving exam",
+                  "après le bac"
+                ],
+                [
+                  "at university",
+                  "à l'université / à la fac"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "dans = in",
+              "en": "*Dans* + a length of time = in (in the future): *dans dix ans* (in ten years). *Il y a dix ans* = ten years ago."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "___ dix ans, je serai ingénieur.",
+                "a": [
+                  "Dans"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "si + present, then the future",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A condition that can come true: *si* + present tense, then the future: *Si j'ai mon bac, j'irai à l'université.* Never put the future after *si*, just as in English."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Si je travaille bien, je réussirai.",
+                  "en": "If I work hard, I'll succeed."
+                },
+                {
+                  "fr": "S'il fait beau, on ira au stade.",
+                  "en": "If the weather's nice, we'll go to the stadium."
+                },
+                {
+                  "fr": "Après le bac, je ferai des études d'informatique.",
+                  "en": "After my final exams I'll study computer science."
+                },
+                {
+                  "fr": "Dans dix ans, j'habiterai peut-être à l'étranger.",
+                  "en": "In ten years I might live abroad."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "If I have money, I'll buy a car.",
+                "a": [
+                  "Si j'ai de l'argent, j'achèterai une voiture."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-avenir-5-01",
+          "type": "cloze",
+          "fr": "L'année ___, j'irai au lycée.",
+          "a": [
+            "prochaine"
+          ],
+          "hint": "next"
+        },
+        {
+          "id": "fr-avenir-5-02",
+          "type": "cloze",
+          "fr": "Si tu ___, tu réussiras.",
+          "a": [
+            "travailles"
+          ],
+          "hint": "travailler"
+        },
+        {
+          "id": "fr-avenir-5-03",
+          "type": "cloze",
+          "fr": "S'il pleut, nous ___ à la maison.",
+          "a": [
+            "resterons"
+          ],
+          "hint": "rester"
+        },
+        {
+          "id": "fr-avenir-5-04",
+          "type": "cloze",
+          "fr": "Après le ___, je ferai des études.",
+          "a": [
+            "bac"
+          ],
+          "hint": "school-leaving exam"
+        },
+        {
+          "id": "fr-avenir-5-05",
+          "type": "cloze",
+          "fr": "Je veux étudier à l'___.",
+          "a": [
+            "université"
+          ],
+          "hint": "university"
+        },
+        {
+          "id": "fr-avenir-5-06",
+          "type": "cloze",
+          "fr": "Dans dix ___, je serai riche !",
+          "a": [
+            "ans"
+          ],
+          "hint": "years"
+        },
+        {
+          "id": "fr-avenir-5-07",
+          "type": "build",
+          "en": "In ten years I'll live in Paris.",
+          "a": [
+            "Dans dix ans, j'habiterai à Paris.",
+            "J'habiterai à Paris dans dix ans."
+          ]
+        },
+        {
+          "id": "fr-avenir-5-08",
+          "type": "build",
+          "en": "After my final exams I'll go to university.",
+          "a": [
+            "Après le bac, j'irai à l'université.",
+            "Après le bac, j'irai à la fac."
+          ]
+        },
+        {
+          "id": "fr-avenir-5-09",
+          "type": "build",
+          "en": "If the weather's nice, we'll go to the seaside.",
+          "a": [
+            "S'il fait beau, nous irons à la mer.",
+            "S'il fait beau, on ira à la mer."
+          ]
+        },
+        {
+          "id": "fr-avenir-5-10",
+          "type": "build",
+          "en": "One day I'll have my own company.",
+          "a": [
+            "Un jour, j'aurai ma propre entreprise.",
+            "Un jour, j'aurai mon entreprise."
+          ]
+        },
+        {
+          "id": "fr-avenir-5-11",
+          "type": "transform",
+          "task_en": "Join into one sentence with si",
+          "fr": "J'ai mon bac. Je vais à l'université.",
+          "a": [
+            "Si j'ai mon bac, j'irai à l'université."
+          ]
+        },
+        {
+          "id": "fr-avenir-5-12",
+          "type": "order",
+          "en": "In five years I'll be a programmer.",
+          "a": [
+            "Dans cinq ans je serai développeur"
+          ],
+          "extra": [
+            "en",
+            "suis"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-avenir-t-01",
+        "lesson": "fr-avenir-1",
+        "type": "build",
+        "en": "My mum is a doctor.",
+        "a": [
+          "Ma mère est médecin."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-02",
+        "lesson": "fr-avenir-1",
+        "type": "cloze",
+        "fr": "Il soigne les malades à l'hôpital, il est ___.",
+        "a": [
+          "infirmier",
+          "médecin"
+        ],
+        "hint": "nurse"
+      },
+      {
+        "id": "fr-avenir-t-03",
+        "lesson": "fr-avenir-1",
+        "type": "transform",
+        "task_en": "Say it about a woman",
+        "fr": "Il est cuisinier.",
+        "a": [
+          "Elle est cuisinière."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-04",
+        "lesson": "fr-avenir-1",
+        "type": "build",
+        "en": "My dad is an estate agent.",
+        "a": [
+          "Mon père est agent immobilier."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-05",
+        "lesson": "fr-avenir-1",
+        "type": "build",
+        "en": "She's a good journalist.",
+        "a": [
+          "C'est une bonne journaliste."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-06",
+        "lesson": "fr-avenir-2",
+        "type": "build",
+        "en": "I want to be a firefighter.",
+        "a": [
+          "Je veux être pompier.",
+          "Je veux devenir pompier."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-07",
+        "lesson": "fr-avenir-2",
+        "type": "cloze",
+        "fr": "Je voudrais travailler ___ une banque.",
+        "a": [
+          "dans"
+        ]
+      },
+      {
+        "id": "fr-avenir-t-08",
+        "lesson": "fr-avenir-2",
+        "type": "build",
+        "en": "What do you want to be?",
+        "a": [
+          "Qu'est-ce que tu veux faire plus tard ?",
+          "Qu'est-ce que tu veux faire ?",
+          "Tu veux faire quoi plus tard ?"
+        ]
+      },
+      {
+        "id": "fr-avenir-t-09",
+        "lesson": "fr-avenir-2",
+        "type": "build",
+        "en": "It's a well-paid job.",
+        "a": [
+          "C'est un travail bien payé.",
+          "C'est un métier bien payé."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-10",
+        "lesson": "fr-avenir-2",
+        "type": "form",
+        "verb": "devenir",
+        "tense": "present",
+        "person": 5
+      },
+      {
+        "id": "fr-avenir-t-11",
+        "lesson": "fr-avenir-3",
+        "type": "cloze",
+        "fr": "Nous ___ ensemble.",
+        "a": [
+          "travaillerons"
+        ],
+        "hint": "travailler"
+      },
+      {
+        "id": "fr-avenir-t-12",
+        "lesson": "fr-avenir-3",
+        "type": "form",
+        "verb": "prendre",
+        "tense": "futur-simple",
+        "person": 0
+      },
+      {
+        "id": "fr-avenir-t-13",
+        "lesson": "fr-avenir-3",
+        "type": "transform",
+        "task_en": "Put it in the futur simple",
+        "fr": "Tu vas jouer.",
+        "a": [
+          "Tu joueras."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-14",
+        "lesson": "fr-avenir-3",
+        "type": "build",
+        "en": "Later I'll live in France.",
+        "a": [
+          "Plus tard, j'habiterai en France."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-15",
+        "lesson": "fr-avenir-3",
+        "type": "cloze",
+        "fr": "Elles ___ le train.",
+        "a": [
+          "prendront"
+        ],
+        "hint": "prendre"
+      },
+      {
+        "id": "fr-avenir-t-16",
+        "lesson": "fr-avenir-4",
+        "type": "form",
+        "verb": "faire",
+        "tense": "futur-simple",
+        "person": 0
+      },
+      {
+        "id": "fr-avenir-t-17",
+        "lesson": "fr-avenir-4",
+        "type": "cloze",
+        "fr": "Demain, nous ___ au cinéma.",
+        "a": [
+          "irons"
+        ],
+        "hint": "aller"
+      },
+      {
+        "id": "fr-avenir-t-18",
+        "lesson": "fr-avenir-4",
+        "type": "build",
+        "en": "I'll be a programmer.",
+        "a": [
+          "Je serai développeur.",
+          "Je serai programmeur."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-19",
+        "lesson": "fr-avenir-4",
+        "type": "cloze",
+        "fr": "Vous ___ venir ?",
+        "a": [
+          "pourrez"
+        ],
+        "hint": "pouvoir"
+      },
+      {
+        "id": "fr-avenir-t-20",
+        "lesson": "fr-avenir-4",
+        "type": "build",
+        "en": "Will you have time tomorrow? (tu)",
+        "a": [
+          "Tu auras le temps demain ?",
+          "Demain, tu auras le temps ?"
+        ]
+      },
+      {
+        "id": "fr-avenir-t-21",
+        "lesson": "fr-avenir-5",
+        "type": "build",
+        "en": "Next year I'll go to France.",
+        "a": [
+          "L'année prochaine, j'irai en France.",
+          "J'irai en France l'année prochaine."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-22",
+        "lesson": "fr-avenir-5",
+        "type": "cloze",
+        "fr": "S'il neige, nous ___ du ski.",
+        "a": [
+          "ferons"
+        ],
+        "hint": "faire"
+      },
+      {
+        "id": "fr-avenir-t-23",
+        "lesson": "fr-avenir-5",
+        "type": "build",
+        "en": "If you want, I'll help you. (tu)",
+        "a": [
+          "Si tu veux, je t'aiderai."
+        ]
+      },
+      {
+        "id": "fr-avenir-t-24",
+        "lesson": "fr-avenir-5",
+        "type": "cloze",
+        "fr": "___ cinq ans, je finirai mes études.",
+        "a": [
+          "Dans"
+        ]
+      },
+      {
+        "id": "fr-avenir-t-25",
+        "lesson": "fr-avenir-5",
+        "type": "build",
+        "en": "In ten years I'll have children.",
+        "a": [
+          "Dans dix ans, j'aurai des enfants.",
+          "J'aurai des enfants dans dix ans."
+        ]
+      }
+    ]
+  }
+}

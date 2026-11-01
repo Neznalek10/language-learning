@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": "numbers-0-69",
-      "title": "Numbers 0 to 69",
+      "title": "Čísla 0 až 69",
       "fr": "les nombres de 0 à 69",
       "level": "A1",
       "keywords": [
@@ -26,13 +26,13 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "number",
-                "French"
+                "číslo",
+                "francouzsky"
               ],
               "textCols": [
                 0
@@ -74,18 +74,18 @@
             },
             {
               "type": "text",
-              "en": "You learn the numbers up to 16 by heart. From 17 they are built up: *dix-sept* = ten and seven."
+              "cs": "Čísla do 16 se učíš nazpaměť. Od 17 se skládají: *dix-sept* = deset a sedm."
             }
           ]
         },
         {
-          "title": "Tens",
+          "title": "Desítky",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "number",
-                "French"
+                "číslo",
+                "francouzsky"
               ],
               "textCols": [
                 0
@@ -115,13 +115,13 @@
             },
             {
               "type": "text",
-              "en": "A hyphen is written between tens and units: *vingt-deux, trente-cinq*. Only *one* takes *et*: *vingt et un, trente et un*."
+              "cs": "Mezi desítky a jednotky se píše spojovník: *vingt-deux, trente-cinq*. Jen *jedna* dostává *et*: *vingt et un, trente et un*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "21",
+                  "cs": "21",
                   "wrong": "vingt-un",
                   "fr": "vingt [[et]] un"
                 }
@@ -130,39 +130,39 @@
           ]
         },
         {
-          "title": "Un and une, pronunciation",
+          "title": "Un a une, výslovnost",
           "blocks": [
             {
               "type": "text",
-              "en": "*Un* becomes *une* in the feminine: *vingt et une filles*. The other numbers do not change."
+              "cs": "*Un* se v ženském rodě mění na *une*: *vingt et une filles*. Ostatní čísla se nemění."
             },
             {
               "type": "tip",
-              "en": "*Six* and *dix* before a consonant are read without the final sound (*six livres*), at the end of a sentence the *x* is read as s (*j'en ai six*). *Vingt* is read without the *t*, but *vingt-deux* with it."
+              "cs": "*Six* a *dix* se před souhláskou čtou bez koncové hlásky (*six livres*), na konci věty se *x* čte jako s (*j'en ai six*). *Vingt* se čte bez *t*, ale *vingt-deux* s ním."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'ai quatorze ans.",
-                  "en": "I'm fourteen."
+                  "cs": "Je mi čtrnáct."
                 },
                 {
                   "fr": "Il y a vingt-huit élèves dans ma classe.",
-                  "en": "There are twenty-eight pupils in my class."
+                  "cs": "V mé třídě je dvacet osm žáků."
                 },
                 {
                   "fr": "Mon père a quarante-trois ans.",
-                  "en": "My father is forty-three."
+                  "cs": "Mému tátovi je čtyřicet tři."
                 },
                 {
                   "fr": "J'habite au numéro trente et un.",
-                  "en": "I live at number thirty-one."
+                  "cs": "Bydlím v čísle třicet jedna."
                 }
               ]
             }
@@ -173,7 +173,7 @@
         {
           "id": "g-numbers-0-69-01",
           "type": "build",
-          "en": "17",
+          "cs": "17",
           "a": [
             "dix-sept"
           ]
@@ -181,7 +181,7 @@
         {
           "id": "g-numbers-0-69-02",
           "type": "build",
-          "en": "21",
+          "cs": "21",
           "a": [
             "vingt et un"
           ]
@@ -189,7 +189,7 @@
         {
           "id": "g-numbers-0-69-03",
           "type": "build",
-          "en": "35",
+          "cs": "35",
           "a": [
             "trente-cinq"
           ]
@@ -197,7 +197,7 @@
         {
           "id": "g-numbers-0-69-04",
           "type": "build",
-          "en": "I'm fifteen.",
+          "cs": "Je mi patnáct.",
           "a": [
             "J'ai quinze ans."
           ]
@@ -205,7 +205,7 @@
         {
           "id": "g-numbers-0-69-05",
           "type": "build",
-          "en": "68",
+          "cs": "68",
           "a": [
             "soixante-huit"
           ]
@@ -213,7 +213,7 @@
         {
           "id": "g-numbers-0-69-06",
           "type": "build",
-          "en": "41",
+          "cs": "41",
           "a": [
             "quarante et un"
           ]
@@ -222,7 +222,7 @@
     },
     {
       "id": "numbers-70-100",
-      "title": "Numbers 70 to 100",
+      "title": "Čísla 70 až 100",
       "fr": "les nombres de 70 à 100",
       "level": "A1",
       "keywords": [
@@ -245,18 +245,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "From 70 French counts in twenties. It looks complicated, but you only need to add."
+              "cs": "Od 70 počítá francouzština po dvacítkách. Vypadá to složitě, ale stačí sčítat."
             },
             {
               "type": "table",
               "head": [
-                "number",
-                "French",
-                "literally"
+                "číslo",
+                "francouzsky",
+                "doslova"
               ],
               "textCols": [
                 0,
@@ -308,22 +308,22 @@
           ]
         },
         {
-          "title": "Spelling",
+          "title": "Pravopis",
           "blocks": [
             {
               "type": "text",
-              "en": "*Quatre-vingts* takes an *-s* only when nothing follows: *quatre-vingts*, but *quatre-vingt-trois*. With 81 and 91 there is **no** *et* any more."
+              "cs": "*Quatre-vingts* má *-s* jen tehdy, když za ním nic nenásleduje: *quatre-vingts*, ale *quatre-vingt-trois*. U 81 a 91 už **není** *et*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "80",
+                  "cs": "80",
                   "wrong": "quatre-vingt",
                   "fr": "quatre-vingt[[s]]"
                 },
                 {
-                  "en": "81",
+                  "cs": "81",
                   "wrong": "quatre-vingt et un",
                   "fr": "quatre-vingt-[[un]]"
                 }
@@ -331,32 +331,32 @@
             },
             {
               "type": "tip",
-              "title": "Belgium and Switzerland",
-              "en": "In Belgium and Switzerland they say *septante* (70) and *nonante* (90), in Switzerland *huitante* (80) too. In France and at school *soixante-dix* and *quatre-vingt-dix* apply."
+              "title": "Belgie a Švýcarsko",
+              "cs": "V Belgii a ve Švýcarsku se říká *septante* (70) a *nonante* (90), ve Švýcarsku i *huitante* (80). Ve Francii a ve škole platí *soixante-dix* a *quatre-vingt-dix*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ma grand-mère a soixante-dix-huit ans.",
-                  "en": "My grandmother is seventy-eight."
+                  "cs": "Babičce je sedmdesát osm."
                 },
                 {
                   "fr": "Ça coûte quatre-vingts euros.",
-                  "en": "It costs eighty euros."
+                  "cs": "Stojí to osmdesát eur."
                 },
                 {
                   "fr": "Il y a quatre-vingt-dix-neuf verbes dans l'appli.",
-                  "en": "There are ninety-nine verbs in the app."
+                  "cs": "V aplikaci je devadesát devět sloves."
                 },
                 {
                   "fr": "Mon grand-père a quatre-vingt-un ans.",
-                  "en": "My grandfather is eighty-one."
+                  "cs": "Dědovi je osmdesát jedna."
                 }
               ]
             }
@@ -367,7 +367,7 @@
         {
           "id": "g-numbers-70-100-01",
           "type": "build",
-          "en": "70",
+          "cs": "70",
           "a": [
             "soixante-dix"
           ]
@@ -375,7 +375,7 @@
         {
           "id": "g-numbers-70-100-02",
           "type": "build",
-          "en": "80",
+          "cs": "80",
           "a": [
             "quatre-vingts"
           ]
@@ -383,7 +383,7 @@
         {
           "id": "g-numbers-70-100-03",
           "type": "build",
-          "en": "92",
+          "cs": "92",
           "a": [
             "quatre-vingt-douze"
           ]
@@ -391,7 +391,7 @@
         {
           "id": "g-numbers-70-100-04",
           "type": "build",
-          "en": "71",
+          "cs": "71",
           "a": [
             "soixante et onze"
           ]
@@ -399,7 +399,7 @@
         {
           "id": "g-numbers-70-100-05",
           "type": "build",
-          "en": "85",
+          "cs": "85",
           "a": [
             "quatre-vingt-cinq"
           ]
@@ -407,7 +407,7 @@
         {
           "id": "g-numbers-70-100-06",
           "type": "build",
-          "en": "99",
+          "cs": "99",
           "a": [
             "quatre-vingt-dix-neuf"
           ]
@@ -416,7 +416,7 @@
     },
     {
       "id": "big-numbers",
-      "title": "Hundreds, thousands, prices",
+      "title": "Stovky, tisíce, ceny",
       "fr": "les grands nombres et les prix",
       "level": "A1",
       "keywords": [
@@ -442,13 +442,13 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "number",
-                "French"
+                "číslo",
+                "francouzsky"
               ],
               "textCols": [
                 0
@@ -491,42 +491,42 @@
           ]
         },
         {
-          "title": "Spelling",
+          "title": "Pravopis",
           "blocks": [
             {
               "type": "text",
-              "en": "*Cent* takes an *-s* only in **round** hundreds: *deux cents*, but *deux cent dix*. *Mille* **never changes**: *trois mille*. *Million* is a noun: *deux millions de personnes*."
+              "cs": "*Cent* má *-s* jen u **celých** stovek: *deux cents*, ale *deux cent dix*. *Mille* se **nikdy nemění**: *trois mille*. *Million* je podstatné jméno: *deux millions de personnes*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "3,000",
+                  "cs": "3 000",
                   "wrong": "trois milles",
                   "fr": "trois [[mille]]"
                 },
                 {
-                  "en": "a hundred euros",
+                  "cs": "sto eur",
                   "wrong": "un cent euros",
                   "fr": "[[cent]] euros",
-                  "note": "You don't say *un* before *cent* and *mille*."
+                  "note": "Před *cent* a *mille* se neříká *un*."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Prices and years",
+          "title": "Ceny a roky",
           "blocks": [
             {
               "type": "text",
-              "en": "A decimal comma is not read out in prices, you simply say two numbers. Thousands are separated by a space: *1 500 CZK*. Years are read as ordinary numbers: *1989* = *mille neuf cent quatre-vingt-neuf*."
+              "cs": "Desetinná čárka se u cen nečte, prostě řekneš dvě čísla. Tisíce se oddělují mezerou: *1 500 CZK*. Roky se čtou jako běžná čísla: *1989* = *mille neuf cent quatre-vingt-neuf*."
             },
             {
               "type": "table",
               "head": [
-                "written",
-                "said"
+                "psáno",
+                "čteno"
               ],
               "textCols": [
                 0
@@ -549,26 +549,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ça coûte combien ? Douze euros cinquante.",
-                  "en": "How much is it? Twelve euros fifty."
+                  "cs": "Kolik to stojí? Dvanáct eur padesát."
                 },
                 {
                   "fr": "Il y a deux cents élèves dans mon collège.",
-                  "en": "There are two hundred pupils in my school."
+                  "cs": "Na mé škole je dvě stě žáků."
                 },
                 {
                   "fr": "Paris a plus de deux millions d'habitants.",
-                  "en": "Paris has more than two million inhabitants."
+                  "cs": "Paříž má přes dva miliony obyvatel."
                 },
                 {
                   "fr": "Mon père est né en mille neuf cent quatre-vingt-cinq.",
-                  "en": "My father was born in 1985."
+                  "cs": "Můj táta se narodil v roce 1985."
                 }
               ]
             }
@@ -579,7 +579,7 @@
         {
           "id": "g-big-numbers-01",
           "type": "build",
-          "en": "200",
+          "cs": "200",
           "a": [
             "deux cents"
           ]
@@ -587,7 +587,7 @@
         {
           "id": "g-big-numbers-02",
           "type": "build",
-          "en": "350",
+          "cs": "350",
           "a": [
             "trois cent cinquante"
           ]
@@ -595,7 +595,7 @@
         {
           "id": "g-big-numbers-03",
           "type": "build",
-          "en": "5,000",
+          "cs": "5 000",
           "a": [
             "cinq mille"
           ]
@@ -603,7 +603,7 @@
         {
           "id": "g-big-numbers-04",
           "type": "build",
-          "en": "2026",
+          "cs": "2026",
           "a": [
             "deux mille vingt-six"
           ]
@@ -611,7 +611,7 @@
         {
           "id": "g-big-numbers-05",
           "type": "build",
-          "en": "€4.50",
+          "cs": "4,50 €",
           "a": [
             "quatre euros cinquante",
             "quatre euros et cinquante centimes"
@@ -621,7 +621,7 @@
     },
     {
       "id": "numbers-more",
-      "title": "More numbers: decimals, fractions, percentages, approximations",
+      "title": "Další čísla: desetinná čísla, zlomky, procenta, odhady",
       "fr": "les nombres (suite)",
       "level": "A2",
       "levelTo": "B1",
@@ -655,52 +655,52 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "French writes **decimals with a comma** (*3,5* = *trois virgule cinq*) and **thousands with a space** (*10 000*). Fractions, percentages and approximate numbers use special words: *la moitié, un tiers, un quart, pour cent, une dizaine, une centaine*."
+              "cs": "Francouzština píše **desetinná čísla s čárkou** (*3,5* = *trois virgule cinq*) a **tisíce s mezerou** (*10 000*). Zlomky, procenta a přibližná čísla mají zvláštní slova: *la moitié, un tiers, un quart, pour cent, une dizaine, une centaine*."
             },
             {
               "type": "table",
               "head": [
-                "type",
-                "example",
-                "reading"
+                "druh",
+                "příklad",
+                "čtení"
               ],
               "rows": [
                 [
-                  "decimal",
+                  "desetinné číslo",
                   "3,5",
                   "trois virgule cinq"
                 ],
                 [
-                  "thousands",
+                  "tisíce",
                   "12 500",
                   "douze mille cinq cents"
                 ],
                 [
-                  "half",
+                  "polovina",
                   "1/2",
                   "la moitié, un demi"
                 ],
                 [
-                  "third, quarter",
+                  "třetina, čtvrtina",
                   "1/3, 1/4",
                   "un tiers, un quart"
                 ],
                 [
-                  "other fractions",
+                  "jiné zlomky",
                   "2/5, 3/4",
                   "deux cinquièmes, trois quarts"
                 ],
                 [
-                  "percentage",
+                  "procenta",
                   "25 %",
                   "vingt-cinq pour cent"
                 ],
                 [
-                  "approximate",
+                  "přibližně",
                   "~10, ~100",
                   "une dizaine, une centaine"
                 ]
@@ -712,44 +712,44 @@
           ]
         },
         {
-          "title": "Approximate numbers",
+          "title": "Přibližná čísla",
           "blocks": [
             {
               "type": "text",
-              "en": "The **-aine** nouns mean *about*: **une dizaine** (about 10), **une quinzaine** (about 15 or two weeks), **une vingtaine**, **une trentaine**, **une centaine** (about 100). **Des milliers** = thousands, **des millions** = millions. Add **de + noun**: *une dizaine de personnes*."
+              "cs": "Podstatná jména na **-aine** znamenají *asi*: **une dizaine** (asi 10), **une quinzaine** (asi 15 nebo dva týdny), **une vingtaine**, **une trentaine**, **une centaine** (asi 100). **Des milliers** = tisíce, **des millions** = miliony. Přidej **de + podstatné jméno**: *une dizaine de personnes*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il y a une vingtaine d'élèves.",
-                  "en": "There are about twenty pupils."
+                  "cs": "Je tu asi dvacet žáků."
                 },
                 {
                   "fr": "Nous avons attendu une quinzaine de minutes.",
-                  "en": "We waited about fifteen minutes."
+                  "cs": "Čekali jsme asi patnáct minut."
                 },
                 {
                   "fr": "Des milliers de personnes sont venues.",
-                  "en": "Thousands of people came."
+                  "cs": "Přišly tisíce lidí."
                 },
                 {
                   "fr": "Le trajet dure environ deux heures.",
-                  "en": "The journey takes about two hours."
+                  "cs": "Cesta trvá asi dvě hodiny."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Calculating",
+          "title": "Počítání",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "operation",
-                "French",
-                "example"
+                "operace",
+                "francouzsky",
+                "příklad"
               ],
               "rows": [
                 [
@@ -784,61 +784,61 @@
             },
             {
               "type": "tip",
-              "en": "The verb after the numbers is **font** (plural): *deux plus deux font quatre*."
+              "cs": "Sloveso za čísly je **font** (množné číslo): *deux plus deux font quatre*."
             }
           ]
         },
         {
-          "title": "Measures",
+          "title": "Míry",
           "blocks": [
             {
               "type": "text",
-              "en": "Height and size use **mesurer** or **faire**: *Il mesure un mètre quatre-vingts. Il fait 1,80 m.* Weight uses **peser**: *Elle pèse cinquante kilos.* Temperature uses **faire**: *Il fait vingt degrés.* Distance: *à dix kilomètres d'ici.* Speed: *cent kilomètres à l'heure.*"
+              "cs": "Výška a velikost se vyjadřují slovesem **mesurer** nebo **faire**: *Il mesure un mètre quatre-vingts. Il fait 1,80 m.* Váha slovesem **peser**: *Elle pèse cinquante kilos.* Teplota slovesem **faire**: *Il fait vingt degrés.* Vzdálenost: *à dix kilomètres d'ici.* Rychlost: *cent kilomètres à l'heure.*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il mesure un mètre soixante-quinze.",
-                  "en": "He is 1.75 m tall."
+                  "cs": "Měří 1,75 m."
                 },
                 {
                   "fr": "Ma valise pèse vingt kilos.",
-                  "en": "My suitcase weighs 20 kilos."
+                  "cs": "Můj kufr váží 20 kilo."
                 },
                 {
                   "fr": "La ville est à trente kilomètres d'ici.",
-                  "en": "The town is 30 km from here."
+                  "cs": "Město je 30 km odsud."
                 },
                 {
                   "fr": "Il roule à cent trente kilomètres à l'heure.",
-                  "en": "He drives at 130 km/h."
+                  "cs": "Jezdí 130 km/h."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Mon frère a deux ans et demi.",
-                  "en": "My brother is two and a half."
+                  "cs": "Bráchovi jsou dva a půl."
                 },
                 {
                   "fr": "Quarante pour cent des élèves sont des filles.",
-                  "en": "Forty per cent of the pupils are girls."
+                  "cs": "Čtyřicet procent žáků jsou dívky."
                 },
                 {
                   "fr": "J'ai payé la moitié du prix.",
-                  "en": "I paid half the price."
+                  "cs": "Zaplatil jsem poloviční cenu."
                 },
                 {
                   "fr": "Un quart d'heure, c'est quinze minutes.",
-                  "en": "A quarter of an hour is fifteen minutes."
+                  "cs": "Čtvrt hodiny je patnáct minut."
                 }
               ]
             }
@@ -849,7 +849,7 @@
         {
           "id": "g-numbers-more-01",
           "type": "build",
-          "en": "3.5 (say it)",
+          "cs": "3,5 (řekni to)",
           "a": [
             "trois virgule cinq"
           ]
@@ -857,7 +857,7 @@
         {
           "id": "g-numbers-more-02",
           "type": "build",
-          "en": "25 per cent",
+          "cs": "25 procent",
           "a": [
             "vingt-cinq pour cent"
           ]
@@ -865,7 +865,7 @@
         {
           "id": "g-numbers-more-03",
           "type": "build",
-          "en": "about twenty pupils",
+          "cs": "asi dvacet žáků",
           "a": [
             "une vingtaine d'élèves",
             "environ vingt élèves"
@@ -874,7 +874,7 @@
         {
           "id": "g-numbers-more-04",
           "type": "build",
-          "en": "a quarter of an hour",
+          "cs": "čtvrt hodiny",
           "a": [
             "un quart d'heure"
           ]
@@ -882,7 +882,7 @@
         {
           "id": "g-numbers-more-05",
           "type": "build",
-          "en": "Two plus two is four.",
+          "cs": "Dvě plus dvě jsou čtyři.",
           "a": [
             "Deux plus deux font quatre.",
             "Deux et deux font quatre."
@@ -891,7 +891,7 @@
         {
           "id": "g-numbers-more-06",
           "type": "build",
-          "en": "He is 1.80 m tall.",
+          "cs": "Měří 1,80 m.",
           "a": [
             "Il mesure un mètre quatre-vingts.",
             "Il fait un mètre quatre-vingts."
@@ -904,7 +904,7 @@
           "a": [
             "dizaine"
           ],
-          "en": "There are about ten people."
+          "cs": "Je tu asi deset lidí."
         },
         {
           "id": "g-numbers-more-08",
@@ -913,7 +913,7 @@
           "a": [
             "fois"
           ],
-          "en": "Three times four is twelve."
+          "cs": "Třikrát čtyři je dvanáct."
         },
         {
           "id": "g-numbers-more-09",
@@ -922,14 +922,14 @@
           "a": [
             "pèse"
           ],
-          "hint": "weighs",
-          "en": "She weighs fifty kilos."
+          "hint": "váží",
+          "cs": "Váží padesát kilo."
         }
       ]
     },
     {
       "id": "ordinals",
-      "title": "Ordinal numbers",
+      "title": "Řadové číslovky",
       "fr": "les nombres ordinaux",
       "level": "A1",
       "keywords": [
@@ -954,60 +954,60 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Ordinal numbers are formed by adding *-ième* to the number: *deux → deuxième*. Only \"first\" is special: *premier, première*."
+              "cs": "Řadové číslovky se tvoří přidáním *-ième* k číslu: *deux → deuxième*. Zvláštní je jen \"první\": *premier, première*."
             },
             {
               "type": "table",
               "head": [
-                "English",
-                "French",
-                "abbreviation"
+                "česky",
+                "francouzsky",
+                "zkratka"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "first",
+                  "první",
                   "premier, première",
                   "1er, 1re"
                 ],
                 [
-                  "second",
+                  "druhý",
                   "deuxième (second)",
                   "2e"
                 ],
                 [
-                  "third",
+                  "třetí",
                   "troisième",
                   "3e"
                 ],
                 [
-                  "fourth",
+                  "čtvrtý",
                   "quatrième",
                   "4e"
                 ],
                 [
-                  "fifth",
+                  "pátý",
                   "cinquième",
                   "5e"
                 ],
                 [
-                  "ninth",
+                  "devátý",
                   "neuvième",
                   "9e"
                 ],
                 [
-                  "twenty-first",
+                  "dvacátý první",
                   "vingt et unième",
                   "21e"
                 ],
                 [
-                  "last",
+                  "poslední",
                   "dernier, dernière",
                   ""
                 ]
@@ -1016,20 +1016,20 @@
           ]
         },
         {
-          "title": "Spelling",
+          "title": "Pravopis",
           "blocks": [
             {
               "type": "text",
-              "en": "A final *-e* drops: *quatre → quatrième, onze → onzième*. *Cinq* adds a *u*: *cinquième*. *Neuf* changes *f* to *v*: *neuvième*."
+              "cs": "Koncové *-e* odpadá: *quatre → quatrième, onze → onzième*. *Cinq* přidává *u*: *cinquième*. *Neuf* mění *f* na *v*: *neuvième*."
             }
           ]
         },
         {
-          "title": "Where they are used",
+          "title": "Kde se používají",
           "blocks": [
             {
               "type": "text",
-              "en": "Floors (*au troisième étage*), order (*la deuxième rue à droite*), the first time (*la première fois*). In dates only the first is an ordinal: *le premier mai*, but *le deux mai*."
+              "cs": "Patra (*au troisième étage*), pořadí (*la deuxième rue à droite*), poprvé (*la première fois*). V datech je řadová jen první: *le premier mai*, ale *le deux mai*."
             },
             {
               "type": "see",
@@ -1040,30 +1040,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "C'est la première fois.",
-                  "en": "It's the first time."
+                  "cs": "Je to poprvé."
                 },
                 {
                   "fr": "J'habite au cinquième étage.",
-                  "en": "I live on the fifth floor."
+                  "cs": "Bydlím v pátém patře."
                 },
                 {
                   "fr": "Prenez la deuxième rue à gauche.",
-                  "en": "Take the second street on the left."
+                  "cs": "Jděte druhou ulicí doleva."
                 },
                 {
                   "fr": "Il est arrivé troisième.",
-                  "en": "He came third."
+                  "cs": "Skončil třetí."
                 },
                 {
                   "fr": "C'est le dernier jour des vacances.",
-                  "en": "It's the last day of the holidays."
+                  "cs": "Je poslední den prázdnin."
                 }
               ]
             }
@@ -1074,7 +1074,7 @@
         {
           "id": "g-ordinals-01",
           "type": "transform",
-          "task_en": "Form the ordinal number",
+          "task_cs": "Utvoř řadovou číslovku",
           "fr": "trois",
           "a": [
             "troisième"
@@ -1083,7 +1083,7 @@
         {
           "id": "g-ordinals-02",
           "type": "transform",
-          "task_en": "Form the ordinal number",
+          "task_cs": "Utvoř řadovou číslovku",
           "fr": "cinq",
           "a": [
             "cinquième"
@@ -1092,7 +1092,7 @@
         {
           "id": "g-ordinals-03",
           "type": "transform",
-          "task_en": "Form the ordinal number",
+          "task_cs": "Utvoř řadovou číslovku",
           "fr": "neuf",
           "a": [
             "neuvième"
@@ -1101,7 +1101,7 @@
         {
           "id": "g-ordinals-04",
           "type": "build",
-          "en": "It's the first time.",
+          "cs": "Je to poprvé.",
           "a": [
             "C'est la première fois."
           ]
@@ -1109,7 +1109,7 @@
         {
           "id": "g-ordinals-05",
           "type": "build",
-          "en": "I live on the second floor.",
+          "cs": "Bydlím ve druhém patře.",
           "a": [
             "J'habite au {deuxième|second} étage."
           ]
@@ -1118,7 +1118,7 @@
     },
     {
       "id": "clock",
-      "title": "Telling the time",
+      "title": "Kolik je hodin",
       "fr": "l'heure",
       "level": "A1",
       "keywords": [
@@ -1143,18 +1143,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "You ask *Quelle heure est-il ?* and answer *Il est...* + number + *heure(s)*. The word *heures* is never left out."
+              "cs": "Ptáš se *Quelle heure est-il ?* a odpovídáš *Il est...* + číslo + *heure(s)*. Slovo *heures* se nikdy nevynechává."
             },
             {
               "type": "table",
               "head": [
-                "time",
-                "French",
-                "English"
+                "čas",
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -1164,92 +1164,92 @@
                 [
                   "8:00",
                   "Il est huit heures.",
-                  "It's eight o'clock."
+                  "Je osm hodin."
                 ],
                 [
                   "8:15",
                   "Il est huit heures et quart.",
-                  "It's a quarter past eight."
+                  "Je čtvrt na devět."
                 ],
                 [
                   "8:30",
                   "Il est huit heures et demie.",
-                  "It's half past eight."
+                  "Je půl deváté."
                 ],
                 [
                   "8:45",
                   "Il est neuf heures moins le quart.",
-                  "It's a quarter to nine."
+                  "Je tři čtvrtě na devět."
                 ],
                 [
                   "8:50",
                   "Il est neuf heures moins dix.",
-                  "It's ten to nine."
+                  "Je za deset minut devět."
                 ],
                 [
                   "12:00",
                   "Il est midi.",
-                  "It's noon."
+                  "Je poledne."
                 ],
                 [
                   "0:00",
                   "Il est minuit.",
-                  "It's midnight."
+                  "Je půlnoc."
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Watch out for half past",
+          "title": "Pozor na půl",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "It's half past eight. (8:30)",
+                  "cs": "Je půl deváté. (8:30)",
                   "wrong": "Il est neuf heures et demie.",
                   "fr": "Il est [[huit]] heures et demie.",
-                  "note": "In Czech, half past eight is called \"half nine\" and points to the next hour. French counts from the previous hour: eight and a half."
+                  "note": "Česky se 8:30 řekne \"půl deváté\" a ukazuje na další hodinu. Francouzština počítá od předchozí hodiny: osm a půl."
                 }
               ]
             }
           ]
         },
         {
-          "title": "24 hours and at what time",
+          "title": "24 hodin a v kolik",
           "blocks": [
             {
               "type": "text",
-              "en": "In timetables, on TV and in shops the 24-hour clock is used and read with whole numbers: *Le train part à dix-sept heures quarante.* (17:40)"
+              "cs": "V jízdních řádech, v televizi a v obchodech se používá 24hodinový čas a čte se celými čísly: *Le train part à dix-sept heures quarante.* (17:40)"
             },
             {
               "type": "text",
-              "en": "\"At what time\" = *à quelle heure*: *À quelle heure tu te lèves ? À sept heures.*"
+              "cs": "\"V kolik\" = *à quelle heure*: *À quelle heure tu te lèves ? À sept heures.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il est une heure.",
-                  "en": "It's one o'clock."
+                  "cs": "Je jedna hodina."
                 },
                 {
                   "fr": "On mange à midi et demi.",
-                  "en": "We eat at half past twelve."
+                  "cs": "Jíme v půl jedné."
                 },
                 {
                   "fr": "Le cours finit à quinze heures trente.",
-                  "en": "The lesson ends at 15:30."
+                  "cs": "Hodina končí v 15:30."
                 },
                 {
                   "fr": "Je me couche vers dix heures.",
-                  "en": "I go to bed around ten."
+                  "cs": "Chodím spát kolem desáté."
                 }
               ]
             }
@@ -1260,7 +1260,7 @@
         {
           "id": "g-clock-01",
           "type": "build",
-          "en": "It's eight o'clock.",
+          "cs": "Je osm hodin.",
           "a": [
             "Il est huit heures."
           ]
@@ -1268,7 +1268,7 @@
         {
           "id": "g-clock-02",
           "type": "build",
-          "en": "It's half past nine. (9:30)",
+          "cs": "Je půl desáté. (9:30)",
           "a": [
             "Il est neuf heures {et demie|trente}."
           ]
@@ -1276,7 +1276,7 @@
         {
           "id": "g-clock-03",
           "type": "build",
-          "en": "It's a quarter past two. (2:15)",
+          "cs": "Je čtvrt na tři. (2:15)",
           "a": [
             "Il est deux heures {et quart|quinze}.",
             "Il est quatorze heures quinze."
@@ -1285,7 +1285,7 @@
         {
           "id": "g-clock-04",
           "type": "build",
-          "en": "It's noon.",
+          "cs": "Je poledne.",
           "a": [
             "Il est midi."
           ]
@@ -1293,7 +1293,7 @@
         {
           "id": "g-clock-05",
           "type": "build",
-          "en": "What time do you get up?",
+          "cs": "V kolik vstáváš?",
           "a": [
             "À quelle heure tu te lèves ?",
             "Tu te lèves à quelle heure ?",
@@ -1305,7 +1305,7 @@
     },
     {
       "id": "dates",
-      "title": "Dates, days and months",
+      "title": "Data, dny a měsíce",
       "fr": "la date",
       "level": "A1",
       "keywords": [
@@ -1331,40 +1331,40 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A date is said with the article *le* and an **ordinary** number: *le 14 juillet, le 3 mars*. Only the first day of the month is *le premier*: *le 1er mai*."
+              "cs": "Datum se říká se členem *le* a **základní** číslovkou: *le 14 juillet, le 3 mars*. Jen první den v měsíci je *le premier*: *le 1er mai*."
             },
             {
               "type": "table",
               "head": [
-                "English",
-                "French"
+                "česky",
+                "francouzsky"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "14 July",
+                  "14. července",
                   "le 14 juillet"
                 ],
                 [
-                  "1 May",
+                  "1. května",
                   "le 1er mai (le premier mai)"
                 ],
                 [
-                  "on Monday 3 March",
+                  "v pondělí 3. března",
                   "le lundi 3 mars"
                 ],
                 [
-                  "What's the date?",
+                  "Kolikátého je?",
                   "On est le combien ?"
                 ],
                 [
-                  "It's 21 October.",
+                  "Je 21. října.",
                   "On est le 21 octobre."
                 ]
               ]
@@ -1372,13 +1372,13 @@
           ]
         },
         {
-          "title": "Days and months",
+          "title": "Dny a měsíce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "days",
-                "months"
+                "dny",
+                "měsíce"
               ],
               "rows": [
                 [
@@ -1401,19 +1401,19 @@
             },
             {
               "type": "text",
-              "en": "Days and months are written with a **small letter** and are masculine."
+              "cs": "Dny a měsíce se píšou **malým písmenem** a jsou mužského rodu."
             }
           ]
         },
         {
-          "title": "With a preposition",
+          "title": "S předložkou",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -1421,24 +1421,24 @@
               ],
               "rows": [
                 [
-                  "day",
+                  "den",
                   "lundi / le lundi",
-                  "on Monday / on Mondays"
+                  "v pondělí / každé pondělí"
                 ],
                 [
-                  "month",
+                  "měsíc",
                   "en mai, au mois de mai",
-                  "in May"
+                  "v květnu"
                 ],
                 [
-                  "year",
+                  "rok",
                   "en 2026",
-                  "in 2026"
+                  "v roce 2026"
                 ],
                 [
-                  "season",
+                  "roční období",
                   "en été, en automne, en hiver, au printemps",
-                  "in summer, in autumn, in winter, in spring"
+                  "v létě, na podzim, v zimě, na jaře"
                 ]
               ]
             },
@@ -1446,35 +1446,35 @@
               "type": "compare",
               "items": [
                 {
-                  "en": "On Monday I'm going to the dentist.",
+                  "cs": "V pondělí jdu k zubaři.",
                   "fr": "[[Lundi]], je vais chez le dentiste.",
-                  "note": "One particular Monday has no article. *Le lundi* = every Monday."
+                  "note": "Jedno konkrétní pondělí nemá člen. *Le lundi* = každé pondělí."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Mon anniversaire, c'est le 12 avril.",
-                  "en": "My birthday is on 12 April."
+                  "cs": "Narozeniny mám 12. dubna."
                 },
                 {
                   "fr": "Aujourd'hui, nous sommes mardi.",
-                  "en": "Today is Tuesday."
+                  "cs": "Dnes je úterý."
                 },
                 {
                   "fr": "Les vacances commencent en juillet.",
-                  "en": "The holidays start in July."
+                  "cs": "Prázdniny začínají v červenci."
                 },
                 {
                   "fr": "Je fais du ski en hiver.",
-                  "en": "I ski in winter."
+                  "cs": "V zimě lyžuju."
                 }
               ]
             }
@@ -1485,7 +1485,7 @@
         {
           "id": "g-dates-01",
           "type": "build",
-          "en": "1 May",
+          "cs": "1. května",
           "a": [
             "le premier mai",
             "le 1er mai"
@@ -1494,7 +1494,7 @@
         {
           "id": "g-dates-02",
           "type": "build",
-          "en": "My birthday is on 3 June.",
+          "cs": "Narozeniny mám 3. června.",
           "a": [
             "Mon anniversaire, c'est le {3|trois} juin.",
             "Mon anniversaire est le {3|trois} juin."
@@ -1507,7 +1507,7 @@
           "a": [
             "en"
           ],
-          "en": "My birthday is in March."
+          "cs": "Narozeniny mám v březnu."
         },
         {
           "id": "g-dates-04",
@@ -1516,12 +1516,12 @@
           "a": [
             "au"
           ],
-          "en": "I cycle in spring."
+          "cs": "Na jaře jezdím na kole."
         },
         {
           "id": "g-dates-05",
           "type": "build",
-          "en": "What's the date today?",
+          "cs": "Kolikátého je dnes?",
           "a": [
             "On est le combien aujourd'hui ?",
             "Quelle est la date aujourd'hui ?",

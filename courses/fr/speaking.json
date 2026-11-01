@@ -2,25 +2,25 @@
   "schema": 1,
   "lang": "fr",
   "kinds": {
-    "roleplay": "Role play",
-    "interview": "Interview",
-    "opinion": "Opinion",
-    "story": "Story",
-    "describe": "Describe",
-    "game": "Game"
+    "roleplay": "Hraní rolí",
+    "interview": "Rozhovor",
+    "opinion": "Názor",
+    "story": "Příběh",
+    "describe": "Popis",
+    "game": "Hra"
   },
   "topics": [
     {
       "id": "meet-classmate",
-      "title": "Meet a new classmate",
+      "title": "Seznam se s novým spolužákem",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You meet a new student your age on the first day of school.",
+      "task": "První školní den potkáš nového žáka ve svém věku.",
       "must": [
-        "Greet and say your name",
-        "Ask their name",
-        "Ask how they are",
-        "Say goodbye"
+        "Pozdrav a řekni své jméno",
+        "Zeptej se, jak se jmenuje",
+        "Zeptej se, jak se má",
+        "Rozluč se"
       ],
       "phrases": [
         "Salut !",
@@ -38,15 +38,15 @@
     },
     {
       "id": "teacher-corridor",
-      "title": "Greet your teacher",
+      "title": "Pozdrav učitele",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You meet your French teacher in the corridor and must be polite.",
+      "task": "Na chodbě potkáš svého učitele francouzštiny a musíš být zdvořilý(á).",
       "must": [
-        "Use vous",
-        "Greet and ask how they are",
-        "Answer their question",
-        "Say thank you and goodbye"
+        "Vykej (vous)",
+        "Pozdrav a zeptej se, jak se má",
+        "Odpověz na jeho otázku",
+        "Poděkuj a rozluč se"
       ],
       "phrases": [
         "Bonjour, madame",
@@ -63,15 +63,15 @@
     },
     {
       "id": "introduce-yourself",
-      "title": "Introduce yourself",
+      "title": "Představ se",
       "level": "A1",
       "kind": "interview",
-      "task": "A coordinator of an international school camp asks you to introduce yourself.",
+      "task": "Vedoucí mezinárodního školního tábora tě požádá, aby ses představil(a).",
       "must": [
-        "Say your name and age",
-        "Say where you live",
-        "Say where you are from",
-        "Say one thing you like"
+        "Řekni své jméno a věk",
+        "Řekni, kde bydlíš",
+        "Řekni, odkud jsi",
+        "Řekni jednu věc, kterou máš rád(a)"
       ],
       "phrases": [
         "Je m'appelle ...",
@@ -89,14 +89,14 @@
     },
     {
       "id": "where-from",
-      "title": "Where are you from?",
+      "title": "Odkud jsi?",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You chat with a student from Québec at a language camp and compare your countries.",
+      "task": "Na jazykovém táboře si povídáš se studentem z Québecu a porovnáváte své země.",
       "must": [
-        "Say your country and nationality",
-        "Ask about theirs",
-        "Say what city you live in"
+        "Řekni svou zemi a národnost",
+        "Zeptej se na jeho",
+        "Řekni, ve kterém městě bydlíš"
       ],
       "phrases": [
         "Tu viens d'où ?",
@@ -113,14 +113,14 @@
     },
     {
       "id": "numbers-game",
-      "title": "Numbers game",
+      "title": "Hra s čísly",
       "level": "A1",
       "kind": "game",
-      "task": "The partner says numbers, ages and phone numbers and you repeat or answer them.",
+      "task": "Partner říká čísla, věk a telefonní čísla a ty je opakuješ nebo na ně odpovídáš.",
       "must": [
-        "Understand numbers up to 100",
-        "Say numbers out loud",
-        "Give your age and a phone number"
+        "Rozuměj číslům do 100",
+        "Říkej čísla nahlas",
+        "Řekni svůj věk a telefonní číslo"
       ],
       "phrases": [
         "Quel âge as-tu ?",
@@ -137,14 +137,14 @@
     },
     {
       "id": "my-family-talk",
-      "title": "Tell me about your family",
+      "title": "Pověz mi o své rodině",
       "level": "A1",
       "kind": "interview",
-      "task": "Your host family wants to know who is in your family.",
+      "task": "Hostitelská rodina chce vědět, kdo patří do tvé rodiny.",
       "must": [
-        "Say who is in your family",
-        "Give names and ages",
-        "Say if you have brothers or sisters"
+        "Řekni, kdo patří do tvé rodiny",
+        "Uveď jména a věk",
+        "Řekni, jestli máš sourozence"
       ],
       "phrases": [
         "Dans ma famille, il y a ...",
@@ -161,14 +161,14 @@
     },
     {
       "id": "pets-talk",
-      "title": "Pets",
+      "title": "Mazlíčci",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You talk to a classmate who loves animals.",
+      "task": "Povídáš si se spolužákem, který miluje zvířata.",
       "must": [
-        "Say if you have a pet",
-        "Describe it (name, colour, size)",
-        "Say what it does"
+        "Řekni, jestli máš mazlíčka",
+        "Popiš ho (jméno, barva, velikost)",
+        "Řekni, co dělá"
       ],
       "phrases": [
         "J'ai un chien",
@@ -185,14 +185,14 @@
     },
     {
       "id": "describe-a-friend",
-      "title": "Describe a friend",
+      "title": "Popiš kamaráda",
       "level": "A1",
       "kind": "describe",
-      "task": "You describe your best friend to someone who has never met them.",
+      "task": "Popisuješ svého nejlepšího kamaráda někomu, kdo ho nikdy neviděl.",
       "must": [
-        "Describe their looks",
-        "Describe their character",
-        "Say what you do together"
+        "Popiš, jak vypadá",
+        "Popiš jeho povahu",
+        "Řekni, co děláte spolu"
       ],
       "phrases": [
         "Il a les cheveux ...",
@@ -210,14 +210,14 @@
     },
     {
       "id": "guess-who",
-      "title": "Guess who",
+      "title": "Hádej, kdo to je",
       "level": "A1",
       "kind": "game",
-      "task": "You describe a famous person without naming them and the partner guesses. Then you swap.",
+      "task": "Popisuješ slavnou osobnost, aniž bys řekl(a) její jméno, a partner hádá. Pak se vyměníte.",
       "must": [
-        "Describe appearance",
-        "Describe character or job",
-        "Understand the partner's clues"
+        "Popiš vzhled",
+        "Popiš povahu nebo povolání",
+        "Rozuměj partnerovým nápovědám"
       ],
       "phrases": [
         "Il / Elle est ...",
@@ -234,14 +234,14 @@
     },
     {
       "id": "hobbies-talk",
-      "title": "Your hobbies",
+      "title": "Tvoje koníčky",
       "level": "A1",
       "kind": "interview",
-      "task": "A new pen pal asks about your free time.",
+      "task": "Nový kamarád na dopisování se ptá na tvůj volný čas.",
       "must": [
-        "Name at least three hobbies",
-        "Say what you like and dislike",
-        "Ask the partner a question back"
+        "Jmenuj aspoň tři koníčky",
+        "Řekni, co máš a nemáš rád(a)",
+        "Polož partnerovi otázku zpátky"
       ],
       "phrases": [
         "J'aime ...",
@@ -258,14 +258,14 @@
     },
     {
       "id": "my-sport-interview",
-      "title": "Your sport",
+      "title": "Tvůj sport",
       "level": "A1",
       "kind": "interview",
-      "task": "A French school magazine journalist interviews you about your sport.",
+      "task": "Novinář francouzského školního časopisu s tebou dělá rozhovor o tvém sportu.",
       "must": [
-        "Say which sport and club",
-        "Say how often you train",
-        "Say what you like about it"
+        "Řekni, jaký sport a klub",
+        "Řekni, jak často trénuješ",
+        "Řekni, co se ti na něm líbí"
       ],
       "phrases": [
         "Je joue au basket",
@@ -282,14 +282,14 @@
     },
     {
       "id": "music-talk",
-      "title": "Music",
+      "title": "Hudba",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You talk about music with a French student who plays an instrument.",
+      "task": "Povídáš si o hudbě s francouzským studentem, který hraje na nástroj.",
       "must": [
-        "Say what music you listen to",
-        "Say which instrument you play",
-        "Ask what they play"
+        "Řekni, jakou hudbu posloucháš",
+        "Řekni, na jaký nástroj hraješ",
+        "Zeptej se, na co hraje on"
       ],
       "phrases": [
         "J'écoute ...",
@@ -306,14 +306,14 @@
     },
     {
       "id": "twenty-questions",
-      "title": "Twenty questions",
+      "title": "Dvacet otázek",
       "level": "A1",
       "kind": "game",
-      "task": "You ask yes or no questions to find out which animal or object the partner thinks of.",
+      "task": "Kladeš otázky, na které se odpovídá ano nebo ne, a zjišťuješ, na jaké zvíře nebo věc partner myslí.",
       "must": [
-        "Ask at least six questions",
-        "Use different question forms",
-        "Make a final guess"
+        "Polož aspoň šest otázek",
+        "Používej různé typy otázek",
+        "Nakonec hádej"
       ],
       "phrases": [
         "Est-ce que c'est ... ?",
@@ -330,14 +330,14 @@
     },
     {
       "id": "school-exchange",
-      "title": "Your school",
+      "title": "Tvoje škola",
       "level": "A1",
       "kind": "interview",
-      "task": "A French exchange student asks about your school.",
+      "task": "Francouzský student z výměnného pobytu se ptá na tvou školu.",
       "must": [
-        "Describe your school",
-        "Talk about your subjects",
-        "Give an opinion about a subject"
+        "Popiš svou školu",
+        "Mluv o svých předmětech",
+        "Řekni názor na jeden předmět"
       ],
       "phrases": [
         "Au collège, il y a ...",
@@ -354,14 +354,14 @@
     },
     {
       "id": "timetable-compare",
-      "title": "Compare timetables",
+      "title": "Porovnání rozvrhů",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You and a French friend compare your school days.",
+      "task": "Ty a francouzský kamarád porovnáváte své školní dny.",
       "must": [
-        "Say what time school starts and ends",
-        "Name subjects on one day",
-        "Say your favourite day"
+        "Řekni, kdy začíná a končí vyučování",
+        "Jmenuj předměty v jednom dni",
+        "Řekni svůj oblíbený den"
       ],
       "phrases": [
         "À huit heures, j'ai ...",
@@ -378,14 +378,14 @@
     },
     {
       "id": "daily-routine-talk",
-      "title": "Your daily routine",
+      "title": "Tvůj denní režim",
       "level": "A1",
       "kind": "interview",
-      "task": "A French friend is doing a project on the days of teenagers.",
+      "task": "Francouzský kamarád dělá projekt o dnech teenagerů.",
       "must": [
-        "Say when you get up and go to bed",
-        "Use reflexive verbs",
-        "Use d'abord, ensuite, enfin"
+        "Řekni, kdy vstáváš a chodíš spát",
+        "Používej zvratná slovesa",
+        "Použij d'abord, ensuite, enfin"
       ],
       "phrases": [
         "Je me lève à ...",
@@ -402,14 +402,14 @@
     },
     {
       "id": "order-restaurant",
-      "title": "At the restaurant",
+      "title": "V restauraci",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You order a meal in a French restaurant.",
+      "task": "Objednáváš si jídlo ve francouzské restauraci.",
       "must": [
-        "Order a drink and a main course",
-        "Ask a question about the menu",
-        "Ask for the bill"
+        "Objednej si pití a hlavní chod",
+        "Zeptej se na něco z jídelního lístku",
+        "Požádej o účet"
       ],
       "phrases": [
         "Je voudrais ...",
@@ -427,14 +427,14 @@
     },
     {
       "id": "food-host",
-      "title": "Food with your host family",
+      "title": "Jídlo v hostitelské rodině",
       "level": "A1",
       "kind": "interview",
-      "task": "Your host parent plans meals for your stay and asks about your tastes.",
+      "task": "Hostitelský rodič plánuje jídla na tvůj pobyt a ptá se, co ti chutná.",
       "must": [
-        "Say what you like and cannot eat",
-        "Say what you eat for breakfast",
-        "Say your favourite meal"
+        "Řekni, co máš rád(a) a co nemůžeš jíst",
+        "Řekni, co jíš k snídani",
+        "Řekni své oblíbené jídlo"
       ],
       "phrases": [
         "Je mange du pain",
@@ -451,14 +451,14 @@
     },
     {
       "id": "bakery-talk",
-      "title": "At the bakery",
+      "title": "V pekárně",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You buy bread and pastries.",
+      "task": "Kupuješ chleba a pečivo.",
       "must": [
-        "Ask for at least three items",
-        "Ask the price",
-        "Say thank you"
+        "Požádej aspoň o tři věci",
+        "Zeptej se na cenu",
+        "Poděkuj"
       ],
       "phrases": [
         "Je voudrais ...",
@@ -476,14 +476,14 @@
     },
     {
       "id": "market-talk",
-      "title": "At the market",
+      "title": "Na trhu",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You buy fruit and vegetables for a family dinner.",
+      "task": "Kupuješ ovoce a zeleninu na rodinnou večeři.",
       "must": [
-        "Ask for quantities (un kilo de ...)",
-        "Ask the price",
-        "Pay and say goodbye"
+        "Požádej o množství (un kilo de ...)",
+        "Zeptej se na cenu",
+        "Zaplať a rozluč se"
       ],
       "phrases": [
         "Un kilo de ...",
@@ -500,14 +500,14 @@
     },
     {
       "id": "home-talk",
-      "title": "Your home",
+      "title": "Tvůj domov",
       "level": "A1",
       "kind": "interview",
-      "task": "A French friend will visit you and wants to know about your home.",
+      "task": "Francouzský kamarád k tobě přijede na návštěvu a chce vědět, jak bydlíš.",
       "must": [
-        "Say where you live",
-        "Name rooms",
-        "Say where things are"
+        "Řekni, kde bydlíš",
+        "Jmenuj místnosti",
+        "Řekni, kde co je"
       ],
       "phrases": [
         "J'habite dans ...",
@@ -524,14 +524,14 @@
     },
     {
       "id": "room-tour",
-      "title": "Show your room",
+      "title": "Ukaž svůj pokoj",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You show your room to a friend on a video call.",
+      "task": "Ukazuješ kamarádovi svůj pokoj při videohovoru.",
       "must": [
-        "Name at least five things",
-        "Say where each one is",
-        "Say what you do in your room"
+        "Jmenuj aspoň pět věcí",
+        "Řekni, kde každá z nich je",
+        "Řekni, co ve svém pokoji děláš"
       ],
       "phrases": [
         "Voici mon lit",
@@ -549,14 +549,14 @@
     },
     {
       "id": "give-directions",
-      "title": "Give directions",
+      "title": "Popiš cestu",
       "level": "A1",
       "kind": "roleplay",
-      "task": "A tourist is lost in your town and asks the way.",
+      "task": "Turista se ve tvém městě ztratil a ptá se na cestu.",
       "must": [
-        "Understand the question",
-        "Give directions with the imperative",
-        "Name landmarks"
+        "Rozuměj otázce",
+        "Popiš cestu rozkazovacím způsobem",
+        "Jmenuj orientační body"
       ],
       "phrases": [
         "Tournez à gauche",
@@ -574,14 +574,14 @@
     },
     {
       "id": "plan-saturday",
-      "title": "Plan Saturday",
+      "title": "Naplánuj sobotu",
       "level": "A1",
       "kind": "roleplay",
-      "task": "A friend invites you out and you plan the day together.",
+      "task": "Kamarád tě zve ven a společně plánujete den.",
       "must": [
-        "Use aller + infinitive",
-        "Suggest a time and place",
-        "Agree on a plan"
+        "Použij aller + infinitiv",
+        "Navrhni čas a místo",
+        "Dohodněte se na plánu"
       ],
       "phrases": [
         "On va ... ?",
@@ -598,14 +598,14 @@
     },
     {
       "id": "weather-plan",
-      "title": "Weather and plans",
+      "title": "Počasí a plány",
       "level": "A1",
       "kind": "roleplay",
-      "task": "You decide with a friend what to do depending on the weather.",
+      "task": "S kamarádem se rozhodujete, co podniknete podle počasí.",
       "must": [
-        "Talk about the weather",
-        "Make a plan A and a plan B",
-        "Agree on one"
+        "Mluv o počasí",
+        "Udělej plán A a plán B",
+        "Dohodněte se na jednom"
       ],
       "phrases": [
         "Il fait beau",
@@ -622,14 +622,14 @@
     },
     {
       "id": "birthday-plan",
-      "title": "Your birthday",
+      "title": "Tvoje narozeniny",
       "level": "A1",
       "kind": "interview",
-      "task": "A friend helps plan your birthday.",
+      "task": "Kamarád ti pomáhá naplánovat narozeniny.",
       "must": [
-        "Say the date",
-        "Say who you want to invite",
-        "Say what you want to do"
+        "Řekni datum",
+        "Řekni, koho chceš pozvat",
+        "Řekni, co chceš dělat"
       ],
       "phrases": [
         "Mon anniversaire est le ...",
@@ -646,14 +646,14 @@
     },
     {
       "id": "clothes-shop-talk",
-      "title": "In the clothes shop",
+      "title": "V obchodě s oblečením",
       "level": "A2",
       "kind": "roleplay",
-      "task": "You look for clothes in a shop.",
+      "task": "Hledáš oblečení v obchodě.",
       "must": [
-        "Say what you are looking for",
-        "Say size and colour",
-        "Decide to buy or not"
+        "Řekni, co hledáš",
+        "Řekni velikost a barvu",
+        "Rozhodni se, jestli to koupíš"
       ],
       "phrases": [
         "Je cherche ...",
@@ -671,14 +671,14 @@
     },
     {
       "id": "fashion-talk",
-      "title": "Fashion opinions",
+      "title": "Názory na módu",
       "level": "A2",
       "kind": "opinion",
-      "task": "A friend who loves fashion asks your opinion about clothes and brands.",
+      "task": "Kamarád, který miluje módu, se ptá na tvůj názor na oblečení a značky.",
       "must": [
-        "Say what you wear",
-        "Compare two things",
-        "Give reasons"
+        "Řekni, co nosíš",
+        "Porovnej dvě věci",
+        "Uveď důvody"
       ],
       "phrases": [
         "Je préfère ...",
@@ -695,14 +695,14 @@
     },
     {
       "id": "last-weekend-talk",
-      "title": "Last weekend",
+      "title": "Minulý víkend",
       "level": "A2",
       "kind": "interview",
-      "task": "A friend asks what you did last weekend.",
+      "task": "Kamarád se ptá, co jsi dělal(a) minulý víkend.",
       "must": [
-        "Use the passé composé",
-        "Tell at least four things in order",
-        "Say how you felt"
+        "Použij passé composé",
+        "Řekni aspoň čtyři věci popořadě",
+        "Řekni, jak ses cítil(a)"
       ],
       "phrases": [
         "Samedi, j'ai ...",
@@ -719,14 +719,14 @@
     },
     {
       "id": "match-story-talk",
-      "title": "A match you played",
+      "title": "Zápas, který jsi hrál(a)",
       "level": "A2",
       "kind": "story",
-      "task": "You tell a friend about a match you played.",
+      "task": "Vyprávíš kamarádovi o zápase, který jsi hrál(a).",
       "must": [
-        "Say who you played and where",
-        "Tell what happened",
-        "Say the result and how you felt"
+        "Řekni, s kým a kde jste hráli",
+        "Vyprávěj, co se stalo",
+        "Řekni výsledek a jak ses cítil(a)"
       ],
       "phrases": [
         "Nous avons gagné",
@@ -743,14 +743,14 @@
     },
     {
       "id": "childhood-grandparent",
-      "title": "When you were little",
+      "title": "Když jsi byl(a) malý(á)",
       "level": "A2",
       "kind": "interview",
-      "task": "A French grandparent asks what your childhood was like.",
+      "task": "Francouzská babička nebo děda se ptá, jaké bylo tvoje dětství.",
       "must": [
-        "Use the imparfait",
-        "Describe where you lived",
-        "Tell about a habit"
+        "Použij imparfait",
+        "Popiš, kde jsi bydlel(a)",
+        "Vyprávěj o jednom zvyku"
       ],
       "phrases": [
         "Quand j'étais petit(e), ...",
@@ -767,14 +767,14 @@
     },
     {
       "id": "holiday-story-talk",
-      "title": "Your best holiday",
+      "title": "Tvoje nejlepší dovolená",
       "level": "A2",
       "kind": "story",
-      "task": "You tell about the best holiday you have had.",
+      "task": "Vyprávíš o nejlepší dovolené, jakou jsi zažil(a).",
       "must": [
-        "Say where and when",
-        "Describe it with the imparfait",
-        "Tell what happened with the passé composé"
+        "Řekni kde a kdy",
+        "Popiš ji v imparfait",
+        "Vyprávěj, co se stalo, v passé composé"
       ],
       "phrases": [
         "C'était en ...",
@@ -791,14 +791,14 @@
     },
     {
       "id": "hotel-checkin",
-      "title": "At the hotel",
+      "title": "V hotelu",
       "level": "A2",
       "kind": "roleplay",
-      "task": "You check in at a hotel.",
+      "task": "Ubytováváš se v hotelu.",
       "must": [
-        "Say you have a booking",
-        "Ask about breakfast and wifi",
-        "Ask for the room key"
+        "Řekni, že máš rezervaci",
+        "Zeptej se na snídani a wifi",
+        "Požádej o klíč od pokoje"
       ],
       "phrases": [
         "J'ai réservé ...",
@@ -816,14 +816,14 @@
     },
     {
       "id": "trip-planning",
-      "title": "Plan a trip",
+      "title": "Naplánuj výlet",
       "level": "A2",
       "kind": "roleplay",
-      "task": "You plan a trip with a travel agent.",
+      "task": "Plánuješ výlet s cestovní kanceláří.",
       "must": [
-        "Say where you want to go",
-        "Say when and for how long",
-        "Ask about transport"
+        "Řekni, kam chceš jet",
+        "Řekni kdy a na jak dlouho",
+        "Zeptej se na dopravu"
       ],
       "phrases": [
         "Je voudrais aller en ...",
@@ -841,14 +841,14 @@
     },
     {
       "id": "at-the-doctor-talk",
-      "title": "At the doctor",
+      "title": "U lékaře",
       "level": "A2",
       "kind": "roleplay",
-      "task": "You are ill and talk to a doctor.",
+      "task": "Jsi nemocný(á) a mluvíš s lékařem.",
       "must": [
-        "Describe two symptoms",
-        "Say how long you have felt ill",
-        "Understand the advice"
+        "Popiš dva příznaky",
+        "Řekni, jak dlouho se cítíš špatně",
+        "Rozuměj radě"
       ],
       "phrases": [
         "J'ai mal à ...",
@@ -865,14 +865,14 @@
     },
     {
       "id": "pharmacy-talk",
-      "title": "At the pharmacy",
+      "title": "V lékárně",
       "level": "A2",
       "kind": "roleplay",
-      "task": "You buy medicine at the pharmacy.",
+      "task": "Kupuješ v lékárně léky.",
       "must": [
-        "Say what is wrong",
-        "Ask what you should take",
-        "Ask how often"
+        "Řekni, co ti je",
+        "Zeptej se, co si máš vzít",
+        "Zeptej se, jak často"
       ],
       "phrases": [
         "Je cherche quelque chose pour ...",
@@ -888,14 +888,14 @@
     },
     {
       "id": "healthy-habits-talk",
-      "title": "Healthy habits",
+      "title": "Zdravé návyky",
       "level": "A2",
       "kind": "opinion",
-      "task": "The school nurse asks about your habits.",
+      "task": "Školní zdravotnice se ptá na tvoje zvyky.",
       "must": [
-        "Say what you eat and drink",
-        "Say how much you sleep and move",
-        "Say one thing to change"
+        "Řekni, co jíš a piješ",
+        "Řekni, kolik spíš a kolik se hýbeš",
+        "Řekni jednu věc, kterou změníš"
       ],
       "phrases": [
         "Il faut ...",
@@ -912,14 +912,14 @@
     },
     {
       "id": "games-talk",
-      "title": "Your favourite game",
+      "title": "Tvoje oblíbená hra",
       "level": "A2",
       "kind": "interview",
-      "task": "A French friend asks about the game you love (for example Minecraft).",
+      "task": "Francouzský kamarád se ptá na hru, kterou miluješ (třeba Minecraft).",
       "must": [
-        "Name the game and explain it",
-        "Say who you play with",
-        "Say what you like and dislike"
+        "Řekni název hry a vysvětli ji",
+        "Řekni, s kým hraješ",
+        "Řekni, co máš a nemáš rád(a)"
       ],
       "phrases": [
         "Dans ce jeu, il faut ...",
@@ -936,14 +936,14 @@
     },
     {
       "id": "screens-debate",
-      "title": "Screens: good or bad?",
+      "title": "Obrazovky: dobré, nebo špatné?",
       "level": "A2",
       "kind": "opinion",
-      "task": "A friend thinks screens are bad. You discuss.",
+      "task": "Kamarád si myslí, že obrazovky škodí. Diskutujete.",
       "must": [
-        "Give your opinion",
-        "Give two arguments",
-        "React to the partner's argument"
+        "Řekni svůj názor",
+        "Uveď dva argumenty",
+        "Reaguj na partnerův argument"
       ],
       "phrases": [
         "Je pense que ...",
@@ -960,14 +960,14 @@
     },
     {
       "id": "celebrations-talk",
-      "title": "Celebrations",
+      "title": "Svátky a oslavy",
       "level": "A2",
       "kind": "interview",
-      "task": "A French friend wants to know how people celebrate in Czechia.",
+      "task": "Francouzský kamarád chce vědět, jak se slaví v Česku.",
       "must": [
-        "Name a celebration",
-        "Say what people do and eat",
-        "Say what you like about it"
+        "Jmenuj jeden svátek",
+        "Řekni, co lidé dělají a jedí",
+        "Řekni, co se ti na něm líbí"
       ],
       "phrases": [
         "En République tchèque, on ...",
@@ -984,14 +984,14 @@
     },
     {
       "id": "party-plan-talk",
-      "title": "Plan a party",
+      "title": "Naplánuj oslavu",
       "level": "A2",
       "kind": "roleplay",
-      "task": "You and a friend plan a party together.",
+      "task": "S kamarádem spolu plánujete oslavu.",
       "must": [
-        "Say date, time and place",
-        "Share the tasks",
-        "Decide food and music"
+        "Řekni datum, čas a místo",
+        "Rozdělte si úkoly",
+        "Rozhodněte o jídle a hudbě"
       ],
       "phrases": [
         "On pourrait ...",
@@ -1009,14 +1009,14 @@
     },
     {
       "id": "future-job-talk",
-      "title": "Your future job",
+      "title": "Tvoje budoucí povolání",
       "level": "A2",
       "kind": "interview",
-      "task": "A careers adviser asks what you want to do later.",
+      "task": "Kariérní poradce se ptá, co chceš později dělat.",
       "must": [
-        "Name a job",
-        "Say why you like it",
-        "Say what you need to study"
+        "Jmenuj povolání",
+        "Řekni, proč se ti líbí",
+        "Řekni, co musíš vystudovat"
       ],
       "phrases": [
         "Plus tard, je voudrais être ...",
@@ -1033,14 +1033,14 @@
     },
     {
       "id": "dreams-talk",
-      "title": "If you could",
+      "title": "Kdybys mohl(a)",
       "level": "A2",
       "kind": "interview",
-      "task": "A friend asks what you would like to do in life.",
+      "task": "Kamarád se ptá, co bys chtěl(a) v životě dělat.",
       "must": [
-        "Use the conditionnel",
-        "Name three wishes",
-        "Say one place you would visit"
+        "Použij conditionnel",
+        "Jmenuj tři přání",
+        "Řekni jedno místo, které bys navštívil(a)"
       ],
       "phrases": [
         "Je voudrais ...",
@@ -1057,14 +1057,14 @@
     },
     {
       "id": "school-start-debate",
-      "title": "Should school start later?",
+      "title": "Měla by škola začínat později?",
       "level": "B1",
       "kind": "opinion",
-      "task": "You debate whether school should start at 9 o'clock.",
+      "task": "Debatujete, jestli by škola měla začínat v 9 hodin.",
       "must": [
-        "Take a clear position",
-        "Give two arguments with examples",
-        "Answer a counter-argument"
+        "Zaujmi jasný postoj",
+        "Uveď dva argumenty s příklady",
+        "Odpověz na protiargument"
       ],
       "phrases": [
         "À mon avis, ...",
@@ -1081,14 +1081,14 @@
     },
     {
       "id": "sport-compulsory-debate",
-      "title": "Compulsory competitive sport",
+      "title": "Povinný závodní sport",
       "level": "B1",
       "kind": "opinion",
-      "task": "You debate whether competitive sport should be compulsory at school.",
+      "task": "Debatujete, jestli by ve škole měl být závodní sport povinný.",
       "must": [
-        "Take a position",
-        "Use the subjonctif at least once",
-        "React to a counter-argument"
+        "Zaujmi postoj",
+        "Aspoň jednou použij subjonctif",
+        "Reaguj na protiargument"
       ],
       "phrases": [
         "Il faut que ...",
@@ -1104,14 +1104,14 @@
     },
     {
       "id": "summer-job-interview",
-      "title": "Summer job interview",
+      "title": "Pohovor na letní brigádu",
       "level": "B1",
       "kind": "roleplay",
-      "task": "You are interviewed for a summer job and must use vous.",
+      "task": "Máš pohovor na letní brigádu a musíš vykat (vous).",
       "must": [
-        "Introduce yourself",
-        "Explain why you want the job",
-        "Talk about your skills and availability"
+        "Představ se",
+        "Vysvětli, proč tu práci chceš",
+        "Mluv o svých dovednostech a o tom, kdy máš čas"
       ],
       "phrases": [
         "Je me permets de ...",
@@ -1128,14 +1128,14 @@
     },
     {
       "id": "childhood-memory-talk",
-      "title": "A childhood memory",
+      "title": "Vzpomínka z dětství",
       "level": "B1",
       "kind": "story",
-      "task": "You tell a detailed memory from your childhood.",
+      "task": "Vyprávíš podrobně jednu vzpomínku z dětství.",
       "must": [
-        "Set the scene with the imparfait",
-        "Tell events with the passé composé",
-        "Use the plus-que-parfait at least once"
+        "Popiš okolnosti v imparfait",
+        "Vyprávěj události v passé composé",
+        "Aspoň jednou použij plus-que-parfait"
       ],
       "phrases": [
         "Ce jour-là, ...",
@@ -1151,14 +1151,14 @@
     },
     {
       "id": "if-i-were-rich-talk",
-      "title": "If you were rich",
+      "title": "Kdybys byl(a) bohatý(á)",
       "level": "B1",
       "kind": "interview",
-      "task": "A friend asks what you would do with a lot of money.",
+      "task": "Kamarád se ptá, co bys dělal(a) s hodně penězi.",
       "must": [
-        "Use si + imparfait + conditionnel",
-        "Give at least three ideas",
-        "Say one idea for helping others"
+        "Použij si + imparfait + conditionnel",
+        "Uveď aspoň tři nápady",
+        "Řekni jeden nápad, jak pomoct ostatním"
       ],
       "phrases": [
         "Si j'avais ..., je ...",
@@ -1174,14 +1174,14 @@
     },
     {
       "id": "film-recommendation",
-      "title": "Recommend a film or series",
+      "title": "Doporuč film nebo seriál",
       "level": "B1",
       "kind": "opinion",
-      "task": "You recommend a film or series to a friend and explain why.",
+      "task": "Doporučuješ kamarádovi film nebo seriál a vysvětluješ proč.",
       "must": [
-        "Say the title and genre",
-        "Tell the story without spoilers",
-        "Give your opinion"
+        "Řekni název a žánr",
+        "Vyprávěj děj bez prozrazení",
+        "Řekni svůj názor"
       ],
       "phrases": [
         "Ça raconte l'histoire de ...",
@@ -1197,14 +1197,14 @@
     },
     {
       "id": "product-complaint",
-      "title": "Complain about a product",
+      "title": "Reklamace výrobku",
       "level": "B1",
       "kind": "roleplay",
-      "task": "You return a faulty product to a shop and explain the problem.",
+      "task": "Vracíš do obchodu vadný výrobek a vysvětluješ, co je s ním špatně.",
       "must": [
-        "Explain what is wrong",
-        "Say when you bought it",
-        "Ask for a refund or exchange"
+        "Vysvětli, co je špatně",
+        "Řekni, kdy jsi ho koupil(a)",
+        "Požádej o vrácení peněz nebo výměnu"
       ],
       "phrases": [
         "J'ai acheté ... hier",

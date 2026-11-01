@@ -1,0 +1,58 @@
+{
+  "lang": "de",
+  "from": "en",
+  "type": "topics",
+  "title": "Food & drink",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {
+      "q": "bread",
+      "a": "das Brot"
+    },
+    {
+      "q": "water",
+      "a": "das Wasser"
+    },
+    {
+      "q": "milk",
+      "a": "die Milch"
+    },
+    {
+      "q": "coffee",
+      "a": "der Kaffee"
+    },
+    {
+      "q": "tea",
+      "a": "der Tee"
+    },
+    {
+      "q": "apple",
+      "a": "der Apfel"
+    },
+    {
+      "q": "cheese",
+      "a": "der Käse"
+    },
+    {
+      "q": "meat",
+      "a": "das Fleisch"
+    },
+    {
+      "q": "egg",
+      "a": "das Ei"
+    },
+    {
+      "q": "soup",
+      "a": "die Suppe"
+    },
+    {
+      "q": "beer",
+      "a": "das Bier"
+    },
+    {
+      "q": "fish",
+      "a": "der Fisch"
+    }
+  ]
+}

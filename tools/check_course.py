@@ -1,6 +1,7 @@
 """Checks every course file before it reaches the app.
 
-    python3 tools/check_course.py              # structure only, offline
+    python3 tools/check_course.py              # structure only, offline, both learner languages
+    python3 tools/check_course.py --en         # only the English edition (--cs: only the Czech one)
     python3 tools/check_course.py --proofread  # also sends every French sentence to LanguageTool
     python3 tools/check_course.py --proofread --grammar  # proofreads only the grammar articles
     python3 tools/check_course.py --proofread --drills   # proofreads only the drills and the translation bank
@@ -9,7 +10,7 @@ Structure: unique ids, known types, one gap per cloze, word refs that exist,
 verbs and tenses that exist in conjugations/fr.json, and gap answers that match
 a real form of the hinted verb. Grammar articles (words.json "grammar") also need
 an "In short" section first, 4+ examples, 3+ checks, and links that resolve. Proofreading catches grammar and spelling, not a
-wrong translation, so the Czech side still needs a human look.
+wrong translation, so the Czech and English sides still need a human look.
 """
 import json
 import re
@@ -25,16 +26,21 @@ GAP = "___"
 ITEM_FIELDS = {
     "word": ["ref"],
     "cloze": ["fr", "a"],
-    "build": ["cs", "a"],
-    "transform": ["task_cs", "fr", "a"],
-    "order": ["cs", "a"],
+    "build": ["text", "a"],
+    "transform": ["task", "fr", "a"],
+    "order": ["text", "a"],
     "form": ["verb", "tense"],
 }
 BLOCKS = {"text", "table", "examples", "tip", "vocab", "check", "pattern", "compare", "tree", "see"}
 SLOTS = {"S", "V", "aux", "part", "inf", "neg", "pron", "obj", "noun", "art", "adj", "adv", "time", "place", "prep", "q", "conj", "x"}
 LEVELS = ["A1", "A2", "B1"]
-# Grammar writes explanations in English: "en" and "task_en" stand in for "cs" and "task_cs".
-ALT = {"cs": "en", "task_cs": "task_en"}
+# "text" and "task" are the prompt in the learner's language. Czech grammar articles are written in English,
+# so each manifest lists the field names it accepts.
+BASES = {
+    "cs": {"manifest": "words.json", "name": "Czech", "text": ("cs", "en"), "task": ("task_cs", "task_en")},
+    "en": {"manifest": "en/words.json", "name": "English", "text": ("en",), "task": ("task_en",)},
+}
+FIELDS = BASES["cs"]
 REFLEXIVE = re.compile(r"^(?:m'|t'|s'|me |te |se |nous |vous )")
 LANGUAGETOOL = "https://api.languagetool.org/v2/check"
 # The free API allows about 20 requests a minute.
@@ -61,7 +67,7 @@ def load_words(index):
     ids = set()
     for path in index["decks"]:
         deck = json.loads((ROOT / path).read_text(encoding="utf-8"))
-        deck_id = re.sub(r"^words/|\.json$", "", path)
+        deck_id = re.sub(r"^(?:[a-z]{2}/(?=words/))?words/|\.json$", "", path)
         ids.update(f"{deck_id}#{normalize(w['q'])}" for w in deck["words"])
     return ids
 
@@ -102,7 +108,7 @@ class Checker:
                 self.error(where, f"duplicate id {item['id']}")
             self.ids.add(item.get("id"))
         for field in ITEM_FIELDS[kind]:
-            if field not in item and ALT.get(field) not in item:
+            if not any(f in item for f in FIELDS.get(field, (field,))):
                 self.error(where, f"{kind} needs {field!r}")
         if kind == "form":
             data = self.conj["verbs"].get(item.get("verb"))
@@ -255,7 +261,7 @@ class GrammarChecker:
         if a.get("level") not in LEVELS or (a.get("levelTo") and (a["levelTo"] not in LEVELS or LEVELS.index(a["levelTo"]) <= LEVELS.index(a.get("level", "A1")))):
             c.error(where, f"bad level {a.get('level')!r} / {a.get('levelTo')!r}")
         sections = a.get("sections", [])
-        if sections and sections[0].get("title") != "In short":
+        if sections and sections[0].get("title") not in ("In short", "Ve zkratce"):
             c.error(where, 'the first section must be "In short"')
         examples = 0
         for s in sections:
@@ -395,7 +401,7 @@ def check_drills(index, checker, part_ids, article_ids):
                 typed = {"type": item.get("type", data.get("type", "transform")), **item}
                 if typed["type"] == "transform":
                     fr = item.get("fr", "")
-                    if fr.count("[") != fr.count("]") or "[[" in fr or ("underlined" in item.get("task_en", "") and "[" not in fr):
+                    if fr.count("[") != fr.count("]") or "[[" in fr or (any(w in item.get("task_en", "") + item.get("task_cs", "") for w in ("underlined", "podtržen")) and "[" not in fr):
                         checker.error(here, f"[marked] words must be balanced and present for an underlined task: {fr!r}")
                 checker.item(here, typed)
             total += len(data["items"])
@@ -412,12 +418,23 @@ def check_drills(index, checker, part_ids, article_ids):
                 if tag not in article_ids:
                     checker.error(here, f"unknown grammar article {tag!r}")
             checker.item(here, {"type": "build", **item})
-        print(f"{path}: {len(data['items'])} Czech sentences")
+        print(f"{path}: {len(data['items'])} {FIELDS['name']} sentences")
     return set_tags
 
 
 def main():
-    index = json.loads((ROOT / "words.json").read_text(encoding="utf-8"))
+    picked = [b for b in BASES if f"--{b}" in sys.argv] or list(BASES)
+    failed = False
+    for base in picked:
+        print(f"== {BASES[base]['name']} ({BASES[base]['manifest']})")
+        failed |= check_base(base)
+    return 1 if failed else 0
+
+
+def check_base(base):
+    global FIELDS
+    FIELDS = BASES[base]
+    index = json.loads((ROOT / FIELDS["manifest"]).read_text(encoding="utf-8"))
     words = load_words(index)
     failed = False
     for lang, path in index.get("courses", {}).items():
@@ -465,7 +482,7 @@ def main():
             print(f"LanguageTool checked {n} unique sentences: {len(problems)} remarks")
             for p in problems:
                 print("  ", p)
-    return 1 if failed else 0
+    return failed
 
 
 if __name__ == "__main__":

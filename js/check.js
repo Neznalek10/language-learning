@@ -34,11 +34,13 @@ export function distance(a, b) {
   return row[b.length];
 }
 
-// "jít, jet" or "kdo (který)" as an expected answer also accepts "jít", "jet", "kdo".
+// "jít, jet" or "kdo (který)" as an expected answer also accepts "jít", "jet", "kdo",
+// and an English infinitive also counts without its "to": "to go" accepts "go".
 export function variants(text) {
   const bare = text.replace(/\s*\([^)]*\)/g, '').trim();
   const parts = bare.split(/\s*[,/]\s*/).filter(Boolean);
-  return [...new Set([text, bare, ...parts])];
+  const verbs = parts.filter(p => /^to \S/i.test(p)).map(p => p.slice(3));
+  return [...new Set([text, bare, ...parts, ...verbs])];
 }
 
 // kind: exact | accent (only diacritics differ) | typo (one letter off) | wrong

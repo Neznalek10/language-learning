@@ -1,0 +1,131 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Media",
+  "unit": "8.1",
+  "level": null,
+  "words": [
+    {
+      "q": "cartoon, animated film",
+      "a": "dessin animé"
+    },
+    {
+      "q": "series",
+      "a": "série"
+    },
+    {
+      "q": "episode",
+      "a": "épisode"
+    },
+    {
+      "q": "season (of a series)",
+      "a": "saison"
+    },
+    {
+      "q": "soap opera",
+      "a": "feuilleton"
+    },
+    {
+      "q": "film",
+      "a": "film"
+    },
+    {
+      "q": "comedy",
+      "a": "comédie"
+    },
+    {
+      "q": "drama",
+      "a": "drame"
+    },
+    {
+      "q": "adventure (film), adventurous",
+      "a": [
+        "d'aventure",
+        "aventurier"
+      ]
+    },
+    {
+      "q": "TV news",
+      "a": "journal télévisé"
+    },
+    {
+      "q": "the news, information",
+      "a": "informations"
+    },
+    {
+      "q": "current events",
+      "a": "actualités"
+    },
+    {
+      "q": "advert, advertising",
+      "a": "publicité"
+    },
+    {
+      "q": "detective (film)",
+      "a": "policier"
+    },
+    {
+      "q": "programme, show",
+      "a": "émission"
+    },
+    {
+      "q": "screen",
+      "a": "écran"
+    },
+    {
+      "q": "addicted, hooked",
+      "a": [
+        "accro",
+        "accroché"
+      ]
+    },
+    {
+      "q": "song",
+      "a": "chanson"
+    },
+    {
+      "q": "mobile phone",
+      "a": "portable"
+    },
+    {
+      "q": "computer",
+      "a": "ordinateur"
+    },
+    {
+      "q": "tablet",
+      "a": "tablette"
+    },
+    {
+      "q": "app",
+      "a": [
+        "appli",
+        "application"
+      ]
+    },
+    {
+      "q": "social network",
+      "a": "réseau social"
+    },
+    {
+      "q": "password",
+      "a": "mot de passe"
+    },
+    {
+      "q": "online",
+      "a": "en ligne"
+    },
+    {
+      "q": "message, text",
+      "a": "message"
+    },
+    {
+      "q": "video",
+      "a": "vidéo"
+    },
+    {
+      "q": "charger",
+      "a": "chargeur"
+    }
+  ]
+}

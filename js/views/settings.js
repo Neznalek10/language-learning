@@ -1,9 +1,10 @@
 import { store } from '../store.js';
-import { langName } from '../data.js';
+import { langName, baseLang, BASES } from '../data.js';
 import { html, icon, plural, segmented, onSegmented, applyTheme } from '../ui.js';
 import { avatar } from './accounts.js';
 import { DEFAULT_AI, chat, aiReady, aiSettings, AiError } from '../ai.js';
-import { downloadBackup, pickBackupFile } from './backup-ui.js';
+import { downloadBackup, pickBackupFile, folderRow, bindFolder } from './backup-ui.js';
+import { folderActive } from '../folder.js';
 
 function row(label, hint, control) {
   return html`<div class="setting">
@@ -20,6 +21,7 @@ async function checkForUpdates(app) {
 }
 
 function backupHint(last) {
+  if (folderActive()) return 'Your folder already keeps a copy. A backup file is for moving a profile to another device.';
   if (!last) return 'Never backed up. Your progress lives only in this browser, so clearing site data or changing phones loses it.';
   const days = Math.floor((Date.now() - last) / 86400000);
   return `Last backup ${days <= 0 ? 'today' : days === 1 ? 'yesterday' : `${days} days ago`}. Restoring always creates a new profile.`;
@@ -30,17 +32,20 @@ export function settingsView(app) {
   const lang = app.lang;
   const decks = app.decks;
   const wordCount = decks.reduce((n, d) => n + d.words.length, 0);
-  const from = app.decksFor()[0]?.from || 'cs';
+  const from = app.decksFor()[0]?.from || baseLang();
   const ai = aiSettings();
+  const folder = folderRow();
 
   const body = html`
     <h3 class="group-title">Profile</h3>
     <section class="card settings">
       <div class="setting setting-profile">
         ${avatar(store.account.name, 'sm')}
-        <div class="setting-text"><div class="setting-label">${store.account.name}</div><div class="setting-hint">Progress, imports and settings are saved on this device</div></div>
+        <div class="setting-text"><div class="setting-label">${store.account.name}</div><div class="setting-hint">Progress, imports and settings are saved on this device${folderActive() ? ' and in your folder' : ''}</div></div>
         <button class="btn btn-secondary btn-sm" data-switch>Switch profile</button>
       </div>
+      ${row('I speak', 'Words, lessons and drills come in this language. Course progress carries over', html`<div data-no-tr>${segmented('base',
+        Object.entries(BASES).map(([value, b]) => ({ value, label: b.name })), baseLang())}</div>`)}
     </section>
 
     <h3 class="group-title">Practice</h3>
@@ -91,6 +96,7 @@ export function settingsView(app) {
     <section class="card settings">
       ${row('Word library', `${plural(app.languages().length, 'language')} · ${plural(decks.length, 'deck')} · ${plural(wordCount, 'word')}`,
         html`<div class="setting-buttons"><a class="btn btn-secondary btn-sm" href="#/import?mode=add">${icon('plus')}Add word</a><a class="btn btn-secondary btn-sm" href="#/import?mode=list">${icon('upload')}Import</a></div>`)}
+      ${row('Save to a folder', folder.hint, folder.buttons)}
       ${row('Back up progress', backupHint(s.lastBackup), html`<div class="setting-buttons"><button class="btn btn-primary btn-sm" data-backup>${icon('download')}Back up</button><button class="btn btn-secondary btn-sm" data-restore>${icon('upload')}Restore</button></div>`)}
     </section>
 
@@ -104,6 +110,7 @@ export function settingsView(app) {
     body,
     mount(root) {
       onSegmented(root, (name, value) => {
+        if (name === 'base') return app.setBase(value);
         if (name === 'direction') s.direction = value;
         if (name === 'accents') s.strictAccents = value === 'strict';
         if (name === 'length') s.sessionLength = Number(value);
@@ -144,6 +151,7 @@ export function settingsView(app) {
         app.render();
       });
       root.querySelector('[data-restore]').addEventListener('click', () => pickBackupFile(app));
+      bindFolder(root, app);
       root.querySelector('[data-update]').addEventListener('click', () => checkForUpdates(app));
       root.querySelector('[data-switch]').addEventListener('click', () => app.switchAccount());
     },

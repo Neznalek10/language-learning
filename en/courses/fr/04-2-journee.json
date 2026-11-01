@@ -1,0 +1,211 @@
+{
+  "schema": 1,
+  "goals": [
+    "Conjugate reflexive verbs (se lever, s'habiller)",
+    "Make negatives and questions with reflexive verbs",
+    "Conjugate prendre and partir",
+    "Describe your day in order: d'abord, ensuite, enfin"
+  ],
+  "lessons": [
+    {
+      "id": "fr-4.2-1",
+      "title": "Je me lève",
+      "subtitle": "Reflexive verbs",
+      "topics": ["reflexive", "daily"],
+      "words": ["verbs-reflexive#to wake up", "verbs-reflexive#to get up", "verbs-reflexive#to wash (yourself)", "verbs-reflexive#to brush (your teeth, hair)", "verbs-reflexive#to have a shower", "verbs-reflexive#to get dressed", "verbs-reflexive#to comb your hair", "verbs-reflexive#to go to bed", "verbs-reflexive#to rest"],
+      "learn": [
+        {"title": "Reflexive verbs", "blocks": [
+          {"type": "text", "en": "Reflexive verbs have an extra pronoun that changes with the person: *me, te, se, nous, vous, se*. Before a vowel *me, te, se* shorten to *m', t', s'*."},
+          {"type": "table", "verb": "se laver", "tense": "present"},
+          {"type": "tip", "title": "Not reflexive in English", "en": "Many French reflexive verbs aren't reflexive in English: *se lever* simply means to get up, *se laver* to wash, *se coucher* to go to bed."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je ___ lave.", "a": ["me"]}}
+        ]},
+        {"title": "Se lever", "blocks": [
+          {"type": "text", "en": "*Se lever* changes *e* to *è* in the stem when the ending is silent: *je me lève*, but *nous nous levons*."},
+          {"type": "table", "verb": "se lever", "tense": "present"},
+          {"type": "examples", "items": [
+            {"fr": "Je me réveille à six heures et demie.", "en": "I wake up at half past six."},
+            {"fr": "Je me douche et je m'habille.", "en": "I have a shower and get dressed."},
+            {"fr": "Mon frère se lève à sept heures.", "en": "My brother gets up at seven."},
+            {"fr": "Nous nous couchons à dix heures.", "en": "We go to bed at ten."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Tu te ___ à quelle heure ?", "a": ["lèves"], "hint": "se lever"}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.2-1-f", "type": "form", "verb": "se lever", "tense": "present"},
+        {"id": "fr-4.2-1-01", "type": "cloze", "fr": "Je ___ réveille à six heures.", "a": ["me"]},
+        {"id": "fr-4.2-1-02", "type": "cloze", "fr": "Tu ___ douches le matin ?", "a": ["te"]},
+        {"id": "fr-4.2-1-03", "type": "cloze", "fr": "Il ___habille.", "a": ["s'"]},
+        {"id": "fr-4.2-1-04", "type": "cloze", "fr": "Nous ___ couchons tard.", "a": ["nous"]},
+        {"id": "fr-4.2-1-05", "type": "cloze", "fr": "Vous ___ lavez.", "a": ["vous"]},
+        {"id": "fr-4.2-1-06", "type": "cloze", "fr": "Ils se ___ les dents.", "a": ["brossent"], "hint": "se brosser"},
+        {"id": "fr-4.2-1-07", "type": "build", "en": "I get up at seven.", "a": ["Je me lève à sept heures."]},
+        {"id": "fr-4.2-1-08", "type": "build", "en": "I shower and get dressed.", "a": ["Je me douche et je m'habille."]},
+        {"id": "fr-4.2-1-09", "type": "build", "en": "What time do you go to bed? (tu)", "a": ["{À quelle heure est-ce que tu te couches|Tu te couches à quelle heure|À quelle heure te couches-tu} ?"]},
+        {"id": "fr-4.2-1-10", "type": "build", "en": "My brother wakes up late.", "a": ["Mon frère se réveille tard."]},
+        {"id": "fr-4.2-1-11", "type": "transform", "task_en": "Change the person to nous", "fr": "Je me lave.", "a": ["{Nous nous lavons|On se lave}."]},
+        {"id": "fr-4.2-1-12", "type": "transform", "task_en": "Change the person to elle", "fr": "Je m'habille.", "a": ["Elle s'habille."]},
+        {"id": "fr-4.2-1-13", "type": "order", "en": "I brush my teeth.", "a": ["Je me brosse les dents"], "extra": ["te", "mes"]}
+      ]
+    },
+    {
+      "id": "fr-4.2-2",
+      "title": "Je ne me lève pas tôt",
+      "subtitle": "Negatives and questions with reflexive verbs",
+      "topics": ["reflexive", "negation"],
+      "words": ["time#early", "time#late", "time#morning", "time#evening", "time#usually", "time#every day", "verbs-reflexive#to shave", "verbs-reflexive#to put on make-up"],
+      "learn": [
+        {"title": "The negative", "blocks": [
+          {"type": "text", "en": "*Ne* goes before the reflexive pronoun and *pas* after the verb: *Je ne me lève pas tôt. Il ne se couche pas tard.* Before a vowel it's *n'*: *Elle ne s'habille pas.*"},
+          {"type": "examples", "items": [
+            {"fr": "Je ne me lève pas tôt le dimanche.", "en": "I don't get up early on Sundays."},
+            {"fr": "Mon père ne se rase pas.", "en": "My dad doesn't shave."},
+            {"fr": "Tu ne te couches pas ?", "en": "Aren't you going to bed? (tu)"}
+          ]},
+          {"type": "check", "item": {"type": "transform", "task_en": "Make it negative", "fr": "Je me réveille tôt.", "a": ["Je ne me réveille pas tôt."]}}
+        ]},
+        {"title": "Questions", "blocks": [
+          {"type": "text", "en": "You can ask in all three ways: *Tu te lèves à quelle heure ?* / *À quelle heure est-ce que tu te lèves ?* In inversion the pronoun stays before the verb: *À quelle heure te lèves-tu ?*"}
+        ]},
+        {"title": "Early and late", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["soon", "tôt"], ["late", "tard"], ["in the morning", "le matin"], ["evening", "le soir"],
+            ["usually", "d'habitude"], ["every day", "tous les jours"], ["during the week", "en semaine"], ["at the weekend", "le week-end"]
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.2-2-01", "type": "transform", "task_en": "Make it negative", "fr": "Je me lève tôt.", "a": ["Je ne me lève pas tôt."]},
+        {"id": "fr-4.2-2-02", "type": "transform", "task_en": "Make it negative", "fr": "Il se douche le soir.", "a": ["Il ne se douche pas le soir."]},
+        {"id": "fr-4.2-2-03", "type": "transform", "task_en": "Make it negative", "fr": "Nous nous couchons tard.", "a": ["{Nous ne nous couchons pas|On ne se couche pas} tard."]},
+        {"id": "fr-4.2-2-04", "type": "transform", "task_en": "Make it negative", "fr": "Elle se maquille.", "a": ["Elle ne se maquille pas."]},
+        {"id": "fr-4.2-2-05", "type": "cloze", "fr": "Je ne ___ lève pas tôt.", "a": ["me"]},
+        {"id": "fr-4.2-2-06", "type": "cloze", "fr": "Il ne se rase ___.", "a": ["pas"]},
+        {"id": "fr-4.2-2-07", "type": "build", "en": "I usually get up early.", "a": ["D'habitude, je me lève tôt."]},
+        {"id": "fr-4.2-2-08", "type": "build", "en": "At the weekend I get up late.", "a": ["Le week-end, je me lève tard."]},
+        {"id": "fr-4.2-2-09", "type": "build", "en": "I don't have a shower in the morning.", "a": ["Je ne me douche pas le matin.", "Le matin, je ne me douche pas."]},
+        {"id": "fr-4.2-2-10", "type": "build", "en": "What time do you get up? (tu)", "a": ["{À quelle heure est-ce que tu te lèves|Tu te lèves à quelle heure|À quelle heure te lèves-tu} ?"]},
+        {"id": "fr-4.2-2-11", "type": "build", "en": "During the week I go to bed at ten.", "a": ["En semaine, je me couche à dix heures."]},
+        {"id": "fr-4.2-2-12", "type": "order", "en": "My dad doesn't shave.", "a": ["Mon père ne se rase pas", "Mon papa ne se rase pas"], "extra": ["me", "rasé"]}
+      ]
+    },
+    {
+      "id": "fr-4.2-3",
+      "title": "Je prends le petit-déjeuner",
+      "subtitle": "Prendre, partir and the meals of the day",
+      "topics": ["prendre", "daily"],
+      "words": ["verbs-irregular#to take", "verbs-irregular#to leave", "time#breakfast", "time#lunch", "time#afternoon snack", "time#dinner"],
+      "learn": [
+        {"title": "The verb prendre", "blocks": [
+          {"type": "table", "verb": "prendre", "tense": "present"},
+          {"type": "text", "en": "You'll find *prendre* (to take) in many phrases: *prendre le petit-déjeuner* (to have breakfast), *prendre une douche* (to have a shower), *prendre le bus* (to take the bus)."},
+          {"type": "tip", "title": "prennent", "en": "*Ils prennent* is spelt with **two n's**, *nous prenons* with only one."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je ___ le bus.", "a": ["prends"], "hint": "prendre"}}
+        ]},
+        {"title": "Meals of the day", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["breakfast", "le petit-déjeuner"], ["lunch", "le déjeuner"], ["afternoon snack", "le goûter"], ["dinner", "le dîner"]
+          ]},
+          {"type": "text", "en": "The verbs *déjeuner* (to have lunch) and *dîner* (to have dinner) are regular: *Je déjeune à la cantine. Nous dînons à sept heures.*"}
+        ]},
+        {"title": "The verb partir", "blocks": [
+          {"type": "table", "verb": "partir", "tense": "present"},
+          {"type": "text", "en": "*Partir* (to leave) is irregular: in the singular the *t* drops out of the stem. *Je pars au collège à sept heures et demie.*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ à huit heures.", "a": ["partons"], "hint": "partir"}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.2-3-f", "type": "form", "verb": "prendre", "tense": "present"},
+        {"id": "fr-4.2-3-01", "type": "cloze", "fr": "Tu ___ ton petit-déjeuner ?", "a": ["prends"], "hint": "prendre"},
+        {"id": "fr-4.2-3-02", "type": "cloze", "fr": "Ils ___ le bus.", "a": ["prennent"], "hint": "prendre"},
+        {"id": "fr-4.2-3-03", "type": "cloze", "fr": "Vous ___ une douche ?", "a": ["prenez"], "hint": "prendre"},
+        {"id": "fr-4.2-3-04", "type": "cloze", "fr": "Je ___ à sept heures.", "a": ["pars"], "hint": "partir"},
+        {"id": "fr-4.2-3-05", "type": "cloze", "fr": "Elle ___ au collège.", "a": ["part"], "hint": "partir"},
+        {"id": "fr-4.2-3-06", "type": "cloze", "fr": "Ils ___ en vacances.", "a": ["partent"], "hint": "partir"},
+        {"id": "fr-4.2-3-07", "type": "build", "en": "I have breakfast at seven.", "a": ["Je prends le petit-déjeuner à sept heures."]},
+        {"id": "fr-4.2-3-08", "type": "build", "en": "I have lunch in the school canteen.", "a": ["Je {déjeune|mange} à la cantine."]},
+        {"id": "fr-4.2-3-09", "type": "build", "en": "I leave for school at half past seven.", "a": ["Je pars {à l'école|au collège} à sept heures et demie."]},
+        {"id": "fr-4.2-3-10", "type": "build", "en": "We take the bus.", "a": ["{Nous prenons|On prend} le bus."]},
+        {"id": "fr-4.2-3-11", "type": "build", "en": "We have dinner at seven in the evening.", "a": ["{Nous dînons|On dîne|Nous mangeons|On mange} à sept heures du soir."]},
+        {"id": "fr-4.2-3-12", "type": "order", "en": "At four I have my afternoon snack.", "a": ["À quatre heures je prends le goûter"], "extra": ["prend", "dîner"]}
+      ]
+    },
+    {
+      "id": "fr-4.2-4",
+      "title": "D'abord, ensuite, enfin",
+      "subtitle": "My day in order",
+      "topics": ["daily"],
+      "words": ["time#first of all", "basics#then", "time#finally", "time#usually"],
+      "learn": [
+        {"title": "Order", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["first", "d'abord"], ["then", "puis / ensuite"], ["after (something)", "après"], ["finally", "enfin"]
+          ]},
+          {"type": "text", "en": "When you describe your day, link the sentences with these words: *D'abord, je me lève. Ensuite, je me douche. Puis, je prends le petit-déjeuner. Enfin, je pars au collège.* *Après* goes with a noun: *après le dîner, après l'école*."},
+          {"type": "check", "item": {"type": "build", "en": "First I get up, then I have a shower.", "a": ["D'abord, je me lève, {puis|ensuite} je me douche."]}}
+        ]},
+        {"title": "My day", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "D'abord, je me réveille à six heures et demie.", "en": "First I wake up at half past six."},
+            {"fr": "Ensuite, je me douche et je m'habille.", "en": "Then I have a shower and get dressed."},
+            {"fr": "Je prends le petit-déjeuner et je pars au collège.", "en": "I have breakfast and leave for school."},
+            {"fr": "Après les cours, je vais à l'entraînement de basket.", "en": "After lessons I go to basketball training."},
+            {"fr": "Le soir, je fais mes devoirs et je joue de la guitare.", "en": "In the evening I do my homework and play the guitar."},
+            {"fr": "Enfin, je me couche à dix heures et demie.", "en": "Finally I go to bed at half past ten."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.2-4-01", "type": "cloze", "fr": "___, je me lève.", "a": ["D'abord"], "hint": "first"},
+        {"id": "fr-4.2-4-02", "type": "cloze", "fr": "___, je me couche.", "a": ["Enfin"], "hint": "finally"},
+        {"id": "fr-4.2-4-03", "type": "cloze", "fr": "___ le dîner, je lis.", "a": ["Après"], "hint": "after"},
+        {"id": "fr-4.2-4-04", "type": "cloze", "fr": "Je me douche, ___ je m'habille.", "a": ["puis", "ensuite"], "hint": "then"},
+        {"id": "fr-4.2-4-05", "type": "build", "en": "After school I play basketball.", "a": ["Après {l'école|le collège|les cours}, je {joue au basket|fais du basket}."]},
+        {"id": "fr-4.2-4-06", "type": "build", "en": "First I have breakfast, then I go to school.", "a": ["D'abord, je prends le petit-déjeuner, {puis|ensuite} je vais {à l'école|au collège}."]},
+        {"id": "fr-4.2-4-07", "type": "build", "en": "In the evening I do my homework.", "a": ["Le soir, je fais mes devoirs."]},
+        {"id": "fr-4.2-4-08", "type": "build", "en": "Finally I go to bed at eleven.", "a": ["Enfin, je me couche à onze heures."]},
+        {"id": "fr-4.2-4-09", "type": "build", "en": "We usually have dinner at seven.", "a": ["D'habitude, {nous dînons|on dîne|nous mangeons|on mange} à sept heures."]},
+        {"id": "fr-4.2-4-10", "type": "transform", "task_en": "Describe Marie's day (elle)", "fr": "Je me lève à sept heures.", "a": ["Elle se lève à sept heures."]},
+        {"id": "fr-4.2-4-11", "type": "transform", "task_en": "Describe Marie's day (elle)", "fr": "Je prends le bus à huit heures.", "a": ["Elle prend le bus à huit heures."]},
+        {"id": "fr-4.2-4-12", "type": "order", "en": "After dinner I play the guitar.", "a": ["Après le dîner je joue de la guitare"], "extra": ["du", "dîne"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-4.2-t-01", "lesson": "fr-4.2-1", "type": "form", "verb": "se lever", "tense": "present", "person": 2},
+      {"id": "fr-4.2-t-02", "lesson": "fr-4.2-1", "type": "form", "verb": "s'habiller", "tense": "present", "person": 4},
+      {"id": "fr-4.2-t-03", "lesson": "fr-4.2-1", "type": "form", "verb": "se coucher", "tense": "present", "person": 3},
+      {"id": "fr-4.2-t-04", "lesson": "fr-4.2-1", "type": "cloze", "fr": "Je ___ douche le matin.", "a": ["me"]},
+      {"id": "fr-4.2-t-05", "lesson": "fr-4.2-1", "type": "cloze", "fr": "Tu te ___ à quelle heure ?", "a": ["couches"], "hint": "se coucher"},
+      {"id": "fr-4.2-t-06", "lesson": "fr-4.2-1", "type": "build", "en": "I get up at six.", "a": ["Je me lève à six heures."]},
+      {"id": "fr-4.2-t-07", "lesson": "fr-4.2-1", "type": "build", "en": "My sister puts on make-up.", "a": ["Ma sœur se maquille."]},
+      {"id": "fr-4.2-t-08", "lesson": "fr-4.2-1", "type": "transform", "task_en": "Change the person to nous", "fr": "Je m'habille.", "a": ["{Nous nous habillons|On s'habille}."]},
+      {"id": "fr-4.2-t-09", "lesson": "fr-4.2-2", "type": "transform", "task_en": "Make it negative", "fr": "Je me lève tard.", "a": ["Je ne me lève pas tard."]},
+      {"id": "fr-4.2-t-10", "lesson": "fr-4.2-2", "type": "transform", "task_en": "Make it negative", "fr": "Il se réveille tôt.", "a": ["Il ne se réveille pas tôt."]},
+      {"id": "fr-4.2-t-11", "lesson": "fr-4.2-2", "type": "build", "en": "I don't go to bed late.", "a": ["Je ne me couche pas tard."]},
+      {"id": "fr-4.2-t-12", "lesson": "fr-4.2-2", "type": "build", "en": "What time do you wake up? (tu)", "a": ["{À quelle heure est-ce que tu te réveilles|Tu te réveilles à quelle heure|À quelle heure te réveilles-tu} ?"]},
+      {"id": "fr-4.2-t-13", "lesson": "fr-4.2-2", "type": "build", "en": "At the weekend I rest.", "a": ["Le week-end, je me repose."]},
+      {"id": "fr-4.2-t-14", "lesson": "fr-4.2-3", "type": "form", "verb": "prendre", "tense": "present", "person": 5},
+      {"id": "fr-4.2-t-15", "lesson": "fr-4.2-3", "type": "form", "verb": "partir", "tense": "present", "person": 0},
+      {"id": "fr-4.2-t-16", "lesson": "fr-4.2-3", "type": "cloze", "fr": "Nous ___ le bus.", "a": ["prenons"], "hint": "prendre"},
+      {"id": "fr-4.2-t-17", "lesson": "fr-4.2-3", "type": "cloze", "fr": "Elles ___ à huit heures.", "a": ["partent"], "hint": "partir"},
+      {"id": "fr-4.2-t-18", "lesson": "fr-4.2-3", "type": "build", "en": "We have breakfast at half past seven.", "a": ["{Nous prenons|On prend} le petit-déjeuner à sept heures et demie."]},
+      {"id": "fr-4.2-t-19", "lesson": "fr-4.2-3", "type": "build", "en": "I leave for school at eight.", "a": ["Je pars {à l'école|au collège} à huit heures."]},
+      {"id": "fr-4.2-t-20", "lesson": "fr-4.2-3", "type": "build", "en": "Do you have lunch in the school canteen? (tu)", "a": ["{Tu déjeunes|Tu manges|Est-ce que tu déjeunes|Est-ce que tu manges} à la cantine ?"]},
+      {"id": "fr-4.2-t-21", "lesson": "fr-4.2-3", "type": "build", "en": "Dinner is at seven.", "a": ["Le dîner est à sept heures."]},
+      {"id": "fr-4.2-t-22", "lesson": "fr-4.2-4", "type": "build", "en": "First I have a shower, then I get dressed.", "a": ["D'abord, je me douche, {puis|ensuite} je m'habille."]},
+      {"id": "fr-4.2-t-23", "lesson": "fr-4.2-4", "type": "build", "en": "After school I go to training.", "a": ["Après {l'école|le collège|les cours}, je vais à l'entraînement."]},
+      {"id": "fr-4.2-t-24", "lesson": "fr-4.2-4", "type": "cloze", "fr": "___, je me couche.", "a": ["Enfin"], "hint": "finally"},
+      {"id": "fr-4.2-t-25", "lesson": "fr-4.2-4", "type": "transform", "task_en": "Describe Tom's day (il)", "fr": "Je pars au collège à huit heures.", "a": ["Il part au collège à huit heures."]}
+    ]
+  }
+}

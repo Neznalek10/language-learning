@@ -274,7 +274,7 @@ export function topicView(app, { id }) {
     <section class="card unit-head">
       <div class="eyebrow">${kind.label}</div>
       <h2 class="topic-title">${topic.title}</h2>
-      ${topic.cs ? html`<p class="muted">${topic.cs}</p>` : ''}
+      ${(topic.cs ?? topic.en) ? html`<p class="muted">${topic.cs ?? topic.en}</p>` : ''}
       <div class="deck-stats">
         <div><strong>${topic.items.length}</strong><span>exercises</span></div>
         <div><strong>${topic.words.length}</strong><span>words</span></div>

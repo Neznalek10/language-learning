@@ -1,5 +1,6 @@
 import { store } from './store.js';
 import { requirementsOf } from './learn/writing.js';
+import { promptUrl } from './data.js';
 
 export const DEFAULT_AI = { url: 'https://openrouter.ai/api/v1', key: '', model: 'openrouter/free' };
 export const aiSettings = () => ({ ...DEFAULT_AI, ...store.settings.ai });
@@ -33,11 +34,12 @@ export const wordCount = text => (String(text).match(/[\p{L}\p{N}]+(?:['’-][\p
 
 const prompts = {};
 export async function loadPrompt(name = 'check-write') {
-  if (prompts[name]) return prompts[name];
-  const res = await fetch(`./prompts/${name}.md`, { cache: 'no-cache' });
+  const url = promptUrl(name);
+  if (prompts[url]) return prompts[url];
+  const res = await fetch(url, { cache: 'no-cache' });
   if (!res.ok) throw new AiError('format', `Could not load the AI instructions (HTTP ${res.status}).`);
-  prompts[name] = await res.text();
-  return prompts[name];
+  prompts[url] = await res.text();
+  return prompts[url];
 }
 
 // One OpenAI-compatible call: works with OpenRouter, Ollama and LM Studio.

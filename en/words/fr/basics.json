@@ -1,0 +1,329 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Basics",
+  "unit": "1.1",
+  "level": null,
+  "words": [
+    {
+      "q": "yes",
+      "a": "oui"
+    },
+    {
+      "q": "no",
+      "a": "non"
+    },
+    {
+      "q": "and",
+      "a": "et"
+    },
+    {
+      "q": "also, too",
+      "a": "aussi"
+    },
+    {
+      "q": "then",
+      "a": [
+        "puis",
+        "ensuite"
+      ],
+      "unit": "3.2"
+    },
+    {
+      "q": "but",
+      "a": "mais"
+    },
+    {
+      "q": "where",
+      "a": "où",
+      "unit": "1.2"
+    },
+    {
+      "q": "where from",
+      "a": "d'où",
+      "unit": "1.2"
+    },
+    {
+      "q": "a little",
+      "a": "un peu",
+      "unit": "2.3"
+    },
+    {
+      "q": "a lot, much",
+      "a": "beaucoup",
+      "unit": "2.3"
+    },
+    {
+      "q": "very",
+      "a": "très",
+      "unit": "2.2"
+    },
+    {
+      "q": "too much",
+      "a": "trop",
+      "unit": "2.2"
+    },
+    {
+      "q": "often",
+      "a": "souvent",
+      "unit": "3.2"
+    },
+    {
+      "q": "little, not much",
+      "a": "peu",
+      "unit": "2.3"
+    },
+    {
+      "q": "enough",
+      "a": "assez",
+      "unit": "2.3"
+    },
+    {
+      "q": "common, ordinary",
+      "a": "courant",
+      "unit": "2.2"
+    },
+    {
+      "q": "maybe, perhaps",
+      "a": "peut-être",
+      "unit": "2.3"
+    },
+    {
+      "q": "other, different",
+      "a": "autre",
+      "unit": "2.2"
+    },
+    {
+      "q": "close, nearby",
+      "a": "proche",
+      "unit": "4.3"
+    },
+    {
+      "q": "far",
+      "a": "loin",
+      "unit": "4.3"
+    },
+    {
+      "q": "between",
+      "a": "entre",
+      "unit": "4.3"
+    },
+    {
+      "q": "in front of",
+      "a": "devant",
+      "unit": "4.3"
+    },
+    {
+      "q": "or",
+      "a": "ou"
+    },
+    {
+      "q": "on the right",
+      "a": "à droite",
+      "unit": "5.1"
+    },
+    {
+      "q": "expensive",
+      "a": "cher",
+      "unit": "4.2"
+    },
+    {
+      "q": "damaged",
+      "a": "abîmé",
+      "unit": "4.2"
+    },
+    {
+      "q": "value",
+      "a": "valeur",
+      "unit": "4.2"
+    },
+    {
+      "q": "brand new",
+      "a": "neuf",
+      "unit": "4.2"
+    },
+    {
+      "q": "second-hand, used",
+      "a": "d'occasion",
+      "unit": "4.2"
+    },
+    {
+      "q": "alone",
+      "a": [
+        "seul",
+        "seule"
+      ],
+      "unit": "2.2"
+    },
+    {
+      "q": "OK, agreed",
+      "a": "d'accord"
+    },
+    {
+      "q": "I'm sorry",
+      "a": "désolé"
+    },
+    {
+      "q": "what a pity",
+      "a": "dommage",
+      "unit": "2.3"
+    },
+    {
+      "q": "here is, there you go",
+      "a": "voilà"
+    },
+    {
+      "q": "hatred",
+      "a": "haine",
+      "unit": "2.2"
+    },
+    {
+      "q": "to pee",
+      "a": "faire pipi",
+      "unit": "7.2"
+    },
+    {
+      "q": "pee",
+      "a": "pipi",
+      "unit": "7.2"
+    },
+    {
+      "q": "worsened",
+      "a": [
+        "aggravé",
+        "détérioré"
+      ],
+      "unit": "7.2"
+    },
+    {
+      "q": "I live",
+      "a": "j'habite",
+      "unit": "1.2"
+    },
+    {
+      "q": "who",
+      "a": "qui"
+    },
+    {
+      "q": "here they are",
+      "a": "les voilà"
+    },
+    {
+      "q": "all, everybody",
+      "a": "tous",
+      "unit": "2.1"
+    },
+    {
+      "q": "which, what (+ noun)",
+      "a": [
+        "quel",
+        "quelle"
+      ],
+      "unit": "1.2"
+    },
+    {
+      "q": "because",
+      "a": "parce que",
+      "unit": "2.3"
+    },
+    {
+      "q": "not at all",
+      "a": "pas du tout",
+      "unit": "2.3"
+    },
+    {
+      "q": "me too",
+      "a": "moi aussi",
+      "unit": "1.2"
+    },
+    {
+      "q": "me neither",
+      "a": "moi non plus",
+      "unit": "1.2"
+    },
+    {
+      "q": "never",
+      "a": "jamais",
+      "unit": "3.2"
+    },
+    {
+      "q": "why",
+      "a": "pourquoi",
+      "unit": "2.3"
+    },
+    {
+      "q": "when",
+      "a": "quand",
+      "unit": "2.3"
+    },
+    {
+      "q": "how",
+      "a": "comment",
+      "unit": "2.3"
+    },
+    {
+      "q": "with whom",
+      "a": "avec qui",
+      "unit": "2.3"
+    },
+    {
+      "q": "what",
+      "a": [
+        "qu'est-ce que",
+        "quoi"
+      ],
+      "unit": "2.3"
+    },
+    {
+      "q": "yes (to a negative question)",
+      "a": "si",
+      "unit": "2.3"
+    },
+    {
+      "q": "how much, how many",
+      "a": "combien",
+      "unit": "4.2"
+    },
+    {
+      "q": "in (inside)",
+      "a": "dans",
+      "unit": "4.3"
+    },
+    {
+      "q": "on (on top of)",
+      "a": "sur",
+      "unit": "4.3"
+    },
+    {
+      "q": "under",
+      "a": "sous",
+      "unit": "4.3"
+    },
+    {
+      "q": "behind",
+      "a": "derrière",
+      "unit": "4.3"
+    },
+    {
+      "q": "next to",
+      "a": "à côté de",
+      "unit": "4.3"
+    },
+    {
+      "q": "opposite",
+      "a": "en face de",
+      "unit": "4.3"
+    },
+    {
+      "q": "on the left",
+      "a": "à gauche",
+      "unit": "4.3"
+    },
+    {
+      "q": "near",
+      "a": "près de",
+      "unit": "4.3"
+    }
+  ]
+}

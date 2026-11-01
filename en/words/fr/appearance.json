@@ -1,0 +1,93 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "adjectives",
+  "title": "Appearance",
+  "unit": "2.2",
+  "level": null,
+  "words": [
+    {
+      "q": "blond (hair)",
+      "a": "blond"
+    },
+    {
+      "q": "dark brown (hair)",
+      "a": "brun"
+    },
+    {
+      "q": "red (hair)",
+      "a": "roux"
+    },
+    {
+      "q": "chestnut brown (hair)",
+      "a": "châtain"
+    },
+    {
+      "q": "short",
+      "a": "court"
+    },
+    {
+      "q": "long",
+      "a": "long"
+    },
+    {
+      "q": "straight (hair)",
+      "a": "raide"
+    },
+    {
+      "q": "wavy",
+      "a": "ondulé"
+    },
+    {
+      "q": "curly",
+      "a": "frisé"
+    },
+    {
+      "q": "slim",
+      "a": "mince"
+    },
+    {
+      "q": "fat",
+      "a": "gros"
+    },
+    {
+      "q": "tall, big",
+      "a": "grand"
+    },
+    {
+      "q": "small",
+      "a": "petit"
+    },
+    {
+      "q": "young",
+      "a": "jeune"
+    },
+    {
+      "q": "old",
+      "a": "vieux"
+    },
+    {
+      "q": "pretty",
+      "a": "joli"
+    },
+    {
+      "q": "beautiful",
+      "a": "beau"
+    },
+    {
+      "q": "new",
+      "a": "nouveau"
+    },
+    {
+      "q": "average",
+      "a": "moyen"
+    },
+    {
+      "q": "ugly",
+      "a": [
+        "moche",
+        "laid"
+      ]
+    }
+  ]
+}

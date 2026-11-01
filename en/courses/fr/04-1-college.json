@@ -1,0 +1,278 @@
+{
+  "schema": 1,
+  "goals": [
+    "Use the days of the week (lundi vs le lundi)",
+    "Say what time it is and when things happen",
+    "Conjugate aller and contract à + le = au",
+    "Talk about school subjects and give your opinion",
+    "Conjugate -ir verbs (finir, choisir)"
+  ],
+  "lessons": [
+    {
+      "id": "fr-4.1-1",
+      "title": "Les jours de la semaine",
+      "subtitle": "Days of the week",
+      "topics": ["time"],
+      "words": ["time#Monday", "time#Tuesday", "time#Wednesday", "time#Thursday", "time#Friday", "time#Saturday", "time#Sunday", "time#today", "time#tomorrow", "time#day", "time#week"],
+      "learn": [
+        {"title": "Days of the week", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["Monday", "lundi"], ["Tuesday", "mardi"], ["Wednesday", "mercredi"], ["Thursday", "jeudi"],
+            ["Friday", "vendredi"], ["Saturday", "samedi"], ["Sunday", "dimanche"]
+          ]},
+          {"type": "text", "en": "Unlike English, days are written with a **small letter**, and they are all masculine: *le lundi, le dimanche*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Aujourd'hui, c'est mardi. Demain, c'est ___.", "a": ["mercredi"]}}
+        ]},
+        {"title": "lundi or le lundi?", "blocks": [
+          {"type": "text", "en": "*Lundi* without an article means this (coming) Monday: *Lundi, j'ai un test.* *Le lundi* with the article means every Monday: *Le lundi, j'ai français.* There's no word for \"on\" before a day."},
+          {"type": "text", "en": "To ask the day you say *Quel jour sommes-nous ?* or informally *On est quel jour ?* You answer *On est mardi.* or *Aujourd'hui, c'est mardi.*"},
+          {"type": "examples", "items": [
+            {"fr": "Le samedi, je joue au basket.", "en": "On Saturdays I play basketball."},
+            {"fr": "Samedi, on va à Prague.", "en": "On Saturday we're going to Prague."},
+            {"fr": "Une semaine a sept jours.", "en": "A week has seven days."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.1-1-01", "type": "cloze", "fr": "lundi, mardi, ___", "a": ["mercredi"]},
+        {"id": "fr-4.1-1-02", "type": "cloze", "fr": "jeudi, ___, samedi", "a": ["vendredi"]},
+        {"id": "fr-4.1-1-03", "type": "cloze", "fr": "samedi, ___", "a": ["dimanche"]},
+        {"id": "fr-4.1-1-04", "type": "cloze", "fr": "Aujourd'hui, c'est jeudi. Demain, c'est ___.", "a": ["vendredi"]},
+        {"id": "fr-4.1-1-05", "type": "cloze", "fr": "Une semaine a sept ___.", "a": ["jours"]},
+        {"id": "fr-4.1-1-06", "type": "build", "en": "Today is Monday.", "a": ["{Aujourd'hui, c'est|Aujourd'hui, on est|Aujourd'hui, nous sommes|On est|Nous sommes|C'est} lundi."]},
+        {"id": "fr-4.1-1-07", "type": "build", "en": "Every Monday I have French.", "a": ["Le lundi, j'ai {français|cours de français}.", "J'ai {français|cours de français} le lundi."]},
+        {"id": "fr-4.1-1-08", "type": "build", "en": "On Saturday I play basketball.", "a": ["{Samedi|Le samedi}, je {joue au basket|fais du basket}.", "Je {joue au basket|fais du basket} {samedi|le samedi}."]},
+        {"id": "fr-4.1-1-09", "type": "build", "en": "What day is it today?", "a": ["{Quel jour sommes-nous|On est quel jour|Quel jour on est|C'est quel jour aujourd'hui} ?"]},
+        {"id": "fr-4.1-1-10", "type": "transform", "task_en": "Say it happens every week", "fr": "Mercredi, je fais du sport.", "a": ["Le mercredi, je fais du sport."]},
+        {"id": "fr-4.1-1-11", "type": "order", "en": "Tomorrow is Saturday.", "a": ["Demain c'est samedi"], "extra": ["le", "dimanche"]}
+      ]
+    },
+    {
+      "id": "fr-4.1-2",
+      "title": "Quelle heure est-il ?",
+      "subtitle": "Telling the time",
+      "topics": ["time"],
+      "words": ["time#what time is it?", "time#hour", "time#minute", "time#half (past)", "time#quarter (past)", "time#noon, midday", "time#midnight", "time#morning", "time#afternoon", "time#evening"],
+      "learn": [
+        {"title": "On the hour", "blocks": [
+          {"type": "text", "en": "*Quelle heure est-il ?* or informally *Il est quelle heure ?* (What time is it?) The answer always starts with *Il est...*, and you can't leave out *heure(s)*."},
+          {"type": "table", "textCols": [0], "rows": [
+            ["1:00", "Il est une heure."], ["2:00", "Il est deux heures."], ["12:00", "Il est midi."], ["0:00", "Il est minuit."]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Il est trois ___.", "a": ["heures"]}}
+        ]},
+        {"title": "Quarter past, half past, quarter to", "blocks": [
+          {"type": "text", "en": "Minutes go after the hour: *huit heures dix* (8:10). Quarter past is *et quart*, half past *et demie*. Towards the next hour you subtract with *moins* (minus): *neuf heures moins le quart* (8:45), *neuf heures moins dix* (8:50)."},
+          {"type": "table", "textCols": [0], "rows": [
+            ["8:10", "huit heures dix"], ["8:15", "huit heures et quart"], ["8:30", "huit heures et demie"],
+            ["8:45", "neuf heures moins le quart"], ["8:50", "neuf heures moins dix"]
+          ]},
+          {"type": "tip", "title": "The 24-hour clock", "en": "Timetables, schools and TV use the 24-hour clock: *Il est quinze heures trente* (15:30). There you don't use *et quart, et demie* or *moins*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Il est sept heures et ___.", "a": ["demie"], "hint": "7:30"}}
+        ]},
+        {"title": "At what time?", "blocks": [
+          {"type": "text", "en": "*À quelle heure ?* (At what time?) *À huit heures.* (At eight.) For twelve o'clock you say *à midi* (at noon) and *à minuit* (at midnight). You show the part of the day with *du matin* (in the morning), *de l'après-midi* (in the afternoon), *du soir* (in the evening)."},
+          {"type": "examples", "items": [
+            {"fr": "Les cours commencent à huit heures.", "en": "Lessons start at eight."},
+            {"fr": "Je mange à midi.", "en": "I eat at noon."},
+            {"fr": "Le film est à neuf heures du soir.", "en": "The film is at nine in the evening."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.1-2-01", "type": "cloze", "fr": "Il est huit heures et ___.", "a": ["quart"], "hint": "8:15"},
+        {"id": "fr-4.1-2-02", "type": "cloze", "fr": "Il est dix heures ___ le quart.", "a": ["moins"], "hint": "9:45"},
+        {"id": "fr-4.1-2-03", "type": "cloze", "fr": "Il est ___.", "a": ["midi"], "hint": "12:00 noon"},
+        {"id": "fr-4.1-2-04", "type": "cloze", "fr": "Il est six heures ___.", "a": ["vingt"], "hint": "6:20"},
+        {"id": "fr-4.1-2-05", "type": "cloze", "fr": "Il est onze heures moins ___.", "a": ["dix"], "hint": "10:50"},
+        {"id": "fr-4.1-2-06", "type": "cloze", "fr": "Il est une ___.", "a": ["heure"]},
+        {"id": "fr-4.1-2-07", "type": "cloze", "fr": "Le film commence à neuf heures du ___.", "a": ["soir"], "hint": "evening"},
+        {"id": "fr-4.1-2-08", "type": "build", "en": "What time is it?", "a": ["{Quelle heure est-il|Il est quelle heure} ?"]},
+        {"id": "fr-4.1-2-09", "type": "build", "en": "It's half past seven.", "a": ["Il est sept heures et demie."], "hint": "7:30"},
+        {"id": "fr-4.1-2-10", "type": "build", "en": "It's quarter past nine.", "a": ["Il est neuf heures et quart."], "hint": "9:15"},
+        {"id": "fr-4.1-2-11", "type": "build", "en": "It's quarter to five.", "a": ["Il est cinq heures moins le quart."], "hint": "4:45"},
+        {"id": "fr-4.1-2-12", "type": "build", "en": "At what time? At eight.", "a": ["À quelle heure ? À huit heures."]},
+        {"id": "fr-4.1-2-13", "type": "build", "en": "I eat at noon.", "a": ["Je mange à midi."]},
+        {"id": "fr-4.1-2-14", "type": "order", "en": "Lessons start at eight o'clock.", "a": ["Les cours commencent à huit heures"], "extra": ["heure", "commence"]}
+      ]
+    },
+    {
+      "id": "fr-4.1-3",
+      "title": "Je vais au collège",
+      "subtitle": "The verb aller and à + le = au",
+      "topics": ["aller", "school"],
+      "words": ["verbs-irregular#to go", "school#school", "school#high school", "school#canteen", "school#library", "school#gym, sports hall", "school#swimming pool", "school#sick bay, school nurse's office", "school#playground", "school#class, classroom", "school#teacher", "school#pupil", "school#break, recess"],
+      "learn": [
+        {"title": "The verb aller", "blocks": [
+          {"type": "text", "en": "*Aller* (to go) ends in *-er*, but it's completely irregular."},
+          {"type": "table", "verb": "aller", "tense": "present"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ au collège.", "a": ["allons"], "hint": "aller"}}
+        ]},
+        {"title": "à + le = au", "blocks": [
+          {"type": "text", "en": "For a place, *aller* and *être* are followed by *à*. It contracts with *le* and *les*: *à + le = au, à + les = aux*. *À la* and *à l'* stay as they are."},
+          {"type": "table", "head": ["", "", "example"], "rows": [
+            ["à + le", "au", "au collège, au gymnase"],
+            ["à + la", "à la", "à la cantine, à la piscine"],
+            ["à + l'", "à l'", "à l'école, à l'infirmerie"],
+            ["à + les", "aux", "aux toilettes"]
+          ]},
+          {"type": "tip", "title": "collège and lycée", "en": "In France pupils go to *collège* from 11 to 15 and then to *lycée* (from 15 to 18). So *le collège* is not a university!"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je mange ___ cantine.", "a": ["à la"]}}
+        ]},
+        {"title": "At school", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "La récré est à dix heures.", "en": "Break is at ten."},
+            {"fr": "On mange à la cantine à midi.", "en": "At noon we eat in the school canteen."},
+            {"fr": "Le prof de maths est sympa.", "en": "The maths teacher is nice."},
+            {"fr": "Je vais à la bibliothèque.", "en": "I'm going to the library."}
+          ]},
+          {"type": "tip", "title": "le prof", "en": "At school *le professeur* is nearly always shortened to *le prof* or *la prof*."}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.1-3-f", "type": "form", "verb": "aller", "tense": "present"},
+        {"id": "fr-4.1-3-01", "type": "cloze", "fr": "Je vais ___ collège.", "a": ["au"]},
+        {"id": "fr-4.1-3-02", "type": "cloze", "fr": "Tu vas ___ piscine ?", "a": ["à la"]},
+        {"id": "fr-4.1-3-03", "type": "cloze", "fr": "Il va ___infirmerie.", "a": ["à l'"]},
+        {"id": "fr-4.1-3-04", "type": "cloze", "fr": "Nous allons ___ gymnase.", "a": ["au"]},
+        {"id": "fr-4.1-3-05", "type": "cloze", "fr": "Les élèves vont ___ toilettes.", "a": ["aux"]},
+        {"id": "fr-4.1-3-06", "type": "cloze", "fr": "Elle est ___ bibliothèque.", "a": ["à la"]},
+        {"id": "fr-4.1-3-07", "type": "cloze", "fr": "Vous allez ___école ?", "a": ["à l'"]},
+        {"id": "fr-4.1-3-08", "type": "build", "en": "I'm going to school.", "a": ["Je vais {à l'école|au collège}."]},
+        {"id": "fr-4.1-3-09", "type": "build", "en": "At noon we eat in the school canteen.", "a": ["À midi, {nous mangeons|on mange} à la cantine."]},
+        {"id": "fr-4.1-3-10", "type": "build", "en": "Where are you going? (tu) To the library.", "a": ["{Où vas-tu|Tu vas où|Où est-ce que tu vas} ? À la bibliothèque."]},
+        {"id": "fr-4.1-3-11", "type": "build", "en": "Break is at ten.", "a": ["La {récré|récréation} est à dix heures."]},
+        {"id": "fr-4.1-3-12", "type": "transform", "task_en": "Change the person to ils", "fr": "Il va au gymnase.", "a": ["Ils vont au gymnase."]},
+        {"id": "fr-4.1-3-13", "type": "order", "en": "We're going to the gym.", "a": ["Nous allons au gymnase", "On va au gymnase"], "extra": ["à", "allez"]}
+      ]
+    },
+    {
+      "id": "fr-4.1-4",
+      "title": "Ma matière préférée",
+      "subtitle": "Subjects and opinions",
+      "topics": ["school"],
+      "words": ["school#maths, mathematics", "school#history", "school#geography", "school#physics", "school#chemistry", "school#biology", "school#PE, physical education", "school#music (school subject)", "school#art (school subject)", "school#computer science, IT", "school#school subject", "school#interesting", "school#difficult, hard", "school#easy", "school#great, brilliant", "school#rubbish, useless", "school#favourite"],
+      "learn": [
+        {"title": "School subjects", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["maths", "les mathématiques (les maths)"],
+            ["history", "l'histoire"],
+            ["geography", "la géographie"],
+            ["physics", "la physique"],
+            ["chemistry", "la chimie"],
+            ["biology", "la biologie (ve Francii la SVT)"],
+            ["PE", "l'éducation physique et sportive (l'EPS)"],
+            ["music", "la musique"],
+            ["art", "les arts plastiques"],
+            ["IT, computer science", "l'informatique"]
+          ]},
+          {"type": "text", "en": "Subject names are often shortened: *les maths*, *l'EPS* [ə pe ɛs]. A school subject is *la matière*."}
+        ]},
+        {"title": "My opinion", "blocks": [
+          {"type": "text", "en": "You give your opinion with *c'est* + an adjective in the **masculine**, whatever the gender of the subject: *Les maths, c'est difficile. L'histoire, c'est intéressant.*"},
+          {"type": "table", "textCols": [0], "rows": [
+            ["it's interesting", "c'est intéressant"],
+            ["it's difficult", "c'est difficile"],
+            ["je to snadné", "c'est facile"],
+            ["it's great", "c'est génial"],
+            ["je to hrozné, na nic", "c'est nul"],
+            ["je to nudné", "c'est ennuyeux"]
+          ]},
+          {"type": "tip", "title": "préférée", "en": "*Ma matière préférée, c'est l'histoire.* (My favourite subject is history.) *Matière* is feminine, so *préférée*."},
+          {"type": "check", "item": {"type": "build", "en": "Maths is difficult.", "a": ["{Les maths|Les mathématiques}, c'est difficile.", "{Les maths|Les mathématiques} sont difficiles."]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.1-4-01", "type": "cloze", "fr": "L'histoire, c'est ___.", "a": ["intéressant"], "hint": "interesting"},
+        {"id": "fr-4.1-4-02", "type": "cloze", "fr": "Le sport, c'est ___ !", "a": ["génial"], "hint": "great"},
+        {"id": "fr-4.1-4-03", "type": "cloze", "fr": "La chimie, c'est ___.", "a": ["nul"], "hint": "rubbish"},
+        {"id": "fr-4.1-4-04", "type": "cloze", "fr": "Ma matière ___, c'est la musique.", "a": ["préférée"], "hint": "favourite"},
+        {"id": "fr-4.1-4-05", "type": "build", "en": "My favourite subject is geography.", "a": ["Ma matière préférée, c'est la géographie."]},
+        {"id": "fr-4.1-4-06", "type": "build", "en": "History is interesting.", "a": ["L'histoire, c'est intéressant.", "L'histoire est intéressante."]},
+        {"id": "fr-4.1-4-07", "type": "build", "en": "Physics is easy.", "a": ["La physique, c'est facile.", "La physique est facile."]},
+        {"id": "fr-4.1-4-08", "type": "build", "en": "I like English because it's easy.", "a": ["J'aime l'anglais parce que c'est facile."]},
+        {"id": "fr-4.1-4-09", "type": "build", "en": "I hate chemistry, it's boring.", "a": ["Je déteste la chimie, c'est ennuyeux."]},
+        {"id": "fr-4.1-4-10", "type": "transform", "task_en": "Make it negative", "fr": "C'est facile.", "a": ["Ce n'est pas facile."]},
+        {"id": "fr-4.1-4-11", "type": "order", "en": "PE is great!", "a": ["L'EPS c'est génial", "Le sport c'est génial"], "extra": ["est", "géniale"]}
+      ]
+    },
+    {
+      "id": "fr-4.1-5",
+      "title": "Je finis à trois heures",
+      "subtitle": "-ir verbs and school things",
+      "topics": ["ir-verbs", "school"],
+      "words": ["verbs-irregular#to finish", "verbs-irregular#to choose", "verbs#to start, to begin", "school#timetable", "school#homework", "school#lessons, classes", "school#exercise book, notebook", "school#book", "school#pen", "school#pencil"],
+      "learn": [
+        {"title": "-ir verbs", "blocks": [
+          {"type": "text", "en": "The second group of regular verbs are *-ir* verbs like *finir* (to finish) or *choisir* (to choose). In the plural they add *-iss-*."},
+          {"type": "table", "verb": "finir", "tense": "present"},
+          {"type": "tip", "title": "Not all of them", "en": "Not every *-ir* verb works like this. *Venir, partir, sortir* and *dormir* are irregular."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ à quatre heures.", "a": ["finissons"], "hint": "finir"}}
+        ]},
+        {"title": "Start and finish", "blocks": [
+          {"type": "text", "en": "*Commencer* (to start) is a regular *-er* verb, but with *nous* you write *ç* so that the *c* is pronounced [s]: *nous commençons*."},
+          {"type": "examples", "items": [
+            {"fr": "Les cours commencent à huit heures et finissent à trois heures.", "en": "Lessons start at eight and finish at three."},
+            {"fr": "Je finis mes devoirs.", "en": "I'm finishing my homework."},
+            {"fr": "Tu choisis quel livre ?", "en": "Which book are you choosing?"}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-4.1-5-f", "type": "form", "verb": "finir", "tense": "present"},
+        {"id": "fr-4.1-5-01", "type": "cloze", "fr": "Je ___ mes devoirs.", "a": ["finis"], "hint": "finir"},
+        {"id": "fr-4.1-5-02", "type": "cloze", "fr": "Tu ___ quel livre ?", "a": ["choisis"], "hint": "choisir"},
+        {"id": "fr-4.1-5-03", "type": "cloze", "fr": "Les cours ___ à huit heures.", "a": ["commencent"], "hint": "commencer"},
+        {"id": "fr-4.1-5-04", "type": "cloze", "fr": "Nous ___ à neuf heures.", "a": ["commençons"], "hint": "commencer"},
+        {"id": "fr-4.1-5-05", "type": "cloze", "fr": "Elles ___ à midi.", "a": ["finissent"], "hint": "finir"},
+        {"id": "fr-4.1-5-06", "type": "cloze", "fr": "Vous ___ quand ?", "a": ["finissez"], "hint": "finir"},
+        {"id": "fr-4.1-5-07", "type": "build", "en": "Lessons finish at three.", "a": ["Les cours {finissent|se terminent} à trois heures."]},
+        {"id": "fr-4.1-5-08", "type": "build", "en": "I have a pencil and an exercise book.", "a": ["J'ai un crayon et un cahier."]},
+        {"id": "fr-4.1-5-09", "type": "build", "en": "Do you have a pen? (tu)", "a": ["{Tu as|As-tu|Est-ce que tu as} un stylo ?"]},
+        {"id": "fr-4.1-5-10", "type": "build", "en": "I'm doing my homework.", "a": ["Je fais mes devoirs."]},
+        {"id": "fr-4.1-5-11", "type": "build", "en": "When do lessons start?", "a": ["{Quand est-ce que les cours commencent|Les cours commencent quand|Quand commencent les cours} ?"]},
+        {"id": "fr-4.1-5-12", "type": "transform", "task_en": "Change the person to nous", "fr": "Je finis à midi.", "a": ["{Nous finissons|On finit} à midi."]},
+        {"id": "fr-4.1-5-13", "type": "order", "en": "I'm choosing a book.", "a": ["Je choisis un livre"], "extra": ["choisit", "le"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-4.1-t-01", "lesson": "fr-4.1-1", "type": "cloze", "fr": "vendredi, samedi, ___", "a": ["dimanche"]},
+      {"id": "fr-4.1-t-02", "lesson": "fr-4.1-1", "type": "cloze", "fr": "Aujourd'hui, c'est lundi. Demain, c'est ___.", "a": ["mardi"]},
+      {"id": "fr-4.1-t-03", "lesson": "fr-4.1-1", "type": "build", "en": "Tomorrow is Wednesday.", "a": ["Demain, {c'est|on est|nous sommes} mercredi."]},
+      {"id": "fr-4.1-t-04", "lesson": "fr-4.1-1", "type": "build", "en": "Every Thursday I have English.", "a": ["Le jeudi, j'ai {anglais|cours d'anglais}.", "J'ai {anglais|cours d'anglais} le jeudi."]},
+      {"id": "fr-4.1-t-05", "lesson": "fr-4.1-2", "type": "cloze", "fr": "Il est dix heures et ___.", "a": ["demie"], "hint": "10:30"},
+      {"id": "fr-4.1-t-06", "lesson": "fr-4.1-2", "type": "cloze", "fr": "Il est deux heures ___ le quart.", "a": ["moins"], "hint": "1:45"},
+      {"id": "fr-4.1-t-07", "lesson": "fr-4.1-2", "type": "cloze", "fr": "Il est ___.", "a": ["minuit"], "hint": "0:00"},
+      {"id": "fr-4.1-t-08", "lesson": "fr-4.1-2", "type": "build", "en": "It's quarter past two.", "a": ["Il est deux heures et quart."], "hint": "2:15"},
+      {"id": "fr-4.1-t-09", "lesson": "fr-4.1-2", "type": "build", "en": "It's ten past eight.", "a": ["Il est huit heures dix."], "hint": "8:10"},
+      {"id": "fr-4.1-t-10", "lesson": "fr-4.1-2", "type": "build", "en": "It's ten to six.", "a": ["Il est six heures moins dix."], "hint": "5:50"},
+      {"id": "fr-4.1-t-11", "lesson": "fr-4.1-2", "type": "build", "en": "What time does the film start?", "a": ["{À quelle heure commence le film|Le film commence à quelle heure|À quelle heure est-ce que le film commence} ?"]},
+      {"id": "fr-4.1-t-12", "lesson": "fr-4.1-3", "type": "form", "verb": "aller", "tense": "present", "person": 1},
+      {"id": "fr-4.1-t-13", "lesson": "fr-4.1-3", "type": "form", "verb": "aller", "tense": "present", "person": 5},
+      {"id": "fr-4.1-t-14", "lesson": "fr-4.1-3", "type": "cloze", "fr": "Je vais ___ piscine.", "a": ["à la"]},
+      {"id": "fr-4.1-t-15", "lesson": "fr-4.1-3", "type": "cloze", "fr": "Ils vont ___ collège.", "a": ["au"]},
+      {"id": "fr-4.1-t-16", "lesson": "fr-4.1-3", "type": "cloze", "fr": "Tu vas ___ toilettes ?", "a": ["aux"]},
+      {"id": "fr-4.1-t-17", "lesson": "fr-4.1-3", "type": "build", "en": "We're going to the canteen.", "a": ["{Nous allons|On va} à la cantine."]},
+      {"id": "fr-4.1-t-18", "lesson": "fr-4.1-3", "type": "build", "en": "Where are you going? (tu)", "a": ["{Où vas-tu|Tu vas où|Où est-ce que tu vas} ?"]},
+      {"id": "fr-4.1-t-19", "lesson": "fr-4.1-4", "type": "build", "en": "My favourite subject is history.", "a": ["Ma matière préférée, c'est l'histoire."]},
+      {"id": "fr-4.1-t-20", "lesson": "fr-4.1-4", "type": "build", "en": "Maths is rubbish.", "a": ["{Les maths|Les mathématiques}, c'est nul."]},
+      {"id": "fr-4.1-t-21", "lesson": "fr-4.1-4", "type": "cloze", "fr": "La musique, c'est ___.", "a": ["génial"], "hint": "great"},
+      {"id": "fr-4.1-t-22", "lesson": "fr-4.1-4", "type": "transform", "task_en": "Make it negative", "fr": "C'est intéressant.", "a": ["Ce n'est pas intéressant."]},
+      {"id": "fr-4.1-t-23", "lesson": "fr-4.1-5", "type": "form", "verb": "finir", "tense": "present", "person": 3},
+      {"id": "fr-4.1-t-24", "lesson": "fr-4.1-5", "type": "form", "verb": "finir", "tense": "present", "person": 2},
+      {"id": "fr-4.1-t-25", "lesson": "fr-4.1-5", "type": "cloze", "fr": "Nous ___ à huit heures.", "a": ["commençons"], "hint": "commencer"},
+      {"id": "fr-4.1-t-26", "lesson": "fr-4.1-5", "type": "build", "en": "Lessons finish at noon.", "a": ["Les cours {finissent|se terminent} à midi."]},
+      {"id": "fr-4.1-t-27", "lesson": "fr-4.1-5", "type": "build", "en": "I have a book and a pen.", "a": ["J'ai un livre et un stylo."]}
+    ]
+  }
+}

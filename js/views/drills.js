@@ -1,4 +1,5 @@
 import { store } from '../store.js';
+import { baseLang } from '../data.js';
 import { html, icon, plural, pct, segmented, onSegmented } from '../ui.js';
 import { learnParts } from '../learn/course.js';
 import {
@@ -12,12 +13,12 @@ export const drillOptions = () => {
   const o = { ...DEFAULT_DRILL, ...store.settings.drill };
   return o.mode === 'mistakes' ? { ...o, mode: 'smart' } : o;
 };
-const TRANSLATE = { id: 'translate', title: 'Translate into French', subtitle: 'A Czech sentence in, the French sentence out', tags: {}, task: 'Translate into French' };
+const TRANSLATE = { id: 'translate', title: 'Translate into French', tags: {}, task: 'Translate into French' };
 
 // A set is { id, title, subtitle, tags, items }; translation is built from the bank and the unit lessons.
 export function drillSets(app) {
   const lang = app.lang;
-  const translate = { ...TRANSLATE, items: translateBank(app.translate[lang], learnParts(app, lang)) };
+  const translate = { ...TRANSLATE, subtitle: `${baseLang() === 'cs' ? 'A Czech' : 'An English'} sentence in, the French sentence out`, items: translateBank(app.translate[lang], learnParts(app, lang)) };
   return [translate, ...(app.drills[lang]?.sets || [])].filter(s => s.items.length);
 }
 

@@ -1,0 +1,95 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Celebrations",
+  "unit": "8.2",
+  "level": null,
+  "words": [
+    {
+      "q": "celebration, party",
+      "a": "fête"
+    },
+    {
+      "q": "festival",
+      "a": "festival"
+    },
+    {
+      "q": "Easter",
+      "a": "Pâques"
+    },
+    {
+      "q": "national holiday",
+      "a": "fête nationale"
+    },
+    {
+      "q": "ball (dance)",
+      "a": "bal"
+    },
+    {
+      "q": "fireworks",
+      "a": "feu d'artifice"
+    },
+    {
+      "q": "porcelain charm (in a king cake)",
+      "a": "fève"
+    },
+    {
+      "q": "back to school (after the holidays)",
+      "a": "rentrée",
+      "unit": "3.1"
+    },
+    {
+      "q": "hidden",
+      "a": "caché"
+    },
+    {
+      "q": "end",
+      "a": "fin"
+    },
+    {
+      "q": "Christmas",
+      "a": "Noël"
+    },
+    {
+      "q": "New Year's Eve",
+      "a": "Saint-Sylvestre"
+    },
+    {
+      "q": "New Year",
+      "a": "Nouvel An"
+    },
+    {
+      "q": "present, gift",
+      "a": "cadeau"
+    },
+    {
+      "q": "candle",
+      "a": "bougie"
+    },
+    {
+      "q": "Christmas tree",
+      "a": "sapin de Noël"
+    },
+    {
+      "q": "Merry Christmas!",
+      "a": "Joyeux Noël !"
+    },
+    {
+      "q": "Happy New Year!",
+      "a": "Bonne année !"
+    },
+    {
+      "q": "Happy birthday!",
+      "a": "Joyeux anniversaire !"
+    },
+    {
+      "q": "tradition",
+      "a": "tradition"
+    },
+    {
+      "q": "Epiphany",
+      "a": "Épiphanie"
+    }
+  ]
+}

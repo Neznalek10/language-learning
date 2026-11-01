@@ -1,0 +1,173 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "verbs",
+  "title": "-ir, -re & irregular verbs",
+  "unit": "2.3",
+  "level": null,
+  "words": [
+    {
+      "q": "to be",
+      "a": "être",
+      "unit": "1.1"
+    },
+    {
+      "q": "to go",
+      "a": "aller",
+      "unit": "3.1"
+    },
+    {
+      "q": "to read",
+      "a": "lire"
+    },
+    {
+      "q": "to write",
+      "a": "écrire",
+      "unit": "3.1"
+    },
+    {
+      "q": "to know (a person, a place)",
+      "a": "connaître",
+      "unit": "2.1"
+    },
+    {
+      "q": "to please",
+      "a": "plaire",
+      "unit": "6.1"
+    },
+    {
+      "q": "to lose",
+      "a": "perdre",
+      "unit": "6.2"
+    },
+    {
+      "q": "to choose",
+      "a": "choisir",
+      "unit": "3.1"
+    },
+    {
+      "q": "to sell",
+      "a": "vendre",
+      "unit": "4.2"
+    },
+    {
+      "q": "to learn",
+      "a": "apprendre",
+      "unit": "3.1"
+    },
+    {
+      "q": "to drink",
+      "a": "boire",
+      "unit": "4.1"
+    },
+    {
+      "q": "to rain",
+      "a": "pleuvoir",
+      "unit": "5.2"
+    },
+    {
+      "q": "to have to, must",
+      "a": "devoir",
+      "unit": "7.2"
+    },
+    {
+      "q": "to have",
+      "a": "avoir",
+      "unit": "1.2"
+    },
+    {
+      "q": "to come",
+      "a": "venir",
+      "unit": "1.2"
+    },
+    {
+      "q": "to do, to make",
+      "a": "faire"
+    },
+    {
+      "q": "to finish",
+      "a": "finir",
+      "unit": "3.1"
+    },
+    {
+      "q": "to take",
+      "a": "prendre",
+      "unit": "3.2"
+    },
+    {
+      "q": "to leave",
+      "a": "partir",
+      "unit": "3.2"
+    },
+    {
+      "q": "to want",
+      "a": "vouloir",
+      "unit": "4.2"
+    },
+    {
+      "q": "to be able to, can",
+      "a": "pouvoir",
+      "unit": "4.2"
+    },
+    {
+      "q": "to put",
+      "a": "mettre",
+      "unit": "4.3"
+    },
+    {
+      "q": "to know (a fact, how to)",
+      "a": "savoir",
+      "unit": "8.1"
+    },
+    {
+      "q": "to see",
+      "a": "voir",
+      "unit": "6.2"
+    },
+    {
+      "q": "to say, to tell",
+      "a": "dire",
+      "unit": "8.1"
+    },
+    {
+      "q": "to go out",
+      "a": "sortir",
+      "unit": "6.2"
+    },
+    {
+      "q": "to sleep",
+      "a": "dormir",
+      "unit": "6.2"
+    },
+    {
+      "q": "to wait (for)",
+      "a": "attendre",
+      "unit": "6.2"
+    },
+    {
+      "q": "to go down",
+      "a": "descendre",
+      "unit": "7.1"
+    },
+    {
+      "q": "to be born",
+      "a": "naître",
+      "unit": "7.1"
+    },
+    {
+      "q": "to die",
+      "a": "mourir",
+      "unit": "7.1"
+    },
+    {
+      "q": "to get well, to recover",
+      "a": "guérir",
+      "unit": "7.2"
+    },
+    {
+      "q": "to become",
+      "a": "devenir",
+      "unit": "9"
+    }
+  ]
+}

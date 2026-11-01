@@ -1,0 +1,86 @@
+{
+  "lang": "de",
+  "from": "en",
+  "type": "verbs",
+  "title": "Verbs",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {
+      "q": "to be",
+      "a": "sein"
+    },
+    {
+      "q": "to have",
+      "a": "haben"
+    },
+    {
+      "q": "to go (on foot)",
+      "a": "gehen"
+    },
+    {
+      "q": "to go (by car, train...)",
+      "a": "fahren"
+    },
+    {
+      "q": "to come",
+      "a": "kommen"
+    },
+    {
+      "q": "to do, to make",
+      "a": "machen"
+    },
+    {
+      "q": "to say",
+      "a": "sagen"
+    },
+    {
+      "q": "to speak",
+      "a": "sprechen"
+    },
+    {
+      "q": "to eat",
+      "a": "essen"
+    },
+    {
+      "q": "to drink",
+      "a": "trinken"
+    },
+    {
+      "q": "to sleep",
+      "a": "schlafen"
+    },
+    {
+      "q": "to live",
+      "a": "wohnen"
+    },
+    {
+      "q": "to work",
+      "a": "arbeiten"
+    },
+    {
+      "q": "to learn",
+      "a": "lernen"
+    },
+    {
+      "q": "to see",
+      "a": "sehen"
+    },
+    {
+      "q": "to know",
+      "a": "wissen"
+    },
+    {
+      "q": "to want",
+      "a": "wollen"
+    },
+    {
+      "q": "to play",
+      "a": "spielen"
+    },
+    {
+      "q": "to read",
+      "a": "lesen"
+    }
+  ]
+}

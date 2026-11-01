@@ -1,0 +1,218 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Numbers",
+  "unit": "1.2",
+  "level": null,
+  "words": [
+    {
+      "q": "zero",
+      "a": "zéro",
+      "unit": "1.1"
+    },
+    {
+      "q": "one",
+      "a": [
+        "un",
+        "une"
+      ],
+      "unit": "1.1"
+    },
+    {
+      "q": "two",
+      "a": "deux",
+      "unit": "1.1"
+    },
+    {
+      "q": "three",
+      "a": "trois",
+      "unit": "1.1"
+    },
+    {
+      "q": "four",
+      "a": "quatre",
+      "unit": "1.1"
+    },
+    {
+      "q": "five",
+      "a": "cinq",
+      "unit": "1.1"
+    },
+    {
+      "q": "six",
+      "a": "six",
+      "unit": "1.1"
+    },
+    {
+      "q": "seven",
+      "a": "sept",
+      "unit": "1.1"
+    },
+    {
+      "q": "eight",
+      "a": "huit",
+      "unit": "1.1"
+    },
+    {
+      "q": "nine",
+      "a": "neuf",
+      "unit": "1.1"
+    },
+    {
+      "q": "ten",
+      "a": "dix",
+      "unit": "1.1"
+    },
+    {
+      "q": "eleven",
+      "a": "onze",
+      "unit": "1.1"
+    },
+    {
+      "q": "twelve",
+      "a": "douze",
+      "unit": "1.1"
+    },
+    {
+      "q": "thirteen",
+      "a": "treize",
+      "unit": "1.1"
+    },
+    {
+      "q": "fourteen",
+      "a": "quatorze",
+      "unit": "1.1"
+    },
+    {
+      "q": "fifteen",
+      "a": "quinze",
+      "unit": "1.1"
+    },
+    {
+      "q": "sixteen",
+      "a": "seize",
+      "unit": "1.1"
+    },
+    {
+      "q": "seventeen",
+      "a": "dix-sept",
+      "unit": "1.1"
+    },
+    {
+      "q": "eighteen",
+      "a": "dix-huit",
+      "unit": "1.1"
+    },
+    {
+      "q": "nineteen",
+      "a": "dix-neuf",
+      "unit": "1.1"
+    },
+    {
+      "q": "twenty",
+      "a": "vingt",
+      "unit": "1.1"
+    },
+    {
+      "q": "twenty-one",
+      "a": [
+        "vingt et un",
+        "vingt-et-un"
+      ]
+    },
+    {
+      "q": "twenty-two",
+      "a": "vingt-deux"
+    },
+    {
+      "q": "thirty",
+      "a": "trente"
+    },
+    {
+      "q": "forty",
+      "a": "quarante"
+    },
+    {
+      "q": "fifty",
+      "a": "cinquante"
+    },
+    {
+      "q": "sixty",
+      "a": "soixante"
+    },
+    {
+      "q": "seventy",
+      "a": "soixante-dix",
+      "unit": "2.1"
+    },
+    {
+      "q": "eighty",
+      "a": "quatre-vingts",
+      "unit": "2.1"
+    },
+    {
+      "q": "ninety",
+      "a": "quatre-vingt-dix",
+      "unit": "2.1"
+    },
+    {
+      "q": "a hundred",
+      "a": "cent",
+      "unit": "2.1"
+    },
+    {
+      "q": "half",
+      "a": "demi",
+      "unit": "3.1"
+    },
+    {
+      "q": "percent",
+      "a": [
+        "pour cent",
+        "pourcentage"
+      ],
+      "unit": "4.2"
+    },
+    {
+      "q": "thirty-one",
+      "a": [
+        "trente et un",
+        "trente-et-un"
+      ]
+    },
+    {
+      "q": "seventy-one",
+      "a": [
+        "soixante et onze",
+        "soixante-et-onze"
+      ],
+      "unit": "2.1"
+    },
+    {
+      "q": "ninety-one",
+      "a": "quatre-vingt-onze",
+      "unit": "2.1"
+    },
+    {
+      "q": "two hundred",
+      "a": "deux cents",
+      "unit": "4.2"
+    },
+    {
+      "q": "five hundred",
+      "a": "cinq cents",
+      "unit": "4.2"
+    },
+    {
+      "q": "a thousand",
+      "a": "mille",
+      "unit": "4.2"
+    },
+    {
+      "q": "two thousand",
+      "a": "deux mille",
+      "unit": "4.2"
+    }
+  ]
+}

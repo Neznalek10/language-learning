@@ -1,7 +1,9 @@
 const PREFIX = 'vocab.';
 const memory = {};
 
+// Profiles from before the language choice were all Czech, so a missing "base" means Czech.
 const DEFAULT_SETTINGS = {
+  base: 'cs',
   direction: 'forward',
   strictAccents: false,
   sessionLength: 10,
@@ -74,12 +76,19 @@ export const store = {
   settings: { ...DEFAULT_SETTINGS },
   lang: null,
 
-  createAccount(name) {
-    const account = { id: `a${Date.now().toString(36)}`, name, created: Date.now() };
+  onSave: null,
+
+  createAccount(name, base, id = `a${Date.now().toString(36)}`) {
+    const account = { id, name, created: Date.now() };
     if (!this.accounts.length) adoptUnownedData(account.id);
+    if (base && read(`${account.id}.settings`, undefined) === undefined) write(`${account.id}.settings`, { base });
     this.accounts.push(account);
     write('accounts', this.accounts);
+    this.onSave?.(account.id);
     return account;
+  },
+  baseOf(id) {
+    return read(`${id}.settings`, {}).base || DEFAULT_SETTINGS.base;
   },
   nameTaken(name) {
     return this.accounts.some(a => a.name.toLowerCase() === name.toLowerCase());
@@ -98,12 +107,16 @@ export const store = {
     this.lang = read(key('lang'), null);
   },
   // A backup always becomes a new profile, so nothing that already exists is overwritten.
-  restoreAccount(name, data) {
-    const account = this.createAccount(name);
+  restoreAccount(name, data, id) {
+    const account = this.createAccount(name, undefined, id);
     for (const key of ACCOUNT_KEYS) {
       if (data[key] !== undefined) write(`${account.id}.${key}`, data[key]);
     }
+    this.onSave?.(account.id);
     return account;
+  },
+  dataOf(id) {
+    return Object.fromEntries(ACCOUNT_KEYS.map(k => [k, read(`${id}.${k}`, undefined)]));
   },
   signOut() {
     this.account = null;
@@ -111,6 +124,7 @@ export const store = {
   },
   save(key) {
     write(`${this.account.id}.${key}`, this[key]);
+    this.onSave?.(this.account.id);
   },
 };
 

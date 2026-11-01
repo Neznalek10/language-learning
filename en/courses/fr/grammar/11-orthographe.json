@@ -1,0 +1,1287 @@
+{
+  "articles": [
+    {
+      "id": "accents",
+      "title": "Accents and the cédille",
+      "fr": "les accents",
+      "level": "A1",
+      "keywords": [
+        "accents",
+        "accent aigu",
+        "accent grave",
+        "accent circonflexe",
+        "tréma",
+        "cédille",
+        "é",
+        "è",
+        "ê",
+        "ç",
+        "à",
+        "où",
+        "diacritics"
+      ],
+      "topics": [],
+      "see": [
+        "er-spelling",
+        "silent-letters",
+        "elision"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French accents do **not** mark stress or length. They change the sound of a vowel, or just tell two words apart."
+            },
+            {
+              "type": "table",
+              "head": [
+                "mark",
+                "example",
+                "what it does"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "accent aigu ´",
+                  "é: été, café",
+                  "closed e, short"
+                ],
+                [
+                  "accent grave `",
+                  "è: père, très",
+                  "open e"
+                ],
+                [
+                  "à, ù",
+                  "à, où",
+                  "only tells words apart"
+                ],
+                [
+                  "accent circonflexe ^",
+                  "ê, â, î, ô, û: fête, château",
+                  "often in place of a vanished *s*"
+                ],
+                [
+                  "tréma ¨",
+                  "ë, ï: Noël, maïs",
+                  "the vowels are pronounced separately"
+                ],
+                [
+                  "cédille ¸",
+                  "ç: français, garçon",
+                  "*c* sounds like s even before a, o, u"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Words that an accent tells apart",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "without an accent",
+                "with an accent"
+              ],
+              "rows": [
+                [
+                  "a (il a = has)",
+                  "à (to, at)"
+                ],
+                [
+                  "ou (or)",
+                  "où (where)"
+                ],
+                [
+                  "la (the)",
+                  "là (there)"
+                ],
+                [
+                  "sur (on)",
+                  "sûr (sure)"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "You can type accents with the buttons under the answer field. Whether a missing accent counts as a mistake is set in Settings."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon frère est très grand.",
+                  "en": "My brother is very tall."
+                },
+                {
+                  "fr": "Où est la gare ?",
+                  "en": "Where is the station?"
+                },
+                {
+                  "fr": "Le garçon parle français.",
+                  "en": "The boy speaks French."
+                },
+                {
+                  "fr": "Je suis sûr.",
+                  "en": "I'm sure."
+                },
+                {
+                  "fr": "C'est la fête !",
+                  "en": "It's a party!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-accents-01",
+          "type": "cloze",
+          "fr": "Tu habites ___ ?",
+          "a": [
+            "où"
+          ],
+          "en": "Where do you live?"
+        },
+        {
+          "id": "g-accents-02",
+          "type": "cloze",
+          "fr": "Je vais ___ Paris.",
+          "a": [
+            "à"
+          ],
+          "en": "I'm going to Paris."
+        },
+        {
+          "id": "g-accents-03",
+          "type": "cloze",
+          "fr": "Il ___ un chien.",
+          "a": [
+            "a"
+          ],
+          "hint": "avoir",
+          "en": "He has a dog."
+        },
+        {
+          "id": "g-accents-04",
+          "type": "build",
+          "en": "I'm sure.",
+          "a": [
+            "Je suis sûr."
+          ]
+        },
+        {
+          "id": "g-accents-05",
+          "type": "build",
+          "en": "I speak French.",
+          "a": [
+            "Je parle français."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "homophones",
+      "title": "Words that sound alike: a / à, ou / où, et / est, son / sont",
+      "fr": "les homophones",
+      "level": "A1",
+      "keywords": [
+        "homophones",
+        "a à",
+        "ou où",
+        "et est",
+        "son sont",
+        "on ont",
+        "ce se",
+        "ces ses c'est s'est",
+        "ça sa",
+        "la là l'a",
+        "leur leurs",
+        "quel qu'elle",
+        "mais mes m'est",
+        "peu peut peux",
+        "ni n'y",
+        "si s'y",
+        "tout tous",
+        "spelling"
+      ],
+      "topics": [],
+      "see": [
+        "accents",
+        "silent-letters",
+        "participles"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In speech many French words sound the same but are spelled differently. The test is almost always **replace the word**: if you can put *avait* instead of *a*, write **a**; if you can put *était* instead of *est*, write **est**. Learn the pairs in the table."
+            },
+            {
+              "type": "table",
+              "head": [
+                "pair",
+                "test",
+                "example"
+              ],
+              "rows": [
+                [
+                  "a / à",
+                  "a = avait; à = (a preposition)",
+                  "Il a faim. Je vais à Paris."
+                ],
+                [
+                  "ou / où",
+                  "ou = ou bien; où = place or time",
+                  "Thé ou café ? Où habites-tu ?"
+                ],
+                [
+                  "et / est",
+                  "est = était",
+                  "Il est là et elle est ici."
+                ],
+                [
+                  "son / sont",
+                  "sont = étaient",
+                  "Ils sont là. C'est son frère."
+                ],
+                [
+                  "on / ont",
+                  "ont = avaient",
+                  "On joue. Ils ont faim."
+                ],
+                [
+                  "ce / se",
+                  "se = before a verb (reflexive)",
+                  "Ce livre. Il se lave."
+                ],
+                [
+                  "ces / ses / c'est / s'est",
+                  "ces = these; ses = his / her; c'est = it is; s'est = (reflexive pc)",
+                  "Ces livres. Ses livres. C'est bon. Il s'est levé."
+                ],
+                [
+                  "la / là / l'a",
+                  "là = there; l'a = l'avait",
+                  "La table est là. Il l'a vu."
+                ],
+                [
+                  "ça / sa",
+                  "sa = his / her (feminine noun)",
+                  "Ça va ? C'est sa sœur."
+                ],
+                [
+                  "leur / leurs",
+                  "leur before a verb never has -s",
+                  "Je leur parle. Leurs livres."
+                ],
+                [
+                  "quel / qu'elle",
+                  "qu'elle = que + elle",
+                  "Quel livre ? Je crois qu'elle vient."
+                ],
+                [
+                  "mais / mes / m'est",
+                  "mes = my (plural)",
+                  "Mais non ! Mes livres. Il m'est arrivé..."
+                ],
+                [
+                  "peu / peut / peux",
+                  "peut = can (il/elle); peux = can (je/tu)",
+                  "Un peu. Il peut. Tu peux."
+                ],
+                [
+                  "ni / n'y",
+                  "n'y = ne + y",
+                  "Ni lui ni elle. Je n'y vais pas."
+                ],
+                [
+                  "si / s'y",
+                  "s'y = se + y",
+                  "Si tu veux. Il s'y habitue."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Sound pairs that are not written alike",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The endings **-é / -er / -ez** (all sound like *é*) are a classic: an **infinitive** (*parler*) after another verb or a preposition, a **participle** (*parlé*) after *avoir / être*, and **-ez** for *vous*. Test: replace with *vendre / vendu*: if *vendre* fits, write **-er**; if *vendu* fits, write **-é**."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I want to eat.",
+                  "wrong": "Je veux mangé.",
+                  "fr": "Je veux [[manger]]."
+                },
+                {
+                  "en": "I have eaten.",
+                  "wrong": "J'ai manger.",
+                  "fr": "J'ai [[mangé]]."
+                },
+                {
+                  "en": "You (pl.) eat.",
+                  "wrong": "Vous mangé.",
+                  "fr": "Vous [[mangez]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il a un chat qui est à moi.",
+                  "en": "He has a cat that is mine."
+                },
+                {
+                  "fr": "Où est mon livre ? Il est sur la table.",
+                  "en": "Where's my book? It's on the table."
+                },
+                {
+                  "fr": "Elle a dit qu'elle vient.",
+                  "en": "She said she's coming."
+                },
+                {
+                  "fr": "Ils sont partis, mais ils ont oublié leurs clés.",
+                  "en": "They left but forgot their keys."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-homophones-01",
+          "type": "cloze",
+          "fr": "Il ___ faim.",
+          "a": [
+            "a"
+          ],
+          "en": "He is hungry."
+        },
+        {
+          "id": "g-homophones-02",
+          "type": "cloze",
+          "fr": "Je vais ___ Paris.",
+          "a": [
+            "à"
+          ],
+          "en": "I'm going to Paris."
+        },
+        {
+          "id": "g-homophones-03",
+          "type": "cloze",
+          "fr": "Tu veux du thé ___ du café ?",
+          "a": [
+            "ou"
+          ],
+          "en": "Do you want tea or coffee?"
+        },
+        {
+          "id": "g-homophones-04",
+          "type": "cloze",
+          "fr": "___ habites-tu ?",
+          "a": [
+            "Où"
+          ],
+          "en": "Where do you live?"
+        },
+        {
+          "id": "g-homophones-05",
+          "type": "cloze",
+          "fr": "Ils ___ contents.",
+          "a": [
+            "sont"
+          ],
+          "en": "They are happy."
+        },
+        {
+          "id": "g-homophones-06",
+          "type": "cloze",
+          "fr": "C'est ___ frère.",
+          "a": [
+            "son"
+          ],
+          "en": "It's his brother."
+        },
+        {
+          "id": "g-homophones-07",
+          "type": "cloze",
+          "fr": "Ils ___ faim.",
+          "a": [
+            "ont"
+          ],
+          "en": "They are hungry."
+        },
+        {
+          "id": "g-homophones-08",
+          "type": "cloze",
+          "fr": "Je veux ___ ce livre.",
+          "a": [
+            "lire"
+          ],
+          "en": "I want to read this book."
+        },
+        {
+          "id": "g-homophones-09",
+          "type": "cloze",
+          "fr": "J'ai ___ ce livre.",
+          "a": [
+            "lu"
+          ],
+          "en": "I have read this book."
+        },
+        {
+          "id": "g-homophones-10",
+          "type": "cloze",
+          "fr": "Je ___ parle.",
+          "a": [
+            "leur"
+          ],
+          "en": "I talk to them."
+        }
+      ]
+    },
+    {
+      "id": "elision",
+      "title": "Elision: l', j', n', qu'",
+      "fr": "l'élision",
+      "level": "A1",
+      "keywords": [
+        "elision",
+        "apostrophe",
+        "l'",
+        "j'",
+        "n'",
+        "qu'",
+        "d'",
+        "s'il",
+        "m'",
+        "t'",
+        "élision",
+        "h muet",
+        "h aspiré"
+      ],
+      "topics": [],
+      "see": [
+        "liaison",
+        "subject-pronouns",
+        "article-definite",
+        "silent-letters"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When a short word ends in *-e* (or *-a*) and the next word starts with a vowel or a silent *h*, the vowel drops out and an apostrophe replaces it. French dislikes two vowels in a row."
+            },
+            {
+              "type": "table",
+              "head": [
+                "word",
+                "before a vowel",
+                "example"
+              ],
+              "rows": [
+                [
+                  "le, la",
+                  "l'",
+                  "l'école, l'hôtel"
+                ],
+                [
+                  "je",
+                  "j'",
+                  "j'aime"
+                ],
+                [
+                  "me, te, se",
+                  "m', t', s'",
+                  "je m'appelle"
+                ],
+                [
+                  "ne",
+                  "n'",
+                  "je n'ai pas"
+                ],
+                [
+                  "de",
+                  "d'",
+                  "beaucoup d'amis"
+                ],
+                [
+                  "que",
+                  "qu'",
+                  "qu'il"
+                ],
+                [
+                  "si (only before il, ils)",
+                  "s'",
+                  "s'il pleut"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What does not shorten",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Tu* does not shorten in careful language (*tu as*, not *t'as*). *Si* shortens only before *il, ils* (*si elle*, not *s'elle*). The article *les* never shortens; it links instead: *les‿amis*."
+            }
+          ]
+        },
+        {
+          "title": "Silent h and aspirated h",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Most words with *h* behave as if they began with a vowel (*l'homme, l'hôtel, j'habite*). Some have an *h aspiré*, which forbids both elision and liaison: *le héros, le hockey, le haricot*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "hockey",
+                  "wrong": "l'hockey",
+                  "fr": "[[le]] hockey"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'adore l'histoire.",
+                  "en": "I love history."
+                },
+                {
+                  "fr": "Il n'aime pas l'hiver.",
+                  "en": "He doesn't like winter."
+                },
+                {
+                  "fr": "Je pense qu'elle est malade.",
+                  "en": "I think she's ill."
+                },
+                {
+                  "fr": "S'il fait beau, on sort.",
+                  "en": "If the weather is nice, we go out."
+                },
+                {
+                  "fr": "Je joue au hockey.",
+                  "en": "I play hockey."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-elision-01",
+          "type": "build",
+          "en": "I like school.",
+          "a": [
+            "J'aime {|bien }l'école."
+          ]
+        },
+        {
+          "id": "g-elision-02",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Il aime le sport.",
+          "a": [
+            "Il n'aime pas le sport."
+          ]
+        },
+        {
+          "id": "g-elision-03",
+          "type": "transform",
+          "task_en": "Write it correctly",
+          "fr": "je habite",
+          "a": [
+            "j'habite"
+          ]
+        },
+        {
+          "id": "g-elision-04",
+          "type": "cloze",
+          "fr": "___il pleut, je reste à la maison.",
+          "a": [
+            "S'"
+          ],
+          "en": "If it rains, I stay at home."
+        },
+        {
+          "id": "g-elision-05",
+          "type": "build",
+          "en": "I think the weather is nice.",
+          "a": [
+            "Je pense qu'il fait beau.",
+            "Je crois qu'il fait beau."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "liaison",
+      "title": "Liaison",
+      "fr": "la liaison",
+      "level": "A1",
+      "keywords": [
+        "liaison",
+        "enchaînement",
+        "les amis",
+        "vous avez",
+        "pronunciation",
+        "linking words",
+        "linking"
+      ],
+      "topics": [],
+      "see": [
+        "elision",
+        "silent-letters",
+        "plural"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A silent final consonant **is pronounced** when the next word begins with a vowel or a silent *h*. The two words then sound like one."
+            },
+            {
+              "type": "table",
+              "head": [
+                "written",
+                "sounds roughly like"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "les amis",
+                  "le-zami"
+                ],
+                [
+                  "vous avez",
+                  "vu-zave"
+                ],
+                [
+                  "un ami",
+                  "ö-nami (nasal ö)"
+                ],
+                [
+                  "petit enfant",
+                  "peti-tanfan"
+                ],
+                [
+                  "deux heures",
+                  "dö-zör"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "When to link",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "always",
+                "example"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "article + noun",
+                  "les enfants, un ami"
+                ],
+                [
+                  "pronoun + verb",
+                  "nous avons, ils ont"
+                ],
+                [
+                  "an adjective before a noun",
+                  "un petit ami"
+                ],
+                [
+                  "after short prepositions and adverbs",
+                  "chez elle, très intéressant"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Never",
+              "en": "After *et* (*et un* is not linked), before an *h aspiré* (*les héros*) and after a singular noun."
+            }
+          ]
+        },
+        {
+          "title": "How the sound changes",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In a liaison *-s, -x, -z* are read as *z*, *-d* as *t*, and the *f* of *neuf* as *v* (*neuf ans*). Similarly a pronounced final consonant carries over to the next vowel: *il‿est, elle‿a*. That is why spoken French sounds like one long word."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Nous avons deux enfants.",
+                  "en": "We have two children."
+                },
+                {
+                  "fr": "Ils habitent ici.",
+                  "en": "They live here."
+                },
+                {
+                  "fr": "C'est un grand hôtel.",
+                  "en": "It's a big hotel."
+                },
+                {
+                  "fr": "Il est six heures.",
+                  "en": "It's six o'clock."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-liaison-01",
+          "type": "build",
+          "en": "We have two children.",
+          "a": [
+            "Nous avons deux enfants.",
+            "On a deux enfants."
+          ]
+        },
+        {
+          "id": "g-liaison-02",
+          "type": "build",
+          "en": "They have friends.",
+          "a": [
+            "Ils ont des amis.",
+            "Elles ont des amis."
+          ]
+        },
+        {
+          "id": "g-liaison-03",
+          "type": "build",
+          "en": "It's six o'clock.",
+          "a": [
+            "Il est six heures."
+          ]
+        },
+        {
+          "id": "g-liaison-04",
+          "type": "order",
+          "en": "They live here. (m.)",
+          "a": [
+            "Ils habitent ici."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "silent-letters",
+      "title": "Silent letters",
+      "fr": "les lettres muettes",
+      "level": "A1",
+      "keywords": [
+        "silent letters",
+        "pronunciation",
+        "final consonants",
+        "-e",
+        "-ent",
+        "CaReFuL",
+        "h",
+        "lettres muettes"
+      ],
+      "topics": [],
+      "see": [
+        "liaison",
+        "conjugation-basics",
+        "plural",
+        "accents"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French writes many more letters than it pronounces. Most often silent are **final consonants** and the final **-e**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "what",
+                "example",
+                "sounds roughly like"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "final -s, -t, -d, -x, -z",
+                  "petit, grand, deux, nez",
+                  "peti, gran, dö, ne"
+                ],
+                [
+                  "final -e",
+                  "table, porte",
+                  "tabl, port"
+                ],
+                [
+                  "-ent in verbs",
+                  "ils parlent",
+                  "il parl"
+                ],
+                [
+                  "-er, -ez at the end",
+                  "parler, parlez",
+                  "parle"
+                ],
+                [
+                  "h",
+                  "hôtel, homme",
+                  "otel, om"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "CaReFuL",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The final letters *c, r, f, l*, on the other hand, are mostly **pronounced**: *sac, bonjour, neuf, avril*. The mnemonic: the English word **CaReFuL**. Exception: *-er* at the end of verbs and many other words (*parler, premier*) is read as *-é*."
+            },
+            {
+              "type": "tip",
+              "en": "*-ent* is silent only in verbs (*ils parlent*). In other words it is read as a nasal: *souvent, le vent, content*."
+            }
+          ]
+        },
+        {
+          "title": "Why it matters",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "What you don't hear you have to watch for in writing: verb endings (*il parle, ils parlent*), adjective agreement (*petit, petits*) and the plural. In dictation these are the most common mistakes."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il est petit.",
+                  "en": "He is small."
+                },
+                {
+                  "fr": "Ils jouent au foot.",
+                  "en": "They play football."
+                },
+                {
+                  "fr": "J'ai un sac noir.",
+                  "en": "I have a black bag."
+                },
+                {
+                  "fr": "Il fait froid en hiver.",
+                  "en": "It's cold in winter."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-silent-letters-01",
+          "type": "cloze",
+          "fr": "Ils ___ au foot.",
+          "a": [
+            "jouent"
+          ],
+          "hint": "jouer",
+          "en": "They play football."
+        },
+        {
+          "id": "g-silent-letters-02",
+          "type": "cloze",
+          "fr": "Elle est ___.",
+          "a": [
+            "petite"
+          ],
+          "hint": "petit",
+          "en": "She is small."
+        },
+        {
+          "id": "g-silent-letters-03",
+          "type": "build",
+          "en": "two dogs",
+          "a": [
+            "deux chiens"
+          ]
+        },
+        {
+          "id": "g-silent-letters-04",
+          "type": "cloze",
+          "fr": "Vous ___ français ?",
+          "a": [
+            "parlez"
+          ],
+          "hint": "parler",
+          "en": "Do you speak French?"
+        }
+      ]
+    },
+    {
+      "id": "capitals",
+      "title": "Capital letters",
+      "fr": "les majuscules",
+      "level": "A1",
+      "keywords": [
+        "capital letters",
+        "lower case",
+        "nationalities",
+        "languages",
+        "days",
+        "months",
+        "un Français",
+        "il est français",
+        "majuscules"
+      ],
+      "topics": [
+        "nationalities"
+      ],
+      "see": [
+        "dates",
+        "c-est-il-est",
+        "cities-countries"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "what",
+                "how",
+                "example"
+              ],
+              "textCols": [
+                0,
+                1
+              ],
+              "rows": [
+                [
+                  "an inhabitant (noun)",
+                  "capital",
+                  "un Français, une Tchèque"
+                ],
+                [
+                  "a nationality (adjective)",
+                  "small",
+                  "Il est français."
+                ],
+                [
+                  "a language",
+                  "small",
+                  "Je parle français."
+                ],
+                [
+                  "days and months",
+                  "small",
+                  "lundi, janvier"
+                ],
+                [
+                  "countries and cities",
+                  "capital",
+                  "la France, Prague"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "A Frenchman or French?",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "He's French.",
+                  "fr": "Il est [[français]].",
+                  "note": "After *être* without an article it is an adjective: small letter."
+                },
+                {
+                  "en": "He's a Frenchman.",
+                  "fr": "C'est un [[Français]].",
+                  "note": "With an article it is an inhabitant, a noun: capital letter."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Forms of address",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Monsieur, madame* are written with a small letter inside a sentence: *Bonjour, madame.* Abbreviations with a capital: *M. Dupont, Mme Dupont*."
+            },
+            {
+              "type": "tip",
+              "en": "The app ignores capitals when checking. In a school test they do count, so watch them yourself."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Les Français mangent beaucoup de pain.",
+                  "en": "The French eat a lot of bread."
+                },
+                {
+                  "fr": "Je suis tchèque.",
+                  "en": "I'm Czech."
+                },
+                {
+                  "fr": "J'apprends l'anglais et le français.",
+                  "en": "I'm learning English and French."
+                },
+                {
+                  "fr": "Mon anniversaire est en septembre.",
+                  "en": "My birthday is in September."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-capitals-01",
+          "type": "build",
+          "en": "I'm Czech.",
+          "a": [
+            "Je suis tchèque."
+          ]
+        },
+        {
+          "id": "g-capitals-02",
+          "type": "build",
+          "en": "She's a Frenchwoman.",
+          "a": [
+            "C'est une Française."
+          ]
+        },
+        {
+          "id": "g-capitals-03",
+          "type": "build",
+          "en": "My birthday is in January.",
+          "a": [
+            "Mon anniversaire est en janvier.",
+            "Mon anniversaire, c'est en janvier."
+          ]
+        },
+        {
+          "id": "g-capitals-04",
+          "type": "build",
+          "en": "I speak Czech and English.",
+          "a": [
+            "Je parle tchèque et anglais.",
+            "Je parle le tchèque et l'anglais."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "punctuation",
+      "title": "Punctuation",
+      "fr": "la ponctuation",
+      "level": "A1",
+      "keywords": [
+        "punctuation",
+        "space before question mark",
+        "? ! : ;",
+        "guillemets",
+        "quotation marks",
+        "« »",
+        "comma",
+        "ponctuation"
+      ],
+      "topics": [],
+      "see": [
+        "conjunctions",
+        "complex-sentences"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In French a **space** is written before the two-part marks *? ! : ;* and inside quotation marks « ». English does not do this."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "How are you?",
+                  "fr": "Ça va[[ ]]?"
+                },
+                {
+                  "en": "Watch out!",
+                  "fr": "Attention[[ ]]!"
+                },
+                {
+                  "en": "He said: \"Hi.\"",
+                  "fr": "Il a dit[[ ]]: « Salut. »"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quotation marks",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French quotation marks look like arrows « ... » (*les guillemets*) and have a space inside. In dialogue a dash is often written at the start of each line."
+            }
+          ]
+        },
+        {
+          "title": "Commas",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "As in English, **no** comma goes before *que* (that), *qui, quand, si* in the middle of a sentence: *Je pense que tu as raison.* A comma does follow an introductory phrase: *Demain, je pars.*"
+            },
+            {
+              "type": "tip",
+              "en": "The app ignores punctuation when checking. Watch the space before ? and ! yourself."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu viens ce soir ?",
+                  "en": "Are you coming tonight?"
+                },
+                {
+                  "fr": "Quelle belle journée !",
+                  "en": "What a lovely day!"
+                },
+                {
+                  "fr": "Il y a trois choses : un stylo, un livre et une gomme.",
+                  "en": "There are three things: a pen, a book and a rubber."
+                },
+                {
+                  "fr": "Je sais qu'il est là.",
+                  "en": "I know he's here."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-punctuation-01",
+          "type": "build",
+          "en": "Are you coming?",
+          "a": [
+            "Tu viens ?",
+            "Est-ce que tu viens ?"
+          ]
+        },
+        {
+          "id": "g-punctuation-02",
+          "type": "build",
+          "en": "I know he's here.",
+          "a": [
+            "Je sais qu'il est {là|ici}."
+          ]
+        },
+        {
+          "id": "g-punctuation-03",
+          "type": "build",
+          "en": "That's great!",
+          "a": [
+            "C'est super !",
+            "C'est génial !"
+          ]
+        }
+      ]
+    }
+  ]
+}

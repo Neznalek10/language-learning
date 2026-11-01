@@ -1,0 +1,261 @@
+{
+  "schema": 1,
+  "goals": [
+    "Describe your town and ask the way",
+    "Say where you're going and where you're coming from (au, à la, du, de la, chez)",
+    "Say how you travel: en bus, à pied",
+    "Give directions with the imperative",
+    "Talk about the near future: je vais + infinitive"
+  ],
+  "lessons": [
+    {
+      "id": "fr-7-1",
+      "title": "Dans ma ville",
+      "subtitle": "Places in town",
+      "topics": ["city"],
+      "words": ["geography#town, city", "geography#village", "geography#capital", "geography#square", "geography#street", "geography#church", "geography#castle", "geography#station", "geography#post office", "geography#museum", "geography#cinema", "geography#bank", "geography#hospital", "geography#park", "geography#stadium", "geography#town hall", "geography#bridge"],
+      "learn": [
+        {"title": "In town", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["station", "la gare"], ["post office", "la poste"], ["museum", "le musée"], ["cinema", "le cinéma"], ["bank", "la banque"],
+            ["hospital", "l'hôpital"], ["town hall", "la mairie"], ["park", "le parc"], ["stadium", "le stade"], ["church", "l'église"],
+            ["square", "la place"], ["street", "la rue"], ["bridge", "le pont"]
+          ]},
+          {"type": "text", "en": "With *il y a* you describe what there is in a town: *Dans ma ville, il y a un cinéma et un stade.* *Il n'y a pas de musée.*"},
+          {"type": "tip", "title": "la place", "en": "*La place* is a square, but also a place or seat. A street is *la rue*, a wide street *l'avenue* or *le boulevard*."}
+        ]},
+        {"title": "Where is...?", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Pardon, où est la gare, s'il vous plaît ?", "en": "Excuse me, where's the station, please?"},
+            {"fr": "La poste est en face de la mairie.", "en": "The post office is opposite the town hall."},
+            {"fr": "Le stade est loin du centre.", "en": "The stadium is far from the centre."},
+            {"fr": "C'est près d'ici ?", "en": "Is it near here?"}
+          ]},
+          {"type": "check", "item": {"type": "build", "en": "Where is the cinema?", "a": ["Où est le cinéma ?"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-7-1-01", "type": "cloze", "fr": "Dans ma ville, il y a un ___.", "a": ["cinéma"], "hint": "cinema"},
+        {"id": "fr-7-1-02", "type": "cloze", "fr": "Je prends le train à la ___.", "a": ["gare"], "hint": "station"},
+        {"id": "fr-7-1-03", "type": "cloze", "fr": "J'envoie une lettre à la ___.", "a": ["poste"], "hint": "post office"},
+        {"id": "fr-7-1-04", "type": "cloze", "fr": "Le ___ est grand et vert.", "a": ["parc"], "hint": "park"},
+        {"id": "fr-7-1-05", "type": "cloze", "fr": "On regarde le match au ___.", "a": ["stade"], "hint": "stadium"},
+        {"id": "fr-7-1-06", "type": "cloze", "fr": "Mon père travaille à l'___.", "a": ["hôpital"], "hint": "hospital"},
+        {"id": "fr-7-1-07", "type": "build", "en": "In my town there's a museum and a castle.", "a": ["Dans ma ville, il y a un musée et un château."]},
+        {"id": "fr-7-1-08", "type": "build", "en": "There's no cinema in our village.", "a": ["Dans notre village, il n'y a pas de cinéma."]},
+        {"id": "fr-7-1-09", "type": "build", "en": "Where is the post office, please?", "a": ["Où est la poste, s'il vous plaît ?"]},
+        {"id": "fr-7-1-10", "type": "build", "en": "The bank is opposite the town hall.", "a": ["La banque est en face de la mairie."]},
+        {"id": "fr-7-1-11", "type": "order", "en": "The station is near the park.", "a": ["La gare est près du parc"], "extra": ["de", "le"]}
+      ]
+    },
+    {
+      "id": "fr-7-2",
+      "title": "On va au cinéma ?",
+      "subtitle": "Where to and where from",
+      "topics": ["aller", "city"],
+      "words": ["verbs-irregular#to go", "verbs-irregular#to come", "verbs#to visit (a place)", "time#tonight, this evening", "basics#OK, agreed"],
+      "learn": [
+        {"title": "Where are you going? (tu)", "blocks": [
+          {"type": "text", "en": "With *aller*, revise *à + article*: *Je vais au cinéma, à la gare, à l'hôpital, aux toilettes.* You go to a person with *chez*: *Je vais chez le médecin, chez ma grand-mère.*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je vais ___ musée.", "a": ["au"]}}
+        ]},
+        {"title": "Where are you coming from?", "blocks": [
+          {"type": "text", "en": "With *venir de* it's the other way round, *de* contracts: *de + le = du, de + les = des*. *Je viens du cinéma. Il vient de la gare. Nous venons de l'école.* From a person's place: *Je viens de chez ma grand-mère.*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je viens ___ stade.", "a": ["du"]}}
+        ]},
+        {"title": "Suggestions", "blocks": [
+          {"type": "text", "en": "You suggest something with *On va... ?* (Shall we go...?): *On va au cinéma ce soir ?* You can answer *D'accord ! / Bonne idée ! / Désolé, je ne peux pas.*"},
+          {"type": "examples", "items": [
+            {"fr": "On va à la piscine samedi ?", "en": "Shall we go to the swimming pool on Saturday?"},
+            {"fr": "Bonne idée !", "en": "Good idea!"},
+            {"fr": "Désolé, je ne peux pas. Je vais chez mes grands-parents.", "en": "Sorry, I can't. I'm going to my grandparents'."}
+          ]}
+        ]}
+      ],
+      "practice": [
+        {"id": "fr-7-2-01", "type": "cloze", "fr": "On va ___ cinéma ?", "a": ["au"]},
+        {"id": "fr-7-2-02", "type": "cloze", "fr": "Elle va ___ banque.", "a": ["à la"]},
+        {"id": "fr-7-2-03", "type": "cloze", "fr": "Nous allons ___hôpital.", "a": ["à l'"]},
+        {"id": "fr-7-2-04", "type": "cloze", "fr": "Tu vas ___ ta tante ?", "a": ["chez"]},
+        {"id": "fr-7-2-05", "type": "cloze", "fr": "Je viens ___ poste.", "a": ["de la"]},
+        {"id": "fr-7-2-06", "type": "cloze", "fr": "Ils viennent ___ stade.", "a": ["du"]},
+        {"id": "fr-7-2-07", "type": "cloze", "fr": "Vous venez ___école ?", "a": ["de l'"]},
+        {"id": "fr-7-2-08", "type": "cloze", "fr": "Je viens ___ Paul.", "a": ["de chez"]},
+        {"id": "fr-7-2-09", "type": "build", "en": "Shall we go to the cinema tonight?", "a": ["On va au cinéma ce soir ?", "Ce soir, on va au cinéma ?"]},
+        {"id": "fr-7-2-10", "type": "build", "en": "I'm going to my grandmother's.", "a": ["Je vais chez ma grand-mère."]},
+        {"id": "fr-7-2-11", "type": "build", "en": "I'm coming from the station.", "a": ["Je viens de la gare."]},
+        {"id": "fr-7-2-12", "type": "build", "en": "Good idea!", "a": ["Bonne idée !"]},
+        {"id": "fr-7-2-13", "type": "build", "en": "Sorry, I can't.", "a": ["{Désolé|Désolée}, je ne peux pas."]},
+        {"id": "fr-7-2-14", "type": "transform", "task_en": "Say where you're coming from (venir de)", "fr": "Je vais au parc.", "a": ["Je viens du parc."]},
+        {"id": "fr-7-2-15", "type": "order", "en": "We're going to the museum.", "a": ["Nous allons au musée", "On va au musée"], "extra": ["à", "du"]}
+      ]
+    },
+    {
+      "id": "fr-7-3",
+      "title": "En bus ou à pied ?",
+      "subtitle": "Transport",
+      "topics": ["city"],
+      "words": ["transport#bus", "transport#underground, metro", "transport#tram", "transport#train", "transport#car", "transport#plane", "transport#boat", "transport#motorbike", "transport#on foot", "transport#by bike", "transport#by car", "transport#by bus", "sports#bike", "geography#stop (bus, tram)"],
+      "learn": [
+        {"title": "How do you travel?", "blocks": [
+          {"type": "text", "en": "For a vehicle you get into, you use *en*: *en bus, en métro, en train, en voiture, en avion*. When you walk or sit on something, it's *à*: *à pied, à vélo, à moto*."},
+          {"type": "table", "textCols": [0], "rows": [
+            ["by bus", "en bus"], ["by metro", "en métro"], ["by tram", "en tram"], ["by train", "en train"], ["by car", "en voiture"],
+            ["by plane", "en avion"], ["by boat", "en bateau"], ["on foot", "à pied"], ["by bike", "à vélo"], ["by motorbike", "à moto"]
+          ]},
+          {"type": "tip", "title": "prendre", "en": "You can also say *prendre* + article: *Je prends le bus. Il prend le métro.*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je vais au collège ___ pied.", "a": ["à"]}}
+        ]},
+        {"title": "The way to school", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Comment tu vas au collège ? En bus.", "en": "How do you get to school? By bus."},
+            {"fr": "Mon père va au travail en voiture.", "en": "My dad goes to work by car."},
+            {"fr": "Je prends le tram à l'arrêt devant la maison.", "en": "I catch the tram at the stop in front of the house."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-7-3-01", "type": "cloze", "fr": "Je vais à Paris ___ train.", "a": ["en"]},
+        {"id": "fr-7-3-02", "type": "cloze", "fr": "Il va au stade ___ vélo.", "a": ["à"]},
+        {"id": "fr-7-3-03", "type": "cloze", "fr": "Nous allons en Italie ___ avion.", "a": ["en"]},
+        {"id": "fr-7-3-04", "type": "cloze", "fr": "Elle va à l'école ___ pied.", "a": ["à"]},
+        {"id": "fr-7-3-05", "type": "cloze", "fr": "Tu prends ___ métro ?", "a": ["le"]},
+        {"id": "fr-7-3-06", "type": "cloze", "fr": "Ils vont au centre ___ tram.", "a": ["en"]},
+        {"id": "fr-7-3-07", "type": "build", "en": "I go to school by bus.", "a": ["Je vais {à l'école|au collège} en bus."]},
+        {"id": "fr-7-3-08", "type": "build", "en": "How do you get to training? (tu)", "a": ["{Comment tu vas|Comment vas-tu|Tu vas comment|Comment est-ce que tu vas} à l'entraînement ?", "Tu vas à l'entraînement comment ?"]},
+        {"id": "fr-7-3-09", "type": "build", "en": "I walk.", "a": ["Je vais à pied."]},
+        {"id": "fr-7-3-10", "type": "build", "en": "My dad goes to work by car.", "a": ["Mon père va au travail en voiture."], "hint": "to work = au travail"},
+        {"id": "fr-7-3-11", "type": "build", "en": "We're going by metro.", "a": ["{Nous prenons|On prend} le métro.", "{Nous allons|On va} en métro."]},
+        {"id": "fr-7-3-12", "type": "build", "en": "The stop is in front of the school.", "a": ["L'arrêt est devant {l'école|le collège}."]},
+        {"id": "fr-7-3-13", "type": "order", "en": "I cycle to the park.", "a": ["Je vais au parc à vélo"], "extra": ["en", "du"]}
+      ]
+    },
+    {
+      "id": "fr-7-4",
+      "title": "Tournez à gauche",
+      "subtitle": "The imperative and directions",
+      "topics": ["imperative", "city"],
+      "words": ["verbs#to turn", "verbs#to cross", "verbs#to continue", "transport#straight on", "transport#left, to the left", "transport#right, to the right"],
+      "learn": [
+        {"title": "The imperative", "blocks": [
+          {"type": "text", "en": "The imperative has three forms, for *tu*, *nous* and *vous*, and **no pronoun**: *Tourne ! Tournons ! Tournez !* The forms are the same as in the present tense, except that *-er* verbs (and *aller*) drop the final *-s* with *tu*: *tu tournes → tourne !, tu vas → va !*"},
+          {"type": "table", "head": ["", "tourner", "aller", "prendre"], "textCols": [0], "rows": [
+            ["tu", "Tourne !", "Va !", "Prends !"],
+            ["nous", "Tournons !", "Allons !", "Prenons !"],
+            ["vous", "Tournez !", "Allez !", "Prenez !"]
+          ]},
+          {"type": "tip", "title": "The negative", "en": "In the negative, *ne... pas* goes around the verb: *Ne traverse pas ! Ne tournez pas à droite !*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ à droite !", "a": ["Tournez"], "hint": "tourner, vous"}}
+        ]},
+        {"title": "Directions", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["Go straight on.", "Allez tout droit."],
+            ["Turn left.", "Tournez à gauche."],
+            ["Turn right.", "Tournez à droite."],
+            ["Cross the square.", "Traversez la place."],
+            ["Carry on as far as the bridge.", "Continuez jusqu'au pont."],
+            ["It's the first street on the right.", "C'est la première rue à droite."]
+          ]},
+          {"type": "examples", "items": [
+            {"fr": "Pardon, madame, où est la gare ?", "en": "Excuse me, madam, where's the station?"},
+            {"fr": "Allez tout droit, puis tournez à gauche. La gare est en face du parc.", "en": "Go straight on, then turn left. The station is opposite the park."},
+            {"fr": "Merci beaucoup !", "en": "Thanks a lot!"}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-7-4-f1", "type": "form", "verb": "tourner", "tense": "imperatif-present"},
+        {"id": "fr-7-4-f2", "type": "form", "verb": "aller", "tense": "imperatif-present"},
+        {"id": "fr-7-4-01", "type": "cloze", "fr": "___ tout droit !", "a": ["Allez"], "hint": "aller, vous"},
+        {"id": "fr-7-4-02", "type": "cloze", "fr": "___ la rue !", "a": ["Traverse"], "hint": "traverser, tu"},
+        {"id": "fr-7-4-03", "type": "cloze", "fr": "___ la deuxième rue à gauche.", "a": ["Prenez"], "hint": "prendre, vous"},
+        {"id": "fr-7-4-04", "type": "cloze", "fr": "___ jusqu'à la place.", "a": ["Continuez"], "hint": "continuer, vous"},
+        {"id": "fr-7-4-05", "type": "cloze", "fr": "Ne ___ pas ici !", "a": ["traverse"], "hint": "traverser, tu"},
+        {"id": "fr-7-4-06", "type": "build", "en": "Go straight on and then turn right. (vous)", "a": ["Allez tout droit, {puis|ensuite|et} tournez à droite."]},
+        {"id": "fr-7-4-07", "type": "build", "en": "Cross the bridge! (tu)", "a": ["Traverse le pont !"]},
+        {"id": "fr-7-4-08", "type": "build", "en": "Take the second street on the left. (vous)", "a": ["Prenez la deuxième rue à gauche.", "Tournez dans la deuxième rue à gauche."]},
+        {"id": "fr-7-4-09", "type": "build", "en": "Let's go to the park!", "a": ["Allons au parc !"]},
+        {"id": "fr-7-4-10", "type": "build", "en": "Don't cross the street! (tu)", "a": ["Ne traverse pas la rue !"]},
+        {"id": "fr-7-4-11", "type": "transform", "task_en": "Make it an order (vous)", "fr": "Vous tournez à gauche.", "a": ["Tournez à gauche !"]},
+        {"id": "fr-7-4-12", "type": "transform", "task_en": "Make it an order (tu)", "fr": "Tu vas tout droit.", "a": ["Va tout droit !"], "why": "Aller (and -er verbs) drop the final -s with tu."},
+        {"id": "fr-7-4-13", "type": "order", "en": "Carry straight on to the square.", "a": ["Continuez tout droit jusqu'à la place"], "extra": ["continue", "au"]}
+      ]
+    },
+    {
+      "id": "fr-7-5",
+      "title": "Je vais visiter Paris",
+      "subtitle": "The near future (futur proche)",
+      "topics": ["futur-proche"],
+      "words": ["verbs#to visit (a place)", "time#next", "time#tomorrow", "time#weekend"],
+      "learn": [
+        {"title": "The near future", "blocks": [
+          {"type": "text", "en": "You say what you're going to do with *aller* in the present + an infinitive: *Je vais visiter Paris.* (I'm going to visit Paris.)"},
+          {"type": "table", "verb": "visiter", "tense": "futur-proche"},
+          {"type": "text", "en": "The negative goes around *aller*: *Je ne vais pas sortir ce soir.* Time words: *demain* (tomorrow), *ce soir* (tonight), *ce week-end* (this weekend), *la semaine prochaine* (next week), *l'année prochaine* (next year)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Demain, je ___ visiter le musée.", "a": ["vais"]}}
+        ]},
+        {"title": "visiter or voir?", "blocks": [
+          {"type": "tip", "title": "Visiting your grandmother", "en": "*Visiter* is only used for places: *visiter Paris, visiter un musée*. When you visit a person you say *aller voir* or *rendre visite à*: *Je vais voir ma grand-mère.*"},
+          {"type": "examples", "items": [
+            {"fr": "Ce week-end, on va aller au stade.", "en": "This weekend we're going to go to the stadium."},
+            {"fr": "Mes parents vont acheter une voiture.", "en": "My parents are going to buy a car."},
+            {"fr": "Tu vas venir à la fête ?", "en": "Are you going to come to the party?"}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-7-5-f", "type": "form", "verb": "visiter", "tense": "futur-proche"},
+        {"id": "fr-7-5-01", "type": "cloze", "fr": "Ce soir, nous ___ regarder un film.", "a": ["allons"]},
+        {"id": "fr-7-5-02", "type": "cloze", "fr": "Demain, tu ___ prendre le bus ?", "a": ["vas"]},
+        {"id": "fr-7-5-03", "type": "cloze", "fr": "La semaine prochaine, ils ___ visiter Prague.", "a": ["vont"]},
+        {"id": "fr-7-5-04", "type": "cloze", "fr": "Je ne ___ pas venir.", "a": ["vais"]},
+        {"id": "fr-7-5-05", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Je visite le musée.", "a": ["Je vais visiter le musée."]},
+        {"id": "fr-7-5-06", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Nous prenons le train.", "a": ["{Nous allons|On va} prendre le train."]},
+        {"id": "fr-7-5-07", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Elle fait ses devoirs.", "a": ["Elle va faire ses devoirs."]},
+        {"id": "fr-7-5-08", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Je ne joue pas au foot.", "a": ["Je ne vais pas jouer au foot."]},
+        {"id": "fr-7-5-09", "type": "build", "en": "Tomorrow I'm going to visit my grandmother.", "a": ["Demain, je vais {voir ma grand-mère|rendre visite à ma grand-mère}."], "why": "For people you don't say visiter but aller voir or rendre visite à."},
+        {"id": "fr-7-5-10", "type": "build", "en": "This weekend we're going to play basketball.", "a": ["Ce week-end, {nous allons|on va} {jouer au basket|faire du basket}."]},
+        {"id": "fr-7-5-11", "type": "build", "en": "Next week we're going to go to Paris.", "a": ["La semaine prochaine, {nous allons|on va} aller à Paris."]},
+        {"id": "fr-7-5-12", "type": "build", "en": "Tonight I'm not going to watch TV.", "a": ["Ce soir, je ne vais pas regarder la télé."]},
+        {"id": "fr-7-5-13", "type": "order", "en": "My parents are going to buy a new car.", "a": ["Mes parents vont acheter une nouvelle voiture"], "extra": ["va", "nouveau"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-7-t-01", "lesson": "fr-7-1", "type": "cloze", "fr": "Dans ma ville, il y a un ___.", "a": ["hôpital"], "hint": "hospital"},
+      {"id": "fr-7-t-02", "lesson": "fr-7-1", "type": "cloze", "fr": "Le train part de la ___.", "a": ["gare"], "hint": "station"},
+      {"id": "fr-7-t-03", "lesson": "fr-7-1", "type": "build", "en": "In my town there's a stadium, but there's no museum.", "a": ["Dans ma ville, il y a un stade, mais il n'y a pas de musée."]},
+      {"id": "fr-7-t-04", "lesson": "fr-7-1", "type": "build", "en": "Where's the bank, please?", "a": ["Où est la banque, s'il vous plaît ?"]},
+      {"id": "fr-7-t-05", "lesson": "fr-7-2", "type": "cloze", "fr": "Je vais ___ parc.", "a": ["au"]},
+      {"id": "fr-7-t-06", "lesson": "fr-7-2", "type": "cloze", "fr": "On va ___ piscine ?", "a": ["à la"]},
+      {"id": "fr-7-t-07", "lesson": "fr-7-2", "type": "cloze", "fr": "Elle vient ___ cinéma.", "a": ["du"]},
+      {"id": "fr-7-t-08", "lesson": "fr-7-2", "type": "cloze", "fr": "Je vais ___ mon oncle.", "a": ["chez"]},
+      {"id": "fr-7-t-09", "lesson": "fr-7-2", "type": "build", "en": "Shall we go to the cinema?", "a": ["On va au cinéma ?"]},
+      {"id": "fr-7-t-10", "lesson": "fr-7-2", "type": "build", "en": "I'm coming from the post office.", "a": ["Je viens de la poste."]},
+      {"id": "fr-7-t-11", "lesson": "fr-7-3", "type": "cloze", "fr": "Je vais à Prague ___ train.", "a": ["en"]},
+      {"id": "fr-7-t-12", "lesson": "fr-7-3", "type": "cloze", "fr": "Tu vas au stade ___ pied ?", "a": ["à"]},
+      {"id": "fr-7-t-13", "lesson": "fr-7-3", "type": "build", "en": "I go to school by tram.", "a": ["Je vais {à l'école|au collège} en tram.", "Je prends le tram pour aller {à l'école|au collège}."]},
+      {"id": "fr-7-t-14", "lesson": "fr-7-3", "type": "build", "en": "Dad cycles to work.", "a": ["{Mon père|Papa|Mon papa} va au travail à vélo."]},
+      {"id": "fr-7-t-15", "lesson": "fr-7-4", "type": "form", "verb": "tourner", "tense": "imperatif-present", "person": 4},
+      {"id": "fr-7-t-16", "lesson": "fr-7-4", "type": "form", "verb": "prendre", "tense": "imperatif-present", "person": 1},
+      {"id": "fr-7-t-17", "lesson": "fr-7-4", "type": "form", "verb": "aller", "tense": "imperatif-present", "person": 3},
+      {"id": "fr-7-t-18", "lesson": "fr-7-4", "type": "cloze", "fr": "___ la place !", "a": ["Traversez"], "hint": "traverser, vous"},
+      {"id": "fr-7-t-19", "lesson": "fr-7-4", "type": "build", "en": "Go straight on! (vous)", "a": ["Allez tout droit !"]},
+      {"id": "fr-7-t-20", "lesson": "fr-7-4", "type": "build", "en": "Turn left! (tu)", "a": ["Tourne à gauche !"]},
+      {"id": "fr-7-t-21", "lesson": "fr-7-4", "type": "transform", "task_en": "Make it an order (vous)", "fr": "Vous continuez tout droit.", "a": ["Continuez tout droit !"]},
+      {"id": "fr-7-t-22", "lesson": "fr-7-5", "type": "form", "verb": "visiter", "tense": "futur-proche", "person": 3},
+      {"id": "fr-7-t-23", "lesson": "fr-7-5", "type": "transform", "task_en": "Put it in the futur proche", "fr": "Il prend le métro.", "a": ["Il va prendre le métro."]},
+      {"id": "fr-7-t-24", "lesson": "fr-7-5", "type": "build", "en": "Tomorrow I'm going to play basketball.", "a": ["Demain, je vais {jouer au basket|faire du basket}."]},
+      {"id": "fr-7-t-25", "lesson": "fr-7-5", "type": "build", "en": "This weekend we're going to visit Paris.", "a": ["Ce week-end, {nous allons|on va} visiter Paris."]},
+      {"id": "fr-7-t-26", "lesson": "fr-7-5", "type": "build", "en": "I'm not going to watch the film.", "a": ["Je ne vais pas regarder le film."]}
+    ]
+  }
+}

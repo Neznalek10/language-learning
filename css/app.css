@@ -1312,3 +1312,5 @@ body.is-focus #toast-root { bottom: calc(100px + env(safe-area-inset-bottom)); }
 .drill-card-main .drill-meta { color: var(--text-3); font-size: 13px; }
 
 a.quick-btn { color: inherit; text-decoration: none; }
+.account-folder { align-items: center; margin-top: 14px; text-align: left; }
+.account-folder span { flex: 1; }

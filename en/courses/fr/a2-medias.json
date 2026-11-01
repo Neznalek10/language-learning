@@ -1,0 +1,1495 @@
+{
+  "schema": 1,
+  "goals": [
+    "Talk about phones, computers and social media",
+    "Say what you like watching and what you think of it",
+    "Replace a thing with the pronoun le, la, les",
+    "Replace a person with the pronoun lui, leur",
+    "Negatives: ne ... jamais, ne ... plus, ne ... rien, ne ... personne"
+  ],
+  "lessons": [
+    {
+      "id": "fr-medias-1",
+      "title": "Mon portable",
+      "subtitle": "Phone, computer and the internet",
+      "topics": [
+        "media"
+      ],
+      "words": [
+        "media#mobile phone",
+        "media#computer",
+        "media#tablet",
+        "media#app",
+        "media#social network",
+        "media#password",
+        "media#online",
+        "media#message, text",
+        "media#video",
+        "media#charger",
+        "media#screen",
+        "verbs#to download",
+        "verbs#to share",
+        "verbs#to send"
+      ],
+      "learn": [
+        {
+          "title": "Screens",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "mobile phone",
+                  "un portable (un téléphone)"
+                ],
+                [
+                  "computer",
+                  "un ordinateur"
+                ],
+                [
+                  "tablet",
+                  "une tablette"
+                ],
+                [
+                  "app",
+                  "une appli"
+                ],
+                [
+                  "social network",
+                  "un réseau social (des réseaux sociaux)"
+                ],
+                [
+                  "password",
+                  "un mot de passe"
+                ],
+                [
+                  "to be online",
+                  "être en ligne"
+                ],
+                [
+                  "to send a message",
+                  "envoyer un message"
+                ],
+                [
+                  "to download an app",
+                  "télécharger une appli"
+                ],
+                [
+                  "to share a photo",
+                  "partager une photo"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai oublié mon mot de ___.",
+                "a": [
+                  "passe"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Screen time",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Le temps d'écran* = screen time. *Je passe deux heures par jour sur mon portable.* (I spend two hours a day on my phone.) On the internet = *sur Internet*, on social media = *sur les réseaux sociaux*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je regarde des vidéos sur mon portable.",
+                  "en": "I watch videos on my phone."
+                },
+                {
+                  "fr": "Il joue sur son ordinateur tous les soirs.",
+                  "en": "He plays on his computer every evening."
+                },
+                {
+                  "fr": "Tu es sur quels réseaux sociaux ?",
+                  "en": "Which social networks are you on?"
+                },
+                {
+                  "fr": "Mon portable n'a plus de batterie.",
+                  "en": "My phone's battery is dead."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Send me a message! (tu)",
+                "a": [
+                  "Envoie-moi un message !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-medias-1-01",
+          "type": "cloze",
+          "fr": "Mon ___ n'a plus de batterie.",
+          "a": [
+            "portable"
+          ],
+          "hint": "mobile phone"
+        },
+        {
+          "id": "fr-medias-1-02",
+          "type": "cloze",
+          "fr": "Je fais mes devoirs sur l'___.",
+          "a": [
+            "ordinateur"
+          ],
+          "hint": "computer"
+        },
+        {
+          "id": "fr-medias-1-03",
+          "type": "cloze",
+          "fr": "Tu es sur les réseaux ___ ?",
+          "a": [
+            "sociaux"
+          ]
+        },
+        {
+          "id": "fr-medias-1-04",
+          "type": "cloze",
+          "fr": "Je ___ une nouvelle appli.",
+          "a": [
+            "télécharge"
+          ],
+          "hint": "to download"
+        },
+        {
+          "id": "fr-medias-1-05",
+          "type": "cloze",
+          "fr": "Elle ___ ses photos avec ses amis.",
+          "a": [
+            "partage"
+          ],
+          "hint": "partager"
+        },
+        {
+          "id": "fr-medias-1-06",
+          "type": "cloze",
+          "fr": "Où est mon ___ ? Mon portable est déchargé.",
+          "a": [
+            "chargeur"
+          ],
+          "hint": "charger"
+        },
+        {
+          "id": "fr-medias-1-07",
+          "type": "build",
+          "en": "I spend a lot of time on my phone.",
+          "a": [
+            "Je passe beaucoup de temps sur mon portable.",
+            "Je passe beaucoup de temps sur le portable."
+          ]
+        },
+        {
+          "id": "fr-medias-1-08",
+          "type": "build",
+          "en": "I sent you a message.",
+          "a": [
+            "Je t'ai envoyé un message."
+          ]
+        },
+        {
+          "id": "fr-medias-1-09",
+          "type": "build",
+          "en": "I don't have the password.",
+          "a": [
+            "Je n'ai pas le mot de passe.",
+            "Je n'ai pas de mot de passe."
+          ]
+        },
+        {
+          "id": "fr-medias-1-10",
+          "type": "build",
+          "en": "My sister is always online.",
+          "a": [
+            "Ma sœur est toujours en ligne."
+          ]
+        },
+        {
+          "id": "fr-medias-1-11",
+          "type": "build",
+          "en": "I watch videos on the internet.",
+          "a": [
+            "Je regarde des vidéos sur Internet."
+          ]
+        },
+        {
+          "id": "fr-medias-1-12",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "un réseau social",
+          "a": [
+            "des réseaux sociaux"
+          ]
+        },
+        {
+          "id": "fr-medias-1-13",
+          "type": "order",
+          "en": "I downloaded a new game.",
+          "a": [
+            "J'ai téléchargé un nouveau jeu"
+          ],
+          "extra": [
+            "nouvelle",
+            "une"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-medias-2",
+      "title": "Séries et films",
+      "subtitle": "What you watch",
+      "topics": [
+        "media",
+        "likes"
+      ],
+      "words": [
+        "media#cartoon, animated film",
+        "media#series",
+        "media#episode",
+        "media#season (of a series)",
+        "media#film",
+        "media#comedy",
+        "media#drama",
+        "media#TV news",
+        "media#advert, advertising",
+        "media#detective (film)",
+        "media#programme, show",
+        "media#song",
+        "media#adventure (film), adventurous",
+        "media#soap opera",
+        "media#the news, information",
+        "media#current events"
+      ],
+      "learn": [
+        {
+          "title": "What do you like watching?",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "series",
+                  "une série"
+                ],
+                [
+                  "episode",
+                  "un épisode"
+                ],
+                [
+                  "season (of a series)",
+                  "une saison"
+                ],
+                [
+                  "cartoon",
+                  "un dessin animé"
+                ],
+                [
+                  "comedy",
+                  "une comédie"
+                ],
+                [
+                  "detective film",
+                  "un film policier"
+                ],
+                [
+                  "the TV news",
+                  "le journal (télévisé)"
+                ],
+                [
+                  "advert",
+                  "une publicité (une pub)"
+                ],
+                [
+                  "programme, show",
+                  "une émission"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Ce soir, je regarde un nouvel ___ de ma série.",
+                "a": [
+                  "épisode"
+                ],
+                "hint": "episode"
+              }
+            }
+          ]
+        },
+        {
+          "title": "What's it like?",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "funny",
+                  "drôle"
+                ],
+                [
+                  "boring",
+                  "ennuyeux"
+                ],
+                [
+                  "exciting",
+                  "passionnant"
+                ],
+                [
+                  "great",
+                  "génial"
+                ],
+                [
+                  "rubbish",
+                  "nul"
+                ],
+                [
+                  "moving",
+                  "émouvant"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "aimer + le, la, les",
+              "en": "After *aimer, adorer, détester, préférer* there's the definite article: *J'aime les comédies.* Not *des comédies*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'adore les séries policières.",
+                  "en": "I love detective series."
+                },
+                {
+                  "fr": "Je trouve ce film ennuyeux.",
+                  "en": "I find this film boring."
+                },
+                {
+                  "fr": "Cette émission est nulle.",
+                  "en": "This programme is rubbish."
+                },
+                {
+                  "fr": "Le dernier épisode est génial !",
+                  "en": "The last episode is great!"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "I love comedies.",
+                "a": [
+                  "J'adore les comédies."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-medias-2-01",
+          "type": "cloze",
+          "fr": "J'adore ___ dessins animés.",
+          "a": [
+            "les"
+          ]
+        },
+        {
+          "id": "fr-medias-2-02",
+          "type": "cloze",
+          "fr": "Il regarde le ___ à 20 heures.",
+          "a": [
+            "journal"
+          ],
+          "hint": "news"
+        },
+        {
+          "id": "fr-medias-2-03",
+          "type": "cloze",
+          "fr": "Cette série a trois ___.",
+          "a": [
+            "saisons"
+          ],
+          "hint": "seasons"
+        },
+        {
+          "id": "fr-medias-2-04",
+          "type": "cloze",
+          "fr": "Je déteste les ___ à la télé.",
+          "a": [
+            "publicités",
+            "pubs"
+          ],
+          "hint": "adverts"
+        },
+        {
+          "id": "fr-medias-2-05",
+          "type": "cloze",
+          "fr": "Ce film est très ___, j'ai beaucoup ri.",
+          "a": [
+            "drôle"
+          ],
+          "hint": "funny"
+        },
+        {
+          "id": "fr-medias-2-06",
+          "type": "build",
+          "en": "What's your favourite series? (tu)",
+          "a": [
+            "Quelle est ta série préférée ?",
+            "C'est quoi ta série préférée ?"
+          ]
+        },
+        {
+          "id": "fr-medias-2-07",
+          "type": "build",
+          "en": "I don't like detective films.",
+          "a": [
+            "Je n'aime pas les films policiers."
+          ]
+        },
+        {
+          "id": "fr-medias-2-08",
+          "type": "build",
+          "en": "This film is boring.",
+          "a": [
+            "Ce film est ennuyeux."
+          ]
+        },
+        {
+          "id": "fr-medias-2-09",
+          "type": "build",
+          "en": "We watch cartoons.",
+          "a": [
+            "Nous regardons des dessins animés.",
+            "On regarde des dessins animés."
+          ]
+        },
+        {
+          "id": "fr-medias-2-10",
+          "type": "build",
+          "en": "This song is great!",
+          "a": [
+            "Cette chanson est géniale !",
+            "Cette chanson est super !"
+          ]
+        },
+        {
+          "id": "fr-medias-2-11",
+          "type": "build",
+          "en": "Have you seen the last episode? (tu)",
+          "a": [
+            "Tu as vu le dernier épisode ?",
+            "Est-ce que tu as vu le dernier épisode ?"
+          ]
+        },
+        {
+          "id": "fr-medias-2-12",
+          "type": "order",
+          "en": "That series is really exciting.",
+          "a": [
+            "Cette série est vraiment passionnante"
+          ],
+          "extra": [
+            "passionnant",
+            "Ce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-medias-3",
+      "title": "Je le regarde",
+      "subtitle": "The pronouns le, la, les",
+      "topics": [
+        "object-pronouns",
+        "media"
+      ],
+      "words": [
+        "verbs#to stop"
+      ],
+      "learn": [
+        {
+          "title": "le, la, les",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "So that you don't repeat a noun, replace it with *le* (masculine), *la* (feminine) or *les* (plural). Before a vowel it's *l'*. The pronoun goes **before the verb**: *Je regarde la série → Je la regarde.*"
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "I'm watching it. (le film)",
+                  "Je le regarde."
+                ],
+                [
+                  "I'm watching it. (la série)",
+                  "Je la regarde."
+                ],
+                [
+                  "I'm watching them. (les vidéos)",
+                  "Je les regarde."
+                ],
+                [
+                  "I love it. (the show)",
+                  "Je l'adore."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je regarde [la télé].",
+                "a": [
+                  "Je la regarde."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Negatives and infinitives",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In the negative, *ne ... pas* goes around the pronoun and the verb: *Je ne la regarde pas.* With an infinitive the pronoun goes before the infinitive: *Je vais le regarder ce soir.*"
+            },
+            {
+              "type": "tip",
+              "title": "more in Grammar",
+              "en": "You'll find every situation step by step in Grammar, in the chapter *Object pronouns step by step*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ton portable ? Je ne le trouve pas.",
+                  "en": "Your phone? I can't find it."
+                },
+                {
+                  "fr": "Cette appli ? Je l'utilise tous les jours.",
+                  "en": "This app? I use it every day."
+                },
+                {
+                  "fr": "Les infos ? Je les regarde le soir.",
+                  "en": "The news? I watch it in the evening."
+                },
+                {
+                  "fr": "Le match ? On va le regarder chez Tom.",
+                  "en": "The match? We're going to watch it at Tom's."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "I'll see it tomorrow. (the film)",
+                "a": [
+                  "Je vais le voir demain.",
+                  "Je le vois demain.",
+                  "Je le verrai demain."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-medias-3-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je regarde [le match].",
+          "a": [
+            "Je le regarde."
+          ]
+        },
+        {
+          "id": "fr-medias-3-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu écoutes [cette chanson] ?",
+          "a": [
+            "Tu l'écoutes ?"
+          ]
+        },
+        {
+          "id": "fr-medias-3-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous aimons [les séries].",
+          "a": [
+            "Nous les aimons."
+          ]
+        },
+        {
+          "id": "fr-medias-3-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle prend [son portable].",
+          "a": [
+            "Elle le prend."
+          ]
+        },
+        {
+          "id": "fr-medias-3-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je ne regarde pas [les infos].",
+          "a": [
+            "Je ne les regarde pas."
+          ]
+        },
+        {
+          "id": "fr-medias-3-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais télécharger [l'appli].",
+          "a": [
+            "Je vais la télécharger."
+          ]
+        },
+        {
+          "id": "fr-medias-3-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu peux arrêter [la vidéo] ?",
+          "a": [
+            "Tu peux l'arrêter ?"
+          ]
+        },
+        {
+          "id": "fr-medias-3-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il cherche [son chargeur].",
+          "a": [
+            "Il le cherche."
+          ]
+        },
+        {
+          "id": "fr-medias-3-09",
+          "type": "build",
+          "en": "I like it. (the series)",
+          "a": [
+            "Je l'aime bien.",
+            "Je l'aime.",
+            "Je l'adore."
+          ]
+        },
+        {
+          "id": "fr-medias-3-10",
+          "type": "build",
+          "en": "I can't see them. (my keys)",
+          "a": [
+            "Je ne les vois pas."
+          ]
+        },
+        {
+          "id": "fr-medias-3-11",
+          "type": "cloze",
+          "fr": "Ma tablette ? Je l'___ tous les jours.",
+          "a": [
+            "utilise"
+          ],
+          "hint": "to use"
+        },
+        {
+          "id": "fr-medias-3-12",
+          "type": "cloze",
+          "fr": "Les vidéos ? Je ___ regarde le soir.",
+          "a": [
+            "les"
+          ]
+        },
+        {
+          "id": "fr-medias-3-13",
+          "type": "order",
+          "en": "I'm going to watch it tonight. (the film)",
+          "a": [
+            "Je vais le regarder ce soir"
+          ],
+          "extra": [
+            "la",
+            "regarde"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-medias-4",
+      "title": "Je lui envoie un message",
+      "subtitle": "The pronouns lui, leur",
+      "topics": [
+        "object-pronouns"
+      ],
+      "words": [
+        "verbs-irregular#to say, to tell"
+      ],
+      "learn": [
+        {
+          "title": "lui and leur",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When a verb goes with *à* + a person (*envoyer à, écrire à, téléphoner à, répondre à, dire à, parler à*), you replace the person with *lui* (to him or to her) or *leur* (to them)."
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "I'm writing to him.",
+                  "Je lui écris."
+                ],
+                [
+                  "I'm writing to her.",
+                  "Je lui écris."
+                ],
+                [
+                  "I'm writing to them.",
+                  "Je leur écris."
+                ],
+                [
+                  "I'm phoning him.",
+                  "Je lui téléphone."
+                ],
+                [
+                  "I'm answering them.",
+                  "Je leur réponds."
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "lui = to him and to her",
+              "en": "*Lui* works for a man and a woman. And *leur* never takes *-s*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "J'écris [à ma grand-mère].",
+                "a": [
+                  "Je lui écris."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "le or lui?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Ask yourself: is there *à* after the verb? Yes → *lui / leur*. No → *le / la / les*. *Je regarde Paul → Je le regarde. Je parle à Paul → Je lui parle.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon frère ? Je lui envoie une vidéo.",
+                  "en": "My brother? I'm sending him a video."
+                },
+                {
+                  "fr": "Mes parents ? Je leur téléphone le soir.",
+                  "en": "My parents? I phone them in the evening."
+                },
+                {
+                  "fr": "Léa ? Je l'appelle demain.",
+                  "en": "Léa? I'll call her tomorrow."
+                },
+                {
+                  "fr": "Tu leur as répondu ?",
+                  "en": "Did you answer them?"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "I'm phoning them.",
+                "a": [
+                  "Je leur téléphone.",
+                  "Je les appelle."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-medias-4-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je téléphone [à Paul].",
+          "a": [
+            "Je lui téléphone."
+          ]
+        },
+        {
+          "id": "fr-medias-4-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle écrit [à ses amies].",
+          "a": [
+            "Elle leur écrit."
+          ]
+        },
+        {
+          "id": "fr-medias-4-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous répondons [au prof].",
+          "a": [
+            "Nous lui répondons."
+          ]
+        },
+        {
+          "id": "fr-medias-4-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu envoies une photo [à ta mère] ?",
+          "a": [
+            "Tu lui envoies une photo ?"
+          ]
+        },
+        {
+          "id": "fr-medias-4-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il dit bonjour [aux voisins].",
+          "a": [
+            "Il leur dit bonjour."
+          ]
+        },
+        {
+          "id": "fr-medias-4-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais écrire [à mon cousin].",
+          "a": [
+            "Je vais lui écrire."
+          ]
+        },
+        {
+          "id": "fr-medias-4-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je ne parle pas [à mes voisins].",
+          "a": [
+            "Je ne leur parle pas."
+          ]
+        },
+        {
+          "id": "fr-medias-4-08",
+          "type": "cloze",
+          "fr": "Léa ? Je ___ envoie un message.",
+          "a": [
+            "lui"
+          ]
+        },
+        {
+          "id": "fr-medias-4-09",
+          "type": "cloze",
+          "fr": "Mes parents ? Je ___ téléphone tous les jours.",
+          "a": [
+            "leur"
+          ]
+        },
+        {
+          "id": "fr-medias-4-10",
+          "type": "cloze",
+          "fr": "Paul ? Je ___ vois demain.",
+          "a": [
+            "le"
+          ]
+        },
+        {
+          "id": "fr-medias-4-11",
+          "type": "build",
+          "en": "I'll write him a message.",
+          "a": [
+            "Je vais lui écrire un message.",
+            "Je lui écris un message.",
+            "Je vais lui envoyer un message.",
+            "Je lui envoie un message."
+          ]
+        },
+        {
+          "id": "fr-medias-4-12",
+          "type": "build",
+          "en": "What did you tell them? (tu)",
+          "a": [
+            "Qu'est-ce que tu leur as dit ?",
+            "Tu leur as dit quoi ?"
+          ]
+        },
+        {
+          "id": "fr-medias-4-13",
+          "type": "order",
+          "en": "I'm going to send her a video.",
+          "a": [
+            "Je vais lui envoyer une vidéo"
+          ],
+          "extra": [
+            "la",
+            "leur"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-medias-5",
+      "title": "Je ne regarde jamais la télé",
+      "subtitle": "Negatives: jamais, plus, rien, personne",
+      "topics": [
+        "negation",
+        "media"
+      ],
+      "words": [
+        "media#addicted, hooked"
+      ],
+      "learn": [
+        {
+          "title": "More negatives",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "I never watch TV.",
+                  "Je ne regarde jamais la télé."
+                ],
+                [
+                  "I don't play video games any more.",
+                  "Je ne joue plus aux jeux vidéo."
+                ],
+                [
+                  "I can't see anything.",
+                  "Je ne vois rien."
+                ],
+                [
+                  "I don't know anybody.",
+                  "Je ne connais personne."
+                ],
+                [
+                  "I only have ten minutes.",
+                  "Je n'ai que dix minutes."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "*Ne* goes before the verb and the second word after it. Where English uses one word, French uses two: *ne ... jamais* (never), *ne ... rien* (nothing)."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je ne regarde ___ la télé, je préfère YouTube.",
+                "a": [
+                  "jamais"
+                ],
+                "hint": "never"
+              }
+            }
+          ]
+        },
+        {
+          "title": "In the past",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In the passé composé: *Je n'ai jamais vu ce film. Je n'ai rien compris.* Only *personne* goes after the participle: *Je n'ai vu personne.*"
+            },
+            {
+              "type": "tip",
+              "title": "être accro",
+              "en": "*Être accro* = to be hooked, addicted: *Il est accro à son portable.* (He's addicted to his phone.)"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je ne suis plus sur Facebook.",
+                  "en": "I'm not on Facebook any more."
+                },
+                {
+                  "fr": "Il ne dit rien.",
+                  "en": "He doesn't say anything."
+                },
+                {
+                  "fr": "Personne ne répond.",
+                  "en": "Nobody answers."
+                },
+                {
+                  "fr": "Je n'ai rien posté hier.",
+                  "en": "I didn't post anything yesterday."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Make it negative with jamais",
+                "fr": "Je joue à des jeux en ligne.",
+                "a": [
+                  "Je ne joue jamais à des jeux en ligne.",
+                  "Je ne joue jamais aux jeux en ligne."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-medias-5-01",
+          "type": "cloze",
+          "fr": "Il ne joue ___ aux jeux vidéo, il a arrêté.",
+          "a": [
+            "plus"
+          ],
+          "hint": "already"
+        },
+        {
+          "id": "fr-medias-5-02",
+          "type": "cloze",
+          "fr": "Je ne vois ___ sur l'écran.",
+          "a": [
+            "rien"
+          ],
+          "hint": "nothing"
+        },
+        {
+          "id": "fr-medias-5-03",
+          "type": "cloze",
+          "fr": "Je ne connais ___ dans ce groupe.",
+          "a": [
+            "personne"
+          ],
+          "hint": "nobody"
+        },
+        {
+          "id": "fr-medias-5-04",
+          "type": "cloze",
+          "fr": "Je n'ai ___ dix minutes.",
+          "a": [
+            "que"
+          ],
+          "hint": "only"
+        },
+        {
+          "id": "fr-medias-5-05",
+          "type": "transform",
+          "task_en": "Make it negative with rien",
+          "fr": "Je regarde quelque chose.",
+          "a": [
+            "Je ne regarde rien."
+          ]
+        },
+        {
+          "id": "fr-medias-5-06",
+          "type": "transform",
+          "task_en": "Make it negative with plus",
+          "fr": "Il est accro à son portable.",
+          "a": [
+            "Il n'est plus accro à son portable."
+          ]
+        },
+        {
+          "id": "fr-medias-5-07",
+          "type": "transform",
+          "task_en": "Make it negative with personne",
+          "fr": "Je vois quelqu'un.",
+          "a": [
+            "Je ne vois personne."
+          ]
+        },
+        {
+          "id": "fr-medias-5-08",
+          "type": "build",
+          "en": "I never play games on my phone.",
+          "a": [
+            "Je ne joue jamais à des jeux sur mon portable.",
+            "Je ne joue jamais aux jeux sur mon portable.",
+            "Je ne joue jamais sur mon portable."
+          ]
+        },
+        {
+          "id": "fr-medias-5-09",
+          "type": "build",
+          "en": "I'm not on social media any more.",
+          "a": [
+            "Je ne suis plus sur les réseaux sociaux."
+          ]
+        },
+        {
+          "id": "fr-medias-5-10",
+          "type": "build",
+          "en": "I didn't understand anything.",
+          "a": [
+            "Je n'ai rien compris."
+          ]
+        },
+        {
+          "id": "fr-medias-5-11",
+          "type": "build",
+          "en": "Nobody writes to me.",
+          "a": [
+            "Personne ne m'écrit."
+          ]
+        },
+        {
+          "id": "fr-medias-5-12",
+          "type": "build",
+          "en": "My brother is addicted to his phone.",
+          "a": [
+            "Mon frère est accro à son portable.",
+            "Mon frère est accroché à son portable."
+          ]
+        },
+        {
+          "id": "fr-medias-5-13",
+          "type": "order",
+          "en": "I never watch the news.",
+          "a": [
+            "Je ne regarde jamais le journal"
+          ],
+          "extra": [
+            "pas",
+            "rien"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-medias-t-01",
+        "lesson": "fr-medias-1",
+        "type": "cloze",
+        "fr": "J'envoie un ___ à ma copine.",
+        "a": [
+          "message"
+        ],
+        "hint": "message"
+      },
+      {
+        "id": "fr-medias-t-02",
+        "lesson": "fr-medias-1",
+        "type": "build",
+        "en": "I don't have a charger.",
+        "a": [
+          "Je n'ai pas de chargeur."
+        ]
+      },
+      {
+        "id": "fr-medias-t-03",
+        "lesson": "fr-medias-1",
+        "type": "build",
+        "en": "I downloaded an app.",
+        "a": [
+          "J'ai téléchargé une appli.",
+          "J'ai téléchargé une application."
+        ]
+      },
+      {
+        "id": "fr-medias-t-04",
+        "lesson": "fr-medias-1",
+        "type": "cloze",
+        "fr": "Je fais une recherche sur l'___.",
+        "a": [
+          "ordinateur"
+        ],
+        "hint": "computer"
+      },
+      {
+        "id": "fr-medias-t-05",
+        "lesson": "fr-medias-1",
+        "type": "build",
+        "en": "I share photos with my friends.",
+        "a": [
+          "Je partage des photos avec mes amis.",
+          "Je partage mes photos avec mes amis.",
+          "Je partage des photos avec mes copains."
+        ]
+      },
+      {
+        "id": "fr-medias-t-06",
+        "lesson": "fr-medias-2",
+        "type": "build",
+        "en": "I love cartoons.",
+        "a": [
+          "J'adore les dessins animés."
+        ]
+      },
+      {
+        "id": "fr-medias-t-07",
+        "lesson": "fr-medias-2",
+        "type": "cloze",
+        "fr": "Cette ___ est trop longue : il y a dix saisons !",
+        "a": [
+          "série"
+        ],
+        "hint": "series"
+      },
+      {
+        "id": "fr-medias-t-08",
+        "lesson": "fr-medias-2",
+        "type": "build",
+        "en": "That film was boring.",
+        "a": [
+          "Ce film était ennuyeux.",
+          "Ce film a été ennuyeux."
+        ]
+      },
+      {
+        "id": "fr-medias-t-09",
+        "lesson": "fr-medias-2",
+        "type": "build",
+        "en": "What's your favourite film? (tu)",
+        "a": [
+          "Quel est ton film préféré ?",
+          "C'est quoi ton film préféré ?"
+        ]
+      },
+      {
+        "id": "fr-medias-t-10",
+        "lesson": "fr-medias-2",
+        "type": "cloze",
+        "fr": "J'aime regarder les ___ de sport à la télé.",
+        "a": [
+          "émissions"
+        ],
+        "hint": "programmes"
+      },
+      {
+        "id": "fr-medias-t-11",
+        "lesson": "fr-medias-3",
+        "type": "transform",
+        "task_en": "Replace the underlined words with a pronoun",
+        "fr": "Je regarde [la série] le soir.",
+        "a": [
+          "Je la regarde le soir."
+        ]
+      },
+      {
+        "id": "fr-medias-t-12",
+        "lesson": "fr-medias-3",
+        "type": "transform",
+        "task_en": "Replace the underlined words with a pronoun",
+        "fr": "Tu as [mon chargeur] ?",
+        "a": [
+          "Tu l'as ?"
+        ]
+      },
+      {
+        "id": "fr-medias-t-13",
+        "lesson": "fr-medias-3",
+        "type": "transform",
+        "task_en": "Replace the underlined words with a pronoun",
+        "fr": "Nous n'aimons pas [ces publicités].",
+        "a": [
+          "Nous ne les aimons pas."
+        ]
+      },
+      {
+        "id": "fr-medias-t-14",
+        "lesson": "fr-medias-3",
+        "type": "cloze",
+        "fr": "Le film ? Je vais ___ voir samedi.",
+        "a": [
+          "le"
+        ]
+      },
+      {
+        "id": "fr-medias-t-15",
+        "lesson": "fr-medias-3",
+        "type": "build",
+        "en": "I'm looking for it. (my phone)",
+        "a": [
+          "Je le cherche."
+        ]
+      },
+      {
+        "id": "fr-medias-t-16",
+        "lesson": "fr-medias-4",
+        "type": "transform",
+        "task_en": "Replace the underlined words with a pronoun",
+        "fr": "J'écris [à mes cousins].",
+        "a": [
+          "Je leur écris."
+        ]
+      },
+      {
+        "id": "fr-medias-t-17",
+        "lesson": "fr-medias-4",
+        "type": "transform",
+        "task_en": "Replace the underlined words with a pronoun",
+        "fr": "Tu réponds [à Léa] ?",
+        "a": [
+          "Tu lui réponds ?"
+        ]
+      },
+      {
+        "id": "fr-medias-t-18",
+        "lesson": "fr-medias-4",
+        "type": "cloze",
+        "fr": "Mon père ? Je ___ envoie une photo.",
+        "a": [
+          "lui"
+        ]
+      },
+      {
+        "id": "fr-medias-t-19",
+        "lesson": "fr-medias-4",
+        "type": "build",
+        "en": "I phone him every day.",
+        "a": [
+          "Je lui téléphone tous les jours.",
+          "Je l'appelle tous les jours."
+        ]
+      },
+      {
+        "id": "fr-medias-t-20",
+        "lesson": "fr-medias-4",
+        "type": "build",
+        "en": "Write to them! (tu)",
+        "a": [
+          "Écris-leur !"
+        ]
+      },
+      {
+        "id": "fr-medias-t-21",
+        "lesson": "fr-medias-5",
+        "type": "cloze",
+        "fr": "Je ne poste ___ sur Instagram.",
+        "a": [
+          "rien"
+        ],
+        "hint": "nothing"
+      },
+      {
+        "id": "fr-medias-t-22",
+        "lesson": "fr-medias-5",
+        "type": "build",
+        "en": "I never watch the news on TV.",
+        "a": [
+          "Je ne regarde jamais le journal.",
+          "Je ne regarde jamais les infos.",
+          "Je ne regarde jamais les informations."
+        ]
+      },
+      {
+        "id": "fr-medias-t-23",
+        "lesson": "fr-medias-5",
+        "type": "transform",
+        "task_en": "Make it negative with plus",
+        "fr": "Je joue à ce jeu.",
+        "a": [
+          "Je ne joue plus à ce jeu."
+        ]
+      },
+      {
+        "id": "fr-medias-t-24",
+        "lesson": "fr-medias-5",
+        "type": "build",
+        "en": "Nobody's calling.",
+        "a": [
+          "Personne ne téléphone.",
+          "Personne n'appelle."
+        ]
+      },
+      {
+        "id": "fr-medias-t-25",
+        "lesson": "fr-medias-5",
+        "type": "build",
+        "en": "I didn't see anything.",
+        "a": [
+          "Je n'ai rien vu."
+        ]
+      }
+    ]
+  }
+}

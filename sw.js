@@ -6,7 +6,6 @@ const CORE = [
   './index.html',
   './version.js',
   './manifest.json',
-  './words.json',
   './conjugations/fr.json',
   './css/app.css',
   './js/app.js',
@@ -15,7 +14,10 @@ const CORE = [
   './js/check.js',
   './js/conj.js',
   './js/data.js',
+  './js/folder.js',
   './js/explain.js',
+  './js/i18n.js',
+  './js/i18n-cs.js',
   './js/learn/answers.js',
   './js/learn/blocks.js',
   './js/learn/course.js',
@@ -63,15 +65,12 @@ const CORE = [
   './js/views/speak.js',
   './js/views/write-tab.js',
   './js/views/write.js',
-  './prompts/check-answer.md',
-  './prompts/check-write.md',
-  './prompts/free-chat.md',
-  './prompts/make-topic.md',
   './icons/icon.svg',
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/maskable-512.png',
 ];
+const PROMPTS = ['check-answer', 'check-write', 'free-chat', 'make-topic'];
 // On a slow connection, fall back to the cached copy after this long instead of waiting.
 const NETWORK_TIMEOUT_MS = 4000;
 
@@ -80,8 +79,11 @@ self.addEventListener('install', event => {
     const cache = await caches.open(CACHE);
     const add = url => cache.add(new Request(url, { cache: 'reload' }));
     await Promise.allSettled(CORE.map(add));
-    try {
-      const index = await (await fetch('./words.json', { cache: 'reload' })).json();
+    // Both learner languages, so switching works offline too.
+    for (const manifest of ['words.json', 'en/words.json']) try {
+      await add(`./${manifest}`);
+      const index = await (await fetch(`./${manifest}`, { cache: 'reload' })).json();
+      await Promise.allSettled(PROMPTS.map(name => add(`./${index.prompts || 'prompts/'}${name}.md`)));
       await Promise.allSettled(index.decks.map(path => add(`./${path}`)));
       for (const path of Object.values(index.courses || {})) {
         const course = await (await fetch(`./${path}`, { cache: 'reload' })).json();

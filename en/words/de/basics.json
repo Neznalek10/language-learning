@@ -1,0 +1,79 @@
+{
+  "lang": "de",
+  "from": "en",
+  "type": "phrases",
+  "title": "Greetings & basics",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {
+      "q": "hi, hello",
+      "a": "hallo"
+    },
+    {
+      "q": "good day",
+      "a": "guten Tag"
+    },
+    {
+      "q": "good morning",
+      "a": "guten Morgen"
+    },
+    {
+      "q": "good evening",
+      "a": "guten Abend"
+    },
+    {
+      "q": "good night",
+      "a": "gute Nacht"
+    },
+    {
+      "q": "goodbye",
+      "a": "auf Wiedersehen"
+    },
+    {
+      "q": "bye (when leaving)",
+      "a": "tschüss"
+    },
+    {
+      "q": "please",
+      "a": "bitte"
+    },
+    {
+      "q": "thank you",
+      "a": "danke"
+    },
+    {
+      "q": "thank you very much",
+      "a": [
+        "vielen Dank",
+        "danke schön"
+      ]
+    },
+    {
+      "q": "excuse me",
+      "a": [
+        "Entschuldigung",
+        "entschuldigen Sie"
+      ]
+    },
+    {
+      "q": "yes",
+      "a": "ja"
+    },
+    {
+      "q": "no",
+      "a": "nein"
+    },
+    {
+      "q": "how are you?",
+      "a": [
+        "wie geht's?",
+        "wie geht es dir?"
+      ]
+    },
+    {
+      "q": "my name is",
+      "a": "ich heiße"
+    }
+  ]
+}

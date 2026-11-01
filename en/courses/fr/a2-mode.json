@@ -1,0 +1,1426 @@
+{
+  "schema": 1,
+  "goals": [
+    "Name clothes and accessories",
+    "Say what you wear and what you put on (porter, mettre)",
+    "Point at things: ce, cet, cette, ces",
+    "Compare: plus ... que, moins ... que, aussi ... que, meilleur",
+    "Buy clothes: size, trying on, price"
+  ],
+  "lessons": [
+    {
+      "id": "fr-mode-1",
+      "title": "Mes vêtements",
+      "subtitle": "Clothes",
+      "topics": [
+        "clothing"
+      ],
+      "words": [
+        "clothing#T-shirt",
+        "clothing#sweatshirt, hoodie",
+        "clothing#jeans",
+        "clothing#shorts",
+        "clothing#dress",
+        "clothing#jumper, sweater",
+        "clothing#skirt",
+        "clothing#jacket",
+        "clothing#coat",
+        "clothing#trousers",
+        "clothing#shirt",
+        "clothing#socks",
+        "clothing#shoes",
+        "clothing#trainers, sneakers",
+        "clothing#beanie, woolly hat",
+        "clothing#cap",
+        "clothing#clothes",
+        "clothing#tracksuit bottoms"
+      ],
+      "learn": [
+        {
+          "title": "What are you wearing?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Clothes = *les vêtements*. Watch the gender: *le pull, le blouson*, but *la jupe, la robe, la veste*. Learn every word with its article."
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "T-shirt",
+                  "un T-shirt"
+                ],
+                [
+                  "sweatshirt",
+                  "un sweat-shirt (un sweat)"
+                ],
+                [
+                  "jumper",
+                  "un pull"
+                ],
+                [
+                  "shirt",
+                  "une chemise"
+                ],
+                [
+                  "skirt",
+                  "une jupe"
+                ],
+                [
+                  "dress",
+                  "une robe"
+                ],
+                [
+                  "jacket",
+                  "un blouson"
+                ],
+                [
+                  "coat",
+                  "un manteau"
+                ],
+                [
+                  "shoes",
+                  "des chaussures"
+                ],
+                [
+                  "trainers",
+                  "des baskets"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Il fait froid, je prends mon ___.",
+                "a": [
+                  "manteau"
+                ],
+                "hint": "coat"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Trousers = un pantalon",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "singular",
+              "en": "As in English, *un pantalon* (trousers), *un jean* (jeans), *un short* (shorts) and *un jogging* (tracksuit bottoms) are one item, but in French they are **singular**: *Mon jean est bleu*, not *mes jeans sont bleus*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai un nouveau jean.",
+                  "en": "I have new jeans."
+                },
+                {
+                  "fr": "Ton pantalon est trop long.",
+                  "en": "Your trousers are too long. (tu)"
+                },
+                {
+                  "fr": "Mon short est rouge.",
+                  "en": "My shorts are red."
+                },
+                {
+                  "fr": "Où sont mes chaussettes ?",
+                  "en": "Where are my socks?"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "My jeans are black.",
+                "a": [
+                  "Mon jean est noir."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-mode-1-01",
+          "type": "cloze",
+          "fr": "Ma sœur a une ___ rouge.",
+          "a": [
+            "jupe"
+          ],
+          "hint": "skirt"
+        },
+        {
+          "id": "fr-mode-1-02",
+          "type": "cloze",
+          "fr": "Mon ___ est trop petit.",
+          "a": [
+            "pull"
+          ],
+          "hint": "jumper"
+        },
+        {
+          "id": "fr-mode-1-03",
+          "type": "cloze",
+          "fr": "J'ai ___ nouvelles chaussures.",
+          "a": [
+            "de",
+            "des"
+          ],
+          "hint": "indefinite article",
+          "why": "Before a plural adjective, careful French uses de: de nouvelles chaussures. In speech you'll also hear des."
+        },
+        {
+          "id": "fr-mode-1-04",
+          "type": "cloze",
+          "fr": "Où est ma ___ ?",
+          "a": [
+            "veste"
+          ],
+          "hint": "jacket"
+        },
+        {
+          "id": "fr-mode-1-05",
+          "type": "cloze",
+          "fr": "Mon ___ est bleu.",
+          "a": [
+            "jean"
+          ],
+          "hint": "jeans"
+        },
+        {
+          "id": "fr-mode-1-06",
+          "type": "build",
+          "en": "I have a new T-shirt.",
+          "a": [
+            "J'ai un nouveau T-shirt."
+          ]
+        },
+        {
+          "id": "fr-mode-1-07",
+          "type": "build",
+          "en": "This is my favourite sweatshirt.",
+          "a": [
+            "C'est mon sweat-shirt préféré.",
+            "C'est mon sweat préféré."
+          ]
+        },
+        {
+          "id": "fr-mode-1-08",
+          "type": "build",
+          "en": "Where are my shoes?",
+          "a": [
+            "Où sont mes chaussures ?"
+          ]
+        },
+        {
+          "id": "fr-mode-1-09",
+          "type": "build",
+          "en": "My trousers are too long.",
+          "a": [
+            "Mon pantalon est trop long."
+          ],
+          "why": "Trousers = un pantalon, singular."
+        },
+        {
+          "id": "fr-mode-1-10",
+          "type": "build",
+          "en": "It's cold, take your coat! (tu)",
+          "a": [
+            "Il fait froid, prends ton manteau !"
+          ]
+        },
+        {
+          "id": "fr-mode-1-11",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "J'ai une chemise blanche.",
+          "a": [
+            "J'ai des chemises blanches."
+          ]
+        },
+        {
+          "id": "fr-mode-1-12",
+          "type": "build",
+          "en": "My trainers are white.",
+          "a": [
+            "Mes baskets sont blanches.",
+            "Mes tennis sont blancs."
+          ]
+        },
+        {
+          "id": "fr-mode-1-13",
+          "type": "order",
+          "en": "Your shorts are nice. (tu)",
+          "a": [
+            "Ton short est joli"
+          ],
+          "extra": [
+            "tes",
+            "jolis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-mode-2",
+      "title": "Je porte un jean",
+      "subtitle": "What I wear: porter and mettre",
+      "topics": [
+        "clothing",
+        "mettre"
+      ],
+      "words": [
+        "clothing#glasses",
+        "clothing#watch",
+        "clothing#gloves",
+        "clothing#belt",
+        "clothing#scarf",
+        "clothing#hat",
+        "clothing#handbag",
+        "clothing#swimsuit",
+        "clothing#leggings",
+        "verbs#to wear"
+      ],
+      "learn": [
+        {
+          "title": "porter and mettre",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Porter* = to wear, to have on (a state): *Aujourd'hui, je porte un jean.* *Mettre* = to put on (an action): *Je mets mon manteau et je sors.*"
+            },
+            {
+              "type": "table",
+              "verb": "porter",
+              "tense": "present"
+            },
+            {
+              "type": "table",
+              "verb": "mettre",
+              "tense": "present"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Aujourd'hui, Léa ___ une robe verte.",
+                "a": [
+                  "porte"
+                ],
+                "hint": "porter"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Colours and agreement",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A colour goes after the noun and agrees with it: *une jupe noire, des chaussures blanches*. Some colours never change: *marron, orange* (*des chaussures marron*)."
+            },
+            {
+              "type": "tip",
+              "title": "s'habiller",
+              "en": "*S'habiller* = to get dressed. For a single item of clothing you use *mettre*: *Je mets mes gants.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "I'm wearing black trousers.",
+                "a": [
+                  "Je porte un pantalon noir."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-mode-2-01",
+          "type": "form",
+          "verb": "porter",
+          "tense": "present",
+          "person": 0
+        },
+        {
+          "id": "fr-mode-2-02",
+          "type": "form",
+          "verb": "mettre",
+          "tense": "present",
+          "person": 3
+        },
+        {
+          "id": "fr-mode-2-03",
+          "type": "form",
+          "verb": "mettre",
+          "tense": "present",
+          "person": 1
+        },
+        {
+          "id": "fr-mode-2-04",
+          "type": "cloze",
+          "fr": "Il fait froid, je ___ mon écharpe.",
+          "a": [
+            "mets"
+          ],
+          "hint": "mettre"
+        },
+        {
+          "id": "fr-mode-2-05",
+          "type": "cloze",
+          "fr": "Mon père ___ toujours une cravate.",
+          "a": [
+            "porte"
+          ],
+          "hint": "porter"
+        },
+        {
+          "id": "fr-mode-2-06",
+          "type": "cloze",
+          "fr": "Nous ___ nos gants.",
+          "a": [
+            "mettons"
+          ],
+          "hint": "mettre"
+        },
+        {
+          "id": "fr-mode-2-07",
+          "type": "cloze",
+          "fr": "Elle a une jupe ___.",
+          "a": [
+            "noire"
+          ],
+          "hint": "black"
+        },
+        {
+          "id": "fr-mode-2-08",
+          "type": "cloze",
+          "fr": "J'ai des chaussures ___.",
+          "a": [
+            "blanches"
+          ],
+          "hint": "white"
+        },
+        {
+          "id": "fr-mode-2-09",
+          "type": "build",
+          "en": "Today I'm wearing a blue T-shirt.",
+          "a": [
+            "Aujourd'hui, je porte un T-shirt bleu.",
+            "Je porte un T-shirt bleu aujourd'hui."
+          ]
+        },
+        {
+          "id": "fr-mode-2-10",
+          "type": "build",
+          "en": "Put on your swimsuit! (tu)",
+          "a": [
+            "Mets ton maillot de bain !",
+            "Prends ton maillot de bain !"
+          ]
+        },
+        {
+          "id": "fr-mode-2-11",
+          "type": "build",
+          "en": "My mum wears glasses.",
+          "a": [
+            "Ma mère porte des lunettes.",
+            "Ma mère a des lunettes."
+          ]
+        },
+        {
+          "id": "fr-mode-2-12",
+          "type": "build",
+          "en": "I get dressed quickly.",
+          "a": [
+            "Je m'habille vite."
+          ]
+        },
+        {
+          "id": "fr-mode-2-13",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Il porte une casquette.",
+          "a": [
+            "Il ne porte pas de casquette."
+          ]
+        },
+        {
+          "id": "fr-mode-2-14",
+          "type": "order",
+          "en": "I wear a watch and a belt.",
+          "a": [
+            "Je porte une montre et une ceinture"
+          ],
+          "extra": [
+            "mets",
+            "un"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-mode-3",
+      "title": "Ce pull ou cette veste ?",
+      "subtitle": "Demonstratives",
+      "topics": [
+        "demonstratives",
+        "clothing"
+      ],
+      "words": [
+        "clothing#earring",
+        "clothing#necklace",
+        "clothing#ring",
+        "clothing#bracelet",
+        "clothing#piece of jewellery",
+        "clothing#fashion",
+        "clothing#fashionable, in fashion",
+        "clothing#elegant",
+        "clothing#comfortable"
+      ],
+      "learn": [
+        {
+          "title": "this, that, these",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When you point at something (*this jumper, this skirt*), you use *ce, cet, cette, ces*."
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "this jumper",
+                  "ce pull"
+                ],
+                [
+                  "this friend",
+                  "cet ami"
+                ],
+                [
+                  "this skirt",
+                  "cette jupe"
+                ],
+                [
+                  "these shoes",
+                  "ces chaussures"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "*Cet* goes before a masculine word starting with a vowel or a silent *h*: *cet ami, cet hôtel, cet été*. *Ces* is the plural for both genders."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Tu aimes ___ robe ?",
+                "a": [
+                  "cette"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "-ci and -là",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To tell *this one* and *that one* apart, add *-ci* and *-là*: *ce pull-ci* (this jumper), *ce pull-là* (that jumper). In everyday speech people often just say *-là*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je préfère cette veste-ci.",
+                  "en": "I prefer this jacket."
+                },
+                {
+                  "fr": "Ces chaussures-là sont trop chères.",
+                  "en": "Those shoes are too expensive."
+                },
+                {
+                  "fr": "Cet été, je vais à la mer.",
+                  "en": "This summer I'm going to the seaside."
+                },
+                {
+                  "fr": "Ce collier est très élégant.",
+                  "en": "This necklace is very elegant."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "These earrings are pretty.",
+                "a": [
+                  "Ces boucles d'{oreilles|oreille} sont jolies."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-mode-3-01",
+          "type": "cloze",
+          "fr": "___ pull est trop grand.",
+          "a": [
+            "Ce"
+          ]
+        },
+        {
+          "id": "fr-mode-3-02",
+          "type": "cloze",
+          "fr": "___ chemise est jolie.",
+          "a": [
+            "Cette"
+          ]
+        },
+        {
+          "id": "fr-mode-3-03",
+          "type": "cloze",
+          "fr": "___ chaussures sont confortables.",
+          "a": [
+            "Ces"
+          ]
+        },
+        {
+          "id": "fr-mode-3-04",
+          "type": "cloze",
+          "fr": "___ hôtel est cher.",
+          "a": [
+            "Cet"
+          ]
+        },
+        {
+          "id": "fr-mode-3-05",
+          "type": "cloze",
+          "fr": "Tu aimes ___ bracelet ?",
+          "a": [
+            "ce"
+          ]
+        },
+        {
+          "id": "fr-mode-3-06",
+          "type": "cloze",
+          "fr": "___ été, je vais acheter un maillot de bain.",
+          "a": [
+            "Cet"
+          ]
+        },
+        {
+          "id": "fr-mode-3-07",
+          "type": "cloze",
+          "fr": "Je préfère cette veste-___.",
+          "a": [
+            "ci",
+            "là"
+          ]
+        },
+        {
+          "id": "fr-mode-3-08",
+          "type": "build",
+          "en": "This necklace is elegant.",
+          "a": [
+            "Ce collier est élégant."
+          ]
+        },
+        {
+          "id": "fr-mode-3-09",
+          "type": "build",
+          "en": "These shoes are comfortable.",
+          "a": [
+            "Ces chaussures sont confortables."
+          ]
+        },
+        {
+          "id": "fr-mode-3-10",
+          "type": "build",
+          "en": "This handbag is too expensive.",
+          "a": [
+            "Ce sac à main est trop cher."
+          ],
+          "why": "Sac à main is masculine: ce sac, cher."
+        },
+        {
+          "id": "fr-mode-3-11",
+          "type": "build",
+          "en": "This ring is very pretty.",
+          "a": [
+            "Cette bague est très jolie."
+          ]
+        },
+        {
+          "id": "fr-mode-3-12",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "Cette robe est chère.",
+          "a": [
+            "Ces robes sont chères."
+          ]
+        },
+        {
+          "id": "fr-mode-3-13",
+          "type": "transform",
+          "task_en": "Make it singular",
+          "fr": "Ces pulls sont chauds.",
+          "a": [
+            "Ce pull est chaud."
+          ]
+        },
+        {
+          "id": "fr-mode-3-14",
+          "type": "order",
+          "en": "This skirt is in fashion.",
+          "a": [
+            "Cette jupe est à la mode"
+          ],
+          "extra": [
+            "Ce",
+            "Cet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-mode-4",
+      "title": "Plus cher que...",
+      "subtitle": "Comparing",
+      "topics": [
+        "comparative",
+        "clothing"
+      ],
+      "words": [
+        "clothing#too big"
+      ],
+      "learn": [
+        {
+          "title": "plus, moins, aussi",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "You compare like this: *plus* (more), *moins* (less), *aussi* (as) + adjective + *que*. The adjective agrees with what it describes: *Cette robe est plus chère que la jupe.*"
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "more expensive than",
+                  "plus cher que"
+                ],
+                [
+                  "cheaper than (less expensive)",
+                  "moins cher que"
+                ],
+                [
+                  "as expensive as",
+                  "aussi cher que"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Le manteau est ___ cher que le pull.",
+                "a": [
+                  "plus"
+                ],
+                "hint": "more expensive"
+              }
+            }
+          ]
+        },
+        {
+          "title": "better and best",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "meilleur",
+              "en": "*Bon* has no form *plus bon*; you say *meilleur* (feminine *meilleure*): *Ce jean est meilleur que l'autre.* For the adverb *bien* it's *mieux*: *Ça te va mieux.*"
+            },
+            {
+              "type": "text",
+              "en": "The most = *le plus, la plus, les plus*: *C'est la robe la plus chère du magasin.* (It's the most expensive dress in the shop.)"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Les baskets sont plus confortables que les bottes.",
+                  "en": "Trainers are more comfortable than boots."
+                },
+                {
+                  "fr": "Ma veste est moins chaude que ton manteau.",
+                  "en": "My jacket is less warm than your coat."
+                },
+                {
+                  "fr": "Ton T-shirt est aussi joli que ma chemise.",
+                  "en": "Your T-shirt is as nice as my shirt."
+                },
+                {
+                  "fr": "Cette robe te va mieux.",
+                  "en": "This dress suits you better."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "This jacket is better.",
+                "a": [
+                  "Ce blouson est meilleur."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-mode-4-01",
+          "type": "cloze",
+          "fr": "Ma jupe est ___ longue que ta robe.",
+          "a": [
+            "plus"
+          ],
+          "hint": "longer"
+        },
+        {
+          "id": "fr-mode-4-02",
+          "type": "cloze",
+          "fr": "Les baskets sont ___ chères que les chaussures.",
+          "a": [
+            "moins"
+          ],
+          "hint": "cheaper"
+        },
+        {
+          "id": "fr-mode-4-03",
+          "type": "cloze",
+          "fr": "Ce pull est ___ chaud que ton manteau.",
+          "a": [
+            "aussi"
+          ],
+          "hint": "as"
+        },
+        {
+          "id": "fr-mode-4-04",
+          "type": "cloze",
+          "fr": "Ce jean est ___ que l'autre.",
+          "a": [
+            "meilleur"
+          ],
+          "hint": "better"
+        },
+        {
+          "id": "fr-mode-4-05",
+          "type": "cloze",
+          "fr": "Cette robe te va ___.",
+          "a": [
+            "mieux"
+          ],
+          "hint": "better (adverb)"
+        },
+        {
+          "id": "fr-mode-4-06",
+          "type": "cloze",
+          "fr": "Ma sœur est plus grande ___ moi.",
+          "a": [
+            "que"
+          ]
+        },
+        {
+          "id": "fr-mode-4-07",
+          "type": "build",
+          "en": "The coat is warmer than the jacket.",
+          "a": [
+            "Le manteau est plus chaud que le blouson."
+          ]
+        },
+        {
+          "id": "fr-mode-4-08",
+          "type": "build",
+          "en": "This jumper is cheaper than that one.",
+          "a": [
+            "Ce pull est moins cher que l'autre.",
+            "Ce pull-ci est moins cher que ce pull-là.",
+            "Ce pull-ci est moins cher que celui-là."
+          ]
+        },
+        {
+          "id": "fr-mode-4-09",
+          "type": "build",
+          "en": "My shoes are as comfortable as trainers.",
+          "a": [
+            "Mes chaussures sont aussi confortables que les baskets."
+          ]
+        },
+        {
+          "id": "fr-mode-4-10",
+          "type": "build",
+          "en": "It's the most expensive dress in the shop.",
+          "a": [
+            "C'est la robe la plus chère du magasin."
+          ]
+        },
+        {
+          "id": "fr-mode-4-11",
+          "type": "transform",
+          "task_en": "Say the opposite (plus → moins)",
+          "fr": "Le T-shirt est plus cher que le short.",
+          "a": [
+            "Le T-shirt est moins cher que le short."
+          ]
+        },
+        {
+          "id": "fr-mode-4-12",
+          "type": "transform",
+          "task_en": "Say it about your sister",
+          "fr": "Mon frère est plus grand que moi.",
+          "a": [
+            "Ma sœur est plus grande que moi."
+          ]
+        },
+        {
+          "id": "fr-mode-4-13",
+          "type": "order",
+          "en": "This skirt is prettier than the dress.",
+          "a": [
+            "Cette jupe est plus jolie que la robe"
+          ],
+          "extra": [
+            "moins",
+            "meilleure"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-mode-5",
+      "title": "Dans la boutique",
+      "subtitle": "In a clothes shop",
+      "topics": [
+        "clothing",
+        "shopping"
+      ],
+      "words": [
+        "clothing#size",
+        "clothing#shoe size",
+        "clothing#fitting room",
+        "clothing#the sales",
+        "clothing#it suits me",
+        "verbs#to try (on)",
+        "verbs-irregular#to please"
+      ],
+      "learn": [
+        {
+          "title": "Can I try it on?",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "Can I help you?",
+                  "Je peux vous aider ?"
+                ],
+                [
+                  "I'm looking for a sweatshirt.",
+                  "Je cherche un sweat-shirt."
+                ],
+                [
+                  "What size are you?",
+                  "Quelle taille faites-vous ?"
+                ],
+                [
+                  "I'm a size 38.",
+                  "Je fais du 38."
+                ],
+                [
+                  "What's your shoe size?",
+                  "Quelle est votre pointure ?"
+                ],
+                [
+                  "Can I try it on?",
+                  "Je peux l'essayer ?"
+                ],
+                [
+                  "Where's the fitting room?",
+                  "Où est la cabine d'essayage ?"
+                ],
+                [
+                  "How much is it?",
+                  "Ça coûte combien ?"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je peux ___ ce pantalon ?",
+                "a": [
+                  "essayer"
+                ],
+                "hint": "to try on"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Does it suit me?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ça me va ?* = Does it suit me? Does it fit? *Ça te va bien.* = It suits you. *C'est trop grand / trop petit / trop serré.* = It's too big / too small / too tight. *Ça te plaît ?* = Do you like it?"
+            },
+            {
+              "type": "tip",
+              "title": "plaire",
+              "en": "*Plaire* works the other way round from \"to like\": the thing you like is the subject. *Cette robe me plaît.* (I like this dress, literally \"this dress pleases me\".) *Ces chaussures te plaisent ?*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "I like this jacket.",
+                "a": [
+                  "Ce blouson me plaît."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-mode-5-01",
+          "type": "cloze",
+          "fr": "Quelle ___ faites-vous ?",
+          "a": [
+            "taille"
+          ],
+          "hint": "size"
+        },
+        {
+          "id": "fr-mode-5-02",
+          "type": "cloze",
+          "fr": "Quelle est votre ___ ?",
+          "a": [
+            "pointure"
+          ],
+          "hint": "shoe size"
+        },
+        {
+          "id": "fr-mode-5-03",
+          "type": "cloze",
+          "fr": "Ce pantalon est trop ___ pour moi.",
+          "a": [
+            "grand"
+          ],
+          "hint": "big"
+        },
+        {
+          "id": "fr-mode-5-04",
+          "type": "cloze",
+          "fr": "Cette veste te ___ bien.",
+          "a": [
+            "va"
+          ],
+          "hint": "suits"
+        },
+        {
+          "id": "fr-mode-5-05",
+          "type": "cloze",
+          "fr": "Ces chaussures me ___ beaucoup.",
+          "a": [
+            "plaisent"
+          ],
+          "hint": "plaire"
+        },
+        {
+          "id": "fr-mode-5-06",
+          "type": "cloze",
+          "fr": "Ce sont les ___ : tout est moins cher !",
+          "a": [
+            "soldes"
+          ],
+          "hint": "the sales"
+        },
+        {
+          "id": "fr-mode-5-07",
+          "type": "build",
+          "en": "Can I try it on?",
+          "a": [
+            "Je peux l'essayer ?",
+            "Est-ce que je peux l'essayer ?",
+            "Je peux essayer ?"
+          ]
+        },
+        {
+          "id": "fr-mode-5-08",
+          "type": "build",
+          "en": "Where's the fitting room?",
+          "a": [
+            "Où est la cabine d'essayage ?"
+          ]
+        },
+        {
+          "id": "fr-mode-5-09",
+          "type": "build",
+          "en": "I'm a size 38.",
+          "a": [
+            "Je fais du 38.",
+            "Je fais du trente-huit."
+          ]
+        },
+        {
+          "id": "fr-mode-5-10",
+          "type": "build",
+          "en": "How much is this T-shirt?",
+          "a": [
+            "Combien coûte ce T-shirt ?",
+            "Ce T-shirt coûte combien ?",
+            "Ça coûte combien, ce T-shirt ?"
+          ]
+        },
+        {
+          "id": "fr-mode-5-11",
+          "type": "build",
+          "en": "That dress really suits you. (tu)",
+          "a": [
+            "Cette robe te va très bien."
+          ]
+        },
+        {
+          "id": "fr-mode-5-12",
+          "type": "build",
+          "en": "It's too small, do you have a bigger size?",
+          "a": [
+            "C'est trop petit, vous avez une taille plus grande ?",
+            "C'est trop petit, avez-vous une taille plus grande ?",
+            "C'est trop petit, vous avez la taille au-dessus ?"
+          ]
+        },
+        {
+          "id": "fr-mode-5-13",
+          "type": "order",
+          "en": "I'm looking for a black sweatshirt.",
+          "a": [
+            "Je cherche un sweat-shirt noir"
+          ],
+          "extra": [
+            "noire",
+            "une"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-mode-t-01",
+        "lesson": "fr-mode-1",
+        "type": "build",
+        "en": "My sister has a red dress.",
+        "a": [
+          "Ma sœur a une robe rouge."
+        ]
+      },
+      {
+        "id": "fr-mode-t-02",
+        "lesson": "fr-mode-1",
+        "type": "cloze",
+        "fr": "En hiver, je porte un ___ chaud.",
+        "a": [
+          "manteau"
+        ],
+        "hint": "coat"
+      },
+      {
+        "id": "fr-mode-t-03",
+        "lesson": "fr-mode-1",
+        "type": "build",
+        "en": "Where's my jacket?",
+        "a": [
+          "Où est mon blouson ?"
+        ]
+      },
+      {
+        "id": "fr-mode-t-04",
+        "lesson": "fr-mode-1",
+        "type": "build",
+        "en": "My tracksuit bottoms are old.",
+        "a": [
+          "Mon jogging est vieux."
+        ]
+      },
+      {
+        "id": "fr-mode-t-05",
+        "lesson": "fr-mode-2",
+        "type": "cloze",
+        "fr": "Le matin, je ___ mon pull.",
+        "a": [
+          "mets"
+        ],
+        "hint": "mettre"
+      },
+      {
+        "id": "fr-mode-t-06",
+        "lesson": "fr-mode-2",
+        "type": "cloze",
+        "fr": "Ils ___ des baskets.",
+        "a": [
+          "portent"
+        ],
+        "hint": "porter"
+      },
+      {
+        "id": "fr-mode-t-07",
+        "lesson": "fr-mode-2",
+        "type": "build",
+        "en": "My grandmother wears a hat.",
+        "a": [
+          "Ma grand-mère porte un chapeau."
+        ]
+      },
+      {
+        "id": "fr-mode-t-08",
+        "lesson": "fr-mode-2",
+        "type": "build",
+        "en": "Put on your scarf, it's cold! (tu)",
+        "a": [
+          "Mets ton écharpe, il fait froid !",
+          "Prends ton écharpe, il fait froid !"
+        ]
+      },
+      {
+        "id": "fr-mode-t-09",
+        "lesson": "fr-mode-2",
+        "type": "transform",
+        "task_en": "Make it negative",
+        "fr": "Je porte des lunettes.",
+        "a": [
+          "Je ne porte pas de lunettes."
+        ]
+      },
+      {
+        "id": "fr-mode-t-10",
+        "lesson": "fr-mode-3",
+        "type": "cloze",
+        "fr": "___ casquette est à toi ?",
+        "a": [
+          "Cette"
+        ]
+      },
+      {
+        "id": "fr-mode-t-11",
+        "lesson": "fr-mode-3",
+        "type": "cloze",
+        "fr": "___ ami s'appelle Hugo.",
+        "a": [
+          "Cet"
+        ]
+      },
+      {
+        "id": "fr-mode-t-12",
+        "lesson": "fr-mode-3",
+        "type": "build",
+        "en": "These socks are mine.",
+        "a": [
+          "Ces chaussettes sont à moi."
+        ]
+      },
+      {
+        "id": "fr-mode-t-13",
+        "lesson": "fr-mode-3",
+        "type": "build",
+        "en": "Do you like this sweatshirt? (tu)",
+        "a": [
+          "Tu aimes ce sweat-shirt ?",
+          "Ce sweat-shirt te plaît ?",
+          "Tu aimes ce sweat ?",
+          "Ce sweat te plaît ?"
+        ]
+      },
+      {
+        "id": "fr-mode-t-14",
+        "lesson": "fr-mode-3",
+        "type": "transform",
+        "task_en": "Make it plural",
+        "fr": "Ce bracelet est joli.",
+        "a": [
+          "Ces bracelets sont jolis."
+        ]
+      },
+      {
+        "id": "fr-mode-t-15",
+        "lesson": "fr-mode-4",
+        "type": "cloze",
+        "fr": "Ce manteau est ___ cher que l'autre.",
+        "a": [
+          "moins"
+        ],
+        "hint": "cheaper"
+      },
+      {
+        "id": "fr-mode-t-16",
+        "lesson": "fr-mode-4",
+        "type": "build",
+        "en": "The skirt is shorter than the dress.",
+        "a": [
+          "La jupe est plus courte que la robe."
+        ]
+      },
+      {
+        "id": "fr-mode-t-17",
+        "lesson": "fr-mode-4",
+        "type": "build",
+        "en": "My jacket is as warm as the coat.",
+        "a": [
+          "Mon blouson est aussi chaud que le manteau."
+        ]
+      },
+      {
+        "id": "fr-mode-t-18",
+        "lesson": "fr-mode-4",
+        "type": "cloze",
+        "fr": "Ces chaussures sont ___ que les autres.",
+        "a": [
+          "meilleures"
+        ],
+        "hint": "better"
+      },
+      {
+        "id": "fr-mode-t-19",
+        "lesson": "fr-mode-4",
+        "type": "build",
+        "en": "It's the nicest T-shirt.",
+        "a": [
+          "C'est le plus joli T-shirt.",
+          "C'est le T-shirt le plus joli."
+        ]
+      },
+      {
+        "id": "fr-mode-t-20",
+        "lesson": "fr-mode-5",
+        "type": "build",
+        "en": "I'm looking for black jeans.",
+        "a": [
+          "Je cherche un jean noir."
+        ]
+      },
+      {
+        "id": "fr-mode-t-21",
+        "lesson": "fr-mode-5",
+        "type": "build",
+        "en": "What size are you?",
+        "a": [
+          "Quelle taille faites-vous ?",
+          "Vous faites quelle taille ?",
+          "Quelle est votre taille ?"
+        ]
+      },
+      {
+        "id": "fr-mode-t-22",
+        "lesson": "fr-mode-5",
+        "type": "cloze",
+        "fr": "Ce pull est trop ___, je voudrais une taille plus grande.",
+        "a": [
+          "petit"
+        ],
+        "hint": "small"
+      },
+      {
+        "id": "fr-mode-t-23",
+        "lesson": "fr-mode-5",
+        "type": "build",
+        "en": "I don't like these shoes.",
+        "a": [
+          "Ces chaussures ne me plaisent pas."
+        ]
+      },
+      {
+        "id": "fr-mode-t-24",
+        "lesson": "fr-mode-5",
+        "type": "build",
+        "en": "Can I try on these trousers?",
+        "a": [
+          "Je peux essayer ce pantalon ?",
+          "Est-ce que je peux essayer ce pantalon ?"
+        ]
+      },
+      {
+        "id": "fr-mode-t-25",
+        "lesson": "fr-mode-5",
+        "type": "build",
+        "en": "It suits you. (tu)",
+        "a": [
+          "Ça te va bien.",
+          "Ça te va."
+        ]
+      }
+    ]
+  }
+}

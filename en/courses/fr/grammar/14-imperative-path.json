@@ -1,0 +1,1489 @@
+{
+  "articles": [
+    {
+      "id": "im-01-regular",
+      "title": "Step 1: Commands with regular verbs",
+      "fr": "l'impératif des verbes réguliers",
+      "level": "A1",
+      "keywords": [
+        "step by step",
+        "imperative",
+        "impératif",
+        "commands",
+        "orders",
+        "let's",
+        "tu nous vous",
+        "écoute",
+        "finis"
+      ],
+      "topics": [],
+      "see": [
+        "imperative"
+      ],
+      "tense": "imperatif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A command uses only three persons, **tu, nous, vous**, and **no subject**: *Écoute ! Écoutons ! Écoutez !* The forms are the present tense without the subject, with one change: *-er* verbs drop the **-s** of the *tu* form."
+            },
+            {
+              "type": "table",
+              "head": [
+                "present",
+                "command",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "tu écoutes",
+                  "Écoute !",
+                  "Listen! (one friend)"
+                ],
+                [
+                  "nous écoutons",
+                  "Écoutons !",
+                  "Let's listen!"
+                ],
+                [
+                  "vous écoutez",
+                  "Écoutez !",
+                  "Listen! (several people, or polite)"
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "-er verbs: no -s for tu",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "parler",
+              "tense": "imperatif-present"
+            },
+            {
+              "type": "text",
+              "en": "*Tu parles → Parle !* *Tu manges → Mange !* Verbs like *ouvrir* and *offrir* also drop it: *Ouvre la porte !*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "regarder",
+                "tense": "imperatif-present",
+                "person": 1
+              }
+            }
+          ]
+        },
+        {
+          "title": "-ir and -re verbs keep the -s",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "finir",
+              "tense": "imperatif-present"
+            },
+            {
+              "type": "text",
+              "en": "*Finis ! Choisis ! Attends ! Prends ! Écris !* The *tu* form is exactly the present."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "form",
+                "verb": "attendre",
+                "tense": "imperatif-present",
+                "person": 1
+              }
+            }
+          ]
+        },
+        {
+          "title": "Nous: let's",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *nous* form means **let's**: *Allons au cinéma !* (Let's go to the cinema!) *Mangeons !* (Let's eat!)"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "On a faim : ___ une pizza !",
+                "a": [
+                  "mangeons"
+                ],
+                "hint": "manger",
+                "en": "We're hungry: let's eat a pizza!"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "*Aller* behaves like an *-er* verb: *Va au lit !* (no -s)."
+            },
+            {
+              "type": "tip",
+              "en": "*Vous* is for several people **and** for one adult you say *vous* to: *Entrez, madame !*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Regarde ce chien !",
+                  "en": "Look at that dog!"
+                },
+                {
+                  "fr": "Finissez vos devoirs !",
+                  "en": "Finish your homework!"
+                },
+                {
+                  "fr": "Prends ton manteau, il fait froid.",
+                  "en": "Take your coat, it's cold."
+                },
+                {
+                  "fr": "Attendez ici, s'il vous plaît.",
+                  "en": "Wait here, please."
+                },
+                {
+                  "fr": "Parlons français !",
+                  "en": "Let's speak French!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-im-01-regular-01",
+          "type": "form",
+          "verb": "parler",
+          "tense": "imperatif-present",
+          "person": 1
+        },
+        {
+          "id": "g-im-01-regular-02",
+          "type": "form",
+          "verb": "écouter",
+          "tense": "imperatif-present",
+          "person": 4
+        },
+        {
+          "id": "g-im-01-regular-03",
+          "type": "form",
+          "verb": "chanter",
+          "tense": "imperatif-present",
+          "person": 3
+        },
+        {
+          "id": "g-im-01-regular-04",
+          "type": "form",
+          "verb": "finir",
+          "tense": "imperatif-present",
+          "person": 1
+        },
+        {
+          "id": "g-im-01-regular-05",
+          "type": "form",
+          "verb": "choisir",
+          "tense": "imperatif-present",
+          "person": 4
+        },
+        {
+          "id": "g-im-01-regular-06",
+          "type": "form",
+          "verb": "attendre",
+          "tense": "imperatif-present",
+          "person": 4
+        },
+        {
+          "id": "g-im-01-regular-07",
+          "type": "form",
+          "verb": "prendre",
+          "tense": "imperatif-present",
+          "person": 1
+        },
+        {
+          "id": "g-im-01-regular-08",
+          "type": "form",
+          "verb": "écrire",
+          "tense": "imperatif-present",
+          "person": 1
+        },
+        {
+          "id": "g-im-01-regular-09",
+          "type": "cloze",
+          "fr": "___ ta chambre !",
+          "a": [
+            "Range"
+          ],
+          "hint": "ranger",
+          "en": "Tidy your room! (tu)"
+        },
+        {
+          "id": "g-im-01-regular-10",
+          "type": "cloze",
+          "fr": "___ le bus, c'est plus rapide !",
+          "a": [
+            "Prenez"
+          ],
+          "hint": "prendre",
+          "en": "Take the bus, it's quicker! (vous)"
+        },
+        {
+          "id": "g-im-01-regular-11",
+          "type": "build",
+          "en": "Let's dance!",
+          "a": [
+            "Dansons !"
+          ]
+        },
+        {
+          "id": "g-im-01-regular-12",
+          "type": "build",
+          "en": "Wait here! (vous)",
+          "a": [
+            "Attendez ici !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "im-02-irregular",
+      "title": "Step 2: Irregular commands: sois, aie, sache, va",
+      "fr": "l'impératif irrégulier",
+      "level": "A1",
+      "keywords": [
+        "step by step",
+        "imperative",
+        "irregular",
+        "sois",
+        "soyez",
+        "aie",
+        "ayez",
+        "sache",
+        "veuillez",
+        "va",
+        "fais",
+        "dites"
+      ],
+      "topics": [],
+      "see": [
+        "imperative"
+      ],
+      "tense": "imperatif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Only a few verbs are irregular in commands, but they are very common. **Être, avoir, savoir, vouloir** take their forms from the subjunctive, **aller** is *va*, and **faire, dire** have *faites, dites*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "tu",
+                "nous",
+                "vous"
+              ],
+              "rows": [
+                [
+                  "être",
+                  "sois",
+                  "soyons",
+                  "soyez"
+                ],
+                [
+                  "avoir",
+                  "aie",
+                  "ayons",
+                  "ayez"
+                ],
+                [
+                  "savoir",
+                  "sache",
+                  "sachons",
+                  "sachez"
+                ],
+                [
+                  "vouloir",
+                  "veuille",
+                  "veuillons",
+                  "veuillez"
+                ],
+                [
+                  "aller",
+                  "va",
+                  "allons",
+                  "allez"
+                ],
+                [
+                  "faire",
+                  "fais",
+                  "faisons",
+                  "faites"
+                ],
+                [
+                  "dire",
+                  "dis",
+                  "disons",
+                  "dites"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Être and avoir",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Sois sage !* (Be good!) *Soyez à l'heure !* (Be on time!) *N'aie pas peur !* (Don't be afraid!) *Ayez confiance !* (Have confidence!)"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "___ gentil avec ta sœur !",
+                "a": [
+                  "Sois"
+                ],
+                "hint": "être",
+                "en": "Be nice to your sister!"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Savoir and vouloir",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Sachez que...* (Please note that...) is formal. *Veuillez* + infinitive is a very polite request, used in letters, emails and announcements: *Veuillez patienter.* (Please wait.)"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Please wait. (announcement)",
+                "a": [
+                  "Veuillez patienter."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Faire, dire, aller",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Fais attention !* (Be careful!) *Faites vite !* (Be quick!) *Dites bonjour !* (Say hello!) *Va au lit !* (Go to bed!)"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "___ attention, la route est glissante !",
+                "a": [
+                  "Fais",
+                  "Faites"
+                ],
+                "hint": "faire",
+                "en": "Be careful, the road is slippery!"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "*Aie* has no -s and sounds like *et*: *N'aie pas peur.*"
+            },
+            {
+              "type": "tip",
+              "en": "*Faites* and *dites* are the same as in the present: *vous faites, vous dites*. Not *faisez* or *disez*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Sois prudent sur ton vélo !",
+                  "en": "Be careful on your bike!"
+                },
+                {
+                  "fr": "N'ayez pas peur, le chien est gentil.",
+                  "en": "Don't be afraid, the dog is friendly."
+                },
+                {
+                  "fr": "Va chercher ton frère !",
+                  "en": "Go and get your brother!"
+                },
+                {
+                  "fr": "Dites-moi la vérité !",
+                  "en": "Tell me the truth!"
+                },
+                {
+                  "fr": "Veuillez fermer la porte.",
+                  "en": "Please close the door."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-im-02-irregular-01",
+          "type": "form",
+          "verb": "être",
+          "tense": "imperatif-present",
+          "person": 1
+        },
+        {
+          "id": "g-im-02-irregular-02",
+          "type": "form",
+          "verb": "être",
+          "tense": "imperatif-present",
+          "person": 4
+        },
+        {
+          "id": "g-im-02-irregular-03",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "imperatif-present",
+          "person": 1
+        },
+        {
+          "id": "g-im-02-irregular-04",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "imperatif-present",
+          "person": 4
+        },
+        {
+          "id": "g-im-02-irregular-05",
+          "type": "form",
+          "verb": "savoir",
+          "tense": "imperatif-present",
+          "person": 4
+        },
+        {
+          "id": "g-im-02-irregular-06",
+          "type": "form",
+          "verb": "aller",
+          "tense": "imperatif-present",
+          "person": 1
+        },
+        {
+          "id": "g-im-02-irregular-07",
+          "type": "form",
+          "verb": "faire",
+          "tense": "imperatif-present",
+          "person": 4
+        },
+        {
+          "id": "g-im-02-irregular-08",
+          "type": "form",
+          "verb": "dire",
+          "tense": "imperatif-present",
+          "person": 4
+        },
+        {
+          "id": "g-im-02-irregular-09",
+          "type": "cloze",
+          "fr": "___ prudents sur la route !",
+          "a": [
+            "Soyez"
+          ],
+          "hint": "être",
+          "en": "Be careful on the road! (vous)"
+        },
+        {
+          "id": "g-im-02-irregular-10",
+          "type": "cloze",
+          "fr": "N'___ pas peur du chien !",
+          "a": [
+            "aie"
+          ],
+          "hint": "avoir",
+          "en": "Don't be afraid of the dog! (tu)"
+        },
+        {
+          "id": "g-im-02-irregular-11",
+          "type": "cloze",
+          "fr": "___ au tableau, Paul !",
+          "a": [
+            "Va"
+          ],
+          "hint": "aller",
+          "en": "Go to the board, Paul!"
+        },
+        {
+          "id": "g-im-02-irregular-12",
+          "type": "build",
+          "en": "Let's be patient!",
+          "a": [
+            "Soyons patients !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "im-03-negative",
+      "title": "Step 3: Negative commands: Ne fais pas ça !",
+      "fr": "l'impératif négatif",
+      "level": "A1",
+      "keywords": [
+        "step by step",
+        "imperative",
+        "negative command",
+        "ne pas",
+        "don't",
+        "ne fais pas",
+        "ne dis rien"
+      ],
+      "topics": [],
+      "see": [
+        "imperative",
+        "ne-pas"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Put **ne** before the verb and **pas** after it, as in any negative: *Ne parle pas ! N'oublie pas !* The other negative words work too: *Ne dis rien ! Ne fais jamais ça !*"
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "neg",
+                      "Ne"
+                    ],
+                    [
+                      "V",
+                      "parle"
+                    ],
+                    [
+                      "neg",
+                      "pas !"
+                    ]
+                  ],
+                  "en": "Don't speak!"
+                },
+                {
+                  "parts": [
+                    [
+                      "neg",
+                      "N'"
+                    ],
+                    [
+                      "V",
+                      "oubliez"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "obj",
+                      "vos livres !"
+                    ]
+                  ],
+                  "en": "Don't forget your books!"
+                }
+              ],
+              "formula": [
+                "neg",
+                "V",
+                "neg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Ne ... pas",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ne* becomes *n'* before a vowel: *N'ouvre pas ! N'ayez pas peur !* *Un, une, du, des* become **de**: *Faites du bruit → Ne faites pas de bruit !*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Make the command negative",
+                "fr": "Mange !",
+                "a": [
+                  "Ne mange pas !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Other negative words",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ne ... jamais* (never), *ne ... plus* (no more), *ne ... rien* (nothing), *ne ... personne* (nobody): *Ne mange plus de bonbons ! Ne dis rien à personne !*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Don't say anything! (tu)",
+                "a": [
+                  "Ne dis rien !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "Spoken French sometimes drops *ne* (*Fais pas ça !*). In writing keep it."
+            },
+            {
+              "type": "tip",
+              "en": "A short sign can be just *pas de* + noun: *Pas de bruit !* (No noise!)"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ne touche pas, c'est chaud !",
+                  "en": "Don't touch, it's hot!"
+                },
+                {
+                  "fr": "N'oublie pas ton sac !",
+                  "en": "Don't forget your bag!"
+                },
+                {
+                  "fr": "Ne soyez pas en retard demain.",
+                  "en": "Don't be late tomorrow."
+                },
+                {
+                  "fr": "Ne parlons plus de ça.",
+                  "en": "Let's not talk about that anymore."
+                },
+                {
+                  "fr": "Ne fais jamais ça !",
+                  "en": "Never do that!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-im-03-negative-01",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Sortez !",
+          "a": [
+            "Ne sortez pas !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-02",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Cours !",
+          "a": [
+            "Ne cours pas !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-03",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Sois triste !",
+          "a": [
+            "Ne sois pas triste !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-04",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Va dans le jardin !",
+          "a": [
+            "Ne va pas dans le jardin !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-05",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Faites du bruit !",
+          "a": [
+            "Ne faites pas de bruit !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-06",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Achetons des bonbons !",
+          "a": [
+            "N'achetons pas de bonbons !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-07",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Oublie ton livre !",
+          "a": [
+            "N'oublie pas ton livre !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-08",
+          "type": "transform",
+          "task_en": "Turn it into a negative command",
+          "fr": "Tu cries.",
+          "a": [
+            "Ne crie pas !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-09",
+          "type": "transform",
+          "task_en": "Turn it into a negative command",
+          "fr": "Vous parlez pendant le film.",
+          "a": [
+            "Ne parlez pas pendant le film !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-10",
+          "type": "build",
+          "en": "Don't be late! (vous)",
+          "a": [
+            "Ne soyez pas en retard !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-11",
+          "type": "build",
+          "en": "Don't forget! (tu)",
+          "a": [
+            "N'oublie pas !"
+          ]
+        },
+        {
+          "id": "g-im-03-negative-12",
+          "type": "build",
+          "en": "Never do that again! (tu)",
+          "a": [
+            "Ne fais plus jamais ça !",
+            "Ne refais jamais ça !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "im-04-reflexive",
+      "title": "Step 4: Reflexive verbs: Lève-toi ! Ne te lève pas !",
+      "fr": "l'impératif des verbes pronominaux",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "imperative",
+        "reflexive",
+        "lève-toi",
+        "assieds-toi",
+        "dépêche-toi",
+        "ne t'inquiète pas",
+        "toi",
+        "vous"
+      ],
+      "topics": [],
+      "see": [
+        "reflexive-pronouns",
+        "imperative"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Reflexive verbs keep their pronoun, but it moves **after** the verb with a hyphen, and *te* becomes **toi**: *Lève-toi ! Levons-nous ! Levez-vous !* In the negative it goes back in front: *Ne te lève pas !*"
+            },
+            {
+              "type": "table",
+              "verb": "se lever",
+              "tense": "imperatif-present"
+            }
+          ]
+        },
+        {
+          "title": "Affirmative: after the verb",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The most common ones: *Dépêche-toi !* (Hurry up!) *Assieds-toi !* (Sit down!) *Calme-toi !* (Calm down!) *Tais-toi !* (Be quiet!) *Amuse-toi bien !* (Have fun!) *Repose-toi !* (Get some rest!)"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Turn it into a command",
+                "fr": "Tu te couches.",
+                "a": [
+                  "Couche-toi !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Negative: back in front",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ne* + pronoun + verb + *pas*, and *toi* goes back to *te*: *Ne t'inquiète pas !* (Don't worry!) *Ne vous asseyez pas là !*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Make the command negative",
+                "fr": "Habille-toi !",
+                "a": [
+                  "Ne t'habille pas !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "Keep the hyphen: *Lève-toi*, not *Lève toi*."
+            },
+            {
+              "type": "tip",
+              "en": "Only *te* changes. *Nous* and *vous* stay: *Promenons-nous ! Ne nous promenons pas !*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Dépêche-toi, le bus arrive !",
+                  "en": "Hurry up, the bus is coming!"
+                },
+                {
+                  "fr": "Asseyez-vous, s'il vous plaît.",
+                  "en": "Sit down, please."
+                },
+                {
+                  "fr": "Ne t'inquiète pas, tout va bien.",
+                  "en": "Don't worry, everything is fine."
+                },
+                {
+                  "fr": "Amusez-vous bien à la fête !",
+                  "en": "Have fun at the party!"
+                },
+                {
+                  "fr": "Ne te couche pas trop tard !",
+                  "en": "Don't go to bed too late!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-im-04-reflexive-01",
+          "type": "form",
+          "verb": "se lever",
+          "tense": "imperatif-present",
+          "person": 1
+        },
+        {
+          "id": "g-im-04-reflexive-02",
+          "type": "form",
+          "verb": "se coucher",
+          "tense": "imperatif-present",
+          "person": 4
+        },
+        {
+          "id": "g-im-04-reflexive-03",
+          "type": "form",
+          "verb": "se reposer",
+          "tense": "imperatif-present",
+          "person": 3
+        },
+        {
+          "id": "g-im-04-reflexive-04",
+          "type": "form",
+          "verb": "s'habiller",
+          "tense": "imperatif-present",
+          "person": 1
+        },
+        {
+          "id": "g-im-04-reflexive-05",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Vous vous asseyez.",
+          "a": [
+            "Asseyez-vous !"
+          ]
+        },
+        {
+          "id": "g-im-04-reflexive-06",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Nous nous promenons.",
+          "a": [
+            "Promenons-nous !"
+          ]
+        },
+        {
+          "id": "g-im-04-reflexive-07",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Tu te réveilles.",
+          "a": [
+            "Réveille-toi !"
+          ]
+        },
+        {
+          "id": "g-im-04-reflexive-08",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Fâche-toi !",
+          "a": [
+            "Ne te fâche pas !"
+          ]
+        },
+        {
+          "id": "g-im-04-reflexive-09",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Couchez-vous !",
+          "a": [
+            "Ne vous couchez pas !"
+          ]
+        },
+        {
+          "id": "g-im-04-reflexive-10",
+          "type": "build",
+          "en": "Don't worry! (tu)",
+          "a": [
+            "Ne t'inquiète pas !"
+          ]
+        },
+        {
+          "id": "g-im-04-reflexive-11",
+          "type": "build",
+          "en": "Have fun! (vous)",
+          "a": [
+            "Amusez-vous bien !",
+            "Amusez-vous !"
+          ]
+        },
+        {
+          "id": "g-im-04-reflexive-12",
+          "type": "build",
+          "en": "Sit down! (tu)",
+          "a": [
+            "Assieds-toi !",
+            "Assois-toi !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "im-05-pronouns",
+      "title": "Step 5: Commands with object pronouns",
+      "fr": "l'impératif avec un pronom",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "imperative",
+        "pronouns",
+        "prends-le",
+        "dis-lui",
+        "vas-y",
+        "aide-moi",
+        "ne le prends pas"
+      ],
+      "topics": [],
+      "see": [
+        "pp-15-commands",
+        "pronouns-imperative"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Object pronouns follow the same rule as reflexive ones: **after** the verb with a hyphen in the affirmative (*Prends-le !*), **before** it in the negative (*Ne le prends pas !*). *Me* becomes **moi**: *Aide-moi !* Step 15 of *Object pronouns step by step* goes deeper, with two pronouns."
+            },
+            {
+              "type": "table",
+              "head": [
+                "affirmative",
+                "negative"
+              ],
+              "rows": [
+                [
+                  "Prends-le !",
+                  "Ne le prends pas !"
+                ],
+                [
+                  "Parle-lui !",
+                  "Ne lui parle pas !"
+                ],
+                [
+                  "Aide-moi !",
+                  "Ne m'aide pas !"
+                ],
+                [
+                  "Vas-y !",
+                  "N'y va pas !"
+                ],
+                [
+                  "Prends-en !",
+                  "N'en prends pas !"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Affirmative",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Choose the pronoun as usual (step 1 of the pronoun path), then put it after the verb. Before *y* and *en* the *tu* form of *-er* verbs gets its *-s* back: *Vas-y ! Manges-en !*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Turn it into a command and replace the underlined words",
+                "fr": "Tu achètes [le pain].",
+                "a": [
+                  "Achète-le !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Negative",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Everything goes back to the normal order: *ne* + pronoun + verb + *pas*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Make the command negative",
+                "fr": "Mange-le !",
+                "a": [
+                  "Ne le mange pas !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ton portable ? Éteins-le !",
+                  "en": "Your phone? Switch it off!"
+                },
+                {
+                  "fr": "Ta mère t'attend, appelle-la !",
+                  "en": "Your mother is waiting, call her!"
+                },
+                {
+                  "fr": "Le parc ? Allons-y !",
+                  "en": "The park? Let's go!"
+                },
+                {
+                  "fr": "Ne me parle pas comme ça !",
+                  "en": "Don't talk to me like that!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-im-05-pronouns-01",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Vous invitez [vos voisins].",
+          "a": [
+            "Invitez-les !"
+          ]
+        },
+        {
+          "id": "g-im-05-pronouns-02",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Tu téléphones [à ton père].",
+          "a": [
+            "Téléphone-lui !"
+          ]
+        },
+        {
+          "id": "g-im-05-pronouns-03",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Tu vas [à la boulangerie].",
+          "a": [
+            "Vas-y !"
+          ]
+        },
+        {
+          "id": "g-im-05-pronouns-04",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Tu bois [de l'eau].",
+          "a": [
+            "Bois-en !"
+          ]
+        },
+        {
+          "id": "g-im-05-pronouns-05",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Dis-leur !",
+          "a": [
+            "Ne leur dis pas !"
+          ]
+        },
+        {
+          "id": "g-im-05-pronouns-06",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Parlez-moi !",
+          "a": [
+            "Ne me parlez pas !"
+          ]
+        },
+        {
+          "id": "g-im-05-pronouns-07",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Ouvre-la !",
+          "a": [
+            "Ne l'ouvre pas !"
+          ]
+        },
+        {
+          "id": "g-im-05-pronouns-08",
+          "type": "build",
+          "en": "Help me! (tu)",
+          "a": [
+            "Aide-moi !"
+          ]
+        },
+        {
+          "id": "g-im-05-pronouns-09",
+          "type": "build",
+          "en": "Call her! (vous)",
+          "a": [
+            "Appelez-la !",
+            "Téléphonez-lui !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "im-06-polite-mix",
+      "title": "Step 6: Polite requests and mixed practice",
+      "fr": "demander poliment",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "imperative",
+        "polite",
+        "s'il vous plaît",
+        "pourriez-vous",
+        "infinitive instructions",
+        "mix"
+      ],
+      "topics": [],
+      "see": [
+        "imperative",
+        "conditionnel"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A bare command can sound rude to an adult. Soften it with **s'il te plaît / s'il vous plaît**, or ask a question instead: *Tu peux fermer la fenêtre ? Pourriez-vous m'aider ?* Instructions and signs often use the **infinitive**: *Ne pas fumer. Mélanger la farine et les œufs.*"
+            }
+          ]
+        },
+        {
+          "title": "Softer ways to ask",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "command",
+                "softer"
+              ],
+              "rows": [
+                [
+                  "Ferme la fenêtre !",
+                  "Tu peux fermer la fenêtre, s'il te plaît ?"
+                ],
+                [
+                  "Aidez-moi !",
+                  "Pourriez-vous m'aider ?"
+                ],
+                [
+                  "Donne-moi le sel.",
+                  "Tu me passes le sel ?"
+                ],
+                [
+                  "Attendez.",
+                  "Veuillez patienter."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Could you help me? (polite)",
+                "a": [
+                  "Pourriez-vous m'aider ?",
+                  "Pouvez-vous m'aider ?",
+                  "Vous pourriez m'aider ?",
+                  "Vous pouvez m'aider ?"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Instructions with the infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Recipes, exam tasks and signs use the infinitive instead of a command: *Lire le texte et répondre aux questions. Ne pas toucher.* The negative puts **ne pas together before** the infinitive."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Do not smoke. (a sign)",
+                "a": [
+                  "Ne pas fumer."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Passe-moi le pain, s'il te plaît.",
+                  "en": "Pass me the bread, please."
+                },
+                {
+                  "fr": "Pourriez-vous parler plus lentement ?",
+                  "en": "Could you speak more slowly?"
+                },
+                {
+                  "fr": "Ne pas marcher sur la pelouse.",
+                  "en": "Do not walk on the grass."
+                },
+                {
+                  "fr": "Couper les tomates en morceaux.",
+                  "en": "Cut the tomatoes into pieces."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-im-06-polite-mix-01",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Tu fais tes devoirs.",
+          "a": [
+            "Fais tes devoirs !"
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-02",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Vous êtes calmes.",
+          "a": [
+            "Soyez calmes !"
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-03",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Nous allons au parc.",
+          "a": [
+            "Allons au parc !"
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-04",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Tu as confiance.",
+          "a": [
+            "Aie confiance !"
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-05",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Tu ne cries pas.",
+          "a": [
+            "Ne crie pas !"
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-06",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Tu te réveilles.",
+          "a": [
+            "Réveille-toi !"
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-07",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Vous ne vous inquiétez pas.",
+          "a": [
+            "Ne vous inquiétez pas !"
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-08",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Tu le prends.",
+          "a": [
+            "Prends-le !"
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-09",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Vous ne le dites pas.",
+          "a": [
+            "Ne le dites pas !"
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-10",
+          "type": "build",
+          "en": "Let's go!",
+          "a": [
+            "Allons-y !",
+            "On y va !"
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-11",
+          "type": "build",
+          "en": "Be quiet, please. (vous)",
+          "a": [
+            "Taisez-vous, s'il vous plaît.",
+            "Silence, s'il vous plaît."
+          ]
+        },
+        {
+          "id": "g-im-06-polite-mix-12",
+          "type": "build",
+          "en": "Can you close the door, please? (tu)",
+          "a": [
+            "Tu peux fermer la porte, s'il te plaît ?",
+            "Est-ce que tu peux fermer la porte, s'il te plaît ?",
+            "Peux-tu fermer la porte, s'il te plaît ?"
+          ]
+        }
+      ]
+    }
+  ]
+}

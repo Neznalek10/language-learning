@@ -1,0 +1,185 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Family",
+  "unit": "2.1",
+  "level": null,
+  "words": [
+    {
+      "q": "family",
+      "a": "famille"
+    },
+    {
+      "q": "brother",
+      "a": "frère"
+    },
+    {
+      "q": "mother",
+      "a": "mère"
+    },
+    {
+      "q": "father",
+      "a": "père"
+    },
+    {
+      "q": "parents",
+      "a": "parents"
+    },
+    {
+      "q": "woman, wife",
+      "a": "femme"
+    },
+    {
+      "q": "husband",
+      "a": "mari"
+    },
+    {
+      "q": "friend",
+      "a": "ami"
+    },
+    {
+      "q": "mate, pal (boy)",
+      "a": "copain"
+    },
+    {
+      "q": "mate, pal (girl)",
+      "a": "copine"
+    },
+    {
+      "q": "child",
+      "a": "enfant"
+    },
+    {
+      "q": "girl",
+      "a": "fille"
+    },
+    {
+      "q": "people",
+      "a": "gens"
+    },
+    {
+      "q": "inhabitant",
+      "a": "habitant",
+      "unit": "5.1"
+    },
+    {
+      "q": "actor",
+      "a": "acteur",
+      "unit": "9"
+    },
+    {
+      "q": "actress",
+      "a": "actrice",
+      "unit": "9"
+    },
+    {
+      "q": "translator",
+      "a": "traducteur",
+      "unit": "9"
+    },
+    {
+      "q": "king",
+      "a": "roi",
+      "unit": "9"
+    },
+    {
+      "q": "dead",
+      "a": "mort"
+    },
+    {
+      "q": "deceased",
+      "a": "décédé"
+    },
+    {
+      "q": "family tree",
+      "a": "arbre généalogique"
+    },
+    {
+      "q": "sister",
+      "a": "sœur"
+    },
+    {
+      "q": "boy",
+      "a": "garçon"
+    },
+    {
+      "q": "buddy",
+      "a": "pote"
+    },
+    {
+      "q": "grandfather",
+      "a": "grand-père"
+    },
+    {
+      "q": "grandmother",
+      "a": "grand-mère"
+    },
+    {
+      "q": "grandparents",
+      "a": "grands-parents"
+    },
+    {
+      "q": "uncle",
+      "a": "oncle"
+    },
+    {
+      "q": "aunt",
+      "a": "tante"
+    },
+    {
+      "q": "cousin (boy)",
+      "a": "cousin"
+    },
+    {
+      "q": "cousin (girl)",
+      "a": "cousine"
+    },
+    {
+      "q": "son",
+      "a": "fils"
+    },
+    {
+      "q": "daughter",
+      "a": "fille"
+    },
+    {
+      "q": "dad",
+      "a": "papa"
+    },
+    {
+      "q": "mum",
+      "a": "maman"
+    },
+    {
+      "q": "half-brother, stepbrother",
+      "a": "demi-frère"
+    },
+    {
+      "q": "half-sister, stepsister",
+      "a": "demi-sœur"
+    },
+    {
+      "q": "only child",
+      "a": [
+        "fils unique",
+        "fille unique"
+      ]
+    },
+    {
+      "q": "married",
+      "a": [
+        "marié",
+        "mariée"
+      ]
+    },
+    {
+      "q": "divorced",
+      "a": "divorcé"
+    },
+    {
+      "q": "twins",
+      "a": "jumeaux"
+    }
+  ]
+}

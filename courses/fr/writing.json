@@ -2,25 +2,25 @@
   "schema": 1,
   "lang": "fr",
   "kinds": {
-    "message": "Message",
-    "description": "Description",
-    "opinion": "Opinion",
-    "story": "Story",
-    "letter": "Letter",
-    "dialogue": "Dialogue"
+    "message": "Zpráva",
+    "description": "Popis",
+    "opinion": "Názor",
+    "story": "Příběh",
+    "letter": "Dopis",
+    "dialogue": "Dialog"
   },
   "topics": [
     {
       "id": "greet-friend",
-      "title": "Say hello to a new classmate",
+      "title": "Pozdrav nového spolužáka",
       "level": "A1",
       "kind": "message",
-      "task": "A new student joined your class. Write a short message to say hello and get to know them.",
+      "task": "Do třídy přišel nový žák. Napiš mu krátkou zprávu, pozdrav ho a seznam se s ním.",
       "must": [
-        "Greet them informally",
-        "Say your name",
-        "Ask their name",
-        "Say goodbye"
+        "Pozdrav ho neformálně",
+        "Řekni, jak se jmenuješ",
+        "Zeptej se, jak se jmenuje",
+        "Rozluč se"
       ],
       "phrases": [
         "Salut !",
@@ -36,15 +36,15 @@
     },
     {
       "id": "formal-hello",
-      "title": "Greet your teacher politely",
+      "title": "Zdvořile pozdrav učitele",
       "level": "A1",
       "kind": "dialogue",
-      "task": "Write a short exchange between you and a teacher you meet in the corridor. Be polite.",
+      "task": "Napiš krátký rozhovor mezi tebou a učitelem, kterého potkáš na chodbě. Buď zdvořilý(á).",
       "must": [
-        "Use vous with the teacher",
-        "Greet and ask how they are",
-        "Answer the question",
-        "Say thank you and goodbye"
+        "Učitelovi vykej (vous)",
+        "Pozdrav a zeptej se, jak se má",
+        "Odpověz na otázku",
+        "Poděkuj a rozluč se"
       ],
       "phrases": [
         "Bonjour, madame",
@@ -59,14 +59,14 @@
     },
     {
       "id": "who-is-who",
-      "title": "Who is who?",
+      "title": "Kdo je kdo?",
       "level": "A1",
       "kind": "description",
-      "task": "Introduce three people from a photo (a friend, a teacher, a neighbour). Say who they are.",
+      "task": "Představ tři lidi z fotky (kamaráda, učitele, souseda). Řekni, kdo to je.",
       "must": [
-        "Use c'est or ce sont at least twice",
-        "Give each person's name",
-        "Say how you know each of them"
+        "Aspoň dvakrát použij c'est nebo ce sont",
+        "Uveď jméno každého z nich",
+        "Řekni, odkud každého znáš"
       ],
       "phrases": [
         "C'est mon ami ...",
@@ -81,15 +81,15 @@
     },
     {
       "id": "intro-self",
-      "title": "Introduce yourself",
+      "title": "Představ se",
       "level": "A1",
       "kind": "description",
-      "task": "Introduce yourself to people you meet at an international school camp.",
+      "task": "Představ se lidem, které potkáš na mezinárodním školním táboře.",
       "must": [
-        "Name and age",
-        "Where you live",
-        "Where you are from (country, nationality)",
-        "One thing you like"
+        "Jméno a věk",
+        "Kde bydlíš",
+        "Odkud jsi (země, národnost)",
+        "Jedna věc, kterou máš rád(a)"
       ],
       "phrases": [
         "Je m'appelle ...",
@@ -106,15 +106,15 @@
     },
     {
       "id": "pen-pal",
-      "title": "First message to a pen pal",
+      "title": "První zpráva kamarádovi na dopisování",
       "level": "A1",
       "kind": "letter",
-      "task": "Write a first short email to a French pen pal. Tell them about yourself and ask two questions.",
+      "task": "Napiš první krátký e-mail francouzskému kamarádovi na dopisování. Napiš mu něco o sobě a polož dvě otázky.",
       "must": [
-        "Greeting at the start",
-        "Say your name, age and where you live",
-        "Ask two questions",
-        "Sign off"
+        "Pozdrav na začátku",
+        "Uveď své jméno, věk a kde bydlíš",
+        "Polož dvě otázky",
+        "Rozloučení na konci"
       ],
       "phrases": [
         "Cher / Chère ...",
@@ -130,14 +130,14 @@
     },
     {
       "id": "nationalities",
-      "title": "Where are they from?",
+      "title": "Odkud jsou?",
       "level": "A1",
       "kind": "description",
-      "task": "Write about four friends at a language camp. Say where each one is from and where they live.",
+      "task": "Napiš o čtyřech kamarádech z jazykového tábora. Uveď, odkud každý z nich je a kde bydlí.",
       "must": [
-        "Four people",
-        "Nationality for each (with the correct feminine form)",
-        "Country or city where they live"
+        "Čtyři lidé",
+        "Národnost každého z nich (se správným tvarem ženského rodu)",
+        "Země nebo město, kde bydlí"
       ],
       "phrases": [
         "Il est italien",
@@ -152,14 +152,14 @@
     },
     {
       "id": "numbers-ages",
-      "title": "Ages and numbers",
+      "title": "Věk a čísla",
       "level": "A1",
       "kind": "description",
-      "task": "Write about five people you know. Give their ages and one phone number or street number.",
+      "task": "Napiš o pěti lidech, které znáš. Uveď jejich věk a jedno telefonní číslo nebo číslo domu.",
       "must": [
-        "Five people",
-        "Ages written in the sentence",
-        "One longer number written out in words"
+        "Pět lidí",
+        "Věk napsaný ve větě",
+        "Jedno delší číslo vypsané slovy"
       ],
       "phrases": [
         "Il a ... ans",
@@ -173,15 +173,15 @@
     },
     {
       "id": "my-family",
-      "title": "My family",
+      "title": "Moje rodina",
       "level": "A1",
       "kind": "description",
-      "task": "Present your family to a new friend.",
+      "task": "Představ svou rodinu novému kamarádovi.",
       "must": [
-        "Who is in your family",
-        "Names and ages of at least three people",
-        "Use mon, ma or mes correctly",
-        "Say if you have brothers or sisters"
+        "Kdo patří do tvé rodiny",
+        "Jména a věk aspoň tří lidí",
+        "Správně použij mon, ma nebo mes",
+        "Řekni, jestli máš sourozence"
       ],
       "phrases": [
         "Dans ma famille, il y a ...",
@@ -196,15 +196,15 @@
     },
     {
       "id": "family-member",
-      "title": "One family member in detail",
+      "title": "Jeden člen rodiny podrobně",
       "level": "A1",
       "kind": "description",
-      "task": "Choose one family member and describe them in detail.",
+      "task": "Vyber jednoho člena rodiny a podrobně ho popiš.",
       "must": [
-        "Name, age and relation to you",
-        "Their job or school",
-        "Where they live",
-        "Something they like"
+        "Jméno, věk a příbuzenský vztah k tobě",
+        "Jeho práce nebo škola",
+        "Kde bydlí",
+        "Něco, co má rád(a)"
       ],
       "phrases": [
         "Ma grand-mère habite à ...",
@@ -219,14 +219,14 @@
     },
     {
       "id": "my-pet",
-      "title": "My pet (or the pet I want)",
+      "title": "Můj mazlíček (nebo mazlíček, kterého bych chtěl(a))",
       "level": "A1",
       "kind": "description",
-      "task": "Write about your pet, or the pet you would like to have.",
+      "task": "Napiš o svém mazlíčkovi nebo o mazlíčkovi, kterého bys chtěl(a) mít.",
       "must": [
-        "Kind of animal and its name",
-        "Its colour and size",
-        "One thing it does every day"
+        "Druh zvířete a jeho jméno",
+        "Jeho barva a velikost",
+        "Jedna věc, kterou dělá každý den"
       ],
       "phrases": [
         "Mon chien s'appelle ...",
@@ -241,14 +241,14 @@
     },
     {
       "id": "family-photo",
-      "title": "A family photo",
+      "title": "Rodinná fotka",
       "level": "A1",
       "kind": "description",
-      "task": "Describe what you see in a family photo: who is there and what they are doing.",
+      "task": "Popiš, co vidíš na rodinné fotce: kdo na ní je a co dělají.",
       "must": [
-        "At least four people",
-        "Who they are (relation to you)",
-        "What each one is doing"
+        "Aspoň čtyři lidé",
+        "Kdo to je (vztah k tobě)",
+        "Co kdo dělá"
       ],
       "phrases": [
         "Sur la photo, il y a ...",
@@ -263,15 +263,15 @@
     },
     {
       "id": "describe-friend",
-      "title": "Describe a friend",
+      "title": "Popiš kamaráda",
       "level": "A1",
       "kind": "description",
-      "task": "Describe your best friend to someone who has never met them.",
+      "task": "Popiš svého nejlepšího kamaráda někomu, kdo ho nikdy neviděl.",
       "must": [
-        "Appearance: hair and eyes",
-        "Character: three adjectives",
-        "Correct agreement of adjectives",
-        "One thing you do together"
+        "Vzhled: vlasy a oči",
+        "Povaha: tři přídavná jména",
+        "Správná shoda přídavných jmen",
+        "Jedna věc, kterou děláte spolu"
       ],
       "phrases": [
         "Il a les cheveux ...",
@@ -288,15 +288,15 @@
     },
     {
       "id": "describe-self",
-      "title": "Describe yourself",
+      "title": "Popiš sám sebe",
       "level": "A1",
       "kind": "description",
-      "task": "Describe yourself: how you look and what you are like.",
+      "task": "Popiš sám sebe: jak vypadáš a jaký(á) jsi.",
       "must": [
-        "Appearance",
-        "Character",
-        "At least one negative sentence (je ne suis pas ...)",
-        "One thing you like to do"
+        "Vzhled",
+        "Povaha",
+        "Aspoň jedna záporná věta (je ne suis pas ...)",
+        "Jedna věc, kterou rád(a) děláš"
       ],
       "phrases": [
         "Je suis grand(e)",
@@ -311,15 +311,15 @@
     },
     {
       "id": "famous-person",
-      "title": "A famous person",
+      "title": "Slavná osobnost",
       "level": "A1",
       "kind": "description",
-      "task": "Describe a famous person (an athlete, musician or actor) without saying the name, so a friend can guess.",
+      "task": "Popiš slavnou osobnost (sportovce, hudebníka nebo herce), aniž bys řekl(a) její jméno, aby ji kamarád mohl uhodnout.",
       "must": [
-        "Appearance",
-        "Character or job",
-        "At least five sentences",
-        "No name in the text"
+        "Vzhled",
+        "Povaha nebo povolání",
+        "Aspoň pět vět",
+        "V textu žádné jméno"
       ],
       "phrases": [
         "Il / Elle est ...",
@@ -334,14 +334,14 @@
     },
     {
       "id": "im-not",
-      "title": "What I am not",
+      "title": "Co nejsem",
       "level": "A1",
       "kind": "message",
-      "task": "Write a funny text about what you are not and what you do not have.",
+      "task": "Napiš vtipný text o tom, co nejsi a co nemáš.",
       "must": [
-        "At least three sentences with ne ... pas",
-        "One sentence with pas de",
-        "One sentence with jamais"
+        "Aspoň tři věty s ne ... pas",
+        "Jedna věta s pas de",
+        "Jedna věta s jamais"
       ],
       "phrases": [
         "Je ne suis pas ...",
@@ -357,14 +357,14 @@
     },
     {
       "id": "my-hobbies",
-      "title": "My hobbies",
+      "title": "Moje koníčky",
       "level": "A1",
       "kind": "description",
-      "task": "Tell a new friend about your free time.",
+      "task": "Řekni novému kamarádovi o svém volném čase.",
       "must": [
-        "At least three hobbies",
-        "Say what you like and what you do not like",
-        "Use correct -er verb forms"
+        "Aspoň tři koníčky",
+        "Řekni, co máš a nemáš rád(a)",
+        "Používej správné tvary sloves na -er"
       ],
       "phrases": [
         "J'aime ...",
@@ -380,15 +380,15 @@
     },
     {
       "id": "my-sport",
-      "title": "My sport",
+      "title": "Můj sport",
       "level": "A1",
       "kind": "description",
-      "task": "Write about the sport you play: basketball, football or another.",
+      "task": "Napiš o sportu, který hraješ: basketbal, fotbal nebo jiný.",
       "must": [
-        "Which sport and which team or club",
-        "How often you train (days)",
-        "One thing you like about it",
-        "Use jouer à or faire de correctly"
+        "Jaký sport a jaký tým nebo klub",
+        "Jak často trénuješ (dny)",
+        "Jedna věc, která se ti na něm líbí",
+        "Správně použij jouer à nebo faire de"
       ],
       "phrases": [
         "Je joue au basket",
@@ -404,14 +404,14 @@
     },
     {
       "id": "my-music",
-      "title": "Music in my life",
+      "title": "Hudba v mém životě",
       "level": "A1",
       "kind": "description",
-      "task": "Write about the music you listen to and the instruments you play.",
+      "task": "Napiš o hudbě, kterou posloucháš, a o nástrojích, na které hraješ.",
       "must": [
-        "Favourite music or artist",
-        "Instrument (jouer de + instrument) or why you do not play one",
-        "When you listen to music"
+        "Oblíbená hudba nebo interpret",
+        "Nástroj (jouer de + nástroj) nebo proč na žádný nehraješ",
+        "Kdy posloucháš hudbu"
       ],
       "phrases": [
         "J'écoute ...",
@@ -426,14 +426,14 @@
     },
     {
       "id": "questions-new-friend",
-      "title": "Questions for a new friend",
+      "title": "Otázky pro nového kamaráda",
       "level": "A1",
       "kind": "message",
-      "task": "You are meeting a French exchange student tomorrow. Write the questions you want to ask.",
+      "task": "Zítra se setkáš s francouzským studentem z výměnného pobytu. Napiš otázky, které mu chceš položit.",
       "must": [
-        "At least six questions",
-        "Use at least three different question forms (est-ce que, intonation, question word)",
-        "Questions about hobbies, family and school"
+        "Aspoň šest otázek",
+        "Použij aspoň tři různé typy otázek (est-ce que, intonace, tázací slovo)",
+        "Otázky na koníčky, rodinu a školu"
       ],
       "phrases": [
         "Est-ce que tu ... ?",
@@ -449,14 +449,14 @@
     },
     {
       "id": "love-hate",
-      "title": "What I love and hate",
+      "title": "Co miluju a co nesnáším",
       "level": "A1",
       "kind": "opinion",
-      "task": "Write a text about what you love and what you hate.",
+      "task": "Napiš text o tom, co miluješ a co nesnášíš.",
       "must": [
-        "Three things you like with a reason",
-        "Three things you do not like with a reason",
-        "Use aimer, adorer, détester or préférer"
+        "Tři věci, které máš rád(a), s důvodem",
+        "Tři věci, které nemáš rád(a), s důvodem",
+        "Použij aimer, adorer, détester nebo préférer"
       ],
       "phrases": [
         "J'adore ... parce que ...",
@@ -471,15 +471,15 @@
     },
     {
       "id": "my-school",
-      "title": "My school",
+      "title": "Moje škola",
       "level": "A1",
       "kind": "description",
-      "task": "Describe your school to a pen pal.",
+      "task": "Popiš svou školu kamarádovi na dopisování.",
       "must": [
-        "Name or kind of school",
-        "Number of classes or students if you know",
-        "Two places in the school you like",
-        "Use il y a"
+        "Název nebo typ školy",
+        "Počet tříd nebo žáků, pokud ho znáš",
+        "Dvě místa ve škole, která máš rád(a)",
+        "Použij il y a"
       ],
       "phrases": [
         "Mon collège s'appelle ...",
@@ -494,14 +494,14 @@
     },
     {
       "id": "favourite-day",
-      "title": "My favourite school day",
+      "title": "Můj oblíbený školní den",
       "level": "A1",
       "kind": "description",
-      "task": "Write about your favourite day of the school week.",
+      "task": "Napiš o svém oblíbeném dni školního týdne.",
       "must": [
-        "Which day (le lundi, le vendredi ...)",
-        "Subjects with times",
-        "Why you like it"
+        "Který den (le lundi, le vendredi ...)",
+        "Předměty s časy",
+        "Proč ho máš rád(a)"
       ],
       "phrases": [
         "Le mardi, j'ai ...",
@@ -516,14 +516,14 @@
     },
     {
       "id": "school-subjects",
-      "title": "My opinion about subjects",
+      "title": "Můj názor na předměty",
       "level": "A1",
       "kind": "opinion",
-      "task": "Say what you think about your school subjects.",
+      "task": "Řekni, co si myslíš o svých školních předmětech.",
       "must": [
-        "At least four subjects",
-        "Opinion and reason for each",
-        "One subject you do not like"
+        "Aspoň čtyři předměty",
+        "Názor a důvod u každého",
+        "Jeden předmět, který nemáš rád(a)"
       ],
       "phrases": [
         "J'aime les maths parce que ...",
@@ -538,14 +538,14 @@
     },
     {
       "id": "school-break",
-      "title": "At break time",
+      "title": "O přestávce",
       "level": "A1",
       "kind": "description",
-      "task": "Describe what you and your friends do during the break.",
+      "task": "Popiš, co děláš s kamarády o přestávce.",
       "must": [
-        "Where you go",
-        "What you eat or drink",
-        "What you do together (nous ...)"
+        "Kam chodíte",
+        "Co jíte nebo pijete",
+        "Co děláte spolu (nous ...)"
       ],
       "phrases": [
         "Pendant la récréation, nous ...",
@@ -560,14 +560,14 @@
     },
     {
       "id": "school-day",
-      "title": "My school day",
+      "title": "Můj školní den",
       "level": "A1",
       "kind": "description",
-      "task": "Describe a normal school day from morning to evening.",
+      "task": "Popiš běžný školní den od rána do večera.",
       "must": [
-        "At least five times (à 7 heures ...)",
-        "Reflexive verbs (se lever ...)",
-        "Linking words: d'abord, ensuite, enfin"
+        "Aspoň pět časových údajů (à 7 heures ...)",
+        "Zvratná slovesa (se lever ...)",
+        "Spojovací výrazy: d'abord, ensuite, enfin"
       ],
       "phrases": [
         "D'abord, je me lève",
@@ -582,14 +582,14 @@
     },
     {
       "id": "morning-routine",
-      "title": "My morning routine",
+      "title": "Moje ranní rutina",
       "level": "A1",
       "kind": "description",
-      "task": "Write about what you do every morning before school.",
+      "task": "Napiš, co děláš každé ráno před školou.",
       "must": [
-        "Times for at least three actions",
-        "Two reflexive verbs",
-        "One thing you take with you to school"
+        "Časy aspoň u tří činností",
+        "Dvě zvratná slovesa",
+        "Jedna věc, kterou si bereš do školy"
       ],
       "phrases": [
         "Je me lève à ...",
@@ -604,14 +604,14 @@
     },
     {
       "id": "my-weekend-routine",
-      "title": "My weekend routine",
+      "title": "Moje víkendová rutina",
       "level": "A1",
       "kind": "description",
-      "task": "How is your Saturday different from a school day?",
+      "task": "Čím se tvoje sobota liší od školního dne?",
       "must": [
-        "Say what time you get up",
-        "What you do in the morning and afternoon",
-        "One thing you never do on Saturdays (negation)"
+        "Řekni, v kolik vstáváš",
+        "Co děláš dopoledne a odpoledne",
+        "Jedna věc, kterou v sobotu nikdy neděláš (zápor)"
       ],
       "phrases": [
         "Le samedi, je ...",
@@ -626,14 +626,14 @@
     },
     {
       "id": "my-breakfast",
-      "title": "What I eat and drink",
+      "title": "Co jím a piju",
       "level": "A1",
       "kind": "description",
-      "task": "Describe your breakfast and your favourite meal of the day.",
+      "task": "Popiš svou snídani a své oblíbené jídlo dne.",
       "must": [
-        "Food and drink at breakfast with partitive articles (du, de la, des)",
-        "Something you never eat",
-        "Your favourite meal"
+        "Jídlo a pití ke snídani se členem dělivým (du, de la, des)",
+        "Něco, co nikdy nejíš",
+        "Tvoje oblíbené jídlo"
       ],
       "phrases": [
         "Je mange du pain",
@@ -648,14 +648,14 @@
     },
     {
       "id": "food-likes",
-      "title": "Foods I like and do not like",
+      "title": "Jídla, která mám a nemám rád(a)",
       "level": "A1",
       "kind": "opinion",
-      "task": "Write about food: what you like and what you cannot eat.",
+      "task": "Napiš o jídle: co máš rád(a) a co nemůžeš jíst.",
       "must": [
-        "Three foods you like (le, la, les)",
-        "Three foods you eat often (du, de la, des)",
-        "At least one sentence with pas de"
+        "Tři jídla, která máš rád(a) (le, la, les)",
+        "Tři jídla, která jíš často (du, de la, des)",
+        "Aspoň jedna věta s pas de"
       ],
       "phrases": [
         "J'adore le chocolat",
@@ -671,14 +671,14 @@
     },
     {
       "id": "restaurant-order",
-      "title": "At the restaurant",
+      "title": "V restauraci",
       "level": "A1",
       "kind": "dialogue",
-      "task": "Write a dialogue between you and a waiter. You order a meal.",
+      "task": "Napiš rozhovor mezi tebou a číšníkem. Objednáváš si jídlo.",
       "must": [
-        "Greeting and table",
-        "Order a drink and a main course (je voudrais ...)",
-        "Ask for the bill (l'addition)"
+        "Pozdrav a stůl",
+        "Objednej si pití a hlavní chod (je voudrais ...)",
+        "Požádej o účet (l'addition)"
       ],
       "phrases": [
         "Je voudrais ...",
@@ -694,14 +694,14 @@
     },
     {
       "id": "favourite-meal",
-      "title": "My perfect dinner",
+      "title": "Moje dokonalá večeře",
       "level": "A1",
       "kind": "description",
-      "task": "Describe the perfect dinner: what you eat and who cooks.",
+      "task": "Popiš dokonalou večeři: co jíte a kdo vaří.",
       "must": [
-        "Starter, main course and dessert",
-        "Who is there",
-        "Why it is your favourite"
+        "Předkrm, hlavní chod a dezert",
+        "Kdo u ní je",
+        "Proč je to tvoje oblíbená"
       ],
       "phrases": [
         "Comme entrée ...",
@@ -716,14 +716,14 @@
     },
     {
       "id": "party-shopping",
-      "title": "Shopping list for a party",
+      "title": "Nákupní seznam na večírek",
       "level": "A1",
       "kind": "message",
-      "task": "Write a message to a friend with what you need to buy for a party.",
+      "task": "Napiš kamarádovi zprávu, co je potřeba koupit na večírek.",
       "must": [
-        "At least six items with quantities (un kilo de, une bouteille de ...)",
-        "Where to buy each thing (à la boulangerie ...)",
-        "A polite request"
+        "Aspoň šest položek s množstvím (un kilo de, une bouteille de ...)",
+        "Kde co koupit (à la boulangerie ...)",
+        "Zdvořilá prosba"
       ],
       "phrases": [
         "Il faut ...",
@@ -739,15 +739,15 @@
     },
     {
       "id": "at-the-bakery",
-      "title": "At the shop",
+      "title": "V obchodě",
       "level": "A1",
       "kind": "dialogue",
-      "task": "Write a conversation in a bakery or a small shop.",
+      "task": "Napiš rozhovor v pekárně nebo malém obchodě.",
       "must": [
-        "Greeting",
-        "Ask for at least three items",
-        "Ask the price and give the total",
-        "Say thank you"
+        "Pozdrav",
+        "Požádej aspoň o tři věci",
+        "Zeptej se na cenu a řekni celkovou částku",
+        "Poděkuj"
       ],
       "phrases": [
         "Bonjour, je voudrais ...",
@@ -763,15 +763,15 @@
     },
     {
       "id": "choose-present",
-      "title": "A present for a friend",
+      "title": "Dárek pro kamaráda",
       "level": "A1",
       "kind": "message",
-      "task": "Write a message to a friend about a present you want to buy for a family member.",
+      "task": "Napiš kamarádovi zprávu o dárku, který chceš koupit někomu z rodiny.",
       "must": [
-        "Who the present is for",
-        "What you want to buy and why",
-        "What you can spend (a price)",
-        "Ask for advice"
+        "Pro koho je dárek",
+        "Co chceš koupit a proč",
+        "Kolik můžeš utratit (cena)",
+        "Požádej o radu"
       ],
       "phrases": [
         "Je voudrais acheter ...",
@@ -786,14 +786,14 @@
     },
     {
       "id": "market-prices",
-      "title": "At the market",
+      "title": "Na trhu",
       "level": "A1",
       "kind": "description",
-      "task": "Describe a visit to a market: what you see and what things cost.",
+      "task": "Popiš návštěvu trhu: co vidíš a kolik věci stojí.",
       "must": [
-        "Three products with prices",
-        "One thing you buy",
-        "Numbers written in words at least twice"
+        "Tři výrobky s cenami",
+        "Jedna věc, kterou koupíš",
+        "Aspoň dvakrát čísla vypsaná slovy"
       ],
       "phrases": [
         "Sur le marché, il y a ...",
@@ -808,15 +808,15 @@
     },
     {
       "id": "my-room",
-      "title": "My room",
+      "title": "Můj pokoj",
       "level": "A1",
       "kind": "description",
-      "task": "Describe your room to a friend who is visiting.",
+      "task": "Popiš svůj pokoj kamarádovi, který k tobě přijde na návštěvu.",
       "must": [
-        "Furniture and objects (il y a ...)",
-        "Where things are (sur, sous, à côté de)",
-        "Colours",
-        "What you do in your room"
+        "Nábytek a věci (il y a ...)",
+        "Kde věci jsou (sur, sous, à côté de)",
+        "Barvy",
+        "Co ve svém pokoji děláš"
       ],
       "phrases": [
         "Dans ma chambre, il y a ...",
@@ -832,14 +832,14 @@
     },
     {
       "id": "my-home",
-      "title": "My home",
+      "title": "Můj domov",
       "level": "A1",
       "kind": "description",
-      "task": "Describe the place where you live.",
+      "task": "Popiš místo, kde bydlíš.",
       "must": [
-        "House or flat, floor",
-        "Rooms",
-        "Your favourite room and why"
+        "Dům nebo byt, patro",
+        "Místnosti",
+        "Tvoje oblíbená místnost a proč"
       ],
       "phrases": [
         "J'habite dans un appartement",
@@ -854,14 +854,14 @@
     },
     {
       "id": "chores",
-      "title": "Housework",
+      "title": "Domácí práce",
       "level": "A1",
       "kind": "message",
-      "task": "Write to a host family and say what you can do to help at home.",
+      "task": "Napiš hostitelské rodině, s čím můžeš doma pomoct.",
       "must": [
-        "At least four chores",
-        "How often you do them",
-        "One chore you do not like"
+        "Aspoň čtyři domácí práce",
+        "Jak často je děláš",
+        "Jedna práce, kterou nemáš rád(a)"
       ],
       "phrases": [
         "Je range ma chambre",
@@ -877,14 +877,14 @@
     },
     {
       "id": "describe-picture",
-      "title": "Where is everything?",
+      "title": "Kde co je?",
       "level": "A1",
       "kind": "description",
-      "task": "Describe a picture of a living room. Say where each object is.",
+      "task": "Popiš obrázek obývacího pokoje. Řekni, kde je každá věc.",
       "must": [
-        "At least six objects",
-        "Prepositions of place",
-        "Il y a and il n'y a pas de"
+        "Aspoň šest věcí",
+        "Předložky místa",
+        "Il y a a il n'y a pas de"
       ],
       "phrases": [
         "Il y a ... sur la table",
@@ -899,14 +899,14 @@
     },
     {
       "id": "my-town",
-      "title": "My town",
+      "title": "Moje město",
       "level": "A1",
       "kind": "description",
-      "task": "Present your town or village to a French visitor.",
+      "task": "Představ své město nebo vesnici francouzskému návštěvníkovi.",
       "must": [
-        "Where it is and how big it is",
-        "At least four places in town",
-        "What visitors can do there"
+        "Kde leží a jak je velké",
+        "Aspoň čtyři místa ve městě",
+        "Co tam návštěvníci můžou dělat"
       ],
       "phrases": [
         "Ma ville est ...",
@@ -922,14 +922,14 @@
     },
     {
       "id": "directions",
-      "title": "Giving directions",
+      "title": "Popis cesty",
       "level": "A1",
       "kind": "dialogue",
-      "task": "A tourist asks you the way to the station. Write the dialogue.",
+      "task": "Turista se tě ptá na cestu na nádraží. Napiš rozhovor.",
       "must": [
-        "Polite question from the tourist",
-        "Directions with the imperative (tournez, continuez ...)",
-        "At least three landmarks"
+        "Zdvořilá otázka turisty",
+        "Popis cesty s rozkazovacím způsobem (tournez, continuez ...)",
+        "Aspoň tři orientační body"
       ],
       "phrases": [
         "Excusez-moi, où est ... ?",
@@ -946,14 +946,14 @@
     },
     {
       "id": "how-i-travel",
-      "title": "How I get around",
+      "title": "Jak se dopravuju",
       "level": "A1",
       "kind": "description",
-      "task": "Write how you go to school and to your friends, and how you get to other towns.",
+      "task": "Napiš, jak se dostaneš do školy a ke kamarádům a jak jezdíš do jiných měst.",
       "must": [
-        "Transport for at least three trips",
-        "Use en, à or par correctly",
-        "How long it takes"
+        "Doprava aspoň u tří cest",
+        "Správně použij en, à nebo par",
+        "Jak dlouho to trvá"
       ],
       "phrases": [
         "Je vais à l'école à pied",
@@ -968,14 +968,14 @@
     },
     {
       "id": "saturday-plans",
-      "title": "Plans for Saturday",
+      "title": "Plány na sobotu",
       "level": "A1",
       "kind": "message",
-      "task": "Write to a friend about what you are going to do on Saturday.",
+      "task": "Napiš kamarádovi, co budeš dělat v sobotu.",
       "must": [
-        "At least four plans with aller + infinitive",
-        "Times",
-        "Invite your friend"
+        "Aspoň čtyři plány s aller + infinitiv",
+        "Časy",
+        "Pozvi kamaráda"
       ],
       "phrases": [
         "Je vais ...",
@@ -990,14 +990,14 @@
     },
     {
       "id": "invite-city",
-      "title": "A day in the city",
+      "title": "Den ve městě",
       "level": "A1",
       "kind": "message",
-      "task": "Invite a friend to spend a day in town. Plan the day.",
+      "task": "Pozvi kamaráda, ať s tebou stráví den ve městě. Naplánuj ho.",
       "must": [
-        "Where to meet and at what time",
-        "At least three activities",
-        "An imperative sentence (viens, prends ...)"
+        "Kde a v kolik se sejdete",
+        "Aspoň tři aktivity",
+        "Věta v rozkazovacím způsobu (viens, prends ...)"
       ],
       "phrases": [
         "On se retrouve à ...",
@@ -1012,15 +1012,15 @@
     },
     {
       "id": "weather-report",
-      "title": "Weather today and tomorrow",
+      "title": "Počasí dnes a zítra",
       "level": "A1",
       "kind": "description",
-      "task": "Write a short weather report for today, tomorrow and the weekend.",
+      "task": "Napiš krátkou předpověď počasí na dnešek, zítřek a víkend.",
       "must": [
-        "Today's weather",
-        "Tomorrow's weather",
-        "Weekend (futur proche)",
-        "Temperature or season"
+        "Dnešní počasí",
+        "Zítřejší počasí",
+        "Víkend (futur proche)",
+        "Teplota nebo roční období"
       ],
       "phrases": [
         "Aujourd'hui, il fait ...",
@@ -1035,15 +1035,15 @@
     },
     {
       "id": "favourite-season",
-      "title": "My favourite season",
+      "title": "Moje oblíbené roční období",
       "level": "A1",
       "kind": "opinion",
-      "task": "Write about your favourite season and why.",
+      "task": "Napiš o svém oblíbeném ročním období a proč ho máš rád(a).",
       "must": [
-        "Which season (en été, au printemps ...)",
-        "Weather in that season",
-        "What you do",
-        "Reasons"
+        "Které období (en été, au printemps ...)",
+        "Počasí v tom období",
+        "Co děláš",
+        "Důvody"
       ],
       "phrases": [
         "Ma saison préférée est ...",
@@ -1058,15 +1058,15 @@
     },
     {
       "id": "my-birthday",
-      "title": "My birthday",
+      "title": "Moje narozeniny",
       "level": "A1",
       "kind": "description",
-      "task": "Write about your birthday: when it is and how you celebrate.",
+      "task": "Napiš o svých narozeninách: kdy je máš a jak je slavíš.",
       "must": [
-        "Date written with the month",
-        "Age you will be",
-        "Who you invite",
-        "What you do"
+        "Datum s názvem měsíce",
+        "Kolik ti bude",
+        "Koho pozveš",
+        "Co děláš"
       ],
       "phrases": [
         "Mon anniversaire est le ...",
@@ -1081,14 +1081,14 @@
     },
     {
       "id": "weather-plans",
-      "title": "A plan for the weekend",
+      "title": "Plán na víkend",
       "level": "A1",
       "kind": "message",
-      "task": "Plan the weekend for you and a friend depending on the weather.",
+      "task": "Naplánuj víkend pro sebe a kamaráda podle počasí.",
       "must": [
-        "Plan A for good weather",
-        "Plan B for bad weather",
-        "Use s'il fait ... or s'il pleut ..."
+        "Plán A pro hezké počasí",
+        "Plán B pro špatné počasí",
+        "Použij s'il fait ... nebo s'il pleut ..."
       ],
       "phrases": [
         "S'il fait beau, nous irons ...",
@@ -1103,14 +1103,14 @@
     },
     {
       "id": "new-clothes",
-      "title": "What I wear",
+      "title": "Co nosím",
       "level": "A2",
       "kind": "description",
-      "task": "Describe the clothes you wear for school, for sport and for a party.",
+      "task": "Popiš oblečení, které nosíš do školy, na sport a na večírek.",
       "must": [
-        "Three situations",
-        "Clothes with colours and the correct adjective agreement",
-        "Your favourite item"
+        "Tři situace",
+        "Oblečení s barvami a správnou shodou přídavných jmen",
+        "Tvůj oblíbený kus oblečení"
       ],
       "phrases": [
         "Je porte ...",
@@ -1126,15 +1126,15 @@
     },
     {
       "id": "clothes-shop",
-      "title": "In the clothes shop",
+      "title": "V obchodě s oblečením",
       "level": "A2",
       "kind": "dialogue",
-      "task": "Write a conversation between a customer and a shop assistant.",
+      "task": "Napiš rozhovor mezi zákazníkem a prodavačem.",
       "must": [
-        "Size and colour",
-        "Try on and give an opinion",
-        "Price",
-        "Decision to buy or not (use le, la, les)"
+        "Velikost a barva",
+        "Vyzkoušení a názor",
+        "Cena",
+        "Rozhodnutí, jestli to koupíš (použij le, la, les)"
       ],
       "phrases": [
         "Je cherche ...",
@@ -1151,14 +1151,14 @@
     },
     {
       "id": "fashion-opinion",
-      "title": "Fashion: my opinion",
+      "title": "Móda: můj názor",
       "level": "A2",
       "kind": "opinion",
-      "task": "Write what you think about fashion and brands.",
+      "task": "Napiš, co si myslíš o módě a značkách.",
       "must": [
-        "Do you care about fashion?",
-        "At least one comparison (plus ... que, moins ... que)",
-        "Reasons with parce que"
+        "Záleží ti na módě?",
+        "Aspoň jedno srovnání (plus ... que, moins ... que)",
+        "Důvody s parce que"
       ],
       "phrases": [
         "Pour moi, ...",
@@ -1173,15 +1173,15 @@
     },
     {
       "id": "school-uniform",
-      "title": "Should students wear a uniform?",
+      "title": "Měli by žáci nosit uniformu?",
       "level": "A2",
       "kind": "opinion",
-      "task": "Give your opinion about school uniform.",
+      "task": "Vyjádři svůj názor na školní uniformy.",
       "must": [
-        "Say yes or no clearly",
-        "Two arguments",
-        "One argument from the other side",
-        "A conclusion"
+        "Jasně řekni ano, nebo ne",
+        "Dva argumenty",
+        "Jeden argument druhé strany",
+        "Závěr"
       ],
       "phrases": [
         "Je pense que ...",
@@ -1196,15 +1196,15 @@
     },
     {
       "id": "last-weekend",
-      "title": "What I did last weekend",
+      "title": "Co jsem dělal(a) minulý víkend",
       "level": "A2",
       "kind": "story",
-      "task": "Tell a friend what you did last weekend.",
+      "task": "Řekni kamarádovi, co jsi dělal(a) minulý víkend.",
       "must": [
-        "Passé composé with avoir and être correctly",
-        "At least five actions in order",
-        "Time words (samedi matin, ensuite ...)",
-        "How you felt"
+        "Passé composé se správným avoir a être",
+        "Aspoň pět činností popořadě",
+        "Časové výrazy (samedi matin, ensuite ...)",
+        "Jak ses cítil(a)"
       ],
       "phrases": [
         "Samedi, j'ai ...",
@@ -1221,15 +1221,15 @@
     },
     {
       "id": "match-report",
-      "title": "A match I played",
+      "title": "Zápas, který jsem hrál(a)",
       "level": "A2",
       "kind": "story",
-      "task": "Write a report about a basketball or football match you played.",
+      "task": "Napiš zprávu o basketbalovém nebo fotbalovém zápase, který jsi hrál(a).",
       "must": [
-        "Who you played against and where",
-        "What happened (at least five past actions)",
-        "The result",
-        "How you felt"
+        "S kým a kde jste hráli",
+        "Co se stalo (aspoň pět minulých dějů)",
+        "Výsledek",
+        "Jak ses cítil(a)"
       ],
       "phrases": [
         "Nous avons gagné / perdu",
@@ -1244,14 +1244,14 @@
     },
     {
       "id": "yesterday-message",
-      "title": "What happened yesterday",
+      "title": "Co se stalo včera",
       "level": "A2",
       "kind": "message",
-      "task": "Write to a friend who was ill yesterday and missed school. Tell them what happened.",
+      "task": "Napiš kamarádovi, který byl včera nemocný a nebyl ve škole. Řekni mu, co se stalo.",
       "must": [
-        "At least five things that happened",
-        "Past tense with correct auxiliaries",
-        "Homework news"
+        "Aspoň pět věcí, které se staly",
+        "Minulý čas se správnými pomocnými slovesy",
+        "Novinky o domácích úkolech"
       ],
       "phrases": [
         "Hier, ...",
@@ -1266,14 +1266,14 @@
     },
     {
       "id": "when-i-was-little",
-      "title": "When I was little",
+      "title": "Když jsem byl(a) malý(á)",
       "level": "A2",
       "kind": "story",
-      "task": "Tell how your life was when you were little.",
+      "task": "Vyprávěj, jaký byl tvůj život, když jsi byl(a) malý(á).",
       "must": [
-        "Where you lived and what you looked like",
-        "At least four habits with the imparfait",
-        "One thing you did every weekend"
+        "Kde jsi bydlel(a) a jak jsi vypadal(a)",
+        "Aspoň čtyři zvyky v imparfait",
+        "Jedna věc, kterou jsi dělal(a) každý víkend"
       ],
       "phrases": [
         "Quand j'étais petit(e), ...",
@@ -1288,15 +1288,15 @@
     },
     {
       "id": "holiday-postcard",
-      "title": "A postcard from my holidays",
+      "title": "Pohlednice z prázdnin",
       "level": "A2",
       "kind": "letter",
-      "task": "Write a postcard to your grandparents from your holiday.",
+      "task": "Napiš babičce a dědovi pohlednici z prázdnin.",
       "must": [
-        "Where you are and with whom",
-        "The weather",
-        "Two things you did",
-        "One thing you will do tomorrow"
+        "Kde a s kým jsi",
+        "Počasí",
+        "Dvě věci, které jsi dělal(a)",
+        "Jedna věc, kterou budeš dělat zítra"
       ],
       "phrases": [
         "Je suis à ...",
@@ -1312,15 +1312,15 @@
     },
     {
       "id": "best-holiday",
-      "title": "My best holiday",
+      "title": "Moje nejlepší dovolená",
       "level": "A2",
       "kind": "story",
-      "task": "Tell about the best holiday you have ever had.",
+      "task": "Vyprávěj o nejlepší dovolené, jakou jsi kdy zažil(a).",
       "must": [
-        "Where and when",
-        "What it was like (imparfait)",
-        "What happened (passé composé)",
-        "Why it was the best"
+        "Kde a kdy",
+        "Jaké to bylo (imparfait)",
+        "Co se stalo (passé composé)",
+        "Proč byla nejlepší"
       ],
       "phrases": [
         "C'était en ...",
@@ -1335,15 +1335,15 @@
     },
     {
       "id": "dream-trip",
-      "title": "My dream trip",
+      "title": "Můj vysněný výlet",
       "level": "A2",
       "kind": "description",
-      "task": "Describe the trip you would like to take.",
+      "task": "Popiš cestu, na kterou by ses chtěl(a) vydat.",
       "must": [
-        "Which country and city (correct preposition)",
-        "Who goes with you",
-        "What you will visit",
-        "How you will travel"
+        "Jaká země a jaké město (správná předložka)",
+        "Kdo jede s tebou",
+        "Co navštívíš",
+        "Jak budeš cestovat"
       ],
       "phrases": [
         "Je voudrais aller en / au / aux ...",
@@ -1359,15 +1359,15 @@
     },
     {
       "id": "book-hotel",
-      "title": "Booking a hotel",
+      "title": "Rezervace hotelu",
       "level": "A2",
       "kind": "letter",
-      "task": "Write an email to a hotel to book a room.",
+      "task": "Napiš hotelu e-mail a zarezervuj si pokoj.",
       "must": [
-        "Formal greeting (vous)",
-        "Dates and number of people",
-        "Questions about breakfast or price",
-        "Formal ending"
+        "Formální pozdrav (vous)",
+        "Data a počet osob",
+        "Otázky na snídani nebo cenu",
+        "Formální závěr"
       ],
       "phrases": [
         "Je voudrais réserver ...",
@@ -1384,14 +1384,14 @@
     },
     {
       "id": "at-the-doctor",
-      "title": "At the doctor",
+      "title": "U lékaře",
       "level": "A2",
       "kind": "dialogue",
-      "task": "Write a dialogue at the doctor.",
+      "task": "Napiš rozhovor u lékaře.",
       "must": [
-        "Describe at least two symptoms (avoir mal à ...)",
-        "How long you have been ill",
-        "The doctor's advice"
+        "Popiš aspoň dva příznaky (avoir mal à ...)",
+        "Jak dlouho jsi nemocný(á)",
+        "Rada lékaře"
       ],
       "phrases": [
         "J'ai mal à la tête",
@@ -1408,14 +1408,14 @@
     },
     {
       "id": "healthy-life",
-      "title": "A healthy life",
+      "title": "Zdravý život",
       "level": "A2",
       "kind": "opinion",
-      "task": "Give advice on how to live healthily.",
+      "task": "Poraď, jak žít zdravě.",
       "must": [
-        "At least four pieces of advice (il faut, tu dois, il ne faut pas)",
-        "Food, sport and sleep",
-        "Your own habits"
+        "Aspoň čtyři rady (il faut, tu dois, il ne faut pas)",
+        "Jídlo, sport a spánek",
+        "Tvoje vlastní zvyky"
       ],
       "phrases": [
         "Il faut manger ...",
@@ -1431,15 +1431,15 @@
     },
     {
       "id": "absence-email",
-      "title": "An email to the teacher",
+      "title": "E-mail učiteli",
       "level": "A2",
       "kind": "letter",
-      "task": "You were ill and could not come to school. Write an email to your teacher.",
+      "task": "Byl(a) jsi nemocný(á) a nemohl(a) jsi přijít do školy. Napiš učiteli e-mail.",
       "must": [
-        "Formal greeting",
-        "Explain why you were absent (passé composé)",
-        "Ask about homework",
-        "Formal ending"
+        "Formální pozdrav",
+        "Vysvětli, proč jsi chyběl(a) (passé composé)",
+        "Zeptej se na domácí úkol",
+        "Formální závěr"
       ],
       "phrases": [
         "Je n'ai pas pu venir parce que ...",
@@ -1454,15 +1454,15 @@
     },
     {
       "id": "sport-health",
-      "title": "Sport and me",
+      "title": "Sport a já",
       "level": "A2",
       "kind": "description",
-      "task": "Explain why sport matters to you and how it changes your week.",
+      "task": "Vysvětli, proč je pro tebe sport důležitý a jak mění tvůj týden.",
       "must": [
-        "How often you train",
-        "What sport gives you",
-        "One injury or tired day",
-        "A goal for the season"
+        "Jak často trénuješ",
+        "Co ti sport dává",
+        "Jedno zranění nebo unavený den",
+        "Cíl na sezónu"
       ],
       "phrases": [
         "Je m'entraîne ...",
@@ -1478,15 +1478,15 @@
     },
     {
       "id": "screen-time",
-      "title": "Screen time",
+      "title": "Čas u obrazovek",
       "level": "A2",
       "kind": "opinion",
-      "task": "Write about how much time you spend on your phone and computer.",
+      "task": "Napiš, kolik času trávíš u telefonu a počítače.",
       "must": [
-        "How many hours a day",
-        "What you do on screens",
-        "Is it too much?",
-        "One rule you would like"
+        "Kolik hodin denně",
+        "Co na obrazovkách děláš",
+        "Je to moc?",
+        "Jedno pravidlo, které bys chtěl(a)"
       ],
       "phrases": [
         "Je passe ... heures",
@@ -1502,15 +1502,15 @@
     },
     {
       "id": "favourite-game",
-      "title": "My favourite video game",
+      "title": "Moje oblíbená videohra",
       "level": "A2",
       "kind": "description",
-      "task": "Describe a game you love (for example Minecraft) to someone who does not play.",
+      "task": "Popiš hru, kterou miluješ (třeba Minecraft), někomu, kdo nehraje.",
       "must": [
-        "Name and kind of game",
-        "How it works",
-        "Who you play with",
-        "What you like and dislike"
+        "Název a typ hry",
+        "Jak funguje",
+        "S kým hraješ",
+        "Co se ti líbí a nelíbí"
       ],
       "phrases": [
         "Dans ce jeu, il faut ...",
@@ -1525,15 +1525,15 @@
     },
     {
       "id": "social-media",
-      "title": "Social media: pros and cons",
+      "title": "Sociální sítě: pro a proti",
       "level": "A2",
       "kind": "opinion",
-      "task": "Write about the good and bad sides of social media.",
+      "task": "Napiš o dobrých a špatných stránkách sociálních sítí.",
       "must": [
-        "Two advantages",
-        "Two disadvantages",
-        "Your opinion at the end",
-        "Connectors (mais, par contre, donc)"
+        "Dvě výhody",
+        "Dvě nevýhody",
+        "Tvůj názor na závěr",
+        "Spojovací výrazy (mais, par contre, donc)"
       ],
       "phrases": [
         "D'un côté ...",
@@ -1548,14 +1548,14 @@
     },
     {
       "id": "phone-rules",
-      "title": "Phone rules",
+      "title": "Pravidla pro telefony",
       "level": "A2",
       "kind": "message",
-      "task": "Write the rules for phones at school or at home.",
+      "task": "Napiš pravidla pro telefony ve škole nebo doma.",
       "must": [
-        "At least five rules",
-        "Use il est interdit de, il faut or on doit",
-        "Say why one rule is useful"
+        "Aspoň pět pravidel",
+        "Použij il est interdit de, il faut nebo on doit",
+        "Řekni, proč je jedno pravidlo užitečné"
       ],
       "phrases": [
         "Il est interdit de ...",
@@ -1571,15 +1571,15 @@
     },
     {
       "id": "online-friend",
-      "title": "A friend online",
+      "title": "Kamarád z internetu",
       "level": "A2",
       "kind": "message",
-      "task": "Write a message to a friend you only know from a game or chat. Suggest meeting in a call.",
+      "task": "Napiš zprávu kamarádovi, kterého znáš jen ze hry nebo chatu. Navrhni, ať si zavoláte.",
       "must": [
-        "Say who you are and what you play",
-        "Suggest a time (futur proche or présent)",
-        "Ask a question",
-        "Be polite and friendly"
+        "Řekni, kdo jsi a co hraješ",
+        "Navrhni čas (futur proche nebo présent)",
+        "Polož otázku",
+        "Buď zdvořilý(á) a přátelský(á)"
       ],
       "phrases": [
         "On peut parler ...",
@@ -1594,14 +1594,14 @@
     },
     {
       "id": "celebration-in-my-country",
-      "title": "A celebration in my country",
+      "title": "Svátek v mé zemi",
       "level": "A2",
       "kind": "description",
-      "task": "Explain a holiday you celebrate (for example Christmas or Easter) to a French friend.",
+      "task": "Vysvětli francouzskému kamarádovi svátek, který slavíš (třeba Vánoce nebo Velikonoce).",
       "must": [
-        "When it happens",
-        "What people do and eat",
-        "What you like most about it"
+        "Kdy je",
+        "Co lidé dělají a jedí",
+        "Co se ti na něm líbí nejvíc"
       ],
       "phrases": [
         "En République tchèque, on ...",
@@ -1616,15 +1616,15 @@
     },
     {
       "id": "party-invitation",
-      "title": "A party invitation",
+      "title": "Pozvánka na oslavu",
       "level": "A2",
       "kind": "letter",
-      "task": "Write an invitation to your birthday party.",
+      "task": "Napiš pozvánku na svou narozeninovou oslavu.",
       "must": [
-        "Date, time and place",
-        "What you will do",
-        "What to bring",
-        "Ask for an answer"
+        "Datum, čas a místo",
+        "Co budete dělat",
+        "Co přinést",
+        "Požádej o odpověď"
       ],
       "phrases": [
         "Je t'invite à ...",
@@ -1640,14 +1640,14 @@
     },
     {
       "id": "thank-you-note",
-      "title": "A thank you note",
+      "title": "Poděkování",
       "level": "A2",
       "kind": "letter",
-      "task": "Write a thank you note for a present you received.",
+      "task": "Napiš poděkování za dárek, který jsi dostal(a).",
       "must": [
-        "Thank them",
-        "Say what the present is and what you like about it",
-        "Say what you will do with it"
+        "Poděkuj",
+        "Řekni, co je to za dárek a co se ti na něm líbí",
+        "Řekni, co s ním uděláš"
       ],
       "phrases": [
         "Merci beaucoup pour ...",
@@ -1662,15 +1662,15 @@
     },
     {
       "id": "best-party",
-      "title": "The best party",
+      "title": "Nejlepší oslava",
       "level": "A2",
       "kind": "story",
-      "task": "Tell about the best party you have ever been to.",
+      "task": "Vyprávěj o nejlepší oslavě, na které jsi kdy byl(a).",
       "must": [
-        "When and where",
-        "Who was there",
-        "What happened",
-        "What it was like"
+        "Kdy a kde",
+        "Kdo tam byl",
+        "Co se stalo",
+        "Jaké to bylo"
       ],
       "phrases": [
         "C'était ...",
@@ -1685,15 +1685,15 @@
     },
     {
       "id": "future-job",
-      "title": "My future job",
+      "title": "Moje budoucí povolání",
       "level": "A2",
       "kind": "description",
-      "task": "Write about the job you would like to do.",
+      "task": "Napiš o povolání, které bys chtěl(a) dělat.",
       "must": [
-        "Which job",
-        "Why you like it",
-        "What you need to study",
-        "Where you want to work"
+        "Jaké povolání",
+        "Proč ho máš rád(a)",
+        "Co musíš vystudovat",
+        "Kde chceš pracovat"
       ],
       "phrases": [
         "Plus tard, je voudrais être ...",
@@ -1709,14 +1709,14 @@
     },
     {
       "id": "next-year",
-      "title": "Next year",
+      "title": "Příští rok",
       "level": "A2",
       "kind": "story",
-      "task": "Write what will happen in your life next year.",
+      "task": "Napiš, co se ve tvém životě stane příští rok.",
       "must": [
-        "At least five predictions with the futur simple",
-        "School and sport",
-        "One thing you want to change"
+        "Aspoň pět předpovědí ve futur simple",
+        "Škola a sport",
+        "Jedna věc, kterou chceš změnit"
       ],
       "phrases": [
         "L'année prochaine, je serai ...",
@@ -1731,14 +1731,14 @@
     },
     {
       "id": "what-i-would-like",
-      "title": "What I would like to do",
+      "title": "Co bych chtěl(a) dělat",
       "level": "A2",
       "kind": "description",
-      "task": "Write what you would like to do in your life.",
+      "task": "Napiš, co bys chtěl(a) v životě dělat.",
       "must": [
-        "At least four wishes with the conditionnel",
-        "One place to visit",
-        "One skill to learn"
+        "Aspoň čtyři přání v conditionnel",
+        "Jedno místo, které navštívíš",
+        "Jedna dovednost, kterou se naučíš"
       ],
       "phrases": [
         "Je voudrais ...",
@@ -1753,15 +1753,15 @@
     },
     {
       "id": "school-path",
-      "title": "Why I chose my school",
+      "title": "Proč jsem si vybral(a) svou školu",
       "level": "A2",
       "kind": "description",
-      "task": "Explain why you chose your school and what you would like to learn there.",
+      "task": "Vysvětli, proč sis vybral(a) svou školu a co by ses tam chtěl(a) naučit.",
       "must": [
-        "Why you chose it",
-        "What you like there",
-        "Your plans for the next years",
-        "A connector (parce que, donc, mais)"
+        "Proč sis ji vybral(a)",
+        "Co se ti tam líbí",
+        "Tvoje plány na další roky",
+        "Spojovací výraz (parce que, donc, mais)"
       ],
       "phrases": [
         "J'ai choisi ce lycée parce que ...",
@@ -1775,15 +1775,15 @@
     },
     {
       "id": "later-school-start",
-      "title": "Should school start later?",
+      "title": "Měla by škola začínat později?",
       "level": "B1",
       "kind": "opinion",
-      "task": "Argue for or against starting school at 9 o'clock.",
+      "task": "Argumentuj pro, nebo proti začátku vyučování v 9 hodin.",
       "must": [
-        "Clear position in the introduction",
-        "Three arguments with examples",
-        "One counter-argument and a reply",
-        "A conclusion"
+        "Jasný postoj v úvodu",
+        "Tři argumenty s příklady",
+        "Jeden protiargument a odpověď na něj",
+        "Závěr"
       ],
       "phrases": [
         "À mon avis, ...",
@@ -1798,15 +1798,15 @@
     },
     {
       "id": "childhood-memory",
-      "title": "A childhood memory",
+      "title": "Vzpomínka z dětství",
       "level": "B1",
       "kind": "story",
-      "task": "Tell a detailed memory from your childhood.",
+      "task": "Vyprávěj podrobně jednu vzpomínku z dětství.",
       "must": [
-        "Context in the imparfait",
-        "Events in the passé composé",
-        "At least one plus-que-parfait",
-        "Feelings"
+        "Okolnosti v imparfait",
+        "Události v passé composé",
+        "Aspoň jednou plus-que-parfait",
+        "Pocity"
       ],
       "phrases": [
         "Ce jour-là, ...",
@@ -1820,14 +1820,14 @@
     },
     {
       "id": "if-i-were-rich",
-      "title": "If I were rich",
+      "title": "Kdybych byl(a) bohatý(á)",
       "level": "B1",
       "kind": "description",
-      "task": "Write what you would do if you won a lot of money.",
+      "task": "Napiš, co bys dělal(a), kdybys vyhrál(a) hodně peněz.",
       "must": [
-        "At least four si + imparfait + conditionnel sentences",
-        "A wish for yourself",
-        "A wish for others"
+        "Aspoň čtyři věty se si + imparfait + conditionnel",
+        "Přání pro sebe",
+        "Přání pro ostatní"
       ],
       "phrases": [
         "Si j'avais ..., je ...",
@@ -1841,16 +1841,16 @@
     },
     {
       "id": "job-application",
-      "title": "Applying for a summer job",
+      "title": "Žádost o letní brigádu",
       "level": "B1",
       "kind": "letter",
-      "task": "Write a formal letter to apply for a summer job.",
+      "task": "Napiš formální dopis, ve kterém se ucházíš o letní brigádu.",
       "must": [
-        "Formal opening",
-        "Why you want the job",
-        "Your skills and experience",
-        "Availability",
-        "Formal closing"
+        "Formální úvod",
+        "Proč tu práci chceš",
+        "Tvoje dovednosti a zkušenosti",
+        "Kdy máš čas",
+        "Formální závěr"
       ],
       "phrases": [
         "Je me permets de vous écrire ...",
@@ -1865,15 +1865,15 @@
     },
     {
       "id": "film-review",
-      "title": "A film or series review",
+      "title": "Recenze filmu nebo seriálu",
       "level": "B1",
       "kind": "opinion",
-      "task": "Write a review of a film, series or book.",
+      "task": "Napiš recenzi filmu, seriálu nebo knihy.",
       "must": [
-        "Title and kind",
-        "Summary without spoiling",
-        "Your opinion with reasons",
-        "A recommendation"
+        "Název a žánr",
+        "Shrnutí bez prozrazení děje",
+        "Tvůj názor s důvody",
+        "Doporučení"
       ],
       "phrases": [
         "Ça raconte l'histoire de ...",
@@ -1888,15 +1888,15 @@
     },
     {
       "id": "tech-future",
-      "title": "Technology in twenty years",
+      "title": "Technologie za dvacet let",
       "level": "B1",
       "kind": "opinion",
-      "task": "How will technology change life in twenty years?",
+      "task": "Jak technologie změní život za dvacet let?",
       "must": [
-        "Three predictions (futur simple)",
-        "One risk",
-        "One chance",
-        "Your opinion"
+        "Tři předpovědi (futur simple)",
+        "Jedno riziko",
+        "Jedna příležitost",
+        "Tvůj názor"
       ],
       "phrases": [
         "Dans vingt ans, ...",
@@ -1910,15 +1910,15 @@
     },
     {
       "id": "mystery-story",
-      "title": "A mystery story",
+      "title": "Záhadný příběh",
       "level": "B1",
       "kind": "story",
-      "task": "Write the beginning of a short story with a mystery.",
+      "task": "Napiš začátek krátkého příběhu se záhadou.",
       "must": [
-        "Setting in the imparfait",
-        "Events in the passé composé",
-        "At least one plus-que-parfait",
-        "A cliffhanger"
+        "Prostředí v imparfait",
+        "Události v passé composé",
+        "Aspoň jednou plus-que-parfait",
+        "Napínavý konec"
       ],
       "phrases": [
         "Il faisait nuit quand ...",
@@ -1932,16 +1932,16 @@
     },
     {
       "id": "sport-compulsory",
-      "title": "Should competitive sport be compulsory?",
+      "title": "Měl by být závodní sport povinný?",
       "level": "B1",
       "kind": "opinion",
-      "task": "Argue whether competitive sport should be compulsory at school.",
+      "task": "Argumentuj, jestli by ve škole měl být závodní sport povinný.",
       "must": [
-        "Position",
-        "Three arguments",
-        "A counter-argument",
-        "Use of the subjonctif at least once (il faut que ...)",
-        "Conclusion"
+        "Postoj",
+        "Tři argumenty",
+        "Protiargument",
+        "Aspoň jednou použij subjonctif (il faut que ...)",
+        "Závěr"
       ],
       "phrases": [
         "Il faut que ...",
@@ -1955,15 +1955,15 @@
     },
     {
       "id": "person-who-changed-me",
-      "title": "A person who changed me",
+      "title": "Člověk, který mě změnil",
       "level": "B1",
       "kind": "description",
-      "task": "Describe a person who influenced you.",
+      "task": "Popiš člověka, který tě ovlivnil.",
       "must": [
-        "Who and how you met",
-        "What they are like",
-        "How they changed you",
-        "Use qui, que or dont at least twice"
+        "Kdo to je a jak jste se poznali",
+        "Jaký(á) je",
+        "Jak tě změnil(a)",
+        "Aspoň dvakrát použij qui, que nebo dont"
       ],
       "phrases": [
         "La personne qui m'a ...",
@@ -1976,14 +1976,14 @@
     },
     {
       "id": "reported-conversation",
-      "title": "Reporting a conversation",
+      "title": "Převyprávění rozhovoru",
       "level": "B1",
       "kind": "story",
-      "task": "Report a conversation you had with a teacher or a friend.",
+      "task": "Převyprávěj rozhovor, který jsi vedl(a) s učitelem nebo kamarádem.",
       "must": [
-        "Use reported speech (il m'a dit que ...)",
-        "At least four reported sentences",
-        "Tense changes where needed"
+        "Použij nepřímou řeč (il m'a dit que ...)",
+        "Aspoň čtyři věty v nepřímé řeči",
+        "Posun časů, kde je potřeba"
       ],
       "phrases": [
         "Il m'a dit que ...",

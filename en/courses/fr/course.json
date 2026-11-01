@@ -1,0 +1,537 @@
+{
+  "schema": 2,
+  "lang": "fr",
+  "title": "French A1 and A2",
+  "levels": {
+    "A1": {
+      "title": "A1 final test",
+      "subtitle": "Covers all 5 A1 units. Pass it (70%) to skip A1: every A1 lesson opens and A2 starts.",
+      "file": "a1-test.json"
+    }
+  },
+  "topics": {
+    "greetings": {
+      "title": "Greetings and politeness",
+      "kind": "communication",
+      "en": "Bonjour, salut, au revoir, ça va, merci, s'il te plaît."
+    },
+    "tu-vous": {
+      "title": "Informal and formal you (tu / vous)",
+      "kind": "grammar",
+      "en": "Who to say tu to and who to say vous to."
+    },
+    "pronouns": {
+      "title": "Subject pronouns",
+      "kind": "grammar",
+      "en": "je, tu, il, elle, on, nous, vous, ils, elles"
+    },
+    "etre": {
+      "title": "Être in the present tense",
+      "kind": "grammar",
+      "en": "je suis, tu es, il est, nous sommes, vous êtes, ils sont"
+    },
+    "s-appeler": {
+      "title": "S'appeler (to be called)",
+      "kind": "grammar",
+      "en": "je m'appelle, tu t'appelles, nous nous appelons"
+    },
+    "introductions": {
+      "title": "Introducing yourself",
+      "kind": "communication",
+      "en": "Your name, nationality, qui est-ce, c'est."
+    },
+    "numbers": {
+      "title": "Numbers",
+      "kind": "vocabulary",
+      "en": "From zero to a thousand, prices and age."
+    },
+    "avoir": {
+      "title": "Avoir in the present tense",
+      "kind": "grammar",
+      "en": "j'ai, tu as, il a, nous avons, vous avez, ils ont"
+    },
+    "age": {
+      "title": "Age",
+      "kind": "communication",
+      "en": "Quel âge as-tu ? J'ai quatorze ans."
+    },
+    "nationalities": {
+      "title": "Countries and nationalities",
+      "kind": "vocabulary",
+      "en": "la France, la République tchèque, allemand / allemande."
+    },
+    "places-prep": {
+      "title": "Prepositions with towns and countries",
+      "kind": "grammar",
+      "en": "à Prague, en France, au Canada, aux États-Unis"
+    },
+    "venir": {
+      "title": "Venir and where you're from",
+      "kind": "grammar",
+      "en": "je viens de Prague, d'Italie, du Canada"
+    },
+    "articles": {
+      "title": "Articles (un, une, le, la)",
+      "kind": "grammar",
+      "en": "The gender of nouns, definite and indefinite articles, the plural."
+    },
+    "possessives": {
+      "title": "Possessives",
+      "kind": "grammar",
+      "en": "mon, ma, mes, ton, son, notre, votre, leur"
+    },
+    "family": {
+      "title": "Family and pets",
+      "kind": "vocabulary",
+      "en": "Family members, family status, pets."
+    },
+    "adjectives": {
+      "title": "Adjectives and colours",
+      "kind": "grammar",
+      "en": "Agreement in gender and number, irregular forms, word order."
+    },
+    "describe": {
+      "title": "Describing a person",
+      "kind": "communication",
+      "en": "Appearance and personality, hair and eyes."
+    },
+    "negation": {
+      "title": "The negative",
+      "kind": "grammar",
+      "en": "ne... pas, pas de, ne... jamais"
+    },
+    "er-verbs": {
+      "title": "-er verbs",
+      "kind": "grammar",
+      "en": "je joue, nous jouons, ils jouent"
+    },
+    "likes": {
+      "title": "What I like",
+      "kind": "communication",
+      "en": "aimer, adorer, préférer, détester + le, la, les"
+    },
+    "faire": {
+      "title": "Faire, jouer à, jouer de",
+      "kind": "grammar",
+      "en": "faire du sport, jouer au foot, jouer de la batterie"
+    },
+    "questions": {
+      "title": "Questions",
+      "kind": "grammar",
+      "en": "est-ce que, inversion, où, quand, pourquoi, comment"
+    },
+    "hobbies": {
+      "title": "Sport and hobbies",
+      "kind": "vocabulary",
+      "en": "Sports, musical instruments, how often."
+    },
+    "time": {
+      "title": "Days and telling the time",
+      "kind": "communication",
+      "en": "lundi, le lundi, quelle heure est-il ?"
+    },
+    "aller": {
+      "title": "Aller and à + le = au",
+      "kind": "grammar",
+      "en": "je vais au collège, à la piscine, aux toilettes"
+    },
+    "ir-verbs": {
+      "title": "-ir verbs",
+      "kind": "grammar",
+      "en": "finir, choisir: nous finissons"
+    },
+    "school": {
+      "title": "School",
+      "kind": "vocabulary",
+      "en": "Subjects, places at school, school things, opinions."
+    },
+    "reflexive": {
+      "title": "Reflexive verbs",
+      "kind": "grammar",
+      "en": "je me lève, tu te douches, ne... pas"
+    },
+    "prendre": {
+      "title": "Prendre and partir",
+      "kind": "grammar",
+      "en": "je prends, ils prennent, je pars"
+    },
+    "daily": {
+      "title": "My day",
+      "kind": "communication",
+      "en": "Daily routine, meals, d'abord, ensuite, enfin."
+    },
+    "partitive": {
+      "title": "The partitive article",
+      "kind": "grammar",
+      "en": "du pain, de la confiture, de l'eau, des pâtes"
+    },
+    "quantities": {
+      "title": "Quantities",
+      "kind": "grammar",
+      "en": "beaucoup de, un peu de, un kilo de, une bouteille de"
+    },
+    "food": {
+      "title": "Food and drink",
+      "kind": "vocabulary",
+      "en": "Breakfast, fruit, vegetables, boire and manger."
+    },
+    "restaurant": {
+      "title": "At the restaurant",
+      "kind": "communication",
+      "en": "Je voudrais..., l'addition, j'ai faim."
+    },
+    "shopping": {
+      "title": "Shopping",
+      "kind": "communication",
+      "en": "Shops, prices, a conversation in a shop."
+    },
+    "vouloir-pouvoir": {
+      "title": "Vouloir and pouvoir",
+      "kind": "grammar",
+      "en": "je veux, je peux, je voudrais"
+    },
+    "home": {
+      "title": "Home",
+      "kind": "vocabulary",
+      "en": "Rooms, furniture, floors, chores."
+    },
+    "il-y-a": {
+      "title": "Il y a",
+      "kind": "grammar",
+      "en": "il y a, il n'y a pas de, qu'est-ce qu'il y a ?"
+    },
+    "prepositions": {
+      "title": "Prepositions of place",
+      "kind": "grammar",
+      "en": "sur, sous, devant, derrière, à côté du"
+    },
+    "mettre": {
+      "title": "Mettre and chores",
+      "kind": "grammar",
+      "en": "je mets la table, je range ma chambre"
+    },
+    "city": {
+      "title": "Town and transport",
+      "kind": "vocabulary",
+      "en": "Places in town, en bus, à pied."
+    },
+    "imperative": {
+      "title": "The imperative",
+      "kind": "grammar",
+      "en": "tourne, tournons, tournez"
+    },
+    "futur-proche": {
+      "title": "The near future",
+      "kind": "grammar",
+      "en": "je vais visiter, il va pleuvoir"
+    },
+    "weather": {
+      "title": "Weather and seasons",
+      "kind": "communication",
+      "en": "il fait beau, il pleut, en été, au printemps"
+    },
+    "dates": {
+      "title": "Months and dates",
+      "kind": "vocabulary",
+      "en": "janvier, le premier mai, mon anniversaire"
+    },
+    "clothing": {
+      "title": "Clothes and fashion",
+      "kind": "vocabulary",
+      "en": "le pull, la jupe, porter, mettre, la taille"
+    },
+    "demonstratives": {
+      "title": "Demonstratives",
+      "kind": "grammar",
+      "en": "ce, cet, cette, ces, -ci, -là"
+    },
+    "comparative": {
+      "title": "Comparing",
+      "kind": "grammar",
+      "en": "plus ... que, moins ... que, aussi ... que, meilleur"
+    },
+    "passe-compose": {
+      "title": "The past with avoir",
+      "kind": "grammar",
+      "en": "j'ai joué, tu as fini, il a vu"
+    },
+    "past-time": {
+      "title": "When was it?",
+      "kind": "communication",
+      "en": "hier, samedi dernier, il y a deux jours"
+    },
+    "travel": {
+      "title": "Travel and holidays",
+      "kind": "vocabulary",
+      "en": "la plage, la montagne, la valise, à l'étranger"
+    },
+    "passe-compose-etre": {
+      "title": "The past with être",
+      "kind": "grammar",
+      "en": "je suis allé(e), elle est partie, je me suis baigné(e)"
+    },
+    "body": {
+      "title": "The body",
+      "kind": "vocabulary",
+      "en": "la tête, le bras, les yeux"
+    },
+    "health": {
+      "title": "Health and illness",
+      "kind": "communication",
+      "en": "j'ai mal à la tête, j'ai de la fièvre, chez le médecin"
+    },
+    "obligation": {
+      "title": "Obligation and advice",
+      "kind": "grammar",
+      "en": "il faut, il ne faut pas, devoir, tu devrais"
+    },
+    "media": {
+      "title": "Media and screens",
+      "kind": "vocabulary",
+      "en": "le portable, une série, les réseaux sociaux"
+    },
+    "object-pronouns": {
+      "title": "The pronouns le, la, les, lui, leur",
+      "kind": "grammar",
+      "en": "je le regarde, je lui écris"
+    },
+    "celebrations": {
+      "title": "Celebrations and festivals",
+      "kind": "vocabulary",
+      "en": "Noël, Joyeux anniversaire !, le 14 juillet"
+    },
+    "imparfait": {
+      "title": "The imparfait",
+      "kind": "grammar",
+      "en": "quand j'étais petit, il faisait beau, chaque année on fêtait"
+    },
+    "professions": {
+      "title": "Jobs",
+      "kind": "vocabulary",
+      "en": "médecin, ingénieur, développeur, devenir"
+    },
+    "futur-simple": {
+      "title": "The future tense",
+      "kind": "grammar",
+      "en": "je travaillerai, je serai, j'irai"
+    }
+  },
+  "units": [
+    {
+      "id": 1,
+      "title": "Salut !",
+      "subtitle": "Greetings and introducing yourself",
+      "level": "A1",
+      "parts": [
+        {
+          "id": "1.1",
+          "title": "Salut !",
+          "subtitle": "Greetings and introductions",
+          "tenses": [
+            "present"
+          ],
+          "file": "01-salut.json"
+        },
+        {
+          "id": "1.2",
+          "title": "Je me présente",
+          "subtitle": "Age, nationality and where you live",
+          "tenses": [
+            "present"
+          ],
+          "file": "01-2-presente.json"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Ma famille et mes loisirs",
+      "subtitle": "Family, appearance, personality and free time",
+      "level": "A1",
+      "parts": [
+        {
+          "id": "2.1",
+          "title": "Ma famille",
+          "subtitle": "Family and animals",
+          "file": "02-1-famille.json"
+        },
+        {
+          "id": "2.2",
+          "title": "Portrait",
+          "subtitle": "Appearance and personality",
+          "file": "02-2-portrait.json"
+        },
+        {
+          "id": "2.3",
+          "title": "Mes loisirs",
+          "subtitle": "Free time and sport",
+          "tenses": [
+            "present"
+          ],
+          "file": "03-loisirs.json"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Au collège",
+      "subtitle": "School and my day",
+      "level": "A1",
+      "parts": [
+        {
+          "id": "3.1",
+          "title": "Au collège",
+          "subtitle": "School and time",
+          "tenses": [
+            "present"
+          ],
+          "file": "04-1-college.json"
+        },
+        {
+          "id": "3.2",
+          "title": "Ma journée",
+          "subtitle": "My day",
+          "tenses": [
+            "present"
+          ],
+          "file": "04-2-journee.json"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "À table et chez moi",
+      "subtitle": "Food, shopping and home",
+      "level": "A1",
+      "parts": [
+        {
+          "id": "4.1",
+          "title": "À table !",
+          "subtitle": "Food and drink",
+          "tenses": [
+            "present"
+          ],
+          "file": "05-1-table.json"
+        },
+        {
+          "id": "4.2",
+          "title": "Faire les courses",
+          "subtitle": "Shopping",
+          "tenses": [
+            "present"
+          ],
+          "file": "05-2-courses.json"
+        },
+        {
+          "id": "4.3",
+          "title": "Chez moi",
+          "subtitle": "Home",
+          "file": "06-maison.json"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "En ville",
+      "subtitle": "Town, transport, weather and dates",
+      "level": "A1",
+      "parts": [
+        {
+          "id": "5.1",
+          "title": "En ville",
+          "subtitle": "Town and transport",
+          "tenses": [
+            "futur-proche",
+            "imperatif-present"
+          ],
+          "file": "07-ville.json"
+        },
+        {
+          "id": "5.2",
+          "title": "Quel temps fait-il ?",
+          "subtitle": "Weather, seasons and dates",
+          "file": "08-meteo.json"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "La mode et le week-end",
+      "subtitle": "Clothes and last weekend",
+      "level": "A2",
+      "parts": [
+        {
+          "id": "6.1",
+          "title": "La mode",
+          "subtitle": "Clothes",
+          "file": "a2-mode.json"
+        },
+        {
+          "id": "6.2",
+          "title": "Le week-end dernier",
+          "subtitle": "Last weekend",
+          "tenses": [
+            "passe-compose"
+          ],
+          "file": "a2-weekend.json"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Vacances et santé",
+      "subtitle": "Travel, the body and health",
+      "level": "A2",
+      "parts": [
+        {
+          "id": "7.1",
+          "title": "En vacances",
+          "subtitle": "Holidays and travel",
+          "tenses": [
+            "passe-compose"
+          ],
+          "file": "a2-vacances.json"
+        },
+        {
+          "id": "7.2",
+          "title": "La santé",
+          "subtitle": "The body and health",
+          "file": "a2-sante.json"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Médias et fêtes",
+      "subtitle": "Screens, celebrations and memories",
+      "level": "A2",
+      "parts": [
+        {
+          "id": "8.1",
+          "title": "Écrans et médias",
+          "subtitle": "Media and technology",
+          "file": "a2-medias.json"
+        },
+        {
+          "id": "8.2",
+          "title": "Les fêtes",
+          "subtitle": "Celebrations and memories",
+          "tenses": [
+            "imparfait"
+          ],
+          "file": "a2-fetes.json"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Mon avenir",
+      "subtitle": "Jobs and the future",
+      "level": "A2",
+      "tenses": [
+        "futur-simple"
+      ],
+      "file": "a2-avenir.json"
+    }
+  ]
+}

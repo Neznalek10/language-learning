@@ -1,0 +1,5812 @@
+{
+  "articles": [
+    {
+      "id": "tenses-overview",
+      "title": "Tense map",
+      "fr": "les temps et les modes",
+      "level": "A1",
+      "levelTo": "B1",
+      "keywords": [
+        "tenses",
+        "overview of tenses",
+        "timeline",
+        "which tense",
+        "temps",
+        "modes",
+        "moods",
+        "past tense",
+        "future tense"
+      ],
+      "topics": [],
+      "see": [
+        "present",
+        "passe-compose-avoir",
+        "imparfait",
+        "pc-vs-imparfait",
+        "futur-proche",
+        "futur-simple",
+        "conditionnel",
+        "subjonctif-basics"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French has many tenses, but up to B1 eight are enough. The key point is that French has **two pasts side by side** (*passé composé* and *imparfait*) and **two futures**."
+            },
+            {
+              "type": "tree",
+              "items": [
+                {
+                  "label": "Past",
+                  "children": [
+                    {
+                      "label": "*plus-que-parfait*: *j'avais mangé*",
+                      "en": "the pluperfect, it happened even before another past event (B1)",
+                      "see": "plus-que-parfait"
+                    },
+                    {
+                      "label": "*passé composé*: *j'ai mangé*",
+                      "en": "a finished event: what happened",
+                      "see": "passe-compose-avoir"
+                    },
+                    {
+                      "label": "*imparfait*: *je mangeais*",
+                      "en": "description, habit, ongoing action: what it was like",
+                      "see": "imparfait"
+                    },
+                    {
+                      "label": "*passé récent*: *je viens de manger*",
+                      "en": "I have just (eaten)",
+                      "see": "passe-recent"
+                    }
+                  ]
+                },
+                {
+                  "label": "Present",
+                  "children": [
+                    {
+                      "label": "*présent*: *je mange*",
+                      "en": "now, usually, always",
+                      "see": "present"
+                    }
+                  ]
+                },
+                {
+                  "label": "Future",
+                  "children": [
+                    {
+                      "label": "*futur proche*: *je vais manger*",
+                      "en": "plans and the near, certain future",
+                      "see": "futur-proche"
+                    },
+                    {
+                      "label": "*futur simple*: *je mangerai*",
+                      "en": "the future in general, promises, predictions",
+                      "see": "futur-simple"
+                    }
+                  ]
+                },
+                {
+                  "label": "Moods",
+                  "en": "they do not say when, but how you look at the action",
+                  "children": [
+                    {
+                      "label": "*impératif*: *mange !*",
+                      "en": "command",
+                      "see": "imperative"
+                    },
+                    {
+                      "label": "*conditionnel*: *je mangerais*",
+                      "en": "would: politeness, wishes, conditions",
+                      "see": "conditionnel"
+                    },
+                    {
+                      "label": "*subjonctif*: *que je mange*",
+                      "en": "after *il faut que*, wishes and feelings (B1)",
+                      "see": "subjonctif-basics"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Which past?",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Yesterday I saw a film.",
+                  "fr": "Hier, j'[[ai vu]] un film.",
+                  "note": "A single finished event: *passé composé*."
+                },
+                {
+                  "en": "When I was little I used to watch cartoons.",
+                  "fr": "Quand j'[[étais]] petit, je [[regardais]] des dessins animés.",
+                  "note": "Description and habit in the past: *imparfait*."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "pc-vs-imparfait"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "A tense just for books",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "You will see the *passé simple* (*il mangea*) in fairy tales and novels instead of the passé composé. You only need to recognise it, not form it. In the verb tables it is marked *literary*."
+            }
+          ]
+        },
+        {
+          "title": "One action, every tense",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je joue au basket.",
+                  "en": "I play basketball. (présent)"
+                },
+                {
+                  "fr": "J'ai joué au basket.",
+                  "en": "I played basketball. (passé composé)"
+                },
+                {
+                  "fr": "Je jouais au basket.",
+                  "en": "I used to play basketball. (imparfait)"
+                },
+                {
+                  "fr": "Je vais jouer au basket.",
+                  "en": "I'm going to play basketball. (futur proche)"
+                },
+                {
+                  "fr": "Je jouerai au basket.",
+                  "en": "I will play basketball. (futur simple)"
+                },
+                {
+                  "fr": "Je jouerais au basket.",
+                  "en": "I would play basketball. (conditionnel)"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-tenses-overview-01",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "g-tenses-overview-02",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "imparfait",
+          "person": 0
+        },
+        {
+          "id": "g-tenses-overview-03",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "futur-proche",
+          "person": 0
+        },
+        {
+          "id": "g-tenses-overview-04",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "futur-simple",
+          "person": 0
+        },
+        {
+          "id": "g-tenses-overview-05",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "conditionnel-present",
+          "person": 0
+        }
+      ]
+    },
+    {
+      "id": "present",
+      "title": "The present tense (présent)",
+      "fr": "le présent",
+      "level": "A1",
+      "keywords": [
+        "present tense",
+        "présent",
+        "now",
+        "usually",
+        "depuis",
+        "être en train de",
+        "right now",
+        "endings"
+      ],
+      "topics": [
+        "er-verbs",
+        "ir-verbs"
+      ],
+      "see": [
+        "er-verbs",
+        "ir-verbs",
+        "irregular-core",
+        "irregular-more",
+        "time-prepositions"
+      ],
+      "verbs": [
+        "parler",
+        "finir",
+        "prendre"
+      ],
+      "tense": "present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *présent* is the most common tense. It corresponds to the English simple and continuous present and is used in much the same way."
+            },
+            {
+              "type": "table",
+              "head": [
+                "use",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "now",
+                  "Je mange.",
+                  "I'm eating."
+                ],
+                [
+                  "usually, regularly",
+                  "Je mange à midi.",
+                  "I eat at noon."
+                ],
+                [
+                  "always true",
+                  "L'eau bout à 100 degrés.",
+                  "Water boils at 100 degrees."
+                ],
+                [
+                  "near future",
+                  "Je pars demain.",
+                  "I'm leaving tomorrow."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Three endings patterns",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "group",
+                "endings",
+                "example"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "-er",
+                  "-e, -es, -e, -ons, -ez, -ent",
+                  "je parle"
+                ],
+                [
+                  "-ir (finir)",
+                  "-is, -is, -it, -issons, -issez, -issent",
+                  "je finis"
+                ],
+                [
+                  "most others",
+                  "-s, -s, -t (-d), -ons, -ez, -ent",
+                  "je prends, je dors"
+                ]
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "er-verbs",
+                "ir-verbs",
+                "irregular-more"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Depuis",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When something **has lasted from the past until now**, French uses the *présent* + *depuis*, where English says \"I have lived here for three years\"."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I've been playing basketball for five years.",
+                  "wrong": "J'ai joué au basket depuis cinq ans.",
+                  "fr": "Je [[joue]] au basket [[depuis]] cinq ans.",
+                  "note": "You are still playing, so the present tense."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Right now",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To stress that something is happening **right now**: *être en train de* + infinitive. *Je suis en train de manger.* (I'm in the middle of eating.)"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Qu'est-ce que tu fais ? Je lis.",
+                  "en": "What are you doing? I'm reading."
+                },
+                {
+                  "fr": "Le samedi, je joue au basket.",
+                  "en": "On Saturdays I play basketball."
+                },
+                {
+                  "fr": "J'habite à Prague depuis 2015.",
+                  "en": "I've lived in Prague since 2015."
+                },
+                {
+                  "fr": "Elle est en train de téléphoner.",
+                  "en": "She's on the phone right now."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-present-01",
+          "type": "cloze",
+          "fr": "Je ___ au basket depuis cinq ans.",
+          "a": [
+            "joue"
+          ],
+          "hint": "jouer",
+          "en": "I've been playing basketball for five years."
+        },
+        {
+          "id": "g-present-02",
+          "type": "build",
+          "en": "I've lived here for three years.",
+          "a": [
+            "J'habite ici depuis trois ans."
+          ]
+        },
+        {
+          "id": "g-present-03",
+          "type": "build",
+          "en": "I'm eating right now.",
+          "a": [
+            "Je suis en train de manger."
+          ]
+        },
+        {
+          "id": "g-present-04",
+          "type": "cloze",
+          "fr": "Nous ___ nos devoirs.",
+          "a": [
+            "finissons"
+          ],
+          "hint": "finir",
+          "en": "We are finishing our homework."
+        },
+        {
+          "id": "g-present-05",
+          "type": "cloze",
+          "fr": "Tu ___ le bus ?",
+          "a": [
+            "prends"
+          ],
+          "hint": "prendre",
+          "en": "Are you taking the bus?"
+        }
+      ]
+    },
+    {
+      "id": "present-uses",
+      "title": "What the present tense can do",
+      "fr": "les emplois du présent",
+      "level": "A1",
+      "keywords": [
+        "present tense",
+        "présent",
+        "uses",
+        "habit",
+        "now",
+        "near future",
+        "general truth",
+        "je pars demain",
+        "historical present",
+        "depuis",
+        "instructions",
+        "en train de"
+      ],
+      "topics": [],
+      "see": [
+        "present",
+        "futur-proche",
+        "time-prepositions",
+        "passe-recent",
+        "en-train-de"
+      ],
+      "verbs": [
+        "être",
+        "avoir"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "One French present tense covers **three English ones** (*I eat, I am eating, I do eat*) and more. It also replaces other tenses in many cases. The main uses: **now, habit, general truth, near future, recent past, story telling**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "use",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "now",
+                  "Je mange.",
+                  "I am eating."
+                ],
+                [
+                  "habit",
+                  "Je mange à midi.",
+                  "I eat at noon."
+                ],
+                [
+                  "general truth",
+                  "L'eau bout à cent degrés.",
+                  "Water boils at 100 degrees."
+                ],
+                [
+                  "near future",
+                  "Je pars demain.",
+                  "I'm leaving tomorrow."
+                ],
+                [
+                  "since, for",
+                  "J'habite ici depuis 2020.",
+                  "I've lived here since 2020."
+                ],
+                [
+                  "just happened (venir de)",
+                  "Je viens d'arriver.",
+                  "I've just arrived."
+                ],
+                [
+                  "story (historical present)",
+                  "Hier, je sors et je vois Paul.",
+                  "Yesterday I go out and I see Paul."
+                ],
+                [
+                  "instructions",
+                  "On coupe les oignons, on les fait cuire.",
+                  "Cut the onions, cook them."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Near future and condition",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "For a **planned or sure** future the present is common, especially with a time word: *Demain, je vais au cinéma.* After **si** (if) the present is used for a future condition: *Si tu viens, je suis content.* After **quand** use the futur simple, not the present."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon train part à huit heures.",
+                  "en": "My train leaves at eight."
+                },
+                {
+                  "fr": "Qu'est-ce que tu fais ce week-end ?",
+                  "en": "What are you doing this weekend?"
+                },
+                {
+                  "fr": "Si tu veux, on y va.",
+                  "en": "If you like, let's go."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Since and for: depuis",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "An action that **started in the past and still goes on** takes the **present** with **depuis** (not the passé composé): *J'apprends le français depuis un an.* (= I have been learning French for a year.)"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I've lived here for three years.",
+                  "wrong": "J'ai habité ici depuis trois ans.",
+                  "fr": "J'[[habite]] ici [[depuis]] trois ans."
+                },
+                {
+                  "en": "I've been waiting for an hour.",
+                  "wrong": "J'ai attendu depuis une heure.",
+                  "fr": "J'[[attends]] [[depuis]] une heure."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Present of the verb être / avoir with age and feelings",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Many things are said with **avoir** in the present: *J'ai quinze ans, j'ai faim, j'ai froid, j'ai mal.* *Être* is for states: *Je suis fatigué, je suis content.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il pleut depuis ce matin.",
+                  "en": "It's been raining since this morning."
+                },
+                {
+                  "fr": "Nous partons dans dix minutes.",
+                  "en": "We leave in ten minutes."
+                },
+                {
+                  "fr": "Quand j'ai faim, je mange un fruit.",
+                  "en": "When I'm hungry I eat a fruit."
+                },
+                {
+                  "fr": "Je viens de finir mes devoirs.",
+                  "en": "I've just finished my homework."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-present-uses-01",
+          "type": "build",
+          "en": "I'm eating.",
+          "a": [
+            "Je mange."
+          ]
+        },
+        {
+          "id": "g-present-uses-02",
+          "type": "build",
+          "en": "I'm leaving tomorrow.",
+          "a": [
+            "Je pars demain.",
+            "Je vais partir demain."
+          ]
+        },
+        {
+          "id": "g-present-uses-03",
+          "type": "build",
+          "en": "I've lived here for three years.",
+          "a": [
+            "J'habite ici depuis trois ans."
+          ]
+        },
+        {
+          "id": "g-present-uses-04",
+          "type": "build",
+          "en": "I've been waiting for an hour.",
+          "a": [
+            "J'attends depuis une heure."
+          ]
+        },
+        {
+          "id": "g-present-uses-05",
+          "type": "build",
+          "en": "Water boils at 100 degrees.",
+          "a": [
+            "L'eau bout à cent degrés."
+          ]
+        },
+        {
+          "id": "g-present-uses-06",
+          "type": "cloze",
+          "fr": "J'apprends le français ___ un an.",
+          "a": [
+            "depuis"
+          ],
+          "en": "I've been learning French for a year."
+        },
+        {
+          "id": "g-present-uses-07",
+          "type": "cloze",
+          "fr": "Il pleut ___ ce matin.",
+          "a": [
+            "depuis"
+          ],
+          "en": "It's been raining since this morning."
+        },
+        {
+          "id": "g-present-uses-08",
+          "type": "transform",
+          "task_en": "Say it as a present (depuis)",
+          "fr": "J'ai habité ici pendant trois ans.",
+          "a": [
+            "J'habite ici depuis trois ans."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en-train-de",
+      "title": "Being in the middle of it: être en train de, être sur le point de",
+      "fr": "être en train de",
+      "level": "A1",
+      "levelTo": "A2",
+      "keywords": [
+        "en train de",
+        "present continuous",
+        "progressive",
+        "I am eating",
+        "being in the middle",
+        "sur le point de",
+        "venir de",
+        "aller",
+        "j'étais en train de",
+        "right now"
+      ],
+      "topics": [],
+      "see": [
+        "present",
+        "futur-proche",
+        "passe-recent",
+        "present-uses"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French has no *-ing* tense. To stress that you are **right in the middle of** an action say **être en train de + infinitive**: *Je suis en train de manger* (I'm in the middle of eating). It is the progressive form, and it works in the present and the imparfait."
+            },
+            {
+              "type": "table",
+              "head": [
+                "position in time",
+                "structure",
+                "example"
+              ],
+              "rows": [
+                [
+                  "just done",
+                  "venir de + inf.",
+                  "Je viens de manger."
+                ],
+                [
+                  "in the middle",
+                  "être en train de + inf.",
+                  "Je suis en train de manger."
+                ],
+                [
+                  "just about to",
+                  "être sur le point de + inf.",
+                  "Je suis sur le point de manger."
+                ],
+                [
+                  "will happen soon",
+                  "aller + inf.",
+                  "Je vais manger."
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "title": "When to use it",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Use it when the action is **in progress at that moment** and you want to say so: on the phone (*Je suis en train de cuisiner*), when answering *Qu'est-ce que tu fais ?*, or in a story for an action that was going on when something else happened (*J'étais en train de dormir quand le téléphone a sonné*). For a habit or a general state, the plain present is better."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm cooking (right now).",
+                  "wrong": "Je suis cuisinant.",
+                  "fr": "Je suis [[en train de]] cuisiner."
+                },
+                {
+                  "en": "I was sleeping when you called.",
+                  "wrong": "J'étais en train dormir quand tu as appelé.",
+                  "fr": "J'étais [[en train de]] dormir quand tu as appelé."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pronouns and negation",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*En train de* works like any other infinitive link: pronouns go **before the infinitive**, negation goes **around *être***. *Je suis en train de le faire.* *Il n'est pas en train de dormir.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Elle est en train de s'habiller.",
+                  "en": "She's getting dressed."
+                },
+                {
+                  "fr": "Ils ne sont pas en train de travailler.",
+                  "en": "They aren't working (at this moment)."
+                },
+                {
+                  "fr": "Je suis en train de lui écrire.",
+                  "en": "I'm writing to him."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Chut ! Le bébé est en train de dormir.",
+                  "en": "Shh! The baby is sleeping."
+                },
+                {
+                  "fr": "Tu es en train de faire quoi ?",
+                  "en": "What are you doing?"
+                },
+                {
+                  "fr": "Quand tu as appelé, j'étais en train de prendre une douche.",
+                  "en": "When you called I was taking a shower."
+                },
+                {
+                  "fr": "Il est sur le point de partir.",
+                  "en": "He is about to leave."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-en-train-de-01",
+          "type": "build",
+          "en": "I'm eating (right now).",
+          "a": [
+            "Je suis en train de manger."
+          ]
+        },
+        {
+          "id": "g-en-train-de-02",
+          "type": "build",
+          "en": "She's in the middle of cooking.",
+          "a": [
+            "Elle est en train de cuisiner."
+          ]
+        },
+        {
+          "id": "g-en-train-de-03",
+          "type": "build",
+          "en": "He was sleeping when I called.",
+          "a": [
+            "Il était en train de dormir quand j'ai appelé."
+          ]
+        },
+        {
+          "id": "g-en-train-de-04",
+          "type": "build",
+          "en": "I'm about to leave.",
+          "a": [
+            "Je suis sur le point de partir."
+          ]
+        },
+        {
+          "id": "g-en-train-de-05",
+          "type": "build",
+          "en": "They aren't working right now.",
+          "a": [
+            "Ils ne sont pas en train de travailler."
+          ]
+        },
+        {
+          "id": "g-en-train-de-06",
+          "type": "cloze",
+          "fr": "Je suis ___ train de lire.",
+          "a": [
+            "en"
+          ],
+          "en": "I'm reading right now."
+        },
+        {
+          "id": "g-en-train-de-07",
+          "type": "cloze",
+          "fr": "Elle est en train ___ téléphoner.",
+          "a": [
+            "de"
+          ],
+          "en": "She's on the phone."
+        },
+        {
+          "id": "g-en-train-de-08",
+          "type": "transform",
+          "task_en": "Say that you are in the middle of it",
+          "fr": "Je prends une douche.",
+          "a": [
+            "Je suis en train de prendre une douche."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "imperative",
+      "title": "The imperative",
+      "fr": "l'impératif",
+      "level": "A1",
+      "keywords": [
+        "imperative",
+        "command",
+        "impératif",
+        "viens",
+        "allons",
+        "regarde",
+        "sois",
+        "aie",
+        "instructions"
+      ],
+      "topics": [
+        "imperative"
+      ],
+      "see": [
+        "pronouns-imperative",
+        "tu-vous",
+        "subject-required",
+        "im-01-regular"
+      ],
+      "verbs": [
+        "regarder",
+        "aller",
+        "être",
+        "avoir",
+        "venir"
+      ],
+      "tense": "imperatif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The imperative has only three persons, *tu, nous, vous*, and **without a pronoun**. The forms are almost the same as in the present tense: *tu regardes → Regarde !, vous regardez → Regardez !*"
+            },
+            {
+              "type": "table",
+              "verb": "regarder",
+              "tense": "imperatif-present"
+            }
+          ]
+        },
+        {
+          "title": "-er without -s",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With *-er* verbs (and *aller*) the *tu* form loses the ending *-s*: *tu regardes → Regarde !, tu vas → Va !* With other verbs the *-s* stays: *Viens ! Prends ! Finis !*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Listen!",
+                  "wrong": "Écoutes !",
+                  "fr": "[[Écoute]] !"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Irregular",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Être, avoir, savoir* and *vouloir* have special forms. You will see *veuillez* in polite instructions: *Veuillez patienter.* (Please wait.)"
+            },
+            {
+              "type": "table",
+              "verb": "être",
+              "tense": "imperatif-present"
+            },
+            {
+              "type": "table",
+              "verb": "avoir",
+              "tense": "imperatif-present"
+            }
+          ]
+        },
+        {
+          "title": "Negation",
+          "blocks": [
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "neg",
+                      "Ne"
+                    ],
+                    [
+                      "V",
+                      "regarde"
+                    ],
+                    [
+                      "neg",
+                      "pas !"
+                    ]
+                  ],
+                  "en": "Don't look!"
+                },
+                {
+                  "parts": [
+                    [
+                      "neg",
+                      "Ne"
+                    ],
+                    [
+                      "V",
+                      "soyez"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "x",
+                      "en retard !"
+                    ]
+                  ],
+                  "en": "Don't be late!"
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "pronouns-imperative"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Viens ici !",
+                  "en": "Come here!"
+                },
+                {
+                  "fr": "Allons au parc !",
+                  "en": "Let's go to the park!"
+                },
+                {
+                  "fr": "Ouvrez vos livres.",
+                  "en": "Open your books."
+                },
+                {
+                  "fr": "Sois sage !",
+                  "en": "Be good!"
+                },
+                {
+                  "fr": "N'aie pas peur.",
+                  "en": "Don't be afraid."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-imperative-01",
+          "type": "transform",
+          "task_en": "Turn into a command (tu)",
+          "fr": "Tu écoutes.",
+          "a": [
+            "Écoute !"
+          ]
+        },
+        {
+          "id": "g-imperative-02",
+          "type": "transform",
+          "task_en": "Turn into a command (vous)",
+          "fr": "Vous fermez la porte.",
+          "a": [
+            "Fermez la porte !"
+          ]
+        },
+        {
+          "id": "g-imperative-03",
+          "type": "transform",
+          "task_en": "Turn into a command (nous)",
+          "fr": "Nous allons au cinéma.",
+          "a": [
+            "Allons au cinéma !"
+          ]
+        },
+        {
+          "id": "g-imperative-04",
+          "type": "form",
+          "verb": "être",
+          "tense": "imperatif-present"
+        },
+        {
+          "id": "g-imperative-05",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Mange !",
+          "a": [
+            "Ne mange pas !"
+          ]
+        },
+        {
+          "id": "g-imperative-06",
+          "type": "transform",
+          "task_en": "Turn into a command (tu)",
+          "fr": "Tu vas à l'école.",
+          "a": [
+            "Va à l'école !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "futur-proche",
+      "title": "The near future",
+      "fr": "le futur proche",
+      "level": "A1",
+      "keywords": [
+        "near future",
+        "futur proche",
+        "aller + infinitive",
+        "je vais",
+        "going to",
+        "plans"
+      ],
+      "topics": [
+        "futur-proche"
+      ],
+      "see": [
+        "futur-simple",
+        "irregular-core",
+        "y",
+        "sentence-map"
+      ],
+      "verbs": [
+        "aller"
+      ],
+      "tense": "futur-proche",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Aller* in the present tense + an infinitive. The simplest future tense: all you need is *aller*."
+            },
+            {
+              "type": "pattern",
+              "formula": [
+                "S",
+                [
+                  "V",
+                  "aller (présent)"
+                ],
+                "inf"
+              ],
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "inf",
+                      "jouer."
+                    ]
+                  ],
+                  "en": "I'm going to play."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Nous"
+                    ],
+                    [
+                      "V",
+                      "allons"
+                    ],
+                    [
+                      "inf",
+                      "manger"
+                    ],
+                    [
+                      "time",
+                      "à midi."
+                    ]
+                  ],
+                  "en": "We're going to eat at noon."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "verb": "jouer",
+              "tense": "futur-proche"
+            }
+          ]
+        },
+        {
+          "title": "When",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "For **plans and things that will happen soon or are certain**. In speech it is much more common than the *futur simple*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Careful, you're going to fall!",
+                  "fr": "Attention, tu [[vas tomber]] !",
+                  "note": "It is already clear."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Negation and pronouns",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Negation wraps around *aller*, pronouns go before the infinitive."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "inf",
+                      "sortir."
+                    ]
+                  ],
+                  "en": "I'm not going to go out."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "pron",
+                      "te"
+                    ],
+                    [
+                      "inf",
+                      "téléphoner."
+                    ]
+                  ],
+                  "en": "I'm going to phone you."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Il"
+                    ],
+                    [
+                      "V",
+                      "va"
+                    ],
+                    [
+                      "pron",
+                      "se"
+                    ],
+                    [
+                      "inf",
+                      "coucher."
+                    ]
+                  ],
+                  "en": "He's going to go to bed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm going to play.",
+                  "wrong": "Je vais joue.",
+                  "fr": "Je vais [[jouer]].",
+                  "note": "After *aller* there is always an infinitive."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ce soir, je vais regarder un film.",
+                  "en": "Tonight I'm going to watch a film."
+                },
+                {
+                  "fr": "Il va pleuvoir.",
+                  "en": "It's going to rain."
+                },
+                {
+                  "fr": "On va gagner !",
+                  "en": "We're going to win!"
+                },
+                {
+                  "fr": "Tu vas venir à la fête ?",
+                  "en": "Are you going to come to the party?"
+                },
+                {
+                  "fr": "Nous n'allons pas partir.",
+                  "en": "We're not going to leave."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-futur-proche-01",
+          "type": "transform",
+          "task_en": "Turn into the near future",
+          "fr": "Je mange.",
+          "a": [
+            "Je vais manger."
+          ]
+        },
+        {
+          "id": "g-futur-proche-02",
+          "type": "transform",
+          "task_en": "Turn into the near future",
+          "fr": "Nous jouons au foot.",
+          "a": [
+            "Nous allons jouer au foot."
+          ]
+        },
+        {
+          "id": "g-futur-proche-03",
+          "type": "cloze",
+          "fr": "Ils ___ partir demain.",
+          "a": [
+            "vont"
+          ],
+          "hint": "aller",
+          "en": "They're going to leave tomorrow."
+        },
+        {
+          "id": "g-futur-proche-04",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Je vais sortir.",
+          "a": [
+            "Je ne vais pas sortir."
+          ]
+        },
+        {
+          "id": "g-futur-proche-05",
+          "type": "build",
+          "en": "It's going to rain.",
+          "a": [
+            "Il va pleuvoir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "passe-recent",
+      "title": "Just did something: venir de",
+      "fr": "le passé récent",
+      "level": "A2",
+      "keywords": [
+        "passé récent",
+        "venir de",
+        "just",
+        "have just",
+        "je viens de"
+      ],
+      "topics": [],
+      "see": [
+        "futur-proche",
+        "passe-compose-avoir",
+        "irregular-more"
+      ],
+      "verbs": [
+        "venir"
+      ],
+      "tense": "passe-recent",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Venir* in the present tense + *de* + an infinitive says that something **has just happened**."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "viens"
+                    ],
+                    [
+                      "x",
+                      "de"
+                    ],
+                    [
+                      "inf",
+                      "manger."
+                    ]
+                  ],
+                  "en": "I've just eaten."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "verb": "manger",
+              "tense": "passe-recent"
+            }
+          ]
+        },
+        {
+          "title": "De or d'?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Before a vowel *de* shortens: *je viens d'arriver*. With reflexive verbs: *je viens de me lever*."
+            }
+          ]
+        },
+        {
+          "title": "The mirror of futur proche",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "has just happened",
+                  "Je viens de manger.",
+                  "I've just eaten."
+                ],
+                [
+                  "now",
+                  "Je mange.",
+                  "I'm eating."
+                ],
+                [
+                  "about to happen",
+                  "Je vais manger.",
+                  "I'm going to eat."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm from Paris.",
+                  "fr": "Je [[viens de]] Paris.",
+                  "note": "*Venir de* + a **place** means \"to come from\". The meaning \"just\" exists only with an infinitive."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le film vient de commencer.",
+                  "en": "The film has just started."
+                },
+                {
+                  "fr": "Nous venons d'arriver.",
+                  "en": "We've just arrived."
+                },
+                {
+                  "fr": "Elle vient de partir.",
+                  "en": "She has just left."
+                },
+                {
+                  "fr": "Je viens de me réveiller.",
+                  "en": "I've just woken up."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-passe-recent-01",
+          "type": "transform",
+          "task_en": "Turn into the passé récent (just)",
+          "fr": "J'ai mangé.",
+          "a": [
+            "Je viens de manger."
+          ]
+        },
+        {
+          "id": "g-passe-recent-02",
+          "type": "cloze",
+          "fr": "Le bus ___ de partir.",
+          "a": [
+            "vient"
+          ],
+          "hint": "venir",
+          "en": "The bus has just left."
+        },
+        {
+          "id": "g-passe-recent-03",
+          "type": "build",
+          "en": "We've just arrived.",
+          "a": [
+            "Nous venons d'arriver.",
+            "On vient d'arriver."
+          ]
+        },
+        {
+          "id": "g-passe-recent-04",
+          "type": "cloze",
+          "fr": "Je viens ___arriver.",
+          "a": [
+            "d'"
+          ],
+          "en": "I've just arrived."
+        }
+      ]
+    },
+    {
+      "id": "passe-compose-avoir",
+      "title": "Passé composé with avoir",
+      "fr": "le passé composé avec avoir",
+      "level": "A2",
+      "keywords": [
+        "passé composé",
+        "past tense",
+        "avoir",
+        "j'ai mangé",
+        "participle",
+        "past",
+        "compound tense"
+      ],
+      "topics": [
+        "passe-compose"
+      ],
+      "see": [
+        "participles",
+        "passe-compose-etre",
+        "pc-vs-imparfait",
+        "pc-agreement",
+        "sentence-map"
+      ],
+      "verbs": [
+        "manger",
+        "finir",
+        "faire",
+        "avoir",
+        "être"
+      ],
+      "tense": "passe-compose",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *passé composé* is the main past tense of spoken French. It is formed from *avoir* in the present tense + the **past participle**. Most verbs use *avoir*."
+            },
+            {
+              "type": "pattern",
+              "formula": [
+                "S",
+                [
+                  "aux",
+                  "avoir (présent)"
+                ],
+                "part"
+              ],
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "J'"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "part",
+                      "mangé"
+                    ],
+                    [
+                      "obj",
+                      "une pizza."
+                    ]
+                  ],
+                  "en": "I ate a pizza."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Nous"
+                    ],
+                    [
+                      "aux",
+                      "avons"
+                    ],
+                    [
+                      "part",
+                      "fini."
+                    ]
+                  ],
+                  "en": "We finished."
+                }
+              ]
+            },
+            {
+              "type": "table",
+              "verb": "manger",
+              "tense": "passe-compose"
+            }
+          ]
+        },
+        {
+          "title": "When",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "For **finished events** in the past: what happened, what you did."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Yesterday I played basketball.",
+                  "fr": "Hier, j'[[ai joué]] au basket."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "pc-vs-imparfait"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Negation, pronouns, adverbs",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Negation, pronouns and short adverbs all revolve around the **auxiliary**."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "n'"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "part",
+                      "compris."
+                    ]
+                  ],
+                  "en": "I didn't understand."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "J'"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "adv",
+                      "bien"
+                    ],
+                    [
+                      "part",
+                      "dormi."
+                    ]
+                  ],
+                  "en": "I slept well."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "pron",
+                      "l'"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "adv",
+                      "déjà"
+                    ],
+                    [
+                      "part",
+                      "vu."
+                    ]
+                  ],
+                  "en": "I've already seen it."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I was ill.",
+                  "fr": "J'[[ai été]] malade.",
+                  "note": "*Être* has its passé composé with *avoir*: *j'ai été*. But \"I went, I travelled\" is *je suis allé*."
+                },
+                {
+                  "en": "I was lucky.",
+                  "fr": "J'[[ai eu]] de la chance."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "About 15 verbs (mainly of movement) and all reflexive verbs use *être* instead of *avoir*."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "passe-compose-etre",
+                "participles"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai regardé un film hier soir.",
+                  "en": "I watched a film last night."
+                },
+                {
+                  "fr": "Tu as fini tes devoirs ?",
+                  "en": "Have you finished your homework?"
+                },
+                {
+                  "fr": "Nous avons gagné le match !",
+                  "en": "We won the match!"
+                },
+                {
+                  "fr": "Ils n'ont pas répondu.",
+                  "en": "They didn't answer."
+                },
+                {
+                  "fr": "Qu'est-ce que tu as fait le week-end dernier ?",
+                  "en": "What did you do last weekend?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-passe-compose-avoir-01",
+          "type": "transform",
+          "task_en": "Turn into the passé composé",
+          "fr": "Je mange une pomme.",
+          "a": [
+            "J'ai mangé une pomme."
+          ]
+        },
+        {
+          "id": "g-passe-compose-avoir-02",
+          "type": "transform",
+          "task_en": "Turn into the passé composé",
+          "fr": "Nous finissons le travail.",
+          "a": [
+            "Nous avons fini le travail."
+          ]
+        },
+        {
+          "id": "g-passe-compose-avoir-03",
+          "type": "cloze",
+          "fr": "Hier, j'___ joué au foot.",
+          "a": [
+            "ai"
+          ],
+          "hint": "avoir",
+          "en": "Yesterday I played football."
+        },
+        {
+          "id": "g-passe-compose-avoir-04",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "J'ai compris.",
+          "a": [
+            "Je n'ai pas compris."
+          ]
+        },
+        {
+          "id": "g-passe-compose-avoir-05",
+          "type": "form",
+          "verb": "faire",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "g-passe-compose-avoir-06",
+          "type": "build",
+          "en": "What did you do yesterday?",
+          "a": [
+            "Qu'est-ce que tu as fait hier ?",
+            "Tu as fait quoi hier ?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "participles",
+      "title": "The past participle",
+      "fr": "le participe passé",
+      "level": "A2",
+      "keywords": [
+        "participle",
+        "past participle",
+        "participe passé",
+        "-é",
+        "-i",
+        "-u",
+        "fait",
+        "pris",
+        "mis",
+        "dit",
+        "écrit",
+        "vu",
+        "eu",
+        "été",
+        "bu",
+        "lu",
+        "pu",
+        "voulu",
+        "su",
+        "venu",
+        "né",
+        "mort",
+        "-é or -er"
+      ],
+      "topics": [],
+      "see": [
+        "passe-compose-avoir",
+        "passe-compose-etre",
+        "pc-agreement",
+        "passive"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Regular verbs form the participle from the ending of the infinitive. The irregular ones you have to learn, but there are few and they keep coming back."
+            },
+            {
+              "type": "table",
+              "head": [
+                "infinitive",
+                "participle",
+                "example"
+              ],
+              "rows": [
+                [
+                  "-er",
+                  "-é",
+                  "parler → parlé"
+                ],
+                [
+                  "-ir (finir)",
+                  "-i",
+                  "finir → fini"
+                ],
+                [
+                  "-re (attendre)",
+                  "-u",
+                  "attendre → attendu"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Irregular participles",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "infinitive",
+                "participle",
+                "English"
+              ],
+              "textCols": [
+                2
+              ],
+              "rows": [
+                [
+                  "être",
+                  "été",
+                  "been"
+                ],
+                [
+                  "avoir",
+                  "eu",
+                  "had"
+                ],
+                [
+                  "faire",
+                  "fait",
+                  "done, made"
+                ],
+                [
+                  "prendre",
+                  "pris",
+                  "taken"
+                ],
+                [
+                  "mettre",
+                  "mis",
+                  "put"
+                ],
+                [
+                  "dire",
+                  "dit",
+                  "said"
+                ],
+                [
+                  "écrire",
+                  "écrit",
+                  "written"
+                ],
+                [
+                  "voir",
+                  "vu",
+                  "seen"
+                ],
+                [
+                  "boire",
+                  "bu",
+                  "drunk"
+                ],
+                [
+                  "lire",
+                  "lu",
+                  "read"
+                ],
+                [
+                  "pouvoir",
+                  "pu",
+                  "been able"
+                ],
+                [
+                  "vouloir",
+                  "voulu",
+                  "wanted"
+                ],
+                [
+                  "devoir",
+                  "dû",
+                  "had to"
+                ],
+                [
+                  "savoir",
+                  "su",
+                  "known"
+                ],
+                [
+                  "venir",
+                  "venu",
+                  "come"
+                ],
+                [
+                  "naître",
+                  "né",
+                  "born"
+                ],
+                [
+                  "mourir",
+                  "mort",
+                  "died"
+                ],
+                [
+                  "ouvrir",
+                  "ouvert",
+                  "opened"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "It helps to group them by their ending: *-is* (*pris, mis*), *-it* (*dit, écrit, fait*), *-u* (*vu, bu, lu, pu, voulu, su, venu*)."
+            }
+          ]
+        },
+        {
+          "title": "-é or -er?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Parlé, parler, parlez* sound the same. When you don't know what to write, replace the verb with *vendre*. If *vendu* fits, write *-é*. If *vendre* fits, write *-er*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I ate it. / I want to eat.",
+                  "fr": "J'ai [[mangé]]. / Je veux [[manger]].",
+                  "note": "*J'ai vendu* → *mangé*. *Je veux vendre* → *manger*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai pris le bus.",
+                  "en": "I took the bus."
+                },
+                {
+                  "fr": "Tu as vu ce film ?",
+                  "en": "Have you seen this film?"
+                },
+                {
+                  "fr": "Elle a écrit une lettre.",
+                  "en": "She wrote a letter."
+                },
+                {
+                  "fr": "Nous avons bu du thé.",
+                  "en": "We drank tea."
+                },
+                {
+                  "fr": "Il a dû partir.",
+                  "en": "He had to leave."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-participles-01",
+          "type": "cloze",
+          "fr": "J'ai ___ mes devoirs.",
+          "a": [
+            "fait"
+          ],
+          "hint": "faire",
+          "en": "I've done my homework."
+        },
+        {
+          "id": "g-participles-02",
+          "type": "cloze",
+          "fr": "Tu as ___ le train ?",
+          "a": [
+            "pris"
+          ],
+          "hint": "prendre",
+          "en": "Did you take the train?"
+        },
+        {
+          "id": "g-participles-03",
+          "type": "cloze",
+          "fr": "Nous avons ___ un film.",
+          "a": [
+            "vu"
+          ],
+          "hint": "voir",
+          "en": "We saw a film."
+        },
+        {
+          "id": "g-participles-04",
+          "type": "cloze",
+          "fr": "Il a ___ la vérité.",
+          "a": [
+            "dit"
+          ],
+          "hint": "dire",
+          "en": "He told the truth."
+        },
+        {
+          "id": "g-participles-05",
+          "type": "cloze",
+          "fr": "Je veux ___ une pizza.",
+          "a": [
+            "manger"
+          ],
+          "hint": "-é or -er?",
+          "en": "I want to eat a pizza."
+        },
+        {
+          "id": "g-participles-06",
+          "type": "cloze",
+          "fr": "J'ai ___ une pizza.",
+          "a": [
+            "mangé"
+          ],
+          "hint": "-é or -er?",
+          "en": "I ate a pizza."
+        }
+      ]
+    },
+    {
+      "id": "passe-compose-etre",
+      "title": "Passé composé with être",
+      "fr": "le passé composé avec être",
+      "level": "A2",
+      "keywords": [
+        "passé composé",
+        "être",
+        "je suis allé",
+        "movement verbs",
+        "maison d'être",
+        "agreement",
+        "reflexive verbs",
+        "past tense"
+      ],
+      "topics": [
+        "passe-compose-etre"
+      ],
+      "see": [
+        "passe-compose-avoir",
+        "pc-agreement",
+        "reflexive-verbs",
+        "participles"
+      ],
+      "verbs": [
+        "aller",
+        "venir",
+        "partir",
+        "arriver",
+        "rester",
+        "tomber",
+        "sortir"
+      ],
+      "tense": "passe-compose",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "About 15 verbs and **all reflexive verbs** form the passé composé with *être*. The participle then **agrees with the subject** like an adjective: *+e* for feminine, *+s* for plural."
+            },
+            {
+              "type": "table",
+              "verb": "aller",
+              "tense": "passe-compose"
+            }
+          ]
+        },
+        {
+          "title": "Which verbs",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Mostly movement from place to place or a change of state. They are easy to learn as pairs of opposites:"
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "English",
+                "participle"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "aller, venir",
+                  "to go, to come",
+                  "allé, venu"
+                ],
+                [
+                  "arriver, partir",
+                  "to arrive, to leave",
+                  "arrivé, parti"
+                ],
+                [
+                  "entrer, sortir",
+                  "to enter, to go out",
+                  "entré, sorti"
+                ],
+                [
+                  "monter, descendre",
+                  "to go up, to go down",
+                  "monté, descendu"
+                ],
+                [
+                  "naître, mourir",
+                  "to be born, to die",
+                  "né, mort"
+                ],
+                [
+                  "rester, tomber",
+                  "to stay, to fall",
+                  "resté, tombé"
+                ],
+                [
+                  "devenir, revenir, rentrer, retourner",
+                  "to become, to come back, to go home, to return",
+                  "devenu, revenu, rentré, retourné"
+                ],
+                [
+                  "passer (par)",
+                  "to pass (by)",
+                  "passé"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "The house of être",
+              "en": "Picture a house (*la maison d'être*): someone is born in it, arrives, enters, goes up, falls, comes down, goes out, leaves and dies. Plus all reflexive verbs: *je me suis levé*."
+            }
+          ]
+        },
+        {
+          "title": "Agreement with the subject",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Paul est parti.",
+                  "en": "Paul left."
+                },
+                {
+                  "fr": "Léa est partie.",
+                  "en": "Léa left."
+                },
+                {
+                  "fr": "Mes frères sont partis.",
+                  "en": "My brothers left."
+                },
+                {
+                  "fr": "Mes sœurs sont parties.",
+                  "en": "My sisters left."
+                }
+              ]
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Marie came late.",
+                  "wrong": "Marie a venu en retard.",
+                  "fr": "Marie [[est venue]] en retard."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reflexive verbs",
+          "blocks": [
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Elle"
+                    ],
+                    [
+                      "pron",
+                      "s'"
+                    ],
+                    [
+                      "aux",
+                      "est"
+                    ],
+                    [
+                      "part",
+                      "levée"
+                    ],
+                    [
+                      "time",
+                      "tôt."
+                    ]
+                  ],
+                  "en": "She got up early."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Nous"
+                    ],
+                    [
+                      "pron",
+                      "nous"
+                    ],
+                    [
+                      "aux",
+                      "sommes"
+                    ],
+                    [
+                      "part",
+                      "amusés."
+                    ]
+                  ],
+                  "en": "We had fun."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "pron",
+                      "me"
+                    ],
+                    [
+                      "aux",
+                      "suis"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "part",
+                      "réveillé."
+                    ]
+                  ],
+                  "en": "I didn't wake up."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je suis allé au cinéma.",
+                  "en": "I went to the cinema."
+                },
+                {
+                  "fr": "Elle est née en 2000.",
+                  "en": "She was born in 2000."
+                },
+                {
+                  "fr": "Nous sommes restés à la maison.",
+                  "en": "We stayed at home."
+                },
+                {
+                  "fr": "Tu t'es couché à quelle heure ?",
+                  "en": "What time did you go to bed?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-passe-compose-etre-01",
+          "type": "transform",
+          "task_en": "Turn into the passé composé",
+          "fr": "Je vais à Paris.",
+          "a": [
+            "Je suis {allé|allée} à Paris."
+          ]
+        },
+        {
+          "id": "g-passe-compose-etre-02",
+          "type": "transform",
+          "task_en": "Turn into the passé composé (Léa is speaking)",
+          "fr": "Je pars à huit heures.",
+          "a": [
+            "Je suis partie à huit heures."
+          ]
+        },
+        {
+          "id": "g-passe-compose-etre-03",
+          "type": "cloze",
+          "fr": "Nous ___ restés à la maison.",
+          "a": [
+            "sommes"
+          ],
+          "hint": "être",
+          "en": "We stayed at home."
+        },
+        {
+          "id": "g-passe-compose-etre-04",
+          "type": "cloze",
+          "fr": "Elle est ___ hier.",
+          "a": [
+            "arrivée"
+          ],
+          "hint": "arriver",
+          "en": "She arrived yesterday."
+        },
+        {
+          "id": "g-passe-compose-etre-05",
+          "type": "transform",
+          "task_en": "Turn into the passé composé",
+          "fr": "Ils se lèvent tôt.",
+          "a": [
+            "Ils se sont levés tôt."
+          ]
+        },
+        {
+          "id": "g-passe-compose-etre-06",
+          "type": "build",
+          "en": "I fell.",
+          "a": [
+            "Je suis {tombé|tombée}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc-agreement",
+      "title": "Past participle agreement",
+      "fr": "l'accord du participe passé",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "participle agreement",
+        "accord du participe passé",
+        "allée",
+        "vue",
+        "je l'ai vue",
+        "avoir",
+        "être",
+        "-e",
+        "-s"
+      ],
+      "topics": [
+        "passe-compose-etre"
+      ],
+      "see": [
+        "passe-compose-etre",
+        "direct-object",
+        "relative-qui-que",
+        "passive"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "auxiliary",
+                "agreement",
+                "example"
+              ],
+              "textCols": [
+                0,
+                1
+              ],
+              "rows": [
+                [
+                  "être",
+                  "always with the subject",
+                  "Elles sont parties."
+                ],
+                [
+                  "avoir",
+                  "only with a direct object that comes **before** the verb",
+                  "La pomme ? Je l'ai mangée."
+                ],
+                [
+                  "avoir, object after the verb",
+                  "none",
+                  "J'ai mangé la pomme."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With être",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The participle behaves like an adjective and follows the subject."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il est arrivé.",
+                  "en": "He arrived."
+                },
+                {
+                  "fr": "Elle est arrivée.",
+                  "en": "She arrived."
+                },
+                {
+                  "fr": "Ils sont arrivés.",
+                  "en": "They arrived."
+                },
+                {
+                  "fr": "Elles sont arrivées.",
+                  "en": "They (f.) arrived."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "With *vous* it depends on whom you mean: *Madame, vous êtes arrivée ?* (one woman), *Les enfants, vous êtes arrivés ?*"
+            }
+          ]
+        },
+        {
+          "title": "With avoir",
+          "level": "B1",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With *avoir* the participle **does not change**. The only exception: the direct object (*le, la, les, que*) stands **before** the participle. Then the participle agrees with it."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I saw Marie.",
+                  "fr": "J'ai [[vu]] Marie.",
+                  "note": "The object comes after the participle, so no agreement."
+                },
+                {
+                  "en": "I saw her.",
+                  "fr": "Je l'ai [[vue]].",
+                  "note": "*L'* (Marie) comes before: *vue*."
+                },
+                {
+                  "en": "The photos I took.",
+                  "fr": "Les photos que j'ai [[prises]].",
+                  "note": "*Que* stands for *les photos* (feminine plural)."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "Most of the time you can't hear the agreement (*vu* and *vue* sound the same). You hear it only with participles ending in a consonant: *pris → prise, fait → faite, mis → mise*."
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pc-agreement-01",
+          "type": "cloze",
+          "fr": "Ma sœur est ___ à Paris.",
+          "a": [
+            "allée"
+          ],
+          "hint": "aller",
+          "en": "My sister went to Paris."
+        },
+        {
+          "id": "g-pc-agreement-02",
+          "type": "cloze",
+          "fr": "Mes parents sont ___ hier.",
+          "a": [
+            "partis"
+          ],
+          "hint": "partir",
+          "en": "My parents left yesterday."
+        },
+        {
+          "id": "g-pc-agreement-03",
+          "type": "cloze",
+          "fr": "Les filles sont ___ en retard.",
+          "a": [
+            "arrivées"
+          ],
+          "hint": "arriver",
+          "en": "The girls arrived late."
+        },
+        {
+          "id": "g-pc-agreement-04",
+          "type": "cloze",
+          "fr": "La lettre ? Je l'ai ___.",
+          "a": [
+            "écrite"
+          ],
+          "en": "The letter? I wrote it."
+        },
+        {
+          "id": "g-pc-agreement-05",
+          "type": "cloze",
+          "fr": "Les photos que j'ai ___ sont belles.",
+          "a": [
+            "prises"
+          ],
+          "en": "The photos I took are beautiful."
+        }
+      ]
+    },
+    {
+      "id": "imparfait",
+      "title": "Imparfait",
+      "fr": "l'imparfait",
+      "level": "A2",
+      "keywords": [
+        "imparfait",
+        "past tense",
+        "description",
+        "habit",
+        "used to",
+        "was",
+        "je jouais",
+        "j'étais",
+        "nous stem"
+      ],
+      "topics": [
+        "imparfait"
+      ],
+      "see": [
+        "pc-vs-imparfait",
+        "passe-compose-avoir",
+        "si-clauses",
+        "plus-que-parfait"
+      ],
+      "verbs": [
+        "jouer",
+        "être",
+        "avoir",
+        "faire",
+        "finir"
+      ],
+      "tense": "imparfait",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *imparfait* describes the past: **what it was like, what used to be done, what was going on**. In English it often corresponds to \"was doing\" or \"used to do\"."
+            },
+            {
+              "type": "text",
+              "en": "Formation: take the *nous* form of the present tense, cut off *-ons* and add *-ais, -ais, -ait, -ions, -iez, -aient*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "nous (présent)",
+                "stem",
+                "imparfait"
+              ],
+              "rows": [
+                [
+                  "nous jouons",
+                  "jou-",
+                  "je jouais"
+                ],
+                [
+                  "nous finissons",
+                  "finiss-",
+                  "je finissais"
+                ],
+                [
+                  "nous faisons",
+                  "fais-",
+                  "je faisais"
+                ],
+                [
+                  "nous prenons",
+                  "pren-",
+                  "je prenais"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "verb": "jouer",
+              "tense": "imparfait"
+            }
+          ]
+        },
+        {
+          "title": "The only exception",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Only *être* is irregular: the stem *ét-* (*j'étais, nous étions*). With *-ger* and *-cer* the spelling change stays: *je mangeais, je commençais*."
+            },
+            {
+              "type": "table",
+              "verb": "être",
+              "tense": "imparfait"
+            }
+          ]
+        },
+        {
+          "title": "When",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "use",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "description (weather, people, places)",
+                  "Il faisait beau. La maison était grande.",
+                  "The weather was nice. The house was big."
+                ],
+                [
+                  "a habit in the past",
+                  "Le samedi, je jouais au foot.",
+                  "On Saturdays I used to play football."
+                ],
+                [
+                  "an action in progress",
+                  "Je dormais quand tu as appelé.",
+                  "I was sleeping when you called."
+                ],
+                [
+                  "feelings and states",
+                  "J'avais peur. J'étais fatigué.",
+                  "I was afraid. I was tired."
+                ]
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "pc-vs-imparfait"
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Je jouais, tu jouais, il jouait, ils jouaient* all sound the same. Only *-ions* and *-iez* are audible."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quand j'étais petit, j'habitais à Prague.",
+                  "en": "When I was little I lived in Prague."
+                },
+                {
+                  "fr": "Il pleuvait toute la journée.",
+                  "en": "It rained all day."
+                },
+                {
+                  "fr": "Avant, je ne mangeais pas de poisson.",
+                  "en": "I didn't use to eat fish."
+                },
+                {
+                  "fr": "Nous avions un chien.",
+                  "en": "We had a dog."
+                },
+                {
+                  "fr": "Qu'est-ce que tu faisais ?",
+                  "en": "What were you doing?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-imparfait-01",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "imparfait"
+        },
+        {
+          "id": "g-imparfait-02",
+          "type": "cloze",
+          "fr": "Quand j'___ petit, j'aimais les dinosaures.",
+          "a": [
+            "étais"
+          ],
+          "hint": "être",
+          "en": "When I was little I liked dinosaurs."
+        },
+        {
+          "id": "g-imparfait-03",
+          "type": "cloze",
+          "fr": "Il ___ beau.",
+          "a": [
+            "faisait"
+          ],
+          "hint": "faire",
+          "en": "The weather was nice."
+        },
+        {
+          "id": "g-imparfait-04",
+          "type": "cloze",
+          "fr": "Nous ___ un chat.",
+          "a": [
+            "avions"
+          ],
+          "hint": "avoir",
+          "en": "We had a cat."
+        },
+        {
+          "id": "g-imparfait-05",
+          "type": "transform",
+          "task_en": "Turn into the imparfait",
+          "fr": "Je joue au foot le samedi.",
+          "a": [
+            "Je jouais au foot le samedi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pc-vs-imparfait",
+      "title": "Passé composé or imparfait?",
+      "fr": "passé composé ou imparfait",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "passé composé or imparfait",
+        "which past tense",
+        "action and background",
+        "scenery",
+        "event",
+        "past",
+        "choosing a tense"
+      ],
+      "topics": [
+        "imparfait"
+      ],
+      "see": [
+        "passe-compose-avoir",
+        "imparfait",
+        "plus-que-parfait"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Think of a film. The *imparfait* is the **scenery**: what the weather was like, what everyone was doing, how everyone felt. The *passé composé* are the **events**: what suddenly happened and moved the story on."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "It was raining when I left the house.",
+                  "fr": "Il [[pleuvait]] quand je [[suis sorti]].",
+                  "note": "It was raining (scenery) → *imparfait*. I left (event) → *passé composé*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How to decide",
+          "blocks": [
+            {
+              "type": "tree",
+              "items": [
+                {
+                  "label": "Are you describing what it was like? (weather, looks, feelings, age)",
+                  "en": "→ *imparfait*: *Il faisait froid. J'avais dix ans.*"
+                },
+                {
+                  "label": "Did it happen repeatedly, as a habit?",
+                  "en": "→ *imparfait*: *Je jouais tous les jours.*"
+                },
+                {
+                  "label": "Was it going on when something else happened?",
+                  "en": "→ *imparfait* for the ongoing action: *Je lisais quand...*"
+                },
+                {
+                  "label": "Did it happen once, at a specific moment?",
+                  "en": "→ *passé composé*: *Le téléphone a sonné.*"
+                },
+                {
+                  "label": "Is it one of a series of events in a row?",
+                  "en": "→ *passé composé*: *Je me suis levé, j'ai mangé et je suis parti.*"
+                },
+                {
+                  "label": "Does it have a clearly limited duration?",
+                  "en": "→ *passé composé*: *J'ai habité deux ans à Paris.*"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Signal words",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "more likely imparfait",
+                "more likely passé composé"
+              ],
+              "rows": [
+                [
+                  "souvent, toujours, tous les jours",
+                  "hier, un jour, soudain"
+                ],
+                [
+                  "d'habitude, le samedi",
+                  "tout à coup, puis, ensuite"
+                ],
+                [
+                  "quand j'étais petit, avant",
+                  "une fois, deux fois"
+                ],
+                [
+                  "pendant que",
+                  "pendant deux ans"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "Signal words help, but it is the **meaning** that decides: scenery or event?"
+            }
+          ]
+        },
+        {
+          "title": "A rule of thumb for English speakers",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Where English says \"was doing\" or \"used to do\", French usually wants the *imparfait*. Where English says \"did\" (one finished action), French usually wants the *passé composé*. It does not always hold, but it is a good first guess."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I was playing basketball when the phone rang.",
+                  "fr": "Je [[jouais]] au basket quand le téléphone [[a sonné]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quand je suis arrivé, tout le monde dormait.",
+                  "en": "When I arrived, everyone was asleep."
+                },
+                {
+                  "fr": "Il faisait beau, alors nous sommes allés à la plage.",
+                  "en": "The weather was nice, so we went to the beach."
+                },
+                {
+                  "fr": "Avant, j'allais au collège à pied. Hier, j'ai pris le bus.",
+                  "en": "I used to walk to school. Yesterday I took the bus."
+                },
+                {
+                  "fr": "J'avais faim, donc j'ai mangé une pomme.",
+                  "en": "I was hungry, so I ate an apple."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pc-vs-imparfait-01",
+          "type": "cloze",
+          "fr": "Hier, il ___ froid.",
+          "a": [
+            "faisait"
+          ],
+          "hint": "faire",
+          "en": "Yesterday it was cold."
+        },
+        {
+          "id": "g-pc-vs-imparfait-02",
+          "type": "cloze",
+          "fr": "Je regardais la télé quand mon père ___ arrivé.",
+          "a": [
+            "est"
+          ],
+          "hint": "être",
+          "en": "I was watching TV when my father arrived."
+        },
+        {
+          "id": "g-pc-vs-imparfait-03",
+          "type": "cloze",
+          "fr": "Quand j'étais petit, je ___ au foot tous les jours.",
+          "a": [
+            "jouais"
+          ],
+          "hint": "jouer",
+          "en": "When I was little I played football every day."
+        },
+        {
+          "id": "g-pc-vs-imparfait-04",
+          "type": "cloze",
+          "fr": "Soudain, le téléphone ___ sonné.",
+          "a": [
+            "a"
+          ],
+          "hint": "avoir",
+          "en": "Suddenly the phone rang."
+        },
+        {
+          "id": "g-pc-vs-imparfait-05",
+          "type": "build",
+          "en": "The weather was nice, so we went out.",
+          "a": [
+            "Il faisait beau, {alors|donc} nous sommes sortis.",
+            "Il faisait beau, {alors|donc} on est sortis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "futur-simple",
+      "title": "Futur simple",
+      "fr": "le futur simple",
+      "level": "A2",
+      "keywords": [
+        "futur simple",
+        "future tense",
+        "will",
+        "je jouerai",
+        "je serai",
+        "j'aurai",
+        "j'irai",
+        "je ferai",
+        "irregular stems"
+      ],
+      "topics": [
+        "futur-simple"
+      ],
+      "see": [
+        "futur-proche",
+        "conditionnel",
+        "si-clauses",
+        "complex-sentences"
+      ],
+      "verbs": [
+        "jouer",
+        "finir",
+        "être",
+        "avoir",
+        "aller",
+        "faire"
+      ],
+      "tense": "futur-simple",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Futur simple* = infinitive + the endings *-ai, -as, -a, -ons, -ez, -ont* (they sound like the present tense of *avoir*). With verbs in *-re* the final *-e* is dropped: *prendre → je prendrai*."
+            },
+            {
+              "type": "table",
+              "verb": "jouer",
+              "tense": "futur-simple"
+            }
+          ]
+        },
+        {
+          "title": "Irregular stems",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The endings are always the same, only the stem changes. The most common:"
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "stem",
+                "example"
+              ],
+              "rows": [
+                [
+                  "être",
+                  "ser-",
+                  "je serai"
+                ],
+                [
+                  "avoir",
+                  "aur-",
+                  "j'aurai"
+                ],
+                [
+                  "aller",
+                  "ir-",
+                  "j'irai"
+                ],
+                [
+                  "faire",
+                  "fer-",
+                  "je ferai"
+                ],
+                [
+                  "pouvoir",
+                  "pourr-",
+                  "je pourrai"
+                ],
+                [
+                  "vouloir",
+                  "voudr-",
+                  "je voudrai"
+                ],
+                [
+                  "devoir",
+                  "devr-",
+                  "je devrai"
+                ],
+                [
+                  "savoir",
+                  "saur-",
+                  "je saurai"
+                ],
+                [
+                  "venir",
+                  "viendr-",
+                  "je viendrai"
+                ],
+                [
+                  "voir",
+                  "verr-",
+                  "je verrai"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "The giveaway of the future: you can always hear an *r* before the ending."
+            },
+            {
+              "type": "table",
+              "verb": "être",
+              "tense": "futur-simple"
+            }
+          ]
+        },
+        {
+          "title": "Futur simple or futur proche?",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "futur proche",
+                "futur simple"
+              ],
+              "textCols": [
+                0,
+                1
+              ],
+              "rows": [
+                [
+                  "spoken language, plans, the near future",
+                  "written text, promises, predictions, the distant future"
+                ],
+                [
+                  "*Je vais partir demain.*",
+                  "*Un jour, je partirai au Canada.*"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "You can often use either. After *quand* about the future and in the main clause after *si*, the *futur simple* is used."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "complex-sentences",
+                "si-clauses"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Demain, il fera beau.",
+                  "en": "Tomorrow the weather will be nice."
+                },
+                {
+                  "fr": "Je t'appellerai ce soir.",
+                  "en": "I'll call you tonight."
+                },
+                {
+                  "fr": "Quand je serai grand, je serai pilote.",
+                  "en": "When I'm big I'll be a pilot."
+                },
+                {
+                  "fr": "Nous irons en France l'été prochain.",
+                  "en": "We'll go to France next summer."
+                },
+                {
+                  "fr": "Tu verras !",
+                  "en": "You'll see!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-futur-simple-01",
+          "type": "form",
+          "verb": "être",
+          "tense": "futur-simple"
+        },
+        {
+          "id": "g-futur-simple-02",
+          "type": "cloze",
+          "fr": "Demain, nous ___ au cinéma.",
+          "a": [
+            "irons"
+          ],
+          "hint": "aller",
+          "en": "Tomorrow we'll go to the cinema."
+        },
+        {
+          "id": "g-futur-simple-03",
+          "type": "cloze",
+          "fr": "Samedi, je ___ au basket.",
+          "a": [
+            "jouerai"
+          ],
+          "hint": "jouer",
+          "en": "On Saturday I'll play basketball."
+        },
+        {
+          "id": "g-futur-simple-04",
+          "type": "cloze",
+          "fr": "Tu ___ tes devoirs plus tard ?",
+          "a": [
+            "feras"
+          ],
+          "hint": "faire",
+          "en": "Will you do your homework later?"
+        },
+        {
+          "id": "g-futur-simple-05",
+          "type": "cloze",
+          "fr": "Ils ___ 18 ans en 2030.",
+          "a": [
+            "auront"
+          ],
+          "hint": "avoir",
+          "en": "They will be 18 in 2030."
+        },
+        {
+          "id": "g-futur-simple-06",
+          "type": "transform",
+          "task_en": "Turn into the futur simple",
+          "fr": "Je vais finir demain.",
+          "a": [
+            "Je finirai demain."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "futur-anterieur",
+      "title": "Futur antérieur: what will have happened",
+      "fr": "le futur antérieur",
+      "level": "B1",
+      "keywords": [
+        "futur antérieur",
+        "future perfect",
+        "j'aurai fini",
+        "quand j'aurai",
+        "dès que j'aurai",
+        "will have",
+        "supposition",
+        "il aura oublié",
+        "avoir être futur"
+      ],
+      "topics": [],
+      "see": [
+        "futur-simple",
+        "passe-compose-avoir",
+        "time-connectors",
+        "plus-que-parfait"
+      ],
+      "verbs": [
+        "finir"
+      ],
+      "tense": "futur-anterieur",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The **futur antérieur** is the **future perfect**: *j'aurai fini* = I will have finished. It is **avoir or être in the futur simple + the past participle**, with the same auxiliaries and agreement rules as the passé composé."
+            },
+            {
+              "type": "table",
+              "verb": "finir",
+              "tense": "futur-anterieur"
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "futur antérieur",
+                "English"
+              ],
+              "rows": [
+                [
+                  "finir",
+                  "j'aurai fini",
+                  "I will have finished"
+                ],
+                [
+                  "partir",
+                  "elle sera partie",
+                  "she will have left"
+                ],
+                [
+                  "se lever",
+                  "nous nous serons levés",
+                  "we will have got up"
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "When to use it",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "1) An action that will be **finished before another future action**: *Quand j'aurai fini, je sortirai.* 2) After **quand, lorsque, dès que, aussitôt que, une fois que, après que** when the main verb is in the future. 3) A **supposition about the past**: *Il n'est pas là, il aura oublié.* (He probably forgot.)"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Dès que j'aurai fini, je t'appellerai.",
+                  "en": "As soon as I've finished I'll call you."
+                },
+                {
+                  "fr": "Quand elle sera arrivée, nous mangerons.",
+                  "en": "When she has arrived we'll eat."
+                },
+                {
+                  "fr": "Il aura oublié notre rendez-vous.",
+                  "en": "He must have forgotten our appointment."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Futur simple or futur antérieur?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Both clauses in the future and **one finished before the other**: first action in the *futur antérieur*, the second in the *futur simple*. If the two actions happen at the same time use *futur simple* twice."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "When I've finished, I'll go out.",
+                  "wrong": "Quand je finirai, je sortirai.",
+                  "fr": "Quand [[j'aurai fini]], je sortirai.",
+                  "note": "The first action is finished first."
+                },
+                {
+                  "en": "When I arrive, I'll call.",
+                  "wrong": "Quand j'aurai arrivé, j'appellerai.",
+                  "fr": "Quand [[j'arriverai]], j'appellerai.",
+                  "note": "Same time: both futur simple."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Demain à cette heure-ci, j'aurai fini mon examen.",
+                  "en": "Tomorrow at this time I'll have finished my exam."
+                },
+                {
+                  "fr": "Lorsque tu auras lu ce livre, prête-le-moi.",
+                  "en": "When you've read this book, lend it to me."
+                },
+                {
+                  "fr": "Elle sera rentrée avant minuit.",
+                  "en": "She'll be home before midnight."
+                },
+                {
+                  "fr": "Nous aurons terminé avant lundi.",
+                  "en": "We'll have finished before Monday."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-futur-anterieur-01",
+          "type": "build",
+          "en": "I will have finished.",
+          "a": [
+            "J'aurai fini."
+          ]
+        },
+        {
+          "id": "g-futur-anterieur-02",
+          "type": "build",
+          "en": "She will have left.",
+          "a": [
+            "Elle sera partie."
+          ]
+        },
+        {
+          "id": "g-futur-anterieur-03",
+          "type": "build",
+          "en": "As soon as I've finished, I'll call you.",
+          "a": [
+            "Dès que j'aurai fini, je t'appellerai."
+          ]
+        },
+        {
+          "id": "g-futur-anterieur-04",
+          "type": "build",
+          "en": "When she has arrived, we'll eat.",
+          "a": [
+            "Quand elle sera arrivée, nous mangerons.",
+            "Quand elle sera arrivée, on mangera."
+          ]
+        },
+        {
+          "id": "g-futur-anterieur-05",
+          "type": "cloze",
+          "fr": "Quand j'___ fini, je sortirai.",
+          "a": [
+            "aurai"
+          ],
+          "en": "When I've finished, I'll go out."
+        },
+        {
+          "id": "g-futur-anterieur-06",
+          "type": "cloze",
+          "fr": "Il ___ oublié, sans doute.",
+          "a": [
+            "aura"
+          ],
+          "en": "He has probably forgotten."
+        },
+        {
+          "id": "g-futur-anterieur-07",
+          "type": "cloze",
+          "fr": "Dès qu'elle ___ rentrée, nous dînerons.",
+          "a": [
+            "sera"
+          ],
+          "en": "As soon as she's home, we'll have dinner."
+        },
+        {
+          "id": "g-futur-anterieur-08",
+          "type": "transform",
+          "task_en": "Put the first verb in the futur antérieur",
+          "fr": "Quand je finis, je sors.",
+          "a": [
+            "Quand j'aurai fini, je sortirai."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conditionnel",
+      "title": "The conditional",
+      "fr": "le conditionnel présent",
+      "level": "A2",
+      "keywords": [
+        "conditionnel",
+        "conditional",
+        "would",
+        "je voudrais",
+        "je pourrais",
+        "tu devrais",
+        "j'aimerais",
+        "politeness",
+        "if"
+      ],
+      "topics": [],
+      "see": [
+        "futur-simple",
+        "si-clauses",
+        "modals",
+        "imparfait",
+        "co-01-forms"
+      ],
+      "verbs": [
+        "vouloir",
+        "pouvoir",
+        "devoir",
+        "aimer",
+        "être",
+        "avoir"
+      ],
+      "tense": "conditionnel-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *conditionnel* corresponds to English \"would\". It is formed from the **stem of the futur simple** + the **endings of the imparfait** *-ais, -ais, -ait, -ions, -iez, -aient*: *je jouerai* (I will play) → *je jouerais* (I would play)."
+            },
+            {
+              "type": "table",
+              "verb": "aimer",
+              "tense": "conditionnel-present"
+            }
+          ]
+        },
+        {
+          "title": "When",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "use",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "polite request",
+                  "Je voudrais un café.",
+                  "I would like a coffee."
+                ],
+                [
+                  "polite question",
+                  "Tu pourrais m'aider ?",
+                  "Could you help me?"
+                ],
+                [
+                  "advice",
+                  "Tu devrais dormir.",
+                  "You should sleep."
+                ],
+                [
+                  "wish",
+                  "J'aimerais aller au Japon.",
+                  "I would like to go to Japan."
+                ],
+                [
+                  "condition (si + imparfait)",
+                  "Si j'avais le temps, je viendrais.",
+                  "If I had time, I would come."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Tables",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "vouloir",
+              "tense": "conditionnel-present"
+            },
+            {
+              "type": "table",
+              "verb": "pouvoir",
+              "tense": "conditionnel-present"
+            },
+            {
+              "type": "table",
+              "verb": "devoir",
+              "tense": "conditionnel-present"
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "If I were rich, I would buy a car.",
+                  "wrong": "Si je serais riche, j'achèterais une voiture.",
+                  "fr": "Si j'[[étais]] riche, j'achèterais une voiture.",
+                  "note": "Never the conditionnel after *si*, but the *imparfait*."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Je jouerai* (I will play) and *je jouerais* (I would play) sound almost the same. In writing the single *-s* decides."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je voudrais un croissant, s'il vous plaît.",
+                  "en": "I would like a croissant, please."
+                },
+                {
+                  "fr": "Vous pourriez parler plus lentement ?",
+                  "en": "Could you speak more slowly?"
+                },
+                {
+                  "fr": "À ta place, je ne ferais pas ça.",
+                  "en": "If I were you, I wouldn't do that."
+                },
+                {
+                  "fr": "On pourrait aller au cinéma.",
+                  "en": "We could go to the cinema."
+                },
+                {
+                  "fr": "Ce serait génial !",
+                  "en": "That would be great!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-conditionnel-01",
+          "type": "cloze",
+          "fr": "Je ___ un verre d'eau, s'il vous plaît.",
+          "a": [
+            "voudrais"
+          ],
+          "hint": "vouloir",
+          "en": "I would like a glass of water, please."
+        },
+        {
+          "id": "g-conditionnel-02",
+          "type": "cloze",
+          "fr": "Tu ___ m'aider ?",
+          "a": [
+            "pourrais"
+          ],
+          "hint": "pouvoir",
+          "en": "Could you help me?"
+        },
+        {
+          "id": "g-conditionnel-03",
+          "type": "cloze",
+          "fr": "Tu ___ travailler plus.",
+          "a": [
+            "devrais"
+          ],
+          "hint": "devoir",
+          "en": "You should work more."
+        },
+        {
+          "id": "g-conditionnel-04",
+          "type": "cloze",
+          "fr": "Ce ___ super !",
+          "a": [
+            "serait"
+          ],
+          "hint": "être",
+          "en": "That would be great!"
+        },
+        {
+          "id": "g-conditionnel-05",
+          "type": "transform",
+          "task_en": "Say it politely",
+          "fr": "Je veux un café.",
+          "a": [
+            "Je voudrais un café."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "plus-que-parfait",
+      "title": "Plus-que-parfait",
+      "fr": "le plus-que-parfait",
+      "level": "B1",
+      "keywords": [
+        "plus-que-parfait",
+        "pluperfect",
+        "past perfect",
+        "j'avais mangé",
+        "j'étais parti",
+        "déjà",
+        "before"
+      ],
+      "topics": [],
+      "see": [
+        "passe-compose-avoir",
+        "imparfait",
+        "pc-vs-imparfait",
+        "si-clauses",
+        "co-05-si-pqp"
+      ],
+      "verbs": [
+        "manger",
+        "partir"
+      ],
+      "tense": "plus-que-parfait",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *plus-que-parfait* expresses an action that happened **even before another past action**. It is formed like the passé composé, only the auxiliary is in the *imparfait*: *j'avais mangé, j'étais parti*."
+            },
+            {
+              "type": "table",
+              "verb": "manger",
+              "tense": "plus-que-parfait"
+            },
+            {
+              "type": "table",
+              "verb": "partir",
+              "tense": "plus-que-parfait"
+            }
+          ]
+        },
+        {
+          "title": "When",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "English says \"had done\", sometimes just \"already\" or \"before\". French changes the tense."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "When I arrived, the film had already started.",
+                  "fr": "Quand je suis arrivé, le film [[avait]] déjà [[commencé]].",
+                  "note": "The film started before I arrived."
+                },
+                {
+                  "en": "I wasn't hungry because I had eaten.",
+                  "fr": "Je n'avais pas faim parce que j'[[avais mangé]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Rules as for the passé composé",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The choice of *avoir* and *être*, participle agreement and the place of negation work the same as in the passé composé: *Elle était déjà partie. Je n'avais pas compris.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'avais oublié mes clés.",
+                  "en": "I had forgotten my keys."
+                },
+                {
+                  "fr": "Il avait plu toute la nuit.",
+                  "en": "It had rained all night."
+                },
+                {
+                  "fr": "Elle était déjà partie quand je suis arrivé.",
+                  "en": "She had already left when I arrived."
+                },
+                {
+                  "fr": "Nous n'avions jamais vu la mer.",
+                  "en": "We had never seen the sea."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-plus-que-parfait-01",
+          "type": "cloze",
+          "fr": "Quand je suis arrivé, le film ___ déjà commencé.",
+          "a": [
+            "avait"
+          ],
+          "hint": "avoir",
+          "en": "When I arrived, the film had already started."
+        },
+        {
+          "id": "g-plus-que-parfait-02",
+          "type": "cloze",
+          "fr": "Elle ___ déjà partie.",
+          "a": [
+            "était"
+          ],
+          "hint": "être",
+          "en": "She had already left."
+        },
+        {
+          "id": "g-plus-que-parfait-03",
+          "type": "transform",
+          "task_en": "Turn into the plus-que-parfait",
+          "fr": "J'ai mangé.",
+          "a": [
+            "J'avais mangé."
+          ]
+        },
+        {
+          "id": "g-plus-que-parfait-04",
+          "type": "transform",
+          "task_en": "Turn into the plus-que-parfait",
+          "fr": "Nous sommes partis.",
+          "a": [
+            "Nous étions partis."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sequence-of-tenses",
+      "title": "Which tense goes with which: sequence of tenses",
+      "fr": "la concordance des temps",
+      "level": "B1",
+      "keywords": [
+        "concordance des temps",
+        "sequence of tenses",
+        "tense agreement",
+        "si",
+        "quand",
+        "reported speech",
+        "plus-que-parfait",
+        "conditionnel",
+        "imparfait",
+        "backgrounds",
+        "tense in narration",
+        "past in the past"
+      ],
+      "topics": [],
+      "see": [
+        "reported-speech",
+        "si-clauses",
+        "pc-vs-imparfait",
+        "plus-que-parfait",
+        "indirect-questions"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In French the tense of the **second clause depends on the tense of the first**. Past + past: the second clause often moves **one step back** (reported speech, *si* clauses, backgrounds). The table gives the common pairs."
+            },
+            {
+              "type": "table",
+              "head": [
+                "main clause",
+                "dependent clause",
+                "example"
+              ],
+              "rows": [
+                [
+                  "present",
+                  "present / futur / passé composé",
+                  "Je pense qu'il vient / viendra / est venu."
+                ],
+                [
+                  "passé composé",
+                  "imparfait (same time)",
+                  "Il a dit qu'il était malade."
+                ],
+                [
+                  "passé composé",
+                  "plus-que-parfait (before)",
+                  "Il a dit qu'il avait mangé."
+                ],
+                [
+                  "passé composé",
+                  "conditionnel (future in the past)",
+                  "Il a dit qu'il viendrait."
+                ],
+                [
+                  "si + présent",
+                  "futur / présent / impératif",
+                  "Si tu viens, je partirai."
+                ],
+                [
+                  "si + imparfait",
+                  "conditionnel présent",
+                  "Si tu venais, je partirais."
+                ],
+                [
+                  "si + plus-que-parfait",
+                  "conditionnel passé",
+                  "Si tu étais venu, je serais parti."
+                ],
+                [
+                  "quand + futur",
+                  "futur",
+                  "Quand tu viendras, nous mangerons."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Reported speech in the past",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When the reporting verb is in the **past**, the verb of the reported statement shifts: **présent → imparfait**, **passé composé → plus-que-parfait**, **futur → conditionnel**, **futur proche → *allait* + infinitive**. Time words shift as well: *demain → le lendemain*, *hier → la veille*, *maintenant → à ce moment-là*, *ici → là*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "« Je suis fatigué. » → Il a dit qu'il était fatigué.",
+                  "en": "He said he was tired."
+                },
+                {
+                  "fr": "« J'ai fini. » → Elle a dit qu'elle avait fini.",
+                  "en": "She said she had finished."
+                },
+                {
+                  "fr": "« Je viendrai demain. » → Il a dit qu'il viendrait le lendemain.",
+                  "en": "He said he'd come the next day."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Story telling",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In a story the **background** (description, habits, states) is in the **imparfait**, the **main events** are in the **passé composé**, and **what had happened before** is in the **plus-que-parfait**. See the article about passé composé and imparfait."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il pleuvait. Nous sommes rentrés.",
+                  "en": "It was raining. We went home."
+                },
+                {
+                  "fr": "Quand je suis arrivé, ils étaient déjà partis.",
+                  "en": "When I arrived they had already left."
+                },
+                {
+                  "fr": "Elle avait faim parce qu'elle n'avait rien mangé.",
+                  "en": "She was hungry because she hadn't eaten anything."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "He said he was tired.",
+                  "wrong": "Il a dit qu'il est fatigué.",
+                  "fr": "Il a dit qu'il [[était]] fatigué."
+                },
+                {
+                  "en": "He said he would come.",
+                  "wrong": "Il a dit qu'il viendra.",
+                  "fr": "Il a dit qu'il [[viendrait]]."
+                },
+                {
+                  "en": "If it rains, I stay.",
+                  "wrong": "S'il pleuvra, je reste.",
+                  "fr": "S'il [[pleut]], je reste."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "reported-speech",
+                "si-clauses",
+                "pc-vs-imparfait",
+                "plus-que-parfait",
+                "conditionnel"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Elle m'a dit qu'elle habitait à Lyon.",
+                  "en": "She told me she lived in Lyon."
+                },
+                {
+                  "fr": "Je ne savais pas qu'il avait déjà mangé.",
+                  "en": "I didn't know he had already eaten."
+                },
+                {
+                  "fr": "Il a promis qu'il m'appellerait.",
+                  "en": "He promised he would call me."
+                },
+                {
+                  "fr": "Si j'avais de l'argent, j'achèterais un vélo.",
+                  "en": "If I had money I would buy a bike."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-sequence-of-tenses-01",
+          "type": "transform",
+          "task_en": "Report it in the past",
+          "fr": "« Je suis fatigué. » Il a dit...",
+          "a": [
+            "Il a dit qu'il était fatigué."
+          ]
+        },
+        {
+          "id": "g-sequence-of-tenses-02",
+          "type": "transform",
+          "task_en": "Report it in the past",
+          "fr": "« J'ai fini. » Elle a dit...",
+          "a": [
+            "Elle a dit qu'elle avait fini."
+          ]
+        },
+        {
+          "id": "g-sequence-of-tenses-03",
+          "type": "transform",
+          "task_en": "Report it in the past",
+          "fr": "« Je viendrai. » Il a dit...",
+          "a": [
+            "Il a dit qu'il viendrait."
+          ]
+        },
+        {
+          "id": "g-sequence-of-tenses-04",
+          "type": "build",
+          "en": "He said he was ill.",
+          "a": [
+            "Il a dit qu'il était malade."
+          ]
+        },
+        {
+          "id": "g-sequence-of-tenses-05",
+          "type": "build",
+          "en": "She told me she had already eaten.",
+          "a": [
+            "Elle m'a dit qu'elle avait déjà mangé."
+          ]
+        },
+        {
+          "id": "g-sequence-of-tenses-06",
+          "type": "cloze",
+          "fr": "Il a promis qu'il ___.",
+          "a": [
+            "viendrait"
+          ],
+          "hint": "venir",
+          "en": "He promised he would come."
+        },
+        {
+          "id": "g-sequence-of-tenses-07",
+          "type": "cloze",
+          "fr": "Quand je suis arrivé, ils ___ déjà partis.",
+          "a": [
+            "étaient"
+          ],
+          "en": "When I arrived they had already left."
+        },
+        {
+          "id": "g-sequence-of-tenses-08",
+          "type": "cloze",
+          "fr": "Si j'___ de l'argent, j'achèterais un vélo.",
+          "a": [
+            "avais"
+          ],
+          "en": "If I had money I'd buy a bike."
+        }
+      ]
+    },
+    {
+      "id": "si-clauses",
+      "title": "Conditional sentences with si",
+      "fr": "les phrases avec si",
+      "level": "B1",
+      "keywords": [
+        "si",
+        "if",
+        "conditional sentences",
+        "si + imparfait",
+        "si + présent",
+        "hypothesis",
+        "s'il"
+      ],
+      "topics": [],
+      "see": [
+        "conditionnel",
+        "futur-simple",
+        "imparfait",
+        "complex-sentences",
+        "co-03-si-imparfait"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "type",
+                "clause with si",
+                "main clause",
+                "example"
+              ],
+              "textCols": [
+                0,
+                1,
+                2
+              ],
+              "rows": [
+                [
+                  "real condition",
+                  "*présent*",
+                  "*futur*, *présent* or a command",
+                  "Si tu viens, on jouera."
+                ],
+                [
+                  "unreal (now)",
+                  "*imparfait*",
+                  "*conditionnel*",
+                  "Si j'avais le temps, je jouerais."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "The golden rule: **never a future or a conditional after *si***."
+            }
+          ]
+        },
+        {
+          "title": "Real condition",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "If something happens (and it may well happen), what follows from it."
+            },
+            {
+              "type": "pattern",
+              "formula": [
+                [
+                  "conj",
+                  "si"
+                ],
+                [
+                  "V",
+                  "présent"
+                ],
+                [
+                  "V",
+                  "futur simple"
+                ]
+              ],
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "conj",
+                      "Si"
+                    ],
+                    [
+                      "S",
+                      "tu"
+                    ],
+                    [
+                      "V",
+                      "viens,"
+                    ],
+                    [
+                      "S",
+                      "on"
+                    ],
+                    [
+                      "V",
+                      "jouera."
+                    ]
+                  ],
+                  "en": "If you come, we'll play."
+                }
+              ]
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "S'il pleut, je reste à la maison.",
+                  "en": "If it rains, I stay at home."
+                },
+                {
+                  "fr": "Si tu as faim, mange !",
+                  "en": "If you're hungry, eat!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Unreal condition",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "If it were so (but it isn't): *si* + *imparfait*, and the main clause in the *conditionnel*."
+            },
+            {
+              "type": "pattern",
+              "formula": [
+                [
+                  "conj",
+                  "si"
+                ],
+                [
+                  "V",
+                  "imparfait"
+                ],
+                [
+                  "V",
+                  "conditionnel"
+                ]
+              ],
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "conj",
+                      "Si"
+                    ],
+                    [
+                      "S",
+                      "j'"
+                    ],
+                    [
+                      "V",
+                      "étais"
+                    ],
+                    [
+                      "x",
+                      "riche,"
+                    ],
+                    [
+                      "S",
+                      "j'"
+                    ],
+                    [
+                      "V",
+                      "achèterais"
+                    ],
+                    [
+                      "obj",
+                      "une maison."
+                    ]
+                  ],
+                  "en": "If I were rich, I would buy a house."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "If it rains tomorrow, I'll stay at home.",
+                  "wrong": "S'il pleuvra demain, je resterai à la maison.",
+                  "fr": "S'il [[pleut]] demain, je resterai à la maison.",
+                  "note": "As in English (\"if it rains\"), *si* takes the present tense, never the future."
+                },
+                {
+                  "en": "If I knew, I would tell you.",
+                  "wrong": "Si je saurais, je te le dirais.",
+                  "fr": "Si je [[savais]], je te le dirais."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Si + il* = *s'il*, *si + ils* = *s'ils*. But *si elle, si on* is not shortened."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Si on gagne, on fera la fête.",
+                  "en": "If we win, we'll have a party."
+                },
+                {
+                  "fr": "Si j'étais toi, je ne ferais pas ça.",
+                  "en": "If I were you, I wouldn't do that."
+                },
+                {
+                  "fr": "Qu'est-ce que tu ferais si tu gagnais au loto ?",
+                  "en": "What would you do if you won the lottery?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-si-clauses-01",
+          "type": "cloze",
+          "fr": "Si tu ___ demain, on ira au parc.",
+          "a": [
+            "viens"
+          ],
+          "hint": "venir",
+          "en": "If you come tomorrow, we'll go to the park."
+        },
+        {
+          "id": "g-si-clauses-02",
+          "type": "cloze",
+          "fr": "Si j'___ le temps, je jouerais plus.",
+          "a": [
+            "avais"
+          ],
+          "hint": "avoir",
+          "en": "If I had time, I would play more."
+        },
+        {
+          "id": "g-si-clauses-03",
+          "type": "cloze",
+          "fr": "Si j'étais riche, j'___ une voiture.",
+          "a": [
+            "achèterais"
+          ],
+          "hint": "acheter",
+          "en": "If I were rich, I would buy a car."
+        },
+        {
+          "id": "g-si-clauses-04",
+          "type": "cloze",
+          "fr": "S'il ___ demain, je resterai à la maison.",
+          "a": [
+            "pleut"
+          ],
+          "hint": "pleuvoir",
+          "en": "If it rains tomorrow, I'll stay at home."
+        },
+        {
+          "id": "g-si-clauses-05",
+          "type": "build",
+          "en": "If I had a dog, I would be happy.",
+          "a": [
+            "Si j'avais un chien, je serais {heureux|heureuse|content|contente}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conditionnel-passe",
+      "title": "Conditionnel passé: j'aurais dû, il aurait fallu",
+      "fr": "le conditionnel passé",
+      "level": "B1",
+      "keywords": [
+        "conditionnel passé",
+        "past conditional",
+        "j'aurais dû",
+        "j'aurais voulu",
+        "regret",
+        "reproach",
+        "si j'avais su",
+        "would have",
+        "aurais",
+        "serais",
+        "unreal past"
+      ],
+      "topics": [],
+      "see": [
+        "conditionnel",
+        "si-clauses",
+        "plus-que-parfait",
+        "pc-agreement",
+        "co-05-si-pqp"
+      ],
+      "verbs": [
+        "finir"
+      ],
+      "tense": "conditionnel-passe",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The **conditionnel passé** is **avoir or être in the conditionnel présent + the past participle**: *j'aurais mangé, elle serait partie*. It means **would have** and is used for **regrets, reproaches and unreal past situations**."
+            },
+            {
+              "type": "table",
+              "verb": "finir",
+              "tense": "conditionnel-passe"
+            },
+            {
+              "type": "table",
+              "head": [
+                "use",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "regret",
+                  "J'aurais dû étudier.",
+                  "I should have studied."
+                ],
+                [
+                  "reproach",
+                  "Tu aurais pu m'appeler.",
+                  "You could have called me."
+                ],
+                [
+                  "unreal past (with si + plus-que-parfait)",
+                  "Si j'avais su, je serais venu.",
+                  "If I'd known I would have come."
+                ],
+                [
+                  "polite wish in the past",
+                  "J'aurais voulu vous parler.",
+                  "I would have liked to talk to you."
+                ],
+                [
+                  "news not confirmed",
+                  "Il y aurait dix blessés.",
+                  "There are said to be ten injured."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Si + plus-que-parfait",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The **unreal past** has the pattern: **si + plus-que-parfait**, **conditionnel passé**. The condition did not happen and so neither did the result. Never put the conditional after *si*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "If I had known, I would have come.",
+                  "wrong": "Si j'aurais su, je serais venu.",
+                  "fr": "Si j'[[avais su]], je [[serais venu]].",
+                  "note": "No conditional after *si*."
+                },
+                {
+                  "en": "If you had come earlier, you would have seen him.",
+                  "wrong": "Si tu viendrais plus tôt, tu l'aurais vu.",
+                  "fr": "Si tu [[étais venu]] plus tôt, tu l'[[aurais vu]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Devoir and pouvoir",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*J'aurais dû* (I should have) and *j'aurais pu* (I could have) are the most frequent forms. They are followed by the **infinitive**: *J'aurais dû partir plus tôt.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu aurais dû me le dire.",
+                  "en": "You should have told me."
+                },
+                {
+                  "fr": "Nous aurions pu gagner.",
+                  "en": "We could have won."
+                },
+                {
+                  "fr": "Elle aurait voulu rester.",
+                  "en": "She would have liked to stay."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Si j'avais eu le temps, j'aurais voyagé.",
+                  "en": "If I'd had time I would have travelled."
+                },
+                {
+                  "fr": "Il aurait mieux valu rester à la maison.",
+                  "en": "It would have been better to stay home."
+                },
+                {
+                  "fr": "À ta place, je n'aurais rien dit.",
+                  "en": "In your place I wouldn't have said anything."
+                },
+                {
+                  "fr": "Elle serait venue si elle avait été libre.",
+                  "en": "She would have come if she'd been free."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-conditionnel-passe-01",
+          "type": "build",
+          "en": "I should have studied.",
+          "a": [
+            "J'aurais dû étudier."
+          ]
+        },
+        {
+          "id": "g-conditionnel-passe-02",
+          "type": "build",
+          "en": "You could have called me.",
+          "a": [
+            "Tu aurais pu m'appeler.",
+            "Tu aurais pu me téléphoner."
+          ]
+        },
+        {
+          "id": "g-conditionnel-passe-03",
+          "type": "build",
+          "en": "If I had known, I would have come.",
+          "a": [
+            "Si j'avais su, je serais venu.",
+            "Si j'avais su, je serais venue."
+          ]
+        },
+        {
+          "id": "g-conditionnel-passe-04",
+          "type": "build",
+          "en": "She would have liked to stay.",
+          "a": [
+            "Elle aurait voulu rester."
+          ]
+        },
+        {
+          "id": "g-conditionnel-passe-05",
+          "type": "cloze",
+          "fr": "Si j'avais eu le temps, j'___ voyagé.",
+          "a": [
+            "aurais"
+          ],
+          "en": "If I'd had time I would have travelled."
+        },
+        {
+          "id": "g-conditionnel-passe-06",
+          "type": "cloze",
+          "fr": "Nous ___ pu gagner.",
+          "a": [
+            "aurions"
+          ],
+          "en": "We could have won."
+        },
+        {
+          "id": "g-conditionnel-passe-07",
+          "type": "cloze",
+          "fr": "Si tu étais venu, tu l'___ vu.",
+          "a": [
+            "aurais"
+          ],
+          "en": "If you had come you'd have seen him."
+        },
+        {
+          "id": "g-conditionnel-passe-08",
+          "type": "transform",
+          "task_en": "Put it in the past (regret)",
+          "fr": "Je dois partir plus tôt.",
+          "a": [
+            "J'aurais dû partir plus tôt."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subjonctif-basics",
+      "title": "Subjonctif: the basics",
+      "fr": "le subjonctif présent",
+      "level": "B1",
+      "keywords": [
+        "subjonctif",
+        "subjunctive",
+        "il faut que",
+        "je veux que",
+        "pour que",
+        "avant que",
+        "bien que",
+        "que je sois",
+        "que je fasse"
+      ],
+      "topics": [],
+      "see": [
+        "impersonal",
+        "complex-sentences",
+        "conditionnel",
+        "sj-01-forms"
+      ],
+      "verbs": [
+        "finir",
+        "être",
+        "avoir",
+        "aller",
+        "faire"
+      ],
+      "tense": "subjonctif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *subjonctif* is a mood used **after *que*** following expressions of necessity, wishes and feelings. Up to B1 you only need its present tense and a handful of expressions that trigger it."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "V",
+                      "Il faut"
+                    ],
+                    [
+                      "conj",
+                      "que"
+                    ],
+                    [
+                      "S",
+                      "tu"
+                    ],
+                    [
+                      "V",
+                      "viennes."
+                    ]
+                  ],
+                  "en": "You have to come."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Formation",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Take the *ils* form of the present tense, cut off *-ent* and add *-e, -es, -e, -ions, -iez, -ent*. With *-er* verbs it looks almost the same as the present tense."
+            },
+            {
+              "type": "table",
+              "head": [
+                "ils (présent)",
+                "subjonctif"
+              ],
+              "rows": [
+                [
+                  "ils parlent",
+                  "que je parle"
+                ],
+                [
+                  "ils finissent",
+                  "que je finisse"
+                ],
+                [
+                  "ils prennent",
+                  "que je prenne"
+                ],
+                [
+                  "ils partent",
+                  "que je parte"
+                ]
+              ]
+            },
+            {
+              "type": "table",
+              "verb": "finir",
+              "tense": "subjonctif-present"
+            }
+          ]
+        },
+        {
+          "title": "Irregular",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "être",
+              "tense": "subjonctif-present"
+            },
+            {
+              "type": "table",
+              "verb": "avoir",
+              "tense": "subjonctif-present"
+            },
+            {
+              "type": "table",
+              "verb": "aller",
+              "tense": "subjonctif-present"
+            },
+            {
+              "type": "table",
+              "verb": "faire",
+              "tense": "subjonctif-present"
+            }
+          ]
+        },
+        {
+          "title": "What triggers it",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "expression",
+                "meaning",
+                "example"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "il faut que",
+                  "it is necessary that / you must",
+                  "Il faut que tu dormes."
+                ],
+                [
+                  "vouloir que",
+                  "to want (someone) to",
+                  "Je veux que tu viennes."
+                ],
+                [
+                  "pour que",
+                  "so that",
+                  "Je parle lentement pour que tu comprennes."
+                ],
+                [
+                  "avant que",
+                  "before",
+                  "Pars avant qu'il pleuve."
+                ],
+                [
+                  "bien que",
+                  "although",
+                  "Bien qu'il soit malade, il joue."
+                ],
+                [
+                  "être content que",
+                  "to be glad that",
+                  "Je suis content que tu sois là."
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "When the subject is the same in both parts, an infinitive is used: *Je veux partir* (I want to leave), not *je veux que je parte*."
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "You have to do your homework.",
+                  "wrong": "Il faut que tu fais tes devoirs.",
+                  "fr": "Il faut que tu [[fasses]] tes devoirs."
+                },
+                {
+                  "en": "I think he's right.",
+                  "fr": "Je pense qu'il [[a]] raison.",
+                  "note": "After *je pense que* there is an ordinary indicative. The subjonctif comes only after the negative *je ne pense pas que*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il faut que je parte.",
+                  "en": "I have to leave."
+                },
+                {
+                  "fr": "Ma mère veut que je range ma chambre.",
+                  "en": "My mother wants me to tidy my room."
+                },
+                {
+                  "fr": "Je t'explique pour que tu comprennes.",
+                  "en": "I'm explaining so that you understand."
+                },
+                {
+                  "fr": "Il faut que nous soyons à l'heure.",
+                  "en": "We have to be on time."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-subjonctif-basics-01",
+          "type": "cloze",
+          "fr": "Il faut que tu ___ tes devoirs.",
+          "a": [
+            "fasses"
+          ],
+          "hint": "faire",
+          "en": "You have to do your homework."
+        },
+        {
+          "id": "g-subjonctif-basics-02",
+          "type": "cloze",
+          "fr": "Je veux que tu ___ là.",
+          "a": [
+            "sois"
+          ],
+          "hint": "être",
+          "en": "I want you to be there."
+        },
+        {
+          "id": "g-subjonctif-basics-03",
+          "type": "cloze",
+          "fr": "Il faut que nous ___.",
+          "a": [
+            "partions"
+          ],
+          "hint": "partir",
+          "en": "We have to leave."
+        },
+        {
+          "id": "g-subjonctif-basics-04",
+          "type": "cloze",
+          "fr": "Il faut que j'___ à la banque.",
+          "a": [
+            "aille"
+          ],
+          "hint": "aller",
+          "en": "I have to go to the bank."
+        },
+        {
+          "id": "g-subjonctif-basics-05",
+          "type": "form",
+          "verb": "finir",
+          "tense": "subjonctif-present",
+          "person": 0
+        }
+      ]
+    },
+    {
+      "id": "subjonctif-uses",
+      "title": "When to use the subjunctive",
+      "fr": "les emplois du subjonctif",
+      "level": "B1",
+      "keywords": [
+        "subjonctif",
+        "subjunctive",
+        "il faut que",
+        "vouloir que",
+        "je veux que",
+        "douter que",
+        "regretter que",
+        "je ne pense pas que",
+        "avant que",
+        "pour que",
+        "indicative or subjunctive",
+        "same subject infinitive",
+        "mood"
+      ],
+      "topics": [],
+      "see": [
+        "subjonctif-basics",
+        "subjonctif-conjunctions",
+        "necessity",
+        "verbs-a-de-inf",
+        "sj-01-forms"
+      ],
+      "tense": "subjonctif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The subjunctive is used in a **que-clause when the speaker's attitude comes first**: a **wish, an order, a feeling, a doubt, a judgement**. It is **not** used for facts you simply state. It also needs a **different subject** in the two parts; with the same subject French uses the **infinitive**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "after",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "wish, will: vouloir, souhaiter, préférer, exiger, demander que",
+                  "Je veux que tu viennes.",
+                  "I want you to come."
+                ],
+                [
+                  "necessity: il faut que, il est nécessaire que",
+                  "Il faut que je parte.",
+                  "I have to leave."
+                ],
+                [
+                  "feeling: être content que, avoir peur que, regretter que",
+                  "Je suis content que tu sois là.",
+                  "I'm glad you're here."
+                ],
+                [
+                  "doubt: douter que, il est possible que, il se peut que",
+                  "Il est possible qu'il pleuve.",
+                  "It may rain."
+                ],
+                [
+                  "judgement: il est important que, c'est dommage que",
+                  "C'est dommage qu'il soit absent.",
+                  "It's a pity he's absent."
+                ],
+                [
+                  "negative opinion: ne pas penser que, ne pas croire que",
+                  "Je ne pense pas qu'il vienne.",
+                  "I don't think he is coming."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Subjunctive or indicative?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "After verbs of **certainty and knowledge** (*penser que, croire que, savoir que, espérer que, il est certain que, il est vrai que, je trouve que*) in the affirmative use the **indicative**. After the **same verbs in the negative or in a question** with doubt use the subjunctive. *Espérer que* always takes the indicative."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I think he's coming.",
+                  "wrong": "Je pense qu'il vienne.",
+                  "fr": "Je pense qu'il [[vient]]."
+                },
+                {
+                  "en": "I don't think he's coming.",
+                  "wrong": "Je ne pense pas qu'il vient.",
+                  "fr": "Je ne pense pas qu'il [[vienne]]."
+                },
+                {
+                  "en": "I hope you'll come.",
+                  "wrong": "J'espère que tu viennes.",
+                  "fr": "J'espère que tu [[viendras]].",
+                  "note": "Always indicative; the future is common."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Infinitive when the subject is the same",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When the **subject does not change** use **verb + de + infinitive** or the verb alone, not a *que*-clause: *Je veux partir* (not *Je veux que je parte*). *Je suis content de venir.* *Il faut partir* (general) or *il faut que je parte* (I)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I want to leave.",
+                  "wrong": "Je veux que je parte.",
+                  "fr": "Je veux [[partir]]."
+                },
+                {
+                  "en": "I'm glad to be here.",
+                  "wrong": "Je suis content que je suis là.",
+                  "fr": "Je suis content [[d'être]] là."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The forms",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The present subjunctive is in the article about the subjunctive basics. The most important irregulars are *être* (**sois**), *avoir* (**aie**), *aller* (**aille**), *faire* (**fasse**), *pouvoir* (**puisse**), *savoir* (**sache**), *vouloir* (**veuille**)."
+            },
+            {
+              "type": "table",
+              "verb": "faire",
+              "tense": "subjonctif-present"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je voudrais que tu m'aides.",
+                  "en": "I'd like you to help me."
+                },
+                {
+                  "fr": "Il faut que nous partions à huit heures.",
+                  "en": "We have to leave at eight."
+                },
+                {
+                  "fr": "Je doute qu'il sache la réponse.",
+                  "en": "I doubt that he knows the answer."
+                },
+                {
+                  "fr": "Elle est contente que tu sois venu.",
+                  "en": "She is glad that you came."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-subjonctif-uses-01",
+          "type": "build",
+          "en": "I want you to come.",
+          "a": [
+            "Je veux que tu viennes."
+          ]
+        },
+        {
+          "id": "g-subjonctif-uses-02",
+          "type": "build",
+          "en": "I have to leave.",
+          "a": [
+            "Il faut que je parte."
+          ]
+        },
+        {
+          "id": "g-subjonctif-uses-03",
+          "type": "build",
+          "en": "It's a pity he's absent.",
+          "a": [
+            "C'est dommage qu'il soit absent."
+          ]
+        },
+        {
+          "id": "g-subjonctif-uses-04",
+          "type": "build",
+          "en": "I don't think he is coming.",
+          "a": [
+            "Je ne pense pas qu'il vienne.",
+            "Je ne crois pas qu'il vienne."
+          ]
+        },
+        {
+          "id": "g-subjonctif-uses-05",
+          "type": "build",
+          "en": "I'd like you to help me.",
+          "a": [
+            "Je voudrais que tu m'aides."
+          ]
+        },
+        {
+          "id": "g-subjonctif-uses-06",
+          "type": "cloze",
+          "fr": "Je veux que tu ___.",
+          "a": [
+            "viennes"
+          ],
+          "hint": "venir",
+          "en": "I want you to come."
+        },
+        {
+          "id": "g-subjonctif-uses-07",
+          "type": "cloze",
+          "fr": "Il faut que nous ___ à huit heures.",
+          "a": [
+            "partions"
+          ],
+          "hint": "partir",
+          "en": "We have to leave at eight."
+        },
+        {
+          "id": "g-subjonctif-uses-08",
+          "type": "cloze",
+          "fr": "Je pense qu'il ___.",
+          "a": [
+            "vient"
+          ],
+          "hint": "venir",
+          "en": "I think he's coming."
+        },
+        {
+          "id": "g-subjonctif-uses-09",
+          "type": "cloze",
+          "fr": "Je ne pense pas qu'il ___.",
+          "a": [
+            "vienne"
+          ],
+          "hint": "venir",
+          "en": "I don't think he's coming."
+        },
+        {
+          "id": "g-subjonctif-uses-10",
+          "type": "cloze",
+          "fr": "Je suis content que tu ___ là.",
+          "a": [
+            "sois"
+          ],
+          "hint": "être",
+          "en": "I'm glad you're here."
+        }
+      ]
+    },
+    {
+      "id": "subjonctif-conjunctions",
+      "title": "Conjunctions with the subjunctive: pour que, bien que, avant que",
+      "fr": "les conjonctions + subjonctif",
+      "level": "B1",
+      "keywords": [
+        "conjunctions subjunctive",
+        "pour que",
+        "afin que",
+        "bien que",
+        "quoique",
+        "avant que",
+        "jusqu'à ce que",
+        "à condition que",
+        "pourvu que",
+        "à moins que",
+        "sans que",
+        "de peur que",
+        "en attendant que",
+        "après que",
+        "indicative"
+      ],
+      "topics": [],
+      "see": [
+        "subjonctif-basics",
+        "subjonctif-uses",
+        "purpose",
+        "contrast-concession",
+        "time-connectors",
+        "sj-05-conjunctions"
+      ],
+      "tense": "subjonctif-present",
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Some conjunctions **always** take the subjunctive, others **always** take the indicative. Learn them as two lists. If both clauses have the **same subject**, use a preposition + infinitive instead (*avant de, pour, sans, à condition de*)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "subjunctive",
+                "meaning",
+                "indicative",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "pour que, afin que",
+                  "so that",
+                  "parce que, car, puisque",
+                  "because, since"
+                ],
+                [
+                  "bien que, quoique",
+                  "although",
+                  "pendant que, alors que",
+                  "while, whereas"
+                ],
+                [
+                  "avant que",
+                  "before",
+                  "après que, dès que, quand",
+                  "after, as soon as, when"
+                ],
+                [
+                  "jusqu'à ce que",
+                  "until",
+                  "depuis que",
+                  "since"
+                ],
+                [
+                  "à condition que, pourvu que",
+                  "provided that",
+                  "si, même si",
+                  "if, even if"
+                ],
+                [
+                  "à moins que",
+                  "unless",
+                  "comme, tandis que",
+                  "as, whereas"
+                ],
+                [
+                  "sans que",
+                  "without",
+                  "de sorte que (result)",
+                  "so that"
+                ],
+                [
+                  "de peur que",
+                  "for fear that",
+                  "tellement... que",
+                  "so... that"
+                ]
+              ],
+              "textCols": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Some typical sentences",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je te prête mon livre à condition que tu me le rendes.",
+                  "en": "I'll lend you my book provided that you give it back."
+                },
+                {
+                  "fr": "Il est sorti sans que personne le voie.",
+                  "en": "He went out without anyone seeing him."
+                },
+                {
+                  "fr": "Reste ici jusqu'à ce que je revienne.",
+                  "en": "Stay here until I come back."
+                },
+                {
+                  "fr": "Je ne sortirai pas à moins qu'il fasse beau.",
+                  "en": "I won't go out unless the weather is fine."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "**Après que** is followed by the **indicative** (the action is already a fact): *Après qu'il est parti, j'ai pleuré.* Many French speakers wrongly use the subjunctive, but the indicative is the rule."
+            }
+          ]
+        },
+        {
+          "title": "Same subject: infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With the same subject: *avant de partir, pour réussir, sans dire, à condition de venir*. With different subjects: *avant que tu partes, pour que je réussisse, sans que tu dises, à condition que tu viennes*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Before leaving I call.",
+                  "wrong": "Avant que je parte, j'appelle.",
+                  "fr": "[[Avant de partir]], j'appelle."
+                },
+                {
+                  "en": "Before you leave, call me.",
+                  "wrong": "Avant de partir tu, appelle-moi.",
+                  "fr": "[[Avant que tu partes]], appelle-moi."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Bien qu'il pleuve, nous sortons.",
+                  "en": "Although it's raining we're going out."
+                },
+                {
+                  "fr": "J'ouvre la fenêtre pour que l'air entre.",
+                  "en": "I'm opening the window so that the air comes in."
+                },
+                {
+                  "fr": "Dépêche-toi avant qu'il soit trop tard.",
+                  "en": "Hurry up before it's too late."
+                },
+                {
+                  "fr": "J'attends jusqu'à ce que tu finisses.",
+                  "en": "I'll wait until you finish."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-subjonctif-conjunctions-01",
+          "type": "build",
+          "en": "Although it's raining, we're going out.",
+          "a": [
+            "Bien qu'il pleuve, nous sortons.",
+            "Bien qu'il pleuve, on sort."
+          ]
+        },
+        {
+          "id": "g-subjonctif-conjunctions-02",
+          "type": "build",
+          "en": "Hurry up before it's too late.",
+          "a": [
+            "Dépêche-toi avant qu'il soit trop tard.",
+            "Dépêchez-vous avant qu'il soit trop tard."
+          ]
+        },
+        {
+          "id": "g-subjonctif-conjunctions-03",
+          "type": "build",
+          "en": "Wait here until I come back.",
+          "a": [
+            "Attends ici jusqu'à ce que je revienne.",
+            "Reste ici jusqu'à ce que je revienne."
+          ]
+        },
+        {
+          "id": "g-subjonctif-conjunctions-04",
+          "type": "build",
+          "en": "I'm opening the window so that the air comes in.",
+          "a": [
+            "J'ouvre la fenêtre pour que l'air entre."
+          ]
+        },
+        {
+          "id": "g-subjonctif-conjunctions-05",
+          "type": "cloze",
+          "fr": "Bien qu'il ___ fatigué, il travaille.",
+          "a": [
+            "soit"
+          ],
+          "hint": "être",
+          "en": "Although he is tired, he works."
+        },
+        {
+          "id": "g-subjonctif-conjunctions-06",
+          "type": "cloze",
+          "fr": "Avant que tu ___, appelle-moi.",
+          "a": [
+            "partes"
+          ],
+          "hint": "partir",
+          "en": "Before you leave, call me."
+        },
+        {
+          "id": "g-subjonctif-conjunctions-07",
+          "type": "cloze",
+          "fr": "Je viendrai à condition que tu ___ là.",
+          "a": [
+            "sois"
+          ],
+          "hint": "être",
+          "en": "I'll come provided you're there."
+        },
+        {
+          "id": "g-subjonctif-conjunctions-08",
+          "type": "cloze",
+          "fr": "Il parle parce qu'il ___ envie.",
+          "a": [
+            "a"
+          ],
+          "hint": "avoir",
+          "en": "He talks because he feels like it."
+        }
+      ]
+    },
+    {
+      "id": "gerondif",
+      "title": "The gérondif",
+      "fr": "le gérondif",
+      "level": "B1",
+      "keywords": [
+        "gérondif",
+        "en + -ant",
+        "en faisant",
+        "en mangeant",
+        "present participle",
+        "while",
+        "by doing",
+        "gerund"
+      ],
+      "topics": [],
+      "see": [
+        "complex-sentences",
+        "present"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The *gérondif* is *en* + a form in *-ant*. It says that two things happen **at the same time**, or **how** something is done. The subject must be the same for both actions."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I watch TV while eating.",
+                  "fr": "Je regarde la télé [[en mangeant]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Formation",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Take the *nous* form of the present tense and replace *-ons* with *-ant*: *nous faisons → en faisant*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "nous",
+                "gérondif"
+              ],
+              "rows": [
+                [
+                  "nous parlons",
+                  "en parlant"
+                ],
+                [
+                  "nous finissons",
+                  "en finissant"
+                ],
+                [
+                  "nous faisons",
+                  "en faisant"
+                ],
+                [
+                  "nous mangeons",
+                  "en mangeant"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "Exceptions: *être → en étant, avoir → en ayant, savoir → en sachant*."
+            }
+          ]
+        },
+        {
+          "title": "When",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "meaning",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "at the same time",
+                  "Il chante en se douchant.",
+                  "He sings while taking a shower."
+                ],
+                [
+                  "how, by what means",
+                  "On apprend en pratiquant.",
+                  "You learn by practising."
+                ],
+                [
+                  "condition",
+                  "En travaillant plus, tu réussiras.",
+                  "If you work more, you'll succeed."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I saw Paul as I was leaving school.",
+                  "fr": "J'ai vu Paul [[en sortant]] du collège.",
+                  "note": "**I** was leaving school. The subject of the gérondif is the same as the subject of the sentence."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'écoute de la musique en faisant mes devoirs.",
+                  "en": "I listen to music while doing my homework."
+                },
+                {
+                  "fr": "Elle est tombée en courant.",
+                  "en": "She fell while running."
+                },
+                {
+                  "fr": "C'est en forgeant qu'on devient forgeron.",
+                  "en": "Practice makes perfect."
+                },
+                {
+                  "fr": "En arrivant, j'ai téléphoné à ma mère.",
+                  "en": "On arriving, I phoned my mother."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-gerondif-01",
+          "type": "cloze",
+          "fr": "Je mange ___ regardant la télé.",
+          "a": [
+            "en"
+          ],
+          "en": "I eat while watching TV."
+        },
+        {
+          "id": "g-gerondif-02",
+          "type": "transform",
+          "task_en": "Join the sentences with a gérondif",
+          "fr": "Je fais mes devoirs. J'écoute de la musique.",
+          "a": [
+            "Je fais mes devoirs en écoutant de la musique.",
+            "J'écoute de la musique en faisant mes devoirs."
+          ]
+        },
+        {
+          "id": "g-gerondif-03",
+          "type": "cloze",
+          "fr": "Il s'est fait mal en ___ au foot.",
+          "a": [
+            "jouant"
+          ],
+          "en": "He hurt himself playing football."
+        },
+        {
+          "id": "g-gerondif-04",
+          "type": "cloze",
+          "fr": "On apprend en ___ des fautes.",
+          "a": [
+            "faisant"
+          ],
+          "en": "You learn by making mistakes."
+        }
+      ]
+    }
+  ]
+}

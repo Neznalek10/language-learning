@@ -1,0 +1,7018 @@
+{
+  "schema": 1,
+  "lang": "fr",
+  "items": [
+    {
+      "id": "tr-1_1-01",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "My name is Hugo and I'm fifteen.",
+      "a": [
+        "Je m'appelle Hugo et j'ai quinze ans."
+      ],
+      "tags": [
+        "reflexive-verbs"
+      ]
+    },
+    {
+      "id": "tr-1_1-02",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "Nice to meet you.",
+      "a": [
+        "{Enchanté|Enchantée}.",
+        "Je suis {enchanté|enchantée}."
+      ]
+    },
+    {
+      "id": "tr-1_1-03",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "I'm Marie.",
+      "a": [
+        "Je suis Marie.",
+        "Moi, je suis Marie.",
+        "Moi, c'est Marie."
+      ],
+      "tags": [
+        "irregular-core"
+      ]
+    },
+    {
+      "id": "tr-1_1-04",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "Are you Czech? (tu)",
+      "a": [
+        "Tu es tchèque ?",
+        "Est-ce que tu es tchèque ?",
+        "Es-tu tchèque ?"
+      ],
+      "tags": [
+        "irregular-core"
+      ]
+    },
+    {
+      "id": "tr-1_1-05",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "He's very nice.",
+      "a": [
+        "Il est très gentil.",
+        "Il est très sympa."
+      ],
+      "tags": [
+        "adj-agreement"
+      ]
+    },
+    {
+      "id": "tr-1_1-06",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "We're friends.",
+      "a": [
+        "Nous sommes amis.",
+        "Nous sommes des amis.",
+        "On est amis.",
+        "On est des amis."
+      ]
+    },
+    {
+      "id": "tr-1_1-07",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "They're at school.",
+      "a": [
+        "Ils sont à l'école.",
+        "Ils sont au collège.",
+        "Ils sont au lycée."
+      ]
+    },
+    {
+      "id": "tr-1_1-08",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "Good morning, Mrs Dubois!",
+      "a": [
+        "Bonjour, madame Dubois !"
+      ]
+    },
+    {
+      "id": "tr-1_1-09",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "Goodbye, see you tomorrow!",
+      "a": [
+        "Au revoir, à demain !",
+        "Au revoir, on se voit demain !",
+        "Au revoir, nous nous voyons demain !"
+      ]
+    },
+    {
+      "id": "tr-1_1-10",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "Thank you, that's very kind.",
+      "a": [
+        "Merci, c'est très gentil.",
+        "Merci, c'est très beau.",
+        "Merci, c'est très joli."
+      ]
+    },
+    {
+      "id": "tr-1_1-11",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "Here you are, this is for you. (tu)",
+      "a": [
+        "S'il te plaît, c'est pour toi.",
+        "Tiens, c'est pour toi.",
+        "Voilà, c'est pour toi.",
+        "Je t'en prie, c'est pour toi."
+      ]
+    },
+    {
+      "id": "tr-1_1-12",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "You're my teacher. (vous)",
+      "a": [
+        "Vous êtes mon professeur.",
+        "Vous êtes mon prof."
+      ],
+      "tags": [
+        "tu-vous"
+      ]
+    },
+    {
+      "id": "tr-1_1-13",
+      "level": "A1",
+      "unit": "1.1",
+      "en": "Who is it? It's my brother.",
+      "a": [
+        "Qui est-ce ? C'est mon frère.",
+        "C'est qui ? C'est mon frère."
+      ],
+      "tags": [
+        "c-est-il-est"
+      ]
+    },
+    {
+      "id": "tr-1_2-01",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "I'm fifteen.",
+      "a": [
+        "J'ai quinze ans."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-1_2-02",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "How old are you? (tu)",
+      "a": [
+        "Quel âge as-tu ?",
+        "Tu as quel âge ?",
+        "Quel âge est-ce que tu as ?"
+      ],
+      "tags": [
+        "question-types"
+      ]
+    },
+    {
+      "id": "tr-1_2-03",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "I come from the Czech Republic.",
+      "a": [
+        "Je viens de République tchèque.",
+        "Je viens de la République tchèque.",
+        "Je suis de République tchèque.",
+        "Je suis de la République tchèque."
+      ],
+      "tags": [
+        "cities-countries"
+      ]
+    },
+    {
+      "id": "tr-1_2-04",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "Where are you from? (tu)",
+      "a": [
+        "Tu viens d'où ?",
+        "D'où viens-tu ?",
+        "D'où est-ce que tu viens ?",
+        "D'où tu viens ?",
+        "Tu es d'où ?"
+      ],
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tr-1_2-05",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "He lives in Italy.",
+      "a": [
+        "Il habite en Italie."
+      ],
+      "tags": [
+        "cities-countries"
+      ]
+    },
+    {
+      "id": "tr-1_2-06",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "My sister is from Germany.",
+      "a": [
+        "Ma sœur vient d'Allemagne.",
+        "Ma sœur est d'Allemagne."
+      ],
+      "tags": [
+        "cities-countries"
+      ]
+    },
+    {
+      "id": "tr-1_2-07",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "I speak Czech and English.",
+      "a": [
+        "Je parle tchèque et anglais."
+      ],
+      "tags": [
+        "er-verbs"
+      ]
+    },
+    {
+      "id": "tr-1_2-08",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "My phone number is 06 12 34 56 78.",
+      "a": [
+        "Mon téléphone, c'est le 06 12 34 56 78.",
+        "Mon numéro de téléphone est le 06 12 34 56 78.",
+        "Mon numéro est le 06 12 34 56 78."
+      ],
+      "tags": [
+        "numbers-0-69"
+      ]
+    },
+    {
+      "id": "tr-1_2-09",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "We have two dogs and three cats.",
+      "a": [
+        "Nous avons deux chiens et trois chats.",
+        "On a deux chiens et trois chats."
+      ],
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "id": "tr-1_2-10",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "They're American.",
+      "a": [
+        "Ils sont américains."
+      ],
+      "tags": [
+        "adj-agreement"
+      ]
+    },
+    {
+      "id": "tr-1_2-11",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "Are you Spanish? (tu, to a girl)",
+      "a": [
+        "Tu es espagnole ?",
+        "Est-ce que tu es espagnole ?",
+        "Es-tu espagnole ?"
+      ],
+      "tags": [
+        "adj-agreement"
+      ]
+    },
+    {
+      "id": "tr-1_2-12",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "We live in a small town.",
+      "a": [
+        "Nous habitons dans une petite ville.",
+        "On habite dans une petite ville.",
+        "Nous habitons une petite ville."
+      ],
+      "tags": [
+        "adj-position"
+      ]
+    },
+    {
+      "id": "tr-1_2-13",
+      "level": "A1",
+      "unit": "1.2",
+      "en": "They're sixteen and seventeen.",
+      "a": [
+        "Ils ont seize et dix-sept ans."
+      ],
+      "tags": [
+        "numbers-0-69"
+      ]
+    },
+    {
+      "id": "tr-2_1-01",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "That's my mum.",
+      "a": [
+        "C'est ma mère.",
+        "Voici ma mère."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-2_1-02",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "This is my father and this is my sister.",
+      "a": [
+        "Voici mon père et voici ma sœur.",
+        "C'est mon père et c'est ma sœur."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-2_1-03",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "I have two brothers.",
+      "a": [
+        "J'ai deux frères."
+      ],
+      "tags": [
+        "plural"
+      ]
+    },
+    {
+      "id": "tr-2_1-04",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "My grandmother lives in Prague.",
+      "a": [
+        "Ma grand-mère habite à Prague.",
+        "Ma grand-mère vit à Prague."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-2_1-05",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "His parents are at home.",
+      "a": [
+        "Ses parents sont à la maison.",
+        "Ses parents sont chez eux."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-2_1-06",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "Our cat is black.",
+      "a": [
+        "Notre chat est noir.",
+        "Notre chatte est noire."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-2_1-07",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "Your children are big. (vous)",
+      "a": [
+        "Vos enfants sont grands."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-2_1-08",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "Her brother's name is Tom.",
+      "a": [
+        "Son frère s'appelle Tom."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-2_1-09",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "I have a dog. His name is Rex.",
+      "a": [
+        "J'ai un chien. Il s'appelle Rex."
+      ],
+      "tags": [
+        "article-indefinite"
+      ]
+    },
+    {
+      "id": "tr-2_1-10",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "Do you have any brothers or sisters? (tu)",
+      "a": [
+        "Tu as des frères et sœurs ?",
+        "Est-ce que tu as des frères et sœurs ?",
+        "As-tu des frères et sœurs ?"
+      ],
+      "tags": [
+        "question-types"
+      ]
+    },
+    {
+      "id": "tr-2_1-11",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "My uncle is a doctor.",
+      "a": [
+        "Mon oncle est médecin."
+      ],
+      "tags": [
+        "no-article"
+      ]
+    },
+    {
+      "id": "tr-2_1-12",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "My aunt works in a hospital.",
+      "a": [
+        "Ma tante travaille à l'hôpital.",
+        "Ma tante travaille dans un hôpital."
+      ],
+      "tags": [
+        "er-verbs"
+      ]
+    },
+    {
+      "id": "tr-2_1-13",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "Their house is big.",
+      "a": [
+        "Leur maison est grande."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-2_1-14",
+      "level": "A1",
+      "unit": "2.1",
+      "en": "She's my best friend.",
+      "a": [
+        "C'est ma meilleure amie.",
+        "Elle est ma meilleure amie."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-2_2-01",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "My sister is tall and pretty.",
+      "a": [
+        "Ma sœur est grande et belle.",
+        "Ma sœur est grande et jolie."
+      ],
+      "tags": [
+        "adj-agreement"
+      ]
+    },
+    {
+      "id": "tr-2_2-02",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "My brother has brown eyes.",
+      "a": [
+        "Mon frère a les yeux marron.",
+        "Mon frère a les yeux bruns."
+      ],
+      "tags": [
+        "colors"
+      ]
+    },
+    {
+      "id": "tr-2_2-03",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "She has long black hair.",
+      "a": [
+        "Elle a les cheveux longs et noirs.",
+        "Elle a de longs cheveux noirs."
+      ],
+      "tags": [
+        "adj-position"
+      ]
+    },
+    {
+      "id": "tr-2_2-04",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "He's small and slim.",
+      "a": [
+        "Il est petit et mince."
+      ],
+      "tags": [
+        "adj-agreement"
+      ]
+    },
+    {
+      "id": "tr-2_2-05",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "My friend (a girl) is very nice.",
+      "a": [
+        "Mon amie est très sympa.",
+        "Mon amie est très sympathique.",
+        "Ma copine est très sympa.",
+        "Ma copine est très sympathique.",
+        "Mon amie est très gentille."
+      ],
+      "tags": [
+        "adj-agreement"
+      ]
+    },
+    {
+      "id": "tr-2_2-06",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "I have a new red bag.",
+      "a": [
+        "J'ai un nouveau sac rouge.",
+        "J'ai un sac rouge neuf."
+      ],
+      "tags": [
+        "beau-nouveau-vieux"
+      ]
+    },
+    {
+      "id": "tr-2_2-07",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "They're cheerful.",
+      "a": [
+        "Ils sont joyeux.",
+        "Ils sont drôles.",
+        "Ils sont gais."
+      ],
+      "tags": [
+        "adj-forms"
+      ]
+    },
+    {
+      "id": "tr-2_2-08",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "She isn't sad.",
+      "a": [
+        "Elle n'est pas triste."
+      ],
+      "tags": [
+        "ne-pas"
+      ]
+    },
+    {
+      "id": "tr-2_2-09",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "My parents aren't old.",
+      "a": [
+        "Mes parents ne sont pas vieux.",
+        "Mes parents ne sont pas âgés."
+      ],
+      "tags": [
+        "ne-pas"
+      ]
+    },
+    {
+      "id": "tr-2_2-10",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "You have a blue T-shirt. (tu)",
+      "a": [
+        "Tu as un t-shirt bleu.",
+        "Tu as un tee-shirt bleu."
+      ],
+      "tags": [
+        "colors"
+      ]
+    },
+    {
+      "id": "tr-2_2-11",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "Those shoes are white.",
+      "a": [
+        "Ces chaussures sont blanches."
+      ],
+      "tags": [
+        "colors"
+      ]
+    },
+    {
+      "id": "tr-2_2-12",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "That boy is blond.",
+      "a": [
+        "Ce garçon est blond."
+      ],
+      "tags": [
+        "adj-agreement"
+      ]
+    },
+    {
+      "id": "tr-2_2-13",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "That girl is pretty.",
+      "a": [
+        "Cette fille est jolie.",
+        "Cette fille est belle."
+      ],
+      "tags": [
+        "demonstratives"
+      ]
+    },
+    {
+      "id": "tr-2_2-14",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "I don't like the colour green.",
+      "a": [
+        "Je n'aime pas la couleur verte.",
+        "Je n'aime pas le vert."
+      ],
+      "tags": [
+        "colors"
+      ]
+    },
+    {
+      "id": "tr-2_2-15",
+      "level": "A1",
+      "unit": "2.2",
+      "en": "My grandfather is old but cheerful.",
+      "a": [
+        "Mon grand-père est vieux, mais joyeux.",
+        "Mon grand-père est vieux mais gai."
+      ],
+      "tags": [
+        "adj-forms"
+      ]
+    },
+    {
+      "id": "tr-3-01",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "I like playing football.",
+      "a": [
+        "J'aime jouer au football.",
+        "J'aime jouer au foot.",
+        "J'aime le football.",
+        "J'aime le foot."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-3-02",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "I play the guitar.",
+      "a": [
+        "Je joue de la guitare."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-3-03",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "My sister likes dancing.",
+      "a": [
+        "Ma sœur aime danser.",
+        "Ma sœur adore danser."
+      ],
+      "tags": [
+        "er-verbs"
+      ]
+    },
+    {
+      "id": "tr-3-04",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "We're listening to music.",
+      "a": [
+        "Nous écoutons de la musique.",
+        "Nous écoutons la musique.",
+        "On écoute de la musique.",
+        "On écoute la musique."
+      ],
+      "tags": [
+        "er-verbs"
+      ]
+    },
+    {
+      "id": "tr-3-05",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "What do you like doing in your free time? (tu)",
+      "a": [
+        "Qu'est-ce que tu aimes faire pendant ton temps libre ?",
+        "Qu'est-ce que tu aimes faire à ton temps libre ?",
+        "Qu'est-ce que tu aimes faire dans ton temps libre ?",
+        "Que fais-tu pendant ton temps libre ?",
+        "Qu'est-ce que tu fais pendant ton temps libre ?"
+      ],
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tr-3-06",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "Do you play tennis? (tu)",
+      "a": [
+        "Tu joues au tennis ?",
+        "Est-ce que tu joues au tennis ?",
+        "Joues-tu au tennis ?"
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-3-07",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "I hate vegetables.",
+      "a": [
+        "Je déteste les légumes."
+      ],
+      "tags": [
+        "article-definite"
+      ]
+    },
+    {
+      "id": "tr-3-08",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "I train twice a week.",
+      "a": [
+        "Je m'entraîne deux fois par semaine."
+      ],
+      "tags": [
+        "frequency"
+      ]
+    },
+    {
+      "id": "tr-3-09",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "I often watch films.",
+      "a": [
+        "Je regarde souvent des films.",
+        "Je regarde souvent les films."
+      ],
+      "tags": [
+        "frequency"
+      ]
+    },
+    {
+      "id": "tr-3-10",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "I never play computer games.",
+      "a": [
+        "Je ne joue jamais aux jeux vidéo.",
+        "Je ne joue jamais à des jeux vidéo."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-3-11",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "I swim every day.",
+      "a": [
+        "Je nage tous les jours.",
+        "Je nage chaque jour."
+      ],
+      "tags": [
+        "er-spelling"
+      ]
+    },
+    {
+      "id": "tr-3-12",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "We play basketball on Fridays.",
+      "a": [
+        "Nous jouons au basket le vendredi.",
+        "On joue au basket le vendredi.",
+        "Nous jouons au basket vendredi."
+      ],
+      "tags": [
+        "dates"
+      ]
+    },
+    {
+      "id": "tr-3-13",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "When do you have training? (tu)",
+      "a": [
+        "Quand est-ce que tu as entraînement ?",
+        "Tu as entraînement quand ?",
+        "Quand as-tu entraînement ?",
+        "Quand est-ce que tu as ton entraînement ?",
+        "Quand est ton entraînement ?"
+      ],
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tr-3-14",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "Why don't you do any sport? (tu)",
+      "a": [
+        "Pourquoi tu ne fais pas de sport ?",
+        "Pourquoi est-ce que tu ne fais pas de sport ?",
+        "Pourquoi ne fais-tu pas de sport ?"
+      ],
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tr-3-15",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "My brother sings and I play the guitar.",
+      "a": [
+        "Mon frère chante et je joue de la guitare.",
+        "Mon frère chante et moi, je joue de la guitare."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-3-16",
+      "level": "A1",
+      "unit": "2.3",
+      "en": "Who plays the piano?",
+      "a": [
+        "Qui joue du piano ?",
+        "Qui est-ce qui joue du piano ?"
+      ],
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tr-4_1-01",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "I go to school by bus.",
+      "a": [
+        "Je vais à l'école en bus.",
+        "Je vais au collège en bus.",
+        "Je vais au lycée en bus.",
+        "Je prends le bus pour aller à l'école."
+      ],
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "tr-4_1-02",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "School starts at eight o'clock.",
+      "a": [
+        "L'école commence à huit heures.",
+        "Les cours commencent à huit heures."
+      ],
+      "tags": [
+        "clock"
+      ]
+    },
+    {
+      "id": "tr-4_1-03",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "On Mondays I have maths.",
+      "a": [
+        "Le lundi, j'ai maths.",
+        "Le lundi, j'ai mathématiques.",
+        "Le lundi, j'ai des maths.",
+        "Lundi, j'ai maths.",
+        "Lundi, j'ai mathématiques."
+      ],
+      "tags": [
+        "dates"
+      ]
+    },
+    {
+      "id": "tr-4_1-04",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "I like history, but I don't like chemistry.",
+      "a": [
+        "J'aime l'histoire, mais je n'aime pas la chimie."
+      ],
+      "tags": [
+        "article-definite"
+      ]
+    },
+    {
+      "id": "tr-4_1-05",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "Our teacher is very strict.",
+      "a": [
+        "Notre professeur est très sévère.",
+        "Notre prof est très sévère.",
+        "Notre professeure est très sévère.",
+        "Notre maîtresse est très sévère."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-4_1-06",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "What time is it? It's half past one.",
+      "a": [
+        "Quelle heure est-il ? Il est une heure et demie.",
+        "Il est quelle heure ? Il est une heure et demie."
+      ],
+      "tags": [
+        "clock"
+      ]
+    },
+    {
+      "id": "tr-4_1-07",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "At break we eat a snack.",
+      "a": [
+        "À la récréation, nous mangeons un goûter.",
+        "À la récré, nous mangeons un goûter.",
+        "Pendant la récréation, nous mangeons un goûter.",
+        "À la récréation, on mange un goûter.",
+        "Pendant la récréation, on mange un goûter."
+      ],
+      "tags": [
+        "er-spelling"
+      ]
+    },
+    {
+      "id": "tr-4_1-08",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "I'm going to the library.",
+      "a": [
+        "Je vais à la bibliothèque."
+      ],
+      "tags": [
+        "contractions"
+      ]
+    },
+    {
+      "id": "tr-4_1-09",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "We're going to the gym.",
+      "a": [
+        "Nous allons au gymnase.",
+        "On va au gymnase.",
+        "Nous allons dans le gymnase.",
+        "On va dans le gymnase."
+      ],
+      "tags": [
+        "contractions"
+      ]
+    },
+    {
+      "id": "tr-4_1-10",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "Do you have an exercise book and a pen? (tu)",
+      "a": [
+        "Tu as un cahier et un stylo ?",
+        "Est-ce que tu as un cahier et un stylo ?",
+        "As-tu un cahier et un stylo ?"
+      ],
+      "tags": [
+        "question-types"
+      ]
+    },
+    {
+      "id": "tr-4_1-11",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "Today I have five lessons.",
+      "a": [
+        "Aujourd'hui, j'ai cinq heures de cours.",
+        "Aujourd'hui, j'ai cinq cours."
+      ],
+      "tags": [
+        "numbers-0-69"
+      ]
+    },
+    {
+      "id": "tr-4_1-12",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "In the afternoon we have PE.",
+      "a": [
+        "L'après-midi, nous avons sport.",
+        "L'après-midi, nous avons EPS.",
+        "L'après-midi, on a sport.",
+        "L'après-midi, on a EPS.",
+        "L'après-midi, nous avons gym.",
+        "L'après-midi, on a gym."
+      ],
+      "tags": [
+        "time-prepositions"
+      ]
+    },
+    {
+      "id": "tr-4_1-13",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "I finish at half past three.",
+      "a": [
+        "Je finis à trois heures et demie.",
+        "Je termine à trois heures et demie."
+      ],
+      "tags": [
+        "ir-verbs"
+      ]
+    },
+    {
+      "id": "tr-4_1-14",
+      "level": "A1",
+      "unit": "3.1",
+      "en": "We're learning English and French.",
+      "a": [
+        "Nous apprenons l'anglais et le français.",
+        "On apprend l'anglais et le français."
+      ],
+      "tags": [
+        "irregular-more"
+      ]
+    },
+    {
+      "id": "tr-4_2-01",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "Every morning I get up at seven o'clock.",
+      "a": [
+        "Tous les matins, je me lève à sept heures.",
+        "Chaque matin, je me lève à sept heures."
+      ],
+      "tags": [
+        "reflexive-verbs"
+      ]
+    },
+    {
+      "id": "tr-4_2-02",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "I wash and get dressed.",
+      "a": [
+        "Je me lave et je m'habille."
+      ],
+      "tags": [
+        "reflexive-verbs"
+      ]
+    },
+    {
+      "id": "tr-4_2-03",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "I have breakfast at half past seven.",
+      "a": [
+        "Je prends mon petit-déjeuner à sept heures et demie.",
+        "Je prends le petit-déjeuner à sept heures et demie."
+      ],
+      "tags": [
+        "irregular-more"
+      ]
+    },
+    {
+      "id": "tr-4_2-04",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "First I have a shower, then I have breakfast.",
+      "a": [
+        "D'abord, je me douche, ensuite, je prends mon petit-déjeuner.",
+        "D'abord, je me douche, puis je prends mon petit-déjeuner.",
+        "D'abord, je me douche, ensuite je prends mon petit-déjeuner.",
+        "D'abord je me douche, puis je prends mon petit-déjeuner."
+      ],
+      "tags": [
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "tr-4_2-05",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "In the evening I watch TV.",
+      "a": [
+        "Le soir, je regarde la télé.",
+        "Le soir, je regarde la télévision."
+      ],
+      "tags": [
+        "er-verbs"
+      ]
+    },
+    {
+      "id": "tr-4_2-06",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "I go to bed at ten o'clock.",
+      "a": [
+        "Je me couche à dix heures.",
+        "Je vais au lit à dix heures.",
+        "Je vais me coucher à dix heures."
+      ],
+      "tags": [
+        "reflexive-verbs"
+      ]
+    },
+    {
+      "id": "tr-4_2-07",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "My brother doesn't like washing.",
+      "a": [
+        "Mon frère n'aime pas se laver."
+      ],
+      "tags": [
+        "reflexive-verbs"
+      ]
+    },
+    {
+      "id": "tr-4_2-08",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "We don't get up early at the weekend.",
+      "a": [
+        "Nous ne nous levons pas tôt le week-end.",
+        "On ne se lève pas tôt le week-end.",
+        "Nous ne nous levons pas tôt pendant le week-end."
+      ],
+      "tags": [
+        "reflexive-verbs"
+      ]
+    },
+    {
+      "id": "tr-4_2-09",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "At noon I have lunch in the school canteen.",
+      "a": [
+        "À midi, je déjeune à la cantine.",
+        "À midi, je mange à la cantine.",
+        "Le midi, je déjeune à la cantine.",
+        "Le midi, je mange à la cantine."
+      ],
+      "tags": [
+        "er-verbs"
+      ]
+    },
+    {
+      "id": "tr-4_2-10",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "After school I do my homework.",
+      "a": [
+        "Après l'école, je fais mes devoirs.",
+        "Après les cours, je fais mes devoirs."
+      ],
+      "tags": [
+        "irregular-core"
+      ]
+    },
+    {
+      "id": "tr-4_2-11",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "Do you brush your teeth three times a day? (tu)",
+      "a": [
+        "Tu te brosses les dents trois fois par jour ?",
+        "Est-ce que tu te brosses les dents trois fois par jour ?",
+        "Te brosses-tu les dents trois fois par jour ?"
+      ],
+      "tags": [
+        "reflexive-verbs"
+      ]
+    },
+    {
+      "id": "tr-4_2-12",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "She wakes up early.",
+      "a": [
+        "Elle se réveille tôt."
+      ],
+      "tags": [
+        "reflexive-verbs"
+      ]
+    },
+    {
+      "id": "tr-4_2-13",
+      "level": "A1",
+      "unit": "3.2",
+      "en": "Are you getting up? It's already eight o'clock! (tu)",
+      "a": [
+        "Tu te lèves ? Il est déjà huit heures !",
+        "Tu te lèves ? Il est huit heures déjà !",
+        "Est-ce que tu te lèves ? Il est déjà huit heures !"
+      ],
+      "tags": [
+        "reflexive-verbs"
+      ]
+    },
+    {
+      "id": "tr-5_1-01",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "I'll have a coffee and a croissant.",
+      "a": [
+        "Je prends un café et un croissant.",
+        "Je voudrais un café et un croissant.",
+        "Je vais prendre un café et un croissant."
+      ],
+      "tags": [
+        "modals"
+      ]
+    },
+    {
+      "id": "tr-5_1-02",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "We're drinking water.",
+      "a": [
+        "Nous buvons de l'eau.",
+        "On boit de l'eau."
+      ],
+      "tags": [
+        "partitive"
+      ]
+    },
+    {
+      "id": "tr-5_1-03",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "I like chocolate.",
+      "a": [
+        "J'aime le chocolat.",
+        "J'adore le chocolat."
+      ],
+      "tags": [
+        "article-definite"
+      ]
+    },
+    {
+      "id": "tr-5_1-04",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "For breakfast I eat bread and butter.",
+      "a": [
+        "Au petit-déjeuner, je mange du pain avec du beurre.",
+        "Au petit-déjeuner, je mange du pain beurré.",
+        "Pour le petit-déjeuner, je mange du pain avec du beurre."
+      ],
+      "tags": [
+        "partitive"
+      ]
+    },
+    {
+      "id": "tr-5_1-05",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "I'd like a pizza.",
+      "a": [
+        "Je voudrais une pizza."
+      ],
+      "tags": [
+        "modals"
+      ]
+    },
+    {
+      "id": "tr-5_1-06",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "Do you have soup? (vous)",
+      "a": [
+        "Vous avez de la soupe ?",
+        "Avez-vous de la soupe ?",
+        "Est-ce que vous avez de la soupe ?",
+        "Vous avez une soupe ?"
+      ],
+      "tags": [
+        "partitive"
+      ]
+    },
+    {
+      "id": "tr-5_1-07",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "We're hungry and thirsty.",
+      "a": [
+        "Nous avons faim et soif.",
+        "On a faim et soif."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-5_1-08",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "Would you like some more vegetables? (tu)",
+      "a": [
+        "Tu veux encore des légumes ?",
+        "Tu prends encore des légumes ?",
+        "Est-ce que tu veux encore des légumes ?"
+      ],
+      "tags": [
+        "partitive"
+      ]
+    },
+    {
+      "id": "tr-5_1-09",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "I like eating fruit, especially apples.",
+      "a": [
+        "J'aime manger des fruits, surtout des pommes.",
+        "J'aime manger des fruits, surtout les pommes.",
+        "J'aime les fruits, surtout les pommes."
+      ],
+      "tags": [
+        "partitive"
+      ]
+    },
+    {
+      "id": "tr-5_1-10",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "I don't drink milk.",
+      "a": [
+        "Je ne bois pas de lait."
+      ],
+      "tags": [
+        "article-negation"
+      ]
+    },
+    {
+      "id": "tr-5_1-11",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "It's really good!",
+      "a": [
+        "C'est très bon !",
+        "C'est trop bon !",
+        "C'est délicieux !"
+      ],
+      "tags": [
+        "bon-bien"
+      ]
+    },
+    {
+      "id": "tr-5_1-12",
+      "level": "A1",
+      "unit": "4.1",
+      "en": "My favourite food is spaghetti.",
+      "a": [
+        "Mon plat préféré, ce sont les spaghettis.",
+        "Mon plat préféré, ce sont les spaghetti."
+      ],
+      "tags": [
+        "c-est-il-est"
+      ]
+    },
+    {
+      "id": "tr-5_2-01",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "I'd like a kilo of apples.",
+      "a": [
+        "Je voudrais un kilo de pommes."
+      ],
+      "tags": [
+        "quantities"
+      ]
+    },
+    {
+      "id": "tr-5_2-02",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "How much is it?",
+      "a": [
+        "Combien ça coûte ?",
+        "Ça coûte combien ?",
+        "C'est combien ?",
+        "Combien est-ce que ça coûte ?"
+      ],
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tr-5_2-03",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "It costs twelve euros.",
+      "a": [
+        "Ça coûte douze euros.",
+        "C'est douze euros.",
+        "Ça fait douze euros."
+      ],
+      "tags": [
+        "numbers-0-69"
+      ]
+    },
+    {
+      "id": "tr-5_2-04",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "I need a bottle of water and two baguettes.",
+      "a": [
+        "J'ai besoin d'une bouteille d'eau et de deux baguettes.",
+        "Il me faut une bouteille d'eau et deux baguettes.",
+        "Je voudrais une bouteille d'eau et deux baguettes."
+      ],
+      "tags": [
+        "quantities"
+      ]
+    },
+    {
+      "id": "tr-5_2-05",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "It's too expensive.",
+      "a": [
+        "C'est trop cher."
+      ],
+      "tags": [
+        "quantities"
+      ]
+    },
+    {
+      "id": "tr-5_2-06",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "Do you have a smaller size? (vous)",
+      "a": [
+        "Vous avez une taille plus petite ?",
+        "Avez-vous une taille plus petite ?",
+        "Vous avez une plus petite taille ?",
+        "Est-ce que vous avez une taille plus petite ?"
+      ],
+      "tags": [
+        "comparative"
+      ]
+    },
+    {
+      "id": "tr-5_2-07",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "We want to buy a present.",
+      "a": [
+        "Nous voulons acheter un cadeau.",
+        "On veut acheter un cadeau."
+      ],
+      "tags": [
+        "modals"
+      ]
+    },
+    {
+      "id": "tr-5_2-08",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "Two tickets, please.",
+      "a": [
+        "Deux billets, s'il vous plaît.",
+        "Deux tickets, s'il vous plaît."
+      ]
+    },
+    {
+      "id": "tr-5_2-09",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "How much is it altogether?",
+      "a": [
+        "Ça fait combien en tout ?",
+        "Ça fait combien ?",
+        "C'est combien en tout ?",
+        "Combien ça fait en tout ?",
+        "Ça fait combien au total ?"
+      ],
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tr-5_2-10",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "I'm paying cash.",
+      "a": [
+        "Je paie en espèces.",
+        "Je paie en liquide.",
+        "Je règle en espèces.",
+        "Je règle en liquide."
+      ],
+      "tags": [
+        "er-spelling"
+      ]
+    },
+    {
+      "id": "tr-5_2-11",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "Do you have anything cheaper? (vous)",
+      "a": [
+        "Vous avez quelque chose de moins cher ?",
+        "Avez-vous quelque chose de moins cher ?",
+        "Est-ce que vous avez quelque chose de moins cher ?"
+      ],
+      "tags": [
+        "indefinites"
+      ]
+    },
+    {
+      "id": "tr-5_2-12",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "I'd like three slices of ham.",
+      "a": [
+        "Je voudrais trois tranches de jambon.",
+        "Je veux trois tranches de jambon."
+      ],
+      "tags": [
+        "quantities"
+      ]
+    },
+    {
+      "id": "tr-5_2-13",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "The shop opens at nine o'clock.",
+      "a": [
+        "Le magasin ouvre à neuf heures."
+      ],
+      "tags": [
+        "clock"
+      ]
+    },
+    {
+      "id": "tr-5_2-14",
+      "level": "A1",
+      "unit": "4.2",
+      "en": "Here's your change.",
+      "a": [
+        "Voici la monnaie.",
+        "Voilà la monnaie.",
+        "Tenez, la monnaie."
+      ]
+    },
+    {
+      "id": "tr-6-01",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "I live in a flat on the third floor.",
+      "a": [
+        "J'habite dans un appartement au troisième étage.",
+        "J'habite un appartement au troisième étage."
+      ],
+      "tags": [
+        "ordinals"
+      ]
+    },
+    {
+      "id": "tr-6-02",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "Our house has four rooms.",
+      "a": [
+        "Notre maison a quatre pièces.",
+        "Notre maison a quatre chambres."
+      ],
+      "tags": [
+        "il-y-a"
+      ]
+    },
+    {
+      "id": "tr-6-03",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "In my room there's a bed and a table.",
+      "a": [
+        "Dans ma chambre, il y a un lit et un bureau.",
+        "Dans ma chambre, il y a un lit et une table.",
+        "Dans ma chambre il y a un lit et un bureau."
+      ],
+      "tags": [
+        "il-y-a"
+      ]
+    },
+    {
+      "id": "tr-6-04",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "The wardrobe is next to the window.",
+      "a": [
+        "L'armoire est à côté de la fenêtre.",
+        "L'armoire est près de la fenêtre."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tr-6-05",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "The book is on the table.",
+      "a": [
+        "Le livre est sur la table."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tr-6-06",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "The cat is under the bed.",
+      "a": [
+        "Le chat est sous le lit."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tr-6-07",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "The dog is in front of the house.",
+      "a": [
+        "Le chien est devant la maison."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tr-6-08",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "Behind the house there's a garden.",
+      "a": [
+        "Derrière la maison, il y a un jardin.",
+        "Derrière la maison il y a un jardin.",
+        "Il y a un jardin derrière la maison."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tr-6-09",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "My mum is cooking in the kitchen.",
+      "a": [
+        "Ma mère fait la cuisine dans la cuisine.",
+        "Ma mère cuisine dans la cuisine.",
+        "Maman fait la cuisine dans la cuisine."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-6-10",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "I help with the cleaning at home.",
+      "a": [
+        "J'aide à la maison avec le ménage.",
+        "J'aide à ranger la maison.",
+        "Je fais le ménage à la maison.",
+        "J'aide pour le ménage.",
+        "Je fais du ménage à la maison."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-6-11",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "I tidy my room every week.",
+      "a": [
+        "Je range ma chambre chaque semaine.",
+        "Je range ma chambre toutes les semaines.",
+        "Je nettoie ma chambre chaque semaine."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-6-12",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "I'll put the plates on the table.",
+      "a": [
+        "Je mets les assiettes sur la table.",
+        "Je mets les assiettes à table."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tr-6-13",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "Is there a lift in the house?",
+      "a": [
+        "Il y a un ascenseur dans la maison ?",
+        "Est-ce qu'il y a un ascenseur dans la maison ?",
+        "Y a-t-il un ascenseur dans la maison ?",
+        "Il y a un ascenseur dans l'immeuble ?",
+        "Est-ce qu'il y a un ascenseur dans l'immeuble ?",
+        "Y a-t-il un ascenseur dans l'immeuble ?"
+      ],
+      "tags": [
+        "il-y-a"
+      ]
+    },
+    {
+      "id": "tr-6-14",
+      "level": "A1",
+      "unit": "4.3",
+      "en": "Our bathroom is small but bright.",
+      "a": [
+        "Notre salle de bains est petite mais lumineuse.",
+        "Notre salle de bain est petite mais lumineuse.",
+        "Notre salle de bains est petite, mais claire.",
+        "Notre salle de bain est petite, mais claire."
+      ],
+      "tags": [
+        "adj-agreement"
+      ]
+    },
+    {
+      "id": "tr-7-01",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "Where's the station?",
+      "a": [
+        "Où est la gare ?",
+        "Où se trouve la gare ?",
+        "La gare est où ?"
+      ],
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tr-7-02",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "Go straight on and then right. (vous)",
+      "a": [
+        "Allez tout droit, puis tournez à droite.",
+        "Allez tout droit et puis tournez à droite.",
+        "Continuez tout droit, puis tournez à droite.",
+        "Allez tout droit puis tournez à droite."
+      ],
+      "tags": [
+        "imperative"
+      ]
+    },
+    {
+      "id": "tr-7-03",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "Take the first street on the left. (vous)",
+      "a": [
+        "Tournez dans la première rue à gauche.",
+        "Prenez la première rue à gauche.",
+        "Tournez à gauche dans la première rue."
+      ],
+      "tags": [
+        "imperative"
+      ]
+    },
+    {
+      "id": "tr-7-04",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "The post office is opposite the church.",
+      "a": [
+        "La poste est en face de l'église."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tr-7-05",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "Is it far? No, it's close.",
+      "a": [
+        "C'est loin ? Non, c'est près.",
+        "Est-ce que c'est loin ? Non, c'est près.",
+        "C'est loin ? Non, c'est tout près."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tr-7-06",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "I'm going into town by bus.",
+      "a": [
+        "Je vais au centre-ville en bus.",
+        "Je vais en ville en bus.",
+        "Je vais au centre en bus."
+      ],
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "tr-7-07",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "We're walking to the park.",
+      "a": [
+        "Nous allons au parc à pied.",
+        "On va au parc à pied."
+      ],
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "tr-7-08",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "Tomorrow I'm going to Prague by train.",
+      "a": [
+        "Demain, je vais aller à Prague en train.",
+        "Demain, je vais à Prague en train.",
+        "Demain je vais aller à Prague en train.",
+        "Demain, j'irai à Prague en train.",
+        "Demain, je prends le train pour Prague.",
+        "Je vais prendre le train pour Prague demain."
+      ],
+      "tags": [
+        "futur-proche"
+      ]
+    },
+    {
+      "id": "tr-7-09",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "What are you going to do on Saturday? (tu)",
+      "a": [
+        "Qu'est-ce que tu vas faire samedi ?",
+        "Qu'est-ce que tu fais samedi ?",
+        "Qu'est-ce que tu vas faire le samedi ?",
+        "Que vas-tu faire samedi ?"
+      ],
+      "tags": [
+        "futur-proche"
+      ]
+    },
+    {
+      "id": "tr-7-10",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "I'm going to play football with my friends.",
+      "a": [
+        "Je vais jouer au foot avec mes copains.",
+        "Je vais jouer au football avec mes amis.",
+        "Je vais jouer au foot avec mes amis.",
+        "Je vais jouer au football avec mes copains."
+      ],
+      "tags": [
+        "futur-proche"
+      ]
+    },
+    {
+      "id": "tr-7-11",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "Would you like to visit the museum? (vous)",
+      "a": [
+        "Vous voulez visiter le musée ?",
+        "Voulez-vous visiter le musée ?",
+        "Est-ce que vous voulez visiter le musée ?",
+        "Vous voulez voir le musée ?"
+      ],
+      "tags": [
+        "modals"
+      ]
+    },
+    {
+      "id": "tr-7-12",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "I'm getting off at the next stop.",
+      "a": [
+        "Je descends au prochain arrêt.",
+        "Je vais descendre au prochain arrêt.",
+        "Je descends à l'arrêt suivant."
+      ],
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "tr-7-13",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "Cross the bridge. (vous)",
+      "a": [
+        "Traversez le pont.",
+        "Passez le pont.",
+        "Traversez par le pont."
+      ],
+      "tags": [
+        "imperative"
+      ]
+    },
+    {
+      "id": "tr-7-14",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "Come to the cinema with me! (tu)",
+      "a": [
+        "Viens avec moi au cinéma !"
+      ],
+      "tags": [
+        "imperative"
+      ]
+    },
+    {
+      "id": "tr-7-15",
+      "level": "A1",
+      "unit": "5.1",
+      "en": "Don't go there, it's dangerous! (vous)",
+      "a": [
+        "N'allez pas là-bas, c'est dangereux !",
+        "N'y allez pas, c'est dangereux !",
+        "Ne partez pas là-bas, c'est dangereux !"
+      ],
+      "tags": [
+        "imperative"
+      ]
+    },
+    {
+      "id": "tr-8-01",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "It's raining and it's cold.",
+      "a": [
+        "Il pleut et il fait froid."
+      ],
+      "tags": [
+        "impersonal"
+      ]
+    },
+    {
+      "id": "tr-8-02",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "It's going to snow tomorrow.",
+      "a": [
+        "Demain, il va neiger.",
+        "Demain il va neiger.",
+        "Demain, il neigera.",
+        "Il va neiger demain."
+      ],
+      "tags": [
+        "futur-proche"
+      ]
+    },
+    {
+      "id": "tr-8-03",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "In summer it's hot.",
+      "a": [
+        "En été, il fait chaud.",
+        "L'été, il fait chaud."
+      ],
+      "tags": [
+        "dates"
+      ]
+    },
+    {
+      "id": "tr-8-04",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "In spring it's lovely.",
+      "a": [
+        "Au printemps, il fait beau.",
+        "Au printemps, c'est beau.",
+        "Au printemps, il fait très beau.",
+        "Au printemps, c'est magnifique."
+      ],
+      "tags": [
+        "dates"
+      ]
+    },
+    {
+      "id": "tr-8-05",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "What's the weather like today?",
+      "a": [
+        "Quel temps fait-il aujourd'hui ?",
+        "Il fait quel temps aujourd'hui ?",
+        "Quel temps est-ce qu'il fait aujourd'hui ?",
+        "Quel temps il fait aujourd'hui ?"
+      ],
+      "tags": [
+        "quel"
+      ]
+    },
+    {
+      "id": "tr-8-06",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "It's twenty degrees.",
+      "a": [
+        "Il fait vingt degrés.",
+        "Il fait 20 degrés."
+      ],
+      "tags": [
+        "numbers-0-69"
+      ]
+    },
+    {
+      "id": "tr-8-07",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "I was born on the fifth of March.",
+      "a": [
+        "Je suis né le cinq mars.",
+        "Je suis né le 5 mars.",
+        "Je suis née le cinq mars.",
+        "Je suis née le 5 mars."
+      ],
+      "tags": [
+        "dates"
+      ]
+    },
+    {
+      "id": "tr-8-08",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "My birthday is in October.",
+      "a": [
+        "Mon anniversaire est en octobre.",
+        "Mon anniversaire, c'est en octobre."
+      ],
+      "tags": [
+        "dates"
+      ]
+    },
+    {
+      "id": "tr-8-09",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "Today is Monday the fifteenth of September.",
+      "a": [
+        "Aujourd'hui, c'est lundi, le quinze septembre.",
+        "Aujourd'hui, c'est lundi, le 15 septembre.",
+        "Aujourd'hui, nous sommes lundi, le quinze septembre.",
+        "Aujourd'hui, nous sommes lundi, le 15 septembre.",
+        "Aujourd'hui, on est lundi 15 septembre."
+      ],
+      "tags": [
+        "dates"
+      ]
+    },
+    {
+      "id": "tr-8-10",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "What day is it today?",
+      "a": [
+        "Quel jour est-on aujourd'hui ?",
+        "Quel jour sommes-nous aujourd'hui ?",
+        "Quel jour on est aujourd'hui ?",
+        "On est quel jour aujourd'hui ?",
+        "Nous sommes quel jour aujourd'hui ?"
+      ],
+      "tags": [
+        "dates"
+      ]
+    },
+    {
+      "id": "tr-8-11",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "At the weekend we're going to the seaside if the weather's nice.",
+      "a": [
+        "Ce week-end, nous allons aller à la mer s'il fait beau.",
+        "Ce week-end, on va aller à la mer s'il fait beau.",
+        "Ce week-end, nous irons à la mer s'il fait beau.",
+        "Ce week-end, on ira à la mer s'il fait beau.",
+        "Pendant le week-end, nous irons à la mer s'il fait beau.",
+        "Ce week-end, nous allons à la mer s'il fait beau."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-8-12",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "In winter I go skiing in the mountains.",
+      "a": [
+        "En hiver, je skie à la montagne.",
+        "L'hiver, je skie à la montagne.",
+        "En hiver, je skie dans les montagnes."
+      ],
+      "tags": [
+        "er-spelling"
+      ]
+    },
+    {
+      "id": "tr-8-13",
+      "level": "A1",
+      "unit": "5.2",
+      "en": "I'm cold, I'm wearing a jacket.",
+      "a": [
+        "J'ai froid, je porte une veste.",
+        "J'ai froid, je mets une veste.",
+        "J'ai froid, je porte un blouson."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-9-01",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I like your new jacket. (tu)",
+      "a": [
+        "J'aime bien ta nouvelle veste.",
+        "J'aime ta nouvelle veste.",
+        "Ta nouvelle veste me plaît."
+      ],
+      "tags": [
+        "beau-nouveau-vieux"
+      ]
+    },
+    {
+      "id": "tr-9-02",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "What size are you? (vous)",
+      "a": [
+        "Quelle taille faites-vous ?",
+        "Vous faites quelle taille ?",
+        "Quelle est votre taille ?"
+      ],
+      "tags": [
+        "quel"
+      ]
+    },
+    {
+      "id": "tr-9-03",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "Can I try on these trousers?",
+      "a": [
+        "Je peux essayer ce pantalon ?",
+        "Puis-je essayer ce pantalon ?",
+        "Est-ce que je peux essayer ce pantalon ?",
+        "Je peux essayer ces pantalons ?",
+        "Puis-je essayer ces pantalons ?"
+      ],
+      "tags": [
+        "modals"
+      ]
+    },
+    {
+      "id": "tr-9-04",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "These shoes are too tight.",
+      "a": [
+        "Ces chaussures sont trop serrées."
+      ],
+      "tags": [
+        "quantities"
+      ]
+    },
+    {
+      "id": "tr-9-05",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "This jacket is more expensive than that one.",
+      "a": [
+        "Cette veste est plus chère que celle-là.",
+        "Cette veste coûte plus cher que celle-là."
+      ],
+      "tags": [
+        "comparative"
+      ]
+    },
+    {
+      "id": "tr-9-06",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "My T-shirt is as nice as yours. (tu)",
+      "a": [
+        "Mon {t-shirt|tee-shirt} est aussi {beau|joli} que le tien."
+      ],
+      "tags": [
+        "comparative"
+      ]
+    },
+    {
+      "id": "tr-9-07",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "This skirt is the prettiest in the shop.",
+      "a": [
+        "Cette jupe est la plus {belle|jolie} du magasin.",
+        "C'est la plus {belle|jolie} jupe du magasin."
+      ],
+      "tags": [
+        "superlative"
+      ]
+    },
+    {
+      "id": "tr-9-08",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I like wearing dresses.",
+      "a": [
+        "J'aime porter des robes.",
+        "J'adore porter des robes."
+      ],
+      "tags": [
+        "verb-infinitive"
+      ]
+    },
+    {
+      "id": "tr-9-09",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "Today I'm wearing jeans and a black jumper.",
+      "a": [
+        "Aujourd'hui, je porte un jean et un pull noir.",
+        "Aujourd'hui je porte un jean et un pull noir."
+      ],
+      "tags": [
+        "adj-position"
+      ]
+    },
+    {
+      "id": "tr-9-10",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I bought this jacket last week.",
+      "a": [
+        "J'ai acheté cette veste la semaine dernière.",
+        "J'ai acheté ce blouson la semaine dernière."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-9-11",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "That jacket? I bought it in Paris.",
+      "a": [
+        "Cette veste ? Je l'ai achetée à Paris."
+      ],
+      "tags": [
+        "pc-agreement"
+      ]
+    },
+    {
+      "id": "tr-9-12",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "Those shoes? I bought them yesterday.",
+      "a": [
+        "Ces chaussures ? Je les ai achetées hier."
+      ],
+      "tags": [
+        "pc-agreement"
+      ]
+    },
+    {
+      "id": "tr-9-13",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I like red dresses, but I don't wear them often.",
+      "a": [
+        "J'aime les robes rouges, mais je ne les porte pas souvent.",
+        "J'aime ma robe rouge, mais je ne la porte pas souvent."
+      ],
+      "tags": [
+        "direct-object"
+      ]
+    },
+    {
+      "id": "tr-9-14",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "How much is this handbag?",
+      "a": [
+        "Combien coûte ce sac à main ?",
+        "Combien coûte ce sac ?",
+        "Combien est-ce que ce sac coûte ?",
+        "Ce sac à main coûte combien ?"
+      ],
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tr-9-15",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "Is it on sale?",
+      "a": [
+        "C'est en solde ?",
+        "Est-ce que c'est en solde ?",
+        "Est-ce en solde ?"
+      ],
+      "tags": [
+        "question-types"
+      ]
+    },
+    {
+      "id": "tr-9-16",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I need another size, this one is too big.",
+      "a": [
+        "J'ai besoin d'une autre taille, celle-ci est trop grande.",
+        "Il me faut une autre taille, celle-ci est trop grande."
+      ],
+      "tags": [
+        "demonstrative-pronouns"
+      ]
+    },
+    {
+      "id": "tr-9-17",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "Which one suits you better, the blue one or the green one? (tu)",
+      "a": [
+        "Laquelle te va le mieux, la bleue ou la verte ?",
+        "Laquelle te va mieux, la bleue ou la verte ?"
+      ],
+      "tags": [
+        "lequel"
+      ]
+    },
+    {
+      "id": "tr-9-18",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "She was wearing a white blouse and a black skirt.",
+      "a": [
+        "Elle portait un chemisier blanc et une jupe noire."
+      ],
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "tr-9-19",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "Give me the red one! (tu)",
+      "a": [
+        "Donne-moi la rouge !",
+        "Donne-moi celle qui est rouge !"
+      ],
+      "tags": [
+        "pronouns-imperative"
+      ]
+    },
+    {
+      "id": "tr-9-20",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "Don't buy it, it's too expensive! (tu)",
+      "a": [
+        "Ne l'achète pas, c'est trop cher !",
+        "N'achète pas ça, c'est trop cher !"
+      ],
+      "tags": [
+        "pronouns-imperative"
+      ]
+    },
+    {
+      "id": "tr-9-21",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I prefer wearing comfortable clothes rather than smart ones.",
+      "a": [
+        "Je préfère porter des vêtements confortables plutôt qu'élégants.",
+        "Je préfère porter des vêtements confortables plutôt que des vêtements élégants."
+      ],
+      "tags": [
+        "comparative"
+      ]
+    },
+    {
+      "id": "tr-9-22",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "My sister has more jackets than me.",
+      "a": [
+        "Ma sœur a plus de vestes que moi.",
+        "Ma sœur a plus de blousons que moi."
+      ],
+      "tags": [
+        "comparative"
+      ]
+    },
+    {
+      "id": "tr-9-23",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I have fewer shoes than her.",
+      "a": [
+        "J'ai moins de chaussures qu'elle."
+      ],
+      "tags": [
+        "comparative"
+      ]
+    },
+    {
+      "id": "tr-9-24",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "This jumper is too long. Don't you have a shorter one? (vous)",
+      "a": [
+        "Ce pull est trop long. Vous n'en avez pas de plus court ?",
+        "Ce pull est trop long. Vous n'avez pas un pull plus court ?",
+        "Ce pull est trop long. Avez-vous un pull plus court ?"
+      ],
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "id": "tr-9-25",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "What shall I wear today?",
+      "a": [
+        "Qu'est-ce que je vais mettre aujourd'hui ?",
+        "Qu'est-ce que je mets aujourd'hui ?",
+        "Que vais-je mettre aujourd'hui ?"
+      ],
+      "tags": [
+        "futur-proche"
+      ]
+    },
+    {
+      "id": "tr-9-26",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "The shop closes at eight in the evening.",
+      "a": [
+        "Le magasin ferme à vingt heures.",
+        "Le magasin ferme à huit heures du soir."
+      ],
+      "tags": [
+        "clock"
+      ]
+    },
+    {
+      "id": "tr-9-27",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "Where can I try on these jeans?",
+      "a": [
+        "Où est-ce que je peux essayer ce jean ?",
+        "Où puis-je essayer ce jean ?",
+        "Où est-ce que je peux essayer ces jeans ?",
+        "Où puis-je essayer ces jeans ?"
+      ],
+      "tags": [
+        "question-types"
+      ]
+    },
+    {
+      "id": "tr-9-28",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I don't know what to wear.",
+      "a": [
+        "Je ne sais pas quoi mettre.",
+        "Je ne sais pas quoi porter.",
+        "Je ne sais pas ce que je vais mettre."
+      ],
+      "tags": [
+        "indirect-questions"
+      ]
+    },
+    {
+      "id": "tr-9-29",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "That hat is so funny that I have to laugh.",
+      "a": [
+        "Ce bonnet est tellement drôle que je dois rire.",
+        "Cette casquette est tellement drôle que je dois rire.",
+        "Ce bonnet est si drôle que je ne peux pas m'empêcher de rire."
+      ],
+      "tags": [
+        "complex-sentences"
+      ]
+    },
+    {
+      "id": "tr-10-01",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "Yesterday I went to the cinema.",
+      "a": [
+        "Hier, je suis {allé|allée} au cinéma.",
+        "Hier je suis {allé|allée} au cinéma."
+      ],
+      "tags": [
+        "passe-compose-etre"
+      ]
+    },
+    {
+      "id": "tr-10-02",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "At the weekend we played basketball.",
+      "a": [
+        "Ce week-end, nous avons joué au basket.",
+        "Ce week-end, on a joué au basket.",
+        "Le week-end dernier, nous avons joué au basket.",
+        "Le week-end dernier, on a joué au basket."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-03",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "On Saturday morning I got up early.",
+      "a": [
+        "Samedi matin, je me suis {levé|levée} tôt.",
+        "Samedi matin je me suis {levé|levée} tôt."
+      ],
+      "tags": [
+        "passe-compose-etre"
+      ]
+    },
+    {
+      "id": "tr-10-04",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "Then I had breakfast and played the guitar.",
+      "a": [
+        "Ensuite, j'ai pris mon petit-déjeuner et j'ai joué de la guitare.",
+        "Puis, j'ai pris mon petit-déjeuner et j'ai joué de la guitare.",
+        "Après, j'ai pris mon petit-déjeuner et j'ai joué de la guitare."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-05",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "We visited our grandmother.",
+      "a": [
+        "Nous avons rendu visite à ma grand-mère.",
+        "Nous avons rendu visite à notre grand-mère.",
+        "On a rendu visite à ma grand-mère.",
+        "On a rendu visite à notre grand-mère."
+      ],
+      "tags": [
+        "verb-constructions"
+      ]
+    },
+    {
+      "id": "tr-10-06",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "Have you seen that film? (tu)",
+      "a": [
+        "Tu as vu ce film ?",
+        "Est-ce que tu as vu ce film ?",
+        "As-tu vu ce film ?"
+      ],
+      "tags": [
+        "participles"
+      ]
+    },
+    {
+      "id": "tr-10-07",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "Yes, I saw it last week.",
+      "a": [
+        "Oui, je l'ai vu la semaine dernière."
+      ],
+      "tags": [
+        "pc-agreement"
+      ]
+    },
+    {
+      "id": "tr-10-08",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "No, I haven't seen it yet.",
+      "a": [
+        "Non, je ne l'ai pas encore vu."
+      ],
+      "tags": [
+        "negation-position"
+      ]
+    },
+    {
+      "id": "tr-10-09",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "What did you do last night? (tu)",
+      "a": [
+        "Qu'est-ce que tu as fait hier soir ?",
+        "Qu'as-tu fait hier soir ?",
+        "Tu as fait quoi hier soir ?"
+      ],
+      "tags": [
+        "qui-que-quoi"
+      ]
+    },
+    {
+      "id": "tr-10-10",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I didn't do anything.",
+      "a": [
+        "Je n'ai rien fait."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-10-11",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I didn't see anybody.",
+      "a": [
+        "Je n'ai vu personne."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-10-12",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "Mum baked a cake.",
+      "a": [
+        "Maman a fait un gâteau.",
+        "Ma mère a fait un gâteau.",
+        "Maman a préparé un gâteau.",
+        "Ma mère a préparé un gâteau."
+      ],
+      "tags": [
+        "participles"
+      ]
+    },
+    {
+      "id": "tr-10-13",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "We ate the whole cake.",
+      "a": [
+        "Nous avons mangé tout le gâteau.",
+        "On a mangé tout le gâteau.",
+        "Nous avons mangé le gâteau en entier.",
+        "Nous l'avons mangé en entier."
+      ],
+      "tags": [
+        "tout"
+      ]
+    },
+    {
+      "id": "tr-10-14",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "My friends arrived at eight o'clock.",
+      "a": [
+        "Mes amis sont arrivés à huit heures.",
+        "Mes copains sont arrivés à huit heures.",
+        "Mes amis sont venus à huit heures.",
+        "Mes copains sont venus à huit heures."
+      ],
+      "tags": [
+        "passe-compose-etre"
+      ]
+    },
+    {
+      "id": "tr-10-15",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "My sister came home late.",
+      "a": [
+        "Ma sœur est rentrée tard à la maison.",
+        "Ma sœur est rentrée tard.",
+        "Ma sœur est rentrée à la maison tard."
+      ],
+      "tags": [
+        "passe-compose-etre"
+      ]
+    },
+    {
+      "id": "tr-10-16",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I fell off my bike.",
+      "a": [
+        "Je suis {tombé|tombée} de vélo.",
+        "Je suis {tombé|tombée} de mon vélo."
+      ],
+      "tags": [
+        "passe-compose-etre"
+      ]
+    },
+    {
+      "id": "tr-10-17",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I was born in 2000. (girl)",
+      "a": [
+        "Je suis née en 2000."
+      ],
+      "tags": [
+        "passe-compose-etre"
+      ]
+    },
+    {
+      "id": "tr-10-18",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "My grandmother died two years ago.",
+      "a": [
+        "Ma grand-mère est morte il y a deux ans."
+      ],
+      "tags": [
+        "passe-compose-etre"
+      ]
+    },
+    {
+      "id": "tr-10-19",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "We spent the weekend at a cottage.",
+      "a": [
+        "Nous avons passé le week-end dans un chalet.",
+        "On a passé le week-end dans un chalet.",
+        "Nous avons passé le week-end à la campagne.",
+        "On a passé le week-end à la campagne."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-20",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "This morning I didn't have breakfast because I didn't have time.",
+      "a": [
+        "Ce matin, je n'ai pas pris de petit-déjeuner parce que je n'avais pas le temps.",
+        "Ce matin, je n'ai pas pris mon petit-déjeuner parce que je n'avais pas le temps."
+      ],
+      "tags": [
+        "pc-vs-imparfait"
+      ]
+    },
+    {
+      "id": "tr-10-21",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "Yesterday it was raining, so we stayed at home.",
+      "a": [
+        "Hier, il pleuvait, donc nous sommes restés à la maison.",
+        "Hier, il pleuvait, alors nous sommes restés à la maison.",
+        "Hier, il a plu, donc nous sommes restés à la maison.",
+        "Hier, il a plu, alors nous sommes restés à la maison.",
+        "Hier, il pleuvait, donc on est resté à la maison.",
+        "Hier, il pleuvait, alors on est resté à la maison.",
+        "Hier, il a plu, donc on est resté à la maison.",
+        "Hier, il a plu, alors on est resté à la maison."
+      ],
+      "tags": [
+        "pc-vs-imparfait"
+      ]
+    },
+    {
+      "id": "tr-10-22",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "We won the match two to one.",
+      "a": [
+        "Nous avons gagné le match deux à un.",
+        "Nous avons gagné le match 2 à 1.",
+        "On a gagné le match deux à un.",
+        "On a gagné le match 2 à 1."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-23",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I scored a goal.",
+      "a": [
+        "J'ai marqué un but."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-24",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I was very tired.",
+      "a": [
+        "J'étais très {fatigué|fatiguée}."
+      ],
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "tr-10-25",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "We waited a long time for the bus.",
+      "a": [
+        "Nous avons attendu le bus longtemps.",
+        "Nous avons longtemps attendu le bus.",
+        "On a attendu le bus longtemps.",
+        "On a longtemps attendu le bus."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-26",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I bought myself a new hoodie.",
+      "a": [
+        "Je me suis acheté un nouveau sweat.",
+        "J'ai acheté un nouveau sweat.",
+        "Je me suis acheté un sweat à capuche.",
+        "J'ai acheté un sweat à capuche."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-27",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I've already done my homework.",
+      "a": [
+        "J'ai déjà fait mes devoirs."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-28",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I haven't had lunch yet.",
+      "a": [
+        "Je n'ai pas encore déjeuné.",
+        "Je n'ai pas encore mangé."
+      ],
+      "tags": [
+        "negation-position"
+      ]
+    },
+    {
+      "id": "tr-10-29",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I've just finished my homework.",
+      "a": [
+        "Je viens de finir mon devoir.",
+        "Je viens de terminer mon devoir.",
+        "Je viens de finir mes devoirs."
+      ],
+      "tags": [
+        "passe-recent"
+      ]
+    },
+    {
+      "id": "tr-10-30",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I spoke to Paul an hour ago.",
+      "a": [
+        "J'ai parlé avec Paul il y a une heure.",
+        "J'ai parlé à Paul il y a une heure.",
+        "Il y a une heure, j'ai parlé avec Paul.",
+        "Il y a une heure, j'ai parlé à Paul."
+      ],
+      "tags": [
+        "time-prepositions"
+      ]
+    },
+    {
+      "id": "tr-11-01",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "Last year we went on holiday to Italy.",
+      "a": [
+        "L'année dernière, nous sommes partis en vacances en Italie.",
+        "L'année dernière, nous sommes allés en vacances en Italie.",
+        "L'an dernier, nous sommes partis en vacances en Italie.",
+        "L'an dernier, nous sommes allés en vacances en Italie."
+      ],
+      "tags": [
+        "cities-countries"
+      ]
+    },
+    {
+      "id": "tr-11-02",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "Every day we went to the beach.",
+      "a": [
+        "Tous les jours, nous allions à la plage.",
+        "Chaque jour, nous allions à la plage.",
+        "Tous les jours, on allait à la plage.",
+        "Chaque jour, on allait à la plage."
+      ],
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "tr-11-03",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "It was warm and the sun was shining.",
+      "a": [
+        "Il faisait chaud et le soleil brillait.",
+        "Il faisait chaud et il y avait du soleil."
+      ],
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "tr-11-04",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "One day we met a Frenchman.",
+      "a": [
+        "Un jour, nous avons rencontré un Français.",
+        "Un jour, on a rencontré un Français.",
+        "Un jour nous avons rencontré un Français."
+      ],
+      "tags": [
+        "pc-vs-imparfait"
+      ]
+    },
+    {
+      "id": "tr-11-05",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "When I was little, we used to go to the seaside every summer.",
+      "a": [
+        "Quand j'étais petit, nous allions chaque été à la mer.",
+        "Quand j'étais petit, on allait chaque été à la mer.",
+        "Quand j'étais petit, nous allions à la mer chaque été.",
+        "Quand j'étais petit, on allait à la mer chaque été.",
+        "Quand j'étais petite, nous allions chaque été à la mer.",
+        "Quand j'étais petite, on allait chaque été à la mer."
+      ],
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "tr-11-06",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "The hotel was near the beach.",
+      "a": [
+        "L'hôtel était près de la plage.",
+        "L'hôtel était proche de la plage."
+      ],
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "tr-11-07",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "I'd like to book a room for two.",
+      "a": [
+        "Je voudrais réserver une chambre pour deux.",
+        "Je voudrais réserver une chambre pour deux personnes.",
+        "J'aimerais réserver une chambre pour deux personnes."
+      ],
+      "tags": [
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "tr-11-08",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "Do you have any rooms free next week? (vous)",
+      "a": [
+        "Vous avez des chambres libres pour la semaine prochaine ?",
+        "Avez-vous des chambres libres pour la semaine prochaine ?",
+        "Est-ce que vous avez des chambres libres pour la semaine prochaine ?"
+      ],
+      "tags": [
+        "question-types"
+      ]
+    },
+    {
+      "id": "tr-11-09",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "Is breakfast included?",
+      "a": [
+        "Le petit-déjeuner est compris ?",
+        "Est-ce que le petit-déjeuner est compris ?",
+        "Le petit-déjeuner est-il compris ?"
+      ],
+      "tags": [
+        "question-types"
+      ]
+    },
+    {
+      "id": "tr-11-10",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "In a month we'll go to Spain.",
+      "a": [
+        "Dans un mois, nous irons en Espagne.",
+        "Dans un mois, nous allons aller en Espagne.",
+        "Dans un mois, on ira en Espagne.",
+        "Dans un mois, on va aller en Espagne."
+      ],
+      "tags": [
+        "time-prepositions"
+      ]
+    },
+    {
+      "id": "tr-11-11",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "This summer we'll visit Paris.",
+      "a": [
+        "Cet été, nous visiterons Paris.",
+        "Cet été, nous allons visiter Paris.",
+        "Cet été, on visitera Paris.",
+        "Cet été, on va visiter Paris."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-11-12",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "We'll sleep in a tent.",
+      "a": [
+        "Nous dormirons sous la tente.",
+        "Nous allons dormir sous la tente.",
+        "On dormira sous la tente.",
+        "On va dormir sous la tente."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-11-13",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "I'll take a swimsuit and some sun cream.",
+      "a": [
+        "Je prendrai un maillot de bain et de la crème solaire.",
+        "Je vais prendre un maillot de bain et de la crème solaire.",
+        "Je prendrai mon maillot de bain et de la crème solaire.",
+        "Je vais prendre mon maillot de bain et de la crème solaire."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-11-14",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "The plane leaves at six in the morning.",
+      "a": [
+        "L'avion part à six heures du matin.",
+        "L'avion décolle à six heures du matin."
+      ],
+      "tags": [
+        "clock"
+      ]
+    },
+    {
+      "id": "tr-11-15",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "How long will you stay there? (tu)",
+      "a": [
+        "Combien de temps est-ce que tu restes là-bas ?",
+        "Combien de temps vas-tu rester là-bas ?",
+        "Combien de temps est-ce que tu vas rester là-bas ?",
+        "Combien de temps resteras-tu là-bas ?",
+        "Combien de temps tu restes là-bas ?",
+        "Tu restes combien de temps là-bas ?"
+      ],
+      "tags": [
+        "question-types"
+      ]
+    },
+    {
+      "id": "tr-11-16",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "I'll stay there for two weeks.",
+      "a": [
+        "Je resterai là-bas deux semaines.",
+        "Je vais rester là-bas deux semaines.",
+        "Je resterai deux semaines là-bas.",
+        "Je vais rester deux semaines là-bas.",
+        "Je resterai là-bas pendant deux semaines.",
+        "Je vais rester là-bas pendant deux semaines."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-11-17",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "We've already been there three times.",
+      "a": [
+        "Nous y sommes déjà allés trois fois.",
+        "On y est déjà allés trois fois.",
+        "Nous y avons déjà été trois fois.",
+        "On y a déjà été trois fois."
+      ],
+      "tags": [
+        "y"
+      ]
+    },
+    {
+      "id": "tr-11-18",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "Did you meet any French people? (tu)",
+      "a": [
+        "Tu as rencontré des Français ?",
+        "Est-ce que tu as rencontré des Français ?",
+        "As-tu rencontré des Français ?"
+      ],
+      "tags": [
+        "participles"
+      ]
+    },
+    {
+      "id": "tr-11-19",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "I went there by train and came back by plane.",
+      "a": [
+        "J'y suis allé en train et je suis revenu en avion.",
+        "J'y suis allé en train et je suis rentré en avion.",
+        "J'y suis allée en train et je suis revenue en avion.",
+        "J'y suis allée en train et je suis rentrée en avion."
+      ],
+      "tags": [
+        "transport"
+      ]
+    },
+    {
+      "id": "tr-11-20",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "We took photos of the sea and the mountains.",
+      "a": [
+        "Nous avons pris des photos de la mer et des montagnes.",
+        "On a pris des photos de la mer et des montagnes.",
+        "Nous avons photographié la mer et les montagnes."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-11-21",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "Our journey took ten hours.",
+      "a": [
+        "Notre voyage a duré dix heures.",
+        "Notre trajet a duré dix heures.",
+        "Notre voyage a pris dix heures.",
+        "Notre trajet a pris dix heures."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-11-22",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "I've lost my passport.",
+      "a": [
+        "J'ai perdu mon passeport."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-11-23",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "Where's the nearest chemist's?",
+      "a": [
+        "Où est la pharmacie la plus proche ?",
+        "Où se trouve la pharmacie la plus proche ?"
+      ],
+      "tags": [
+        "superlative"
+      ]
+    },
+    {
+      "id": "tr-11-24",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "I don't understand what you're saying. (vous)",
+      "a": [
+        "Je ne comprends pas ce que vous dites."
+      ],
+      "tags": [
+        "relative-ou-dont"
+      ]
+    },
+    {
+      "id": "tr-11-25",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "Could you speak more slowly? (vous)",
+      "a": [
+        "Pourriez-vous parler plus lentement ?",
+        "Vous pourriez parler plus lentement ?",
+        "Est-ce que vous pourriez parler plus lentement ?",
+        "Pourriez-vous parler moins vite ?"
+      ],
+      "tags": [
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "tr-11-26",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "I need a map of the town.",
+      "a": [
+        "J'ai besoin d'un plan de la ville.",
+        "Il me faut un plan de la ville.",
+        "J'ai besoin d'une carte de la ville."
+      ],
+      "tags": [
+        "no-article"
+      ]
+    },
+    {
+      "id": "tr-12-01",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I have a headache.",
+      "a": [
+        "J'ai mal à la tête."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-12-02",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "His stomach and legs hurt.",
+      "a": [
+        "Il a mal au ventre et aux jambes."
+      ],
+      "tags": [
+        "contractions"
+      ]
+    },
+    {
+      "id": "tr-12-03",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I have a fever and a cough.",
+      "a": [
+        "J'ai de la fièvre et je tousse."
+      ],
+      "tags": [
+        "partitive"
+      ]
+    },
+    {
+      "id": "tr-12-04",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I have a cold.",
+      "a": [
+        "J'ai un rhume.",
+        "Je suis enrhumé.",
+        "Je suis enrhumée.",
+        "J'ai attrapé un rhume."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-12-05",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "You must go to the doctor. (tu)",
+      "a": [
+        "Tu dois aller chez le médecin.",
+        "Tu dois aller voir le médecin.",
+        "Tu dois aller chez le docteur.",
+        "Il faut que tu ailles chez le médecin.",
+        "Il faut aller chez le médecin."
+      ],
+      "tags": [
+        "modals"
+      ]
+    },
+    {
+      "id": "tr-12-06",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "You should rest. (tu)",
+      "a": [
+        "Tu devrais te reposer.",
+        "Tu devrais te reposer un peu."
+      ],
+      "tags": [
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "tr-12-07",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "It's important to drink lots of water.",
+      "a": [
+        "Il est important de boire beaucoup d'eau.",
+        "C'est important de boire beaucoup d'eau."
+      ],
+      "tags": [
+        "impersonal"
+      ]
+    },
+    {
+      "id": "tr-12-08",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I can't go to school, I'm ill.",
+      "a": [
+        "Je ne peux pas aller à l'école, je suis malade.",
+        "Je ne peux pas aller en cours, je suis malade.",
+        "Je ne peux pas aller au collège, je suis malade.",
+        "Je ne peux pas aller au lycée, je suis malade."
+      ],
+      "tags": [
+        "modals"
+      ]
+    },
+    {
+      "id": "tr-12-09",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "Yesterday I went to the doctor's.",
+      "a": [
+        "Hier, je suis {allé|allée} chez le médecin.",
+        "Hier, j'ai été chez le médecin.",
+        "Hier, j'étais chez le médecin."
+      ],
+      "tags": [
+        "passe-compose-etre"
+      ]
+    },
+    {
+      "id": "tr-12-10",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "The doctor prescribed me some medicine.",
+      "a": [
+        "Le médecin m'a prescrit des médicaments.",
+        "Le docteur m'a prescrit des médicaments."
+      ],
+      "tags": [
+        "indirect-object"
+      ]
+    },
+    {
+      "id": "tr-12-11",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I take them three times a day.",
+      "a": [
+        "Je les prends trois fois par jour."
+      ],
+      "tags": [
+        "direct-object"
+      ]
+    },
+    {
+      "id": "tr-12-12",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "You mustn't eat sweets. (tu)",
+      "a": [
+        "Tu ne dois pas manger de sucreries.",
+        "Tu ne dois pas manger de bonbons.",
+        "Tu n'as pas le droit de manger des sucreries.",
+        "Il ne faut pas manger de sucreries."
+      ],
+      "tags": [
+        "article-negation"
+      ]
+    },
+    {
+      "id": "tr-12-13",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I have a broken arm.",
+      "a": [
+        "J'ai le bras cassé.",
+        "J'ai la main cassée.",
+        "J'ai un bras cassé."
+      ],
+      "tags": [
+        "adj-agreement"
+      ]
+    },
+    {
+      "id": "tr-12-14",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "How are you feeling? I feel much better. (tu)",
+      "a": [
+        "Comment tu te sens ? Je me sens beaucoup mieux.",
+        "Comment te sens-tu ? Je me sens beaucoup mieux.",
+        "Comment est-ce que tu te sens ? Je me sens beaucoup mieux.",
+        "Comment tu te sens ? Ça va beaucoup mieux.",
+        "Comment te sens-tu ? Ça va beaucoup mieux."
+      ],
+      "tags": [
+        "bon-bien"
+      ]
+    },
+    {
+      "id": "tr-12-15",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "Today I feel worse than yesterday.",
+      "a": [
+        "Aujourd'hui, je me sens plus mal qu'hier.",
+        "Aujourd'hui, je vais plus mal qu'hier."
+      ],
+      "tags": [
+        "bon-bien"
+      ]
+    },
+    {
+      "id": "tr-12-16",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "Be careful not to fall! (tu)",
+      "a": [
+        "Fais attention à ne pas tomber !",
+        "Fais attention de ne pas tomber !",
+        "Fais attention, ne tombe pas !"
+      ],
+      "tags": [
+        "imperative"
+      ]
+    },
+    {
+      "id": "tr-12-17",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "Get up, it's late! (tu)",
+      "a": [
+        "Lève-toi, il est tard !",
+        "Lève-toi, il est déjà tard !",
+        "Debout, il est tard !"
+      ],
+      "tags": [
+        "pronouns-imperative"
+      ]
+    },
+    {
+      "id": "tr-12-18",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "The doctor said I have to stay at home.",
+      "a": [
+        "Le médecin a dit que je dois rester à la maison.",
+        "Le médecin a dit que je devais rester à la maison.",
+        "Le médecin a dit que je dois rester chez moi.",
+        "Le médecin a dit que je devais rester chez moi.",
+        "Le docteur a dit que je dois rester à la maison.",
+        "Le docteur a dit que je devais rester à la maison."
+      ],
+      "tags": [
+        "reported-speech"
+      ]
+    },
+    {
+      "id": "tr-12-19",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I do sport five times a week because I want to be healthy.",
+      "a": [
+        "Je fais du sport cinq fois par semaine parce que je veux être en bonne santé.",
+        "Je fais du sport cinq fois par semaine, parce que je veux être en bonne santé."
+      ],
+      "tags": [
+        "frequency"
+      ]
+    },
+    {
+      "id": "tr-12-20",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I sleep eight hours every night.",
+      "a": [
+        "Je dors huit heures chaque nuit.",
+        "Je dors huit heures par nuit.",
+        "Je dors huit heures toutes les nuits."
+      ],
+      "tags": [
+        "irregular-more"
+      ]
+    },
+    {
+      "id": "tr-12-21",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I eat lots of fruit and vegetables.",
+      "a": [
+        "Je mange beaucoup de fruits et de légumes."
+      ],
+      "tags": [
+        "quantities"
+      ]
+    },
+    {
+      "id": "tr-12-22",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "It doesn't hurt any more.",
+      "a": [
+        "Je n'ai plus mal.",
+        "Ça ne me fait plus mal."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-12-23",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "What are you allergic to? (tu)",
+      "a": [
+        "À quoi es-tu allergique ?",
+        "À quoi est-ce que tu es allergique ?",
+        "Tu es allergique à quoi ?"
+      ],
+      "tags": [
+        "qui-que-quoi"
+      ]
+    },
+    {
+      "id": "tr-13-01",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I sit at the computer all day.",
+      "a": [
+        "Je suis assis devant l'ordinateur toute la journée.",
+        "Je suis assise devant l'ordinateur toute la journée.",
+        "Je passe toute la journée devant l'ordinateur."
+      ],
+      "tags": [
+        "tout"
+      ]
+    },
+    {
+      "id": "tr-13-02",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I watch videos on my phone.",
+      "a": [
+        "Je regarde des vidéos sur mon téléphone.",
+        "Je regarde des vidéos sur mon portable."
+      ],
+      "tags": [
+        "er-verbs"
+      ]
+    },
+    {
+      "id": "tr-13-03",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "My phone is broken.",
+      "a": [
+        "Mon téléphone est cassé.",
+        "Mon portable est cassé.",
+        "Mon téléphone est en panne."
+      ],
+      "tags": [
+        "adj-agreement"
+      ]
+    },
+    {
+      "id": "tr-13-04",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I don't have enough battery left.",
+      "a": [
+        "Je n'ai plus assez de batterie.",
+        "Je n'ai plus de batterie."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-13-05",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I sent you a message, but you didn't reply. (tu)",
+      "a": [
+        "Je t'ai envoyé un message, mais tu n'as pas répondu.",
+        "Je t'ai envoyé un message mais tu n'as pas répondu.",
+        "Je t'ai écrit, mais tu n'as pas répondu."
+      ],
+      "tags": [
+        "indirect-object"
+      ]
+    },
+    {
+      "id": "tr-13-06",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "Text me when you arrive. (tu)",
+      "a": [
+        "Écris-moi quand tu arrives.",
+        "Écris-moi quand tu seras arrivé.",
+        "Écris-moi quand tu seras arrivée.",
+        "Envoie-moi un message quand tu arrives.",
+        "Envoie-moi un message dès que tu arrives."
+      ],
+      "tags": [
+        "pronouns-imperative"
+      ]
+    },
+    {
+      "id": "tr-13-07",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I play games with my friends every evening.",
+      "a": [
+        "Je joue à des jeux vidéo avec mes amis tous les soirs.",
+        "Je joue à des jeux vidéo avec mes copains tous les soirs.",
+        "Je joue à des jeux avec mes amis tous les soirs.",
+        "Je joue à des jeux avec mes copains tous les soirs."
+      ],
+      "tags": [
+        "avoir-faire-expressions"
+      ]
+    },
+    {
+      "id": "tr-13-08",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "We play it together online.",
+      "a": [
+        "Nous y jouons ensemble en ligne.",
+        "On y joue ensemble en ligne.",
+        "Nous y jouons ensemble sur internet.",
+        "On y joue ensemble sur internet."
+      ],
+      "tags": [
+        "y"
+      ]
+    },
+    {
+      "id": "tr-13-09",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "This game is much more interesting than the other one.",
+      "a": [
+        "Ce jeu est beaucoup plus intéressant que l'autre.",
+        "Ce jeu est bien plus intéressant que l'autre."
+      ],
+      "tags": [
+        "comparative"
+      ]
+    },
+    {
+      "id": "tr-13-10",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "In my opinion, social media is a waste of time.",
+      "a": [
+        "À mon avis, les réseaux sociaux sont une perte de temps.",
+        "Selon moi, les réseaux sociaux sont une perte de temps.",
+        "Pour moi, les réseaux sociaux sont une perte de temps."
+      ],
+      "tags": [
+        "complex-sentences"
+      ]
+    },
+    {
+      "id": "tr-13-11",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I waste time on the internet.",
+      "a": [
+        "Je perds du temps sur internet.",
+        "Je perds mon temps sur internet.",
+        "Je perds du temps sur Internet.",
+        "Je perds mon temps sur Internet."
+      ],
+      "tags": [
+        "partitive"
+      ]
+    },
+    {
+      "id": "tr-13-12",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "My parents banned me from using my phone after ten o'clock.",
+      "a": [
+        "Mes parents m'ont interdit d'utiliser mon téléphone après dix heures.",
+        "Mes parents m'ont interdit d'utiliser le téléphone après dix heures.",
+        "Mes parents m'ont interdit d'utiliser mon portable après dix heures.",
+        "Mes parents m'ont interdit d'utiliser le portable après dix heures."
+      ],
+      "tags": [
+        "verb-constructions"
+      ]
+    },
+    {
+      "id": "tr-13-13",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "In our school it's forbidden to use your mobile.",
+      "a": [
+        "Dans notre école, il est interdit d'utiliser le portable.",
+        "Dans notre collège, il est interdit d'utiliser le portable.",
+        "Dans notre lycée, il est interdit d'utiliser le portable.",
+        "Dans notre école, il est interdit d'utiliser son portable.",
+        "Dans notre collège, il est interdit d'utiliser son portable.",
+        "Dans notre lycée, il est interdit d'utiliser son portable."
+      ],
+      "tags": [
+        "impersonal"
+      ]
+    },
+    {
+      "id": "tr-13-14",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "Did you watch that series yesterday? (tu)",
+      "a": [
+        "Tu as regardé cette série hier ?",
+        "Est-ce que tu as regardé cette série hier ?",
+        "As-tu regardé cette série hier ?"
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-13-15",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I don't watch the news on TV, I read it on the internet.",
+      "a": [
+        "Je ne regarde pas les informations à la télé, je les lis sur internet.",
+        "Je ne regarde pas les infos à la télé, je les lis sur internet.",
+        "Je ne regarde pas les informations à la télévision, je les lis sur internet.",
+        "Je ne regarde pas les infos à la télévision, je les lis sur internet."
+      ],
+      "tags": [
+        "direct-object"
+      ]
+    },
+    {
+      "id": "tr-13-16",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "Don't send it to anyone! (tu)",
+      "a": [
+        "Ne l'envoie à personne !",
+        "N'envoie ça à personne !"
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-13-17",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "If there were no internet, life would be more boring.",
+      "a": [
+        "S'il n'y avait pas d'internet, la vie serait plus ennuyeuse.",
+        "S'il n'y avait pas Internet, la vie serait plus ennuyeuse.",
+        "S'il n'y avait pas d'Internet, la vie serait plus ennuyeuse."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-13-18",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "The phone I bought doesn't work.",
+      "a": [
+        "Le téléphone que j'ai acheté ne marche pas.",
+        "Le téléphone que j'ai acheté ne fonctionne pas.",
+        "Le portable que j'ai acheté ne marche pas.",
+        "Le portable que j'ai acheté ne fonctionne pas."
+      ],
+      "tags": [
+        "relative-qui-que"
+      ]
+    },
+    {
+      "id": "tr-13-19",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "The boy who sits next to me plays games all day.",
+      "a": [
+        "Le garçon qui est assis à côté de moi joue à des jeux vidéo toute la journée.",
+        "Le garçon qui est assis à côté de moi joue à des jeux toute la journée.",
+        "Le garçon qui est assis à côté de moi joue aux jeux vidéo toute la journée."
+      ],
+      "tags": [
+        "relative-qui-que"
+      ]
+    },
+    {
+      "id": "tr-14-01",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "I invited all my friends to the party.",
+      "a": [
+        "J'ai invité tous mes amis à la fête.",
+        "J'ai invité tous mes copains à la fête.",
+        "J'ai invité tous mes amis à ma fête.",
+        "J'ai invité tous mes copains à ma fête."
+      ],
+      "tags": [
+        "tout"
+      ]
+    },
+    {
+      "id": "tr-14-02",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "Will you come on Saturday at seven o'clock? (tu)",
+      "a": [
+        "Tu viendras samedi à sept heures ?",
+        "Est-ce que tu viendras samedi à sept heures ?",
+        "Viendras-tu samedi à sept heures ?",
+        "Tu vas venir samedi à sept heures ?",
+        "Est-ce que tu vas venir samedi à sept heures ?",
+        "Tu viens samedi à sept heures ?"
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-14-03",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "I'll bring a cake and some drinks.",
+      "a": [
+        "J'apporterai un gâteau et des boissons.",
+        "Je vais apporter un gâteau et des boissons.",
+        "J'apporterai un gâteau et quelque chose à boire.",
+        "Je vais apporter un gâteau et quelque chose à boire."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-14-04",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "Merry Christmas and a happy New Year!",
+      "a": [
+        "Joyeux Noël et bonne année !"
+      ]
+    },
+    {
+      "id": "tr-14-05",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "At Christmas I get presents.",
+      "a": [
+        "À Noël, je reçois des cadeaux.",
+        "À Noël je reçois des cadeaux."
+      ],
+      "tags": [
+        "irregular-more"
+      ]
+    },
+    {
+      "id": "tr-14-06",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "I gave it to him yesterday. (the present)",
+      "a": [
+        "Je le lui ai donné hier.",
+        "Hier, je le lui ai donné."
+      ],
+      "tags": [
+        "pronoun-order"
+      ]
+    },
+    {
+      "id": "tr-14-07",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "I bought her flowers.",
+      "a": [
+        "Je lui ai acheté des fleurs.",
+        "Je lui ai acheté un bouquet.",
+        "Je lui ai acheté un bouquet de fleurs."
+      ],
+      "tags": [
+        "indirect-object"
+      ]
+    },
+    {
+      "id": "tr-14-08",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "How many people are coming?",
+      "a": [
+        "Combien de personnes vont venir ?",
+        "Combien de personnes viendront ?",
+        "Combien de gens vont venir ?",
+        "Combien de gens viendront ?"
+      ],
+      "tags": [
+        "question-words"
+      ]
+    },
+    {
+      "id": "tr-14-09",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "I'm cooking dinner for twenty guests.",
+      "a": [
+        "Je prépare le dîner pour vingt invités.",
+        "Je prépare le dîner pour vingt personnes.",
+        "Je cuisine pour vingt invités."
+      ],
+      "tags": [
+        "numbers-70-100"
+      ]
+    },
+    {
+      "id": "tr-14-10",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "We danced all night.",
+      "a": [
+        "Nous avons dansé toute la nuit.",
+        "On a dansé toute la nuit.",
+        "Nous avons dansé pendant toute la nuit.",
+        "On a dansé pendant toute la nuit."
+      ],
+      "tags": [
+        "tout"
+      ]
+    },
+    {
+      "id": "tr-14-11",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "There were lots of people and the music was loud.",
+      "a": [
+        "Il y avait beaucoup de monde et la musique était forte.",
+        "Il y avait beaucoup de gens et la musique était forte.",
+        "Il y avait beaucoup de monde et de la musique forte.",
+        "Il y avait beaucoup de gens et de la musique forte."
+      ],
+      "tags": [
+        "il-y-a"
+      ]
+    },
+    {
+      "id": "tr-14-12",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "Thank you for the invitation, it was great.",
+      "a": [
+        "Merci pour l'invitation, c'était super.",
+        "Merci pour l'invitation, c'était génial.",
+        "Merci pour l'invitation, c'était très bien.",
+        "Merci de m'avoir invité, c'était super.",
+        "Merci de m'avoir invitée, c'était super."
+      ],
+      "tags": [
+        "passe-recent"
+      ]
+    },
+    {
+      "id": "tr-14-13",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "I wish you lots of luck. (tu)",
+      "a": [
+        "Je te souhaite beaucoup de bonheur.",
+        "Je te souhaite bonne chance.",
+        "Je te souhaite beaucoup de chance."
+      ],
+      "tags": [
+        "indirect-object"
+      ]
+    },
+    {
+      "id": "tr-14-14",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "My favourite celebration is Easter.",
+      "a": [
+        "Ma fête préférée, c'est Pâques.",
+        "Ma fête préférée est Pâques.",
+        "Ma fête préférée, ce sont les fêtes de Pâques."
+      ],
+      "tags": [
+        "possessive-determiners"
+      ]
+    },
+    {
+      "id": "tr-14-15",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "On Valentine's Day I give flowers.",
+      "a": [
+        "À la Saint-Valentin, je donne des fleurs.",
+        "À la Saint-Valentin, j'offre des fleurs.",
+        "Le jour de la Saint-Valentin, je donne des fleurs.",
+        "Le jour de la Saint-Valentin, j'offre des fleurs."
+      ],
+      "tags": [
+        "time-prepositions"
+      ]
+    },
+    {
+      "id": "tr-14-16",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "I gave you that present because it was your birthday. (tu)",
+      "a": [
+        "Je t'ai donné ce cadeau parce que c'était ton anniversaire.",
+        "Je t'ai donné ce cadeau parce que tu avais ton anniversaire.",
+        "Je t'ai offert ce cadeau parce que c'était ton anniversaire.",
+        "Je t'ai offert ce cadeau parce que tu avais ton anniversaire."
+      ],
+      "tags": [
+        "pc-vs-imparfait"
+      ]
+    },
+    {
+      "id": "tr-14-17",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "Which celebration did you like best? (tu)",
+      "a": [
+        "Quelle fête t'a plu le plus ?",
+        "Quelle fête t'a le plus plu ?",
+        "Quelle fête as-tu préférée ?",
+        "Quelle fête as-tu le plus aimée ?"
+      ],
+      "tags": [
+        "quel"
+      ]
+    },
+    {
+      "id": "tr-15-01",
+      "level": "A2",
+      "unit": "9",
+      "en": "When I grow up, I'll be a doctor.",
+      "a": [
+        "Quand je serai grand, je serai médecin.",
+        "Quand je serai grand, je serai docteur.",
+        "Quand je serai grande, je serai médecin.",
+        "Quand je serai adulte, je serai médecin."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-15-02",
+      "level": "A2",
+      "unit": "9",
+      "en": "I'd like to be a programmer.",
+      "a": [
+        "Je voudrais être programmeur.",
+        "J'aimerais être programmeur.",
+        "Je voudrais devenir programmeur.",
+        "J'aimerais devenir programmeur.",
+        "Je voudrais être développeur.",
+        "J'aimerais être développeur."
+      ],
+      "tags": [
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "tr-15-03",
+      "level": "A2",
+      "unit": "9",
+      "en": "What will you do after your final exams? (tu)",
+      "a": [
+        "Qu'est-ce que tu feras après le bac ?",
+        "Qu'est-ce que tu vas faire après le bac ?",
+        "Que feras-tu après le bac ?",
+        "Que vas-tu faire après le bac ?",
+        "Tu feras quoi après le bac ?",
+        "Tu vas faire quoi après le bac ?",
+        "Qu'est-ce que tu feras après le baccalauréat ?",
+        "Qu'est-ce que tu vas faire après le baccalauréat ?"
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-15-04",
+      "level": "A2",
+      "unit": "9",
+      "en": "I'll study at university.",
+      "a": [
+        "J'étudierai à l'université.",
+        "Je vais étudier à l'université.",
+        "Je ferai des études à l'université.",
+        "Je vais faire des études à l'université.",
+        "Je ferai mes études à l'université.",
+        "Je vais faire mes études à l'université."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-15-05",
+      "level": "A2",
+      "unit": "9",
+      "en": "Maybe I'll go abroad.",
+      "a": [
+        "Je partirai peut-être à l'étranger.",
+        "Peut-être que je partirai à l'étranger.",
+        "Peut-être que je vais partir à l'étranger.",
+        "Je vais peut-être partir à l'étranger.",
+        "Peut-être partirai-je à l'étranger."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-15-06",
+      "level": "A2",
+      "unit": "9",
+      "en": "If I had lots of money, I'd travel around the world.",
+      "a": [
+        "Si j'avais beaucoup d'argent, je voyagerais dans le monde entier.",
+        "Si j'avais beaucoup d'argent, je voyagerais autour du monde.",
+        "Si j'avais beaucoup d'argent, je voyagerais à travers le monde.",
+        "Si j'avais beaucoup d'argent, je ferais le tour du monde.",
+        "Si j'avais beaucoup d'argent, je voyagerais partout dans le monde."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-15-07",
+      "level": "A2",
+      "unit": "9",
+      "en": "I want to work in Paris.",
+      "a": [
+        "Je veux travailler à Paris.",
+        "Je voudrais travailler à Paris."
+      ],
+      "tags": [
+        "verb-infinitive"
+      ]
+    },
+    {
+      "id": "tr-15-08",
+      "level": "A2",
+      "unit": "9",
+      "en": "I'll ask my parents if I can go there.",
+      "a": [
+        "Je demanderai à mes parents si je peux y aller.",
+        "Je vais demander à mes parents si je peux y aller.",
+        "Je demanderai à mes parents si je peux aller là-bas.",
+        "Je vais demander à mes parents si je peux aller là-bas."
+      ],
+      "tags": [
+        "indirect-questions"
+      ]
+    },
+    {
+      "id": "tr-15-09",
+      "level": "A2",
+      "unit": "9",
+      "en": "My sister wants to become a teacher.",
+      "a": [
+        "Ma sœur veut devenir professeure.",
+        "Ma sœur veut devenir enseignante.",
+        "Ma sœur veut devenir institutrice.",
+        "Ma sœur veut devenir professeur.",
+        "Ma sœur voudrait devenir enseignante.",
+        "Ma sœur voudrait devenir professeure.",
+        "Ma sœur voudrait devenir institutrice."
+      ],
+      "tags": [
+        "verb-infinitive"
+      ]
+    },
+    {
+      "id": "tr-15-10",
+      "level": "A2",
+      "unit": "9",
+      "en": "I'll learn to drive.",
+      "a": [
+        "J'apprendrai à conduire.",
+        "Je vais apprendre à conduire.",
+        "J'apprendrai à conduire une voiture.",
+        "Je vais apprendre à conduire une voiture."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-15-11",
+      "level": "A2",
+      "unit": "9",
+      "en": "I'll live in a small flat.",
+      "a": [
+        "J'habiterai dans un petit appartement.",
+        "Je vais habiter dans un petit appartement.",
+        "Je vivrai dans un petit appartement.",
+        "Je vais vivre dans un petit appartement."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-15-12",
+      "level": "A2",
+      "unit": "9",
+      "en": "If I don't have any money, I won't go.",
+      "a": [
+        "Si je n'ai pas d'argent, je n'irai pas.",
+        "Si je n'ai pas d'argent, je ne partirai pas.",
+        "Si je n'ai pas d'argent, je n'y irai pas.",
+        "Si je n'ai pas d'argent, je ne vais pas y aller.",
+        "Si je n'ai pas d'argent, je ne vais pas partir."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-15-13",
+      "level": "A2",
+      "unit": "9",
+      "en": "When I've finished school, I'll find a job.",
+      "a": [
+        "Quand j'aurai fini l'école, je trouverai un travail.",
+        "Quand j'aurai fini mes études, je trouverai un travail.",
+        "Quand j'aurai terminé mes études, je trouverai un travail.",
+        "Quand j'aurai terminé l'école, je trouverai un travail.",
+        "Après l'école, je trouverai un travail.",
+        "Après mes études, je trouverai un travail."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-15-14",
+      "level": "A2",
+      "unit": "9",
+      "en": "It'll be hard, but I'll manage.",
+      "a": [
+        "Ce sera difficile, mais j'y arriverai.",
+        "Ce sera difficile, mais je vais y arriver.",
+        "Ce sera dur, mais j'y arriverai.",
+        "Ce sera dur, mais je vais y arriver.",
+        "Ça sera difficile, mais j'y arriverai.",
+        "Ça sera dur, mais j'y arriverai.",
+        "Ça sera difficile, mais je vais y arriver.",
+        "Ça sera dur, mais je vais y arriver.",
+        "Ce sera difficile, mais je m'en sortirai.",
+        "Ce sera dur, mais je m'en sortirai."
+      ],
+      "tags": [
+        "y"
+      ]
+    },
+    {
+      "id": "tr-15-15",
+      "level": "A2",
+      "unit": "9",
+      "en": "Tomorrow I have an important interview.",
+      "a": [
+        "Demain, j'ai un entretien important.",
+        "Demain j'ai un entretien important.",
+        "Demain, j'ai un entretien d'embauche important.",
+        "Demain, j'ai un rendez-vous important."
+      ],
+      "tags": [
+        "adj-position"
+      ]
+    },
+    {
+      "id": "tr-15-16",
+      "level": "A2",
+      "unit": "9",
+      "en": "I hope I'll get into a good school.",
+      "a": [
+        "J'espère entrer dans une bonne école.",
+        "J'espère être admis dans une bonne école.",
+        "J'espère être admise dans une bonne école.",
+        "J'espère être accepté dans une bonne école.",
+        "J'espère être acceptée dans une bonne école.",
+        "J'espère que je vais entrer dans une bonne école.",
+        "J'espère que j'entrerai dans une bonne école.",
+        "J'espère que je serai admis dans une bonne école.",
+        "J'espère que je serai admise dans une bonne école."
+      ],
+      "tags": [
+        "verb-constructions"
+      ]
+    },
+    {
+      "id": "tr-9-30",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "This T-shirt is too small. Do you have a bigger one? (vous)",
+      "a": [
+        "Ce t-shirt est trop petit. Vous en avez un plus grand ?",
+        "Ce tee-shirt est trop petit. Vous en avez un plus grand ?",
+        "Ce t-shirt est trop petit. Avez-vous un plus grand ?"
+      ],
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "id": "tr-9-31",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I only wear black.",
+      "a": [
+        "Je ne porte que du noir.",
+        "Je porte seulement du noir.",
+        "Je ne mets que du noir."
+      ],
+      "tags": [
+        "ne-que"
+      ]
+    },
+    {
+      "id": "tr-9-32",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I bought this skirt yesterday and I already love it.",
+      "a": [
+        "J'ai acheté cette jupe hier et je l'adore déjà.",
+        "J'ai acheté cette jupe hier et je l'adore."
+      ],
+      "tags": [
+        "direct-object"
+      ]
+    },
+    {
+      "id": "tr-9-33",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "Which jumper suits you best? (tu)",
+      "a": [
+        "Quel pull te va le mieux ?",
+        "Quel pull te va mieux ?"
+      ],
+      "tags": [
+        "quel"
+      ]
+    },
+    {
+      "id": "tr-9-34",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I don't want to wear a uniform.",
+      "a": [
+        "Je ne veux pas porter d'uniforme.",
+        "Je ne veux pas porter un uniforme."
+      ],
+      "tags": [
+        "article-negation"
+      ]
+    },
+    {
+      "id": "tr-9-35",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I never wear a tie.",
+      "a": [
+        "Je ne porte jamais de cravate."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-9-36",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "In winter I wear a warm jacket and gloves.",
+      "a": [
+        "En hiver, je porte une veste chaude et des gants.",
+        "L'hiver, je porte une veste chaude et des gants.",
+        "En hiver, je porte un manteau chaud et des gants."
+      ],
+      "tags": [
+        "adj-position"
+      ]
+    },
+    {
+      "id": "tr-9-37",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "These shoes are nicer than mine.",
+      "a": [
+        "Ces chaussures sont plus belles que les miennes.",
+        "Ces chaussures sont plus jolies que les miennes."
+      ],
+      "tags": [
+        "possessive-pronouns"
+      ]
+    },
+    {
+      "id": "tr-9-38",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "The shop where I bought my jacket is closed.",
+      "a": [
+        "Le magasin où j'ai acheté ma veste est fermé."
+      ],
+      "tags": [
+        "relative-qui-que"
+      ]
+    },
+    {
+      "id": "tr-9-39",
+      "level": "A2",
+      "unit": "6.1",
+      "en": "I paid by card and got a receipt.",
+      "a": [
+        "J'ai payé par carte et j'ai reçu un ticket.",
+        "J'ai payé par carte et j'ai reçu un reçu."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-31",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "On Sunday we watched a film and then went to bed.",
+      "a": [
+        "Dimanche, nous avons regardé un film, puis nous sommes allés dormir.",
+        "Dimanche, nous avons regardé un film, puis nous sommes allés nous coucher.",
+        "Dimanche, on a regardé un film, puis on est allé dormir.",
+        "Dimanche, on a regardé un film, puis on est allé se coucher."
+      ],
+      "tags": [
+        "passe-compose-etre"
+      ]
+    },
+    {
+      "id": "tr-10-32",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "On Friday we had a French test.",
+      "a": [
+        "Vendredi, nous avons eu un contrôle de français.",
+        "Vendredi, nous avons eu un test de français.",
+        "Vendredi, on a eu un contrôle de français.",
+        "Vendredi, on a eu un test de français."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-33",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I was scared, but I managed it.",
+      "a": [
+        "J'ai eu peur, mais j'ai réussi.",
+        "J'ai eu peur mais j'ai réussi."
+      ],
+      "tags": [
+        "avoir-expressions"
+      ]
+    },
+    {
+      "id": "tr-10-34",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "Last night I didn't eat anything.",
+      "a": [
+        "Hier soir, je n'ai rien mangé.",
+        "Hier soir je n'ai rien mangé."
+      ],
+      "tags": [
+        "negation-inventory"
+      ]
+    },
+    {
+      "id": "tr-10-35",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I met Marie at the station. She didn't recognise me.",
+      "a": [
+        "J'ai rencontré Marie à la gare. Elle ne m'a pas reconnu.",
+        "J'ai rencontré Marie à la gare. Elle ne m'a pas reconnue."
+      ],
+      "tags": [
+        "pc-agreement"
+      ]
+    },
+    {
+      "id": "tr-10-36",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "We phoned him, but he didn't answer.",
+      "a": [
+        "Nous lui avons téléphoné, mais il n'a pas répondu.",
+        "On lui a téléphoné, mais il n'a pas répondu.",
+        "Nous l'avons appelé, mais il n'a pas répondu.",
+        "On l'a appelé, mais il n'a pas répondu."
+      ],
+      "tags": [
+        "indirect-object"
+      ]
+    },
+    {
+      "id": "tr-10-37",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "Where did you go after school? (tu, to a boy)",
+      "a": [
+        "Où es-tu allé après l'école ?",
+        "Où est-ce que tu es allé après l'école ?",
+        "Tu es allé où après l'école ?",
+        "Où es-tu allée après l'école ?",
+        "Où est-ce que tu es allée après l'école ?",
+        "Tu es allée où après l'école ?"
+      ],
+      "tags": [
+        "questions-every-form"
+      ]
+    },
+    {
+      "id": "tr-10-38",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "Why didn't you come? (tu, to a boy)",
+      "a": [
+        "Pourquoi tu n'es pas venu ?",
+        "Pourquoi n'es-tu pas venu ?",
+        "Pourquoi est-ce que tu n'es pas venu ?",
+        "Pourquoi tu n'es pas venue ?",
+        "Pourquoi n'es-tu pas venue ?",
+        "Pourquoi est-ce que tu n'es pas venue ?"
+      ],
+      "tags": [
+        "questions-every-form"
+      ]
+    },
+    {
+      "id": "tr-10-39",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I was ill, so I stayed at home. (boy)",
+      "a": [
+        "J'étais malade, donc je suis resté à la maison.",
+        "J'étais malade, alors je suis resté à la maison.",
+        "J'étais malade, donc je suis resté chez moi.",
+        "J'étais malade, alors je suis resté chez moi.",
+        "J'étais malade, donc je suis restée à la maison.",
+        "J'étais malade, alors je suis restée à la maison."
+      ],
+      "tags": [
+        "cause-consequence"
+      ]
+    },
+    {
+      "id": "tr-10-40",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "I bought myself tickets for the concert.",
+      "a": [
+        "Je me suis acheté des billets pour le concert.",
+        "J'ai acheté des billets pour le concert.",
+        "Je me suis acheté des places pour le concert.",
+        "J'ai acheté des places pour le concert."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-10-41",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "Yesterday we came back very late.",
+      "a": [
+        "Hier, nous sommes rentrés très tard.",
+        "Hier, on est rentré très tard.",
+        "Hier, nous sommes revenus très tard.",
+        "Hier, on est revenu très tard."
+      ],
+      "tags": [
+        "passe-compose-etre"
+      ]
+    },
+    {
+      "id": "tr-10-42",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "What happened? I fell down the stairs.",
+      "a": [
+        "Qu'est-ce qui s'est passé ? Je suis tombé dans l'escalier.",
+        "Qu'est-ce qui s'est passé ? Je suis tombée dans l'escalier.",
+        "Que s'est-il passé ? Je suis tombé dans l'escalier.",
+        "Que s'est-il passé ? Je suis tombée dans l'escalier."
+      ],
+      "tags": [
+        "passer-meanings"
+      ]
+    },
+    {
+      "id": "tr-10-43",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "This morning I woke up at six o'clock.",
+      "a": [
+        "Ce matin, je me suis réveillé à six heures.",
+        "Ce matin, je me suis réveillée à six heures.",
+        "Ce matin je me suis réveillé à six heures.",
+        "Ce matin je me suis réveillée à six heures."
+      ],
+      "tags": [
+        "reflexive-advanced"
+      ]
+    },
+    {
+      "id": "tr-10-44",
+      "level": "A2",
+      "unit": "6.2",
+      "en": "The train had already left when I got to the station.",
+      "a": [
+        "Le train était déjà parti quand je suis arrivé à la gare.",
+        "Le train était déjà parti quand je suis arrivée à la gare.",
+        "Le train était déjà parti lorsque je suis arrivé à la gare.",
+        "Le train était déjà parti lorsque je suis arrivée à la gare."
+      ],
+      "tags": [
+        "plus-que-parfait"
+      ]
+    },
+    {
+      "id": "tr-11-27",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "This year I want to go to the mountains.",
+      "a": [
+        "Cette année, je veux aller à la montagne.",
+        "Cette année, je veux aller en montagne.",
+        "Cette année, je voudrais aller à la montagne.",
+        "Cette année, je voudrais aller en montagne."
+      ],
+      "tags": [
+        "verb-infinitive"
+      ]
+    },
+    {
+      "id": "tr-11-28",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "We booked a hotel by the sea.",
+      "a": [
+        "Nous avons réservé un hôtel au bord de la mer.",
+        "Nous avons réservé un hôtel près de la mer.",
+        "On a réservé un hôtel au bord de la mer.",
+        "On a réservé un hôtel près de la mer."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-11-29",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "I had my passport in my pocket.",
+      "a": [
+        "J'avais mon passeport dans ma poche.",
+        "J'avais mon passeport dans la poche."
+      ],
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "tr-11-30",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "We missed the train and had to wait two hours.",
+      "a": [
+        "Nous avons raté le train et nous avons dû attendre deux heures.",
+        "On a raté le train et on a dû attendre deux heures.",
+        "Nous avons manqué le train et nous avons dû attendre deux heures.",
+        "On a manqué le train et on a dû attendre deux heures."
+      ],
+      "tags": [
+        "necessity"
+      ]
+    },
+    {
+      "id": "tr-11-31",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "There were lots of people on the beach.",
+      "a": [
+        "Il y avait beaucoup de monde sur la plage.",
+        "Il y avait beaucoup de gens sur la plage.",
+        "Il y avait beaucoup de monde à la plage.",
+        "Il y avait beaucoup de gens à la plage."
+      ],
+      "tags": [
+        "il-y-a"
+      ]
+    },
+    {
+      "id": "tr-11-32",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "The sea was warm and the water was clean.",
+      "a": [
+        "La mer était chaude et l'eau était propre.",
+        "La mer était chaude et l'eau était claire.",
+        "La mer était chaude et l'eau était limpide."
+      ],
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "tr-11-33",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "We ate fish and drank local wine.",
+      "a": [
+        "Nous mangions du poisson et nous buvions du vin local.",
+        "On mangeait du poisson et on buvait du vin local.",
+        "Nous avons mangé du poisson et nous avons bu du vin local.",
+        "On a mangé du poisson et on a bu du vin local.",
+        "Nous mangions du poisson et nous buvions le vin local."
+      ],
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "tr-11-34",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "We'd like to go to France by train.",
+      "a": [
+        "Nous voudrions aller en France en train.",
+        "Nous aimerions aller en France en train.",
+        "On voudrait aller en France en train.",
+        "On aimerait aller en France en train."
+      ],
+      "tags": [
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "tr-11-35",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "When we're in Paris, we'll visit the Louvre.",
+      "a": [
+        "Quand nous serons à Paris, nous visiterons le Louvre.",
+        "Quand on sera à Paris, on visitera le Louvre.",
+        "Quand nous serons à Paris, nous allons visiter le Louvre.",
+        "Quand on sera à Paris, on va visiter le Louvre."
+      ],
+      "tags": [
+        "time-connectors"
+      ]
+    },
+    {
+      "id": "tr-11-36",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "I don't know how much it costs.",
+      "a": [
+        "Je ne sais pas combien ça coûte.",
+        "Je ne sais pas combien cela coûte.",
+        "Je ne sais pas combien c'est."
+      ],
+      "tags": [
+        "indirect-questions"
+      ]
+    },
+    {
+      "id": "tr-11-37",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "I'll be back in a week.",
+      "a": [
+        "Je reviendrai dans une semaine.",
+        "Je serai de retour dans une semaine.",
+        "Je vais revenir dans une semaine.",
+        "Je rentrerai dans une semaine.",
+        "Je vais rentrer dans une semaine."
+      ],
+      "tags": [
+        "time-expressions"
+      ]
+    },
+    {
+      "id": "tr-11-38",
+      "level": "A2",
+      "unit": "7.1",
+      "en": "These holiday photos are beautiful.",
+      "a": [
+        "Ces photos de vacances sont magnifiques.",
+        "Ces photos de vacances sont superbes.",
+        "Ces photos de vacances sont splendides.",
+        "Ces photos de vacances sont belles."
+      ],
+      "tags": [
+        "demonstratives"
+      ]
+    },
+    {
+      "id": "tr-12-24",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I have a sore throat and a runny nose.",
+      "a": [
+        "J'ai mal à la gorge et j'ai le nez qui coule.",
+        "J'ai mal à la gorge et un rhume.",
+        "J'ai mal à la gorge et je suis enrhumé.",
+        "J'ai mal à la gorge et je suis enrhumée."
+      ],
+      "tags": [
+        "avoir-expressions"
+      ]
+    },
+    {
+      "id": "tr-12-25",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I have an upset stomach.",
+      "a": [
+        "J'ai mal au ventre.",
+        "J'ai mal à l'estomac.",
+        "J'ai mal au cœur."
+      ],
+      "tags": [
+        "contractions"
+      ]
+    },
+    {
+      "id": "tr-12-26",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "You should go to bed early. (tu)",
+      "a": [
+        "Tu devrais te coucher tôt.",
+        "Tu devrais aller te coucher tôt.",
+        "Tu devrais aller dormir tôt."
+      ],
+      "tags": [
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "tr-12-27",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "Yesterday I was in bed all day.",
+      "a": [
+        "Hier, j'ai été au lit toute la journée.",
+        "Hier, je suis resté au lit toute la journée.",
+        "Hier, j'ai passé toute la journée au lit.",
+        "Hier, je suis restée au lit toute la journée."
+      ],
+      "tags": [
+        "tout"
+      ]
+    },
+    {
+      "id": "tr-12-28",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "I can't sleep because I'm hot.",
+      "a": [
+        "Je n'arrive pas à dormir parce que j'ai chaud.",
+        "Je ne peux pas dormir parce que j'ai chaud.",
+        "Je n'arrive pas à dormir, parce que j'ai chaud."
+      ],
+      "tags": [
+        "avoir-expressions"
+      ]
+    },
+    {
+      "id": "tr-12-29",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "Drink plenty and don't eat fatty food. (tu)",
+      "a": [
+        "Bois beaucoup et ne mange pas de gras.",
+        "Bois beaucoup et ne mange pas de choses grasses.",
+        "Bois beaucoup d'eau et ne mange pas de gras."
+      ],
+      "tags": [
+        "imperative"
+      ]
+    },
+    {
+      "id": "tr-12-30",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "Never forget to wash your hands. (tu)",
+      "a": [
+        "N'oublie jamais de te laver les mains."
+      ],
+      "tags": [
+        "negation-inventory"
+      ]
+    },
+    {
+      "id": "tr-12-31",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "As soon as I'm better, I'll start playing basketball again.",
+      "a": [
+        "Dès que je serai guéri, je recommencerai à jouer au basket.",
+        "Dès que je serai guérie, je recommencerai à jouer au basket.",
+        "Dès que je serai guéri, je me remettrai à jouer au basket.",
+        "Dès que je serai guérie, je me remettrai à jouer au basket."
+      ],
+      "tags": [
+        "futur-anterieur"
+      ]
+    },
+    {
+      "id": "tr-12-32",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "The doctor told me to drink more water.",
+      "a": [
+        "Le médecin m'a dit de boire plus d'eau.",
+        "Le médecin m'a dit de boire davantage d'eau.",
+        "Le médecin m'a conseillé de boire plus d'eau.",
+        "Le médecin m'a conseillé de boire davantage d'eau.",
+        "Le docteur m'a dit de boire plus d'eau.",
+        "Le docteur m'a conseillé de boire plus d'eau."
+      ],
+      "tags": [
+        "ask-say-tell"
+      ]
+    },
+    {
+      "id": "tr-12-33",
+      "level": "A2",
+      "unit": "7.2",
+      "en": "What does it feel like?",
+      "a": [
+        "C'est quel genre de sensation ?",
+        "Quel effet ça fait ?",
+        "Ça fait quoi ?",
+        "Qu'est-ce que ça fait ?"
+      ],
+      "tags": [
+        "questions-every-form"
+      ]
+    },
+    {
+      "id": "tr-13-20",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "How many hours a day do you spend on your phone? (tu)",
+      "a": [
+        "Combien d'heures par jour passes-tu sur ton téléphone ?",
+        "Combien d'heures par jour est-ce que tu passes sur ton téléphone ?",
+        "Tu passes combien d'heures par jour sur ton téléphone ?",
+        "Combien d'heures par jour passes-tu sur ton portable ?",
+        "Combien d'heures par jour est-ce que tu passes sur ton portable ?",
+        "Tu passes combien d'heures par jour sur ton portable ?"
+      ],
+      "tags": [
+        "passer-meanings"
+      ]
+    },
+    {
+      "id": "tr-13-21",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I don't like social media because it's superficial.",
+      "a": [
+        "Je n'aime pas les réseaux sociaux parce qu'ils sont superficiels.",
+        "Je n'aime pas les réseaux sociaux, parce qu'ils sont superficiels."
+      ],
+      "tags": [
+        "cause-consequence"
+      ]
+    },
+    {
+      "id": "tr-13-22",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I downloaded a new app.",
+      "a": [
+        "J'ai téléchargé une nouvelle application.",
+        "J'ai téléchargé une nouvelle appli."
+      ],
+      "tags": [
+        "beau-nouveau-vieux"
+      ]
+    },
+    {
+      "id": "tr-13-23",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "Can you send me that link? (tu)",
+      "a": [
+        "Tu peux m'envoyer ce lien ?",
+        "Peux-tu m'envoyer ce lien ?",
+        "Est-ce que tu peux m'envoyer ce lien ?"
+      ],
+      "tags": [
+        "me-te-nous-vous"
+      ]
+    },
+    {
+      "id": "tr-13-24",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I've forgotten my password.",
+      "a": [
+        "J'ai oublié mon mot de passe."
+      ],
+      "tags": [
+        "passe-compose-avoir"
+      ]
+    },
+    {
+      "id": "tr-13-25",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "I'll send you the film tomorrow. (tu)",
+      "a": [
+        "Je t'enverrai ce film demain.",
+        "Je vais t'envoyer ce film demain.",
+        "Demain, je t'enverrai ce film.",
+        "Demain, je vais t'envoyer ce film."
+      ],
+      "tags": [
+        "me-te-nous-vous"
+      ]
+    },
+    {
+      "id": "tr-13-26",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "It's true that children spend too much time in front of screens.",
+      "a": [
+        "C'est vrai que les enfants passent trop de temps devant les écrans.",
+        "Il est vrai que les enfants passent trop de temps devant les écrans.",
+        "C'est vrai que les enfants passent trop de temps sur les écrans."
+      ],
+      "tags": [
+        "intensity"
+      ]
+    },
+    {
+      "id": "tr-13-27",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "My parents let me play for an hour a day.",
+      "a": [
+        "Mes parents m'ont permis de jouer une heure par jour.",
+        "Mes parents m'ont autorisé à jouer une heure par jour.",
+        "Mes parents m'ont laissé jouer une heure par jour."
+      ],
+      "tags": [
+        "verbs-a-de-inf"
+      ]
+    },
+    {
+      "id": "tr-13-28",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "The game you're talking about is free. (tu)",
+      "a": [
+        "Le jeu dont tu parles est gratuit."
+      ],
+      "tags": [
+        "relative-ou-dont"
+      ]
+    },
+    {
+      "id": "tr-13-29",
+      "level": "A2",
+      "unit": "8.1",
+      "en": "Stop looking at your phone all the time! (tu)",
+      "a": [
+        "Arrête de regarder ton téléphone tout le temps !",
+        "Arrête de regarder ton portable tout le temps !",
+        "Arrête de toujours regarder ton téléphone !",
+        "Arrête de toujours regarder ton portable !"
+      ],
+      "tags": [
+        "verbs-a-de-inf"
+      ]
+    },
+    {
+      "id": "tr-14-18",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "This year I'll celebrate my birthday at home.",
+      "a": [
+        "Cette année, je fêterai mon anniversaire à la maison.",
+        "Cette année, je vais fêter mon anniversaire à la maison.",
+        "Cette année, je ferai mon anniversaire à la maison.",
+        "Cette année, je vais faire mon anniversaire à la maison."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-14-19",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "In France Christmas is celebrated on the evening of the 24th of December.",
+      "a": [
+        "En France, on fête Noël le soir du 24 décembre.",
+        "En France, on célèbre Noël le soir du 24 décembre.",
+        "En France, on fête Noël le 24 décembre au soir.",
+        "En France, on célèbre Noël le 24 décembre au soir."
+      ],
+      "tags": [
+        "on"
+      ]
+    },
+    {
+      "id": "tr-14-20",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "My sister baked a cake and decorated it.",
+      "a": [
+        "Ma sœur a fait un gâteau et l'a décoré.",
+        "Ma sœur a préparé un gâteau et l'a décoré.",
+        "Ma sœur a cuisiné un gâteau et l'a décoré."
+      ],
+      "tags": [
+        "pc-agreement"
+      ]
+    },
+    {
+      "id": "tr-14-21",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "Who'll bring the drinks?",
+      "a": [
+        "Qui va apporter les boissons ?",
+        "Qui apportera les boissons ?",
+        "Qui est-ce qui apportera les boissons ?",
+        "Qui est-ce qui va apporter les boissons ?",
+        "Qui va apporter à boire ?",
+        "Qui apportera à boire ?"
+      ],
+      "tags": [
+        "put-wear-bring"
+      ]
+    },
+    {
+      "id": "tr-14-22",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "I'm glad you came. (tu; a boy speaking to a boy)",
+      "a": [
+        "Je suis content que tu sois venu.",
+        "Je suis heureux que tu sois venu.",
+        "Je suis ravi que tu sois venu.",
+        "Je suis content que tu sois venue.",
+        "Je suis heureux que tu sois venue.",
+        "Je suis ravi que tu sois venue."
+      ],
+      "tags": [
+        "subjonctif-uses"
+      ]
+    },
+    {
+      "id": "tr-14-23",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "The presents are under the Christmas tree.",
+      "a": [
+        "Les cadeaux sont sous le sapin.",
+        "Les cadeaux sont sous l'arbre de Noël."
+      ],
+      "tags": [
+        "place"
+      ]
+    },
+    {
+      "id": "tr-14-24",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "We'll open them at midnight.",
+      "a": [
+        "Nous les ouvrirons à minuit.",
+        "On les ouvrira à minuit.",
+        "Nous allons les ouvrir à minuit.",
+        "On va les ouvrir à minuit."
+      ],
+      "tags": [
+        "pronoun-position"
+      ]
+    },
+    {
+      "id": "tr-14-25",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "Everyone was looking forward to the holidays.",
+      "a": [
+        "Tout le monde attendait les vacances avec impatience.",
+        "Tous attendaient les vacances avec impatience.",
+        "Tout le monde se réjouissait des vacances.",
+        "Tous se réjouissaient des vacances."
+      ],
+      "tags": [
+        "tout"
+      ]
+    },
+    {
+      "id": "tr-14-26",
+      "level": "A2",
+      "unit": "8.2",
+      "en": "At the party we sang and danced.",
+      "a": [
+        "À la fête, nous avons chanté et dansé.",
+        "À la fête, on a chanté et dansé.",
+        "À la fête, nous chantions et dansions.",
+        "À la fête, on chantait et dansait."
+      ],
+      "tags": [
+        "pc-vs-imparfait"
+      ]
+    },
+    {
+      "id": "tr-15-17",
+      "level": "A2",
+      "unit": "9",
+      "en": "I'm interested in programming.",
+      "a": [
+        "Je m'intéresse à la programmation.",
+        "Je m'intéresse à l'informatique."
+      ],
+      "tags": [
+        "verb-constructions"
+      ]
+    },
+    {
+      "id": "tr-15-18",
+      "level": "A2",
+      "unit": "9",
+      "en": "I hope to study abroad.",
+      "a": [
+        "J'espère que j'étudierai à l'étranger.",
+        "J'espère étudier à l'étranger.",
+        "J'espère que je vais étudier à l'étranger.",
+        "J'espère faire mes études à l'étranger."
+      ],
+      "tags": [
+        "verbs-a-de-inf"
+      ]
+    },
+    {
+      "id": "tr-15-19",
+      "level": "A2",
+      "unit": "9",
+      "en": "I'm planning to become an engineer.",
+      "a": [
+        "J'ai l'intention de devenir ingénieur.",
+        "Je compte devenir ingénieur.",
+        "J'ai l'intention de devenir ingénieure.",
+        "Je prévois de devenir ingénieur.",
+        "Je veux devenir ingénieur."
+      ],
+      "tags": [
+        "avoir-expressions"
+      ]
+    },
+    {
+      "id": "tr-15-20",
+      "level": "A2",
+      "unit": "9",
+      "en": "If I were rich, I'd buy a house.",
+      "a": [
+        "Si j'étais riche, j'achèterais une maison.",
+        "Si j'étais riche, je m'achèterais une maison."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-15-21",
+      "level": "A2",
+      "unit": "9",
+      "en": "What do you want to do in the future? (tu)",
+      "a": [
+        "Qu'est-ce que tu veux faire plus tard ?",
+        "Qu'est-ce que tu veux faire dans le futur ?",
+        "Que veux-tu faire plus tard ?",
+        "Tu veux faire quoi plus tard ?",
+        "Qu'est-ce que tu veux faire à l'avenir ?",
+        "Que veux-tu faire à l'avenir ?"
+      ],
+      "tags": [
+        "questions-every-form"
+      ]
+    },
+    {
+      "id": "tr-15-22",
+      "level": "A2",
+      "unit": "9",
+      "en": "I have to study a lot to succeed.",
+      "a": [
+        "Je dois beaucoup étudier pour réussir.",
+        "Je dois beaucoup travailler pour réussir.",
+        "Il faut que j'étudie beaucoup pour réussir.",
+        "Il faut que je travaille beaucoup pour réussir."
+      ],
+      "tags": [
+        "purpose"
+      ]
+    },
+    {
+      "id": "tr-15-23",
+      "level": "A2",
+      "unit": "9",
+      "en": "In ten years the world will be different.",
+      "a": [
+        "Dans dix ans, le monde sera différent.",
+        "Dans dix ans, le monde sera autre."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-15-24",
+      "level": "A2",
+      "unit": "9",
+      "en": "I want to earn money and travel.",
+      "a": [
+        "Je veux gagner de l'argent et voyager."
+      ],
+      "tags": [
+        "verb-infinitive"
+      ]
+    },
+    {
+      "id": "tr-15-25",
+      "level": "A2",
+      "unit": "9",
+      "en": "My parents support me whatever I do.",
+      "a": [
+        "Mes parents me soutiennent, quoi que je fasse.",
+        "Mes parents me soutiennent, peu importe ce que je fais."
+      ],
+      "tags": [
+        "subjonctif-conjunctions"
+      ]
+    },
+    {
+      "id": "tr-15-26",
+      "level": "A2",
+      "unit": "9",
+      "en": "Next time there's an exam, I'll be better prepared.",
+      "a": [
+        "La prochaine fois qu'il y aura un examen, je serai mieux préparé.",
+        "La prochaine fois qu'il y aura un examen, je serai mieux préparée.",
+        "La prochaine fois, je serai mieux préparé.",
+        "La prochaine fois, je serai mieux préparée."
+      ],
+      "tags": [
+        "time-connectors"
+      ]
+    },
+    {
+      "id": "tr-g-01",
+      "level": "B1",
+      "en": "If I knew, I'd tell you. (tu)",
+      "a": [
+        "Si je savais, je te le dirais.",
+        "Si je le savais, je te le dirais."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-g-02",
+      "level": "B1",
+      "en": "If it rained, we'd stay at home.",
+      "a": [
+        "S'il pleuvait, nous resterions à la maison.",
+        "S'il pleuvait, on resterait à la maison."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-g-03",
+      "level": "B1",
+      "en": "If you had come earlier, you'd have seen him. (tu, to a boy)",
+      "a": [
+        "Si tu étais venu plus tôt, tu l'aurais vu.",
+        "Si tu étais arrivé plus tôt, tu l'aurais vu."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-g-04",
+      "level": "B1",
+      "en": "If I were you, I wouldn't say anything. (tu)",
+      "a": [
+        "Si j'étais à ta place, je ne dirais rien."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-g-05",
+      "level": "B1",
+      "en": "If I had more time, I'd do more exercise.",
+      "a": [
+        "Si j'avais plus de temps, je ferais plus de sport.",
+        "Si j'avais plus de temps, je m'entraînerais plus.",
+        "Si j'avais plus de temps, je m'entraînerais davantage."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-g-06",
+      "level": "B1",
+      "en": "What would you do if you won a million? (tu)",
+      "a": [
+        "Que ferais-tu si tu gagnais un million ?",
+        "Qu'est-ce que tu ferais si tu gagnais un million ?",
+        "Tu ferais quoi si tu gagnais un million ?"
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-g-07",
+      "level": "B1",
+      "en": "If the weather's nice, we'll go on a trip.",
+      "a": [
+        "S'il fait beau, nous irons en excursion.",
+        "S'il fait beau, nous irons en randonnée.",
+        "S'il fait beau, on ira en excursion.",
+        "S'il fait beau, on ira en randonnée.",
+        "S'il fait beau, nous ferons une excursion.",
+        "S'il fait beau, on fera une excursion."
+      ],
+      "tags": [
+        "si-clauses"
+      ]
+    },
+    {
+      "id": "tr-g-08",
+      "level": "B1",
+      "en": "He told me he would come tomorrow.",
+      "a": [
+        "Il m'a dit qu'il viendrait demain."
+      ],
+      "tags": [
+        "reported-speech"
+      ]
+    },
+    {
+      "id": "tr-g-09",
+      "level": "B1",
+      "en": "She asked me where I lived.",
+      "a": [
+        "Elle m'a demandé où j'habitais."
+      ],
+      "tags": [
+        "indirect-questions"
+      ]
+    },
+    {
+      "id": "tr-g-10",
+      "level": "B1",
+      "en": "He asked me if I had time.",
+      "a": [
+        "Il m'a demandé si j'avais le temps."
+      ],
+      "tags": [
+        "indirect-questions"
+      ]
+    },
+    {
+      "id": "tr-g-11",
+      "level": "B1",
+      "en": "She said she was tired.",
+      "a": [
+        "Elle a dit qu'elle était fatiguée."
+      ],
+      "tags": [
+        "reported-speech"
+      ]
+    },
+    {
+      "id": "tr-g-12",
+      "level": "B1",
+      "en": "She told me she would call me.",
+      "a": [
+        "Elle m'a dit qu'elle m'appellerait.",
+        "Elle m'a dit qu'elle me téléphonerait."
+      ],
+      "tags": [
+        "reported-speech"
+      ]
+    },
+    {
+      "id": "tr-g-13",
+      "level": "B1",
+      "en": "He wanted to know what I was doing.",
+      "a": [
+        "Il voulait savoir ce que je faisais."
+      ],
+      "tags": [
+        "indirect-questions"
+      ]
+    },
+    {
+      "id": "tr-g-14",
+      "level": "B1",
+      "en": "It's important that you arrive on time. (tu)",
+      "a": [
+        "Il est important que tu arrives à l'heure.",
+        "Il est important que tu viennes à l'heure."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-15",
+      "level": "B1",
+      "en": "I need you to help me. (tu)",
+      "a": [
+        "Il faut que tu m'aides.",
+        "J'ai besoin que tu m'aides."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-16",
+      "level": "B1",
+      "en": "I want you to come. (tu)",
+      "a": [
+        "Je veux que tu viennes."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-17",
+      "level": "B1",
+      "en": "I'm afraid he won't come.",
+      "a": [
+        "J'ai peur qu'il ne vienne pas.",
+        "Je crains qu'il ne vienne pas."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-18",
+      "level": "B1",
+      "en": "It's a shame you can't come. (tu)",
+      "a": [
+        "C'est dommage que tu ne puisses pas venir."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-19",
+      "level": "B1",
+      "en": "I think he's right.",
+      "a": [
+        "Je pense qu'il a raison.",
+        "Je crois qu'il a raison."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-20",
+      "level": "B1",
+      "en": "I don't think he's right.",
+      "a": [
+        "Je ne pense pas qu'il ait raison.",
+        "Je ne crois pas qu'il ait raison."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-21",
+      "level": "B1",
+      "en": "Although he's tired, he keeps working.",
+      "a": [
+        "Bien qu'il soit fatigué, il continue à travailler.",
+        "Bien qu'il soit fatigué, il continue de travailler.",
+        "Bien qu'il soit fatigué, il travaille encore."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-22",
+      "level": "B1",
+      "en": "Before you leave, call me. (tu)",
+      "a": [
+        "Avant que tu partes, appelle-moi.",
+        "Avant que tu ne partes, appelle-moi.",
+        "Avant de partir, appelle-moi.",
+        "Appelle-moi avant de partir.",
+        "Appelle-moi avant que tu partes."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-23",
+      "level": "B1",
+      "en": "I'll wait until you come. (tu)",
+      "a": [
+        "Je vais attendre jusqu'à ce que tu viennes.",
+        "J'attendrai jusqu'à ce que tu viennes.",
+        "J'attendrai jusqu'à ton arrivée."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-24",
+      "level": "B1",
+      "en": "To succeed, I have to study.",
+      "a": [
+        "Pour réussir, je dois étudier.",
+        "Pour réussir, je dois apprendre.",
+        "Pour réussir, il faut que j'étudie.",
+        "Pour réussir, il faut que j'apprenne."
+      ],
+      "tags": [
+        "verb-infinitive"
+      ]
+    },
+    {
+      "id": "tr-g-25",
+      "level": "B1",
+      "en": "I called so that they'd know I'd be late.",
+      "a": [
+        "J'ai appelé pour qu'ils sachent que j'arriverais en retard.",
+        "J'ai téléphoné pour qu'ils sachent que j'arriverais en retard.",
+        "J'ai appelé afin qu'ils sachent que j'arriverais en retard.",
+        "J'ai appelé pour qu'ils sachent que j'arriverai en retard.",
+        "J'ai téléphoné pour qu'ils sachent que j'arriverai en retard.",
+        "J'ai appelé afin qu'ils sachent que j'arriverai en retard."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-26",
+      "level": "B1",
+      "en": "When I arrived, they had already left.",
+      "a": [
+        "Quand je suis arrivé, ils étaient déjà partis.",
+        "Quand je suis arrivée, ils étaient déjà partis.",
+        "Lorsque je suis arrivé, ils étaient déjà partis."
+      ],
+      "tags": [
+        "plus-que-parfait"
+      ]
+    },
+    {
+      "id": "tr-g-27",
+      "level": "B1",
+      "en": "I had already eaten when she called.",
+      "a": [
+        "J'avais déjà mangé quand elle a appelé.",
+        "J'avais déjà mangé quand elle a téléphoné.",
+        "J'avais déjà mangé lorsqu'elle a appelé."
+      ],
+      "tags": [
+        "plus-que-parfait"
+      ]
+    },
+    {
+      "id": "tr-g-28",
+      "level": "B1",
+      "en": "I didn't know they had already left.",
+      "a": [
+        "Je ne savais pas qu'ils étaient déjà partis."
+      ],
+      "tags": [
+        "plus-que-parfait"
+      ]
+    },
+    {
+      "id": "tr-g-29",
+      "level": "B1",
+      "en": "She felt she had seen him somewhere before.",
+      "a": [
+        "Elle avait l'impression de l'avoir déjà vu quelque part.",
+        "Elle avait le sentiment de l'avoir déjà vu quelque part.",
+        "Elle avait l'impression qu'elle l'avait déjà vu quelque part."
+      ],
+      "tags": [
+        "plus-que-parfait"
+      ]
+    },
+    {
+      "id": "tr-g-30",
+      "level": "B1",
+      "en": "After eating, he went to bed.",
+      "a": [
+        "Après avoir mangé, il est allé dormir.",
+        "Après avoir mangé, il est allé se coucher.",
+        "Quand il a eu fini de manger, il est allé dormir."
+      ],
+      "tags": [
+        "gerondif"
+      ]
+    },
+    {
+      "id": "tr-g-31",
+      "level": "B1",
+      "en": "He walked down the street singing.",
+      "a": [
+        "Il marchait dans la rue en chantant.",
+        "Il marchait en chantant dans la rue.",
+        "Il allait dans la rue en chantant."
+      ],
+      "tags": [
+        "gerondif"
+      ]
+    },
+    {
+      "id": "tr-g-32",
+      "level": "B1",
+      "en": "I learn French by listening to songs.",
+      "a": [
+        "J'apprends le français en écoutant des chansons.",
+        "J'apprends le français en écoutant de la musique."
+      ],
+      "tags": [
+        "gerondif"
+      ]
+    },
+    {
+      "id": "tr-g-33",
+      "level": "B1",
+      "en": "I do my homework while listening to music.",
+      "a": [
+        "Je fais mes devoirs en écoutant de la musique.",
+        "Je fais mes devoirs en écoutant la musique."
+      ],
+      "tags": [
+        "gerondif"
+      ]
+    },
+    {
+      "id": "tr-g-34",
+      "level": "B1",
+      "en": "The house was built in 1900.",
+      "a": [
+        "La maison a été construite en 1900."
+      ],
+      "tags": [
+        "passive"
+      ]
+    },
+    {
+      "id": "tr-g-35",
+      "level": "B1",
+      "en": "This film was shot in France.",
+      "a": [
+        "Ce film a été tourné en France.",
+        "Ce film a été réalisé en France."
+      ],
+      "tags": [
+        "passive"
+      ]
+    },
+    {
+      "id": "tr-g-36",
+      "level": "B1",
+      "en": "The thief was caught by the police.",
+      "a": [
+        "Le voleur a été arrêté par la police.",
+        "Le voleur a été attrapé par la police.",
+        "Le voleur a été pris par la police."
+      ],
+      "tags": [
+        "passive"
+      ]
+    },
+    {
+      "id": "tr-g-37",
+      "level": "B1",
+      "en": "French is spoken here.",
+      "a": [
+        "Ici, on parle français.",
+        "On parle français ici.",
+        "Ici, le français est parlé.",
+        "Le français est parlé ici."
+      ],
+      "tags": [
+        "passive"
+      ]
+    },
+    {
+      "id": "tr-g-38",
+      "level": "B1",
+      "en": "That isn't done.",
+      "a": [
+        "Ça ne se fait pas.",
+        "Cela ne se fait pas.",
+        "On ne fait pas ça."
+      ],
+      "tags": [
+        "passive"
+      ]
+    },
+    {
+      "id": "tr-g-39",
+      "level": "B1",
+      "en": "The man you're talking about is my uncle. (tu)",
+      "a": [
+        "L'homme dont tu parles est mon oncle.",
+        "La personne dont tu parles est mon oncle.",
+        "L'homme dont tu parles, c'est mon oncle."
+      ],
+      "tags": [
+        "relative-ou-dont"
+      ]
+    },
+    {
+      "id": "tr-g-40",
+      "level": "B1",
+      "en": "The book I read was great.",
+      "a": [
+        "Le livre que j'ai lu était génial.",
+        "Le livre que j'ai lu était super.",
+        "Le livre que j'ai lu était excellent.",
+        "Le livre que j'ai lu était formidable."
+      ],
+      "tags": [
+        "relative-qui-que"
+      ]
+    },
+    {
+      "id": "tr-g-41",
+      "level": "B1",
+      "en": "I lost the thing I needed.",
+      "a": [
+        "J'ai perdu ce dont j'avais besoin.",
+        "J'ai perdu la chose dont j'avais besoin.",
+        "J'ai perdu l'objet dont j'avais besoin."
+      ],
+      "tags": [
+        "relative-ou-dont"
+      ]
+    },
+    {
+      "id": "tr-g-42",
+      "level": "B1",
+      "en": "I don't know what you want. (tu)",
+      "a": [
+        "Je ne sais pas ce que tu veux."
+      ],
+      "tags": [
+        "relative-ou-dont"
+      ]
+    },
+    {
+      "id": "tr-g-43",
+      "level": "B1",
+      "en": "I don't know what happened.",
+      "a": [
+        "Je ne sais pas ce qui s'est passé.",
+        "Je ne sais pas ce qui est arrivé.",
+        "Je ne sais pas ce qui s'est produit."
+      ],
+      "tags": [
+        "relative-ou-dont"
+      ]
+    },
+    {
+      "id": "tr-g-44",
+      "level": "B1",
+      "en": "Everything he says is true.",
+      "a": [
+        "Tout ce qu'il dit est vrai.",
+        "Tout ce qu'il dit, c'est vrai."
+      ],
+      "tags": [
+        "tout"
+      ]
+    },
+    {
+      "id": "tr-g-45",
+      "level": "B1",
+      "en": "What bothers me is the noise.",
+      "a": [
+        "Ce qui me dérange, c'est le bruit.",
+        "Ce qui me gêne, c'est le bruit."
+      ],
+      "tags": [
+        "emphasis"
+      ]
+    },
+    {
+      "id": "tr-g-46",
+      "level": "B1",
+      "en": "It was Marie who did it.",
+      "a": [
+        "C'est Marie qui l'a fait.",
+        "C'est Marie qui a fait ça."
+      ],
+      "tags": [
+        "emphasis"
+      ]
+    },
+    {
+      "id": "tr-g-47",
+      "level": "B1",
+      "en": "That's exactly what I want.",
+      "a": [
+        "C'est justement ça que je veux.",
+        "C'est ça que je veux.",
+        "C'est ça que je voudrais.",
+        "C'est exactement ça que je veux."
+      ],
+      "tags": [
+        "emphasis"
+      ]
+    },
+    {
+      "id": "tr-g-48",
+      "level": "B1",
+      "en": "Each of them has their own room.",
+      "a": [
+        "Chacun d'eux a sa propre chambre.",
+        "Chacun d'entre eux a sa propre chambre.",
+        "Chacun d'eux a sa chambre."
+      ],
+      "tags": [
+        "indefinites"
+      ]
+    },
+    {
+      "id": "tr-g-49",
+      "level": "B1",
+      "en": "Some people don't like music.",
+      "a": [
+        "Certaines personnes n'aiment pas la musique.",
+        "Certains n'aiment pas la musique."
+      ],
+      "tags": [
+        "indefinites"
+      ]
+    },
+    {
+      "id": "tr-g-50",
+      "level": "B1",
+      "en": "Several students arrived late.",
+      "a": [
+        "Plusieurs étudiants sont arrivés en retard.",
+        "Plusieurs élèves sont arrivés en retard.",
+        "Quelques étudiants sont arrivés en retard.",
+        "Quelques élèves sont arrivés en retard."
+      ],
+      "tags": [
+        "indefinites"
+      ]
+    },
+    {
+      "id": "tr-g-51",
+      "level": "B1",
+      "en": "None of them came.",
+      "a": [
+        "Aucun d'eux n'est venu.",
+        "Aucun d'entre eux n'est venu.",
+        "Personne parmi eux n'est venu."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-g-52",
+      "level": "B1",
+      "en": "I don't want either of them.",
+      "a": [
+        "Je ne veux ni l'un ni l'autre.",
+        "Je ne veux ni l'un, ni l'autre."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-g-53",
+      "level": "B1",
+      "en": "I never know anything.",
+      "a": [
+        "Je ne sais jamais rien."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-g-54",
+      "level": "B1",
+      "en": "I never want to see anyone again.",
+      "a": [
+        "Je ne veux plus jamais voir personne."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-g-55",
+      "level": "B1",
+      "en": "I only had one chance.",
+      "a": [
+        "Je n'ai eu qu'une seule chance.",
+        "Je n'ai eu qu'une chance."
+      ],
+      "tags": [
+        "ne-que"
+      ]
+    },
+    {
+      "id": "tr-g-56",
+      "level": "B1",
+      "en": "Give it to me! (tu)",
+      "a": [
+        "Donne-le-moi !"
+      ],
+      "tags": [
+        "pronoun-order"
+      ]
+    },
+    {
+      "id": "tr-g-57",
+      "level": "B1",
+      "en": "Don't give it to me! (tu)",
+      "a": [
+        "Ne me le donne pas !"
+      ],
+      "tags": [
+        "pronoun-order"
+      ]
+    },
+    {
+      "id": "tr-g-58",
+      "level": "B1",
+      "en": "He sent them to us.",
+      "a": [
+        "Il nous les a envoyés.",
+        "Il nous les a envoyées."
+      ],
+      "tags": [
+        "pronoun-order"
+      ]
+    },
+    {
+      "id": "tr-g-59",
+      "level": "B1",
+      "en": "There are lots of them.",
+      "a": [
+        "Il y en a beaucoup."
+      ],
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "id": "tr-g-60",
+      "level": "B1",
+      "en": "We have three of them.",
+      "a": [
+        "Nous en avons trois.",
+        "On en a trois."
+      ],
+      "tags": [
+        "en"
+      ]
+    },
+    {
+      "id": "tr-g-61",
+      "level": "B1",
+      "en": "Mine are bigger than yours. (tu)",
+      "a": [
+        "Les miens sont plus grands que les tiens.",
+        "Les miennes sont plus grandes que les tiennes."
+      ],
+      "tags": [
+        "possessive-pronouns"
+      ]
+    },
+    {
+      "id": "tr-g-62",
+      "level": "B1",
+      "en": "This isn't mine, it's hers.",
+      "a": [
+        "Ce n'est pas le mien, c'est le sien.",
+        "Ce n'est pas la mienne, c'est la sienne.",
+        "Ce n'est pas à moi, c'est à elle.",
+        "Ce n'est pas à moi, c'est à lui."
+      ],
+      "tags": [
+        "possessive-pronouns"
+      ]
+    },
+    {
+      "id": "tr-g-63",
+      "level": "B1",
+      "en": "Which book? The one I gave you. (tu)",
+      "a": [
+        "Quel livre ? Celui que je t'ai donné.",
+        "Quel livre ? Celui que je t'ai prêté."
+      ],
+      "tags": [
+        "demonstrative-pronouns"
+      ]
+    },
+    {
+      "id": "tr-g-64",
+      "level": "B1",
+      "en": "This house is older than Paul's.",
+      "a": [
+        "Cette maison est plus vieille que celle de Paul.",
+        "Cette maison est plus ancienne que celle de Paul.",
+        "Cette maison est plus vieille que celle de Pavel."
+      ],
+      "tags": [
+        "demonstrative-pronouns"
+      ]
+    },
+    {
+      "id": "tr-g-65",
+      "level": "B1",
+      "en": "The more I study, the more I understand.",
+      "a": [
+        "Plus j'étudie, plus je comprends.",
+        "Plus j'apprends, plus je comprends.",
+        "Plus j'étudie, mieux je comprends."
+      ],
+      "tags": [
+        "comparative"
+      ]
+    },
+    {
+      "id": "tr-g-66",
+      "level": "B1",
+      "en": "He's getting better and better.",
+      "a": [
+        "Il est de mieux en mieux.",
+        "Il est de plus en plus fort.",
+        "Il devient de mieux en mieux."
+      ],
+      "tags": [
+        "comparative"
+      ]
+    },
+    {
+      "id": "tr-g-67",
+      "level": "B1",
+      "en": "He has more money than he needs.",
+      "a": [
+        "Il a plus d'argent qu'il n'en a besoin.",
+        "Il a plus d'argent qu'il n'en faut."
+      ],
+      "tags": [
+        "comparative"
+      ]
+    },
+    {
+      "id": "tr-g-68",
+      "level": "B1",
+      "en": "It's the best film I've ever seen.",
+      "a": [
+        "C'est le meilleur film que j'aie jamais vu.",
+        "C'est le meilleur film que j'ai jamais vu."
+      ],
+      "tags": [
+        "superlative"
+      ]
+    },
+    {
+      "id": "tr-g-69",
+      "level": "B1",
+      "en": "It's by far the hardest exam.",
+      "a": [
+        "C'est de loin l'examen le plus difficile.",
+        "C'est de loin le test le plus difficile.",
+        "C'est de loin l'épreuve la plus difficile."
+      ],
+      "tags": [
+        "superlative"
+      ]
+    },
+    {
+      "id": "tr-g-70",
+      "level": "B1",
+      "en": "The film is much better than the book.",
+      "a": [
+        "Le film est bien meilleur que le livre.",
+        "Ce film est bien meilleur que le livre.",
+        "Le film est beaucoup mieux que le livre.",
+        "Le film est bien meilleur que le roman."
+      ],
+      "tags": [
+        "bon-bien"
+      ]
+    },
+    {
+      "id": "tr-g-71",
+      "level": "B1",
+      "en": "He does it better than me.",
+      "a": [
+        "Il le fait mieux que moi."
+      ],
+      "tags": [
+        "bon-bien"
+      ]
+    },
+    {
+      "id": "tr-g-72",
+      "level": "B1",
+      "en": "My former teacher is now the head.",
+      "a": [
+        "Mon ancien professeur est maintenant directeur.",
+        "Mon ancien prof est maintenant directeur.",
+        "Mon ancien professeur est directeur maintenant."
+      ],
+      "tags": [
+        "adj-position"
+      ]
+    },
+    {
+      "id": "tr-g-73",
+      "level": "B1",
+      "en": "It's the only way.",
+      "a": [
+        "C'est la seule façon.",
+        "C'est la seule manière.",
+        "C'est le seul moyen."
+      ],
+      "tags": [
+        "adj-position"
+      ]
+    },
+    {
+      "id": "tr-g-74",
+      "level": "B1",
+      "en": "Last year was hard.",
+      "a": [
+        "L'année dernière a été difficile.",
+        "L'année dernière était difficile.",
+        "L'an dernier a été difficile."
+      ],
+      "tags": [
+        "adj-position"
+      ]
+    },
+    {
+      "id": "tr-g-75",
+      "level": "B1",
+      "en": "He really likes his own music.",
+      "a": [
+        "Il aime beaucoup sa propre musique.",
+        "Il aime vraiment sa propre musique."
+      ],
+      "tags": [
+        "adj-position"
+      ]
+    },
+    {
+      "id": "tr-g-76",
+      "level": "B1",
+      "en": "Yesterday I met an old friend.",
+      "a": [
+        "Hier, j'ai rencontré un vieil ami.",
+        "Hier j'ai rencontré un vieil ami.",
+        "Hier, j'ai retrouvé un vieil ami."
+      ],
+      "tags": [
+        "beau-nouveau-vieux"
+      ]
+    },
+    {
+      "id": "tr-g-77",
+      "level": "B1",
+      "en": "He promised to call me.",
+      "a": [
+        "Il a promis de m'appeler.",
+        "Il a promis de me téléphoner.",
+        "Il m'a promis de m'appeler."
+      ],
+      "tags": [
+        "verb-constructions"
+      ]
+    },
+    {
+      "id": "tr-g-78",
+      "level": "B1",
+      "en": "He stopped smoking last year.",
+      "a": [
+        "Il a arrêté de fumer l'année dernière.",
+        "Il a arrêté de fumer l'an dernier.",
+        "Il a cessé de fumer l'année dernière."
+      ],
+      "tags": [
+        "verb-constructions"
+      ]
+    },
+    {
+      "id": "tr-g-79",
+      "level": "B1",
+      "en": "I learned to swim when I was five.",
+      "a": [
+        "J'ai appris à nager à cinq ans.",
+        "J'ai appris à nager quand j'avais cinq ans."
+      ],
+      "tags": [
+        "verb-constructions"
+      ]
+    },
+    {
+      "id": "tr-g-80",
+      "level": "B1",
+      "en": "We decided to stay at home.",
+      "a": [
+        "Nous avons décidé de rester à la maison.",
+        "Nous avons décidé de rester chez nous.",
+        "On a décidé de rester à la maison."
+      ],
+      "tags": [
+        "verb-constructions"
+      ]
+    },
+    {
+      "id": "tr-g-81",
+      "level": "B1",
+      "en": "I'll try to come on time.",
+      "a": [
+        "J'essaierai de venir à l'heure.",
+        "Je vais essayer de venir à l'heure.",
+        "J'essaierai d'arriver à l'heure.",
+        "Je vais essayer d'arriver à l'heure."
+      ],
+      "tags": [
+        "verb-constructions"
+      ]
+    },
+    {
+      "id": "tr-g-82",
+      "level": "B1",
+      "en": "He managed to fix it himself.",
+      "a": [
+        "Il a réussi à le réparer tout seul.",
+        "Il a réussi à le réparer lui-même.",
+        "Il a réussi à le réparer seul."
+      ],
+      "tags": [
+        "verb-constructions"
+      ]
+    },
+    {
+      "id": "tr-g-83",
+      "level": "B1",
+      "en": "I've been thinking about it for a week.",
+      "a": [
+        "Je réfléchis à ça depuis une semaine.",
+        "J'y réfléchis depuis une semaine.",
+        "J'y pense depuis une semaine.",
+        "Je réfléchis à cela depuis une semaine."
+      ],
+      "tags": [
+        "y"
+      ]
+    },
+    {
+      "id": "tr-g-84",
+      "level": "B1",
+      "en": "I've been waiting for you for an hour. (tu)",
+      "a": [
+        "Je t'attends depuis une heure."
+      ],
+      "tags": [
+        "time-prepositions"
+      ]
+    },
+    {
+      "id": "tr-g-85",
+      "level": "B1",
+      "en": "He has lived here since 2020.",
+      "a": [
+        "Il habite ici depuis 2020.",
+        "Il vit ici depuis 2020."
+      ],
+      "tags": [
+        "time-prepositions"
+      ]
+    },
+    {
+      "id": "tr-g-86",
+      "level": "B1",
+      "en": "He worked there for two years.",
+      "a": [
+        "Il a travaillé là-bas pendant deux ans.",
+        "Il a travaillé là-bas deux ans.",
+        "Il y a travaillé pendant deux ans.",
+        "Il y a travaillé deux ans."
+      ],
+      "tags": [
+        "time-prepositions"
+      ]
+    },
+    {
+      "id": "tr-g-87",
+      "level": "B1",
+      "en": "We'll arrive in ten minutes.",
+      "a": [
+        "Nous arriverons dans dix minutes.",
+        "On arrivera dans dix minutes.",
+        "Nous serons là dans dix minutes.",
+        "On sera là dans dix minutes."
+      ],
+      "tags": [
+        "time-prepositions"
+      ]
+    },
+    {
+      "id": "tr-g-88",
+      "level": "B1",
+      "en": "He did it in an hour.",
+      "a": [
+        "Il l'a fait en une heure.",
+        "Il a fait ça en une heure."
+      ],
+      "tags": [
+        "time-prepositions"
+      ]
+    },
+    {
+      "id": "tr-g-89",
+      "level": "B1",
+      "en": "I'm not going anywhere until I'm ready.",
+      "a": [
+        "Tant que je ne serai pas {prêt|prête}, je n'irai nulle part.",
+        "Tant que je n'aurai pas fini, je n'irai nulle part."
+      ],
+      "tags": [
+        "negation-words"
+      ]
+    },
+    {
+      "id": "tr-g-90",
+      "level": "B1",
+      "en": "As soon as I arrive, I'll call you. (tu)",
+      "a": [
+        "Dès que j'arriverai, je t'appellerai.",
+        "Dès que j'arrive, je t'appelle.",
+        "Dès que je serai arrivé, je t'appellerai.",
+        "Aussitôt que j'arriverai, je t'appellerai.",
+        "Dès que j'arriverai, je te téléphonerai."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    },
+    {
+      "id": "tr-g-91",
+      "level": "B1",
+      "en": "While I was cooking, he was tidying up.",
+      "a": [
+        "Pendant que je cuisinais, il rangeait.",
+        "Pendant que je faisais la cuisine, il rangeait.",
+        "Pendant que je cuisinais, il faisait le ménage.",
+        "Pendant que je faisais la cuisine, il faisait le ménage.",
+        "Alors que je cuisinais, il rangeait."
+      ],
+      "tags": [
+        "imparfait"
+      ]
+    },
+    {
+      "id": "tr-g-92",
+      "level": "B1",
+      "en": "He stayed at home because he was ill.",
+      "a": [
+        "Il est resté à la maison parce qu'il était malade.",
+        "Il est resté chez lui parce qu'il était malade.",
+        "Il est resté à la maison car il était malade.",
+        "Il est resté chez lui car il était malade."
+      ],
+      "tags": [
+        "pc-vs-imparfait"
+      ]
+    },
+    {
+      "id": "tr-g-93",
+      "level": "B1",
+      "en": "As it's raining, we'll stay at home.",
+      "a": [
+        "Comme il pleut, nous restons à la maison.",
+        "Comme il pleut, nous allons rester à la maison.",
+        "Comme il pleut, on reste à la maison.",
+        "Comme il pleut, on va rester à la maison.",
+        "Puisqu'il pleut, nous restons à la maison.",
+        "Puisqu'il pleut, on reste à la maison.",
+        "Comme il pleut, nous resterons à la maison.",
+        "Comme il pleut, on restera à la maison."
+      ],
+      "tags": [
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "tr-g-94",
+      "level": "B1",
+      "en": "Thanks to your help, I succeeded. (tu)",
+      "a": [
+        "Grâce à ton aide, j'ai réussi."
+      ],
+      "tags": [
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "tr-g-95",
+      "level": "B1",
+      "en": "Because of the rain, we stayed at home.",
+      "a": [
+        "À cause de la pluie, nous sommes restés à la maison.",
+        "À cause de la pluie, on est resté à la maison.",
+        "À cause de la pluie, nous sommes restés chez nous.",
+        "À cause de la pluie, on est resté chez nous."
+      ],
+      "tags": [
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "tr-g-96",
+      "level": "B1",
+      "en": "He's tired, so he's going to bed.",
+      "a": [
+        "Il est fatigué, c'est pourquoi il va dormir.",
+        "Il est fatigué, donc il va dormir.",
+        "Il est fatigué, alors il va dormir.",
+        "Il est fatigué, par conséquent il va dormir.",
+        "Il est fatigué, il va donc dormir."
+      ],
+      "tags": [
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "tr-g-97",
+      "level": "B1",
+      "en": "Even though it was raining, we went out.",
+      "a": [
+        "Même s'il pleuvait, nous sommes sortis.",
+        "Même s'il pleuvait, on est sorti.",
+        "Même s'il pleuvait, nous sommes allés dehors.",
+        "Même s'il a plu, nous sommes sortis.",
+        "Même s'il pleuvait, nous sommes sortis dehors."
+      ],
+      "tags": [
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "tr-g-98",
+      "level": "B1",
+      "en": "It's expensive, but I'll buy it anyway.",
+      "a": [
+        "C'est cher, pourtant je vais l'acheter.",
+        "C'est cher, pourtant je l'achèterai.",
+        "C'est cher, mais je vais quand même l'acheter.",
+        "C'est cher, mais je l'achèterai quand même.",
+        "C'est cher, cependant je vais l'acheter.",
+        "C'est cher, cependant je l'achèterai.",
+        "C'est cher, malgré tout je vais l'acheter.",
+        "C'est cher, malgré tout je l'achèterai."
+      ],
+      "tags": [
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "tr-g-99",
+      "level": "B1",
+      "en": "Although he's young, he's very experienced.",
+      "a": [
+        "Bien qu'il soit jeune, il est très expérimenté.",
+        "Même s'il est jeune, il est très expérimenté.",
+        "Bien qu'il soit jeune, il a beaucoup d'expérience.",
+        "Quoiqu'il soit jeune, il est très expérimenté."
+      ],
+      "tags": [
+        "subjonctif-basics"
+      ]
+    },
+    {
+      "id": "tr-g-100",
+      "level": "B1",
+      "en": "Despite the rain, we went out.",
+      "a": [
+        "Malgré la pluie, nous sommes sortis.",
+        "Malgré la pluie, on est sorti.",
+        "Malgré la pluie, nous sommes allés dehors.",
+        "Malgré la pluie, on est allé dehors."
+      ],
+      "tags": [
+        "conjunctions"
+      ]
+    },
+    {
+      "id": "tr-g-101",
+      "level": "B1",
+      "en": "Some like it, others don't.",
+      "a": [
+        "Les uns aiment ça, les autres non.",
+        "Certains aiment ça, d'autres non.",
+        "Les uns aiment cela, les autres non.",
+        "Certains l'aiment, d'autres non."
+      ],
+      "tags": [
+        "indefinites"
+      ]
+    },
+    {
+      "id": "tr-g-102",
+      "level": "B1",
+      "en": "I waited for him for a long time, but he didn't come.",
+      "a": [
+        "Je l'ai attendu longtemps, mais il n'est pas venu.",
+        "Je l'ai longtemps attendu, mais il n'est pas venu.",
+        "Je l'ai attendu longtemps mais il n'est pas venu."
+      ],
+      "tags": [
+        "pc-agreement"
+      ]
+    },
+    {
+      "id": "tr-g-103",
+      "level": "B1",
+      "en": "The girl I met was very nice.",
+      "a": [
+        "La jeune fille que j'ai rencontrée était très gentille.",
+        "La jeune fille que j'ai rencontrée était très sympa.",
+        "La fille que j'ai rencontrée était très gentille.",
+        "La fille que j'ai rencontrée était très sympa.",
+        "La demoiselle que j'ai rencontrée était très gentille.",
+        "La demoiselle que j'ai rencontrée était très sympathique.",
+        "La jeune fille que j'ai rencontrée était très sympathique.",
+        "La fille que j'ai rencontrée était très sympathique."
+      ],
+      "tags": [
+        "pc-agreement"
+      ]
+    },
+    {
+      "id": "tr-g-104",
+      "level": "B1",
+      "en": "The photos I sent you are old. (tu)",
+      "a": [
+        "Les photos que je t'ai envoyées sont vieilles.",
+        "Les photos que je t'ai envoyées sont anciennes."
+      ],
+      "tags": [
+        "pc-agreement"
+      ]
+    },
+    {
+      "id": "tr-g-105",
+      "level": "B1",
+      "en": "How old were you when we met? (tu)",
+      "a": [
+        "Quel âge avais-tu quand nous nous sommes rencontrés ?",
+        "Quel âge avais-tu quand on s'est rencontrés ?",
+        "Quel âge tu avais quand on s'est rencontrés ?",
+        "Quel âge est-ce que tu avais quand nous nous sommes rencontrés ?",
+        "Quel âge avais-tu quand nous nous sommes connus ?",
+        "Quel âge avais-tu lorsque nous nous sommes rencontrés ?"
+      ],
+      "tags": [
+        "pc-vs-imparfait"
+      ]
+    },
+    {
+      "id": "tr-g-106",
+      "level": "B1",
+      "en": "Just as we were about to leave, it started to rain.",
+      "a": [
+        "Au moment où nous voulions partir, il s'est mis à pleuvoir.",
+        "Au moment où nous allions partir, il s'est mis à pleuvoir.",
+        "Juste quand nous voulions partir, il s'est mis à pleuvoir.",
+        "Au moment où on voulait partir, il s'est mis à pleuvoir.",
+        "Au moment où on allait partir, il s'est mis à pleuvoir.",
+        "Juste quand on voulait partir, il s'est mis à pleuvoir.",
+        "Au moment où nous voulions partir, il a commencé à pleuvoir.",
+        "Au moment où nous allions partir, il a commencé à pleuvoir.",
+        "Au moment où on voulait partir, il a commencé à pleuvoir.",
+        "Au moment où on allait partir, il a commencé à pleuvoir."
+      ],
+      "tags": [
+        "pc-vs-imparfait"
+      ]
+    },
+    {
+      "id": "tr-g-107",
+      "level": "B1",
+      "en": "I'd say it's not a bad idea.",
+      "a": [
+        "Je dirais que ce n'est pas une mauvaise idée.",
+        "Je dirais que ce n'est pas une si mauvaise idée."
+      ],
+      "tags": [
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "tr-g-108",
+      "level": "B1",
+      "en": "Could you help me? (tu)",
+      "a": [
+        "Pourrais-tu m'aider ?",
+        "Tu pourrais m'aider ?",
+        "Est-ce que tu pourrais m'aider ?"
+      ],
+      "tags": [
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "tr-g-109",
+      "level": "B1",
+      "en": "You should sleep more. (tu)",
+      "a": [
+        "Tu devrais dormir plus.",
+        "Tu devrais dormir davantage.",
+        "Tu devrais plus dormir."
+      ],
+      "tags": [
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "tr-g-110",
+      "level": "B1",
+      "en": "I'd like to know how much it costs.",
+      "a": [
+        "J'aimerais savoir combien ça coûte.",
+        "Je voudrais savoir combien ça coûte.",
+        "J'aimerais savoir combien cela coûte.",
+        "Je voudrais savoir combien cela coûte."
+      ],
+      "tags": [
+        "conditionnel"
+      ]
+    },
+    {
+      "id": "tr-g-111",
+      "level": "B1",
+      "en": "According to him, it will rain tomorrow.",
+      "a": [
+        "Selon lui, il pleuvra demain.",
+        "D'après lui, il pleuvra demain.",
+        "Selon lui, il va pleuvoir demain.",
+        "D'après lui, il va pleuvoir demain."
+      ],
+      "tags": [
+        "futur-simple"
+      ]
+    }
+  ]
+}

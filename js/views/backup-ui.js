@@ -1,6 +1,8 @@
 import { store } from '../store.js';
 import { BACKUP_KEYS, MAX_BACKUP_BYTES, buildBackup, backupFileName, parseBackup, backupSummary, restoredName } from '../backup.js';
-import { html, plural } from '../ui.js';
+import { html, icon, plural } from '../ui.js';
+import { locale } from '../i18n.js';
+import { folderSupported, folderStatus, chooseFolder, reconnectFolder, stopFolder } from '../folder.js';
 
 export function downloadBackup(app, now = new Date()) {
   const source = Object.fromEntries(BACKUP_KEYS.map(key => [key, store[key]]));
@@ -62,3 +64,40 @@ export function pickBackupFile(app) {
 }
 
 export const restoreButton = (cls = 'btn btn-text btn-block') => html`<button type="button" class="${cls}" data-restore>Restore from a backup file</button>`;
+
+function folderHint({ state, name, lastSaved }) {
+  if (!folderSupported()) return 'Needs Chrome or Edge on a computer. Use Back up below instead.';
+  if (state === 'locked') return `The browser needs your permission again to save into "${name}".`;
+  if (state === 'off') return 'Pick a folder once and every profile is saved there automatically after each change.';
+  const when = lastSaved ? new Date(lastSaved).toLocaleTimeString(locale(), { hour: '2-digit', minute: '2-digit' }) : '';
+  return when ? `Every profile is saved to "${name}" automatically. Last saved at ${when}.` : `Every profile is saved to "${name}" automatically.`;
+}
+
+export function folderRow() {
+  const status = folderStatus();
+  const buttons = !folderSupported() ? ''
+    : status.state === 'off' ? html`<button class="btn btn-primary btn-sm" data-folder="choose">${icon('download')}Choose folder</button>`
+    : status.state === 'locked' ? html`<button class="btn btn-primary btn-sm" data-folder="allow">${icon('check')}Allow</button>`
+    : html`<button class="btn btn-secondary btn-sm" data-folder="choose">Change</button><button class="btn btn-secondary btn-sm" data-folder="stop">Stop</button>`;
+  return { hint: folderHint(status), buttons: buttons && html`<div class="setting-buttons">${buttons}</div>` };
+}
+
+function foundToast(app, found) {
+  if (found) app.toast(`Found ${plural(found, 'profile')} in the folder.`, { kind: 'success' });
+}
+
+export function bindFolder(root, app) {
+  root.querySelectorAll('[data-folder]').forEach(btn => btn.addEventListener('click', async () => {
+    const action = btn.dataset.folder;
+    if (action === 'stop') {
+      await stopFolder();
+      app.toast('Stopped saving to the folder. The files there stay.');
+    } else {
+      const found = await (action === 'allow' ? reconnectFolder() : chooseFolder());
+      if (found === null) return;
+      foundToast(app, found);
+      if (!found) app.toast('Saving to the folder.', { kind: 'success' });
+    }
+    app.render();
+  }));
+}

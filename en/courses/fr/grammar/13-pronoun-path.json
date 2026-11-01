@@ -1,0 +1,5325 @@
+{
+  "articles": [
+    {
+      "id": "pp-01-function",
+      "title": "Step 1: Find the function",
+      "fr": "trouver la fonction du pronom",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "object pronouns",
+        "COD",
+        "COI",
+        "which pronoun",
+        "function",
+        "le or lui",
+        "y",
+        "en",
+        "direct object",
+        "indirect object"
+      ],
+      "topics": [],
+      "see": [
+        "y-en-vs-lui",
+        "verbs-direct-indirect",
+        "pronouns-overview"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "mixed",
+          "label": "Drill: which pronoun?"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Before you choose a pronoun, look at **what comes right after the verb**. Is there a preposition? Is it a person or a thing? Those two questions decide which pronoun you need. The next steps take each pronoun one by one, then mix them."
+            },
+            {
+              "type": "table",
+              "head": [
+                "what follows the verb",
+                "function",
+                "pronoun",
+                "example"
+              ],
+              "rows": [
+                [
+                  "no preposition (person or thing)",
+                  "COD",
+                  "le, la, les",
+                  "Je vois Marie. → Je la vois."
+                ],
+                [
+                  "à + person",
+                  "COI",
+                  "lui, leur",
+                  "Je parle à Marie. → Je lui parle."
+                ],
+                [
+                  "à + thing or place",
+                  "y",
+                  "y",
+                  "Je pense à l'examen. → J'y pense."
+                ],
+                [
+                  "de + thing, or a quantity",
+                  "en",
+                  "en",
+                  "J'ai besoin de mon vélo. → J'en ai besoin."
+                ],
+                [
+                  "de + person",
+                  "stressed",
+                  "de lui, d'elle, d'eux",
+                  "Je parle de Paul. → Je parle de lui."
+                ]
+              ],
+              "textCols": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Question 1: is there a preposition?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Look at the verb **as French uses it**, not as English does. *Regarder quelque chose* has no preposition, although English says *look **at***. *Téléphoner à quelqu'un* has *à*, although English says *call someone*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "no preposition → COD",
+                "à + person → COI",
+                "à + thing → y",
+                "de + thing → en"
+              ],
+              "rows": [
+                [
+                  "voir, regarder",
+                  "parler à",
+                  "penser à",
+                  "avoir besoin de"
+                ],
+                [
+                  "aimer, connaître",
+                  "téléphoner à",
+                  "réfléchir à",
+                  "parler de"
+                ],
+                [
+                  "attendre, chercher",
+                  "répondre à",
+                  "répondre à (une question)",
+                  "avoir envie de"
+                ],
+                [
+                  "écouter, aider",
+                  "donner à, dire à",
+                  "jouer à",
+                  "s'occuper de"
+                ],
+                [
+                  "inviter, appeler",
+                  "écrire à, demander à",
+                  "aller à, être à (place)",
+                  "manger du, boire de l'"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je vois Marie. → Je ___ vois.",
+                "a": [
+                  "la"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Question 2: person or thing?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Without a preposition, person and thing are the same: *le, la, les*. After **à**, a person gives *lui / leur* and a thing or a place gives *y*. After **de**, a thing gives *en* and a person keeps *de* + a stressed pronoun (*de lui*)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I talk to Paul.",
+                  "fr": "Je [[lui]] parle."
+                },
+                {
+                  "en": "I'm thinking about the holidays.",
+                  "fr": "J'[[y]] pense."
+                },
+                {
+                  "en": "I'm talking about the film.",
+                  "fr": "J'[[en]] parle."
+                },
+                {
+                  "en": "I'm talking about Paul.",
+                  "wrong": "J'en parle.",
+                  "fr": "Je parle [[de lui]].",
+                  "note": "de + person keeps de and takes lui, elle, eux"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je pense à mes vacances. → J'___ pense.",
+                "a": [
+                  "y"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Question 3: which form?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "For a COD: *le* (masculine singular), *la* (feminine singular), *les* (plural). *Le* and *la* become **l'** before a vowel. For a COI: *lui* (one person, man **or** woman) and *leur* (several people). *Me, te, nous, vous* work for both, see step 9."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je téléphone à mes grands-parents. → Je ___ téléphone.",
+                "a": [
+                  "leur"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "*Écouter, regarder, chercher, attendre* take **no** preposition in French: *Je l'écoute, je l'attends*. *Téléphoner à, répondre à, ressembler à, obéir à* **do** take *à*: *Je lui téléphone*.",
+              "title": "Different from English"
+            },
+            {
+              "type": "tip",
+              "en": "*Leur* (to them) never takes an **-s**. *Leurs* with an s is the possessive: *leurs parents* (their parents)."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu regardes le match ? Oui, je le regarde.",
+                  "en": "Are you watching the match? Yes, I'm watching it."
+                },
+                {
+                  "fr": "Tu parles à ton frère ? Oui, je lui parle.",
+                  "en": "Are you talking to your brother? Yes, I'm talking to him."
+                },
+                {
+                  "fr": "Tu vas à Prague ? Oui, j'y vais.",
+                  "en": "Are you going to Prague? Yes, I'm going there."
+                },
+                {
+                  "fr": "Tu manges des fruits ? Oui, j'en mange.",
+                  "en": "Do you eat fruit? Yes, I do."
+                },
+                {
+                  "fr": "Tu parles de ta sœur ? Oui, je parle d'elle.",
+                  "en": "Are you talking about your sister? Yes, I'm talking about her."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-01-function-01",
+          "type": "cloze",
+          "fr": "Je regarde la télé. → Je ___ regarde.",
+          "a": [
+            "la"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-02",
+          "type": "cloze",
+          "fr": "Nous cherchons le bus. → Nous ___ cherchons.",
+          "a": [
+            "le"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-03",
+          "type": "cloze",
+          "fr": "Tu connais mes parents ? → Tu ___ connais ?",
+          "a": [
+            "les"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-04",
+          "type": "cloze",
+          "fr": "Il parle à sa mère. → Il ___ parle.",
+          "a": [
+            "lui"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-05",
+          "type": "cloze",
+          "fr": "Elle écrit à ses amis. → Elle ___ écrit.",
+          "a": [
+            "leur"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-06",
+          "type": "cloze",
+          "fr": "Je réponds au professeur. → Je ___ réponds.",
+          "a": [
+            "lui"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-07",
+          "type": "cloze",
+          "fr": "Nous allons à la piscine. → Nous ___ allons.",
+          "a": [
+            "y"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-08",
+          "type": "cloze",
+          "fr": "Je pense à mon examen. → J'___ pense.",
+          "a": [
+            "y"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-09",
+          "type": "cloze",
+          "fr": "Je réponds à la question. → J'___ réponds.",
+          "a": [
+            "y"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-10",
+          "type": "cloze",
+          "fr": "Je mange de la salade. → J'___ mange.",
+          "a": [
+            "en"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-11",
+          "type": "cloze",
+          "fr": "Il a besoin de son ordinateur. → Il ___ a besoin.",
+          "a": [
+            "en"
+          ]
+        },
+        {
+          "id": "g-pp-01-function-12",
+          "type": "cloze",
+          "fr": "Je parle de mon frère. → Je parle de ___.",
+          "a": [
+            "lui"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-02-cod-present",
+      "title": "Step 2: le, la, les in simple tenses",
+      "fr": "le COD aux temps simples",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "le",
+        "la",
+        "les",
+        "l'",
+        "COD",
+        "direct object",
+        "present",
+        "him",
+        "her",
+        "it",
+        "them",
+        "position"
+      ],
+      "topics": [],
+      "see": [
+        "direct-object",
+        "pronoun-position"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "direct",
+          "label": "Drill le, la, les"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Le, la, les* replace a person or a thing that comes **right after the verb, with no preposition**. In a simple tense the pronoun goes **just before the conjugated verb**, never after it as in English."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "vois"
+                    ],
+                    [
+                      "obj",
+                      "Marie."
+                    ]
+                  ],
+                  "en": "I see Marie."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "pron",
+                      "la"
+                    ],
+                    [
+                      "V",
+                      "vois."
+                    ]
+                  ],
+                  "en": "I see her."
+                }
+              ],
+              "formula": [
+                "S",
+                "pron",
+                "V"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Choose the form",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "replaced word",
+                "pronoun",
+                "example"
+              ],
+              "rows": [
+                [
+                  "masculine singular",
+                  "le",
+                  "le film → Je le regarde."
+                ],
+                [
+                  "feminine singular",
+                  "la",
+                  "la pizza → Je la mange."
+                ],
+                [
+                  "plural (both genders)",
+                  "les",
+                  "les clés → Je les cherche."
+                ],
+                [
+                  "le / la before a vowel or silent h",
+                  "l'",
+                  "Lucas → Je l'aime. / l'histoire → Je l'écoute."
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            },
+            {
+              "type": "text",
+              "en": "The pronoun takes the gender of the **French** word: *la voiture → la*, *le vélo → le*, even if it is a thing."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Elle mange [le gâteau].",
+                "a": [
+                  "Elle le mange."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Every simple tense works the same",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Imparfait, futur simple and conditionnel are simple tenses too (one verb word), so the pronoun stays right before that verb."
+            },
+            {
+              "type": "table",
+              "head": [
+                "tense",
+                "example"
+              ],
+              "rows": [
+                [
+                  "présent",
+                  "Je le vois."
+                ],
+                [
+                  "imparfait",
+                  "Je le voyais."
+                ],
+                [
+                  "futur simple",
+                  "Je le verrai."
+                ],
+                [
+                  "conditionnel",
+                  "Je le verrais."
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Nous regardions [les photos].",
+                "a": [
+                  "Nous les regardions."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "Never after the verb: *Je le vois*, not *Je vois le*."
+            },
+            {
+              "type": "tip",
+              "en": "*Les* before a vowel has no apostrophe, you hear a liaison instead: *Je les aime* [ʒə le.zɛm]."
+            },
+            {
+              "type": "tip",
+              "en": "*Attendre, chercher, écouter, regarder* take a COD in French: *Je l'attends* (I'm waiting for him), *Je la cherche* (I'm looking for her).",
+              "title": "Different from English"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu connais Marie ? Oui, je la connais.",
+                  "en": "Do you know Marie? Yes, I know her."
+                },
+                {
+                  "fr": "Le film ? Je le regarde ce soir.",
+                  "en": "The film? I'm watching it tonight."
+                },
+                {
+                  "fr": "Mes clés ? Je les cherche.",
+                  "en": "My keys? I'm looking for them."
+                },
+                {
+                  "fr": "Ton frère ? Je l'attends devant l'école.",
+                  "en": "Your brother? I'm waiting for him in front of the school."
+                },
+                {
+                  "fr": "Les devoirs ? Je les finirai demain.",
+                  "en": "The homework? I'll finish it tomorrow."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-02-cod-present-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je regarde [le match].",
+          "a": [
+            "Je le regarde."
+          ]
+        },
+        {
+          "id": "g-pp-02-cod-present-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu prends [la voiture] ?",
+          "a": [
+            "Tu la prends ?"
+          ]
+        },
+        {
+          "id": "g-pp-02-cod-present-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Ils achètent [les billets].",
+          "a": [
+            "Ils les achètent."
+          ]
+        },
+        {
+          "id": "g-pp-02-cod-present-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'aime [Lucas].",
+          "a": [
+            "Je l'aime."
+          ]
+        },
+        {
+          "id": "g-pp-02-cod-present-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous invitons [nos amis].",
+          "a": [
+            "Nous les invitons."
+          ]
+        },
+        {
+          "id": "g-pp-02-cod-present-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle attend [sa mère].",
+          "a": [
+            "Elle l'attend."
+          ]
+        },
+        {
+          "id": "g-pp-02-cod-present-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Vous écoutez [la radio] ?",
+          "a": [
+            "Vous l'écoutez ?"
+          ]
+        },
+        {
+          "id": "g-pp-02-cod-present-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je cherchais [mes clés].",
+          "a": [
+            "Je les cherchais."
+          ]
+        },
+        {
+          "id": "g-pp-02-cod-present-09",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il finira [ses devoirs] demain.",
+          "a": [
+            "Il les finira demain."
+          ]
+        },
+        {
+          "id": "g-pp-02-cod-present-10",
+          "type": "build",
+          "en": "I know her.",
+          "a": [
+            "Je la connais."
+          ]
+        },
+        {
+          "id": "g-pp-02-cod-present-11",
+          "type": "build",
+          "en": "We see them every day.",
+          "a": [
+            "Nous les voyons tous les jours.",
+            "On les voit tous les jours."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-03-cod-infinitive",
+      "title": "Step 3: le, la, les with an infinitive",
+      "fr": "le COD devant l'infinitif",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "le",
+        "la",
+        "les",
+        "infinitive",
+        "futur proche",
+        "vouloir",
+        "pouvoir",
+        "devoir",
+        "two verbs",
+        "position"
+      ],
+      "topics": [],
+      "see": [
+        "pronoun-position",
+        "futur-proche",
+        "modals"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "direct",
+          "label": "Drill le, la, les"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When a conjugated verb is followed by an **infinitive** (*vais voir, veux acheter, peux faire*), the pronoun belongs to the infinitive. So it goes **right before the infinitive**, not before the first verb."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "inf",
+                      "voir"
+                    ],
+                    [
+                      "obj",
+                      "le film."
+                    ]
+                  ],
+                  "en": "I'm going to see the film."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "pron",
+                      "le"
+                    ],
+                    [
+                      "inf",
+                      "voir."
+                    ]
+                  ],
+                  "en": "I'm going to see it."
+                }
+              ],
+              "formula": [
+                "S",
+                "V",
+                "pron",
+                "inf"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Which structures?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Everything where an infinitive follows: the futur proche (*aller* + infinitive), *vouloir, pouvoir, devoir, savoir, aimer, préférer* + infinitive, and verbs with *à* or *de* before the infinitive (*commencer à, oublier de, essayer de*). Also after *pour* and *sans*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "structure",
+                "example"
+              ],
+              "rows": [
+                [
+                  "aller + infinitive",
+                  "Je vais le voir."
+                ],
+                [
+                  "vouloir + infinitive",
+                  "Tu veux la manger ?"
+                ],
+                [
+                  "pouvoir + infinitive",
+                  "Je peux les aider."
+                ],
+                [
+                  "devoir + infinitive",
+                  "Il doit le finir."
+                ],
+                [
+                  "oublier de + infinitive",
+                  "J'ai oublié de le faire."
+                ],
+                [
+                  "commencer à + infinitive",
+                  "Il commence à les lire."
+                ],
+                [
+                  "pour + infinitive",
+                  "Je viens pour la voir."
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je vais acheter [le pain].",
+                "a": [
+                  "Je vais l'acheter."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Before a vowel",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Le* and *la* become **l'** when the infinitive starts with a vowel or a silent *h*: *Je vais l'acheter. Tu peux l'aider ? Elle veut l'inviter.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Elle veut inviter [Thomas].",
+                "a": [
+                  "Elle veut l'inviter."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "Not before the first verb: *Je vais le voir*, not *Je le vais voir*."
+            },
+            {
+              "type": "tip",
+              "en": "The negative is the next step. Already here: *ne ... pas* goes around the **conjugated** verb and the pronoun stays put: *Je ne vais pas le voir.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "La série ? Je vais la regarder ce soir.",
+                  "en": "The series? I'm going to watch it tonight."
+                },
+                {
+                  "fr": "Tes devoirs ? Tu dois les finir.",
+                  "en": "Your homework? You have to finish it."
+                },
+                {
+                  "fr": "Ce gâteau ? Je veux le goûter.",
+                  "en": "This cake? I want to taste it."
+                },
+                {
+                  "fr": "Mes parents ? Je peux les appeler.",
+                  "en": "My parents? I can call them."
+                },
+                {
+                  "fr": "La lettre ? J'ai oublié de l'envoyer.",
+                  "en": "The letter? I forgot to send it."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-03-cod-infinitive-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais regarder [la série].",
+          "a": [
+            "Je vais la regarder."
+          ]
+        },
+        {
+          "id": "g-pp-03-cod-infinitive-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu veux manger [les crêpes] ?",
+          "a": [
+            "Tu veux les manger ?"
+          ]
+        },
+        {
+          "id": "g-pp-03-cod-infinitive-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous devons finir [le projet].",
+          "a": [
+            "Nous devons le finir."
+          ]
+        },
+        {
+          "id": "g-pp-03-cod-infinitive-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il peut aider [ses parents].",
+          "a": [
+            "Il peut les aider."
+          ]
+        },
+        {
+          "id": "g-pp-03-cod-infinitive-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je préfère prendre [le train].",
+          "a": [
+            "Je préfère le prendre."
+          ]
+        },
+        {
+          "id": "g-pp-03-cod-infinitive-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elles vont acheter [la robe].",
+          "a": [
+            "Elles vont l'acheter."
+          ]
+        },
+        {
+          "id": "g-pp-03-cod-infinitive-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai oublié de faire [mes devoirs].",
+          "a": [
+            "J'ai oublié de les faire."
+          ]
+        },
+        {
+          "id": "g-pp-03-cod-infinitive-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Ils commencent à lire [le livre].",
+          "a": [
+            "Ils commencent à le lire."
+          ]
+        },
+        {
+          "id": "g-pp-03-cod-infinitive-09",
+          "type": "order",
+          "en": "We want to see it.",
+          "a": [
+            "Nous voulons le voir."
+          ]
+        },
+        {
+          "id": "g-pp-03-cod-infinitive-10",
+          "type": "build",
+          "en": "I'm going to call her tonight.",
+          "a": [
+            "Je vais l'appeler ce soir.",
+            "Ce soir, je vais l'appeler."
+          ]
+        },
+        {
+          "id": "g-pp-03-cod-infinitive-11",
+          "type": "build",
+          "en": "Can you help him?",
+          "a": [
+            "Tu peux l'aider ?",
+            "Est-ce que tu peux l'aider ?",
+            "Peux-tu l'aider ?",
+            "Vous pouvez l'aider ?",
+            "Est-ce que vous pouvez l'aider ?",
+            "Pouvez-vous l'aider ?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-04-cod-negative-question",
+      "title": "Step 4: le, la, les in negatives and questions",
+      "fr": "le COD, la négation et la question",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "le",
+        "la",
+        "les",
+        "negative",
+        "ne pas",
+        "question",
+        "inversion",
+        "est-ce que",
+        "position"
+      ],
+      "topics": [],
+      "see": [
+        "pronoun-position",
+        "ne-pas",
+        "inversion"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "direct",
+          "label": "Drill le, la, les"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The pronoun and its verb stick together. In a negative, **ne goes before the pronoun** and *pas* after the verb: *Je ne le vois pas.* In a question nothing moves, except with inversion, where the pronoun still stays **before** the verb: *Le vois-tu ?*"
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "pron",
+                      "le"
+                    ],
+                    [
+                      "V",
+                      "vois"
+                    ],
+                    [
+                      "neg",
+                      "pas."
+                    ]
+                  ],
+                  "en": "I don't see him."
+                }
+              ],
+              "formula": [
+                "S",
+                "neg",
+                "pron",
+                "V",
+                "neg"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Negative, one verb",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ne* goes in front of the whole block *pronoun + verb*. *Ne* before a vowel becomes *n'*, but before a pronoun it is just *ne*: *Tu n'aimes pas ce film → Tu ne l'aimes pas.* The same goes for *jamais, plus, rien*: *Je ne le vois jamais.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je ne comprends pas [la question].",
+                "a": [
+                  "Je ne la comprends pas."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Negative with an infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With two verbs *ne ... pas* goes around the **conjugated** verb and the pronoun stays before the infinitive."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "pron",
+                      "le"
+                    ],
+                    [
+                      "inf",
+                      "voir."
+                    ]
+                  ],
+                  "en": "I'm not going to see him."
+                }
+              ],
+              "formula": [
+                "S",
+                "neg",
+                "V",
+                "neg",
+                "pron",
+                "inf"
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je ne veux pas manger [la soupe].",
+                "a": [
+                  "Je ne veux pas la manger."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Questions",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With rising intonation or *est-ce que* the word order stays the same: *Tu le vois ? Est-ce que tu le vois ?* With inversion the pronoun stays in front, the subject moves after the verb with a hyphen: *Le vois-tu ?* With two verbs the inversion is on the first verb: *Vas-tu le voir ?*"
+            },
+            {
+              "type": "table",
+              "head": [
+                "way of asking",
+                "example"
+              ],
+              "rows": [
+                [
+                  "intonation",
+                  "Tu le vois ?"
+                ],
+                [
+                  "est-ce que",
+                  "Est-ce que tu le vois ?"
+                ],
+                [
+                  "inversion",
+                  "Le vois-tu ?"
+                ],
+                [
+                  "inversion + infinitive",
+                  "Vas-tu le voir ?"
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Ask the question with inversion",
+                "fr": "Tu le connais.",
+                "a": [
+                  "Le connais-tu ?"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "Do not split the pronoun from its verb: *Je ne le vois pas*, not *Je le ne vois pas* or *Je ne vois pas le*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ce prof ? Je ne le connais pas.",
+                  "en": "This teacher? I don't know him."
+                },
+                {
+                  "fr": "La musique ? Il ne l'écoute jamais.",
+                  "en": "Music? He never listens to it."
+                },
+                {
+                  "fr": "Le bus ? Nous n'allons pas le prendre.",
+                  "en": "The bus? We're not going to take it."
+                },
+                {
+                  "fr": "Tes clés, tu les as ?",
+                  "en": "Your keys, have you got them?"
+                },
+                {
+                  "fr": "Cette fille, la connais-tu ?",
+                  "en": "That girl, do you know her?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-04-cod-negative-question-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je ne connais pas [ses parents].",
+          "a": [
+            "Je ne les connais pas."
+          ]
+        },
+        {
+          "id": "g-pp-04-cod-negative-question-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il ne regarde jamais [la télé].",
+          "a": [
+            "Il ne la regarde jamais."
+          ]
+        },
+        {
+          "id": "g-pp-04-cod-negative-question-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous ne trouvons plus [nos billets].",
+          "a": [
+            "Nous ne les trouvons plus."
+          ]
+        },
+        {
+          "id": "g-pp-04-cod-negative-question-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu n'aimes pas [ce film] ?",
+          "a": [
+            "Tu ne l'aimes pas ?"
+          ]
+        },
+        {
+          "id": "g-pp-04-cod-negative-question-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je ne vais pas prendre [le bus].",
+          "a": [
+            "Je ne vais pas le prendre."
+          ]
+        },
+        {
+          "id": "g-pp-04-cod-negative-question-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle ne peut pas porter [la valise].",
+          "a": [
+            "Elle ne peut pas la porter."
+          ]
+        },
+        {
+          "id": "g-pp-04-cod-negative-question-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Est-ce que tu as [la clé] ?",
+          "a": [
+            "Est-ce que tu l'as ?"
+          ]
+        },
+        {
+          "id": "g-pp-04-cod-negative-question-08",
+          "type": "transform",
+          "task_en": "Ask the question with inversion",
+          "fr": "Vous la voyez.",
+          "a": [
+            "La voyez-vous ?"
+          ]
+        },
+        {
+          "id": "g-pp-04-cod-negative-question-09",
+          "type": "transform",
+          "task_en": "Ask the question with inversion",
+          "fr": "Vous allez la voir.",
+          "a": [
+            "Allez-vous la voir ?"
+          ]
+        },
+        {
+          "id": "g-pp-04-cod-negative-question-10",
+          "type": "build",
+          "en": "I don't understand it. (the lesson)",
+          "a": [
+            "Je ne la comprends pas."
+          ]
+        },
+        {
+          "id": "g-pp-04-cod-negative-question-11",
+          "type": "build",
+          "en": "We aren't going to buy them.",
+          "a": [
+            "Nous n'allons pas les acheter.",
+            "On ne va pas les acheter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-05-cod-passe-compose",
+      "title": "Step 5: le, la, les in the passé composé",
+      "fr": "le COD au passé composé et l'accord",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "le",
+        "la",
+        "les",
+        "passé composé",
+        "agreement",
+        "accord",
+        "participle",
+        "auxiliary",
+        "vue",
+        "prise"
+      ],
+      "topics": [],
+      "see": [
+        "pc-agreement",
+        "passe-compose-avoir",
+        "direct-object"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "pc-agreement",
+          "label": "Drill the passé composé agreement"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In the passé composé the pronoun goes **before the auxiliary** (*avoir* or *être*). And because the COD now stands **before** the participle, the participle **agrees** with it: *la → -e*, *les → -s* or *-es*."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "pron",
+                      "l'"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "part",
+                      "vu."
+                    ]
+                  ],
+                  "en": "I saw it. (le film)"
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "pron",
+                      "l'"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "part",
+                      "vue."
+                    ]
+                  ],
+                  "en": "I saw it. (la série)"
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "pron",
+                      "les"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "part",
+                      "vus."
+                    ]
+                  ],
+                  "en": "I saw them. (les films)"
+                }
+              ],
+              "formula": [
+                "S",
+                "pron",
+                "aux",
+                "part"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Before the auxiliary",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ai, as, a, avons, avez, ont* all start with a vowel, so *le* and *la* are always **l'** here. Only the participle tells you which one it was."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "J'ai mangé [le gâteau].",
+                "a": [
+                  "Je l'ai mangé."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Agreement",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "replaced word",
+                "pronoun",
+                "participle"
+              ],
+              "rows": [
+                [
+                  "le gâteau",
+                  "l'",
+                  "Je l'ai mangé."
+                ],
+                [
+                  "la pomme",
+                  "l'",
+                  "Je l'ai mangée."
+                ],
+                [
+                  "les gâteaux",
+                  "les",
+                  "Je les ai mangés."
+                ],
+                [
+                  "les pommes",
+                  "les",
+                  "Je les ai mangées."
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            },
+            {
+              "type": "text",
+              "en": "Often you cannot hear it (*mangé, mangée*), but you can with participles that end in a consonant: *pris → prise*, *mis → mise*, *fait → faite*, *écrit → écrite*, *ouvert → ouverte*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "J'ai pris [la photo].",
+                "a": [
+                  "Je l'ai prise."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Negative and questions",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ne* goes before the pronoun, *pas* after the auxiliary: *Je ne l'ai pas vu.* Questions: *Tu l'as vu ? Est-ce que tu l'as vu ? L'as-tu vu ?*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je n'ai pas fini [mes devoirs].",
+                "a": [
+                  "Je ne les ai pas finis."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "No agreement when the COD comes **after** the verb: *J'ai vu Marie* (no -e) but *Je l'ai vue*."
+            },
+            {
+              "type": "tip",
+              "en": "Only a COD in front makes the participle agree. *Lui, leur, y* and *en* never do (steps 7, 10 and 11)."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le film ? Je l'ai déjà vu.",
+                  "en": "The film? I've already seen it."
+                },
+                {
+                  "fr": "Ta sœur ? Je l'ai vue hier.",
+                  "en": "Your sister? I saw her yesterday."
+                },
+                {
+                  "fr": "Les photos ? Je les ai prises à Paris.",
+                  "en": "The photos? I took them in Paris."
+                },
+                {
+                  "fr": "La porte ? Il ne l'a pas ouverte.",
+                  "en": "The door? He didn't open it."
+                },
+                {
+                  "fr": "Tes lunettes, tu les as trouvées ?",
+                  "en": "Your glasses, did you find them?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-05-cod-passe-compose-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai acheté [le pain].",
+          "a": [
+            "Je l'ai acheté."
+          ]
+        },
+        {
+          "id": "g-pp-05-cod-passe-compose-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu as vu [la nouvelle série] ?",
+          "a": [
+            "Tu l'as vue ?"
+          ]
+        },
+        {
+          "id": "g-pp-05-cod-passe-compose-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous avons invité [nos cousins].",
+          "a": [
+            "Nous les avons invités."
+          ]
+        },
+        {
+          "id": "g-pp-05-cod-passe-compose-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle a mis [la robe rouge].",
+          "a": [
+            "Elle l'a mise."
+          ]
+        },
+        {
+          "id": "g-pp-05-cod-passe-compose-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Ils ont fait [les exercices].",
+          "a": [
+            "Ils les ont faits."
+          ]
+        },
+        {
+          "id": "g-pp-05-cod-passe-compose-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai écrit [la lettre].",
+          "a": [
+            "Je l'ai écrite."
+          ]
+        },
+        {
+          "id": "g-pp-05-cod-passe-compose-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Vous avez pris [les photos] ?",
+          "a": [
+            "Vous les avez prises ?"
+          ]
+        },
+        {
+          "id": "g-pp-05-cod-passe-compose-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je n'ai pas compris [la question].",
+          "a": [
+            "Je ne l'ai pas comprise."
+          ]
+        },
+        {
+          "id": "g-pp-05-cod-passe-compose-09",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il n'a jamais lu [ces livres].",
+          "a": [
+            "Il ne les a jamais lus."
+          ]
+        },
+        {
+          "id": "g-pp-05-cod-passe-compose-10",
+          "type": "build",
+          "en": "I saw her yesterday.",
+          "a": [
+            "Je l'ai vue hier.",
+            "Hier, je l'ai vue."
+          ]
+        },
+        {
+          "id": "g-pp-05-cod-passe-compose-11",
+          "type": "build",
+          "en": "Did you find them? (the keys)",
+          "a": [
+            "Tu les as trouvées ?",
+            "Est-ce que tu les as trouvées ?",
+            "Les as-tu trouvées ?",
+            "Vous les avez trouvées ?",
+            "Est-ce que vous les avez trouvées ?",
+            "Les avez-vous trouvées ?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-06-coi-present",
+      "title": "Step 6: lui, leur in simple tenses and with an infinitive",
+      "fr": "le COI : lui, leur",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "lui",
+        "leur",
+        "COI",
+        "indirect object",
+        "à + person",
+        "to him",
+        "to her",
+        "to them",
+        "parler à",
+        "téléphoner à"
+      ],
+      "topics": [],
+      "see": [
+        "indirect-object",
+        "verbs-direct-indirect"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "indirect",
+          "label": "Drill lui, leur"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Lui* (one person) and *leur* (several people) replace **à + a person**. They go in **the same places** as *le, la, les*: before the conjugated verb, or before the infinitive."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "parle"
+                    ],
+                    [
+                      "prep",
+                      "à"
+                    ],
+                    [
+                      "obj",
+                      "Marie."
+                    ]
+                  ],
+                  "en": "I talk to Marie."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "pron",
+                      "lui"
+                    ],
+                    [
+                      "V",
+                      "parle."
+                    ]
+                  ],
+                  "en": "I talk to her."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "pron",
+                      "leur"
+                    ],
+                    [
+                      "inf",
+                      "téléphoner."
+                    ]
+                  ],
+                  "en": "I'm going to call them."
+                }
+              ],
+              "formula": [
+                "S",
+                "pron",
+                "V"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Verbs with à + person",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Verbs of giving and communicating usually take *à* + person: you give something **to** someone, you say something **to** someone."
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "meaning",
+                "example"
+              ],
+              "rows": [
+                [
+                  "parler à",
+                  "talk to",
+                  "Je lui parle."
+                ],
+                [
+                  "téléphoner à",
+                  "call",
+                  "Je leur téléphone."
+                ],
+                [
+                  "répondre à",
+                  "answer",
+                  "Il lui répond."
+                ],
+                [
+                  "dire à",
+                  "tell, say to",
+                  "Je lui dis bonjour."
+                ],
+                [
+                  "donner à, offrir à",
+                  "give to",
+                  "Je lui donne un livre."
+                ],
+                [
+                  "écrire à, envoyer à",
+                  "write to, send to",
+                  "Elle leur écrit."
+                ],
+                [
+                  "demander à",
+                  "ask",
+                  "Je lui demande l'heure."
+                ],
+                [
+                  "montrer à, expliquer à",
+                  "show, explain to",
+                  "Il leur explique la règle."
+                ],
+                [
+                  "ressembler à",
+                  "look like",
+                  "Tu lui ressembles."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je téléphone [à ma grand-mère].",
+                "a": [
+                  "Je lui téléphone."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Lui for him and her, leur for them",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I talk to him.",
+                  "fr": "Je [[lui]] parle."
+                },
+                {
+                  "en": "I talk to her.",
+                  "wrong": "Je la parle.",
+                  "fr": "Je [[lui]] parle.",
+                  "note": "parler à + person: lui for a woman too"
+                },
+                {
+                  "en": "I write to them.",
+                  "wrong": "Je leurs écris.",
+                  "fr": "Je [[leur]] écris.",
+                  "note": "leur never takes an -s"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Il répond [à ses parents].",
+                "a": [
+                  "Il leur répond."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "With an infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Exactly like step 3: the pronoun goes right before the infinitive. *Je vais lui écrire. Tu peux leur répondre ?*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je vais écrire [à Paul].",
+                "a": [
+                  "Je vais lui écrire."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "*Téléphoner à, répondre à, ressembler à, obéir à, demander à* have *à* in French but nothing in English.",
+              "title": "Different from English"
+            },
+            {
+              "type": "tip",
+              "en": "*Lui, leur* are for people (and animals). *À* + a thing or a place is *y* (step 10)."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ton prof ? Je lui parle après le cours.",
+                  "en": "Your teacher? I talk to him after class."
+                },
+                {
+                  "fr": "Tes amis ? Je leur écris tous les jours.",
+                  "en": "Your friends? I write to them every day."
+                },
+                {
+                  "fr": "Ma mère ? Je lui donne des fleurs.",
+                  "en": "My mother? I give her flowers."
+                },
+                {
+                  "fr": "Les voisins ? Nous leur disons bonjour.",
+                  "en": "The neighbours? We say hello to them."
+                },
+                {
+                  "fr": "Ta sœur ? Je vais lui téléphoner ce soir.",
+                  "en": "Your sister? I'm going to call her tonight."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-06-coi-present-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je parle [à mon prof].",
+          "a": [
+            "Je lui parle."
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle téléphone [à ses amies].",
+          "a": [
+            "Elle leur téléphone."
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous écrivons [à notre oncle].",
+          "a": [
+            "Nous lui écrivons."
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu donnes le livre [à Léa] ?",
+          "a": [
+            "Tu lui donnes le livre ?"
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il dit bonjour [aux voisins].",
+          "a": [
+            "Il leur dit bonjour."
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je ressemble [à mon père].",
+          "a": [
+            "Je lui ressemble."
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Vous expliquez la règle [aux élèves].",
+          "a": [
+            "Vous leur expliquez la règle."
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais téléphoner [à Chloé].",
+          "a": [
+            "Je vais lui téléphoner."
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-09",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu peux répondre [à tes parents] ?",
+          "a": [
+            "Tu peux leur répondre ?"
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-10",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous voulons offrir un cadeau [à notre mère].",
+          "a": [
+            "Nous voulons lui offrir un cadeau."
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-11",
+          "type": "build",
+          "en": "I'm going to write to them.",
+          "a": [
+            "Je vais leur écrire."
+          ]
+        },
+        {
+          "id": "g-pp-06-coi-present-12",
+          "type": "build",
+          "en": "She sends him a message.",
+          "a": [
+            "Elle lui envoie un message."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-07-coi-past-negative",
+      "title": "Step 7: lui, leur in negatives, questions and the passé composé",
+      "fr": "le COI, la négation et le passé composé",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "lui",
+        "leur",
+        "COI",
+        "passé composé",
+        "no agreement",
+        "negative",
+        "question",
+        "inversion"
+      ],
+      "topics": [],
+      "see": [
+        "indirect-object",
+        "pc-agreement",
+        "pronoun-position"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "indirect",
+          "label": "Drill lui, leur"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Lui* and *leur* follow the same places as *le, la, les*: *ne* before the pronoun, the pronoun before the auxiliary. One big difference: in the passé composé there is **no agreement**, because *lui* and *leur* are not COD."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "pron",
+                      "lui"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "part",
+                      "parlé."
+                    ]
+                  ],
+                  "en": "I talked to her."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "pron",
+                      "lui"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "part",
+                      "parlé."
+                    ]
+                  ],
+                  "en": "I didn't talk to her."
+                }
+              ],
+              "formula": [
+                "S",
+                "neg?",
+                "pron",
+                "aux",
+                "neg?",
+                "part"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Negative",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ne* goes in front of the pronoun, *pas* after the verb: *Je ne lui parle pas.* With an infinitive: *Je ne vais pas lui parler.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je ne parle pas [à Marc].",
+                "a": [
+                  "Je ne lui parle pas."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Questions",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Tu lui parles ? Est-ce que tu lui parles ?* With inversion the pronoun stays in front: *Lui parles-tu ?*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Ask the question with inversion",
+                "fr": "Tu leur écris.",
+                "a": [
+                  "Leur écris-tu ?"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Passé composé: no agreement",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I saw her.",
+                  "fr": "Je l'ai [[vue]].",
+                  "note": "COD in front: agreement"
+                },
+                {
+                  "en": "I talked to her.",
+                  "wrong": "Je lui ai parlée.",
+                  "fr": "Je lui ai [[parlé]].",
+                  "note": "COI: no agreement"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "J'ai téléphoné [à ma tante].",
+                "a": [
+                  "Je lui ai téléphoné."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "*Appeler* (COD) and *téléphoner à* (COI) mean the same thing but take different pronouns: *Je l'ai appelée* but *Je lui ai téléphoné*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ton frère ? Je ne lui parle plus.",
+                  "en": "Your brother? I don't talk to him anymore."
+                },
+                {
+                  "fr": "Tes grands-parents, tu leur écris ?",
+                  "en": "Your grandparents, do you write to them?"
+                },
+                {
+                  "fr": "Ma prof ? Je lui ai posé une question.",
+                  "en": "My teacher? I asked her a question."
+                },
+                {
+                  "fr": "Mes parents ? Je ne leur ai pas dit la vérité.",
+                  "en": "My parents? I didn't tell them the truth."
+                },
+                {
+                  "fr": "Léa ? Je vais lui répondre demain.",
+                  "en": "Léa? I'm going to answer her tomorrow."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-07-coi-past-negative-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je ne réponds pas [à Hugo].",
+          "a": [
+            "Je ne lui réponds pas."
+          ]
+        },
+        {
+          "id": "g-pp-07-coi-past-negative-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle ne parle plus [à ses cousins].",
+          "a": [
+            "Elle ne leur parle plus."
+          ]
+        },
+        {
+          "id": "g-pp-07-coi-past-negative-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu ne vas pas écrire [à Julie] ?",
+          "a": [
+            "Tu ne vas pas lui écrire ?"
+          ]
+        },
+        {
+          "id": "g-pp-07-coi-past-negative-04",
+          "type": "transform",
+          "task_en": "Ask the question with inversion",
+          "fr": "Vous lui téléphonez.",
+          "a": [
+            "Lui téléphonez-vous ?"
+          ]
+        },
+        {
+          "id": "g-pp-07-coi-past-negative-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai parlé [à la directrice].",
+          "a": [
+            "Je lui ai parlé."
+          ]
+        },
+        {
+          "id": "g-pp-07-coi-past-negative-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous avons écrit [à nos grands-parents].",
+          "a": [
+            "Nous leur avons écrit."
+          ]
+        },
+        {
+          "id": "g-pp-07-coi-past-negative-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il a donné son numéro [à Emma].",
+          "a": [
+            "Il lui a donné son numéro."
+          ]
+        },
+        {
+          "id": "g-pp-07-coi-past-negative-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elles ont dit la vérité [à leurs parents].",
+          "a": [
+            "Elles leur ont dit la vérité."
+          ]
+        },
+        {
+          "id": "g-pp-07-coi-past-negative-09",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je n'ai pas répondu [à ma sœur].",
+          "a": [
+            "Je ne lui ai pas répondu."
+          ]
+        },
+        {
+          "id": "g-pp-07-coi-past-negative-10",
+          "type": "build",
+          "en": "I called her yesterday.",
+          "a": [
+            "Je lui ai téléphoné hier.",
+            "Hier, je lui ai téléphoné.",
+            "Je l'ai appelée hier.",
+            "Hier, je l'ai appelée."
+          ]
+        },
+        {
+          "id": "g-pp-07-coi-past-negative-11",
+          "type": "build",
+          "en": "We didn't answer them.",
+          "a": [
+            "Nous ne leur avons pas répondu.",
+            "On ne leur a pas répondu."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-08-le-or-lui",
+      "title": "Step 8: le or lui? Mixing COD and COI",
+      "fr": "COD ou COI ?",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "le or lui",
+        "COD or COI",
+        "direct or indirect",
+        "appeler",
+        "téléphoner",
+        "mix"
+      ],
+      "topics": [],
+      "see": [
+        "verbs-direct-indirect",
+        "direct-object",
+        "indirect-object"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "mixed",
+          "label": "Drill: which pronoun?"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Now mix the two. Ask one question: **does the verb take *à* before the person?** Yes → *lui / leur*. No → *le / la / les*. *Je le vois* (I see him), but *Je lui parle* (I talk to him)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I see him.",
+                  "fr": "Je [[le]] vois."
+                },
+                {
+                  "en": "I talk to him.",
+                  "fr": "Je [[lui]] parle."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The test, verb by verb",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "COD: no preposition",
+                "COI: à + person"
+              ],
+              "rows": [
+                [
+                  "voir quelqu'un → le",
+                  "parler à quelqu'un → lui"
+                ],
+                [
+                  "appeler quelqu'un → le",
+                  "téléphoner à quelqu'un → lui"
+                ],
+                [
+                  "aider quelqu'un → le",
+                  "répondre à quelqu'un → lui"
+                ],
+                [
+                  "attendre quelqu'un → le",
+                  "écrire à quelqu'un → lui"
+                ],
+                [
+                  "écouter quelqu'un → le",
+                  "demander à quelqu'un → lui"
+                ],
+                [
+                  "remercier quelqu'un → le",
+                  "sourire à quelqu'un → lui"
+                ],
+                [
+                  "inviter quelqu'un → le",
+                  "obéir à quelqu'un → lui"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Je remercie mon frère. → Je ___ remercie.",
+                "a": [
+                  "le"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "One verb, two objects",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Many verbs take both: *donner* **quelque chose** (COD) **à quelqu'un** (COI). Each one has its own pronoun: *Je donne le livre à Paul → Je le donne à Paul* or *Je lui donne le livre*. Both at once is step 14."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je montre [les photos] à Léo.",
+                "a": [
+                  "Je les montre à Léo."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "Same meaning, different pronoun: *Je l'appelle* / *Je lui téléphone*, *Je l'aide* / *Je lui donne un coup de main*."
+            },
+            {
+              "type": "tip",
+              "en": "Agreement in the passé composé only for the COD: *Je l'ai invitée* but *Je lui ai souri*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ma mère ? Je l'appelle et je lui raconte tout.",
+                  "en": "My mother? I call her and tell her everything."
+                },
+                {
+                  "fr": "Le prof ? Je l'écoute et je lui pose des questions.",
+                  "en": "The teacher? I listen to him and ask him questions."
+                },
+                {
+                  "fr": "Mes amis ? Je les attends et je leur envoie un message.",
+                  "en": "My friends? I wait for them and send them a message."
+                },
+                {
+                  "fr": "Sophie ? Je l'ai invitée et je lui ai donné l'adresse.",
+                  "en": "Sophie? I invited her and gave her the address."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-08-le-or-lui-01",
+          "type": "cloze",
+          "fr": "Je vois Paul. → Je ___ vois.",
+          "a": [
+            "le"
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-02",
+          "type": "cloze",
+          "fr": "Je parle à Paul. → Je ___ parle.",
+          "a": [
+            "lui"
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'appelle [ma mère].",
+          "a": [
+            "Je l'appelle."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je téléphone [à ma mère].",
+          "a": [
+            "Je lui téléphone."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous attendons [nos amis].",
+          "a": [
+            "Nous les attendons."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous écrivons [à nos amis].",
+          "a": [
+            "Nous leur écrivons."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il remercie [la prof].",
+          "a": [
+            "Il la remercie."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il pose une question [à la prof].",
+          "a": [
+            "Il lui pose une question."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-09",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais aider [mes parents].",
+          "a": [
+            "Je vais les aider."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-10",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais répondre [à mes parents].",
+          "a": [
+            "Je vais leur répondre."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-11",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai invité [Sophie].",
+          "a": [
+            "Je l'ai invitée."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-12",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai souri [à Sophie].",
+          "a": [
+            "Je lui ai souri."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-13",
+          "type": "build",
+          "en": "I'm listening to her.",
+          "a": [
+            "Je l'écoute."
+          ]
+        },
+        {
+          "id": "g-pp-08-le-or-lui-14",
+          "type": "build",
+          "en": "I'm asking her.",
+          "a": [
+            "Je lui demande."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-09-me-te-nous-vous",
+      "title": "Step 9: me, te, nous, vous (and se)",
+      "fr": "me, te, nous, vous, se",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "me",
+        "te",
+        "nous",
+        "vous",
+        "se",
+        "m'",
+        "t'",
+        "me and you",
+        "agreement"
+      ],
+      "topics": [],
+      "see": [
+        "me-te-nous-vous",
+        "reflexive-pronouns"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "me-te",
+          "label": "Drill me, te, nous, vous"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "For *me, you, us, you* French uses **one form for both COD and COI**: *me, te, nous, vous*. So you don't have to check the preposition, only the place. *Me* and *te* become **m'**, **t'** before a vowel."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "He sees me.",
+                  "fr": "Il [[me]] voit."
+                },
+                {
+                  "en": "He talks to me.",
+                  "fr": "Il [[me]] parle."
+                },
+                {
+                  "en": "I'll call you.",
+                  "fr": "Je [[t']]appelle."
+                },
+                {
+                  "en": "She writes to us.",
+                  "fr": "Elle [[nous]] écrit."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Same places as before",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "situation",
+                "example"
+              ],
+              "rows": [
+                [
+                  "simple tense",
+                  "Il me regarde."
+                ],
+                [
+                  "infinitive",
+                  "Tu peux m'aider ?"
+                ],
+                [
+                  "negative",
+                  "Je ne te crois pas."
+                ],
+                [
+                  "passé composé",
+                  "Il nous a invités."
+                ],
+                [
+                  "question",
+                  "Tu m'entends ?"
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "She loves me.",
+                "a": [
+                  "Elle m'aime."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Agreement in the passé composé",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When *me, te, nous, vous* are a **COD**, the participle agrees with the person they stand for: Marie says *Il m'a vue*. *Ils nous ont invités.* When they are a **COI** (*parler à, téléphoner à*), no agreement: *Elle nous a parlé.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Marie says: \"He saw me.\"",
+                "a": [
+                  "Il m'a vue."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Se: the reflexive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Se (s')* is for the subject doing something to itself: *il se lave, elle s'appelle*. It sits in the same place as the other pronouns: *Il ne se lève pas. Elle va se coucher. Elle s'est levée.*"
+            },
+            {
+              "type": "see",
+              "rules": [
+                "reflexive-pronouns"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu me prêtes ton stylo ?",
+                  "en": "Will you lend me your pen?"
+                },
+                {
+                  "fr": "Je t'attends devant le cinéma.",
+                  "en": "I'm waiting for you in front of the cinema."
+                },
+                {
+                  "fr": "Le prof nous a expliqué la règle.",
+                  "en": "The teacher explained the rule to us."
+                },
+                {
+                  "fr": "Je vais vous montrer ma chambre.",
+                  "en": "I'm going to show you my room."
+                },
+                {
+                  "fr": "Elle ne m'a pas répondu.",
+                  "en": "She didn't answer me."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-09-me-te-nous-vous-01",
+          "type": "build",
+          "en": "He's looking at me.",
+          "a": [
+            "Il me regarde."
+          ]
+        },
+        {
+          "id": "g-pp-09-me-te-nous-vous-02",
+          "type": "build",
+          "en": "I'll call you tomorrow. (tu)",
+          "a": [
+            "Je t'appelle demain.",
+            "Demain, je t'appelle.",
+            "Je vais t'appeler demain.",
+            "Je t'appellerai demain."
+          ]
+        },
+        {
+          "id": "g-pp-09-me-te-nous-vous-03",
+          "type": "build",
+          "en": "She talks to us.",
+          "a": [
+            "Elle nous parle."
+          ]
+        },
+        {
+          "id": "g-pp-09-me-te-nous-vous-04",
+          "type": "build",
+          "en": "I don't believe you. (vous)",
+          "a": [
+            "Je ne vous crois pas."
+          ]
+        },
+        {
+          "id": "g-pp-09-me-te-nous-vous-05",
+          "type": "build",
+          "en": "Can you hear me?",
+          "a": [
+            "Tu m'entends ?",
+            "Est-ce que tu m'entends ?",
+            "M'entends-tu ?",
+            "Vous m'entendez ?",
+            "Est-ce que vous m'entendez ?",
+            "M'entendez-vous ?"
+          ]
+        },
+        {
+          "id": "g-pp-09-me-te-nous-vous-06",
+          "type": "build",
+          "en": "Can you help me?",
+          "a": [
+            "Tu peux m'aider ?",
+            "Est-ce que tu peux m'aider ?",
+            "Peux-tu m'aider ?",
+            "Vous pouvez m'aider ?",
+            "Est-ce que vous pouvez m'aider ?",
+            "Pouvez-vous m'aider ?"
+          ]
+        },
+        {
+          "id": "g-pp-09-me-te-nous-vous-07",
+          "type": "build",
+          "en": "I'm going to tell you a story. (tu)",
+          "a": [
+            "Je vais te raconter une histoire."
+          ]
+        },
+        {
+          "id": "g-pp-09-me-te-nous-vous-08",
+          "type": "build",
+          "en": "He wrote to me.",
+          "a": [
+            "Il m'a écrit."
+          ]
+        },
+        {
+          "id": "g-pp-09-me-te-nous-vous-09",
+          "type": "build",
+          "en": "They invited us.",
+          "a": [
+            "Ils nous ont {invités|invitées}.",
+            "Elles nous ont {invités|invitées}."
+          ]
+        },
+        {
+          "id": "g-pp-09-me-te-nous-vous-10",
+          "type": "transform",
+          "task_en": "Put it in the passé composé",
+          "fr": "Tu me téléphones.",
+          "a": [
+            "Tu m'as téléphoné."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-10-y",
+      "title": "Step 10: y for places and à + thing",
+      "fr": "le pronom y",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "y",
+        "there",
+        "places",
+        "à + thing",
+        "penser à",
+        "j'y vais",
+        "vas-y"
+      ],
+      "topics": [],
+      "see": [
+        "y",
+        "y-en-vs-lui"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "y",
+          "label": "Drill y"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Y* replaces **à + a thing or an idea** (*penser à l'examen*) and **a place** introduced by *à, en, dans, sur, chez* (*aller à Paris, être dans la chambre*). It goes in the usual spot: before the conjugated verb, or before the infinitive."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "place",
+                      "à Paris."
+                    ]
+                  ],
+                  "en": "I'm going to Paris."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "J'"
+                    ],
+                    [
+                      "pron",
+                      "y"
+                    ],
+                    [
+                      "V",
+                      "vais."
+                    ]
+                  ],
+                  "en": "I'm going there."
+                }
+              ],
+              "formula": [
+                "S",
+                "pron",
+                "V"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Places",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "sentence",
+                "with y"
+              ],
+              "rows": [
+                [
+                  "Je vais à Paris.",
+                  "J'y vais."
+                ],
+                [
+                  "Il habite en France.",
+                  "Il y habite."
+                ],
+                [
+                  "Le livre est sur la table.",
+                  "Le livre y est."
+                ],
+                [
+                  "Nous dînons chez Marc.",
+                  "Nous y dînons."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Nous allons [au cinéma].",
+                "a": [
+                  "Nous y allons."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "À + thing",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Verbs with *à* + a thing: *penser à, réfléchir à, répondre à* (a letter, a question), *jouer à* (a game), *s'intéresser à, participer à, croire à*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je réfléchis [à ta question].",
+                "a": [
+                  "J'y réfléchis."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "In every situation",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "situation",
+                "example"
+              ],
+              "rows": [
+                [
+                  "simple tense",
+                  "J'y vais."
+                ],
+                [
+                  "infinitive",
+                  "Je vais y aller."
+                ],
+                [
+                  "negative",
+                  "Je n'y vais pas."
+                ],
+                [
+                  "passé composé",
+                  "J'y suis allé."
+                ],
+                [
+                  "question",
+                  "Tu y vas ? Y vas-tu ?"
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            },
+            {
+              "type": "text",
+              "en": "No agreement with *y*. In *Elle y est allée* the *-e* comes from *être* and the subject *elle*, not from *y*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je ne suis jamais allé [en Italie].",
+                "a": [
+                  "Je n'y suis jamais allé."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "*À* + a person is *lui / leur*, not *y*: *Je lui réponds* (to Paul) but *J'y réponds* (to the email)."
+            },
+            {
+              "type": "tip",
+              "en": "Before *irai, irais* (future and conditional of *aller*) French drops *y* for the sound: *Tu vas à Paris ? Oui, j'irai demain.*"
+            },
+            {
+              "type": "tip",
+              "en": "*Penser à, s'intéresser à* + a person keep *à* + a stressed pronoun: *Je pense à elle* (step 12)."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu vas à la piscine ? Oui, j'y vais samedi.",
+                  "en": "Are you going to the pool? Yes, I'm going on Saturday."
+                },
+                {
+                  "fr": "L'examen ? Je n'y pense pas.",
+                  "en": "The exam? I'm not thinking about it."
+                },
+                {
+                  "fr": "Lyon ? Nous y avons habité deux ans.",
+                  "en": "Lyon? We lived there for two years."
+                },
+                {
+                  "fr": "Le concert ? Je vais y aller avec Paul.",
+                  "en": "The concert? I'm going with Paul."
+                },
+                {
+                  "fr": "Ton message ? J'y ai déjà répondu.",
+                  "en": "Your message? I've already answered it."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-10-y-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais [à la piscine].",
+          "a": [
+            "J'y vais."
+          ]
+        },
+        {
+          "id": "g-pp-10-y-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle habite [à Lyon].",
+          "a": [
+            "Elle y habite."
+          ]
+        },
+        {
+          "id": "g-pp-10-y-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Les clés sont [dans mon sac].",
+          "a": [
+            "Les clés y sont."
+          ]
+        },
+        {
+          "id": "g-pp-10-y-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous dormons [chez ma tante].",
+          "a": [
+            "Nous y dormons."
+          ]
+        },
+        {
+          "id": "g-pp-10-y-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu penses [à tes vacances] ?",
+          "a": [
+            "Tu y penses ?"
+          ]
+        },
+        {
+          "id": "g-pp-10-y-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il joue [aux jeux vidéo].",
+          "a": [
+            "Il y joue."
+          ]
+        },
+        {
+          "id": "g-pp-10-y-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais aller [au marché].",
+          "a": [
+            "Je vais y aller."
+          ]
+        },
+        {
+          "id": "g-pp-10-y-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je ne réponds pas [à ce message].",
+          "a": [
+            "Je n'y réponds pas."
+          ]
+        },
+        {
+          "id": "g-pp-10-y-09",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous sommes allés [à la plage].",
+          "a": [
+            "Nous y sommes allés."
+          ]
+        },
+        {
+          "id": "g-pp-10-y-10",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle n'a pas pensé [à son rendez-vous].",
+          "a": [
+            "Elle n'y a pas pensé."
+          ]
+        },
+        {
+          "id": "g-pp-10-y-11",
+          "type": "build",
+          "en": "Are you going there tomorrow?",
+          "a": [
+            "Tu y vas demain ?",
+            "Est-ce que tu y vas demain ?",
+            "Y vas-tu demain ?",
+            "Vous y allez demain ?",
+            "Est-ce que vous y allez demain ?",
+            "Y allez-vous demain ?"
+          ]
+        },
+        {
+          "id": "g-pp-10-y-12",
+          "type": "build",
+          "en": "I'm thinking about it.",
+          "a": [
+            "J'y pense."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-11-en",
+      "title": "Step 11: en for quantities and de + thing",
+      "fr": "le pronom en",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "en",
+        "some",
+        "any",
+        "of it",
+        "of them",
+        "quantities",
+        "de + thing",
+        "j'en ai",
+        "partitive"
+      ],
+      "topics": [],
+      "see": [
+        "en",
+        "en-quantities",
+        "partitive"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "en",
+          "label": "Drill en"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*En* replaces **de + a thing** (*parler de, avoir besoin de*) and any noun with a **partitive or a quantity**: *du, de la, des, un, une, beaucoup de, trois...* The number or quantity word **stays at the end**: *J'en ai trois.*"
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "mange"
+                    ],
+                    [
+                      "obj",
+                      "du pain."
+                    ]
+                  ],
+                  "en": "I eat bread."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "J'"
+                    ],
+                    [
+                      "pron",
+                      "en"
+                    ],
+                    [
+                      "V",
+                      "mange."
+                    ]
+                  ],
+                  "en": "I eat some."
+                }
+              ],
+              "formula": [
+                "S",
+                "pron",
+                "V"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Du, de la, des",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "sentence",
+                "with en"
+              ],
+              "rows": [
+                [
+                  "Je mange du pain.",
+                  "J'en mange."
+                ],
+                [
+                  "Il boit de l'eau.",
+                  "Il en boit."
+                ],
+                [
+                  "Nous achetons des pommes.",
+                  "Nous en achetons."
+                ],
+                [
+                  "Tu as des frères ?",
+                  "Tu en as ?"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je bois [du lait].",
+                "a": [
+                  "J'en bois."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Numbers and quantities",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*En* goes before the verb, the number or quantity word stays after it: *J'ai deux sœurs → J'en ai deux. Il a beaucoup d'amis → Il en a beaucoup. J'ai un chien → J'en ai un.* In the negative the number goes away: *Je n'en ai pas.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "J'ai trois [cousins].",
+                "a": [
+                  "J'en ai trois."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "De + thing after a verb",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Verbs and expressions with *de*: *avoir besoin de, avoir envie de, parler de, rêver de, s'occuper de, avoir peur de, être content de*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Il parle [de son voyage].",
+                "a": [
+                  "Il en parle."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "In every situation",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "situation",
+                "example"
+              ],
+              "rows": [
+                [
+                  "simple tense",
+                  "J'en veux."
+                ],
+                [
+                  "infinitive",
+                  "Je vais en acheter."
+                ],
+                [
+                  "negative",
+                  "Je n'en veux pas."
+                ],
+                [
+                  "passé composé",
+                  "J'en ai mangé."
+                ],
+                [
+                  "question",
+                  "Tu en veux ? En veux-tu ?"
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            },
+            {
+              "type": "text",
+              "en": "No agreement with *en* in the passé composé: *Des pommes ? J'en ai mangé.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je ne vais pas acheter [de chocolat].",
+                "a": [
+                  "Je ne vais pas en acheter."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "tip",
+              "en": "*Le, la, les* replace a definite thing (*le gâteau*, that cake), *en* replaces an amount (*du gâteau*, some cake): *Je mange le gâteau → Je le mange*, *Je mange du gâteau → J'en mange*."
+            },
+            {
+              "type": "tip",
+              "en": "*De* + a person is not *en*: *Je parle de Paul → Je parle de lui* (step 12)."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Du café ? Non merci, je n'en bois pas.",
+                  "en": "Coffee? No thanks, I don't drink it."
+                },
+                {
+                  "fr": "Des frères ? J'en ai deux.",
+                  "en": "Brothers? I have two."
+                },
+                {
+                  "fr": "Ton vélo ? J'en ai besoin demain.",
+                  "en": "Your bike? I need it tomorrow."
+                },
+                {
+                  "fr": "Ce film ? Tout le monde en parle.",
+                  "en": "That film? Everybody is talking about it."
+                },
+                {
+                  "fr": "Des crêpes ? Nous en avons mangé dix !",
+                  "en": "Pancakes? We ate ten!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-11-en-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle mange [de la salade].",
+          "a": [
+            "Elle en mange."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous achetons [des fraises].",
+          "a": [
+            "Nous en achetons."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai deux [sœurs].",
+          "a": [
+            "J'en ai deux."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il a beaucoup [d'amis].",
+          "a": [
+            "Il en a beaucoup."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu as un [vélo] ?",
+          "a": [
+            "Tu en as un ?"
+          ]
+        },
+        {
+          "id": "g-pp-11-en-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai besoin [de ton aide].",
+          "a": [
+            "J'en ai besoin."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous parlons [du match].",
+          "a": [
+            "Nous en parlons."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle a envie [d'une glace].",
+          "a": [
+            "Elle en a envie."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-09",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais prendre [du café].",
+          "a": [
+            "Je vais en prendre."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-10",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il n'a pas [de frères].",
+          "a": [
+            "Il n'en a pas."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-11",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai mangé [des cerises].",
+          "a": [
+            "J'en ai mangé."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-12",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Ils ont acheté trois [livres].",
+          "a": [
+            "Ils en ont acheté trois."
+          ]
+        },
+        {
+          "id": "g-pp-11-en-13",
+          "type": "build",
+          "en": "Do you want some? (tu)",
+          "a": [
+            "Tu en veux ?",
+            "Est-ce que tu en veux ?",
+            "En veux-tu ?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-12-stressed",
+      "title": "Step 12: people after a preposition: à lui, de lui, avec eux",
+      "fr": "les pronoms toniques après une préposition",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "stressed pronouns",
+        "moi",
+        "toi",
+        "lui",
+        "elle",
+        "eux",
+        "elles",
+        "de lui",
+        "à lui",
+        "penser à",
+        "chez moi",
+        "avec eux"
+      ],
+      "topics": [],
+      "see": [
+        "stressed-pronouns",
+        "y-en-vs-lui"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "stressed",
+          "label": "Drill: stressed pronouns"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When a **person** comes after a preposition and there is no object pronoun for that case, keep the preposition and use a **stressed pronoun**: *moi, toi, lui, elle, nous, vous, eux, elles*. *Je parle de Paul → Je parle de lui.*"
+            },
+            {
+              "type": "table",
+              "head": [
+                "subject",
+                "stressed"
+              ],
+              "rows": [
+                [
+                  "je",
+                  "moi"
+                ],
+                [
+                  "tu",
+                  "toi"
+                ],
+                [
+                  "il",
+                  "lui"
+                ],
+                [
+                  "elle",
+                  "elle"
+                ],
+                [
+                  "nous",
+                  "nous"
+                ],
+                [
+                  "vous",
+                  "vous"
+                ],
+                [
+                  "ils",
+                  "eux"
+                ],
+                [
+                  "elles",
+                  "elles"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "De + person",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Parler de, avoir peur de, s'occuper de, être fier de, se souvenir de, avoir besoin de*: a thing becomes *en*, a person becomes *de* + stressed pronoun."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm talking about the film.",
+                  "fr": "J'[[en]] parle."
+                },
+                {
+                  "en": "I'm talking about Paul.",
+                  "wrong": "J'en parle.",
+                  "fr": "Je parle [[de lui]]."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Elle a besoin [de sa mère].",
+                "a": [
+                  "Elle a besoin d'elle."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "À + person with some verbs",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A few verbs keep *à* + stressed pronoun for people instead of *lui / leur*: *penser à, faire attention à, s'intéresser à, tenir à*, and *être à* (to belong to). *Je pense à Marie → Je pense à elle. Ce livre est à moi.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je pense [à mes grands-parents].",
+                "a": [
+                  "Je pense à eux."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Other prepositions",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "After *avec, pour, chez, sans, devant, derrière, à côté de* a person is always a stressed pronoun: *Je vais chez lui. C'est pour toi. Il est assis à côté d'elle.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace the underlined words with a pronoun",
+                "fr": "Je joue avec [mes cousines].",
+                "a": [
+                  "Je joue avec elles."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Alone and after c'est",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Stressed pronouns also stand alone and after *c'est*: *Qui veut du gâteau ? Moi ! C'est lui. Moi, je préfère le thé.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ton grand-père ? Je pense souvent à lui.",
+                  "en": "Your grandfather? I often think about him."
+                },
+                {
+                  "fr": "Mes petites sœurs ? Je m'occupe d'elles le mercredi.",
+                  "en": "My little sisters? I look after them on Wednesdays."
+                },
+                {
+                  "fr": "Ce soir, on dîne chez eux.",
+                  "en": "Tonight we're having dinner at their place."
+                },
+                {
+                  "fr": "Tu viens avec nous ?",
+                  "en": "Are you coming with us?"
+                },
+                {
+                  "fr": "Ce sac est à toi ?",
+                  "en": "Is this bag yours?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-12-stressed-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous parlons [de notre voisin].",
+          "a": [
+            "Nous parlons de lui."
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il a peur [de sa sœur].",
+          "a": [
+            "Il a peur d'elle."
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle s'occupe [de ses frères].",
+          "a": [
+            "Elle s'occupe d'eux."
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je pense souvent [à ma grand-mère].",
+          "a": [
+            "Je pense souvent à elle."
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Fais attention [à ton petit frère] !",
+          "a": [
+            "Fais attention à lui !"
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il s'intéresse [à ces chanteuses].",
+          "a": [
+            "Il s'intéresse à elles."
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais chez [Marc].",
+          "a": [
+            "Je vais chez lui."
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "C'est un cadeau pour [mes parents].",
+          "a": [
+            "C'est un cadeau pour eux."
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-09",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu viens avec [Julie et moi] ?",
+          "a": [
+            "Tu viens avec nous ?"
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-10",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je parle [de mon week-end].",
+          "a": [
+            "J'en parle."
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-11",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je parle [de mon frère].",
+          "a": [
+            "Je parle de lui."
+          ]
+        },
+        {
+          "id": "g-pp-12-stressed-12",
+          "type": "build",
+          "en": "Who wants cake? Me!",
+          "a": [
+            "Qui veut du gâteau ? Moi !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-13-mix",
+      "title": "Step 13: mixed practice with one pronoun",
+      "fr": "un pronom, toutes les situations",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "mix",
+        "mixed practice",
+        "le lui y en",
+        "which pronoun",
+        "object pronouns"
+      ],
+      "topics": [],
+      "see": [
+        "y-en-vs-lui",
+        "pronoun-position"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "mixed",
+          "label": "Drill: which pronoun?"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Now everything with one pronoun, in every situation. For each sentence use the three questions from step 1: **preposition? person or thing? which form?** Then place it: before the conjugated verb, before the infinitive, or before the auxiliary."
+            }
+          ]
+        },
+        {
+          "title": "The decision",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "after the verb",
+                "pronoun"
+              ],
+              "rows": [
+                [
+                  "no preposition",
+                  "le, la, les (me, te, nous, vous)"
+                ],
+                [
+                  "à + person",
+                  "lui, leur (penser à → à lui)"
+                ],
+                [
+                  "à + thing or place",
+                  "y"
+                ],
+                [
+                  "de + thing, or a quantity",
+                  "en"
+                ],
+                [
+                  "de or another preposition + person",
+                  "de lui, avec elle, chez eux"
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The places in one table",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "situation",
+                "COD",
+                "COI",
+                "y",
+                "en"
+              ],
+              "rows": [
+                [
+                  "simple tense",
+                  "Je le vois.",
+                  "Je lui parle.",
+                  "J'y vais.",
+                  "J'en veux."
+                ],
+                [
+                  "infinitive",
+                  "Je vais le voir.",
+                  "Je vais lui parler.",
+                  "Je vais y aller.",
+                  "Je vais en prendre."
+                ],
+                [
+                  "negative",
+                  "Je ne le vois pas.",
+                  "Je ne lui parle pas.",
+                  "Je n'y vais pas.",
+                  "Je n'en veux pas."
+                ],
+                [
+                  "passé composé",
+                  "Je l'ai vue.",
+                  "Je lui ai parlé.",
+                  "J'y suis allé.",
+                  "J'en ai pris."
+                ],
+                [
+                  "inversion",
+                  "Le vois-tu ?",
+                  "Lui parles-tu ?",
+                  "Y vas-tu ?",
+                  "En veux-tu ?"
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "La chanson ? Je l'écoute tout le temps.",
+                  "en": "The song? I listen to it all the time."
+                },
+                {
+                  "fr": "Le prof ? Je vais lui parler demain.",
+                  "en": "The teacher? I'm going to talk to him tomorrow."
+                },
+                {
+                  "fr": "La bibliothèque ? Je n'y suis jamais allé.",
+                  "en": "The library? I've never been there."
+                },
+                {
+                  "fr": "Des devoirs ? J'en ai beaucoup ce soir.",
+                  "en": "Homework? I've got a lot tonight."
+                },
+                {
+                  "fr": "Mon cousin ? On parle souvent de lui.",
+                  "en": "My cousin? We often talk about him."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-13-mix-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je regarde [les étoiles].",
+          "a": [
+            "Je les regarde."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je réponds [à mon cousin].",
+          "a": [
+            "Je lui réponds."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je réponds [à son e-mail].",
+          "a": [
+            "J'y réponds."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il mange [des pâtes].",
+          "a": [
+            "Il en mange."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle pense [à son copain].",
+          "a": [
+            "Elle pense à lui."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-06",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous allons visiter [le musée].",
+          "a": [
+            "Nous allons le visiter."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu vas parler [à la directrice] ?",
+          "a": [
+            "Tu vas lui parler ?"
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je dois aller [à la banque].",
+          "a": [
+            "Je dois y aller."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-09",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Vous voulez boire [de l'eau] ?",
+          "a": [
+            "Vous voulez en boire ?"
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-10",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je n'aime pas [cette chanson].",
+          "a": [
+            "Je ne l'aime pas."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-11",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il ne téléphone jamais [à ses grands-parents].",
+          "a": [
+            "Il ne leur téléphone jamais."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-12",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous ne sommes pas allés [au concert].",
+          "a": [
+            "Nous n'y sommes pas allés."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-13",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle a lu [la lettre].",
+          "a": [
+            "Elle l'a lue."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-14",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai parlé [de mes problèmes].",
+          "a": [
+            "J'en ai parlé."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-15",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai parlé [de mon ami].",
+          "a": [
+            "J'ai parlé de lui."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-16",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Ils ont écrit [à leurs amis].",
+          "a": [
+            "Ils leur ont écrit."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-17",
+          "type": "build",
+          "en": "I don't need it. (the car)",
+          "a": [
+            "Je n'en ai pas besoin."
+          ]
+        },
+        {
+          "id": "g-pp-13-mix-18",
+          "type": "build",
+          "en": "We're going to see them tonight.",
+          "a": [
+            "Nous allons les voir ce soir.",
+            "On va les voir ce soir.",
+            "Ce soir, nous allons les voir.",
+            "Ce soir, on va les voir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-14-two-pronouns",
+      "title": "Step 14: two pronouns together",
+      "fr": "deux pronoms ensemble",
+      "level": "B1",
+      "keywords": [
+        "step by step",
+        "two pronouns",
+        "double pronouns",
+        "order",
+        "le lui",
+        "me le",
+        "il y en a",
+        "lui en"
+      ],
+      "topics": [],
+      "see": [
+        "pronoun-order"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "double",
+          "label": "Drill two pronouns"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With two pronouns the order is fixed: **me / te / se / nous / vous → le / la / les → lui / leur → y → en**. Both go where one pronoun would go. *Il me le donne. Je le lui donne. Il m'en donne.*"
+            },
+            {
+              "type": "table",
+              "head": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+              ],
+              "rows": [
+                [
+                  "me, te, se, nous, vous",
+                  "le, la, les",
+                  "lui, leur",
+                  "y",
+                  "en"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The pairs you will use most",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "pair",
+                "example"
+              ],
+              "rows": [
+                [
+                  "me le",
+                  "Il me le donne."
+                ],
+                [
+                  "te la",
+                  "Je te la prête."
+                ],
+                [
+                  "le lui",
+                  "Je le lui dis."
+                ],
+                [
+                  "la leur",
+                  "Elle la leur montre."
+                ],
+                [
+                  "les lui",
+                  "Nous les lui envoyons."
+                ],
+                [
+                  "m'en",
+                  "Il m'en donne."
+                ],
+                [
+                  "lui en",
+                  "Je lui en parle."
+                ],
+                [
+                  "y en",
+                  "Il y en a."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "*Lui* and *leur* never go together with *me, te, nous, vous*. In that case use *à* + stressed pronoun for the person: *Je te présente à lui.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace both underlined parts with pronouns",
+                "fr": "Je donne [le livre] [à Paul].",
+                "a": [
+                  "Je le lui donne."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "In every situation",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "situation",
+                "example"
+              ],
+              "rows": [
+                [
+                  "simple tense",
+                  "Je le lui donne."
+                ],
+                [
+                  "infinitive",
+                  "Je vais le lui donner."
+                ],
+                [
+                  "negative",
+                  "Je ne le lui donne pas."
+                ],
+                [
+                  "passé composé",
+                  "Je la lui ai donnée."
+                ],
+                [
+                  "question",
+                  "Tu me le prêtes ?"
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            },
+            {
+              "type": "text",
+              "en": "In the passé composé the participle still agrees with the COD only: *Les clés ? Je te les ai données.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Replace both underlined parts with pronouns",
+                "fr": "Je vais montrer [la photo] [à mes amis].",
+                "a": [
+                  "Je vais la leur montrer."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ton vélo ? Tu me le prêtes ?",
+                  "en": "Your bike? Will you lend it to me?"
+                },
+                {
+                  "fr": "La vérité ? Je ne la leur ai pas dite.",
+                  "en": "The truth? I didn't tell it to them."
+                },
+                {
+                  "fr": "Des bonbons ? Mamie nous en donne toujours.",
+                  "en": "Sweets? Grandma always gives us some."
+                },
+                {
+                  "fr": "Il y en a encore dans le frigo.",
+                  "en": "There's still some in the fridge."
+                },
+                {
+                  "fr": "Le cadeau ? Je vais le lui offrir demain.",
+                  "en": "The present? I'm going to give it to her tomorrow."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-14-two-pronouns-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il me donne [le stylo].",
+          "a": [
+            "Il me le donne."
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-02",
+          "type": "transform",
+          "task_en": "Replace both underlined parts with pronouns",
+          "fr": "Je prête [ma veste] [à Marie].",
+          "a": [
+            "Je la lui prête."
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-03",
+          "type": "transform",
+          "task_en": "Replace both underlined parts with pronouns",
+          "fr": "Nous envoyons [les photos] [à nos parents].",
+          "a": [
+            "Nous les leur envoyons."
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu me prêtes [ton vélo] ?",
+          "a": [
+            "Tu me le prêtes ?"
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle nous donne [des bonbons].",
+          "a": [
+            "Elle nous en donne."
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-06",
+          "type": "transform",
+          "task_en": "Replace both underlined parts with pronouns",
+          "fr": "Je parle [à Paul] [de mon projet].",
+          "a": [
+            "Je lui en parle."
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il y a [des pommes].",
+          "a": [
+            "Il y en a."
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-08",
+          "type": "transform",
+          "task_en": "Replace both underlined parts with pronouns",
+          "fr": "Je vais expliquer [la règle] [aux élèves].",
+          "a": [
+            "Je vais la leur expliquer."
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-09",
+          "type": "transform",
+          "task_en": "Replace both underlined parts with pronouns",
+          "fr": "Je ne dis pas [la vérité] [à ma mère].",
+          "a": [
+            "Je ne la lui dis pas."
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-10",
+          "type": "transform",
+          "task_en": "Replace both underlined parts with pronouns",
+          "fr": "J'ai donné [les clés] [à Thomas].",
+          "a": [
+            "Je les lui ai données."
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-11",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il m'a offert [des fleurs].",
+          "a": [
+            "Il m'en a offert."
+          ]
+        },
+        {
+          "id": "g-pp-14-two-pronouns-12",
+          "type": "build",
+          "en": "Can you lend it to me? (the book)",
+          "a": [
+            "Tu peux me le prêter ?",
+            "Est-ce que tu peux me le prêter ?",
+            "Peux-tu me le prêter ?",
+            "Vous pouvez me le prêter ?",
+            "Est-ce que vous pouvez me le prêter ?",
+            "Pouvez-vous me le prêter ?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-15-commands",
+      "title": "Step 15: commands: Donne-le-moi ! Ne le donne pas !",
+      "fr": "les pronoms à l'impératif",
+      "level": "A2",
+      "keywords": [
+        "step by step",
+        "imperative",
+        "commands",
+        "donne-le-moi",
+        "vas-y",
+        "moi",
+        "toi",
+        "hyphen",
+        "negative command"
+      ],
+      "topics": [],
+      "see": [
+        "pronouns-imperative",
+        "imperative"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "imperative",
+          "label": "Drill pronouns in commands"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In an **affirmative** command the pronoun goes **after** the verb, joined with a hyphen, and *me, te* become **moi, toi**: *Regarde-moi ! Prends-le !* In a **negative** command everything goes back to normal: *Ne me regarde pas ! Ne le prends pas !*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Take it!",
+                  "wrong": "Le prends !",
+                  "fr": "Prends-[[le]] !"
+                },
+                {
+                  "en": "Don't take it!",
+                  "fr": "Ne [[le]] prends pas !"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Affirmative: after the verb",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "sentence",
+                "command"
+              ],
+              "rows": [
+                [
+                  "Tu prends le pain.",
+                  "Prends-le !"
+                ],
+                [
+                  "Tu parles à Paul.",
+                  "Parle-lui !"
+                ],
+                [
+                  "Tu m'aides.",
+                  "Aide-moi !"
+                ],
+                [
+                  "Tu te lèves.",
+                  "Lève-toi !"
+                ],
+                [
+                  "Nous allons au parc.",
+                  "Allons-y !"
+                ],
+                [
+                  "Tu prends des fruits.",
+                  "Prends-en !"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "The *tu* form of *-er* verbs (and *aller*) loses its *-s* in commands, but gets it back before *y* and *en* for the sound: *Va ! → Vas-y !*, *Mange ! → Manges-en !*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Turn it into a command and replace the underlined words",
+                "fr": "Tu finis [tes devoirs].",
+                "a": [
+                  "Finis-les !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Two pronouns in a command",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In an affirmative command the COD comes first, the other one second: *Donne-le-moi ! Donne-les-leur ! Montre-la-nous !* With *en*: *moi + en → m'en*: *Donne-m'en !*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Turn it into a command and replace the underlined words",
+                "fr": "Tu me donnes [le sel].",
+                "a": [
+                  "Donne-le-moi !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Negative: back to normal",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ne* before the pronouns, *pas* after the verb, normal order, and *moi, toi* go back to *me, te*: *Aide-moi ! → Ne m'aide pas !* *Donne-le-moi ! → Ne me le donne pas !*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Make the command negative",
+                "fr": "Prends-le !",
+                "a": [
+                  "Ne le prends pas !"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ton portable ? Range-le !",
+                  "en": "Your phone? Put it away!"
+                },
+                {
+                  "fr": "Ta grand-mère ? Appelle-la !",
+                  "en": "Your grandmother? Call her!"
+                },
+                {
+                  "fr": "Le cinéma ? Allons-y ce soir !",
+                  "en": "The cinema? Let's go tonight!"
+                },
+                {
+                  "fr": "Ne lui dis rien !",
+                  "en": "Don't tell him anything!"
+                },
+                {
+                  "fr": "Les photos ? Montre-les-moi !",
+                  "en": "The photos? Show them to me!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-15-commands-01",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Tu regardes [le tableau].",
+          "a": [
+            "Regarde-le !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-02",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Tu écris [à ta grand-mère].",
+          "a": [
+            "Écris-lui !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-03",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Vous écoutez [le professeur].",
+          "a": [
+            "Écoutez-le !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-04",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Nous allons [au parc].",
+          "a": [
+            "Allons-y !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-05",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Tu prends [des légumes].",
+          "a": [
+            "Prends-en !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-06",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Tu m'aides.",
+          "a": [
+            "Aide-moi !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-07",
+          "type": "transform",
+          "task_en": "Turn it into a command",
+          "fr": "Tu te dépêches.",
+          "a": [
+            "Dépêche-toi !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-08",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Tu me donnes [ton numéro].",
+          "a": [
+            "Donne-le-moi !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-09",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Vous expliquez [les règles] [aux enfants].",
+          "a": [
+            "Expliquez-les-leur !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-10",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Regarde-la !",
+          "a": [
+            "Ne la regarde pas !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-11",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Vas-y !",
+          "a": [
+            "N'y va pas !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-12",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Donne-le-moi !",
+          "a": [
+            "Ne me le donne pas !"
+          ]
+        },
+        {
+          "id": "g-pp-15-commands-13",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Lève-toi !",
+          "a": [
+            "Ne te lève pas !"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-16-final-mix",
+      "title": "Step 16: everything mixed",
+      "fr": "tous les pronoms, toutes les situations",
+      "level": "A2",
+      "levelTo": "B1",
+      "keywords": [
+        "step by step",
+        "final mix",
+        "mixed practice",
+        "quick reference",
+        "all object pronouns",
+        "COD",
+        "COI",
+        "y",
+        "en"
+      ],
+      "topics": [],
+      "see": [
+        "pronoun-order",
+        "pronouns-imperative",
+        "y-en-vs-lui"
+      ],
+      "drills": [
+        {
+          "set": "pronouns",
+          "tag": "mixed",
+          "label": "Drill: which pronoun?"
+        },
+        {
+          "set": "pronouns",
+          "tag": "double",
+          "label": "Drill two pronouns"
+        }
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The final round: any pronoun, any situation. For every sentence: **1. find the function, 2. choose the form, 3. place it.** Say the sentence out loud before you type it."
+            }
+          ]
+        },
+        {
+          "title": "The checklist",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "step",
+                "ask yourself"
+              ],
+              "rows": [
+                [
+                  "1. function",
+                  "Preposition after the verb? Person or thing? → COD, COI, y, en or a stressed pronoun"
+                ],
+                [
+                  "2. form",
+                  "Masculine, feminine or plural? One person or several? Me, you, us?"
+                ],
+                [
+                  "3. place",
+                  "Before the conjugated verb, before the infinitive, before the auxiliary, or after the verb in a command"
+                ],
+                [
+                  "4. agreement",
+                  "Passé composé with a COD in front? Then the participle agrees"
+                ],
+                [
+                  "5. two pronouns",
+                  "me → le → lui → y → en"
+                ]
+              ],
+              "textCols": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quick reference",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "situation",
+                "rule",
+                "example"
+              ],
+              "rows": [
+                [
+                  "COD, simple tense",
+                  "before the verb",
+                  "Je le vois."
+                ],
+                [
+                  "COI, simple tense",
+                  "before the verb",
+                  "Je lui parle."
+                ],
+                [
+                  "à + thing or place",
+                  "y",
+                  "J'y pense."
+                ],
+                [
+                  "de + thing or quantity",
+                  "en",
+                  "J'en ai besoin."
+                ],
+                [
+                  "de + person",
+                  "de + stressed pronoun",
+                  "Je parle de lui."
+                ],
+                [
+                  "infinitive",
+                  "before the infinitive",
+                  "Je vais le voir."
+                ],
+                [
+                  "passé composé + COD",
+                  "before the auxiliary, agreement",
+                  "Je l'ai vue."
+                ],
+                [
+                  "passé composé + COI, y, en",
+                  "before the auxiliary, no agreement",
+                  "Je lui ai parlé."
+                ],
+                [
+                  "two pronouns",
+                  "me, te, nous, vous → le, la, les → lui, leur → y → en",
+                  "Je le lui donne."
+                ],
+                [
+                  "affirmative command",
+                  "after the verb, moi / toi",
+                  "Donne-le-moi !"
+                ],
+                [
+                  "negative command",
+                  "before the verb",
+                  "Ne le donne pas !"
+                ]
+              ],
+              "textCols": [
+                0,
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ta console ? Mon frère me l'a prêtée.",
+                  "en": "Your console? My brother lent it to me."
+                },
+                {
+                  "fr": "Tes parents, tu leur as dit ?",
+                  "en": "Your parents, did you tell them?"
+                },
+                {
+                  "fr": "Les devoirs ? Je n'y pense même pas.",
+                  "en": "Homework? I'm not even thinking about it."
+                },
+                {
+                  "fr": "Des photos ? J'en ai pris beaucoup.",
+                  "en": "Photos? I took a lot."
+                },
+                {
+                  "fr": "Ces lunettes ? Ne les mets pas !",
+                  "en": "Those glasses? Don't put them on!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pp-16-final-mix-01",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Tu as vu [mes lunettes] ?",
+          "a": [
+            "Tu les as vues ?"
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-02",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je vais parler [à mes parents] ce soir.",
+          "a": [
+            "Je vais leur parler ce soir."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-03",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il ne pense jamais [à ses devoirs].",
+          "a": [
+            "Il n'y pense jamais."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-04",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous avons mangé trois [crêpes].",
+          "a": [
+            "Nous en avons mangé trois."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-05",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Elle se souvient [de son grand-père].",
+          "a": [
+            "Elle se souvient de lui."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-06",
+          "type": "transform",
+          "task_en": "Replace both underlined parts with pronouns",
+          "fr": "Tu donnes [ce cadeau] [à ta sœur] ?",
+          "a": [
+            "Tu le lui donnes ?"
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-07",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Je ne veux pas voir [ce film].",
+          "a": [
+            "Je ne veux pas le voir."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-08",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Ils sont allés [en Espagne].",
+          "a": [
+            "Ils y sont allés."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-09",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Mon frère m'a prêté [sa console].",
+          "a": [
+            "Mon frère me l'a prêtée."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-10",
+          "type": "transform",
+          "task_en": "Turn it into a command and replace the underlined words",
+          "fr": "Tu montres [tes photos] [à Lucie].",
+          "a": [
+            "Montre-les-lui !"
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-11",
+          "type": "transform",
+          "task_en": "Make the command negative",
+          "fr": "Donne-m'en !",
+          "a": [
+            "Ne m'en donne pas !"
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-12",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Est-ce que tu as besoin [de ce livre] ?",
+          "a": [
+            "Est-ce que tu en as besoin ?"
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-13",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "J'ai invité [mes cousines].",
+          "a": [
+            "Je les ai invitées."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-14",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Nous avons répondu [à la directrice].",
+          "a": [
+            "Nous lui avons répondu."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-15",
+          "type": "transform",
+          "task_en": "Replace the underlined words with a pronoun",
+          "fr": "Il y a beaucoup [de neige].",
+          "a": [
+            "Il y en a beaucoup."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-16",
+          "type": "build",
+          "en": "I gave it to them. (the letter)",
+          "a": [
+            "Je la leur ai donnée."
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-17",
+          "type": "build",
+          "en": "Don't think about it!",
+          "a": [
+            "N'y pense pas !",
+            "N'y pensez pas !"
+          ]
+        },
+        {
+          "id": "g-pp-16-final-mix-18",
+          "type": "build",
+          "en": "She's going to call me.",
+          "a": [
+            "Elle va m'appeler.",
+            "Elle va me téléphoner."
+          ]
+        }
+      ]
+    }
+  ]
+}

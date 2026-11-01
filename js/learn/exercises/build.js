@@ -1,6 +1,6 @@
 import { checkSentence, expandAll } from '../answers.js';
 
-// The main active exercise: write the French sentence for a Czech one.
+// The main active exercise: write the French sentence for one in the learner's language.
 export default {
   type: 'build',
   questions(item, ctx) {

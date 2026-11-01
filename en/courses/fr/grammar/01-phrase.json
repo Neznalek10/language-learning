@@ -1,0 +1,4755 @@
+{
+  "articles": [
+    {
+      "id": "word-order",
+      "title": "Basic word order",
+      "fr": "l'ordre des mots",
+      "level": "A1",
+      "keywords": [
+        "word order",
+        "subject",
+        "verb",
+        "object",
+        "SVO",
+        "sentence structure",
+        "ordre des mots",
+        "sujet",
+        "verbe"
+      ],
+      "topics": [],
+      "see": [
+        "subject-required",
+        "sentence-map",
+        "time-place",
+        "question-types"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A French statement has a **fixed order**: subject, verb, object, just like English. Nouns have no case endings, so **who does what to whom is shown only by the word order**."
+            },
+            {
+              "type": "pattern",
+              "formula": [
+                "S",
+                "V",
+                "obj"
+              ],
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Paul"
+                    ],
+                    [
+                      "V",
+                      "regarde"
+                    ],
+                    [
+                      "obj",
+                      "le match."
+                    ]
+                  ],
+                  "en": "Paul watches the match."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Ma sœur"
+                    ],
+                    [
+                      "V",
+                      "aime"
+                    ],
+                    [
+                      "obj",
+                      "les chats."
+                    ]
+                  ],
+                  "en": "My sister likes cats."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why the order matters",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "As in English, the words never change form to show who does what, so swapping the subject and the object swaps the meaning: \"the dog bites Peter\" is not \"Peter bites the dog\"."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Pierre bites the dog.",
+                  "fr": "[[Pierre]] mord [[le chien]].",
+                  "note": "Whoever bites comes first."
+                },
+                {
+                  "en": "The dog bites Pierre.",
+                  "fr": "[[Le chien]] mord [[Pierre]].",
+                  "note": "Same words, opposite meaning."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The order stays the same",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Subject + verb also holds after conjunctions and in subordinate clauses: *Je pense que Paul aime le foot.* The only exception is the inversion in some questions (*Aimes-tu le foot ?*)."
+            },
+            {
+              "type": "tip",
+              "title": "Emphasis",
+              "en": "To stress something, French does not move words around. It uses *c'est... qui*: *C'est Paul qui a gagné.* (It was **Paul** who won.)"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je joue au basket.",
+                  "en": "I play basketball."
+                },
+                {
+                  "fr": "Mon frère regarde un film.",
+                  "en": "My brother is watching a film."
+                },
+                {
+                  "fr": "Les élèves écoutent le professeur.",
+                  "en": "The pupils listen to the teacher."
+                },
+                {
+                  "fr": "Nous mangeons une pizza.",
+                  "en": "We are eating a pizza."
+                },
+                {
+                  "fr": "Paul aime Marie.",
+                  "en": "Paul loves Marie."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Paul is watching the match.",
+                  "wrong": "Le match regarde Paul.",
+                  "fr": "[[Paul]] regarde le match.",
+                  "note": "The subject goes first, as in English."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "adj-position",
+                "sentence-map"
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-word-order-01",
+          "type": "order",
+          "en": "My father reads the newspaper.",
+          "a": [
+            "Mon père lit le journal."
+          ]
+        },
+        {
+          "id": "g-word-order-02",
+          "type": "build",
+          "en": "Marie is watching the film.",
+          "a": [
+            "Marie regarde {le|un|ce} film."
+          ]
+        },
+        {
+          "id": "g-word-order-03",
+          "type": "transform",
+          "task_en": "Swap who bites whom (the dog bites Pierre)",
+          "fr": "Pierre mord le chien.",
+          "a": [
+            "Le chien mord Pierre."
+          ]
+        },
+        {
+          "id": "g-word-order-04",
+          "type": "build",
+          "en": "Paul loves Marie.",
+          "a": [
+            "Paul aime Marie."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subject-required",
+      "title": "The subject is required",
+      "fr": "le sujet obligatoire",
+      "level": "A1",
+      "keywords": [
+        "subject",
+        "pronoun",
+        "je",
+        "il",
+        "il pleut",
+        "il faut",
+        "dropping the subject",
+        "I am",
+        "je suis",
+        "sujet",
+        "pro-drop"
+      ],
+      "topics": [
+        "pronouns"
+      ],
+      "see": [
+        "subject-pronouns",
+        "impersonal",
+        "imperative"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "As in English, **every conjugated verb needs a subject** in French, even if it is only a pronoun."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm at home.",
+                  "wrong": "Suis à la maison.",
+                  "fr": "[[Je]] suis à la maison."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Why",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Je parle, tu parles, il parle, ils parlent* all sound the same. Only the pronoun tells you who is speaking, so French cannot leave it out."
+            }
+          ]
+        },
+        {
+          "title": "The empty il",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With weather, time and a few set phrases the subject is *il*, which means nothing (like English \"it\")."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il pleut.",
+                  "en": "It's raining."
+                },
+                {
+                  "fr": "Il fait froid.",
+                  "en": "It's cold."
+                },
+                {
+                  "fr": "Il est huit heures.",
+                  "en": "It's eight o'clock."
+                },
+                {
+                  "fr": "Il faut travailler.",
+                  "en": "One has to work."
+                },
+                {
+                  "fr": "Il y a un problème.",
+                  "en": "There is a problem."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "impersonal",
+                "il-y-a"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "When the subject is missing",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Only in the **imperative**: *Regarde !* (Look!), *Venez !* (Come!). And in short answers without a verb: *Qui est là ? Moi.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je suis tchèque.",
+                  "en": "I'm Czech."
+                },
+                {
+                  "fr": "Tu as quel âge ?",
+                  "en": "How old are you?"
+                },
+                {
+                  "fr": "Nous habitons à Prague.",
+                  "en": "We live in Prague."
+                },
+                {
+                  "fr": "Elle s'appelle Léa.",
+                  "en": "Her name is Léa."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "He plays basketball.",
+                  "wrong": "Joue au basket.",
+                  "fr": "[[Il]] joue au basket.",
+                  "note": "Who plays? A man: *il*, a woman: *elle*."
+                },
+                {
+                  "en": "It's cold.",
+                  "wrong": "Est froid.",
+                  "fr": "[[Il fait]] froid.",
+                  "note": "Weather uses the verb *faire*: *il fait froid, il fait beau*."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-subject-required-01",
+          "type": "build",
+          "en": "I'm at home.",
+          "a": [
+            "Je suis {à la maison|chez moi}."
+          ]
+        },
+        {
+          "id": "g-subject-required-02",
+          "type": "build",
+          "en": "It's raining.",
+          "a": [
+            "Il pleut."
+          ]
+        },
+        {
+          "id": "g-subject-required-03",
+          "type": "build",
+          "en": "We have a dog.",
+          "a": [
+            "Nous avons un chien.",
+            "On a un chien."
+          ]
+        },
+        {
+          "id": "g-subject-required-04",
+          "type": "cloze",
+          "fr": "___ fait beau aujourd'hui.",
+          "a": [
+            "Il"
+          ],
+          "en": "The weather is nice today."
+        },
+        {
+          "id": "g-subject-required-05",
+          "type": "build",
+          "en": "He lives in Paris.",
+          "a": [
+            "Il habite à Paris."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sentence-map",
+      "title": "Sentence map: where everything goes",
+      "fr": "la place des mots",
+      "level": "A1",
+      "levelTo": "B1",
+      "keywords": [
+        "sentence map",
+        "word order",
+        "pronoun position",
+        "negation",
+        "adverb",
+        "position",
+        "where things go",
+        "place des mots"
+      ],
+      "topics": [],
+      "see": [
+        "word-order",
+        "negation-position",
+        "direct-object",
+        "pronoun-order",
+        "adverb-position",
+        "time-place"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Every French statement has the same skeleton. Once you know which slot is which, you know where negation, pronouns and adverbs go. Empty slots are simply skipped."
+            },
+            {
+              "type": "pattern",
+              "formula": [
+                "time?",
+                "S",
+                "neg?",
+                "pron?",
+                [
+                  "V",
+                  "verb / auxiliary"
+                ],
+                "neg?",
+                "adv?",
+                [
+                  "part?",
+                  "participle / infinitive"
+                ],
+                "obj?",
+                "place?",
+                "time?"
+              ],
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "time",
+                      "Hier,"
+                    ],
+                    [
+                      "S",
+                      "je"
+                    ],
+                    [
+                      "neg",
+                      "n'"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "adv",
+                      "bien"
+                    ],
+                    [
+                      "part",
+                      "dormi."
+                    ]
+                  ],
+                  "en": "Yesterday I didn't sleep well."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "pron",
+                      "l'"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "neg",
+                      "jamais"
+                    ],
+                    [
+                      "part",
+                      "vu"
+                    ],
+                    [
+                      "place",
+                      "à Prague."
+                    ]
+                  ],
+                  "en": "I have never seen him in Prague."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Nous"
+                    ],
+                    [
+                      "V",
+                      "allons"
+                    ],
+                    [
+                      "adv",
+                      "souvent"
+                    ],
+                    [
+                      "place",
+                      "au cinéma"
+                    ],
+                    [
+                      "time",
+                      "le samedi."
+                    ]
+                  ],
+                  "en": "We often go to the cinema on Saturdays."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Tu"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "pron",
+                      "me"
+                    ],
+                    [
+                      "V",
+                      "dis"
+                    ],
+                    [
+                      "neg",
+                      "rien."
+                    ]
+                  ],
+                  "en": "You're not telling me anything."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The slots one by one",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "Slot",
+                "What goes there",
+                "Example"
+              ],
+              "textCols": [
+                0,
+                1
+              ],
+              "rows": [
+                [
+                  "1. time (optional)",
+                  "*hier, demain, le samedi*",
+                  "Demain, je travaille."
+                ],
+                [
+                  "2. subject",
+                  "*je, tu, Paul, ma sœur*",
+                  "Paul travaille."
+                ],
+                [
+                  "3. first part of the negation",
+                  "*ne, n'*",
+                  "Je ne travaille pas."
+                ],
+                [
+                  "4. pronouns",
+                  "*me, te, se, le, la, les, lui, leur, y, en*",
+                  "Je le vois."
+                ],
+                [
+                  "5. conjugated verb",
+                  "the verb, or the auxiliary *avoir / être*",
+                  "J'ai mangé."
+                ],
+                [
+                  "6. second part of the negation",
+                  "*pas, jamais, plus, rien*",
+                  "Je n'ai pas mangé."
+                ],
+                [
+                  "7. short adverb",
+                  "*bien, mal, déjà, souvent, beaucoup, trop*",
+                  "J'ai bien mangé."
+                ],
+                [
+                  "8. participle or infinitive",
+                  "*mangé, fait, manger*",
+                  "Je vais manger."
+                ],
+                [
+                  "9. object",
+                  "*une pomme, le match*",
+                  "Je mange une pomme."
+                ],
+                [
+                  "10. place and time",
+                  "*à la cantine, à midi*",
+                  "Je mange à la cantine à midi."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Three extra rules",
+          "level": "A2",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "1. **Negation and pronouns wrap around the conjugated verb**: *ne* and the pronouns before it, *pas* after it."
+            },
+            {
+              "type": "text",
+              "en": "2. In **compound tenses** the conjugated verb is the auxiliary: *Je ne l'ai pas vu.*"
+            },
+            {
+              "type": "text",
+              "en": "3. With an **infinitive**, pronouns go with the infinitive, not with the conjugated verb: *Je vais le voir.*"
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "neg",
+                      "ne"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "neg",
+                      "pas"
+                    ],
+                    [
+                      "pron",
+                      "le"
+                    ],
+                    [
+                      "inf",
+                      "regarder."
+                    ]
+                  ],
+                  "en": "I'm not going to watch it. (the film)"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Demain, je ne vais pas au collège.",
+                  "en": "Tomorrow I'm not going to school."
+                },
+                {
+                  "fr": "Je l'ai déjà lu.",
+                  "en": "I've already read it."
+                },
+                {
+                  "fr": "Elle ne te parle jamais.",
+                  "en": "She never talks to you."
+                },
+                {
+                  "fr": "Nous avons beaucoup travaillé hier.",
+                  "en": "We worked a lot yesterday."
+                },
+                {
+                  "fr": "Tu vas lui écrire ?",
+                  "en": "Are you going to write to him?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I've never seen him.",
+                  "wrong": "Je n'ai jamais le vu.",
+                  "fr": "Je ne [[l'ai]] jamais vu.",
+                  "note": "The pronoun goes before the auxiliary and *jamais* after it. And *le* becomes *l'* before a vowel."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-sentence-map-01",
+          "type": "order",
+          "en": "Yesterday I didn't sleep well.",
+          "a": [
+            "Hier, je n'ai pas bien dormi."
+          ]
+        },
+        {
+          "id": "g-sentence-map-02",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Je l'ai vu.",
+          "a": [
+            "Je ne l'ai pas vu."
+          ]
+        },
+        {
+          "id": "g-sentence-map-03",
+          "type": "transform",
+          "task_en": "Replace \"le film\" with a pronoun",
+          "fr": "Je vais regarder le film.",
+          "a": [
+            "Je vais le regarder."
+          ]
+        },
+        {
+          "id": "g-sentence-map-04",
+          "type": "transform",
+          "task_en": "Add \"bien\" in the right place",
+          "fr": "J'ai dormi.",
+          "a": [
+            "J'ai bien dormi."
+          ]
+        },
+        {
+          "id": "g-sentence-map-05",
+          "type": "build",
+          "en": "You're not telling me anything.",
+          "a": [
+            "Tu ne me dis rien."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "time-place",
+      "title": "Where time and place go",
+      "fr": "le temps et le lieu",
+      "level": "A1",
+      "keywords": [
+        "time",
+        "place",
+        "demain",
+        "hier",
+        "aujourd'hui",
+        "when",
+        "where",
+        "start of the sentence",
+        "end of the sentence"
+      ],
+      "topics": [],
+      "see": [
+        "sentence-map",
+        "time-prepositions",
+        "adverb-position"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Words about time (*demain, le lundi, à huit heures*) go **at the start** or **at the very end** of the sentence, never between the subject and the verb. When both place and time come at the end, **place comes first, then time**."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "time",
+                      "Demain,"
+                    ],
+                    [
+                      "S",
+                      "je"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "place",
+                      "à Paris."
+                    ]
+                  ],
+                  "en": "Tomorrow I'm going to Paris."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "vais"
+                    ],
+                    [
+                      "place",
+                      "à Paris"
+                    ],
+                    [
+                      "time",
+                      "demain."
+                    ]
+                  ],
+                  "en": "I'm going to Paris tomorrow."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Tomorrow I'm going to Paris.",
+                  "wrong": "Je demain vais à Paris.",
+                  "fr": "[[Demain]], je vais à Paris.",
+                  "note": "Only *ne* and pronouns may stand between the subject and the verb."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Exception: how often",
+              "en": "*Souvent, toujours, déjà, jamais* are short adverbs and go **right after the verb**: *Je joue souvent au foot.*"
+            },
+            {
+              "type": "see",
+              "rules": [
+                "adverb-position",
+                "frequency"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le samedi, je joue au basket.",
+                  "en": "On Saturdays I play basketball."
+                },
+                {
+                  "fr": "Je joue au basket le samedi.",
+                  "en": "I play basketball on Saturdays."
+                },
+                {
+                  "fr": "Nous mangeons à la cantine à midi.",
+                  "en": "We eat in the canteen at noon."
+                },
+                {
+                  "fr": "Ce soir, on va au cinéma.",
+                  "en": "Tonight we're going to the cinema."
+                },
+                {
+                  "fr": "Elle est née à Prague en 2012.",
+                  "en": "She was born in Prague in 2012."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-time-place-01",
+          "type": "build",
+          "en": "Tomorrow I'm playing basketball.",
+          "a": [
+            "Demain, je joue au basket.",
+            "Je joue au basket demain."
+          ]
+        },
+        {
+          "id": "g-time-place-02",
+          "type": "order",
+          "en": "On Saturday I'm going to the cinema.",
+          "a": [
+            "Samedi, je vais au cinéma.",
+            "Je vais au cinéma samedi."
+          ]
+        },
+        {
+          "id": "g-time-place-03",
+          "type": "transform",
+          "task_en": "Move \"demain\" to the start of the sentence",
+          "fr": "Je vais à Paris demain.",
+          "a": [
+            "Demain, je vais à Paris."
+          ]
+        },
+        {
+          "id": "g-time-place-04",
+          "type": "build",
+          "en": "Tonight I'm at home.",
+          "a": [
+            "Ce soir, je suis {à la maison|chez moi}.",
+            "Je suis {à la maison|chez moi} ce soir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c-est-il-est",
+      "title": "C'est or il est?",
+      "fr": "c'est / il est",
+      "level": "A1",
+      "levelTo": "A2",
+      "keywords": [
+        "c'est",
+        "il est",
+        "elle est",
+        "ce sont",
+        "this is",
+        "he is",
+        "profession",
+        "job",
+        "nationality"
+      ],
+      "topics": [
+        "introductions"
+      ],
+      "see": [
+        "no-article",
+        "ca-cela-ce",
+        "stressed-pronouns"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When an **article** (*un, le, mon...*) or a name follows, use *c'est*. When a bare **adjective** or a profession follows and you are talking about a specific person, use *il est / elle est*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "c'est / ce sont",
+                "il est / elle est"
+              ],
+              "textCols": [
+                0,
+                1
+              ],
+              "rows": [
+                [
+                  "article + noun: *C'est un ami.*",
+                  "adjective: *Il est sympa.*"
+                ],
+                [
+                  "name: *C'est Paul.*",
+                  "profession without an article: *Il est médecin.*"
+                ],
+                [
+                  "stressed pronoun: *C'est moi.*",
+                  "nationality: *Elle est française.*"
+                ],
+                [
+                  "judging a thing: *C'est super !*",
+                  "time: *Il est huit heures.*"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Professions",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "That's a doctor.",
+                  "fr": "[[C'est un]] médecin."
+                },
+                {
+                  "en": "He's a doctor.",
+                  "fr": "[[Il est]] médecin.",
+                  "note": "After *il est* the profession has **no article**."
+                },
+                {
+                  "en": "He's a good doctor.",
+                  "fr": "[[C'est un]] bon médecin.",
+                  "note": "As soon as the profession has an adjective it needs an article, so *c'est*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "C'est + adjective",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*C'est* + adjective judges **a thing or a situation in general**: *C'est facile.* (That's easy.) The adjective is then always masculine: *La pizza ? C'est bon !*"
+            },
+            {
+              "type": "text",
+              "en": "In the plural the careful form is *ce sont*: *Ce sont mes amis.* In speech you will also hear *C'est mes amis.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Qui est-ce ? C'est mon frère.",
+                  "en": "Who is it? It's my brother."
+                },
+                {
+                  "fr": "Il est grand et sportif.",
+                  "en": "He's tall and sporty."
+                },
+                {
+                  "fr": "C'est une bonne idée.",
+                  "en": "That's a good idea."
+                },
+                {
+                  "fr": "Elle est professeure.",
+                  "en": "She's a teacher."
+                },
+                {
+                  "fr": "Ce sont mes parents.",
+                  "en": "These are my parents."
+                },
+                {
+                  "fr": "Le français, c'est difficile ?",
+                  "en": "Is French difficult?"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-c-est-il-est-01",
+          "type": "cloze",
+          "fr": "___ mon ami Lucas.",
+          "a": [
+            "C'est"
+          ],
+          "en": "This is my friend Lucas."
+        },
+        {
+          "id": "g-c-est-il-est-02",
+          "type": "cloze",
+          "fr": "Lucas ? ___ très sympa.",
+          "a": [
+            "Il est"
+          ],
+          "en": "Lucas? He's really nice."
+        },
+        {
+          "id": "g-c-est-il-est-03",
+          "type": "cloze",
+          "fr": "Ma mère ? ___ médecin.",
+          "a": [
+            "Elle est"
+          ],
+          "en": "My mother? She's a doctor."
+        },
+        {
+          "id": "g-c-est-il-est-04",
+          "type": "cloze",
+          "fr": "___ mes cousins.",
+          "a": [
+            "Ce sont",
+            "C'est"
+          ],
+          "en": "These are my cousins."
+        },
+        {
+          "id": "g-c-est-il-est-05",
+          "type": "build",
+          "en": "That's easy.",
+          "a": [
+            "C'est facile."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "possession",
+      "title": "Showing who owns it: de, à and possessives",
+      "fr": "la possession",
+      "level": "A1",
+      "keywords": [
+        "possession",
+        "de",
+        "être à",
+        "whose",
+        "à qui",
+        "mine",
+        "Paul's",
+        "le livre de Paul",
+        "c'est à moi",
+        "apostrophe s"
+      ],
+      "topics": [],
+      "see": [
+        "possessive-determiners",
+        "possessive-pronouns",
+        "contractions",
+        "stressed-pronouns"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French has no *'s*. You say **the thing + de + the owner**: *le livre de Paul*. To say that something belongs to someone you can also use **être à**: *Ce livre est à Paul.* For *whose* use **à qui**."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Paul's book",
+                  "wrong": "Le livre Paul.",
+                  "fr": "Le livre [[de]] Paul."
+                },
+                {
+                  "en": "This book is Paul's.",
+                  "wrong": "Ce livre est Paul.",
+                  "fr": "Ce livre est [[à]] Paul."
+                },
+                {
+                  "en": "Whose bike is this?",
+                  "wrong": "Qui est ce vélo ?",
+                  "fr": "[[À qui]] est ce vélo ?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With de",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The owner comes **after** the thing. *De* + *le* becomes *du*, *de* + *les* becomes *des*, and *de* shortens to *d'* before a vowel."
+            },
+            {
+              "type": "table",
+              "head": [
+                "pattern",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "la chambre de + name",
+                  "la chambre de Marie",
+                  "Marie's room"
+                ],
+                [
+                  "le père de + name",
+                  "le père d'Éric",
+                  "Éric's father"
+                ],
+                [
+                  "de + le = du",
+                  "le vélo du frère de Paul",
+                  "Paul's brother's bike"
+                ],
+                [
+                  "de + les = des",
+                  "la voiture des voisins",
+                  "the neighbours' car"
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "A chain of owners keeps the same order: *la voiture du frère de mon ami* = my friend's brother's car."
+            }
+          ]
+        },
+        {
+          "title": "With être à",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Être à* says that something **belongs to** someone. After *à* you use a name or a **stressed pronoun**: *à moi, à toi, à lui, à elle, à nous, à vous, à eux, à elles*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "question",
+                "answer",
+                "English"
+              ],
+              "rows": [
+                [
+                  "À qui est ce sac ?",
+                  "Il est à moi.",
+                  "Whose bag is this? It's mine."
+                ],
+                [
+                  "C'est à toi ?",
+                  "Non, c'est à lui.",
+                  "Is it yours? No, it's his."
+                ],
+                [
+                  "Ces clés sont à Julie.",
+                  "Elles sont à elle.",
+                  "These keys are Julie's. They are hers."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*C'est à moi* (it is mine) and *c'est mon livre* (it is my book) are two different ways to say the same thing. Use the possessive before a noun, *à moi* when the noun is not said.",
+              "title": "Mon or à moi?"
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "my friend's house",
+                  "wrong": "la maison mon ami",
+                  "fr": "la maison [[de]] mon ami"
+                },
+                {
+                  "en": "It's Marie's.",
+                  "wrong": "C'est Marie.",
+                  "fr": "C'est [[à]] Marie. / C'est [[celui de]] Marie."
+                },
+                {
+                  "en": "It's mine.",
+                  "wrong": "C'est mien.",
+                  "fr": "C'est [[à moi]]. / C'est [[le mien]].",
+                  "note": "*Le mien* is the possessive pronoun (see the article about it)."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "possessive-determiners",
+                "possessive-pronouns",
+                "stressed-pronouns",
+                "contractions"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "C'est la maison de mes grands-parents.",
+                  "en": "It's my grandparents' house."
+                },
+                {
+                  "fr": "Le téléphone de Paul est cassé.",
+                  "en": "Paul's phone is broken."
+                },
+                {
+                  "fr": "À qui est cette veste ? Elle est à moi.",
+                  "en": "Whose jacket is this? It's mine."
+                },
+                {
+                  "fr": "Le chat de la voisine dort sur mon lit.",
+                  "en": "The neighbour's cat is sleeping on my bed."
+                },
+                {
+                  "fr": "Ces livres ne sont pas à nous.",
+                  "en": "These books are not ours."
+                },
+                {
+                  "fr": "Le prénom du professeur est Hugo.",
+                  "en": "The teacher's first name is Hugo."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-possession-01",
+          "type": "build",
+          "en": "Paul's book.",
+          "a": [
+            "Le livre de Paul."
+          ]
+        },
+        {
+          "id": "g-possession-02",
+          "type": "build",
+          "en": "The neighbours' car.",
+          "a": [
+            "La voiture des voisins."
+          ]
+        },
+        {
+          "id": "g-possession-03",
+          "type": "build",
+          "en": "Whose bag is this?",
+          "a": [
+            "À qui est ce sac ?"
+          ]
+        },
+        {
+          "id": "g-possession-04",
+          "type": "build",
+          "en": "This pen is mine.",
+          "a": [
+            "Ce stylo est à moi."
+          ]
+        },
+        {
+          "id": "g-possession-05",
+          "type": "build",
+          "en": "It's Marie's room.",
+          "a": [
+            "C'est la chambre de Marie."
+          ]
+        },
+        {
+          "id": "g-possession-06",
+          "type": "cloze",
+          "fr": "C'est le vélo ___ Marie.",
+          "a": [
+            "de"
+          ],
+          "en": "It's Marie's bike."
+        },
+        {
+          "id": "g-possession-07",
+          "type": "cloze",
+          "fr": "Le téléphone ___ frère de Paul est neuf.",
+          "a": [
+            "du"
+          ],
+          "en": "Paul's brother's phone is new."
+        },
+        {
+          "id": "g-possession-08",
+          "type": "cloze",
+          "fr": "Ces clés sont ___ eux.",
+          "a": [
+            "à"
+          ],
+          "en": "These keys are theirs."
+        }
+      ]
+    },
+    {
+      "id": "il-y-a",
+      "title": "Il y a",
+      "fr": "il y a",
+      "level": "A1",
+      "keywords": [
+        "il y a",
+        "there is",
+        "there are",
+        "exists",
+        "il n'y a pas",
+        "y a-t-il"
+      ],
+      "topics": [
+        "il-y-a"
+      ],
+      "see": [
+        "article-negation",
+        "time-prepositions",
+        "impersonal"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Il y a* means \"there is, there are\". It is a fixed phrase and **never changes for number**: *il y a un chat* and *il y a trois chats*."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Il"
+                    ],
+                    [
+                      "pron",
+                      "y"
+                    ],
+                    [
+                      "V",
+                      "a"
+                    ],
+                    [
+                      "obj",
+                      "un chat"
+                    ],
+                    [
+                      "place",
+                      "dans le jardin."
+                    ]
+                  ],
+                  "en": "There is a cat in the garden."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Negation, questions, past",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "French",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "statement",
+                  "Il y a du pain.",
+                  "There is bread."
+                ],
+                [
+                  "negation",
+                  "Il n'y a pas de pain.",
+                  "There is no bread."
+                ],
+                [
+                  "question",
+                  "Est-ce qu'il y a du pain ?",
+                  "Is there any bread?"
+                ],
+                [
+                  "past",
+                  "Il y avait du pain.",
+                  "There was bread."
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "In the negative *un, une, du, des* become *de*: *Il n'y a pas de lait.*"
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "In my room there is a bed.",
+                  "wrong": "Dans ma chambre est un lit.",
+                  "fr": "Dans ma chambre, [[il y a]] un lit."
+                },
+                {
+                  "en": "How many pupils are there in the class?",
+                  "fr": "[[Il y a]] combien d'élèves dans la classe ?",
+                  "note": "The careful form: *Combien d'élèves y a-t-il dans la classe ?*"
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Il y a + time",
+              "en": "*Il y a* + a time expression means \"ago\": *il y a deux ans* = two years ago."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "time-prepositions"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il y a un parc près de chez moi.",
+                  "en": "There is a park near my house."
+                },
+                {
+                  "fr": "Il y a beaucoup de monde.",
+                  "en": "There are a lot of people."
+                },
+                {
+                  "fr": "Il n'y a pas de bus le dimanche.",
+                  "en": "There are no buses on Sundays."
+                },
+                {
+                  "fr": "Qu'est-ce qu'il y a ?",
+                  "en": "What's the matter?"
+                },
+                {
+                  "fr": "Il y a vingt élèves dans ma classe.",
+                  "en": "There are twenty pupils in my class."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-il-y-a-01",
+          "type": "build",
+          "en": "There is an apple on the table.",
+          "a": [
+            "Il y a une pomme sur la table.",
+            "Sur la table, il y a une pomme."
+          ]
+        },
+        {
+          "id": "g-il-y-a-02",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Il y a du lait.",
+          "a": [
+            "Il n'y a pas de lait."
+          ]
+        },
+        {
+          "id": "g-il-y-a-03",
+          "type": "cloze",
+          "fr": "Dans ma chambre, il ___ a deux lits.",
+          "a": [
+            "y"
+          ],
+          "en": "There are two beds in my room."
+        },
+        {
+          "id": "g-il-y-a-04",
+          "type": "build",
+          "en": "There is no problem.",
+          "a": [
+            "Il n'y a pas de problème.",
+            "Il n'y a aucun problème."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voici-voila",
+      "title": "Pointing things out: voici, voilà, c'est, ce sont",
+      "fr": "les présentatifs",
+      "level": "A1",
+      "keywords": [
+        "voici",
+        "voilà",
+        "here is",
+        "there is",
+        "c'est",
+        "ce sont",
+        "presentation",
+        "présentatifs",
+        "look"
+      ],
+      "topics": [],
+      "see": [
+        "c-est-il-est",
+        "il-y-a"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To **show or introduce** something French uses small fixed words: *voici* (here is), *voilà* (there is, here you are), *c'est* and *ce sont* (this is, these are) and *il y a* (there is, there are). None of them changes with the tense of a story, they just point."
+            },
+            {
+              "type": "table",
+              "head": [
+                "word",
+                "use",
+                "example"
+              ],
+              "rows": [
+                [
+                  "voici",
+                  "here is, here are (near)",
+                  "Voici ma sœur."
+                ],
+                [
+                  "voilà",
+                  "there is, there you are, that's it",
+                  "Voilà le bus !"
+                ],
+                [
+                  "c'est / ce sont",
+                  "this is, these are",
+                  "C'est Léa. Ce sont mes amis."
+                ],
+                [
+                  "il y a",
+                  "there is, there are (exists)",
+                  "Il y a un chat dans le jardin."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Voici and voilà",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Voici* points to something **near**, *voilà* to something **farther** or to the thing you just said or gave. In everyday speech people mostly say *voilà* for both. With a pronoun it goes in front: *Me voici !* (here I am) *Le voilà !* (there he is)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Voici mon frère et voilà ma sœur.",
+                  "en": "Here's my brother and there's my sister."
+                },
+                {
+                  "fr": "Voilà ton café.",
+                  "en": "Here's your coffee."
+                },
+                {
+                  "fr": "Me voilà !",
+                  "en": "Here I am!"
+                },
+                {
+                  "fr": "Les voici !",
+                  "en": "Here they are!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "C'est, ce sont and il y a",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*C'est* **identifies** (who or what is it?). *Il y a* says that something **exists** or is present somewhere. After *c'est* the noun is known and has an article or possessive; after *il y a* it is new."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Who is it? It's Paul.",
+                  "wrong": "Il y a Paul.",
+                  "fr": "[[C'est]] Paul."
+                },
+                {
+                  "en": "There are two cats in the garden.",
+                  "wrong": "Ce sont deux chats dans le jardin.",
+                  "fr": "[[Il y a]] deux chats dans le jardin."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "In speech *c'est* is also used with plurals: *C'est mes amis.* In writing use *ce sont*: *Ce sont mes amis.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Voici la clé de la maison.",
+                  "en": "Here's the house key."
+                },
+                {
+                  "fr": "Voilà, c'est fini !",
+                  "en": "There, it's done!"
+                },
+                {
+                  "fr": "C'est une bonne idée.",
+                  "en": "That's a good idea."
+                },
+                {
+                  "fr": "Ce sont des touristes.",
+                  "en": "They are tourists."
+                },
+                {
+                  "fr": "Il y a trop de monde ici.",
+                  "en": "There are too many people here."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-voici-voila-01",
+          "type": "build",
+          "en": "Here's my brother.",
+          "a": [
+            "Voici mon frère."
+          ]
+        },
+        {
+          "id": "g-voici-voila-02",
+          "type": "build",
+          "en": "Here you go!",
+          "a": [
+            "Voilà !",
+            "Tenez !"
+          ]
+        },
+        {
+          "id": "g-voici-voila-03",
+          "type": "build",
+          "en": "There he is!",
+          "a": [
+            "Le voilà !"
+          ]
+        },
+        {
+          "id": "g-voici-voila-04",
+          "type": "build",
+          "en": "These are my friends.",
+          "a": [
+            "Ce sont mes amis."
+          ]
+        },
+        {
+          "id": "g-voici-voila-05",
+          "type": "cloze",
+          "fr": "___ ton téléphone ! Il était sur la table.",
+          "a": [
+            "Voilà",
+            "Voici"
+          ],
+          "en": "Here's your phone!"
+        },
+        {
+          "id": "g-voici-voila-06",
+          "type": "cloze",
+          "fr": "Il ___ trois élèves absents.",
+          "a": [
+            "y a"
+          ],
+          "en": "There are three pupils absent."
+        },
+        {
+          "id": "g-voici-voila-07",
+          "type": "cloze",
+          "fr": "___ ma sœur, elle s'appelle Léa.",
+          "a": [
+            "C'est",
+            "Voici",
+            "Voilà"
+          ],
+          "en": "This is my sister, her name is Léa."
+        }
+      ]
+    },
+    {
+      "id": "impersonal",
+      "title": "Impersonal sentences",
+      "fr": "les verbes impersonnels",
+      "level": "A1",
+      "keywords": [
+        "il faut",
+        "il fait",
+        "il pleut",
+        "il neige",
+        "il est",
+        "weather",
+        "one must",
+        "have to",
+        "impersonal",
+        "must not"
+      ],
+      "topics": [
+        "weather"
+      ],
+      "see": [
+        "subject-required",
+        "il-y-a",
+        "clock",
+        "subjonctif-basics"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Some verbs have only the empty *il* as their subject, like English \"it\" in \"it's raining\"."
+            },
+            {
+              "type": "table",
+              "head": [
+                "",
+                "French",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "weather",
+                  "Il pleut. Il neige.",
+                  "It's raining. It's snowing."
+                ],
+                [
+                  "weather with faire",
+                  "Il fait beau / froid / chaud.",
+                  "It's nice / cold / hot."
+                ],
+                [
+                  "time",
+                  "Il est huit heures.",
+                  "It's eight o'clock."
+                ],
+                [
+                  "necessity",
+                  "Il faut partir.",
+                  "One has to leave."
+                ],
+                [
+                  "existence",
+                  "Il y a un problème.",
+                  "There is a problem."
+                ],
+                [
+                  "judgement",
+                  "Il est important de dormir.",
+                  "It's important to sleep."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Il faut",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Il faut* + infinitive means \"one has to, it is necessary to\". It does not say who, it applies in general. To say who exactly has to, use *devoir*: *Je dois partir.* (I have to leave.)"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il faut manger des légumes.",
+                  "en": "One has to eat vegetables."
+                },
+                {
+                  "fr": "Il ne faut pas courir ici.",
+                  "en": "You must not run here."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Il ne faut pas* means \"must not\", not \"doesn't have to\". \"Doesn't have to\" is *il n'est pas nécessaire de*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il fait très chaud aujourd'hui.",
+                  "en": "It's very hot today."
+                },
+                {
+                  "fr": "Il est tard, il faut dormir.",
+                  "en": "It's late, we have to sleep."
+                },
+                {
+                  "fr": "Il a neigé cette nuit.",
+                  "en": "It snowed last night."
+                },
+                {
+                  "fr": "Il est difficile de parler chinois.",
+                  "en": "It's difficult to speak Chinese."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-impersonal-01",
+          "type": "build",
+          "en": "It's raining.",
+          "a": [
+            "Il pleut."
+          ]
+        },
+        {
+          "id": "g-impersonal-02",
+          "type": "build",
+          "en": "It's cold.",
+          "a": [
+            "Il fait froid."
+          ]
+        },
+        {
+          "id": "g-impersonal-03",
+          "type": "cloze",
+          "fr": "Il ___ faire attention.",
+          "a": [
+            "faut"
+          ],
+          "en": "One has to be careful."
+        },
+        {
+          "id": "g-impersonal-04",
+          "type": "build",
+          "en": "It's nine o'clock.",
+          "a": [
+            "Il est neuf heures."
+          ]
+        },
+        {
+          "id": "g-impersonal-05",
+          "type": "transform",
+          "task_en": "Make it negative (= must not)",
+          "fr": "Il faut courir.",
+          "a": [
+            "Il ne faut pas courir."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weather",
+      "title": "Weather: il fait, il y a, il pleut",
+      "fr": "le temps qu'il fait",
+      "level": "A1",
+      "keywords": [
+        "weather",
+        "il fait",
+        "il pleut",
+        "il neige",
+        "quel temps fait-il",
+        "temperature",
+        "degrees",
+        "il y a du soleil",
+        "il fait beau"
+      ],
+      "topics": [
+        "weather"
+      ],
+      "see": [
+        "impersonal",
+        "avoir-faire-expressions",
+        "imparfait",
+        "futur-proche"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Weather uses **impersonal *il***, which means nothing. Three patterns: **il fait + adjective** (*il fait chaud*), **il y a + noun** (*il y a du vent*) and **a weather verb** (*il pleut, il neige*). Ask with **Quel temps fait-il ?**"
+            },
+            {
+              "type": "table",
+              "head": [
+                "pattern",
+                "examples",
+                "English"
+              ],
+              "rows": [
+                [
+                  "il fait + adjective",
+                  "il fait beau, chaud, froid, frais, mauvais",
+                  "it's nice, hot, cold, cool, bad"
+                ],
+                [
+                  "il y a + noun",
+                  "il y a du soleil, du vent, des nuages, de l'orage",
+                  "it's sunny, windy, cloudy, stormy"
+                ],
+                [
+                  "a verb",
+                  "il pleut, il neige, il gèle",
+                  "it rains, it snows, it freezes"
+                ],
+                [
+                  "être / faire + number",
+                  "il fait 20 degrés",
+                  "it's 20 degrees"
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Questions and answers",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "question",
+                "answer"
+              ],
+              "rows": [
+                [
+                  "Quel temps fait-il ?",
+                  "Il fait beau. / Il pleut."
+                ],
+                [
+                  "Il fait quel temps ?",
+                  "Il fait un temps magnifique."
+                ],
+                [
+                  "Il fait combien aujourd'hui ?",
+                  "Il fait quinze degrés."
+                ],
+                [
+                  "Qu'est-ce que la météo annonce ?",
+                  "Elle annonce de la pluie."
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "With *faire*, the weather word is an adjective: *il fait beau* (not *il est beau*). With *il y a* it is a noun, so it needs an article: *il y a **du** soleil*."
+            }
+          ]
+        },
+        {
+          "title": "Past and future",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Weather in the past is usually in the **imparfait** (*il faisait chaud, il pleuvait*) because it describes the background. For the future use **futur proche** or **futur simple**."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Hier, il pleuvait.",
+                  "en": "Yesterday it was raining."
+                },
+                {
+                  "fr": "Il faisait très froid ce matin.",
+                  "en": "It was very cold this morning."
+                },
+                {
+                  "fr": "Demain, il va neiger.",
+                  "en": "Tomorrow it's going to snow."
+                },
+                {
+                  "fr": "Il y aura du soleil ce week-end.",
+                  "en": "There will be sun this weekend."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "It's hot.",
+                  "wrong": "Il est chaud.",
+                  "fr": "Il [[fait]] chaud.",
+                  "note": "*Il est chaud* would describe an object."
+                },
+                {
+                  "en": "It's very cold.",
+                  "wrong": "Il est très froid.",
+                  "fr": "Il fait [[très]] froid. / Il fait [[un froid de canard]]."
+                },
+                {
+                  "en": "I'm cold.",
+                  "wrong": "Je fais froid.",
+                  "fr": "J'[[ai]] froid.",
+                  "note": "People feel cold, hot with *avoir*."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "impersonal",
+                "avoir-faire-expressions",
+                "futur-proche",
+                "imparfait"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Aujourd'hui, il fait chaud et il y a du soleil.",
+                  "en": "It's hot and sunny today."
+                },
+                {
+                  "fr": "En hiver, il neige souvent.",
+                  "en": "It often snows in winter."
+                },
+                {
+                  "fr": "Il y a beaucoup de vent ce soir.",
+                  "en": "It's very windy tonight."
+                },
+                {
+                  "fr": "Il fait zéro degré.",
+                  "en": "It's zero degrees."
+                },
+                {
+                  "fr": "Il ne fait pas beau.",
+                  "en": "The weather is not nice."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-weather-01",
+          "type": "build",
+          "en": "It's cold.",
+          "a": [
+            "Il fait froid."
+          ]
+        },
+        {
+          "id": "g-weather-02",
+          "type": "build",
+          "en": "It's raining.",
+          "a": [
+            "Il pleut."
+          ]
+        },
+        {
+          "id": "g-weather-03",
+          "type": "build",
+          "en": "It's sunny.",
+          "a": [
+            "Il y a du soleil.",
+            "Il fait beau."
+          ]
+        },
+        {
+          "id": "g-weather-04",
+          "type": "build",
+          "en": "What's the weather like?",
+          "a": [
+            "Quel temps fait-il ?",
+            "Il fait quel temps ?"
+          ]
+        },
+        {
+          "id": "g-weather-05",
+          "type": "build",
+          "en": "It was very hot yesterday.",
+          "a": [
+            "Hier, il faisait très chaud.",
+            "Il faisait très chaud hier."
+          ]
+        },
+        {
+          "id": "g-weather-06",
+          "type": "build",
+          "en": "It's going to snow tomorrow.",
+          "a": [
+            "Demain, il va neiger.",
+            "Il va neiger demain."
+          ]
+        },
+        {
+          "id": "g-weather-07",
+          "type": "cloze",
+          "fr": "Aujourd'hui, il ___ chaud.",
+          "a": [
+            "fait"
+          ],
+          "en": "It's hot today."
+        },
+        {
+          "id": "g-weather-08",
+          "type": "cloze",
+          "fr": "Il y a ___ vent.",
+          "a": [
+            "du"
+          ],
+          "en": "It's windy."
+        },
+        {
+          "id": "g-weather-09",
+          "type": "transform",
+          "task_en": "Say it's not true",
+          "fr": "Il fait beau.",
+          "a": [
+            "Il ne fait pas beau."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "conjunctions",
+      "title": "Conjunctions: et, mais, ou, donc, parce que",
+      "fr": "les conjonctions",
+      "level": "A1",
+      "keywords": [
+        "conjunctions",
+        "and",
+        "but",
+        "or",
+        "so",
+        "because",
+        "et",
+        "mais",
+        "ou",
+        "donc",
+        "parce que",
+        "car",
+        "alors"
+      ],
+      "topics": [],
+      "see": [
+        "complex-sentences",
+        "word-order"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "conjunction",
+                "meaning",
+                "example"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "et",
+                  "and",
+                  "J'aime le sport et la musique."
+                ],
+                [
+                  "mais",
+                  "but",
+                  "Il est petit, mais il est fort."
+                ],
+                [
+                  "ou",
+                  "or",
+                  "Du thé ou du café ?"
+                ],
+                [
+                  "donc",
+                  "so, therefore",
+                  "Il pleut, donc je reste à la maison."
+                ],
+                [
+                  "alors",
+                  "so (spoken)",
+                  "Il pleut, alors je reste à la maison."
+                ],
+                [
+                  "parce que",
+                  "because",
+                  "Je reste parce qu'il pleut."
+                ],
+                [
+                  "car",
+                  "for, because (written)",
+                  "Je reste, car il pleut."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "After a conjunction the **word order does not change**: it is still subject + verb."
+            }
+          ]
+        },
+        {
+          "title": "Parce que",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Parce que* shortens before a vowel: *parce qu'il, parce qu'elle, parce qu'on*. The answer to *Pourquoi ?* always starts with *parce que*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Pourquoi tu ris ? Parce que c'est drôle.",
+                  "en": "Why are you laughing? Because it's funny."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "Reason at the start of the sentence",
+              "en": "When you give the reason first, use *comme*: *Comme il pleut, je reste à la maison.* (Since it's raining, I'm staying at home.)"
+            }
+          ]
+        },
+        {
+          "title": "Commas",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A comma is normally written before *mais*, but not before *et* and *ou*. Before *que* (that) **no comma** is written, just as in English: *Je pense que tu as raison.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai un frère et une sœur.",
+                  "en": "I have a brother and a sister."
+                },
+                {
+                  "fr": "Je voudrais venir, mais je n'ai pas le temps.",
+                  "en": "I would like to come, but I don't have time."
+                },
+                {
+                  "fr": "Tu viens ce soir ou demain ?",
+                  "en": "Are you coming tonight or tomorrow?"
+                },
+                {
+                  "fr": "Je suis fatigué, donc je vais me coucher.",
+                  "en": "I'm tired, so I'm going to bed."
+                },
+                {
+                  "fr": "Je ne sors pas parce que j'ai des devoirs.",
+                  "en": "I'm not going out because I have homework."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-conjunctions-01",
+          "type": "cloze",
+          "fr": "Je reste à la maison ___ je suis malade.",
+          "a": [
+            "parce que",
+            "car"
+          ],
+          "en": "I'm staying at home because I'm ill."
+        },
+        {
+          "id": "g-conjunctions-02",
+          "type": "cloze",
+          "fr": "Il est sympa, ___ un peu timide.",
+          "a": [
+            "mais"
+          ],
+          "en": "He's nice, but a bit shy."
+        },
+        {
+          "id": "g-conjunctions-03",
+          "type": "build",
+          "en": "Do you want tea or coffee?",
+          "a": [
+            "Tu veux du thé ou du café ?",
+            "Tu veux un thé ou un café ?"
+          ]
+        },
+        {
+          "id": "g-conjunctions-04",
+          "type": "build",
+          "en": "I'm not going out because it's raining.",
+          "a": [
+            "Je ne sors pas parce qu'il pleut.",
+            "Je ne sors pas, car il pleut."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cause-consequence",
+      "title": "Cause and consequence: parce que, car, donc, alors",
+      "fr": "la cause et la conséquence",
+      "level": "A2",
+      "keywords": [
+        "because",
+        "parce que",
+        "car",
+        "comme",
+        "puisque",
+        "à cause de",
+        "grâce à",
+        "donc",
+        "alors",
+        "c'est pourquoi",
+        "par conséquent",
+        "du coup",
+        "cause",
+        "consequence",
+        "reason"
+      ],
+      "topics": [],
+      "see": [
+        "conjunctions",
+        "complex-sentences",
+        "contrast-concession",
+        "purpose"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Cause** answers *why?* (**parce que, car, comme, puisque, à cause de, grâce à**). **Consequence** gives the result (**donc, alors, c'est pourquoi, par conséquent, du coup**). Cause connectors with *que* take a sentence, *à cause de* and *grâce à* take a noun."
+            },
+            {
+              "type": "table",
+              "head": [
+                "connector",
+                "meaning",
+                "example"
+              ],
+              "rows": [
+                [
+                  "parce que",
+                  "because (answers pourquoi)",
+                  "Je reste ici parce que je suis malade."
+                ],
+                [
+                  "car",
+                  "for, because (writing)",
+                  "Il est absent, car il est malade."
+                ],
+                [
+                  "comme",
+                  "since, as (before the result)",
+                  "Comme il pleut, je reste."
+                ],
+                [
+                  "puisque",
+                  "since (the reason is known)",
+                  "Puisque tu es là, aide-moi."
+                ],
+                [
+                  "à cause de",
+                  "because of (usually bad)",
+                  "À cause du bruit, je n'ai pas dormi."
+                ],
+                [
+                  "grâce à",
+                  "thanks to (usually good)",
+                  "Grâce à toi, j'ai réussi."
+                ],
+                [
+                  "donc, alors",
+                  "so",
+                  "Il pleut, donc je reste."
+                ],
+                [
+                  "c'est pourquoi",
+                  "that is why (formal)",
+                  "Il est malade, c'est pourquoi il est absent."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Parce que, car, comme, puisque",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Parce que* answers a question and can stand alone: *Pourquoi ? Parce que j'ai faim.* *Car* is used in writing and never starts a sentence. *Comme* starts the sentence: **Comme** il pleut, je reste. *Puisque* introduces a reason the listener already knows."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm staying because it's raining.",
+                  "wrong": "Je reste comme il pleut.",
+                  "fr": "Je reste [[parce qu']]il pleut. / [[Comme]] il pleut, je reste."
+                },
+                {
+                  "en": "Why? Because I'm tired.",
+                  "wrong": "Pourquoi ? Car je suis fatigué.",
+                  "fr": "Pourquoi ? [[Parce que]] je suis fatigué."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "Before a vowel *parce que* becomes *parce qu'* and *puisque* becomes *puisqu'*: *parce qu'il, puisqu'elle*."
+            }
+          ]
+        },
+        {
+          "title": "À cause de and grâce à",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "They are followed by a **noun** (or a pronoun), not by a verb. Use *à cause de* for a negative result and *grâce à* for a positive one. Use *de* + article: *à cause du, à cause de la, à cause des*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "À cause de la grève, le train est en retard.",
+                  "en": "Because of the strike, the train is late."
+                },
+                {
+                  "fr": "Grâce à mes amis, j'ai passé un bon week-end.",
+                  "en": "Thanks to my friends, I had a good weekend."
+                },
+                {
+                  "fr": "À cause de lui, nous sommes en retard.",
+                  "en": "Because of him, we are late."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Donc, alors, c'est pourquoi, par conséquent",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "These give the **result**. *Donc* and *alors* are neutral. *C'est pourquoi* and *par conséquent* are more formal. *Du coup* is very common in speech. Put *donc* after the verb for a smooth effect: *Je pense, donc je suis.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il fait froid, donc je mets un manteau.",
+                  "en": "It's cold, so I'm putting on a coat."
+                },
+                {
+                  "fr": "Je n'avais pas faim, alors je n'ai rien mangé.",
+                  "en": "I wasn't hungry, so I ate nothing."
+                },
+                {
+                  "fr": "Il a beaucoup travaillé, par conséquent il a réussi.",
+                  "en": "He worked a lot, so he succeeded."
+                },
+                {
+                  "fr": "Du coup, on reste à la maison ?",
+                  "en": "So, are we staying at home?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je suis en retard parce que j'ai raté le bus.",
+                  "en": "I'm late because I missed the bus."
+                },
+                {
+                  "fr": "Comme il n'y avait pas de place, nous sommes partis.",
+                  "en": "As there was no room, we left."
+                },
+                {
+                  "fr": "Puisque tu connais la réponse, dis-la !",
+                  "en": "Since you know the answer, say it!"
+                },
+                {
+                  "fr": "Je suis malade, donc je reste au lit.",
+                  "en": "I'm ill, so I'm staying in bed."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-cause-consequence-01",
+          "type": "build",
+          "en": "I'm staying because I'm ill.",
+          "a": [
+            "Je reste parce que je suis malade.",
+            "Je reste, car je suis malade."
+          ]
+        },
+        {
+          "id": "g-cause-consequence-02",
+          "type": "build",
+          "en": "Because of the rain, we stayed at home.",
+          "a": [
+            "À cause de la pluie, nous sommes restés à la maison.",
+            "À cause de la pluie, on est resté à la maison."
+          ]
+        },
+        {
+          "id": "g-cause-consequence-03",
+          "type": "build",
+          "en": "Thanks to you, I succeeded.",
+          "a": [
+            "Grâce à toi, j'ai réussi."
+          ]
+        },
+        {
+          "id": "g-cause-consequence-04",
+          "type": "build",
+          "en": "It's cold, so I'm putting on a coat.",
+          "a": [
+            "Il fait froid, donc je mets un manteau.",
+            "Il fait froid, alors je mets un manteau."
+          ]
+        },
+        {
+          "id": "g-cause-consequence-05",
+          "type": "cloze",
+          "fr": "Je ne sors pas ___ je suis malade.",
+          "a": [
+            "parce que",
+            "car"
+          ],
+          "en": "I'm not going out because I'm ill."
+        },
+        {
+          "id": "g-cause-consequence-06",
+          "type": "cloze",
+          "fr": "___ du bruit, je n'ai pas dormi.",
+          "a": [
+            "À cause"
+          ],
+          "en": "Because of the noise, I didn't sleep."
+        },
+        {
+          "id": "g-cause-consequence-07",
+          "type": "cloze",
+          "fr": "___ à ton aide, j'ai fini.",
+          "a": [
+            "Grâce"
+          ],
+          "en": "Thanks to your help, I finished."
+        },
+        {
+          "id": "g-cause-consequence-08",
+          "type": "cloze",
+          "fr": "Il est tard, ___ je rentre.",
+          "a": [
+            "donc",
+            "alors"
+          ],
+          "en": "It's late, so I'm going home."
+        },
+        {
+          "id": "g-cause-consequence-09",
+          "type": "transform",
+          "task_en": "Join with parce que",
+          "fr": "Je reste. Je suis fatigué.",
+          "a": [
+            "Je reste parce que je suis fatigué."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "purpose",
+      "title": "Purpose: pour, afin de, pour que, afin que",
+      "fr": "le but",
+      "level": "A2",
+      "keywords": [
+        "purpose",
+        "pour",
+        "afin de",
+        "pour que",
+        "afin que",
+        "in order to",
+        "so that",
+        "goal",
+        "dans le but de",
+        "de peur que"
+      ],
+      "topics": [],
+      "see": [
+        "cause-consequence",
+        "subjonctif-basics",
+        "pour-par-avec"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To say **why** you do something, use **pour + infinitive** (same subject) or **pour que + subjunctive** (different subjects). *Afin de* and *afin que* are the formal versions."
+            },
+            {
+              "type": "table",
+              "head": [
+                "same subject",
+                "different subjects",
+                "English"
+              ],
+              "rows": [
+                [
+                  "Je travaille pour gagner de l'argent.",
+                  "Je travaille pour que tu puisses étudier.",
+                  "I work to earn money. / so that you can study."
+                ],
+                [
+                  "Il part tôt afin d'arriver à l'heure.",
+                  "Il part tôt afin que tu arrives à l'heure.",
+                  "He leaves early to arrive on time. / so that you arrive on time."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Same subject: pour + infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When the subject of both verbs is the same, use *pour* (or *afin de*) with the **infinitive**. For a negative purpose put *ne pas* together in front of the verb: *pour ne pas être en retard*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'étudie pour réussir mon examen.",
+                  "en": "I study to pass my exam."
+                },
+                {
+                  "fr": "Il court pour ne pas rater le bus.",
+                  "en": "He runs so as not to miss the bus."
+                },
+                {
+                  "fr": "Nous prenons le train afin de gagner du temps.",
+                  "en": "We take the train to save time."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Different subjects: pour que + subjunctive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When the subjects differ you need a clause: *pour que* or *afin que* **+ subjunctive**. Learn the forms in the subjunctive article. The most common irregular ones are *que je sois, que j'aie, que je fasse, que j'aille, que je puisse*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je te dis ça pour que tu comprennes.",
+                  "en": "I'm telling you so that you understand."
+                },
+                {
+                  "fr": "Elle parle lentement pour que nous puissions la suivre.",
+                  "en": "She speaks slowly so that we can follow her."
+                },
+                {
+                  "fr": "Ouvre la fenêtre pour que l'air entre.",
+                  "en": "Open the window so that the air comes in."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I study to learn.",
+                  "wrong": "J'étudie pour que j'apprenne.",
+                  "fr": "J'étudie [[pour apprendre]].",
+                  "note": "Same subject: infinitive."
+                },
+                {
+                  "en": "She tells him so that he knows.",
+                  "wrong": "Elle lui dit pour il sait.",
+                  "fr": "Elle lui dit [[pour qu']]il [[sache]].",
+                  "note": "*Pour que* needs the subjunctive."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Pour* can also mean *for* (*Un cadeau pour toi*) and *to* before an infinitive. Do not mix it with *pendant* (during) or *depuis* (since)."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "subjonctif-basics",
+                "pour-par-avec",
+                "cause-consequence"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je mets un réveil pour me lever tôt.",
+                  "en": "I set an alarm to get up early."
+                },
+                {
+                  "fr": "Elle économise pour acheter un vélo.",
+                  "en": "She saves to buy a bike."
+                },
+                {
+                  "fr": "Parle plus fort pour que je t'entende.",
+                  "en": "Speak louder so that I can hear you."
+                },
+                {
+                  "fr": "Nous sommes partis tôt afin d'éviter les embouteillages.",
+                  "en": "We left early to avoid the traffic."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-purpose-01",
+          "type": "build",
+          "en": "I'm studying to pass my exam.",
+          "a": [
+            "J'étudie pour réussir mon examen.",
+            "Je travaille pour réussir mon examen."
+          ]
+        },
+        {
+          "id": "g-purpose-02",
+          "type": "build",
+          "en": "He runs so as not to miss the bus.",
+          "a": [
+            "Il court pour ne pas rater le bus."
+          ]
+        },
+        {
+          "id": "g-purpose-03",
+          "type": "build",
+          "en": "Speak louder so that I can hear you.",
+          "a": [
+            "Parle plus fort pour que je t'entende."
+          ]
+        },
+        {
+          "id": "g-purpose-04",
+          "type": "cloze",
+          "fr": "Il part tôt ___ arriver à l'heure.",
+          "a": [
+            "pour"
+          ],
+          "en": "He leaves early to arrive on time."
+        },
+        {
+          "id": "g-purpose-05",
+          "type": "cloze",
+          "fr": "Je te dis ça pour que tu ___.",
+          "a": [
+            "comprennes"
+          ],
+          "hint": "comprendre",
+          "en": "I'm telling you this so that you understand."
+        },
+        {
+          "id": "g-purpose-06",
+          "type": "cloze",
+          "fr": "Ouvre la porte pour que le chat ___.",
+          "a": [
+            "entre"
+          ],
+          "hint": "entrer",
+          "en": "Open the door so that the cat can come in."
+        },
+        {
+          "id": "g-purpose-07",
+          "type": "cloze",
+          "fr": "Elle étudie pour ne ___ échouer.",
+          "a": [
+            "pas"
+          ],
+          "en": "She studies so as not to fail."
+        }
+      ]
+    },
+    {
+      "id": "contrast-concession",
+      "title": "Contrast and concession: mais, pourtant, bien que, malgré",
+      "fr": "l'opposition et la concession",
+      "level": "B1",
+      "keywords": [
+        "contrast",
+        "concession",
+        "mais",
+        "pourtant",
+        "cependant",
+        "bien que",
+        "malgré",
+        "alors que",
+        "au contraire",
+        "quand même",
+        "par contre",
+        "en revanche",
+        "même si",
+        "although",
+        "despite",
+        "however"
+      ],
+      "topics": [],
+      "see": [
+        "cause-consequence",
+        "conjunctions",
+        "subjonctif-basics",
+        "complex-sentences"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To show a **contrast** use *mais, par contre, en revanche, alors que*. For a **concession** (something happens in spite of something else) use *pourtant, cependant, quand même, malgré, bien que, même si*. Only **bien que** needs the subjunctive."
+            },
+            {
+              "type": "table",
+              "head": [
+                "connector",
+                "meaning",
+                "followed by",
+                "example"
+              ],
+              "rows": [
+                [
+                  "mais",
+                  "but",
+                  "sentence",
+                  "Il est petit mais fort."
+                ],
+                [
+                  "pourtant, cependant",
+                  "yet, however",
+                  "sentence",
+                  "Il pleut, pourtant je sors."
+                ],
+                [
+                  "quand même",
+                  "all the same",
+                  "after the verb",
+                  "Je viendrai quand même."
+                ],
+                [
+                  "malgré",
+                  "despite",
+                  "noun",
+                  "Malgré la pluie, nous sortons."
+                ],
+                [
+                  "bien que",
+                  "although",
+                  "subjunctive",
+                  "Bien qu'il soit petit, il est fort."
+                ],
+                [
+                  "même si",
+                  "even if",
+                  "indicative",
+                  "Même s'il pleut, je viens."
+                ],
+                [
+                  "alors que",
+                  "while, whereas",
+                  "indicative",
+                  "Il travaille alors que je dors."
+                ],
+                [
+                  "au contraire",
+                  "on the contrary",
+                  "sentence",
+                  "Il n'est pas triste, au contraire !"
+                ],
+                [
+                  "par contre, en revanche",
+                  "on the other hand",
+                  "sentence",
+                  "Il est lent, en revanche il est précis."
+                ]
+              ],
+              "textCols": [
+                1,
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Malgré and bien que",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Malgré* is followed by a **noun**: *malgré la pluie, malgré lui*. *Bien que* is followed by a **clause in the subjunctive**: *bien qu'il pleuve*. Never use *malgré que* in careful French."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Despite the rain we went out.",
+                  "wrong": "Malgré il pleuvait, nous sommes sortis.",
+                  "fr": "[[Malgré la pluie]], nous sommes sortis. / [[Bien qu']]il [[pleuve]], nous sommes sortis."
+                },
+                {
+                  "en": "Although he is tired he works.",
+                  "wrong": "Bien qu'il est fatigué, il travaille.",
+                  "fr": "Bien qu'il [[soit]] fatigué, il travaille."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Même si and alors que",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Même si* (even if) is followed by an **ordinary tense** (present or imparfait), not the subjunctive. *Alors que* means *whereas* or *while* and shows a contrast between two facts."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Même si tu as raison, je ne suis pas d'accord.",
+                  "en": "Even if you are right, I don't agree."
+                },
+                {
+                  "fr": "Elle adore le sport alors que son frère le déteste.",
+                  "en": "She loves sport whereas her brother hates it."
+                },
+                {
+                  "fr": "Même s'il faisait froid, nous sommes allés à la plage.",
+                  "en": "Even though it was cold we went to the beach."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pourtant, cependant, quand même",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Pourtant* and *cependant* start a new clause and show something unexpected. *Quand même* and *tout de même* go **after the verb** and mean *all the same*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il a étudié. Pourtant il a échoué.",
+                  "en": "He studied. Yet he failed."
+                },
+                {
+                  "fr": "Il est tard, mais je veux quand même sortir.",
+                  "en": "It's late but I still want to go out."
+                },
+                {
+                  "fr": "Elle est malade. Elle travaille cependant.",
+                  "en": "She is ill. She works nevertheless."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je l'aime bien, mais il est souvent en retard.",
+                  "en": "I like him but he's often late."
+                },
+                {
+                  "fr": "Malgré le froid, il porte un t-shirt.",
+                  "en": "Despite the cold he wears a T-shirt."
+                },
+                {
+                  "fr": "Bien que ce soit cher, je l'achète.",
+                  "en": "Although it's expensive, I'm buying it."
+                },
+                {
+                  "fr": "Nous avons perdu. Au contraire, c'était un bon match !",
+                  "en": "We lost. On the contrary, it was a good match!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-contrast-concession-01",
+          "type": "build",
+          "en": "Despite the rain, we went out.",
+          "a": [
+            "Malgré la pluie, nous sommes sortis.",
+            "Malgré la pluie, on est sorti."
+          ]
+        },
+        {
+          "id": "g-contrast-concession-02",
+          "type": "build",
+          "en": "Although he is tired, he is working.",
+          "a": [
+            "Bien qu'il soit fatigué, il travaille."
+          ]
+        },
+        {
+          "id": "g-contrast-concession-03",
+          "type": "build",
+          "en": "Even if it rains, I'm coming.",
+          "a": [
+            "Même s'il pleut, je viens."
+          ]
+        },
+        {
+          "id": "g-contrast-concession-04",
+          "type": "cloze",
+          "fr": "___ la fatigue, il a continué.",
+          "a": [
+            "Malgré"
+          ],
+          "en": "Despite the tiredness, he went on."
+        },
+        {
+          "id": "g-contrast-concession-05",
+          "type": "cloze",
+          "fr": "Bien qu'il ___ tard, nous restons.",
+          "a": [
+            "soit"
+          ],
+          "hint": "être",
+          "en": "Although it's late, we are staying."
+        },
+        {
+          "id": "g-contrast-concession-06",
+          "type": "cloze",
+          "fr": "Il est lent, ___ il est précis.",
+          "a": [
+            "en revanche",
+            "par contre"
+          ],
+          "en": "He is slow, but on the other hand he is precise."
+        },
+        {
+          "id": "g-contrast-concession-07",
+          "type": "cloze",
+          "fr": "Il pleut, mais je sors ___ même.",
+          "a": [
+            "quand"
+          ],
+          "en": "It's raining, but I'm going out all the same."
+        },
+        {
+          "id": "g-contrast-concession-08",
+          "type": "cloze",
+          "fr": "Elle aime l'été ___ que lui préfère l'hiver.",
+          "a": [
+            "alors"
+          ],
+          "en": "She likes summer whereas he prefers winter."
+        }
+      ]
+    },
+    {
+      "id": "time-connectors",
+      "title": "Linking events in time: d'abord, ensuite, quand, dès que",
+      "fr": "les connecteurs de temps",
+      "level": "A2",
+      "keywords": [
+        "time connectors",
+        "d'abord",
+        "ensuite",
+        "puis",
+        "enfin",
+        "après",
+        "avant de",
+        "quand",
+        "lorsque",
+        "dès que",
+        "pendant que",
+        "au moment où",
+        "depuis que",
+        "jusqu'à ce que",
+        "la veille",
+        "le lendemain",
+        "sequence"
+      ],
+      "topics": [],
+      "see": [
+        "si-clauses",
+        "futur-simple",
+        "plus-que-parfait",
+        "time-prepositions"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To tell things **in order** use *d'abord, ensuite, puis, après, enfin*. To link two clauses use **quand, lorsque, dès que, pendant que, avant de, après avoir, depuis que, jusqu'à ce que**. After *quand* and *dès que* a future action takes the **futur simple**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "function",
+                "words",
+                "example"
+              ],
+              "rows": [
+                [
+                  "order",
+                  "d'abord, ensuite, puis, après, enfin",
+                  "D'abord je mange, ensuite je sors."
+                ],
+                [
+                  "when",
+                  "quand, lorsque, au moment où",
+                  "Quand je rentre, je mange."
+                ],
+                [
+                  "as soon as",
+                  "dès que, aussitôt que",
+                  "Dès que j'arrive, je t'appelle."
+                ],
+                [
+                  "while",
+                  "pendant que, alors que",
+                  "Je cuisine pendant que tu travailles."
+                ],
+                [
+                  "before / after",
+                  "avant de + inf., après + past inf.",
+                  "Avant de partir, ferme la porte."
+                ],
+                [
+                  "since / until",
+                  "depuis que, jusqu'à ce que",
+                  "Attends jusqu'à ce que je revienne."
+                ]
+              ],
+              "textCols": [
+                0
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quand and the future",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "English uses the present after *when* (\"when you come\"). In French **quand** and **dès que** are followed by the **futur simple** when the action is in the future. After *si*, in contrast, you use the present, as in English."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "When I arrive, I'll call you.",
+                  "wrong": "Quand j'arrive, je t'appellerai.",
+                  "fr": "Quand [[j'arriverai]], je t'appellerai."
+                },
+                {
+                  "en": "If I arrive, I'll call you.",
+                  "wrong": "Si j'arriverai, je t'appellerai.",
+                  "fr": "[[Si j'arrive]], je t'appellerai."
+                }
+              ]
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quand tu viendras, apporte ton ordinateur.",
+                  "en": "When you come, bring your computer."
+                },
+                {
+                  "fr": "Dès que j'aurai fini, je sortirai.",
+                  "en": "As soon as I've finished, I'll go out."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Before and after",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Avant de + infinitive** (same subject): *Avant de partir, je ferme la fenêtre.* **Après avoir / être + participle** (same subject): *Après avoir mangé, je sors.* With different subjects use **avant que + subjunctive**: *avant que tu partes*, and **après que + indicative**."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Avant de dormir, je lis un peu.",
+                  "en": "Before sleeping I read a little."
+                },
+                {
+                  "fr": "Après avoir mangé, nous sommes sortis.",
+                  "en": "After eating we went out."
+                },
+                {
+                  "fr": "Après être rentré, il a pris une douche.",
+                  "en": "After coming home he took a shower."
+                },
+                {
+                  "fr": "Avant que tu partes, appelle ta mère.",
+                  "en": "Before you leave, call your mother."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In stories",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In a story use **la veille** (the day before), **le lendemain** (the next day), **ce jour-là**, **soudain**, **un peu plus tard**, **à ce moment-là**, **finalement**."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le lendemain, il est parti.",
+                  "en": "The next day he left."
+                },
+                {
+                  "fr": "La veille, nous avions préparé les valises.",
+                  "en": "The day before, we had packed the cases."
+                },
+                {
+                  "fr": "Soudain, il a commencé à pleuvoir.",
+                  "en": "Suddenly it began to rain."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "D'abord, je me lève, ensuite je prends mon petit-déjeuner.",
+                  "en": "First I get up, then I have breakfast."
+                },
+                {
+                  "fr": "Pendant que je faisais mes devoirs, il regardait la télé.",
+                  "en": "While I was doing my homework he was watching TV."
+                },
+                {
+                  "fr": "Lorsque nous sommes arrivés, le film avait commencé.",
+                  "en": "When we arrived, the film had started."
+                },
+                {
+                  "fr": "Je vis ici depuis que j'ai dix ans.",
+                  "en": "I have lived here since I was ten."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-time-connectors-01",
+          "type": "build",
+          "en": "First I get up, then I have breakfast.",
+          "a": [
+            "D'abord, je me lève, ensuite je prends mon petit-déjeuner.",
+            "D'abord je me lève, puis je prends mon petit-déjeuner."
+          ]
+        },
+        {
+          "id": "g-time-connectors-02",
+          "type": "build",
+          "en": "As soon as I arrive, I'll call you.",
+          "a": [
+            "Dès que j'arriverai, je t'appellerai.",
+            "Dès que je serai arrivé, je t'appellerai."
+          ]
+        },
+        {
+          "id": "g-time-connectors-03",
+          "type": "build",
+          "en": "Before leaving, close the window.",
+          "a": [
+            "Avant de partir, ferme la fenêtre."
+          ]
+        },
+        {
+          "id": "g-time-connectors-04",
+          "type": "build",
+          "en": "After eating, we went out.",
+          "a": [
+            "Après avoir mangé, nous sommes sortis.",
+            "Après avoir mangé, on est sorti."
+          ]
+        },
+        {
+          "id": "g-time-connectors-05",
+          "type": "cloze",
+          "fr": "Quand tu ___, apporte ton livre.",
+          "a": [
+            "viendras"
+          ],
+          "hint": "venir",
+          "en": "When you come, bring your book."
+        },
+        {
+          "id": "g-time-connectors-06",
+          "type": "cloze",
+          "fr": "Dès que j'___ fini, je t'appelle.",
+          "a": [
+            "aurai"
+          ],
+          "en": "As soon as I've finished, I'll call you."
+        },
+        {
+          "id": "g-time-connectors-07",
+          "type": "cloze",
+          "fr": "Je cuisine ___ que tu travailles.",
+          "a": [
+            "pendant"
+          ],
+          "en": "I cook while you work."
+        },
+        {
+          "id": "g-time-connectors-08",
+          "type": "cloze",
+          "fr": "Le ___, il est parti.",
+          "a": [
+            "lendemain"
+          ],
+          "en": "The next day he left."
+        }
+      ]
+    },
+    {
+      "id": "complex-sentences",
+      "title": "Complex sentences: que, quand, si, comme",
+      "fr": "les subordonnées",
+      "level": "A2",
+      "keywords": [
+        "complex sentences",
+        "subordinate clause",
+        "that",
+        "when",
+        "if",
+        "que",
+        "quand",
+        "si",
+        "comme",
+        "lorsque",
+        "pendant que"
+      ],
+      "topics": [],
+      "see": [
+        "conjunctions",
+        "si-clauses",
+        "relative-qui-que",
+        "indirect-questions",
+        "futur-simple"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A subordinate clause starts with a conjunction and then has **normal word order**: subject + verb."
+            },
+            {
+              "type": "table",
+              "head": [
+                "conjunction",
+                "meaning",
+                "example"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "que (qu')",
+                  "that",
+                  "Je pense que c'est vrai."
+                ],
+                [
+                  "quand",
+                  "when",
+                  "Quand il pleut, je lis."
+                ],
+                [
+                  "si (s'il)",
+                  "if",
+                  "Si tu veux, on y va."
+                ],
+                [
+                  "comme",
+                  "since, as (at the start)",
+                  "Comme il est tard, je rentre."
+                ],
+                [
+                  "pendant que",
+                  "while",
+                  "Je lis pendant que tu dors."
+                ],
+                [
+                  "lorsque",
+                  "when (written)",
+                  "Lorsqu'il arrive, on mange."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Que cannot be dropped",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I think he's right.",
+                  "wrong": "Je pense il a raison.",
+                  "fr": "Je pense [[qu']]il a raison.",
+                  "note": "English sometimes drops \"that\", French **never** drops *que*. And no comma is written before *que*."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quand and the future",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When you talk about the future, *quand* is followed by the **future tense**, even though English uses the present tense there (\"when you come\"): *Quand tu viendras, on mangera.* After *si* (if), however, the future is **never** used: *S'il pleut demain, je resterai à la maison.*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "When you come, call me.",
+                  "wrong": "Quand tu viens, appelle-moi.",
+                  "fr": "Quand tu [[viendras]], appelle-moi."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "si-clauses",
+                "futur-simple"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je sais que tu es fatigué.",
+                  "en": "I know you're tired."
+                },
+                {
+                  "fr": "Quand j'étais petit, j'habitais à Prague.",
+                  "en": "When I was little I lived in Prague."
+                },
+                {
+                  "fr": "Si tu as faim, il y a du pain.",
+                  "en": "If you're hungry, there's bread."
+                },
+                {
+                  "fr": "Comme il pleut, on reste à la maison.",
+                  "en": "Since it's raining, we're staying at home."
+                },
+                {
+                  "fr": "Elle dit qu'elle est malade.",
+                  "en": "She says she's ill."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-complex-sentences-01",
+          "type": "build",
+          "en": "I think it's true.",
+          "a": [
+            "Je pense que c'est vrai.",
+            "Je crois que c'est vrai."
+          ]
+        },
+        {
+          "id": "g-complex-sentences-02",
+          "type": "cloze",
+          "fr": "Je sais ___ tu es là.",
+          "a": [
+            "que"
+          ],
+          "en": "I know you're here."
+        },
+        {
+          "id": "g-complex-sentences-03",
+          "type": "cloze",
+          "fr": "___ j'ai le temps, je joue aux jeux vidéo.",
+          "a": [
+            "Quand",
+            "Si"
+          ],
+          "en": "When I have time, I play video games."
+        },
+        {
+          "id": "g-complex-sentences-04",
+          "type": "cloze",
+          "fr": "Quand je ___ grand, je serai pilote.",
+          "a": [
+            "serai"
+          ],
+          "hint": "être",
+          "en": "When I'm big, I'll be a pilot."
+        },
+        {
+          "id": "g-complex-sentences-05",
+          "type": "build",
+          "en": "When I was little I lived in Prague.",
+          "a": [
+            "Quand j'étais petit, j'habitais à Prague."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "exclamations",
+      "title": "Exclamations: quel, que, comme",
+      "fr": "l'exclamation",
+      "level": "A2",
+      "keywords": [
+        "exclamation",
+        "quel",
+        "que",
+        "comme",
+        "what a",
+        "how",
+        "qu'est-ce que",
+        "ce que",
+        "wow",
+        "exclamatory"
+      ],
+      "topics": [],
+      "see": [
+        "quel",
+        "question-words"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To exclaim, use **quel + noun** (*Quel beau temps !*), **que + adjective or sentence** (*Qu'il est grand !*) or **comme + sentence** (*Comme il est grand !*). In speech you often hear **ce que** and **qu'est-ce que**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "pattern",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "Quel / quelle + noun",
+                  "Quelle belle journée !",
+                  "What a nice day!"
+                ],
+                [
+                  "Quel + adjective + noun",
+                  "Quel beau film !",
+                  "What a beautiful film!"
+                ],
+                [
+                  "Que + sentence",
+                  "Que c'est beau !",
+                  "How beautiful!"
+                ],
+                [
+                  "Comme + sentence",
+                  "Comme il fait chaud !",
+                  "How hot it is!"
+                ],
+                [
+                  "Ce que + sentence (spoken)",
+                  "Ce qu'il est grand !",
+                  "How tall he is!"
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Quel agrees with the noun",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Quel, quelle, quels, quelles* agree in gender and number with the noun. There is **no article**: not *quelle une belle ville*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quel dommage !",
+                  "en": "What a pity!"
+                },
+                {
+                  "fr": "Quelle bonne idée !",
+                  "en": "What a good idea!"
+                },
+                {
+                  "fr": "Quels beaux yeux !",
+                  "en": "What beautiful eyes!"
+                },
+                {
+                  "fr": "Quelles belles vacances !",
+                  "en": "What lovely holidays!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Que, comme and ce que",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Que*, *comme* and *ce que* are followed by a normal sentence (subject + verb). *Que* is more formal, *ce que* is very common in speech."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "How cold it is!",
+                  "wrong": "Comme il est froid !",
+                  "fr": "Comme il fait [[froid]] !",
+                  "note": "The weather uses *faire*."
+                },
+                {
+                  "en": "How well you speak French!",
+                  "wrong": "Que bien tu parles français !",
+                  "fr": "[[Comme]] tu parles bien français ! / Ce que tu parles bien français !"
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "You can also exclaim with just a word: *Super !* *Génial !* *Dommage !* *Attention !* *Bravo !*",
+              "title": "Short exclamations"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Quelle chance !",
+                  "en": "What luck!"
+                },
+                {
+                  "fr": "Quel beau cadeau !",
+                  "en": "What a beautiful present!"
+                },
+                {
+                  "fr": "Comme tu as grandi !",
+                  "en": "How you've grown!"
+                },
+                {
+                  "fr": "Qu'il est gentil !",
+                  "en": "How nice he is!"
+                },
+                {
+                  "fr": "Ce que j'ai faim !",
+                  "en": "How hungry I am!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-exclamations-01",
+          "type": "build",
+          "en": "What a nice day!",
+          "a": [
+            "Quelle belle journée !"
+          ]
+        },
+        {
+          "id": "g-exclamations-02",
+          "type": "build",
+          "en": "What a pity!",
+          "a": [
+            "Quel dommage !"
+          ]
+        },
+        {
+          "id": "g-exclamations-03",
+          "type": "build",
+          "en": "What beautiful eyes!",
+          "a": [
+            "Quels beaux yeux !"
+          ]
+        },
+        {
+          "id": "g-exclamations-04",
+          "type": "build",
+          "en": "How cold it is!",
+          "a": [
+            "Comme il fait froid !",
+            "Qu'il fait froid !",
+            "Ce qu'il fait froid !"
+          ]
+        },
+        {
+          "id": "g-exclamations-05",
+          "type": "build",
+          "en": "How you've grown!",
+          "a": [
+            "Comme tu as grandi !",
+            "Qu'est-ce que tu as grandi !",
+            "Ce que tu as grandi !"
+          ]
+        },
+        {
+          "id": "g-exclamations-06",
+          "type": "cloze",
+          "fr": "___ belle ville !",
+          "a": [
+            "Quelle"
+          ],
+          "en": "What a beautiful city!"
+        },
+        {
+          "id": "g-exclamations-07",
+          "type": "cloze",
+          "fr": "___ vacances !",
+          "a": [
+            "Quelles"
+          ],
+          "en": "What a holiday! (plural)"
+        },
+        {
+          "id": "g-exclamations-08",
+          "type": "cloze",
+          "fr": "___ il est gentil !",
+          "a": [
+            "Comme"
+          ],
+          "en": "How nice he is!"
+        }
+      ]
+    },
+    {
+      "id": "reported-speech",
+      "title": "Reported speech (basics)",
+      "fr": "le discours indirect",
+      "level": "B1",
+      "keywords": [
+        "reported speech",
+        "indirect speech",
+        "says that",
+        "asks if",
+        "dire que",
+        "demander si",
+        "discours indirect"
+      ],
+      "topics": [],
+      "see": [
+        "complex-sentences",
+        "indirect-questions",
+        "subject-pronouns",
+        "possessive-determiners"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When you retell what someone **is saying now**, a clause with *que* and a change of persons is enough. The tenses do not change. (The tense shift after *il a dit que...* comes at a higher level.)"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Paul says: \"I'm tired.\" → Paul says that he's tired.",
+                  "fr": "Paul dit : « Je suis fatigué. » → Paul dit [[qu'il est]] fatigué."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What changes",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Pronouns** change (*je → il / elle*) and so do **possessives** (*ma → sa*), depending on who speaks and who is spoken about."
+            },
+            {
+              "type": "table",
+              "head": [
+                "direct speech",
+                "reported speech"
+              ],
+              "rows": [
+                [
+                  "« Je suis là. »",
+                  "Il dit qu'il est là."
+                ],
+                [
+                  "« J'aime ma sœur. »",
+                  "Elle dit qu'elle aime sa sœur."
+                ],
+                [
+                  "« Nous venons. »",
+                  "Ils disent qu'ils viennent."
+                ],
+                [
+                  "« Tu as raison. »",
+                  "Il me dit que j'ai raison."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Questions and commands",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "type",
+                "direct speech",
+                "reported speech"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "yes / no question",
+                  "« Tu viens ? »",
+                  "Il demande si je viens."
+                ],
+                [
+                  "with a question word",
+                  "« Où vas-tu ? »",
+                  "Il demande où je vais."
+                ],
+                [
+                  "command",
+                  "« Viens ! »",
+                  "Il me dit de venir."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "A yes / no question is introduced by *si* (whether). The question word stays, but **without inversion and without est-ce que**. A command becomes *dire de* + infinitive."
+            },
+            {
+              "type": "see",
+              "rules": [
+                "indirect-questions"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ma mère dit que le dîner est prêt.",
+                  "en": "My mother says dinner is ready."
+                },
+                {
+                  "fr": "Le prof demande si nous avons fini.",
+                  "en": "The teacher asks whether we've finished."
+                },
+                {
+                  "fr": "Il veut savoir quand tu arrives.",
+                  "en": "He wants to know when you're arriving."
+                },
+                {
+                  "fr": "Elle me dit de fermer la porte.",
+                  "en": "She tells me to close the door."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-reported-speech-01",
+          "type": "transform",
+          "task_en": "Turn it into reported speech",
+          "fr": "Paul dit : « Je suis malade. »",
+          "a": [
+            "Paul dit qu'il est malade."
+          ]
+        },
+        {
+          "id": "g-reported-speech-02",
+          "type": "transform",
+          "task_en": "Turn it into reported speech (she is asking you)",
+          "fr": "Elle demande : « Tu viens ? »",
+          "a": [
+            "Elle demande si je viens.",
+            "Elle me demande si je viens."
+          ]
+        },
+        {
+          "id": "g-reported-speech-03",
+          "type": "transform",
+          "task_en": "Turn it into reported speech",
+          "fr": "Il demande : « Où est la gare ? »",
+          "a": [
+            "Il demande où est la gare.",
+            "Il demande où se trouve la gare."
+          ]
+        },
+        {
+          "id": "g-reported-speech-04",
+          "type": "transform",
+          "task_en": "Turn the command into reported speech",
+          "fr": "Le prof nous dit : « Écoutez ! »",
+          "a": [
+            "Le prof nous dit d'écouter."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nominalisation",
+      "title": "Verbs into nouns: la nominalisation",
+      "fr": "la nominalisation",
+      "level": "B1",
+      "keywords": [
+        "nominalisation",
+        "nominalization",
+        "noun from verb",
+        "headlines",
+        "summary",
+        "-tion",
+        "-ment",
+        "-age",
+        "-ance",
+        "-eur",
+        "titres",
+        "résumé"
+      ],
+      "topics": [],
+      "see": [
+        "gender",
+        "gender-endings"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French (especially in **headlines, summaries and formal writing**) prefers a **noun to a verb**: *Le président arrive demain* becomes *L'arrivée du président demain*. Most nouns come from the verb with a **suffix**: *-tion, -ment, -age, -ance, -ure, -eur*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "verb",
+                "noun",
+                "English"
+              ],
+              "rows": [
+                [
+                  "arriver",
+                  "l'arrivée",
+                  "arrival"
+                ],
+                [
+                  "décider",
+                  "la décision",
+                  "decision"
+                ],
+                [
+                  "changer",
+                  "le changement",
+                  "change"
+                ],
+                [
+                  "voyager",
+                  "le voyage",
+                  "trip"
+                ],
+                [
+                  "réussir",
+                  "la réussite",
+                  "success"
+                ],
+                [
+                  "augmenter",
+                  "l'augmentation",
+                  "increase"
+                ],
+                [
+                  "travailler",
+                  "le travail",
+                  "work"
+                ],
+                [
+                  "entrer",
+                  "l'entrée",
+                  "entrance"
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The common endings",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "ending",
+                "gender",
+                "examples"
+              ],
+              "rows": [
+                [
+                  "-tion / -sion",
+                  "feminine",
+                  "la création, la décision, la discussion"
+                ],
+                [
+                  "-ment",
+                  "masculine",
+                  "le changement, le logement, le mouvement"
+                ],
+                [
+                  "-age",
+                  "masculine",
+                  "le voyage, le chômage, le stationnement"
+                ],
+                [
+                  "-ance / -ence",
+                  "feminine",
+                  "la naissance, la confiance, la différence"
+                ],
+                [
+                  "-ure",
+                  "feminine",
+                  "la lecture, la fermeture, l'ouverture"
+                ],
+                [
+                  "-eur (person)",
+                  "masculine",
+                  "le chanteur, le joueur, le vendeur"
+                ],
+                [
+                  "-é / -ée",
+                  "feminine",
+                  "l'arrivée, la journée, la durée"
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "There is no fixed rule, so learn the noun with the verb. The gender follows the ending."
+            }
+          ]
+        },
+        {
+          "title": "Using it",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Turn the subject into *de + noun* or a possessive, and the verb into a noun: *Les prix augmentent* → *l'augmentation des prix*. For a headline drop the article."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le ministre arrive demain. → L'arrivée du ministre demain.",
+                  "en": "The minister arrives tomorrow."
+                },
+                {
+                  "fr": "On a décidé de partir. → La décision de partir est prise.",
+                  "en": "The decision to leave is made."
+                },
+                {
+                  "fr": "Les prix ont augmenté. → L'augmentation des prix inquiète.",
+                  "en": "The rise in prices worries people."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "La lecture est mon passe-temps préféré.",
+                  "en": "Reading is my favourite pastime."
+                },
+                {
+                  "fr": "Le changement climatique est un problème.",
+                  "en": "Climate change is a problem."
+                },
+                {
+                  "fr": "Son départ m'a surpris.",
+                  "en": "His leaving surprised me."
+                },
+                {
+                  "fr": "Après la fermeture du magasin, nous sommes rentrés.",
+                  "en": "After the shop closed we went home."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-nominalisation-01",
+          "type": "build",
+          "en": "the arrival",
+          "a": [
+            "l'arrivée"
+          ]
+        },
+        {
+          "id": "g-nominalisation-02",
+          "type": "build",
+          "en": "the decision",
+          "a": [
+            "la décision"
+          ]
+        },
+        {
+          "id": "g-nominalisation-03",
+          "type": "build",
+          "en": "the change",
+          "a": [
+            "le changement"
+          ]
+        },
+        {
+          "id": "g-nominalisation-04",
+          "type": "cloze",
+          "fr": "Le verbe « voyager » donne le nom : le ___.",
+          "a": [
+            "voyage"
+          ],
+          "en": "The verb voyager gives the noun: the trip."
+        },
+        {
+          "id": "g-nominalisation-05",
+          "type": "cloze",
+          "fr": "Le verbe « décider » donne le nom : la ___.",
+          "a": [
+            "décision"
+          ],
+          "en": "The verb décider gives the noun: the decision."
+        },
+        {
+          "id": "g-nominalisation-06",
+          "type": "cloze",
+          "fr": "Le verbe « changer » donne le nom : le ___.",
+          "a": [
+            "changement"
+          ],
+          "en": "The verb changer gives the noun: the change."
+        },
+        {
+          "id": "g-nominalisation-07",
+          "type": "transform",
+          "task_en": "Turn into a noun phrase",
+          "fr": "Les prix augmentent.",
+          "a": [
+            "L'augmentation des prix.",
+            "Une augmentation des prix."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "emphasis",
+      "title": "Emphasis: c'est... qui, c'est... que, ce qui, ce que",
+      "fr": "la mise en relief",
+      "level": "B1",
+      "keywords": [
+        "emphasis",
+        "cleft",
+        "c'est qui",
+        "c'est que",
+        "mise en relief",
+        "ce qui",
+        "ce que",
+        "ce dont",
+        "moi je",
+        "highlight"
+      ],
+      "topics": [],
+      "see": [
+        "relative-qui-que",
+        "relative-ou-dont",
+        "stressed-pronouns",
+        "relative-ce"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To **highlight** one part of a sentence, put it between **c'est** and **qui** (subject) or **que** (everything else). *C'est Marie **qui** a gagné.* *C'est demain **que** je pars.* You can also highlight with **ce qui / ce que / ce dont ... c'est**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "plain sentence",
+                "highlighted",
+                "English"
+              ],
+              "rows": [
+                [
+                  "Marie a gagné.",
+                  "C'est Marie qui a gagné.",
+                  "It was Marie who won."
+                ],
+                [
+                  "Je pars demain.",
+                  "C'est demain que je pars.",
+                  "It's tomorrow that I'm leaving."
+                ],
+                [
+                  "Il parle à Paul.",
+                  "C'est à Paul qu'il parle.",
+                  "It's Paul he is speaking to."
+                ],
+                [
+                  "Je veux ça.",
+                  "C'est ça que je veux.",
+                  "That's what I want."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "C'est... qui and c'est... que",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Qui** replaces the **subject**, **que** everything else (an object, a place, a time). With a person or a thing after a preposition the preposition stays with the highlighted word: *C'est avec toi que je veux parler.* The verb after *qui* agrees with the highlighted word: *C'est moi qui **ai** gagné.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "C'est moi qui ai fait le gâteau.",
+                  "en": "I'm the one who made the cake."
+                },
+                {
+                  "fr": "C'est lui qui a raison.",
+                  "en": "He is the one who is right."
+                },
+                {
+                  "fr": "C'est en été que nous partons.",
+                  "en": "We leave in summer."
+                },
+                {
+                  "fr": "C'est à vous que je parle.",
+                  "en": "I'm talking to you."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "With stressed pronouns: *C'est moi qui*, *c'est toi qui*, *c'est lui qui*. The verb is in the person of the pronoun: *C'est moi qui **suis** là.*"
+            }
+          ]
+        },
+        {
+          "title": "Ce qui, ce que, ce dont",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "To highlight what you **mean** put the clause first and **c'est** after it. *Ce qui* is the subject, *ce que* the object, *ce dont* with *de*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "pattern",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "Ce qui + verb, c'est ...",
+                  "Ce qui me plaît, c'est la musique.",
+                  "What I like is music."
+                ],
+                [
+                  "Ce que + subject + verb, c'est ...",
+                  "Ce que je veux, c'est dormir.",
+                  "What I want is to sleep."
+                ],
+                [
+                  "Ce dont + subject + verb, c'est ...",
+                  "Ce dont j'ai besoin, c'est d'un café.",
+                  "What I need is a coffee."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Speech: moi, je...",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In everyday French you also repeat a stressed pronoun to stress yourself: *Moi, je pense que...* *Toi, tu...* *Eux, ils...*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Moi, je préfère le thé.",
+                  "en": "I prefer tea."
+                },
+                {
+                  "fr": "Toi, tu n'as pas faim ?",
+                  "en": "Aren't you hungry?"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "C'est Paul qui a téléphoné.",
+                  "en": "It was Paul who called."
+                },
+                {
+                  "fr": "C'est ici que je travaille.",
+                  "en": "This is where I work."
+                },
+                {
+                  "fr": "Ce qui est important, c'est de rester calme.",
+                  "en": "What matters is staying calm."
+                },
+                {
+                  "fr": "Ce que j'aime ici, c'est la mer.",
+                  "en": "What I like here is the sea."
+                },
+                {
+                  "fr": "C'est de toi que je parle.",
+                  "en": "It's you I'm talking about."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-emphasis-01",
+          "type": "transform",
+          "task_en": "Highlight the subject with c'est... qui",
+          "fr": "Marie a gagné.",
+          "a": [
+            "C'est Marie qui a gagné."
+          ]
+        },
+        {
+          "id": "g-emphasis-02",
+          "type": "transform",
+          "task_en": "Highlight \"demain\" with c'est... que",
+          "fr": "Je pars demain.",
+          "a": [
+            "C'est demain que je pars."
+          ]
+        },
+        {
+          "id": "g-emphasis-03",
+          "type": "transform",
+          "task_en": "Highlight \"à Paul\"",
+          "fr": "Il parle à Paul.",
+          "a": [
+            "C'est à Paul qu'il parle."
+          ]
+        },
+        {
+          "id": "g-emphasis-04",
+          "type": "build",
+          "en": "I'm the one who did it.",
+          "a": [
+            "C'est moi qui l'ai fait.",
+            "C'est moi qui ai fait ça."
+          ]
+        },
+        {
+          "id": "g-emphasis-05",
+          "type": "build",
+          "en": "What I like is music.",
+          "a": [
+            "Ce qui me plaît, c'est la musique.",
+            "Ce que j'aime, c'est la musique."
+          ]
+        },
+        {
+          "id": "g-emphasis-06",
+          "type": "cloze",
+          "fr": "C'est lui ___ a raison.",
+          "a": [
+            "qui"
+          ],
+          "en": "He is the one who is right."
+        },
+        {
+          "id": "g-emphasis-07",
+          "type": "cloze",
+          "fr": "C'est en été ___ nous partons.",
+          "a": [
+            "que"
+          ],
+          "en": "We leave in summer."
+        },
+        {
+          "id": "g-emphasis-08",
+          "type": "cloze",
+          "fr": "Ce ___ je veux, c'est dormir.",
+          "a": [
+            "que"
+          ],
+          "en": "What I want is to sleep."
+        },
+        {
+          "id": "g-emphasis-09",
+          "type": "cloze",
+          "fr": "Ce ___ me dérange, c'est le bruit.",
+          "a": [
+            "qui"
+          ],
+          "en": "What bothers me is the noise."
+        }
+      ]
+    }
+  ]
+}

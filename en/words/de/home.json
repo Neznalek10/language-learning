@@ -1,0 +1,58 @@
+{
+  "lang": "de",
+  "from": "en",
+  "type": "topics",
+  "title": "Home & things",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {
+      "q": "house",
+      "a": "das Haus"
+    },
+    {
+      "q": "flat, apartment",
+      "a": "die Wohnung"
+    },
+    {
+      "q": "room",
+      "a": "das Zimmer"
+    },
+    {
+      "q": "table",
+      "a": "der Tisch"
+    },
+    {
+      "q": "chair",
+      "a": "der Stuhl"
+    },
+    {
+      "q": "door",
+      "a": "die Tür"
+    },
+    {
+      "q": "window",
+      "a": "das Fenster"
+    },
+    {
+      "q": "bed",
+      "a": "das Bett"
+    },
+    {
+      "q": "car",
+      "a": "das Auto"
+    },
+    {
+      "q": "book",
+      "a": "das Buch"
+    },
+    {
+      "q": "mobile phone",
+      "a": "das Handy"
+    },
+    {
+      "q": "school",
+      "a": "die Schule"
+    }
+  ]
+}

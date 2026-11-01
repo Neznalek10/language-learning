@@ -1,0 +1,128 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Body",
+  "unit": "7.2",
+  "level": null,
+  "words": [
+    {
+      "q": "head",
+      "a": "tête"
+    },
+    {
+      "q": "hair",
+      "a": "cheveux",
+      "unit": "2.2"
+    },
+    {
+      "q": "ear",
+      "a": "oreille"
+    },
+    {
+      "q": "nose",
+      "a": "nez"
+    },
+    {
+      "q": "eye",
+      "a": "œil",
+      "unit": "2.2"
+    },
+    {
+      "q": "eyes",
+      "a": "yeux",
+      "unit": "2.2"
+    },
+    {
+      "q": "mouth",
+      "a": "bouche"
+    },
+    {
+      "q": "tooth",
+      "a": "dent"
+    },
+    {
+      "q": "eyebrow",
+      "a": "sourcil"
+    },
+    {
+      "q": "eyelashes",
+      "a": "cils"
+    },
+    {
+      "q": "face (everyday word)",
+      "a": [
+        "figure",
+        "visage"
+      ],
+      "unit": "2.2"
+    },
+    {
+      "q": "face",
+      "a": "visage",
+      "unit": "2.2"
+    },
+    {
+      "q": "back",
+      "a": "dos"
+    },
+    {
+      "q": "arm",
+      "a": "bras"
+    },
+    {
+      "q": "hand",
+      "a": "main"
+    },
+    {
+      "q": "belly, stomach",
+      "a": "ventre"
+    },
+    {
+      "q": "leg",
+      "a": "jambe"
+    },
+    {
+      "q": "foot",
+      "a": "pied"
+    },
+    {
+      "q": "cheek",
+      "a": "joue"
+    },
+    {
+      "q": "figure, silhouette",
+      "a": "silhouette",
+      "unit": "2.2"
+    },
+    {
+      "q": "neck",
+      "a": "cou"
+    },
+    {
+      "q": "chest",
+      "a": "poitrine"
+    },
+    {
+      "q": "bottom",
+      "a": "fesses"
+    },
+    {
+      "q": "torso",
+      "a": "torse"
+    },
+    {
+      "q": "throat",
+      "a": "gorge"
+    },
+    {
+      "q": "ankle",
+      "a": "cheville"
+    },
+    {
+      "q": "height",
+      "a": "taille",
+      "unit": "2.2"
+    }
+  ]
+}

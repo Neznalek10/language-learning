@@ -1,0 +1,1516 @@
+{
+  "schema": 1,
+  "goals": [
+    "Talk about holidays and travel",
+    "The passé composé with être (aller, partir, arriver, rester...)",
+    "Participle agreement with the subject: elle est partie",
+    "Reflexive verbs in the past: je me suis baigné(e)",
+    "Tell the story of your holidays: avoir or être?"
+  ],
+  "lessons": [
+    {
+      "id": "fr-vacances-1",
+      "title": "Partir en vacances",
+      "subtitle": "Holidays and travel",
+      "topics": [
+        "travel"
+      ],
+      "words": [
+        "school#holidays, vacation",
+        "geography#beach",
+        "geography#mountains",
+        "geography#sea",
+        "geography#island",
+        "geography#forest",
+        "geography#campsite",
+        "geography#hotel",
+        "geography#suitcase",
+        "geography#abroad",
+        "geography#hike",
+        "geography#souvenir",
+        "geography#stay",
+        "geography#passport",
+        "geography#postcard",
+        "home#tent",
+        "home#sleeping bag",
+        "home#camera",
+        "transport#airport",
+        "transport#ticket",
+        "verbs#to travel",
+        "verbs#to sunbathe"
+      ],
+      "learn": [
+        {
+          "title": "Where are you going?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "On holiday you go *à la mer* (to the seaside), *à la montagne* (to the mountains), *à la campagne* (to the countryside) or *à l'étranger* (abroad). For countries, what you know from A1 applies: *en France, au Portugal, aux États-Unis*."
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "to the seaside",
+                  "à la mer"
+                ],
+                [
+                  "to the mountains",
+                  "à la montagne"
+                ],
+                [
+                  "to the countryside",
+                  "à la campagne"
+                ],
+                [
+                  "abroad",
+                  "à l'étranger"
+                ],
+                [
+                  "to the beach",
+                  "à la plage"
+                ],
+                [
+                  "to an island",
+                  "sur une île"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Cet été, nous allons ___ la mer.",
+                "a": [
+                  "à"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "What will you do?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Faire du camping* (to go camping), *faire une randonnée* (to go for a hike), *bronzer* (to sunbathe), *se baigner* (to go for a swim), *visiter un musée*, *acheter des souvenirs*, *envoyer une carte postale*."
+            },
+            {
+              "type": "tip",
+              "title": "dormir sous la tente",
+              "en": "In French you sleep \"under\" a tent: *dormir sous la tente*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "On fait du camping au bord d'un lac.",
+                  "en": "We're camping by a lake."
+                },
+                {
+                  "fr": "Je vais bronzer à la plage.",
+                  "en": "I'm going to sunbathe on the beach."
+                },
+                {
+                  "fr": "Nous allons faire une randonnée en montagne.",
+                  "en": "We're going to go hiking in the mountains."
+                },
+                {
+                  "fr": "N'oublie pas ton passeport !",
+                  "en": "Don't forget your passport!"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "This summer we're going to the mountains.",
+                "a": [
+                  "Cet été, nous allons à la montagne.",
+                  "Cet été, on va à la montagne.",
+                  "Cet été, nous irons à la montagne."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-vacances-1-01",
+          "type": "cloze",
+          "fr": "En été, on va à la ___.",
+          "a": [
+            "plage"
+          ],
+          "hint": "beach"
+        },
+        {
+          "id": "fr-vacances-1-02",
+          "type": "cloze",
+          "fr": "Nous faisons du ___ près de la forêt.",
+          "a": [
+            "camping"
+          ],
+          "hint": "campsite"
+        },
+        {
+          "id": "fr-vacances-1-03",
+          "type": "cloze",
+          "fr": "N'oublie pas ton ___ !",
+          "a": [
+            "passeport"
+          ],
+          "hint": "passport"
+        },
+        {
+          "id": "fr-vacances-1-04",
+          "type": "cloze",
+          "fr": "Je mets mes vêtements dans la ___.",
+          "a": [
+            "valise"
+          ],
+          "hint": "suitcase"
+        },
+        {
+          "id": "fr-vacances-1-05",
+          "type": "cloze",
+          "fr": "Mes parents partent ___ l'étranger.",
+          "a": [
+            "à"
+          ]
+        },
+        {
+          "id": "fr-vacances-1-06",
+          "type": "build",
+          "en": "I like sunbathing on the beach.",
+          "a": [
+            "J'aime bronzer à la plage."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-07",
+          "type": "build",
+          "en": "We sleep in a tent.",
+          "a": [
+            "Nous dormons sous la tente.",
+            "On dort sous la tente.",
+            "Nous dormons dans une tente.",
+            "On dort dans une tente."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-08",
+          "type": "build",
+          "en": "I'm buying souvenirs for my friends.",
+          "a": [
+            "J'achète des souvenirs pour mes amis.",
+            "J'achète des souvenirs pour mes copains."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-09",
+          "type": "build",
+          "en": "I'll send you a postcard.",
+          "a": [
+            "Je vais t'envoyer une carte postale.",
+            "Je t'envoie une carte postale.",
+            "Je t'enverrai une carte postale."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-10",
+          "type": "build",
+          "en": "We like travelling.",
+          "a": [
+            "Nous aimons voyager.",
+            "On aime voyager."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-11",
+          "type": "build",
+          "en": "We're going to go hiking in the forest.",
+          "a": [
+            "Nous allons faire une randonnée dans la forêt.",
+            "On va faire une randonnée dans la forêt."
+          ]
+        },
+        {
+          "id": "fr-vacances-1-12",
+          "type": "order",
+          "en": "In August we're going abroad.",
+          "a": [
+            "En août nous partons à l'étranger"
+          ],
+          "extra": [
+            "en",
+            "au"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-vacances-2",
+      "title": "Je suis allé à la mer",
+      "subtitle": "The past with être",
+      "topics": [
+        "passe-compose-etre"
+      ],
+      "words": [
+        "verbs#to arrive",
+        "verbs#to stay",
+        "verbs#to fall",
+        "verbs#to enter, to go in",
+        "verbs#to go up",
+        "verbs-irregular#to go down",
+        "verbs-irregular#to be born",
+        "verbs-irregular#to die",
+        "verbs#to return, to go back"
+      ],
+      "learn": [
+        {
+          "title": "être instead of avoir",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "About fifteen verbs form the passé composé with *être*, not *avoir*. Most of them are about moving from one place to another or a change: to go, to come, to arrive, to leave, to go in, to go out, to go up, to go down, to be born, to die, to stay, to fall, to come back."
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "aller",
+                  "allé",
+                  "Je suis allé à Nice."
+                ],
+                [
+                  "venir",
+                  "venu",
+                  "Il est venu hier."
+                ],
+                [
+                  "arriver",
+                  "arrivé",
+                  "Nous sommes arrivés à midi."
+                ],
+                [
+                  "partir",
+                  "parti",
+                  "Tu es parti tôt."
+                ],
+                [
+                  "entrer",
+                  "entré",
+                  "Je suis entré dans la salle."
+                ],
+                [
+                  "sortir",
+                  "sorti",
+                  "Elle est sortie avec Paul."
+                ],
+                [
+                  "monter",
+                  "monté",
+                  "Je suis monté au sommet."
+                ],
+                [
+                  "descendre",
+                  "descendu",
+                  "On est descendus à la plage."
+                ],
+                [
+                  "naître",
+                  "né",
+                  "Je suis né en 2000."
+                ],
+                [
+                  "mourir",
+                  "mort",
+                  "Il est mort en 1900."
+                ],
+                [
+                  "rester",
+                  "resté",
+                  "Je suis resté à la maison."
+                ],
+                [
+                  "tomber",
+                  "tombé",
+                  "Il est tombé."
+                ],
+                [
+                  "rentrer",
+                  "rentré",
+                  "Je suis rentré à six heures."
+                ],
+                [
+                  "devenir",
+                  "devenu",
+                  "Il est devenu médecin."
+                ]
+              ],
+              "textCols": [],
+              "head": [
+                "verb",
+                "participle",
+                "example"
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Hier, je ___ allé au cinéma.",
+                "a": [
+                  "suis"
+                ],
+                "hint": "être"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Memory aid: the house",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "aller",
+              "tense": "passe-compose"
+            },
+            {
+              "type": "tip",
+              "title": "house",
+              "en": "Picture a house. You *entrer* (go in) and *sortir* (go out), go up and down the stairs (*monter, descendre*), *arriver* at the house and *partir* from it, *rester* in it, *tomber* out of the window. What happens around the house takes *être*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "We arrived on Monday.",
+                "a": [
+                  "Nous sommes {arrivés|arrivées} lundi.",
+                  "On est {arrivés|arrivées} lundi."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-vacances-2-01",
+          "type": "form",
+          "verb": "aller",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-vacances-2-02",
+          "type": "form",
+          "verb": "partir",
+          "tense": "passe-compose",
+          "person": 2
+        },
+        {
+          "id": "fr-vacances-2-03",
+          "type": "form",
+          "verb": "arriver",
+          "tense": "passe-compose",
+          "person": 3
+        },
+        {
+          "id": "fr-vacances-2-04",
+          "type": "form",
+          "verb": "venir",
+          "tense": "passe-compose",
+          "person": 1
+        },
+        {
+          "id": "fr-vacances-2-05",
+          "type": "form",
+          "verb": "rester",
+          "tense": "passe-compose",
+          "person": 5
+        },
+        {
+          "id": "fr-vacances-2-06",
+          "type": "form",
+          "verb": "tomber",
+          "tense": "passe-compose",
+          "person": 4
+        },
+        {
+          "id": "fr-vacances-2-07",
+          "type": "cloze",
+          "fr": "Nous ___ partis à huit heures.",
+          "a": [
+            "sommes"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-2-08",
+          "type": "cloze",
+          "fr": "Tu es ___ à quelle heure ?",
+          "a": [
+            "arrivé",
+            "arrivée"
+          ],
+          "hint": "arriver"
+        },
+        {
+          "id": "fr-vacances-2-09",
+          "type": "cloze",
+          "fr": "Il est ___ de vélo.",
+          "a": [
+            "tombé"
+          ],
+          "hint": "tomber"
+        },
+        {
+          "id": "fr-vacances-2-10",
+          "type": "cloze",
+          "fr": "Je suis ___ à la maison.",
+          "a": [
+            "resté",
+            "restée"
+          ],
+          "hint": "rester"
+        },
+        {
+          "id": "fr-vacances-2-11",
+          "type": "build",
+          "en": "I went to the beach.",
+          "a": [
+            "Je suis {allé|allée} à la plage."
+          ]
+        },
+        {
+          "id": "fr-vacances-2-12",
+          "type": "build",
+          "en": "When did you arrive? (tu)",
+          "a": [
+            "Quand est-ce que tu es {arrivé|arrivée} ?",
+            "Tu es {arrivé|arrivée} quand ?",
+            "Quand es-tu {arrivé|arrivée} ?"
+          ]
+        },
+        {
+          "id": "fr-vacances-2-13",
+          "type": "build",
+          "en": "We stayed in a hotel for a week.",
+          "a": [
+            "Nous sommes {restés|restées} une semaine à l'hôtel.",
+            "On est {restés|restées} une semaine à l'hôtel."
+          ]
+        },
+        {
+          "id": "fr-vacances-2-14",
+          "type": "build",
+          "en": "I was born in Prague.",
+          "a": [
+            "Je suis {né|née} à Prague."
+          ]
+        },
+        {
+          "id": "fr-vacances-2-15",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Je vais à Paris.",
+          "a": [
+            "Je suis {allé|allée} à Paris."
+          ]
+        },
+        {
+          "id": "fr-vacances-2-16",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Il part en vacances.",
+          "a": [
+            "Il est parti en vacances."
+          ]
+        },
+        {
+          "id": "fr-vacances-2-17",
+          "type": "order",
+          "en": "We came back on Sunday.",
+          "a": [
+            "Nous sommes rentrés dimanche"
+          ],
+          "extra": [
+            "avons",
+            "rentré"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-vacances-3",
+      "title": "Elle est partie",
+      "subtitle": "Agreement with the subject",
+      "topics": [
+        "passe-compose-etre"
+      ],
+      "words": [
+        "geography#north",
+        "geography#south",
+        "geography#east",
+        "geography#west"
+      ],
+      "learn": [
+        {
+          "title": "Agreement with the subject",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With *être* the participle agrees with the subject like an adjective: feminine *+e*, plural *+s*, feminine plural *+es*."
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "he left",
+                  "il est parti"
+                ],
+                [
+                  "she left",
+                  "elle est partie"
+                ],
+                [
+                  "they left (men or mixed)",
+                  "ils sont partis"
+                ],
+                [
+                  "they left (women)",
+                  "elles sont parties"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "When a girl talks about herself, she writes *je suis allée*. A mixed group of boys and girls is masculine: *Paul et Léa sont partis.*"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Ma sœur est ___ hier.",
+                "a": [
+                  "partie"
+                ],
+                "hint": "partir"
+              }
+            }
+          ]
+        },
+        {
+          "title": "No agreement with avoir",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "no agreement with avoir",
+              "en": "With *avoir* the participle doesn't agree with the subject: *Elle a mangé*, not *elle a mangée*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Léa est arrivée à midi.",
+                  "en": "Léa arrived at noon."
+                },
+                {
+                  "fr": "Mes parents sont restés à la maison.",
+                  "en": "My parents stayed at home."
+                },
+                {
+                  "fr": "Mes cousines sont venues avec nous.",
+                  "en": "My cousins (girls) came with us."
+                },
+                {
+                  "fr": "Elle a visité le musée.",
+                  "en": "She visited the museum."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "My sister stayed at home.",
+                "a": [
+                  "Ma sœur est restée à la maison."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-vacances-3-01",
+          "type": "cloze",
+          "fr": "Elle est ___ en Italie.",
+          "a": [
+            "allée"
+          ],
+          "hint": "aller"
+        },
+        {
+          "id": "fr-vacances-3-02",
+          "type": "cloze",
+          "fr": "Mes amis sont ___ en retard.",
+          "a": [
+            "arrivés"
+          ],
+          "hint": "arriver"
+        },
+        {
+          "id": "fr-vacances-3-03",
+          "type": "cloze",
+          "fr": "Mes sœurs sont ___ à la plage.",
+          "a": [
+            "restées"
+          ],
+          "hint": "rester"
+        },
+        {
+          "id": "fr-vacances-3-04",
+          "type": "cloze",
+          "fr": "Léa et Hugo sont ___ ensemble.",
+          "a": [
+            "partis"
+          ],
+          "hint": "partir"
+        },
+        {
+          "id": "fr-vacances-3-05",
+          "type": "cloze",
+          "fr": "Marie est ___ dans la piscine.",
+          "a": [
+            "tombée"
+          ],
+          "hint": "tomber"
+        },
+        {
+          "id": "fr-vacances-3-06",
+          "type": "cloze",
+          "fr": "Elle a ___ une glace.",
+          "a": [
+            "mangé"
+          ],
+          "hint": "manger",
+          "why": "With avoir the participle doesn't agree with the subject."
+        },
+        {
+          "id": "fr-vacances-3-07",
+          "type": "transform",
+          "task_en": "Say it about your sister",
+          "fr": "Mon frère est parti à Londres.",
+          "a": [
+            "Ma sœur est partie à Londres."
+          ]
+        },
+        {
+          "id": "fr-vacances-3-08",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "Elle est arrivée hier.",
+          "a": [
+            "Elles sont arrivées hier."
+          ]
+        },
+        {
+          "id": "fr-vacances-3-09",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "Il est tombé.",
+          "a": [
+            "Ils sont tombés."
+          ]
+        },
+        {
+          "id": "fr-vacances-3-10",
+          "type": "build",
+          "en": "My mum arrived late.",
+          "a": [
+            "Ma mère est arrivée en retard.",
+            "Ma mère est arrivée tard."
+          ]
+        },
+        {
+          "id": "fr-vacances-3-11",
+          "type": "build",
+          "en": "The girls went to the cinema.",
+          "a": [
+            "Les filles sont allées au cinéma."
+          ]
+        },
+        {
+          "id": "fr-vacances-3-12",
+          "type": "build",
+          "en": "Léa, when did you get back?",
+          "a": [
+            "Léa, quand est-ce que tu es rentrée ?",
+            "Léa, tu es rentrée quand ?",
+            "Léa, quand es-tu rentrée ?"
+          ]
+        },
+        {
+          "id": "fr-vacances-3-13",
+          "type": "order",
+          "en": "My grandmother was born in Prague.",
+          "a": [
+            "Ma grand-mère est née à Prague"
+          ],
+          "extra": [
+            "né",
+            "a"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-vacances-4",
+      "title": "Je me suis baigné",
+      "subtitle": "Reflexive verbs in the past",
+      "topics": [
+        "passe-compose-etre",
+        "reflexive"
+      ],
+      "words": [
+        "verbs-reflexive#to go for a swim",
+        "time#during"
+      ],
+      "learn": [
+        {
+          "title": "se + être",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "All reflexive verbs use *être* in the passé composé. The reflexive pronoun goes before *être*: *je me suis baigné, tu t'es levé, elle s'est reposée*."
+            },
+            {
+              "type": "table",
+              "verb": "se baigner",
+              "tense": "passe-compose"
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Ce matin, je me ___ levé tôt.",
+                "a": [
+                  "suis"
+                ],
+                "hint": "être"
+              }
+            }
+          ]
+        },
+        {
+          "title": "The negative",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ne* goes before the pronoun, *pas* after *être*: *Je ne me suis pas baigné.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "On s'est bien amusés.",
+                  "en": "We had a good time."
+                },
+                {
+                  "fr": "Elle s'est reposée sur la plage.",
+                  "en": "She rested on the beach."
+                },
+                {
+                  "fr": "Je ne me suis pas levé tôt.",
+                  "en": "I didn't get up early."
+                },
+                {
+                  "fr": "Vous vous êtes baignés dans la mer ?",
+                  "en": "Did you swim in the sea? (vous)"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Make it negative",
+                "fr": "Je me suis baigné.",
+                "a": [
+                  "Je ne me suis pas {baigné|baignée}."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-vacances-4-01",
+          "type": "form",
+          "verb": "se baigner",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-vacances-4-02",
+          "type": "form",
+          "verb": "se lever",
+          "tense": "passe-compose",
+          "person": 2
+        },
+        {
+          "id": "fr-vacances-4-03",
+          "type": "form",
+          "verb": "se reposer",
+          "tense": "passe-compose",
+          "person": 3
+        },
+        {
+          "id": "fr-vacances-4-04",
+          "type": "form",
+          "verb": "se coucher",
+          "tense": "passe-compose",
+          "person": 1
+        },
+        {
+          "id": "fr-vacances-4-05",
+          "type": "form",
+          "verb": "s'habiller",
+          "tense": "passe-compose",
+          "person": 4
+        },
+        {
+          "id": "fr-vacances-4-06",
+          "type": "cloze",
+          "fr": "Nous nous ___ baignés dans le lac.",
+          "a": [
+            "sommes"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-4-07",
+          "type": "cloze",
+          "fr": "Elle s'est ___ à six heures.",
+          "a": [
+            "levée"
+          ],
+          "hint": "to get up"
+        },
+        {
+          "id": "fr-vacances-4-08",
+          "type": "cloze",
+          "fr": "Tu t'___ reposé ?",
+          "a": [
+            "es"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-4-09",
+          "type": "cloze",
+          "fr": "Ils se sont bien ___.",
+          "a": [
+            "amusés"
+          ],
+          "hint": "to have fun"
+        },
+        {
+          "id": "fr-vacances-4-10",
+          "type": "build",
+          "en": "This morning I swam in the sea.",
+          "a": [
+            "Ce matin, je me suis {baigné|baignée} dans la mer.",
+            "Je me suis {baigné|baignée} dans la mer ce matin."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-11",
+          "type": "build",
+          "en": "We had a good time.",
+          "a": [
+            "On s'est bien {amusés|amusées}.",
+            "Nous nous sommes bien {amusés|amusées}."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-12",
+          "type": "build",
+          "en": "I rested during the holidays.",
+          "a": [
+            "Pendant les vacances, je me suis {reposé|reposée}.",
+            "Je me suis {reposé|reposée} pendant les vacances."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-13",
+          "type": "build",
+          "en": "What time did you wake up? (tu)",
+          "a": [
+            "À quelle heure est-ce que tu t'es {réveillé|réveillée} ?",
+            "Tu t'es {réveillé|réveillée} à quelle heure ?",
+            "À quelle heure t'es-tu {réveillé|réveillée} ?"
+          ]
+        },
+        {
+          "id": "fr-vacances-4-14",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Je me lève à sept heures.",
+          "a": [
+            "Je me suis {levé|levée} à sept heures."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-15",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Elle se couche tard.",
+          "a": [
+            "Elle s'est couchée tard."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-16",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Nous nous sommes baignés.",
+          "a": [
+            "Nous ne nous sommes pas baignés."
+          ]
+        },
+        {
+          "id": "fr-vacances-4-17",
+          "type": "order",
+          "en": "I went to bed early. (girl)",
+          "a": [
+            "Je me suis couchée tôt"
+          ],
+          "extra": [
+            "ai",
+            "couché"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-vacances-5",
+      "title": "Mes dernières vacances",
+      "subtitle": "avoir or être? Telling the story",
+      "topics": [
+        "passe-compose-etre",
+        "passe-compose",
+        "travel"
+      ],
+      "words": [
+        "geography#paradise",
+        "geography#ocean"
+      ],
+      "learn": [
+        {
+          "title": "avoir or être?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Most verbs take *avoir*. Only the verbs of movement and change from the list, and all reflexive verbs, take *être*."
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "I went to the beach and swam.",
+                  "Je suis allé à la plage et j'ai nagé."
+                ],
+                [
+                  "We arrived and visited the town.",
+                  "Nous sommes arrivés et nous avons visité la ville."
+                ],
+                [
+                  "She went for a swim and then had something to eat.",
+                  "Elle s'est baignée, puis elle a mangé."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Nous ___ visité le château.",
+                "a": [
+                  "avons"
+                ],
+                "hint": "avoir"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Postcard",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "This is what a holiday postcard might look like:"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Salut Tom !",
+                  "en": "Hi Tom!"
+                },
+                {
+                  "fr": "Je suis à Nice avec mes parents depuis une semaine.",
+                  "en": "I've been in Nice with my parents for a week."
+                },
+                {
+                  "fr": "Hier, on est allés à la plage et on a fait du bateau.",
+                  "en": "Yesterday we went to the beach and went out on a boat."
+                },
+                {
+                  "fr": "Il fait très beau. Bisous, Léa",
+                  "en": "The weather's lovely. Love, Léa"
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Yesterday we went to the beach and swam.",
+                "a": [
+                  "Hier, nous sommes {allés|allées} à la plage et nous avons nagé.",
+                  "Hier, on est {allés|allées} à la plage et on a nagé.",
+                  "Hier, nous avons été à la plage et nous avons nagé."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-vacances-5-01",
+          "type": "cloze",
+          "fr": "Je ___ parti en juillet.",
+          "a": [
+            "suis"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-5-02",
+          "type": "cloze",
+          "fr": "J'___ pris beaucoup de photos.",
+          "a": [
+            "ai"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-vacances-5-03",
+          "type": "cloze",
+          "fr": "Nous ___ restés deux semaines.",
+          "a": [
+            "sommes"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-5-04",
+          "type": "cloze",
+          "fr": "Ils ___ visité un musée.",
+          "a": [
+            "ont"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-vacances-5-05",
+          "type": "cloze",
+          "fr": "Elle s'___ baignée tous les jours.",
+          "a": [
+            "est"
+          ],
+          "hint": "être"
+        },
+        {
+          "id": "fr-vacances-5-06",
+          "type": "cloze",
+          "fr": "Tu ___ fait une randonnée ?",
+          "a": [
+            "as"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-vacances-5-07",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Nous arrivons à l'hôtel et nous mangeons.",
+          "a": [
+            "Nous sommes {arrivés|arrivées} à l'hôtel et nous avons mangé."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-08",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Elle sort et elle achète une glace.",
+          "a": [
+            "Elle est sortie et elle a acheté une glace."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-09",
+          "type": "build",
+          "en": "Last summer we went to France.",
+          "a": [
+            "L'été dernier, nous sommes {allés|allées} en France.",
+            "L'été dernier, on est {allés|allées} en France."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-10",
+          "type": "build",
+          "en": "I stayed there for ten days.",
+          "a": [
+            "Je suis {resté|restée} là-bas dix jours.",
+            "Je suis {resté|restée} dix jours là-bas."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-11",
+          "type": "build",
+          "en": "We visited the castle and bought some souvenirs.",
+          "a": [
+            "Nous avons visité le château et nous avons acheté des souvenirs.",
+            "On a visité le château et on a acheté des souvenirs."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-12",
+          "type": "build",
+          "en": "I fell off my bike.",
+          "a": [
+            "Je suis {tombé|tombée} de vélo."
+          ]
+        },
+        {
+          "id": "fr-vacances-5-13",
+          "type": "order",
+          "en": "The holidays were great.",
+          "a": [
+            "Les vacances ont été super"
+          ],
+          "extra": [
+            "sont",
+            "étés"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-vacances-t-01",
+        "lesson": "fr-vacances-1",
+        "type": "cloze",
+        "fr": "Cet été, je vais à la ___.",
+        "a": [
+          "montagne"
+        ],
+        "hint": "mountains"
+      },
+      {
+        "id": "fr-vacances-t-02",
+        "lesson": "fr-vacances-1",
+        "type": "build",
+        "en": "Don't forget your passport!",
+        "a": [
+          "N'oublie pas ton passeport !"
+        ]
+      },
+      {
+        "id": "fr-vacances-t-03",
+        "lesson": "fr-vacances-1",
+        "type": "build",
+        "en": "We like sleeping in a tent.",
+        "a": [
+          "Nous aimons dormir sous la tente.",
+          "On aime dormir sous la tente.",
+          "Nous aimons dormir dans une tente."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-04",
+        "lesson": "fr-vacances-1",
+        "type": "build",
+        "en": "My parents are going abroad.",
+        "a": [
+          "Mes parents partent à l'étranger.",
+          "Mes parents vont à l'étranger."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-05",
+        "lesson": "fr-vacances-2",
+        "type": "cloze",
+        "fr": "Nous ___ arrivés à midi.",
+        "a": [
+          "sommes"
+        ],
+        "hint": "être"
+      },
+      {
+        "id": "fr-vacances-t-06",
+        "lesson": "fr-vacances-2",
+        "type": "form",
+        "verb": "venir",
+        "tense": "passe-compose",
+        "person": 0
+      },
+      {
+        "id": "fr-vacances-t-07",
+        "lesson": "fr-vacances-2",
+        "type": "build",
+        "en": "I went to the museum.",
+        "a": [
+          "Je suis {allé|allée} au musée."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-08",
+        "lesson": "fr-vacances-2",
+        "type": "transform",
+        "task_en": "Put it in the past",
+        "fr": "Tu pars à huit heures.",
+        "a": [
+          "Tu es {parti|partie} à huit heures."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-09",
+        "lesson": "fr-vacances-2",
+        "type": "build",
+        "en": "Where were you born? (tu)",
+        "a": [
+          "Où est-ce que tu es {né|née} ?",
+          "Tu es {né|née} où ?",
+          "Où es-tu {né|née} ?"
+        ]
+      },
+      {
+        "id": "fr-vacances-t-10",
+        "lesson": "fr-vacances-3",
+        "type": "cloze",
+        "fr": "Ma cousine est ___ avec nous.",
+        "a": [
+          "venue"
+        ],
+        "hint": "venir"
+      },
+      {
+        "id": "fr-vacances-t-11",
+        "lesson": "fr-vacances-3",
+        "type": "transform",
+        "task_en": "Say it about your sister",
+        "fr": "Mon frère est resté à Paris.",
+        "a": [
+          "Ma sœur est restée à Paris."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-12",
+        "lesson": "fr-vacances-3",
+        "type": "build",
+        "en": "The girls arrived late.",
+        "a": [
+          "Les filles sont arrivées en retard.",
+          "Les filles sont arrivées tard."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-13",
+        "lesson": "fr-vacances-3",
+        "type": "cloze",
+        "fr": "Mes parents sont ___ au restaurant.",
+        "a": [
+          "allés"
+        ],
+        "hint": "aller"
+      },
+      {
+        "id": "fr-vacances-t-14",
+        "lesson": "fr-vacances-3",
+        "type": "transform",
+        "task_en": "Make it plural",
+        "fr": "Il est parti.",
+        "a": [
+          "Ils sont partis."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-15",
+        "lesson": "fr-vacances-4",
+        "type": "build",
+        "en": "Did you swim in the lake? (tu)",
+        "a": [
+          "Tu t'es {baigné|baignée} dans le lac ?",
+          "Est-ce que tu t'es {baigné|baignée} dans le lac ?"
+        ]
+      },
+      {
+        "id": "fr-vacances-t-16",
+        "lesson": "fr-vacances-4",
+        "type": "cloze",
+        "fr": "Je me ___ couché à minuit.",
+        "a": [
+          "suis"
+        ],
+        "hint": "être"
+      },
+      {
+        "id": "fr-vacances-t-17",
+        "lesson": "fr-vacances-4",
+        "type": "transform",
+        "task_en": "Put it in the past",
+        "fr": "Nous nous reposons.",
+        "a": [
+          "Nous nous sommes {reposés|reposées}."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-18",
+        "lesson": "fr-vacances-4",
+        "type": "transform",
+        "task_en": "Make it negative",
+        "fr": "Elle s'est levée tôt.",
+        "a": [
+          "Elle ne s'est pas levée tôt."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-19",
+        "lesson": "fr-vacances-4",
+        "type": "form",
+        "verb": "se lever",
+        "tense": "passe-compose",
+        "person": 0
+      },
+      {
+        "id": "fr-vacances-t-20",
+        "lesson": "fr-vacances-5",
+        "type": "cloze",
+        "fr": "Hier, nous ___ fait du vélo.",
+        "a": [
+          "avons"
+        ],
+        "hint": "avoir"
+      },
+      {
+        "id": "fr-vacances-t-21",
+        "lesson": "fr-vacances-5",
+        "type": "cloze",
+        "fr": "Elle ___ partie en Espagne.",
+        "a": [
+          "est"
+        ],
+        "hint": "être"
+      },
+      {
+        "id": "fr-vacances-t-22",
+        "lesson": "fr-vacances-5",
+        "type": "build",
+        "en": "We went to the seaside and swam.",
+        "a": [
+          "Nous sommes {allés|allées} à la mer et nous nous sommes {baignés|baignées}.",
+          "On est {allés|allées} à la mer et on s'est {baignés|baignées}."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-23",
+        "lesson": "fr-vacances-5",
+        "type": "build",
+        "en": "My holidays were great.",
+        "a": [
+          "Mes vacances ont été super.",
+          "Mes vacances étaient super."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-24",
+        "lesson": "fr-vacances-5",
+        "type": "build",
+        "en": "I bought a postcard.",
+        "a": [
+          "J'ai acheté une carte postale."
+        ]
+      },
+      {
+        "id": "fr-vacances-t-25",
+        "lesson": "fr-vacances-5",
+        "type": "build",
+        "en": "We stayed at home.",
+        "a": [
+          "Nous sommes {restés|restées} à la maison.",
+          "On est {restés|restées} à la maison."
+        ]
+      }
+    ]
+  }
+}

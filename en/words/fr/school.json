@@ -1,0 +1,206 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "School",
+  "unit": "3.1",
+  "level": null,
+  "words": [
+    {
+      "q": "history",
+      "a": "histoire"
+    },
+    {
+      "q": "geography",
+      "a": "géographie"
+    },
+    {
+      "q": "maths, mathematics",
+      "a": [
+        "mathématiques",
+        "maths"
+      ]
+    },
+    {
+      "q": "PE, physical education",
+      "a": [
+        "éducation physique et sportive",
+        "EPS"
+      ]
+    },
+    {
+      "q": "chemistry",
+      "a": "chimie"
+    },
+    {
+      "q": "physics",
+      "a": "physique"
+    },
+    {
+      "q": "music (school subject)",
+      "a": "musique"
+    },
+    {
+      "q": "computer science, IT",
+      "a": "informatique"
+    },
+    {
+      "q": "school",
+      "a": "école"
+    },
+    {
+      "q": "high school",
+      "a": "lycée"
+    },
+    {
+      "q": "sick bay, school nurse's office",
+      "a": "infirmerie"
+    },
+    {
+      "q": "laboratory",
+      "a": "laboratoire"
+    },
+    {
+      "q": "library",
+      "a": "bibliothèque"
+    },
+    {
+      "q": "swimming pool",
+      "a": "piscine"
+    },
+    {
+      "q": "gym, sports hall",
+      "a": "gymnase"
+    },
+    {
+      "q": "uniform",
+      "a": "uniforme"
+    },
+    {
+      "q": "canteen",
+      "a": "cantine"
+    },
+    {
+      "q": "foreign language",
+      "a": "langue étrangère"
+    },
+    {
+      "q": "holidays, vacation",
+      "a": "vacances",
+      "unit": "7.1"
+    },
+    {
+      "q": "class, classroom",
+      "a": "classe"
+    },
+    {
+      "q": "bilingual",
+      "a": "bilingue"
+    },
+    {
+      "q": "playground",
+      "a": "cour de récréation"
+    },
+    {
+      "q": "lessons, classes",
+      "a": "cours"
+    },
+    {
+      "q": "school subject",
+      "a": "matière scolaire"
+    },
+    {
+      "q": "French (language)",
+      "a": "français"
+    },
+    {
+      "q": "English (language)",
+      "a": "anglais"
+    },
+    {
+      "q": "biology",
+      "a": "biologie"
+    },
+    {
+      "q": "art (school subject)",
+      "a": "arts plastiques"
+    },
+    {
+      "q": "citizenship (school subject)",
+      "a": "éducation civique"
+    },
+    {
+      "q": "timetable",
+      "a": "emploi du temps"
+    },
+    {
+      "q": "homework",
+      "a": "devoir"
+    },
+    {
+      "q": "outing, school trip",
+      "a": "sortie"
+    },
+    {
+      "q": "teacher",
+      "a": [
+        "professeur",
+        "prof"
+      ]
+    },
+    {
+      "q": "pupil",
+      "a": "élève"
+    },
+    {
+      "q": "break, recess",
+      "a": [
+        "récréation",
+        "récré"
+      ]
+    },
+    {
+      "q": "interesting",
+      "a": "intéressant"
+    },
+    {
+      "q": "difficult, hard",
+      "a": "difficile"
+    },
+    {
+      "q": "easy",
+      "a": "facile"
+    },
+    {
+      "q": "great, brilliant",
+      "a": "génial"
+    },
+    {
+      "q": "rubbish, useless",
+      "a": "nul"
+    },
+    {
+      "q": "favourite",
+      "a": [
+        "préféré",
+        "préférée"
+      ]
+    },
+    {
+      "q": "exercise book, notebook",
+      "a": "cahier"
+    },
+    {
+      "q": "book",
+      "a": "livre"
+    },
+    {
+      "q": "pen",
+      "a": "stylo"
+    },
+    {
+      "q": "pencil",
+      "a": "crayon"
+    }
+  ]
+}

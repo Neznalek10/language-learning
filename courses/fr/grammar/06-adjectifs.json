@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": "adj-agreement",
-      "title": "Adjective agreement",
+      "title": "Shoda přídavných jmen",
       "fr": "l'accord des adjectifs",
       "level": "A1",
       "keywords": [
@@ -29,30 +29,30 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "An adjective agrees with its noun in **gender and number**: feminine *+e*, plural *+s*."
+              "cs": "Přídavné jméno se shoduje se svým podstatným jménem v **rodě a čísle**: ženský rod *+e*, množné číslo *+s*."
             },
             {
               "type": "table",
               "head": [
                 "",
-                "singular",
-                "plural"
+                "jednotné číslo",
+                "množné číslo"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "masculine",
+                  "mužský rod",
                   "un ami intelligent",
                   "des amis intelligents"
                 ],
                 [
-                  "feminine",
+                  "ženský rod",
                   "une amie intelligente",
                   "des amies intelligentes"
                 ]
@@ -61,79 +61,79 @@
           ]
         },
         {
-          "title": "What you can hear",
+          "title": "Co je slyšet",
           "blocks": [
             {
               "type": "text",
-              "en": "Often the agreement is **only written**: *joli* and *jolie* sound the same. With adjectives ending in a consonant, however, the *-e* is audible because the consonant starts to be pronounced: *petit* × *petite*, *grand* × *grande*."
+              "cs": "Shoda je často **jen v psaní**: *joli* a *jolie* znějí stejně. U přídavných jmen zakončených souhláskou je ale *-e* slyšet, protože se souhláska začne vyslovovat: *petit* × *petite*, *grand* × *grande*."
             }
           ]
         },
         {
-          "title": "No change",
+          "title": "Beze změny",
           "blocks": [
             {
               "type": "text",
-              "en": "When the adjective already ends in *-e*, it does not change in the feminine: *un frère timide, une sœur timide*. With *-s* or *-x* you add nothing in the plural: *un pull gris → des pulls gris*."
+              "cs": "Když přídavné jméno už končí na *-e*, v ženském rodě se nemění: *un frère timide, une sœur timide*. Když končí na *-s* nebo *-x*, v množném čísle nepřidáváš nic: *un pull gris → des pulls gris*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Paul and Marie are tired.",
+                  "cs": "Paul a Marie jsou unavení.",
                   "fr": "Paul et Marie sont [[fatigués]].",
-                  "note": "Mixed group: one man is enough to make it masculine."
+                  "note": "Smíšená skupina: stačí jeden muž a je to mužský rod."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "My sister is small.",
+                  "cs": "Moje sestra je malá.",
                   "wrong": "Ma sœur est petit.",
                   "fr": "Ma sœur est [[petite]]."
                 },
                 {
-                  "en": "The shoes are new.",
+                  "cs": "Ty boty jsou nové.",
                   "wrong": "Les chaussures sont neuf.",
                   "fr": "Les chaussures sont [[neuves]].",
-                  "note": "*Neuf → neuve*, see irregular forms."
+                  "note": "*Neuf → neuve*, viz nepravidelné tvary."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Mon frère est grand.",
-                  "en": "My brother is tall."
+                  "cs": "Můj bratr je vysoký."
                 },
                 {
                   "fr": "Ma sœur est grande.",
-                  "en": "My sister is tall."
+                  "cs": "Moje sestra je vysoká."
                 },
                 {
                   "fr": "Mes amis sont sympas.",
-                  "en": "My friends are nice."
+                  "cs": "Moji kamarádi jsou milí."
                 },
                 {
                   "fr": "Les filles sont contentes.",
-                  "en": "The girls are happy."
+                  "cs": "Ty holky jsou šťastné."
                 },
                 {
                   "fr": "J'ai les cheveux noirs.",
-                  "en": "I have black hair."
+                  "cs": "Mám černé vlasy."
                 }
               ]
             }
@@ -149,7 +149,7 @@
             "petite"
           ],
           "hint": "petit",
-          "en": "My mother is small."
+          "cs": "Moje máma je malá."
         },
         {
           "id": "g-adj-agreement-02",
@@ -159,7 +159,7 @@
             "grands"
           ],
           "hint": "grand",
-          "en": "The boys are tall."
+          "cs": "Ti kluci jsou vysocí."
         },
         {
           "id": "g-adj-agreement-03",
@@ -169,12 +169,12 @@
             "intelligentes"
           ],
           "hint": "intelligent",
-          "en": "My sisters are clever."
+          "cs": "Moje sestry jsou chytré."
         },
         {
           "id": "g-adj-agreement-04",
           "type": "transform",
-          "task_en": "Make it feminine",
+          "task_cs": "Převeď do ženského rodu",
           "fr": "Il est content.",
           "a": [
             "Elle est contente."
@@ -183,7 +183,7 @@
         {
           "id": "g-adj-agreement-05",
           "type": "transform",
-          "task_en": "Make it plural",
+          "task_cs": "Převeď do množného čísla",
           "fr": "Le chat est noir.",
           "a": [
             "Les chats sont noirs."
@@ -193,7 +193,7 @@
     },
     {
       "id": "adj-forms",
-      "title": "Irregular adjective forms",
+      "title": "Nepravidelné tvary přídavných jmen",
       "fr": "le féminin des adjectifs",
       "level": "A1",
       "levelTo": "A2",
@@ -226,14 +226,14 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "masculine",
-                "feminine",
-                "example"
+                "mužský rod",
+                "ženský rod",
+                "příklad"
               ],
               "rows": [
                 [
@@ -276,14 +276,14 @@
           ]
         },
         {
-          "title": "Completely irregular",
+          "title": "Úplně nepravidelné",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "masculine",
-                "feminine",
-                "English"
+                "mužský rod",
+                "ženský rod",
+                "česky"
               ],
               "textCols": [
                 2
@@ -292,79 +292,79 @@
                 [
                   "blanc",
                   "blanche",
-                  "white"
+                  "bílý"
                 ],
                 [
                   "frais",
                   "fraîche",
-                  "fresh"
+                  "čerstvý"
                 ],
                 [
                   "long",
                   "longue",
-                  "long"
+                  "dlouhý"
                 ],
                 [
                   "gentil",
                   "gentille",
-                  "kind"
+                  "milý"
                 ],
                 [
                   "gros",
                   "grosse",
-                  "fat, big"
+                  "tlustý, velký"
                 ],
                 [
                   "doux",
                   "douce",
-                  "soft, sweet"
+                  "měkký, sladký"
                 ],
                 [
                   "faux",
                   "fausse",
-                  "false"
+                  "falešný"
                 ],
                 [
                   "fou",
                   "folle",
-                  "mad"
+                  "bláznivý"
                 ],
                 [
                   "sec",
                   "sèche",
-                  "dry"
+                  "suchý"
                 ],
                 [
                   "neuf",
                   "neuve",
-                  "brand new"
+                  "úplně nový"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Plural",
+          "title": "Množné číslo",
           "blocks": [
             {
               "type": "text",
-              "en": "In the plural usually *+s*. Masculine forms in *-eux* and *-x* do not change: *heureux → heureux*. *-al → -aux*: *un sport national → des sports nationaux*."
+              "cs": "V množném čísle obvykle *+s*. Tvary mužského rodu na *-eux* a *-x* se nemění: *heureux → heureux*. *-al → -aux*: *un sport national → des sports nationaux*."
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "My sister is sporty.",
+                  "cs": "Moje sestra je sportovně založená.",
                   "wrong": "Ma sœur est sportife.",
                   "fr": "Ma sœur est [[sportive]]."
                 },
                 {
-                  "en": "She is happy.",
+                  "cs": "Je šťastná.",
                   "wrong": "Elle est heureux.",
                   "fr": "Elle est [[heureuse]]."
                 }
@@ -373,30 +373,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Elle est très gentille.",
-                  "en": "She is very kind."
+                  "cs": "Je moc milá."
                 },
                 {
                   "fr": "C'est une bonne idée.",
-                  "en": "That's a good idea."
+                  "cs": "To je dobrý nápad."
                 },
                 {
                   "fr": "J'ai une chemise blanche.",
-                  "en": "I have a white shirt."
+                  "cs": "Mám bílou košili."
                 },
                 {
                   "fr": "Ma grand-mère est italienne.",
-                  "en": "My grandmother is Italian."
+                  "cs": "Moje babička je Italka."
                 },
                 {
                   "fr": "Les places sont chères.",
-                  "en": "The tickets are expensive."
+                  "cs": "Lístky jsou drahé."
                 }
               ]
             }
@@ -407,7 +407,7 @@
         {
           "id": "g-adj-forms-01",
           "type": "transform",
-          "task_en": "Make it feminine",
+          "task_cs": "Převeď do ženského rodu",
           "fr": "Il est sportif.",
           "a": [
             "Elle est sportive."
@@ -416,7 +416,7 @@
         {
           "id": "g-adj-forms-02",
           "type": "transform",
-          "task_en": "Make it feminine",
+          "task_cs": "Převeď do ženského rodu",
           "fr": "Il est heureux.",
           "a": [
             "Elle est heureuse."
@@ -430,7 +430,7 @@
             "bonne"
           ],
           "hint": "bon",
-          "en": "That's a good idea."
+          "cs": "To je dobrý nápad."
         },
         {
           "id": "g-adj-forms-04",
@@ -440,7 +440,7 @@
             "blanche"
           ],
           "hint": "blanc",
-          "en": "She has a white dress."
+          "cs": "Má bílé šaty."
         },
         {
           "id": "g-adj-forms-05",
@@ -450,7 +450,7 @@
             "gentille"
           ],
           "hint": "gentil",
-          "en": "My aunt is kind."
+          "cs": "Moje teta je milá."
         },
         {
           "id": "g-adj-forms-06",
@@ -460,13 +460,13 @@
             "italienne"
           ],
           "hint": "italien",
-          "en": "My cousin is Italian."
+          "cs": "Moje sestřenice je Italka."
         }
       ]
     },
     {
       "id": "adj-position",
-      "title": "Where the adjective goes",
+      "title": "Kam patří přídavné jméno",
       "fr": "la place de l'adjectif",
       "level": "A1",
       "keywords": [
@@ -492,11 +492,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "English and Czech put the adjective **before** the noun (a red car). French usually puts it **after**."
+              "cs": "Čeština (i angličtina) dává přídavné jméno **před** podstatné jméno (červené auto). Francouzština ho obvykle dává **za** něj."
             },
             {
               "type": "pattern",
@@ -516,7 +516,7 @@
                       "rouge"
                     ]
                   ],
-                  "en": "a red car"
+                  "cs": "červené auto"
                 },
                 {
                   "parts": [
@@ -533,7 +533,7 @@
                       "intéressant"
                     ]
                   ],
-                  "en": "an interesting film"
+                  "cs": "zajímavý film"
                 },
                 {
                   "parts": [
@@ -550,25 +550,25 @@
                       "sympas"
                     ]
                   ],
-                  "en": "nice pupils"
+                  "cs": "milí žáci"
                 }
               ]
             }
           ]
         },
         {
-          "title": "BANGS: these go before",
+          "title": "BANGS: tahle patří před",
           "blocks": [
             {
               "type": "text",
-              "en": "Short, common adjectives stand **before** the noun. The mnemonic BANGS:"
+              "cs": "Krátká běžná přídavná jména stojí **před** podstatným jménem. Pomůcka BANGS (z angličtiny):"
             },
             {
               "type": "table",
               "head": [
                 "",
-                "meaning",
-                "examples"
+                "význam",
+                "příklady"
               ],
               "textCols": [
                 0,
@@ -577,27 +577,27 @@
               "rows": [
                 [
                   "B",
-                  "beauty",
+                  "krása (beauty)",
                   "*beau, joli*"
                 ],
                 [
                   "A",
-                  "age",
+                  "věk (age)",
                   "*jeune, vieux, nouveau*"
                 ],
                 [
                   "N",
-                  "number, order",
+                  "číslo, pořadí (number)",
                   "*premier, deuxième, dernier*"
                 ],
                 [
                   "G",
-                  "goodness",
+                  "kvalita (goodness)",
                   "*bon, mauvais, gentil*"
                 ],
                 [
                   "S",
-                  "size",
+                  "velikost (size)",
                   "*petit, grand, gros, long*"
                 ]
               ]
@@ -620,7 +620,7 @@
                       "chien"
                     ]
                   ],
-                  "en": "a small dog"
+                  "cs": "malý pes"
                 },
                 {
                   "parts": [
@@ -637,26 +637,26 @@
                       "maison"
                     ]
                   ],
-                  "en": "a beautiful house"
+                  "cs": "krásný dům"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Always after",
+          "title": "Vždycky za",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "a white cat",
+                  "cs": "bílá kočka",
                   "wrong": "un blanc chat",
                   "fr": "un chat [[blanc]]",
-                  "note": "Colours, nationalities, shapes and long adjectives always go after."
+                  "note": "Barvy, národnosti, tvary a dlouhá přídavná jména stojí vždycky za podstatným jménem."
                 },
                 {
-                  "en": "a French film",
+                  "cs": "francouzský film",
                   "wrong": "un français film",
                   "fr": "un film [[français]]"
                 }
@@ -664,39 +664,39 @@
             },
             {
               "type": "text",
-              "en": "With two adjectives, each goes in its own place: *un petit chat noir* (a small black cat), *une belle maison blanche*."
+              "cs": "Když jsou přídavná jména dvě, každé jde na své místo: *un petit chat noir* (malá černá kočka), *une belle maison blanche*."
             },
             {
               "type": "tip",
-              "en": "When an adjective stands before a plural noun, *des* becomes *de* in careful writing: *de bons amis*. In speech you will also hear *des bons amis*."
+              "cs": "Když přídavné jméno stojí před podstatným jménem v množném čísle, *des* se ve spisovném psaní mění na *de*: *de bons amis*. V mluvené řeči uslyšíš i *des bons amis*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'ai un nouveau téléphone.",
-                  "en": "I have a new phone."
+                  "cs": "Mám nový telefon."
                 },
                 {
                   "fr": "C'est un jeu vidéo génial.",
-                  "en": "It's a great video game."
+                  "cs": "To je super videohra."
                 },
                 {
                   "fr": "Elle a les cheveux longs.",
-                  "en": "She has long hair."
+                  "cs": "Má dlouhé vlasy."
                 },
                 {
                   "fr": "Mon meilleur ami habite à Prague.",
-                  "en": "My best friend lives in Prague."
+                  "cs": "Můj nejlepší kamarád bydlí v Praze."
                 },
                 {
                   "fr": "C'est le premier jour.",
-                  "en": "It's the first day."
+                  "cs": "Je to první den."
                 }
               ]
             }
@@ -707,7 +707,7 @@
         {
           "id": "g-adj-position-01",
           "type": "order",
-          "en": "I have a red bike.",
+          "cs": "Mám červené kolo.",
           "a": [
             "J'ai un vélo rouge."
           ]
@@ -715,7 +715,7 @@
         {
           "id": "g-adj-position-02",
           "type": "order",
-          "en": "It's a small dog.",
+          "cs": "To je malý pes.",
           "a": [
             "C'est un petit chien."
           ]
@@ -723,7 +723,7 @@
         {
           "id": "g-adj-position-03",
           "type": "build",
-          "en": "an interesting book",
+          "cs": "zajímavá kniha",
           "a": [
             "un livre intéressant"
           ]
@@ -731,7 +731,7 @@
         {
           "id": "g-adj-position-04",
           "type": "build",
-          "en": "I have a black cat.",
+          "cs": "Mám černou kočku.",
           "a": [
             "J'ai un chat noir.",
             "J'ai une chatte noire."
@@ -740,7 +740,7 @@
         {
           "id": "g-adj-position-05",
           "type": "build",
-          "en": "It's a good film.",
+          "cs": "To je dobrý film.",
           "a": [
             "C'est un bon film."
           ]
@@ -749,7 +749,7 @@
     },
     {
       "id": "adj-meaning-position",
-      "title": "Adjectives that change meaning with their place",
+      "title": "Přídavná jména, která mění význam podle místa",
       "fr": "les adjectifs qui changent de sens",
       "level": "B1",
       "keywords": [
@@ -778,18 +778,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A handful of adjectives have **one meaning before the noun and another after it**. Before the noun the meaning is often **figurative or emotional**, after the noun it is **literal**."
+              "cs": "Hrstka přídavných jmen má **jeden význam před podstatným jménem a jiný za ním**. Před podstatným jménem je význam často **přenesený nebo citový**, za ním **doslovný**."
             },
             {
               "type": "table",
               "head": [
-                "adjective",
-                "before the noun",
-                "after the noun"
+                "přídavné jméno",
+                "před podstatným jménem",
+                "za podstatným jménem"
               ],
               "rows": [
                 [
@@ -810,7 +810,7 @@
                 [
                   "dernier",
                   "le dernier jour (last, final)",
-                  "l'année dernière (the one just past)"
+                  "l'année dernière (minulý rok)"
                 ],
                 [
                   "certain",
@@ -819,7 +819,7 @@
                 ],
                 [
                   "seul",
-                  "un seul livre (only one)",
+                  "un seul livre (jen jedna)",
                   "un homme seul (alone)"
                 ],
                 [
@@ -834,18 +834,18 @@
                 ],
                 [
                   "brave",
-                  "un brave homme (good, decent)",
+                  "un brave homme (dobrý, slušný)",
                   "un homme brave (brave)"
                 ],
                 [
                   "différent",
                   "différentes idées (various)",
-                  "des idées différentes (not the same)"
+                  "des idées différentes (různé)"
                 ],
                 [
                   "même",
-                  "la même idée (the same)",
-                  "l'idée même (the very idea)"
+                  "la même idée (stejný)",
+                  "l'idée même (samotná myšlenka)"
                 ],
                 [
                   "sale",
@@ -857,56 +857,56 @@
           ]
         },
         {
-          "title": "Dernier: two uses",
+          "title": "Dernier: dvě použití",
           "blocks": [
             {
               "type": "text",
-              "en": "**Le dernier** + noun means the last in a series (*le dernier train*); **after** a time word it means *the previous one*: *la semaine dernière* (last week), *l'année dernière*, *lundi dernier*."
+              "cs": "**Le dernier** + podstatné jméno znamená poslední v řadě (*le dernier train*); **za** časovým výrazem znamená *minulý*: *la semaine dernière* (minulý týden), *l'année dernière*, *lundi dernier*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Nous avons pris le dernier train.",
-                  "en": "We took the last train."
+                  "cs": "Jeli jsme posledním vlakem."
                 },
                 {
                   "fr": "Il est venu la semaine dernière.",
-                  "en": "He came last week."
+                  "cs": "Přišel minulý týden."
                 },
                 {
                   "fr": "Mon ancien professeur habite à Paris.",
-                  "en": "My former teacher lives in Paris."
+                  "cs": "Můj bývalý učitel bydlí v Paříži."
                 },
                 {
                   "fr": "Cette église est très ancienne.",
-                  "en": "This church is very old."
+                  "cs": "Tenhle kostel je hodně starý."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "my own room",
+                  "cs": "můj vlastní pokoj",
                   "wrong": "ma chambre propre",
                   "fr": "[[ma propre]] chambre"
                 },
                 {
-                  "en": "a clean room",
+                  "cs": "čistý pokoj",
                   "wrong": "une propre chambre",
                   "fr": "une chambre [[propre]]"
                 },
                 {
-                  "en": "a tall man",
+                  "cs": "vysoký muž",
                   "wrong": "un grand homme",
                   "fr": "un homme [[grand]]",
-                  "note": "*Un grand homme* is a great man."
+                  "note": "*Un grand homme* je velký (významný) muž."
                 }
               ]
             },
@@ -921,26 +921,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Mon cher Paul, je t'écris de Prague.",
-                  "en": "Dear Paul, I'm writing from Prague."
+                  "cs": "Milý Paule, píšu ti z Prahy."
                 },
                 {
                   "fr": "C'est un homme pauvre mais heureux.",
-                  "en": "He is a poor but happy man."
+                  "cs": "Je to chudý, ale šťastný muž."
                 },
                 {
                   "fr": "Le pauvre ! Il a perdu son chien.",
-                  "en": "The poor guy! He lost his dog."
+                  "cs": "Chudák! Ztratil psa."
                 },
                 {
                   "fr": "Elle fait sa propre cuisine.",
-                  "en": "She does her own cooking."
+                  "cs": "Vaří si sama."
                 }
               ]
             }
@@ -951,7 +951,7 @@
         {
           "id": "g-adj-meaning-position-01",
           "type": "build",
-          "en": "my former teacher",
+          "cs": "můj bývalý učitel",
           "a": [
             "mon ancien professeur",
             "mon ancienne professeure"
@@ -960,7 +960,7 @@
         {
           "id": "g-adj-meaning-position-02",
           "type": "build",
-          "en": "an old castle",
+          "cs": "starý zámek",
           "a": [
             "un château ancien",
             "un vieux château"
@@ -969,7 +969,7 @@
         {
           "id": "g-adj-meaning-position-03",
           "type": "build",
-          "en": "my own room",
+          "cs": "můj vlastní pokoj",
           "a": [
             "ma propre chambre"
           ]
@@ -977,7 +977,7 @@
         {
           "id": "g-adj-meaning-position-04",
           "type": "build",
-          "en": "a clean room",
+          "cs": "čistý pokoj",
           "a": [
             "une chambre propre"
           ]
@@ -985,7 +985,7 @@
         {
           "id": "g-adj-meaning-position-05",
           "type": "build",
-          "en": "last week",
+          "cs": "minulý týden",
           "a": [
             "la semaine dernière"
           ]
@@ -993,7 +993,7 @@
         {
           "id": "g-adj-meaning-position-06",
           "type": "build",
-          "en": "a tall man",
+          "cs": "vysoký muž",
           "a": [
             "un homme grand"
           ]
@@ -1005,7 +1005,7 @@
           "a": [
             "dernière"
           ],
-          "en": "She came last week."
+          "cs": "Přišla minulý týden."
         },
         {
           "id": "g-adj-meaning-position-08",
@@ -1014,8 +1014,8 @@
           "a": [
             "cher"
           ],
-          "hint": "dear",
-          "en": "He is my dear friend."
+          "hint": "drahý, milý",
+          "cs": "Je to můj drahý přítel."
         },
         {
           "id": "g-adj-meaning-position-09",
@@ -1024,14 +1024,14 @@
           "a": [
             "propre"
           ],
-          "hint": "own",
-          "en": "He lives in his own house."
+          "hint": "vlastní",
+          "cs": "Bydlí ve vlastním domě."
         }
       ]
     },
     {
       "id": "adjective-complements",
-      "title": "Adjectives with à and de: facile à faire, content de",
+      "title": "Přídavná jména s à a de: facile à faire, content de",
       "fr": "adjectif + à / de + infinitif",
       "level": "A2",
       "keywords": [
@@ -1058,39 +1058,39 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "An adjective can be followed by an **infinitive** joined with **à** or **de**. Two patterns exist: **il est + adj. + de + infinitive** (general) and **c'est + adj. + à + infinitive** or **sujet + être + adj. + à + infinitive** (this specific thing is easy to do)."
+              "cs": "Za přídavným jménem může následovat **infinitiv** připojený pomocí **à** nebo **de**. Existují dva vzorce: **il est + příd. jm. + de + infinitiv** (obecně) a **c'est + příd. jm. + à + infinitiv** nebo **podmět + être + příd. jm. + à + infinitiv** (tahle konkrétní věc se dělá snadno)."
             },
             {
               "type": "table",
               "head": [
-                "pattern",
-                "example",
-                "English"
+                "vzorec",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
-                  "Il est + adj. + de + inf.",
+                  "Il est + příd. jm. + de + inf.",
                   "Il est facile de comprendre ça.",
-                  "It is easy to understand that."
+                  "Je snadné to pochopit."
                 ],
                 [
-                  "Sujet + être + adj. + à + inf.",
+                  "Podmět + être + příd. jm. + à + inf.",
                   "Ce problème est facile à comprendre.",
-                  "This problem is easy to understand."
+                  "Tenhle problém je snadno pochopitelný."
                 ],
                 [
-                  "être + adj. + de + inf.",
+                  "être + příd. jm. + de + inf.",
                   "Je suis content de te voir.",
-                  "I'm glad to see you."
+                  "Jsem rád, že tě vidím."
                 ],
                 [
-                  "être + adj. + à + inf.",
+                  "être + příd. jm. + à + inf.",
                   "Je suis prêt à partir.",
-                  "I'm ready to leave."
+                  "Jsem připravený vyrazit."
                 ]
               ],
               "textCols": [
@@ -1100,22 +1100,22 @@
           ]
         },
         {
-          "title": "Facile à faire or facile de faire?",
+          "title": "Facile à faire, nebo facile de faire?",
           "blocks": [
             {
               "type": "text",
-              "en": "**À** goes with the adjective when the **subject is the thing being done** (*Ce livre est facile à lire*: the book is read). **De** goes when the sentence starts with **il** or when the **subject is the person** (*Il est facile de lire ce livre*, *Je suis content de lire*)."
+              "cs": "**À** patří k přídavnému jménu, když je **podmětem věc, se kterou se něco dělá** (*Ce livre est facile à lire*: kniha se čte). **De** patří tam, kde věta začíná **il** nebo kde je **podmětem osoba** (*Il est facile de lire ce livre*, *Je suis content de lire*)."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "This book is easy to read.",
+                  "cs": "Tahle kniha se čte snadno.",
                   "wrong": "Ce livre est facile de lire.",
                   "fr": "Ce livre est facile [[à]] lire."
                 },
                 {
-                  "en": "It is easy to read this book.",
+                  "cs": "Je snadné přečíst tuhle knihu.",
                   "wrong": "Il est facile à lire ce livre.",
                   "fr": "Il est facile [[de]] lire ce livre."
                 }
@@ -1124,13 +1124,13 @@
           ]
         },
         {
-          "title": "Common adjectives",
+          "title": "Běžná přídavná jména",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "with à",
-                "with de"
+                "s à",
+                "s de"
               ],
               "rows": [
                 [
@@ -1164,71 +1164,71 @@
               "items": [
                 {
                   "fr": "Elle est la première à arriver.",
-                  "en": "She is the first to arrive."
+                  "cs": "Přijde první."
                 },
                 {
                   "fr": "Je suis désolé d'être en retard.",
-                  "en": "I'm sorry to be late."
+                  "cs": "Mrzí mě, že jdu pozdě."
                 },
                 {
                   "fr": "Il est capable de tout.",
-                  "en": "He is capable of anything."
+                  "cs": "Je schopný všeho."
                 },
                 {
                   "fr": "C'est un film agréable à regarder.",
-                  "en": "It's a film that is nice to watch."
+                  "cs": "Je to film, na který se hezky dívá."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Adjective + preposition + noun",
+          "title": "Přídavné jméno + předložka + podstatné jméno",
           "blocks": [
             {
               "type": "text",
-              "en": "Many adjectives take a fixed preposition before a noun: *content de, fier de, fâché contre, sûr de, amoureux de, gentil avec, intéressé par, bon en, nul en, fort en*."
+              "cs": "Mnoho přídavných jmen má před podstatným jménem pevnou předložku: *content de, fier de, fâché contre, sûr de, amoureux de, gentil avec, intéressé par, bon en, nul en, fort en*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je suis fier de mes notes.",
-                  "en": "I'm proud of my marks."
+                  "cs": "Jsem hrdý na své známky."
                 },
                 {
                   "fr": "Il est fort en maths.",
-                  "en": "He's good at maths."
+                  "cs": "Je dobrý v matice."
                 },
                 {
                   "fr": "Elle est fâchée contre moi.",
-                  "en": "She's angry with me."
+                  "cs": "Zlobí se na mě."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il est impossible de dormir avec ce bruit.",
-                  "en": "It's impossible to sleep with this noise."
+                  "cs": "S tímhle hlukem se nedá spát."
                 },
                 {
                   "fr": "Ces chaussures sont difficiles à trouver.",
-                  "en": "These shoes are hard to find."
+                  "cs": "Tyhle boty se těžko shánějí."
                 },
                 {
                   "fr": "Nous sommes prêts à commencer.",
-                  "en": "We're ready to begin."
+                  "cs": "Jsme připravení začít."
                 },
                 {
                   "fr": "Je suis heureux de vous aider.",
-                  "en": "I'm happy to help you."
+                  "cs": "Rád ti pomůžu."
                 }
               ]
             }
@@ -1239,7 +1239,7 @@
         {
           "id": "g-adjective-complements-01",
           "type": "build",
-          "en": "This book is easy to read.",
+          "cs": "Tahle kniha se čte snadno.",
           "a": [
             "Ce livre est facile à lire."
           ]
@@ -1247,7 +1247,7 @@
         {
           "id": "g-adjective-complements-02",
           "type": "build",
-          "en": "It's easy to read this book.",
+          "cs": "Je snadné přečíst tuhle knihu.",
           "a": [
             "Il est facile de lire ce livre.",
             "C'est facile de lire ce livre."
@@ -1256,7 +1256,7 @@
         {
           "id": "g-adjective-complements-03",
           "type": "build",
-          "en": "I'm glad to see you.",
+          "cs": "Jsem rád, že tě vidím.",
           "a": [
             "Je suis content de te voir.",
             "Je suis heureux de te voir."
@@ -1265,7 +1265,7 @@
         {
           "id": "g-adjective-complements-04",
           "type": "build",
-          "en": "We're ready to leave.",
+          "cs": "Jsme připravení vyrazit.",
           "a": [
             "Nous sommes prêts à partir.",
             "On est prêts à partir."
@@ -1278,7 +1278,7 @@
           "a": [
             "à"
           ],
-          "en": "This problem is hard to solve."
+          "cs": "Tenhle problém se těžko řeší."
         },
         {
           "id": "g-adjective-complements-06",
@@ -1287,7 +1287,7 @@
           "a": [
             "de"
           ],
-          "en": "It's impossible to sleep here."
+          "cs": "Tady se nedá spát."
         },
         {
           "id": "g-adjective-complements-07",
@@ -1296,7 +1296,7 @@
           "a": [
             "d'"
           ],
-          "en": "I'm sorry to be late."
+          "cs": "Mrzí mě, že jdu pozdě."
         },
         {
           "id": "g-adjective-complements-08",
@@ -1305,7 +1305,7 @@
           "a": [
             "à"
           ],
-          "en": "She is the first to arrive."
+          "cs": "Přijde první."
         }
       ]
     },
@@ -1341,20 +1341,20 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Three common adjectives stand before the noun, and in the **masculine** they have a special form before a vowel, similar to *ce → cet*."
+              "cs": "Tři běžná přídavná jména stojí před podstatným jménem a v **mužském rodě** mají před samohláskou zvláštní tvar, podobně jako *ce → cet*."
             },
             {
               "type": "table",
               "head": [
-                "masculine",
-                "before a vowel",
-                "feminine",
-                "m. plural",
-                "f. plural"
+                "mužský rod",
+                "před samohláskou",
+                "ženský rod",
+                "m. množné číslo",
+                "ž. množné číslo"
               ],
               "rows": [
                 [
@@ -1389,57 +1389,57 @@
               "type": "compare",
               "items": [
                 {
-                  "en": "a beautiful hotel",
+                  "cs": "krásný hotel",
                   "wrong": "un beau hôtel",
                   "fr": "un [[bel]] hôtel"
                 },
                 {
-                  "en": "a new friend",
+                  "cs": "nový kamarád",
                   "wrong": "un nouveau ami",
                   "fr": "un [[nouvel]] ami"
                 },
                 {
-                  "en": "an old man",
+                  "cs": "starý muž",
                   "fr": "un [[vieil]] homme"
                 }
               ]
             },
             {
               "type": "tip",
-              "en": "After the noun or after *être* it stays *beau, nouveau, vieux*: *Cet hôtel est beau.*"
+              "cs": "Za podstatným jménem nebo po *être* zůstává *beau, nouveau, vieux*: *Cet hôtel est beau.*"
             }
           ]
         },
         {
-          "title": "Nouveau or neuf?",
+          "title": "Nouveau, nebo neuf?",
           "blocks": [
             {
               "type": "text",
-              "en": "*Nouveau* = new, different from before: *J'ai une nouvelle voiture* (I have a different car, maybe second-hand). *Neuf* = brand new, unused, and it goes after the noun: *J'ai une voiture neuve.*"
+              "cs": "*Nouveau* = nový, jiný než předtím: *J'ai une nouvelle voiture* (mám jiné auto, třeba ojeté). *Neuf* = úplně nový, nepoužitý, a stojí za podstatným jménem: *J'ai une voiture neuve.*"
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "C'est un bel endroit.",
-                  "en": "It's a beautiful place."
+                  "cs": "Je to krásné místo."
                 },
                 {
                   "fr": "J'ai une nouvelle prof de maths.",
-                  "en": "I have a new maths teacher."
+                  "cs": "Mám nového učitele matiky."
                 },
                 {
                   "fr": "Le vieil homme marche lentement.",
-                  "en": "The old man walks slowly."
+                  "cs": "Ten starý muž chodí pomalu."
                 },
                 {
                   "fr": "Ce sont de beaux souvenirs.",
-                  "en": "These are beautiful memories."
+                  "cs": "To jsou krásné vzpomínky."
                 }
               ]
             }
@@ -1455,7 +1455,7 @@
             "bel"
           ],
           "hint": "beau",
-          "en": "It's a beautiful flat."
+          "cs": "Je to krásný byt."
         },
         {
           "id": "g-beau-nouveau-vieux-02",
@@ -1465,7 +1465,7 @@
             "nouvel"
           ],
           "hint": "nouveau",
-          "en": "I have a new friend."
+          "cs": "Mám nového kamaráda."
         },
         {
           "id": "g-beau-nouveau-vieux-03",
@@ -1475,7 +1475,7 @@
             "vieille"
           ],
           "hint": "vieux",
-          "en": "It's an old house."
+          "cs": "Je to starý dům."
         },
         {
           "id": "g-beau-nouveau-vieux-04",
@@ -1485,13 +1485,13 @@
             "belles"
           ],
           "hint": "beau",
-          "en": "The flowers are beautiful."
+          "cs": "Ty květiny jsou krásné."
         }
       ]
     },
     {
       "id": "colors",
-      "title": "Colors",
+      "title": "Barvy",
       "fr": "les couleurs",
       "level": "A1",
       "keywords": [
@@ -1518,18 +1518,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Colours are adjectives: they stand **after** the noun and agree in gender and number."
+              "cs": "Barvy jsou přídavná jména: stojí **za** podstatným jménem a shodují se v rodě a čísle."
             },
             {
               "type": "table",
               "head": [
-                "masculine",
-                "feminine",
-                "English"
+                "mužský rod",
+                "ženský rod",
+                "česky"
               ],
               "textCols": [
                 2
@@ -1538,64 +1538,64 @@
                 [
                   "noir",
                   "noire",
-                  "black"
+                  "černý"
                 ],
                 [
                   "blanc",
                   "blanche",
-                  "white"
+                  "bílý"
                 ],
                 [
                   "bleu",
                   "bleue",
-                  "blue"
+                  "modrý"
                 ],
                 [
                   "vert",
                   "verte",
-                  "green"
+                  "zelený"
                 ],
                 [
                   "gris",
                   "grise",
-                  "grey"
+                  "šedý"
                 ],
                 [
                   "violet",
                   "violette",
-                  "purple"
+                  "fialový"
                 ],
                 [
                   "rouge",
                   "rouge",
-                  "red"
+                  "červený"
                 ],
                 [
                   "jaune",
                   "jaune",
-                  "yellow"
+                  "žlutý"
                 ],
                 [
                   "rose",
                   "rose",
-                  "pink"
+                  "růžový"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Colors that do not change",
+          "title": "Barvy, které se nemění",
           "blocks": [
             {
               "type": "text",
-              "en": "Colours named after things (*orange* = the fruit, *marron* = the chestnut) **do not change** for gender or number: *des chaussures orange, des yeux marron*. Compound colours do not either: *une robe bleu clair* (a light blue dress), *des pulls vert foncé*."
+              "cs": "Barvy pojmenované podle věcí (*orange* = pomeranč, *marron* = kaštan) se **nemění** v rodě ani čísle: *des chaussures orange, des yeux marron*. Složené barvy taky ne: *une robe bleu clair* (světle modré šaty), *des pulls vert foncé*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "brown eyes",
+                  "cs": "hnědé oči",
                   "wrong": "des yeux marrons",
                   "fr": "des yeux [[marron]]"
                 }
@@ -1604,30 +1604,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'ai les yeux bleus.",
-                  "en": "I have blue eyes."
+                  "cs": "Mám modré oči."
                 },
                 {
                   "fr": "Ma sœur a une veste verte.",
-                  "en": "My sister has a green jacket."
+                  "cs": "Moje sestra má zelenou bundu."
                 },
                 {
                   "fr": "Les feuilles sont jaunes en automne.",
-                  "en": "The leaves are yellow in autumn."
+                  "cs": "Na podzim je listí žluté."
                 },
                 {
                   "fr": "Il porte des baskets orange.",
-                  "en": "He wears orange trainers."
+                  "cs": "Nosí oranžové tenisky."
                 },
                 {
                   "fr": "Je préfère la chemise bleu foncé.",
-                  "en": "I prefer the dark blue shirt."
+                  "cs": "Mám radši tmavě modrou košili."
                 }
               ]
             }
@@ -1643,7 +1643,7 @@
             "blanche"
           ],
           "hint": "blanc",
-          "en": "I have a white car."
+          "cs": "Mám bílé auto."
         },
         {
           "id": "g-colors-02",
@@ -1653,7 +1653,7 @@
             "verts"
           ],
           "hint": "vert",
-          "en": "She has green eyes."
+          "cs": "Má zelené oči."
         },
         {
           "id": "g-colors-03",
@@ -1663,12 +1663,12 @@
             "orange"
           ],
           "hint": "orange",
-          "en": "I have orange shoes."
+          "cs": "Mám oranžové boty."
         },
         {
           "id": "g-colors-04",
           "type": "build",
-          "en": "I have brown eyes.",
+          "cs": "Mám hnědé oči.",
           "a": [
             "J'ai les yeux marron."
           ]
@@ -1681,13 +1681,13 @@
             "bleue"
           ],
           "hint": "bleu",
-          "en": "The sea is blue."
+          "cs": "Moře je modré."
         }
       ]
     },
     {
       "id": "comparative",
-      "title": "Comparing: plus, moins, aussi... que",
+      "title": "Porovnávání: plus, moins, aussi... que",
       "fr": "le comparatif",
       "level": "A2",
       "keywords": [
@@ -1712,15 +1712,15 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "pattern",
-                "example",
-                "English"
+                "vzorec",
+                "příklad",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -1728,40 +1728,40 @@
               ],
               "rows": [
                 [
-                  "more",
+                  "víc",
                   "plus ... que",
                   "Paul est plus grand que moi.",
-                  "Paul is taller than me."
+                  "Paul je vyšší než já."
                 ],
                 [
-                  "less",
+                  "míň",
                   "moins ... que",
                   "Le bus est moins cher que le train.",
-                  "The bus is cheaper than the train."
+                  "Autobus je levnější než vlak."
                 ],
                 [
-                  "as ... as",
+                  "stejně ... jako",
                   "aussi ... que",
                   "Je suis aussi grand que mon père.",
-                  "I'm as tall as my father."
+                  "Jsem stejně vysoký jako můj táta."
                 ]
               ]
             },
             {
               "type": "text",
-              "en": "The adjective still agrees: *Ma sœur est plus grande que moi.* After *que* comes a stressed pronoun: *que moi, que toi, que lui*."
+              "cs": "Přídavné jméno se pořád shoduje: *Ma sœur est plus grande que moi.* Po *que* následuje samostatné zájmeno: *que moi, que toi, que lui*."
             }
           ]
         },
         {
-          "title": "With nouns and verbs",
+          "title": "S podstatnými jmény a slovesy",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "example",
-                "English"
+                "příklad",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -1769,46 +1769,46 @@
               ],
               "rows": [
                 [
-                  "plus de + noun",
+                  "plus de + podstatné jméno",
                   "J'ai plus de devoirs que toi.",
-                  "I have more homework than you."
+                  "Mám víc úkolů než ty."
                 ],
                 [
-                  "moins de + noun",
+                  "moins de + podstatné jméno",
                   "Il a moins d'amis.",
-                  "He has fewer friends."
+                  "Má méně kamarádů."
                 ],
                 [
-                  "autant de + noun",
+                  "autant de + podstatné jméno",
                   "J'ai autant de jeux que lui.",
-                  "I have as many games as he does."
+                  "Mám stejně her jako on."
                 ],
                 [
-                  "verb + plus, moins, autant",
+                  "sloveso + plus, moins, autant",
                   "Je travaille plus que toi.",
-                  "I work more than you."
+                  "Pracuju víc než ty."
                 ]
               ]
             },
             {
               "type": "tip",
-              "en": "*Aussi* goes with an adjective (*aussi grand*), *autant* with a noun and with a verb (*autant de livres, je travaille autant*)."
+              "cs": "*Aussi* patří k přídavnému jménu (*aussi grand*), *autant* k podstatnému jménu a ke slovesu (*autant de livres, je travaille autant*)."
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "He is taller than me.",
+                  "cs": "Je vyšší než já.",
                   "wrong": "Il est plus grand que je.",
                   "fr": "Il est plus grand que [[moi]]."
                 },
                 {
-                  "en": "He is better than you.",
+                  "cs": "Je lepší než ty.",
                   "wrong": "Il est plus bon que toi.",
                   "fr": "Il est [[meilleur]] que toi."
                 }
@@ -1823,26 +1823,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le français est plus difficile que l'anglais.",
-                  "en": "French is harder than English."
+                  "cs": "Francouzština je těžší než angličtina."
                 },
                 {
                   "fr": "Mon frère est moins sportif que moi.",
-                  "en": "My brother is less sporty than me."
+                  "cs": "Můj bratr je méně sportovní než já."
                 },
                 {
                   "fr": "Elle court aussi vite que lui.",
-                  "en": "She runs as fast as he does."
+                  "cs": "Běhá stejně rychle jako on."
                 },
                 {
                   "fr": "Il y a plus de monde aujourd'hui.",
-                  "en": "There are more people today."
+                  "cs": "Dnes je tu víc lidí."
                 }
               ]
             }
@@ -1853,7 +1853,7 @@
         {
           "id": "g-comparative-01",
           "type": "build",
-          "en": "Paul is taller than me.",
+          "cs": "Paul je vyšší než já.",
           "a": [
             "Paul est plus grand que moi."
           ]
@@ -1865,7 +1865,7 @@
           "a": [
             "plus"
           ],
-          "en": "The train is faster than the bus."
+          "cs": "Vlak je rychlejší než autobus."
         },
         {
           "id": "g-comparative-03",
@@ -1874,7 +1874,7 @@
           "a": [
             "aussi"
           ],
-          "en": "I'm as tall as my father."
+          "cs": "Jsem stejně vysoký jako můj táta."
         },
         {
           "id": "g-comparative-04",
@@ -1883,12 +1883,12 @@
           "a": [
             "de"
           ],
-          "en": "I have more homework than you."
+          "cs": "Mám víc úkolů než ty."
         },
         {
           "id": "g-comparative-05",
           "type": "build",
-          "en": "She is smaller than you.",
+          "cs": "Je menší než ty.",
           "a": [
             "Elle est plus petite que toi.",
             "Elle est moins grande que toi."
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "superlative",
-      "title": "The superlative: le plus",
+      "title": "Nejvyšší stupeň: le plus",
       "fr": "le superlatif",
       "level": "A2",
       "keywords": [
@@ -1920,18 +1920,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*Le, la, les* + *plus* (or *moins*) + adjective. The article agrees with the noun."
+              "cs": "*Le, la, les* + *plus* (nebo *moins*) + přídavné jméno. Člen se shoduje s podstatným jménem."
             },
             {
               "type": "table",
               "head": [
                 "",
-                "example",
-                "English"
+                "příklad",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -1939,41 +1939,41 @@
               ],
               "rows": [
                 [
-                  "masculine",
+                  "mužský rod",
                   "le plus grand",
-                  "the biggest"
+                  "největší"
                 ],
                 [
-                  "feminine",
+                  "ženský rod",
                   "la plus grande",
-                  "the biggest"
+                  "největší"
                 ],
                 [
-                  "plural",
+                  "množné číslo",
                   "les plus grands",
-                  "the biggest"
+                  "největší"
                 ],
                 [
-                  "least",
+                  "nejméně",
                   "le moins cher",
-                  "the cheapest"
+                  "nejlevnější"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "With de",
+          "title": "S de",
           "blocks": [
             {
               "type": "text",
-              "en": "The group the \"-est\" refers to is introduced by *de*: *le plus grand de la classe* (the tallest in the class)."
+              "cs": "Skupinu, ve které je něco \"nej-\", uvádí *de*: *le plus grand de la classe* (nejvyšší ve třídě)."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "He is the tallest in the class.",
+                  "cs": "Je nejvyšší ve třídě.",
                   "wrong": "Il est le plus grand dans la classe.",
                   "fr": "Il est le plus grand [[de]] la classe."
                 }
@@ -1982,11 +1982,11 @@
           ]
         },
         {
-          "title": "Where the adjective goes",
+          "title": "Kam patří přídavné jméno",
           "blocks": [
             {
               "type": "text",
-              "en": "The adjective stays in its usual place. When it stands after the noun, the article is **repeated**: *le film le plus drôle*. When it stands before the noun, it is not: *le plus beau jour*."
+              "cs": "Přídavné jméno zůstává na svém obvyklém místě. Když stojí za podstatným jménem, člen se **opakuje**: *le film le plus drôle*. Když stojí před ním, neopakuje se: *le plus beau jour*."
             },
             {
               "type": "pattern",
@@ -2014,7 +2014,7 @@
                       "drôle"
                     ]
                   ],
-                  "en": "the funniest film"
+                  "cs": "nejvtipnější film"
                 },
                 {
                   "parts": [
@@ -2035,33 +2035,33 @@
                       "ville"
                     ]
                   ],
-                  "en": "the most beautiful city"
+                  "cs": "nejkrásnější město"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "C'est le jeu le plus populaire.",
-                  "en": "It's the most popular game."
+                  "cs": "Je to nejoblíbenější hra."
                 },
                 {
                   "fr": "Paris est la plus grande ville de France.",
-                  "en": "Paris is the biggest city in France."
+                  "cs": "Paříž je největší město ve Francii."
                 },
                 {
                   "fr": "C'est le plus beau jour de ma vie !",
-                  "en": "It's the best day of my life!"
+                  "cs": "To je nejlepší den mého života!"
                 },
                 {
                   "fr": "Mon meilleur ami s'appelle Tom.",
-                  "en": "My best friend is called Tom."
+                  "cs": "Můj nejlepší kamarád se jmenuje Tom."
                 }
               ]
             }
@@ -2072,7 +2072,7 @@
         {
           "id": "g-superlative-01",
           "type": "build",
-          "en": "He is the tallest in the class.",
+          "cs": "Je nejvyšší ve třídě.",
           "a": [
             "Il est le plus grand de la classe."
           ]
@@ -2084,7 +2084,7 @@
           "a": [
             "plus"
           ],
-          "en": "It's the most beautiful city in the world."
+          "cs": "Je to nejkrásnější město na světě."
         },
         {
           "id": "g-superlative-03",
@@ -2093,12 +2093,12 @@
           "a": [
             "de"
           ],
-          "en": "It's the funniest film of the year."
+          "cs": "Je to nejvtipnější film roku."
         },
         {
           "id": "g-superlative-04",
           "type": "build",
-          "en": "the cheapest phone",
+          "cs": "nejlevnější telefon",
           "a": [
             "le téléphone le moins cher"
           ]
@@ -2111,13 +2111,13 @@
             "meilleur"
           ],
           "hint": "bon",
-          "en": "He's my best friend."
+          "cs": "Je to můj nejlepší kamarád."
         }
       ]
     },
     {
       "id": "comparison-advanced",
-      "title": "More comparisons: de plus en plus, plus... plus, le même que",
+      "title": "Další porovnávání: de plus en plus, plus... plus, le même que",
       "fr": "la comparaison (suite)",
       "level": "B1",
       "keywords": [
@@ -2145,54 +2145,54 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Besides *plus / moins / aussi... que*, French compares **quantities** (*plus de, moins de, autant de*), **progress** (*de plus en plus*), **proportion** (*plus... plus*), and uses **irregular forms** (*meilleur, mieux, pire*)."
+              "cs": "Kromě *plus / moins / aussi... que* francouzština porovnává **množství** (*plus de, moins de, autant de*), **vývoj** (*de plus en plus*), **úměru** (*plus... plus*) a používá **nepravidelné tvary** (*meilleur, mieux, pire*)."
             },
             {
               "type": "table",
               "head": [
-                "structure",
-                "example",
-                "English"
+                "vazba",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
-                  "plus de / moins de / autant de + noun",
+                  "plus de / moins de / autant de + podstatné jméno",
                   "Il a plus d'amis que moi.",
-                  "He has more friends than me."
+                  "Má víc kamarádů než já."
                 ],
                 [
-                  "verb + plus que / autant que",
+                  "sloveso + plus que / autant que",
                   "Elle travaille plus que lui.",
-                  "She works more than him."
+                  "Pracuje víc než on."
                 ],
                 [
                   "de plus en plus / de moins en moins",
                   "Il fait de plus en plus froid.",
-                  "It's getting colder and colder."
+                  "Je čím dál větší zima."
                 ],
                 [
                   "de mieux en mieux / de pire en pire",
                   "Ça va de mieux en mieux.",
-                  "It's getting better and better."
+                  "Je to čím dál lepší."
                 ],
                 [
                   "plus... plus / moins... moins",
                   "Plus je dors, plus je suis fatigué.",
-                  "The more I sleep the more tired I am."
+                  "Čím víc spím, tím jsem unavenější."
                 ],
                 [
                   "le même... que",
                   "Il a le même âge que moi.",
-                  "He is the same age as me."
+                  "Je stejně starý jako já."
                 ],
                 [
                   "supérieur à / inférieur à",
                   "La note est supérieure à 10.",
-                  "The mark is above 10."
+                  "Známka je nad 10."
                 ]
               ],
               "textCols": [
@@ -2206,18 +2206,18 @@
           "blocks": [
             {
               "type": "text",
-              "en": "With nouns the **quantity** is *plus de / moins de / autant de* + noun, then **que**: *J'ai plus de temps que toi.* With **numbers** use *plus de*, not *plus que*: *plus de dix personnes*."
+              "cs": "U podstatných jmen je **množství** *plus de / moins de / autant de* + podstatné jméno, pak **que**: *J'ai plus de temps que toi.* U **čísel** použij *plus de*, ne *plus que*: *plus de dix personnes*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "more than ten people",
+                  "cs": "víc než deset lidí",
                   "wrong": "plus que dix personnes",
                   "fr": "[[plus de]] dix personnes"
                 },
                 {
-                  "en": "He has more friends than me.",
+                  "cs": "Má víc kamarádů než já.",
                   "wrong": "Il a plus amis que moi.",
                   "fr": "Il a plus [[d']]amis que moi."
                 }
@@ -2226,78 +2226,78 @@
           ]
         },
         {
-          "title": "Irregular: meilleur, mieux, pire",
+          "title": "Nepravidelné: meilleur, mieux, pire",
           "blocks": [
             {
               "type": "text",
-              "en": "**Bon → meilleur** (adjective), **bien → mieux** (adverb), **mauvais → pire** (adjective, or *plus mauvais*), **mal → pis / plus mal** (adverb). **Le meilleur, le mieux, le pire** are the superlatives."
+              "cs": "**Bon → meilleur** (přídavné jméno), **bien → mieux** (příslovce), **mauvais → pire** (přídavné jméno, nebo *plus mauvais*), **mal → pis / plus mal** (příslovce). **Le meilleur, le mieux, le pire** jsou nejvyšší stupně."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ce film est meilleur que le livre.",
-                  "en": "This film is better than the book."
+                  "cs": "Ten film je lepší než kniha."
                 },
                 {
                   "fr": "Elle chante mieux que moi.",
-                  "en": "She sings better than me."
+                  "cs": "Zpívá líp než já."
                 },
                 {
                   "fr": "C'est le pire jour de ma vie.",
-                  "en": "It's the worst day of my life."
+                  "cs": "To je nejhorší den mého života."
                 },
                 {
                   "fr": "C'est le meilleur gâteau du monde.",
-                  "en": "It's the best cake in the world."
+                  "cs": "Je to nejlepší dort na světě."
                 }
               ]
             }
           ]
         },
         {
-          "title": "The more... the more",
+          "title": "Čím víc..., tím víc",
           "blocks": [
             {
               "type": "text",
-              "en": "*Plus... plus*, *moins... moins*, *plus... moins* give a **proportion** (the more... the more). Each part starts the clause, with **no que and no inversion**: *Plus je mange, plus j'ai faim.*"
+              "cs": "*Plus... plus*, *moins... moins*, *plus... moins* vyjadřují **úměru** (čím víc..., tím víc). Každá část začíná větu, **bez que a bez inverze**: *Plus je mange, plus j'ai faim.*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Plus on est de fous, plus on rit.",
-                  "en": "The more, the merrier."
+                  "cs": "Čím víc lidí, tím větší zábava."
                 },
                 {
                   "fr": "Moins il parle, mieux c'est.",
-                  "en": "The less he talks, the better."
+                  "cs": "Čím míň mluví, tím líp."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il fait de moins en moins chaud.",
-                  "en": "It's getting less and less warm."
+                  "cs": "Je čím dál menší teplo."
                 },
                 {
                   "fr": "Elle a autant de livres que moi.",
-                  "en": "She has as many books as I do."
+                  "cs": "Má stejně knih jako já."
                 },
                 {
                   "fr": "Mon frère est plus grand que moi.",
-                  "en": "My brother is taller than me."
+                  "cs": "Můj bratr je vyšší než já."
                 },
                 {
                   "fr": "Tu as le même téléphone que moi.",
-                  "en": "You have the same phone as me."
+                  "cs": "Máš stejný telefon jako já."
                 }
               ]
             }
@@ -2308,7 +2308,7 @@
         {
           "id": "g-comparison-advanced-01",
           "type": "build",
-          "en": "It's getting colder and colder.",
+          "cs": "Je čím dál větší zima.",
           "a": [
             "Il fait de plus en plus froid."
           ]
@@ -2316,7 +2316,7 @@
         {
           "id": "g-comparison-advanced-02",
           "type": "build",
-          "en": "The more I sleep, the more tired I am.",
+          "cs": "Čím víc spím, tím jsem unavenější.",
           "a": [
             "Plus je dors, plus je suis fatigué.",
             "Plus je dors, plus je suis fatiguée."
@@ -2325,7 +2325,7 @@
         {
           "id": "g-comparison-advanced-03",
           "type": "build",
-          "en": "He has more friends than me.",
+          "cs": "Má víc kamarádů než já.",
           "a": [
             "Il a plus d'amis que moi."
           ]
@@ -2333,7 +2333,7 @@
         {
           "id": "g-comparison-advanced-04",
           "type": "build",
-          "en": "She sings better than me.",
+          "cs": "Zpívá líp než já.",
           "a": [
             "Elle chante mieux que moi."
           ]
@@ -2341,7 +2341,7 @@
         {
           "id": "g-comparison-advanced-05",
           "type": "build",
-          "en": "This is the worst day of my life.",
+          "cs": "Tohle je nejhorší den mého života.",
           "a": [
             "C'est le pire jour de ma vie."
           ]
@@ -2353,7 +2353,7 @@
           "a": [
             "de"
           ],
-          "en": "He is more than ten."
+          "cs": "Je mu přes deset."
         },
         {
           "id": "g-comparison-advanced-07",
@@ -2362,7 +2362,7 @@
           "a": [
             "autant"
           ],
-          "en": "She has as many books as me."
+          "cs": "Má stejně knih jako já."
         },
         {
           "id": "g-comparison-advanced-08",
@@ -2371,8 +2371,8 @@
           "a": [
             "meilleur"
           ],
-          "hint": "better",
-          "en": "This film is better than the book."
+          "hint": "lepší",
+          "cs": "Ten film je lepší než kniha."
         },
         {
           "id": "g-comparison-advanced-09",
@@ -2381,7 +2381,7 @@
           "a": [
             "mieux"
           ],
-          "en": "It's getting better and better."
+          "cs": "Je to čím dál lepší."
         }
       ]
     },
@@ -2411,28 +2411,28 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "basic",
-                "better",
-                "best"
+                "základ",
+                "lepší",
+                "nejlepší"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "adjective (what kind?)",
+                  "přídavné jméno (jaký?)",
                   "bon",
                   "meilleur",
                   "le meilleur"
                 ],
                 [
-                  "adverb (how?)",
+                  "příslovce (jak?)",
                   "bien",
                   "mieux",
                   "le mieux"
@@ -2441,34 +2441,34 @@
             },
             {
               "type": "text",
-              "en": "*Bon* describes a thing (what kind?), *bien* describes an action (how?). They form their comparisons irregularly: *plus bon* and *plus bien* do not exist."
+              "cs": "*Bon* popisuje věc (jaký?), *bien* popisuje děj (jak?). Stupňují se nepravidelně: *plus bon* a *plus bien* neexistují."
             }
           ]
         },
         {
-          "title": "Bon or bien?",
+          "title": "Bon, nebo bien?",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "It's a good film.",
+                  "cs": "To je dobrý film.",
                   "fr": "C'est un [[bon]] film.",
-                  "note": "What kind of film? A good one."
+                  "note": "Jaký film? Dobrý."
                 },
                 {
-                  "en": "He plays well.",
+                  "cs": "Hraje dobře.",
                   "fr": "Il joue [[bien]].",
-                  "note": "How does he play? Well."
+                  "note": "Jak hraje? Dobře."
                 },
                 {
-                  "en": "He plays better than me.",
+                  "cs": "Hraje líp než já.",
                   "fr": "Il joue [[mieux]] que moi."
                 },
                 {
-                  "en": "This pizza is better.",
+                  "cs": "Tahle pizza je lepší.",
                   "fr": "Cette pizza est [[meilleure]].",
-                  "note": "*Meilleur* agrees like any adjective."
+                  "note": "*Meilleur* se shoduje jako každé přídavné jméno."
                 }
               ]
             }
@@ -2479,40 +2479,40 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*C'est bon* = it tastes good, it is valid, it's sorted. *C'est bien* = it's good, right, fine (a judgement)."
+              "cs": "*C'est bon* = chutná to, platí to, je to vyřízené. *C'est bien* = je to dobře, správně, v pořádku (hodnocení)."
             },
             {
               "type": "tip",
-              "title": "The opposite",
-              "en": "*Mauvais* (bad) → *plus mauvais* or *pire*. *Mal* (badly) → *plus mal*."
+              "title": "Opak",
+              "cs": "*Mauvais* (špatný) → *plus mauvais* nebo *pire*. *Mal* (špatně) → *plus mal*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ce gâteau est très bon.",
-                  "en": "This cake is very good."
+                  "cs": "Tenhle dort je moc dobrý."
                 },
                 {
                   "fr": "Tu parles bien français !",
-                  "en": "You speak French well!"
+                  "cs": "Mluvíš dobře francouzsky!"
                 },
                 {
                   "fr": "Ça va mieux ?",
-                  "en": "Are you feeling better?"
+                  "cs": "Je ti líp?"
                 },
                 {
                   "fr": "C'est la meilleure équipe.",
-                  "en": "It's the best team."
+                  "cs": "Je to nejlepší tým."
                 },
                 {
                   "fr": "C'est lui qui chante le mieux.",
-                  "en": "He's the one who sings best."
+                  "cs": "On zpívá nejlíp."
                 }
               ]
             }
@@ -2527,7 +2527,7 @@
           "a": [
             "bien"
           ],
-          "en": "He speaks English very well."
+          "cs": "Mluví moc dobře anglicky."
         },
         {
           "id": "g-bon-bien-02",
@@ -2536,7 +2536,7 @@
           "a": [
             "bon"
           ],
-          "en": "It's a very good book."
+          "cs": "Je to moc dobrá kniha."
         },
         {
           "id": "g-bon-bien-03",
@@ -2545,7 +2545,7 @@
           "a": [
             "mieux"
           ],
-          "en": "She plays better than me."
+          "cs": "Hraje líp než já."
         },
         {
           "id": "g-bon-bien-04",
@@ -2554,12 +2554,12 @@
           "a": [
             "meilleure"
           ],
-          "en": "Your pizza is better than mine."
+          "cs": "Tvoje pizza je lepší než moje."
         },
         {
           "id": "g-bon-bien-05",
           "type": "build",
-          "en": "I'm feeling better.",
+          "cs": "Je mi líp.",
           "a": [
             "Je vais mieux.",
             "Ça va mieux."
@@ -2569,7 +2569,7 @@
     },
     {
       "id": "adverbs-ment",
-      "title": "Adverbs in -ment",
+      "title": "Příslovce na -ment",
       "fr": "les adverbes en -ment",
       "level": "A2",
       "keywords": [
@@ -2592,19 +2592,19 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Most adverbs are formed from the **feminine** of the adjective + *-ment* (English: *-ly*)."
+              "cs": "Většina příslovcí se tvoří z **ženského rodu** přídavného jména + *-ment* (v češtině obvykle -e, -ě, -o: pomalý → pomalu)."
             },
             {
               "type": "table",
               "head": [
-                "masculine",
-                "feminine",
-                "adverb",
-                "English"
+                "mužský rod",
+                "ženský rod",
+                "příslovce",
+                "česky"
               ],
               "textCols": [
                 3
@@ -2614,54 +2614,54 @@
                   "lent",
                   "lente",
                   "lentement",
-                  "slowly"
+                  "pomalu"
                 ],
                 [
                   "heureux",
                   "heureuse",
                   "heureusement",
-                  "luckily"
+                  "naštěstí"
                 ],
                 [
                   "sérieux",
                   "sérieuse",
                   "sérieusement",
-                  "seriously"
+                  "vážně"
                 ],
                 [
                   "doux",
                   "douce",
                   "doucement",
-                  "gently, quietly"
+                  "jemně, potichu"
                 ],
                 [
                   "final",
                   "finale",
                   "finalement",
-                  "finally"
+                  "nakonec"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "After a vowel",
+          "title": "Po samohlásce",
           "blocks": [
             {
               "type": "text",
-              "en": "When the masculine form ends in a vowel, *-ment* goes straight on: *vrai → vraiment, poli → poliment, absolu → absolument*."
+              "cs": "Když tvar mužského rodu končí samohláskou, *-ment* se přidá rovnou: *vrai → vraiment, poli → poliment, absolu → absolument*."
             }
           ]
         },
         {
-          "title": "-ant and -ent",
+          "title": "-ant a -ent",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "adjective",
-                "adverb",
-                "English"
+                "přídavné jméno",
+                "příslovce",
+                "česky"
               ],
               "textCols": [
                 2
@@ -2670,47 +2670,47 @@
                 [
                   "constant",
                   "constamment",
-                  "constantly"
+                  "neustále"
                 ],
                 [
                   "évident",
                   "évidemment",
-                  "obviously"
+                  "zjevně"
                 ],
                 [
                   "récent",
                   "récemment",
-                  "recently"
+                  "nedávno"
                 ]
               ]
             },
             {
               "type": "tip",
-              "en": "*-amment* and *-emment* are pronounced the same. Irregular: *bon → bien, mauvais → mal, gentil → gentiment*."
+              "cs": "*-amment* a *-emment* se vyslovují stejně. Nepravidelné: *bon → bien, mauvais → mal, gentil → gentiment*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Parle lentement, s'il te plaît.",
-                  "en": "Speak slowly, please."
+                  "cs": "Mluv pomalu, prosím."
                 },
                 {
                   "fr": "Heureusement, il ne pleut pas.",
-                  "en": "Luckily it isn't raining."
+                  "cs": "Naštěstí neprší."
                 },
                 {
                   "fr": "C'est vraiment génial !",
-                  "en": "It's really great!"
+                  "cs": "To je fakt super!"
                 },
                 {
                   "fr": "Évidemment, j'ai gagné.",
-                  "en": "Obviously I won."
+                  "cs": "Samozřejmě jsem vyhrál."
                 }
               ]
             }
@@ -2721,7 +2721,7 @@
         {
           "id": "g-adverbs-ment-01",
           "type": "transform",
-          "task_en": "Form the adverb",
+          "task_cs": "Utvoř příslovce",
           "fr": "lent",
           "a": [
             "lentement"
@@ -2730,7 +2730,7 @@
         {
           "id": "g-adverbs-ment-02",
           "type": "transform",
-          "task_en": "Form the adverb",
+          "task_cs": "Utvoř příslovce",
           "fr": "heureux",
           "a": [
             "heureusement"
@@ -2739,7 +2739,7 @@
         {
           "id": "g-adverbs-ment-03",
           "type": "transform",
-          "task_en": "Form the adverb",
+          "task_cs": "Utvoř příslovce",
           "fr": "vrai",
           "a": [
             "vraiment"
@@ -2748,7 +2748,7 @@
         {
           "id": "g-adverbs-ment-04",
           "type": "transform",
-          "task_en": "Form the adverb",
+          "task_cs": "Utvoř příslovce",
           "fr": "évident",
           "a": [
             "évidemment"
@@ -2762,13 +2762,13 @@
             "lentement"
           ],
           "hint": "lent",
-          "en": "He drives slowly."
+          "cs": "Jezdí pomalu."
         }
       ]
     },
     {
       "id": "adverb-position",
-      "title": "Where the adverb goes",
+      "title": "Kam patří příslovce",
       "fr": "la place de l'adverbe",
       "level": "A2",
       "keywords": [
@@ -2792,11 +2792,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "An adverb that describes the verb stands **right after the conjugated verb**. English often puts it before the verb: \"I often play\" × *je joue souvent*."
+              "cs": "Příslovce, které popisuje sloveso, stojí **hned za časovaným slovesem**. Čeština ho často dává před sloveso: \"často hraju\" × *je joue souvent*."
             },
             {
               "type": "pattern",
@@ -2820,7 +2820,7 @@
                       "au foot."
                     ]
                   ],
-                  "en": "I often play football."
+                  "cs": "Často hraju fotbal."
                 },
                 {
                   "parts": [
@@ -2841,18 +2841,18 @@
                       "anglais."
                     ]
                   ],
-                  "en": "He speaks English well."
+                  "cs": "Mluví dobře anglicky."
                 }
               ]
             }
           ]
         },
         {
-          "title": "In compound tenses",
+          "title": "Ve složených časech",
           "blocks": [
             {
               "type": "text",
-              "en": "Short adverbs (*bien, mal, déjà, souvent, toujours, encore, beaucoup, trop, vite, jamais*) stand **between the auxiliary and the participle**."
+              "cs": "Krátká příslovce (*bien, mal, déjà, souvent, toujours, encore, beaucoup, trop, vite, jamais*) stojí **mezi pomocným slovesem a příčestím**."
             },
             {
               "type": "pattern",
@@ -2876,7 +2876,7 @@
                       "mangé."
                     ]
                   ],
-                  "en": "I ate well."
+                  "cs": "Dobře jsem se najedl."
                 },
                 {
                   "parts": [
@@ -2897,7 +2897,7 @@
                       "fini ?"
                     ]
                   ],
-                  "en": "Have you finished already?"
+                  "cs": "Už máš hotovo?"
                 },
                 {
                   "parts": [
@@ -2918,38 +2918,38 @@
                       "travaillé."
                     ]
                   ],
-                  "en": "We worked a lot."
+                  "cs": "Hodně jsme pracovali."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Time, place, long adverbs",
+          "title": "Čas, místo, dlouhá příslovce",
           "blocks": [
             {
               "type": "text",
-              "en": "Adverbs of time and place (*hier, demain, aujourd'hui, ici*) and long adverbs in *-ment* stand at the start or the end of the sentence: *Hier, j'ai joué. J'ai joué hier. Il a répondu rapidement.*"
+              "cs": "Příslovce času a místa (*hier, demain, aujourd'hui, ici*) a dlouhá příslovce na *-ment* stojí na začátku nebo na konci věty: *Hier, j'ai joué. J'ai joué hier. Il a répondu rapidement.*"
             },
             {
               "type": "tip",
-              "en": "With an infinitive, short adverbs go **before** the infinitive: *Il faut bien manger. Je vais vite finir.*"
+              "cs": "U infinitivu stojí krátká příslovce **před** infinitivem: *Il faut bien manger. Je vais vite finir.*"
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I often go to the cinema.",
+                  "cs": "Často chodím do kina.",
                   "wrong": "Je souvent vais au cinéma.",
                   "fr": "Je vais [[souvent]] au cinéma."
                 },
                 {
-                  "en": "I've already eaten.",
+                  "cs": "Už jsem jedl.",
                   "wrong": "J'ai mangé déjà.",
                   "fr": "J'ai [[déjà]] mangé."
                 }
@@ -2958,26 +2958,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il pleut beaucoup en novembre.",
-                  "en": "It rains a lot in November."
+                  "cs": "V listopadu hodně prší."
                 },
                 {
                   "fr": "Je n'ai jamais vu la mer.",
-                  "en": "I've never seen the sea."
+                  "cs": "Nikdy jsem neviděl moře."
                 },
                 {
                   "fr": "Tu as bien dormi ?",
-                  "en": "Did you sleep well?"
+                  "cs": "Spal jsi dobře?"
                 },
                 {
                   "fr": "Elle parle trop vite.",
-                  "en": "She talks too fast."
+                  "cs": "Mluví moc rychle."
                 }
               ]
             }
@@ -2988,7 +2988,7 @@
         {
           "id": "g-adverb-position-01",
           "type": "transform",
-          "task_en": "Add \"souvent\" in the right place",
+          "task_cs": "Přidej \"souvent\" na správné místo",
           "fr": "Je joue au tennis.",
           "a": [
             "Je joue souvent au tennis."
@@ -2997,7 +2997,7 @@
         {
           "id": "g-adverb-position-02",
           "type": "transform",
-          "task_en": "Add \"déjà\" in the right place",
+          "task_cs": "Přidej \"déjà\" na správné místo",
           "fr": "J'ai fini.",
           "a": [
             "J'ai déjà fini."
@@ -3006,7 +3006,7 @@
         {
           "id": "g-adverb-position-03",
           "type": "transform",
-          "task_en": "Add \"beaucoup\" in the right place",
+          "task_cs": "Přidej \"beaucoup\" na správné místo",
           "fr": "Nous avons travaillé.",
           "a": [
             "Nous avons beaucoup travaillé."
@@ -3015,7 +3015,7 @@
         {
           "id": "g-adverb-position-04",
           "type": "build",
-          "en": "You speak French well.",
+          "cs": "Mluvíš dobře francouzsky.",
           "a": [
             "Tu parles bien {|le }français."
           ]
@@ -3023,7 +3023,7 @@
         {
           "id": "g-adverb-position-05",
           "type": "order",
-          "en": "Did you sleep well?",
+          "cs": "Spal jsi dobře?",
           "a": [
             "Tu as bien dormi ?"
           ]
@@ -3032,7 +3032,7 @@
     },
     {
       "id": "adverbs-place-time",
-      "title": "Adverbs of place and time: ici, là, maintenant, déjà",
+      "title": "Příslovce místa a času: ici, là, maintenant, déjà",
       "fr": "les adverbes de lieu et de temps",
       "level": "A1",
       "keywords": [
@@ -3066,68 +3066,68 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Adverbs of **place** say *where* (*ici, là, là-bas, partout, ailleurs, dehors, dedans*). Adverbs of **time** say *when* (*maintenant, bientôt, demain, hier, aujourd'hui, déjà, encore, tôt, tard*). They **never change** and usually go **after the verb**, or at the **beginning or end** of the sentence."
+              "cs": "Příslovce **místa** říkají *kde* (*ici, là, là-bas, partout, ailleurs, dehors, dedans*). Příslovce **času** říkají *kdy* (*maintenant, bientôt, demain, hier, aujourd'hui, déjà, encore, tôt, tard*). **Nikdy se nemění** a obvykle stojí **za slovesem**, nebo **na začátku či na konci** věty."
             },
             {
               "type": "table",
               "head": [
-                "place",
-                "meaning",
-                "time",
-                "meaning"
+                "místo",
+                "význam",
+                "čas",
+                "význam"
               ],
               "rows": [
                 [
                   "ici",
-                  "here",
+                  "tady",
                   "maintenant",
-                  "now"
+                  "teď"
                 ],
                 [
                   "là",
-                  "there",
+                  "tam",
                   "bientôt",
-                  "soon"
+                  "brzy"
                 ],
                 [
                   "là-bas",
-                  "over there",
+                  "tamhle",
                   "tout de suite",
-                  "right away"
+                  "hned"
                 ],
                 [
                   "partout",
-                  "everywhere",
+                  "všude",
                   "tout à l'heure",
-                  "in a moment / a moment ago"
+                  "za chvíli / před chvílí"
                 ],
                 [
                   "ailleurs",
-                  "elsewhere",
+                  "jinde",
                   "aujourd'hui, hier, demain",
-                  "today, yesterday, tomorrow"
+                  "dnes, včera, zítra"
                 ],
                 [
                   "dehors, dedans",
-                  "outside, inside",
+                  "venku, uvnitř",
                   "avant, après",
-                  "before, after"
+                  "předtím, potom"
                 ],
                 [
                   "en haut, en bas",
-                  "upstairs, downstairs",
+                  "nahoře, dole",
                   "tôt, tard",
-                  "early, late"
+                  "brzy, pozdě"
                 ],
                 [
                   "devant, derrière",
-                  "in front, behind",
+                  "vpředu, vzadu",
                   "longtemps",
-                  "for a long time"
+                  "dlouho"
                 ]
               ],
               "textCols": [
@@ -3143,39 +3143,39 @@
             {
               "type": "table",
               "head": [
-                "adverb",
-                "meaning",
-                "example"
+                "příslovce",
+                "význam",
+                "příklad"
               ],
               "rows": [
                 [
                   "déjà",
-                  "already, ever",
+                  "už, někdy",
                   "Il est déjà parti. Tu as déjà mangé ?"
                 ],
                 [
                   "pas encore",
-                  "not yet",
+                  "ještě ne",
                   "Je n'ai pas encore fini."
                 ],
                 [
                   "encore",
-                  "again, still, more",
+                  "znovu, ještě, víc",
                   "Encore un café ? Il pleut encore."
                 ],
                 [
                   "toujours",
-                  "always, still",
+                  "vždycky, pořád",
                   "Il est toujours là."
                 ],
                 [
                   "ne ... plus",
-                  "no longer",
+                  "už ne",
                   "Il n'est plus là."
                 ],
                 [
                   "souvent, parfois, rarement",
-                  "often, sometimes, rarely",
+                  "často, někdy, zřídka",
                   "Je vais souvent au cinéma."
                 ]
               ],
@@ -3185,27 +3185,27 @@
             },
             {
               "type": "tip",
-              "en": "**Encore** means *again / still / more*: the sentence tells you which. **Toujours** is *always* and also *still*: *Il habite toujours ici.* (He still lives here)."
+              "cs": "**Encore** znamená *znovu / ještě / víc*: co přesně, poznáš z věty. **Toujours** je *vždycky* a taky *pořád*: *Il habite toujours ici.* (Pořád tady bydlí.)"
             }
           ]
         },
         {
-          "title": "Where they go",
+          "title": "Kam patří",
           "blocks": [
             {
               "type": "text",
-              "en": "Time and place adverbs of one word go **after the verb** in simple tenses: *Il arrive demain.* In the passé composé short adverbs (*déjà, bientôt, souvent, toujours*) go **between the auxiliary and the participle**; longer ones and place adverbs go after the participle."
+              "cs": "Jednoslovná příslovce času a místa stojí v jednoduchých časech **za slovesem**: *Il arrive demain.* V passé composé stojí krátká příslovce (*déjà, bientôt, souvent, toujours*) **mezi pomocným slovesem a příčestím**; delší a příslovce místa stojí za příčestím."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "He has already arrived.",
+                  "cs": "Už přijel.",
                   "wrong": "Il est arrivé déjà.",
                   "fr": "Il est [[déjà]] arrivé."
                 },
                 {
-                  "en": "We went there yesterday.",
+                  "cs": "Byli jsme tam včera.",
                   "wrong": "Nous avons hier allé.",
                   "fr": "Nous y sommes allés [[hier]]."
                 }
@@ -3216,45 +3216,45 @@
               "items": [
                 {
                   "fr": "Je vais souvent au cinéma.",
-                  "en": "I often go to the cinema."
+                  "cs": "Často chodím do kina."
                 },
                 {
                   "fr": "J'ai déjà fini.",
-                  "en": "I have already finished."
+                  "cs": "Už mám hotovo."
                 },
                 {
                   "fr": "Il est parti tôt.",
-                  "en": "He left early."
+                  "cs": "Odešel brzy."
                 },
                 {
                   "fr": "Elle habite ici.",
-                  "en": "She lives here."
+                  "cs": "Bydlí tady."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Viens ici !",
-                  "en": "Come here!"
+                  "cs": "Pojď sem!"
                 },
                 {
                   "fr": "Il fait froid dehors.",
-                  "en": "It's cold outside."
+                  "cs": "Venku je zima."
                 },
                 {
                   "fr": "À bientôt !",
-                  "en": "See you soon!"
+                  "cs": "Brzy na viděnou!"
                 },
                 {
                   "fr": "Je me couche tard le week-end.",
-                  "en": "I go to bed late at the weekend."
+                  "cs": "O víkendu chodím spát pozdě."
                 }
               ]
             }
@@ -3265,7 +3265,7 @@
         {
           "id": "g-adverbs-place-time-01",
           "type": "build",
-          "en": "Come here!",
+          "cs": "Pojď sem!",
           "a": [
             "Viens ici !",
             "Venez ici !"
@@ -3274,7 +3274,7 @@
         {
           "id": "g-adverbs-place-time-02",
           "type": "build",
-          "en": "It's cold outside.",
+          "cs": "Venku je zima.",
           "a": [
             "Il fait froid dehors."
           ]
@@ -3282,7 +3282,7 @@
         {
           "id": "g-adverbs-place-time-03",
           "type": "build",
-          "en": "He has already left.",
+          "cs": "Už odešel.",
           "a": [
             "Il est déjà parti."
           ]
@@ -3290,7 +3290,7 @@
         {
           "id": "g-adverbs-place-time-04",
           "type": "build",
-          "en": "I haven't finished yet.",
+          "cs": "Ještě nemám hotovo.",
           "a": [
             "Je n'ai pas encore fini."
           ]
@@ -3298,7 +3298,7 @@
         {
           "id": "g-adverbs-place-time-05",
           "type": "build",
-          "en": "See you soon!",
+          "cs": "Brzy na viděnou!",
           "a": [
             "À bientôt !"
           ]
@@ -3310,8 +3310,8 @@
           "a": [
             "déjà"
           ],
-          "hint": "already",
-          "en": "He has already left."
+          "hint": "už",
+          "cs": "Už odešel."
         },
         {
           "id": "g-adverbs-place-time-07",
@@ -3320,8 +3320,8 @@
           "a": [
             "tôt"
           ],
-          "hint": "early",
-          "en": "I get up early in the morning."
+          "hint": "brzy",
+          "cs": "Ráno vstávám brzy."
         },
         {
           "id": "g-adverbs-place-time-08",
@@ -3330,8 +3330,8 @@
           "a": [
             "encore"
           ],
-          "hint": "more",
-          "en": "Do you want more coffee?"
+          "hint": "víc",
+          "cs": "Chceš ještě kávu?"
         },
         {
           "id": "g-adverbs-place-time-09",
@@ -3340,14 +3340,14 @@
           "a": [
             "toujours"
           ],
-          "hint": "still",
-          "en": "He still lives here."
+          "hint": "pořád",
+          "cs": "Pořád tady bydlí."
         }
       ]
     },
     {
       "id": "intensity",
-      "title": "How much: très, trop, assez, un peu, tellement",
+      "title": "Kolik: très, trop, assez, un peu, tellement",
       "fr": "les adverbes d'intensité",
       "level": "A1",
       "levelTo": "A2",
@@ -3380,30 +3380,30 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Intensity adverbs say **how much**. Some go with **adjectives and adverbs** (*très grand, trop vite*), some with **verbs** (*beaucoup, tellement*), some with **nouns** (*beaucoup de, trop de*). The right one depends on the word that follows."
+              "cs": "Příslovce míry říkají **kolik**. Některá patří k **přídavným jménům a příslovcím** (*très grand, trop vite*), některá ke **slovesům** (*beaucoup, tellement*), některá k **podstatným jménům** (*beaucoup de, trop de*). Které je správně, záleží na slově, které následuje."
             },
             {
               "type": "table",
               "head": [
-                "adverb",
-                "with adjective / adverb",
-                "with verb",
-                "with noun"
+                "příslovce",
+                "s přídavným jménem / příslovcem",
+                "se slovesem",
+                "s podstatným jménem"
               ],
               "rows": [
                 [
                   "très",
                   "très grand",
-                  "(not alone)",
-                  "no"
+                  "(ne samostatně)",
+                  "ne"
                 ],
                 [
                   "beaucoup",
-                  "no (use très)",
+                  "ne (použij très)",
                   "J'aime beaucoup.",
                   "beaucoup de temps"
                 ],
@@ -3442,27 +3442,27 @@
           ]
         },
         {
-          "title": "Très or beaucoup?",
+          "title": "Très, nebo beaucoup?",
           "blocks": [
             {
               "type": "text",
-              "en": "**Très** modifies an **adjective or adverb**: *très bien, très cher*. **Beaucoup** modifies a **verb**: *J'aime beaucoup.* Before a noun use **beaucoup de**: *beaucoup d'amis*. Never *très beaucoup* or *beaucoup bon*."
+              "cs": "**Très** rozvíjí **přídavné jméno nebo příslovce**: *très bien, très cher*. **Beaucoup** rozvíjí **sloveso**: *J'aime beaucoup.* Před podstatným jménem použij **beaucoup de**: *beaucoup d'amis*. Nikdy *très beaucoup* ani *beaucoup bon*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "It's very good.",
+                  "cs": "Je to moc dobré.",
                   "wrong": "C'est beaucoup bon.",
                   "fr": "C'est [[très]] bon."
                 },
                 {
-                  "en": "I like it a lot.",
+                  "cs": "Moc se mi to líbí.",
                   "wrong": "J'aime très.",
                   "fr": "J'aime [[beaucoup]]."
                 },
                 {
-                  "en": "a lot of friends",
+                  "cs": "hodně kamarádů",
                   "wrong": "beaucoup amis",
                   "fr": "beaucoup [[d']]amis"
                 }
@@ -3471,74 +3471,74 @@
           ]
         },
         {
-          "title": "Trop and assez",
+          "title": "Trop a assez",
           "blocks": [
             {
               "type": "text",
-              "en": "**Trop** (too, too much) and **assez** (enough) work in all three ways. **Assez** goes **before the adjective** but **after the verb**: *assez grand, il mange assez*. After a negation *assez* is the opposite of *trop*: *Il n'est pas assez grand* (not tall enough)."
+              "cs": "**Trop** (příliš) a **assez** (dost) fungují všemi třemi způsoby. **Assez** stojí **před přídavným jménem**, ale **za slovesem**: *assez grand, il mange assez*. Po záporu je *assez* opakem *trop*: *Il n'est pas assez grand* (není dost vysoký)."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il est trop fatigué pour sortir.",
-                  "en": "He's too tired to go out."
+                  "cs": "Je moc unavený, aby šel ven."
                 },
                 {
                   "fr": "Nous n'avons pas assez d'argent.",
-                  "en": "We don't have enough money."
+                  "cs": "Nemáme dost peněz."
                 },
                 {
                   "fr": "C'est un peu cher.",
-                  "en": "It's a bit expensive."
+                  "cs": "Je to trochu drahé."
                 },
                 {
                   "fr": "J'ai tellement faim !",
-                  "en": "I'm so hungry!"
+                  "cs": "Mám takový hlad!"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Softeners and boosters",
+          "title": "Zmírňování a zesilování",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "word",
-                "meaning",
-                "example"
+                "slovo",
+                "význam",
+                "příklad"
               ],
               "rows": [
                 [
                   "plutôt",
-                  "rather",
+                  "spíš",
                   "C'est plutôt facile."
                 ],
                 [
                   "assez",
-                  "quite",
+                  "docela",
                   "Il est assez sympa."
                 ],
                 [
                   "vraiment",
-                  "really",
+                  "opravdu",
                   "Il est vraiment gentil."
                 ],
                 [
                   "presque",
-                  "almost",
+                  "skoro",
                   "Il est presque midi."
                 ],
                 [
                   "à peine",
-                  "hardly",
+                  "sotva",
                   "Il est à peine sept heures."
                 ],
                 [
                   "tout à fait",
-                  "completely",
+                  "úplně",
                   "Je suis tout à fait d'accord."
                 ]
               ],
@@ -3549,26 +3549,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il fait très chaud aujourd'hui.",
-                  "en": "It's very hot today."
+                  "cs": "Dnes je velké horko."
                 },
                 {
                   "fr": "Elle parle beaucoup.",
-                  "en": "She talks a lot."
+                  "cs": "Hodně mluví."
                 },
                 {
                   "fr": "Tu as assez de temps ?",
-                  "en": "Do you have enough time?"
+                  "cs": "Máš dost času?"
                 },
                 {
                   "fr": "Il y a trop de monde ici.",
-                  "en": "There are too many people here."
+                  "cs": "Je tu moc lidí."
                 }
               ]
             }
@@ -3579,7 +3579,7 @@
         {
           "id": "g-intensity-01",
           "type": "build",
-          "en": "It's very good.",
+          "cs": "Je to moc dobré.",
           "a": [
             "C'est très bon."
           ]
@@ -3587,7 +3587,7 @@
         {
           "id": "g-intensity-02",
           "type": "build",
-          "en": "I like it a lot.",
+          "cs": "Moc se mi to líbí.",
           "a": [
             "J'aime beaucoup."
           ]
@@ -3595,7 +3595,7 @@
         {
           "id": "g-intensity-03",
           "type": "build",
-          "en": "There are too many people.",
+          "cs": "Je tu moc lidí.",
           "a": [
             "Il y a trop de monde.",
             "Il y a trop de gens."
@@ -3604,7 +3604,7 @@
         {
           "id": "g-intensity-04",
           "type": "build",
-          "en": "We don't have enough money.",
+          "cs": "Nemáme dost peněz.",
           "a": [
             "Nous n'avons pas assez d'argent.",
             "On n'a pas assez d'argent."
@@ -3617,8 +3617,8 @@
           "a": [
             "très"
           ],
-          "hint": "very",
-          "en": "He is very tired."
+          "hint": "velmi",
+          "cs": "Je hodně unavený."
         },
         {
           "id": "g-intensity-06",
@@ -3627,7 +3627,7 @@
           "a": [
             "beaucoup"
           ],
-          "en": "She eats a lot."
+          "cs": "Hodně jí."
         },
         {
           "id": "g-intensity-07",
@@ -3636,7 +3636,7 @@
           "a": [
             "trop"
           ],
-          "en": "There's too much noise."
+          "cs": "Je tu moc hluku."
         },
         {
           "id": "g-intensity-08",
@@ -3645,8 +3645,8 @@
           "a": [
             "plutôt"
           ],
-          "hint": "rather",
-          "en": "It's rather difficult."
+          "hint": "spíš",
+          "cs": "Je to docela těžké."
         },
         {
           "id": "g-intensity-09",
@@ -3656,14 +3656,14 @@
             "tellement",
             "si"
           ],
-          "hint": "so",
-          "en": "I'm so hungry!"
+          "hint": "tak",
+          "cs": "Mám takový hlad!"
         }
       ]
     },
     {
       "id": "frequency",
-      "title": "How often: toujours, souvent, jamais",
+      "title": "Jak často: toujours, souvent, jamais",
       "fr": "la fréquence",
       "level": "A1",
       "keywords": [
@@ -3691,13 +3691,13 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 1
@@ -3705,44 +3705,44 @@
               "rows": [
                 [
                   "toujours",
-                  "always"
+                  "vždycky"
                 ],
                 [
                   "d'habitude",
-                  "usually"
+                  "obvykle"
                 ],
                 [
                   "souvent",
-                  "often"
+                  "často"
                 ],
                 [
                   "parfois, quelquefois",
-                  "sometimes"
+                  "někdy"
                 ],
                 [
                   "rarement",
-                  "rarely"
+                  "zřídka"
                 ],
                 [
                   "ne... jamais",
-                  "never"
+                  "nikdy"
                 ]
               ]
             },
             {
               "type": "text",
-              "en": "These short adverbs go **after the verb**: *Je joue souvent.* Only *d'habitude* is often at the start of the sentence."
+              "cs": "Tato krátká příslovce stojí **za slovesem**: *Je joue souvent.* Jen *d'habitude* bývá často na začátku věty."
             }
           ]
         },
         {
-          "title": "Expressions with time",
+          "title": "Časové výrazy",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 1
@@ -3750,33 +3750,33 @@
               "rows": [
                 [
                   "tous les jours",
-                  "every day"
+                  "každý den"
                 ],
                 [
                   "toutes les semaines",
-                  "every week"
+                  "každý týden"
                 ],
                 [
                   "une fois par semaine",
-                  "once a week"
+                  "jednou týdně"
                 ],
                 [
                   "deux fois par mois",
-                  "twice a month"
+                  "dvakrát měsíčně"
                 ],
                 [
                   "le lundi",
-                  "on Mondays"
+                  "v pondělí (každé)"
                 ],
                 [
                   "le week-end",
-                  "at weekends"
+                  "o víkendech"
                 ]
               ]
             },
             {
               "type": "text",
-              "en": "These expressions go at the start or at the end of the sentence."
+              "cs": "Tyto výrazy stojí na začátku nebo na konci věty."
             }
           ]
         },
@@ -3785,13 +3785,13 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Jamais* needs *ne* before the verb, just like *pas*."
+              "cs": "*Jamais* potřebuje před slovesem *ne*, stejně jako *pas*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I never play golf.",
+                  "cs": "Nikdy nehraju golf.",
                   "wrong": "Je jamais joue au golf.",
                   "fr": "Je [[ne]] joue [[jamais]] au golf."
                 }
@@ -3806,30 +3806,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je joue au basket trois fois par semaine.",
-                  "en": "I play basketball three times a week."
+                  "cs": "Hraju basketbal třikrát týdně."
                 },
                 {
                   "fr": "Je suis toujours en retard.",
-                  "en": "I'm always late."
+                  "cs": "Vždycky přijdu pozdě."
                 },
                 {
                   "fr": "On va parfois au cinéma.",
-                  "en": "We sometimes go to the cinema."
+                  "cs": "Občas jdeme do kina."
                 },
                 {
                   "fr": "D'habitude, je me lève à sept heures.",
-                  "en": "I usually get up at seven."
+                  "cs": "Obvykle vstávám v sedm."
                 },
                 {
                   "fr": "Il ne fait jamais ses devoirs.",
-                  "en": "He never does his homework."
+                  "cs": "Nikdy si nedělá úkoly."
                 }
               ]
             }
@@ -3840,7 +3840,7 @@
         {
           "id": "g-frequency-01",
           "type": "build",
-          "en": "I often play video games.",
+          "cs": "Často hraju videohry.",
           "a": [
             "Je joue souvent aux jeux vidéo."
           ]
@@ -3848,7 +3848,7 @@
         {
           "id": "g-frequency-02",
           "type": "build",
-          "en": "I never eat fish.",
+          "cs": "Nikdy nejím ryby.",
           "a": [
             "Je ne mange jamais de poisson."
           ]
@@ -3856,7 +3856,7 @@
         {
           "id": "g-frequency-03",
           "type": "build",
-          "en": "I play basketball twice a week.",
+          "cs": "Hraju basketbal dvakrát týdně.",
           "a": [
             "Je joue au basket deux fois par semaine."
           ]
@@ -3864,7 +3864,7 @@
         {
           "id": "g-frequency-04",
           "type": "transform",
-          "task_en": "Add \"toujours\" in the right place",
+          "task_cs": "Přidej \"toujours\" na správné místo",
           "fr": "Il est en retard.",
           "a": [
             "Il est toujours en retard."
@@ -3897,26 +3897,26 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "singular",
-                "plural"
+                "jednotné číslo",
+                "množné číslo"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "masculine",
+                  "mužský rod",
                   "tout",
                   "tous"
                 ],
                 [
-                  "feminine",
+                  "ženský rod",
                   "toute",
                   "toutes"
                 ]
@@ -3924,13 +3924,13 @@
             },
             {
               "type": "text",
-              "en": "Before a noun with an article it means \"whole, all, every\" and agrees with it."
+              "cs": "Před podstatným jménem se členem znamená \"celý, všichni, každý\" a shoduje se s ním."
             },
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 1
@@ -3938,51 +3938,51 @@
               "rows": [
                 [
                   "tout le gâteau",
-                  "the whole cake"
+                  "celý dort"
                 ],
                 [
                   "toute la journée",
-                  "all day"
+                  "celý den"
                 ],
                 [
                   "tous les élèves",
-                  "all the pupils"
+                  "všichni žáci"
                 ],
                 [
                   "toutes les semaines",
-                  "every week"
+                  "každý týden"
                 ],
                 [
                   "tout le monde",
-                  "everyone"
+                  "všichni"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "As a pronoun",
+          "title": "Jako zájmeno",
           "blocks": [
             {
               "type": "text",
-              "en": "On its own *tout* = everything: *Tout va bien. C'est tout. J'ai tout compris.* On its own *tous* (all of them) is pronounced with an *s* at the end: *Ils sont tous là.*"
+              "cs": "Samotné *tout* = všechno: *Tout va bien. C'est tout. J'ai tout compris.* Samotné *tous* (všichni) se vyslovuje se *s* na konci: *Ils sont tous là.*"
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Everyone is here.",
+                  "cs": "Všichni jsou tady.",
                   "wrong": "Tous le monde sont là.",
                   "fr": "[[Tout le monde]] est là.",
-                  "note": "*Tout le monde* is singular: *tout le monde est*."
+                  "note": "*Tout le monde* je v jednotném čísle: *tout le monde est*."
                 },
                 {
-                  "en": "all week",
+                  "cs": "celý týden",
                   "wrong": "tout la semaine",
                   "fr": "[[toute]] la semaine"
                 }
@@ -3991,30 +3991,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je joue tous les jours.",
-                  "en": "I play every day."
+                  "cs": "Hraju každý den."
                 },
                 {
                   "fr": "Il a mangé toute la pizza.",
-                  "en": "He ate the whole pizza."
+                  "cs": "Snědl celou pizzu."
                 },
                 {
                   "fr": "Toutes mes amies sont là.",
-                  "en": "All my friends (girls) are here."
+                  "cs": "Všechny moje kamarádky jsou tady."
                 },
                 {
                   "fr": "Tout le monde aime les vacances.",
-                  "en": "Everyone loves holidays."
+                  "cs": "Všichni milují prázdniny."
                 },
                 {
                   "fr": "C'est tout pour aujourd'hui.",
-                  "en": "That's all for today."
+                  "cs": "To je pro dnešek všechno."
                 }
               ]
             }
@@ -4029,7 +4029,7 @@
           "a": [
             "toute"
           ],
-          "en": "I worked all day."
+          "cs": "Pracoval jsem celý den."
         },
         {
           "id": "g-tout-02",
@@ -4038,7 +4038,7 @@
           "a": [
             "Tous"
           ],
-          "en": "All the pupils are here."
+          "cs": "Všichni žáci jsou tady."
         },
         {
           "id": "g-tout-03",
@@ -4047,7 +4047,7 @@
           "a": [
             "Tout"
           ],
-          "en": "Everyone is happy."
+          "cs": "Všichni jsou spokojení."
         },
         {
           "id": "g-tout-04",
@@ -4056,12 +4056,12 @@
           "a": [
             "toutes"
           ],
-          "en": "I go to the park every week."
+          "cs": "Do parku chodím každý týden."
         },
         {
           "id": "g-tout-05",
           "type": "build",
-          "en": "That's all.",
+          "cs": "To je všechno.",
           "a": [
             "C'est tout."
           ]

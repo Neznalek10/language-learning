@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": "verbs-overview",
-      "title": "How verbs are divided",
+      "title": "Jak se dělí slovesa",
       "fr": "les groupes de verbes",
       "level": "A1",
       "keywords": [
@@ -32,45 +32,45 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "French verbs fall into three groups, according to the ending of the infinitive. The group tells you whether a verb is conjugated by a rule or whether you have to learn it by heart."
+              "cs": "Francouzská slovesa se dělí do tří tříd podle koncovky infinitivu. Třída ti řekne, jestli se sloveso časuje podle pravidla, nebo jestli se ho musíš naučit nazpaměť."
             },
             {
               "type": "tree",
               "items": [
                 {
-                  "label": "1st group: *-er*",
-                  "en": "*parler, jouer, aimer*. About 9 verbs in 10, all regular (except *aller*).",
+                  "label": "1. třída: *-er*",
+                  "cs": "*parler, jouer, aimer*. Asi 9 sloves z 10, všechna pravidelná (kromě *aller*).",
                   "see": "er-verbs"
                 },
                 {
-                  "label": "2nd group: *-ir* like *finir*",
-                  "en": "*finir, choisir, réussir*. Regular, with *-iss-* in the plural: *nous finissons*.",
+                  "label": "2. třída: *-ir* jako *finir*",
+                  "cs": "*finir, choisir, réussir*. Pravidelná, s *-iss-* v množném čísle: *nous finissons*.",
                   "see": "ir-verbs"
                 },
                 {
-                  "label": "3rd group: everything else",
-                  "en": "irregular verbs, which you learn in families",
+                  "label": "3. třída: všechno ostatní",
+                  "cs": "nepravidelná slovesa, která se učíš po rodinách",
                   "see": "irregular-more",
                   "children": [
                     {
-                      "label": "*-ir* without *-iss-*",
-                      "en": "*partir, sortir, dormir, venir*"
+                      "label": "*-ir* bez *-iss-*",
+                      "cs": "*partir, sortir, dormir, venir*"
                     },
                     {
                       "label": "*-re*",
-                      "en": "*prendre, attendre, vendre, mettre, dire, lire*"
+                      "cs": "*prendre, attendre, vendre, mettre, dire, lire*"
                     },
                     {
                       "label": "*-oir*",
-                      "en": "*pouvoir, vouloir, savoir, voir, devoir*"
+                      "cs": "*pouvoir, vouloir, savoir, voir, devoir*"
                     },
                     {
                       "label": "*être, avoir, aller, faire*",
-                      "en": "the four most important ones",
+                      "cs": "čtyři nejdůležitější",
                       "see": "irregular-core"
                     }
                   ]
@@ -79,20 +79,20 @@
             },
             {
               "type": "tip",
-              "title": "New verbs",
-              "en": "Verbs that are added to the language are almost always in *-er*: *googler, liker, streamer*."
+              "title": "Nová slovesa",
+              "cs": "Slovesa, která do jazyka přibývají, jsou skoro vždycky na *-er*: *googler, liker, streamer*."
             }
           ]
         },
         {
-          "title": "Other divisions",
+          "title": "Další dělení",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "kind",
-                "what it means",
-                "example"
+                "druh",
+                "co to znamená",
+                "příklad"
               ],
               "textCols": [
                 0,
@@ -100,23 +100,23 @@
               ],
               "rows": [
                 [
-                  "reflexive",
-                  "have the pronoun *se* and use *être* in the past",
+                  "zvratná",
+                  "mají zájmeno *se* a v minulém čase používají *être*",
                   "se lever, s'appeler"
                 ],
                 [
-                  "auxiliary",
-                  "*avoir* and *être* build compound tenses",
+                  "pomocná",
+                  "*avoir* a *être* tvoří složené časy",
                   "j'ai mangé, je suis allé"
                 ],
                 [
-                  "modal",
-                  "combine with an infinitive",
+                  "způsobová",
+                  "pojí se s infinitivem",
                   "je peux venir"
                 ],
                 [
-                  "impersonal",
-                  "have only the subject *il*",
+                  "neosobní",
+                  "mají jen podmět *il*",
                   "il pleut, il faut"
                 ]
               ]
@@ -124,46 +124,46 @@
           ]
         },
         {
-          "title": "Telling the group of an -ir verb",
+          "title": "Jak poznat třídu slovesa na -ir",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "to finish → we finish",
+                  "cs": "skončit → končíme",
                   "fr": "fin[[ir]] → nous fin[[iss]]ons",
-                  "note": "It has *-iss-*, so it is 2nd group."
+                  "note": "Má *-iss-*, takže je to 2. třída."
                 },
                 {
-                  "en": "to leave → we leave",
+                  "cs": "odejít → odcházíme",
                   "fr": "part[[ir]] → nous part[[ons]]",
-                  "note": "No *-iss-*, so it is 3rd group. With *-ir* verbs you have to learn which is which."
+                  "note": "Žádné *-iss-*, takže je to 3. třída. U sloves na *-ir* se musíš naučit, které je které."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je parle français.",
-                  "en": "I speak French. (1st group)"
+                  "cs": "Mluvím francouzsky. (1. třída)"
                 },
                 {
                   "fr": "Le cours finit à midi.",
-                  "en": "The lesson ends at noon. (2nd group)"
+                  "cs": "Hodina končí v poledne. (2. třída)"
                 },
                 {
                   "fr": "Nous prenons le bus.",
-                  "en": "We take the bus. (3rd group)"
+                  "cs": "Jedeme autobusem. (3. třída)"
                 },
                 {
                   "fr": "Ils font du sport.",
-                  "en": "They do sport. (3rd group)"
+                  "cs": "Sportují. (3. třída)"
                 }
               ]
             }
@@ -200,7 +200,7 @@
             "finissons"
           ],
           "hint": "finir",
-          "en": "We are finishing our homework."
+          "cs": "Dodělávám úkoly."
         },
         {
           "id": "g-verbs-overview-05",
@@ -210,13 +210,13 @@
             "prennent"
           ],
           "hint": "prendre",
-          "en": "They take the train."
+          "cs": "Jedou vlakem."
         }
       ]
     },
     {
       "id": "conjugation-basics",
-      "title": "Conjugation: persons and endings",
+      "title": "Časování: osoby a koncovky",
       "fr": "la conjugaison",
       "level": "A1",
       "keywords": [
@@ -245,18 +245,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The **infinitive** is the basic form (*parler* = to speak). To conjugate, you cut off the ending and add an ending to the **stem** according to the person: *parl-er → je parl-e, nous parl-ons*."
+              "cs": "**Infinitiv** je základní tvar (*parler* = mluvit). Při časování odtrhneš koncovku a ke **kmeni** přidáš koncovku podle osoby: *parl-er → je parl-e, nous parl-ons*."
             },
             {
               "type": "table",
               "head": [
-                "person",
-                "pronoun",
-                "English"
+                "osoba",
+                "zájmeno",
+                "česky"
               ],
               "textCols": [
                 0,
@@ -264,45 +264,45 @@
               ],
               "rows": [
                 [
-                  "1st singular",
+                  "1. os. j. č.",
                   "je",
-                  "I"
+                  "já"
                 ],
                 [
-                  "2nd singular",
+                  "2. os. j. č.",
                   "tu",
-                  "you"
+                  "ty"
                 ],
                 [
-                  "3rd singular",
+                  "3. os. j. č.",
                   "il, elle, on",
-                  "he, she, one"
+                  "on, ona, člověk (se)"
                 ],
                 [
-                  "1st plural",
+                  "1. os. mn. č.",
                   "nous",
-                  "we"
+                  "my"
                 ],
                 [
-                  "2nd plural",
+                  "2. os. mn. č.",
                   "vous",
-                  "you (pl.)"
+                  "vy"
                 ],
                 [
-                  "3rd plural",
+                  "3. os. mn. č.",
                   "ils, elles",
-                  "they"
+                  "oni, ony"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "What you can hear",
+          "title": "Co je slyšet",
           "blocks": [
             {
               "type": "text",
-              "en": "Many endings are **written but not pronounced**. With *-er* verbs, *je parle, tu parles, il parle, ils parlent* sound identical. That is why the pronoun is compulsory, and why you learn the endings mainly for writing."
+              "cs": "Spousta koncovek se **píše, ale nevyslovuje**. U sloves na *-er* znějí *je parle, tu parles, il parle, ils parlent* úplně stejně. Proto je zájmeno povinné a koncovky se učíš hlavně kvůli psaní."
             },
             {
               "type": "table",
@@ -311,16 +311,16 @@
             },
             {
               "type": "tip",
-              "en": "The ending *-ent* in the 3rd person plural of verbs is **always silent**: *ils parlent* sounds like *il parle*."
+              "cs": "Koncovka *-ent* ve 3. osobě množného čísla sloves je **vždycky němá**: *ils parlent* zní jako *il parle*."
             }
           ]
         },
         {
-          "title": "Simple and compound tenses",
+          "title": "Jednoduché a složené časy",
           "blocks": [
             {
               "type": "text",
-              "en": "Tenses are **simple** (one word: *je parle, je parlais, je parlerai*) or **compound** (auxiliary + participle: *j'ai parlé*). Compound tenses are built on *avoir* and *être*, so you need to know those best."
+              "cs": "Časy jsou **jednoduché** (jedno slovo: *je parle, je parlais, je parlerai*) nebo **složené** (pomocné sloveso + příčestí: *j'ai parlé*). Složené časy stojí na *avoir* a *être*, takže ty potřebuješ znát nejlíp."
             },
             {
               "type": "see",
@@ -332,26 +332,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je travaille le samedi.",
-                  "en": "I work on Saturdays."
+                  "cs": "V sobotu pracuju."
                 },
                 {
                   "fr": "Tu travailles beaucoup.",
-                  "en": "You work a lot."
+                  "cs": "Hodně pracuješ."
                 },
                 {
                   "fr": "Nous travaillons ensemble.",
-                  "en": "We work together."
+                  "cs": "Pracujeme spolu."
                 },
                 {
                   "fr": "Ils travaillent à Prague.",
-                  "en": "They work in Prague."
+                  "cs": "Pracují v Praze."
                 }
               ]
             }
@@ -367,7 +367,7 @@
             "jouent"
           ],
           "hint": "jouer",
-          "en": "They play tennis."
+          "cs": "Hrají tenis."
         },
         {
           "id": "g-conjugation-basics-02",
@@ -377,7 +377,7 @@
             "parlez"
           ],
           "hint": "parler",
-          "en": "Do you speak French?"
+          "cs": "Mluvíš francouzsky?"
         },
         {
           "id": "g-conjugation-basics-03",
@@ -394,13 +394,13 @@
             "regardons"
           ],
           "hint": "regarder",
-          "en": "We watch TV."
+          "cs": "Díváme se na televizi."
         }
       ]
     },
     {
       "id": "er-verbs",
-      "title": "Verbs in -er",
+      "title": "Slovesa na -er",
       "fr": "les verbes en -er",
       "level": "A1",
       "keywords": [
@@ -431,11 +431,11 @@
       "tense": "present",
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "About 9 in 10 French verbs end in *-er*, and they are conjugated completely regularly: cut off *-er* and add *-e, -es, -e, -ons, -ez, -ent*."
+              "cs": "Asi 9 z 10 francouzských sloves končí na *-er* a časují se úplně pravidelně: odtrhni *-er* a přidej *-e, -es, -e, -ons, -ez, -ent*."
             },
             {
               "type": "table",
@@ -445,20 +445,20 @@
           ]
         },
         {
-          "title": "Pronunciation",
+          "title": "Výslovnost",
           "blocks": [
             {
               "type": "text",
-              "en": "Only *-ons* and *-ez* are audible. The other endings are silent, so *je joue, tu joues, il joue, ils jouent* sound the same."
+              "cs": "Slyšet jsou jen *-ons* a *-ez*. Ostatní koncovky jsou němé, takže *je joue, tu joues, il joue, ils jouent* znějí stejně."
             }
           ]
         },
         {
-          "title": "Before a vowel",
+          "title": "Před samohláskou",
           "blocks": [
             {
               "type": "text",
-              "en": "With verbs that begin with a vowel or a silent *h*, *je* shortens to *j'* and in the plural there is a liaison: *j'aime, nous‿aimons, ils‿aiment*."
+              "cs": "U sloves, která začínají samohláskou nebo němým *h*, se *je* zkracuje na *j'* a v množném čísle se váže: *j'aime, nous‿aimons, ils‿aiment*."
             },
             {
               "type": "table",
@@ -467,8 +467,8 @@
             },
             {
               "type": "tip",
-              "title": "Exception",
-              "en": "*Aller* ends in *-er* but is completely irregular: *je vais, tu vas, il va...*"
+              "title": "Výjimka",
+              "cs": "*Aller* končí na *-er*, ale je úplně nepravidelné: *je vais, tu vas, il va...*"
             },
             {
               "type": "see",
@@ -480,30 +480,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'habite à Prague.",
-                  "en": "I live in Prague."
+                  "cs": "Bydlím v Praze."
                 },
                 {
                   "fr": "Tu écoutes de la musique ?",
-                  "en": "Are you listening to music?"
+                  "cs": "Posloucháš hudbu?"
                 },
                 {
                   "fr": "Nous regardons un film.",
-                  "en": "We are watching a film."
+                  "cs": "Díváme se na film."
                 },
                 {
                   "fr": "Vous travaillez où ?",
-                  "en": "Where do you work?"
+                  "cs": "Kde pracuješ?"
                 },
                 {
                   "fr": "Elles dansent bien.",
-                  "en": "They dance well."
+                  "cs": "Tancují dobře."
                 }
               ]
             }
@@ -519,7 +519,7 @@
             "joue"
           ],
           "hint": "jouer",
-          "en": "I play basketball."
+          "cs": "Hraju basketbal."
         },
         {
           "id": "g-er-verbs-02",
@@ -529,7 +529,7 @@
             "aimons"
           ],
           "hint": "aimer",
-          "en": "We like French."
+          "cs": "Máme rádi francouzštinu."
         },
         {
           "id": "g-er-verbs-03",
@@ -539,7 +539,7 @@
             "habitent"
           ],
           "hint": "habiter",
-          "en": "They live in Lyon."
+          "cs": "Bydlí v Lyonu."
         },
         {
           "id": "g-er-verbs-04",
@@ -550,7 +550,7 @@
         {
           "id": "g-er-verbs-05",
           "type": "build",
-          "en": "Are you listening to music?",
+          "cs": "Posloucháš hudbu?",
           "a": [
             "Tu écoutes de la musique ?",
             "Est-ce que tu écoutes de la musique ?"
@@ -560,7 +560,7 @@
     },
     {
       "id": "er-spelling",
-      "title": "Spelling changes in -er verbs",
+      "title": "Pravopisné změny u sloves na -er",
       "fr": "les particularités des verbes en -er",
       "level": "A1",
       "levelTo": "A2",
@@ -597,18 +597,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Some *-er* verbs have regular endings, but their spelling changes inside the stem so that the pronunciation stays right."
+              "cs": "Některá slovesa na *-er* mají pravidelné koncovky, ale uvnitř kmene se jim mění pravopis, aby výslovnost zůstala správná."
             },
             {
               "type": "table",
               "head": [
-                "type",
-                "what happens",
-                "example"
+                "typ",
+                "co se děje",
+                "příklad"
               ],
               "textCols": [
                 0,
@@ -617,27 +617,27 @@
               "rows": [
                 [
                   "-ger",
-                  "with *nous* the *e* stays, so *g* sounds soft",
+                  "u *nous* zůstává *e*, aby *g* znělo měkce",
                   "nous mangeons"
                 ],
                 [
                   "-cer",
-                  "with *nous* the *c* becomes *ç*",
+                  "u *nous* se *c* mění na *ç*",
                   "nous commençons"
                 ],
                 [
-                  "e, é in the stem",
-                  "before a silent ending it becomes *è*",
+                  "e, é v kmeni",
+                  "před němou koncovkou se mění na *è*",
                   "j'achète, je préfère"
                 ],
                 [
                   "-eler, -eter",
-                  "the consonant doubles before a silent ending",
+                  "před němou koncovkou se souhláska zdvojuje",
                   "je m'appelle, je jette"
                 ],
                 [
                   "-yer",
-                  "*y → i* before a silent ending",
+                  "*y → i* před němou koncovkou",
                   "je paie, j'envoie"
                 ]
               ]
@@ -645,11 +645,11 @@
           ]
         },
         {
-          "title": "-ger and -cer",
+          "title": "-ger a -cer",
           "blocks": [
             {
               "type": "text",
-              "en": "Without the *e*, *nous mangons* would be read with a hard *g*. Without *ç*, *nous commencons* would be read with a *k*."
+              "cs": "Bez *e* by se *nous mangons* četlo s tvrdým *g*. Bez *ç* by se *nous commencons* četlo s *k*."
             },
             {
               "type": "table",
@@ -664,11 +664,11 @@
           ]
         },
         {
-          "title": "A change in the stem",
+          "title": "Změna v kmeni",
           "blocks": [
             {
               "type": "text",
-              "en": "The change happens only where the ending is **silent** (*je, tu, il, ils*). With *nous* and *vous* the stem stays as in the infinitive: *nous achetons, vous préférez*."
+              "cs": "Změna nastává jen tam, kde je koncovka **němá** (*je, tu, il, ils*). U *nous* a *vous* zůstává kmen jako v infinitivu: *nous achetons, vous préférez*."
             },
             {
               "type": "table",
@@ -692,7 +692,7 @@
           "blocks": [
             {
               "type": "text",
-              "en": "With *-yer*, the *y* becomes *i* before a silent ending. With *payer* both forms are correct: *je paie* and *je paye*."
+              "cs": "U *-yer* se *y* před němou koncovkou mění na *i*. U *payer* jsou správně oba tvary: *je paie* i *je paye*."
             },
             {
               "type": "table",
@@ -702,30 +702,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Nous mangeons à midi.",
-                  "en": "We eat at noon."
+                  "cs": "Jíme v poledne."
                 },
                 {
                   "fr": "Nous commençons demain.",
-                  "en": "We start tomorrow."
+                  "cs": "Začínáme zítra."
                 },
                 {
                   "fr": "J'achète du pain.",
-                  "en": "I'm buying bread."
+                  "cs": "Kupuju chleba."
                 },
                 {
                   "fr": "Je préfère le chocolat.",
-                  "en": "I prefer chocolate."
+                  "cs": "Mám radši čokoládu."
                 },
                 {
                   "fr": "Comment tu t'appelles ?",
-                  "en": "What's your name?"
+                  "cs": "Jak se jmenuješ?"
                 }
               ]
             }
@@ -741,7 +741,7 @@
             "mangeons"
           ],
           "hint": "manger",
-          "en": "We are eating a pizza."
+          "cs": "Jíme pizzu."
         },
         {
           "id": "g-er-spelling-02",
@@ -751,7 +751,7 @@
             "commençons"
           ],
           "hint": "commencer",
-          "en": "We start at eight."
+          "cs": "Začínáme v osm."
         },
         {
           "id": "g-er-spelling-03",
@@ -761,7 +761,7 @@
             "achète"
           ],
           "hint": "acheter",
-          "en": "I'm buying trainers."
+          "cs": "Kupuju si tenisky."
         },
         {
           "id": "g-er-spelling-04",
@@ -771,7 +771,7 @@
             "préfères"
           ],
           "hint": "préférer",
-          "en": "Do you prefer tea or coffee?"
+          "cs": "Dáš si radši čaj, nebo kávu?"
         },
         {
           "id": "g-er-spelling-05",
@@ -781,13 +781,13 @@
             "appelle"
           ],
           "hint": "s'appeler",
-          "en": "My name is Hugo."
+          "cs": "Jmenuju se Hugo."
         }
       ]
     },
     {
       "id": "ir-verbs",
-      "title": "Verbs in -ir (finir)",
+      "title": "Slovesa na -ir (finir)",
       "fr": "les verbes du deuxième groupe",
       "level": "A1",
       "keywords": [
@@ -814,11 +814,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Verbs of the 2nd group end in *-ir* and have the insert *-iss-* in the plural. Endings: *-is, -is, -it, -issons, -issez, -issent*."
+              "cs": "Slovesa 2. třídy končí na *-ir* a v množném čísle mají vsuvku *-iss-*. Koncovky: *-is, -is, -it, -issons, -issez, -issent*."
             },
             {
               "type": "table",
@@ -828,13 +828,13 @@
           ]
         },
         {
-          "title": "Which ones",
+          "title": "Která",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "verb",
-                "English"
+                "sloveso",
+                "česky"
               ],
               "textCols": [
                 1
@@ -842,55 +842,55 @@
               "rows": [
                 [
                   "finir",
-                  "to finish"
+                  "skončit, dokončit"
                 ],
                 [
                   "choisir",
-                  "to choose"
+                  "vybrat si"
                 ],
                 [
                   "réussir",
-                  "to succeed, to pass"
+                  "uspět, udělat (zkoušku)"
                 ],
                 [
                   "grandir",
-                  "to grow up"
+                  "vyrůst"
                 ],
                 [
                   "grossir",
-                  "to put on weight"
+                  "přibrat"
                 ],
                 [
                   "maigrir",
-                  "to lose weight"
+                  "zhubnout"
                 ],
                 [
                   "rougir",
-                  "to blush"
+                  "zčervenat"
                 ],
                 [
                   "obéir à",
-                  "to obey"
+                  "poslechnout"
                 ]
               ]
             },
             {
               "type": "tip",
-              "en": "Many come from adjectives: *grand → grandir, gros → grossir, rouge → rougir*."
+              "cs": "Spousta jich vzniká z přídavných jmen: *grand → grandir, gros → grossir, rouge → rougir*."
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "We're leaving.",
+                  "cs": "Odcházíme.",
                   "wrong": "Nous partissons.",
                   "fr": "Nous [[partons]].",
-                  "note": "*Partir, sortir, dormir* end in *-ir* but do not have *-iss-*. They belong to the 3rd group."
+                  "note": "*Partir, sortir, dormir* končí na *-ir*, ale nemají *-iss-*. Patří do 3. třídy."
                 }
               ]
             },
@@ -903,26 +903,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le film finit à dix heures.",
-                  "en": "The film ends at ten."
+                  "cs": "Film končí v deset."
                 },
                 {
                   "fr": "Tu choisis quoi ?",
-                  "en": "What are you choosing?"
+                  "cs": "Co si vybíráš?"
                 },
                 {
                   "fr": "Nous finissons nos devoirs.",
-                  "en": "We are finishing our homework."
+                  "cs": "Dodělávám úkoly."
                 },
                 {
                   "fr": "Les enfants grandissent vite.",
-                  "en": "Children grow up fast."
+                  "cs": "Děti rychle rostou."
                 }
               ]
             }
@@ -938,7 +938,7 @@
             "finis"
           ],
           "hint": "finir",
-          "en": "I'm finishing my homework."
+          "cs": "Dodělávám úkoly."
         },
         {
           "id": "g-ir-verbs-02",
@@ -948,7 +948,7 @@
             "choisissez"
           ],
           "hint": "choisir",
-          "en": "What are you choosing?"
+          "cs": "Co si vybíráš?"
         },
         {
           "id": "g-ir-verbs-03",
@@ -958,7 +958,7 @@
             "finissent"
           ],
           "hint": "finir",
-          "en": "They finish at five."
+          "cs": "Končí v pět."
         },
         {
           "id": "g-ir-verbs-04",
@@ -971,7 +971,7 @@
     },
     {
       "id": "re-verbs",
-      "title": "Verbs in -re (attendre, vendre, répondre)",
+      "title": "Slovesa na -re (attendre, vendre, répondre)",
       "fr": "les verbes en -re",
       "level": "A1",
       "keywords": [
@@ -1002,11 +1002,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Regular verbs in **-re** (mostly **-dre**) drop *-re* and add **-s, -s, -, -ons, -ez, -ent**. In the *il / elle / on* form the stem stays alone (**il attend**), so the final *d* is silent but written. The past participle ends in **-u**."
+              "cs": "Pravidelná slovesa na **-re** (většinou **-dre**) odtrhnou *-re* a přidají **-s, -s, -, -ons, -ez, -ent**. V tvaru *il / elle / on* zůstává kmen sám (**il attend**), takže koncové *d* je němé, ale píše se. Příčestí minulé končí na **-u**."
             },
             {
               "type": "table",
@@ -1016,49 +1016,49 @@
             {
               "type": "table",
               "head": [
-                "verb",
-                "meaning",
-                "participle"
+                "sloveso",
+                "význam",
+                "příčestí"
               ],
               "rows": [
                 [
                   "attendre",
-                  "to wait for",
+                  "čekat na",
                   "attendu"
                 ],
                 [
                   "vendre",
-                  "to sell",
+                  "prodávat",
                   "vendu"
                 ],
                 [
                   "répondre (à)",
-                  "to answer",
+                  "odpovídat",
                   "répondu"
                 ],
                 [
                   "perdre",
-                  "to lose",
+                  "ztratit",
                   "perdu"
                 ],
                 [
                   "entendre",
-                  "to hear",
+                  "slyšet",
                   "entendu"
                 ],
                 [
                   "descendre",
-                  "to go down, get off",
-                  "descendu (être or avoir)"
+                  "sejít dolů, vystoupit",
+                  "descendu (être nebo avoir)"
                 ],
                 [
                   "rendre",
-                  "to give back",
+                  "vrátit",
                   "rendu"
                 ],
                 [
                   "défendre, attendre, étendre, tendre",
-                  "to defend, wait, spread, hold out",
+                  "bránit, čekat, rozšířit, natáhnout",
                   "-u"
                 ]
               ],
@@ -1069,63 +1069,63 @@
           ]
         },
         {
-          "title": "The other tenses",
+          "title": "Ostatní časy",
           "blocks": [
             {
               "type": "text",
-              "en": "The **imparfait** is *j'attendais*, the **futur** *j'attendrai* (the *e* of *-re* is dropped, the *r* stays), the **conditionnel** *j'attendrais*, the **passé composé** *j'ai attendu*, the **imperative** *Attends ! Attendons ! Attendez !*, the **subjunctive** *que j'attende*."
+              "cs": "**Imparfait** je *j'attendais*, **futur** *j'attendrai* (*e* z *-re* odpadá, *r* zůstává), **conditionnel** *j'attendrais*, **passé composé** *j'ai attendu*, **rozkazovací způsob** *Attends ! Attendons ! Attendez !*, **subjonctif** *que j'attende*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'attendais le bus.",
-                  "en": "I was waiting for the bus."
+                  "cs": "Čekal jsem na autobus."
                 },
                 {
                   "fr": "Il a perdu ses clés.",
-                  "en": "He lost his keys."
+                  "cs": "Ztratil klíče."
                 },
                 {
                   "fr": "Je répondrai demain.",
-                  "en": "I'll answer tomorrow."
+                  "cs": "Odpovím zítra."
                 },
                 {
                   "fr": "Attendez-moi !",
-                  "en": "Wait for me!"
+                  "cs": "Počkej na mě!"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I wait for the bus.",
+                  "cs": "Čekám na autobus.",
                   "wrong": "J'attende le bus.",
                   "fr": "J'[[attends]] le bus."
                 },
                 {
-                  "en": "He sells cars.",
+                  "cs": "Prodává auta.",
                   "wrong": "Il vends des voitures.",
                   "fr": "Il [[vend]] des voitures.",
-                  "note": "No *s* in *il / elle / on*."
+                  "note": "U *il / elle / on* žádné *s*."
                 },
                 {
-                  "en": "We answer the questions.",
+                  "cs": "Odpovídáme na otázky.",
                   "wrong": "Nous répondons les questions.",
                   "fr": "Nous [[répondons]] [[aux]] questions.",
-                  "note": "*Répondre* takes *à*."
+                  "note": "*Répondre* má *à*."
                 }
               ]
             },
             {
               "type": "tip",
-              "en": "*Descendre*, *rendre*, *répondre* are regular, but **prendre** and **mettre** are not (*nous prenons, ils prennent*). See the irregular verbs."
+              "cs": "*Descendre*, *rendre*, *répondre* jsou pravidelná, ale **prendre** a **mettre** ne (*nous prenons, ils prennent*). Viz nepravidelná slovesa."
             },
             {
               "type": "see",
@@ -1143,26 +1143,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Nous attendons le train depuis vingt minutes.",
-                  "en": "We've been waiting for the train for twenty minutes."
+                  "cs": "Čekáme na vlak už dvacet minut."
                 },
                 {
                   "fr": "Elle vend sa vieille guitare.",
-                  "en": "She is selling her old guitar."
+                  "cs": "Prodává svou starou kytaru."
                 },
                 {
                   "fr": "Tu entends ce bruit ?",
-                  "en": "Do you hear that noise?"
+                  "cs": "Slyšíš ten hluk?"
                 },
                 {
                   "fr": "Il ne répond jamais à mes messages.",
-                  "en": "He never answers my messages."
+                  "cs": "Nikdy neodpovídá na moje zprávy."
                 }
               ]
             }
@@ -1178,7 +1178,7 @@
             "attendons"
           ],
           "hint": "attendre",
-          "en": "We are waiting for the bus."
+          "cs": "Čekáme na autobus."
         },
         {
           "id": "g-re-verbs-02",
@@ -1188,7 +1188,7 @@
             "vend"
           ],
           "hint": "vendre",
-          "en": "He is selling his car."
+          "cs": "Prodává auto."
         },
         {
           "id": "g-re-verbs-03",
@@ -1198,7 +1198,7 @@
             "répondez"
           ],
           "hint": "répondre",
-          "en": "Do you answer the question?"
+          "cs": "Odpovídáš na otázku?"
         },
         {
           "id": "g-re-verbs-04",
@@ -1208,7 +1208,7 @@
             "perdu"
           ],
           "hint": "perdre",
-          "en": "I lost my keys."
+          "cs": "Ztratil jsem klíče."
         },
         {
           "id": "g-re-verbs-05",
@@ -1218,12 +1218,12 @@
             "entends"
           ],
           "hint": "entendre",
-          "en": "Do you hear the music?"
+          "cs": "Slyšíš tu hudbu?"
         },
         {
           "id": "g-re-verbs-06",
           "type": "transform",
-          "task_en": "Say it in the passé composé",
+          "task_cs": "Řekni to v passé composé",
           "fr": "J'attends le bus.",
           "a": [
             "J'ai attendu le bus."
@@ -1232,7 +1232,7 @@
         {
           "id": "g-re-verbs-07",
           "type": "transform",
-          "task_en": "Say it in the imparfait",
+          "task_cs": "Řekni to v imparfait",
           "fr": "Il vend des fruits.",
           "a": [
             "Il vendait des fruits."
@@ -1241,7 +1241,7 @@
         {
           "id": "g-re-verbs-08",
           "type": "build",
-          "en": "Wait for me! (tu)",
+          "cs": "Počkej na mě! (tu)",
           "a": [
             "Attends-moi !"
           ]
@@ -1283,11 +1283,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A group of irregular **-ir** verbs drops the **last consonant of the stem** in the singular: *je pars, tu pars, il part* (but *nous partons*). The endings are **-s, -s, -t, -ons, -ez, -ent**. The past participle ends in **-i**, except *venir*-type verbs."
+              "cs": "Skupina nepravidelných sloves na **-ir** ztrácí v jednotném čísle **poslední souhlásku kmene**: *je pars, tu pars, il part* (ale *nous partons*). Koncovky jsou **-s, -s, -t, -ons, -ez, -ent**. Příčestí minulé končí na **-i**, kromě sloves typu *venir*."
             },
             {
               "type": "table",
@@ -1297,50 +1297,50 @@
             {
               "type": "table",
               "head": [
-                "verb",
-                "singular (je)",
-                "plural (nous)",
-                "participle"
+                "sloveso",
+                "jednotné číslo (je)",
+                "množné číslo (nous)",
+                "příčestí"
               ],
               "rows": [
                 [
-                  "partir (to leave)",
+                  "partir (odejít)",
                   "je pars",
                   "nous partons",
                   "parti (être)"
                 ],
                 [
-                  "sortir (to go out)",
+                  "sortir (vyjít ven)",
                   "je sors",
                   "nous sortons",
                   "sorti (être)"
                 ],
                 [
-                  "dormir (to sleep)",
+                  "dormir (spát)",
                   "je dors",
                   "nous dormons",
                   "dormi"
                 ],
                 [
-                  "servir (to serve)",
+                  "servir (podávat, sloužit)",
                   "je sers",
                   "nous servons",
                   "servi"
                 ],
                 [
-                  "sentir (to feel, smell)",
+                  "sentir (cítit, vonět)",
                   "je sens",
                   "nous sentons",
                   "senti"
                 ],
                 [
-                  "mentir (to lie)",
+                  "mentir (lhát)",
                   "je mens",
                   "nous mentons",
                   "menti"
                 ],
                 [
-                  "s'endormir (to fall asleep)",
+                  "s'endormir (usnout)",
                   "je m'endors",
                   "nous nous endormons",
                   "endormi"
@@ -1350,27 +1350,27 @@
           ]
         },
         {
-          "title": "Compare finir",
+          "title": "Porovnej s finir",
           "blocks": [
             {
               "type": "text",
-              "en": "*Finir* adds **-iss-** in the plural (*nous finissons*). *Partir*, *sortir*, *dormir*, *servir*, *sentir* **do not**: *nous partons*, not *partissons*."
+              "cs": "*Finir* přidává v množném čísle **-iss-** (*nous finissons*). *Partir*, *sortir*, *dormir*, *servir*, *sentir* **ne**: *nous partons*, ne *partissons*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "We leave.",
+                  "cs": "Odcházíme.",
                   "wrong": "Nous partissons.",
                   "fr": "Nous [[partons]]."
                 },
                 {
-                  "en": "He sleeps.",
+                  "cs": "Spí.",
                   "wrong": "Il dormit.",
                   "fr": "Il [[dort]]."
                 },
                 {
-                  "en": "I go out.",
+                  "cs": "Jdu ven.",
                   "wrong": "Je sortis.",
                   "fr": "Je [[sors]]."
                 }
@@ -1379,60 +1379,60 @@
           ]
         },
         {
-          "title": "Être or avoir?",
+          "title": "Être, nebo avoir?",
           "blocks": [
             {
               "type": "text",
-              "en": "In the passé composé *partir* and *sortir* use **être** when they have no object: *Je suis parti. Elle est sortie.* *Sortir* with an object uses **avoir**: *J'ai sorti le chien.* *Dormir, servir, sentir, mentir* always take *avoir*."
+              "cs": "V passé composé mají *partir* a *sortir* **être**, když nemají předmět: *Je suis parti. Elle est sortie.* *Sortir* s předmětem má **avoir**: *J'ai sorti le chien.* *Dormir, servir, sentir, mentir* mají vždycky *avoir*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Nous sommes partis hier soir.",
-                  "en": "We left last night."
+                  "cs": "Včera večer jsme odjeli."
                 },
                 {
                   "fr": "Elle est sortie avec ses amis.",
-                  "en": "She went out with her friends."
+                  "cs": "Šla ven s kamarády."
                 },
                 {
                   "fr": "J'ai sorti la poubelle.",
-                  "en": "I took out the rubbish."
+                  "cs": "Vynesl jsem odpadky."
                 },
                 {
                   "fr": "Il a dormi dix heures.",
-                  "en": "He slept ten hours."
+                  "cs": "Spal deset hodin."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je pars à huit heures.",
-                  "en": "I leave at eight."
+                  "cs": "Odcházím v osm."
                 },
                 {
                   "fr": "Tu sors ce soir ?",
-                  "en": "Are you going out tonight?"
+                  "cs": "Jdeš dnes večer ven?"
                 },
                 {
                   "fr": "Les enfants dorment déjà.",
-                  "en": "The children are already asleep."
+                  "cs": "Děti už spí."
                 },
                 {
                   "fr": "Ça sent bon !",
-                  "en": "That smells good!"
+                  "cs": "To voní!"
                 },
                 {
                   "fr": "Le serveur nous sert un café.",
-                  "en": "The waiter serves us a coffee."
+                  "cs": "Číšník nám nese kávu."
                 }
               ]
             }
@@ -1448,7 +1448,7 @@
             "pars"
           ],
           "hint": "partir",
-          "en": "I leave at eight."
+          "cs": "Odcházím v osm."
         },
         {
           "id": "g-tir-mir-vir-02",
@@ -1458,7 +1458,7 @@
             "sortons"
           ],
           "hint": "sortir",
-          "en": "We're going out tonight."
+          "cs": "Dnes večer jdeme ven."
         },
         {
           "id": "g-tir-mir-vir-03",
@@ -1468,7 +1468,7 @@
             "dort"
           ],
           "hint": "dormir",
-          "en": "He sleeps ten hours a night."
+          "cs": "Spí deset hodin denně."
         },
         {
           "id": "g-tir-mir-vir-04",
@@ -1478,7 +1478,7 @@
             "mens"
           ],
           "hint": "mentir",
-          "en": "Are you lying?"
+          "cs": "Lžeš?"
         },
         {
           "id": "g-tir-mir-vir-05",
@@ -1488,12 +1488,12 @@
             "servez"
           ],
           "hint": "servir",
-          "en": "Are you serving coffee?"
+          "cs": "Nalíváte kávu?"
         },
         {
           "id": "g-tir-mir-vir-06",
           "type": "transform",
-          "task_en": "Say it in the passé composé",
+          "task_cs": "Řekni to v passé composé",
           "fr": "Elle part.",
           "a": [
             "Elle est partie."
@@ -1502,7 +1502,7 @@
         {
           "id": "g-tir-mir-vir-07",
           "type": "transform",
-          "task_en": "Say it in the passé composé",
+          "task_cs": "Řekni to v passé composé",
           "fr": "Il dort.",
           "a": [
             "Il a dormi."
@@ -1511,7 +1511,7 @@
         {
           "id": "g-tir-mir-vir-08",
           "type": "build",
-          "en": "They are leaving.",
+          "cs": "Odcházejí.",
           "a": [
             "Ils partent.",
             "Elles partent."
@@ -1546,16 +1546,16 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "These verbs end in **-ir** but are conjugated like **-er verbs** in the present: **-e, -es, -e, -ons, -ez, -ent**. The past participle is **-ert**: *ouvert, offert, couvert, découvert, souffert*."
+              "cs": "Tato slovesa končí na **-ir**, ale v přítomném čase se časují jako **slovesa na -er**: **-e, -es, -e, -ons, -ez, -ent**. Příčestí minulé je **-ert**: *ouvert, offert, couvert, découvert, souffert*."
             },
             {
               "type": "table",
               "head": [
-                "person",
+                "osoba",
                 "ouvrir",
                 "offrir",
                 "souffrir"
@@ -1608,29 +1608,29 @@
             {
               "type": "table",
               "head": [
-                "verb",
-                "meaning"
+                "sloveso",
+                "význam"
               ],
               "rows": [
                 [
                   "ouvrir / rouvrir",
-                  "to open / reopen"
+                  "otevřít / znovu otevřít"
                 ],
                 [
                   "offrir",
-                  "to offer, give as a gift"
+                  "darovat, dát dárek"
                 ],
                 [
                   "couvrir / découvrir / recouvrir",
-                  "to cover / discover / cover again"
+                  "zakrýt / objevit / znovu zakrýt"
                 ],
                 [
                   "souffrir",
-                  "to suffer"
+                  "trpět"
                 ],
                 [
                   "cueillir",
-                  "to pick (je cueille, cueilli)"
+                  "trhat (je cueille, cueilli)"
                 ]
               ],
               "textCols": [
@@ -1640,81 +1640,81 @@
           ]
         },
         {
-          "title": "Other tenses",
+          "title": "Ostatní časy",
           "blocks": [
             {
               "type": "text",
-              "en": "The **futur** is *j'ouvrirai, j'offrirai*. The **imparfait** is *j'ouvrais, j'offrais*. The **imperative** has no *s* in *tu*: *Ouvre ! Offre !* The **passé composé** takes *avoir*: *J'ai ouvert, j'ai offert, j'ai découvert*."
+              "cs": "**Futur** je *j'ouvrirai, j'offrirai*. **Imparfait** je *j'ouvrais, j'offrais*. **Rozkazovací způsob** nemá u *tu* žádné *s*: *Ouvre ! Offre !* **Passé composé** má *avoir*: *J'ai ouvert, j'ai offert, j'ai découvert*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il a ouvert la porte.",
-                  "en": "He opened the door."
+                  "cs": "Otevřel dveře."
                 },
                 {
                   "fr": "Ils m'ont offert un livre.",
-                  "en": "They gave me a book."
+                  "cs": "Darovali mi knihu."
                 },
                 {
                   "fr": "J'ai découvert un bon restaurant.",
-                  "en": "I discovered a good restaurant."
+                  "cs": "Objevil jsem dobrou restauraci."
                 },
                 {
                   "fr": "Ouvre la fenêtre, s'il te plaît.",
-                  "en": "Open the window, please."
+                  "cs": "Otevři okno, prosím."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I open the window.",
+                  "cs": "Otevírám okno.",
                   "wrong": "J'ouvris la fenêtre.",
                   "fr": "J'[[ouvre]] la fenêtre."
                 },
                 {
-                  "en": "I opened the door.",
+                  "cs": "Otevřel jsem dveře.",
                   "wrong": "J'ai ouvri la porte.",
                   "fr": "J'ai [[ouvert]] la porte.",
-                  "note": "The participle is *ouvert*, not *ouvri*."
+                  "note": "Příčestí je *ouvert*, ne *ouvri*."
                 }
               ]
             },
             {
               "type": "tip",
-              "en": "*Offrir* is the verb for gifts: *offrir un cadeau à quelqu'un*. *Donner* is more general."
+              "cs": "*Offrir* je sloveso pro dárky: *offrir un cadeau à quelqu'un*. *Donner* je obecnější."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le magasin ouvre à neuf heures.",
-                  "en": "The shop opens at nine."
+                  "cs": "Obchod otevírá v devět."
                 },
                 {
                   "fr": "Je t'offre un café.",
-                  "en": "I'll buy you a coffee."
+                  "cs": "Zvu tě na kávu."
                 },
                 {
                   "fr": "Nous avons découvert un petit village.",
-                  "en": "We discovered a little village."
+                  "cs": "Objevili jsme malou vesnici."
                 },
                 {
                   "fr": "Il souffre d'une allergie.",
-                  "en": "He suffers from an allergy."
+                  "cs": "Trpí alergií."
                 }
               ]
             }
@@ -1730,7 +1730,7 @@
             "ouvre"
           ],
           "hint": "ouvrir",
-          "en": "The shop opens at nine."
+          "cs": "Obchod otevírá v devět."
         },
         {
           "id": "g-ouvrir-offrir-02",
@@ -1740,7 +1740,7 @@
             "ouvrons"
           ],
           "hint": "ouvrir",
-          "en": "We open the door."
+          "cs": "Otevíráme dveře."
         },
         {
           "id": "g-ouvrir-offrir-03",
@@ -1750,7 +1750,7 @@
             "offre"
           ],
           "hint": "offrir",
-          "en": "I'm giving you a present."
+          "cs": "Dávám ti dárek."
         },
         {
           "id": "g-ouvrir-offrir-04",
@@ -1760,7 +1760,7 @@
             "ouvert"
           ],
           "hint": "ouvrir",
-          "en": "He opened the door."
+          "cs": "Otevřel dveře."
         },
         {
           "id": "g-ouvrir-offrir-05",
@@ -1770,12 +1770,12 @@
             "offert"
           ],
           "hint": "offrir",
-          "en": "She bought a coffee for someone."
+          "cs": "Koupila někomu kávu."
         },
         {
           "id": "g-ouvrir-offrir-06",
           "type": "transform",
-          "task_en": "Say it in the passé composé",
+          "task_cs": "Řekni to v passé composé",
           "fr": "J'ouvre la fenêtre.",
           "a": [
             "J'ai ouvert la fenêtre."
@@ -1784,7 +1784,7 @@
         {
           "id": "g-ouvrir-offrir-07",
           "type": "build",
-          "en": "Open the window! (tu)",
+          "cs": "Otevři okno! (tu)",
           "a": [
             "Ouvre la fenêtre !"
           ]
@@ -1792,7 +1792,7 @@
         {
           "id": "g-ouvrir-offrir-08",
           "type": "build",
-          "en": "They discovered a village.",
+          "cs": "Objevili vesnici.",
           "a": [
             "Ils ont découvert un village."
           ]
@@ -1840,11 +1840,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The four most important verbs in French. They are irregular, so you learn them by heart, and whole tenses are built on them: *avoir* and *être* form the passé composé, *aller* the near future."
+              "cs": "Čtyři nejdůležitější slovesa francouzštiny. Jsou nepravidelná, takže se je učíš nazpaměť, a stojí na nich celé časy: *avoir* a *être* tvoří passé composé, *aller* blízkou budoucnost."
             },
             {
               "type": "table",
@@ -1859,7 +1859,7 @@
           ]
         },
         {
-          "title": "Aller and faire",
+          "title": "Aller a faire",
           "blocks": [
             {
               "type": "table",
@@ -1874,14 +1874,14 @@
           ]
         },
         {
-          "title": "What they are for",
+          "title": "K čemu jsou",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "verb",
-                "meaning",
-                "helps to form"
+                "sloveso",
+                "význam",
+                "pomáhá tvořit"
               ],
               "textCols": [
                 0,
@@ -1891,47 +1891,47 @@
               "rows": [
                 [
                   "*être*",
-                  "to be",
+                  "být",
                   "passé composé: *je suis allé*"
                 ],
                 [
                   "*avoir*",
-                  "to have",
+                  "mít",
                   "passé composé: *j'ai mangé*"
                 ],
                 [
                   "*aller*",
-                  "to go",
-                  "the near future: *je vais manger*"
+                  "jít, jet",
+                  "blízkou budoucnost: *je vais manger*"
                 ],
                 [
                   "*faire*",
-                  "to do, to make",
-                  "weather and sports: *il fait beau, je fais du ski*"
+                  "dělat",
+                  "počasí a sporty: *il fait beau, je fais du ski*"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm 14.",
+                  "cs": "Je mi 14.",
                   "wrong": "Je suis 14 ans.",
                   "fr": "[[J'ai]] 14 ans.",
-                  "note": "Age is expressed with *avoir*."
+                  "note": "Věk se vyjadřuje pomocí *avoir*."
                 },
                 {
-                  "en": "I'm hungry.",
+                  "cs": "Mám hlad.",
                   "wrong": "Je suis faim.",
                   "fr": "[[J'ai]] faim."
                 },
                 {
-                  "en": "I'm going to school.",
+                  "cs": "Jdu do školy.",
                   "wrong": "Je vais à le collège.",
                   "fr": "Je vais [[au]] collège.",
                   "note": "*à + le = au*."
@@ -1941,30 +1941,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Nous sommes en retard.",
-                  "en": "We are late."
+                  "cs": "Máme zpoždění."
                 },
                 {
                   "fr": "Tu as des frères et sœurs ?",
-                  "en": "Do you have brothers and sisters?"
+                  "cs": "Máš sourozence?"
                 },
                 {
                   "fr": "Ils vont au cinéma.",
-                  "en": "They are going to the cinema."
+                  "cs": "Jdou do kina."
                 },
                 {
                   "fr": "Qu'est-ce que tu fais ce soir ?",
-                  "en": "What are you doing tonight?"
+                  "cs": "Co děláš dnes večer?"
                 },
                 {
                   "fr": "Vous êtes d'où ?",
-                  "en": "Where are you from?"
+                  "cs": "Odkud jsi?"
                 }
               ]
             }
@@ -1993,7 +1993,7 @@
             "vont"
           ],
           "hint": "aller",
-          "en": "They are going to school."
+          "cs": "Jdou do školy."
         },
         {
           "id": "g-irregular-core-04",
@@ -2003,7 +2003,7 @@
             "faisons"
           ],
           "hint": "faire",
-          "en": "We go skiing."
+          "cs": "Lyžujeme."
         },
         {
           "id": "g-irregular-core-05",
@@ -2013,12 +2013,12 @@
             "faites"
           ],
           "hint": "faire",
-          "en": "What are you doing this weekend?"
+          "cs": "Co děláš o víkendu?"
         },
         {
           "id": "g-irregular-core-06",
           "type": "build",
-          "en": "I'm fourteen.",
+          "cs": "Je mi čtrnáct.",
           "a": [
             "J'ai quatorze ans.",
             "J'ai 14 ans."
@@ -2028,7 +2028,7 @@
     },
     {
       "id": "irregular-more",
-      "title": "More irregular verbs",
+      "title": "Další nepravidelná slovesa",
       "fr": "les verbes irréguliers",
       "level": "A1",
       "levelTo": "A2",
@@ -2076,17 +2076,17 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "There are many irregular verbs, but they form **families with the same pattern**. If you know one, you know the whole family."
+              "cs": "Nepravidelných sloves je hodně, ale tvoří **rodiny se stejným vzorem**. Když znáš jedno, znáš celou rodinu."
             },
             {
               "type": "table",
               "head": [
-                "model",
-                "conjugated the same way"
+                "vzor",
+                "časuje se stejně"
               ],
               "rows": [
                 [
@@ -2114,7 +2114,7 @@
           ]
         },
         {
-          "title": "Prendre and venir",
+          "title": "Prendre a venir",
           "blocks": [
             {
               "type": "table",
@@ -2128,7 +2128,7 @@
             },
             {
               "type": "tip",
-              "en": "*Prendre*: *nous prenons*, but *ils prennent* (two *n*). *Venir*: *ils viennent*."
+              "cs": "*Prendre*: *nous prenons*, ale *ils prennent* (dvě *n*). *Venir*: *ils viennent*."
             }
           ]
         },
@@ -2137,7 +2137,7 @@
           "blocks": [
             {
               "type": "text",
-              "en": "In the singular they lose the last consonant of the stem: *je pars, je sors, je dors*. In the plural they keep it: *nous partons, nous sortons, nous dormons*."
+              "cs": "V jednotném čísle ztrácejí poslední souhlásku kmene: *je pars, je sors, je dors*. V množném čísle ji mají: *nous partons, nous sortons, nous dormons*."
             },
             {
               "type": "table",
@@ -2166,7 +2166,7 @@
             },
             {
               "type": "see",
-              "label": "More tables",
+              "label": "Další tabulky",
               "verbs": [
                 "boire",
                 "lire",
@@ -2180,50 +2180,50 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "you say (pl.)",
+                  "cs": "říkáte",
                   "wrong": "vous disez",
                   "fr": "vous [[dites]]",
-                  "note": "Only three verbs have the ending *-tes* with *vous*: *vous êtes, vous faites, vous dites*."
+                  "note": "Jen tři slovesa mají u *vous* koncovku *-tes*: *vous êtes, vous faites, vous dites*."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je prends le bus à sept heures.",
-                  "en": "I take the bus at seven."
+                  "cs": "V sedm jedu autobusem."
                 },
                 {
                   "fr": "Tu viens avec nous ?",
-                  "en": "Are you coming with us?"
+                  "cs": "Půjdeš s námi?"
                 },
                 {
                   "fr": "Nous partons en vacances.",
-                  "en": "We are going on holiday."
+                  "cs": "Jedeme na prázdniny."
                 },
                 {
                   "fr": "Je dors mal.",
-                  "en": "I sleep badly."
+                  "cs": "Špatně spím."
                 },
                 {
                   "fr": "Qu'est-ce que tu bois ?",
-                  "en": "What are you drinking?"
+                  "cs": "Co piješ?"
                 },
                 {
                   "fr": "Je ne vois rien.",
-                  "en": "I can't see anything."
+                  "cs": "Nic nevidím."
                 }
               ]
             }
@@ -2239,7 +2239,7 @@
             "prenons"
           ],
           "hint": "prendre",
-          "en": "We take the metro."
+          "cs": "Jedeme metrem."
         },
         {
           "id": "g-irregular-more-02",
@@ -2249,7 +2249,7 @@
             "viennent"
           ],
           "hint": "venir",
-          "en": "They are from Prague."
+          "cs": "Jsou z Prahy."
         },
         {
           "id": "g-irregular-more-03",
@@ -2259,7 +2259,7 @@
             "dors"
           ],
           "hint": "dormir",
-          "en": "I sleep eight hours a night."
+          "cs": "Spím osm hodin denně."
         },
         {
           "id": "g-irregular-more-04",
@@ -2269,7 +2269,7 @@
             "dites"
           ],
           "hint": "dire",
-          "en": "What are you saying?"
+          "cs": "Co říkáš?"
         },
         {
           "id": "g-irregular-more-05",
@@ -2279,7 +2279,7 @@
             "vois"
           ],
           "hint": "voir",
-          "en": "Can you see the sea?"
+          "cs": "Vidíš moře?"
         },
         {
           "id": "g-irregular-more-06",
@@ -2291,7 +2291,7 @@
     },
     {
       "id": "venir-tenir",
-      "title": "Venir, tenir and their family",
+      "title": "Venir, tenir a jejich rodina",
       "fr": "venir, tenir et leurs dérivés",
       "level": "A2",
       "keywords": [
@@ -2320,11 +2320,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*Venir* and *tenir* have the stem **vien- / tien-** in the singular and the third person plural, **ven- / ten-** in *nous* and *vous*: *je viens, nous venons, ils viennent*. The participle is **venu** (with **être**) and **tenu** (with **avoir**). The whole family follows them."
+              "cs": "*Venir* a *tenir* mají v jednotném čísle a ve 3. osobě množného čísla kmen **vien- / tien-**, u *nous* a *vous* **ven- / ten-**: *je viens, nous venons, ils viennent*. Příčestí je **venu** (s **être**) a **tenu** (s **avoir**). Celá rodina se řídí jimi."
             },
             {
               "type": "table",
@@ -2334,63 +2334,63 @@
             {
               "type": "table",
               "head": [
-                "verb",
-                "meaning",
-                "participle",
-                "auxiliary"
+                "sloveso",
+                "význam",
+                "příčestí",
+                "pomocná"
               ],
               "rows": [
                 [
                   "venir",
-                  "to come",
+                  "přijít",
                   "venu",
                   "être"
                 ],
                 [
                   "devenir",
-                  "to become",
+                  "stát se",
                   "devenu",
                   "être"
                 ],
                 [
                   "revenir",
-                  "to come back",
+                  "vrátit se",
                   "revenu",
                   "être"
                 ],
                 [
                   "se souvenir de",
-                  "to remember",
+                  "pamatovat si",
                   "souvenu",
                   "être"
                 ],
                 [
                   "tenir",
-                  "to hold",
+                  "držet",
                   "tenu",
                   "avoir"
                 ],
                 [
                   "obtenir",
-                  "to obtain, get",
+                  "získat, dostat",
                   "obtenu",
                   "avoir"
                 ],
                 [
                   "retenir",
-                  "to hold back, remember",
+                  "zadržet, zapamatovat si",
                   "retenu",
                   "avoir"
                 ],
                 [
                   "appartenir à",
-                  "to belong to",
+                  "patřit (komu)",
                   "appartenu",
                   "avoir"
                 ],
                 [
                   "maintenir, contenir, soutenir",
-                  "to maintain, contain, support",
+                  "udržovat, obsahovat, podporovat",
                   "-tenu",
                   "avoir"
                 ]
@@ -2402,30 +2402,30 @@
           ]
         },
         {
-          "title": "Tenses",
+          "title": "Časy",
           "blocks": [
             {
               "type": "text",
-              "en": "The **futur** has a double *r*: *je viendrai, je tiendrai, nous deviendrons*. The **imparfait** is regular from *nous venons*: *je venais, je tenais*. The **subjunctive** is *que je vienne, que nous venions*."
+              "cs": "**Futur** má dvojité *r*: *je viendrai, je tiendrai, nous deviendrons*. **Imparfait** je pravidelný z *nous venons*: *je venais, je tenais*. **Subjonctif** je *que je vienne, que nous venions*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il viendra demain.",
-                  "en": "He'll come tomorrow."
+                  "cs": "Přijde zítra."
                 },
                 {
                   "fr": "Elle est devenue médecin.",
-                  "en": "She became a doctor."
+                  "cs": "Stala se lékařkou."
                 },
                 {
                   "fr": "Je me souviens de ce jour.",
-                  "en": "I remember that day."
+                  "cs": "Pamatuju si ten den."
                 },
                 {
                   "fr": "Tiens, voilà ton livre.",
-                  "en": "Here, here's your book."
+                  "cs": "Na, tady máš knihu."
                 }
               ]
             }
@@ -2436,7 +2436,7 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Venir de* + infinitive is the **recent past**: *Je viens de manger* (I have just eaten). *Venir de* + place is **origin**: *Je viens de Prague.* *Venir* + place without *de* is **to come to**: *Je viens à la fête.*"
+              "cs": "*Venir de* + infinitiv je **nedávná minulost**: *Je viens de manger* (Právě jsem jedl). *Venir de* + místo je **původ**: *Je viens de Prague.* *Venir* + místo bez *de* znamená **přijít někam**: *Je viens à la fête.*"
             },
             {
               "type": "see",
@@ -2449,24 +2449,24 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "They come.",
+                  "cs": "Přicházejí.",
                   "wrong": "Ils venent.",
                   "fr": "Ils [[viennent]]."
                 },
                 {
-                  "en": "She became a doctor.",
+                  "cs": "Stala se lékařkou.",
                   "wrong": "Elle a devenu médecin.",
                   "fr": "Elle [[est]] devenue médecin.",
-                  "note": "*Devenir* takes *être*."
+                  "note": "*Devenir* má *être*."
                 },
                 {
-                  "en": "I remember Paris.",
+                  "cs": "Pamatuju si Paříž.",
                   "wrong": "Je me souviens Paris.",
                   "fr": "Je me souviens [[de]] Paris."
                 }
@@ -2475,26 +2475,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ils viennent de Lyon.",
-                  "en": "They come from Lyon."
+                  "cs": "Jsou z Lyonu."
                 },
                 {
                   "fr": "Tu viens avec nous ?",
-                  "en": "Are you coming with us?"
+                  "cs": "Půjdeš s námi?"
                 },
                 {
                   "fr": "Il tient son chien en laisse.",
-                  "en": "He's holding his dog on a lead."
+                  "cs": "Drží psa na vodítku."
                 },
                 {
                   "fr": "Elle a obtenu son diplôme.",
-                  "en": "She got her diploma."
+                  "cs": "Získala diplom."
                 }
               ]
             }
@@ -2510,7 +2510,7 @@
             "viens"
           ],
           "hint": "venir",
-          "en": "I come from Prague."
+          "cs": "Jsem z Prahy."
         },
         {
           "id": "g-venir-tenir-02",
@@ -2520,7 +2520,7 @@
             "venons"
           ],
           "hint": "venir",
-          "en": "We're coming with you."
+          "cs": "Jdeme s tebou."
         },
         {
           "id": "g-venir-tenir-03",
@@ -2530,7 +2530,7 @@
             "viendront"
           ],
           "hint": "venir",
-          "en": "They will come tomorrow."
+          "cs": "Přijdou zítra."
         },
         {
           "id": "g-venir-tenir-04",
@@ -2540,7 +2540,7 @@
             "tient"
           ],
           "hint": "tenir",
-          "en": "She is holding the book."
+          "cs": "Drží knihu."
         },
         {
           "id": "g-venir-tenir-05",
@@ -2550,12 +2550,12 @@
             "devenu"
           ],
           "hint": "devenir",
-          "en": "He became a doctor."
+          "cs": "Stal se lékařem."
         },
         {
           "id": "g-venir-tenir-06",
           "type": "transform",
-          "task_en": "Say it in the passé composé",
+          "task_cs": "Řekni to v passé composé",
           "fr": "Elle devient médecin.",
           "a": [
             "Elle est devenue médecin."
@@ -2564,7 +2564,7 @@
         {
           "id": "g-venir-tenir-07",
           "type": "build",
-          "en": "They are coming.",
+          "cs": "Přicházejí.",
           "a": [
             "Ils viennent.",
             "Elles viennent."
@@ -2573,7 +2573,7 @@
         {
           "id": "g-venir-tenir-08",
           "type": "build",
-          "en": "I remember that.",
+          "cs": "Pamatuju si to.",
           "a": [
             "Je m'en souviens.",
             "Je me souviens de ça."
@@ -2583,7 +2583,7 @@
     },
     {
       "id": "connaitre-family",
-      "title": "Connaître, paraître and their family",
+      "title": "Connaître, paraître a jejich rodina",
       "fr": "les verbes en -aître",
       "level": "A2",
       "keywords": [
@@ -2611,11 +2611,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Verbs in **-aître** keep the **circumflex only before a t**: *il connaît* but *je connais, nous connaissons*. The stem gets **-ss-** in the plural. The participle is **-u**: *connu, paru, apparu*."
+              "cs": "Slovesa na **-aître** mají **stříšku jen před t**: *il connaît*, ale *je connais, nous connaissons*. Kmen dostává v množném čísle **-ss-**. Příčestí je **-u**: *connu, paru, apparu*."
             },
             {
               "type": "table",
@@ -2625,39 +2625,39 @@
             {
               "type": "table",
               "head": [
-                "verb",
-                "meaning",
-                "participle"
+                "sloveso",
+                "význam",
+                "příčestí"
               ],
               "rows": [
                 [
                   "connaître",
-                  "to know (a person or place)",
+                  "znát (osobu nebo místo)",
                   "connu"
                 ],
                 [
                   "reconnaître",
-                  "to recognise",
+                  "poznat",
                   "reconnu"
                 ],
                 [
                   "paraître",
-                  "to seem, appear",
+                  "zdát se, objevit se",
                   "paru"
                 ],
                 [
                   "apparaître",
-                  "to appear",
+                  "objevit se",
                   "apparu"
                 ],
                 [
                   "disparaître",
-                  "to disappear",
+                  "zmizet",
                   "disparu"
                 ],
                 [
                   "naître",
-                  "to be born",
+                  "narodit se",
                   "né (être)"
                 ]
               ],
@@ -2668,27 +2668,27 @@
           ]
         },
         {
-          "title": "Savoir or connaître?",
+          "title": "Savoir, nebo connaître?",
           "blocks": [
             {
               "type": "text",
-              "en": "**Connaître** = to **know a person, a place, a thing** (you have met or been there): *Je connais Paul. Je connais Paris.* **Savoir** = to **know a fact or how to do something**: *Je sais nager. Je sais où il habite.* After *que*, *si*, *où*, *comment* use *savoir*."
+              "cs": "**Connaître** = **znát osobu, místo, věc** (potkal jsi ji, byl jsi tam): *Je connais Paul. Je connais Paris.* **Savoir** = **vědět fakt nebo umět něco dělat**: *Je sais nager. Je sais où il habite.* Po *que*, *si*, *où*, *comment* použij *savoir*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I know Marie.",
+                  "cs": "Znám Marii.",
                   "wrong": "Je sais Marie.",
                   "fr": "Je [[connais]] Marie."
                 },
                 {
-                  "en": "I can swim.",
+                  "cs": "Umím plavat.",
                   "wrong": "Je connais nager.",
                   "fr": "Je [[sais]] nager."
                 },
                 {
-                  "en": "I know where he lives.",
+                  "cs": "Vím, kde bydlí.",
                   "wrong": "Je connais où il habite.",
                   "fr": "Je [[sais]] où il habite."
                 }
@@ -2697,30 +2697,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu connais ce restaurant ?",
-                  "en": "Do you know this restaurant?"
+                  "cs": "Znáš tuhle restauraci?"
                 },
                 {
                   "fr": "Je ne le reconnais pas.",
-                  "en": "I don't recognise him."
+                  "cs": "Nepoznávám ho."
                 },
                 {
                   "fr": "Elle paraît fatiguée.",
-                  "en": "She seems tired."
+                  "cs": "Vypadá unaveně."
                 },
                 {
                   "fr": "Le soleil a disparu derrière les nuages.",
-                  "en": "The sun disappeared behind the clouds."
+                  "cs": "Slunce zmizelo za mraky."
                 },
                 {
                   "fr": "Ma sœur est née en 2010.",
-                  "en": "My sister was born in 2010."
+                  "cs": "Moje sestra se narodila v roce 2010."
                 }
               ]
             }
@@ -2736,7 +2736,7 @@
             "connais"
           ],
           "hint": "connaître",
-          "en": "I've known Paul for a long time."
+          "cs": "Paula znám dlouho."
         },
         {
           "id": "g-connaitre-family-02",
@@ -2746,7 +2746,7 @@
             "connaissons"
           ],
           "hint": "connaître",
-          "en": "We know this town."
+          "cs": "Známe tohle město."
         },
         {
           "id": "g-connaitre-family-03",
@@ -2756,7 +2756,7 @@
             "paraît"
           ],
           "hint": "paraître",
-          "en": "He seems very tired."
+          "cs": "Vypadá hodně unaveně."
         },
         {
           "id": "g-connaitre-family-04",
@@ -2765,7 +2765,7 @@
           "a": [
             "sais"
           ],
-          "en": "I can swim."
+          "cs": "Umím plavat."
         },
         {
           "id": "g-connaitre-family-05",
@@ -2774,7 +2774,7 @@
           "a": [
             "connais"
           ],
-          "en": "Do you know this film?"
+          "cs": "Znáš ten film?"
         },
         {
           "id": "g-connaitre-family-06",
@@ -2783,12 +2783,12 @@
           "a": [
             "sait"
           ],
-          "en": "She knows where he lives."
+          "cs": "Ví, kde bydlí."
         },
         {
           "id": "g-connaitre-family-07",
           "type": "build",
-          "en": "I don't recognise you. (tu)",
+          "cs": "Nepoznávám tě. (tu)",
           "a": [
             "Je ne te reconnais pas."
           ]
@@ -2827,11 +2827,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Four common irregular verbs with a **change of stem** between singular and plural. They have to be learned, but each follows a pattern: the **plural stem** appears in *nous* and *vous*, a **different stem** in *ils / elles*."
+              "cs": "Čtyři běžná nepravidelná slovesa se **změnou kmene** mezi jednotným a množným číslem. Musí se naučit, ale každé má svůj vzor: **kmen množného čísla** se objevuje u *nous* a *vous*, **jiný kmen** u *ils / elles*."
             },
             {
               "type": "table",
@@ -2904,53 +2904,53 @@
           ]
         },
         {
-          "title": "Notes",
+          "title": "Poznámky",
           "blocks": [
             {
               "type": "text",
-              "en": "**Voir** and **croire** have **-y-** before a pronounced ending (*voyons, croyez*), and an *i* in the imparfait *nous voyions*. **Recevoir** gets a **cedilla** before *o* (*reçois, reçoit, reçoivent*, *reçu*) but not before *e* (*recevons*). The family: **apercevoir, décevoir, concevoir** (like recevoir), **prévoir** (like voir but *prévoirai*)."
+              "cs": "**Voir** a **croire** mají před vyslovovanou koncovkou **-y-** (*voyons, croyez*) a v imparfait *nous voyions* i *i*. **Recevoir** dostává **cédille** před *o* (*reçois, reçoit, reçoivent*, *reçu*), ale ne před *e* (*recevons*). Rodina: **apercevoir, décevoir, concevoir** (jako recevoir), **prévoir** (jako voir, ale *prévoirai*)."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je vois un chat sur le toit.",
-                  "en": "I see a cat on the roof."
+                  "cs": "Vidím na střeše kočku."
                 },
                 {
                   "fr": "Nous croyons qu'il a raison.",
-                  "en": "We believe he is right."
+                  "cs": "Věříme, že má pravdu."
                 },
                 {
                   "fr": "Ils boivent du thé le matin.",
-                  "en": "They drink tea in the morning."
+                  "cs": "Ráno pijí čaj."
                 },
                 {
                   "fr": "Tu reçois beaucoup de messages ?",
-                  "en": "Do you get lots of messages?"
+                  "cs": "Dostáváš hodně zpráv?"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "They drink water.",
+                  "cs": "Pijí vodu.",
                   "wrong": "Ils boient de l'eau.",
                   "fr": "Ils [[boivent]] de l'eau."
                 },
                 {
-                  "en": "We see the sea.",
+                  "cs": "Vidíme moře.",
                   "wrong": "Nous voions la mer.",
                   "fr": "Nous [[voyons]] la mer."
                 },
                 {
-                  "en": "I got a letter.",
+                  "cs": "Dostal jsem dopis.",
                   "wrong": "J'ai receu une lettre.",
                   "fr": "J'ai [[reçu]] une lettre."
                 }
@@ -2958,7 +2958,7 @@
             },
             {
               "type": "tip",
-              "en": "*Croire à* (to believe in) takes **à**; *croire que* (to believe that) takes **que**: *Je crois à la chance. Je crois qu'il vient.* After a negative *croire* the subjunctive is common: *Je ne crois pas qu'il vienne.*"
+              "cs": "*Croire à* (věřit v) má **à**; *croire que* (věřit, že) má **que**: *Je crois à la chance. Je crois qu'il vient.* Po záporném *croire* je běžný subjonctif: *Je ne crois pas qu'il vienne.*"
             },
             {
               "type": "see",
@@ -2974,26 +2974,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je ne vois rien sans mes lunettes.",
-                  "en": "I can't see anything without my glasses."
+                  "cs": "Bez brýlí nic nevidím."
                 },
                 {
                   "fr": "Il croit au Père Noël.",
-                  "en": "He believes in Santa Claus."
+                  "cs": "Věří na Ježíška."
                 },
                 {
                   "fr": "Qu'est-ce que tu bois ?",
-                  "en": "What are you drinking?"
+                  "cs": "Co piješ?"
                 },
                 {
                   "fr": "Nous avons reçu une bonne nouvelle.",
-                  "en": "We received good news."
+                  "cs": "Dostali jsme dobrou zprávu."
                 }
               ]
             }
@@ -3009,7 +3009,7 @@
             "vois"
           ],
           "hint": "voir",
-          "en": "I see a bird."
+          "cs": "Vidím ptáka."
         },
         {
           "id": "g-oir-verbs-02",
@@ -3019,7 +3019,7 @@
             "voyons"
           ],
           "hint": "voir",
-          "en": "We see the sea."
+          "cs": "Vidíme moře."
         },
         {
           "id": "g-oir-verbs-03",
@@ -3029,7 +3029,7 @@
             "boivent"
           ],
           "hint": "boire",
-          "en": "They drink coffee."
+          "cs": "Pijí kávu."
         },
         {
           "id": "g-oir-verbs-04",
@@ -3039,7 +3039,7 @@
             "crois"
           ],
           "hint": "croire",
-          "en": "Do you believe that?"
+          "cs": "Věříš tomu?"
         },
         {
           "id": "g-oir-verbs-05",
@@ -3049,7 +3049,7 @@
             "reçoit"
           ],
           "hint": "recevoir",
-          "en": "She receives a lot of letters."
+          "cs": "Dostává hodně dopisů."
         },
         {
           "id": "g-oir-verbs-06",
@@ -3059,12 +3059,12 @@
             "reçu"
           ],
           "hint": "recevoir",
-          "en": "I received your message."
+          "cs": "Dostal jsem tvou zprávu."
         },
         {
           "id": "g-oir-verbs-07",
           "type": "transform",
-          "task_en": "Say it in the passé composé",
+          "task_cs": "Řekni to v passé composé",
           "fr": "Je bois de l'eau.",
           "a": [
             "J'ai bu de l'eau."
@@ -3073,7 +3073,7 @@
         {
           "id": "g-oir-verbs-08",
           "type": "build",
-          "en": "They believe it.",
+          "cs": "Věří tomu.",
           "a": [
             "Ils le croient.",
             "Elles le croient."
@@ -3117,11 +3117,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Five irregular verbs whose forms have to be learned. They share the **-s, -s, -t** endings of the singular and add **-s- or -v-** to the stem in the plural: *écrire → nous écrivons*, *lire → nous lisons*, *vivre → nous vivons*."
+              "cs": "Pět nepravidelných sloves, jejichž tvary se musíš naučit. V jednotném čísle mají společné koncovky **-s, -s, -t** a v množném čísle přidávají ke kmeni **-s- nebo -v-**: *écrire → nous écrivons*, *lire → nous lisons*, *vivre → nous vivons*."
             },
             {
               "type": "table",
@@ -3194,27 +3194,27 @@
             },
             {
               "type": "tip",
-              "en": "*Vous dites* (and *vous faites*) are the only *vous* forms that do not end in *-ez*."
+              "cs": "*Vous dites* (a *vous faites*) jsou jediné tvary pro *vous*, které nekončí na *-ez*."
             }
           ]
         },
         {
-          "title": "The families",
+          "title": "Rodiny",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "family",
-                "members"
+                "rodina",
+                "členové"
               ],
               "rows": [
                 [
                   "écrire",
-                  "décrire (to describe), inscrire (to register), récrire"
+                  "décrire (popsat), inscrire (zapsat), récrire"
                 ],
                 [
                   "lire",
-                  "élire (to elect), relire (to reread)"
+                  "élire (zvolit), relire (přečíst znovu)"
                 ],
                 [
                   "dire",
@@ -3235,46 +3235,46 @@
               "items": [
                 {
                   "fr": "Je lis un livre par semaine.",
-                  "en": "I read a book a week."
+                  "cs": "Čtu jednu knihu týdně."
                 },
                 {
                   "fr": "Il écrit à sa grand-mère.",
-                  "en": "He writes to his grandmother."
+                  "cs": "Píše babičce."
                 },
                 {
                   "fr": "Qu'est-ce que vous dites ?",
-                  "en": "What are you saying?"
+                  "cs": "Co říkáš?"
                 },
                 {
                   "fr": "Nous vivons à Prague.",
-                  "en": "We live in Prague."
+                  "cs": "Bydlíme v Praze."
                 },
                 {
                   "fr": "Je suis un cours de français.",
-                  "en": "I'm taking a French course."
+                  "cs": "Chodím na kurz francouzštiny."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "You (pl.) say.",
+                  "cs": "Říkáte.",
                   "wrong": "Vous disez.",
                   "fr": "Vous [[dites]]."
                 },
                 {
-                  "en": "I write a letter.",
+                  "cs": "Píšu dopis.",
                   "wrong": "J'écrie une lettre.",
                   "fr": "J'[[écris]] une lettre."
                 },
                 {
-                  "en": "I live in Prague.",
+                  "cs": "Bydlím v Praze.",
                   "wrong": "Je vive à Prague.",
                   "fr": "Je [[vis]] à Prague."
                 }
@@ -3282,7 +3282,7 @@
             },
             {
               "type": "tip",
-              "en": "*Je suis* is the **first person of être *and* of suivre**. The context tells you which: *Je suis fatigué* / *Je suis un cours*."
+              "cs": "*Je suis* je **1. osoba slovesa être *i* slovesa suivre**. Které to je, poznáš z kontextu: *Je suis fatigué* / *Je suis un cours*."
             },
             {
               "type": "see",
@@ -3299,26 +3299,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Elle a écrit un long message.",
-                  "en": "She wrote a long message."
+                  "cs": "Napsala dlouhou zprávu."
                 },
                 {
                   "fr": "Tu as lu ce roman ?",
-                  "en": "Have you read this novel?"
+                  "cs": "Četl jsi ten román?"
                 },
                 {
                   "fr": "Ils ont dit la vérité.",
-                  "en": "They told the truth."
+                  "cs": "Řekli pravdu."
                 },
                 {
                   "fr": "Mes grands-parents ont vécu à Paris.",
-                  "en": "My grandparents lived in Paris."
+                  "cs": "Babička a děda bydleli v Paříži."
                 }
               ]
             }
@@ -3334,7 +3334,7 @@
             "écris"
           ],
           "hint": "écrire",
-          "en": "I'm writing a letter."
+          "cs": "Píšu dopis."
         },
         {
           "id": "g-irregular-families-02",
@@ -3344,7 +3344,7 @@
             "lisons"
           ],
           "hint": "lire",
-          "en": "We're reading a novel."
+          "cs": "Čteme román."
         },
         {
           "id": "g-irregular-families-03",
@@ -3354,7 +3354,7 @@
             "dites"
           ],
           "hint": "dire",
-          "en": "You tell the truth."
+          "cs": "Říkáš pravdu."
         },
         {
           "id": "g-irregular-families-04",
@@ -3364,7 +3364,7 @@
             "vit"
           ],
           "hint": "vivre",
-          "en": "He lives in Paris."
+          "cs": "Bydlí v Paříži."
         },
         {
           "id": "g-irregular-families-05",
@@ -3374,7 +3374,7 @@
             "lu"
           ],
           "hint": "lire",
-          "en": "I read your message."
+          "cs": "Přečetl jsem si tvou zprávu."
         },
         {
           "id": "g-irregular-families-06",
@@ -3384,7 +3384,7 @@
             "écrit"
           ],
           "hint": "écrire",
-          "en": "She wrote a letter."
+          "cs": "Napsala dopis."
         },
         {
           "id": "g-irregular-families-07",
@@ -3394,12 +3394,12 @@
             "suivent"
           ],
           "hint": "suivre",
-          "en": "They are following the teacher."
+          "cs": "Jdou za učitelem."
         },
         {
           "id": "g-irregular-families-08",
           "type": "transform",
-          "task_en": "Say it in the passé composé",
+          "task_cs": "Řekni to v passé composé",
           "fr": "Il dit bonjour.",
           "a": [
             "Il a dit bonjour."
@@ -3408,7 +3408,7 @@
         {
           "id": "g-irregular-families-09",
           "type": "build",
-          "en": "What do you say? (vous)",
+          "cs": "Co říkáte? (vous)",
           "a": [
             "Qu'est-ce que vous dites ?",
             "Que dites-vous ?",
@@ -3451,66 +3451,66 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "More verbs you will meet at B1. Learn the **je / nous / ils** forms and the **participle**; the others follow the pattern. The families are listed below."
+              "cs": "Další slovesa, která potkáš na B1. Nauč se tvary pro **je / nous / ils** a **příčestí**; ostatní se řídí vzorem. Rodiny jsou níže."
             },
             {
               "type": "table",
               "head": [
-                "verb",
+                "sloveso",
                 "je",
                 "nous",
                 "ils",
-                "participle"
+                "příčestí"
               ],
               "rows": [
                 [
-                  "conduire (to drive)",
+                  "conduire (řídit)",
                   "conduis",
                   "conduisons",
                   "conduisent",
                   "conduit"
                 ],
                 [
-                  "craindre (to fear)",
+                  "craindre (bát se)",
                   "crains",
                   "craignons",
                   "craignent",
                   "craint"
                 ],
                 [
-                  "rire (to laugh)",
+                  "rire (smát se)",
                   "ris",
                   "rions",
                   "rient",
                   "ri"
                 ],
                 [
-                  "courir (to run)",
+                  "courir (běžet)",
                   "cours",
                   "courons",
                   "courent",
                   "couru"
                 ],
                 [
-                  "mourir (to die)",
+                  "mourir (umřít)",
                   "meurs",
                   "mourons",
                   "meurent",
                   "mort (être)"
                 ],
                 [
-                  "valoir (to be worth)",
+                  "valoir (mít cenu)",
                   "vaux",
                   "valons",
                   "valent",
                   "valu"
                 ],
                 [
-                  "plaire (to please)",
+                  "plaire (líbit se)",
                   "plais",
                   "plaisons",
                   "plaisent",
@@ -3521,13 +3521,13 @@
           ]
         },
         {
-          "title": "The families",
+          "title": "Rodiny",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "verb",
-                "same pattern"
+                "sloveso",
+                "stejný vzor"
               ],
               "rows": [
                 [
@@ -3548,7 +3548,7 @@
                 ],
                 [
                   "plaire",
-                  "déplaire, se taire (il se tait, no circumflex)"
+                  "déplaire, se taire (il se tait, bez stříšky)"
                 ]
               ]
             },
@@ -3557,105 +3557,105 @@
               "items": [
                 {
                   "fr": "Je conduis depuis un an.",
-                  "en": "I've been driving for a year."
+                  "cs": "Řídím rok."
                 },
                 {
                   "fr": "Elle peint un tableau.",
-                  "en": "She's painting a picture."
+                  "cs": "Maluje obraz."
                 },
                 {
                   "fr": "Nous avons traduit le texte.",
-                  "en": "We translated the text."
+                  "cs": "Přeložili jsme text."
                 },
                 {
                   "fr": "Il court tous les matins.",
-                  "en": "He runs every morning."
+                  "cs": "Každé ráno běhá."
                 },
                 {
                   "fr": "Elle sourit à tout le monde.",
-                  "en": "She smiles at everyone."
+                  "cs": "Na všechny se usmívá."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Valoir, falloir, pleuvoir: impersonal",
+          "title": "Valoir, falloir, pleuvoir: neosobní",
           "blocks": [
             {
               "type": "text",
-              "en": "**Valoir** is mostly used in **il vaut mieux** + infinitive (*it's better to*): *Il vaut mieux partir tôt.* **Falloir** exists only as **il faut** (*il fallait, il faudra, il a fallu, qu'il faille*) and **pleuvoir** as *il pleut* (*il pleuvait, il pleuvra, il a plu*)."
+              "cs": "**Valoir** se používá hlavně ve spojení **il vaut mieux** + infinitiv (*je lepší*): *Il vaut mieux partir tôt.* **Falloir** existuje jen jako **il faut** (*il fallait, il faudra, il a fallu, qu'il faille*) a **pleuvoir** jako *il pleut* (*il pleuvait, il pleuvra, il a plu*)."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il vaut mieux attendre.",
-                  "en": "It's better to wait."
+                  "cs": "Je lepší počkat."
                 },
                 {
                   "fr": "Il a fallu beaucoup de temps.",
-                  "en": "It took a lot of time."
+                  "cs": "Zabralo to hodně času."
                 },
                 {
                   "fr": "Ça vaut la peine.",
-                  "en": "It's worth it."
+                  "cs": "Stojí to za to."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm afraid.",
+                  "cs": "Bojím se.",
                   "wrong": "Je craigne.",
                   "fr": "Je [[crains]]."
                 },
                 {
-                  "en": "They run.",
+                  "cs": "Běhají.",
                   "wrong": "Ils courrent.",
                   "fr": "Ils [[courent]]."
                 },
                 {
-                  "en": "She died.",
+                  "cs": "Umřela.",
                   "wrong": "Elle a mouru.",
                   "fr": "Elle [[est morte]].",
-                  "note": "*Mourir* takes *être*."
+                  "note": "*Mourir* má *être*."
                 }
               ]
             },
             {
               "type": "tip",
-              "en": "**Courir** has a double *r* in the future and conditional: *je courrai, je courrais*. **Mourir** too: *je mourrai*."
+              "cs": "**Courir** má v budoucím čase a kondicionálu dvojité *r*: *je courrai, je courrais*. **Mourir** taky: *je mourrai*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Mon père conduit une vieille voiture.",
-                  "en": "My father drives an old car."
+                  "cs": "Táta jezdí starým autem."
                 },
                 {
                   "fr": "Ils ont construit une maison.",
-                  "en": "They built a house."
+                  "cs": "Postavili dům."
                 },
                 {
                   "fr": "Nous craignons la pluie.",
-                  "en": "We fear the rain."
+                  "cs": "Bojíme se deště."
                 },
                 {
                   "fr": "Il ne rit jamais.",
-                  "en": "He never laughs."
+                  "cs": "Nikdy se nesměje."
                 }
               ]
             }
@@ -3671,7 +3671,7 @@
             "conduis"
           ],
           "hint": "conduire",
-          "en": "I've been driving for a year."
+          "cs": "Řídím rok."
         },
         {
           "id": "g-irregular-families-more-02",
@@ -3681,7 +3681,7 @@
             "peignons"
           ],
           "hint": "peindre",
-          "en": "We're painting a picture."
+          "cs": "Malujeme obraz."
         },
         {
           "id": "g-irregular-families-more-03",
@@ -3691,7 +3691,7 @@
             "courent"
           ],
           "hint": "courir",
-          "en": "They run every morning."
+          "cs": "Každé ráno běhají."
         },
         {
           "id": "g-irregular-families-more-04",
@@ -3701,7 +3701,7 @@
             "vaut"
           ],
           "hint": "valoir",
-          "en": "It's better to wait."
+          "cs": "Je lepší počkat."
         },
         {
           "id": "g-irregular-families-more-05",
@@ -3711,12 +3711,12 @@
             "sourit"
           ],
           "hint": "sourire",
-          "en": "She smiles at everyone."
+          "cs": "Na všechny se usmívá."
         },
         {
           "id": "g-irregular-families-more-06",
           "type": "transform",
-          "task_en": "Say it in the passé composé",
+          "task_cs": "Řekni to v passé composé",
           "fr": "Il conduit la voiture.",
           "a": [
             "Il a conduit la voiture."
@@ -3725,7 +3725,7 @@
         {
           "id": "g-irregular-families-more-07",
           "type": "build",
-          "en": "It's better to leave early.",
+          "cs": "Je lepší vyrazit brzy.",
           "a": [
             "Il vaut mieux partir tôt."
           ]
@@ -3773,18 +3773,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "These four verbs combine with an **infinitive**, just like English \"I can go, I want to sleep\". All of them are irregular."
+              "cs": "Tato čtyři slovesa se pojí s **infinitivem**, stejně jako česky \"můžu jít, chci spát\". Všechna jsou nepravidelná."
             },
             {
               "type": "table",
               "head": [
-                "verb",
-                "meaning",
-                "example"
+                "sloveso",
+                "význam",
+                "příklad"
               ],
               "textCols": [
                 1
@@ -3792,22 +3792,22 @@
               "rows": [
                 [
                   "pouvoir",
-                  "can, to be able to",
+                  "moct",
                   "Je peux venir."
                 ],
                 [
                   "vouloir",
-                  "to want",
+                  "chtít",
                   "Je veux dormir."
                 ],
                 [
                   "devoir",
-                  "must, to have to",
+                  "muset",
                   "Je dois partir."
                 ],
                 [
                   "savoir",
-                  "to know how to, to know",
+                  "umět, vědět",
                   "Je sais nager."
                 ]
               ]
@@ -3834,7 +3834,7 @@
                       "demain."
                     ]
                   ],
-                  "en": "I can come tomorrow."
+                  "cs": "Můžu přijít zítra."
                 },
                 {
                   "parts": [
@@ -3859,14 +3859,14 @@
                       "dormir."
                     ]
                   ],
-                  "en": "I don't want to sleep."
+                  "cs": "Nechci spát."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Tables",
+          "title": "Tabulky",
           "blocks": [
             {
               "type": "table",
@@ -3891,14 +3891,14 @@
           ]
         },
         {
-          "title": "Savoir, pouvoir or connaître?",
+          "title": "Savoir, pouvoir, nebo connaître?",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "when",
-                "example"
+                "kdy",
+                "příklad"
               ],
               "textCols": [
                 1
@@ -3906,17 +3906,17 @@
               "rows": [
                 [
                   "savoir",
-                  "to know how to (a learned skill), to know (a fact)",
+                  "umět (naučená dovednost), vědět (fakt)",
                   "Je sais nager. Je sais où il habite."
                 ],
                 [
                   "pouvoir",
-                  "can (I have the possibility, I'm allowed)",
+                  "moct (mám možnost, smím)",
                   "Je peux nager aujourd'hui."
                 ],
                 [
                   "connaître",
-                  "to know (a person, a place, a thing)",
+                  "znát (osobu, místo, věc)",
                   "Je connais Paris. Je connais Léa."
                 ]
               ]
@@ -3925,13 +3925,13 @@
               "type": "compare",
               "items": [
                 {
-                  "en": "I can swim.",
+                  "cs": "Umím plavat.",
                   "wrong": "Je peux nager.",
                   "fr": "Je [[sais]] nager.",
-                  "note": "*Je peux nager* means \"I can go for a swim, I have the opportunity\"."
+                  "note": "*Je peux nager* znamená \"můžu si jít zaplavat, mám příležitost\"."
                 },
                 {
-                  "en": "I know Paul.",
+                  "cs": "Znám Paula.",
                   "wrong": "Je sais Paul.",
                   "fr": "Je [[connais]] Paul."
                 }
@@ -3940,11 +3940,11 @@
           ]
         },
         {
-          "title": "Politely",
+          "title": "Zdvořile",
           "blocks": [
             {
               "type": "text",
-              "en": "Instead of *je veux* (I want), you say politely *je voudrais* (I would like), and instead of *tu peux* it is nicer to say *tu pourrais* (could you)."
+              "cs": "Místo *je veux* (chci) se zdvořile říká *je voudrais* (chtěl bych) a místo *tu peux* je hezčí *tu pourrais* (mohl bys)."
             },
             {
               "type": "see",
@@ -3955,30 +3955,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu peux m'aider ?",
-                  "en": "Can you help me?"
+                  "cs": "Můžeš mi pomoct?"
                 },
                 {
                   "fr": "Je veux jouer aux jeux vidéo.",
-                  "en": "I want to play video games."
+                  "cs": "Chci hrát videohry."
                 },
                 {
                   "fr": "Nous devons faire nos devoirs.",
-                  "en": "We have to do our homework."
+                  "cs": "Musíme si udělat úkoly."
                 },
                 {
                   "fr": "Elle sait parler anglais.",
-                  "en": "She can speak English."
+                  "cs": "Umí mluvit anglicky."
                 },
                 {
                   "fr": "Je voudrais un croissant, s'il vous plaît.",
-                  "en": "I'd like a croissant, please."
+                  "cs": "Chtěl bych croissant, prosím."
                 }
               ]
             }
@@ -3994,7 +3994,7 @@
             "peux"
           ],
           "hint": "pouvoir",
-          "en": "Can you come tonight?"
+          "cs": "Můžeš přijít dnes večer?"
         },
         {
           "id": "g-modals-02",
@@ -4004,7 +4004,7 @@
             "veulent"
           ],
           "hint": "vouloir",
-          "en": "They want to play football."
+          "cs": "Chtějí hrát fotbal."
         },
         {
           "id": "g-modals-03",
@@ -4014,7 +4014,7 @@
             "devons"
           ],
           "hint": "devoir",
-          "en": "We have to leave."
+          "cs": "Musíme odejít."
         },
         {
           "id": "g-modals-04",
@@ -4024,7 +4024,7 @@
             "sais"
           ],
           "hint": "savoir",
-          "en": "I can swim."
+          "cs": "Umím plavat."
         },
         {
           "id": "g-modals-05",
@@ -4034,12 +4034,12 @@
             "connais"
           ],
           "hint": "connaître",
-          "en": "Do you know my brother?"
+          "cs": "Znáš mého bratra?"
         },
         {
           "id": "g-modals-06",
           "type": "build",
-          "en": "I don't want to sleep.",
+          "cs": "Nechci spát.",
           "a": [
             "Je ne veux pas dormir."
           ]
@@ -4048,7 +4048,7 @@
     },
     {
       "id": "necessity",
-      "title": "Obligation and necessity: devoir, il faut, avoir besoin de",
+      "title": "Povinnost a nutnost: devoir, il faut, avoir besoin de",
       "fr": "l'obligation et la nécessité",
       "level": "A2",
       "levelTo": "B1",
@@ -4077,54 +4077,54 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "To express **obligation** French has several tools. **Devoir** (*je dois*) is personal. **Il faut** is impersonal and general. **Avoir besoin de** says you need something. **Être obligé de** says you are forced to. Be careful with the **negative**: *il ne faut pas* means *you must not*, but *pas besoin de* means *you don't have to*."
+              "cs": "Pro **povinnost** má francouzština několik nástrojů. **Devoir** (*je dois*) je osobní. **Il faut** je neosobní a obecné. **Avoir besoin de** říká, že něco potřebuješ. **Être obligé de** říká, že jsi nucený. Pozor na **zápor**: *il ne faut pas* znamená *nesmíš*, ale *pas besoin de* znamená *nemusíš*."
             },
             {
               "type": "table",
               "head": [
-                "structure",
-                "example",
-                "English"
+                "vazba",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
                   "devoir + inf.",
                   "Je dois partir.",
-                  "I must leave."
+                  "Musím odejít."
                 ],
                 [
                   "il faut + inf.",
                   "Il faut partir.",
-                  "One has to leave."
+                  "Musí se odejít."
                 ],
                 [
-                  "il faut + noun",
+                  "il faut + podstatné jméno",
                   "Il faut du pain.",
-                  "We need bread."
+                  "Potřebujeme chleba."
                 ],
                 [
                   "il faut que + subj.",
                   "Il faut que tu partes.",
-                  "You have to leave."
+                  "Musíš odejít."
                 ],
                 [
                   "avoir besoin de",
                   "J'ai besoin de dormir.",
-                  "I need to sleep."
+                  "Potřebuju se vyspat."
                 ],
                 [
                   "être obligé de",
                   "Il est obligé de rester.",
-                  "He is obliged to stay."
+                  "Musí zůstat."
                 ],
                 [
                   "il est interdit de",
                   "Il est interdit de fumer.",
-                  "Smoking is forbidden."
+                  "Kouření zakázáno."
                 ]
               ],
               "textCols": [
@@ -4134,22 +4134,22 @@
           ]
         },
         {
-          "title": "Il ne faut pas or pas besoin?",
+          "title": "Il ne faut pas, nebo pas besoin?",
           "blocks": [
             {
               "type": "text",
-              "en": "**Il ne faut pas** + infinitive = **prohibition** (*don't*). **Il n'est pas nécessaire de** and **ce n'est pas la peine de / pas besoin de** = **no need**. **Ne pas devoir** is also a prohibition: *Tu ne dois pas mentir.*"
+              "cs": "**Il ne faut pas** + infinitiv = **zákaz** (*nesmí se*). **Il n'est pas nécessaire de** a **ce n'est pas la peine de / pas besoin de** = **není třeba**. **Ne pas devoir** je taky zákaz: *Tu ne dois pas mentir.*"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "You must not shout.",
+                  "cs": "Nesmíš křičet.",
                   "wrong": "Tu n'as pas besoin de crier.",
                   "fr": "Il [[ne faut pas]] crier. / Tu [[ne dois pas]] crier."
                 },
                 {
-                  "en": "You don't have to come.",
+                  "cs": "Nemusíš chodit.",
                   "wrong": "Il ne faut pas venir.",
                   "fr": "Tu [[n'as pas besoin de]] venir. / Ce [[n'est pas nécessaire]]."
                 }
@@ -4158,86 +4158,86 @@
           ]
         },
         {
-          "title": "Il faut and the subject",
+          "title": "Il faut a podmět",
           "blocks": [
             {
               "type": "text",
-              "en": "*Il faut* does not name who must. To name the person use a **pronoun before faut**: *Il **me** faut du temps* (I need time) or **il faut que + subjunctive**: *il faut que je parte*. With **an infinitive** it is general: *il faut manger pour vivre*."
+              "cs": "*Il faut* neříká, kdo musí. Když chceš osobu jmenovat, dej **zájmeno před faut**: *Il **me** faut du temps* (potřebuju čas), nebo použij **il faut que + subjonctif**: *il faut que je parte*. S **infinitivem** je to obecné: *il faut manger pour vivre*."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il me faut un stylo.",
-                  "en": "I need a pen."
+                  "cs": "Potřebuju propisku."
                 },
                 {
                   "fr": "Il faut que tu fasses tes devoirs.",
-                  "en": "You have to do your homework."
+                  "cs": "Musíš si udělat úkoly."
                 },
                 {
                   "fr": "Il faut dix minutes pour y aller.",
-                  "en": "It takes ten minutes to get there."
+                  "cs": "Cesta tam trvá deset minut."
                 },
                 {
                   "fr": "Il faut manger pour vivre.",
-                  "en": "You have to eat to live."
+                  "cs": "Člověk musí jíst, aby žil."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Devoir: three meanings",
+          "title": "Devoir: tři významy",
           "blocks": [
             {
               "type": "text",
-              "en": "*Devoir* + infinitive means **must** (obligation), **probably** (*Il doit être malade*) and **to be supposed to** (*Le train doit arriver à huit heures*). *Devoir* + noun means **to owe**: *Je te dois dix euros.*"
+              "cs": "*Devoir* + infinitiv znamená **muset** (povinnost), **asi, určitě** (*Il doit être malade*) a **mít (podle plánu)** (*Le train doit arriver à huit heures*). *Devoir* + podstatné jméno znamená **dlužit**: *Je te dois dix euros.*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu dois faire attention.",
-                  "en": "You must be careful."
+                  "cs": "Musíš dávat pozor."
                 },
                 {
                   "fr": "Il doit être fatigué.",
-                  "en": "He must be tired."
+                  "cs": "Musí být unavený."
                 },
                 {
                   "fr": "Nous devons partir à huit heures.",
-                  "en": "We are to leave at eight."
+                  "cs": "Máme odjet v osm."
                 },
                 {
                   "fr": "Je te dois dix euros.",
-                  "en": "I owe you ten euros."
+                  "cs": "Dlužím ti deset eur."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il faut que je finisse mon devoir avant ce soir.",
-                  "en": "I have to finish my homework before tonight."
+                  "cs": "Musím dodělat úkoly do večera."
                 },
                 {
                   "fr": "Tu n'as pas besoin de venir.",
-                  "en": "You don't need to come."
+                  "cs": "Nemusíš chodit."
                 },
                 {
                   "fr": "Il ne faut pas courir près de la piscine.",
-                  "en": "You mustn't run near the pool."
+                  "cs": "U bazénu se nesmí běhat."
                 },
                 {
                   "fr": "Elle a besoin de repos.",
-                  "en": "She needs rest."
+                  "cs": "Potřebuje odpočinek."
                 }
               ]
             }
@@ -4248,7 +4248,7 @@
         {
           "id": "g-necessity-01",
           "type": "build",
-          "en": "I must leave.",
+          "cs": "Musím odejít.",
           "a": [
             "Je dois partir."
           ]
@@ -4256,7 +4256,7 @@
         {
           "id": "g-necessity-02",
           "type": "build",
-          "en": "You have to be careful.",
+          "cs": "Musíš dávat pozor.",
           "a": [
             "Il faut faire attention.",
             "Tu dois faire attention."
@@ -4265,7 +4265,7 @@
         {
           "id": "g-necessity-03",
           "type": "build",
-          "en": "I need a pen.",
+          "cs": "Potřebuju propisku.",
           "a": [
             "Il me faut un stylo.",
             "J'ai besoin d'un stylo."
@@ -4274,7 +4274,7 @@
         {
           "id": "g-necessity-04",
           "type": "build",
-          "en": "You mustn't shout.",
+          "cs": "Nesmíš křičet.",
           "a": [
             "Il ne faut pas crier.",
             "Tu ne dois pas crier."
@@ -4283,7 +4283,7 @@
         {
           "id": "g-necessity-05",
           "type": "build",
-          "en": "You don't have to come.",
+          "cs": "Nemusíš chodit.",
           "a": [
             "Tu n'as pas besoin de venir.",
             "Il n'est pas nécessaire de venir.",
@@ -4297,7 +4297,7 @@
           "a": [
             "faut"
           ],
-          "en": "You have to do your homework."
+          "cs": "Musíš si udělat úkoly."
         },
         {
           "id": "g-necessity-07",
@@ -4306,7 +4306,7 @@
           "a": [
             "interdit"
           ],
-          "en": "Smoking here is forbidden."
+          "cs": "Tady je kouření zakázáno."
         },
         {
           "id": "g-necessity-08",
@@ -4315,7 +4315,7 @@
           "a": [
             "besoin"
           ],
-          "en": "I need to sleep."
+          "cs": "Potřebuju se vyspat."
         },
         {
           "id": "g-necessity-09",
@@ -4324,13 +4324,13 @@
           "a": [
             "dois"
           ],
-          "en": "I owe you ten euros."
+          "cs": "Dlužím ti deset eur."
         }
       ]
     },
     {
       "id": "reflexive-verbs",
-      "title": "Reflexive verbs",
+      "title": "Zvratná slovesa",
       "fr": "les verbes pronominaux",
       "level": "A1",
       "keywords": [
@@ -4360,11 +4360,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A reflexive verb has a pronoun before it that **changes with the person**: *je me lève, tu te lèves*. In the past it always uses *être*: *je me suis levé*."
+              "cs": "Zvratné sloveso má před sebou zájmeno, které se **mění podle osoby**: *je me lève, tu te lèves*. V minulém čase má vždycky *être*: *je me suis levé*."
             },
             {
               "type": "table",
@@ -4374,13 +4374,13 @@
           ]
         },
         {
-          "title": "Daily routine",
+          "title": "Denní režim",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 1
@@ -4388,48 +4388,48 @@
               "rows": [
                 [
                   "se réveiller",
-                  "to wake up"
+                  "probudit se"
                 ],
                 [
                   "se lever",
-                  "to get up"
+                  "vstát"
                 ],
                 [
                   "se laver",
-                  "to wash"
+                  "umýt se"
                 ],
                 [
                   "se doucher",
-                  "to take a shower"
+                  "osprchovat se"
                 ],
                 [
                   "s'habiller",
-                  "to get dressed"
+                  "obléct se"
                 ],
                 [
                   "se brosser les dents",
-                  "to brush one's teeth"
+                  "vyčistit si zuby"
                 ],
                 [
                   "se reposer",
-                  "to rest"
+                  "odpočívat"
                 ],
                 [
                   "se coucher",
-                  "to go to bed"
+                  "jít spát"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Different from Czech",
+          "title": "Jinak než v češtině",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 1
@@ -4437,30 +4437,30 @@
               "rows": [
                 [
                   "se reposer",
-                  "to rest (no \"se\" in Czech)"
+                  "odpočívat (v češtině bez se)"
                 ],
                 [
                   "se dépêcher",
-                  "to hurry (no \"se\" in Czech)"
+                  "spěchat (v češtině bez se)"
                 ],
                 [
                   "s'asseoir",
-                  "to sit down"
+                  "sednout si"
                 ],
                 [
                   "apprendre",
-                  "to learn (no *se* in French)"
+                  "učit se (ve francouzštině bez *se*)"
                 ],
                 [
                   "rire",
-                  "to laugh (no *se* in French)"
+                  "smát se (ve francouzštině bez *se*)"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Negation, past, command",
+          "title": "Zápor, minulost, rozkaz",
           "blocks": [
             {
               "type": "pattern",
@@ -4492,7 +4492,7 @@
                       "tôt."
                     ]
                   ],
-                  "en": "I don't get up early."
+                  "cs": "Nevstávám brzy."
                 },
                 {
                   "parts": [
@@ -4517,7 +4517,7 @@
                       "à sept heures."
                     ]
                   ],
-                  "en": "I got up at seven."
+                  "cs": "Vstal jsem v sedm."
                 },
                 {
                   "parts": [
@@ -4530,7 +4530,7 @@
                       "-toi !"
                     ]
                   ],
-                  "en": "Get up!"
+                  "cs": "Vstávej!"
                 }
               ]
             },
@@ -4544,30 +4544,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je me réveille à six heures et demie.",
-                  "en": "I wake up at half past six."
+                  "cs": "Budím se v půl sedmé."
                 },
                 {
                   "fr": "Tu te couches tard ?",
-                  "en": "Do you go to bed late?"
+                  "cs": "Chodíš spát pozdě?"
                 },
                 {
                   "fr": "On se retrouve devant le cinéma.",
-                  "en": "We'll meet in front of the cinema."
+                  "cs": "Sejdeme se před kinem."
                 },
                 {
                   "fr": "Elle s'est habillée vite.",
-                  "en": "She got dressed quickly."
+                  "cs": "Rychle se oblékla."
                 },
                 {
                   "fr": "Dépêche-toi !",
-                  "en": "Hurry up!"
+                  "cs": "Pospěš si!"
                 }
               ]
             }
@@ -4582,7 +4582,7 @@
           "a": [
             "me"
           ],
-          "en": "I go to bed at ten."
+          "cs": "Chodím spát v deset."
         },
         {
           "id": "g-reflexive-verbs-02",
@@ -4591,7 +4591,7 @@
           "a": [
             "nous"
           ],
-          "en": "We walk in the park."
+          "cs": "Procházíme se v parku."
         },
         {
           "id": "g-reflexive-verbs-03",
@@ -4603,7 +4603,7 @@
         {
           "id": "g-reflexive-verbs-04",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Je me lève tôt.",
           "a": [
             "Je ne me lève pas tôt."
@@ -4612,7 +4612,7 @@
         {
           "id": "g-reflexive-verbs-05",
           "type": "build",
-          "en": "I'm learning French.",
+          "cs": "Učím se francouzsky.",
           "a": [
             "J'apprends le français."
           ]
@@ -4622,13 +4622,13 @@
         {
           "set": "negation",
           "tag": "reflexive",
-          "label": "Drill reflexive negation"
+          "label": "Dril zápor u zvratných sloves"
         }
       ]
     },
     {
       "id": "reflexive-advanced",
-      "title": "Reflexive verbs in every tense and mood",
+      "title": "Zvratná slovesa ve všech časech a způsobech",
       "fr": "les verbes pronominaux (suite)",
       "level": "A2",
       "levelTo": "B1",
@@ -4662,54 +4662,54 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "A reflexive verb always has its **pronoun** (*me, te, se, nous, vous, se*) right before the verb. In **compound tenses** it uses **être** and the participle agrees with the pronoun if it is a **direct** object. The pronoun follows a **positive command** (*Lève-toi !*) and goes before the **infinitive** (*Je vais me lever.*)."
+              "cs": "Zvratné sloveso má svoje **zájmeno** (*me, te, se, nous, vous, se*) vždycky těsně před slovesem. Ve **složených časech** má **être** a příčestí se shoduje se zájmenem, když je **přímým** předmětem. V **kladném rozkazu** stojí zájmeno za slovesem (*Lève-toi !*) a u **infinitivu** před ním (*Je vais me lever.*)."
             },
             {
               "type": "table",
               "head": [
-                "form",
-                "example",
-                "English"
+                "tvar",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
                   "present",
                   "Je me lève.",
-                  "I get up."
+                  "Vstávám."
                 ],
                 [
                   "negative",
                   "Je ne me lève pas.",
-                  "I don't get up."
+                  "Nevstávám."
                 ],
                 [
                   "passé composé",
                   "Elle s'est levée.",
-                  "She got up."
+                  "Vstala."
                 ],
                 [
                   "negative p.c.",
                   "Elle ne s'est pas levée.",
-                  "She didn't get up."
+                  "Nevstala."
                 ],
                 [
-                  "with an infinitive",
+                  "s infinitivem",
                   "Je vais me lever.",
-                  "I'm going to get up."
+                  "Vstanu."
                 ],
                 [
                   "command",
                   "Lève-toi ! / Ne te lève pas !",
-                  "Get up! / Don't get up!"
+                  "Vstávej! / Nevstávej!"
                 ],
                 [
                   "question (inversion)",
                   "Te lèves-tu ? / T'es-tu levé ?",
-                  "Do you get up? / Did you get up?"
+                  "Vstáváš? / Vstal jsi?"
                 ]
               ],
               "textCols": [
@@ -4723,109 +4723,109 @@
           "blocks": [
             {
               "type": "text",
-              "en": "Auxiliary **être**: *je me suis lavé(e), tu t'es lavé(e), il s'est lavé, elle s'est lavée, nous nous sommes lavé(e)s*. The participle **agrees with the subject** if the pronoun is a **direct** object. It does **not** agree when there is another direct object (*Elle s'est lavé **les mains***) or when the pronoun is indirect (*Elles se sont téléphoné*)."
+              "cs": "Pomocné sloveso **être**: *je me suis lavé(e), tu t'es lavé(e), il s'est lavé, elle s'est lavée, nous nous sommes lavé(e)s*. Příčestí se **shoduje s podmětem**, když je zájmeno **přímým** předmětem. **Neshoduje** se, když je tam jiný přímý předmět (*Elle s'est lavé **les mains***) nebo když je zájmeno nepřímé (*Elles se sont téléphoné*)."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "She got up.",
+                  "cs": "Vstala.",
                   "wrong": "Elle s'est levé.",
                   "fr": "Elle s'est [[levée]]."
                 },
                 {
-                  "en": "She washed her hands.",
+                  "cs": "Umyla si ruce.",
                   "wrong": "Elle s'est lavée les mains.",
                   "fr": "Elle s'est [[lavé]] les mains.",
-                  "note": "The hands are the direct object, so no agreement."
+                  "note": "Ruce jsou přímý předmět, takže žádná shoda."
                 },
                 {
-                  "en": "They phoned each other.",
+                  "cs": "Zavolali si.",
                   "wrong": "Elles se sont téléphonées.",
                   "fr": "Elles se sont [[téléphoné]].",
-                  "note": "*Téléphoner à* is indirect."
+                  "note": "*Téléphoner à* je nepřímý předmět."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Reciprocal verbs",
+          "title": "Vzájemná slovesa",
           "blocks": [
             {
               "type": "text",
-              "en": "*Se* with a **plural subject** can mean **each other**: *Ils s'aiment, nous nous écrivons, elles se parlent.* It is the same form as the reflexive; the context tells which meaning."
+              "cs": "*Se* s **podmětem v množném čísle** může znamenat **navzájem**: *Ils s'aiment, nous nous écrivons, elles se parlent.* Tvar je stejný jako u zvratných sloves; který význam to je, poznáš z kontextu."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ils se voient tous les week-ends.",
-                  "en": "They see each other every weekend."
+                  "cs": "Vídají se každý víkend."
                 },
                 {
                   "fr": "Nous nous sommes rencontrés à Paris.",
-                  "en": "We met in Paris."
+                  "cs": "Seznámili jsme se v Paříži."
                 },
                 {
                   "fr": "Les deux amis se téléphonent souvent.",
-                  "en": "The two friends often phone each other."
+                  "cs": "Ti dva kamarádi si často volají."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Verbs that are reflexive only in French",
+          "title": "Slovesa, která jsou zvratná jinak než v češtině",
           "blocks": [
             {
               "type": "text",
-              "en": "Many verbs are reflexive in French but not in English: **se souvenir de** (to remember), **s'en aller** (to leave), **se passer** (to happen), **se tromper** (to be wrong), **s'asseoir** (to sit down), **se dépêcher** (to hurry), **se promener** (to take a walk), **s'ennuyer** (to be bored), **se débrouiller** (to manage)."
+              "cs": "Spousta sloves je zvratných ve francouzštině, ale v češtině ne, nebo mají jiné zvratné zájmeno: **se souvenir de** (pamatovat si), **s'en aller** (odejít), **se passer** (stát se), **se tromper** (mýlit se, splést se), **s'asseoir** (sednout si), **se dépêcher** (spěchat), **se promener** (procházet se), **s'ennuyer** (nudit se), **se débrouiller** (poradit si)."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Qu'est-ce qui s'est passé ?",
-                  "en": "What happened?"
+                  "cs": "Co se stalo?"
                 },
                 {
                   "fr": "Dépêche-toi, on va être en retard !",
-                  "en": "Hurry up, we're going to be late!"
+                  "cs": "Pospěš si, přijdeme pozdě!"
                 },
                 {
                   "fr": "Assieds-toi, je t'en prie.",
-                  "en": "Sit down, please."
+                  "cs": "Posaďte se, prosím."
                 },
                 {
                   "fr": "Je me suis trompé de numéro.",
-                  "en": "I dialled the wrong number."
+                  "cs": "Vytočil jsem špatné číslo."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Nous nous sommes couchés tard.",
-                  "en": "We went to bed late."
+                  "cs": "Šli jsme spát pozdě."
                 },
                 {
                   "fr": "Ne vous inquiétez pas.",
-                  "en": "Don't worry."
+                  "cs": "Neboj se."
                 },
                 {
                   "fr": "Elle s'est fait mal au pied.",
-                  "en": "She hurt her foot."
+                  "cs": "Poranila si nohu."
                 },
                 {
                   "fr": "Je me suis réveillé à sept heures.",
-                  "en": "I woke up at seven."
+                  "cs": "Probudil jsem se v sedm."
                 }
               ]
             }
@@ -4836,7 +4836,7 @@
         {
           "id": "g-reflexive-advanced-01",
           "type": "transform",
-          "task_en": "Say it in the passé composé",
+          "task_cs": "Řekni to v passé composé",
           "fr": "Elle se lève.",
           "a": [
             "Elle s'est levée."
@@ -4845,7 +4845,7 @@
         {
           "id": "g-reflexive-advanced-02",
           "type": "transform",
-          "task_en": "Say it in the passé composé",
+          "task_cs": "Řekni to v passé composé",
           "fr": "Nous nous dépêchons.",
           "a": [
             "Nous nous sommes dépêchés.",
@@ -4855,7 +4855,7 @@
         {
           "id": "g-reflexive-advanced-03",
           "type": "transform",
-          "task_en": "Make it negative",
+          "task_cs": "Utvoř zápor",
           "fr": "Elle s'est levée.",
           "a": [
             "Elle ne s'est pas levée."
@@ -4864,7 +4864,7 @@
         {
           "id": "g-reflexive-advanced-04",
           "type": "transform",
-          "task_en": "Turn into a command",
+          "task_cs": "Převeď na rozkaz",
           "fr": "Tu te lèves.",
           "a": [
             "Lève-toi !"
@@ -4873,7 +4873,7 @@
         {
           "id": "g-reflexive-advanced-05",
           "type": "transform",
-          "task_en": "Make the command negative",
+          "task_cs": "Převeď rozkaz do záporu",
           "fr": "Dépêche-toi !",
           "a": [
             "Ne te dépêche pas !"
@@ -4882,7 +4882,7 @@
         {
           "id": "g-reflexive-advanced-06",
           "type": "build",
-          "en": "I'm going to get up early.",
+          "cs": "Vstanu brzy.",
           "a": [
             "Je vais me lever tôt."
           ]
@@ -4890,7 +4890,7 @@
         {
           "id": "g-reflexive-advanced-07",
           "type": "build",
-          "en": "What happened?",
+          "cs": "Co se stalo?",
           "a": [
             "Qu'est-ce qui s'est passé ?"
           ]
@@ -4903,7 +4903,7 @@
             "lavé"
           ],
           "hint": "laver",
-          "en": "She washed her hands."
+          "cs": "Umyla si ruce."
         },
         {
           "id": "g-reflexive-advanced-09",
@@ -4912,13 +4912,13 @@
           "a": [
             "sommes"
           ],
-          "en": "We met in Paris."
+          "cs": "Seznámili jsme se v Paříži."
         }
       ]
     },
     {
       "id": "verb-infinitive",
-      "title": "Two verbs in a row",
+      "title": "Dvě slovesa za sebou",
       "fr": "verbe + infinitif",
       "level": "A2",
       "keywords": [
@@ -4940,25 +4940,25 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "When two verbs follow each other, only the **first** is conjugated and the second stays in the infinitive. Between them there is either nothing, *à*, or *de*, depending on the first verb."
+              "cs": "Když jdou dvě slovesa za sebou, časuje se jen **první** a druhé zůstává v infinitivu. Mezi nimi je buď nic, *à*, nebo *de*, podle prvního slovesa."
             },
             {
               "type": "table",
               "head": [
-                "construction",
-                "verbs",
-                "example"
+                "vazba",
+                "slovesa",
+                "příklad"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "no preposition",
+                  "bez předložky",
                   "aimer, adorer, détester, préférer, vouloir, pouvoir, devoir, savoir, aller",
                   "J'aime lire."
                 ],
@@ -4977,24 +4977,24 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I like reading.",
+                  "cs": "Rád čtu.",
                   "wrong": "J'aime lis.",
                   "fr": "J'aime [[lire]].",
-                  "note": "The second verb stays in the infinitive."
+                  "note": "Druhé sloveso zůstává v infinitivu."
                 },
                 {
-                  "en": "I stopped smoking.",
+                  "cs": "Přestal jsem kouřit.",
                   "wrong": "J'ai arrêté fumer.",
                   "fr": "J'ai arrêté [[de]] fumer."
                 },
                 {
-                  "en": "It's starting to rain.",
+                  "cs": "Začíná pršet.",
                   "wrong": "Il commence pleuvoir.",
                   "fr": "Il commence [[à]] pleuvoir."
                 }
@@ -5002,35 +5002,35 @@
             },
             {
               "type": "tip",
-              "en": "Learn the construction together with the verb: not *essayer*, but *essayer de*."
+              "cs": "Uč se vazbu spolu se slovesem: ne *essayer*, ale *essayer de*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je préfère jouer dehors.",
-                  "en": "I prefer playing outside."
+                  "cs": "Radši si hraju venku."
                 },
                 {
                   "fr": "Il a commencé à neiger.",
-                  "en": "It started snowing."
+                  "cs": "Začalo sněžit."
                 },
                 {
                   "fr": "N'oublie pas de fermer la porte.",
-                  "en": "Don't forget to close the door."
+                  "cs": "Nezapomeň zavřít dveře."
                 },
                 {
                   "fr": "J'ai décidé de partir.",
-                  "en": "I decided to leave."
+                  "cs": "Rozhodl jsem se odejít."
                 },
                 {
                   "fr": "Tu m'aides à porter le sac ?",
-                  "en": "Will you help me carry the bag?"
+                  "cs": "Pomůžeš mi odnést tašku?"
                 }
               ]
             }
@@ -5045,7 +5045,7 @@
           "a": [
             "à"
           ],
-          "en": "I'm learning to play the guitar."
+          "cs": "Učím se hrát na kytaru."
         },
         {
           "id": "g-verb-infinitive-02",
@@ -5054,7 +5054,7 @@
           "a": [
             "de"
           ],
-          "en": "He's trying to sleep."
+          "cs": "Snaží se usnout."
         },
         {
           "id": "g-verb-infinitive-03",
@@ -5063,13 +5063,13 @@
           "a": [
             "jouer"
           ],
-          "hint": "infinitive",
-          "en": "I love playing basketball."
+          "hint": "infinitiv",
+          "cs": "Miluju hrát basketbal."
         },
         {
           "id": "g-verb-infinitive-04",
           "type": "build",
-          "en": "Stop talking!",
+          "cs": "Přestaň mluvit!",
           "a": [
             "Arrête de parler !"
           ]
@@ -5081,13 +5081,13 @@
           "a": [
             "à"
           ],
-          "en": "My sister is starting to talk."
+          "cs": "Moje sestra začíná mluvit."
         }
       ]
     },
     {
       "id": "verbs-a-de-inf",
-      "title": "Verbs followed by à, de or nothing + infinitive",
+      "title": "Slovesa, po kterých následuje à, de nebo nic + infinitiv",
       "fr": "verbes + à / de + infinitif",
       "level": "A2",
       "keywords": [
@@ -5118,22 +5118,22 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "When two verbs follow each other, the second is an **infinitive**, linked in one of **three ways**: **directly**, with **à** or with **de**. There is no rule, but the groups are stable, so learn the verb with its link."
+              "cs": "Když jdou dvě slovesa za sebou, druhé je **infinitiv** a připojuje se jedním ze **tří způsobů**: **přímo**, pomocí **à** nebo pomocí **de**. Pravidlo neexistuje, ale skupiny jsou stálé, takže se sloveso uč i s jeho vazbou."
             },
             {
               "type": "table",
               "head": [
-                "link",
-                "typical verbs",
-                "example"
+                "vazba",
+                "typická slovesa",
+                "příklad"
               ],
               "rows": [
                 [
-                  "nothing",
+                  "nic",
                   "aimer, adorer, détester, préférer, vouloir, pouvoir, devoir, savoir, aller, désirer, falloir, espérer, penser, venir",
                   "Je veux partir."
                 ],
@@ -5155,79 +5155,79 @@
           ]
         },
         {
-          "title": "Directly",
+          "title": "Přímo",
           "blocks": [
             {
               "type": "text",
-              "en": "*Aimer, vouloir, pouvoir, devoir, savoir, aller, espérer, préférer, désirer, détester* and the verbs of motion take **no preposition**. A pronoun goes before the infinitive: *Je veux le voir.*"
+              "cs": "*Aimer, vouloir, pouvoir, devoir, savoir, aller, espérer, préférer, désirer, détester* a slovesa pohybu nemají **žádnou předložku**. Zájmeno stojí před infinitivem: *Je veux le voir.*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'aime lire.",
-                  "en": "I like reading."
+                  "cs": "Rád čtu."
                 },
                 {
                   "fr": "Elle espère gagner.",
-                  "en": "She hopes to win."
+                  "cs": "Doufá, že vyhraje."
                 },
                 {
                   "fr": "Nous allons manger.",
-                  "en": "We are going to eat."
+                  "cs": "Budeme jíst."
                 },
                 {
                   "fr": "Tu peux m'aider ?",
-                  "en": "Can you help me?"
+                  "cs": "Můžeš mi pomoct?"
                 }
               ]
             }
           ]
         },
         {
-          "title": "With à",
+          "title": "S à",
           "blocks": [
             {
               "type": "text",
-              "en": "**À** goes with **beginning, continuing, learning, succeeding and helping**."
+              "cs": "**À** patří ke **začínání, pokračování, učení, úspěchu a pomoci**."
             },
             {
               "type": "table",
               "head": [
-                "verb",
-                "example",
-                "English"
+                "sloveso",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
                   "commencer à",
                   "Il commence à pleuvoir.",
-                  "It's beginning to rain."
+                  "Začíná pršet."
                 ],
                 [
                   "continuer à / de",
                   "Elle continue à travailler.",
-                  "She keeps working."
+                  "Pořád pracuje."
                 ],
                 [
                   "apprendre à",
                   "J'apprends à conduire.",
-                  "I'm learning to drive."
+                  "Učím se řídit."
                 ],
                 [
                   "réussir à",
                   "Il a réussi à gagner.",
-                  "He managed to win."
+                  "Podařilo se mu vyhrát."
                 ],
                 [
                   "hésiter à",
                   "J'hésite à partir.",
-                  "I hesitate to leave."
+                  "Váhám, jestli odejít."
                 ],
                 [
                   "se mettre à",
                   "Elle s'est mise à rire.",
-                  "She started laughing."
+                  "Začala se smát."
                 ]
               ],
               "textCols": [
@@ -5237,49 +5237,49 @@
           ]
         },
         {
-          "title": "With de",
+          "title": "S de",
           "blocks": [
             {
               "type": "text",
-              "en": "**De** goes with **ending, trying, deciding, forgetting, refusing** and the expressions with **avoir** (*avoir envie de, besoin de, peur de, l'intention de*)."
+              "cs": "**De** patří ke **končení, snaze, rozhodnutí, zapomínání, odmítání** a ke spojením s **avoir** (*avoir envie de, besoin de, peur de, l'intention de*)."
             },
             {
               "type": "table",
               "head": [
-                "verb",
-                "example",
-                "English"
+                "sloveso",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
                   "finir de",
                   "J'ai fini de manger.",
-                  "I've finished eating."
+                  "Dojedl jsem."
                 ],
                 [
                   "arrêter de",
                   "Il a arrêté de fumer.",
-                  "He stopped smoking."
+                  "Přestal kouřit."
                 ],
                 [
                   "essayer de",
                   "J'essaie de comprendre.",
-                  "I'm trying to understand."
+                  "Snažím se pochopit."
                 ],
                 [
                   "décider de",
                   "Nous avons décidé de partir.",
-                  "We decided to leave."
+                  "Rozhodli jsme se odejít."
                 ],
                 [
                   "oublier de",
                   "N'oublie pas de téléphoner.",
-                  "Don't forget to phone."
+                  "Nezapomeň zavolat."
                 ],
                 [
                   "avoir envie de",
                   "J'ai envie de dormir.",
-                  "I feel like sleeping."
+                  "Chce se mi spát."
                 ]
               ],
               "textCols": [
@@ -5289,27 +5289,27 @@
           ]
         },
         {
-          "title": "Two different links",
+          "title": "Dvě různé vazby",
           "blocks": [
             {
               "type": "text",
-              "en": "Some verbs change meaning with their link. **Demander à qqn de** + infinitive: *Je lui demande de venir.* **Dire à qqn de**: *Elle me dit de partir.* **Commencer par** + infinitive means *to begin by*; **finir par** means *to end up*: *Il a fini par comprendre.*"
+              "cs": "Některá slovesa mění s vazbou význam. **Demander à qqn de** + infinitiv: *Je lui demande de venir.* **Dire à qqn de**: *Elle me dit de partir.* **Commencer par** + infinitiv znamená *začít tím, že*; **finir par** znamená *nakonec*: *Il a fini par comprendre.*"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I stopped smoking.",
+                  "cs": "Přestal jsem kouřit.",
                   "wrong": "J'ai arrêté à fumer.",
                   "fr": "J'ai arrêté [[de]] fumer."
                 },
                 {
-                  "en": "I'm learning to swim.",
+                  "cs": "Učím se plavat.",
                   "wrong": "J'apprends de nager.",
                   "fr": "J'apprends [[à]] nager."
                 },
                 {
-                  "en": "I want to leave.",
+                  "cs": "Chci odejít.",
                   "wrong": "Je veux de partir.",
                   "fr": "Je veux partir."
                 }
@@ -5318,26 +5318,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je commence à comprendre.",
-                  "en": "I'm beginning to understand."
+                  "cs": "Začínám chápat."
                 },
                 {
                   "fr": "Il refuse de répondre.",
-                  "en": "He refuses to answer."
+                  "cs": "Odmítá odpovědět."
                 },
                 {
                   "fr": "Tu as réussi à ouvrir la porte ?",
-                  "en": "Did you manage to open the door?"
+                  "cs": "Podařilo se ti otevřít dveře?"
                 },
                 {
                   "fr": "Elle a peur de parler en public.",
-                  "en": "She is afraid of speaking in public."
+                  "cs": "Bojí se mluvit na veřejnosti."
                 }
               ]
             }
@@ -5352,7 +5352,7 @@
           "a": [
             "à"
           ],
-          "en": "I'm learning to swim."
+          "cs": "Učím se plavat."
         },
         {
           "id": "g-verbs-a-de-inf-02",
@@ -5361,7 +5361,7 @@
           "a": [
             "de"
           ],
-          "en": "He stopped smoking."
+          "cs": "Přestal kouřit."
         },
         {
           "id": "g-verbs-a-de-inf-03",
@@ -5370,7 +5370,7 @@
           "a": [
             "de"
           ],
-          "en": "We decided to leave."
+          "cs": "Rozhodli jsme se odejít."
         },
         {
           "id": "g-verbs-a-de-inf-04",
@@ -5379,12 +5379,12 @@
           "a": [
             "à"
           ],
-          "en": "She's beginning to understand."
+          "cs": "Začíná chápat."
         },
         {
           "id": "g-verbs-a-de-inf-05",
           "type": "build",
-          "en": "I'm trying to understand.",
+          "cs": "Snažím se pochopit.",
           "a": [
             "J'essaie de comprendre.",
             "Je tente de comprendre."
@@ -5393,7 +5393,7 @@
         {
           "id": "g-verbs-a-de-inf-06",
           "type": "build",
-          "en": "Don't forget to phone me.",
+          "cs": "Nezapomeň mi zavolat.",
           "a": [
             "N'oublie pas de me téléphoner.",
             "N'oubliez pas de me téléphoner."
@@ -5402,7 +5402,7 @@
         {
           "id": "g-verbs-a-de-inf-07",
           "type": "build",
-          "en": "She managed to win.",
+          "cs": "Podařilo se jí vyhrát.",
           "a": [
             "Elle a réussi à gagner."
           ]
@@ -5410,7 +5410,7 @@
         {
           "id": "g-verbs-a-de-inf-08",
           "type": "build",
-          "en": "I feel like sleeping.",
+          "cs": "Chce se mi spát.",
           "a": [
             "J'ai envie de dormir."
           ]
@@ -5419,7 +5419,7 @@
     },
     {
       "id": "infinitive-uses",
-      "title": "The infinitive: avant de, sans, pour, après avoir",
+      "title": "Infinitiv: avant de, sans, pour, après avoir",
       "fr": "l'infinitif",
       "level": "A2",
       "levelTo": "B1",
@@ -5448,54 +5448,54 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The infinitive is used **after prepositions** (*pour, sans, avant de, au lieu de, afin de*), as a **noun** (*Lire est agréable*), after **modals and verbs of wanting** (*je veux partir*) and in **instructions** (*Ajouter du sel*). Its **negative** goes in front together: **ne pas** + infinitive."
+              "cs": "Infinitiv se používá **po předložkách** (*pour, sans, avant de, au lieu de, afin de*), jako **podstatné jméno** (*Lire est agréable*), po **způsobových slovesech a slovesech chtění** (*je veux partir*) a v **pokynech** (*Ajouter du sel*). Jeho **zápor** stojí vpředu pohromadě: **ne pas** + infinitiv."
             },
             {
               "type": "table",
               "head": [
-                "use",
-                "example",
-                "English"
+                "použití",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
                   "pour + inf.",
                   "Je travaille pour gagner de l'argent.",
-                  "I work to earn money."
+                  "Pracuju, abych vydělal peníze."
                 ],
                 [
                   "sans + inf.",
                   "Il part sans dire au revoir.",
-                  "He leaves without saying goodbye."
+                  "Odchází bez rozloučení."
                 ],
                 [
                   "avant de + inf.",
                   "Lave-toi les mains avant de manger.",
-                  "Wash your hands before eating."
+                  "Před jídlem si umyj ruce."
                 ],
                 [
                   "au lieu de + inf.",
                   "Au lieu de pleurer, riez !",
-                  "Instead of crying, laugh!"
+                  "Místo pláče se směj!"
                 ],
                 [
                   "après avoir / être + participle",
                   "Après avoir mangé, je sors.",
-                  "After eating I go out."
+                  "Po jídle jdu ven."
                 ],
                 [
-                  "infinitive as a subject",
+                  "infinitiv jako podmět",
                   "Voyager est agréable.",
-                  "Travelling is nice."
+                  "Cestovat je hezké."
                 ],
                 [
                   "negative",
                   "Il demande de ne pas parler.",
-                  "He asks us not to speak."
+                  "Prosí nás, abychom nemluvili."
                 ]
               ],
               "textCols": [
@@ -5505,48 +5505,48 @@
           ]
         },
         {
-          "title": "The past infinitive",
+          "title": "Minulý infinitiv",
           "blocks": [
             {
               "type": "text",
-              "en": "To say that the action was **finished before** the main verb use **avoir or être + past participle**: *après avoir mangé, après être arrivé(e)*. With *être* verbs and reflexives the participle agrees with the subject: *Après être arrivée, elle a téléphoné.* Both actions must have **the same subject**."
+              "cs": "Když chceš říct, že děj **skončil dřív** než hlavní sloveso, použij **avoir nebo être + příčestí minulé**: *après avoir mangé, après être arrivé(e)*. U sloves s *être* a zvratných sloves se příčestí shoduje s podmětem: *Après être arrivée, elle a téléphoné.* Oba děje musí mít **stejný podmět**."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Après avoir fini, il est parti.",
-                  "en": "After finishing he left."
+                  "cs": "Když to dodělal, odešel."
                 },
                 {
                   "fr": "Après être rentrés, ils ont dîné.",
-                  "en": "After coming home they had dinner."
+                  "cs": "Když se vrátili domů, povečeřeli."
                 },
                 {
                   "fr": "Après s'être lavée, elle a mangé.",
-                  "en": "After washing she ate."
+                  "cs": "Když se umyla, najedla se."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Same subject only",
+          "title": "Jen se stejným podmětem",
           "blocks": [
             {
               "type": "text",
-              "en": "With *avant de, après, sans, pour* the infinitive needs the **same subject** as the main verb. With different subjects use a clause: *avant que* + subjunctive, *pour que* + subjunctive, *sans que* + subjunctive."
+              "cs": "S *avant de, après, sans, pour* potřebuje infinitiv **stejný podmět** jako hlavní sloveso. S různými podměty použij větu: *avant que* + subjonctif, *pour que* + subjonctif, *sans que* + subjonctif."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Before I leave, I call.",
+                  "cs": "Než odejdu, zavolám.",
                   "wrong": "Avant que je pars, j'appelle.",
                   "fr": "[[Avant de partir]], j'appelle."
                 },
                 {
-                  "en": "Before you leave, call me.",
+                  "cs": "Než odejdeš, zavolej mi.",
                   "wrong": "Avant de partir tu, appelle-moi.",
                   "fr": "[[Avant que tu partes]], appelle-moi."
                 }
@@ -5555,26 +5555,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il est sorti sans prendre son manteau.",
-                  "en": "He went out without taking his coat."
+                  "cs": "Vyšel ven bez kabátu."
                 },
                 {
                   "fr": "Fermez la porte avant de partir.",
-                  "en": "Close the door before leaving."
+                  "cs": "Než odejdeš, zavři dveře."
                 },
                 {
                   "fr": "Il vaut mieux ne pas attendre.",
-                  "en": "It's better not to wait."
+                  "cs": "Je lepší nečekat."
                 },
                 {
                   "fr": "Écouter, c'est apprendre.",
-                  "en": "Listening is learning."
+                  "cs": "Poslouchat znamená učit se."
                 }
               ]
             }
@@ -5585,7 +5585,7 @@
         {
           "id": "g-infinitive-uses-01",
           "type": "build",
-          "en": "He leaves without saying goodbye.",
+          "cs": "Odchází bez rozloučení.",
           "a": [
             "Il part sans dire au revoir."
           ]
@@ -5593,7 +5593,7 @@
         {
           "id": "g-infinitive-uses-02",
           "type": "build",
-          "en": "Wash your hands before eating.",
+          "cs": "Před jídlem si umyj ruce.",
           "a": [
             "Lave-toi les mains avant de manger.",
             "Lavez-vous les mains avant de manger."
@@ -5602,7 +5602,7 @@
         {
           "id": "g-infinitive-uses-03",
           "type": "build",
-          "en": "After eating, I go out.",
+          "cs": "Po jídle jdu ven.",
           "a": [
             "Après avoir mangé, je sors."
           ]
@@ -5610,7 +5610,7 @@
         {
           "id": "g-infinitive-uses-04",
           "type": "build",
-          "en": "After arriving, she phoned.",
+          "cs": "Když dorazila, zavolala.",
           "a": [
             "Après être arrivée, elle a téléphoné."
           ]
@@ -5618,7 +5618,7 @@
         {
           "id": "g-infinitive-uses-05",
           "type": "build",
-          "en": "Instead of crying, laugh!",
+          "cs": "Místo pláče se směj!",
           "a": [
             "Au lieu de pleurer, riez !",
             "Au lieu de pleurer, ris !"
@@ -5631,7 +5631,7 @@
           "a": [
             "sans"
           ],
-          "en": "He leaves without saying goodbye."
+          "cs": "Odchází bez rozloučení."
         },
         {
           "id": "g-infinitive-uses-07",
@@ -5640,7 +5640,7 @@
           "a": [
             "avoir"
           ],
-          "en": "After eating we went out."
+          "cs": "Po jídle jsme šli ven."
         },
         {
           "id": "g-infinitive-uses-08",
@@ -5649,13 +5649,13 @@
           "a": [
             "pas"
           ],
-          "en": "He asks us not to speak."
+          "cs": "Prosí nás, abychom nemluvili."
         }
       ]
     },
     {
       "id": "causative-sensory",
-      "title": "Faire, laisser, voir + infinitive",
+      "title": "Faire, laisser, voir + infinitiv",
       "fr": "faire faire, laisser faire",
       "level": "B1",
       "keywords": [
@@ -5678,44 +5678,44 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "**Faire + infinitive** means to **cause** something to happen or to **have it done**: *Je fais réparer ma voiture* (I'm having my car repaired). **Laisser + infinitive** means **to let**: *Je laisse partir les enfants.* **Voir, entendre, regarder, écouter + infinitive** say **what you perceive**: *Je vois venir le bus.*"
+              "cs": "**Faire + infinitiv** znamená něco **způsobit** nebo si **nechat něco udělat**: *Je fais réparer ma voiture* (nechávám si opravit auto). **Laisser + infinitiv** znamená **nechat, dovolit**: *Je laisse partir les enfants.* **Voir, entendre, regarder, écouter + infinitiv** říkají, **co vnímáš**: *Je vois venir le bus.*"
             },
             {
               "type": "table",
               "head": [
-                "structure",
-                "example",
-                "English"
+                "vazba",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
                   "faire + inf.",
                   "Il fait rire tout le monde.",
-                  "He makes everyone laugh."
+                  "Všechny rozesměje."
                 ],
                 [
-                  "faire + inf. + noun",
+                  "faire + inf. + podstatné jméno",
                   "Je fais réparer mon vélo.",
-                  "I'm having my bike repaired."
+                  "Nechávám si opravit kolo."
                 ],
                 [
                   "se faire + inf.",
                   "Elle se fait couper les cheveux.",
-                  "She's having her hair cut."
+                  "Nechává se ostříhat."
                 ],
                 [
                   "laisser + inf.",
                   "Laisse-moi parler !",
-                  "Let me speak!"
+                  "Nech mě mluvit!"
                 ],
                 [
                   "voir / entendre + inf.",
                   "J'entends chanter les oiseaux.",
-                  "I hear the birds sing."
+                  "Slyším zpívat ptáky."
                 ]
               ],
               "textCols": [
@@ -5725,75 +5725,75 @@
           ]
         },
         {
-          "title": "Faire + infinitive",
+          "title": "Faire + infinitiv",
           "blocks": [
             {
               "type": "text",
-              "en": "The two verbs form a **block**: nothing goes in between and a pronoun goes before *faire*: *Je le fais réparer.* *Faire* is an auxiliary-like verb, so in the passé composé the participle **fait** never agrees: *Je les ai fait venir.*"
+              "cs": "Obě slovesa tvoří **blok**: nic mezi ně nepatří a zájmeno stojí před *faire*: *Je le fais réparer.* *Faire* se tu chová skoro jako pomocné sloveso, takže v passé composé se příčestí **fait** nikdy neshoduje: *Je les ai fait venir.*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je fais cuire le riz.",
-                  "en": "I'm cooking the rice."
+                  "cs": "Vařím rýži."
                 },
                 {
                   "fr": "Il m'a fait pleurer.",
-                  "en": "He made me cry."
+                  "cs": "Rozplakal mě."
                 },
                 {
                   "fr": "Nous avons fait construire une maison.",
-                  "en": "We had a house built."
+                  "cs": "Nechali jsme si postavit dům."
                 },
                 {
                   "fr": "Ça me fait rire.",
-                  "en": "That makes me laugh."
+                  "cs": "To mě rozesměje."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Laisser and perception verbs",
+          "title": "Laisser a slovesa vnímání",
           "blocks": [
             {
               "type": "text",
-              "en": "With **laisser** and the verbs of **perception** a pronoun goes before the first verb: *Je les vois jouer.* *Laisse-le faire.* The participle of *laisser* can stay unchanged."
+              "cs": "S **laisser** a slovesy **vnímání** stojí zájmeno před prvním slovesem: *Je les vois jouer.* *Laisse-le faire.* Příčestí *laisser* může zůstat beze změny."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je les ai entendus chanter.",
-                  "en": "I heard them sing."
+                  "cs": "Slyšel jsem je zpívat."
                 },
                 {
                   "fr": "Elle laisse son fils jouer dehors.",
-                  "en": "She lets her son play outside."
+                  "cs": "Nechává syna hrát si venku."
                 },
                 {
                   "fr": "Nous regardons passer les voitures.",
-                  "en": "We watch the cars go by."
+                  "cs": "Díváme se, jak projíždějí auta."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm having my car repaired.",
+                  "cs": "Nechávám si opravit auto.",
                   "wrong": "Je répare ma voiture.",
                   "fr": "Je [[fais réparer]] ma voiture.",
-                  "note": "*Je répare* means *I repair it myself*."
+                  "note": "*Je répare* znamená *opravuju to sám*."
                 },
                 {
-                  "en": "He made me laugh.",
+                  "cs": "Rozesmál mě.",
                   "wrong": "Il a fait me rire.",
                   "fr": "Il [[m']]a [[fait rire]]."
                 }
@@ -5810,26 +5810,26 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je fais nettoyer mon appartement.",
-                  "en": "I'm having my flat cleaned."
+                  "cs": "Nechávám si uklidit byt."
                 },
                 {
                   "fr": "Il fait toujours rire ses amis.",
-                  "en": "He always makes his friends laugh."
+                  "cs": "Kamarády vždycky rozesměje."
                 },
                 {
                   "fr": "Laissez-les entrer.",
-                  "en": "Let them in."
+                  "cs": "Pusť je dovnitř."
                 },
                 {
                   "fr": "J'ai vu partir le train.",
-                  "en": "I saw the train leave."
+                  "cs": "Viděl jsem odjíždět vlak."
                 }
               ]
             }
@@ -5840,7 +5840,7 @@
         {
           "id": "g-causative-sensory-01",
           "type": "build",
-          "en": "I'm having my bike repaired.",
+          "cs": "Nechávám si opravit kolo.",
           "a": [
             "Je fais réparer mon vélo."
           ]
@@ -5848,7 +5848,7 @@
         {
           "id": "g-causative-sensory-02",
           "type": "build",
-          "en": "He makes everyone laugh.",
+          "cs": "Všechny rozesměje.",
           "a": [
             "Il fait rire tout le monde."
           ]
@@ -5856,7 +5856,7 @@
         {
           "id": "g-causative-sensory-03",
           "type": "build",
-          "en": "Let me speak!",
+          "cs": "Nech mě mluvit!",
           "a": [
             "Laisse-moi parler !",
             "Laissez-moi parler !"
@@ -5865,7 +5865,7 @@
         {
           "id": "g-causative-sensory-04",
           "type": "build",
-          "en": "I hear the birds sing.",
+          "cs": "Slyším zpívat ptáky.",
           "a": [
             "J'entends chanter les oiseaux.",
             "J'entends les oiseaux chanter."
@@ -5874,7 +5874,7 @@
         {
           "id": "g-causative-sensory-05",
           "type": "build",
-          "en": "I saw the train leave.",
+          "cs": "Viděl jsem odjíždět vlak.",
           "a": [
             "J'ai vu partir le train.",
             "J'ai vu le train partir."
@@ -5887,8 +5887,8 @@
           "a": [
             "fait"
           ],
-          "hint": "made",
-          "en": "He made me laugh."
+          "hint": "způsobil, nechal",
+          "cs": "Rozesmál mě."
         },
         {
           "id": "g-causative-sensory-07",
@@ -5897,8 +5897,8 @@
           "a": [
             "fait"
           ],
-          "hint": "has",
-          "en": "She's having her hair cut."
+          "hint": "má",
+          "cs": "Nechává se ostříhat."
         },
         {
           "id": "g-causative-sensory-08",
@@ -5907,14 +5907,14 @@
           "a": [
             "entendus"
           ],
-          "hint": "heard",
-          "en": "I heard them sing."
+          "hint": "slyšel",
+          "cs": "Slyšel jsem je zpívat."
         }
       ]
     },
     {
       "id": "verb-constructions",
-      "title": "Tricky verb constructions",
+      "title": "Záludné slovesné vazby",
       "fr": "les constructions verbales",
       "level": "A2",
       "keywords": [
@@ -5945,18 +5945,18 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "French and English (and Czech) verbs often take a different preposition or case. Learn the ones that differ together with their construction."
+              "cs": "Francouzská a česká slovesa mají často jinou předložku nebo pád. Ta, která se liší, se uč i s jejich vazbou."
             },
             {
               "type": "table",
               "head": [
-                "French",
-                "English",
-                "watch out"
+                "francouzsky",
+                "česky",
+                "pozor"
               ],
               "textCols": [
                 1,
@@ -5965,52 +5965,52 @@
               "rows": [
                 [
                   "attendre qn",
-                  "to wait **for** someone",
-                  "no preposition: *je l'attends*"
+                  "čekat **na** někoho",
+                  "bez předložky: *je l'attends*"
                 ],
                 [
                   "chercher qc",
-                  "to look **for** something",
-                  "no preposition: *je le cherche*"
+                  "hledat něco",
+                  "bez předložky: *je le cherche*"
                 ],
                 [
                   "regarder qc",
-                  "to look **at** something",
-                  "no preposition: *je le regarde*"
+                  "dívat se **na** něco",
+                  "bez předložky: *je le regarde*"
                 ],
                 [
                   "écouter qn",
-                  "to listen **to** someone",
-                  "no preposition: *je l'écoute*"
+                  "poslouchat někoho",
+                  "bez předložky: *je l'écoute*"
                 ],
                 [
                   "aider qn",
-                  "to help someone",
-                  "direct object: *je l'aide*"
+                  "pomoct někomu",
+                  "přímý předmět: *je l'aide*"
                 ],
                 [
                   "téléphoner à qn",
-                  "to phone someone",
+                  "zavolat někomu",
                   "*à*: *je lui téléphone*"
                 ],
                 [
                   "demander à qn",
-                  "to ask someone",
+                  "zeptat se někoho",
                   "*à*: *je lui demande*"
                 ],
                 [
                   "penser à qc, qn",
-                  "to think **about** something",
+                  "myslet **na** něco",
                   "*à*: *j'y pense*"
                 ],
                 [
                   "avoir besoin de",
-                  "to need",
+                  "potřebovat",
                   "*de*: *j'en ai besoin*"
                 ],
                 [
                   "se souvenir de",
-                  "to remember",
+                  "pamatovat si",
                   "*de*: *je m'en souviens*"
                 ]
               ]
@@ -6018,43 +6018,43 @@
           ]
         },
         {
-          "title": "Jouer à or jouer de?",
+          "title": "Jouer à, nebo jouer de?",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I play basketball.",
+                  "cs": "Hraju basketbal.",
                   "fr": "Je joue [[au]] basket.",
-                  "note": "Sports and games: *jouer à*."
+                  "note": "Sporty a hry: *jouer à*."
                 },
                 {
-                  "en": "I play the guitar.",
+                  "cs": "Hraju na kytaru.",
                   "fr": "Je joue [[de la]] guitare.",
-                  "note": "Musical instruments: *jouer de*."
+                  "note": "Hudební nástroje: *jouer de*."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm waiting for the bus.",
+                  "cs": "Čekám na autobus.",
                   "wrong": "J'attends pour le bus.",
                   "fr": "J'attends [[le]] bus."
                 },
                 {
-                  "en": "I'm watching TV.",
+                  "cs": "Dívám se na televizi.",
                   "wrong": "Je regarde à la télé.",
                   "fr": "Je regarde [[la]] télé."
                 },
                 {
-                  "en": "I'm helping my father.",
+                  "cs": "Pomáhám tátovi.",
                   "wrong": "J'aide à mon père.",
                   "fr": "J'aide [[mon]] père."
                 }
@@ -6063,30 +6063,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je cherche mes clés.",
-                  "en": "I'm looking for my keys."
+                  "cs": "Hledám klíče."
                 },
                 {
                   "fr": "Tu penses à moi ?",
-                  "en": "Are you thinking of me?"
+                  "cs": "Myslíš na mě?"
                 },
                 {
                   "fr": "J'ai besoin d'un stylo.",
-                  "en": "I need a pen."
+                  "cs": "Potřebuju propisku."
                 },
                 {
                   "fr": "Je me souviens de ce jour.",
-                  "en": "I remember that day."
+                  "cs": "Pamatuju si ten den."
                 },
                 {
                   "fr": "Il demande à la prof.",
-                  "en": "He's asking the teacher."
+                  "cs": "Ptá se učitele."
                 }
               ]
             }
@@ -6097,7 +6097,7 @@
         {
           "id": "g-verb-constructions-01",
           "type": "build",
-          "en": "I'm waiting for you.",
+          "cs": "Čekám na tebe.",
           "a": [
             "Je t'attends."
           ]
@@ -6105,7 +6105,7 @@
         {
           "id": "g-verb-constructions-02",
           "type": "build",
-          "en": "I play the guitar.",
+          "cs": "Hraju na kytaru.",
           "a": [
             "Je joue de la guitare."
           ]
@@ -6113,7 +6113,7 @@
         {
           "id": "g-verb-constructions-03",
           "type": "build",
-          "en": "I play football.",
+          "cs": "Hraju fotbal.",
           "a": [
             "Je joue au {foot|football}."
           ]
@@ -6125,7 +6125,7 @@
           "a": [
             "de"
           ],
-          "en": "I need your help."
+          "cs": "Potřebuju tvou pomoc."
         },
         {
           "id": "g-verb-constructions-05",
@@ -6134,12 +6134,12 @@
           "a": [
             "à"
           ],
-          "en": "I'm phoning my grandmother."
+          "cs": "Volám babičce."
         },
         {
           "id": "g-verb-constructions-06",
           "type": "build",
-          "en": "I'm helping my mum.",
+          "cs": "Pomáhám mámě.",
           "a": [
             "J'aide {ma mère|maman}."
           ]
@@ -6148,7 +6148,7 @@
     },
     {
       "id": "avoir-faire-expressions",
-      "title": "Expressions with avoir and faire",
+      "title": "Spojení s avoir a faire",
       "fr": "les expressions avec avoir et faire",
       "level": "A1",
       "keywords": [
@@ -6187,17 +6187,17 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Where English and Czech say \"I'm cold, I'm afraid\", French **has**: *j'ai froid, j'ai peur*. And French expresses many activities and the weather with the verb *faire*."
+              "cs": "Kde čeština říká \"je mi zima, bojím se\", francouzština **má**: *j'ai froid, j'ai peur*. A spoustu činností i počasí vyjadřuje francouzština slovesem *faire*."
             },
             {
               "type": "table",
               "head": [
                 "avoir...",
-                "English"
+                "česky"
               ],
               "textCols": [
                 1
@@ -6205,47 +6205,47 @@
               "rows": [
                 [
                   "avoir 14 ans",
-                  "to be 14 years old"
+                  "být 14 let"
                 ],
                 [
                   "avoir faim",
-                  "to be hungry"
+                  "mít hlad"
                 ],
                 [
                   "avoir soif",
-                  "to be thirsty"
+                  "mít žízeň"
                 ],
                 [
                   "avoir froid",
-                  "to be cold"
+                  "být zima (komu)"
                 ],
                 [
                   "avoir chaud",
-                  "to be hot"
+                  "být horko (komu)"
                 ],
                 [
                   "avoir peur de",
-                  "to be afraid of"
+                  "bát se (čeho)"
                 ],
                 [
                   "avoir sommeil",
-                  "to be sleepy"
+                  "být ospalý"
                 ],
                 [
                   "avoir raison, avoir tort",
-                  "to be right, to be wrong"
+                  "mít pravdu, nemít pravdu"
                 ],
                 [
                   "avoir mal à",
-                  "to hurt, to have a pain in"
+                  "bolet"
                 ],
                 [
                   "avoir besoin de",
-                  "to need"
+                  "potřebovat"
                 ],
                 [
                   "avoir envie de",
-                  "to feel like, to want"
+                  "mít chuť, chtít"
                 ]
               ]
             }
@@ -6256,7 +6256,7 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Avoir mal à* + a part of the body: *J'ai mal à la tête* (I have a headache), *j'ai mal au ventre* (my stomach hurts), *j'ai mal aux dents* (my teeth hurt)."
+              "cs": "*Avoir mal à* + část těla: *J'ai mal à la tête* (bolí mě hlava), *j'ai mal au ventre* (bolí mě břicho), *j'ai mal aux dents* (bolí mě zuby)."
             },
             {
               "type": "see",
@@ -6273,7 +6273,7 @@
               "type": "table",
               "head": [
                 "faire...",
-                "English"
+                "česky"
               ],
               "textCols": [
                 1
@@ -6281,58 +6281,58 @@
               "rows": [
                 [
                   "faire du sport, du vélo, du ski",
-                  "to do sport, to cycle, to ski"
+                  "sportovat, jezdit na kole, lyžovat"
                 ],
                 [
                   "faire de la musique",
-                  "to make music"
+                  "dělat hudbu"
                 ],
                 [
                   "faire les courses",
-                  "to go shopping (for food)"
+                  "nakupovat (jídlo)"
                 ],
                 [
                   "faire la cuisine",
-                  "to cook"
+                  "vařit"
                 ],
                 [
                   "faire ses devoirs",
-                  "to do one's homework"
+                  "dělat si úkoly"
                 ],
                 [
                   "faire la vaisselle",
-                  "to wash the dishes"
+                  "mýt nádobí"
                 ],
                 [
                   "il fait beau, il fait froid",
-                  "the weather is nice, it's cold"
+                  "je hezky, je zima"
                 ],
                 [
                   "faire attention",
-                  "to pay attention, to be careful"
+                  "dávat pozor"
                 ]
               ]
             },
             {
               "type": "tip",
-              "en": "*Je fais du sport* (I do sport), but *je joue au foot* (I play football). Ball games and games: *jouer à*. Other sports: *faire de*."
+              "cs": "*Je fais du sport* (sportuju), ale *je joue au foot* (hraju fotbal). Míčové hry a hry: *jouer à*. Ostatní sporty: *faire de*."
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm cold.",
+                  "cs": "Je mi zima.",
                   "wrong": "Il est froid à moi.",
                   "fr": "[[J'ai]] froid.",
-                  "note": "For the weather: *il fait froid*. For how you feel: *j'ai froid*."
+                  "note": "Pro počasí: *il fait froid*. Pro to, jak se cítíš: *j'ai froid*."
                 },
                 {
-                  "en": "I'm afraid of dogs.",
+                  "cs": "Bojím se psů.",
                   "wrong": "Je suis peur des chiens.",
                   "fr": "[[J'ai peur]] des chiens."
                 }
@@ -6341,30 +6341,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'ai faim, on mange ?",
-                  "en": "I'm hungry, shall we eat?"
+                  "cs": "Mám hlad, najíme se?"
                 },
                 {
                   "fr": "Tu as raison.",
-                  "en": "You're right."
+                  "cs": "Máš pravdu."
                 },
                 {
                   "fr": "J'ai mal au pied.",
-                  "en": "My foot hurts."
+                  "cs": "Bolí mě noha."
                 },
                 {
                   "fr": "J'ai envie d'une pizza.",
-                  "en": "I feel like a pizza."
+                  "cs": "Mám chuť na pizzu."
                 },
                 {
                   "fr": "Le week-end, je fais du vélo.",
-                  "en": "At weekends I go cycling."
+                  "cs": "O víkendu jezdím na kole."
                 }
               ]
             }
@@ -6375,7 +6375,7 @@
         {
           "id": "g-avoir-faire-expressions-01",
           "type": "build",
-          "en": "I'm thirsty.",
+          "cs": "Mám žízeň.",
           "a": [
             "J'ai soif."
           ]
@@ -6383,7 +6383,7 @@
         {
           "id": "g-avoir-faire-expressions-02",
           "type": "build",
-          "en": "I'm cold.",
+          "cs": "Je mi zima.",
           "a": [
             "J'ai froid."
           ]
@@ -6391,7 +6391,7 @@
         {
           "id": "g-avoir-faire-expressions-03",
           "type": "build",
-          "en": "I have a headache.",
+          "cs": "Bolí mě hlava.",
           "a": [
             "J'ai mal à la tête."
           ]
@@ -6399,7 +6399,7 @@
         {
           "id": "g-avoir-faire-expressions-04",
           "type": "build",
-          "en": "I ski.",
+          "cs": "Lyžuju.",
           "a": [
             "Je fais du ski."
           ]
@@ -6412,12 +6412,12 @@
             "as"
           ],
           "hint": "avoir",
-          "en": "You're right."
+          "cs": "Máš pravdu."
         },
         {
           "id": "g-avoir-faire-expressions-06",
           "type": "build",
-          "en": "I need help.",
+          "cs": "Potřebuju pomoc.",
           "a": [
             "J'ai besoin d'aide."
           ]
@@ -6426,7 +6426,7 @@
     },
     {
       "id": "passive",
-      "title": "The passive (basics)",
+      "title": "Trpný rod (základy)",
       "fr": "la voix passive",
       "level": "B1",
       "keywords": [
@@ -6445,17 +6445,17 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "The passive is formed with *être* + the past participle. The participle agrees with the subject. Who does the action is introduced by *par*."
+              "cs": "Trpný rod se tvoří pomocí *être* + příčestí minulé. Příčestí se shoduje s podmětem. Kdo děj dělá, uvádí *par*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Victor Hugo wrote this book. → This book was written by Victor Hugo.",
+                  "cs": "Victor Hugo napsal tuhle knihu. → Tuhle knihu napsal Victor Hugo (byla napsána Victorem Hugem).",
                   "fr": "Victor Hugo a écrit ce livre. → Ce livre [[a été écrit]] [[par]] Victor Hugo."
                 }
               ]
@@ -6482,20 +6482,20 @@
                       "en 1889."
                     ]
                   ],
-                  "en": "The Eiffel Tower was built in 1889."
+                  "cs": "Eiffelova věž byla postavena v roce 1889."
                 }
               ]
             }
           ]
         },
         {
-          "title": "The tense is carried by être",
+          "title": "Čas nese être",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "tense",
-                "example"
+                "čas",
+                "příklad"
               ],
               "textCols": [
                 0
@@ -6518,45 +6518,45 @@
           ]
         },
         {
-          "title": "Prefer on",
+          "title": "Dej přednost on",
           "blocks": [
             {
               "type": "text",
-              "en": "In everyday speech French avoids the passive and uses *on*. At B1 it is enough to **recognise** the passive in a text and to form a simple one."
+              "cs": "V běžné řeči se francouzština trpnému rodu vyhýbá a používá *on*. Na B1 stačí trpný rod v textu **poznat** a utvořit jednoduchý."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "French is spoken here.",
+                  "cs": "Tady se mluví francouzsky.",
                   "fr": "[[On]] parle français ici.",
-                  "note": "More natural than *Le français est parlé ici.*"
+                  "note": "Přirozenější než *Le français est parlé ici.*"
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ce film a été tourné à Paris.",
-                  "en": "This film was shot in Paris."
+                  "cs": "Tenhle film se točil v Paříži."
                 },
                 {
                   "fr": "Les élèves sont invités à la fête.",
-                  "en": "The pupils are invited to the party."
+                  "cs": "Žáci jsou pozváni na večírek."
                 },
                 {
                   "fr": "La lettre a été envoyée hier.",
-                  "en": "The letter was sent yesterday."
+                  "cs": "Dopis byl odeslán včera."
                 },
                 {
                   "fr": "Il a été piqué par une abeille.",
-                  "en": "He was stung by a bee."
+                  "cs": "Píchla ho včela."
                 }
               ]
             }
@@ -6567,7 +6567,7 @@
         {
           "id": "g-passive-01",
           "type": "transform",
-          "task_en": "Turn into the passive",
+          "task_cs": "Převeď do trpného rodu",
           "fr": "Le chat mange la souris.",
           "a": [
             "La souris est mangée par le chat."
@@ -6576,7 +6576,7 @@
         {
           "id": "g-passive-02",
           "type": "transform",
-          "task_en": "Turn into the passive",
+          "task_cs": "Převeď do trpného rodu",
           "fr": "Paul a écrit cette lettre.",
           "a": [
             "Cette lettre a été écrite par Paul."
@@ -6589,12 +6589,12 @@
           "a": [
             "construite"
           ],
-          "en": "The house was built in 1990."
+          "cs": "Dům byl postaven v roce 1990."
         },
         {
           "id": "g-passive-04",
           "type": "transform",
-          "task_en": "Turn into the active with the pronoun on",
+          "task_cs": "Převeď do činného rodu se zájmenem on",
           "fr": "Mon vélo a été volé.",
           "a": [
             "On a volé mon vélo."

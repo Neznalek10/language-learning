@@ -1,0 +1,307 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "verbs",
+  "title": "-er verbs",
+  "unit": "2.3",
+  "level": null,
+  "words": [
+    {
+      "q": "to think",
+      "a": "penser",
+      "unit": "2.2"
+    },
+    {
+      "q": "to give",
+      "a": "donner",
+      "unit": "4.2"
+    },
+    {
+      "q": "to look for",
+      "a": "chercher",
+      "unit": "4.3"
+    },
+    {
+      "q": "to find",
+      "a": "trouver",
+      "unit": "4.3"
+    },
+    {
+      "q": "to desire",
+      "a": "désirer",
+      "unit": "4.2"
+    },
+    {
+      "q": "to invite",
+      "a": "inviter",
+      "unit": "8.2"
+    },
+    {
+      "q": "to bring",
+      "a": "apporter",
+      "unit": "8.2"
+    },
+    {
+      "q": "to send",
+      "a": "envoyer",
+      "unit": "8.1"
+    },
+    {
+      "q": "to regret",
+      "a": "regretter",
+      "unit": "6.2"
+    },
+    {
+      "q": "to stop",
+      "a": "arrêter",
+      "unit": "8.1"
+    },
+    {
+      "q": "to earn, to win",
+      "a": "gagner"
+    },
+    {
+      "q": "to walk",
+      "a": "marcher",
+      "unit": "5.1"
+    },
+    {
+      "q": "to dance",
+      "a": "danser"
+    },
+    {
+      "q": "to sing",
+      "a": "chanter"
+    },
+    {
+      "q": "to work",
+      "a": "travailler",
+      "unit": "3.1"
+    },
+    {
+      "q": "to live",
+      "a": "habiter",
+      "unit": "1.2"
+    },
+    {
+      "q": "to go back home",
+      "a": "rentrer",
+      "unit": "3.2"
+    },
+    {
+      "q": "to speak",
+      "a": "parler",
+      "unit": "1.2"
+    },
+    {
+      "q": "to study",
+      "a": "étudier",
+      "unit": "3.1"
+    },
+    {
+      "q": "to listen (to)",
+      "a": "écouter"
+    },
+    {
+      "q": "to like, to love",
+      "a": "aimer"
+    },
+    {
+      "q": "to watch, to look at",
+      "a": "regarder"
+    },
+    {
+      "q": "to start, to begin",
+      "a": "commencer",
+      "unit": "3.1"
+    },
+    {
+      "q": "to buy",
+      "a": "acheter",
+      "unit": "4.2"
+    },
+    {
+      "q": "to play",
+      "a": "jouer"
+    },
+    {
+      "q": "to practise (a sport, a hobby)",
+      "a": "pratiquer"
+    },
+    {
+      "q": "to hang (up)",
+      "a": "accrocher",
+      "unit": "6.1"
+    },
+    {
+      "q": "to joke",
+      "a": "plaisanter",
+      "unit": "2.2"
+    },
+    {
+      "q": "to eat",
+      "a": "manger",
+      "unit": "4.1"
+    },
+    {
+      "q": "to help",
+      "a": "aider",
+      "unit": "4.3"
+    },
+    {
+      "q": "to travel",
+      "a": "voyager",
+      "unit": "7.1"
+    },
+    {
+      "q": "to snow",
+      "a": "neiger",
+      "unit": "5.2"
+    },
+    {
+      "q": "to freeze",
+      "a": "geler",
+      "unit": "5.2"
+    },
+    {
+      "q": "to last",
+      "a": "durer",
+      "unit": "6.2"
+    },
+    {
+      "q": "to found, to set up",
+      "a": "fonder",
+      "unit": "9"
+    },
+    {
+      "q": "to adore",
+      "a": "adorer"
+    },
+    {
+      "q": "to hate",
+      "a": "détester"
+    },
+    {
+      "q": "to prefer",
+      "a": "préférer"
+    },
+    {
+      "q": "to swim",
+      "a": "nager"
+    },
+    {
+      "q": "to ski",
+      "a": "skier"
+    },
+    {
+      "q": "to pay",
+      "a": "payer",
+      "unit": "4.2"
+    },
+    {
+      "q": "to tidy (up)",
+      "a": "ranger",
+      "unit": "4.3"
+    },
+    {
+      "q": "to turn",
+      "a": "tourner",
+      "unit": "5.1"
+    },
+    {
+      "q": "to cross",
+      "a": "traverser",
+      "unit": "5.1"
+    },
+    {
+      "q": "to continue",
+      "a": "continuer",
+      "unit": "5.1"
+    },
+    {
+      "q": "to visit (a place)",
+      "a": "visiter",
+      "unit": "5.1"
+    },
+    {
+      "q": "to arrive",
+      "a": "arriver",
+      "unit": "7.1"
+    },
+    {
+      "q": "to stay",
+      "a": "rester",
+      "unit": "7.1"
+    },
+    {
+      "q": "to fall",
+      "a": "tomber",
+      "unit": "7.1"
+    },
+    {
+      "q": "to wear",
+      "a": "porter",
+      "unit": "6.1"
+    },
+    {
+      "q": "to try (on)",
+      "a": "essayer",
+      "unit": "6.1"
+    },
+    {
+      "q": "to forget",
+      "a": "oublier",
+      "unit": "6.2"
+    },
+    {
+      "q": "to meet",
+      "a": "rencontrer",
+      "unit": "6.2"
+    },
+    {
+      "q": "to sunbathe",
+      "a": "bronzer",
+      "unit": "7.1"
+    },
+    {
+      "q": "to enter, to go in",
+      "a": "entrer",
+      "unit": "7.1"
+    },
+    {
+      "q": "to go up",
+      "a": "monter",
+      "unit": "7.1"
+    },
+    {
+      "q": "to return, to go back",
+      "a": "retourner",
+      "unit": "7.1"
+    },
+    {
+      "q": "to cough",
+      "a": "tousser",
+      "unit": "7.2"
+    },
+    {
+      "q": "to download",
+      "a": "télécharger",
+      "unit": "8.1"
+    },
+    {
+      "q": "to share",
+      "a": "partager",
+      "unit": "8.1"
+    },
+    {
+      "q": "to wish",
+      "a": "souhaiter",
+      "unit": "8.2"
+    },
+    {
+      "q": "to celebrate",
+      "a": "fêter",
+      "unit": "8.2"
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Time",
+  "unit": "3.1",
+  "level": null,
+  "words": [
+    {
+      "q": "today",
+      "a": "aujourd'hui",
+      "unit": "3.2"
+    },
+    {
+      "q": "tonight, this evening",
+      "a": "ce soir",
+      "unit": "3.2"
+    },
+    {
+      "q": "yesterday",
+      "a": "hier",
+      "unit": "6.2"
+    },
+    {
+      "q": "January",
+      "a": "janvier",
+      "unit": "5.2"
+    },
+    {
+      "q": "September",
+      "a": "septembre",
+      "unit": "5.2"
+    },
+    {
+      "q": "year",
+      "a": [
+        "an",
+        "année"
+      ],
+      "unit": "1.2"
+    },
+    {
+      "q": "next",
+      "a": "prochain",
+      "unit": "5.1"
+    },
+    {
+      "q": "appointment, meeting",
+      "a": "rendez-vous",
+      "unit": "5.1"
+    },
+    {
+      "q": "at the same time",
+      "a": "en même temps",
+      "unit": "3.2"
+    },
+    {
+      "q": "contemporary",
+      "a": "contemporain",
+      "unit": "8.1"
+    },
+    {
+      "q": "week",
+      "a": "semaine"
+    },
+    {
+      "q": "every day",
+      "a": "tous les jours",
+      "unit": "3.2"
+    },
+    {
+      "q": "hour",
+      "a": "heure"
+    },
+    {
+      "q": "half (past)",
+      "a": [
+        "et demie",
+        "demie"
+      ]
+    },
+    {
+      "q": "quarter (past)",
+      "a": [
+        "et quart",
+        "quart"
+      ]
+    },
+    {
+      "q": "morning",
+      "a": "matin"
+    },
+    {
+      "q": "afternoon",
+      "a": "après-midi"
+    },
+    {
+      "q": "noon, midday",
+      "a": "midi"
+    },
+    {
+      "q": "evening",
+      "a": "soir"
+    },
+    {
+      "q": "night",
+      "a": "nuit"
+    },
+    {
+      "q": "midnight",
+      "a": "minuit"
+    },
+    {
+      "q": "weekend",
+      "a": "week-end",
+      "unit": "6.2"
+    },
+    {
+      "q": "early",
+      "a": "tôt",
+      "unit": "3.2"
+    },
+    {
+      "q": "during",
+      "a": "pendant",
+      "unit": "7.1"
+    },
+    {
+      "q": "Monday",
+      "a": "lundi"
+    },
+    {
+      "q": "Tuesday",
+      "a": "mardi"
+    },
+    {
+      "q": "Wednesday",
+      "a": "mercredi"
+    },
+    {
+      "q": "Thursday",
+      "a": "jeudi"
+    },
+    {
+      "q": "Friday",
+      "a": "vendredi"
+    },
+    {
+      "q": "Saturday",
+      "a": "samedi"
+    },
+    {
+      "q": "Sunday",
+      "a": "dimanche"
+    },
+    {
+      "q": "tomorrow",
+      "a": "demain"
+    },
+    {
+      "q": "day",
+      "a": "jour"
+    },
+    {
+      "q": "minute",
+      "a": "minute"
+    },
+    {
+      "q": "what time is it?",
+      "a": [
+        "quelle heure est-il ?",
+        "il est quelle heure ?"
+      ]
+    },
+    {
+      "q": "breakfast",
+      "a": "petit-déjeuner",
+      "unit": "3.2"
+    },
+    {
+      "q": "lunch",
+      "a": "déjeuner",
+      "unit": "3.2"
+    },
+    {
+      "q": "afternoon snack",
+      "a": "goûter",
+      "unit": "3.2"
+    },
+    {
+      "q": "dinner",
+      "a": "dîner",
+      "unit": "3.2"
+    },
+    {
+      "q": "first of all",
+      "a": "d'abord",
+      "unit": "3.2"
+    },
+    {
+      "q": "finally",
+      "a": "enfin",
+      "unit": "3.2"
+    },
+    {
+      "q": "usually",
+      "a": "d'habitude",
+      "unit": "3.2"
+    },
+    {
+      "q": "late",
+      "a": "tard",
+      "unit": "3.2"
+    },
+    {
+      "q": "February",
+      "a": "février",
+      "unit": "5.2"
+    },
+    {
+      "q": "March",
+      "a": "mars",
+      "unit": "5.2"
+    },
+    {
+      "q": "April",
+      "a": "avril",
+      "unit": "5.2"
+    },
+    {
+      "q": "May",
+      "a": "mai",
+      "unit": "5.2"
+    },
+    {
+      "q": "June",
+      "a": "juin",
+      "unit": "5.2"
+    },
+    {
+      "q": "July",
+      "a": "juillet",
+      "unit": "5.2"
+    },
+    {
+      "q": "August",
+      "a": "août",
+      "unit": "5.2"
+    },
+    {
+      "q": "October",
+      "a": "octobre",
+      "unit": "5.2"
+    },
+    {
+      "q": "November",
+      "a": "novembre",
+      "unit": "5.2"
+    },
+    {
+      "q": "December",
+      "a": "décembre",
+      "unit": "5.2"
+    },
+    {
+      "q": "month",
+      "a": "mois",
+      "unit": "5.2"
+    },
+    {
+      "q": "birthday",
+      "a": "anniversaire",
+      "unit": "5.2"
+    },
+    {
+      "q": "date",
+      "a": "date",
+      "unit": "5.2"
+    },
+    {
+      "q": "first (1st)",
+      "a": "premier",
+      "unit": "5.2"
+    },
+    {
+      "q": "last night, yesterday evening",
+      "a": "hier soir",
+      "unit": "6.2"
+    },
+    {
+      "q": "the day before yesterday",
+      "a": "avant-hier",
+      "unit": "6.2"
+    },
+    {
+      "q": "last Saturday",
+      "a": "samedi dernier",
+      "unit": "6.2"
+    },
+    {
+      "q": "last week",
+      "a": "la semaine dernière",
+      "unit": "6.2"
+    },
+    {
+      "q": "last month",
+      "a": "le mois dernier",
+      "unit": "6.2"
+    },
+    {
+      "q": "last year",
+      "a": "l'année dernière",
+      "unit": "6.2"
+    },
+    {
+      "q": "two days ago",
+      "a": "il y a deux jours",
+      "unit": "6.2"
+    },
+    {
+      "q": "already",
+      "a": "déjà",
+      "unit": "6.2"
+    },
+    {
+      "q": "not yet",
+      "a": "pas encore",
+      "unit": "6.2"
+    }
+  ]
+}

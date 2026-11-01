@@ -20,7 +20,7 @@ function conjTable(block, ctx) {
   </div>`;
 }
 
-// Explanations are "cs" (Learn) or "en" (Grammar); a block uses whichever it has.
+// Explanations are "cs" or "en"; a block uses whichever it has.
 const say = o => o.en ?? o.cs;
 
 // "textCols" lists the columns written in the explanation language, the rest are French.
@@ -83,7 +83,7 @@ function pattern(block) {
   </div>`;
 }
 
-// [[...]] marks the part that differs from Czech.
+// [[...]] marks the part that differs from the learner's language.
 const marked = text => raw(esc(text).replace(/\[\[(.+?)\]\]/g, '<mark>$1</mark>'));
 
 function compare(block) {

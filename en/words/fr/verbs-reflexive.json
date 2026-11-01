@@ -1,0 +1,113 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "verbs",
+  "title": "Reflexive verbs",
+  "unit": "3.2",
+  "level": null,
+  "words": [
+    {
+      "q": "to be called",
+      "a": "s'appeler",
+      "unit": "1.1"
+    },
+    {
+      "q": "to wake up",
+      "a": "se réveiller"
+    },
+    {
+      "q": "to get up",
+      "a": "se lever"
+    },
+    {
+      "q": "to wash (yourself)",
+      "a": "se laver"
+    },
+    {
+      "q": "to brush (your teeth, hair)",
+      "a": "se brosser"
+    },
+    {
+      "q": "to shave",
+      "a": "se raser"
+    },
+    {
+      "q": "to put on make-up",
+      "a": "se maquiller"
+    },
+    {
+      "q": "to comb your hair",
+      "a": "se peigner"
+    },
+    {
+      "q": "to have a shower",
+      "a": "se doucher"
+    },
+    {
+      "q": "to go for a walk",
+      "a": "se promener"
+    },
+    {
+      "q": "to train",
+      "a": "s'entraîner",
+      "unit": "2.3"
+    },
+    {
+      "q": "to go for a swim",
+      "a": "se baigner",
+      "unit": "7.1"
+    },
+    {
+      "q": "to go to bed",
+      "a": "se coucher"
+    },
+    {
+      "q": "to rest",
+      "a": "se reposer"
+    },
+    {
+      "q": "to let off steam",
+      "a": "se défouler",
+      "unit": "2.3"
+    },
+    {
+      "q": "to meet up",
+      "a": "se retrouver",
+      "unit": "5.1"
+    },
+    {
+      "q": "to look after, to take care of",
+      "a": "s'occuper",
+      "unit": "4.3"
+    },
+    {
+      "q": "to get angry",
+      "a": "se fâcher",
+      "unit": "2.2"
+    },
+    {
+      "q": "to go to, to head for",
+      "a": "se rendre",
+      "unit": "5.1"
+    },
+    {
+      "q": "to dress up (in a costume)",
+      "a": "se déguiser",
+      "unit": "8.2"
+    },
+    {
+      "q": "to feel",
+      "a": "se sentir",
+      "unit": "7.2"
+    },
+    {
+      "q": "to get dressed",
+      "a": "s'habiller"
+    },
+    {
+      "q": "to break (an arm, a leg)",
+      "a": "se casser",
+      "unit": "7.2"
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "schema": 1,
+  "goals": [
+    "Say hello and goodbye, formally and informally",
+    "Ask how someone is and answer",
+    "Use the subject pronouns and the verb être",
+    "Introduce yourself and ask someone's name",
+    "Count from 0 to 20"
+  ],
+  "lessons": [
+    {
+      "id": "fr-01-1",
+      "title": "Bonjour !",
+      "subtitle": "Greetings and goodbyes",
+      "topics": ["greetings", "tu-vous"],
+      "words": ["greetings#hello, good morning", "greetings#hi", "greetings#good evening", "greetings#good night", "greetings#goodbye", "greetings#see you soon", "greetings#see you tomorrow", "greetings#see you later", "greetings#welcome", "greetings#sir, Mr", "greetings#madam, Mrs"],
+      "learn": [
+        {"title": "How to say hello", "blocks": [
+          {"type": "text", "en": "The French greet each other depending on **who** and **when**. You can say *Bonjour* (hello, good morning) to anyone from morning to evening. In the evening you say *bonsoir* (good evening)."},
+          {"type": "text", "en": "*Salut* is an informal \"hi\": only for friends, classmates and family. It works both for hello and for goodbye."},
+          {"type": "table", "title": "Greetings", "head": ["Situation", "Formal", "Informal"], "textCols": [0], "rows": [
+            ["arriving, during the day", "bonjour", "salut"],
+            ["arriving, in the evening", "bonsoir", "salut"],
+            ["leaving", "au revoir", "salut, à plus"]
+          ]}
+        ]},
+        {"title": "Goodbye", "blocks": [
+          {"type": "text", "en": "When you leave, you can say when you'll see each other again: *à bientôt* (soon), *à demain* (tomorrow), *à plus tard* or informally *à plus* (later). Before going to bed you say *bonne nuit* (good night)."},
+          {"type": "examples", "items": [
+            {"fr": "Au revoir, madame !", "en": "Goodbye, madam!"},
+            {"fr": "Salut, Léa ! À demain !", "en": "Hi, Léa! See you tomorrow!"},
+            {"fr": "Bonne nuit, papa.", "en": "Good night, Dad."},
+            {"fr": "Bienvenue à Paris !", "en": "Welcome to Paris!"}
+          ]}
+        ]},
+        {"title": "Tu or vous?", "blocks": [
+          {"type": "text", "en": "Unlike English, French has two words for \"you\". You say *tu* to friends, family and children. You say *vous* to adults you don't know, to teachers and also **to more than one person**."},
+          {"type": "text", "en": "A greeting usually comes with a title: *Bonjour, monsieur.* (Hello, sir.), *Bonjour, madame.* (Hello, madam.). *Monsieur* or *madame* on their own are often enough, without a surname."},
+          {"type": "tip", "en": "Don't say *salut* to a teacher. At school you greet them with *Bonjour, monsieur* or *Bonjour, madame*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___, madame !", "a": ["Bonjour"], "hint": "hello"}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-01-1-01", "type": "cloze", "fr": "___, monsieur !", "a": ["Bonjour"], "hint": "hello"},
+        {"id": "fr-01-1-02", "type": "cloze", "fr": "Bonne ___ !", "a": ["nuit"], "hint": "good night"},
+        {"id": "fr-01-1-03", "type": "cloze", "fr": "Au ___ !", "a": ["revoir"], "hint": "goodbye"},
+        {"id": "fr-01-1-04", "type": "cloze", "fr": "Salut, Marc ! À ___ !", "a": ["demain"], "hint": "tomorrow"},
+        {"id": "fr-01-1-05", "type": "cloze", "fr": "Salut, Léa ! À ___ !", "a": ["bientôt"], "hint": "soon"},
+        {"id": "fr-01-1-06", "type": "build", "en": "Hello, madam!", "a": ["Bonjour, madame !"]},
+        {"id": "fr-01-1-07", "type": "build", "en": "Good evening, sir.", "a": ["Bonsoir, monsieur."]},
+        {"id": "fr-01-1-08", "type": "build", "en": "Hi, Paul!", "a": ["{Salut|Coucou}, Paul !"]},
+        {"id": "fr-01-1-09", "type": "order", "en": "Goodbye, see you tomorrow!", "a": ["Au revoir à demain"], "extra": ["bientôt", "bonsoir"]},
+        {"id": "fr-01-1-10", "type": "build", "en": "Hi, see you soon!", "a": ["{Salut|Coucou}, à bientôt !"]},
+        {"id": "fr-01-1-11", "type": "build", "en": "Good night, Mum.", "a": ["Bonne nuit, maman."], "hint": "Mum = maman"},
+        {"id": "fr-01-1-12", "type": "order", "en": "Hi, see you later!", "a": ["Salut à plus tard", "Salut à plus"], "extra": ["demain"]},
+        {"id": "fr-01-1-13", "type": "build", "en": "Welcome to Paris!", "a": ["Bienvenue à Paris !"], "hint": "in Paris = à Paris"}
+      ]
+    },
+    {
+      "id": "fr-01-2",
+      "title": "Ça va ?",
+      "subtitle": "How are you, and polite phrases",
+      "topics": ["greetings", "tu-vous"],
+      "words": ["greetings#how are you? (informal)", "greetings#how are you? (formal)", "greetings#I'm fine", "greetings#well", "greetings#badly", "greetings#so-so", "greetings#and you? (informal)", "greetings#and you? (formal)", "greetings#thank you", "greetings#thank you very much", "greetings#please (informal)", "greetings#please (formal)", "greetings#you're welcome", "greetings#excuse me, sorry", "basics#OK, agreed", "basics#I'm sorry"],
+      "learn": [
+        {"title": "How are you?", "blocks": [
+          {"type": "text", "en": "The most common question is *Ça va ?* (literally \"Is it going?\"). You answer with the same words: *Ça va !* (I'm fine.)"},
+          {"type": "table", "title": "Question", "textCols": [0], "rows": [
+            ["informal (tu)", "Ça va ? / Comment ça va ? / Comment vas-tu ?"],
+            ["formal (vous)", "Comment allez-vous ?"]
+          ]},
+          {"type": "table", "title": "Answer", "textCols": [0], "rows": [
+            ["I'm fine.", "Ça va bien. / Je vais bien."],
+            ["Very well.", "Très bien."],
+            ["So-so.", "Comme ci, comme ça."],
+            ["I'm not well.", "Ça ne va pas."]
+          ]},
+          {"type": "text", "en": "Then you ask back: *Et toi ?* (And you?), or formally *Et vous ?* (And you?)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Comment ___-vous ?", "a": ["allez"], "hint": "how are you (formal)"}}
+        ]},
+        {"title": "Conversation", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Salut, Tom ! Ça va ?", "en": "Hi, Tom! How are you?"},
+            {"fr": "Ça va bien, merci. Et toi ?", "en": "I'm fine, thanks. And you?"},
+            {"fr": "Bonjour, madame. Comment allez-vous ?", "en": "Hello, madam. How are you?"},
+            {"fr": "Je vais bien, merci. Et vous ?", "en": "I'm fine, thank you. And you?"}
+          ]}
+        ]},
+        {"title": "Politeness", "blocks": [
+          {"type": "table", "head": ["English", "French"], "textCols": [0], "rows": [
+            ["thank you", "merci"],
+            ["thank you very much", "merci beaucoup"],
+            ["please (informal)", "s'il te plaît"],
+            ["please (formal)", "s'il vous plaît"],
+            ["you're welcome", "de rien"],
+            ["excuse me, sorry", "pardon / excusez-moi"],
+            ["I'm sorry", "désolé / désolée"],
+            ["OK, I agree", "d'accord"]
+          ]},
+          {"type": "tip", "en": "\"Please\" has two French versions: *s'il te plaît* (informal) and *s'il vous plaît* (formal). When you answer \"thank you\", you say *de rien* (you're welcome)."},
+          {"type": "tip", "title": "Boy or girl?", "en": "A boy writes *désolé*, a girl writes *désolée*. They sound the same."},
+          {"type": "check", "item": {"type": "build", "en": "Thank you very much!", "a": ["Merci beaucoup !"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-01-2-01", "type": "cloze", "fr": "Ça ___ ?", "a": ["va"], "hint": "how are you"},
+        {"id": "fr-01-2-02", "type": "cloze", "fr": "Merci ___ !", "a": ["beaucoup"], "hint": "very much"},
+        {"id": "fr-01-2-03", "type": "cloze", "fr": "De ___ !", "a": ["rien"], "hint": "you're welcome"},
+        {"id": "fr-01-2-04", "type": "build", "en": "Hi, how are you? (tu)", "a": ["{Salut|Coucou}, {ça va|comment ça va|comment vas-tu} ?"]},
+        {"id": "fr-01-2-05", "type": "build", "en": "I'm fine, thank you. And you? (tu)", "a": ["{Ça va|Ça va bien|Je vais bien|Bien}, merci. Et toi ?"]},
+        {"id": "fr-01-2-06", "type": "build", "en": "Hello, sir. How are you?", "a": ["Bonjour, monsieur. Comment allez-vous ?"]},
+        {"id": "fr-01-2-07", "type": "build", "en": "So-so. And you? (vous)", "a": ["Comme ci, comme ça. Et vous ?"]},
+        {"id": "fr-01-2-08", "type": "transform", "task_en": "Make it formal (vous)", "fr": "Ça va ?", "a": ["Comment allez-vous ?"]},
+        {"id": "fr-01-2-09", "type": "transform", "task_en": "Make it formal (vous)", "fr": "S'il te plaît.", "a": ["S'il vous plaît."]},
+        {"id": "fr-01-2-10", "type": "transform", "task_en": "Make it formal (vous)", "fr": "Merci, et toi ?", "a": ["Merci, et vous ?"]},
+        {"id": "fr-01-2-11", "type": "transform", "task_en": "Make it informal (tu)", "fr": "Comment allez-vous ?", "a": ["{Comment vas-tu|Ça va|Comment ça va} ?"]},
+        {"id": "fr-01-2-12", "type": "order", "en": "I'm fine, thank you, and you? (tu)", "a": ["Je vais bien merci et toi"], "extra": ["vous", "va"]},
+        {"id": "fr-01-2-13", "type": "build", "en": "Excuse me, madam.", "a": ["{Pardon|Excusez-moi}, madame."]},
+        {"id": "fr-01-2-14", "type": "build", "en": "I'm sorry, sir.", "a": ["{Désolé|Désolée}, monsieur."]}
+      ]
+    },
+    {
+      "id": "fr-01-3",
+      "title": "Je suis...",
+      "subtitle": "Subject pronouns and the verb être",
+      "topics": ["pronouns", "etre"],
+      "words": ["greetings#Czech (nationality)", "greetings#French (man)", "greetings#French (woman)", "basics#yes", "basics#no", "basics#and", "basics#but", "basics#or", "basics#also, too"],
+      "learn": [
+        {"title": "Subject pronouns", "blocks": [
+          {"type": "text", "en": "In French, a verb **always** needs a subject in front of it, just as in English: *je suis* (I am), never just *suis*."},
+          {"type": "table", "head": ["English", "French"], "textCols": [0], "rows": [
+            ["I", "je"], ["you (informal)", "tu"], ["he", "il"], ["she", "elle"],
+            ["we", "nous (informally on)"], ["you (formal or plural)", "vous"], ["they (men or mixed)", "ils"], ["they (women only)", "elles"]
+          ]},
+          {"type": "tip", "title": "ils or elles?", "en": "You only use *elles* when the group is all women or girls. One boy is enough to make it *ils*."},
+          {"type": "tip", "title": "on = we", "en": "In everyday speech *on* is often used instead of *nous*. The verb then has the same form as with *il*: *on est* (we are)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ sommes amis.", "a": ["Nous"], "hint": "we"}}
+        ]},
+        {"title": "The verb être (to be)", "blocks": [
+          {"type": "text", "en": "*Être* is the most important French verb. It's irregular, so learn it by heart."},
+          {"type": "table", "verb": "être", "tense": "present"},
+          {"type": "examples", "items": [
+            {"fr": "Je suis tchèque.", "en": "I'm Czech."},
+            {"fr": "Tu es français ?", "en": "Are you French? (to a boy)"},
+            {"fr": "Il est à Prague.", "en": "He's in Prague."},
+            {"fr": "Nous sommes amis.", "en": "We're friends."},
+            {"fr": "Vous êtes madame Dubois ?", "en": "Are you Mrs Dubois?"},
+            {"fr": "Ils sont en classe.", "en": "They're in class."}
+          ]},
+          {"type": "tip", "title": "Liaison", "en": "In *vous êtes* the final *s* is pronounced [z] and joins the next word: [vu zɛt]. This is called liaison."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Tu ___ tchèque ?", "a": ["es"], "hint": "être"}}
+        ]},
+        {"title": "Nationality", "blocks": [
+          {"type": "text", "en": "Unlike English, French writes nationality adjectives with a **small letter**: *Je suis tchèque.* For most nationalities, the feminine adds *-e*: *français* → *française*. *Tchèque* already ends in *-e*, so it's the same for a man and a woman."},
+          {"type": "text", "en": "In the plural you add *-s*: *Nous sommes tchèques.* A word that already ends in *-s* doesn't change: *Ils sont français.*"},
+          {"type": "examples", "items": [
+            {"fr": "Paul est français.", "en": "Paul is French."},
+            {"fr": "Marie est française.", "en": "Marie is French."},
+            {"fr": "Je suis tchèque et Paul est français.", "en": "I'm Czech and Paul is French."}
+          ]},
+          {"type": "tip", "title": "et, mais, ou", "en": "The conjunctions *et* (and), *mais* (but) and *ou* (or) work just as in English."}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-01-3-f", "type": "form", "verb": "être", "tense": "present"},
+        {"id": "fr-01-3-01", "type": "cloze", "fr": "Je ___ Hugo.", "a": ["suis"], "hint": "être"},
+        {"id": "fr-01-3-02", "type": "cloze", "fr": "Paul ___ français.", "a": ["est"], "hint": "être"},
+        {"id": "fr-01-3-03", "type": "cloze", "fr": "Vous ___ madame Dubois ?", "a": ["êtes"], "hint": "être"},
+        {"id": "fr-01-3-04", "type": "cloze", "fr": "Marie et Léa ___ françaises.", "a": ["sont"], "hint": "être"},
+        {"id": "fr-01-3-05", "type": "cloze", "fr": "___ suis tchèque.", "a": ["Je"], "hint": "I"},
+        {"id": "fr-01-3-06", "type": "cloze", "fr": "___ êtes à Paris ?", "a": ["Vous"], "hint": "you (formal or plural)"},
+        {"id": "fr-01-3-07", "type": "build", "en": "I'm Czech.", "a": ["Je suis tchèque."], "why": "Nationalities take a small letter, and tchèque is the same for a man and a woman."},
+        {"id": "fr-01-3-08", "type": "build", "en": "Are you French? (to a boy)", "a": ["{Tu es français|Es-tu français|Est-ce que tu es français} ?"]},
+        {"id": "fr-01-3-09", "type": "build", "en": "She's French.", "a": ["Elle est française."]},
+        {"id": "fr-01-3-10", "type": "build", "en": "We're in Prague.", "a": ["{Nous sommes|On est} à Prague."], "hint": "in Prague = à Prague"},
+        {"id": "fr-01-3-11", "type": "build", "en": "I'm Czech and you're French. (tu, to a boy)", "a": ["Je suis tchèque et tu es français."]},
+        {"id": "fr-01-3-12", "type": "transform", "task_en": "Replace the name with a pronoun", "fr": "Marie est française.", "a": ["Elle est française."]},
+        {"id": "fr-01-3-13", "type": "transform", "task_en": "Replace the names with a pronoun", "fr": "Paul et Marie sont à Prague.", "a": ["Ils sont à Prague."], "why": "There's a man in the group, so ils."},
+        {"id": "fr-01-3-14", "type": "transform", "task_en": "Replace the names with a pronoun", "fr": "Léa et Julie sont amies.", "a": ["Elles sont amies."], "why": "The group is all girls, so elles."},
+        {"id": "fr-01-3-15", "type": "transform", "task_en": "Make it plural (nous)", "fr": "Je suis tchèque.", "a": ["{Nous sommes|On est} tchèques."], "why": "A nationality takes -s in the plural."},
+        {"id": "fr-01-3-16", "type": "order", "en": "They're in class.", "a": ["Ils sont en classe"], "extra": ["elles", "est"]},
+        {"id": "fr-01-3-17", "type": "transform", "task_en": "Make it formal (vous)", "fr": "Tu es à Paris ?", "a": ["{Vous êtes|Êtes-vous} à Paris ?"]}
+      ]
+    },
+    {
+      "id": "fr-01-4",
+      "title": "Je m'appelle...",
+      "subtitle": "Introducing yourself",
+      "topics": ["s-appeler", "introductions"],
+      "words": ["greetings#my name is", "greetings#what's your name? (informal)", "greetings#what's your name? (formal)", "greetings#nice to meet you", "greetings#who is it?", "greetings#it is, this is", "basics#who", "basics#here is, there you go", "basics#here they are"],
+      "learn": [
+        {"title": "The verb s'appeler", "blocks": [
+          {"type": "text", "en": "In French you give your name with the verb *s'appeler* (to be called, literally \"to call yourself\"). It's reflexive, and the small pronoun changes with the person: *je m'appelle, tu t'appelles...*"},
+          {"type": "table", "verb": "s'appeler", "tense": "present"},
+          {"type": "tip", "title": "One l or two?", "en": "*Je m'appelle, tu t'appelles, il s'appelle, ils s'appellent* have **two l's**. *Nous nous appelons* and *vous vous appelez* have **one l**."},
+          {"type": "tip", "title": "Shortening", "en": "Before a vowel, *me, te, se* shorten to *m', t', s'*. That's why it's *je m'appelle*, not *je me appelle*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je m'___ Hugo.", "a": ["appelle"], "hint": "s'appeler"}}
+        ]},
+        {"title": "What's your name?", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["What's your name?", "Comment tu t'appelles ? / Tu t'appelles comment ?"],
+            ["What's your name? (formal)", "Comment vous appelez-vous ?"],
+            ["My name is Hugo.", "Je m'appelle Hugo."],
+            ["Nice to meet you.", "Enchanté. / Enchantée."]
+          ]},
+          {"type": "tip", "title": "Boy or girl?", "en": "A boy says *enchanté*, a girl *enchantée*."},
+          {"type": "examples", "items": [
+            {"fr": "Salut ! Tu t'appelles comment ?", "en": "Hi! What's your name?"},
+            {"fr": "Je m'appelle Léa. Et toi ?", "en": "My name is Léa. And you?"},
+            {"fr": "Je m'appelle Hugo. Enchanté !", "en": "My name is Hugo. Nice to meet you!"}
+          ]},
+          {"type": "check", "item": {"type": "build", "en": "My name is Tom.", "a": ["Je m'appelle Tom."]}}
+        ]},
+        {"title": "Who is it?", "blocks": [
+          {"type": "text", "en": "To ask about a person you say *Qui est-ce ?* (Who is it?) and answer *C'est...* (It's...). You can also point at someone with *voilà*: *Voilà Paul !* (There's Paul!)"},
+          {"type": "examples", "items": [
+            {"fr": "Qui est-ce ? C'est Marc.", "en": "Who is it? It's Marc."},
+            {"fr": "Voilà Léa et Tom !", "en": "Here are Léa and Tom!"}
+          ]},
+          {"type": "tip", "en": "*C'est* comes from *ce est*. Before a vowel *ce* shortens, so *c'est*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Qui est-___ ?", "a": ["ce"], "hint": "who is it"}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-01-4-f", "type": "form", "verb": "s'appeler", "tense": "present"},
+        {"id": "fr-01-4-01", "type": "cloze", "fr": "Tu t'___ comment ?", "a": ["appelles"], "hint": "s'appeler"},
+        {"id": "fr-01-4-02", "type": "cloze", "fr": "Il s'___ Paul.", "a": ["appelle"], "hint": "s'appeler"},
+        {"id": "fr-01-4-03", "type": "cloze", "fr": "Nous nous ___ Dupont.", "a": ["appelons"], "hint": "s'appeler"},
+        {"id": "fr-01-4-04", "type": "cloze", "fr": "Vous vous ___ comment ?", "a": ["appelez"], "hint": "s'appeler"},
+        {"id": "fr-01-4-05", "type": "cloze", "fr": "Elles s'___ Léa et Julie.", "a": ["appellent"], "hint": "s'appeler"},
+        {"id": "fr-01-4-06", "type": "build", "en": "My name is Hugo.", "a": ["Je m'appelle Hugo."]},
+        {"id": "fr-01-4-07", "type": "build", "en": "What's your name?", "a": ["{Comment tu t'appelles|Tu t'appelles comment|Comment t'appelles-tu} ?"]},
+        {"id": "fr-01-4-08", "type": "build", "en": "What's your name? (formal)", "a": ["{Comment vous appelez-vous|Vous vous appelez comment} ?"]},
+        {"id": "fr-01-4-09", "type": "build", "en": "Her name is Marie.", "a": ["Elle s'appelle Marie."]},
+        {"id": "fr-01-4-10", "type": "build", "en": "Who is it? It's Paul.", "a": ["{Qui est-ce|C'est qui} ? C'est Paul."]},
+        {"id": "fr-01-4-11", "type": "build", "en": "Nice to meet you, my name is Léa.", "a": ["Enchantée, je m'appelle Léa."], "why": "Léa is a girl, so enchantée with -e."},
+        {"id": "fr-01-4-12", "type": "order", "en": "Hello, my name is Hugo and I'm Czech.", "a": ["Bonjour je m'appelle Hugo et je suis tchèque"], "extra": ["es", "t'appelles"]},
+        {"id": "fr-01-4-13", "type": "transform", "task_en": "Make it formal (vous)", "fr": "Comment tu t'appelles ?", "a": ["{Comment vous appelez-vous|Vous vous appelez comment} ?"]},
+        {"id": "fr-01-4-14", "type": "transform", "task_en": "Change the person to il", "fr": "Je m'appelle Paul.", "a": ["Il s'appelle Paul."]},
+        {"id": "fr-01-4-15", "type": "transform", "task_en": "Change the person to nous", "fr": "Je m'appelle Dupont.", "a": ["Nous nous appelons Dupont."]}
+      ]
+    },
+    {
+      "id": "fr-01-5",
+      "title": "Les nombres",
+      "subtitle": "Numbers 0 to 20",
+      "topics": ["numbers"],
+      "words": ["numbers#zero", "numbers#one", "numbers#two", "numbers#three", "numbers#four", "numbers#five", "numbers#six", "numbers#seven", "numbers#eight", "numbers#nine", "numbers#ten", "numbers#eleven", "numbers#twelve", "numbers#thirteen", "numbers#fourteen", "numbers#fifteen", "numbers#sixteen", "numbers#seventeen", "numbers#eighteen", "numbers#nineteen", "numbers#twenty"],
+      "learn": [
+        {"title": "0 to 10", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["0", "zéro"], ["1", "un / une"], ["2", "deux"], ["3", "trois"], ["4", "quatre"], ["5", "cinq"],
+            ["6", "six"], ["7", "sept"], ["8", "huit"], ["9", "neuf"], ["10", "dix"]
+          ]},
+          {"type": "tip", "title": "un or une?", "en": "*Un* is for masculine nouns (*un ami*), *une* for feminine ones (*une amie*)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "un, deux, ___, quatre", "a": ["trois"]}}
+        ]},
+        {"title": "11 to 20", "blocks": [
+          {"type": "text", "en": "The numbers 11 to 16 have their own form. From 17 they are built up: *dix-sept* is literally \"ten-seven\"."},
+          {"type": "table", "textCols": [0], "rows": [
+            ["11", "onze"], ["12", "douze"], ["13", "treize"], ["14", "quatorze"], ["15", "quinze"],
+            ["16", "seize"], ["17", "dix-sept"], ["18", "dix-huit"], ["19", "dix-neuf"], ["20", "vingt"]
+          ]},
+          {"type": "tip", "en": "Don't forget the **hyphen** in *dix-sept, dix-huit* and *dix-neuf*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "seize, ___, dix-huit", "a": ["dix-sept"]}}
+        ]},
+        {"title": "Let's count", "blocks": [
+          {"type": "text", "en": "When adding up you say *et* (and) and *font* (make): *Deux et trois font cinq.* (Two and three make five.)"},
+          {"type": "examples", "items": [
+            {"fr": "Un et un font deux.", "en": "One and one make two."},
+            {"fr": "Cinq et cinq font dix.", "en": "Five and five make ten."},
+            {"fr": "Dix et sept font dix-sept.", "en": "Ten and seven make seventeen."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Deux et deux font ___.", "a": ["quatre"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-01-5-01", "type": "cloze", "fr": "huit, ___, dix", "a": ["neuf"]},
+        {"id": "fr-01-5-02", "type": "cloze", "fr": "onze, ___, treize", "a": ["douze"]},
+        {"id": "fr-01-5-03", "type": "cloze", "fr": "dix-huit, ___, vingt", "a": ["dix-neuf"]},
+        {"id": "fr-01-5-04", "type": "cloze", "fr": "Trois et quatre font ___.", "a": ["sept"]},
+        {"id": "fr-01-5-05", "type": "cloze", "fr": "Dix et cinq font ___.", "a": ["quinze"]},
+        {"id": "fr-01-5-06", "type": "build", "en": "Ten and three make thirteen.", "a": ["Dix et trois font treize."]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-01-t-01", "lesson": "fr-01-1", "type": "build", "en": "Hello, sir!", "a": ["Bonjour, monsieur !"]},
+      {"id": "fr-01-t-02", "lesson": "fr-01-1", "type": "build", "en": "Goodbye, madam!", "a": ["Au revoir, madame !"]},
+      {"id": "fr-01-t-03", "lesson": "fr-01-1", "type": "build", "en": "Hi, Léa! See you tomorrow.", "a": ["{Salut|Coucou}, Léa ! À demain !"]},
+      {"id": "fr-01-t-04", "lesson": "fr-01-1", "type": "cloze", "fr": "Bonne ___, papa !", "a": ["nuit"], "hint": "good night"},
+      {"id": "fr-01-t-05", "lesson": "fr-01-1", "type": "build", "en": "Good evening and welcome!", "a": ["Bonsoir et bienvenue !"]},
+      {"id": "fr-01-t-06", "lesson": "fr-01-2", "type": "build", "en": "How are you, madam?", "a": ["Comment allez-vous, madame ?"]},
+      {"id": "fr-01-t-07", "lesson": "fr-01-2", "type": "build", "en": "I'm fine. And you? (tu)", "a": ["{Ça va|Ça va bien|Je vais bien}. Et toi ?"]},
+      {"id": "fr-01-t-08", "lesson": "fr-01-2", "type": "transform", "task_en": "Make it formal (vous)", "fr": "Et toi ?", "a": ["Et vous ?"]},
+      {"id": "fr-01-t-09", "lesson": "fr-01-2", "type": "cloze", "fr": "S'il ___ plaît, madame.", "a": ["vous"], "hint": "formal (vous)"},
+      {"id": "fr-01-t-10", "lesson": "fr-01-2", "type": "build", "en": "Thank you! You're welcome.", "a": ["Merci ! De rien."]},
+      {"id": "fr-01-t-11", "lesson": "fr-01-2", "type": "build", "en": "Excuse me, sir!", "a": ["{Pardon|Excusez-moi}, monsieur !"]},
+      {"id": "fr-01-t-12", "lesson": "fr-01-3", "type": "cloze", "fr": "Nous ___ à Paris.", "a": ["sommes"], "hint": "être"},
+      {"id": "fr-01-t-13", "lesson": "fr-01-3", "type": "cloze", "fr": "Ils ___ tchèques.", "a": ["sont"], "hint": "être"},
+      {"id": "fr-01-t-14", "lesson": "fr-01-3", "type": "cloze", "fr": "Tu ___ en classe ?", "a": ["es"], "hint": "être"},
+      {"id": "fr-01-t-15", "lesson": "fr-01-3", "type": "form", "verb": "être", "tense": "present", "person": 4},
+      {"id": "fr-01-t-16", "lesson": "fr-01-3", "type": "form", "verb": "être", "tense": "present", "person": 2},
+      {"id": "fr-01-t-17", "lesson": "fr-01-3", "type": "build", "en": "We're Czech.", "a": ["{Nous sommes|On est} tchèques."]},
+      {"id": "fr-01-t-18", "lesson": "fr-01-3", "type": "build", "en": "Are you in Paris? (tu)", "a": ["{Tu es|Es-tu|Est-ce que tu es} à Paris ?"]},
+      {"id": "fr-01-t-19", "lesson": "fr-01-3", "type": "build", "en": "Paul is French and Marie is Czech.", "a": ["Paul est français et Marie est tchèque."]},
+      {"id": "fr-01-t-20", "lesson": "fr-01-3", "type": "transform", "task_en": "Replace the names with a pronoun", "fr": "Tom et Léa sont amis.", "a": ["Ils sont amis."]},
+      {"id": "fr-01-t-21", "lesson": "fr-01-3", "type": "transform", "task_en": "Make it plural (nous)", "fr": "Je suis en classe.", "a": ["{Nous sommes|On est} en classe."]},
+      {"id": "fr-01-t-22", "lesson": "fr-01-4", "type": "cloze", "fr": "Ils s'___ Tom et Marc.", "a": ["appellent"], "hint": "s'appeler"},
+      {"id": "fr-01-t-23", "lesson": "fr-01-4", "type": "cloze", "fr": "Je m'___ Léa.", "a": ["appelle"], "hint": "s'appeler"},
+      {"id": "fr-01-t-24", "lesson": "fr-01-4", "type": "form", "verb": "s'appeler", "tense": "present", "person": 3},
+      {"id": "fr-01-t-25", "lesson": "fr-01-4", "type": "build", "en": "Her name is Julie.", "a": ["Elle s'appelle Julie."]},
+      {"id": "fr-01-t-26", "lesson": "fr-01-4", "type": "build", "en": "What's your name? (tu) My name is Tom.", "a": ["{Comment tu t'appelles|Tu t'appelles comment|Comment t'appelles-tu} ? Je m'appelle Tom."]},
+      {"id": "fr-01-t-27", "lesson": "fr-01-4", "type": "build", "en": "Who is it? It's Marie.", "a": ["{Qui est-ce|C'est qui} ? C'est Marie."]},
+      {"id": "fr-01-t-28", "lesson": "fr-01-4", "type": "build", "en": "Nice to meet you, sir.", "a": ["{Enchanté|Enchantée}, monsieur."]},
+      {"id": "fr-01-t-29", "lesson": "fr-01-4", "type": "transform", "task_en": "Make it formal (vous)", "fr": "Tu t'appelles Hugo ?", "a": ["{Vous vous appelez Hugo|Vous appelez-vous Hugo} ?"]},
+      {"id": "fr-01-t-30", "lesson": "fr-01-5", "type": "cloze", "fr": "sept, ___, neuf", "a": ["huit"]},
+      {"id": "fr-01-t-31", "lesson": "fr-01-5", "type": "cloze", "fr": "Huit et trois font ___.", "a": ["onze"]},
+      {"id": "fr-01-t-32", "lesson": "fr-01-5", "type": "cloze", "fr": "Dix et six font ___.", "a": ["seize"]},
+      {"id": "fr-01-t-33", "lesson": "fr-01-5", "type": "cloze", "fr": "Dix et neuf font ___.", "a": ["dix-neuf"]},
+      {"id": "fr-01-t-34", "lesson": "fr-01-5", "type": "build", "en": "Two and two make four.", "a": ["Deux et deux font quatre."]}
+    ]
+  }
+}

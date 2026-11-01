@@ -4,10 +4,11 @@ import { ruleHref } from '../learn/blocks.js';
 import { questionsFor } from '../learn/course.js';
 import { activeMistakes, gradeMistake, pickPractice, toItems, weakRules, mistakeFromItem } from '../learn/mistakes.js';
 import { learnContext, startExercises } from './lesson.js';
+import { locale } from '../i18n.js';
 
 const SOURCE = { write: 'Writing', chat: 'Chat' };
 const PRACTICE_COUNT = 10;
-const dateText = at => new Date(at).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+const dateText = at => new Date(at).toLocaleDateString(locale(), { month: 'short', day: 'numeric' });
 
 function startPractice(app) {
   const list = store.write.mistakes;

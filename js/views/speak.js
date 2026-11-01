@@ -1,11 +1,11 @@
 import { store } from '../store.js';
+import { feedbackOptions } from '../data.js';
 import { html, icon, segmented, onSegmented } from '../ui.js';
 import { buildSpeakPrompt, MINUTES, FIX_STYLES, FREE_MODES } from '../learn/speakprompt.js';
 import { pickerView } from './write.js';
 import { openGenerate } from './generate.js';
 
 const LEVELS = ['A1', 'A2', 'B1'];
-const FEEDBACK = [{ value: 'en', label: 'English' }, { value: 'cs', label: 'Czech' }, { value: 'fr', label: 'French' }];
 const SPEEDS = [{ value: 'slow', label: 'Slow' }, { value: 'natural', label: 'Natural' }];
 const DEFAULT_SPEAK = { level: 'A1', minutes: 10, fix: 'end', feedback: 'en', speed: 'slow', free: 'talk' };
 
@@ -41,7 +41,7 @@ export function openSpeakSetup(app, topic) {
       <div class="field-label">Corrections</div>
       ${segmented('fix', FIX_STYLES, opts.fix)}
       <div class="field-label">Feedback language</div>
-      ${segmented('feedback', FEEDBACK, opts.feedback)}
+      ${segmented('feedback', feedbackOptions(), opts.feedback)}
       <div class="field-label">The AI's speech</div>
       ${segmented('speed', SPEEDS, opts.speed)}
       <button class="btn btn-primary btn-block btn-lg" data-copy>${icon('copy')}<span>Copy prompt</span></button>

@@ -40,7 +40,7 @@ export async function loadDrills(paths) {
   return { drills, errors };
 }
 
-// words.json "translate": {"fr": "courses/fr/translate.json"}: Czech sentences to put into French.
+// words.json "translate": {"fr": "courses/fr/translate.json"}: sentences in the learner's language to put into French.
 export async function loadTranslate(paths) {
   const translate = {};
   const errors = [];
@@ -82,7 +82,7 @@ export function filterDrill(items, { level = 'all', unit = 'all', tag = 'all', q
   return items.filter(item => levelWithin(item, level)
     && (unit === 'all' || (unit === 'none' ? !item.unit : topUnit(item.unit) === String(unit)))
     && (tag === 'all' || item.tag === tag || item.tags?.includes(tag))
-    && (!terms.length || terms.every(t => searchKey(`${item.cs || ''} ${item.fr || ''} ${(item.a || [])[0] || ''}`).includes(t))));
+    && (!terms.length || terms.every(t => searchKey(`${item.cs ?? item.en ?? ''} ${item.fr || ''} ${(item.a || [])[0] || ''}`).includes(t))));
 }
 
 export function recordDrill(progress, id, ok, now = Date.now()) {

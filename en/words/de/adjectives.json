@@ -1,0 +1,50 @@
+{
+  "lang": "de",
+  "from": "en",
+  "type": "adjectives",
+  "title": "Adjectives",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {
+      "q": "big",
+      "a": "groß"
+    },
+    {
+      "q": "small",
+      "a": "klein"
+    },
+    {
+      "q": "good",
+      "a": "gut"
+    },
+    {
+      "q": "bad",
+      "a": "schlecht"
+    },
+    {
+      "q": "new",
+      "a": "neu"
+    },
+    {
+      "q": "old",
+      "a": "alt"
+    },
+    {
+      "q": "young",
+      "a": "jung"
+    },
+    {
+      "q": "beautiful",
+      "a": "schön"
+    },
+    {
+      "q": "warm",
+      "a": "warm"
+    },
+    {
+      "q": "cold",
+      "a": "kalt"
+    }
+  ]
+}

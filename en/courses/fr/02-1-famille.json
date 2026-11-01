@@ -1,0 +1,289 @@
+{
+  "schema": 1,
+  "goals": [
+    "Use the articles un, une, des and le, la, les",
+    "Say whose something is: mon, ton, son, notre, votre, leur",
+    "Introduce your family and your pets",
+    "Form the plural, including the irregular one",
+    "Count to 100"
+  ],
+  "lessons": [
+    {
+      "id": "fr-2.1-1",
+      "title": "Un frère, une sœur",
+      "subtitle": "Gender and articles",
+      "topics": ["articles", "family"],
+      "words": ["family#family", "family#brother", "family#sister", "family#mother", "family#father", "family#parents", "family#son", "family#daughter", "family#child", "family#boy", "family#girl"],
+      "learn": [
+        {"title": "Masculine or feminine", "blocks": [
+          {"type": "text", "en": "Every French noun is either **masculine** or **feminine**. There is no neuter. The best way to learn the gender is together with the article."},
+          {"type": "text", "en": "The **indefinite article** (a, an, some) is *un* for masculine nouns, *une* for feminine nouns and *des* for the plural."},
+          {"type": "table", "head": ["", "singular", "plural"], "textCols": [0], "rows": [
+            ["masculine", "un frère", "des frères"],
+            ["feminine", "une sœur", "des sœurs"]
+          ]},
+          {"type": "tip", "title": "Gender doesn't follow the meaning", "en": "A noun's gender often looks random: *le livre* (book) is masculine, *la voiture* (car) is feminine. That's why you should always learn words with their article."},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'ai ___ sœur.", "a": ["une"], "hint": "indefinite article"}}
+        ]},
+        {"title": "The definite article", "blocks": [
+          {"type": "text", "en": "Use the **definite article** (the) when it's clear who or what you mean: *le* for masculine, *la* for feminine, *les* for the plural. Before a vowel or a silent *h*, both *le* and *la* shorten to *l'*."},
+          {"type": "table", "head": ["", "singular", "plural"], "textCols": [0], "rows": [
+            ["masculine", "le père", "les pères"],
+            ["feminine", "la mère", "les mères"],
+            ["before a vowel", "l'enfant, l'oncle", "les enfants, les oncles"]
+          ]},
+          {"type": "text", "en": "The plural is usually made by adding *-s*, which is silent: *un frère → des frères*. You only hear it in the article: *le* [lə] → *les* [le]."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ enfants sont à Prague.", "a": ["Les"], "hint": "definite article"}}
+        ]},
+        {"title": "un or le?", "blocks": [
+          {"type": "text", "en": "Use *un, une* when you mention something for the first time: *J'ai un frère.* (I have a brother.) Use *le, la* for a specific thing you already know about: *Le frère de Léa a dix ans.* (Léa's brother is ten.)"},
+          {"type": "examples", "items": [
+            {"fr": "J'ai un frère et deux sœurs.", "en": "I have a brother and two sisters."},
+            {"fr": "Les parents de Tom sont à Paris.", "en": "Tom's parents are in Paris."},
+            {"fr": "C'est la famille Martin.", "en": "That's the Martin family."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.1-1-01", "type": "cloze", "fr": "J'ai ___ frère.", "a": ["un"], "hint": "indefinite article"},
+        {"id": "fr-2.1-1-02", "type": "cloze", "fr": "C'est ___ fille de Marc.", "a": ["la"], "hint": "definite article"},
+        {"id": "fr-2.1-1-03", "type": "cloze", "fr": "Paul a ___ enfants.", "a": ["des"], "hint": "indefinite article"},
+        {"id": "fr-2.1-1-04", "type": "cloze", "fr": "___ père de Léa s'appelle Luc.", "a": ["Le"], "hint": "definite article"},
+        {"id": "fr-2.1-1-05", "type": "cloze", "fr": "C'est ___enfant de Marie.", "a": ["l'"], "hint": "definite article"},
+        {"id": "fr-2.1-1-06", "type": "cloze", "fr": "___ parents de Tom sont à Paris.", "a": ["Les"], "hint": "definite article"},
+        {"id": "fr-2.1-1-07", "type": "transform", "task_en": "Make it plural", "fr": "un frère", "a": ["des frères"]},
+        {"id": "fr-2.1-1-08", "type": "transform", "task_en": "Make it plural", "fr": "la fille", "a": ["les filles"]},
+        {"id": "fr-2.1-1-09", "type": "transform", "task_en": "Make it plural", "fr": "l'enfant", "a": ["les enfants"]},
+        {"id": "fr-2.1-1-10", "type": "transform", "task_en": "Make it plural", "fr": "une sœur", "a": ["des sœurs"]},
+        {"id": "fr-2.1-1-11", "type": "build", "en": "I have a brother and two sisters.", "a": ["J'ai un frère et deux sœurs."]},
+        {"id": "fr-2.1-1-12", "type": "build", "en": "They have a child.", "a": ["{Ils|Elles} ont un enfant."]},
+        {"id": "fr-2.1-1-13", "type": "build", "en": "That's the Martin family.", "a": ["C'est la famille Martin."]},
+        {"id": "fr-2.1-1-14", "type": "order", "en": "The father and the mother are in Prague.", "a": ["Le père et la mère sont à Prague"], "extra": ["un", "une"]}
+      ]
+    },
+    {
+      "id": "fr-2.1-2",
+      "title": "Mon père, ma mère",
+      "subtitle": "My, your, his, her",
+      "topics": ["possessives", "family"],
+      "words": ["family#dad", "family#mum", "family#grandfather", "family#grandmother", "family#grandparents", "family#uncle", "family#aunt", "family#cousin (boy)", "family#cousin (girl)"],
+      "learn": [
+        {"title": "My, your, his", "blocks": [
+          {"type": "text", "en": "In French a possessive agrees with the **gender and number of the thing you own**, not with the owner."},
+          {"type": "table", "head": ["", "masculine", "feminine", "plural"], "textCols": [0], "rows": [
+            ["my", "mon père", "ma mère", "mes parents"],
+            ["your (tu)", "ton frère", "ta sœur", "tes cousins"],
+            ["his / her", "son oncle", "sa tante", "ses grands-parents"]
+          ]},
+          {"type": "tip", "title": "son = his and her", "en": "*Son père* means both \"his father\" and \"her father\". What counts is the gender of *père*, not whether the owner is a boy or a girl. So *Marie et son frère* (Marie and her brother) and *Tom et sa sœur* (Tom and his sister)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ mère s'appelle Jana.", "a": ["Ma"], "hint": "my"}}
+        ]},
+        {"title": "mon amie", "blocks": [
+          {"type": "text", "en": "Before a vowel or a silent *h*, feminine nouns take *mon, ton, son* instead of *ma, ta, sa*, so that it's easy to say: *mon amie, ton école, son histoire*."},
+          {"type": "examples", "items": [
+            {"fr": "Mon père s'appelle Pavel.", "en": "My father's name is Pavel."},
+            {"fr": "Ta sœur a quel âge ?", "en": "How old is your sister?"},
+            {"fr": "Mes grands-parents habitent à Prague.", "en": "My grandparents live in Prague."},
+            {"fr": "C'est mon amie Julie.", "en": "This is my friend Julie."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Léa et ___ frère sont à Paris.", "a": ["son"], "hint": "her"}}
+        ]},
+        {"title": "Family tree", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Le père de mon père, c'est mon grand-père.", "en": "My father's father is my grandfather."},
+            {"fr": "La sœur de ma mère, c'est ma tante.", "en": "My mother's sister is my aunt."},
+            {"fr": "Le fils de mon oncle, c'est mon cousin.", "en": "My uncle's son is my cousin."},
+            {"fr": "La fille de ma tante, c'est ma cousine.", "en": "My aunt's daughter is my cousin."}
+          ]},
+          {"type": "tip", "title": "papa, maman", "en": "*Papa* and *maman* are like Dad and Mum. *Père* and *mère* sound more formal."}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.1-2-01", "type": "cloze", "fr": "___ père a quarante ans.", "a": ["Mon"], "hint": "my"},
+        {"id": "fr-2.1-2-02", "type": "cloze", "fr": "___ sœur s'appelle Eva.", "a": ["Ma"], "hint": "my"},
+        {"id": "fr-2.1-2-03", "type": "cloze", "fr": "___ parents habitent à Prague.", "a": ["Mes"], "hint": "my (plural)"},
+        {"id": "fr-2.1-2-04", "type": "cloze", "fr": "C'est ___ frère ?", "a": ["ton"], "hint": "your (tu)"},
+        {"id": "fr-2.1-2-05", "type": "cloze", "fr": "Comment s'appelle ___ mère ?", "a": ["ta"], "hint": "your (tu)"},
+        {"id": "fr-2.1-2-06", "type": "cloze", "fr": "Tom et ___ sœur ont douze ans.", "a": ["sa"], "hint": "his"},
+        {"id": "fr-2.1-2-07", "type": "cloze", "fr": "C'est ___ amie Julie.", "a": ["mon"], "hint": "my", "why": "Before a vowel you write mon instead of ma."},
+        {"id": "fr-2.1-2-08", "type": "cloze", "fr": "La sœur de ma mère, c'est ma ___.", "a": ["tante"], "hint": "aunt"},
+        {"id": "fr-2.1-2-09", "type": "cloze", "fr": "Le fils de mon oncle, c'est mon ___.", "a": ["cousin"], "hint": "cousin (boy)"},
+        {"id": "fr-2.1-2-10", "type": "build", "en": "My grandfather lives in Prague.", "a": ["Mon grand-père habite à Prague."]},
+        {"id": "fr-2.1-2-11", "type": "build", "en": "My grandmother is French.", "a": ["Ma grand-mère est française."]},
+        {"id": "fr-2.1-2-12", "type": "build", "en": "How old is your sister? (tu)", "a": ["{Quel âge a ta sœur|Ta sœur a quel âge} ?"]},
+        {"id": "fr-2.1-2-13", "type": "build", "en": "Marie and her brother are Czech.", "a": ["Marie et son frère sont tchèques."], "why": "Frère is masculine, so son, even though it's Marie's brother."},
+        {"id": "fr-2.1-2-14", "type": "transform", "task_en": "Change \"my\" to \"your\" (tu)", "fr": "Mon oncle s'appelle Petr.", "a": ["Ton oncle s'appelle Petr."]},
+        {"id": "fr-2.1-2-15", "type": "transform", "task_en": "Make it plural", "fr": "Ma cousine est française.", "a": ["Mes cousines sont françaises."]}
+      ]
+    },
+    {
+      "id": "fr-2.1-3",
+      "title": "Notre famille",
+      "subtitle": "Our, your, their, and family status",
+      "topics": ["possessives", "family"],
+      "words": ["family#husband", "family#woman, wife", "family#half-brother, stepbrother", "family#half-sister, stepsister", "family#only child", "family#married", "family#divorced", "family#twins", "family#friend", "family#mate, pal (boy)", "family#mate, pal (girl)"],
+      "learn": [
+        {"title": "Our, your, their", "blocks": [
+          {"type": "table", "head": ["", "singular", "plural"], "textCols": [0], "rows": [
+            ["our", "notre père, notre mère", "nos parents"],
+            ["your (vous)", "votre frère, votre sœur", "vos cousins"],
+            ["their", "leur oncle, leur tante", "leurs enfants"]
+          ]},
+          {"type": "text", "en": "Here masculine and feminine are the same; only the number changes: *notre/nos, votre/vos, leur/leurs*."},
+          {"type": "tip", "title": "leur or leurs?", "en": "*Leur* only takes *-s* in the plural: *leur fils* (their son), *leurs enfants* (their children)."},
+          {"type": "check", "item": {"type": "cloze", "fr": "___ parents sont à Paris.", "a": ["Nos"], "hint": "our (plural)"}}
+        ]},
+        {"title": "Peter's, Marie's", "blocks": [
+          {"type": "text", "en": "French has no 's. To show who owns something you use *de*: *le frère de Petr* (Petr's brother), *la mère de Marie* (Marie's mother). Before a vowel it's *d'*: *le chien d'Anna*."},
+          {"type": "examples", "items": [
+            {"fr": "C'est la sœur de Tom.", "en": "That's Tom's sister."},
+            {"fr": "Le père d'Anna est italien.", "en": "Anna's father is Italian."}
+          ]},
+          {"type": "check", "item": {"type": "build", "en": "That's Petr's brother.", "a": ["C'est le frère de Petr."]}}
+        ]},
+        {"title": "Family status", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["married (man / woman)", "marié / mariée"],
+            ["divorced (man / woman)", "divorcé / divorcée"],
+            ["only child", "fils unique / fille unique"],
+            ["half-brother / half-sister", "demi-frère / demi-sœur"],
+            ["twins", "des jumeaux"]
+          ]},
+          {"type": "examples", "items": [
+            {"fr": "Ma tante est mariée.", "en": "My aunt is married."},
+            {"fr": "Mes parents sont divorcés.", "en": "My parents are divorced."},
+            {"fr": "Je suis fils unique.", "en": "I'm an only child. (boy)"},
+            {"fr": "J'ai une demi-sœur.", "en": "I have a half-sister."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.1-3-01", "type": "cloze", "fr": "___ fils a dix ans.", "a": ["Notre"], "hint": "our"},
+        {"id": "fr-2.1-3-02", "type": "cloze", "fr": "C'est ___ voiture, madame ?", "a": ["votre"], "hint": "your (vous)"},
+        {"id": "fr-2.1-3-03", "type": "cloze", "fr": "Comment s'appellent ___ enfants ?", "a": ["vos"], "hint": "your (vous)"},
+        {"id": "fr-2.1-3-04", "type": "cloze", "fr": "Paul et Marie habitent avec ___ grands-parents.", "a": ["leurs"], "hint": "their"},
+        {"id": "fr-2.1-3-05", "type": "cloze", "fr": "Ils ont un chien. ___ chien s'appelle Rex.", "a": ["Leur"], "hint": "their"},
+        {"id": "fr-2.1-3-06", "type": "build", "en": "That's Anna's mother.", "a": ["C'est la mère d'Anna."]},
+        {"id": "fr-2.1-3-07", "type": "build", "en": "Our parents are divorced.", "a": ["Nos parents sont divorcés."]},
+        {"id": "fr-2.1-3-08", "type": "build", "en": "I'm an only child.", "a": ["Je suis {fils unique|fille unique}."]},
+        {"id": "fr-2.1-3-09", "type": "build", "en": "My aunt is married.", "a": ["Ma tante est mariée."]},
+        {"id": "fr-2.1-3-10", "type": "build", "en": "Their son's name is Tom.", "a": ["Leur fils s'appelle Tom."]},
+        {"id": "fr-2.1-3-11", "type": "build", "en": "I have a half-brother.", "a": ["J'ai un demi-frère."]},
+        {"id": "fr-2.1-3-12", "type": "transform", "task_en": "Make it plural", "fr": "Notre cousin est allemand.", "a": ["Nos cousins sont allemands."]},
+        {"id": "fr-2.1-3-13", "type": "transform", "task_en": "Replace with leur or leurs", "fr": "C'est le chien de Paul et Marie.", "a": ["C'est leur chien."]},
+        {"id": "fr-2.1-3-14", "type": "transform", "task_en": "Replace with leur or leurs", "fr": "Ce sont les enfants de Luc et Anne.", "a": ["Ce sont leurs enfants."]},
+        {"id": "fr-2.1-3-15", "type": "order", "en": "My friend is Lucie's brother.", "a": ["Mon copain est le frère de Lucie", "Mon ami est le frère de Lucie"], "extra": ["la", "ma"]}
+      ]
+    },
+    {
+      "id": "fr-2.1-4",
+      "title": "Mes animaux",
+      "subtitle": "Animals and special plurals",
+      "topics": ["family", "articles"],
+      "words": ["animals#animal", "animals#animals", "animals#dog", "animals#cat", "animals#bird", "animals#parrot", "animals#hamster", "animals#guinea pig", "animals#fish (pet)", "animals#tortoise", "animals#rabbit", "animals#horse", "animals#horses", "animals#mouse", "animals#snake"],
+      "learn": [
+        {"title": "Do you have a pet?", "blocks": [
+          {"type": "text", "en": "To the question *Tu as un animal ?* (Do you have a pet?) you might answer *J'ai un chien.* The animal is then *il* or *elle* depending on the gender of the word: *le chat → il*, *la tortue → elle*."},
+          {"type": "examples", "items": [
+            {"fr": "J'ai un chat. Il s'appelle Félix.", "en": "I have a cat. His name is Félix."},
+            {"fr": "Ma sœur a une tortue. Elle a cinq ans.", "en": "My sister has a tortoise. It's five years old."},
+            {"fr": "Nous avons deux lapins.", "en": "We have two rabbits."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'ai une tortue. ___ s'appelle Lili.", "a": ["Elle"]}}
+        ]},
+        {"title": "Special plurals", "blocks": [
+          {"type": "text", "en": "Words ending in *-al* take *-aux* in the plural: *un animal → des animaux, un cheval → des chevaux*. Words ending in *-eau* take *-x*: *un oiseau → des oiseaux*. Words already ending in *-s* or *-x* don't change: *une souris → des souris*."},
+          {"type": "table", "head": ["singular", "plural"], "rows": [
+            ["un animal", "des animaux"], ["un cheval", "des chevaux"], ["un oiseau", "des oiseaux"], ["une souris", "des souris"]
+          ]},
+          {"type": "check", "item": {"type": "transform", "task_en": "Make it plural", "fr": "un cheval", "a": ["des chevaux"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.1-4-01", "type": "cloze", "fr": "Tu as un ___ ?", "a": ["animal"], "hint": "animal"},
+        {"id": "fr-2.1-4-02", "type": "cloze", "fr": "Mon oncle a trois ___.", "a": ["chevaux"], "hint": "horses"},
+        {"id": "fr-2.1-4-03", "type": "cloze", "fr": "Ma cousine a deux ___.", "a": ["oiseaux"], "hint": "birds"},
+        {"id": "fr-2.1-4-04", "type": "cloze", "fr": "J'ai un chien. ___ a quatre ans.", "a": ["Il"]},
+        {"id": "fr-2.1-4-05", "type": "cloze", "fr": "Léa a une souris. ___ s'appelle Mimi.", "a": ["Elle"]},
+        {"id": "fr-2.1-4-06", "type": "transform", "task_en": "Make it plural", "fr": "un animal", "a": ["des animaux"]},
+        {"id": "fr-2.1-4-07", "type": "transform", "task_en": "Make it plural", "fr": "une souris", "a": ["des souris"]},
+        {"id": "fr-2.1-4-08", "type": "transform", "task_en": "Make it plural", "fr": "un oiseau", "a": ["des oiseaux"]},
+        {"id": "fr-2.1-4-09", "type": "build", "en": "Do you have a pet?", "a": ["{Tu as un animal|As-tu un animal|Est-ce que tu as un animal} ?"]},
+        {"id": "fr-2.1-4-10", "type": "build", "en": "I have a dog, his name is Max.", "a": ["J'ai un chien, il s'appelle Max."]},
+        {"id": "fr-2.1-4-11", "type": "build", "en": "My brother has a rabbit.", "a": ["Mon frère a un lapin."]},
+        {"id": "fr-2.1-4-12", "type": "build", "en": "My grandmother has two cats.", "a": ["Ma grand-mère a deux {chats|chattes}."]},
+        {"id": "fr-2.1-4-13", "type": "order", "en": "Their dog's name is Rex.", "a": ["Leur chien s'appelle Rex"], "extra": ["leurs", "sa"]}
+      ]
+    },
+    {
+      "id": "fr-2.1-5",
+      "title": "Les nombres jusqu'à 100",
+      "subtitle": "Numbers 70 to 100",
+      "topics": ["numbers"],
+      "words": ["numbers#seventy", "numbers#seventy-one", "numbers#eighty", "numbers#ninety", "numbers#ninety-one", "numbers#a hundred"],
+      "learn": [
+        {"title": "70 to 79", "blocks": [
+          {"type": "text", "en": "French has no separate word for 70. It says \"sixty-ten\": *soixante-dix*. Then it goes on *soixante et onze* (71), *soixante-douze* (72) up to *soixante-dix-neuf* (79)."},
+          {"type": "table", "textCols": [0], "rows": [["70", "soixante-dix"], ["71", "soixante et onze"], ["72", "soixante-douze"], ["75", "soixante-quinze"], ["79", "soixante-dix-neuf"]]},
+          {"type": "check", "item": {"type": "cloze", "fr": "soixante-dix, soixante et onze, ___", "a": ["soixante-douze"]}}
+        ]},
+        {"title": "80 to 100", "blocks": [
+          {"type": "text", "en": "80 is \"four twenties\": *quatre-vingts*. Only 80 itself has the final *-s*. After that there's no *-s* and no *et*: *quatre-vingt-un* (81), *quatre-vingt-deux* (82). 90 is *quatre-vingt-dix*, 99 *quatre-vingt-dix-neuf* and 100 is *cent*."},
+          {"type": "table", "textCols": [0], "rows": [["80", "quatre-vingts"], ["81", "quatre-vingt-un"], ["85", "quatre-vingt-cinq"], ["90", "quatre-vingt-dix"], ["91", "quatre-vingt-onze"], ["99", "quatre-vingt-dix-neuf"], ["100", "cent"]]},
+          {"type": "tip", "title": "Belgium and Switzerland", "en": "In Belgium and Switzerland people say *septante* (70) and *nonante* (90). Not in France."},
+          {"type": "check", "item": {"type": "cloze", "fr": "quatre-vingt-neuf, ___", "a": ["quatre-vingt-dix"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-2.1-5-01", "type": "cloze", "fr": "Mon grand-père a ___ ans.", "a": ["soixante-douze"], "hint": "72"},
+        {"id": "fr-2.1-5-02", "type": "cloze", "fr": "Ma grand-mère a ___ ans.", "a": ["quatre-vingts"], "hint": "80"},
+        {"id": "fr-2.1-5-03", "type": "cloze", "fr": "Monsieur Dupont a ___ ans.", "a": ["quatre-vingt-cinq"], "hint": "85"},
+        {"id": "fr-2.1-5-04", "type": "cloze", "fr": "Madame Leroy a ___ ans.", "a": ["quatre-vingt-onze"], "hint": "91"},
+        {"id": "fr-2.1-5-05", "type": "cloze", "fr": "C'est le numéro ___.", "a": ["soixante-dix-sept"], "hint": "77"},
+        {"id": "fr-2.1-5-06", "type": "cloze", "fr": "Cinquante et cinquante font ___.", "a": ["cent"]},
+        {"id": "fr-2.1-5-07", "type": "cloze", "fr": "Quarante et quarante font ___.", "a": ["quatre-vingts"]},
+        {"id": "fr-2.1-5-08", "type": "cloze", "fr": "soixante-dix-huit, soixante-dix-neuf, ___", "a": ["quatre-vingts"]},
+        {"id": "fr-2.1-5-09", "type": "cloze", "fr": "Soixante et dix font ___.", "a": ["soixante-dix"]},
+        {"id": "fr-2.1-5-10", "type": "build", "en": "My grandfather is eighty.", "a": ["Mon grand-père a quatre-vingts ans."]},
+        {"id": "fr-2.1-5-11", "type": "build", "en": "My grandmother is ninety.", "a": ["Ma grand-mère a quatre-vingt-dix ans."]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-2.1-t-01", "lesson": "fr-2.1-1", "type": "cloze", "fr": "C'est ___ sœur de Paul.", "a": ["la"], "hint": "definite article"},
+      {"id": "fr-2.1-t-02", "lesson": "fr-2.1-1", "type": "cloze", "fr": "J'ai ___ cousins.", "a": ["des"], "hint": "indefinite article"},
+      {"id": "fr-2.1-t-03", "lesson": "fr-2.1-1", "type": "transform", "task_en": "Make it plural", "fr": "le père", "a": ["les pères"]},
+      {"id": "fr-2.1-t-04", "lesson": "fr-2.1-1", "type": "transform", "task_en": "Make it plural", "fr": "l'oncle", "a": ["les oncles"]},
+      {"id": "fr-2.1-t-05", "lesson": "fr-2.1-1", "type": "build", "en": "I have two brothers.", "a": ["J'ai deux frères."]},
+      {"id": "fr-2.1-t-06", "lesson": "fr-2.1-2", "type": "cloze", "fr": "___ frère s'appelle Jakub.", "a": ["Mon"], "hint": "my"},
+      {"id": "fr-2.1-t-07", "lesson": "fr-2.1-2", "type": "cloze", "fr": "C'est ___ amie Sophie.", "a": ["mon"], "hint": "my"},
+      {"id": "fr-2.1-t-08", "lesson": "fr-2.1-2", "type": "cloze", "fr": "Marc habite avec ___ mère.", "a": ["sa"], "hint": "his"},
+      {"id": "fr-2.1-t-09", "lesson": "fr-2.1-2", "type": "cloze", "fr": "Anna et ___ père sont à Paris.", "a": ["son"], "hint": "her"},
+      {"id": "fr-2.1-t-10", "lesson": "fr-2.1-2", "type": "build", "en": "Is your cousin (a girl) French? (tu)", "a": ["{Ta cousine est française|Est-ce que ta cousine est française} ?"]},
+      {"id": "fr-2.1-t-11", "lesson": "fr-2.1-2", "type": "build", "en": "My grandparents live in Prague.", "a": ["Mes grands-parents habitent à Prague."]},
+      {"id": "fr-2.1-t-12", "lesson": "fr-2.1-3", "type": "cloze", "fr": "___ enfants ont dix ans.", "a": ["Nos"], "hint": "our (plural)"},
+      {"id": "fr-2.1-t-13", "lesson": "fr-2.1-3", "type": "cloze", "fr": "Ils ont un chat. ___ chat s'appelle Bob.", "a": ["Leur"], "hint": "their"},
+      {"id": "fr-2.1-t-14", "lesson": "fr-2.1-3", "type": "cloze", "fr": "Vous avez ___ passeports ?", "a": ["vos"], "hint": "your (vous)"},
+      {"id": "fr-2.1-t-15", "lesson": "fr-2.1-3", "type": "build", "en": "That's Tom's mother.", "a": ["C'est la mère de Tom."]},
+      {"id": "fr-2.1-t-16", "lesson": "fr-2.1-3", "type": "build", "en": "Their parents are divorced.", "a": ["Leurs parents sont divorcés."]},
+      {"id": "fr-2.1-t-17", "lesson": "fr-2.1-3", "type": "build", "en": "My cousin (a boy) is an only child.", "a": ["Mon cousin est fils unique."]},
+      {"id": "fr-2.1-t-18", "lesson": "fr-2.1-4", "type": "cloze", "fr": "Mon oncle a deux ___.", "a": ["chevaux"], "hint": "horses"},
+      {"id": "fr-2.1-t-19", "lesson": "fr-2.1-4", "type": "transform", "task_en": "Make it plural", "fr": "le cheval", "a": ["les chevaux"]},
+      {"id": "fr-2.1-t-20", "lesson": "fr-2.1-4", "type": "build", "en": "We have a dog and two cats.", "a": ["{Nous avons|On a} un chien et deux {chats|chattes}."]},
+      {"id": "fr-2.1-t-21", "lesson": "fr-2.1-4", "type": "cloze", "fr": "J'ai un lapin. ___ a deux ans.", "a": ["Il"]},
+      {"id": "fr-2.1-t-22", "lesson": "fr-2.1-5", "type": "cloze", "fr": "Ma grand-mère a ___ ans.", "a": ["soixante-seize"], "hint": "76"},
+      {"id": "fr-2.1-t-23", "lesson": "fr-2.1-5", "type": "cloze", "fr": "Il a ___ ans.", "a": ["quatre-vingt-trois"], "hint": "83"},
+      {"id": "fr-2.1-t-24", "lesson": "fr-2.1-5", "type": "cloze", "fr": "C'est le numéro ___.", "a": ["quatre-vingt-dix-neuf"], "hint": "99"},
+      {"id": "fr-2.1-t-25", "lesson": "fr-2.1-5", "type": "build", "en": "My grandfather is seventy-one.", "a": ["Mon grand-père a {soixante et onze|soixante-et-onze} ans."]}
+    ]
+  }
+}

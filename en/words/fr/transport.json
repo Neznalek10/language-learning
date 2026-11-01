@@ -1,0 +1,91 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Transport",
+  "unit": "5.1",
+  "level": null,
+  "words": [
+    {
+      "q": "underground, metro",
+      "a": "métro"
+    },
+    {
+      "q": "bus",
+      "a": [
+        "bus",
+        "autobus"
+      ]
+    },
+    {
+      "q": "car body",
+      "a": "carrosserie"
+    },
+    {
+      "q": "tram",
+      "a": "tram"
+    },
+    {
+      "q": "train",
+      "a": "train"
+    },
+    {
+      "q": "car",
+      "a": "voiture"
+    },
+    {
+      "q": "automobile",
+      "a": "automobile"
+    },
+    {
+      "q": "plane",
+      "a": "avion"
+    },
+    {
+      "q": "boat",
+      "a": "bateau"
+    },
+    {
+      "q": "motorbike",
+      "a": "moto"
+    },
+    {
+      "q": "straight on",
+      "a": "tout droit"
+    },
+    {
+      "q": "left, to the left",
+      "a": "à gauche"
+    },
+    {
+      "q": "right, to the right",
+      "a": "à droite"
+    },
+    {
+      "q": "on foot",
+      "a": "à pied"
+    },
+    {
+      "q": "by bike",
+      "a": "à vélo"
+    },
+    {
+      "q": "by car",
+      "a": "en voiture"
+    },
+    {
+      "q": "by bus",
+      "a": "en bus"
+    },
+    {
+      "q": "airport",
+      "a": "aéroport",
+      "unit": "7.1"
+    },
+    {
+      "q": "ticket",
+      "a": "billet",
+      "unit": "7.1"
+    }
+  ]
+}

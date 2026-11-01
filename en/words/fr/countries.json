@@ -1,0 +1,189 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Countries & nationalities",
+  "unit": "1.2",
+  "level": "A1",
+  "words": [
+    {
+      "q": "France",
+      "a": "la France"
+    },
+    {
+      "q": "the Czech Republic, Czechia",
+      "a": [
+        "la République tchèque",
+        "la Tchéquie"
+      ]
+    },
+    {
+      "q": "Slovakia",
+      "a": "la Slovaquie"
+    },
+    {
+      "q": "Germany",
+      "a": "l'Allemagne"
+    },
+    {
+      "q": "Austria",
+      "a": "l'Autriche"
+    },
+    {
+      "q": "Poland",
+      "a": "la Pologne"
+    },
+    {
+      "q": "England",
+      "a": "l'Angleterre"
+    },
+    {
+      "q": "Spain",
+      "a": "l'Espagne"
+    },
+    {
+      "q": "Italy",
+      "a": "l'Italie"
+    },
+    {
+      "q": "Belgium",
+      "a": "la Belgique"
+    },
+    {
+      "q": "Switzerland",
+      "a": "la Suisse"
+    },
+    {
+      "q": "Canada",
+      "a": "le Canada"
+    },
+    {
+      "q": "the United States",
+      "a": "les États-Unis"
+    },
+    {
+      "q": "Slovak (nationality)",
+      "a": "slovaque"
+    },
+    {
+      "q": "German (man)",
+      "a": "allemand"
+    },
+    {
+      "q": "German (woman)",
+      "a": "allemande"
+    },
+    {
+      "q": "Austrian (man)",
+      "a": "autrichien"
+    },
+    {
+      "q": "Austrian (woman)",
+      "a": "autrichienne"
+    },
+    {
+      "q": "Polish (man)",
+      "a": "polonais"
+    },
+    {
+      "q": "Polish (woman)",
+      "a": "polonaise"
+    },
+    {
+      "q": "English (man)",
+      "a": "anglais"
+    },
+    {
+      "q": "English (woman)",
+      "a": "anglaise"
+    },
+    {
+      "q": "Spanish (man)",
+      "a": "espagnol"
+    },
+    {
+      "q": "Spanish (woman)",
+      "a": "espagnole"
+    },
+    {
+      "q": "Italian (man)",
+      "a": "italien"
+    },
+    {
+      "q": "Italian (woman)",
+      "a": "italienne"
+    },
+    {
+      "q": "American (man)",
+      "a": "américain"
+    },
+    {
+      "q": "American (woman)",
+      "a": "américaine"
+    },
+    {
+      "q": "Belgian (nationality)",
+      "a": "belge"
+    },
+    {
+      "q": "Swiss (nationality)",
+      "a": "suisse"
+    },
+    {
+      "q": "Czech (language)",
+      "a": [
+        "le tchèque",
+        "tchèque"
+      ]
+    },
+    {
+      "q": "German (language)",
+      "a": [
+        "l'allemand",
+        "allemand"
+      ]
+    },
+    {
+      "q": "Spanish (language)",
+      "a": [
+        "l'espagnol",
+        "espagnol"
+      ]
+    },
+    {
+      "q": "language",
+      "a": "la langue"
+    },
+    {
+      "q": "country",
+      "a": "le pays"
+    },
+    {
+      "q": "age",
+      "a": "l'âge"
+    },
+    {
+      "q": "how old are you?",
+      "a": [
+        "quel âge as-tu ?",
+        "tu as quel âge ?"
+      ]
+    },
+    {
+      "q": "where do you live?",
+      "a": [
+        "où habites-tu ?",
+        "tu habites où ?",
+        "où est-ce que tu habites ?"
+      ]
+    },
+    {
+      "q": "where are you from?",
+      "a": [
+        "d'où viens-tu ?",
+        "tu viens d'où ?",
+        "d'où es-tu ?"
+      ]
+    }
+  ]
+}

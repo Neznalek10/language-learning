@@ -1,0 +1,220 @@
+{
+  "schema": 1,
+  "goals": [
+    "Describe a house, a flat and the rooms",
+    "Use ordinal numbers for floors",
+    "Say what is where: il y a, il n'y a pas de",
+    "Use prepositions of place and contract de + le = du",
+    "Talk about chores and conjugate mettre"
+  ],
+  "lessons": [
+    {
+      "id": "fr-6-1",
+      "title": "Ma maison",
+      "subtitle": "Rooms and floors",
+      "topics": ["home"],
+      "words": ["home#house", "home#flat, apartment", "home#bedroom", "home#kitchen", "home#living room", "home#bathroom", "home#toilet", "home#dining room", "home#garden", "home#floor, storey", "home#ground floor", "home#stairs", "home#balcony", "home#garage"],
+      "learn": [
+        {"title": "Where do you live?", "blocks": [
+          {"type": "text", "en": "With a house or a flat you use *dans*: *J'habite dans une maison.* (I live in a house.) *J'habite dans un appartement.* (I live in a flat.)"},
+          {"type": "table", "textCols": [0], "rows": [
+            ["kitchen", "la cuisine"], ["living room", "le salon"], ["bathroom", "la salle de bains"], ["toilet", "les toilettes"],
+            ["dining room", "la salle à manger"], ["bedroom", "la chambre"], ["garden", "le jardin"], ["balcony", "le balcon"], ["garage", "le garage"]
+          ]},
+          {"type": "tip", "title": "les toilettes", "en": "*Les toilettes* is always plural, even if there's only one toilet."}
+        ]},
+        {"title": "Floors", "blocks": [
+          {"type": "text", "en": "The ground floor is *le rez-de-chaussée*. Floors are counted with ordinal numbers: *au premier étage* (on the first floor), *au deuxième étage* (on the second floor). You form an ordinal by adding *-ième*: *deux → deuxième, trois → troisième*. Only \"first\" is different: *premier / première*."},
+          {"type": "table", "textCols": [0], "rows": [["1.", "premier / première"], ["2.", "deuxième"], ["3.", "troisième"], ["4.", "quatrième"], ["5.", "cinquième"], ["9.", "neuvième"], ["10.", "dixième"]]},
+          {"type": "tip", "title": "Spelling", "en": "A final *-e* drops: *quatre → quatrième*. Five adds a *u*: *cinq → cinquième*. Nine changes *f* to *v*: *neuf → neuvième*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'habite au ___ étage.", "a": ["deuxième"], "hint": "2."}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-6-1-01", "type": "cloze", "fr": "J'habite ___ un appartement.", "a": ["dans"]},
+        {"id": "fr-6-1-02", "type": "cloze", "fr": "La cuisine est au ___.", "a": ["rez-de-chaussée"], "hint": "ground floor"},
+        {"id": "fr-6-1-03", "type": "cloze", "fr": "Ma chambre est au ___ étage.", "a": ["premier"], "hint": "1."},
+        {"id": "fr-6-1-04", "type": "cloze", "fr": "Nous habitons au ___ étage.", "a": ["troisième"], "hint": "3."},
+        {"id": "fr-6-1-05", "type": "cloze", "fr": "Ma grand-mère habite au ___ étage.", "a": ["cinquième"], "hint": "5."},
+        {"id": "fr-6-1-06", "type": "cloze", "fr": "Je mange dans la ___.", "a": ["cuisine"], "hint": "kitchen"},
+        {"id": "fr-6-1-07", "type": "cloze", "fr": "Mon père regarde la télé dans le ___.", "a": ["salon"], "hint": "living room"},
+        {"id": "fr-6-1-08", "type": "cloze", "fr": "Je me douche dans la ___.", "a": ["salle de bains"], "hint": "bathroom"},
+        {"id": "fr-6-1-09", "type": "build", "en": "I live in a house with a garden.", "a": ["J'habite dans une maison avec un jardin."]},
+        {"id": "fr-6-1-10", "type": "build", "en": "Our flat is on the fourth floor.", "a": ["Notre appartement est au quatrième étage."]},
+        {"id": "fr-6-1-11", "type": "build", "en": "The kitchen is big.", "a": ["La cuisine est grande."]},
+        {"id": "fr-6-1-12", "type": "build", "en": "Do you live in a house or a flat? (tu)", "a": ["{Tu habites|Est-ce que tu habites|Habites-tu} dans une maison ou dans un appartement ?"]},
+        {"id": "fr-6-1-13", "type": "order", "en": "My bedroom is on the first floor.", "a": ["Ma chambre est au premier étage"], "extra": ["première", "dans"]}
+      ]
+    },
+    {
+      "id": "fr-6-2",
+      "title": "Dans ma chambre, il y a...",
+      "subtitle": "Il y a and furniture",
+      "topics": ["il-y-a", "home"],
+      "words": ["home#bed", "home#table", "home#chair", "home#desk", "home#wardrobe", "home#shelf", "home#lamp", "home#rug, carpet", "home#mirror", "home#sofa", "home#window", "home#door"],
+      "learn": [
+        {"title": "Il y a", "blocks": [
+          {"type": "text", "en": "*Il y a* means \"there is, there are\" and doesn't change with the number: *Dans ma chambre, il y a un lit.* (There's a bed in my room.) *Il y a deux fenêtres.* (There are two windows.)"},
+          {"type": "text", "en": "The negative is *il n'y a pas de*: *Il n'y a pas de télé.* (There's no TV.) Questions: *Est-ce qu'il y a un balcon ?* or *Qu'est-ce qu'il y a dans ta chambre ?*"},
+          {"type": "examples", "items": [
+            {"fr": "Dans le salon, il y a un canapé et une table.", "en": "In the living room there's a sofa and a table."},
+            {"fr": "Il n'y a pas de garage.", "en": "There's no garage."},
+            {"fr": "Qu'est-ce qu'il y a dans ta chambre ?", "en": "What's in your bedroom?"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Dans ma chambre, ___ un lit.", "a": ["il y a"], "hint": "there is"}}
+        ]},
+        {"title": "Furniture", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["bed", "le lit"], ["table", "la table"], ["chair", "la chaise"], ["desk", "le bureau"], ["wardrobe", "l'armoire"],
+            ["shelf", "l'étagère"], ["lamp", "la lampe"], ["rug", "le tapis"], ["mirror", "le miroir"], ["sofa", "le canapé"],
+            ["window", "la fenêtre"], ["door", "la porte"]
+          ]},
+          {"type": "tip", "title": "le bureau", "en": "*Le bureau* means both a desk and an office."}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-6-2-01", "type": "cloze", "fr": "Dans le salon, il y a ___ canapé.", "a": ["un"]},
+        {"id": "fr-6-2-02", "type": "cloze", "fr": "Il n'y a pas ___ télé.", "a": ["de"]},
+        {"id": "fr-6-2-03", "type": "cloze", "fr": "Est-ce qu'___ un garage ?", "a": ["il y a"], "hint": "is there"},
+        {"id": "fr-6-2-04", "type": "cloze", "fr": "Dans la cuisine, il y a une table et quatre ___.", "a": ["chaises"], "hint": "chair"},
+        {"id": "fr-6-2-05", "type": "cloze", "fr": "Il y a deux ___.", "a": ["fenêtres"], "hint": "windows"},
+        {"id": "fr-6-2-06", "type": "cloze", "fr": "Dans ma chambre, il y a un ___ et un bureau.", "a": ["lit"], "hint": "bed"},
+        {"id": "fr-6-2-07", "type": "build", "en": "In my room there's a bed, a desk and a wardrobe.", "a": ["Dans ma chambre, il y a un lit, un bureau et une armoire."]},
+        {"id": "fr-6-2-08", "type": "build", "en": "There's no TV in the living room.", "a": ["Dans le salon, il n'y a pas de {télé|télévision}."]},
+        {"id": "fr-6-2-09", "type": "build", "en": "What's in your bedroom?", "a": ["{Qu'est-ce qu'il y a dans ta chambre|Il y a quoi dans ta chambre} ?"]},
+        {"id": "fr-6-2-10", "type": "build", "en": "Is there a mirror?", "a": ["{Est-ce qu'il y a un miroir|Il y a un miroir|Y a-t-il un miroir} ?"]},
+        {"id": "fr-6-2-11", "type": "transform", "task_en": "Make it negative", "fr": "Il y a un garage.", "a": ["Il n'y a pas de garage."]},
+        {"id": "fr-6-2-12", "type": "transform", "task_en": "Make it negative", "fr": "Il y a des chaises.", "a": ["Il n'y a pas de chaises."]},
+        {"id": "fr-6-2-13", "type": "order", "en": "In the kitchen there's a big table.", "a": ["Dans la cuisine il y a une grande table"], "extra": ["grand", "est"]}
+      ]
+    },
+    {
+      "id": "fr-6-3",
+      "title": "Où est le chat ?",
+      "subtitle": "Prepositions of place",
+      "topics": ["prepositions"],
+      "words": ["basics#in (inside)", "basics#on (on top of)", "basics#under", "basics#in front of", "basics#behind", "basics#between", "basics#next to", "basics#opposite", "basics#on the left", "basics#on the right", "basics#near", "basics#far"],
+      "learn": [
+        {"title": "Where is it?", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["in", "dans"], ["on", "sur"], ["under", "sous"], ["in front of", "devant"], ["behind", "derrière"], ["between", "entre"],
+            ["next to", "à côté de"], ["opposite", "en face de"], ["to the left of", "à gauche de"], ["to the right of", "à droite de"],
+            ["near", "près de"], ["far from", "loin de"]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Le chat est ___ le lit.", "a": ["sous"], "hint": "under"}}
+        ]},
+        {"title": "à côté du", "blocks": [
+          {"type": "text", "en": "Prepositions ending in *de* contract with *le* and *les*: *de + le = du*, *de + les = des*. *De la* and *de l'* stay as they are."},
+          {"type": "table", "rows": [
+            ["de + le", "à côté du lit"], ["de + la", "près de la porte"], ["de + l'", "en face de l'armoire"], ["de + les", "à côté des chaises"]
+          ]},
+          {"type": "examples", "items": [
+            {"fr": "La lampe est sur le bureau.", "en": "The lamp is on the desk."},
+            {"fr": "Le tapis est devant le canapé.", "en": "The rug is in front of the sofa."},
+            {"fr": "J'habite près du collège.", "en": "I live near the school."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "La lampe est à côté ___ lit.", "a": ["du"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-6-3-01", "type": "cloze", "fr": "Le livre est ___ la table.", "a": ["sur"], "hint": "on"},
+        {"id": "fr-6-3-02", "type": "cloze", "fr": "Le chat est ___ le canapé.", "a": ["derrière"], "hint": "behind"},
+        {"id": "fr-6-3-03", "type": "cloze", "fr": "Mes chaussures sont ___ le lit.", "a": ["sous"], "hint": "under"},
+        {"id": "fr-6-3-04", "type": "cloze", "fr": "La chaise est ___ le bureau et l'armoire.", "a": ["entre"], "hint": "between"},
+        {"id": "fr-6-3-05", "type": "cloze", "fr": "Le miroir est en face ___ fenêtre.", "a": ["de la"]},
+        {"id": "fr-6-3-06", "type": "cloze", "fr": "Le tapis est près ___ canapé.", "a": ["du"]},
+        {"id": "fr-6-3-07", "type": "cloze", "fr": "Ma maison est loin ___école.", "a": ["de l'"]},
+        {"id": "fr-6-3-08", "type": "cloze", "fr": "Le bureau est à gauche ___ fenêtres.", "a": ["des"]},
+        {"id": "fr-6-3-09", "type": "build", "en": "The cat is on the bed.", "a": ["Le chat est sur le lit."]},
+        {"id": "fr-6-3-10", "type": "build", "en": "The dog is under the table.", "a": ["Le chien est sous la table."]},
+        {"id": "fr-6-3-11", "type": "build", "en": "The wardrobe is to the right of the door.", "a": ["L'armoire est à droite de la porte."]},
+        {"id": "fr-6-3-12", "type": "build", "en": "I live near the school.", "a": ["J'habite près {de l'école|du collège}."]},
+        {"id": "fr-6-3-13", "type": "build", "en": "Where are my shoes? Under the bed.", "a": ["Où sont mes chaussures ? Sous le lit."]},
+        {"id": "fr-6-3-14", "type": "order", "en": "The sofa is opposite the TV.", "a": ["Le canapé est en face de la télé"], "extra": ["du", "dans"]}
+      ]
+    },
+    {
+      "id": "fr-6-4",
+      "title": "J'aide à la maison",
+      "subtitle": "Chores and the verb mettre",
+      "topics": ["mettre", "home"],
+      "words": ["verbs-irregular#to put", "verbs#to tidy (up)", "verbs#to help", "home#to wash the dishes", "home#to set the table", "home#to make your bed", "home#to vacuum"],
+      "learn": [
+        {"title": "The verb mettre", "blocks": [
+          {"type": "table", "verb": "mettre", "tense": "present"},
+          {"type": "text", "en": "*Mettre* means \"to put\", but also \"to put on\" (clothes): *Je mets le livre sur la table. Je mets un pull.*"},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je ___ la table.", "a": ["mets"], "hint": "mettre"}}
+        ]},
+        {"title": "Chores", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["to set the table", "mettre la table"],
+            ["to wash the dishes", "faire la vaisselle"],
+            ["to make your bed", "faire son lit"],
+            ["to tidy your room", "ranger sa chambre"],
+            ["to vacuum", "passer l'aspirateur"],
+            ["vynést odpadky", "sortir la poubelle"],
+            ["to help your parents", "aider ses parents"]
+          ]},
+          {"type": "tip", "title": "mon lit, ta chambre", "en": "The possessive changes with the person: *je fais mon lit, tu fais ton lit, il fait son lit; je range ma chambre*."},
+          {"type": "examples", "items": [
+            {"fr": "Le samedi, je range ma chambre.", "en": "On Saturdays I tidy my room."},
+            {"fr": "Mon frère fait la vaisselle et moi, je mets la table.", "en": "My brother washes the dishes and I set the table."},
+            {"fr": "Tu aides tes parents ?", "en": "Do you help your parents?"}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-6-4-f", "type": "form", "verb": "mettre", "tense": "present"},
+        {"id": "fr-6-4-01", "type": "cloze", "fr": "Je ___ ma chambre.", "a": ["range"], "hint": "ranger"},
+        {"id": "fr-6-4-02", "type": "cloze", "fr": "Tu ___ la vaisselle ?", "a": ["fais"], "hint": "faire"},
+        {"id": "fr-6-4-03", "type": "cloze", "fr": "Il ___ la table.", "a": ["met"], "hint": "mettre"},
+        {"id": "fr-6-4-04", "type": "cloze", "fr": "Nous ___ nos parents.", "a": ["aidons"], "hint": "aider"},
+        {"id": "fr-6-4-05", "type": "cloze", "fr": "Elle passe ___.", "a": ["l'aspirateur"], "hint": "vacuum cleaner"},
+        {"id": "fr-6-4-06", "type": "cloze", "fr": "Je fais ___ lit.", "a": ["mon"], "hint": "my"},
+        {"id": "fr-6-4-07", "type": "build", "en": "I'm setting the table.", "a": ["Je mets la table."]},
+        {"id": "fr-6-4-08", "type": "build", "en": "My brother is washing the dishes.", "a": ["Mon frère fait la vaisselle."]},
+        {"id": "fr-6-4-09", "type": "build", "en": "On Saturdays I tidy my room.", "a": ["{Samedi|Le samedi}, je range ma chambre."]},
+        {"id": "fr-6-4-10", "type": "build", "en": "Do you help your parents?", "a": ["{Tu aides|Est-ce que tu aides|Aides-tu} tes parents ?"]},
+        {"id": "fr-6-4-11", "type": "build", "en": "I make my bed every day.", "a": ["Je fais mon lit tous les jours."]},
+        {"id": "fr-6-4-12", "type": "transform", "task_en": "Change the person to nous", "fr": "Je mets la table.", "a": ["{Nous mettons|On met} la table."]},
+        {"id": "fr-6-4-13", "type": "order", "en": "My sister is vacuuming.", "a": ["Ma sœur passe l'aspirateur"], "extra": ["met", "fait"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-6-t-01", "lesson": "fr-6-1", "type": "cloze", "fr": "J'habite ___ une maison.", "a": ["dans"]},
+      {"id": "fr-6-t-02", "lesson": "fr-6-1", "type": "cloze", "fr": "Ma chambre est au ___ étage.", "a": ["deuxième"], "hint": "2."},
+      {"id": "fr-6-t-03", "lesson": "fr-6-1", "type": "cloze", "fr": "La ___ est au premier étage.", "a": ["salle de bains"], "hint": "bathroom"},
+      {"id": "fr-6-t-04", "lesson": "fr-6-1", "type": "build", "en": "We live in a flat on the third floor.", "a": ["{Nous habitons|On habite} dans un appartement au troisième étage."]},
+      {"id": "fr-6-t-05", "lesson": "fr-6-1", "type": "build", "en": "The kitchen is small, but the living room is big.", "a": ["La cuisine est petite, mais le salon est grand."]},
+      {"id": "fr-6-t-06", "lesson": "fr-6-2", "type": "cloze", "fr": "Dans ma chambre, ___ un bureau.", "a": ["il y a"], "hint": "there is"},
+      {"id": "fr-6-t-07", "lesson": "fr-6-2", "type": "cloze", "fr": "Il n'y a pas ___ garage.", "a": ["de"]},
+      {"id": "fr-6-t-08", "lesson": "fr-6-2", "type": "build", "en": "In my bedroom there's a bed and two chairs.", "a": ["Dans ma chambre, il y a un lit et deux chaises."]},
+      {"id": "fr-6-t-09", "lesson": "fr-6-2", "type": "build", "en": "There's no mirror in the bathroom.", "a": ["Dans la salle de bains, il n'y a pas de miroir."]},
+      {"id": "fr-6-t-10", "lesson": "fr-6-2", "type": "transform", "task_en": "Make it negative", "fr": "Il y a une lampe.", "a": ["Il n'y a pas de lampe."]},
+      {"id": "fr-6-t-11", "lesson": "fr-6-2", "type": "build", "en": "What's in the kitchen?", "a": ["{Qu'est-ce qu'il y a dans la cuisine|Il y a quoi dans la cuisine} ?"]},
+      {"id": "fr-6-t-12", "lesson": "fr-6-3", "type": "cloze", "fr": "Le chat est ___ la chaise.", "a": ["sous"], "hint": "under"},
+      {"id": "fr-6-t-13", "lesson": "fr-6-3", "type": "cloze", "fr": "Le livre est ___ le bureau.", "a": ["sur"], "hint": "on"},
+      {"id": "fr-6-t-14", "lesson": "fr-6-3", "type": "cloze", "fr": "La table est en face ___ fenêtre.", "a": ["de la"]},
+      {"id": "fr-6-t-15", "lesson": "fr-6-3", "type": "cloze", "fr": "Le lit est à côté ___armoire.", "a": ["de l'"]},
+      {"id": "fr-6-t-16", "lesson": "fr-6-3", "type": "cloze", "fr": "J'habite près ___ parc.", "a": ["du"]},
+      {"id": "fr-6-t-17", "lesson": "fr-6-3", "type": "build", "en": "The dog is behind the sofa.", "a": ["Le chien est derrière le canapé."]},
+      {"id": "fr-6-t-18", "lesson": "fr-6-3", "type": "build", "en": "My book is under the bed.", "a": ["Mon livre est sous le lit."]},
+      {"id": "fr-6-t-19", "lesson": "fr-6-3", "type": "build", "en": "I live far from school.", "a": ["J'habite loin {de l'école|du collège}."]},
+      {"id": "fr-6-t-20", "lesson": "fr-6-4", "type": "form", "verb": "mettre", "tense": "present", "person": 2},
+      {"id": "fr-6-t-21", "lesson": "fr-6-4", "type": "form", "verb": "mettre", "tense": "present", "person": 5},
+      {"id": "fr-6-t-22", "lesson": "fr-6-4", "type": "form", "verb": "ranger", "tense": "present", "person": 3},
+      {"id": "fr-6-t-23", "lesson": "fr-6-4", "type": "build", "en": "I wash the dishes and set the table.", "a": ["Je fais la vaisselle et je mets la table."]},
+      {"id": "fr-6-t-24", "lesson": "fr-6-4", "type": "build", "en": "Do you tidy your room? (tu)", "a": ["{Tu ranges|Est-ce que tu ranges|Ranges-tu} ta chambre ?"]},
+      {"id": "fr-6-t-25", "lesson": "fr-6-4", "type": "build", "en": "I help my parents.", "a": ["J'aide mes parents."]}
+    ]
+  }
+}

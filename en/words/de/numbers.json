@@ -1,0 +1,61 @@
+{
+  "lang": "de",
+  "from": "en",
+  "type": "topics",
+  "title": "Numbers",
+  "unit": null,
+  "level": "A1",
+  "words": [
+    {
+      "q": "one",
+      "a": "eins"
+    },
+    {
+      "q": "two",
+      "a": "zwei"
+    },
+    {
+      "q": "three",
+      "a": "drei"
+    },
+    {
+      "q": "four",
+      "a": "vier"
+    },
+    {
+      "q": "five",
+      "a": "fünf"
+    },
+    {
+      "q": "six",
+      "a": "sechs"
+    },
+    {
+      "q": "seven",
+      "a": "sieben"
+    },
+    {
+      "q": "eight",
+      "a": "acht"
+    },
+    {
+      "q": "nine",
+      "a": "neun"
+    },
+    {
+      "q": "ten",
+      "a": "zehn"
+    },
+    {
+      "q": "twenty",
+      "a": "zwanzig"
+    },
+    {
+      "q": "a hundred",
+      "a": [
+        "hundert",
+        "einhundert"
+      ]
+    }
+  ]
+}

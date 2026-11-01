@@ -1,0 +1,2027 @@
+{
+  "articles": [
+    {
+      "id": "a-de",
+      "title": "The prepositions à and de",
+      "fr": "à et de",
+      "level": "A1",
+      "keywords": [
+        "à",
+        "de",
+        "prepositions",
+        "to",
+        "at",
+        "in",
+        "from",
+        "of",
+        "about",
+        "possession",
+        "whose"
+      ],
+      "topics": [
+        "places-prep"
+      ],
+      "see": [
+        "contractions",
+        "cities-countries",
+        "verb-constructions",
+        "time-prepositions"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*À* and *de* are the most common prepositions. Each has many meanings, and with the articles *le* and *les* they merge: *au, aux, du, des*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "à",
+                "de"
+              ],
+              "textCols": [
+                0,
+                1
+              ],
+              "rows": [
+                [
+                  "where to, where: *Je vais à Paris.* (to) *Je suis à l'école.* (at)",
+                  "where from: *Je viens de Prague.* (from)"
+                ],
+                [
+                  "at what time: *à huit heures*",
+                  "whose: *le vélo de Paul* (Paul's bike)"
+                ],
+                [
+                  "to whom: *Je parle à Léa.* (to Léa)",
+                  "about what: *On parle de foot.* (about football)"
+                ],
+                [
+                  "how: *à pied, à vélo*",
+                  "kind, content: *une tasse de thé, un prof de maths*"
+                ]
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "contractions"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Whose is it",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "English says \"Paul's bike\" or \"my dad's bike\". French always uses *de* and the reverse order: first the thing, then the owner."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Paul's dog",
+                  "wrong": "Paul chien",
+                  "fr": "le chien [[de]] Paul"
+                },
+                {
+                  "en": "the keys to the house",
+                  "fr": "les clés [[de la]] maison"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "To and from",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm going to school.",
+                  "fr": "Je vais [[à l']]école."
+                },
+                {
+                  "en": "I'm coming home from school.",
+                  "fr": "Je rentre [[de l']]école."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'habite à Lyon.",
+                  "en": "I live in Lyon."
+                },
+                {
+                  "fr": "Le cours commence à neuf heures.",
+                  "en": "The lesson starts at nine."
+                },
+                {
+                  "fr": "C'est la maison de mes grands-parents.",
+                  "en": "It's my grandparents' house."
+                },
+                {
+                  "fr": "Il parle de ses vacances.",
+                  "en": "He's talking about his holidays."
+                },
+                {
+                  "fr": "Je donne un cadeau à ma sœur.",
+                  "en": "I'm giving my sister a present."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-a-de-01",
+          "type": "cloze",
+          "fr": "C'est le vélo ___ Lucas.",
+          "a": [
+            "de"
+          ],
+          "en": "It's Lucas's bike."
+        },
+        {
+          "id": "g-a-de-02",
+          "type": "cloze",
+          "fr": "Le film commence ___ huit heures.",
+          "a": [
+            "à"
+          ],
+          "en": "The film starts at eight."
+        },
+        {
+          "id": "g-a-de-03",
+          "type": "cloze",
+          "fr": "J'habite ___ Prague.",
+          "a": [
+            "à"
+          ],
+          "en": "I live in Prague."
+        },
+        {
+          "id": "g-a-de-04",
+          "type": "build",
+          "en": "It's Paul's dog.",
+          "a": [
+            "C'est le chien de Paul."
+          ]
+        },
+        {
+          "id": "g-a-de-05",
+          "type": "cloze",
+          "fr": "On parle ___ l'examen.",
+          "a": [
+            "de"
+          ],
+          "en": "We're talking about the exam."
+        }
+      ]
+    },
+    {
+      "id": "cities-countries",
+      "title": "Cities and countries",
+      "fr": "les villes et les pays",
+      "level": "A1",
+      "keywords": [
+        "cities",
+        "countries",
+        "à",
+        "en",
+        "au",
+        "aux",
+        "de",
+        "du",
+        "des",
+        "d'",
+        "in Prague",
+        "in France",
+        "to France",
+        "from France",
+        "where from"
+      ],
+      "topics": [
+        "places-prep",
+        "nationalities",
+        "venir"
+      ],
+      "see": [
+        "a-de",
+        "contractions",
+        "place",
+        "gender"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "to, in",
+                "from"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "city",
+                  "à Paris",
+                  "de Paris"
+                ],
+                [
+                  "feminine country",
+                  "en France",
+                  "de France"
+                ],
+                [
+                  "masculine country",
+                  "au Canada",
+                  "du Canada"
+                ],
+                [
+                  "plural country",
+                  "aux États-Unis",
+                  "des États-Unis"
+                ],
+                [
+                  "country starting with a vowel",
+                  "en Italie, en Iran",
+                  "d'Italie, d'Iran"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "French does not tell \"in\" from \"to\": *Je suis en France* (I'm in France) and *Je vais en France* (I'm going to France)."
+            }
+          ]
+        },
+        {
+          "title": "Gender of countries",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Countries ending in *-e* are mostly feminine (*la France, la République tchèque, l'Allemagne*). The others are masculine (*le Canada, le Japon, le Portugal*). Exception: *le Mexique*."
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm going to France.",
+                  "wrong": "Je vais à France.",
+                  "fr": "Je vais [[en]] France."
+                },
+                {
+                  "en": "I live in Japan.",
+                  "wrong": "J'habite en Japon.",
+                  "fr": "J'habite [[au]] Japon."
+                },
+                {
+                  "en": "I'm from Italy.",
+                  "wrong": "Je viens de l'Italie.",
+                  "fr": "Je viens [[d']]Italie.",
+                  "note": "With feminine countries the article is dropped after *de*."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "A few cities have an article: *Le Havre → au Havre*. Islands are irregular: *à Cuba, en Corse*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'habite à Prague, en République tchèque.",
+                  "en": "I live in Prague, in the Czech Republic."
+                },
+                {
+                  "fr": "L'été prochain, je vais en Espagne.",
+                  "en": "Next summer I'm going to Spain."
+                },
+                {
+                  "fr": "Mon oncle travaille au Canada.",
+                  "en": "My uncle works in Canada."
+                },
+                {
+                  "fr": "Elle vient des États-Unis.",
+                  "en": "She comes from the United States."
+                },
+                {
+                  "fr": "Nous rentrons d'Allemagne.",
+                  "en": "We're coming back from Germany."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-cities-countries-01",
+          "type": "cloze",
+          "fr": "Je vais ___ Italie.",
+          "a": [
+            "en"
+          ],
+          "en": "I'm going to Italy."
+        },
+        {
+          "id": "g-cities-countries-02",
+          "type": "cloze",
+          "fr": "Il habite ___ Portugal.",
+          "a": [
+            "au"
+          ],
+          "en": "He lives in Portugal."
+        },
+        {
+          "id": "g-cities-countries-03",
+          "type": "cloze",
+          "fr": "Ils vont ___ États-Unis.",
+          "a": [
+            "aux"
+          ],
+          "en": "They are going to the United States."
+        },
+        {
+          "id": "g-cities-countries-04",
+          "type": "cloze",
+          "fr": "Je viens ___ Prague.",
+          "a": [
+            "de"
+          ],
+          "en": "I'm from Prague."
+        },
+        {
+          "id": "g-cities-countries-05",
+          "type": "cloze",
+          "fr": "Elle vient ___ Canada.",
+          "a": [
+            "du"
+          ],
+          "en": "She's from Canada."
+        },
+        {
+          "id": "g-cities-countries-06",
+          "type": "build",
+          "en": "I live in the Czech Republic.",
+          "a": [
+            "J'habite en République tchèque.",
+            "J'habite en Tchéquie."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "place",
+      "title": "Prepositions of place",
+      "fr": "les prépositions de lieu",
+      "level": "A1",
+      "keywords": [
+        "prepositions of place",
+        "dans",
+        "sur",
+        "sous",
+        "devant",
+        "derrière",
+        "entre",
+        "à côté de",
+        "en face de",
+        "près de",
+        "loin de",
+        "à gauche",
+        "à droite",
+        "where is"
+      ],
+      "topics": [
+        "prepositions",
+        "home"
+      ],
+      "see": [
+        "a-de",
+        "chez",
+        "contractions"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "dans",
+                  "in, inside"
+                ],
+                [
+                  "sur",
+                  "on"
+                ],
+                [
+                  "sous",
+                  "under"
+                ],
+                [
+                  "devant",
+                  "in front of"
+                ],
+                [
+                  "derrière",
+                  "behind"
+                ],
+                [
+                  "entre",
+                  "between"
+                ],
+                [
+                  "à côté de",
+                  "next to"
+                ],
+                [
+                  "en face de",
+                  "opposite"
+                ],
+                [
+                  "près de",
+                  "near"
+                ],
+                [
+                  "loin de",
+                  "far from"
+                ],
+                [
+                  "à gauche de, à droite de",
+                  "to the left of, to the right of"
+                ],
+                [
+                  "au milieu de",
+                  "in the middle of"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With de",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Prepositions with *de* merge with the article: *à côté du lit, près des magasins*, but *en face de la gare*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "next to the desk",
+                  "wrong": "à côté de le bureau",
+                  "fr": "à côté [[du]] bureau"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dans or à?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Dans* = inside something (*dans la boîte, dans ma chambre*). *À* = a general place (*à l'école, à la maison*). Careful: \"in the street\" is *dans la rue*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le chat est sous la table.",
+                  "en": "The cat is under the table."
+                },
+                {
+                  "fr": "Mon sac est sur la chaise.",
+                  "en": "My bag is on the chair."
+                },
+                {
+                  "fr": "Il y a un parc devant le collège.",
+                  "en": "There is a park in front of the school."
+                },
+                {
+                  "fr": "La boulangerie est à côté de la pharmacie.",
+                  "en": "The bakery is next to the pharmacy."
+                },
+                {
+                  "fr": "J'habite près de la gare.",
+                  "en": "I live near the station."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-place-01",
+          "type": "build",
+          "en": "The cat is under the bed.",
+          "a": [
+            "Le chat est sous le lit."
+          ]
+        },
+        {
+          "id": "g-place-02",
+          "type": "cloze",
+          "fr": "Le livre est ___ la table.",
+          "a": [
+            "sur"
+          ],
+          "en": "The book is on the table."
+        },
+        {
+          "id": "g-place-03",
+          "type": "cloze",
+          "fr": "La pharmacie est à côté ___ cinéma.",
+          "a": [
+            "du"
+          ],
+          "en": "The pharmacy is next to the cinema."
+        },
+        {
+          "id": "g-place-04",
+          "type": "cloze",
+          "fr": "Mes clés sont ___ mon sac.",
+          "a": [
+            "dans"
+          ],
+          "en": "My keys are in my bag."
+        },
+        {
+          "id": "g-place-05",
+          "type": "build",
+          "en": "I live near the school.",
+          "a": [
+            "J'habite près {du collège|de l'école}."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "place-advanced",
+      "title": "Where things are: à côté de, en face de, au milieu de",
+      "fr": "les prépositions de lieu (suite)",
+      "level": "A2",
+      "keywords": [
+        "à côté de",
+        "en face de",
+        "près de",
+        "loin de",
+        "au milieu de",
+        "autour de",
+        "le long de",
+        "au bout de",
+        "à droite de",
+        "à gauche de",
+        "au coin de",
+        "entre",
+        "parmi",
+        "à l'intérieur de",
+        "à l'extérieur de",
+        "en haut de",
+        "en bas de",
+        "au-dessus de",
+        "au-dessous de",
+        "monter dans",
+        "descendre de"
+      ],
+      "topics": [],
+      "see": [
+        "place",
+        "contractions",
+        "transport",
+        "imperative"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Prepositions of place are either **single words** (*dans, sur, sous, devant, derrière, entre, chez, vers*) or **phrases ending in *de*** (*à côté de, en face de, près de, loin de*). With *de* + *le* / *les* you get **du / des**: *à côté du cinéma*, *près des écoles*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "preposition",
+                "meaning",
+                "example"
+              ],
+              "rows": [
+                [
+                  "à côté de",
+                  "next to",
+                  "à côté de la banque"
+                ],
+                [
+                  "en face de",
+                  "opposite",
+                  "en face de l'école"
+                ],
+                [
+                  "près de / loin de",
+                  "near / far from",
+                  "près de la gare"
+                ],
+                [
+                  "au milieu de",
+                  "in the middle of",
+                  "au milieu de la place"
+                ],
+                [
+                  "autour de",
+                  "around",
+                  "autour de la table"
+                ],
+                [
+                  "le long de",
+                  "along",
+                  "le long de la rivière"
+                ],
+                [
+                  "au bout de",
+                  "at the end of",
+                  "au bout de la rue"
+                ],
+                [
+                  "au coin de",
+                  "at the corner of",
+                  "au coin de la rue"
+                ],
+                [
+                  "à droite de / à gauche de",
+                  "to the right / left of",
+                  "à droite de la porte"
+                ],
+                [
+                  "entre ... et ...",
+                  "between",
+                  "entre la poste et la banque"
+                ],
+                [
+                  "à l'intérieur de / à l'extérieur de",
+                  "inside / outside",
+                  "à l'intérieur du magasin"
+                ],
+                [
+                  "en haut de / en bas de",
+                  "at the top / bottom of",
+                  "en haut de l'escalier"
+                ],
+                [
+                  "au-dessus de / au-dessous de",
+                  "above / below",
+                  "au-dessus de la porte"
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "De + le = du",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "These phrases end in **de**, so the article contracts: **du** (de + le), **des** (de + les). Before a vowel: **d'**."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "next to the cinema",
+                  "wrong": "à côté de le cinéma",
+                  "fr": "à côté [[du]] cinéma"
+                },
+                {
+                  "en": "near the schools",
+                  "wrong": "près de les écoles",
+                  "fr": "près [[des]] écoles"
+                },
+                {
+                  "en": "opposite the station",
+                  "wrong": "en face la gare",
+                  "fr": "en face [[de la]] gare"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Entering and leaving a vehicle",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Monter dans** and **descendre de** a vehicle: *Je monte dans le bus. Je descends du train.* **Monter à / sur** a horse or a bike: *monter à cheval, monter sur un vélo*. **Prendre** is the general verb (*prendre le métro*)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il monte dans la voiture.",
+                  "en": "He gets into the car."
+                },
+                {
+                  "fr": "Nous descendons du train à Lyon.",
+                  "en": "We get off the train in Lyon."
+                },
+                {
+                  "fr": "Elle monte sur le toit.",
+                  "en": "She climbs on the roof."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Giving directions",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Tout droit** (straight on), **à droite / à gauche**, **jusqu'à** (as far as), **au feu / au carrefour / au rond-point**, **la première / deuxième rue**. Use the imperative: *Tournez à gauche. Continuez tout droit.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Prenez la deuxième rue à droite.",
+                  "en": "Take the second street on the right."
+                },
+                {
+                  "fr": "Allez jusqu'au feu, puis tournez à gauche.",
+                  "en": "Go as far as the traffic light, then turn left."
+                },
+                {
+                  "fr": "La poste est au bout de la rue, en face de la banque.",
+                  "en": "The post office is at the end of the street, opposite the bank."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le café est au coin de la rue.",
+                  "en": "The café is at the corner of the street."
+                },
+                {
+                  "fr": "J'habite près du parc.",
+                  "en": "I live near the park."
+                },
+                {
+                  "fr": "Mets le vase au milieu de la table.",
+                  "en": "Put the vase in the middle of the table."
+                },
+                {
+                  "fr": "Il y a une rivière autour de la ville.",
+                  "en": "There is a river around the town."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-place-advanced-01",
+          "type": "build",
+          "en": "next to the bank",
+          "a": [
+            "à côté de la banque"
+          ]
+        },
+        {
+          "id": "g-place-advanced-02",
+          "type": "build",
+          "en": "opposite the school",
+          "a": [
+            "en face de l'école"
+          ]
+        },
+        {
+          "id": "g-place-advanced-03",
+          "type": "build",
+          "en": "at the end of the street",
+          "a": [
+            "au bout de la rue"
+          ]
+        },
+        {
+          "id": "g-place-advanced-04",
+          "type": "build",
+          "en": "in the middle of the table",
+          "a": [
+            "au milieu de la table"
+          ]
+        },
+        {
+          "id": "g-place-advanced-05",
+          "type": "build",
+          "en": "near the station",
+          "a": [
+            "près de la gare"
+          ]
+        },
+        {
+          "id": "g-place-advanced-06",
+          "type": "cloze",
+          "fr": "Le cinéma est à côté ___ théâtre.",
+          "a": [
+            "du"
+          ],
+          "en": "The cinema is next to the theatre."
+        },
+        {
+          "id": "g-place-advanced-07",
+          "type": "cloze",
+          "fr": "J'habite près ___ écoles.",
+          "a": [
+            "des"
+          ],
+          "en": "I live near the schools."
+        },
+        {
+          "id": "g-place-advanced-08",
+          "type": "cloze",
+          "fr": "Il monte ___ le bus.",
+          "a": [
+            "dans"
+          ],
+          "en": "He gets into the bus."
+        },
+        {
+          "id": "g-place-advanced-09",
+          "type": "cloze",
+          "fr": "Nous descendons ___ train.",
+          "a": [
+            "du"
+          ],
+          "en": "We get off the train."
+        }
+      ]
+    },
+    {
+      "id": "chez",
+      "title": "Chez",
+      "fr": "chez",
+      "level": "A1",
+      "keywords": [
+        "chez",
+        "at",
+        "to",
+        "at home",
+        "home",
+        "chez moi",
+        "chez le médecin",
+        "chez le coiffeur",
+        "someone's place"
+      ],
+      "topics": [
+        "aller"
+      ],
+      "see": [
+        "stressed-pronouns",
+        "place",
+        "a-de"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Chez* means \"at someone's place, to someone's place\". It always stands before a **person**, never before a place."
+            },
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "chez moi",
+                  "at my place, to my place"
+                ],
+                [
+                  "chez toi",
+                  "at your place"
+                ],
+                [
+                  "chez Paul",
+                  "at Paul's"
+                ],
+                [
+                  "chez mes grands-parents",
+                  "at my grandparents'"
+                ],
+                [
+                  "chez le médecin",
+                  "at the doctor's, to the doctor's"
+                ],
+                [
+                  "chez le coiffeur",
+                  "at the hairdresser's"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "After *chez* come stressed pronouns: *chez moi, chez toi, chez lui, chez elle, chez nous, chez vous, chez eux*."
+            }
+          ]
+        },
+        {
+          "title": "Chez or à?",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm going to the doctor's.",
+                  "fr": "Je vais [[chez]] le médecin.",
+                  "note": "A person → *chez*."
+                },
+                {
+                  "en": "I'm going to the hospital.",
+                  "fr": "Je vais [[à l']]hôpital.",
+                  "note": "A place → *à*."
+                },
+                {
+                  "en": "I'm going to the bakery.",
+                  "fr": "Je vais [[à la]] boulangerie. / Je vais [[chez le]] boulanger."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "At home",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "\"At home\" is *à la maison* or *chez moi*. \"I'm going home\": *Je rentre à la maison* or *Je rentre chez moi*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu viens chez moi ce soir ?",
+                  "en": "Are you coming to my place tonight?"
+                },
+                {
+                  "fr": "Je dors chez mon copain.",
+                  "en": "I'm sleeping at my friend's."
+                },
+                {
+                  "fr": "On mange chez nous.",
+                  "en": "We're eating at our place."
+                },
+                {
+                  "fr": "Elle est chez le dentiste.",
+                  "en": "She's at the dentist's."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-chez-01",
+          "type": "build",
+          "en": "I'm going to the doctor's.",
+          "a": [
+            "Je vais chez le médecin."
+          ]
+        },
+        {
+          "id": "g-chez-02",
+          "type": "build",
+          "en": "I'm at home.",
+          "a": [
+            "Je suis chez moi.",
+            "Je suis à la maison."
+          ]
+        },
+        {
+          "id": "g-chez-03",
+          "type": "cloze",
+          "fr": "On fait la fête chez ___ ?",
+          "a": [
+            "toi"
+          ],
+          "en": "Shall we have the party at your place?"
+        },
+        {
+          "id": "g-chez-04",
+          "type": "cloze",
+          "fr": "Je vais ___ mes grands-parents.",
+          "a": [
+            "chez"
+          ],
+          "en": "I'm going to my grandparents'."
+        }
+      ]
+    },
+    {
+      "id": "transport",
+      "title": "Transport: en, à",
+      "fr": "les moyens de transport",
+      "level": "A1",
+      "keywords": [
+        "transport",
+        "en bus",
+        "en voiture",
+        "en train",
+        "à pied",
+        "à vélo",
+        "en avion",
+        "prendre le bus",
+        "how do you travel",
+        "by bus",
+        "on foot"
+      ],
+      "topics": [
+        "city"
+      ],
+      "see": [
+        "a-de",
+        "no-article",
+        "irregular-more"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When you are **inside** a vehicle, you say *en*. When you **sit on it** or go on foot, you say *à*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "en (inside)",
+                "à (on, on foot)"
+              ],
+              "rows": [
+                [
+                  "en bus",
+                  "à pied"
+                ],
+                [
+                  "en voiture",
+                  "à vélo"
+                ],
+                [
+                  "en train",
+                  "à moto"
+                ],
+                [
+                  "en métro",
+                  "à cheval"
+                ],
+                [
+                  "en avion",
+                  "à trottinette"
+                ],
+                [
+                  "en bateau",
+                  "à skis"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Prendre",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The other option is the verb *prendre*: *Je prends le bus.* (I take the bus.) Here you write an article and no preposition."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm going to Prague by train.",
+                  "fr": "Je vais à Prague [[en]] train. / Je prends [[le]] train."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm walking.",
+                  "wrong": "Je vais en pied.",
+                  "fr": "Je vais [[à]] pied."
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "In speech you will also hear *en vélo*, but at school stick to *à vélo*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je vais au collège à pied.",
+                  "en": "I walk to school."
+                },
+                {
+                  "fr": "Nous partons en vacances en voiture.",
+                  "en": "We're going on holiday by car."
+                },
+                {
+                  "fr": "Tu prends le métro ?",
+                  "en": "Are you taking the metro?"
+                },
+                {
+                  "fr": "Il va au travail à vélo.",
+                  "en": "He cycles to work."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-transport-01",
+          "type": "build",
+          "en": "I go to school by bus.",
+          "a": [
+            "Je vais {au collège|à l'école} en bus.",
+            "Je prends le bus pour aller {au collège|à l'école}."
+          ]
+        },
+        {
+          "id": "g-transport-02",
+          "type": "cloze",
+          "fr": "Je vais au parc ___ pied.",
+          "a": [
+            "à"
+          ],
+          "en": "I walk to the park."
+        },
+        {
+          "id": "g-transport-03",
+          "type": "cloze",
+          "fr": "On part ___ avion.",
+          "a": [
+            "en"
+          ],
+          "en": "We're flying."
+        },
+        {
+          "id": "g-transport-04",
+          "type": "cloze",
+          "fr": "Il vient ___ vélo.",
+          "a": [
+            "à"
+          ],
+          "en": "He's coming by bike."
+        },
+        {
+          "id": "g-transport-05",
+          "type": "cloze",
+          "fr": "Je ___ le train à huit heures.",
+          "a": [
+            "prends"
+          ],
+          "hint": "prendre",
+          "en": "I take the train at eight."
+        }
+      ]
+    },
+    {
+      "id": "time-prepositions",
+      "title": "Time: depuis, pendant, il y a, dans",
+      "fr": "les prépositions de temps",
+      "level": "A2",
+      "keywords": [
+        "time prepositions",
+        "à",
+        "en",
+        "depuis",
+        "pendant",
+        "il y a",
+        "dans",
+        "pour",
+        "ago",
+        "in",
+        "since",
+        "for",
+        "during",
+        "in 2026",
+        "in May"
+      ],
+      "topics": [
+        "time",
+        "dates"
+      ],
+      "see": [
+        "present",
+        "il-y-a",
+        "dates",
+        "clock",
+        "time-place"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "when",
+                "how",
+                "example"
+              ],
+              "textCols": [
+                0,
+                1
+              ],
+              "rows": [
+                [
+                  "hour",
+                  "*à*",
+                  "à huit heures"
+                ],
+                [
+                  "month, year, summer, autumn, winter",
+                  "*en*",
+                  "en mai, en 2026, en été"
+                ],
+                [
+                  "spring",
+                  "*au*",
+                  "au printemps"
+                ],
+                [
+                  "day",
+                  "no preposition",
+                  "lundi, le 14 juillet"
+                ],
+                [
+                  "part of the day",
+                  "no preposition",
+                  "le matin, le soir"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "How long, ago and in",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "preposition",
+                "meaning",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                1,
+                3
+              ],
+              "rows": [
+                [
+                  "depuis",
+                  "since, for (and it still continues)",
+                  "J'habite ici depuis 2020.",
+                  "I've lived here since 2020."
+                ],
+                [
+                  "pendant",
+                  "during, for (it has ended)",
+                  "J'ai dormi pendant dix heures.",
+                  "I slept for ten hours."
+                ],
+                [
+                  "il y a",
+                  "ago (in the past)",
+                  "Je suis arrivé il y a deux jours.",
+                  "I arrived two days ago."
+                ],
+                [
+                  "dans",
+                  "in (in the future)",
+                  "Je pars dans une heure.",
+                  "I'm leaving in an hour."
+                ],
+                [
+                  "en",
+                  "in (how long it takes to do something)",
+                  "J'ai fini en dix minutes.",
+                  "I finished in ten minutes."
+                ],
+                [
+                  "pour",
+                  "for (a planned period)",
+                  "Je pars pour une semaine.",
+                  "I'm leaving for a week."
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I've been learning French for two years.",
+                  "wrong": "J'apprends le français pendant deux ans.",
+                  "fr": "J'apprends le français [[depuis]] deux ans.",
+                  "note": "You are still learning, so *depuis* + the present tense."
+                },
+                {
+                  "en": "a week ago",
+                  "wrong": "avant une semaine",
+                  "fr": "[[il y a]] une semaine"
+                },
+                {
+                  "en": "I'll be there in five minutes.",
+                  "wrong": "J'arrive en cinq minutes.",
+                  "fr": "J'arrive [[dans]] cinq minutes."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le cours commence à neuf heures.",
+                  "en": "The lesson starts at nine."
+                },
+                {
+                  "fr": "Je suis né en 2012.",
+                  "en": "I was born in 2012."
+                },
+                {
+                  "fr": "Il neige depuis ce matin.",
+                  "en": "It has been snowing since this morning."
+                },
+                {
+                  "fr": "On a joué pendant deux heures.",
+                  "en": "We played for two hours."
+                },
+                {
+                  "fr": "Les vacances commencent dans trois jours.",
+                  "en": "The holidays start in three days."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-time-prepositions-01",
+          "type": "cloze",
+          "fr": "Je joue au basket ___ six ans.",
+          "a": [
+            "depuis"
+          ],
+          "en": "I've been playing basketball for six years."
+        },
+        {
+          "id": "g-time-prepositions-02",
+          "type": "cloze",
+          "fr": "Je l'ai vu ___ deux jours.",
+          "a": [
+            "il y a"
+          ],
+          "en": "I saw him two days ago."
+        },
+        {
+          "id": "g-time-prepositions-03",
+          "type": "cloze",
+          "fr": "Le train part ___ dix minutes.",
+          "a": [
+            "dans"
+          ],
+          "en": "The train leaves in ten minutes."
+        },
+        {
+          "id": "g-time-prepositions-04",
+          "type": "cloze",
+          "fr": "Mon anniversaire est ___ mai.",
+          "a": [
+            "en"
+          ],
+          "en": "My birthday is in May."
+        },
+        {
+          "id": "g-time-prepositions-05",
+          "type": "cloze",
+          "fr": "J'ai lu ___ toute la soirée.",
+          "a": [
+            "pendant"
+          ],
+          "en": "I read all evening."
+        },
+        {
+          "id": "g-time-prepositions-06",
+          "type": "cloze",
+          "fr": "Le film commence ___ vingt heures.",
+          "a": [
+            "à"
+          ],
+          "en": "The film starts at 8 p.m."
+        }
+      ]
+    },
+    {
+      "id": "time-expressions",
+      "title": "Telling when: à, en, dans, le, tous les, prochain",
+      "fr": "dire quand",
+      "level": "A1",
+      "keywords": [
+        "time expressions",
+        "when",
+        "à 7 heures",
+        "en 2020",
+        "en juillet",
+        "au printemps",
+        "en été",
+        "dans deux jours",
+        "le lundi",
+        "tous les jours",
+        "chaque",
+        "ce matin",
+        "demain matin",
+        "la semaine prochaine",
+        "l'année dernière",
+        "dans",
+        "en",
+        "à"
+      ],
+      "topics": [],
+      "see": [
+        "time-prepositions",
+        "dates",
+        "clock",
+        "adverbs-place-time"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "French uses a different small word for each kind of time. Learn the **pairs** below: **à** for clock times and fixed points, **en** for months, years and seasons (except spring), **le** for days (habit), **dans** for a point in the future."
+            },
+            {
+              "type": "table",
+              "head": [
+                "what",
+                "preposition",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "clock time",
+                  "à",
+                  "à huit heures, à midi",
+                  "at eight, at noon"
+                ],
+                [
+                  "month",
+                  "en",
+                  "en juillet",
+                  "in July"
+                ],
+                [
+                  "year",
+                  "en",
+                  "en 2025",
+                  "in 2025"
+                ],
+                [
+                  "season",
+                  "en (au for spring)",
+                  "en été, en hiver, au printemps",
+                  "in summer, in winter, in spring"
+                ],
+                [
+                  "day (habit)",
+                  "le",
+                  "le lundi",
+                  "on Mondays"
+                ],
+                [
+                  "day (this one)",
+                  "no article",
+                  "lundi",
+                  "on Monday"
+                ],
+                [
+                  "part of day",
+                  "le / no",
+                  "le matin, ce soir",
+                  "in the morning, tonight"
+                ],
+                [
+                  "in the future",
+                  "dans",
+                  "dans deux jours",
+                  "in two days"
+                ],
+                [
+                  "how long it takes",
+                  "en",
+                  "en deux heures",
+                  "in two hours"
+                ]
+              ],
+              "textCols": [
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dans or en?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Dans** + duration = **when it will happen** (*Je pars dans une heure*: in an hour). **En** + duration = **how long it takes** (*Je fais ça en une heure*: it takes me an hour). Compare: *Le train part dans dix minutes* / *Il arrive en dix minutes.*"
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm leaving in two days.",
+                  "wrong": "Je pars en deux jours.",
+                  "fr": "Je pars [[dans]] deux jours."
+                },
+                {
+                  "en": "He did it in an hour.",
+                  "wrong": "Il l'a fait dans une heure.",
+                  "fr": "Il l'a fait [[en]] une heure."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Repeated and relative time",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "expression",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "tous les jours / chaque jour",
+                  "every day"
+                ],
+                [
+                  "tous les lundis / chaque lundi",
+                  "every Monday"
+                ],
+                [
+                  "toutes les semaines",
+                  "every week"
+                ],
+                [
+                  "une fois par semaine",
+                  "once a week"
+                ],
+                [
+                  "ce matin, cet après-midi, ce soir, cette nuit",
+                  "this morning, this afternoon, tonight, tonight"
+                ],
+                [
+                  "demain, après-demain",
+                  "tomorrow, the day after tomorrow"
+                ],
+                [
+                  "hier, avant-hier",
+                  "yesterday, the day before yesterday"
+                ],
+                [
+                  "la semaine prochaine / dernière",
+                  "next week / last week"
+                ],
+                [
+                  "l'année prochaine / dernière",
+                  "next year / last year"
+                ],
+                [
+                  "lundi prochain / dernier",
+                  "next / last Monday"
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Seasons, months and dates",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Months** and **years**: *en janvier, en 2024*. **Seasons**: *en été, en automne, en hiver*, but **au printemps**. **Dates**: *le 5 mai, le premier mai*. Months and days are **never capitalised** in French."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je suis né en mars.",
+                  "en": "I was born in March."
+                },
+                {
+                  "fr": "En hiver, il neige.",
+                  "en": "In winter it snows."
+                },
+                {
+                  "fr": "Au printemps, il fait doux.",
+                  "en": "In spring it is mild."
+                },
+                {
+                  "fr": "Le 14 juillet, c'est la fête nationale.",
+                  "en": "On 14 July it's the national holiday."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le cours commence à neuf heures.",
+                  "en": "The class starts at nine."
+                },
+                {
+                  "fr": "Dans une semaine, nous partons en vacances.",
+                  "en": "In a week we go on holiday."
+                },
+                {
+                  "fr": "Je vais à la piscine tous les mercredis.",
+                  "en": "I go to the pool every Wednesday."
+                },
+                {
+                  "fr": "L'année prochaine, j'irai en France.",
+                  "en": "Next year I'll go to France."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-time-expressions-01",
+          "type": "build",
+          "en": "at eight o'clock",
+          "a": [
+            "à huit heures"
+          ]
+        },
+        {
+          "id": "g-time-expressions-02",
+          "type": "build",
+          "en": "in July",
+          "a": [
+            "en juillet"
+          ]
+        },
+        {
+          "id": "g-time-expressions-03",
+          "type": "build",
+          "en": "in spring",
+          "a": [
+            "au printemps"
+          ]
+        },
+        {
+          "id": "g-time-expressions-04",
+          "type": "build",
+          "en": "in two days",
+          "a": [
+            "dans deux jours"
+          ]
+        },
+        {
+          "id": "g-time-expressions-05",
+          "type": "build",
+          "en": "on Mondays",
+          "a": [
+            "le lundi",
+            "tous les lundis"
+          ]
+        },
+        {
+          "id": "g-time-expressions-06",
+          "type": "build",
+          "en": "next week",
+          "a": [
+            "la semaine prochaine"
+          ]
+        },
+        {
+          "id": "g-time-expressions-07",
+          "type": "cloze",
+          "fr": "Je pars ___ une heure.",
+          "a": [
+            "dans"
+          ],
+          "hint": "in",
+          "en": "I'm leaving in an hour."
+        },
+        {
+          "id": "g-time-expressions-08",
+          "type": "cloze",
+          "fr": "Il a fini ___ une heure.",
+          "a": [
+            "en"
+          ],
+          "en": "He finished in an hour."
+        },
+        {
+          "id": "g-time-expressions-09",
+          "type": "cloze",
+          "fr": "Nous partons ___ été.",
+          "a": [
+            "en"
+          ],
+          "en": "We're leaving in summer."
+        },
+        {
+          "id": "g-time-expressions-10",
+          "type": "cloze",
+          "fr": "Il neige ___ hiver.",
+          "a": [
+            "en"
+          ],
+          "en": "It snows in winter."
+        }
+      ]
+    },
+    {
+      "id": "pour-par-avec",
+      "title": "Pour, par, avec, sans",
+      "fr": "pour, par, avec, sans",
+      "level": "A2",
+      "keywords": [
+        "pour",
+        "par",
+        "avec",
+        "sans",
+        "for",
+        "in order to",
+        "through",
+        "by",
+        "with",
+        "without",
+        "once a week",
+        "par exemple"
+      ],
+      "topics": [],
+      "see": [
+        "a-de",
+        "passive",
+        "time-prepositions",
+        "no-article"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "preposition",
+                "meaning",
+                "example"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "pour",
+                  "for, in order to, for (a period)",
+                  "C'est pour toi."
+                ],
+                [
+                  "par",
+                  "through, per, by (the doer)",
+                  "deux fois par semaine"
+                ],
+                [
+                  "avec",
+                  "with",
+                  "Je joue avec mes amis."
+                ],
+                [
+                  "sans",
+                  "without",
+                  "un café sans sucre"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Pour + infinitive",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Pour* + an infinitive means \"in order to\"."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I'm going to the shop to buy bread.",
+                  "fr": "Je vais au magasin [[pour]] acheter du pain."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Par",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Par* has several meanings: route (*par la porte* = through the door), frequency (*une fois par jour* = once a day), the doer in the passive (*écrit par Victor Hugo*) and *par exemple* (for example)."
+            },
+            {
+              "type": "text",
+              "en": "*Avec* and *sans* are often followed by a noun without an article: *avec plaisir* (with pleasure), *sans problème* (no problem)."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ce cadeau est pour ma mère.",
+                  "en": "This present is for my mother."
+                },
+                {
+                  "fr": "Je m'entraîne trois fois par semaine.",
+                  "en": "I train three times a week."
+                },
+                {
+                  "fr": "Tu viens avec moi ?",
+                  "en": "Are you coming with me?"
+                },
+                {
+                  "fr": "Il est parti sans dire au revoir.",
+                  "en": "He left without saying goodbye."
+                },
+                {
+                  "fr": "Merci pour ton aide !",
+                  "en": "Thanks for your help!"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-pour-par-avec-01",
+          "type": "cloze",
+          "fr": "Je fais du sport deux fois ___ semaine.",
+          "a": [
+            "par"
+          ],
+          "en": "I do sport twice a week."
+        },
+        {
+          "id": "g-pour-par-avec-02",
+          "type": "cloze",
+          "fr": "J'économise ___ acheter un vélo.",
+          "a": [
+            "pour"
+          ],
+          "en": "I'm saving to buy a bike."
+        },
+        {
+          "id": "g-pour-par-avec-03",
+          "type": "cloze",
+          "fr": "Un thé ___ sucre, s'il vous plaît.",
+          "a": [
+            "sans"
+          ],
+          "en": "Tea without sugar, please."
+        },
+        {
+          "id": "g-pour-par-avec-04",
+          "type": "build",
+          "en": "It's for you.",
+          "a": [
+            "C'est pour toi."
+          ]
+        },
+        {
+          "id": "g-pour-par-avec-05",
+          "type": "cloze",
+          "fr": "Je vais au cinéma ___ mes amis.",
+          "a": [
+            "avec"
+          ],
+          "en": "I'm going to the cinema with my friends."
+        }
+      ]
+    }
+  ]
+}

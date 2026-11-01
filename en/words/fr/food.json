@@ -1,0 +1,444 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Food",
+  "unit": "4.1",
+  "level": null,
+  "words": [
+    {
+      "q": "orange",
+      "a": "orange"
+    },
+    {
+      "q": "juice",
+      "a": "jus"
+    },
+    {
+      "q": "fresh",
+      "a": "frais"
+    },
+    {
+      "q": "ice",
+      "a": "glace"
+    },
+    {
+      "q": "ice cubes",
+      "a": "glaçons"
+    },
+    {
+      "q": "glass",
+      "a": "verre"
+    },
+    {
+      "q": "ham",
+      "a": "jambon"
+    },
+    {
+      "q": "cheese",
+      "a": "fromage"
+    },
+    {
+      "q": "tomato",
+      "a": "tomate"
+    },
+    {
+      "q": "butter",
+      "a": "beurre"
+    },
+    {
+      "q": "egg",
+      "a": "œuf"
+    },
+    {
+      "q": "salad, lettuce",
+      "a": "salade"
+    },
+    {
+      "q": "toasted ham and cheese sandwich",
+      "a": "croque-monsieur"
+    },
+    {
+      "q": "toasted ham and cheese sandwich with an egg",
+      "a": "croque-madame"
+    },
+    {
+      "q": "ingredient",
+      "a": "ingrédient"
+    },
+    {
+      "q": "dish (course)",
+      "a": "plat"
+    },
+    {
+      "q": "chicken",
+      "a": "poulet"
+    },
+    {
+      "q": "chips, fries",
+      "a": "frites"
+    },
+    {
+      "q": "of your choice",
+      "a": "au choix"
+    },
+    {
+      "q": "drink",
+      "a": "boisson"
+    },
+    {
+      "q": "raw vegetables (starter)",
+      "a": "crudités"
+    },
+    {
+      "q": "ice cream",
+      "a": "glace"
+    },
+    {
+      "q": "vanilla",
+      "a": "vanille"
+    },
+    {
+      "q": "chocolate",
+      "a": "chocolat"
+    },
+    {
+      "q": "strawberry",
+      "a": "fraise"
+    },
+    {
+      "q": "lemon",
+      "a": "citron"
+    },
+    {
+      "q": "raspberry",
+      "a": "framboise"
+    },
+    {
+      "q": "pistachio",
+      "a": "pistache"
+    },
+    {
+      "q": "blackcurrant",
+      "a": "cassis"
+    },
+    {
+      "q": "flavour",
+      "a": "parfum"
+    },
+    {
+      "q": "scoop",
+      "a": "boule"
+    },
+    {
+      "q": "herbal tea",
+      "a": "tisane"
+    },
+    {
+      "q": "apple",
+      "a": "pomme"
+    },
+    {
+      "q": "water",
+      "a": "eau"
+    },
+    {
+      "q": "hot chocolate",
+      "a": "chocolat chaud"
+    },
+    {
+      "q": "tea",
+      "a": "thé"
+    },
+    {
+      "q": "vegetables",
+      "a": "légumes"
+    },
+    {
+      "q": "cake",
+      "a": "gâteau"
+    },
+    {
+      "q": "tart",
+      "a": "tarte"
+    },
+    {
+      "q": "beans",
+      "a": "haricots"
+    },
+    {
+      "q": "peas",
+      "a": "petits pois"
+    },
+    {
+      "q": "beef",
+      "a": "bœuf"
+    },
+    {
+      "q": "bread",
+      "a": "pain"
+    },
+    {
+      "q": "lamb",
+      "a": "agneau"
+    },
+    {
+      "q": "veal",
+      "a": "veau"
+    },
+    {
+      "q": "meat",
+      "a": "viande"
+    },
+    {
+      "q": "pork",
+      "a": "porc"
+    },
+    {
+      "q": "wine",
+      "a": "vin"
+    },
+    {
+      "q": "milk",
+      "a": "lait"
+    },
+    {
+      "q": "jam",
+      "a": "confiture"
+    },
+    {
+      "q": "soft-boiled",
+      "a": "à la coque"
+    },
+    {
+      "q": "fried",
+      "a": "frit"
+    },
+    {
+      "q": "chips with bacon",
+      "a": "frites au bacon"
+    },
+    {
+      "q": "scrambled",
+      "a": "brouillés"
+    },
+    {
+      "q": "bacon",
+      "a": "bacon"
+    },
+    {
+      "q": "dry sausage, salami",
+      "a": "saucisson"
+    },
+    {
+      "q": "sausage",
+      "a": "saucisse"
+    },
+    {
+      "q": "pâté",
+      "a": "pâté"
+    },
+    {
+      "q": "mushrooms",
+      "a": "champignons"
+    },
+    {
+      "q": "rice",
+      "a": "riz"
+    },
+    {
+      "q": "grapes",
+      "a": "raisin"
+    },
+    {
+      "q": "onion",
+      "a": "oignon"
+    },
+    {
+      "q": "cauliflower",
+      "a": "chou-fleur"
+    },
+    {
+      "q": "radish",
+      "a": "radis"
+    },
+    {
+      "q": "flour",
+      "a": "farine"
+    },
+    {
+      "q": "yoghurt",
+      "a": "yaourt"
+    },
+    {
+      "q": "soup",
+      "a": "soupe"
+    },
+    {
+      "q": "aubergine",
+      "a": "aubergine"
+    },
+    {
+      "q": "pepper (vegetable)",
+      "a": "poivron"
+    },
+    {
+      "q": "chilli",
+      "a": "piment"
+    },
+    {
+      "q": "courgette",
+      "a": "courgette"
+    },
+    {
+      "q": "cucumber",
+      "a": "concombre"
+    },
+    {
+      "q": "garlic",
+      "a": "ail"
+    },
+    {
+      "q": "sugar",
+      "a": "sucre"
+    },
+    {
+      "q": "salt",
+      "a": "sel"
+    },
+    {
+      "q": "oil",
+      "a": "huile"
+    },
+    {
+      "q": "pasta",
+      "a": "pâtes"
+    },
+    {
+      "q": "dough",
+      "a": "pâte"
+    },
+    {
+      "q": "pork sausage (andouille)",
+      "a": "andouille"
+    },
+    {
+      "q": "dumpling",
+      "a": "quenelle"
+    },
+    {
+      "q": "tapenade",
+      "a": "tapenade"
+    },
+    {
+      "q": "anchovy paste",
+      "a": "anchoïade"
+    },
+    {
+      "q": "fish soup",
+      "a": "bouillabaisse"
+    },
+    {
+      "q": "biscuits (from Provence)",
+      "a": "navettes"
+    },
+    {
+      "q": "duck",
+      "a": "canard"
+    },
+    {
+      "q": "seafood",
+      "a": "fruits de mer"
+    },
+    {
+      "q": "little fluted cakes (from Bordeaux)",
+      "a": "canelés"
+    },
+    {
+      "q": "fruit",
+      "a": [
+        "fruits",
+        "fruit"
+      ]
+    },
+    {
+      "q": "cold meats",
+      "a": "charcuterie"
+    },
+    {
+      "q": "egg (for breakfast)",
+      "a": "œuf"
+    },
+    {
+      "q": "sundae, ice cream cup",
+      "a": "coupe"
+    },
+    {
+      "q": "at the bottom",
+      "a": "au fond"
+    },
+    {
+      "q": "potato",
+      "a": "pomme de terre"
+    },
+    {
+      "q": "carrot",
+      "a": "carotte"
+    },
+    {
+      "q": "banana",
+      "a": "banane"
+    },
+    {
+      "q": "pear",
+      "a": "poire"
+    },
+    {
+      "q": "fish (as food)",
+      "a": "poisson"
+    },
+    {
+      "q": "coffee",
+      "a": "café"
+    },
+    {
+      "q": "mineral water",
+      "a": "eau minérale"
+    },
+    {
+      "q": "sandwich",
+      "a": "sandwich"
+    },
+    {
+      "q": "menu",
+      "a": "carte"
+    },
+    {
+      "q": "bill",
+      "a": "addition"
+    },
+    {
+      "q": "waiter",
+      "a": "serveur"
+    },
+    {
+      "q": "starter",
+      "a": "entrée"
+    },
+    {
+      "q": "main course",
+      "a": "plat principal"
+    },
+    {
+      "q": "dessert",
+      "a": "dessert"
+    },
+    {
+      "q": "I would like",
+      "a": [
+        "je voudrais",
+        "j'aimerais"
+      ]
+    }
+  ]
+}

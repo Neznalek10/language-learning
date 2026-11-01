@@ -1,0 +1,453 @@
+{
+  "schema": 1,
+  "test": {
+    "pass": 0.7,
+    "count": 30,
+    "words": 8,
+    "pool": [
+      {
+        "id": "fr-a1-t-01",
+        "lesson": "1.1",
+        "type": "build",
+        "en": "Hello, madam! How are you?",
+        "a": [
+          "Bonjour, madame ! Comment allez-vous ?"
+        ]
+      },
+      {
+        "id": "fr-a1-t-02",
+        "lesson": "1.1",
+        "type": "cloze",
+        "fr": "Vous ___ français ?",
+        "a": [
+          "êtes"
+        ],
+        "hint": "être"
+      },
+      {
+        "id": "fr-a1-t-03",
+        "lesson": "1.1",
+        "type": "form",
+        "verb": "être",
+        "tense": "present",
+        "person": 5
+      },
+      {
+        "id": "fr-a1-t-04",
+        "lesson": "1.1",
+        "type": "build",
+        "en": "My name is Lucie, nice to meet you.",
+        "a": [
+          "Je m'appelle Lucie, enchantée."
+        ]
+      },
+      {
+        "id": "fr-a1-t-05",
+        "lesson": "1.2",
+        "type": "build",
+        "en": "I'm sixteen.",
+        "a": [
+          "J'ai seize ans."
+        ]
+      },
+      {
+        "id": "fr-a1-t-06",
+        "lesson": "1.2",
+        "type": "cloze",
+        "fr": "Nous habitons ___ Italie.",
+        "a": [
+          "en"
+        ]
+      },
+      {
+        "id": "fr-a1-t-07",
+        "lesson": "1.2",
+        "type": "build",
+        "en": "I'm from Prague, but I live in Canada.",
+        "a": [
+          "Je viens de Prague, mais j'habite au Canada."
+        ]
+      },
+      {
+        "id": "fr-a1-t-08",
+        "lesson": "1.2",
+        "type": "cloze",
+        "fr": "Elle est ___.",
+        "a": [
+          "espagnole"
+        ],
+        "hint": "Spanish (woman)"
+      },
+      {
+        "id": "fr-a1-t-09",
+        "lesson": "2.1",
+        "type": "cloze",
+        "fr": "___ parents habitent à Prague.",
+        "a": [
+          "Mes"
+        ],
+        "hint": "my (plural)"
+      },
+      {
+        "id": "fr-a1-t-10",
+        "lesson": "2.1",
+        "type": "cloze",
+        "fr": "Mon grand-père a ___ ans.",
+        "a": [
+          "quatre-vingt-deux"
+        ],
+        "hint": "82"
+      },
+      {
+        "id": "fr-a1-t-11",
+        "lesson": "2.1",
+        "type": "build",
+        "en": "That's Jana's brother.",
+        "a": [
+          "C'est le frère de Jana."
+        ]
+      },
+      {
+        "id": "fr-a1-t-12",
+        "lesson": "2.1",
+        "type": "cloze",
+        "fr": "Paul et Léa adorent ___ chat.",
+        "a": [
+          "leur"
+        ],
+        "hint": "their"
+      },
+      {
+        "id": "fr-a1-t-13",
+        "lesson": "2.2",
+        "type": "transform",
+        "task_en": "Make it feminine",
+        "fr": "Il est heureux.",
+        "a": [
+          "Elle est heureuse."
+        ]
+      },
+      {
+        "id": "fr-a1-t-14",
+        "lesson": "2.2",
+        "type": "build",
+        "en": "He (or she) has long red hair.",
+        "a": [
+          "{Il|Elle} a les cheveux {longs et roux|roux et longs}."
+        ]
+      },
+      {
+        "id": "fr-a1-t-15",
+        "lesson": "2.2",
+        "type": "transform",
+        "task_en": "Make it negative",
+        "fr": "J'ai un frère.",
+        "a": [
+          "Je n'ai pas de frère."
+        ]
+      },
+      {
+        "id": "fr-a1-t-16",
+        "lesson": "2.2",
+        "type": "cloze",
+        "fr": "Une jupe ___.",
+        "a": [
+          "verte"
+        ],
+        "hint": "green"
+      },
+      {
+        "id": "fr-a1-t-17",
+        "lesson": "2.3",
+        "type": "form",
+        "verb": "faire",
+        "tense": "present",
+        "person": 4
+      },
+      {
+        "id": "fr-a1-t-18",
+        "lesson": "2.3",
+        "type": "cloze",
+        "fr": "Je joue ___ guitare.",
+        "a": [
+          "de la"
+        ]
+      },
+      {
+        "id": "fr-a1-t-19",
+        "lesson": "2.3",
+        "type": "build",
+        "en": "I like playing basketball.",
+        "a": [
+          "J'aime {jouer au basket|faire du basket|le basket}."
+        ]
+      },
+      {
+        "id": "fr-a1-t-20",
+        "lesson": "2.3",
+        "type": "transform",
+        "task_en": "Ask the question with est-ce que",
+        "fr": "Tu aimes le ski.",
+        "a": [
+          "Est-ce que tu aimes le ski ?"
+        ]
+      },
+      {
+        "id": "fr-a1-t-21",
+        "lesson": "2.3",
+        "type": "build",
+        "en": "I never play tennis.",
+        "a": [
+          "Je ne joue jamais au tennis."
+        ]
+      },
+      {
+        "id": "fr-a1-t-22",
+        "lesson": "3.1",
+        "type": "build",
+        "en": "It's half past eight.",
+        "a": [
+          "Il est huit heures et demie."
+        ],
+        "hint": "8:30"
+      },
+      {
+        "id": "fr-a1-t-23",
+        "lesson": "3.1",
+        "type": "cloze",
+        "fr": "Je vais ___ cantine.",
+        "a": [
+          "à la"
+        ]
+      },
+      {
+        "id": "fr-a1-t-24",
+        "lesson": "3.1",
+        "type": "form",
+        "verb": "finir",
+        "tense": "present",
+        "person": 5
+      },
+      {
+        "id": "fr-a1-t-25",
+        "lesson": "3.1",
+        "type": "build",
+        "en": "My favourite subject is maths.",
+        "a": [
+          "Ma matière préférée, ce sont les maths.",
+          "Ma matière préférée, c'est les maths.",
+          "Ma matière préférée, c'est les mathématiques."
+        ]
+      },
+      {
+        "id": "fr-a1-t-26",
+        "lesson": "3.2",
+        "type": "form",
+        "verb": "se lever",
+        "tense": "present",
+        "person": 0
+      },
+      {
+        "id": "fr-a1-t-27",
+        "lesson": "3.2",
+        "type": "build",
+        "en": "First I have a shower, then I have breakfast.",
+        "a": [
+          "D'abord, je me douche, {puis|ensuite} je prends le petit-déjeuner."
+        ]
+      },
+      {
+        "id": "fr-a1-t-28",
+        "lesson": "3.2",
+        "type": "transform",
+        "task_en": "Make it negative",
+        "fr": "Je me couche tôt.",
+        "a": [
+          "Je ne me couche pas tôt."
+        ]
+      },
+      {
+        "id": "fr-a1-t-29",
+        "lesson": "3.2",
+        "type": "cloze",
+        "fr": "Ils ___ le bus.",
+        "a": [
+          "prennent"
+        ],
+        "hint": "prendre"
+      },
+      {
+        "id": "fr-a1-t-30",
+        "lesson": "4.1",
+        "type": "cloze",
+        "fr": "Je bois ___ lait.",
+        "a": [
+          "du"
+        ]
+      },
+      {
+        "id": "fr-a1-t-31",
+        "lesson": "4.1",
+        "type": "transform",
+        "task_en": "Make it negative",
+        "fr": "Elle mange de la viande.",
+        "a": [
+          "Elle ne mange pas de viande."
+        ]
+      },
+      {
+        "id": "fr-a1-t-32",
+        "lesson": "4.1",
+        "type": "build",
+        "en": "I'd like some water, please.",
+        "a": [
+          "Je voudrais de l'eau, s'il vous plaît."
+        ]
+      },
+      {
+        "id": "fr-a1-t-33",
+        "lesson": "4.1",
+        "type": "form",
+        "verb": "boire",
+        "tense": "present",
+        "person": 4
+      },
+      {
+        "id": "fr-a1-t-34",
+        "lesson": "4.2",
+        "type": "cloze",
+        "fr": "une bouteille ___eau",
+        "a": [
+          "d'"
+        ]
+      },
+      {
+        "id": "fr-a1-t-35",
+        "lesson": "4.2",
+        "type": "form",
+        "verb": "pouvoir",
+        "tense": "present",
+        "person": 3
+      },
+      {
+        "id": "fr-a1-t-36",
+        "lesson": "4.2",
+        "type": "cloze",
+        "fr": "Ça coûte ___ euros.",
+        "a": [
+          "quatre cents"
+        ],
+        "hint": "400"
+      },
+      {
+        "id": "fr-a1-t-37",
+        "lesson": "4.2",
+        "type": "build",
+        "en": "I'm going to the baker's.",
+        "a": [
+          "Je vais chez le boulanger."
+        ]
+      },
+      {
+        "id": "fr-a1-t-38",
+        "lesson": "4.3",
+        "type": "cloze",
+        "fr": "Le chat est ___ le lit.",
+        "a": [
+          "sur"
+        ],
+        "hint": "on"
+      },
+      {
+        "id": "fr-a1-t-39",
+        "lesson": "4.3",
+        "type": "build",
+        "en": "There's no TV in my bedroom.",
+        "a": [
+          "Dans ma chambre, il n'y a pas de {télé|télévision}."
+        ]
+      },
+      {
+        "id": "fr-a1-t-40",
+        "lesson": "4.3",
+        "type": "cloze",
+        "fr": "J'habite près ___ gare.",
+        "a": [
+          "de la"
+        ]
+      },
+      {
+        "id": "fr-a1-t-41",
+        "lesson": "4.3",
+        "type": "form",
+        "verb": "mettre",
+        "tense": "present",
+        "person": 0
+      },
+      {
+        "id": "fr-a1-t-42",
+        "lesson": "5.1",
+        "type": "build",
+        "en": "Turn right! (vous)",
+        "a": [
+          "Tournez à droite !"
+        ]
+      },
+      {
+        "id": "fr-a1-t-43",
+        "lesson": "5.1",
+        "type": "cloze",
+        "fr": "Je vais au collège ___ bus.",
+        "a": [
+          "en"
+        ]
+      },
+      {
+        "id": "fr-a1-t-44",
+        "lesson": "5.1",
+        "type": "transform",
+        "task_en": "Put it in the futur proche",
+        "fr": "Je visite Prague.",
+        "a": [
+          "Je vais visiter Prague."
+        ]
+      },
+      {
+        "id": "fr-a1-t-45",
+        "lesson": "5.2",
+        "type": "build",
+        "en": "Today the weather is nice and warm.",
+        "a": [
+          "Aujourd'hui, il fait beau et {il fait |}chaud."
+        ]
+      },
+      {
+        "id": "fr-a1-t-46",
+        "lesson": "5.2",
+        "type": "cloze",
+        "fr": "___ été, il fait chaud.",
+        "a": [
+          "En"
+        ]
+      },
+      {
+        "id": "fr-a1-t-47",
+        "lesson": "5.2",
+        "type": "build",
+        "en": "My birthday is on the first of June.",
+        "a": [
+          "Mon anniversaire, c'est le premier juin."
+        ]
+      },
+      {
+        "id": "fr-a1-t-48",
+        "lesson": "5.2",
+        "type": "build",
+        "en": "Tomorrow it's going to be windy.",
+        "a": [
+          "Demain, il va y avoir du vent."
+        ]
+      }
+    ]
+  }
+}

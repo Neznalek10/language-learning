@@ -1,0 +1,246 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Geography",
+  "unit": "7.1",
+  "level": null,
+  "words": [
+    {
+      "q": "town, city",
+      "a": "ville",
+      "unit": "5.1"
+    },
+    {
+      "q": "village",
+      "a": "village",
+      "unit": "5.1"
+    },
+    {
+      "q": "capital",
+      "a": "capitale",
+      "unit": "5.1"
+    },
+    {
+      "q": "island",
+      "a": "île"
+    },
+    {
+      "q": "sea",
+      "a": "mer"
+    },
+    {
+      "q": "ocean",
+      "a": "océan"
+    },
+    {
+      "q": "mountain range",
+      "a": "chaîne de montagnes"
+    },
+    {
+      "q": "large river (flowing into the sea)",
+      "a": "fleuve"
+    },
+    {
+      "q": "river",
+      "a": "rivière"
+    },
+    {
+      "q": "south",
+      "a": "sud"
+    },
+    {
+      "q": "north",
+      "a": "nord"
+    },
+    {
+      "q": "east",
+      "a": "est"
+    },
+    {
+      "q": "west",
+      "a": "ouest"
+    },
+    {
+      "q": "area",
+      "a": "superficie"
+    },
+    {
+      "q": "surface",
+      "a": "surface"
+    },
+    {
+      "q": "agriculture",
+      "a": "agriculture"
+    },
+    {
+      "q": "currency",
+      "a": "monnaie"
+    },
+    {
+      "q": "origin",
+      "a": "origine"
+    },
+    {
+      "q": "paradise",
+      "a": "paradis"
+    },
+    {
+      "q": "forest",
+      "a": "forêt"
+    },
+    {
+      "q": "tree",
+      "a": "arbre"
+    },
+    {
+      "q": "Prague",
+      "a": "Prague",
+      "unit": "1.2"
+    },
+    {
+      "q": "Paris",
+      "a": "Paris",
+      "unit": "1.2"
+    },
+    {
+      "q": "postcard",
+      "a": "carte postale"
+    },
+    {
+      "q": "castle",
+      "a": "château",
+      "unit": "5.1"
+    },
+    {
+      "q": "church",
+      "a": "église",
+      "unit": "5.1"
+    },
+    {
+      "q": "statue",
+      "a": "statue",
+      "unit": "5.1"
+    },
+    {
+      "q": "address",
+      "a": "adresse",
+      "unit": "5.1"
+    },
+    {
+      "q": "street",
+      "a": "rue",
+      "unit": "5.1"
+    },
+    {
+      "q": "boulevard",
+      "a": "boulevard",
+      "unit": "5.1"
+    },
+    {
+      "q": "avenue",
+      "a": "avenue",
+      "unit": "5.1"
+    },
+    {
+      "q": "square",
+      "a": "place",
+      "unit": "5.1"
+    },
+    {
+      "q": "passport",
+      "a": "passeport"
+    },
+    {
+      "q": "stay",
+      "a": "séjour"
+    },
+    {
+      "q": "station",
+      "a": "gare",
+      "unit": "5.1"
+    },
+    {
+      "q": "post office",
+      "a": "poste",
+      "unit": "5.1"
+    },
+    {
+      "q": "museum",
+      "a": "musée",
+      "unit": "5.1"
+    },
+    {
+      "q": "cinema",
+      "a": "cinéma",
+      "unit": "5.1"
+    },
+    {
+      "q": "bank",
+      "a": "banque",
+      "unit": "5.1"
+    },
+    {
+      "q": "hospital",
+      "a": "hôpital",
+      "unit": "5.1"
+    },
+    {
+      "q": "park",
+      "a": "parc",
+      "unit": "5.1"
+    },
+    {
+      "q": "stadium",
+      "a": "stade",
+      "unit": "5.1"
+    },
+    {
+      "q": "town hall",
+      "a": "mairie",
+      "unit": "5.1"
+    },
+    {
+      "q": "stop (bus, tram)",
+      "a": "arrêt",
+      "unit": "5.1"
+    },
+    {
+      "q": "bridge",
+      "a": "pont",
+      "unit": "5.1"
+    },
+    {
+      "q": "beach",
+      "a": "plage"
+    },
+    {
+      "q": "mountains",
+      "a": "montagne"
+    },
+    {
+      "q": "campsite",
+      "a": "camping"
+    },
+    {
+      "q": "hotel",
+      "a": "hôtel"
+    },
+    {
+      "q": "suitcase",
+      "a": "valise"
+    },
+    {
+      "q": "abroad",
+      "a": "à l'étranger"
+    },
+    {
+      "q": "hike",
+      "a": "randonnée"
+    },
+    {
+      "q": "souvenir",
+      "a": "souvenir"
+    }
+  ]
+}

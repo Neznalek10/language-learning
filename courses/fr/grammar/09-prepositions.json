@@ -2,7 +2,7 @@
   "articles": [
     {
       "id": "a-de",
-      "title": "The prepositions à and de",
+      "title": "Předložky à a de",
       "fr": "à et de",
       "level": "A1",
       "keywords": [
@@ -29,11 +29,11 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*À* and *de* are the most common prepositions. Each has many meanings, and with the articles *le* and *les* they merge: *au, aux, du, des*."
+              "cs": "*À* a *de* jsou nejčastější předložky. Každá má mnoho významů a se členy *le* a *les* se stahují: *au, aux, du, des*."
             },
             {
               "type": "table",
@@ -47,20 +47,20 @@
               ],
               "rows": [
                 [
-                  "where to, where: *Je vais à Paris.* (to) *Je suis à l'école.* (at)",
-                  "where from: *Je viens de Prague.* (from)"
+                  "kam, kde: *Je vais à Paris.* (do) *Je suis à l'école.* (ve)",
+                  "odkud: *Je viens de Prague.* (z)"
                 ],
                 [
-                  "at what time: *à huit heures*",
-                  "whose: *le vélo de Paul* (Paul's bike)"
+                  "v kolik: *à huit heures*",
+                  "čí: *le vélo de Paul* (Pavlovo kolo)"
                 ],
                 [
-                  "to whom: *Je parle à Léa.* (to Léa)",
-                  "about what: *On parle de foot.* (about football)"
+                  "komu: *Je parle à Léa.* (s Léou, Lée)",
+                  "o čem: *On parle de foot.* (o fotbale)"
                 ],
                 [
-                  "how: *à pied, à vélo*",
-                  "kind, content: *une tasse de thé, un prof de maths*"
+                  "jak: *à pied, à vélo*",
+                  "druh, obsah: *une tasse de thé, un prof de maths*"
                 ]
               ]
             },
@@ -73,22 +73,22 @@
           ]
         },
         {
-          "title": "Whose is it",
+          "title": "Čí to je",
           "blocks": [
             {
               "type": "text",
-              "en": "English says \"Paul's bike\" or \"my dad's bike\". French always uses *de* and the reverse order: first the thing, then the owner."
+              "cs": "Čeština říká \"Pavlovo kolo\" nebo \"tátovo kolo\". Francouzština vždy používá *de* a opačné pořadí: nejdřív věc, pak majitel."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "Paul's dog",
+                  "cs": "Pavlův pes",
                   "wrong": "Paul chien",
                   "fr": "le chien [[de]] Paul"
                 },
                 {
-                  "en": "the keys to the house",
+                  "cs": "klíče od domu",
                   "fr": "les clés [[de la]] maison"
                 }
               ]
@@ -96,17 +96,17 @@
           ]
         },
         {
-          "title": "To and from",
+          "title": "Do a z",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm going to school.",
+                  "cs": "Jdu do školy.",
                   "fr": "Je vais [[à l']]école."
                 },
                 {
-                  "en": "I'm coming home from school.",
+                  "cs": "Jdu domů ze školy.",
                   "fr": "Je rentre [[de l']]école."
                 }
               ]
@@ -114,30 +114,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'habite à Lyon.",
-                  "en": "I live in Lyon."
+                  "cs": "Bydlím v Lyonu."
                 },
                 {
                   "fr": "Le cours commence à neuf heures.",
-                  "en": "The lesson starts at nine."
+                  "cs": "Hodina začíná v devět."
                 },
                 {
                   "fr": "C'est la maison de mes grands-parents.",
-                  "en": "It's my grandparents' house."
+                  "cs": "To je dům mých prarodičů."
                 },
                 {
                   "fr": "Il parle de ses vacances.",
-                  "en": "He's talking about his holidays."
+                  "cs": "Mluví o svých prázdninách."
                 },
                 {
                   "fr": "Je donne un cadeau à ma sœur.",
-                  "en": "I'm giving my sister a present."
+                  "cs": "Dávám sestře dárek."
                 }
               ]
             }
@@ -152,7 +152,7 @@
           "a": [
             "de"
           ],
-          "en": "It's Lucas's bike."
+          "cs": "To je Lukášovo kolo."
         },
         {
           "id": "g-a-de-02",
@@ -161,7 +161,7 @@
           "a": [
             "à"
           ],
-          "en": "The film starts at eight."
+          "cs": "Film začíná v osm."
         },
         {
           "id": "g-a-de-03",
@@ -170,12 +170,12 @@
           "a": [
             "à"
           ],
-          "en": "I live in Prague."
+          "cs": "Bydlím v Praze."
         },
         {
           "id": "g-a-de-04",
           "type": "build",
-          "en": "It's Paul's dog.",
+          "cs": "To je Pavlův pes.",
           "a": [
             "C'est le chien de Paul."
           ]
@@ -187,13 +187,13 @@
           "a": [
             "de"
           ],
-          "en": "We're talking about the exam."
+          "cs": "Mluvíme o zkoušce."
         }
       ]
     },
     {
       "id": "cities-countries",
-      "title": "Cities and countries",
+      "title": "Města a země",
       "fr": "les villes et les pays",
       "level": "A1",
       "keywords": [
@@ -226,41 +226,41 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
                 "",
-                "to, in",
-                "from"
+                "do, v",
+                "z"
               ],
               "textCols": [
                 0
               ],
               "rows": [
                 [
-                  "city",
+                  "město",
                   "à Paris",
                   "de Paris"
                 ],
                 [
-                  "feminine country",
+                  "země ženského rodu",
                   "en France",
                   "de France"
                 ],
                 [
-                  "masculine country",
+                  "země mužského rodu",
                   "au Canada",
                   "du Canada"
                 ],
                 [
-                  "plural country",
+                  "země v množném čísle",
                   "aux États-Unis",
                   "des États-Unis"
                 ],
                 [
-                  "country starting with a vowel",
+                  "země začínající samohláskou",
                   "en Italie, en Iran",
                   "d'Italie, d'Iran"
                 ]
@@ -268,74 +268,74 @@
             },
             {
               "type": "text",
-              "en": "French does not tell \"in\" from \"to\": *Je suis en France* (I'm in France) and *Je vais en France* (I'm going to France)."
+              "cs": "Francouzština nerozlišuje \"v\" a \"do\": *Je suis en France* (Jsem ve Francii) a *Je vais en France* (Jedu do Francie)."
             }
           ]
         },
         {
-          "title": "Gender of countries",
+          "title": "Rod zemí",
           "blocks": [
             {
               "type": "text",
-              "en": "Countries ending in *-e* are mostly feminine (*la France, la République tchèque, l'Allemagne*). The others are masculine (*le Canada, le Japon, le Portugal*). Exception: *le Mexique*."
+              "cs": "Země zakončené na *-e* jsou většinou ženského rodu (*la France, la République tchèque, l'Allemagne*). Ostatní jsou mužského rodu (*le Canada, le Japon, le Portugal*). Výjimka: *le Mexique*."
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm going to France.",
+                  "cs": "Jedu do Francie.",
                   "wrong": "Je vais à France.",
                   "fr": "Je vais [[en]] France."
                 },
                 {
-                  "en": "I live in Japan.",
+                  "cs": "Bydlím v Japonsku.",
                   "wrong": "J'habite en Japon.",
                   "fr": "J'habite [[au]] Japon."
                 },
                 {
-                  "en": "I'm from Italy.",
+                  "cs": "Jsem z Itálie.",
                   "wrong": "Je viens de l'Italie.",
                   "fr": "Je viens [[d']]Italie.",
-                  "note": "With feminine countries the article is dropped after *de*."
+                  "note": "U zemí ženského rodu člen po *de* odpadá."
                 }
               ]
             },
             {
               "type": "tip",
-              "en": "A few cities have an article: *Le Havre → au Havre*. Islands are irregular: *à Cuba, en Corse*."
+              "cs": "Pár měst má člen: *Le Havre → au Havre*. Ostrovy jsou nepravidelné: *à Cuba, en Corse*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "J'habite à Prague, en République tchèque.",
-                  "en": "I live in Prague, in the Czech Republic."
+                  "cs": "Bydlím v Praze, v České republice."
                 },
                 {
                   "fr": "L'été prochain, je vais en Espagne.",
-                  "en": "Next summer I'm going to Spain."
+                  "cs": "Příští léto jedu do Španělska."
                 },
                 {
                   "fr": "Mon oncle travaille au Canada.",
-                  "en": "My uncle works in Canada."
+                  "cs": "Můj strýc pracuje v Kanadě."
                 },
                 {
                   "fr": "Elle vient des États-Unis.",
-                  "en": "She comes from the United States."
+                  "cs": "Pochází ze Spojených států."
                 },
                 {
                   "fr": "Nous rentrons d'Allemagne.",
-                  "en": "We're coming back from Germany."
+                  "cs": "Vracíme se z Německa."
                 }
               ]
             }
@@ -350,7 +350,7 @@
           "a": [
             "en"
           ],
-          "en": "I'm going to Italy."
+          "cs": "Jedu do Itálie."
         },
         {
           "id": "g-cities-countries-02",
@@ -359,7 +359,7 @@
           "a": [
             "au"
           ],
-          "en": "He lives in Portugal."
+          "cs": "Bydlí v Portugalsku."
         },
         {
           "id": "g-cities-countries-03",
@@ -368,7 +368,7 @@
           "a": [
             "aux"
           ],
-          "en": "They are going to the United States."
+          "cs": "Jedou do Spojených států."
         },
         {
           "id": "g-cities-countries-04",
@@ -377,7 +377,7 @@
           "a": [
             "de"
           ],
-          "en": "I'm from Prague."
+          "cs": "Jsem z Prahy."
         },
         {
           "id": "g-cities-countries-05",
@@ -386,12 +386,12 @@
           "a": [
             "du"
           ],
-          "en": "She's from Canada."
+          "cs": "Je z Kanady."
         },
         {
           "id": "g-cities-countries-06",
           "type": "build",
-          "en": "I live in the Czech Republic.",
+          "cs": "Bydlím v České republice.",
           "a": [
             "J'habite en République tchèque.",
             "J'habite en Tchéquie."
@@ -401,7 +401,7 @@
     },
     {
       "id": "place",
-      "title": "Prepositions of place",
+      "title": "Předložky místa",
       "fr": "les prépositions de lieu",
       "level": "A1",
       "keywords": [
@@ -431,13 +431,13 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 1
@@ -445,68 +445,68 @@
               "rows": [
                 [
                   "dans",
-                  "in, inside"
+                  "v, uvnitř"
                 ],
                 [
                   "sur",
-                  "on"
+                  "na"
                 ],
                 [
                   "sous",
-                  "under"
+                  "pod"
                 ],
                 [
                   "devant",
-                  "in front of"
+                  "před"
                 ],
                 [
                   "derrière",
-                  "behind"
+                  "za"
                 ],
                 [
                   "entre",
-                  "between"
+                  "mezi"
                 ],
                 [
                   "à côté de",
-                  "next to"
+                  "vedle"
                 ],
                 [
                   "en face de",
-                  "opposite"
+                  "naproti"
                 ],
                 [
                   "près de",
-                  "near"
+                  "blízko"
                 ],
                 [
                   "loin de",
-                  "far from"
+                  "daleko od"
                 ],
                 [
                   "à gauche de, à droite de",
-                  "to the left of, to the right of"
+                  "nalevo od, napravo od"
                 ],
                 [
                   "au milieu de",
-                  "in the middle of"
+                  "uprostřed"
                 ]
               ]
             }
           ]
         },
         {
-          "title": "With de",
+          "title": "S de",
           "blocks": [
             {
               "type": "text",
-              "en": "Prepositions with *de* merge with the article: *à côté du lit, près des magasins*, but *en face de la gare*."
+              "cs": "Předložky s *de* se stahují se členem: *à côté du lit, près des magasins*, ale *en face de la gare*."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "next to the desk",
+                  "cs": "vedle psacího stolu",
                   "wrong": "à côté de le bureau",
                   "fr": "à côté [[du]] bureau"
                 }
@@ -515,39 +515,39 @@
           ]
         },
         {
-          "title": "Dans or à?",
+          "title": "Dans, nebo à?",
           "blocks": [
             {
               "type": "text",
-              "en": "*Dans* = inside something (*dans la boîte, dans ma chambre*). *À* = a general place (*à l'école, à la maison*). Careful: \"in the street\" is *dans la rue*."
+              "cs": "*Dans* = uvnitř něčeho (*dans la boîte, dans ma chambre*). *À* = obecné místo (*à l'école, à la maison*). Pozor: \"na ulici\" je *dans la rue*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le chat est sous la table.",
-                  "en": "The cat is under the table."
+                  "cs": "Kočka je pod stolem."
                 },
                 {
                   "fr": "Mon sac est sur la chaise.",
-                  "en": "My bag is on the chair."
+                  "cs": "Moje taška je na židli."
                 },
                 {
                   "fr": "Il y a un parc devant le collège.",
-                  "en": "There is a park in front of the school."
+                  "cs": "Před školou je park."
                 },
                 {
                   "fr": "La boulangerie est à côté de la pharmacie.",
-                  "en": "The bakery is next to the pharmacy."
+                  "cs": "Pekárna je vedle lékárny."
                 },
                 {
                   "fr": "J'habite près de la gare.",
-                  "en": "I live near the station."
+                  "cs": "Bydlím blízko nádraží."
                 }
               ]
             }
@@ -558,7 +558,7 @@
         {
           "id": "g-place-01",
           "type": "build",
-          "en": "The cat is under the bed.",
+          "cs": "Kočka je pod postelí.",
           "a": [
             "Le chat est sous le lit."
           ]
@@ -570,7 +570,7 @@
           "a": [
             "sur"
           ],
-          "en": "The book is on the table."
+          "cs": "Kniha je na stole."
         },
         {
           "id": "g-place-03",
@@ -579,7 +579,7 @@
           "a": [
             "du"
           ],
-          "en": "The pharmacy is next to the cinema."
+          "cs": "Lékárna je vedle kina."
         },
         {
           "id": "g-place-04",
@@ -588,12 +588,12 @@
           "a": [
             "dans"
           ],
-          "en": "My keys are in my bag."
+          "cs": "Klíče mám v tašce."
         },
         {
           "id": "g-place-05",
           "type": "build",
-          "en": "I live near the school.",
+          "cs": "Bydlím blízko školy.",
           "a": [
             "J'habite près {du collège|de l'école}."
           ]
@@ -602,7 +602,7 @@
     },
     {
       "id": "place-advanced",
-      "title": "Where things are: à côté de, en face de, au milieu de",
+      "title": "Kde věci jsou: à côté de, en face de, au milieu de",
       "fr": "les prépositions de lieu (suite)",
       "level": "A2",
       "keywords": [
@@ -637,83 +637,83 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "Prepositions of place are either **single words** (*dans, sur, sous, devant, derrière, entre, chez, vers*) or **phrases ending in *de*** (*à côté de, en face de, près de, loin de*). With *de* + *le* / *les* you get **du / des**: *à côté du cinéma*, *près des écoles*."
+              "cs": "Předložky místa jsou buď **jednoslovné** (*dans, sur, sous, devant, derrière, entre, chez, vers*), nebo **spojení zakončená na *de*** (*à côté de, en face de, près de, loin de*). S *de* + *le* / *les* vznikne **du / des**: *à côté du cinéma*, *près des écoles*."
             },
             {
               "type": "table",
               "head": [
-                "preposition",
-                "meaning",
-                "example"
+                "předložka",
+                "význam",
+                "příklad"
               ],
               "rows": [
                 [
                   "à côté de",
-                  "next to",
+                  "vedle",
                   "à côté de la banque"
                 ],
                 [
                   "en face de",
-                  "opposite",
+                  "naproti",
                   "en face de l'école"
                 ],
                 [
                   "près de / loin de",
-                  "near / far from",
+                  "blízko / daleko od",
                   "près de la gare"
                 ],
                 [
                   "au milieu de",
-                  "in the middle of",
+                  "uprostřed",
                   "au milieu de la place"
                 ],
                 [
                   "autour de",
-                  "around",
+                  "kolem",
                   "autour de la table"
                 ],
                 [
                   "le long de",
-                  "along",
+                  "podél",
                   "le long de la rivière"
                 ],
                 [
                   "au bout de",
-                  "at the end of",
+                  "na konci",
                   "au bout de la rue"
                 ],
                 [
                   "au coin de",
-                  "at the corner of",
+                  "na rohu",
                   "au coin de la rue"
                 ],
                 [
                   "à droite de / à gauche de",
-                  "to the right / left of",
+                  "napravo / nalevo od",
                   "à droite de la porte"
                 ],
                 [
                   "entre ... et ...",
-                  "between",
+                  "mezi",
                   "entre la poste et la banque"
                 ],
                 [
                   "à l'intérieur de / à l'extérieur de",
-                  "inside / outside",
+                  "uvnitř / venku",
                   "à l'intérieur du magasin"
                 ],
                 [
                   "en haut de / en bas de",
-                  "at the top / bottom of",
+                  "nahoře / dole",
                   "en haut de l'escalier"
                 ],
                 [
                   "au-dessus de / au-dessous de",
-                  "above / below",
+                  "nad / pod",
                   "au-dessus de la porte"
                 ]
               ],
@@ -728,23 +728,23 @@
           "blocks": [
             {
               "type": "text",
-              "en": "These phrases end in **de**, so the article contracts: **du** (de + le), **des** (de + les). Before a vowel: **d'**."
+              "cs": "Tato spojení končí na **de**, takže se člen stahuje: **du** (de + le), **des** (de + les). Před samohláskou: **d'**."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "next to the cinema",
+                  "cs": "vedle kina",
                   "wrong": "à côté de le cinéma",
                   "fr": "à côté [[du]] cinéma"
                 },
                 {
-                  "en": "near the schools",
+                  "cs": "blízko škol",
                   "wrong": "près de les écoles",
                   "fr": "près [[des]] écoles"
                 },
                 {
-                  "en": "opposite the station",
+                  "cs": "naproti nádraží",
                   "wrong": "en face la gare",
                   "fr": "en face [[de la]] gare"
                 }
@@ -753,78 +753,78 @@
           ]
         },
         {
-          "title": "Entering and leaving a vehicle",
+          "title": "Nastupování a vystupování",
           "blocks": [
             {
               "type": "text",
-              "en": "**Monter dans** and **descendre de** a vehicle: *Je monte dans le bus. Je descends du train.* **Monter à / sur** a horse or a bike: *monter à cheval, monter sur un vélo*. **Prendre** is the general verb (*prendre le métro*)."
+              "cs": "Do dopravního prostředku se **monter dans** a z něj **descendre de**: *Je monte dans le bus. Je descends du train.* Na koně nebo na kolo **monter à / sur**: *monter à cheval, monter sur un vélo*. **Prendre** je obecné sloveso (*prendre le métro*)."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Il monte dans la voiture.",
-                  "en": "He gets into the car."
+                  "cs": "Nastupuje do auta."
                 },
                 {
                   "fr": "Nous descendons du train à Lyon.",
-                  "en": "We get off the train in Lyon."
+                  "cs": "V Lyonu vystupujeme z vlaku."
                 },
                 {
                   "fr": "Elle monte sur le toit.",
-                  "en": "She climbs on the roof."
+                  "cs": "Leze na střechu."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Giving directions",
+          "title": "Popis cesty",
           "blocks": [
             {
               "type": "text",
-              "en": "**Tout droit** (straight on), **à droite / à gauche**, **jusqu'à** (as far as), **au feu / au carrefour / au rond-point**, **la première / deuxième rue**. Use the imperative: *Tournez à gauche. Continuez tout droit.*"
+              "cs": "**Tout droit** (rovně), **à droite / à gauche**, **jusqu'à** (až k), **au feu / au carrefour / au rond-point**, **la première / deuxième rue**. Používej rozkazovací způsob: *Tournez à gauche. Continuez tout droit.*"
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Prenez la deuxième rue à droite.",
-                  "en": "Take the second street on the right."
+                  "cs": "Jděte druhou ulicí doprava."
                 },
                 {
                   "fr": "Allez jusqu'au feu, puis tournez à gauche.",
-                  "en": "Go as far as the traffic light, then turn left."
+                  "cs": "Jděte až k semaforu a pak zahněte doleva."
                 },
                 {
                   "fr": "La poste est au bout de la rue, en face de la banque.",
-                  "en": "The post office is at the end of the street, opposite the bank."
+                  "cs": "Pošta je na konci ulice, naproti bance."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le café est au coin de la rue.",
-                  "en": "The café is at the corner of the street."
+                  "cs": "Kavárna je na rohu ulice."
                 },
                 {
                   "fr": "J'habite près du parc.",
-                  "en": "I live near the park."
+                  "cs": "Bydlím blízko parku."
                 },
                 {
                   "fr": "Mets le vase au milieu de la table.",
-                  "en": "Put the vase in the middle of the table."
+                  "cs": "Dej vázu doprostřed stolu."
                 },
                 {
                   "fr": "Il y a une rivière autour de la ville.",
-                  "en": "There is a river around the town."
+                  "cs": "Kolem města teče řeka."
                 }
               ]
             }
@@ -835,7 +835,7 @@
         {
           "id": "g-place-advanced-01",
           "type": "build",
-          "en": "next to the bank",
+          "cs": "vedle banky",
           "a": [
             "à côté de la banque"
           ]
@@ -843,7 +843,7 @@
         {
           "id": "g-place-advanced-02",
           "type": "build",
-          "en": "opposite the school",
+          "cs": "naproti škole",
           "a": [
             "en face de l'école"
           ]
@@ -851,7 +851,7 @@
         {
           "id": "g-place-advanced-03",
           "type": "build",
-          "en": "at the end of the street",
+          "cs": "na konci ulice",
           "a": [
             "au bout de la rue"
           ]
@@ -859,7 +859,7 @@
         {
           "id": "g-place-advanced-04",
           "type": "build",
-          "en": "in the middle of the table",
+          "cs": "uprostřed stolu",
           "a": [
             "au milieu de la table"
           ]
@@ -867,7 +867,7 @@
         {
           "id": "g-place-advanced-05",
           "type": "build",
-          "en": "near the station",
+          "cs": "blízko nádraží",
           "a": [
             "près de la gare"
           ]
@@ -879,7 +879,7 @@
           "a": [
             "du"
           ],
-          "en": "The cinema is next to the theatre."
+          "cs": "Kino je vedle divadla."
         },
         {
           "id": "g-place-advanced-07",
@@ -888,7 +888,7 @@
           "a": [
             "des"
           ],
-          "en": "I live near the schools."
+          "cs": "Bydlím blízko škol."
         },
         {
           "id": "g-place-advanced-08",
@@ -897,7 +897,7 @@
           "a": [
             "dans"
           ],
-          "en": "He gets into the bus."
+          "cs": "Nastupuje do autobusu."
         },
         {
           "id": "g-place-advanced-09",
@@ -906,7 +906,7 @@
           "a": [
             "du"
           ],
-          "en": "We get off the train."
+          "cs": "Vystupujeme z vlaku."
         }
       ]
     },
@@ -936,17 +936,17 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "*Chez* means \"at someone's place, to someone's place\". It always stands before a **person**, never before a place."
+              "cs": "*Chez* znamená \"u někoho, k někomu\". Vždycky stojí před **osobou**, nikdy před místem."
             },
             {
               "type": "table",
               "head": [
-                "French",
-                "English"
+                "francouzsky",
+                "česky"
               ],
               "textCols": [
                 1
@@ -954,54 +954,54 @@
               "rows": [
                 [
                   "chez moi",
-                  "at my place, to my place"
+                  "u mě, ke mně"
                 ],
                 [
                   "chez toi",
-                  "at your place"
+                  "u tebe"
                 ],
                 [
                   "chez Paul",
-                  "at Paul's"
+                  "u Pavla"
                 ],
                 [
                   "chez mes grands-parents",
-                  "at my grandparents'"
+                  "u babičky a dědy"
                 ],
                 [
                   "chez le médecin",
-                  "at the doctor's, to the doctor's"
+                  "u lékaře, k lékaři"
                 ],
                 [
                   "chez le coiffeur",
-                  "at the hairdresser's"
+                  "u kadeřníka"
                 ]
               ]
             },
             {
               "type": "text",
-              "en": "After *chez* come stressed pronouns: *chez moi, chez toi, chez lui, chez elle, chez nous, chez vous, chez eux*."
+              "cs": "Po *chez* následují samostatná zájmena: *chez moi, chez toi, chez lui, chez elle, chez nous, chez vous, chez eux*."
             }
           ]
         },
         {
-          "title": "Chez or à?",
+          "title": "Chez, nebo à?",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm going to the doctor's.",
+                  "cs": "Jdu k lékaři.",
                   "fr": "Je vais [[chez]] le médecin.",
-                  "note": "A person → *chez*."
+                  "note": "Osoba → *chez*."
                 },
                 {
-                  "en": "I'm going to the hospital.",
+                  "cs": "Jdu do nemocnice.",
                   "fr": "Je vais [[à l']]hôpital.",
-                  "note": "A place → *à*."
+                  "note": "Místo → *à*."
                 },
                 {
-                  "en": "I'm going to the bakery.",
+                  "cs": "Jdu do pekárny.",
                   "fr": "Je vais [[à la]] boulangerie. / Je vais [[chez le]] boulanger."
                 }
               ]
@@ -1009,35 +1009,35 @@
           ]
         },
         {
-          "title": "At home",
+          "title": "Doma",
           "blocks": [
             {
               "type": "text",
-              "en": "\"At home\" is *à la maison* or *chez moi*. \"I'm going home\": *Je rentre à la maison* or *Je rentre chez moi*."
+              "cs": "\"Doma\" je *à la maison* nebo *chez moi*. \"Jdu domů\": *Je rentre à la maison* nebo *Je rentre chez moi*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Tu viens chez moi ce soir ?",
-                  "en": "Are you coming to my place tonight?"
+                  "cs": "Přijdeš dnes večer ke mně?"
                 },
                 {
                   "fr": "Je dors chez mon copain.",
-                  "en": "I'm sleeping at my friend's."
+                  "cs": "Spím u kamaráda."
                 },
                 {
                   "fr": "On mange chez nous.",
-                  "en": "We're eating at our place."
+                  "cs": "Jíme u nás."
                 },
                 {
                   "fr": "Elle est chez le dentiste.",
-                  "en": "She's at the dentist's."
+                  "cs": "Je u zubaře."
                 }
               ]
             }
@@ -1048,7 +1048,7 @@
         {
           "id": "g-chez-01",
           "type": "build",
-          "en": "I'm going to the doctor's.",
+          "cs": "Jdu k lékaři.",
           "a": [
             "Je vais chez le médecin."
           ]
@@ -1056,7 +1056,7 @@
         {
           "id": "g-chez-02",
           "type": "build",
-          "en": "I'm at home.",
+          "cs": "Jsem doma.",
           "a": [
             "Je suis chez moi.",
             "Je suis à la maison."
@@ -1069,7 +1069,7 @@
           "a": [
             "toi"
           ],
-          "en": "Shall we have the party at your place?"
+          "cs": "Uděláme tu oslavu u tebe?"
         },
         {
           "id": "g-chez-04",
@@ -1078,13 +1078,13 @@
           "a": [
             "chez"
           ],
-          "en": "I'm going to my grandparents'."
+          "cs": "Jdu k babičce a dědovi."
         }
       ]
     },
     {
       "id": "transport",
-      "title": "Transport: en, à",
+      "title": "Doprava: en, à",
       "fr": "les moyens de transport",
       "level": "A1",
       "keywords": [
@@ -1110,17 +1110,17 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "When you are **inside** a vehicle, you say *en*. When you **sit on it** or go on foot, you say *à*."
+              "cs": "Když jsi **uvnitř** dopravního prostředku, říkáš *en*. Když **na něm sedíš** nebo jdeš pěšky, říkáš *à*."
             },
             {
               "type": "table",
               "head": [
-                "en (inside)",
-                "à (on, on foot)"
+                "en (uvnitř)",
+                "à (na něčem, pěšky)"
               ],
               "rows": [
                 [
@@ -1156,13 +1156,13 @@
           "blocks": [
             {
               "type": "text",
-              "en": "The other option is the verb *prendre*: *Je prends le bus.* (I take the bus.) Here you write an article and no preposition."
+              "cs": "Druhá možnost je sloveso *prendre*: *Je prends le bus.* (Jedu autobusem.) Tady píšeš člen a žádnou předložku."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm going to Prague by train.",
+                  "cs": "Jedu do Prahy vlakem.",
                   "fr": "Je vais à Prague [[en]] train. / Je prends [[le]] train."
                 }
               ]
@@ -1170,13 +1170,13 @@
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm walking.",
+                  "cs": "Jdu pěšky.",
                   "wrong": "Je vais en pied.",
                   "fr": "Je vais [[à]] pied."
                 }
@@ -1184,31 +1184,31 @@
             },
             {
               "type": "tip",
-              "en": "In speech you will also hear *en vélo*, but at school stick to *à vélo*."
+              "cs": "V mluvené řeči uslyšíš i *en vélo*, ale ve škole se drž *à vélo*."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je vais au collège à pied.",
-                  "en": "I walk to school."
+                  "cs": "Do školy chodím pěšky."
                 },
                 {
                   "fr": "Nous partons en vacances en voiture.",
-                  "en": "We're going on holiday by car."
+                  "cs": "Na dovolenou jedeme autem."
                 },
                 {
                   "fr": "Tu prends le métro ?",
-                  "en": "Are you taking the metro?"
+                  "cs": "Jedeš metrem?"
                 },
                 {
                   "fr": "Il va au travail à vélo.",
-                  "en": "He cycles to work."
+                  "cs": "Do práce jezdí na kole."
                 }
               ]
             }
@@ -1219,7 +1219,7 @@
         {
           "id": "g-transport-01",
           "type": "build",
-          "en": "I go to school by bus.",
+          "cs": "Do školy jezdím autobusem.",
           "a": [
             "Je vais {au collège|à l'école} en bus.",
             "Je prends le bus pour aller {au collège|à l'école}."
@@ -1232,7 +1232,7 @@
           "a": [
             "à"
           ],
-          "en": "I walk to the park."
+          "cs": "Do parku jdu pěšky."
         },
         {
           "id": "g-transport-03",
@@ -1241,7 +1241,7 @@
           "a": [
             "en"
           ],
-          "en": "We're flying."
+          "cs": "Letíme letadlem."
         },
         {
           "id": "g-transport-04",
@@ -1250,7 +1250,7 @@
           "a": [
             "à"
           ],
-          "en": "He's coming by bike."
+          "cs": "Přijede na kole."
         },
         {
           "id": "g-transport-05",
@@ -1260,13 +1260,13 @@
             "prends"
           ],
           "hint": "prendre",
-          "en": "I take the train at eight."
+          "cs": "Jedu vlakem v osm."
         }
       ]
     },
     {
       "id": "time-prepositions",
-      "title": "Time: depuis, pendant, il y a, dans",
+      "title": "Čas: depuis, pendant, il y a, dans",
       "fr": "les prépositions de temps",
       "level": "A2",
       "keywords": [
@@ -1299,14 +1299,14 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "when",
-                "how",
-                "example"
+                "kdy",
+                "jak",
+                "příklad"
               ],
               "textCols": [
                 0,
@@ -1314,28 +1314,28 @@
               ],
               "rows": [
                 [
-                  "hour",
+                  "hodina",
                   "*à*",
                   "à huit heures"
                 ],
                 [
-                  "month, year, summer, autumn, winter",
+                  "měsíc, rok, léto, podzim, zima",
                   "*en*",
                   "en mai, en 2026, en été"
                 ],
                 [
-                  "spring",
+                  "jaro",
                   "*au*",
                   "au printemps"
                 ],
                 [
-                  "day",
-                  "no preposition",
+                  "den",
+                  "bez předložky",
                   "lundi, le 14 juillet"
                 ],
                 [
-                  "part of the day",
-                  "no preposition",
+                  "část dne",
+                  "bez předložky",
                   "le matin, le soir"
                 ]
               ]
@@ -1343,15 +1343,15 @@
           ]
         },
         {
-          "title": "How long, ago and in",
+          "title": "Jak dlouho, před a za",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "preposition",
-                "meaning",
-                "example",
-                "English"
+                "předložka",
+                "význam",
+                "příklad",
+                "česky"
               ],
               "textCols": [
                 1,
@@ -1360,63 +1360,63 @@
               "rows": [
                 [
                   "depuis",
-                  "since, for (and it still continues)",
+                  "od, už (a pořád trvá)",
                   "J'habite ici depuis 2020.",
-                  "I've lived here since 2020."
+                  "Bydlím tady od roku 2020."
                 ],
                 [
                   "pendant",
-                  "during, for (it has ended)",
+                  "během, po dobu (už skončilo)",
                   "J'ai dormi pendant dix heures.",
-                  "I slept for ten hours."
+                  "Spal jsem deset hodin."
                 ],
                 [
                   "il y a",
-                  "ago (in the past)",
+                  "před (v minulosti)",
                   "Je suis arrivé il y a deux jours.",
-                  "I arrived two days ago."
+                  "Přijel jsem před dvěma dny."
                 ],
                 [
                   "dans",
-                  "in (in the future)",
+                  "za (v budoucnosti)",
                   "Je pars dans une heure.",
-                  "I'm leaving in an hour."
+                  "Odjíždím za hodinu."
                 ],
                 [
                   "en",
-                  "in (how long it takes to do something)",
+                  "za (jak dlouho něco trvá udělat)",
                   "J'ai fini en dix minutes.",
-                  "I finished in ten minutes."
+                  "Byl jsem hotový za deset minut."
                 ],
                 [
                   "pour",
-                  "for (a planned period)",
+                  "na (plánovanou dobu)",
                   "Je pars pour une semaine.",
-                  "I'm leaving for a week."
+                  "Odjíždím na týden."
                 ]
               ]
             }
           ]
         },
         {
-          "title": "Watch out",
+          "title": "Pozor",
           "blocks": [
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I've been learning French for two years.",
+                  "cs": "Učím se francouzsky dva roky.",
                   "wrong": "J'apprends le français pendant deux ans.",
                   "fr": "J'apprends le français [[depuis]] deux ans.",
-                  "note": "You are still learning, so *depuis* + the present tense."
+                  "note": "Pořád se učíš, takže *depuis* + přítomný čas."
                 },
                 {
-                  "en": "a week ago",
+                  "cs": "před týdnem",
                   "wrong": "avant une semaine",
                   "fr": "[[il y a]] une semaine"
                 },
                 {
-                  "en": "I'll be there in five minutes.",
+                  "cs": "Budu tam za pět minut.",
                   "wrong": "J'arrive en cinq minutes.",
                   "fr": "J'arrive [[dans]] cinq minutes."
                 }
@@ -1425,30 +1425,30 @@
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le cours commence à neuf heures.",
-                  "en": "The lesson starts at nine."
+                  "cs": "Hodina začíná v devět."
                 },
                 {
                   "fr": "Je suis né en 2012.",
-                  "en": "I was born in 2012."
+                  "cs": "Narodil jsem se v roce 2012."
                 },
                 {
                   "fr": "Il neige depuis ce matin.",
-                  "en": "It has been snowing since this morning."
+                  "cs": "Od rána sněží."
                 },
                 {
                   "fr": "On a joué pendant deux heures.",
-                  "en": "We played for two hours."
+                  "cs": "Hráli jsme dvě hodiny."
                 },
                 {
                   "fr": "Les vacances commencent dans trois jours.",
-                  "en": "The holidays start in three days."
+                  "cs": "Prázdniny začínají za tři dny."
                 }
               ]
             }
@@ -1463,7 +1463,7 @@
           "a": [
             "depuis"
           ],
-          "en": "I've been playing basketball for six years."
+          "cs": "Hraju basketbal šest let."
         },
         {
           "id": "g-time-prepositions-02",
@@ -1472,7 +1472,7 @@
           "a": [
             "il y a"
           ],
-          "en": "I saw him two days ago."
+          "cs": "Viděl jsem ho před dvěma dny."
         },
         {
           "id": "g-time-prepositions-03",
@@ -1481,7 +1481,7 @@
           "a": [
             "dans"
           ],
-          "en": "The train leaves in ten minutes."
+          "cs": "Vlak odjíždí za deset minut."
         },
         {
           "id": "g-time-prepositions-04",
@@ -1490,7 +1490,7 @@
           "a": [
             "en"
           ],
-          "en": "My birthday is in May."
+          "cs": "Narozeniny mám v květnu."
         },
         {
           "id": "g-time-prepositions-05",
@@ -1499,7 +1499,7 @@
           "a": [
             "pendant"
           ],
-          "en": "I read all evening."
+          "cs": "Celý večer jsem četl."
         },
         {
           "id": "g-time-prepositions-06",
@@ -1508,13 +1508,13 @@
           "a": [
             "à"
           ],
-          "en": "The film starts at 8 p.m."
+          "cs": "Film začíná ve 20 hodin."
         }
       ]
     },
     {
       "id": "time-expressions",
-      "title": "Telling when: à, en, dans, le, tous les, prochain",
+      "title": "Kdy: à, en, dans, le, tous les, prochain",
       "fr": "dire quand",
       "level": "A1",
       "keywords": [
@@ -1546,74 +1546,74 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "text",
-              "en": "French uses a different small word for each kind of time. Learn the **pairs** below: **à** for clock times and fixed points, **en** for months, years and seasons (except spring), **le** for days (habit), **dans** for a point in the future."
+              "cs": "Francouzština používá pro každý druh času jiné malé slovo. Nauč se **dvojice** níže: **à** pro hodiny a pevné body, **en** pro měsíce, roky a roční období (kromě jara), **le** pro dny (zvyk), **dans** pro bod v budoucnosti."
             },
             {
               "type": "table",
               "head": [
-                "what",
-                "preposition",
-                "example",
-                "English"
+                "co",
+                "předložka",
+                "příklad",
+                "česky"
               ],
               "rows": [
                 [
-                  "clock time",
+                  "hodiny",
                   "à",
                   "à huit heures, à midi",
-                  "at eight, at noon"
+                  "v osm, v poledne"
                 ],
                 [
                   "month",
                   "en",
                   "en juillet",
-                  "in July"
+                  "v červenci"
                 ],
                 [
                   "year",
                   "en",
                   "en 2025",
-                  "in 2025"
+                  "v roce 2025"
                 ],
                 [
                   "season",
-                  "en (au for spring)",
+                  "en (au pro jaro)",
                   "en été, en hiver, au printemps",
-                  "in summer, in winter, in spring"
+                  "v létě, v zimě, na jaře"
                 ],
                 [
-                  "day (habit)",
+                  "den (zvyk)",
                   "le",
                   "le lundi",
-                  "on Mondays"
+                  "v pondělí (každé)"
                 ],
                 [
-                  "day (this one)",
-                  "no article",
+                  "den (tento)",
+                  "bez členu",
                   "lundi",
-                  "on Monday"
+                  "v pondělí"
                 ],
                 [
-                  "part of day",
-                  "le / no",
+                  "část dne",
+                  "le / bez členu",
                   "le matin, ce soir",
-                  "in the morning, tonight"
+                  "ráno, dnes večer"
                 ],
                 [
-                  "in the future",
+                  "v budoucnosti",
                   "dans",
                   "dans deux jours",
-                  "in two days"
+                  "za dva dny"
                 ],
                 [
-                  "how long it takes",
+                  "jak dlouho to trvá",
                   "en",
                   "en deux heures",
-                  "in two hours"
+                  "za dvě hodiny"
                 ]
               ],
               "textCols": [
@@ -1623,22 +1623,22 @@
           ]
         },
         {
-          "title": "Dans or en?",
+          "title": "Dans, nebo en?",
           "blocks": [
             {
               "type": "text",
-              "en": "**Dans** + duration = **when it will happen** (*Je pars dans une heure*: in an hour). **En** + duration = **how long it takes** (*Je fais ça en une heure*: it takes me an hour). Compare: *Le train part dans dix minutes* / *Il arrive en dix minutes.*"
+              "cs": "**Dans** + doba = **kdy se to stane** (*Je pars dans une heure*: za hodinu). **En** + doba = **jak dlouho to trvá** (*Je fais ça en une heure*: zabere mi to hodinu). Porovnej: *Le train part dans dix minutes* / *Il arrive en dix minutes.*"
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm leaving in two days.",
+                  "cs": "Odjíždím za dva dny.",
                   "wrong": "Je pars en deux jours.",
                   "fr": "Je pars [[dans]] deux jours."
                 },
                 {
-                  "en": "He did it in an hour.",
+                  "cs": "Udělal to za hodinu.",
                   "wrong": "Il l'a fait dans une heure.",
                   "fr": "Il l'a fait [[en]] une heure."
                 }
@@ -1647,54 +1647,54 @@
           ]
         },
         {
-          "title": "Repeated and relative time",
+          "title": "Opakovaný a relativní čas",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "expression",
-                "meaning"
+                "výraz",
+                "význam"
               ],
               "rows": [
                 [
                   "tous les jours / chaque jour",
-                  "every day"
+                  "každý den"
                 ],
                 [
                   "tous les lundis / chaque lundi",
-                  "every Monday"
+                  "každé pondělí"
                 ],
                 [
                   "toutes les semaines",
-                  "every week"
+                  "každý týden"
                 ],
                 [
                   "une fois par semaine",
-                  "once a week"
+                  "jednou týdně"
                 ],
                 [
                   "ce matin, cet après-midi, ce soir, cette nuit",
-                  "this morning, this afternoon, tonight, tonight"
+                  "dnes ráno, dnes odpoledne, dnes večer, dnes v noci"
                 ],
                 [
                   "demain, après-demain",
-                  "tomorrow, the day after tomorrow"
+                  "zítra, pozítří"
                 ],
                 [
                   "hier, avant-hier",
-                  "yesterday, the day before yesterday"
+                  "včera, předevčírem"
                 ],
                 [
                   "la semaine prochaine / dernière",
-                  "next week / last week"
+                  "příští týden / minulý týden"
                 ],
                 [
                   "l'année prochaine / dernière",
-                  "next year / last year"
+                  "příští rok / minulý rok"
                 ],
                 [
                   "lundi prochain / dernier",
-                  "next / last Monday"
+                  "příští / minulé pondělí"
                 ]
               ],
               "textCols": [
@@ -1704,56 +1704,56 @@
           ]
         },
         {
-          "title": "Seasons, months and dates",
+          "title": "Roční období, měsíce a data",
           "blocks": [
             {
               "type": "text",
-              "en": "**Months** and **years**: *en janvier, en 2024*. **Seasons**: *en été, en automne, en hiver*, but **au printemps**. **Dates**: *le 5 mai, le premier mai*. Months and days are **never capitalised** in French."
+              "cs": "**Měsíce** a **roky**: *en janvier, en 2024*. **Roční období**: *en été, en automne, en hiver*, ale **au printemps**. **Data**: *le 5 mai, le premier mai*. Měsíce a dny se ve francouzštině **nikdy nepíšou s velkým písmenem**."
             },
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Je suis né en mars.",
-                  "en": "I was born in March."
+                  "cs": "Narodil jsem se v březnu."
                 },
                 {
                   "fr": "En hiver, il neige.",
-                  "en": "In winter it snows."
+                  "cs": "V zimě sněží."
                 },
                 {
                   "fr": "Au printemps, il fait doux.",
-                  "en": "In spring it is mild."
+                  "cs": "Na jaře je mírno."
                 },
                 {
                   "fr": "Le 14 juillet, c'est la fête nationale.",
-                  "en": "On 14 July it's the national holiday."
+                  "cs": "14. července je státní svátek."
                 }
               ]
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Le cours commence à neuf heures.",
-                  "en": "The class starts at nine."
+                  "cs": "Hodina začíná v devět."
                 },
                 {
                   "fr": "Dans une semaine, nous partons en vacances.",
-                  "en": "In a week we go on holiday."
+                  "cs": "Za týden jedeme na prázdniny."
                 },
                 {
                   "fr": "Je vais à la piscine tous les mercredis.",
-                  "en": "I go to the pool every Wednesday."
+                  "cs": "Každou středu chodím na plavání."
                 },
                 {
                   "fr": "L'année prochaine, j'irai en France.",
-                  "en": "Next year I'll go to France."
+                  "cs": "Příští rok pojedu do Francie."
                 }
               ]
             }
@@ -1764,7 +1764,7 @@
         {
           "id": "g-time-expressions-01",
           "type": "build",
-          "en": "at eight o'clock",
+          "cs": "v osm hodin",
           "a": [
             "à huit heures"
           ]
@@ -1772,7 +1772,7 @@
         {
           "id": "g-time-expressions-02",
           "type": "build",
-          "en": "in July",
+          "cs": "v červenci",
           "a": [
             "en juillet"
           ]
@@ -1780,7 +1780,7 @@
         {
           "id": "g-time-expressions-03",
           "type": "build",
-          "en": "in spring",
+          "cs": "na jaře",
           "a": [
             "au printemps"
           ]
@@ -1788,7 +1788,7 @@
         {
           "id": "g-time-expressions-04",
           "type": "build",
-          "en": "in two days",
+          "cs": "za dva dny",
           "a": [
             "dans deux jours"
           ]
@@ -1796,7 +1796,7 @@
         {
           "id": "g-time-expressions-05",
           "type": "build",
-          "en": "on Mondays",
+          "cs": "v pondělí (každé)",
           "a": [
             "le lundi",
             "tous les lundis"
@@ -1805,7 +1805,7 @@
         {
           "id": "g-time-expressions-06",
           "type": "build",
-          "en": "next week",
+          "cs": "příští týden",
           "a": [
             "la semaine prochaine"
           ]
@@ -1817,8 +1817,8 @@
           "a": [
             "dans"
           ],
-          "hint": "in",
-          "en": "I'm leaving in an hour."
+          "hint": "za, v",
+          "cs": "Odjíždím za hodinu."
         },
         {
           "id": "g-time-expressions-08",
@@ -1827,7 +1827,7 @@
           "a": [
             "en"
           ],
-          "en": "He finished in an hour."
+          "cs": "Byl hotový za hodinu."
         },
         {
           "id": "g-time-expressions-09",
@@ -1836,7 +1836,7 @@
           "a": [
             "en"
           ],
-          "en": "We're leaving in summer."
+          "cs": "Odjíždíme v létě."
         },
         {
           "id": "g-time-expressions-10",
@@ -1845,7 +1845,7 @@
           "a": [
             "en"
           ],
-          "en": "It snows in winter."
+          "cs": "V zimě sněží."
         }
       ]
     },
@@ -1877,14 +1877,14 @@
       ],
       "sections": [
         {
-          "title": "In short",
+          "title": "Ve zkratce",
           "blocks": [
             {
               "type": "table",
               "head": [
-                "preposition",
-                "meaning",
-                "example"
+                "předložka",
+                "význam",
+                "příklad"
               ],
               "textCols": [
                 1
@@ -1892,22 +1892,22 @@
               "rows": [
                 [
                   "pour",
-                  "for, in order to, for (a period)",
+                  "pro, aby, na (dobu)",
                   "C'est pour toi."
                 ],
                 [
                   "par",
-                  "through, per, by (the doer)",
+                  "skrz, za (každý), kým (původce)",
                   "deux fois par semaine"
                 ],
                 [
                   "avec",
-                  "with",
+                  "s",
                   "Je joue avec mes amis."
                 ],
                 [
                   "sans",
-                  "without",
+                  "bez",
                   "un café sans sucre"
                 ]
               ]
@@ -1915,17 +1915,17 @@
           ]
         },
         {
-          "title": "Pour + infinitive",
+          "title": "Pour + infinitiv",
           "blocks": [
             {
               "type": "text",
-              "en": "*Pour* + an infinitive means \"in order to\"."
+              "cs": "*Pour* + infinitiv znamená \"aby\"."
             },
             {
               "type": "compare",
               "items": [
                 {
-                  "en": "I'm going to the shop to buy bread.",
+                  "cs": "Jdu do obchodu koupit chleba.",
                   "fr": "Je vais au magasin [[pour]] acheter du pain."
                 }
               ]
@@ -1937,39 +1937,39 @@
           "blocks": [
             {
               "type": "text",
-              "en": "*Par* has several meanings: route (*par la porte* = through the door), frequency (*une fois par jour* = once a day), the doer in the passive (*écrit par Victor Hugo*) and *par exemple* (for example)."
+              "cs": "*Par* má několik významů: cesta (*par la porte* = dveřmi), četnost (*une fois par jour* = jednou denně), původce v trpném rodě (*écrit par Victor Hugo*) a *par exemple* (například)."
             },
             {
               "type": "text",
-              "en": "*Avec* and *sans* are often followed by a noun without an article: *avec plaisir* (with pleasure), *sans problème* (no problem)."
+              "cs": "Po *avec* a *sans* často následuje podstatné jméno bez členu: *avec plaisir* (s radostí), *sans problème* (bez problému)."
             }
           ]
         },
         {
-          "title": "Examples",
+          "title": "Příklady",
           "blocks": [
             {
               "type": "examples",
               "items": [
                 {
                   "fr": "Ce cadeau est pour ma mère.",
-                  "en": "This present is for my mother."
+                  "cs": "Tenhle dárek je pro mámu."
                 },
                 {
                   "fr": "Je m'entraîne trois fois par semaine.",
-                  "en": "I train three times a week."
+                  "cs": "Trénuju třikrát týdně."
                 },
                 {
                   "fr": "Tu viens avec moi ?",
-                  "en": "Are you coming with me?"
+                  "cs": "Půjdeš se mnou?"
                 },
                 {
                   "fr": "Il est parti sans dire au revoir.",
-                  "en": "He left without saying goodbye."
+                  "cs": "Odešel bez rozloučení."
                 },
                 {
                   "fr": "Merci pour ton aide !",
-                  "en": "Thanks for your help!"
+                  "cs": "Díky za pomoc!"
                 }
               ]
             }
@@ -1984,7 +1984,7 @@
           "a": [
             "par"
           ],
-          "en": "I do sport twice a week."
+          "cs": "Sportuju dvakrát týdně."
         },
         {
           "id": "g-pour-par-avec-02",
@@ -1993,7 +1993,7 @@
           "a": [
             "pour"
           ],
-          "en": "I'm saving to buy a bike."
+          "cs": "Šetřím, abych si koupil kolo."
         },
         {
           "id": "g-pour-par-avec-03",
@@ -2002,12 +2002,12 @@
           "a": [
             "sans"
           ],
-          "en": "Tea without sugar, please."
+          "cs": "Čaj bez cukru, prosím."
         },
         {
           "id": "g-pour-par-avec-04",
           "type": "build",
-          "en": "It's for you.",
+          "cs": "To je pro tebe.",
           "a": [
             "C'est pour toi."
           ]
@@ -2019,7 +2019,7 @@
           "a": [
             "avec"
           ],
-          "en": "I'm going to the cinema with my friends."
+          "cs": "Jdu do kina s kamarády."
         }
       ]
     }

@@ -1,0 +1,124 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "topics",
+  "title": "Health",
+  "unit": "7.2",
+  "level": null,
+  "words": [
+    {
+      "q": "health",
+      "a": "santé"
+    },
+    {
+      "q": "to be sleepy",
+      "a": "avoir sommeil"
+    },
+    {
+      "q": "tired",
+      "a": "fatigué"
+    },
+    {
+      "q": "tiredness",
+      "a": "fatigue"
+    },
+    {
+      "q": "feeling",
+      "a": "sensation"
+    },
+    {
+      "q": "I'm thirsty",
+      "a": [
+        "j'ai soif",
+        "avoir soif"
+      ],
+      "unit": "4.1"
+    },
+    {
+      "q": "I'm hot",
+      "a": [
+        "j'ai chaud",
+        "avoir chaud"
+      ]
+    },
+    {
+      "q": "I'm cold",
+      "a": [
+        "j'ai froid",
+        "avoir froid"
+      ]
+    },
+    {
+      "q": "I'm hungry",
+      "a": [
+        "j'ai faim",
+        "avoir faim"
+      ],
+      "unit": "4.1"
+    },
+    {
+      "q": "evil, harm",
+      "a": "mal"
+    },
+    {
+      "q": "tiring",
+      "a": "fatigant"
+    },
+    {
+      "q": "food, nutrition",
+      "a": "alimentation"
+    },
+    {
+      "q": "advice",
+      "a": "conseils"
+    },
+    {
+      "q": "full",
+      "a": "plein"
+    },
+    {
+      "q": "it is necessary",
+      "a": "il faut"
+    },
+    {
+      "q": "cause",
+      "a": "cause"
+    },
+    {
+      "q": "ill, sick",
+      "a": "malade"
+    },
+    {
+      "q": "fever",
+      "a": "fièvre"
+    },
+    {
+      "q": "a cold",
+      "a": "rhume"
+    },
+    {
+      "q": "flu",
+      "a": "grippe"
+    },
+    {
+      "q": "cough",
+      "a": "toux"
+    },
+    {
+      "q": "doctor",
+      "a": "médecin"
+    },
+    {
+      "q": "dentist",
+      "a": "dentiste"
+    },
+    {
+      "q": "prescription",
+      "a": "ordonnance"
+    },
+    {
+      "q": "I have a headache",
+      "a": "j'ai mal à la tête"
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "goals": [
+    "Use the partitive article du, de la, de l', des",
+    "Tell j'aime le fromage and je mange du fromage apart",
+    "Say \"not any\" and quantities: pas de, beaucoup de",
+    "Conjugate boire and manger",
+    "Order in a restaurant"
+  ],
+  "lessons": [
+    {
+      "id": "fr-5.1-1",
+      "title": "Du pain, de la confiture",
+      "subtitle": "The partitive article",
+      "topics": ["partitive", "food"],
+      "words": ["food#bread", "food#butter", "food#jam", "food#cheese", "food#ham", "food#milk", "food#water", "food#tea", "food#coffee", "food#yoghurt", "food#juice", "food#sugar", "food#meat", "food#rice", "food#pasta"],
+      "learn": [
+        {"title": "The partitive article", "blocks": [
+          {"type": "text", "en": "When you eat or drink **some** of something you don't count, you use the partitive article: *du* (masculine), *de la* (feminine), *de l'* (before a vowel) and *des* (plural). In English you say \"some\" or nothing at all: *Je mange du pain.* (I'm eating bread.)"},
+          {"type": "table", "head": ["", "article", "example"], "textCols": [0], "rows": [
+            ["masculine", "du", "du pain, du fromage"],
+            ["feminine", "de la", "de la confiture, de la viande"],
+            ["before a vowel", "de l'", "de l'eau, de l'huile"],
+            ["plural", "des", "des pâtes, des légumes"]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je bois ___ lait.", "a": ["du"]}}
+        ]},
+        {"title": "le or du?", "blocks": [
+          {"type": "text", "en": "*J'aime le fromage.* = I like cheese (in general). *Je mange du fromage.* = I'm eating (some) cheese. After *aimer, adorer, préférer, détester* there's always the **definite article**; after *manger, boire, prendre, acheter, vouloir* it's usually the **partitive**."},
+          {"type": "examples", "items": [
+            {"fr": "J'adore le chocolat, alors je mange du chocolat tous les jours.", "en": "I love chocolate, so I eat some every day."},
+            {"fr": "Au petit-déjeuner, je prends du pain avec du beurre et de la confiture.", "en": "For breakfast I have bread with butter and jam."},
+            {"fr": "Tu veux de l'eau ?", "en": "Do you want some water?"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "J'aime ___ fromage.", "a": ["le"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.1-1-01", "type": "cloze", "fr": "Je mange ___ pain.", "a": ["du"]},
+        {"id": "fr-5.1-1-02", "type": "cloze", "fr": "Tu veux ___ confiture ?", "a": ["de la"]},
+        {"id": "fr-5.1-1-03", "type": "cloze", "fr": "Il boit ___eau.", "a": ["de l'"]},
+        {"id": "fr-5.1-1-04", "type": "cloze", "fr": "Nous mangeons ___ pâtes.", "a": ["des"]},
+        {"id": "fr-5.1-1-05", "type": "cloze", "fr": "Elle prend ___ thé.", "a": ["du"]},
+        {"id": "fr-5.1-1-06", "type": "cloze", "fr": "J'achète ___ viande.", "a": ["de la"]},
+        {"id": "fr-5.1-1-07", "type": "cloze", "fr": "Je déteste ___ lait.", "a": ["le"], "why": "After détester there is always the definite article."},
+        {"id": "fr-5.1-1-08", "type": "cloze", "fr": "Tu aimes ___ riz ?", "a": ["le"]},
+        {"id": "fr-5.1-1-09", "type": "build", "en": "I eat bread and butter.", "a": ["Je mange du pain avec du beurre."]},
+        {"id": "fr-5.1-1-10", "type": "build", "en": "For breakfast I drink tea.", "a": ["Au petit-déjeuner, je bois du thé."]},
+        {"id": "fr-5.1-1-11", "type": "build", "en": "I like cheese.", "a": ["J'aime le fromage."]},
+        {"id": "fr-5.1-1-12", "type": "build", "en": "Do you want some water?", "a": ["{Tu veux|Est-ce que tu veux|Veux-tu} de l'eau ?"]},
+        {"id": "fr-5.1-1-13", "type": "build", "en": "We eat rice and meat.", "a": ["{Nous mangeons|On mange} du riz et de la viande."]},
+        {"id": "fr-5.1-1-14", "type": "order", "en": "I drink orange juice.", "a": ["Je bois du jus d'orange"], "extra": ["de la", "le"]}
+      ]
+    },
+    {
+      "id": "fr-5.1-2",
+      "title": "Je ne mange pas de viande",
+      "subtitle": "Negatives and quantities",
+      "topics": ["partitive", "quantities"],
+      "words": ["food#vegetables", "food#fruit", "food#salt", "food#oil", "basics#a lot, much", "basics#a little", "basics#little, not much", "basics#enough", "basics#too much"],
+      "learn": [
+        {"title": "pas de", "blocks": [
+          {"type": "text", "en": "After a negative, *du, de la, de l', des* become *de* (*d'* before a vowel): *Je mange de la viande. → Je ne mange pas de viande. Il boit de l'eau. → Il ne boit pas d'eau.*"},
+          {"type": "text", "en": "The definite article after *aimer* stays: *Je n'aime pas le poisson.*"},
+          {"type": "check", "item": {"type": "transform", "task_en": "Make it negative", "fr": "Je bois du café.", "a": ["Je ne bois pas de café."]}}
+        ]},
+        {"title": "How much?", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["a lot of", "beaucoup de"], ["a little", "un peu de"], ["little, not much", "peu de"], ["enough", "assez de"], ["too much, too many", "trop de"]
+          ]},
+          {"type": "text", "en": "After expressions of quantity there's just *de*, without an article: *beaucoup de sucre, un peu de lait, trop de sel*. Before a vowel it's *d'*: *beaucoup d'eau*."},
+          {"type": "examples", "items": [
+            {"fr": "Je mange beaucoup de fruits.", "en": "I eat a lot of fruit."},
+            {"fr": "Tu bois assez d'eau ?", "en": "Do you drink enough water?"},
+            {"fr": "Je prends un peu de lait dans mon café.", "en": "I take a little milk in my coffee."}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je mange beaucoup ___ légumes.", "a": ["de"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.1-2-01", "type": "transform", "task_en": "Make it negative", "fr": "Je mange de la viande.", "a": ["Je ne mange pas de viande."]},
+        {"id": "fr-5.1-2-02", "type": "transform", "task_en": "Make it negative", "fr": "Il boit du lait.", "a": ["Il ne boit pas de lait."]},
+        {"id": "fr-5.1-2-03", "type": "transform", "task_en": "Make it negative", "fr": "Nous mangeons des fruits.", "a": ["{Nous ne mangeons pas|On ne mange pas} de fruits."]},
+        {"id": "fr-5.1-2-04", "type": "transform", "task_en": "Make it negative", "fr": "Elle boit de l'eau.", "a": ["Elle ne boit pas d'eau."]},
+        {"id": "fr-5.1-2-05", "type": "transform", "task_en": "Make it negative", "fr": "J'aime le poisson.", "a": ["Je n'aime pas le poisson."], "why": "After aimer the definite article stays, even in the negative."},
+        {"id": "fr-5.1-2-06", "type": "cloze", "fr": "Je bois beaucoup ___eau.", "a": ["d'"]},
+        {"id": "fr-5.1-2-07", "type": "cloze", "fr": "Tu veux un peu ___ sucre ?", "a": ["de"]},
+        {"id": "fr-5.1-2-08", "type": "cloze", "fr": "Il mange trop ___ chocolat.", "a": ["de"]},
+        {"id": "fr-5.1-2-09", "type": "cloze", "fr": "Nous n'avons pas assez ___ pain.", "a": ["de"]},
+        {"id": "fr-5.1-2-10", "type": "build", "en": "I don't eat meat.", "a": ["Je ne mange pas de viande."]},
+        {"id": "fr-5.1-2-11", "type": "build", "en": "I eat a lot of vegetables.", "a": ["Je mange beaucoup de légumes."]},
+        {"id": "fr-5.1-2-12", "type": "build", "en": "Do you drink enough water?", "a": ["{Tu bois|Est-ce que tu bois|Bois-tu} assez d'eau ?"]},
+        {"id": "fr-5.1-2-13", "type": "build", "en": "I don't like fish.", "a": ["Je n'aime pas le poisson."]},
+        {"id": "fr-5.1-2-14", "type": "order", "en": "I want a little milk.", "a": ["Je veux un peu de lait"], "extra": ["du", "beaucoup"]}
+      ]
+    },
+    {
+      "id": "fr-5.1-3",
+      "title": "Je bois de l'eau",
+      "subtitle": "Boire, manger, fruit and vegetables",
+      "topics": ["food"],
+      "words": ["verbs-irregular#to drink", "verbs#to eat", "food#apple", "food#orange", "food#banana", "food#pear", "food#strawberry", "food#tomato", "food#carrot", "food#potato", "food#cucumber", "food#salad, lettuce", "food#soup", "food#chicken", "food#fish (as food)", "food#ice cream", "food#chocolate", "food#cake"],
+      "learn": [
+        {"title": "Boire and manger", "blocks": [
+          {"type": "table", "verb": "boire", "tense": "present"},
+          {"type": "text", "en": "*Manger* is regular, it just keeps the *e* with *nous*: *nous mangeons*."},
+          {"type": "tip", "title": "Pronunciation", "en": "*Ils boivent* is pronounced [il bwav]. The final *-ent* is silent."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Nous ___ du jus.", "a": ["buvons"], "hint": "boire"}}
+        ]},
+        {"title": "Fruit and vegetables", "blocks": [
+          {"type": "text", "en": "Fruit is *les fruits*, vegetables *les légumes*. *La pomme de terre* (potato) is literally \"apple of the earth\"."},
+          {"type": "text", "en": "When you count items you use *un, une*: *une pomme, deux bananes*. When you don't count, the partitive: *de la salade, du poulet*."},
+          {"type": "examples", "items": [
+            {"fr": "Je mange une pomme.", "en": "I'm eating an apple."},
+            {"fr": "On mange du poulet avec des pommes de terre.", "en": "We eat chicken with potatoes."},
+            {"fr": "Tu veux de la soupe ?", "en": "Do you want some soup?"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je mange ___ banane.", "a": ["une"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.1-3-f", "type": "form", "verb": "boire", "tense": "present"},
+        {"id": "fr-5.1-3-01", "type": "cloze", "fr": "Je ___ beaucoup d'eau.", "a": ["bois"], "hint": "boire"},
+        {"id": "fr-5.1-3-02", "type": "cloze", "fr": "Ils ___ du café.", "a": ["boivent"], "hint": "boire"},
+        {"id": "fr-5.1-3-03", "type": "cloze", "fr": "Nous ___ à midi.", "a": ["mangeons"], "hint": "manger"},
+        {"id": "fr-5.1-3-04", "type": "cloze", "fr": "Vous ___ quoi ?", "a": ["buvez"], "hint": "boire"},
+        {"id": "fr-5.1-3-05", "type": "cloze", "fr": "Je prends ___ pomme.", "a": ["une"]},
+        {"id": "fr-5.1-3-06", "type": "cloze", "fr": "Tu veux ___ poulet ?", "a": ["du"]},
+        {"id": "fr-5.1-3-07", "type": "cloze", "fr": "Elle mange ___ soupe.", "a": ["de la"]},
+        {"id": "fr-5.1-3-08", "type": "cloze", "fr": "J'achète des carottes et ___ pommes de terre.", "a": ["des"]},
+        {"id": "fr-5.1-3-09", "type": "build", "en": "I drink water and eat an apple.", "a": ["Je bois de l'eau et je mange une pomme."]},
+        {"id": "fr-5.1-3-10", "type": "build", "en": "Do you like strawberries? (tu)", "a": ["{Tu aimes|Est-ce que tu aimes|Aimes-tu} les fraises ?"]},
+        {"id": "fr-5.1-3-11", "type": "build", "en": "We eat chicken with potatoes.", "a": ["{Nous mangeons|On mange} du poulet avec des pommes de terre."]},
+        {"id": "fr-5.1-3-12", "type": "build", "en": "My sister doesn't drink coffee.", "a": ["Ma sœur ne boit pas de café."]},
+        {"id": "fr-5.1-3-13", "type": "build", "en": "For my afternoon snack I have cake.", "a": ["Au goûter, je {mange|prends} {du gâteau|un gâteau}."]},
+        {"id": "fr-5.1-3-14", "type": "order", "en": "The children drink milk.", "a": ["Les enfants boivent du lait"], "extra": ["boit", "le"]}
+      ]
+    },
+    {
+      "id": "fr-5.1-4",
+      "title": "Au restaurant",
+      "subtitle": "Ordering, and being hungry",
+      "topics": ["restaurant"],
+      "words": ["health#I'm hungry", "health#I'm thirsty", "food#I would like", "food#menu", "food#starter", "food#main course", "food#dessert", "food#drink", "food#bill", "food#waiter", "food#of your choice"],
+      "learn": [
+        {"title": "I'm hungry", "blocks": [
+          {"type": "text", "en": "You say you're hungry or thirsty with *avoir*: *J'ai faim.* (I'm hungry.) *J'ai soif.* (I'm thirsty.) The same goes for *j'ai chaud* (I'm hot) and *j'ai froid* (I'm cold)."},
+          {"type": "check", "item": {"type": "build", "en": "I'm hungry.", "a": ["J'ai faim."]}}
+        ]},
+        {"title": "Ordering", "blocks": [
+          {"type": "text", "en": "To order politely you say *Je voudrais...* (I would like...). It's more polite than *je veux* (I want)."},
+          {"type": "table", "textCols": [0], "rows": [
+            ["What will you have?", "Qu'est-ce que vous prenez ? / Vous avez choisi ?"],
+            ["I'll have...", "Je prends... / Je voudrais..."],
+            ["as a starter", "comme entrée"],
+            ["as a main course", "comme plat"],
+            ["for dessert", "comme dessert"],
+            ["to drink", "comme boisson"],
+            ["The bill, please.", "L'addition, s'il vous plaît."]
+          ]},
+          {"type": "examples", "items": [
+            {"fr": "Bonjour, vous avez choisi ?", "en": "Hello, have you chosen?"},
+            {"fr": "Oui, je voudrais un croque-monsieur, s'il vous plaît.", "en": "Yes, I'd like a croque-monsieur, please."},
+            {"fr": "Et comme boisson ?", "en": "And to drink?"},
+            {"fr": "Un jus d'orange, s'il vous plaît.", "en": "An orange juice, please."}
+          ]},
+          {"type": "tip", "title": "La carte", "en": "The menu is *la carte*. In France *le menu* mostly means a fixed-price meal (starter, main course, dessert)."},
+          {"type": "check", "item": {"type": "build", "en": "I'd like some soup, please.", "a": ["Je voudrais {une soupe|de la soupe}, s'il vous plaît."]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.1-4-01", "type": "cloze", "fr": "Je ___ un café, s'il vous plaît.", "a": ["voudrais"], "hint": "I would like"},
+        {"id": "fr-5.1-4-02", "type": "cloze", "fr": "L'___, s'il vous plaît !", "a": ["addition"], "hint": "bill"},
+        {"id": "fr-5.1-4-03", "type": "cloze", "fr": "Comme ___, je prends une glace.", "a": ["dessert"], "hint": "dessert"},
+        {"id": "fr-5.1-4-04", "type": "cloze", "fr": "J'ai ___, je voudrais de l'eau.", "a": ["soif"], "hint": "thirst"},
+        {"id": "fr-5.1-4-05", "type": "cloze", "fr": "Qu'est-ce que vous ___ ?", "a": ["prenez"], "hint": "prendre"},
+        {"id": "fr-5.1-4-06", "type": "build", "en": "I'm hungry and thirsty.", "a": ["J'ai faim et {j'ai |}soif."]},
+        {"id": "fr-5.1-4-07", "type": "build", "en": "I'd like a croque-monsieur, please.", "a": ["Je voudrais un croque-monsieur, s'il vous plaît."]},
+        {"id": "fr-5.1-4-08", "type": "build", "en": "As a starter I'll have a salad.", "a": ["Comme entrée, {je prends|je voudrais} une salade."]},
+        {"id": "fr-5.1-4-09", "type": "build", "en": "What will you have to drink? (vous)", "a": ["{Qu'est-ce que vous prenez|Que prenez-vous|Vous prenez quoi} comme boisson ?"]},
+        {"id": "fr-5.1-4-10", "type": "build", "en": "The bill, please.", "a": ["L'addition, s'il vous plaît."]},
+        {"id": "fr-5.1-4-11", "type": "build", "en": "I'll have an orange juice, please.", "a": ["{Je prends|Je voudrais} un jus d'orange, s'il vous plaît."]},
+        {"id": "fr-5.1-4-12", "type": "transform", "task_en": "Say it more politely", "fr": "Je veux un café.", "a": ["Je voudrais un café."]},
+        {"id": "fr-5.1-4-13", "type": "order", "en": "As a main course I'll have chicken and chips.", "a": ["Comme plat je prends du poulet avec des frites"], "extra": ["une", "prend"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-5.1-t-01", "lesson": "fr-5.1-1", "type": "cloze", "fr": "Je mange ___ fromage.", "a": ["du"]},
+      {"id": "fr-5.1-t-02", "lesson": "fr-5.1-1", "type": "cloze", "fr": "Tu bois ___eau ?", "a": ["de l'"]},
+      {"id": "fr-5.1-t-03", "lesson": "fr-5.1-1", "type": "cloze", "fr": "Elle achète ___ salade.", "a": ["de la"]},
+      {"id": "fr-5.1-t-04", "lesson": "fr-5.1-1", "type": "cloze", "fr": "Il adore ___ chocolat.", "a": ["le"]},
+      {"id": "fr-5.1-t-05", "lesson": "fr-5.1-1", "type": "build", "en": "For breakfast I eat bread and jam.", "a": ["Au petit-déjeuner, je mange du pain avec de la confiture."]},
+      {"id": "fr-5.1-t-06", "lesson": "fr-5.1-1", "type": "build", "en": "We're eating soup.", "a": ["{Nous mangeons|On mange} {de la soupe|une soupe}."]},
+      {"id": "fr-5.1-t-07", "lesson": "fr-5.1-2", "type": "transform", "task_en": "Make it negative", "fr": "Il mange du pain.", "a": ["Il ne mange pas de pain."]},
+      {"id": "fr-5.1-t-08", "lesson": "fr-5.1-2", "type": "transform", "task_en": "Make it negative", "fr": "Je bois de l'eau.", "a": ["Je ne bois pas d'eau."]},
+      {"id": "fr-5.1-t-09", "lesson": "fr-5.1-2", "type": "transform", "task_en": "Make it negative", "fr": "Elle prend des pâtes.", "a": ["Elle ne prend pas de pâtes."]},
+      {"id": "fr-5.1-t-10", "lesson": "fr-5.1-2", "type": "cloze", "fr": "Je mange beaucoup ___ fruits.", "a": ["de"]},
+      {"id": "fr-5.1-t-11", "lesson": "fr-5.1-2", "type": "cloze", "fr": "Tu veux un peu ___eau ?", "a": ["d'"]},
+      {"id": "fr-5.1-t-12", "lesson": "fr-5.1-2", "type": "build", "en": "I drink too much coffee.", "a": ["Je bois trop de café."]},
+      {"id": "fr-5.1-t-13", "lesson": "fr-5.1-2", "type": "build", "en": "My grandmother doesn't eat meat.", "a": ["Ma grand-mère ne mange pas de viande."]},
+      {"id": "fr-5.1-t-14", "lesson": "fr-5.1-3", "type": "form", "verb": "boire", "tense": "present", "person": 3},
+      {"id": "fr-5.1-t-15", "lesson": "fr-5.1-3", "type": "form", "verb": "boire", "tense": "present", "person": 5},
+      {"id": "fr-5.1-t-16", "lesson": "fr-5.1-3", "type": "form", "verb": "manger", "tense": "present", "person": 3},
+      {"id": "fr-5.1-t-17", "lesson": "fr-5.1-3", "type": "build", "en": "I don't drink milk.", "a": ["Je ne bois pas de lait."]},
+      {"id": "fr-5.1-t-18", "lesson": "fr-5.1-3", "type": "build", "en": "I like apples, but I don't like bananas.", "a": ["J'aime les pommes, mais je n'aime pas les bananes."]},
+      {"id": "fr-5.1-t-19", "lesson": "fr-5.1-3", "type": "build", "en": "I like fruit.", "a": ["J'aime les fruits."]},
+      {"id": "fr-5.1-t-20", "lesson": "fr-5.1-4", "type": "build", "en": "I'd like some tea, please.", "a": ["Je voudrais {un thé|du thé}, s'il vous plaît."]},
+      {"id": "fr-5.1-t-21", "lesson": "fr-5.1-4", "type": "build", "en": "I'm thirsty.", "a": ["J'ai soif."]},
+      {"id": "fr-5.1-t-22", "lesson": "fr-5.1-4", "type": "build", "en": "For dessert I'll have an ice cream.", "a": ["Comme dessert, {je prends|je voudrais} une glace."]},
+      {"id": "fr-5.1-t-23", "lesson": "fr-5.1-4", "type": "build", "en": "What will you have as a main course? (vous)", "a": ["{Qu'est-ce que vous prenez|Que prenez-vous|Vous prenez quoi} comme plat ?"]},
+      {"id": "fr-5.1-t-24", "lesson": "fr-5.1-4", "type": "cloze", "fr": "J'ai ___, je voudrais un sandwich.", "a": ["faim"], "hint": "hunger"},
+      {"id": "fr-5.1-t-25", "lesson": "fr-5.1-4", "type": "transform", "task_en": "Say it more politely", "fr": "Je veux de l'eau.", "a": ["Je voudrais de l'eau."]}
+    ]
+  }
+}

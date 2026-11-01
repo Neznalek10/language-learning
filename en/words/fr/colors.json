@@ -1,0 +1,74 @@
+{
+  "lang": "fr",
+  "from": "en",
+  "type": "adjectives",
+  "title": "Colors",
+  "unit": "2.2",
+  "level": null,
+  "words": [
+    {
+      "q": "colour",
+      "a": "couleur"
+    },
+    {
+      "q": "grey",
+      "a": "gris"
+    },
+    {
+      "q": "blue",
+      "a": "bleu"
+    },
+    {
+      "q": "yellow",
+      "a": "jaune"
+    },
+    {
+      "q": "red",
+      "a": "rouge"
+    },
+    {
+      "q": "pink",
+      "a": "rose"
+    },
+    {
+      "q": "beige",
+      "a": "beige"
+    },
+    {
+      "q": "black",
+      "a": "noir"
+    },
+    {
+      "q": "white",
+      "a": "blanc"
+    },
+    {
+      "q": "brown",
+      "a": "marron"
+    },
+    {
+      "q": "purple",
+      "a": "violet"
+    },
+    {
+      "q": "light (colour)",
+      "a": "clair"
+    },
+    {
+      "q": "dark (colour)",
+      "a": "foncé"
+    },
+    {
+      "q": "light purple",
+      "a": "mauve"
+    },
+    {
+      "q": "green",
+      "a": "vert"
+    },
+    {
+      "q": "orange",
+      "a": "orange"
+    }
+  ]
+}

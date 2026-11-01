@@ -1,0 +1,1552 @@
+{
+  "schema": 1,
+  "goals": [
+    "Talk about what you did at the weekend",
+    "Form the passé composé with avoir",
+    "Use irregular participles (fait, vu, pris, eu, été...)",
+    "Negatives and questions in the past: je n'ai pas vu, tu as déjà fini ?",
+    "Time words: hier, samedi dernier, il y a deux jours"
+  ],
+  "lessons": [
+    {
+      "id": "fr-weekend-1",
+      "title": "Hier, j'ai joué au basket",
+      "subtitle": "The past: -er verbs",
+      "topics": [
+        "passe-compose"
+      ],
+      "words": [
+        "time#yesterday",
+        "time#weekend",
+        "verbs#to forget"
+      ],
+      "learn": [
+        {
+          "title": "Passé composé",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "You talk about something that happened and is finished in the *passé composé*. It has two words: *avoir* in the present + the past participle. *J'ai joué* = I played, I have played."
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "I played",
+                  "j'ai joué"
+                ],
+                [
+                  "you played (tu)",
+                  "tu as joué"
+                ],
+                [
+                  "he played, she played",
+                  "il / elle a joué"
+                ],
+                [
+                  "we played",
+                  "nous avons joué"
+                ],
+                [
+                  "you played (vous)",
+                  "vous avez joué"
+                ],
+                [
+                  "they played",
+                  "ils / elles ont joué"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "For *-er* verbs you make the participle by changing *-er* to *-é*: *jouer → joué, manger → mangé, regarder → regardé*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Hier, j'ai ___ un film.",
+                "a": [
+                  "regardé"
+                ],
+                "hint": "regarder"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Two words",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "don't leave out avoir",
+              "en": "English can say it in one word (*played*), but French always needs both: *j'ai joué*. *Joué* on its own isn't a sentence, and *je joué* is a mistake."
+            },
+            {
+              "type": "table",
+              "verb": "jouer",
+              "tense": "passe-compose"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Samedi, j'ai joué au basket.",
+                  "en": "On Saturday I played basketball."
+                },
+                {
+                  "fr": "Nous avons mangé une pizza.",
+                  "en": "We ate a pizza."
+                },
+                {
+                  "fr": "Tu as écouté la radio ?",
+                  "en": "Did you listen to the radio? (tu)"
+                },
+                {
+                  "fr": "Ils ont visité Prague.",
+                  "en": "They visited Prague."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Yesterday we played basketball.",
+                "a": [
+                  "Hier, nous avons joué au basket.",
+                  "Hier, on a joué au basket.",
+                  "Nous avons joué au basket hier."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-weekend-1-01",
+          "type": "form",
+          "verb": "jouer",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-weekend-1-02",
+          "type": "form",
+          "verb": "manger",
+          "tense": "passe-compose",
+          "person": 3
+        },
+        {
+          "id": "fr-weekend-1-03",
+          "type": "form",
+          "verb": "regarder",
+          "tense": "passe-compose",
+          "person": 1
+        },
+        {
+          "id": "fr-weekend-1-04",
+          "type": "form",
+          "verb": "travailler",
+          "tense": "passe-compose",
+          "person": 2
+        },
+        {
+          "id": "fr-weekend-1-05",
+          "type": "form",
+          "verb": "écouter",
+          "tense": "passe-compose",
+          "person": 5
+        },
+        {
+          "id": "fr-weekend-1-06",
+          "type": "cloze",
+          "fr": "Samedi, j'___ joué aux jeux vidéo.",
+          "a": [
+            "ai"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-weekend-1-07",
+          "type": "cloze",
+          "fr": "Nous ___ mangé au restaurant.",
+          "a": [
+            "avons"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-weekend-1-08",
+          "type": "cloze",
+          "fr": "Tu as ___ ton devoir ?",
+          "a": [
+            "oublié"
+          ],
+          "hint": "oublier"
+        },
+        {
+          "id": "fr-weekend-1-09",
+          "type": "cloze",
+          "fr": "Elle a ___ de la musique.",
+          "a": [
+            "écouté"
+          ],
+          "hint": "écouter"
+        },
+        {
+          "id": "fr-weekend-1-10",
+          "type": "build",
+          "en": "Yesterday I played basketball.",
+          "a": [
+            "Hier, j'ai joué au basket.",
+            "J'ai joué au basket hier."
+          ]
+        },
+        {
+          "id": "fr-weekend-1-11",
+          "type": "build",
+          "en": "Did you watch the match? (tu)",
+          "a": [
+            "Tu as regardé le match ?",
+            "Est-ce que tu as regardé le match ?",
+            "As-tu regardé le match ?"
+          ]
+        },
+        {
+          "id": "fr-weekend-1-12",
+          "type": "build",
+          "en": "They worked all weekend.",
+          "a": [
+            "Ils ont travaillé tout le week-end."
+          ]
+        },
+        {
+          "id": "fr-weekend-1-13",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Je mange une pomme.",
+          "a": [
+            "J'ai mangé une pomme."
+          ]
+        },
+        {
+          "id": "fr-weekend-1-14",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Nous regardons la télé.",
+          "a": [
+            "Nous avons regardé la télé."
+          ]
+        },
+        {
+          "id": "fr-weekend-1-15",
+          "type": "order",
+          "en": "On Saturday I forgot my phone.",
+          "a": [
+            "Samedi j'ai oublié mon portable"
+          ],
+          "extra": [
+            "suis",
+            "oublier"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-weekend-2",
+      "title": "J'ai fini, j'ai attendu",
+      "subtitle": "The past: -ir and -re verbs",
+      "topics": [
+        "passe-compose"
+      ],
+      "words": [
+        "verbs-irregular#to lose",
+        "verbs-irregular#to sleep",
+        "verbs-irregular#to wait (for)",
+        "verbs#to regret"
+      ],
+      "learn": [
+        {
+          "title": "-ir → -i, -re → -u",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*-ir* verbs like *finir* have participles in *-i*: *fini, choisi, dormi*. *-re* verbs like *attendre* have participles in *-u*: *attendu, perdu, vendu, répondu*."
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "I finished",
+                  "j'ai fini"
+                ],
+                [
+                  "I chose",
+                  "j'ai choisi"
+                ],
+                [
+                  "I slept",
+                  "j'ai dormi"
+                ],
+                [
+                  "I waited",
+                  "j'ai attendu"
+                ],
+                [
+                  "I lost",
+                  "j'ai perdu"
+                ],
+                [
+                  "I answered",
+                  "j'ai répondu"
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Nous avons ___ le bus pendant vingt minutes.",
+                "a": [
+                  "attendu"
+                ],
+                "hint": "attendre"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "table",
+              "verb": "finir",
+              "tense": "passe-compose"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai fini mes devoirs à neuf heures.",
+                  "en": "I finished my homework at nine."
+                },
+                {
+                  "fr": "On a perdu le match.",
+                  "en": "We lost the match."
+                },
+                {
+                  "fr": "Tu as bien dormi ?",
+                  "en": "Did you sleep well? (tu)"
+                },
+                {
+                  "fr": "Elle a répondu à mon message.",
+                  "en": "She answered my message."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "We lost the match.",
+                "a": [
+                  "Nous avons perdu le match.",
+                  "On a perdu le match."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-weekend-2-01",
+          "type": "form",
+          "verb": "finir",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-weekend-2-02",
+          "type": "form",
+          "verb": "choisir",
+          "tense": "passe-compose",
+          "person": 4
+        },
+        {
+          "id": "fr-weekend-2-03",
+          "type": "form",
+          "verb": "attendre",
+          "tense": "passe-compose",
+          "person": 2
+        },
+        {
+          "id": "fr-weekend-2-04",
+          "type": "form",
+          "verb": "perdre",
+          "tense": "passe-compose",
+          "person": 3
+        },
+        {
+          "id": "fr-weekend-2-05",
+          "type": "form",
+          "verb": "dormir",
+          "tense": "passe-compose",
+          "person": 1
+        },
+        {
+          "id": "fr-weekend-2-06",
+          "type": "cloze",
+          "fr": "J'ai ___ mon livre hier soir.",
+          "a": [
+            "fini"
+          ],
+          "hint": "finir"
+        },
+        {
+          "id": "fr-weekend-2-07",
+          "type": "cloze",
+          "fr": "Tu as ___ ton sac ?",
+          "a": [
+            "perdu"
+          ],
+          "hint": "perdre"
+        },
+        {
+          "id": "fr-weekend-2-08",
+          "type": "cloze",
+          "fr": "Ils ont ___ un film d'action.",
+          "a": [
+            "choisi"
+          ],
+          "hint": "choisir"
+        },
+        {
+          "id": "fr-weekend-2-09",
+          "type": "cloze",
+          "fr": "Elle n'a pas ___ à ma question.",
+          "a": [
+            "répondu"
+          ],
+          "hint": "to answer"
+        },
+        {
+          "id": "fr-weekend-2-10",
+          "type": "build",
+          "en": "I slept well.",
+          "a": [
+            "J'ai bien dormi."
+          ]
+        },
+        {
+          "id": "fr-weekend-2-11",
+          "type": "build",
+          "en": "We waited for you.",
+          "a": [
+            "Nous t'avons attendu.",
+            "On t'a attendu.",
+            "Nous t'avons attendue.",
+            "On t'a attendue."
+          ]
+        },
+        {
+          "id": "fr-weekend-2-12",
+          "type": "build",
+          "en": "She chose a blue dress.",
+          "a": [
+            "Elle a choisi une robe bleue."
+          ]
+        },
+        {
+          "id": "fr-weekend-2-13",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Il finit son repas.",
+          "a": [
+            "Il a fini son repas."
+          ]
+        },
+        {
+          "id": "fr-weekend-2-14",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Vous attendez le train.",
+          "a": [
+            "Vous avez attendu le train."
+          ]
+        },
+        {
+          "id": "fr-weekend-2-15",
+          "type": "order",
+          "en": "Our team lost the match.",
+          "a": [
+            "Notre équipe a perdu le match"
+          ],
+          "extra": [
+            "perdre",
+            "est"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-weekend-3",
+      "title": "J'ai fait, j'ai vu",
+      "subtitle": "Irregular participles",
+      "topics": [
+        "passe-compose"
+      ],
+      "words": [
+        "verbs-irregular#to see"
+      ],
+      "learn": [
+        {
+          "title": "Forms you have to learn",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Many common verbs have an irregular participle. Learn them like vocabulary:"
+            },
+            {
+              "type": "table",
+              "rows": [
+                [
+                  "avoir",
+                  "eu",
+                  "J'ai eu un cadeau."
+                ],
+                [
+                  "être",
+                  "été",
+                  "J'ai été malade."
+                ],
+                [
+                  "faire",
+                  "fait",
+                  "J'ai fait du sport."
+                ],
+                [
+                  "prendre",
+                  "pris",
+                  "J'ai pris le bus."
+                ],
+                [
+                  "mettre",
+                  "mis",
+                  "J'ai mis un pull."
+                ],
+                [
+                  "voir",
+                  "vu",
+                  "J'ai vu un film."
+                ],
+                [
+                  "boire",
+                  "bu",
+                  "J'ai bu un thé."
+                ],
+                [
+                  "lire",
+                  "lu",
+                  "J'ai lu un livre."
+                ],
+                [
+                  "dire",
+                  "dit",
+                  "Il a dit oui."
+                ],
+                [
+                  "écrire",
+                  "écrit",
+                  "J'ai écrit un message."
+                ],
+                [
+                  "pouvoir",
+                  "pu",
+                  "Je n'ai pas pu venir."
+                ],
+                [
+                  "vouloir",
+                  "voulu",
+                  "J'ai voulu partir."
+                ]
+              ],
+              "textCols": [],
+              "head": [
+                "verb",
+                "participle",
+                "example"
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "Samedi, j'ai ___ du vélo.",
+                "a": [
+                  "fait"
+                ],
+                "hint": "faire"
+              }
+            }
+          ]
+        },
+        {
+          "title": "Groups",
+          "blocks": [
+            {
+              "type": "tip",
+              "title": "Same endings",
+              "en": "Grouping them helps: *pris, mis* (in *-is*), *dit, écrit, fait* (in *-t*), *vu, bu, lu, eu, pu, voulu* (in *-u*)."
+            },
+            {
+              "type": "table",
+              "verb": "faire",
+              "tense": "passe-compose"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "On a vu un super film.",
+                  "en": "We saw a great film."
+                },
+                {
+                  "fr": "J'ai pris des photos.",
+                  "en": "I took some photos."
+                },
+                {
+                  "fr": "Tu as lu ce livre ?",
+                  "en": "Have you read this book? (tu)"
+                },
+                {
+                  "fr": "Mes parents ont eu une bonne idée.",
+                  "en": "My parents had a good idea."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "I saw your brother.",
+                "a": [
+                  "J'ai vu ton frère."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-weekend-3-01",
+          "type": "form",
+          "verb": "faire",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-weekend-3-02",
+          "type": "form",
+          "verb": "prendre",
+          "tense": "passe-compose",
+          "person": 2
+        },
+        {
+          "id": "fr-weekend-3-03",
+          "type": "form",
+          "verb": "voir",
+          "tense": "passe-compose",
+          "person": 3
+        },
+        {
+          "id": "fr-weekend-3-04",
+          "type": "form",
+          "verb": "avoir",
+          "tense": "passe-compose",
+          "person": 1
+        },
+        {
+          "id": "fr-weekend-3-05",
+          "type": "form",
+          "verb": "être",
+          "tense": "passe-compose",
+          "person": 0
+        },
+        {
+          "id": "fr-weekend-3-06",
+          "type": "form",
+          "verb": "boire",
+          "tense": "passe-compose",
+          "person": 5
+        },
+        {
+          "id": "fr-weekend-3-07",
+          "type": "form",
+          "verb": "lire",
+          "tense": "passe-compose",
+          "person": 4
+        },
+        {
+          "id": "fr-weekend-3-08",
+          "type": "cloze",
+          "fr": "Hier, nous avons ___ le train.",
+          "a": [
+            "pris"
+          ],
+          "hint": "prendre"
+        },
+        {
+          "id": "fr-weekend-3-09",
+          "type": "cloze",
+          "fr": "Tu as ___ le nouveau film ?",
+          "a": [
+            "vu"
+          ],
+          "hint": "voir"
+        },
+        {
+          "id": "fr-weekend-3-10",
+          "type": "cloze",
+          "fr": "J'ai ___ un message à ma mère.",
+          "a": [
+            "écrit"
+          ],
+          "hint": "écrire"
+        },
+        {
+          "id": "fr-weekend-3-11",
+          "type": "cloze",
+          "fr": "Elle a ___ une veste parce qu'il faisait froid.",
+          "a": [
+            "mis"
+          ],
+          "hint": "mettre"
+        },
+        {
+          "id": "fr-weekend-3-12",
+          "type": "cloze",
+          "fr": "Ils ont ___ du sport tout le week-end.",
+          "a": [
+            "fait"
+          ],
+          "hint": "faire"
+        },
+        {
+          "id": "fr-weekend-3-13",
+          "type": "build",
+          "en": "On Saturday I did my homework.",
+          "a": [
+            "Samedi, j'ai fait mes devoirs.",
+            "J'ai fait mes devoirs samedi."
+          ]
+        },
+        {
+          "id": "fr-weekend-3-14",
+          "type": "build",
+          "en": "We drank two lemonades.",
+          "a": [
+            "Nous avons bu deux limonades.",
+            "On a bu deux limonades."
+          ]
+        },
+        {
+          "id": "fr-weekend-3-15",
+          "type": "build",
+          "en": "What did you say? (tu)",
+          "a": [
+            "Qu'est-ce que tu as dit ?",
+            "Tu as dit quoi ?"
+          ]
+        },
+        {
+          "id": "fr-weekend-3-16",
+          "type": "build",
+          "en": "I was ill.",
+          "a": [
+            "J'ai été malade."
+          ]
+        },
+        {
+          "id": "fr-weekend-3-17",
+          "type": "transform",
+          "task_en": "Put it in the past",
+          "fr": "Je prends une photo.",
+          "a": [
+            "J'ai pris une photo."
+          ]
+        },
+        {
+          "id": "fr-weekend-3-18",
+          "type": "order",
+          "en": "I read a book about Paris.",
+          "a": [
+            "J'ai lu un livre sur Paris"
+          ],
+          "extra": [
+            "lis",
+            "suis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-weekend-4",
+      "title": "Je n'ai pas dormi",
+      "subtitle": "Negatives and questions in the past",
+      "topics": [
+        "passe-compose",
+        "negation"
+      ],
+      "words": [
+        "time#already",
+        "time#not yet"
+      ],
+      "learn": [
+        {
+          "title": "The negative",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Ne ... pas* only goes around *avoir*; the participle comes after *pas*: *Je n'ai pas dormi.* (I didn't sleep.) The same with *ne ... jamais, ne ... rien*: *Je n'ai rien mangé.*"
+            },
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "I didn't sleep.",
+                  "Je n'ai pas dormi."
+                ],
+                [
+                  "I didn't eat anything.",
+                  "Je n'ai rien mangé."
+                ],
+                [
+                  "I've never seen that.",
+                  "Je n'ai jamais vu ça."
+                ],
+                [
+                  "I haven't finished yet.",
+                  "Je n'ai pas encore fini."
+                ]
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "transform",
+                "task_en": "Make it negative",
+                "fr": "J'ai regardé le match.",
+                "a": [
+                  "Je n'ai pas regardé le match."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Questions and short words",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Questions: *Tu as vu le match ?* or *Est-ce que tu as vu le match ?* What did you do? = *Qu'est-ce que tu as fait ?* The short adverbs *déjà, bien, beaucoup, trop* go between *avoir* and the participle: *J'ai déjà mangé. J'ai bien dormi.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Tu as déjà fini ?",
+                  "en": "Have you finished already? (tu)"
+                },
+                {
+                  "fr": "Je n'ai pas encore mangé.",
+                  "en": "I haven't eaten yet."
+                },
+                {
+                  "fr": "Qu'est-ce que vous avez fait dimanche ?",
+                  "en": "What did you do on Sunday? (vous)"
+                },
+                {
+                  "fr": "On a beaucoup travaillé.",
+                  "en": "We worked a lot."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "What did you do at the weekend? (tu)",
+                "a": [
+                  "Qu'est-ce que tu as fait le week-end dernier ?",
+                  "Qu'est-ce que tu as fait ce week-end ?",
+                  "Tu as fait quoi ce week-end ?",
+                  "Qu'est-ce que tu as fait pendant le week-end ?"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-weekend-4-01",
+          "type": "cloze",
+          "fr": "Je n'___ pas dormi.",
+          "a": [
+            "ai"
+          ],
+          "hint": "avoir"
+        },
+        {
+          "id": "fr-weekend-4-02",
+          "type": "cloze",
+          "fr": "Il n'a ___ mangé.",
+          "a": [
+            "rien"
+          ],
+          "hint": "nothing"
+        },
+        {
+          "id": "fr-weekend-4-03",
+          "type": "cloze",
+          "fr": "Tu as ___ fini ?",
+          "a": [
+            "déjà"
+          ],
+          "hint": "already"
+        },
+        {
+          "id": "fr-weekend-4-04",
+          "type": "cloze",
+          "fr": "Je n'ai pas ___ lu ce livre.",
+          "a": [
+            "encore"
+          ],
+          "hint": "yet"
+        },
+        {
+          "id": "fr-weekend-4-05",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Nous avons gagné.",
+          "a": [
+            "Nous n'avons pas gagné."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-06",
+          "type": "transform",
+          "task_en": "Make it negative",
+          "fr": "Elle a pris le bus.",
+          "a": [
+            "Elle n'a pas pris le bus."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-07",
+          "type": "transform",
+          "task_en": "Make it negative with jamais",
+          "fr": "J'ai vu la mer.",
+          "a": [
+            "Je n'ai jamais vu la mer."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-08",
+          "type": "build",
+          "en": "What did you do on Saturday? (tu)",
+          "a": [
+            "Qu'est-ce que tu as fait samedi ?",
+            "Tu as fait quoi samedi ?"
+          ]
+        },
+        {
+          "id": "fr-weekend-4-09",
+          "type": "build",
+          "en": "Have you seen that film yet? (tu)",
+          "a": [
+            "Tu as déjà vu ce film ?",
+            "Est-ce que tu as déjà vu ce film ?",
+            "As-tu déjà vu ce film ?"
+          ]
+        },
+        {
+          "id": "fr-weekend-4-10",
+          "type": "build",
+          "en": "I haven't had breakfast yet.",
+          "a": [
+            "Je n'ai pas encore pris mon petit-déjeuner.",
+            "Je n'ai pas encore pris le petit-déjeuner.",
+            "Je n'ai pas encore mangé."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-11",
+          "type": "build",
+          "en": "We didn't see anything.",
+          "a": [
+            "Nous n'avons rien vu.",
+            "On n'a rien vu."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-12",
+          "type": "build",
+          "en": "I slept a lot.",
+          "a": [
+            "J'ai beaucoup dormi."
+          ]
+        },
+        {
+          "id": "fr-weekend-4-13",
+          "type": "order",
+          "en": "Didn't you take your jacket? (tu)",
+          "a": [
+            "Tu n'as pas pris ton blouson"
+          ],
+          "extra": [
+            "ne",
+            "pris"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fr-weekend-5",
+      "title": "Samedi dernier",
+      "subtitle": "When was it?",
+      "topics": [
+        "past-time",
+        "passe-compose"
+      ],
+      "words": [
+        "time#last night, yesterday evening",
+        "time#the day before yesterday",
+        "time#last Saturday",
+        "time#last week",
+        "time#last month",
+        "time#last year",
+        "time#two days ago",
+        "verbs#to meet",
+        "verbs#to last"
+      ],
+      "learn": [
+        {
+          "title": "When?",
+          "blocks": [
+            {
+              "type": "table",
+              "textCols": [0],
+              "rows": [
+                [
+                  "yesterday",
+                  "hier"
+                ],
+                [
+                  "last night",
+                  "hier soir"
+                ],
+                [
+                  "the day before yesterday",
+                  "avant-hier"
+                ],
+                [
+                  "last Saturday",
+                  "samedi dernier"
+                ],
+                [
+                  "last week",
+                  "la semaine dernière"
+                ],
+                [
+                  "last month",
+                  "le mois dernier"
+                ],
+                [
+                  "last year",
+                  "l'année dernière"
+                ],
+                [
+                  "two days ago",
+                  "il y a deux jours"
+                ],
+                [
+                  "this morning",
+                  "ce matin"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "title": "il y a = ago",
+              "en": "*Il y a* + a length of time means *ago*: *il y a deux jours* (two days ago), *il y a une semaine* (a week ago). *Dernier* goes after a day: *samedi dernier*, and agrees with *semaine, mois, année*: *la semaine dernière*."
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "cloze",
+                "fr": "J'ai visité Paris il y ___ deux ans.",
+                "a": [
+                  "a"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Telling a story",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When you tell a story, the words from A1 help: *d'abord* (first), *ensuite / puis* (then), *après* (after that), *enfin* (finally)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Samedi dernier, j'ai joué au basket.",
+                  "en": "Last Saturday I played basketball."
+                },
+                {
+                  "fr": "D'abord, on a mangé, ensuite on a regardé un film.",
+                  "en": "First we ate, then we watched a film."
+                },
+                {
+                  "fr": "Le match a duré deux heures.",
+                  "en": "The match lasted two hours."
+                },
+                {
+                  "fr": "Hier soir, j'ai rencontré Paul en ville.",
+                  "en": "Last night I met Paul in town."
+                }
+              ]
+            },
+            {
+              "type": "check",
+              "item": {
+                "type": "build",
+                "en": "Last week I saw my grandmother.",
+                "a": [
+                  "La semaine dernière, j'ai vu ma grand-mère.",
+                  "J'ai vu ma grand-mère la semaine dernière."
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Words",
+          "blocks": [
+            {
+              "type": "vocab"
+            }
+          ]
+        }
+      ],
+      "practice": [
+        {
+          "id": "fr-weekend-5-01",
+          "type": "cloze",
+          "fr": "___ soir, j'ai regardé un film.",
+          "a": [
+            "Hier"
+          ],
+          "hint": "yesterday"
+        },
+        {
+          "id": "fr-weekend-5-02",
+          "type": "cloze",
+          "fr": "Samedi ___, nous avons joué au tennis.",
+          "a": [
+            "dernier"
+          ],
+          "hint": "last"
+        },
+        {
+          "id": "fr-weekend-5-03",
+          "type": "cloze",
+          "fr": "La semaine ___, il a plu.",
+          "a": [
+            "dernière"
+          ],
+          "hint": "last"
+        },
+        {
+          "id": "fr-weekend-5-04",
+          "type": "cloze",
+          "fr": "J'ai vu Léa il y a deux ___.",
+          "a": [
+            "jours"
+          ],
+          "hint": "days"
+        },
+        {
+          "id": "fr-weekend-5-05",
+          "type": "cloze",
+          "fr": "Le film a ___ trois heures.",
+          "a": [
+            "duré"
+          ],
+          "hint": "durer"
+        },
+        {
+          "id": "fr-weekend-5-06",
+          "type": "build",
+          "en": "Last night I played Minecraft.",
+          "a": [
+            "Hier soir, j'ai joué à Minecraft.",
+            "J'ai joué à Minecraft hier soir."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-07",
+          "type": "build",
+          "en": "The day before yesterday I met a friend.",
+          "a": [
+            "Avant-hier, j'ai rencontré un ami.",
+            "J'ai rencontré un ami avant-hier.",
+            "Avant-hier, j'ai rencontré un copain."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-08",
+          "type": "build",
+          "en": "Last year we visited Paris.",
+          "a": [
+            "L'année dernière, nous avons visité Paris.",
+            "L'année dernière, on a visité Paris.",
+            "Nous avons visité Paris l'année dernière."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-09",
+          "type": "build",
+          "en": "First I ate, then I studied.",
+          "a": [
+            "D'abord, j'ai mangé, ensuite j'ai étudié.",
+            "D'abord, j'ai mangé, puis j'ai étudié.",
+            "D'abord, j'ai mangé, après j'ai étudié.",
+            "D'abord, j'ai mangé, ensuite j'ai travaillé."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-10",
+          "type": "build",
+          "en": "A week ago I lost a match.",
+          "a": [
+            "Il y a une semaine, j'ai perdu un match.",
+            "J'ai perdu un match il y a une semaine."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-11",
+          "type": "transform",
+          "task_en": "Say it about last Saturday",
+          "fr": "Samedi prochain, je vais jouer au foot.",
+          "a": [
+            "Samedi dernier, j'ai joué au foot."
+          ]
+        },
+        {
+          "id": "fr-weekend-5-12",
+          "type": "order",
+          "en": "Last month we won the tournament.",
+          "a": [
+            "Le mois dernier nous avons gagné le tournoi"
+          ],
+          "extra": [
+            "dernière",
+            "gagner"
+          ]
+        }
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {
+        "id": "fr-weekend-t-01",
+        "lesson": "fr-weekend-1",
+        "type": "build",
+        "en": "On Saturday we ate pizza.",
+        "a": [
+          "Samedi, nous avons mangé une pizza.",
+          "Samedi, on a mangé une pizza.",
+          "Nous avons mangé une pizza samedi."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-02",
+        "lesson": "fr-weekend-1",
+        "type": "cloze",
+        "fr": "Ils ont ___ au parc.",
+        "a": [
+          "joué"
+        ],
+        "hint": "jouer"
+      },
+      {
+        "id": "fr-weekend-t-03",
+        "lesson": "fr-weekend-1",
+        "type": "transform",
+        "task_en": "Put it in the past",
+        "fr": "Tu écoutes de la musique.",
+        "a": [
+          "Tu as écouté de la musique."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-04",
+        "lesson": "fr-weekend-1",
+        "type": "build",
+        "en": "I forgot my keys.",
+        "a": [
+          "J'ai oublié mes clés."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-05",
+        "lesson": "fr-weekend-1",
+        "type": "form",
+        "verb": "parler",
+        "tense": "passe-compose",
+        "person": 4
+      },
+      {
+        "id": "fr-weekend-t-06",
+        "lesson": "fr-weekend-2",
+        "type": "cloze",
+        "fr": "Nous avons ___ le match.",
+        "a": [
+          "perdu"
+        ],
+        "hint": "perdre"
+      },
+      {
+        "id": "fr-weekend-t-07",
+        "lesson": "fr-weekend-2",
+        "type": "build",
+        "en": "Did you sleep well? (tu)",
+        "a": [
+          "Tu as bien dormi ?",
+          "Est-ce que tu as bien dormi ?"
+        ]
+      },
+      {
+        "id": "fr-weekend-t-08",
+        "lesson": "fr-weekend-2",
+        "type": "build",
+        "en": "I waited twenty minutes.",
+        "a": [
+          "J'ai attendu vingt minutes."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-09",
+        "lesson": "fr-weekend-2",
+        "type": "transform",
+        "task_en": "Put it in the past",
+        "fr": "Elle choisit un livre.",
+        "a": [
+          "Elle a choisi un livre."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-10",
+        "lesson": "fr-weekend-2",
+        "type": "form",
+        "verb": "finir",
+        "tense": "passe-compose",
+        "person": 5
+      },
+      {
+        "id": "fr-weekend-t-11",
+        "lesson": "fr-weekend-3",
+        "type": "cloze",
+        "fr": "Hier, j'ai ___ un bon livre.",
+        "a": [
+          "lu"
+        ],
+        "hint": "lire"
+      },
+      {
+        "id": "fr-weekend-t-12",
+        "lesson": "fr-weekend-3",
+        "type": "cloze",
+        "fr": "Vous avez ___ le métro ?",
+        "a": [
+          "pris"
+        ],
+        "hint": "prendre"
+      },
+      {
+        "id": "fr-weekend-t-13",
+        "lesson": "fr-weekend-3",
+        "type": "build",
+        "en": "We saw a great film.",
+        "a": [
+          "Nous avons vu un super film.",
+          "On a vu un super film."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-14",
+        "lesson": "fr-weekend-3",
+        "type": "build",
+        "en": "I made a mistake.",
+        "a": [
+          "J'ai fait une erreur.",
+          "J'ai fait une faute."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-15",
+        "lesson": "fr-weekend-3",
+        "type": "form",
+        "verb": "écrire",
+        "tense": "passe-compose",
+        "person": 2
+      },
+      {
+        "id": "fr-weekend-t-16",
+        "lesson": "fr-weekend-4",
+        "type": "transform",
+        "task_en": "Make it negative",
+        "fr": "J'ai bu du café.",
+        "a": [
+          "Je n'ai pas bu de café."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-17",
+        "lesson": "fr-weekend-4",
+        "type": "build",
+        "en": "I haven't finished my homework yet.",
+        "a": [
+          "Je n'ai pas encore fini mon devoir.",
+          "Je n'ai pas encore fini mes devoirs."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-18",
+        "lesson": "fr-weekend-4",
+        "type": "build",
+        "en": "Have you eaten yet? (tu)",
+        "a": [
+          "Tu as déjà mangé ?",
+          "Est-ce que tu as déjà mangé ?"
+        ]
+      },
+      {
+        "id": "fr-weekend-t-19",
+        "lesson": "fr-weekend-4",
+        "type": "cloze",
+        "fr": "Je n'ai ___ vu ce film.",
+        "a": [
+          "jamais"
+        ],
+        "hint": "never"
+      },
+      {
+        "id": "fr-weekend-t-20",
+        "lesson": "fr-weekend-4",
+        "type": "build",
+        "en": "What did you do on Sunday? (vous)",
+        "a": [
+          "Qu'est-ce que vous avez fait dimanche ?",
+          "Vous avez fait quoi dimanche ?"
+        ]
+      },
+      {
+        "id": "fr-weekend-t-21",
+        "lesson": "fr-weekend-5",
+        "type": "cloze",
+        "fr": "J'ai vu ce film il y ___ trois jours.",
+        "a": [
+          "a"
+        ]
+      },
+      {
+        "id": "fr-weekend-t-22",
+        "lesson": "fr-weekend-5",
+        "type": "build",
+        "en": "Last Saturday I played basketball.",
+        "a": [
+          "Samedi dernier, j'ai joué au basket.",
+          "J'ai joué au basket samedi dernier."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-23",
+        "lesson": "fr-weekend-5",
+        "type": "build",
+        "en": "Last year I learnt to swim.",
+        "a": [
+          "L'année dernière, j'ai appris à nager.",
+          "J'ai appris à nager l'année dernière."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-24",
+        "lesson": "fr-weekend-5",
+        "type": "build",
+        "en": "The match lasted two hours.",
+        "a": [
+          "Le match a duré deux heures."
+        ]
+      },
+      {
+        "id": "fr-weekend-t-25",
+        "lesson": "fr-weekend-5",
+        "type": "cloze",
+        "fr": "Le mois ___, nous avons visité Prague.",
+        "a": [
+          "dernier"
+        ],
+        "hint": "last"
+      }
+    ]
+  }
+}

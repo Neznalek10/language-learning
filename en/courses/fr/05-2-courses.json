@@ -1,0 +1,223 @@
+{
+  "schema": 1,
+  "goals": [
+    "Name shops and say where you go shopping (à la, au, chez)",
+    "Give quantities: une bouteille de, un kilo de",
+    "Ask the price and count to 1,000",
+    "Conjugate vouloir and pouvoir",
+    "Manage a conversation in a shop"
+  ],
+  "lessons": [
+    {
+      "id": "fr-5.2-1",
+      "title": "À la boulangerie",
+      "subtitle": "Shops and chez",
+      "topics": ["shopping"],
+      "words": ["shopping#bakery", "shopping#butcher's", "shopping#cake shop", "shopping#grocer's", "shopping#chemist's, pharmacy", "shopping#bookshop", "shopping#stationer's", "shopping#market", "shopping#florist's", "shopping#supermarket", "shopping#shop", "shopping#baker", "shopping#butcher"],
+      "learn": [
+        {"title": "Shops", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["bakery", "la boulangerie"], ["butcher's", "la boucherie"], ["cake shop", "la pâtisserie"], ["grocer's", "l'épicerie"],
+            ["chemist's", "la pharmacie"], ["bookshop", "la librairie"], ["stationer's", "la papeterie"], ["market", "le marché"],
+            ["supermarket", "le supermarché"], ["shop", "le magasin"]
+          ]},
+          {"type": "tip", "title": "False friend", "en": "*La librairie* is a bookshop, not a library! A library is *la bibliothèque*."}
+        ]},
+        {"title": "à la or chez?", "blocks": [
+          {"type": "text", "en": "You go to a shop with *à la / au / à l'*: *Je vais à la boulangerie. Je vais au marché.* You go to a person (the shopkeeper) with *chez*: *Je vais chez le boulanger.* (I'm going to the baker's.) *Chez* is also used for homes: *chez moi* (at my place), *chez Paul* (at Paul's)."},
+          {"type": "examples", "items": [
+            {"fr": "J'achète du pain à la boulangerie.", "en": "I buy bread at the bakery."},
+            {"fr": "Ma mère va chez le boucher.", "en": "My mum is going to the butcher's."},
+            {"fr": "On mange chez moi ?", "en": "Shall we eat at my place?"}
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "Je vais ___ boulanger.", "a": ["chez le"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.2-1-01", "type": "cloze", "fr": "Je vais ___ boulangerie.", "a": ["à la"]},
+        {"id": "fr-5.2-1-02", "type": "cloze", "fr": "Tu vas ___ marché ?", "a": ["au"]},
+        {"id": "fr-5.2-1-03", "type": "cloze", "fr": "Nous allons ___ boucher.", "a": ["chez le"]},
+        {"id": "fr-5.2-1-04", "type": "cloze", "fr": "Elle va ___ pharmacie.", "a": ["à la"]},
+        {"id": "fr-5.2-1-05", "type": "cloze", "fr": "On va ___ supermarché.", "a": ["au"]},
+        {"id": "fr-5.2-1-06", "type": "cloze", "fr": "Je vais ___ Paul.", "a": ["chez"]},
+        {"id": "fr-5.2-1-07", "type": "cloze", "fr": "Ils vont ___épicerie.", "a": ["à l'"]},
+        {"id": "fr-5.2-1-08", "type": "build", "en": "I'm going to the bakery.", "a": ["Je vais à la boulangerie."]},
+        {"id": "fr-5.2-1-09", "type": "build", "en": "I buy a book at the bookshop.", "a": ["J'achète un livre à la librairie."]},
+        {"id": "fr-5.2-1-10", "type": "build", "en": "We're going to the market.", "a": ["{Nous allons|On va} au marché."]},
+        {"id": "fr-5.2-1-11", "type": "build", "en": "I'm going to Tom's.", "a": ["Je vais chez Tom."]},
+        {"id": "fr-5.2-1-12", "type": "build", "en": "Where is the chemist's?", "a": ["Où est la pharmacie ?"]},
+        {"id": "fr-5.2-1-13", "type": "order", "en": "My mum is going to the butcher's shop.", "a": ["Ma mère va à la boucherie", "Ma maman va à la boucherie"], "extra": ["au", "chez"]}
+      ]
+    },
+    {
+      "id": "fr-5.2-2",
+      "title": "Une bouteille d'eau",
+      "subtitle": "Quantities and containers",
+      "topics": ["quantities", "shopping"],
+      "words": ["shopping#bottle", "shopping#kilo", "shopping#gram", "shopping#packet", "shopping#slice", "shopping#tin (of food)", "shopping#litre", "shopping#carton of milk", "shopping#jar of jam", "shopping#bar of chocolate", "shopping#sachet, small bag", "shopping#piece", "shopping#can (of drink)"],
+      "learn": [
+        {"title": "How much do you want?", "blocks": [
+          {"type": "text", "en": "After a quantity or container there's just *de* (*d'*), without an article: *une bouteille d'eau, un kilo de pommes, un paquet de pâtes*."},
+          {"type": "table", "textCols": [0], "rows": [
+            ["a bottle of water", "une bouteille d'eau"],
+            ["a kilo of apples", "un kilo de pommes"],
+            ["500 grams of cheese", "cinq cents grammes de fromage"],
+            ["a packet of pasta", "un paquet de pâtes"],
+            ["a slice of ham", "une tranche de jambon"],
+            ["a jar of jam", "un pot de confiture"],
+            ["a bar of chocolate", "une tablette de chocolat"],
+            ["a tin of tuna", "une boîte de thon"],
+            ["litr mléka", "un litre de lait"],
+            ["krabice mléka", "une brique de lait"]
+          ]},
+          {"type": "check", "item": {"type": "cloze", "fr": "un kilo ___ tomates", "a": ["de"]}}
+        ]},
+        {"title": "On the shopping list", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Je voudrais deux baguettes et un pot de confiture.", "en": "I'd like two baguettes and a jar of jam."},
+            {"fr": "J'achète un litre de lait et six œufs.", "en": "I'm buying a litre of milk and six eggs."},
+            {"fr": "Trois tranches de jambon, s'il vous plaît.", "en": "Three slices of ham, please."}
+          ]}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.2-2-01", "type": "cloze", "fr": "une bouteille ___eau", "a": ["d'"]},
+        {"id": "fr-5.2-2-02", "type": "cloze", "fr": "un paquet ___ pâtes", "a": ["de"]},
+        {"id": "fr-5.2-2-03", "type": "cloze", "fr": "trois tranches ___ jambon", "a": ["de"]},
+        {"id": "fr-5.2-2-04", "type": "cloze", "fr": "un ___ de confiture", "a": ["pot"], "hint": "jar"},
+        {"id": "fr-5.2-2-05", "type": "cloze", "fr": "une ___ de chocolat", "a": ["tablette"], "hint": "bar"},
+        {"id": "fr-5.2-2-06", "type": "cloze", "fr": "deux ___ de lait", "a": ["litres"], "hint": "litres"},
+        {"id": "fr-5.2-2-07", "type": "cloze", "fr": "cinq cents ___ de fromage", "a": ["grammes"], "hint": "grams"},
+        {"id": "fr-5.2-2-08", "type": "build", "en": "I'd like a bottle of water.", "a": ["Je voudrais une bouteille d'eau."]},
+        {"id": "fr-5.2-2-09", "type": "build", "en": "I'm buying a kilo of apples.", "a": ["J'achète un kilo de pommes."]},
+        {"id": "fr-5.2-2-10", "type": "build", "en": "Two slices of ham, please.", "a": ["Deux tranches de jambon, s'il vous plaît."]},
+        {"id": "fr-5.2-2-11", "type": "build", "en": "We're buying a packet of pasta.", "a": ["{Nous achetons|On achète} un paquet de pâtes."]},
+        {"id": "fr-5.2-2-12", "type": "transform", "task_en": "Add a quantity: un kilo", "fr": "J'achète des tomates.", "a": ["J'achète un kilo de tomates."]},
+        {"id": "fr-5.2-2-13", "type": "order", "en": "A bottle of juice and a bar of chocolate.", "a": ["Une bouteille de jus et une tablette de chocolat"], "extra": ["du", "la"]}
+      ]
+    },
+    {
+      "id": "fr-5.2-3",
+      "title": "Ça coûte combien ?",
+      "subtitle": "Prices and numbers to 1,000",
+      "topics": ["numbers", "shopping"],
+      "words": ["shopping#how much is it?", "shopping#euro", "shopping#crown (Czech currency)", "shopping#money", "shopping#cheap", "basics#expensive", "basics#how much, how many", "numbers#a hundred", "numbers#two hundred", "numbers#five hundred", "numbers#a thousand", "numbers#two thousand"],
+      "learn": [
+        {"title": "Numbers to 1,000", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["100", "cent"], ["101", "cent un"], ["200", "deux cents"], ["250", "deux cent cinquante"],
+            ["500", "cinq cents"], ["1000", "mille"], ["2000", "deux mille"]
+          ]},
+          {"type": "text", "en": "*Cents* only has an *-s* when nothing follows it: *deux cents*, but *deux cent cinquante*. *Mille* never changes: *deux mille*. You don't put *un* before *cent* and *mille*: 100 is *cent*, 1,000 is *mille*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Ça coûte ___ euros.", "a": ["trois cents"], "hint": "300"}}
+        ]},
+        {"title": "How much is it?", "blocks": [
+          {"type": "table", "textCols": [0], "rows": [
+            ["How much is it?", "Ça coûte combien ? / C'est combien ?"],
+            ["How much is that altogether?", "Ça fait combien ?"],
+            ["It costs €2.50.", "Ça coûte deux euros cinquante."],
+            ["To je drahé.", "C'est cher."],
+            ["To je levné.", "Ce n'est pas cher."]
+          ]},
+          {"type": "tip", "title": "Cheap", "en": "The French say *pas cher* (not expensive) rather than *bon marché* (cheap)."},
+          {"type": "tip", "title": "Prices", "en": "When reading prices you leave out the decimal comma: 3,20 € = *trois euros vingt*."},
+          {"type": "check", "item": {"type": "build", "en": "How much is it?", "a": ["{Ça coûte combien|C'est combien|Combien ça coûte} ?"]}}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.2-3-01", "type": "cloze", "fr": "Ça coûte ___ euros.", "a": ["deux cents"], "hint": "200"},
+        {"id": "fr-5.2-3-02", "type": "cloze", "fr": "Le vélo coûte ___ euros.", "a": ["trois cent cinquante"], "hint": "350"},
+        {"id": "fr-5.2-3-03", "type": "cloze", "fr": "La télé coûte ___ euros.", "a": ["mille"], "hint": "1000"},
+        {"id": "fr-5.2-3-04", "type": "cloze", "fr": "L'ordinateur coûte ___ euros.", "a": ["deux mille"], "hint": "2000"},
+        {"id": "fr-5.2-3-05", "type": "cloze", "fr": "La baguette coûte un euro ___.", "a": ["vingt"], "hint": "1,20 €"},
+        {"id": "fr-5.2-3-06", "type": "build", "en": "How much is the bread?", "a": ["{Le pain coûte combien|Combien coûte le pain|C'est combien, le pain} ?"]},
+        {"id": "fr-5.2-3-07", "type": "build", "en": "It costs five euros.", "a": ["{Ça coûte|C'est} cinq euros."]},
+        {"id": "fr-5.2-3-08", "type": "build", "en": "That's too expensive!", "a": ["C'est trop cher !"]},
+        {"id": "fr-5.2-3-09", "type": "build", "en": "It isn't expensive.", "a": ["Ce n'est pas cher."]},
+        {"id": "fr-5.2-3-10", "type": "build", "en": "How much does that make?", "a": ["Ça fait combien ?"]},
+        {"id": "fr-5.2-3-11", "type": "order", "en": "The bike costs three hundred euros.", "a": ["Le vélo coûte trois cents euros"], "extra": ["cent", "coûtent"]}
+      ]
+    },
+    {
+      "id": "fr-5.2-4",
+      "title": "Vous désirez ?",
+      "subtitle": "Vouloir, pouvoir and a conversation in a shop",
+      "topics": ["vouloir-pouvoir", "shopping"],
+      "words": ["verbs-irregular#to want", "verbs-irregular#to be able to, can", "verbs#to pay", "verbs#to buy", "verbs-irregular#to sell", "verbs#to desire", "shopping#what would you like?", "shopping#that's all"],
+      "learn": [
+        {"title": "Vouloir and pouvoir", "blocks": [
+          {"type": "table", "verb": "vouloir", "tense": "present"},
+          {"type": "table", "verb": "pouvoir", "tense": "present"},
+          {"type": "text", "en": "Both verbs can be followed by an infinitive: *Je veux acheter du pain. Tu peux payer ?*"},
+          {"type": "tip", "title": "je voudrais", "en": "In a shop *je voudrais* (I would like) is more polite than *je veux* (I want)."},
+          {"type": "tip", "title": "je puis", "en": "You'll see the form *je puis* in tables, but it's only used in the formal question *Puis-je... ?* Normally say *je peux*."},
+          {"type": "check", "item": {"type": "cloze", "fr": "Tu ___ venir ?", "a": ["peux"], "hint": "pouvoir"}}
+        ]},
+        {"title": "In the shop", "blocks": [
+          {"type": "examples", "items": [
+            {"fr": "Bonjour, vous désirez ?", "en": "Hello, what would you like?"},
+            {"fr": "Je voudrais une baguette et deux croissants, s'il vous plaît.", "en": "I'd like a baguette and two croissants, please."},
+            {"fr": "Et avec ça ?", "en": "Anything else?"},
+            {"fr": "C'est tout, merci. Ça fait combien ?", "en": "That's all, thank you. How much is that?"},
+            {"fr": "Trois euros quarante.", "en": "Three euros forty."},
+            {"fr": "Je peux payer par carte ?", "en": "Can I pay by card?"}
+          ]},
+          {"type": "text", "en": "*Payer* (to pay) can be conjugated in two ways: *je paie* and *je paye*. Both are correct."}
+        ]},
+        {"title": "Words", "blocks": [{"type": "vocab"}]}
+      ],
+      "practice": [
+        {"id": "fr-5.2-4-f", "type": "form", "verb": "vouloir", "tense": "present"},
+        {"id": "fr-5.2-4-01", "type": "cloze", "fr": "Je ___ un croissant.", "a": ["veux"], "hint": "vouloir"},
+        {"id": "fr-5.2-4-02", "type": "cloze", "fr": "Vous ___ payer par carte.", "a": ["pouvez"], "hint": "pouvoir"},
+        {"id": "fr-5.2-4-03", "type": "cloze", "fr": "Ils ___ acheter des fruits.", "a": ["veulent"], "hint": "vouloir"},
+        {"id": "fr-5.2-4-04", "type": "cloze", "fr": "Nous ___ venir demain.", "a": ["pouvons"], "hint": "pouvoir"},
+        {"id": "fr-5.2-4-05", "type": "cloze", "fr": "On ___ aller au marché ?", "a": ["peut"], "hint": "pouvoir"},
+        {"id": "fr-5.2-4-06", "type": "cloze", "fr": "Tu ___ un café ?", "a": ["veux"], "hint": "vouloir"},
+        {"id": "fr-5.2-4-07", "type": "build", "en": "What would you like?", "a": ["{Vous désirez|Qu'est-ce que vous désirez} ?"]},
+        {"id": "fr-5.2-4-08", "type": "build", "en": "I'd like two croissants, please.", "a": ["Je voudrais deux croissants, s'il vous plaît."]},
+        {"id": "fr-5.2-4-09", "type": "build", "en": "Can I pay by card?", "a": ["{Je peux|Est-ce que je peux|Puis-je} payer par carte ?"], "hint": "by card = par carte"},
+        {"id": "fr-5.2-4-10", "type": "build", "en": "That's all, thank you.", "a": ["C'est tout, merci."]},
+        {"id": "fr-5.2-4-11", "type": "build", "en": "Do you want to go to the market? (tu)", "a": ["{Tu veux|Est-ce que tu veux|Veux-tu} aller au marché ?"]},
+        {"id": "fr-5.2-4-12", "type": "build", "en": "I can't, I don't have any money.", "a": ["Je ne peux pas, je n'ai pas d'argent."]},
+        {"id": "fr-5.2-4-13", "type": "transform", "task_en": "Change the person to nous", "fr": "Je veux payer.", "a": ["{Nous voulons|On veut} payer."]},
+        {"id": "fr-5.2-4-14", "type": "order", "en": "Can you buy some bread? (tu)", "a": ["Tu peux acheter du pain"], "extra": ["veux", "le"]}
+      ]
+    }
+  ],
+  "test": {
+    "pass": 0.7,
+    "count": 20,
+    "words": 6,
+    "pool": [
+      {"id": "fr-5.2-t-01", "lesson": "fr-5.2-1", "type": "cloze", "fr": "Je vais ___ boucherie.", "a": ["à la"]},
+      {"id": "fr-5.2-t-02", "lesson": "fr-5.2-1", "type": "cloze", "fr": "Elle va ___ boulanger.", "a": ["chez le"]},
+      {"id": "fr-5.2-t-03", "lesson": "fr-5.2-1", "type": "cloze", "fr": "On mange ___ moi ?", "a": ["chez"], "hint": "at my place"},
+      {"id": "fr-5.2-t-04", "lesson": "fr-5.2-1", "type": "build", "en": "I'm going to the chemist's.", "a": ["Je vais à la pharmacie."]},
+      {"id": "fr-5.2-t-05", "lesson": "fr-5.2-1", "type": "build", "en": "I'm buying an exercise book at the stationer's.", "a": ["J'achète un cahier à la papeterie."]},
+      {"id": "fr-5.2-t-06", "lesson": "fr-5.2-2", "type": "cloze", "fr": "un litre ___ lait", "a": ["de"]},
+      {"id": "fr-5.2-t-07", "lesson": "fr-5.2-2", "type": "cloze", "fr": "une bouteille ___ vin", "a": ["de"]},
+      {"id": "fr-5.2-t-08", "lesson": "fr-5.2-2", "type": "cloze", "fr": "deux kilos ___oranges", "a": ["d'"]},
+      {"id": "fr-5.2-t-09", "lesson": "fr-5.2-2", "type": "build", "en": "I'd like a kilo of tomatoes.", "a": ["Je voudrais un kilo de tomates."]},
+      {"id": "fr-5.2-t-10", "lesson": "fr-5.2-2", "type": "build", "en": "I'm buying a bottle of milk and a packet of sugar.", "a": ["J'achète une bouteille de lait et un paquet de sucre."]},
+      {"id": "fr-5.2-t-11", "lesson": "fr-5.2-3", "type": "cloze", "fr": "Ça coûte ___ euros.", "a": ["cinq cents"], "hint": "500"},
+      {"id": "fr-5.2-t-12", "lesson": "fr-5.2-3", "type": "cloze", "fr": "Ça coûte ___ euros.", "a": ["cent vingt"], "hint": "120"},
+      {"id": "fr-5.2-t-13", "lesson": "fr-5.2-3", "type": "cloze", "fr": "Le voyage coûte ___ euros.", "a": ["trois mille"], "hint": "3000"},
+      {"id": "fr-5.2-t-14", "lesson": "fr-5.2-3", "type": "build", "en": "How much is the cheese?", "a": ["{Le fromage coûte combien|Combien coûte le fromage|C'est combien, le fromage} ?"]},
+      {"id": "fr-5.2-t-15", "lesson": "fr-5.2-3", "type": "build", "en": "It costs two euros.", "a": ["{Ça coûte|C'est} deux euros."]},
+      {"id": "fr-5.2-t-16", "lesson": "fr-5.2-3", "type": "build", "en": "It's cheap.", "a": ["Ce n'est pas cher."]},
+      {"id": "fr-5.2-t-17", "lesson": "fr-5.2-4", "type": "form", "verb": "vouloir", "tense": "present", "person": 2},
+      {"id": "fr-5.2-t-18", "lesson": "fr-5.2-4", "type": "form", "verb": "pouvoir", "tense": "present", "person": 5},
+      {"id": "fr-5.2-t-19", "lesson": "fr-5.2-4", "type": "form", "verb": "vouloir", "tense": "present", "person": 4},
+      {"id": "fr-5.2-t-20", "lesson": "fr-5.2-4", "type": "form", "verb": "pouvoir", "tense": "present", "person": 1},
+      {"id": "fr-5.2-t-21", "lesson": "fr-5.2-4", "type": "build", "en": "Do you want some chocolate? (tu)", "a": ["{Tu veux|Est-ce que tu veux|Veux-tu} {du chocolat|un chocolat} ?"]},
+      {"id": "fr-5.2-t-22", "lesson": "fr-5.2-4", "type": "build", "en": "Can we go to the supermarket?", "a": ["{Nous pouvons|On peut|Est-ce qu'on peut|Est-ce que nous pouvons} aller au supermarché ?"]},
+      {"id": "fr-5.2-t-23", "lesson": "fr-5.2-4", "type": "build", "en": "Hello, what would you like?", "a": ["Bonjour, vous désirez ?"]},
+      {"id": "fr-5.2-t-24", "lesson": "fr-5.2-4", "type": "build", "en": "Anything else? That's all.", "a": ["Et avec ça ? C'est tout."]},
+      {"id": "fr-5.2-t-25", "lesson": "fr-5.2-4", "type": "transform", "task_en": "Say it more politely", "fr": "Je veux deux baguettes.", "a": ["Je voudrais deux baguettes."]}
+    ]
+  }
+}

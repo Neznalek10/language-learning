@@ -1,0 +1,79 @@
+{
+  "languages": {
+    "en": {
+      "name": "English",
+      "flag": "🇬🇧"
+    },
+    "fr": {
+      "name": "French",
+      "flag": "🇫🇷"
+    },
+    "de": {
+      "name": "German",
+      "flag": "🇩🇪"
+    }
+  },
+  "decks": [
+    "en/words/fr/greetings.json",
+    "en/words/fr/basics.json",
+    "en/words/fr/numbers.json",
+    "en/words/fr/countries.json",
+    "en/words/fr/time.json",
+    "en/words/fr/colors.json",
+    "en/words/fr/family.json",
+    "en/words/fr/appearance.json",
+    "en/words/fr/personality.json",
+    "en/words/fr/body.json",
+    "en/words/fr/health.json",
+    "en/words/fr/home.json",
+    "en/words/fr/food.json",
+    "en/words/fr/shopping.json",
+    "en/words/fr/clothing.json",
+    "en/words/fr/school.json",
+    "en/words/fr/sports.json",
+    "en/words/fr/media.json",
+    "en/words/fr/professions.json",
+    "en/words/fr/transport.json",
+    "en/words/fr/geography.json",
+    "en/words/fr/weather.json",
+    "en/words/fr/animals.json",
+    "en/words/fr/celebrations.json",
+    "en/words/fr/verbs.json",
+    "en/words/fr/verbs-irregular.json",
+    "en/words/fr/verbs-reflexive.json",
+    "en/words/de/basics.json",
+    "en/words/de/numbers.json",
+    "en/words/de/family.json",
+    "en/words/de/food.json",
+    "en/words/de/home.json",
+    "en/words/de/colors.json",
+    "en/words/de/adjectives.json",
+    "en/words/de/verbs.json"
+  ],
+  "conjugations": {
+    "fr": "conjugations/fr.json"
+  },
+  "courses": {
+    "fr": "en/courses/fr/course.json"
+  },
+  "grammar": {
+    "fr": "en/courses/fr/grammar.json"
+  },
+  "writing": {
+    "fr": "en/courses/fr/writing.json"
+  },
+  "speaking": {
+    "fr": "en/courses/fr/speaking.json"
+  },
+  "drills": {
+    "fr": "en/courses/fr/drills.json"
+  },
+  "translate": {
+    "fr": "en/courses/fr/translate.json"
+  },
+  "units": {
+    "fr": {},
+    "de": {}
+  },
+  "prompts": "en/prompts/"
+}

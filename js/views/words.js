@@ -1,4 +1,5 @@
 import { store } from '../store.js';
+import { baseLang } from '../data.js';
 import { summarize, levelOf, LEVELS } from '../srs.js';
 import { html, icon, fmt, wordRow, emptyState } from '../ui.js';
 import { noDecks } from './decks.js';
@@ -18,7 +19,7 @@ export function wordsView(app, { level = 'all' }) {
   const list = words
     .map(w => ({ w, p: store.progress[w.id] }))
     .filter(({ p }) => active === 'all' || levelOf(p) === active)
-    .sort((a, b) => ORDER[levelOf(a.p)] - ORDER[levelOf(b.p)] || (b.p?.streak || 0) - (a.p?.streak || 0) || a.w.q.localeCompare(b.w.q, 'cs'));
+    .sort((a, b) => ORDER[levelOf(a.p)] - ORDER[levelOf(b.p)] || (b.p?.streak || 0) - (a.p?.streak || 0) || a.w.q.localeCompare(b.w.q, baseLang()));
 
   const body = html`
     <div class="level-tabs" role="tablist">${tabs.map(t => html`

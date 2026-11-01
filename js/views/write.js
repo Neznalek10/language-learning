@@ -1,5 +1,5 @@
 import { store, logAnswer } from '../store.js';
-import { ACCENTS } from '../data.js';
+import { ACCENTS, feedbackOptions } from '../data.js';
 import { html, icon, plural, segmented, onSegmented, emptyState, esc, raw } from '../ui.js';
 import { ruleHref } from '../learn/blocks.js';
 import { addMistakes } from '../learn/mistakes.js';
@@ -13,7 +13,6 @@ import {
 const MIN_WORDS = 8;
 const LEVELS = ['A1', 'A2', 'B1'];
 const STRICT = [{ value: 'gentle', label: 'Gentle' }, { value: 'normal', label: 'Normal' }, { value: 'strict', label: 'Strict' }];
-const FEEDBACK = [{ value: 'en', label: 'English' }, { value: 'cs', label: 'Czech' }, { value: 'fr', label: 'French' }];
 const DEFAULT_WRITE = { length: 'medium', strict: 'normal', feedback: 'en', hints: true, pronouns: [] };
 
 export { aiSettings };
@@ -97,7 +96,7 @@ export function openSetup(app, topic) {
       <div class="field-label">How strict should the check be?</div>
       ${segmented('strict', STRICT, opts.strict)}
       <div class="field-label">Feedback language</div>
-      ${segmented('feedback', FEEDBACK, opts.feedback)}
+      ${segmented('feedback', feedbackOptions(), opts.feedback)}
       <div class="field-label">Useful phrases while writing</div>
       ${segmented('hints', [{ value: 'on', label: 'Show' }, { value: 'off', label: 'Hide' }], opts.hints ? 'on' : 'off')}
       <button class="btn btn-primary btn-block btn-lg" data-start>${icon('play')}<span>${e.draft?.text ? 'Continue your draft' : 'Start writing'}</span></button>

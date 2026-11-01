@@ -1,0 +1,4072 @@
+{
+  "articles": [
+    {
+      "id": "adj-agreement",
+      "title": "Adjective agreement",
+      "fr": "l'accord des adjectifs",
+      "level": "A1",
+      "keywords": [
+        "agreement",
+        "adjectives",
+        "adjectifs",
+        "gender",
+        "number",
+        "-e",
+        "-s",
+        "petit",
+        "petite",
+        "feminine"
+      ],
+      "topics": [
+        "adjectives",
+        "describe"
+      ],
+      "see": [
+        "adj-forms",
+        "adj-position",
+        "colors",
+        "gender"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "An adjective agrees with its noun in **gender and number**: feminine *+e*, plural *+s*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "",
+                "singular",
+                "plural"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "masculine",
+                  "un ami intelligent",
+                  "des amis intelligents"
+                ],
+                [
+                  "feminine",
+                  "une amie intelligente",
+                  "des amies intelligentes"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What you can hear",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Often the agreement is **only written**: *joli* and *jolie* sound the same. With adjectives ending in a consonant, however, the *-e* is audible because the consonant starts to be pronounced: *petit* × *petite*, *grand* × *grande*."
+            }
+          ]
+        },
+        {
+          "title": "No change",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When the adjective already ends in *-e*, it does not change in the feminine: *un frère timide, une sœur timide*. With *-s* or *-x* you add nothing in the plural: *un pull gris → des pulls gris*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Paul and Marie are tired.",
+                  "fr": "Paul et Marie sont [[fatigués]].",
+                  "note": "Mixed group: one man is enough to make it masculine."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "My sister is small.",
+                  "wrong": "Ma sœur est petit.",
+                  "fr": "Ma sœur est [[petite]]."
+                },
+                {
+                  "en": "The shoes are new.",
+                  "wrong": "Les chaussures sont neuf.",
+                  "fr": "Les chaussures sont [[neuves]].",
+                  "note": "*Neuf → neuve*, see irregular forms."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon frère est grand.",
+                  "en": "My brother is tall."
+                },
+                {
+                  "fr": "Ma sœur est grande.",
+                  "en": "My sister is tall."
+                },
+                {
+                  "fr": "Mes amis sont sympas.",
+                  "en": "My friends are nice."
+                },
+                {
+                  "fr": "Les filles sont contentes.",
+                  "en": "The girls are happy."
+                },
+                {
+                  "fr": "J'ai les cheveux noirs.",
+                  "en": "I have black hair."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-adj-agreement-01",
+          "type": "cloze",
+          "fr": "Ma mère est ___.",
+          "a": [
+            "petite"
+          ],
+          "hint": "petit",
+          "en": "My mother is small."
+        },
+        {
+          "id": "g-adj-agreement-02",
+          "type": "cloze",
+          "fr": "Les garçons sont ___.",
+          "a": [
+            "grands"
+          ],
+          "hint": "grand",
+          "en": "The boys are tall."
+        },
+        {
+          "id": "g-adj-agreement-03",
+          "type": "cloze",
+          "fr": "Mes sœurs sont ___.",
+          "a": [
+            "intelligentes"
+          ],
+          "hint": "intelligent",
+          "en": "My sisters are clever."
+        },
+        {
+          "id": "g-adj-agreement-04",
+          "type": "transform",
+          "task_en": "Make it feminine",
+          "fr": "Il est content.",
+          "a": [
+            "Elle est contente."
+          ]
+        },
+        {
+          "id": "g-adj-agreement-05",
+          "type": "transform",
+          "task_en": "Make it plural",
+          "fr": "Le chat est noir.",
+          "a": [
+            "Les chats sont noirs."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adj-forms",
+      "title": "Irregular adjective forms",
+      "fr": "le féminin des adjectifs",
+      "level": "A1",
+      "levelTo": "A2",
+      "keywords": [
+        "feminine of adjectives",
+        "-eux",
+        "-euse",
+        "-if",
+        "-ive",
+        "-en",
+        "-enne",
+        "blanc",
+        "blanche",
+        "long",
+        "longue",
+        "gentil",
+        "gentille",
+        "neuf",
+        "neuve",
+        "bon",
+        "bonne"
+      ],
+      "topics": [
+        "adjectives"
+      ],
+      "see": [
+        "adj-agreement",
+        "beau-nouveau-vieux",
+        "gender"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "masculine",
+                "feminine",
+                "example"
+              ],
+              "rows": [
+                [
+                  "-eux",
+                  "-euse",
+                  "heureux → heureuse"
+                ],
+                [
+                  "-if",
+                  "-ive",
+                  "sportif → sportive"
+                ],
+                [
+                  "-er",
+                  "-ère",
+                  "cher → chère"
+                ],
+                [
+                  "-en",
+                  "-enne",
+                  "italien → italienne"
+                ],
+                [
+                  "-on",
+                  "-onne",
+                  "bon → bonne"
+                ],
+                [
+                  "-el",
+                  "-elle",
+                  "naturel → naturelle"
+                ],
+                [
+                  "-eur",
+                  "-euse",
+                  "travailleur → travailleuse"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Completely irregular",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "masculine",
+                "feminine",
+                "English"
+              ],
+              "textCols": [
+                2
+              ],
+              "rows": [
+                [
+                  "blanc",
+                  "blanche",
+                  "white"
+                ],
+                [
+                  "frais",
+                  "fraîche",
+                  "fresh"
+                ],
+                [
+                  "long",
+                  "longue",
+                  "long"
+                ],
+                [
+                  "gentil",
+                  "gentille",
+                  "kind"
+                ],
+                [
+                  "gros",
+                  "grosse",
+                  "fat, big"
+                ],
+                [
+                  "doux",
+                  "douce",
+                  "soft, sweet"
+                ],
+                [
+                  "faux",
+                  "fausse",
+                  "false"
+                ],
+                [
+                  "fou",
+                  "folle",
+                  "mad"
+                ],
+                [
+                  "sec",
+                  "sèche",
+                  "dry"
+                ],
+                [
+                  "neuf",
+                  "neuve",
+                  "brand new"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plural",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "In the plural usually *+s*. Masculine forms in *-eux* and *-x* do not change: *heureux → heureux*. *-al → -aux*: *un sport national → des sports nationaux*."
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "My sister is sporty.",
+                  "wrong": "Ma sœur est sportife.",
+                  "fr": "Ma sœur est [[sportive]]."
+                },
+                {
+                  "en": "She is happy.",
+                  "wrong": "Elle est heureux.",
+                  "fr": "Elle est [[heureuse]]."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Elle est très gentille.",
+                  "en": "She is very kind."
+                },
+                {
+                  "fr": "C'est une bonne idée.",
+                  "en": "That's a good idea."
+                },
+                {
+                  "fr": "J'ai une chemise blanche.",
+                  "en": "I have a white shirt."
+                },
+                {
+                  "fr": "Ma grand-mère est italienne.",
+                  "en": "My grandmother is Italian."
+                },
+                {
+                  "fr": "Les places sont chères.",
+                  "en": "The tickets are expensive."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-adj-forms-01",
+          "type": "transform",
+          "task_en": "Make it feminine",
+          "fr": "Il est sportif.",
+          "a": [
+            "Elle est sportive."
+          ]
+        },
+        {
+          "id": "g-adj-forms-02",
+          "type": "transform",
+          "task_en": "Make it feminine",
+          "fr": "Il est heureux.",
+          "a": [
+            "Elle est heureuse."
+          ]
+        },
+        {
+          "id": "g-adj-forms-03",
+          "type": "cloze",
+          "fr": "C'est une ___ idée.",
+          "a": [
+            "bonne"
+          ],
+          "hint": "bon",
+          "en": "That's a good idea."
+        },
+        {
+          "id": "g-adj-forms-04",
+          "type": "cloze",
+          "fr": "Elle a une robe ___.",
+          "a": [
+            "blanche"
+          ],
+          "hint": "blanc",
+          "en": "She has a white dress."
+        },
+        {
+          "id": "g-adj-forms-05",
+          "type": "cloze",
+          "fr": "Ma tante est ___.",
+          "a": [
+            "gentille"
+          ],
+          "hint": "gentil",
+          "en": "My aunt is kind."
+        },
+        {
+          "id": "g-adj-forms-06",
+          "type": "cloze",
+          "fr": "Ma cousine est ___.",
+          "a": [
+            "italienne"
+          ],
+          "hint": "italien",
+          "en": "My cousin is Italian."
+        }
+      ]
+    },
+    {
+      "id": "adj-position",
+      "title": "Where the adjective goes",
+      "fr": "la place de l'adjectif",
+      "level": "A1",
+      "keywords": [
+        "adjective position",
+        "after the noun",
+        "before the noun",
+        "BANGS",
+        "petit",
+        "grand",
+        "beau",
+        "bon",
+        "jeune",
+        "vieux"
+      ],
+      "topics": [
+        "adjectives"
+      ],
+      "see": [
+        "adj-agreement",
+        "beau-nouveau-vieux",
+        "colors",
+        "sentence-map"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "English puts the adjective **before** the noun (a red car). French usually puts it **after**."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "art",
+                      "une"
+                    ],
+                    [
+                      "noun",
+                      "voiture"
+                    ],
+                    [
+                      "adj",
+                      "rouge"
+                    ]
+                  ],
+                  "en": "a red car"
+                },
+                {
+                  "parts": [
+                    [
+                      "art",
+                      "un"
+                    ],
+                    [
+                      "noun",
+                      "film"
+                    ],
+                    [
+                      "adj",
+                      "intéressant"
+                    ]
+                  ],
+                  "en": "an interesting film"
+                },
+                {
+                  "parts": [
+                    [
+                      "art",
+                      "des"
+                    ],
+                    [
+                      "noun",
+                      "élèves"
+                    ],
+                    [
+                      "adj",
+                      "sympas"
+                    ]
+                  ],
+                  "en": "nice pupils"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "BANGS: these go before",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Short, common adjectives stand **before** the noun. The mnemonic BANGS:"
+            },
+            {
+              "type": "table",
+              "head": [
+                "",
+                "meaning",
+                "examples"
+              ],
+              "textCols": [
+                0,
+                1
+              ],
+              "rows": [
+                [
+                  "B",
+                  "beauty",
+                  "*beau, joli*"
+                ],
+                [
+                  "A",
+                  "age",
+                  "*jeune, vieux, nouveau*"
+                ],
+                [
+                  "N",
+                  "number, order",
+                  "*premier, deuxième, dernier*"
+                ],
+                [
+                  "G",
+                  "goodness",
+                  "*bon, mauvais, gentil*"
+                ],
+                [
+                  "S",
+                  "size",
+                  "*petit, grand, gros, long*"
+                ]
+              ]
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "art",
+                      "un"
+                    ],
+                    [
+                      "adj",
+                      "petit"
+                    ],
+                    [
+                      "noun",
+                      "chien"
+                    ]
+                  ],
+                  "en": "a small dog"
+                },
+                {
+                  "parts": [
+                    [
+                      "art",
+                      "une"
+                    ],
+                    [
+                      "adj",
+                      "belle"
+                    ],
+                    [
+                      "noun",
+                      "maison"
+                    ]
+                  ],
+                  "en": "a beautiful house"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Always after",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "a white cat",
+                  "wrong": "un blanc chat",
+                  "fr": "un chat [[blanc]]",
+                  "note": "Colours, nationalities, shapes and long adjectives always go after."
+                },
+                {
+                  "en": "a French film",
+                  "wrong": "un français film",
+                  "fr": "un film [[français]]"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "en": "With two adjectives, each goes in its own place: *un petit chat noir* (a small black cat), *une belle maison blanche*."
+            },
+            {
+              "type": "tip",
+              "en": "When an adjective stands before a plural noun, *des* becomes *de* in careful writing: *de bons amis*. In speech you will also hear *des bons amis*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai un nouveau téléphone.",
+                  "en": "I have a new phone."
+                },
+                {
+                  "fr": "C'est un jeu vidéo génial.",
+                  "en": "It's a great video game."
+                },
+                {
+                  "fr": "Elle a les cheveux longs.",
+                  "en": "She has long hair."
+                },
+                {
+                  "fr": "Mon meilleur ami habite à Prague.",
+                  "en": "My best friend lives in Prague."
+                },
+                {
+                  "fr": "C'est le premier jour.",
+                  "en": "It's the first day."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-adj-position-01",
+          "type": "order",
+          "en": "I have a red bike.",
+          "a": [
+            "J'ai un vélo rouge."
+          ]
+        },
+        {
+          "id": "g-adj-position-02",
+          "type": "order",
+          "en": "It's a small dog.",
+          "a": [
+            "C'est un petit chien."
+          ]
+        },
+        {
+          "id": "g-adj-position-03",
+          "type": "build",
+          "en": "an interesting book",
+          "a": [
+            "un livre intéressant"
+          ]
+        },
+        {
+          "id": "g-adj-position-04",
+          "type": "build",
+          "en": "I have a black cat.",
+          "a": [
+            "J'ai un chat noir.",
+            "J'ai une chatte noire."
+          ]
+        },
+        {
+          "id": "g-adj-position-05",
+          "type": "build",
+          "en": "It's a good film.",
+          "a": [
+            "C'est un bon film."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adj-meaning-position",
+      "title": "Adjectives that change meaning with their place",
+      "fr": "les adjectifs qui changent de sens",
+      "level": "B1",
+      "keywords": [
+        "ancien",
+        "cher",
+        "propre",
+        "dernier",
+        "certain",
+        "seul",
+        "pauvre",
+        "grand",
+        "différent",
+        "même",
+        "brave",
+        "sale",
+        "adjective position meaning",
+        "un ancien professeur",
+        "un professeur ancien",
+        "mon cher ami"
+      ],
+      "topics": [],
+      "see": [
+        "adj-position",
+        "beau-nouveau-vieux",
+        "indefinite-adjectives"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "A handful of adjectives have **one meaning before the noun and another after it**. Before the noun the meaning is often **figurative or emotional**, after the noun it is **literal**."
+            },
+            {
+              "type": "table",
+              "head": [
+                "adjective",
+                "before the noun",
+                "after the noun"
+              ],
+              "rows": [
+                [
+                  "ancien",
+                  "un ancien élève (former)",
+                  "un château ancien (old, ancient)"
+                ],
+                [
+                  "cher",
+                  "mon cher ami (dear)",
+                  "un livre cher (expensive)"
+                ],
+                [
+                  "propre",
+                  "ma propre chambre (own)",
+                  "une chambre propre (clean)"
+                ],
+                [
+                  "dernier",
+                  "le dernier jour (last, final)",
+                  "l'année dernière (the one just past)"
+                ],
+                [
+                  "certain",
+                  "un certain temps (some)",
+                  "une victoire certaine (sure)"
+                ],
+                [
+                  "seul",
+                  "un seul livre (only one)",
+                  "un homme seul (alone)"
+                ],
+                [
+                  "pauvre",
+                  "le pauvre garçon (poor, unlucky)",
+                  "un homme pauvre (without money)"
+                ],
+                [
+                  "grand",
+                  "un grand homme (great)",
+                  "un homme grand (tall)"
+                ],
+                [
+                  "brave",
+                  "un brave homme (good, decent)",
+                  "un homme brave (brave)"
+                ],
+                [
+                  "différent",
+                  "différentes idées (various)",
+                  "des idées différentes (not the same)"
+                ],
+                [
+                  "même",
+                  "la même idée (the same)",
+                  "l'idée même (the very idea)"
+                ],
+                [
+                  "sale",
+                  "un sale type (nasty)",
+                  "des mains sales (dirty)"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Dernier: two uses",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Le dernier** + noun means the last in a series (*le dernier train*); **after** a time word it means *the previous one*: *la semaine dernière* (last week), *l'année dernière*, *lundi dernier*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Nous avons pris le dernier train.",
+                  "en": "We took the last train."
+                },
+                {
+                  "fr": "Il est venu la semaine dernière.",
+                  "en": "He came last week."
+                },
+                {
+                  "fr": "Mon ancien professeur habite à Paris.",
+                  "en": "My former teacher lives in Paris."
+                },
+                {
+                  "fr": "Cette église est très ancienne.",
+                  "en": "This church is very old."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "my own room",
+                  "wrong": "ma chambre propre",
+                  "fr": "[[ma propre]] chambre"
+                },
+                {
+                  "en": "a clean room",
+                  "wrong": "une propre chambre",
+                  "fr": "une chambre [[propre]]"
+                },
+                {
+                  "en": "a tall man",
+                  "wrong": "un grand homme",
+                  "fr": "un homme [[grand]]",
+                  "note": "*Un grand homme* is a great man."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "adj-position",
+                "beau-nouveau-vieux",
+                "indefinite-adjectives"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Mon cher Paul, je t'écris de Prague.",
+                  "en": "Dear Paul, I'm writing from Prague."
+                },
+                {
+                  "fr": "C'est un homme pauvre mais heureux.",
+                  "en": "He is a poor but happy man."
+                },
+                {
+                  "fr": "Le pauvre ! Il a perdu son chien.",
+                  "en": "The poor guy! He lost his dog."
+                },
+                {
+                  "fr": "Elle fait sa propre cuisine.",
+                  "en": "She does her own cooking."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-adj-meaning-position-01",
+          "type": "build",
+          "en": "my former teacher",
+          "a": [
+            "mon ancien professeur",
+            "mon ancienne professeure"
+          ]
+        },
+        {
+          "id": "g-adj-meaning-position-02",
+          "type": "build",
+          "en": "an old castle",
+          "a": [
+            "un château ancien",
+            "un vieux château"
+          ]
+        },
+        {
+          "id": "g-adj-meaning-position-03",
+          "type": "build",
+          "en": "my own room",
+          "a": [
+            "ma propre chambre"
+          ]
+        },
+        {
+          "id": "g-adj-meaning-position-04",
+          "type": "build",
+          "en": "a clean room",
+          "a": [
+            "une chambre propre"
+          ]
+        },
+        {
+          "id": "g-adj-meaning-position-05",
+          "type": "build",
+          "en": "last week",
+          "a": [
+            "la semaine dernière"
+          ]
+        },
+        {
+          "id": "g-adj-meaning-position-06",
+          "type": "build",
+          "en": "a tall man",
+          "a": [
+            "un homme grand"
+          ]
+        },
+        {
+          "id": "g-adj-meaning-position-07",
+          "type": "cloze",
+          "fr": "Elle est venue la semaine ___.",
+          "a": [
+            "dernière"
+          ],
+          "en": "She came last week."
+        },
+        {
+          "id": "g-adj-meaning-position-08",
+          "type": "cloze",
+          "fr": "C'est mon ___ ami.",
+          "a": [
+            "cher"
+          ],
+          "hint": "dear",
+          "en": "He is my dear friend."
+        },
+        {
+          "id": "g-adj-meaning-position-09",
+          "type": "cloze",
+          "fr": "Il habite dans sa ___ maison.",
+          "a": [
+            "propre"
+          ],
+          "hint": "own",
+          "en": "He lives in his own house."
+        }
+      ]
+    },
+    {
+      "id": "adjective-complements",
+      "title": "Adjectives with à and de: facile à faire, content de",
+      "fr": "adjectif + à / de + infinitif",
+      "level": "A2",
+      "keywords": [
+        "adjective de",
+        "adjective à",
+        "facile à",
+        "difficile de",
+        "content de",
+        "prêt à",
+        "capable de",
+        "heureux de",
+        "sûr de",
+        "il est facile de",
+        "c'est facile à",
+        "adjective + infinitive",
+        "fier de",
+        "obligé de"
+      ],
+      "topics": [],
+      "see": [
+        "verbs-a-de-inf",
+        "impersonal",
+        "adj-agreement"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "An adjective can be followed by an **infinitive** joined with **à** or **de**. Two patterns exist: **il est + adj. + de + infinitive** (general) and **c'est + adj. + à + infinitive** or **sujet + être + adj. + à + infinitive** (this specific thing is easy to do)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "pattern",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "Il est + adj. + de + inf.",
+                  "Il est facile de comprendre ça.",
+                  "It is easy to understand that."
+                ],
+                [
+                  "Sujet + être + adj. + à + inf.",
+                  "Ce problème est facile à comprendre.",
+                  "This problem is easy to understand."
+                ],
+                [
+                  "être + adj. + de + inf.",
+                  "Je suis content de te voir.",
+                  "I'm glad to see you."
+                ],
+                [
+                  "être + adj. + à + inf.",
+                  "Je suis prêt à partir.",
+                  "I'm ready to leave."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Facile à faire or facile de faire?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**À** goes with the adjective when the **subject is the thing being done** (*Ce livre est facile à lire*: the book is read). **De** goes when the sentence starts with **il** or when the **subject is the person** (*Il est facile de lire ce livre*, *Je suis content de lire*)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "This book is easy to read.",
+                  "wrong": "Ce livre est facile de lire.",
+                  "fr": "Ce livre est facile [[à]] lire."
+                },
+                {
+                  "en": "It is easy to read this book.",
+                  "wrong": "Il est facile à lire ce livre.",
+                  "fr": "Il est facile [[de]] lire ce livre."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Common adjectives",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "with à",
+                "with de"
+              ],
+              "rows": [
+                [
+                  "prêt à (ready)",
+                  "content de (glad)"
+                ],
+                [
+                  "facile à, difficile à",
+                  "heureux de (happy), triste de"
+                ],
+                [
+                  "lent à, rapide à",
+                  "fier de (proud), surpris de"
+                ],
+                [
+                  "agréable à, bon à",
+                  "sûr de (sure), certain de"
+                ],
+                [
+                  "occupé à (busy)",
+                  "capable de, incapable de"
+                ],
+                [
+                  "le premier à, le dernier à, le seul à",
+                  "obligé de, désolé de, impossible de"
+                ]
+              ]
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Elle est la première à arriver.",
+                  "en": "She is the first to arrive."
+                },
+                {
+                  "fr": "Je suis désolé d'être en retard.",
+                  "en": "I'm sorry to be late."
+                },
+                {
+                  "fr": "Il est capable de tout.",
+                  "en": "He is capable of anything."
+                },
+                {
+                  "fr": "C'est un film agréable à regarder.",
+                  "en": "It's a film that is nice to watch."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Adjective + preposition + noun",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Many adjectives take a fixed preposition before a noun: *content de, fier de, fâché contre, sûr de, amoureux de, gentil avec, intéressé par, bon en, nul en, fort en*."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je suis fier de mes notes.",
+                  "en": "I'm proud of my marks."
+                },
+                {
+                  "fr": "Il est fort en maths.",
+                  "en": "He's good at maths."
+                },
+                {
+                  "fr": "Elle est fâchée contre moi.",
+                  "en": "She's angry with me."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il est impossible de dormir avec ce bruit.",
+                  "en": "It's impossible to sleep with this noise."
+                },
+                {
+                  "fr": "Ces chaussures sont difficiles à trouver.",
+                  "en": "These shoes are hard to find."
+                },
+                {
+                  "fr": "Nous sommes prêts à commencer.",
+                  "en": "We're ready to begin."
+                },
+                {
+                  "fr": "Je suis heureux de vous aider.",
+                  "en": "I'm happy to help you."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-adjective-complements-01",
+          "type": "build",
+          "en": "This book is easy to read.",
+          "a": [
+            "Ce livre est facile à lire."
+          ]
+        },
+        {
+          "id": "g-adjective-complements-02",
+          "type": "build",
+          "en": "It's easy to read this book.",
+          "a": [
+            "Il est facile de lire ce livre.",
+            "C'est facile de lire ce livre."
+          ]
+        },
+        {
+          "id": "g-adjective-complements-03",
+          "type": "build",
+          "en": "I'm glad to see you.",
+          "a": [
+            "Je suis content de te voir.",
+            "Je suis heureux de te voir."
+          ]
+        },
+        {
+          "id": "g-adjective-complements-04",
+          "type": "build",
+          "en": "We're ready to leave.",
+          "a": [
+            "Nous sommes prêts à partir.",
+            "On est prêts à partir."
+          ]
+        },
+        {
+          "id": "g-adjective-complements-05",
+          "type": "cloze",
+          "fr": "Ce problème est difficile ___ résoudre.",
+          "a": [
+            "à"
+          ],
+          "en": "This problem is hard to solve."
+        },
+        {
+          "id": "g-adjective-complements-06",
+          "type": "cloze",
+          "fr": "Il est impossible ___ dormir ici.",
+          "a": [
+            "de"
+          ],
+          "en": "It's impossible to sleep here."
+        },
+        {
+          "id": "g-adjective-complements-07",
+          "type": "cloze",
+          "fr": "Je suis désolé ___ être en retard.",
+          "a": [
+            "d'"
+          ],
+          "en": "I'm sorry to be late."
+        },
+        {
+          "id": "g-adjective-complements-08",
+          "type": "cloze",
+          "fr": "Elle est la première ___ arriver.",
+          "a": [
+            "à"
+          ],
+          "en": "She is the first to arrive."
+        }
+      ]
+    },
+    {
+      "id": "beau-nouveau-vieux",
+      "title": "Beau, nouveau, vieux",
+      "fr": "beau, nouveau, vieux",
+      "level": "A2",
+      "keywords": [
+        "beau",
+        "bel",
+        "belle",
+        "nouveau",
+        "nouvel",
+        "nouvelle",
+        "vieux",
+        "vieil",
+        "vieille",
+        "beaux",
+        "nouveaux",
+        "neuf",
+        "beautiful",
+        "new",
+        "old"
+      ],
+      "topics": [
+        "adjectives"
+      ],
+      "see": [
+        "adj-position",
+        "adj-forms",
+        "demonstratives"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Three common adjectives stand before the noun, and in the **masculine** they have a special form before a vowel, similar to *ce → cet*."
+            },
+            {
+              "type": "table",
+              "head": [
+                "masculine",
+                "before a vowel",
+                "feminine",
+                "m. plural",
+                "f. plural"
+              ],
+              "rows": [
+                [
+                  "beau",
+                  "bel",
+                  "belle",
+                  "beaux",
+                  "belles"
+                ],
+                [
+                  "nouveau",
+                  "nouvel",
+                  "nouvelle",
+                  "nouveaux",
+                  "nouvelles"
+                ],
+                [
+                  "vieux",
+                  "vieil",
+                  "vieille",
+                  "vieux",
+                  "vieilles"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Bel, nouvel, vieil",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "a beautiful hotel",
+                  "wrong": "un beau hôtel",
+                  "fr": "un [[bel]] hôtel"
+                },
+                {
+                  "en": "a new friend",
+                  "wrong": "un nouveau ami",
+                  "fr": "un [[nouvel]] ami"
+                },
+                {
+                  "en": "an old man",
+                  "fr": "un [[vieil]] homme"
+                }
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "After the noun or after *être* it stays *beau, nouveau, vieux*: *Cet hôtel est beau.*"
+            }
+          ]
+        },
+        {
+          "title": "Nouveau or neuf?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Nouveau* = new, different from before: *J'ai une nouvelle voiture* (I have a different car, maybe second-hand). *Neuf* = brand new, unused, and it goes after the noun: *J'ai une voiture neuve.*"
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "C'est un bel endroit.",
+                  "en": "It's a beautiful place."
+                },
+                {
+                  "fr": "J'ai une nouvelle prof de maths.",
+                  "en": "I have a new maths teacher."
+                },
+                {
+                  "fr": "Le vieil homme marche lentement.",
+                  "en": "The old man walks slowly."
+                },
+                {
+                  "fr": "Ce sont de beaux souvenirs.",
+                  "en": "These are beautiful memories."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-beau-nouveau-vieux-01",
+          "type": "cloze",
+          "fr": "C'est un ___ appartement.",
+          "a": [
+            "bel"
+          ],
+          "hint": "beau",
+          "en": "It's a beautiful flat."
+        },
+        {
+          "id": "g-beau-nouveau-vieux-02",
+          "type": "cloze",
+          "fr": "J'ai un ___ ami.",
+          "a": [
+            "nouvel"
+          ],
+          "hint": "nouveau",
+          "en": "I have a new friend."
+        },
+        {
+          "id": "g-beau-nouveau-vieux-03",
+          "type": "cloze",
+          "fr": "C'est une ___ maison.",
+          "a": [
+            "vieille"
+          ],
+          "hint": "vieux",
+          "en": "It's an old house."
+        },
+        {
+          "id": "g-beau-nouveau-vieux-04",
+          "type": "cloze",
+          "fr": "Les fleurs sont ___.",
+          "a": [
+            "belles"
+          ],
+          "hint": "beau",
+          "en": "The flowers are beautiful."
+        }
+      ]
+    },
+    {
+      "id": "colors",
+      "title": "Colors",
+      "fr": "les couleurs",
+      "level": "A1",
+      "keywords": [
+        "colors",
+        "colours",
+        "couleurs",
+        "rouge",
+        "bleu",
+        "vert",
+        "noir",
+        "blanc",
+        "orange",
+        "marron",
+        "bleu clair",
+        "foncé"
+      ],
+      "topics": [
+        "adjectives"
+      ],
+      "see": [
+        "adj-agreement",
+        "adj-position",
+        "adj-forms"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Colours are adjectives: they stand **after** the noun and agree in gender and number."
+            },
+            {
+              "type": "table",
+              "head": [
+                "masculine",
+                "feminine",
+                "English"
+              ],
+              "textCols": [
+                2
+              ],
+              "rows": [
+                [
+                  "noir",
+                  "noire",
+                  "black"
+                ],
+                [
+                  "blanc",
+                  "blanche",
+                  "white"
+                ],
+                [
+                  "bleu",
+                  "bleue",
+                  "blue"
+                ],
+                [
+                  "vert",
+                  "verte",
+                  "green"
+                ],
+                [
+                  "gris",
+                  "grise",
+                  "grey"
+                ],
+                [
+                  "violet",
+                  "violette",
+                  "purple"
+                ],
+                [
+                  "rouge",
+                  "rouge",
+                  "red"
+                ],
+                [
+                  "jaune",
+                  "jaune",
+                  "yellow"
+                ],
+                [
+                  "rose",
+                  "rose",
+                  "pink"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Colors that do not change",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Colours named after things (*orange* = the fruit, *marron* = the chestnut) **do not change** for gender or number: *des chaussures orange, des yeux marron*. Compound colours do not either: *une robe bleu clair* (a light blue dress), *des pulls vert foncé*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "brown eyes",
+                  "wrong": "des yeux marrons",
+                  "fr": "des yeux [[marron]]"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "J'ai les yeux bleus.",
+                  "en": "I have blue eyes."
+                },
+                {
+                  "fr": "Ma sœur a une veste verte.",
+                  "en": "My sister has a green jacket."
+                },
+                {
+                  "fr": "Les feuilles sont jaunes en automne.",
+                  "en": "The leaves are yellow in autumn."
+                },
+                {
+                  "fr": "Il porte des baskets orange.",
+                  "en": "He wears orange trainers."
+                },
+                {
+                  "fr": "Je préfère la chemise bleu foncé.",
+                  "en": "I prefer the dark blue shirt."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-colors-01",
+          "type": "cloze",
+          "fr": "J'ai une voiture ___.",
+          "a": [
+            "blanche"
+          ],
+          "hint": "blanc",
+          "en": "I have a white car."
+        },
+        {
+          "id": "g-colors-02",
+          "type": "cloze",
+          "fr": "Elle a les yeux ___.",
+          "a": [
+            "verts"
+          ],
+          "hint": "vert",
+          "en": "She has green eyes."
+        },
+        {
+          "id": "g-colors-03",
+          "type": "cloze",
+          "fr": "J'ai des chaussures ___.",
+          "a": [
+            "orange"
+          ],
+          "hint": "orange",
+          "en": "I have orange shoes."
+        },
+        {
+          "id": "g-colors-04",
+          "type": "build",
+          "en": "I have brown eyes.",
+          "a": [
+            "J'ai les yeux marron."
+          ]
+        },
+        {
+          "id": "g-colors-05",
+          "type": "cloze",
+          "fr": "La mer est ___.",
+          "a": [
+            "bleue"
+          ],
+          "hint": "bleu",
+          "en": "The sea is blue."
+        }
+      ]
+    },
+    {
+      "id": "comparative",
+      "title": "Comparing: plus, moins, aussi... que",
+      "fr": "le comparatif",
+      "level": "A2",
+      "keywords": [
+        "comparison",
+        "comparative",
+        "plus que",
+        "moins que",
+        "aussi que",
+        "autant que",
+        "comparatif",
+        "taller than",
+        "more than",
+        "plus de"
+      ],
+      "topics": [
+        "comparative"
+      ],
+      "see": [
+        "superlative",
+        "bon-bien",
+        "stressed-pronouns"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "pattern",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                3
+              ],
+              "rows": [
+                [
+                  "more",
+                  "plus ... que",
+                  "Paul est plus grand que moi.",
+                  "Paul is taller than me."
+                ],
+                [
+                  "less",
+                  "moins ... que",
+                  "Le bus est moins cher que le train.",
+                  "The bus is cheaper than the train."
+                ],
+                [
+                  "as ... as",
+                  "aussi ... que",
+                  "Je suis aussi grand que mon père.",
+                  "I'm as tall as my father."
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "The adjective still agrees: *Ma sœur est plus grande que moi.* After *que* comes a stressed pronoun: *que moi, que toi, que lui*."
+            }
+          ]
+        },
+        {
+          "title": "With nouns and verbs",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "plus de + noun",
+                  "J'ai plus de devoirs que toi.",
+                  "I have more homework than you."
+                ],
+                [
+                  "moins de + noun",
+                  "Il a moins d'amis.",
+                  "He has fewer friends."
+                ],
+                [
+                  "autant de + noun",
+                  "J'ai autant de jeux que lui.",
+                  "I have as many games as he does."
+                ],
+                [
+                  "verb + plus, moins, autant",
+                  "Je travaille plus que toi.",
+                  "I work more than you."
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*Aussi* goes with an adjective (*aussi grand*), *autant* with a noun and with a verb (*autant de livres, je travaille autant*)."
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "He is taller than me.",
+                  "wrong": "Il est plus grand que je.",
+                  "fr": "Il est plus grand que [[moi]]."
+                },
+                {
+                  "en": "He is better than you.",
+                  "wrong": "Il est plus bon que toi.",
+                  "fr": "Il est [[meilleur]] que toi."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "bon-bien"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Le français est plus difficile que l'anglais.",
+                  "en": "French is harder than English."
+                },
+                {
+                  "fr": "Mon frère est moins sportif que moi.",
+                  "en": "My brother is less sporty than me."
+                },
+                {
+                  "fr": "Elle court aussi vite que lui.",
+                  "en": "She runs as fast as he does."
+                },
+                {
+                  "fr": "Il y a plus de monde aujourd'hui.",
+                  "en": "There are more people today."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-comparative-01",
+          "type": "build",
+          "en": "Paul is taller than me.",
+          "a": [
+            "Paul est plus grand que moi."
+          ]
+        },
+        {
+          "id": "g-comparative-02",
+          "type": "cloze",
+          "fr": "Le train est ___ rapide que le bus.",
+          "a": [
+            "plus"
+          ],
+          "en": "The train is faster than the bus."
+        },
+        {
+          "id": "g-comparative-03",
+          "type": "cloze",
+          "fr": "Je suis ___ grand que mon père.",
+          "a": [
+            "aussi"
+          ],
+          "en": "I'm as tall as my father."
+        },
+        {
+          "id": "g-comparative-04",
+          "type": "cloze",
+          "fr": "J'ai plus ___ devoirs que toi.",
+          "a": [
+            "de"
+          ],
+          "en": "I have more homework than you."
+        },
+        {
+          "id": "g-comparative-05",
+          "type": "build",
+          "en": "She is smaller than you.",
+          "a": [
+            "Elle est plus petite que toi.",
+            "Elle est moins grande que toi."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "superlative",
+      "title": "The superlative: le plus",
+      "fr": "le superlatif",
+      "level": "A2",
+      "keywords": [
+        "superlative",
+        "le plus",
+        "le moins",
+        "superlatif",
+        "the best",
+        "the tallest",
+        "de la classe"
+      ],
+      "topics": [
+        "comparative"
+      ],
+      "see": [
+        "comparative",
+        "bon-bien",
+        "adj-position"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Le, la, les* + *plus* (or *moins*) + adjective. The article agrees with the noun."
+            },
+            {
+              "type": "table",
+              "head": [
+                "",
+                "example",
+                "English"
+              ],
+              "textCols": [
+                0,
+                2
+              ],
+              "rows": [
+                [
+                  "masculine",
+                  "le plus grand",
+                  "the biggest"
+                ],
+                [
+                  "feminine",
+                  "la plus grande",
+                  "the biggest"
+                ],
+                [
+                  "plural",
+                  "les plus grands",
+                  "the biggest"
+                ],
+                [
+                  "least",
+                  "le moins cher",
+                  "the cheapest"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "With de",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The group the \"-est\" refers to is introduced by *de*: *le plus grand de la classe* (the tallest in the class)."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "He is the tallest in the class.",
+                  "wrong": "Il est le plus grand dans la classe.",
+                  "fr": "Il est le plus grand [[de]] la classe."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Where the adjective goes",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "The adjective stays in its usual place. When it stands after the noun, the article is **repeated**: *le film le plus drôle*. When it stands before the noun, it is not: *le plus beau jour*."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "art",
+                      "le"
+                    ],
+                    [
+                      "noun",
+                      "film"
+                    ],
+                    [
+                      "art",
+                      "le"
+                    ],
+                    [
+                      "adv",
+                      "plus"
+                    ],
+                    [
+                      "adj",
+                      "drôle"
+                    ]
+                  ],
+                  "en": "the funniest film"
+                },
+                {
+                  "parts": [
+                    [
+                      "art",
+                      "la"
+                    ],
+                    [
+                      "adv",
+                      "plus"
+                    ],
+                    [
+                      "adj",
+                      "belle"
+                    ],
+                    [
+                      "noun",
+                      "ville"
+                    ]
+                  ],
+                  "en": "the most beautiful city"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "C'est le jeu le plus populaire.",
+                  "en": "It's the most popular game."
+                },
+                {
+                  "fr": "Paris est la plus grande ville de France.",
+                  "en": "Paris is the biggest city in France."
+                },
+                {
+                  "fr": "C'est le plus beau jour de ma vie !",
+                  "en": "It's the best day of my life!"
+                },
+                {
+                  "fr": "Mon meilleur ami s'appelle Tom.",
+                  "en": "My best friend is called Tom."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-superlative-01",
+          "type": "build",
+          "en": "He is the tallest in the class.",
+          "a": [
+            "Il est le plus grand de la classe."
+          ]
+        },
+        {
+          "id": "g-superlative-02",
+          "type": "cloze",
+          "fr": "C'est la ___ belle ville du monde.",
+          "a": [
+            "plus"
+          ],
+          "en": "It's the most beautiful city in the world."
+        },
+        {
+          "id": "g-superlative-03",
+          "type": "cloze",
+          "fr": "C'est le film le plus drôle ___ l'année.",
+          "a": [
+            "de"
+          ],
+          "en": "It's the funniest film of the year."
+        },
+        {
+          "id": "g-superlative-04",
+          "type": "build",
+          "en": "the cheapest phone",
+          "a": [
+            "le téléphone le moins cher"
+          ]
+        },
+        {
+          "id": "g-superlative-05",
+          "type": "cloze",
+          "fr": "C'est mon ___ ami.",
+          "a": [
+            "meilleur"
+          ],
+          "hint": "bon",
+          "en": "He's my best friend."
+        }
+      ]
+    },
+    {
+      "id": "comparison-advanced",
+      "title": "More comparisons: de plus en plus, plus... plus, le même que",
+      "fr": "la comparaison (suite)",
+      "level": "B1",
+      "keywords": [
+        "de plus en plus",
+        "de moins en moins",
+        "plus plus",
+        "moins moins",
+        "de mieux en mieux",
+        "le même que",
+        "autant",
+        "aussi bien que",
+        "davantage",
+        "supérieur à",
+        "inférieur à",
+        "meilleur",
+        "pire",
+        "plus de que",
+        "comparison"
+      ],
+      "topics": [],
+      "see": [
+        "comparative",
+        "superlative",
+        "bon-bien"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Besides *plus / moins / aussi... que*, French compares **quantities** (*plus de, moins de, autant de*), **progress** (*de plus en plus*), **proportion** (*plus... plus*), and uses **irregular forms** (*meilleur, mieux, pire*)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "structure",
+                "example",
+                "English"
+              ],
+              "rows": [
+                [
+                  "plus de / moins de / autant de + noun",
+                  "Il a plus d'amis que moi.",
+                  "He has more friends than me."
+                ],
+                [
+                  "verb + plus que / autant que",
+                  "Elle travaille plus que lui.",
+                  "She works more than him."
+                ],
+                [
+                  "de plus en plus / de moins en moins",
+                  "Il fait de plus en plus froid.",
+                  "It's getting colder and colder."
+                ],
+                [
+                  "de mieux en mieux / de pire en pire",
+                  "Ça va de mieux en mieux.",
+                  "It's getting better and better."
+                ],
+                [
+                  "plus... plus / moins... moins",
+                  "Plus je dors, plus je suis fatigué.",
+                  "The more I sleep the more tired I am."
+                ],
+                [
+                  "le même... que",
+                  "Il a le même âge que moi.",
+                  "He is the same age as me."
+                ],
+                [
+                  "supérieur à / inférieur à",
+                  "La note est supérieure à 10.",
+                  "The mark is above 10."
+                ]
+              ],
+              "textCols": [
+                2
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Plus de... que",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "With nouns the **quantity** is *plus de / moins de / autant de* + noun, then **que**: *J'ai plus de temps que toi.* With **numbers** use *plus de*, not *plus que*: *plus de dix personnes*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "more than ten people",
+                  "wrong": "plus que dix personnes",
+                  "fr": "[[plus de]] dix personnes"
+                },
+                {
+                  "en": "He has more friends than me.",
+                  "wrong": "Il a plus amis que moi.",
+                  "fr": "Il a plus [[d']]amis que moi."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Irregular: meilleur, mieux, pire",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Bon → meilleur** (adjective), **bien → mieux** (adverb), **mauvais → pire** (adjective, or *plus mauvais*), **mal → pis / plus mal** (adverb). **Le meilleur, le mieux, le pire** are the superlatives."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ce film est meilleur que le livre.",
+                  "en": "This film is better than the book."
+                },
+                {
+                  "fr": "Elle chante mieux que moi.",
+                  "en": "She sings better than me."
+                },
+                {
+                  "fr": "C'est le pire jour de ma vie.",
+                  "en": "It's the worst day of my life."
+                },
+                {
+                  "fr": "C'est le meilleur gâteau du monde.",
+                  "en": "It's the best cake in the world."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "The more... the more",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Plus... plus*, *moins... moins*, *plus... moins* give a **proportion** (the more... the more). Each part starts the clause, with **no que and no inversion**: *Plus je mange, plus j'ai faim.*"
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Plus on est de fous, plus on rit.",
+                  "en": "The more, the merrier."
+                },
+                {
+                  "fr": "Moins il parle, mieux c'est.",
+                  "en": "The less he talks, the better."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il fait de moins en moins chaud.",
+                  "en": "It's getting less and less warm."
+                },
+                {
+                  "fr": "Elle a autant de livres que moi.",
+                  "en": "She has as many books as I do."
+                },
+                {
+                  "fr": "Mon frère est plus grand que moi.",
+                  "en": "My brother is taller than me."
+                },
+                {
+                  "fr": "Tu as le même téléphone que moi.",
+                  "en": "You have the same phone as me."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-comparison-advanced-01",
+          "type": "build",
+          "en": "It's getting colder and colder.",
+          "a": [
+            "Il fait de plus en plus froid."
+          ]
+        },
+        {
+          "id": "g-comparison-advanced-02",
+          "type": "build",
+          "en": "The more I sleep, the more tired I am.",
+          "a": [
+            "Plus je dors, plus je suis fatigué.",
+            "Plus je dors, plus je suis fatiguée."
+          ]
+        },
+        {
+          "id": "g-comparison-advanced-03",
+          "type": "build",
+          "en": "He has more friends than me.",
+          "a": [
+            "Il a plus d'amis que moi."
+          ]
+        },
+        {
+          "id": "g-comparison-advanced-04",
+          "type": "build",
+          "en": "She sings better than me.",
+          "a": [
+            "Elle chante mieux que moi."
+          ]
+        },
+        {
+          "id": "g-comparison-advanced-05",
+          "type": "build",
+          "en": "This is the worst day of my life.",
+          "a": [
+            "C'est le pire jour de ma vie."
+          ]
+        },
+        {
+          "id": "g-comparison-advanced-06",
+          "type": "cloze",
+          "fr": "Il a plus ___ dix ans.",
+          "a": [
+            "de"
+          ],
+          "en": "He is more than ten."
+        },
+        {
+          "id": "g-comparison-advanced-07",
+          "type": "cloze",
+          "fr": "Elle a ___ de livres que moi.",
+          "a": [
+            "autant"
+          ],
+          "en": "She has as many books as me."
+        },
+        {
+          "id": "g-comparison-advanced-08",
+          "type": "cloze",
+          "fr": "Ce film est ___ que le livre.",
+          "a": [
+            "meilleur"
+          ],
+          "hint": "better",
+          "en": "This film is better than the book."
+        },
+        {
+          "id": "g-comparison-advanced-09",
+          "type": "cloze",
+          "fr": "Ça va de ___ en mieux.",
+          "a": [
+            "mieux"
+          ],
+          "en": "It's getting better and better."
+        }
+      ]
+    },
+    {
+      "id": "bon-bien",
+      "title": "Bon, meilleur, bien, mieux",
+      "fr": "bon, bien, meilleur, mieux",
+      "level": "A2",
+      "keywords": [
+        "bon",
+        "bien",
+        "meilleur",
+        "mieux",
+        "le meilleur",
+        "le mieux",
+        "good",
+        "well",
+        "better",
+        "c'est bon",
+        "c'est bien"
+      ],
+      "topics": [],
+      "see": [
+        "comparative",
+        "superlative",
+        "adverbs-ment"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "basic",
+                "better",
+                "best"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "adjective (what kind?)",
+                  "bon",
+                  "meilleur",
+                  "le meilleur"
+                ],
+                [
+                  "adverb (how?)",
+                  "bien",
+                  "mieux",
+                  "le mieux"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "*Bon* describes a thing (what kind?), *bien* describes an action (how?). They form their comparisons irregularly: *plus bon* and *plus bien* do not exist."
+            }
+          ]
+        },
+        {
+          "title": "Bon or bien?",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "It's a good film.",
+                  "fr": "C'est un [[bon]] film.",
+                  "note": "What kind of film? A good one."
+                },
+                {
+                  "en": "He plays well.",
+                  "fr": "Il joue [[bien]].",
+                  "note": "How does he play? Well."
+                },
+                {
+                  "en": "He plays better than me.",
+                  "fr": "Il joue [[mieux]] que moi."
+                },
+                {
+                  "en": "This pizza is better.",
+                  "fr": "Cette pizza est [[meilleure]].",
+                  "note": "*Meilleur* agrees like any adjective."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "C'est bon × c'est bien",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*C'est bon* = it tastes good, it is valid, it's sorted. *C'est bien* = it's good, right, fine (a judgement)."
+            },
+            {
+              "type": "tip",
+              "title": "The opposite",
+              "en": "*Mauvais* (bad) → *plus mauvais* or *pire*. *Mal* (badly) → *plus mal*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Ce gâteau est très bon.",
+                  "en": "This cake is very good."
+                },
+                {
+                  "fr": "Tu parles bien français !",
+                  "en": "You speak French well!"
+                },
+                {
+                  "fr": "Ça va mieux ?",
+                  "en": "Are you feeling better?"
+                },
+                {
+                  "fr": "C'est la meilleure équipe.",
+                  "en": "It's the best team."
+                },
+                {
+                  "fr": "C'est lui qui chante le mieux.",
+                  "en": "He's the one who sings best."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-bon-bien-01",
+          "type": "cloze",
+          "fr": "Il parle très ___ anglais.",
+          "a": [
+            "bien"
+          ],
+          "en": "He speaks English very well."
+        },
+        {
+          "id": "g-bon-bien-02",
+          "type": "cloze",
+          "fr": "C'est un très ___ livre.",
+          "a": [
+            "bon"
+          ],
+          "en": "It's a very good book."
+        },
+        {
+          "id": "g-bon-bien-03",
+          "type": "cloze",
+          "fr": "Elle joue ___ que moi.",
+          "a": [
+            "mieux"
+          ],
+          "en": "She plays better than me."
+        },
+        {
+          "id": "g-bon-bien-04",
+          "type": "cloze",
+          "fr": "Ta pizza est ___ que la mienne.",
+          "a": [
+            "meilleure"
+          ],
+          "en": "Your pizza is better than mine."
+        },
+        {
+          "id": "g-bon-bien-05",
+          "type": "build",
+          "en": "I'm feeling better.",
+          "a": [
+            "Je vais mieux.",
+            "Ça va mieux."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs-ment",
+      "title": "Adverbs in -ment",
+      "fr": "les adverbes en -ment",
+      "level": "A2",
+      "keywords": [
+        "adverbs",
+        "-ment",
+        "lentement",
+        "rapidement",
+        "vraiment",
+        "heureusement",
+        "adverbes",
+        "-amment",
+        "-emment",
+        "-ly"
+      ],
+      "topics": [],
+      "see": [
+        "adverb-position",
+        "bon-bien",
+        "adj-forms"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Most adverbs are formed from the **feminine** of the adjective + *-ment* (English: *-ly*)."
+            },
+            {
+              "type": "table",
+              "head": [
+                "masculine",
+                "feminine",
+                "adverb",
+                "English"
+              ],
+              "textCols": [
+                3
+              ],
+              "rows": [
+                [
+                  "lent",
+                  "lente",
+                  "lentement",
+                  "slowly"
+                ],
+                [
+                  "heureux",
+                  "heureuse",
+                  "heureusement",
+                  "luckily"
+                ],
+                [
+                  "sérieux",
+                  "sérieuse",
+                  "sérieusement",
+                  "seriously"
+                ],
+                [
+                  "doux",
+                  "douce",
+                  "doucement",
+                  "gently, quietly"
+                ],
+                [
+                  "final",
+                  "finale",
+                  "finalement",
+                  "finally"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "After a vowel",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "When the masculine form ends in a vowel, *-ment* goes straight on: *vrai → vraiment, poli → poliment, absolu → absolument*."
+            }
+          ]
+        },
+        {
+          "title": "-ant and -ent",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "adjective",
+                "adverb",
+                "English"
+              ],
+              "textCols": [
+                2
+              ],
+              "rows": [
+                [
+                  "constant",
+                  "constamment",
+                  "constantly"
+                ],
+                [
+                  "évident",
+                  "évidemment",
+                  "obviously"
+                ],
+                [
+                  "récent",
+                  "récemment",
+                  "recently"
+                ]
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "*-amment* and *-emment* are pronounced the same. Irregular: *bon → bien, mauvais → mal, gentil → gentiment*."
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Parle lentement, s'il te plaît.",
+                  "en": "Speak slowly, please."
+                },
+                {
+                  "fr": "Heureusement, il ne pleut pas.",
+                  "en": "Luckily it isn't raining."
+                },
+                {
+                  "fr": "C'est vraiment génial !",
+                  "en": "It's really great!"
+                },
+                {
+                  "fr": "Évidemment, j'ai gagné.",
+                  "en": "Obviously I won."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-adverbs-ment-01",
+          "type": "transform",
+          "task_en": "Form the adverb",
+          "fr": "lent",
+          "a": [
+            "lentement"
+          ]
+        },
+        {
+          "id": "g-adverbs-ment-02",
+          "type": "transform",
+          "task_en": "Form the adverb",
+          "fr": "heureux",
+          "a": [
+            "heureusement"
+          ]
+        },
+        {
+          "id": "g-adverbs-ment-03",
+          "type": "transform",
+          "task_en": "Form the adverb",
+          "fr": "vrai",
+          "a": [
+            "vraiment"
+          ]
+        },
+        {
+          "id": "g-adverbs-ment-04",
+          "type": "transform",
+          "task_en": "Form the adverb",
+          "fr": "évident",
+          "a": [
+            "évidemment"
+          ]
+        },
+        {
+          "id": "g-adverbs-ment-05",
+          "type": "cloze",
+          "fr": "Il conduit ___.",
+          "a": [
+            "lentement"
+          ],
+          "hint": "lent",
+          "en": "He drives slowly."
+        }
+      ]
+    },
+    {
+      "id": "adverb-position",
+      "title": "Where the adverb goes",
+      "fr": "la place de l'adverbe",
+      "level": "A2",
+      "keywords": [
+        "adverb position",
+        "bien",
+        "déjà",
+        "souvent",
+        "toujours",
+        "encore",
+        "beaucoup",
+        "trop",
+        "vite",
+        "adverbs in the passé composé"
+      ],
+      "topics": [],
+      "see": [
+        "sentence-map",
+        "frequency",
+        "adverbs-ment",
+        "time-place"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "An adverb that describes the verb stands **right after the conjugated verb**. English often puts it before the verb: \"I often play\" × *je joue souvent*."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Je"
+                    ],
+                    [
+                      "V",
+                      "joue"
+                    ],
+                    [
+                      "adv",
+                      "souvent"
+                    ],
+                    [
+                      "obj",
+                      "au foot."
+                    ]
+                  ],
+                  "en": "I often play football."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Il"
+                    ],
+                    [
+                      "V",
+                      "parle"
+                    ],
+                    [
+                      "adv",
+                      "bien"
+                    ],
+                    [
+                      "obj",
+                      "anglais."
+                    ]
+                  ],
+                  "en": "He speaks English well."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "In compound tenses",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Short adverbs (*bien, mal, déjà, souvent, toujours, encore, beaucoup, trop, vite, jamais*) stand **between the auxiliary and the participle**."
+            },
+            {
+              "type": "pattern",
+              "rows": [
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "J'"
+                    ],
+                    [
+                      "aux",
+                      "ai"
+                    ],
+                    [
+                      "adv",
+                      "bien"
+                    ],
+                    [
+                      "part",
+                      "mangé."
+                    ]
+                  ],
+                  "en": "I ate well."
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Tu"
+                    ],
+                    [
+                      "aux",
+                      "as"
+                    ],
+                    [
+                      "adv",
+                      "déjà"
+                    ],
+                    [
+                      "part",
+                      "fini ?"
+                    ]
+                  ],
+                  "en": "Have you finished already?"
+                },
+                {
+                  "parts": [
+                    [
+                      "S",
+                      "Nous"
+                    ],
+                    [
+                      "aux",
+                      "avons"
+                    ],
+                    [
+                      "adv",
+                      "beaucoup"
+                    ],
+                    [
+                      "part",
+                      "travaillé."
+                    ]
+                  ],
+                  "en": "We worked a lot."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Time, place, long adverbs",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Adverbs of time and place (*hier, demain, aujourd'hui, ici*) and long adverbs in *-ment* stand at the start or the end of the sentence: *Hier, j'ai joué. J'ai joué hier. Il a répondu rapidement.*"
+            },
+            {
+              "type": "tip",
+              "en": "With an infinitive, short adverbs go **before** the infinitive: *Il faut bien manger. Je vais vite finir.*"
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I often go to the cinema.",
+                  "wrong": "Je souvent vais au cinéma.",
+                  "fr": "Je vais [[souvent]] au cinéma."
+                },
+                {
+                  "en": "I've already eaten.",
+                  "wrong": "J'ai mangé déjà.",
+                  "fr": "J'ai [[déjà]] mangé."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il pleut beaucoup en novembre.",
+                  "en": "It rains a lot in November."
+                },
+                {
+                  "fr": "Je n'ai jamais vu la mer.",
+                  "en": "I've never seen the sea."
+                },
+                {
+                  "fr": "Tu as bien dormi ?",
+                  "en": "Did you sleep well?"
+                },
+                {
+                  "fr": "Elle parle trop vite.",
+                  "en": "She talks too fast."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-adverb-position-01",
+          "type": "transform",
+          "task_en": "Add \"souvent\" in the right place",
+          "fr": "Je joue au tennis.",
+          "a": [
+            "Je joue souvent au tennis."
+          ]
+        },
+        {
+          "id": "g-adverb-position-02",
+          "type": "transform",
+          "task_en": "Add \"déjà\" in the right place",
+          "fr": "J'ai fini.",
+          "a": [
+            "J'ai déjà fini."
+          ]
+        },
+        {
+          "id": "g-adverb-position-03",
+          "type": "transform",
+          "task_en": "Add \"beaucoup\" in the right place",
+          "fr": "Nous avons travaillé.",
+          "a": [
+            "Nous avons beaucoup travaillé."
+          ]
+        },
+        {
+          "id": "g-adverb-position-04",
+          "type": "build",
+          "en": "You speak French well.",
+          "a": [
+            "Tu parles bien {|le }français."
+          ]
+        },
+        {
+          "id": "g-adverb-position-05",
+          "type": "order",
+          "en": "Did you sleep well?",
+          "a": [
+            "Tu as bien dormi ?"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "adverbs-place-time",
+      "title": "Adverbs of place and time: ici, là, maintenant, déjà",
+      "fr": "les adverbes de lieu et de temps",
+      "level": "A1",
+      "keywords": [
+        "adverbs of place",
+        "adverbs of time",
+        "ici",
+        "là",
+        "là-bas",
+        "partout",
+        "ailleurs",
+        "maintenant",
+        "bientôt",
+        "demain",
+        "hier",
+        "aujourd'hui",
+        "déjà",
+        "encore",
+        "toujours",
+        "tard",
+        "tôt",
+        "longtemps",
+        "parfois",
+        "souvent"
+      ],
+      "topics": [],
+      "see": [
+        "adverb-position",
+        "frequency",
+        "negation-words",
+        "time-expressions"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Adverbs of **place** say *where* (*ici, là, là-bas, partout, ailleurs, dehors, dedans*). Adverbs of **time** say *when* (*maintenant, bientôt, demain, hier, aujourd'hui, déjà, encore, tôt, tard*). They **never change** and usually go **after the verb**, or at the **beginning or end** of the sentence."
+            },
+            {
+              "type": "table",
+              "head": [
+                "place",
+                "meaning",
+                "time",
+                "meaning"
+              ],
+              "rows": [
+                [
+                  "ici",
+                  "here",
+                  "maintenant",
+                  "now"
+                ],
+                [
+                  "là",
+                  "there",
+                  "bientôt",
+                  "soon"
+                ],
+                [
+                  "là-bas",
+                  "over there",
+                  "tout de suite",
+                  "right away"
+                ],
+                [
+                  "partout",
+                  "everywhere",
+                  "tout à l'heure",
+                  "in a moment / a moment ago"
+                ],
+                [
+                  "ailleurs",
+                  "elsewhere",
+                  "aujourd'hui, hier, demain",
+                  "today, yesterday, tomorrow"
+                ],
+                [
+                  "dehors, dedans",
+                  "outside, inside",
+                  "avant, après",
+                  "before, after"
+                ],
+                [
+                  "en haut, en bas",
+                  "upstairs, downstairs",
+                  "tôt, tard",
+                  "early, late"
+                ],
+                [
+                  "devant, derrière",
+                  "in front, behind",
+                  "longtemps",
+                  "for a long time"
+                ]
+              ],
+              "textCols": [
+                1,
+                3
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Déjà, encore, toujours, jamais",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "adverb",
+                "meaning",
+                "example"
+              ],
+              "rows": [
+                [
+                  "déjà",
+                  "already, ever",
+                  "Il est déjà parti. Tu as déjà mangé ?"
+                ],
+                [
+                  "pas encore",
+                  "not yet",
+                  "Je n'ai pas encore fini."
+                ],
+                [
+                  "encore",
+                  "again, still, more",
+                  "Encore un café ? Il pleut encore."
+                ],
+                [
+                  "toujours",
+                  "always, still",
+                  "Il est toujours là."
+                ],
+                [
+                  "ne ... plus",
+                  "no longer",
+                  "Il n'est plus là."
+                ],
+                [
+                  "souvent, parfois, rarement",
+                  "often, sometimes, rarely",
+                  "Je vais souvent au cinéma."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            },
+            {
+              "type": "tip",
+              "en": "**Encore** means *again / still / more*: the sentence tells you which. **Toujours** is *always* and also *still*: *Il habite toujours ici.* (He still lives here)."
+            }
+          ]
+        },
+        {
+          "title": "Where they go",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Time and place adverbs of one word go **after the verb** in simple tenses: *Il arrive demain.* In the passé composé short adverbs (*déjà, bientôt, souvent, toujours*) go **between the auxiliary and the participle**; longer ones and place adverbs go after the participle."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "He has already arrived.",
+                  "wrong": "Il est arrivé déjà.",
+                  "fr": "Il est [[déjà]] arrivé."
+                },
+                {
+                  "en": "We went there yesterday.",
+                  "wrong": "Nous avons hier allé.",
+                  "fr": "Nous y sommes allés [[hier]]."
+                }
+              ]
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je vais souvent au cinéma.",
+                  "en": "I often go to the cinema."
+                },
+                {
+                  "fr": "J'ai déjà fini.",
+                  "en": "I have already finished."
+                },
+                {
+                  "fr": "Il est parti tôt.",
+                  "en": "He left early."
+                },
+                {
+                  "fr": "Elle habite ici.",
+                  "en": "She lives here."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Viens ici !",
+                  "en": "Come here!"
+                },
+                {
+                  "fr": "Il fait froid dehors.",
+                  "en": "It's cold outside."
+                },
+                {
+                  "fr": "À bientôt !",
+                  "en": "See you soon!"
+                },
+                {
+                  "fr": "Je me couche tard le week-end.",
+                  "en": "I go to bed late at the weekend."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-adverbs-place-time-01",
+          "type": "build",
+          "en": "Come here!",
+          "a": [
+            "Viens ici !",
+            "Venez ici !"
+          ]
+        },
+        {
+          "id": "g-adverbs-place-time-02",
+          "type": "build",
+          "en": "It's cold outside.",
+          "a": [
+            "Il fait froid dehors."
+          ]
+        },
+        {
+          "id": "g-adverbs-place-time-03",
+          "type": "build",
+          "en": "He has already left.",
+          "a": [
+            "Il est déjà parti."
+          ]
+        },
+        {
+          "id": "g-adverbs-place-time-04",
+          "type": "build",
+          "en": "I haven't finished yet.",
+          "a": [
+            "Je n'ai pas encore fini."
+          ]
+        },
+        {
+          "id": "g-adverbs-place-time-05",
+          "type": "build",
+          "en": "See you soon!",
+          "a": [
+            "À bientôt !"
+          ]
+        },
+        {
+          "id": "g-adverbs-place-time-06",
+          "type": "cloze",
+          "fr": "Il est ___ parti.",
+          "a": [
+            "déjà"
+          ],
+          "hint": "already",
+          "en": "He has already left."
+        },
+        {
+          "id": "g-adverbs-place-time-07",
+          "type": "cloze",
+          "fr": "Je me lève ___ le matin.",
+          "a": [
+            "tôt"
+          ],
+          "hint": "early",
+          "en": "I get up early in the morning."
+        },
+        {
+          "id": "g-adverbs-place-time-08",
+          "type": "cloze",
+          "fr": "Tu veux ___ du café ?",
+          "a": [
+            "encore"
+          ],
+          "hint": "more",
+          "en": "Do you want more coffee?"
+        },
+        {
+          "id": "g-adverbs-place-time-09",
+          "type": "cloze",
+          "fr": "Il habite ___ ici.",
+          "a": [
+            "toujours"
+          ],
+          "hint": "still",
+          "en": "He still lives here."
+        }
+      ]
+    },
+    {
+      "id": "intensity",
+      "title": "How much: très, trop, assez, un peu, tellement",
+      "fr": "les adverbes d'intensité",
+      "level": "A1",
+      "levelTo": "A2",
+      "keywords": [
+        "très",
+        "trop",
+        "assez",
+        "un peu",
+        "beaucoup",
+        "tellement",
+        "si",
+        "tant",
+        "vraiment",
+        "plutôt",
+        "presque",
+        "à peine",
+        "trop de",
+        "assez de",
+        "intensity",
+        "too",
+        "enough",
+        "very"
+      ],
+      "topics": [],
+      "see": [
+        "quantities",
+        "comparative",
+        "frequency",
+        "bon-bien"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "Intensity adverbs say **how much**. Some go with **adjectives and adverbs** (*très grand, trop vite*), some with **verbs** (*beaucoup, tellement*), some with **nouns** (*beaucoup de, trop de*). The right one depends on the word that follows."
+            },
+            {
+              "type": "table",
+              "head": [
+                "adverb",
+                "with adjective / adverb",
+                "with verb",
+                "with noun"
+              ],
+              "rows": [
+                [
+                  "très",
+                  "très grand",
+                  "(not alone)",
+                  "no"
+                ],
+                [
+                  "beaucoup",
+                  "no (use très)",
+                  "J'aime beaucoup.",
+                  "beaucoup de temps"
+                ],
+                [
+                  "trop",
+                  "trop grand",
+                  "Il parle trop.",
+                  "trop de bruit"
+                ],
+                [
+                  "assez",
+                  "assez grand",
+                  "Il mange assez.",
+                  "assez d'argent"
+                ],
+                [
+                  "un peu",
+                  "un peu grand",
+                  "Il dort un peu.",
+                  "un peu de lait"
+                ],
+                [
+                  "tellement / si",
+                  "tellement / si grand",
+                  "Il parle tellement.",
+                  "tellement de gens"
+                ],
+                [
+                  "plus / moins",
+                  "plus grand",
+                  "Il court plus.",
+                  "plus de temps"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Très or beaucoup?",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Très** modifies an **adjective or adverb**: *très bien, très cher*. **Beaucoup** modifies a **verb**: *J'aime beaucoup.* Before a noun use **beaucoup de**: *beaucoup d'amis*. Never *très beaucoup* or *beaucoup bon*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "It's very good.",
+                  "wrong": "C'est beaucoup bon.",
+                  "fr": "C'est [[très]] bon."
+                },
+                {
+                  "en": "I like it a lot.",
+                  "wrong": "J'aime très.",
+                  "fr": "J'aime [[beaucoup]]."
+                },
+                {
+                  "en": "a lot of friends",
+                  "wrong": "beaucoup amis",
+                  "fr": "beaucoup [[d']]amis"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Trop and assez",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "**Trop** (too, too much) and **assez** (enough) work in all three ways. **Assez** goes **before the adjective** but **after the verb**: *assez grand, il mange assez*. After a negation *assez* is the opposite of *trop*: *Il n'est pas assez grand* (not tall enough)."
+            },
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il est trop fatigué pour sortir.",
+                  "en": "He's too tired to go out."
+                },
+                {
+                  "fr": "Nous n'avons pas assez d'argent.",
+                  "en": "We don't have enough money."
+                },
+                {
+                  "fr": "C'est un peu cher.",
+                  "en": "It's a bit expensive."
+                },
+                {
+                  "fr": "J'ai tellement faim !",
+                  "en": "I'm so hungry!"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Softeners and boosters",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "word",
+                "meaning",
+                "example"
+              ],
+              "rows": [
+                [
+                  "plutôt",
+                  "rather",
+                  "C'est plutôt facile."
+                ],
+                [
+                  "assez",
+                  "quite",
+                  "Il est assez sympa."
+                ],
+                [
+                  "vraiment",
+                  "really",
+                  "Il est vraiment gentil."
+                ],
+                [
+                  "presque",
+                  "almost",
+                  "Il est presque midi."
+                ],
+                [
+                  "à peine",
+                  "hardly",
+                  "Il est à peine sept heures."
+                ],
+                [
+                  "tout à fait",
+                  "completely",
+                  "Je suis tout à fait d'accord."
+                ]
+              ],
+              "textCols": [
+                1
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Il fait très chaud aujourd'hui.",
+                  "en": "It's very hot today."
+                },
+                {
+                  "fr": "Elle parle beaucoup.",
+                  "en": "She talks a lot."
+                },
+                {
+                  "fr": "Tu as assez de temps ?",
+                  "en": "Do you have enough time?"
+                },
+                {
+                  "fr": "Il y a trop de monde ici.",
+                  "en": "There are too many people here."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-intensity-01",
+          "type": "build",
+          "en": "It's very good.",
+          "a": [
+            "C'est très bon."
+          ]
+        },
+        {
+          "id": "g-intensity-02",
+          "type": "build",
+          "en": "I like it a lot.",
+          "a": [
+            "J'aime beaucoup."
+          ]
+        },
+        {
+          "id": "g-intensity-03",
+          "type": "build",
+          "en": "There are too many people.",
+          "a": [
+            "Il y a trop de monde.",
+            "Il y a trop de gens."
+          ]
+        },
+        {
+          "id": "g-intensity-04",
+          "type": "build",
+          "en": "We don't have enough money.",
+          "a": [
+            "Nous n'avons pas assez d'argent.",
+            "On n'a pas assez d'argent."
+          ]
+        },
+        {
+          "id": "g-intensity-05",
+          "type": "cloze",
+          "fr": "Il est ___ fatigué.",
+          "a": [
+            "très"
+          ],
+          "hint": "very",
+          "en": "He is very tired."
+        },
+        {
+          "id": "g-intensity-06",
+          "type": "cloze",
+          "fr": "Elle mange ___.",
+          "a": [
+            "beaucoup"
+          ],
+          "en": "She eats a lot."
+        },
+        {
+          "id": "g-intensity-07",
+          "type": "cloze",
+          "fr": "Il y a ___ de bruit.",
+          "a": [
+            "trop"
+          ],
+          "en": "There's too much noise."
+        },
+        {
+          "id": "g-intensity-08",
+          "type": "cloze",
+          "fr": "C'est ___ difficile.",
+          "a": [
+            "plutôt"
+          ],
+          "hint": "rather",
+          "en": "It's rather difficult."
+        },
+        {
+          "id": "g-intensity-09",
+          "type": "cloze",
+          "fr": "J'ai ___ faim !",
+          "a": [
+            "tellement",
+            "si"
+          ],
+          "hint": "so",
+          "en": "I'm so hungry!"
+        }
+      ]
+    },
+    {
+      "id": "frequency",
+      "title": "How often: toujours, souvent, jamais",
+      "fr": "la fréquence",
+      "level": "A1",
+      "keywords": [
+        "how often",
+        "frequency",
+        "toujours",
+        "souvent",
+        "parfois",
+        "quelquefois",
+        "rarement",
+        "jamais",
+        "tous les jours",
+        "une fois par semaine",
+        "d'habitude",
+        "always",
+        "never"
+      ],
+      "topics": [
+        "hobbies"
+      ],
+      "see": [
+        "adverb-position",
+        "negation-words",
+        "time-place"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "toujours",
+                  "always"
+                ],
+                [
+                  "d'habitude",
+                  "usually"
+                ],
+                [
+                  "souvent",
+                  "often"
+                ],
+                [
+                  "parfois, quelquefois",
+                  "sometimes"
+                ],
+                [
+                  "rarement",
+                  "rarely"
+                ],
+                [
+                  "ne... jamais",
+                  "never"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "These short adverbs go **after the verb**: *Je joue souvent.* Only *d'habitude* is often at the start of the sentence."
+            }
+          ]
+        },
+        {
+          "title": "Expressions with time",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "tous les jours",
+                  "every day"
+                ],
+                [
+                  "toutes les semaines",
+                  "every week"
+                ],
+                [
+                  "une fois par semaine",
+                  "once a week"
+                ],
+                [
+                  "deux fois par mois",
+                  "twice a month"
+                ],
+                [
+                  "le lundi",
+                  "on Mondays"
+                ],
+                [
+                  "le week-end",
+                  "at weekends"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "These expressions go at the start or at the end of the sentence."
+            }
+          ]
+        },
+        {
+          "title": "Jamais",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "*Jamais* needs *ne* before the verb, just like *pas*."
+            },
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "I never play golf.",
+                  "wrong": "Je jamais joue au golf.",
+                  "fr": "Je [[ne]] joue [[jamais]] au golf."
+                }
+              ]
+            },
+            {
+              "type": "see",
+              "rules": [
+                "negation-words"
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je joue au basket trois fois par semaine.",
+                  "en": "I play basketball three times a week."
+                },
+                {
+                  "fr": "Je suis toujours en retard.",
+                  "en": "I'm always late."
+                },
+                {
+                  "fr": "On va parfois au cinéma.",
+                  "en": "We sometimes go to the cinema."
+                },
+                {
+                  "fr": "D'habitude, je me lève à sept heures.",
+                  "en": "I usually get up at seven."
+                },
+                {
+                  "fr": "Il ne fait jamais ses devoirs.",
+                  "en": "He never does his homework."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-frequency-01",
+          "type": "build",
+          "en": "I often play video games.",
+          "a": [
+            "Je joue souvent aux jeux vidéo."
+          ]
+        },
+        {
+          "id": "g-frequency-02",
+          "type": "build",
+          "en": "I never eat fish.",
+          "a": [
+            "Je ne mange jamais de poisson."
+          ]
+        },
+        {
+          "id": "g-frequency-03",
+          "type": "build",
+          "en": "I play basketball twice a week.",
+          "a": [
+            "Je joue au basket deux fois par semaine."
+          ]
+        },
+        {
+          "id": "g-frequency-04",
+          "type": "transform",
+          "task_en": "Add \"toujours\" in the right place",
+          "fr": "Il est en retard.",
+          "a": [
+            "Il est toujours en retard."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tout",
+      "title": "Tout, toute, tous, toutes",
+      "fr": "tout",
+      "level": "A2",
+      "keywords": [
+        "tout",
+        "toute",
+        "tous",
+        "toutes",
+        "all",
+        "whole",
+        "every",
+        "tout le monde",
+        "tous les jours",
+        "c'est tout",
+        "everything"
+      ],
+      "topics": [],
+      "see": [
+        "indefinites",
+        "frequency"
+      ],
+      "sections": [
+        {
+          "title": "In short",
+          "blocks": [
+            {
+              "type": "table",
+              "head": [
+                "",
+                "singular",
+                "plural"
+              ],
+              "textCols": [
+                0
+              ],
+              "rows": [
+                [
+                  "masculine",
+                  "tout",
+                  "tous"
+                ],
+                [
+                  "feminine",
+                  "toute",
+                  "toutes"
+                ]
+              ]
+            },
+            {
+              "type": "text",
+              "en": "Before a noun with an article it means \"whole, all, every\" and agrees with it."
+            },
+            {
+              "type": "table",
+              "head": [
+                "French",
+                "English"
+              ],
+              "textCols": [
+                1
+              ],
+              "rows": [
+                [
+                  "tout le gâteau",
+                  "the whole cake"
+                ],
+                [
+                  "toute la journée",
+                  "all day"
+                ],
+                [
+                  "tous les élèves",
+                  "all the pupils"
+                ],
+                [
+                  "toutes les semaines",
+                  "every week"
+                ],
+                [
+                  "tout le monde",
+                  "everyone"
+                ]
+              ]
+            }
+          ]
+        },
+        {
+          "title": "As a pronoun",
+          "blocks": [
+            {
+              "type": "text",
+              "en": "On its own *tout* = everything: *Tout va bien. C'est tout. J'ai tout compris.* On its own *tous* (all of them) is pronounced with an *s* at the end: *Ils sont tous là.*"
+            }
+          ]
+        },
+        {
+          "title": "Watch out",
+          "blocks": [
+            {
+              "type": "compare",
+              "items": [
+                {
+                  "en": "Everyone is here.",
+                  "wrong": "Tous le monde sont là.",
+                  "fr": "[[Tout le monde]] est là.",
+                  "note": "*Tout le monde* is singular: *tout le monde est*."
+                },
+                {
+                  "en": "all week",
+                  "wrong": "tout la semaine",
+                  "fr": "[[toute]] la semaine"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Examples",
+          "blocks": [
+            {
+              "type": "examples",
+              "items": [
+                {
+                  "fr": "Je joue tous les jours.",
+                  "en": "I play every day."
+                },
+                {
+                  "fr": "Il a mangé toute la pizza.",
+                  "en": "He ate the whole pizza."
+                },
+                {
+                  "fr": "Toutes mes amies sont là.",
+                  "en": "All my friends (girls) are here."
+                },
+                {
+                  "fr": "Tout le monde aime les vacances.",
+                  "en": "Everyone loves holidays."
+                },
+                {
+                  "fr": "C'est tout pour aujourd'hui.",
+                  "en": "That's all for today."
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "checks": [
+        {
+          "id": "g-tout-01",
+          "type": "cloze",
+          "fr": "J'ai travaillé ___ la journée.",
+          "a": [
+            "toute"
+          ],
+          "en": "I worked all day."
+        },
+        {
+          "id": "g-tout-02",
+          "type": "cloze",
+          "fr": "___ les élèves sont là.",
+          "a": [
+            "Tous"
+          ],
+          "en": "All the pupils are here."
+        },
+        {
+          "id": "g-tout-03",
+          "type": "cloze",
+          "fr": "___ le monde est content.",
+          "a": [
+            "Tout"
+          ],
+          "en": "Everyone is happy."
+        },
+        {
+          "id": "g-tout-04",
+          "type": "cloze",
+          "fr": "Je vais au parc ___ les semaines.",
+          "a": [
+            "toutes"
+          ],
+          "en": "I go to the park every week."
+        },
+        {
+          "id": "g-tout-05",
+          "type": "build",
+          "en": "That's all.",
+          "a": [
+            "C'est tout."
+          ]
+        }
+      ]
+    }
+  ]
+}
