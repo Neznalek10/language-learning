@@ -382,6 +382,8 @@ a.legend-item:hover { background: var(--surface-2); }
 .chips { display: flex; gap: 8px; padding: 2px; margin: -2px; overflow-x: auto; scrollbar-width: none; }
 .chips::-webkit-scrollbar { display: none; }
 .chips.wrap { flex-wrap: wrap; overflow: visible; margin: 0; padding: 0; }
+/* In a wrapping row a long chip ("Slovesa na -ir, -re a nepravidelná") wraps its text instead of leaving the card. */
+.chips.wrap .chip { max-width: 100%; height: auto; min-height: 34px; padding-top: 6px; padding-bottom: 6px; white-space: normal; text-align: left; }
 .chip {
   display: inline-flex;
   align-items: center;
@@ -1148,9 +1150,9 @@ body.is-focus #toast-root { bottom: calc(100px + env(safe-area-inset-bottom)); }
   .tab { font-size: 10px; }
   .tab .icon { padding: 4px 10px; }
 }
-/* Nine labels don't fit side by side on a phone (they touch below about 520px): show icons only. The label
-   stays for screen readers, and the page title already says where you are. */
-@media (max-width: 519px) {
+/* Nine labels don't fit side by side on a phone (they crowd each other below 600px): show icons only.
+   The label stays for screen readers, and the page title already says where you are. */
+@media (max-width: 599px) {
   .tab { padding: 6px 0; }
   .tab .icon { padding: 6px 8px; }
   .tab span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
@@ -1162,8 +1164,13 @@ body.is-focus #toast-root { bottom: calc(100px + env(safe-area-inset-bottom)); }
   /* Three tiles share 290px: less padding and no icon keep "Úspěšnost" inside its tile. */
   .tile { padding: 12px 10px; }
   .tile-label .icon { display: none; }
+}
+@media (max-width: 460px) {
   /* The exercise type and the deck name stack instead of squeezing each other. */
   .q-meta { flex-direction: column; align-items: center; gap: 2px; text-align: center; }
+}
+@media (max-width: 340px) {
+  .segmented button { padding-left: 4px; padding-right: 4px; }
 }
 @media (max-width: 400px) {
   /* The flag alone says which language is on; the name would squeeze the page title. */
