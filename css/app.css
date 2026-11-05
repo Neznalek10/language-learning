@@ -381,7 +381,7 @@ a.legend-item:hover { background: var(--surface-2); }
 .toolbar .chips { flex: 1; min-width: 0; }
 .chips { display: flex; gap: 8px; padding: 2px; margin: -2px; overflow-x: auto; scrollbar-width: none; }
 .chips::-webkit-scrollbar { display: none; }
-.chips.wrap { flex-wrap: wrap; overflow: visible; }
+.chips.wrap { flex-wrap: wrap; overflow: visible; margin: 0; padding: 0; }
 .chip {
   display: inline-flex;
   align-items: center;
@@ -520,23 +520,24 @@ a.legend-item:hover { background: var(--surface-2); }
 .setting-text { flex: 1 1 200px; min-width: 0; }
 .setting-label { font-weight: 600; }
 .setting-hint { color: var(--text-3); font-size: 13px; }
-.setting .segmented { flex: 1 1 280px; }
+.setting .segmented, .setting > [data-no-tr] { flex: 1 1 280px; min-width: 0; }
 
 .segmented { display: flex; gap: 2px; padding: 3px; border-radius: 12px; background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--border); }
 .segmented button {
   flex: 1 1 0;
   min-width: 0;
-  height: 34px;
-  padding: 0 8px;
+  min-height: 34px;
+  padding: 4px 8px;
   border: 0;
   border-radius: 9px;
   background: transparent;
   color: var(--text-2);
   font-size: 14px;
   font-weight: 600;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.2;
+  /* Long labels ("Nejdřív francouzština") wrap onto a second line on phones instead of being cut off. */
+  overflow-wrap: anywhere;
+  hyphens: auto;
   cursor: pointer;
 }
 .segmented button.active { background: var(--seg-active); color: var(--text); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px var(--border); }
@@ -1148,6 +1149,24 @@ body.is-focus #toast-root { bottom: calc(100px + env(safe-area-inset-bottom)); }
   .tabbar { padding-left: 2px; padding-right: 2px; }
   .tab { font-size: 10px; }
   .tab .icon { padding: 4px 10px; }
+}
+/* Nine labels don't fit side by side on a phone: show icons only. The label stays for screen readers,
+   and the page title already says where you are. */
+@media (max-width: 429px) {
+  .tab { padding: 6px 0; }
+  .tab .icon { padding: 6px 8px; }
+  .tab span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
+@media (max-width: 359px) {
+  .quick { grid-template-columns: 1fr; }
+}
+@media (max-width: 400px) {
+  /* The flag alone says which language is on; the name would squeeze the page title. */
+  .lang-pill-name { display: none; }
+  .setting-profile { flex-wrap: wrap; }
+  .setting-profile .setting-text { flex: 1 1 150px; }
+  /* Long labels ("Nejdřív francouzština") read better stacked than hyphenated across three lines. */
+  .setting .segmented[data-name="direction"] { flex-direction: column; }
 }
 @media (pointer: coarse) {
   .accent-bar { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; }
