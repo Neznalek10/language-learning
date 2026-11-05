@@ -73,6 +73,7 @@ const CORE = [
   './icons/icon-192.png',
   './icons/icon-512.png',
   './icons/maskable-512.png',
+  './icons/apple-touch-icon.png',
 ];
 const PROMPTS = ['check-answer', 'check-write', 'free-chat', 'make-topic'];
 // On a slow connection, fall back to the cached copy after this long instead of waiting.
