@@ -310,13 +310,13 @@ function markSynced(rt, revision, savedAt, text) {
  * Saves the AI key typed in this browser to .env: the first trusted key that differs from the one .env has.
  *
  * At startup every trusted setting is made equal to .env (see adoptEnvKey), so a key that differs is the
- * one changed in this session, whichever app it was typed in. With an empty .env this is the first trusted
- * key (the dashboard's). After the key is saved the other trusted settings get it too, otherwise their old
+ * one changed in this session, whichever profile it was typed in. With an empty .env this is the first trusted
+ * key found. After the key is saved the other trusted settings get it too, otherwise their old
  * key would differ on the next save and be sent to .env in turn.
  *
  * @param {object} rt The runtime.
- * @param {string[]} trusted Keys from AI settings that may receive the .env key (see redactSecrets), dashboard
- *   key first. Keys for other providers are not in this list, so they are never sent on.
+ * @param {string[]} trusted Keys from AI settings that may receive the .env key (see redactSecrets), in scan
+ *   order. Keys for other providers are not in this list, so they are never sent on.
  * @returns {Promise<void>}
  * @throws {Error} When the server refuses the key; the caller must then not save the data.
  */
@@ -918,7 +918,7 @@ async function runStartup(options) {
   try {
     await reconcileAndWatch(rt, probe.status);
   } catch (error) {
-    // The hooks are gone again, so the app keeps working on browser storage; Account shows the problem.
+    // The hooks are gone again, so the app keeps working on browser storage; Settings shows the problem.
     // Stopped also keeps syncNow from saving with a revision that was never reconciled.
     rt.stopped = true;
     update({ error: describeError(error) });

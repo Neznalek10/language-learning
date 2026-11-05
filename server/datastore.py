@@ -200,7 +200,7 @@ def _check_entry_key(key: Any) -> None:
     if CONTROL_CHARACTERS.search(key):
         raise DataError(f"Entry key contains control characters: {key[:40]!r}")
     if not key.startswith(TRACKED_PREFIXES):
-        allowed = ", ".join(TRACKED_PREFIXES)
+        allowed = ", ".join(f"'{prefix}'" for prefix in TRACKED_PREFIXES)
         raise DataError(f"Entry key {key!r} must start with one of: {allowed}.")
 
 
@@ -218,8 +218,8 @@ def validate_entries(entries: Any) -> dict[str, Any]:
             or a value is not plain JSON or holds a non-empty AI key.
 
     Example:
-        >>> validate_entries({"vocab.subjects": [{"name": "Příliš žluťoučký kůň"}]})
-        {'vocab.subjects': [{'name': 'Příliš žluťoučký kůň'}]}
+        >>> validate_entries({"vocab.a1.imports": [{"title": "Příliš žluťoučký kůň"}]})
+        {'vocab.a1.imports': [{'title': 'Příliš žluťoučký kůň'}]}
     """
     if not isinstance(entries, dict):
         raise DataError("Entries must be a JSON object of key -> value.")
@@ -297,9 +297,10 @@ class DataStore:
         path: Location of the data file (`data_dir / DATA_FILE_NAME`).
 
     Example:
-        >>> store = DataStore(Path("data"))
-        >>> saved = store.save(0, {"vocab.subjects": []})   # first save: base revision 0
-        >>> store.save(saved.revision, {"vocab.subjects": [1]}).revision
+        >>> import tempfile
+        >>> store = DataStore(Path(tempfile.mkdtemp()) / "data")   # a temp folder, never the real data/
+        >>> saved = store.save(0, {"vocab.accounts": []})   # first save: base revision 0
+        >>> store.save(saved.revision, {"vocab.accounts": [1]}).revision
         2
     """
 

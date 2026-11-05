@@ -26,7 +26,7 @@ export const META_KEY = 'vocab-sync.meta';
 /** Hosts (and their subdomains) that may receive the AI key from .env: only https URLs on these hosts. */
 export const TRUSTED_KEY_HOSTS = ['openrouter.ai'];
 
-/** Prefix whose entries are listed first when collecting keys, so the dashboard's own key wins. */
+/** Prefix whose entries are listed first when collecting keys (this app has only the one prefix). */
 const PRIMARY_PREFIX = 'vocab.';
 
 /** Property that marks a value stored as an unparsed string: {"$raw": "<original text>"}. */
@@ -290,7 +290,7 @@ function redactEntry(value, keys) {
  * the keys that were found.
  *
  * Input is never mutated. `found` lists distinct non-empty keys; entries under 'vocab.' are scanned
- * first so the dashboard account's key comes before the apps' keys. `trusted` lists the subset that
+ * first (the only prefix in this app). `trusted` lists the subset that
  * sits in configs fillSecrets would also fill (no url, or https on TRUSTED_KEY_HOSTS); the engine saves
  * the first of them that differs from .env's key to .env, so a key made for another provider is removed
  * from the file but never sent on.

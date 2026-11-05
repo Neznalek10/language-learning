@@ -525,7 +525,8 @@ a.legend-item:hover { background: var(--surface-2); }
 .segmented { display: flex; gap: 2px; padding: 3px; border-radius: 12px; background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--border); }
 .segmented button {
   flex: 1 1 0;
-  min-width: 0;
+  /* Never narrower than the longest word: a label wraps between words, never inside one. */
+  min-width: min-content;
   min-height: 34px;
   padding: 4px 8px;
   border: 0;
@@ -535,9 +536,6 @@ a.legend-item:hover { background: var(--surface-2); }
   font-size: 14px;
   font-weight: 600;
   line-height: 1.2;
-  /* Long labels ("Nejdřív francouzština") wrap onto a second line on phones instead of being cut off. */
-  overflow-wrap: anywhere;
-  hyphens: auto;
   cursor: pointer;
 }
 .segmented button.active { background: var(--seg-active); color: var(--text); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px var(--border); }
@@ -1150,15 +1148,22 @@ body.is-focus #toast-root { bottom: calc(100px + env(safe-area-inset-bottom)); }
   .tab { font-size: 10px; }
   .tab .icon { padding: 4px 10px; }
 }
-/* Nine labels don't fit side by side on a phone: show icons only. The label stays for screen readers,
-   and the page title already says where you are. */
-@media (max-width: 429px) {
+/* Nine labels don't fit side by side on a phone (they touch below about 520px): show icons only. The label
+   stays for screen readers, and the page title already says where you are. */
+@media (max-width: 519px) {
   .tab { padding: 6px 0; }
   .tab .icon { padding: 6px 8px; }
   .tab span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 }
 @media (max-width: 359px) {
   .quick { grid-template-columns: 1fr; }
+}
+@media (max-width: 380px) {
+  /* Three tiles share 290px: less padding and no icon keep "Úspěšnost" inside its tile. */
+  .tile { padding: 12px 10px; }
+  .tile-label .icon { display: none; }
+  /* The exercise type and the deck name stack instead of squeezing each other. */
+  .q-meta { flex-direction: column; align-items: center; gap: 2px; text-align: center; }
 }
 @media (max-width: 400px) {
   /* The flag alone says which language is on; the name would squeeze the page title. */
