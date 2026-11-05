@@ -2,3 +2,9 @@ venv/
 __pycache__/
 *.log
 .DS_Store
+
+# Local data file and AI key: personal, never published
+data/
+.env
+.env.*
+!.env.example

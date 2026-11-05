@@ -15,6 +15,10 @@ const CORE = [
   './js/conj.js',
   './js/data.js',
   './js/folder.js',
+  './js/sync/page.js',
+  './js/sync/engine.js',
+  './js/sync/client.js',
+  './js/sync/snapshot.js',
   './js/explain.js',
   './js/i18n.js',
   './js/i18n-cs.js',
@@ -134,8 +138,12 @@ async function networkFirst(request) {
   return Promise.race([network.catch(() => cached), timeout]);
 }
 
+// The local data API is live state: it is never cached, so requests under it always go to the server.
+const API_PATH = new URL('./api/', self.location).pathname;
+
 self.addEventListener('fetch', event => {
   const { request } = event;
-  if (request.method !== 'GET' || new URL(request.url).origin !== self.location.origin) return;
+  const url = new URL(request.url);
+  if (request.method !== 'GET' || url.origin !== self.location.origin || url.pathname.startsWith(API_PATH)) return;
   event.respondWith(networkFirst(request));
 });
