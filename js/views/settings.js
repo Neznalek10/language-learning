@@ -1,10 +1,12 @@
 import { store } from '../store.js';
 import { langName, baseLang, BASES } from '../data.js';
 import { html, icon, plural, segmented, onSegmented, applyTheme } from '../ui.js';
+import { locale } from '../i18n.js';
 import { avatar } from './accounts.js';
 import { DEFAULT_AI, chat, aiReady, aiSettings, AiError } from '../ai.js';
 import { downloadBackup, pickBackupFile, folderRow, bindFolder } from './backup-ui.js';
 import { folderActive } from '../folder.js';
+import { syncState, onSyncChange, syncNow, forgetKey } from '../sync/engine.js';
 
 function row(label, hint, control) {
   return html`<div class="setting">
@@ -21,10 +23,37 @@ async function checkForUpdates(app) {
 }
 
 function backupHint(last) {
-  if (folderActive()) return 'Your folder already keeps a copy. A backup file is for moving a profile to another device.';
+  if (folderActive() || syncState.mode === 'file') return 'Your progress is already saved in a file. A backup file is for moving a profile to another device.';
   if (!last) return 'Never backed up. Your progress lives only in this browser, so clearing site data or changing phones loses it.';
   const days = Math.floor((Date.now() - last) / 86400000);
   return `Last backup ${days <= 0 ? 'today' : days === 1 ? 'yesterday' : `${days} days ago`}. Restoring always creates a new profile.`;
+}
+
+function storageStatus(state) {
+  if (state.mode === 'file') {
+    if (state.error) return { tone: 'is-bad', text: html`${state.error}`, alert: true };
+    return { tone: 'is-good', text: html`Saved to ${state.dataFile || 'data/language-data.json'} on this computer` };
+  }
+  if (state.mode === 'browser') {
+    return { tone: 'is-warn', text: html`Saved in this browser only. Start the app with <code data-no-tr>python serve.py</code> or the desktop shortcut to keep it in a file.` };
+  }
+  return { tone: '', text: html`Checking where your data is saved…` };
+}
+
+function storageCardBody(state) {
+  const { tone, text, alert } = storageStatus(state);
+  const savedAt = state.savedAt ? new Date(state.savedAt).toLocaleString(locale()) : 'not yet';
+  return html`
+    <div class="storage-status ${tone}" role="${alert ? 'alert' : 'status'}">${icon(tone === 'is-good' ? 'check' : tone ? 'alert' : 'refresh')}<span>${text}</span></div>
+    ${state.mode === 'file' ? html`
+      <div class="storage-row"><span>Last saved</span><span>${savedAt} <small class="muted">(save #${state.revision})</small></span></div>
+      <div class="setting-buttons"><button class="btn btn-secondary btn-sm" data-sync-now ${state.saving ? 'disabled' : ''}>${icon('refresh')}Save now</button></div>` : ''}`;
+}
+
+function keyNote(state) {
+  if (state.mode !== 'file' || !state.hasAiKey) return html``;
+  return html`<p class="muted small">Saved in .env on this computer
+    <button class="btn btn-secondary btn-sm" data-forget-key>Forget key</button></p>`;
 }
 
 export function settingsView(app) {
@@ -73,6 +102,7 @@ export function settingsView(app) {
       <input id="ai-url" class="input" data-ai="url" value="${ai.url}" autocomplete="off" spellcheck="false" autocapitalize="off">
       <label class="field-label" for="ai-key">Key</label>
       <input id="ai-key" class="input" type="password" data-ai="key" value="${ai.key}" placeholder="sk-or-..." autocomplete="off" spellcheck="false">
+      <div data-key-note>${keyNote(syncState)}</div>
       <label class="field-label" for="ai-model">Model</label>
       <input id="ai-model" class="input" data-ai="model" value="${ai.model}" autocomplete="off" spellcheck="false" autocapitalize="off">
       <p class="muted small">"openrouter/free" picks a free model for you and quality varies. A fixed model gives steadier feedback.</p>
@@ -91,6 +121,9 @@ export function settingsView(app) {
         { value: 'dark', label: 'Dark' },
       ], s.theme))}
     </section>
+
+    <h3 class="group-title">Storage</h3>
+    <section class="card settings storage-card" data-storage aria-live="polite">${storageCardBody(syncState)}</section>
 
     <h3 class="group-title">Data</h3>
     <section class="card settings">
@@ -152,6 +185,28 @@ export function settingsView(app) {
       });
       root.querySelector('[data-restore]').addEventListener('click', () => pickBackupFile(app));
       bindFolder(root, app);
+      const card = root.querySelector('[data-storage]');
+      const note = root.querySelector('[data-key-note]');
+      // The view has no unmount hook, so the listener removes itself once the card is gone.
+      const stop = onSyncChange(() => {
+        if (!card.isConnected) return stop();
+        card.innerHTML = storageCardBody(syncState).s;
+        note.innerHTML = keyNote(syncState).s;
+      });
+      card.addEventListener('click', e => {
+        if (e.target.closest('[data-sync-now]')) syncNow();
+      });
+      note.addEventListener('click', async e => {
+        if (!e.target.closest('[data-forget-key]')) return;
+        const ok = await app.confirm({ title: 'Forget the AI key?', text: 'It is removed from .env on this computer and from this browser. You can add it again later.', confirmLabel: 'Forget key', danger: true });
+        if (!ok) return;
+        try {
+          await forgetKey();
+          location.reload();
+        } catch (err) {
+          app.toast(err.message || 'The key could not be removed.', { kind: 'error' });
+        }
+      });
       root.querySelector('[data-update]').addEventListener('click', () => checkForUpdates(app));
       root.querySelector('[data-switch]').addEventListener('click', () => app.switchAccount());
     },

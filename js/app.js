@@ -27,6 +27,7 @@ import { chatView } from './views/free.js';
 import { mistakesView } from './views/mistakes.js';
 import { startTranslating, applyLanguage } from './i18n.js';
 import { initFolder } from './folder.js';
+import { syncState, onSyncChange, dismissConflictNotice } from './sync/engine.js';
 
 const ROUTES = {
   home: homeView,
@@ -384,8 +385,10 @@ async function loadContent(base) {
       <div class="empty-icon">${icon('alert')}</div>
       <h3>Couldn't load your words</h3>
       <p>Open the app once while online so it can save the word list for offline use. (${e.message})</p>
-      <button class="btn btn-primary" onclick="location.reload()">${icon('refresh')}Try again</button>
+      <button class="btn btn-primary" data-reload>${icon('refresh')}Try again</button>
     </div>`.s;
+    // No inline onclick: serve.py's Content-Security-Policy blocks inline handlers.
+    $('#view [data-reload]').addEventListener('click', () => location.reload());
     return false;
   }
   if (app.errors.length) app.toast(`Some decks failed to load: ${app.errors.join('; ')}`, { kind: 'error', duration: 8000 });
@@ -398,6 +401,17 @@ function startBase() {
   return bases.size === 1 ? [...bases][0] : bases.size ? 'cs' : guessBase();
 }
 
+// Tells the user once when this tab's changes lost against a newer data file and were kept in data/conflicts/.
+function watchConflictNotice() {
+  const check = () => {
+    if (!syncState.conflictSaved) return;
+    dismissConflictNotice();
+    app.toast('This page had older changes than the data file. They were saved in data/conflicts/ and the newer data was loaded.', { kind: 'info', duration: 9000 });
+  };
+  onSyncChange(check);
+  check();
+}
+
 async function start() {
   applyTheme();
   renderShell();
@@ -407,6 +421,7 @@ async function start() {
   if (!await loadContent(startBase())) return;
   startTranslating();
   window.addEventListener('hashchange', () => app.render());
+  watchConflictNotice();
   app.go('accounts', { replace: true });
 }
 

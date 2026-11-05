@@ -293,7 +293,7 @@ def desktop_entry(root: Path, python: Path) -> str:
         "[Desktop Entry]\n"
         "Type=Application\n"
         f"Name={APP_TITLE}\n"
-        "Comment=Subjects, notes and practice, saved in data/language-data.json\n"
+        "Comment=French vocabulary, grammar and practice, saved in data/language-data.json\n"
         f"Exec={run}\n"
         f"Icon={root / 'icons' / 'icon-512.png'}\n"
         "Terminal=false\n"
