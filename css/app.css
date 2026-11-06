@@ -381,7 +381,9 @@ a.legend-item:hover { background: var(--surface-2); }
 .toolbar .chips { flex: 1; min-width: 0; }
 .chips { display: flex; gap: 8px; padding: 2px; margin: -2px; overflow-x: auto; scrollbar-width: none; }
 .chips::-webkit-scrollbar { display: none; }
-.chips.wrap { flex-wrap: wrap; overflow: visible; }
+.chips.wrap { flex-wrap: wrap; overflow: visible; margin: 0; padding: 0; }
+/* In a wrapping row a long chip ("Slovesa na -ir, -re a nepravidelná") wraps its text instead of leaving the card. */
+.chips.wrap .chip { max-width: 100%; height: auto; min-height: 34px; padding-top: 6px; padding-bottom: 6px; white-space: normal; text-align: left; }
 .chip {
   display: inline-flex;
   align-items: center;
@@ -520,23 +522,22 @@ a.legend-item:hover { background: var(--surface-2); }
 .setting-text { flex: 1 1 200px; min-width: 0; }
 .setting-label { font-weight: 600; }
 .setting-hint { color: var(--text-3); font-size: 13px; }
-.setting .segmented { flex: 1 1 280px; }
+.setting .segmented, .setting > [data-no-tr] { flex: 1 1 280px; min-width: 0; }
 
 .segmented { display: flex; gap: 2px; padding: 3px; border-radius: 12px; background: var(--surface-2); box-shadow: inset 0 0 0 1px var(--border); }
 .segmented button {
   flex: 1 1 0;
-  min-width: 0;
-  height: 34px;
-  padding: 0 8px;
+  /* Never narrower than the longest word: a label wraps between words, never inside one. */
+  min-width: min-content;
+  min-height: 34px;
+  padding: 4px 8px;
   border: 0;
   border-radius: 9px;
   background: transparent;
   color: var(--text-2);
   font-size: 14px;
   font-weight: 600;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.2;
   cursor: pointer;
 }
 .segmented button.active { background: var(--seg-active); color: var(--text); box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 1px var(--border); }
@@ -1149,6 +1150,36 @@ body.is-focus #toast-root { bottom: calc(100px + env(safe-area-inset-bottom)); }
   .tab { font-size: 10px; }
   .tab .icon { padding: 4px 10px; }
 }
+/* Nine labels don't fit side by side on a phone (they crowd each other below 600px): show icons only.
+   The label stays for screen readers, and the page title already says where you are. */
+@media (max-width: 599px) {
+  .tab { padding: 6px 0; }
+  .tab .icon { padding: 6px 8px; }
+  .tab span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}
+@media (max-width: 359px) {
+  .quick { grid-template-columns: 1fr; }
+}
+@media (max-width: 380px) {
+  /* Three tiles share 290px: less padding and no icon keep "Úspěšnost" inside its tile. */
+  .tile { padding: 12px 10px; }
+  .tile-label .icon { display: none; }
+}
+@media (max-width: 460px) {
+  /* The exercise type and the deck name stack instead of squeezing each other. */
+  .q-meta { flex-direction: column; align-items: center; gap: 2px; text-align: center; }
+}
+@media (max-width: 340px) {
+  .segmented button { padding-left: 4px; padding-right: 4px; }
+}
+@media (max-width: 400px) {
+  /* The flag alone says which language is on; the name would squeeze the page title. */
+  .lang-pill-name { display: none; }
+  .setting-profile { flex-wrap: wrap; }
+  .setting-profile .setting-text { flex: 1 1 150px; }
+  /* Long labels ("Nejdřív francouzština") read better stacked than hyphenated across three lines. */
+  .setting .segmented[data-name="direction"] { flex-direction: column; }
+}
 @media (pointer: coarse) {
   .accent-bar { flex-wrap: nowrap; justify-content: flex-start; overflow-x: auto; scrollbar-width: none; }
 }
@@ -1314,3 +1345,16 @@ body.is-focus #toast-root { bottom: calc(100px + env(safe-area-inset-bottom)); }
 a.quick-btn { color: inherit; text-decoration: none; }
 .account-folder { align-items: center; margin-top: 14px; text-align: left; }
 .account-folder span { flex: 1; }
+.storage-card { overflow-wrap: anywhere; padding-top: 12px; padding-bottom: 12px; }
+.storage-row { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2px 12px; padding: 10px 0; font-size: 14px; }
+.storage-row + .storage-row { border-top: 1px solid var(--border); }
+.storage-row > :first-child { color: var(--text-3); }
+.storage-row > :last-child { min-width: 0; color: var(--text); }
+.storage-status { display: flex; align-items: flex-start; gap: 8px; margin: 0 0 4px; padding: 10px 12px; border-radius: 12px; background: var(--surface-2); color: var(--text-2); font-size: 14px; text-align: left; }
+.storage-status > span { flex: 1 1 0; min-width: 0; overflow-wrap: anywhere; }
+.storage-status code { overflow-wrap: anywhere; }
+.storage-status .icon { flex: none; width: 18px; height: 18px; margin-top: 1px; }
+.storage-status.is-good { background: var(--good-soft); color: var(--good-text); }
+.storage-status.is-warn { background: var(--warn-soft); color: var(--warn-text); }
+.storage-status.is-bad { background: var(--bad-soft); color: var(--bad-text); }
+.storage-card .setting-buttons { margin-top: 8px; }

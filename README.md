@@ -16,13 +16,28 @@ Each profile picks the language it already speaks, **Čeština** or **English**,
 - **Tenses**: conjugation tables for 117 verbs in 18 tenses, with a drill.
 - **Drills**: 900+ Czech or English sentences to translate, 372 pronoun replacements, 259 negations and 163 questions.
 - **Write** (87 topics) and **Speak** (50 scenarios): writing is checked by an AI you connect yourself; speaking builds a prompt for any voice AI.
-- **Profiles** with names only, **auto-save to a folder**, **backup and restore** as a file, **works offline**.
+- **Profiles** with names only, progress saved to a **data file on your computer** (with the small local server), **backup and restore** as a file, **works offline**.
+- **Phones and tablets**: every screen fits from 320 px wide phones to tablets; from 960 px the tab bar becomes a sidebar.
 
-Everything stays in your browser. There is no server and no account.
+There is no account and no cloud. Your progress stays in your browser, or in `data/language-data.json` on your computer when you run the local server.
 
 ## Run it locally
 
-No build step and no dependencies. Serve the folder and open it:
+**With your progress saved in a file (recommended on a computer).** One-time setup, then start the server:
+
+```bash
+python3 -m venv venv
+venv/bin/pip install -r requirements.txt
+venv/bin/python serve.py --open
+```
+
+It serves the app at <http://127.0.0.1:8768/> and keeps every profile in `data/language-data.json`, a moment after each change. Settings > Storage shows the last save and has **Save now**. An AI key you type in Settings goes to `.env`, never into the data file. Both `data/` and `.env` are ignored by git, so they stay on your computer.
+
+**Desktop shortcut.** `venv/bin/python launcher.py --install` adds **Language learning** to the app menu and the Desktop (`--no-desktop` for the menu only). It starts the server when needed and opens the app; right-click the icon for **Stop the server**. `--uninstall` removes the shortcuts. On GNOME, right-click the Desktop icon once and choose **Allow Launching**.
+
+**Moving to another computer:** copy `data/language-data.json` (and `.env` if you use AI) into the same folder there and start `serve.py`. An empty browser loads the file with one reload; if a browser has older changes than the file, they are kept in `data/conflicts/` instead of being lost.
+
+**Without the server.** The app is plain static files, so any web server works, and progress then stays in the browser only:
 
 ```bash
 python3 -m http.server 8000
@@ -63,6 +78,11 @@ All paths are relative (`./`), so the app works in a subfolder such as `https://
 | `js/i18n.js`, `js/i18n-cs.js` | Czech for the app's menus and messages. Views are written in English; in Czech mode every text on screen is looked up in `i18n-cs.js`, and anything missing stays English. When you add a button or message, add its Czech there |
 | `tools/check_course.py` | Validates all course files for both languages, optionally proofreads them |
 | `tools/conjugate.py` | Regenerates the conjugation tables |
+| `serve.py`, `server/` | The local server: serves the app on 127.0.0.1 only and keeps `data/language-data.json` (revision checks, conflict copies) and the AI key in `.env` |
+| `js/sync/` | Keeps the browser's `vocab.*` storage and the data file in step while the server runs; does nothing on GitHub Pages |
+| `launcher.py` | Desktop shortcut: starts the server if needed and opens the app (`--install`, `--stop`, `--uninstall`) |
+| `tests/`, `tools/test.sh` | Automated tests for the server, the sync engine and the launcher |
+| `data/`, `.env` | Your progress and AI key on this computer; never committed (`.env.example` shows the format) |
 
 ## Adding words
 
@@ -167,9 +187,15 @@ The app opens on a profile picker. Profiles are names only, without passwords, a
 
 Clearing site data or changing devices loses progress, so use **Settings > Save to a folder** (Chrome or Edge on a computer). Pick a folder once and every profile is written there as `vocab-<name>-<profileId>.json` a moment after each change. When the app starts and finds a profile in the folder that the browser no longer has, it restores it; after site data is cleared, the profile screen offers **Load profiles from a save folder**. Browsers may ask for permission to the folder again after a restart, which the profile screen shows as an **Allow** button. The folder handle is kept in IndexedDB (`vocab-folder`); the AI key is never written to the files.
 
-In other browsers use **Settings > Back up progress**. **Restore** always creates a new profile and never overwrites one.
+With `serve.py` running, the data file is the main copy and the browser is kept in step with it (see [Run it locally](#run-it-locally)). In other browsers use **Settings > Back up progress**. **Restore** always creates a new profile and never overwrites one.
 
 ## Tools
+
+Run the automated tests (Python server tests and the JavaScript sync tests under `gjs`, or `node` if gjs is missing):
+
+```bash
+tools/test.sh
+```
 
 Validate the course after every change (unique ids, known types, links, verb forms, one gap per cloze and more). `--proofread` also sends the French sentences to the public [LanguageTool](https://languagetool.org) API; it catches grammar and spelling, not wrong translations.
 
@@ -185,7 +211,7 @@ The conjugation tables are generated with [verbecc](https://github.com/bretttolb
 
 ```bash
 python3 -m venv venv
-venv/bin/pip install verbecc
+venv/bin/pip install verbecc   # into the same venv as requirements.txt
 venv/bin/python tools/conjugate.py
 ```
 

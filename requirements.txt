@@ -1,0 +1,4 @@
+# Pinned Python dependencies for the local server and the test suite.
+# Install into the project venv: python3 -m venv venv && venv/bin/pip install -r requirements.txt
+# python-dotenv loads and edits the .env file (server/envfile.py). Standard library for everything else.
+python-dotenv==1.2.4
